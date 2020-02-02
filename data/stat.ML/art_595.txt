@@ -1,0 +1,11 @@
+Stochastic Annealing for Variational Inference
+We empirically evaluate a stochastic annealing strategy for Bayesian
+posterior optimization with variational inference. Variational inference is a
+deterministic approach to approximate posterior inference in Bayesian models in
+which a typically non-convex objective function is locally optimized over the
+parameters of the approximating distribution. We investigate an annealing
+method for optimizing this objective with the aim of finding a better local
+optimal solution and compare with deterministic annealing methods and no
+annealing. We show that stochastic annealing can provide clear improvement on
+the GMM and HMM, while performance on LDA tends to favor deterministic
+annealing methods.

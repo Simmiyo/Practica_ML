@@ -1,0 +1,22 @@
+Maximally informative "stimulus energies" in the analysis of neural
+  responses to natural signals
+The concept of feature selectivity in sensory signal processing can be
+formalized as dimensionality reduction: in a stimulus space of very high
+dimensions, neurons respond only to variations within some smaller, relevant
+subspace. But if neural responses exhibit invariances, then the relevant
+subspace typically cannot be reached by a Euclidean projection of the original
+stimulus. We argue that, in several cases, we can make progress by appealing to
+the simplest nonlinear construction, identifying the relevant variables as
+quadratic forms, or "stimulus energies." Natural examples include
+non-phase-locked cells in the auditory system, complex cells in visual cortex,
+and motion-sensitive neurons in the visual system. Generalizing the idea of
+maximally informative dimensions, we show that one can search for the kernels
+of the relevant quadratic forms by maximizing the mutual information between
+the stimulus energy and the arrival times of action potentials. Simple
+implementations of this idea successfully recover the underlying properties of
+model neurons even when the number of parameters in the kernel is comparable to
+the number of action potentials and stimuli are completely natural. We explore
+several generalizations that allow us to incorporate plausible structure into
+the kernel and thereby restrict the number of parameters. We hope that this
+approach will add significantly to the set of tools available for the analysis
+of neural responses to complex, naturalistic stimuli.

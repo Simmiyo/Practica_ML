@@ -1,0 +1,19 @@
+Poisson Subsampling Algorithms for Large Sample Linear Regression in
+  Massive Data
+Large sample size brings the computation bottleneck for modern data analysis.
+Subsampling is one of efficient strategies to handle this problem. In previous
+studies, researchers make more fo- cus on subsampling with replacement (SSR)
+than on subsampling without replacement (SSWR). In this paper we investigate a
+kind of SSWR, poisson subsampling (PSS), for fast algorithm in ordinary
+least-square problem. We establish non-asymptotic property, i.e, the error
+bound of the correspond- ing subsample estimator, which provide a tradeoff
+between computation cost and approximation efficiency. Besides the
+non-asymptotic result, we provide asymptotic consistency and normality of the
+subsample estimator. Methodologically, we propose a two-step subsampling
+algorithm, which is efficient with respect to a statistical objective and
+independent on the linear model assumption.. Synthetic and real data are used
+to empirically study our proposed subsampling strategies. We argue by these
+empirical studies that, (1) our proposed two-step algorithm has obvious
+advantage when the assumed linear model does not accurate, and (2) the PSS
+strategy performs obviously better than SSR when the subsampling ratio
+increases.

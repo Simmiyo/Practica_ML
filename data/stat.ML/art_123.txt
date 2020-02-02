@@ -1,0 +1,14 @@
+A convex model for non-negative matrix factorization and dimensionality
+  reduction on physical space
+A collaborative convex framework for factoring a data matrix $X$ into a
+non-negative product $AS$, with a sparse coefficient matrix $S$, is proposed.
+We restrict the columns of the dictionary matrix $A$ to coincide with certain
+columns of the data matrix $X$, thereby guaranteeing a physically meaningful
+dictionary and dimensionality reduction. We use $l_{1,\infty}$ regularization
+to select the dictionary from the data and show this leads to an exact convex
+relaxation of $l_0$ in the case of distinct noise free data. We also show how
+to relax the restriction-to-$X$ constraint by initializing an alternating
+minimization approach with the solution of the convex model, obtaining a
+dictionary close to but not necessarily in $X$. We focus on applications of the
+proposed framework to hyperspectral endmember and abundances identification and
+also show an application to blind source separation of NMR data.

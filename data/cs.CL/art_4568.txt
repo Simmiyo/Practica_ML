@@ -1,0 +1,22 @@
+An Empirical Analysis of the Role of Amplifiers, Downtoners, and
+  Negations in Emotion Classification in Microblogs
+The effect of amplifiers, downtoners, and negations has been studied in
+general and particularly in the context of sentiment analysis. However, there
+is only limited work which aims at transferring the results and methods to
+discrete classes of emotions, e. g., joy, anger, fear, sadness, surprise, and
+disgust. For instance, it is not straight-forward to interpret which emotion
+the phrase "not happy" expresses. With this paper, we aim at obtaining a better
+understanding of such modifiers in the context of emotion-bearing words and
+their impact on document-level emotion classification, namely, microposts on
+Twitter. We select an appropriate scope detection method for modifiers of
+emotion words, incorporate it in a document-level emotion classification model
+as additional bag of words and show that this approach improves the performance
+of emotion classification. In addition, we build a term weighting approach
+based on the different modifiers into a lexical model for the analysis of the
+semantics of modifiers and their impact on emotion meaning. We show that
+amplifiers separate emotions expressed with an emotion- bearing word more
+clearly from other secondary connotations. Downtoners have the opposite effect.
+In addition, we discuss the meaning of negations of emotion-bearing words. For
+instance we show empirically that "not happy" is closer to sadness than to
+anger and that fear-expressing words in the scope of downtoners often express
+surprise.

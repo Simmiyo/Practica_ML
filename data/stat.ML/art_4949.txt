@@ -1,0 +1,21 @@
+A Bayesian Nonparametric Approach for Estimating Individualized
+  Treatment-Response Curves
+We study the problem of estimating the continuous response over time to
+interventions using observational time series---a retrospective dataset where
+the policy by which the data are generated is unknown to the learner. We are
+motivated by applications where response varies by individuals and therefore,
+estimating responses at the individual-level is valuable for personalizing
+decision-making. We refer to this as the problem of estimating individualized
+treatment response (ITR) curves. In statistics, G-computation formula (Robins,
+1986) has been commonly used for estimating treatment responses from
+observational data containing sequential treatment assignments. However, past
+studies have focused predominantly on obtaining point-in-time estimates at the
+population level. We leverage the G-computation formula and develop a novel
+Bayesian nonparametric (BNP) method that can flexibly model functional data and
+provide posterior inference over the treatment response curves at both the
+individual and population level. On a challenging dataset containing time
+series from patients admitted to a hospital, we estimate responses to
+treatments used in managing kidney function and show that the resulting fits
+are more accurate than alternative approaches. Accurate methods for obtaining
+ITRs from observational data can dramatically accelerate the pace at which
+personalized treatment plans become possible.

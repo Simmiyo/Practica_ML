@@ -1,0 +1,19 @@
+Realistic risk-mitigating recommendations via inverse classification
+Inverse classification, the process of making meaningful perturbations to a
+test point such that it is more likely to have a desired classification, has
+previously been addressed using data from a single static point in time. Such
+an approach yields inflated probability estimates, stemming from an implicitly
+made assumption that recommendations are implemented instantaneously. We
+propose using longitudinal data to alleviate such issues in two ways. First, we
+use past outcome probabilities as features in the present. Use of such past
+probabilities ties historical behavior to the present, allowing for more
+information to be taken into account when making initial probability estimates
+and subsequently performing inverse classification. Secondly, following inverse
+classification application, optimized instances' unchangeable features
+(e.g.,~age) are updated using values from the next longitudinal time period.
+Optimized test instance probabilities are then reassessed. Updating the
+unchangeable features in this manner reflects the notion that improvements in
+outcome likelihood, which result from following the inverse classification
+recommendations, do not materialize instantaneously. As our experiments
+demonstrate, more realistic estimates of probability can be obtained by
+factoring in such considerations.

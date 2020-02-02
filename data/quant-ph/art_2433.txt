@@ -1,0 +1,13 @@
+Quantum algorithms which accept hot qubit inputs
+Realistic physical implementations of quantum computers can entail tradeoffs
+which depart from the ideal model of quantum computation. Although these
+tradeoffs have allowed successful demonstration of certain quantum algorithms,
+a crucial question is whether they fundamentally limit the computational
+capacity of such machines. We study the limitations of a quantum computation
+model in which only ensemble averages of measurement observables are
+accessible. Furthermore, we stipulate that input qubits may only be prepared in
+highly random, ``hot'' mixed states. In general, these limitations are believed
+to dramatically detract from the computational power of the system. However, we
+construct a class of algorithms for this limited model, which, surprisingly,
+are polynomially equivalent to the ideal case. This class includes the well
+known Deutsch-Jozsa algorithm.

@@ -1,0 +1,15 @@
+White Matter Fiber Segmentation Using Functional Varifolds
+The extraction of fibers from dMRI data typically produces a large number of
+fibers, it is common to group fibers into bundles. To this end, many
+specialized distance measures, such as MCP, have been used for fiber
+similarity. However, these distance based approaches require point-wise
+correspondence and focus only on the geometry of the fibers. Recent
+publications have highlighted that using microstructure measures along fibers
+improves tractography analysis. Also, many neurodegenerative diseases impacting
+white matter require the study of microstructure measures as well as the white
+matter geometry. Motivated by these, we propose to use a novel computational
+model for fibers, called functional varifolds, characterized by a metric that
+considers both the geometry and microstructure measure (e.g. GFA) along the
+fiber pathway. We use it to cluster fibers with a dictionary learning and
+sparse coding-based framework, and present a preliminary analysis using HCP
+data.

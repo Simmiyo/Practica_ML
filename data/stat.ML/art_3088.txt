@@ -1,0 +1,6 @@
+SelfieBoost: A Boosting Algorithm for Deep Learning
+We describe and analyze a new boosting algorithm for deep learning called
+SelfieBoost. Unlike other boosting algorithms, like AdaBoost, which construct
+ensembles of classifiers, SelfieBoost boosts the accuracy of a single network.
+We prove a $\log(1/\epsilon)$ convergence rate for SelfieBoost under some "SGD
+success" assumption which seems to hold in practice.

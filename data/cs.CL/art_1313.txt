@@ -1,0 +1,20 @@
+Towards Sub-Word Level Compositions for Sentiment Analysis of
+  Hindi-English Code Mixed Text
+Sentiment analysis (SA) using code-mixed data from social media has several
+applications in opinion mining ranging from customer satisfaction to social
+campaign analysis in multilingual societies. Advances in this area are impeded
+by the lack of a suitable annotated dataset. We introduce a Hindi-English
+(Hi-En) code-mixed dataset for sentiment analysis and perform empirical
+analysis comparing the suitability and performance of various state-of-the-art
+SA methods in social media.
+  In this paper, we introduce learning sub-word level representations in LSTM
+(Subword-LSTM) architecture instead of character-level or word-level
+representations. This linguistic prior in our architecture enables us to learn
+the information about sentiment value of important morphemes. This also seems
+to work well in highly noisy text containing misspellings as shown in our
+experiments which is demonstrated in morpheme-level feature maps learned by our
+model. Also, we hypothesize that encoding this linguistic prior in the
+Subword-LSTM architecture leads to the superior performance. Our system attains
+accuracy 4-5% greater than traditional approaches on our dataset, and also
+outperforms the available system for sentiment analysis in Hi-En code-mixed
+text by 18%.

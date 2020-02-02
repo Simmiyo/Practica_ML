@@ -1,0 +1,15 @@
+An information-theoretic derivation of min-cut based clustering
+Min-cut clustering, based on minimizing one of two heuristic cost-functions
+proposed by Shi and Malik, has spawned tremendous research, both analytic and
+algorithmic, in the graph partitioning and image segmentation communities over
+the last decade. It is however unclear if these heuristics can be derived from
+a more general principle facilitating generalization to new problem settings.
+Motivated by an existing graph partitioning framework, we derive relationships
+between optimizing relevance information, as defined in the Information
+Bottleneck method, and the regularized cut in a K-partitioned graph. For fast
+mixing graphs, we show that the cost functions introduced by Shi and Malik can
+be well approximated as the rate of loss of predictive information about the
+location of random walkers on the graph. For graphs generated from a stochastic
+algorithm designed to model community structure, the optimal information
+theoretic partition and the optimal min-cut partition are shown to be the same
+with high probability.

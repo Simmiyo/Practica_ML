@@ -1,0 +1,14 @@
+Bayesian spike inference from calcium imaging data
+We present efficient Bayesian methods for extracting neuronal spiking
+information from calcium imaging data. The goal of our methods is to sample
+from the posterior distribution of spike trains and model parameters (baseline
+concentration, spike amplitude etc) given noisy calcium imaging data. We
+present discrete time algorithms where we sample the existence of a spike at
+each time bin using Gibbs methods, as well as continuous time algorithms where
+we sample over the number of spikes and their locations at an arbitrary
+resolution using Metropolis-Hastings methods for point processes. We provide
+Rao-Blackwellized extensions that (i) marginalize over several model parameters
+and (ii) provide smooth estimates of the marginal spike posterior distribution
+in continuous time. Our methods serve as complements to standard point
+estimates and allow for quantification of uncertainty in estimating the
+underlying spike train and model parameters.

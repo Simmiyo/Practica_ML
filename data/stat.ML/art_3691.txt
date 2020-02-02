@@ -1,0 +1,15 @@
+Optimal whitening and decorrelation
+Whitening, or sphering, is a common preprocessing step in statistical
+analysis to transform random variables to orthogonality. However, due to
+rotational freedom there are infinitely many possible whitening procedures.
+Consequently, there is a diverse range of sphering methods in use, for example
+based on principal component analysis (PCA), Cholesky matrix decomposition and
+zero-phase component analysis (ZCA), among others.
+  Here we provide an overview of the underlying theory and discuss five natural
+whitening procedures. Subsequently, we demonstrate that investigating the
+cross-covariance and the cross-correlation matrix between sphered and original
+variables allows to break the rotational invariance and to identify optimal
+whitening transformations. As a result we recommend two particular approaches:
+ZCA-cor whitening to produce sphered variables that are maximally similar to
+the original variables, and PCA-cor whitening to obtain sphered variables that
+maximally compress the original variables.

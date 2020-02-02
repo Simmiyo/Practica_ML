@@ -1,0 +1,16 @@
+Infinite Hierarchical MMSB Model for Nested Communities/Groups in Social
+  Networks
+Actors in realistic social networks play not one but a number of diverse
+roles depending on whom they interact with, and a large number of such
+role-specific interactions collectively determine social communities and their
+organizations. Methods for analyzing social networks should capture these
+multi-faceted role-specific interactions, and, more interestingly, discover the
+latent organization or hierarchy of social communities. We propose a
+hierarchical Mixed Membership Stochastic Blockmodel to model the generation of
+hierarchies in social communities, selective membership of actors to subsets of
+these communities, and the resultant networks due to within- and
+cross-community interactions. Furthermore, to automatically discover these
+latent structures from social networks, we develop a Gibbs sampling algorithm
+for our model. We conduct extensive validation of our model using synthetic
+networks, and demonstrate the utility of our model in real-world datasets such
+as predator-prey networks and citation networks.

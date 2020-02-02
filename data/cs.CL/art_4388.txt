@@ -1,0 +1,21 @@
+Paraphrase Thought: Sentence Embedding Module Imitating Human Language
+  Recognition
+Sentence embedding is an important research topic in natural language
+processing. It is essential to generate a good embedding vector that fully
+reflects the semantic meaning of a sentence in order to achieve an enhanced
+performance for various natural language processing tasks, such as machine
+translation and document classification. Thus far, various sentence embedding
+models have been proposed, and their feasibility has been demonstrated through
+good performances on tasks following embedding, such as sentiment analysis and
+sentence classification. However, because the performances of sentence
+classification and sentiment analysis can be enhanced by using a simple
+sentence representation method, it is not sufficient to claim that these models
+fully reflect the meanings of sentences based on good performances for such
+tasks. In this paper, inspired by human language recognition, we propose the
+following concept of semantic coherence, which should be satisfied for a good
+sentence embedding method: similar sentences should be located close to each
+other in the embedding space. Then, we propose the Paraphrase-Thought
+(P-thought) model to pursue semantic coherence as much as possible.
+Experimental results on two paraphrase identification datasets (MS COCO and STS
+benchmark) show that the P-thought models outperform the benchmarked sentence
+embedding methods.

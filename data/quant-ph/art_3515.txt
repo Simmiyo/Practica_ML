@@ -1,0 +1,14 @@
+Quantum disentanglers
+It is not possible to disentangle a qubit in an unknown state $|\psi>$ from a
+set of (N-1) ancilla qubits prepared in a specific reference state $|0>$. That
+is, it is not possible to {\em perfectly} perform the transformation
+$(|\psi,0...,0\r +|0,\psi,...,0\r +...+ |0,0,...\psi\r) \to |0,...,0>\otimes
+|\psi>$. The question is then how well we can do? We consider a number of
+different methods of extracting an unknown state from an entangled state formed
+from that qubit and a set of ancilla qubits in an known state. Measuring the
+whole system is, as expected, the least effective method. We present various
+quantum ``devices'' which disentangle the unknown qubit from the set of ancilla
+qubits. In particular, we present the optimal universal disentangler which
+disentangles the unknown qubit with the fidelity which does not depend on the
+state of the qubit, and a probabilistic disentangler which performs the perfect
+disentangling transformation, but with a probability less than one.

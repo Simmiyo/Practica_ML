@@ -1,0 +1,20 @@
+Multivariate Bayesian Structural Time Series Model
+This paper deals with inference and prediction for multiple correlated time
+series, where one has also the choice of using a candidate pool of
+contemporaneous predictors for each target series. Starting with a structural
+model for the time-series, Bayesian tools are used for model fitting,
+prediction, and feature selection, thus extending some recent work along these
+lines for the univariate case. The Bayesian paradigm in this multivariate
+setting helps the model avoid overfitting as well as capture correlations among
+the multiple time series with the various state components. The model provides
+needed flexibility to choose a different set of components and available
+predictors for each target series. The cyclical component in the model can
+handle large variations in the short term, which may be caused by external
+shocks. We run extensive simulations to investigate properties such as
+estimation accuracy and performance in forecasting. We then run an empirical
+study with one-step-ahead prediction on the max log return of a portfolio of
+stocks that involve four leading financial institutions. Both the simulation
+studies and the extensive empirical study confirm that this multivariate model
+outperforms three other benchmark models, viz. a model that treats each target
+series as independent, the autoregressive integrated moving average model with
+regression (ARIMAX), and the multivariate ARIMAX (MARIMAX) model.

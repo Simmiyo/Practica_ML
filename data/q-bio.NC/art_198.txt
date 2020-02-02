@@ -1,0 +1,15 @@
+Systematic fluctuation expansion for neural network activity equations
+Population rate or activity equations are the foundation of a common approach
+to modeling for neural networks. These equations provide mean field dynamics
+for the firing rate or activity of neurons within a network given some
+connectivity. The shortcoming of these equations is that they take into account
+only the average firing rate while leaving out higher order statistics like
+correlations between firing. A stochastic theory of neural networks which
+includes statistics at all orders was recently formulated. We describe how this
+theory yields a systematic extension to population rate equations by
+introducing equations for correlations and appropriate coupling terms. Each
+level of the approximation yields closed equations, i.e. they depend only upon
+the mean and specific correlations of interest, without an {\it ad hoc}
+criterion for doing so. We show in an example of an all-to-all connected
+network how our system of generalized activity equations captures phenomena
+missed by the mean fieldrate equations alone.

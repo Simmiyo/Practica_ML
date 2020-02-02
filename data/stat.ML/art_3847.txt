@@ -1,0 +1,21 @@
+Discriminative models for robust image classification
+A variety of real-world tasks involve the classification of images into
+pre-determined categories. Designing image classification algorithms that
+exhibit robustness to acquisition noise and image distortions, particularly
+when the available training data are insufficient to learn accurate models, is
+a significant challenge. This dissertation explores the development of
+discriminative models for robust image classification that exploit underlying
+signal structure, via probabilistic graphical models and sparse signal
+representations.
+  Probabilistic graphical models are widely used in many applications to
+approximate high-dimensional data in a reduced complexity set-up. Learning
+graphical structures to approximate probability distributions is an area of
+active research. Recent work has focused on learning graphs in a discriminative
+manner with the goal of minimizing classification error. In the first part of
+the dissertation, we develop a discriminative learning framework that exploits
+the complementary yet correlated information offered by multiple
+representations (or projections) of a given signal/image. Specifically, we
+propose a discriminative tree-based scheme for feature fusion by explicitly
+learning the conditional correlations among such multiple projections in an
+iterative manner. Experiments reveal the robustness of the resulting graphical
+model classifier to training insufficiency.

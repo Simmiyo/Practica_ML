@@ -1,0 +1,19 @@
+A new framework for Euclidean summary statistics in the neural spike
+  train space
+Statistical analysis and inference on spike trains is one of the central
+topics in the neural coding. It is of great interest to understand the
+underlying structure of given neural data. Based on the metric distances
+between spike trains, recent investigations have introduced the notion of an
+average or prototype spike train to characterize the template pattern in the
+neural activity. However, as those metrics lack certain Euclidean properties,
+the defined averages are nonunique, and do not share the conventional
+properties of a mean. In this article, we propose a new framework to define the
+mean spike train where we adopt a Euclidean-like metric from an $L^p$ family.
+We demonstrate that this new mean spike train properly represents the average
+pattern in the conventional fashion, and can be effectively computed using a
+theoretically-proven convergent procedure. We compare this mean with other
+spike train averages and demonstrate its superiority. Furthermore, we apply the
+new framework in a recording from rodent geniculate ganglion, where background
+firing activity is a common issue for neural coding. We show that the proposed
+mean spike train can be utilized to remove the background noise and improve
+decoding performance.

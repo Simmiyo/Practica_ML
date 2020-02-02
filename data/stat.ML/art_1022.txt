@@ -1,0 +1,13 @@
+Matching models across abstraction levels with Gaussian Processes
+Biological systems are often modelled at different levels of abstraction
+depending on the particular aims/resources of a study. Such different models
+often provide qualitatively concordant predictions over specific
+parametrisations, but it is generally unclear whether model predictions are
+quantitatively in agreement, and whether such agreement holds for different
+parametrisations. Here we present a generally applicable statistical machine
+learning methodology to automatically reconcile the predictions of different
+models across abstraction levels. Our approach is based on defining a
+correction map, a random function which modifies the output of a model in order
+to match the statistics of the output of a different model of the same system.
+We use two biological examples to give a proof-of-principle demonstration of
+the methodology, and discuss its advantages and potential further applications.

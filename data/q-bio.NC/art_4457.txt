@@ -1,0 +1,21 @@
+A Discontinuous Neural Network for Non-Negative Sparse Approximation
+This paper investigates a discontinuous neural network which is used as a
+model of the mammalian olfactory system and can more generally be applied to
+solve non-negative sparse approximation problems. By inherently limiting the
+systems integrators to having non-negative outputs, the system function becomes
+discontinuous since the integrators switch between being inactive and being
+active. It is shown that the presented network converges to equilibrium points
+which are solutions to general non-negative least squares optimization
+problems. We specify a Caratheodory solution and prove that the network is
+stable, provided that the system matrix has full column-rank. Under a mild
+condition on the equilibrium point, we show that the network converges to its
+equilibrium within a finite number of switches. Two applications of the neural
+network are shown. Firstly, we apply the network as a model of the olfactory
+system and show that in principle it may be capable of performing complex
+sparse signal recovery tasks. Secondly, we generalize the application to
+include non-negative sparse approximation problems and compare the recovery
+performance to a classical non-negative basis pursuit denoising algorithm. We
+conclude that the recovery performance differs only marginally from the
+classical algorithm, while the neural network has the advantage that no
+performance critical regularization parameter has to be chosen prior to
+recovery.

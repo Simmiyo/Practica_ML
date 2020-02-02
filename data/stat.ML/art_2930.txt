@@ -1,0 +1,11 @@
+Sparse Quadratic Discriminant Analysis and Community Bayes
+We develop a class of rules spanning the range between quadratic discriminant
+analysis and naive Bayes, through a path of sparse graphical models. A group
+lasso penalty is used to introduce shrinkage and encourage a similar pattern of
+sparsity across precision matrices. It gives sparse estimates of interactions
+and produces interpretable models. Inspired by the connected-components
+structure of the estimated precision matrices, we propose the community Bayes
+model, which partitions features into several conditional independent
+communities and splits the classification problem into separate smaller ones.
+The community Bayes idea is quite general and can be applied to non-Gaussian
+data and likelihood-based classifiers.

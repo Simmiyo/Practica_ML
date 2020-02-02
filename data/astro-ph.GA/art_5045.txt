@@ -1,0 +1,24 @@
+Resolving the mass--anisotropy degeneracy of the spherically symmetric
+  Jeans equation I: theoretical foundation
+A widely employed method for estimating the mass of stellar systems with
+apparent spherical symmetry is dynamical modelling using the spherically
+symmetric Jeans equation. Unfortunately this approach suffers from a degeneracy
+between the assumed mass density and the second order velocity moments. This
+degeneracy can lead to significantly different predictions for the mass content
+of the system under investigation, and thus poses a barrier for accurate
+estimates of the dark matter content of astrophysical systems. In a series of
+papers we describe an algorithm that removes this degeneracy and allows for
+unbiased mass estimates of systems of constant or variable mass-to-light ratio.
+The present contribution sets the theoretical foundation of the method that
+reconstructs a unique kinematic profile for some assumed free functional form
+of the mass density. The essence of our method lies in using flexible B-spline
+functions for the representation of the radial velocity dispersion in the
+spherically symmetric Jeans equation. We demonstrate our algorithm through an
+application to synthetic data for the case of an isotropic King model with
+fixed mass-to-light ratio, recovering excellent fits of theoretical functions
+to observables and a unique solution. The mass-anisotropy degeneracy is removed
+to the extent that, for an assumed functional form of the potential and mass
+density pair $(\Phi,\rho)$, and a given set of line-of-sight velocity
+dispersion $\sigma_{los}^2$ observables, we recover a unique profile for
+$\sigma_{rr}^2$ and $\sigma_{tt}^2$. Our algorithm is simple, easy to apply and
+provides an efficient means to reconstruct the kinematic profile.

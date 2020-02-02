@@ -1,0 +1,23 @@
+When Neurons Fail
+We view a neural network as a distributed system of which neurons can fail
+independently, and we evaluate its robustness in the absence of any (recovery)
+learning phase. We give tight bounds on the number of neurons that can fail
+without harming the result of a computation. To determine our bounds, we
+leverage the fact that neural activation functions are Lipschitz-continuous.
+Our bound is on a quantity, we call the \textit{Forward Error Propagation},
+capturing how much error is propagated by a neural network when a given number
+of components is failing, computing this quantity only requires looking at the
+topology of the network, while experimentally assessing the robustness of a
+network requires the costly experiment of looking at all the possible inputs
+and testing all the possible configurations of the network corresponding to
+different failure situations, facing a discouraging combinatorial explosion.
+  We distinguish the case of neurons that can fail and stop their activity
+(crashed neurons) from the case of neurons that can fail by transmitting
+arbitrary values (Byzantine neurons). Interestingly, as we show in the paper,
+our bound can easily be extended to the case where synapses can fail.
+  We show how our bound can be leveraged to quantify the effect of memory cost
+reduction on the accuracy of a neural network, to estimate the amount of
+information any neuron needs from its preceding layer, enabling thereby a
+boosting scheme that prevents neurons from waiting for unnecessary signals. We
+finally discuss the trade-off between neural networks robustness and learning
+cost.

@@ -1,0 +1,23 @@
+Markov models for fMRI correlation structure: is brain functional
+  connectivity small world, or decomposable into networks?
+Correlations in the signal observed via functional Magnetic Resonance Imaging
+(fMRI), are expected to reveal the interactions in the underlying neural
+populations through hemodynamic response. In particular, they highlight
+distributed set of mutually correlated regions that correspond to brain
+networks related to different cognitive functions. Yet graph-theoretical
+studies of neural connections give a different picture: that of a highly
+integrated system with small-world properties: local clustering but with short
+pathways across the complete structure. We examine the conditional independence
+properties of the fMRI signal, i.e. its Markov structure, to find realistic
+assumptions on the connectivity structure that are required to explain the
+observed functional connectivity. In particular we seek a decomposition of the
+Markov structure into segregated functional networks using decomposable graphs:
+a set of strongly-connected and partially overlapping cliques. We introduce a
+new method to efficiently extract such cliques on a large, strongly-connected
+graph. We compare methods learning different graph structures from functional
+connectivity by testing the goodness of fit of the model they learn on new
+data. We find that summarizing the structure as strongly-connected networks can
+give a good description only for very large and overlapping networks. These
+results highlight that Markov models are good tools to identify the structure
+of brain connectivity from fMRI signals, but for this purpose they must reflect
+the small-world properties of the underlying neural systems.

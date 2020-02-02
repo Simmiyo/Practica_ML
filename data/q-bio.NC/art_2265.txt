@@ -1,0 +1,27 @@
+Group Analysis of Self-organizing Maps based on Functional MRI using
+  Restricted Frechet Means
+Studies of functional MRI data are increasingly concerned with the estimation
+of differences in spatio-temporal networks across groups of subjects or
+experimental conditions. Unsupervised clustering and independent component
+analysis (ICA) have been used to identify such spatio-temporal networks. While
+these approaches have been useful for estimating these networks at the
+subject-level, comparisons over groups or experimental conditions require
+further methodological development. In this paper, we tackle this problem by
+showing how self-organizing maps (SOMs) can be compared within a Frechean
+inferential framework. Here, we summarize the mean SOM in each group as a
+Frechet mean with respect to a metric on the space of SOMs. We consider the use
+of different metrics, and introduce two extensions of the classical sum of
+minimum distance (SMD) between two SOMs, which take into account the
+spatio-temporal pattern of the fMRI data. The validity of these methods is
+illustrated on synthetic data. Through these simulations, we show that the
+three metrics of interest behave as expected, in the sense that the ones
+capturing temporal, spatial and spatio-temporal aspects of the SOMs are more
+likely to reach significance under simulated scenarios characterized by
+temporal, spatial and spatio-temporal differences, respectively. In addition, a
+re-analysis of a classical experiment on visually-triggered emotions
+demonstrates the usefulness of this methodology. In this study, the
+multivariate functional patterns typical of the subjects exposed to pleasant
+and unpleasant stimuli are found to be more similar than the ones of the
+subjects exposed to emotionally neutral stimuli. Taken together, these results
+indicate that our proposed methods can cast new light on existing data by
+adopting a global analytical perspective on functional MRI paradigms.

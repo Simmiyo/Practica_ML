@@ -1,0 +1,17 @@
+Learning Structural Changes of Gaussian Graphical Models in Controlled
+  Experiments
+Graphical models are widely used in scienti fic and engineering research to
+represent conditional independence structures between random variables. In many
+controlled experiments, environmental changes or external stimuli can often
+alter the conditional dependence between the random variables, and potentially
+produce significant structural changes in the corresponding graphical models.
+Therefore, it is of great importance to be able to detect such structural
+changes from data, so as to gain novel insights into where and how the
+structural changes take place and help the system adapt to the new environment.
+Here we report an effective learning strategy to extract structural changes in
+Gaussian graphical model using l1-regularization based convex optimization. We
+discuss the properties of the problem formulation and introduce an efficient
+implementation by the block coordinate descent algorithm. We demonstrate the
+principle of the approach on a numerical simulation experiment, and we then
+apply the algorithm to the modeling of gene regulatory networks under different
+conditions and obtain promising yet biologically plausible results.

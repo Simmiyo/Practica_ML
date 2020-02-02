@@ -1,0 +1,14 @@
+A Unified Framework of Online Learning Algorithms for Training Recurrent
+  Neural Networks
+We present a framework for compactly summarizing many recent results in
+efficient and/or biologically plausible online training of recurrent neural
+networks (RNN). The framework organizes algorithms according to several
+criteria: (a) past vs. future facing, (b) tensor structure, (c) stochastic vs.
+deterministic, and (d) closed form vs. numerical. These axes reveal latent
+conceptual connections among several recent advances in online learning.
+Furthermore, we provide novel mathematical intuitions for their degree of
+success. Testing various algorithms on two synthetic tasks shows that
+performances cluster according to our criteria. Although a similar clustering
+is also observed for gradient alignment, alignment with exact methods does not
+alone explain ultimate performance, especially for stochastic algorithms. This
+suggests the need for better comparison metrics.

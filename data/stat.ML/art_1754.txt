@@ -1,0 +1,13 @@
+Multidimensional Scaling in the Poincare Disk
+Multidimensional scaling (MDS) is a class of projective algorithms
+traditionally used in Euclidean space to produce two- or three-dimensional
+visualizations of datasets of multidimensional points or point distances. More
+recently however, several authors have pointed out that for certain datasets,
+hyperbolic target space may provide a better fit than Euclidean space.
+  In this paper we develop PD-MDS, a metric MDS algorithm designed specifically
+for the Poincare disk (PD) model of the hyperbolic plane. Emphasizing the
+importance of proceeding from first principles in spite of the availability of
+various black box optimizers, our construction is based on an elementary
+hyperbolic line search and reveals numerous particulars that need to be
+carefully addressed when implementing this as well as more sophisticated
+iterative optimization methods in a hyperbolic space model.

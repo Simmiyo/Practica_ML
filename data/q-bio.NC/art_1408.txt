@@ -1,0 +1,26 @@
+White Matter Network Architecture Guides Direct Electrical Stimulation
+  Through Optimal State Transitions
+Electrical brain stimulation is currently being investigated as a therapy for
+neurological disease. However, opportunities to optimize such therapies are
+challenged by the fact that the beneficial impact of focal stimulation on both
+neighboring and distant regions is not well understood. Here, we use network
+control theory to build a model of brain network function that makes
+predictions about how stimulation spreads through the brain's white matter
+network and influences large-scale dynamics. We test these predictions using
+combined electrocorticography (ECoG) and diffusion weighted imaging (DWI) data
+who volunteered to participate in an extensive stimulation regimen. We posit a
+specific model-based manner in which white matter tracts constrain stimulation,
+defining its capacity to drive the brain to new states, including states
+associated with successful memory encoding. In a first validation of our model,
+we find that the true pattern of white matter tracts can be used to more
+accurately predict the state transitions induced by direct electrical
+stimulation than the artificial patterns of null models. We then use a targeted
+optimal control framework to solve for the optimal energy required to drive the
+brain to a given state. We show that, intuitively, our model predicts larger
+energy requirements when starting from states that are farther away from a
+target memory state. We then suggest testable hypotheses about which structural
+properties will lead to efficient stimulation for improving memory based on
+energy requirements. Our work demonstrates that individual white matter
+architecture plays a vital role in guiding the dynamics of direct electrical
+stimulation, more generally offering empirical support for the utility of
+network control theoretic models of brain response to stimulation.

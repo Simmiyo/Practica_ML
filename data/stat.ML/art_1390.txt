@@ -1,0 +1,28 @@
+Comprehensive Feature-Based Landscape Analysis of Continuous and
+  Constrained Optimization Problems Using the R-Package flacco
+Choosing the best-performing optimizer(s) out of a portfolio of optimization
+algorithms is usually a difficult and complex task. It gets even worse, if the
+underlying functions are unknown, i.e., so-called Black-Box problems, and
+function evaluations are considered to be expensive. In the case of continuous
+single-objective optimization problems, Exploratory Landscape Analysis (ELA) -
+a sophisticated and effective approach for characterizing the landscapes of
+such problems by means of numerical values before actually performing the
+optimization task itself - is advantageous. Unfortunately, until now it has
+been quite complicated to compute multiple ELA features simultaneously, as the
+corresponding code has been - if at all - spread across multiple platforms or
+at least across several packages within these platforms.
+  This article presents a broad summary of existing ELA approaches and
+introduces flacco, an R-package for feature-based landscape analysis of
+continuous and constrained optimization problems. Although its functions
+neither solve the optimization problem itself nor the related "Algorithm
+Selection Problem (ASP)", it offers easy access to an essential ingredient of
+the ASP by providing a wide collection of ELA features on a single platform -
+even within a single package. In addition, flacco provides multiple
+visualization techniques, which enhance the understanding of some of these
+numerical features, and thereby make certain landscape properties more
+comprehensible. On top of that, we will introduce the package's build-in, as
+well as web-hosted and hence platform-independent, graphical user interface
+(GUI), which facilitates the usage of the package - especially for people who
+are not familiar with R - making it a very convenient toolbox when working
+towards algorithm selection of continuous single-objective optimization
+problems.

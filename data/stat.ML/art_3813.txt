@@ -1,0 +1,10 @@
+Multi-task and Lifelong Learning of Kernels
+We consider a problem of learning kernels for use in SVM classification in
+the multi-task and lifelong scenarios and provide generalization bounds on the
+error of a large margin classifier. Our results show that, under mild
+conditions on the family of kernels used for learning, solving several related
+tasks simultaneously is beneficial over single task learning. In particular, as
+the number of observed tasks grows, assuming that in the considered family of
+kernels there exists one that yields low approximation error on all tasks, the
+overhead associated with learning such a kernel vanishes and the complexity
+converges to that of learning when this good kernel is given to the learner.

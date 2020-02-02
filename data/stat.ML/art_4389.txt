@@ -1,0 +1,20 @@
+Finding Differentially Covarying Needles in a Temporally Evolving
+  Haystack: A Scan Statistics Perspective
+Recent results in coupled or temporal graphical models offer schemes for
+estimating the relationship structure between features when the data come from
+related (but distinct) longitudinal sources. A novel application of these ideas
+is for analyzing group-level differences, i.e., in identifying if trends of
+estimated objects (e.g., covariance or precision matrices) are different across
+disparate conditions (e.g., gender or disease). Often, poor effect sizes make
+detecting the differential signal over the full set of features difficult: for
+example, dependencies between only a subset of features may manifest
+differently across groups. In this work, we first give a parametric model for
+estimating trends in the space of SPD matrices as a function of one or more
+covariates. We then generalize scan statistics to graph structures, to search
+over distinct subsets of features (graph partitions) whose temporal dependency
+structure may show statistically significant group-wise differences. We
+theoretically analyze the Family Wise Error Rate (FWER) and bounds on Type 1
+and Type 2 error. On a cohort of individuals with risk factors for Alzheimer's
+disease (but otherwise cognitively healthy), we find scientifically interesting
+group differences where the default analysis, i.e., models estimated on the
+full graph, do not survive reasonable significance thresholds.

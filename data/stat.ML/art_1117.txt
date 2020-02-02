@@ -1,0 +1,16 @@
+Maximum Correntropy Unscented Filter
+The unscented transformation (UT) is an efficient method to solve the state
+estimation problem for a non-linear dynamic system, utilizing a derivative-free
+higher-order approximation by approximating a Gaussian distribution rather than
+approximating a non-linear function. Applying the UT to a Kalman filter type
+estimator leads to the well-known unscented Kalman filter (UKF). Although the
+UKF works very well in Gaussian noises, its performance may deteriorate
+significantly when the noises are non-Gaussian, especially when the system is
+disturbed by some heavy-tailed impulsive noises. To improve the robustness of
+the UKF against impulsive noises, a new filter for nonlinear systems is
+proposed in this work, namely the maximum correntropy unscented filter (MCUF).
+In MCUF, the UT is applied to obtain the prior estimates of the state and
+covariance matrix, and a robust statistical linearization regression based on
+the maximum correntropy criterion (MCC) is then used to obtain the posterior
+estimates of the state and covariance. The satisfying performance of the new
+algorithm is confirmed by two illustrative examples.

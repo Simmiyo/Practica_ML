@@ -1,0 +1,21 @@
+A comparison of methods for the analysis of binomial proportion data in
+  behavioral research
+In behavioral and psychiatric research, data consisting of a per-subject
+proportion of "successes" and "failures" over a finite number of trials often
+arise. This kind of clustered binary data are usually non-normally distributed,
+which can cause issues with parameter estimation and predictions if the usual
+general linear model is applied and sample size is small. Here we studied the
+performances of some of the available analytic methods applicable to the
+analysis of proportion data; namely linear regression, Poisson regression,
+beta-binomial regression and Generalized Linear Mixed Models (GLMMs). We report
+the conclusions from a simulation study evaluating power and Type I error rates
+of these models in scenarios akin to those met by behavioral researchers and
+differing in sample size, cluster size and fixed effects parameters; plus, we
+describe results from the application of these methods on data from two real
+behavioral experiments. Our results show that, while GLMMs and beta-binomial
+regression are powerful instruments for the analysis of clustered binary
+outcomes, linear approximation can still provide reliable hypothesis testing in
+this context. Poisson regression, on the other hand, can suffer heavily from
+model misspecification when used to model proportion data. We conclude
+providing some guidelines for the choice of appropriate analytical instruments,
+sample and cluster size depending on the conditions of the experiment.

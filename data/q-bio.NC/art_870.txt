@@ -1,0 +1,27 @@
+Explicitly Linking Regional Activation and Function Connectivity:
+  Community Structure of Weighted Networks with Continuous Annotation
+A major challenge in neuroimaging is understanding the mapping of
+neurophysiological dynamics onto cognitive functions. Traditionally, these maps
+have been constructed by examining changes in the activity magnitude of regions
+related to task performance. Recently, network neuroscience has produced
+methods to map connectivity patterns among many regions to certain cognitive
+functions by drawing on tools from network science and graph theory. However,
+these two different views are rarely addressed simultaneously, largely because
+few tools exist that account for patterns between nodes while simultaneously
+considering activation of nodes. We address this gap by solving the problem of
+community detection on weighted networks with continuous (non-integer)
+annotations by deriving a generative probabilistic model. This model generates
+communities whose members connect densely to nodes within their own community,
+and whose members share similar annotation values. We demonstrate the utility
+of the model in the context of neuroimaging data gathered during a motor
+learning paradigm, where edges are task-based functional connectivity and
+annotations to each node are beta weights from a general linear model that
+encoded a linear decrease in blood-oxygen-level-dependent signal with practice.
+Interestingly, we observe that individuals who learn at a faster rate exhibit
+the greatest dissimilarity between functional connectivity and activation
+magnitudes, suggesting that activation and functional connectivity are distinct
+dimensions of neurophysiology that track behavioral change. More generally, the
+tool that we develop offers an explicit, mathematically principled link between
+functional activation and functional connectivity, and can readily be applied
+to a other similar problems in which one set of imaging data offers network
+data, and a second offers a regional attribute.

@@ -1,0 +1,10 @@
+A fast quantum mechanical algorithm for database search
+Imagine a phone directory containing N names arranged in completely random
+order. In order to find someone's phone number with a 50% probability, any
+classical algorithm (whether deterministic or probabilistic) will need to look
+at a minimum of N/2 names. Quantum mechanical systems can be in a superposition
+of states and simultaneously examine multiple names. By properly adjusting the
+phases of various operations, successful computations reinforce each other
+while others interfere randomly. As a result, the desired phone number can be
+obtained in only O(sqrt(N)) steps. The algorithm is within a small constant
+factor of the fastest possible quantum mechanical algorithm.

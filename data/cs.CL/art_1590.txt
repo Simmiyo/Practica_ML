@@ -1,0 +1,8 @@
+Fast BTG-Forest-Based Hierarchical Sub-sentential Alignment
+In this paper, we propose a novel BTG-forest-based alignment method. Based on
+a fast unsupervised initialization of parameters using variational IBM models,
+we synchronously parse parallel sentences top-down and align hierarchically
+under the constraint of BTG. Our two-step method can achieve the same run-time
+and comparable translation performance as fast_align while it yields smaller
+phrase tables. Final SMT results show that our method even outperforms in the
+experiment of distantly related languages, e.g., English-Japanese.

@@ -1,0 +1,15 @@
+Improved Text Language Identification for the South African Languages
+Virtual assistants and text chatbots have recently been gaining popularity.
+Given the short message nature of text-based chat interactions, the language
+identification systems of these bots might only have 15 or 20 characters to
+make a prediction. However, accurate text language identification is important,
+especially in the early stages of many multilingual natural language processing
+pipelines.
+  This paper investigates the use of a naive Bayes classifier, to accurately
+predict the language family that a piece of text belongs to, combined with a
+lexicon based classifier to distinguish the specific South African language
+that the text is written in. This approach leads to a 31% reduction in the
+language detection error.
+  In the spirit of reproducible research the training and testing datasets as
+well as the code are published on github. Hopefully it will be useful to create
+a text language identification shared task for South African languages.

@@ -1,0 +1,18 @@
+Automatic Sleep Stage Scoring with Single-Channel EEG Using
+  Convolutional Neural Networks
+We used convolutional neural networks (CNNs) for automatic sleep stage
+scoring based on single-channel electroencephalography (EEG) to learn
+task-specific filters for classification without using prior domain knowledge.
+We used an openly available dataset from 20 healthy young adults for evaluation
+and applied 20-fold cross-validation. We used class-balanced random sampling
+within the stochastic gradient descent (SGD) optimization of the CNN to avoid
+skewed performance in favor of the most represented sleep stages. We achieved
+high mean F1-score (81%, range 79-83%), mean accuracy across individual sleep
+stages (82%, range 80-84%) and overall accuracy (74%, range 71-76%) over all
+subjects. By analyzing and visualizing the filters that our CNN learns, we
+found that rules learned by the filters correspond to sleep scoring criteria in
+the American Academy of Sleep Medicine (AASM) manual that human experts follow.
+Our method's performance is balanced across classes and our results are
+comparable to state-of-the-art methods with hand-engineered features. We show
+that, without using prior domain knowledge, a CNN can automatically learn to
+distinguish among different normal sleep stages.

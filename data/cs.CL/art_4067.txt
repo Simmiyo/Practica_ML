@@ -1,0 +1,18 @@
+Learning Acoustic Word Embeddings with Temporal Context for
+  Query-by-Example Speech Search
+We propose to learn acoustic word embeddings with temporal context for
+query-by-example (QbE) speech search. The temporal context includes the leading
+and trailing word sequences of a word. We assume that there exist spoken word
+pairs in the training database. We pad the word pairs with their original
+temporal context to form fixed-length speech segment pairs. We obtain the
+acoustic word embeddings through a deep convolutional neural network (CNN)
+which is trained on the speech segment pairs with a triplet loss. Shifting a
+fixed-length analysis window through the search content, we obtain a running
+sequence of embeddings. In this way, searching for the spoken query is
+equivalent to the matching of acoustic word embeddings. The experiments show
+that our proposed acoustic word embeddings learned with temporal context are
+effective in QbE speech search. They outperform the state-of-the-art
+frame-level feature representations and reduce run-time computation since no
+dynamic time warping is required in QbE speech search. We also find that it is
+important to have sufficient speech segment pairs to train the deep CNN for
+effective acoustic word embeddings.

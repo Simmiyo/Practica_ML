@@ -1,0 +1,16 @@
+On Sparse variational methods and the Kullback-Leibler divergence
+  between stochastic processes
+The variational framework for learning inducing variables (Titsias, 2009a)
+has had a large impact on the Gaussian process literature. The framework may be
+interpreted as minimizing a rigorously defined Kullback-Leibler divergence
+between the approximating and posterior processes. To our knowledge this
+connection has thus far gone unremarked in the literature. In this paper we
+give a substantial generalization of the literature on this topic. We give a
+new proof of the result for infinite index sets which allows inducing points
+that are not data points and likelihoods that depend on all function values. We
+then discuss augmented index sets and show that, contrary to previous works,
+marginal consistency of augmentation is not enough to guarantee consistency of
+variational inference with the original model. We then characterize an extra
+condition where such a guarantee is obtainable. Finally we show how our
+framework sheds light on interdomain sparse approximations and sparse
+approximations for Cox processes.

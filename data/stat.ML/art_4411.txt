@@ -1,0 +1,14 @@
+IVE-GAN: Invariant Encoding Generative Adversarial Networks
+Generative adversarial networks (GANs) are a powerful framework for
+generative tasks. However, they are difficult to train and tend to miss modes
+of the true data generation process. Although GANs can learn a rich
+representation of the covered modes of the data in their latent space, the
+framework misses an inverse mapping from data to this latent space. We propose
+Invariant Encoding Generative Adversarial Networks (IVE-GANs), a novel GAN
+framework that introduces such a mapping for individual samples from the data
+by utilizing features in the data which are invariant to certain
+transformations. Since the model maps individual samples to the latent space,
+it naturally encourages the generator to cover all modes. We demonstrate the
+effectiveness of our approach in terms of generative performance and learning
+rich representations on several datasets including common benchmark image
+generation tasks.

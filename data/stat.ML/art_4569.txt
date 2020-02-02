@@ -1,0 +1,8 @@
+State Space representation of non-stationary Gaussian Processes
+The state space (SS) representation of Gaussian processes (GP) has recently
+gained a lot of interest. The main reason is that it allows to compute GPs
+based inferences in O(n), where $n$ is the number of observations. This
+implementation makes GPs suitable for Big Data. For this reason, it is
+important to provide a SS representation of the most important kernels used in
+machine learning. The aim of this paper is to show how to exploit the transient
+behaviour of SS models to map non-stationary kernels to SS models.

@@ -1,0 +1,20 @@
+Local identifiability of $l_1$-minimization dictionary learning: a
+  sufficient and almost necessary condition
+We study the theoretical properties of learning a dictionary from $N$ signals
+$\mathbf x_i\in \mathbb R^K$ for $i=1,...,N$ via $l_1$-minimization. We assume
+that $\mathbf x_i$'s are $i.i.d.$ random linear combinations of the $K$ columns
+from a complete (i.e., square and invertible) reference dictionary $\mathbf D_0
+\in \mathbb R^{K\times K}$. Here, the random linear coefficients are generated
+from either the $s$-sparse Gaussian model or the Bernoulli-Gaussian model.
+First, for the population case, we establish a sufficient and almost necessary
+condition for the reference dictionary $\mathbf D_0$ to be locally
+identifiable, i.e., a local minimum of the expected $l_1$-norm objective
+function. Our condition covers both sparse and dense cases of the random linear
+coefficients and significantly improves the sufficient condition by Gribonval
+and Schnass (2010). In addition, we show that for a complete $\mu$-coherent
+reference dictionary, i.e., a dictionary with absolute pairwise column
+inner-product at most $\mu\in[0,1)$, local identifiability holds even when the
+random linear coefficient vector has up to $O(\mu^{-2})$ nonzeros on average.
+Moreover, our local identifiability results also translate to the finite sample
+case with high probability provided that the number of signals $N$ scales as
+$O(K\log K)$.

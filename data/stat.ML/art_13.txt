@@ -1,0 +1,28 @@
+Pac-Bayesian Supervised Classification: The Thermodynamics of
+  Statistical Learning
+This monograph deals with adaptive supervised classification, using tools
+borrowed from statistical mechanics and information theory, stemming from the
+PACBayesian approach pioneered by David McAllester and applied to a conception
+of statistical learning theory forged by Vladimir Vapnik. Using convex analysis
+on the set of posterior probability measures, we show how to get local measures
+of the complexity of the classification model involving the relative entropy of
+posterior distributions with respect to Gibbs posterior measures. We then
+discuss relative bounds, comparing the generalization error of two
+classification rules, showing how the margin assumption of Mammen and Tsybakov
+can be replaced with some empirical measure of the covariance structure of the
+classification model.We show how to associate to any posterior distribution an
+effective temperature relating it to the Gibbs prior distribution with the same
+level of expected error rate, and how to estimate this effective temperature
+from data, resulting in an estimator whose expected error rate converges
+according to the best possible power of the sample size adaptively under any
+margin and parametric complexity assumptions. We describe and study an
+alternative selection scheme based on relative bounds between estimators, and
+present a two step localization technique which can handle the selection of a
+parametric model from a family of those. We show how to extend systematically
+all the results obtained in the inductive setting to transductive learning, and
+use this to improve Vapnik's generalization bounds, extending them to the case
+when the sample is made of independent non-identically distributed pairs of
+patterns and labels. Finally we review briefly the construction of Support
+Vector Machines and show how to derive generalization bounds for them,
+measuring the complexity either through the number of support vectors or
+through the value of the transductive or inductive margin.

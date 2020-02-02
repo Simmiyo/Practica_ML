@@ -1,0 +1,14 @@
+Efficiently Using Second Order Information in Large l1 Regularization
+  Problems
+We propose a novel general algorithm LHAC that efficiently uses second-order
+information to train a class of large-scale l1-regularized problems. Our method
+executes cheap iterations while achieving fast local convergence rate by
+exploiting the special structure of a low-rank matrix, constructed via
+quasi-Newton approximation of the Hessian of the smooth loss function. A greedy
+active-set strategy, based on the largest violations in the dual constraints,
+is employed to maintain a working set that iteratively estimates the complement
+of the optimal active set. This allows for smaller size of subproblems and
+eventually identifies the optimal active set. Empirical comparisons confirm
+that LHAC is highly competitive with several recently proposed state-of-the-art
+specialized solvers for sparse logistic regression and sparse inverse
+covariance matrix selection.

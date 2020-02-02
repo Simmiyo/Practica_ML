@@ -1,0 +1,19 @@
+Classifying the Valence of Autobiographical Memories from fMRI Data
+We show that fMRI analysis using machine learning tools are sufficient to
+distinguish valence (i.e., positive or negative) of freely retrieved
+autobiographical memories in a cross-participant setting. Our methodology uses
+feature selection (ReliefF) in combination with boosting methods, both applied
+directly to data represented in voxel space. In previous work using the same
+data set, Nawa and Ando showed that whole-brain based classification could
+achieve above-chance classification accuracy only when both training and
+testing data came from the same individual. In a cross-participant setting,
+classification results were not statistically significant. Additionally, on
+average the classification accuracy obtained when using ReliefF is
+substantially higher than previous results - 81% for the within-participant
+classification, and 62% for the cross-participant classification. Furthermore,
+since features are defined in voxel space, it is possible to show brain maps
+indicating the regions of that are most relevant in determining the results of
+the classification. Interestingly, the voxels that were selected using the
+proposed computational pipeline seem to be consistent with current
+neurophysiological theories regarding the brain regions actively involved in
+autobiographical memory processes.

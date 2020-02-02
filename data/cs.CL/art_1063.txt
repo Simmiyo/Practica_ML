@@ -1,0 +1,12 @@
+Controlled Experiments for Word Embeddings
+An experimental approach to studying the properties of word embeddings is
+proposed. Controlled experiments, achieved through modifications of the
+training corpus, permit the demonstration of direct relations between word
+properties and word vector direction and length. The approach is demonstrated
+using the word2vec CBOW model with experiments that independently vary word
+frequency and word co-occurrence noise. The experiments reveal that word vector
+length depends more or less linearly on both word frequency and the level of
+noise in the co-occurrence distribution of the word. The coefficients of
+linearity depend upon the word. The special point in feature space, defined by
+the (artificial) word with pure noise in its co-occurrence distribution, is
+found to be small but non-zero.

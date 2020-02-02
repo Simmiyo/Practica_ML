@@ -1,0 +1,26 @@
+Interpretability of Multivariate Brain Maps in Brain Decoding:
+  Definition and Quantification
+Brain decoding is a popular multivariate approach for hypothesis testing in
+neuroimaging. It is well known that the brain maps derived from weights of
+linear classifiers are hard to interpret because of high correlations between
+predictors, low signal to noise ratios, and the high dimensionality of
+neuroimaging data. Therefore, improving the interpretability of brain decoding
+approaches is of primary interest in many neuroimaging studies. Despite
+extensive studies of this type, at present, there is no formal definition for
+interpretability of multivariate brain maps. As a consequence, there is no
+quantitative measure for evaluating the interpretability of different brain
+decoding methods. In this paper, first, we present a theoretical definition of
+interpretability in brain decoding; we show that the interpretability of
+multivariate brain maps can be decomposed into their reproducibility and
+representativeness. Second, as an application of the proposed theoretical
+definition, we formalize a heuristic method for approximating the
+interpretability of multivariate brain maps in a binary magnetoencephalography
+(MEG) decoding scenario. Third, we propose to combine the approximated
+interpretability and the performance of the brain decoding model into a new
+multi-objective criterion for model selection. Our results for the MEG data
+show that optimizing the hyper-parameters of the regularized linear classifier
+based on the proposed criterion results in more informative multivariate brain
+maps. More importantly, the presented definition provides the theoretical
+background for quantitative evaluation of interpretability, and hence,
+facilitates the development of more effective brain decoding algorithms in the
+future.

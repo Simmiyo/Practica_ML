@@ -1,0 +1,17 @@
+Facial Emotion Detection Using Convolutional Neural Networks and
+  Representational Autoencoder Units
+Emotion being a subjective thing, leveraging knowledge and science behind
+labeled data and extracting the components that constitute it, has been a
+challenging problem in the industry for many years. With the evolution of deep
+learning in computer vision, emotion recognition has become a widely-tackled
+research problem. In this work, we propose two independent methods for this
+very task. The first method uses autoencoders to construct a unique
+representation of each emotion, while the second method is an 8-layer
+convolutional neural network (CNN). These methods were trained on the
+posed-emotion dataset (JAFFE), and to test their robustness, both the models
+were also tested on 100 random images from the Labeled Faces in the Wild (LFW)
+dataset, which consists of images that are candid than posed. The results show
+that with more fine-tuning and depth, our CNN model can outperform the
+state-of-the-art methods for emotion recognition. We also propose some exciting
+ideas for expanding the concept of representational autoencoders to improve
+their performance.

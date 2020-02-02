@@ -1,0 +1,21 @@
+Bayesian Cross Validation and WAIC for Predictive Prior Design in
+  Regular Asymptotic Theory
+Prior design is one of the most important problems in both statistics and
+machine learning. The cross validation (CV) and the widely applicable
+information criterion (WAIC) are predictive measures of the Bayesian
+estimation, however, it has been difficult to apply them to find the optimal
+prior because their mathematical properties in prior evaluation have been
+unknown and the region of the hyperparameters is too wide to be examined. In
+this paper, we derive a new formula by which the theoretical relation among CV,
+WAIC, and the generalization loss is clarified and the optimal hyperparameter
+can be directly found.
+  By the formula, three facts are clarified about predictive prior design.
+Firstly, CV and WAIC have the same second order asymptotic expansion, hence
+they are asymptotically equivalent to each other as the optimizer of the
+hyperparameter. Secondly, the hyperparameter which minimizes CV or WAIC makes
+the average generalization loss to be minimized asymptotically but does not the
+random generalization loss. And lastly, by using the mathematical relation
+between priors, the variances of the optimized hyperparameters by CV and WAIC
+are made smaller with small computational costs. Also we show that the
+optimized hyperparameter by DIC or the marginal likelihood does not minimize
+the average or random generalization loss in general.

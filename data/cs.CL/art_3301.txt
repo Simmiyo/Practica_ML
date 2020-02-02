@@ -1,0 +1,19 @@
+MilkQA: a Dataset of Consumer Questions for the Task of Answer Selection
+We introduce MilkQA, a question answering dataset from the dairy domain
+dedicated to the study of consumer questions. The dataset contains 2,657 pairs
+of questions and answers, written in the Portuguese language and originally
+collected by the Brazilian Agricultural Research Corporation (Embrapa). All
+questions were motivated by real situations and written by thousands of authors
+with very different backgrounds and levels of literacy, while answers were
+elaborated by specialists from Embrapa's customer service. Our dataset was
+filtered and anonymized by three human annotators. Consumer questions are a
+challenging kind of question that is usually employed as a form of seeking
+information. Although several question answering datasets are available, most
+of such resources are not suitable for research on answer selection models for
+consumer questions. We aim to fill this gap by making MilkQA publicly
+available. We study the behavior of four answer selection models on MilkQA: two
+baseline models and two convolutional neural network archictetures. Our results
+show that MilkQA poses real challenges to computational models, particularly
+due to linguistic characteristics of its questions and to their unusually
+longer lengths. Only one of the experimented models gives reasonable results,
+at the cost of high computational requirements.

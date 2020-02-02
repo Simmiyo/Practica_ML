@@ -1,0 +1,20 @@
+A Split-and-Merge Dictionary Learning Algorithm for Sparse
+  Representation
+In big data image/video analytics, we encounter the problem of learning an
+overcomplete dictionary for sparse representation from a large training
+dataset, which can not be processed at once because of storage and
+computational constraints. To tackle the problem of dictionary learning in such
+scenarios, we propose an algorithm for parallel dictionary learning. The
+fundamental idea behind the algorithm is to learn a sparse representation in
+two phases. In the first phase, the whole training dataset is partitioned into
+small non-overlapping subsets, and a dictionary is trained independently on
+each small database. In the second phase, the dictionaries are merged to form a
+global dictionary. We show that the proposed algorithm is efficient in its
+usage of memory and computational complexity, and performs on par with the
+standard learning strategy operating on the entire data at a time. As an
+application, we consider the problem of image denoising. We present a
+comparative analysis of our algorithm with the standard learning techniques,
+that use the entire database at a time, in terms of training and denoising
+performance. We observe that the split-and-merge algorithm results in a
+remarkable reduction of training time, without significantly affecting the
+denoising performance.

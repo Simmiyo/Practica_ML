@@ -1,0 +1,7 @@
+Simple, Fast Semantic Parsing with a Tensor Kernel
+We describe a simple approach to semantic parsing based on a tensor product
+kernel. We extract two feature vectors: one for the query and one for each
+candidate logical form. We then train a classifier using the tensor product of
+the two vectors. Using very simple features for both, our system achieves an
+average F1 score of 40.1% on the WebQuestions dataset. This is comparable to
+more complex systems but is simpler to implement and runs faster.

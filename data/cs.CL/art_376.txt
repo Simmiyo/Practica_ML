@@ -1,0 +1,26 @@
+Induction of Word and Phrase Alignments for Automatic Document
+  Summarization
+Current research in automatic single document summarization is dominated by
+two effective, yet naive approaches: summarization by sentence extraction, and
+headline generation via bag-of-words models. While successful in some tasks,
+neither of these models is able to adequately capture the large set of
+linguistic devices utilized by humans when they produce summaries. One possible
+explanation for the widespread use of these models is that good techniques have
+been developed to extract appropriate training data for them from existing
+document/abstract and document/headline corpora. We believe that future
+progress in automatic summarization will be driven both by the development of
+more sophisticated, linguistically informed models, as well as a more effective
+leveraging of document/abstract corpora. In order to open the doors to
+simultaneously achieving both of these goals, we have developed techniques for
+automatically producing word-to-word and phrase-to-phrase alignments between
+documents and their human-written abstracts. These alignments make explicit the
+correspondences that exist in such document/abstract pairs, and create a
+potentially rich data source from which complex summarization algorithms may
+learn. This paper describes experiments we have carried out to analyze the
+ability of humans to perform such alignments, and based on these analyses, we
+describe experiments for creating them automatically. Our model for the
+alignment task is based on an extension of the standard hidden Markov model,
+and learns to create alignments in a completely unsupervised fashion. We
+describe our model in detail and present experimental results that show that
+our model is able to learn to reliably identify word- and phrase-level
+alignments in a corpus of <document,abstract> pairs.

@@ -1,0 +1,20 @@
+PAC learnability under non-atomic measures: a problem by Vidyasagar
+In response to a 1997 problem of M. Vidyasagar, we state a criterion for PAC
+learnability of a concept class $\mathscr C$ under the family of all non-atomic
+(diffuse) measures on the domain $\Omega$. The uniform Glivenko--Cantelli
+property with respect to non-atomic measures is no longer a necessary
+condition, and consistent learnability cannot in general be expected. Our
+criterion is stated in terms of a combinatorial parameter $\VC({\mathscr
+C}\,{\mathrm{mod}}\,\omega_1)$ which we call the VC dimension of $\mathscr C$
+modulo countable sets. The new parameter is obtained by "thickening up" single
+points in the definition of VC dimension to uncountable "clusters".
+Equivalently, $\VC(\mathscr C\modd\omega_1)\leq d$ if and only if every
+countable subclass of $\mathscr C$ has VC dimension $\leq d$ outside a
+countable subset of $\Omega$. The new parameter can be also expressed as the
+classical VC dimension of $\mathscr C$ calculated on a suitable subset of a
+compactification of $\Omega$. We do not make any measurability assumptions on
+$\mathscr C$, assuming instead the validity of Martin's Axiom (MA). Similar
+results are obtained for function learning in terms of fat-shattering dimension
+modulo countable sets, but, just like in the classical distribution-free case,
+the finiteness of this parameter is sufficient but not necessary for PAC
+learnability under non-atomic measures.

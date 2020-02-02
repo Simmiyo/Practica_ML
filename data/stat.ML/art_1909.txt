@@ -1,0 +1,18 @@
+Fast Reinforcement Learning with Large Action Sets using
+  Error-Correcting Output Codes for MDP Factorization
+The use of Reinforcement Learning in real-world scenarios is strongly limited
+by issues of scale. Most RL learning algorithms are unable to deal with
+problems composed of hundreds or sometimes even dozens of possible actions, and
+therefore cannot be applied to many real-world problems. We consider the RL
+problem in the supervised classification framework where the optimal policy is
+obtained through a multiclass classifier, the set of classes being the set of
+actions of the problem. We introduce error-correcting output codes (ECOCs) in
+this setting and propose two new methods for reducing complexity when using
+rollouts-based approaches. The first method consists in using an ECOC-based
+classifier as the multiclass classifier, reducing the learning complexity from
+O(A2) to O(Alog(A)). We then propose a novel method that profits from the
+ECOC's coding dictionary to split the initial MDP into O(log(A)) seperate
+two-action MDPs. This second method reduces learning complexity even further,
+from O(A2) to O(log(A)), thus rendering problems with large action sets
+tractable. We finish by experimentally demonstrating the advantages of our
+approach on a set of benchmark problems, both in speed and performance.

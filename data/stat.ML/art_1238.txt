@@ -1,0 +1,15 @@
+Robustness of Maximum Correntropy Estimation Against Large Outliers
+The maximum correntropy criterion (MCC) has recently been successfully
+applied in robust regression, classification and adaptive filtering, where the
+correntropy is maximized instead of minimizing the well-known mean square error
+(MSE) to improve the robustness with respect to outliers (or impulsive noises).
+Considerable efforts have been devoted to develop various robust adaptive
+algorithms under MCC, but so far little insight has been gained as to how the
+optimal solution will be affected by outliers. In this work, we study this
+problem in the context of parameter estimation for a simple linear
+errors-in-variables (EIV) model where all variables are scalar. Under certain
+conditions, we derive an upper bound on the absolute value of the estimation
+error and show that the optimal solution under MCC can be very close to the
+true value of the unknown parameter even with outliers (whose values can be
+arbitrarily large) in both input and output variables. Illustrative examples
+are presented to verify and clarify the theory.

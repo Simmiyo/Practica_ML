@@ -1,0 +1,17 @@
+Distance Transform Gradient Density Estimation using the Stationary
+  Phase Approximation
+The complex wave representation (CWR) converts unsigned 2D distance
+transforms into their corresponding wave functions. Here, the distance
+transform S(X) appears as the phase of the wave function
+\phi(X)---specifically, \phi(X)=exp(iS(X)/\tau where \tau is a free parameter.
+In this work, we prove a novel result using the higher-order stationary phase
+approximation: we show convergence of the normalized power spectrum (squared
+magnitude of the Fourier transform) of the wave function to the density
+function of the distance transform gradients as the free parameter \tau-->0. In
+colloquial terms, spatial frequencies are gradient histogram bins. Since the
+distance transform gradients have only orientation information (as their
+magnitudes are identically equal to one almost everywhere), as \tau-->0, the 2D
+Fourier transform values mainly lie on the unit circle in the spatial frequency
+domain. The proof of the result involves standard integration techniques and
+requires proper ordering of limits. Our mathematical relation indicates that
+the CWR of distance transforms is an intriguing, new representation.

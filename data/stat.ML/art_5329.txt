@@ -1,0 +1,13 @@
+Approximate Inference with Amortised MCMC
+We propose a novel approximate inference algorithm that approximates a target
+distribution by amortising the dynamics of a user-selected MCMC sampler. The
+idea is to initialise MCMC using samples from an approximation network, apply
+the MCMC operator to improve these samples, and finally use the samples to
+update the approximation network thereby improving its quality. This provides a
+new generic framework for approximate inference, allowing us to deploy highly
+complex, or implicitly defined approximation families with intractable
+densities, including approximations produced by warping a source of randomness
+through a deep neural network. Experiments consider image modelling with deep
+generative models as a challenging test for the method. Deep models trained
+using amortised MCMC are shown to generate realistic looking samples as well as
+producing diverse imputations for images with regions of missing pixels.

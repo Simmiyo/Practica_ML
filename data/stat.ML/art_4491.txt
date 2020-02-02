@@ -1,0 +1,9 @@
+Fast MLE Computation for the Dirichlet Multinomial
+Given a collection of categorical data, we want to find the parameters of a
+Dirichlet distribution which maximizes the likelihood of that data. Newton's
+method is typically used for this purpose but current implementations require
+reading through the entire dataset on each iteration. In this paper, we propose
+a modification which requires only a single pass through the dataset and
+substantially decreases running time. Furthermore we analyze both theoretically
+and empirically the performance of the proposed algorithm, and provide an open
+source implementation.

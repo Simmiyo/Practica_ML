@@ -1,0 +1,18 @@
+A Unified Approach for Modeling and Recognition of Individual Actions
+  and Group Activities
+Recognizing group activities is challenging due to the difficulties in
+isolating individual entities, finding the respective roles played by the
+individuals and representing the complex interactions among the participants.
+Individual actions and group activities in videos can be represented in a
+common framework as they share the following common feature: both are composed
+of a set of low-level features describing motions, e.g., optical flow for each
+pixel or a trajectory for each feature point, according to a set of composition
+constraints in both temporal and spatial dimensions. In this paper, we present
+a unified model to assess the similarity between two given individual or group
+activities. Our approach avoids explicit extraction of individual actors,
+identifying and representing the inter-person interactions. With the proposed
+approach, retrieval from a video database can be performed through
+Query-by-Example; and activities can be recognized by querying videos
+containing known activities. The suggested video matching process can be
+performed in an unsupervised manner. We demonstrate the performance of our
+approach by recognizing a set of human actions and football plays.

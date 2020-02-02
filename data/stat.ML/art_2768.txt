@@ -1,0 +1,12 @@
+Markov Blanket Ranking using Kernel-based Conditional Dependence
+  Measures
+Developing feature selection algorithms that move beyond a pure correlational
+to a more causal analysis of observational data is an important problem in the
+sciences. Several algorithms attempt to do so by discovering the Markov blanket
+of a target, but they all contain a forward selection step which variables must
+pass in order to be included in the conditioning set. As a result, these
+algorithms may not consider all possible conditional multivariate combinations.
+We improve on this limitation by proposing a backward elimination method that
+uses a kernel-based conditional dependence measure to identify the Markov
+blanket in a fully multivariate fashion. The algorithm is easy to implement and
+compares favorably to other methods on synthetic and real datasets.

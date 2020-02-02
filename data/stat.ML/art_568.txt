@@ -1,0 +1,19 @@
+Indian Buffet process for model selection in convolved multiple-output
+  Gaussian processes
+Multi-output Gaussian processes have received increasing attention during the
+last few years as a natural mechanism to extend the powerful flexibility of
+Gaussian processes to the setup of multiple output variables. The key point
+here is the ability to design kernel functions that allow exploiting the
+correlations between the outputs while fulfilling the positive definiteness
+requisite for the covariance function. Alternatives to construct these
+covariance functions are the linear model of coregionalization and process
+convolutions. Each of these methods demand the specification of the number of
+latent Gaussian process used to build the covariance function for the outputs.
+We propose in this paper, the use of an Indian Buffet process as a way to
+perform model selection over the number of latent Gaussian processes. This type
+of model is particularly important in the context of latent force models, where
+the latent forces are associated to physical quantities like protein profiles
+or latent forces in mechanical systems. We use variational inference to
+estimate posterior distributions over the variables involved, and show examples
+of the model performance over artificial data, a motion capture dataset, and a
+gene expression dataset.

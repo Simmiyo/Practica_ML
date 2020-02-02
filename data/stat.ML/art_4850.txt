@@ -1,0 +1,19 @@
+Algorithms for Generalized Cluster-wise Linear Regression
+Cluster-wise linear regression (CLR), a clustering problem intertwined with
+regression, is to find clusters of entities such that the overall sum of
+squared errors from regressions performed over these clusters is minimized,
+where each cluster may have different variances. We generalize the CLR problem
+by allowing each entity to have more than one observation, and refer to it as
+generalized CLR. We propose an exact mathematical programming based approach
+relying on column generation, a column generation based heuristic algorithm
+that clusters predefined groups of entities, a metaheuristic genetic algorithm
+with adapted Lloyd's algorithm for K-means clustering, a two-stage approach,
+and a modified algorithm of Sp{\"a}th \cite{Spath1979} for solving generalized
+CLR. We examine the performance of our algorithms on a stock keeping unit (SKU)
+clustering problem employed in forecasting halo and cannibalization effects in
+promotions using real-world retail data from a large supermarket chain. In the
+SKU clustering problem, the retailer needs to cluster SKUs based on their
+seasonal effects in response to promotions. The seasonal effects are the
+results of regressions with predictors being promotion mechanisms and seasonal
+dummies performed over clusters generated. We compare the performance of all
+proposed algorithms for the SKU problem with real-world and synthetic data.

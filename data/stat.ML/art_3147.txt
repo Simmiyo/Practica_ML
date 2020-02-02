@@ -1,0 +1,14 @@
+Distributed Decision Trees
+Recently proposed budding tree is a decision tree algorithm in which every
+node is part internal node and part leaf. This allows representing every
+decision tree in a continuous parameter space, and therefore a budding tree can
+be jointly trained with backpropagation, like a neural network. Even though
+this continuity allows it to be used in hierarchical representation learning,
+the learned representations are local: Activation makes a soft selection among
+all root-to-leaf paths in a tree. In this work we extend the budding tree and
+propose the distributed tree where the children use different and independent
+splits and hence multiple paths in a tree can be traversed at the same time.
+This ability to combine multiple paths gives the power of a distributed
+representation, as in a traditional perceptron layer. We show that distributed
+trees perform comparably or better than budding and traditional hard trees on
+classification and regression tasks.

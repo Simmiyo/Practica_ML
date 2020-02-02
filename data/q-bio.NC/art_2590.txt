@@ -1,0 +1,13 @@
+SPySort: Neuronal Spike Sorting with Python
+Extracellular recordings with multi-electrode arrays is one of the basic
+tools of contemporary neuroscience. These recordings are mostly used to monitor
+the activities, understood as sequences of emitted action potentials, of many
+individual neurons. But the raw data produced by extracellular recordings are
+most commonly a mixture of activities from several neurons. In order to get the
+activities of the individual contributing neurons, a pre-processing step called
+spike sorting is required. We present here a pure Python implementation of a
+well tested spike sorting procedure. The latter was designed in a modular way
+in order to favour a smooth transition from an interactive sorting, for
+instance with IPython, to an automatic one. Surprisingly enough - or sadly
+enough, depending on one's view point -, recoding our now 15 years old
+procedure into Python was the occasion of major methodological improvements.

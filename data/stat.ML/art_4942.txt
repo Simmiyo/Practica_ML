@@ -1,0 +1,12 @@
+Medical image denoising using convolutional denoising autoencoders
+Image denoising is an important pre-processing step in medical image
+analysis. Different algorithms have been proposed in past three decades with
+varying denoising performances. More recently, having outperformed all
+conventional methods, deep learning based models have shown a great promise.
+These methods are however limited for requirement of large training sample size
+and high computational costs. In this paper we show that using small sample
+size, denoising autoencoders constructed using convolutional layers can be used
+for efficient denoising of medical images. Heterogeneous images can be combined
+to boost sample size for increased denoising performance. Simplest of networks
+can reconstruct images with corruption levels so high that noise and signal are
+not differentiable to human eye.

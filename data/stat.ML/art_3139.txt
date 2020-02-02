@@ -1,0 +1,16 @@
+The supervised hierarchical Dirichlet process
+We propose the supervised hierarchical Dirichlet process (sHDP), a
+nonparametric generative model for the joint distribution of a group of
+observations and a response variable directly associated with that whole group.
+We compare the sHDP with another leading method for regression on grouped data,
+the supervised latent Dirichlet allocation (sLDA) model. We evaluate our method
+on two real-world classification problems and two real-world regression
+problems. Bayesian nonparametric regression models based on the Dirichlet
+process, such as the Dirichlet process-generalised linear models (DP-GLM) have
+previously been explored; these models allow flexibility in modelling nonlinear
+relationships. However, until now, Hierarchical Dirichlet Process (HDP)
+mixtures have not seen significant use in supervised problems with grouped data
+since a straightforward application of the HDP on the grouped data results in
+learnt clusters that are not predictive of the responses. The sHDP solves this
+problem by allowing for clusters to be learnt jointly from the group structure
+and from the label assigned to each group.

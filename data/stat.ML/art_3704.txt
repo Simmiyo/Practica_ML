@@ -1,0 +1,19 @@
+Gamma Belief Networks
+To infer multilayer deep representations of high-dimensional discrete and
+nonnegative real vectors, we propose an augmentable gamma belief network (GBN)
+that factorizes each of its hidden layers into the product of a sparse
+connection weight matrix and the nonnegative real hidden units of the next
+layer. The GBN's hidden layers are jointly trained with an upward-downward
+Gibbs sampler that solves each layer with the same subroutine. The
+gamma-negative binomial process combined with a layer-wise training strategy
+allows inferring the width of each layer given a fixed budget on the width of
+the first layer. Example results illustrate interesting relationships between
+the width of the first layer and the inferred network structure, and
+demonstrate that the GBN can add more layers to improve its performance in both
+unsupervisedly extracting features and predicting heldout data. For exploratory
+data analysis, we extract trees and subnetworks from the learned deep network
+to visualize how the very specific factors discovered at the first hidden layer
+and the increasingly more general factors discovered at deeper hidden layers
+are related to each other, and we generate synthetic data by propagating random
+variables through the deep network from the top hidden layer back to the bottom
+data layer.

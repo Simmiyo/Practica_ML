@@ -1,0 +1,17 @@
+An Interval-Based Bayesian Generative Model for Human Complex Activity
+  Recognition
+Complex activity recognition is challenging due to the inherent uncertainty
+and diversity of performing a complex activity. Normally, each instance of a
+complex activity has its own configuration of atomic actions and their temporal
+dependencies. We propose in this paper an atomic action-based Bayesian model
+that constructs Allen's interval relation networks to characterize complex
+activities with structural varieties in a probabilistic generative way: By
+introducing latent variables from the Chinese restaurant process, our approach
+is able to capture all possible styles of a particular complex activity as a
+unique set of distributions over atomic actions and relations. We also show
+that local temporal dependencies can be retained and are globally consistent in
+the resulting interval network. Moreover, network structure can be learned from
+empirical data. A new dataset of complex hand activities has been constructed
+and made publicly available, which is much larger in size than any existing
+datasets. Empirical evaluations on benchmark datasets as well as our in-house
+dataset demonstrate the competitiveness of our approach.

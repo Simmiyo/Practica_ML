@@ -1,0 +1,17 @@
+The Lovasz-Bregman Divergence and connections to rank aggregation,
+  clustering, and web ranking
+We extend the recently introduced theory of Lovasz-Bregman (LB) divergences
+(Iyer & Bilmes 2012) in several ways. We show that they represent a distortion
+between a "score" and an "ordering", thus providing a new view of rank
+aggregation and order based clustering with interesting connections to web
+ranking. We show how the LB divergences have a number of properties akin to
+many permutation based metrics, and in fact have as special cases forms very
+similar to the Kendall-tau metric. We also show how the LB divergences subsume
+a number of commonly used ranking measures in information retrieval, like NDCG
+and AUC. Unlike the traditional permutation based metrics, however, the LB
+divergence naturally captures a notion of "confidence" in the orderings, thus
+providing a new representation to applications involving aggregating scores as
+opposed to just orderings. We show how a number of recently used web ranking
+models are forms of Lovasz-Bregman rank aggregation and also observe that a
+natural form of Mallow's model using the LB divergence has been used as
+conditional ranking models for the "Learning to Rank" problem.

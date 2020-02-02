@@ -1,0 +1,22 @@
+AUC-maximized Deep Convolutional Neural Fields for Sequence Labeling
+Deep Convolutional Neural Networks (DCNN) has shown excellent performance in
+a variety of machine learning tasks. This manuscript presents Deep
+Convolutional Neural Fields (DeepCNF), a combination of DCNN with Conditional
+Random Field (CRF), for sequence labeling with highly imbalanced label
+distribution. The widely-used training methods, such as maximum-likelihood and
+maximum labelwise accuracy, do not work well on highly imbalanced data. To
+handle this, we present a new training algorithm called maximum-AUC for
+DeepCNF. That is, we train DeepCNF by directly maximizing the empirical Area
+Under the ROC Curve (AUC), which is an unbiased measurement for imbalanced
+data. To fulfill this, we formulate AUC in a pairwise ranking framework,
+approximate it by a polynomial function and then apply a gradient-based
+procedure to optimize it. We then test our AUC-maximized DeepCNF on three very
+different protein sequence labeling tasks: solvent accessibility prediction,
+8-state secondary structure prediction, and disorder prediction. Our
+experimental results confirm that maximum-AUC greatly outperforms the other two
+training methods on 8-state secondary structure prediction and disorder
+prediction since their label distributions are highly imbalanced and also have
+similar performance as the other two training methods on the solvent
+accessibility prediction problem which has three equally-distributed labels.
+Furthermore, our experimental results also show that our AUC-trained DeepCNF
+models greatly outperform existing popular predictors of these three tasks.

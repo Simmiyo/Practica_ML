@@ -1,0 +1,19 @@
+Reverse engineering neural networks from many partial recordings
+Much of neuroscience aims at reverse engineering the brain, but we only
+record a small number of neurons at a time. We do not currently know if reverse
+engineering the brain requires us to simultaneously record most neurons or if
+multiple recordings from smaller subsets suffice. This is made even more
+important by the development of novel techniques that allow recording from
+selected subsets of neurons, e.g. using optical techniques. To get at this
+question, we analyze a neural network, trained on the MNIST dataset, using only
+partial recordings and characterize the dependency of the quality of our
+reverse engineering on the number of simultaneously recorded "neurons". We find
+that reverse engineering of the nonlinear neural network is meaningfully
+possible if a sufficiently large number of neurons is simultaneously recorded
+but that this number can be considerably smaller than the number of neurons.
+Moreover, recording many times from small random subsets of neurons yields
+surprisingly good performance. Application in neuroscience suggests to
+approximate the I/O function of an actual neural system, we need to record from
+a much larger number of neurons. The kind of scaling analysis we perform here
+can, and arguably should be used to calibrate approaches that can dramatically
+scale up the size of recorded data sets in neuroscience.

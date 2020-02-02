@@ -1,0 +1,15 @@
+Streaming Variational Inference for Bayesian Nonparametric Mixture
+  Models
+In theory, Bayesian nonparametric (BNP) models are well suited to streaming
+data scenarios due to their ability to adapt model complexity with the observed
+data. Unfortunately, such benefits have not been fully realized in practice;
+existing inference algorithms are either not applicable to streaming
+applications or not extensible to BNP models. For the special case of Dirichlet
+processes, streaming inference has been considered. However, there is growing
+interest in more flexible BNP models building on the class of normalized random
+measures (NRMs). We work within this general framework and present a streaming
+variational inference algorithm for NRM mixture models. Our algorithm is based
+on assumed density filtering (ADF), leading straightforwardly to expectation
+propagation (EP) for large-scale batch inference as well. We demonstrate the
+efficacy of the algorithm on clustering documents in large, streaming text
+corpora.

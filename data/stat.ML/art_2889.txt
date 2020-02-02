@@ -1,0 +1,21 @@
+Personalized Medical Treatments Using Novel Reinforcement Learning
+  Algorithms
+In both the fields of computer science and medicine there is very strong
+interest in developing personalized treatment policies for patients who have
+variable responses to treatments. In particular, I aim to find an optimal
+personalized treatment policy which is a non-deterministic function of the
+patient specific covariate data that maximizes the expected survival time or
+clinical outcome. I developed an algorithmic framework to solve multistage
+decision problem with a varying number of stages that are subject to censoring
+in which the "rewards" are expected survival times. In specific, I developed a
+novel Q-learning algorithm that dynamically adjusts for these parameters.
+Furthermore, I found finite upper bounds on the generalized error of the
+treatment paths constructed by this algorithm. I have also shown that when the
+optimal Q-function is an element of the approximation space, the anticipated
+survival times for the treatment regime constructed by the algorithm will
+converge to the optimal treatment path. I demonstrated the performance of the
+proposed algorithmic framework via simulation studies and through the analysis
+of chronic depression data and a hypothetical clinical trial. The censored
+Q-learning algorithm I developed is more effective than the state of the art
+clinical decision support systems and is able to operate in environments when
+many covariate parameters may be unobtainable or censored.

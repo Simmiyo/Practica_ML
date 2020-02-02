@@ -1,0 +1,7 @@
+Arc-Standard Spinal Parsing with Stack-LSTMs
+We present a neural transition-based parser for spinal trees, a dependency
+representation of constituent trees. The parser uses Stack-LSTMs that compose
+constituent nodes with dependency-based derivations. In experiments, we show
+that this model adapts to different styles of dependency relations, but this
+choice has little effect for predicting constituent structure, suggesting that
+LSTMs induce useful states by themselves.

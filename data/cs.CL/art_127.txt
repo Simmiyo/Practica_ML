@@ -1,0 +1,25 @@
+Probabilistic Constraint Logic Programming. Formal Foundations of
+  Quantitative and Statistical Inference in Constraint-Based Natural Language
+  Processing
+In this thesis, we present two approaches to a rigorous mathematical and
+algorithmic foundation of quantitative and statistical inference in
+constraint-based natural language processing. The first approach, called
+quantitative constraint logic programming, is conceptualized in a clear logical
+framework, and presents a sound and complete system of quantitative inference
+for definite clauses annotated with subjective weights. This approach combines
+a rigorous formal semantics for quantitative inference based on subjective
+weights with efficient weight-based pruning for constraint-based systems. The
+second approach, called probabilistic constraint logic programming, introduces
+a log-linear probability distribution on the proof trees of a constraint logic
+program and an algorithm for statistical inference of the parameters and
+properties of such probability models from incomplete, i.e., unparsed data. The
+possibility of defining arbitrary properties of proof trees as properties of
+the log-linear probability model and efficiently estimating appropriate
+parameter values for them permits the probabilistic modeling of arbitrary
+context-dependencies in constraint logic programs. The usefulness of these
+ideas is evaluated empirically in a small-scale experiment on finding the
+correct parses of a constraint-based grammar. In addition, we address the
+problem of computational intractability of the calculation of expectations in
+the inference task and present various techniques to approximately solve this
+task. Moreover, we present an approximate heuristic technique for searching for
+the most probable analysis in probabilistic constraint logic programs.

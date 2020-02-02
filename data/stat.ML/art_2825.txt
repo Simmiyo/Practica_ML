@@ -1,0 +1,9 @@
+Generalised Mixability, Constant Regret, and Bayesian Updating
+Mixability of a loss is known to characterise when constant regret bounds are
+achievable in games of prediction with expert advice through the use of Vovk's
+aggregating algorithm. We provide a new interpretation of mixability via convex
+analysis that highlights the role of the Kullback-Leibler divergence in its
+definition. This naturally generalises to what we call $\Phi$-mixability where
+the Bregman divergence $D_\Phi$ replaces the KL divergence. We prove that
+losses that are $\Phi$-mixable also enjoy constant regret bounds via a
+generalised aggregating algorithm that is similar to mirror descent.

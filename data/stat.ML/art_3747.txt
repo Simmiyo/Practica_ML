@@ -1,0 +1,12 @@
+GraphPrints: Towards a Graph Analytic Method for Network Anomaly
+  Detection
+This paper introduces a novel graph-analytic approach for detecting anomalies
+in network flow data called GraphPrints. Building on foundational
+network-mining techniques, our method represents time slices of traffic as a
+graph, then counts graphlets -- small induced subgraphs that describe local
+topology. By performing outlier detection on the sequence of graphlet counts,
+anomalous intervals of traffic are identified, and furthermore, individual IPs
+experiencing abnormal behavior are singled-out. Initial testing of GraphPrints
+is performed on real network data with an implanted anomaly. Evaluation shows
+false positive rates bounded by 2.84% at the time-interval level, and 0.05% at
+the IP-level with 100% true positive rates at both.

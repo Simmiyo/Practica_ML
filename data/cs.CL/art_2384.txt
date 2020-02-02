@@ -1,0 +1,13 @@
+Performing Stance Detection on Twitter Data using Computational
+  Linguistics Techniques
+As humans, we can often detect from a persons utterances if he or she is in
+favor of or against a given target entity (topic, product, another person,
+etc). But from the perspective of a computer, we need means to automatically
+deduce the stance of the tweeter, given just the tweet text. In this paper, we
+present our results of performing stance detection on twitter data using a
+supervised approach. We begin by extracting bag-of-words to perform
+classification using TIMBL, then try and optimize the features to improve
+stance detection accuracy, followed by extending the dataset with two sets of
+lexicons - arguing, and MPQA subjectivity; next we explore the MALT parser and
+construct features using its dependency triples, finally we perform analysis
+using Scikit-learn Random Forest implementation.

@@ -1,0 +1,11 @@
+Metrics for Probabilistic Geometries
+We investigate the geometrical structure of probabilistic generative
+dimensionality reduction models using the tools of Riemannian geometry. We
+explicitly define a distribution over the natural metric given by the models.
+We provide the necessary algorithms to compute expected metric tensors where
+the distribution over mappings is given by a Gaussian process. We treat the
+corresponding latent variable model as a Riemannian manifold and we use the
+expectation of the metric under the Gaussian process prior to define
+interpolating paths and measure distance between latent points. We show how
+distances that respect the expected metric lead to more appropriate generation
+of new data.

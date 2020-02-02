@@ -1,0 +1,18 @@
+Adaptive Ensemble Learning with Confidence Bounds
+Extracting actionable intelligence from distributed, heterogeneous,
+correlated and high-dimensional data sources requires run-time processing and
+learning both locally and globally. In the last decade, a large number of
+meta-learning techniques have been proposed in which local learners make online
+predictions based on their locally-collected data instances, and feed these
+predictions to an ensemble learner, which fuses them and issues a global
+prediction. However, most of these works do not provide performance guarantees
+or, when they do, these guarantees are asymptotic. None of these existing works
+provide confidence estimates about the issued predictions or rate of learning
+guarantees for the ensemble learner. In this paper, we provide a systematic
+ensemble learning method called Hedged Bandits, which comes with both long run
+(asymptotic) and short run (rate of learning) performance guarantees. Moreover,
+our approach yields performance guarantees with respect to the optimal local
+prediction strategy, and is also able to adapt its predictions in a data-driven
+manner. We illustrate the performance of Hedged Bandits in the context of
+medical informatics and show that it outperforms numerous online and offline
+ensemble learning methods.

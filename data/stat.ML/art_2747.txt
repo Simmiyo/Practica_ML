@@ -1,0 +1,21 @@
+Multi-Step-Ahead Time Series Prediction using Multiple-Output Support
+  Vector Regression
+Accurate time series prediction over long future horizons is challenging and
+of great interest to both practitioners and academics. As a well-known
+intelligent algorithm, the standard formulation of Support Vector Regression
+(SVR) could be taken for multi-step-ahead time series prediction, only relying
+either on iterated strategy or direct strategy. This study proposes a novel
+multiple-step-ahead time series prediction approach which employs
+multiple-output support vector regression (M-SVR) with multiple-input
+multiple-output (MIMO) prediction strategy. In addition, the rank of three
+leading prediction strategies with SVR is comparatively examined, providing
+practical implications on the selection of the prediction strategy for
+multi-step-ahead forecasting while taking SVR as modeling technique. The
+proposed approach is validated with the simulated and real datasets. The
+quantitative and comprehensive assessments are performed on the basis of the
+prediction accuracy and computational cost. The results indicate that: 1) the
+M-SVR using MIMO strategy achieves the best accurate forecasts with accredited
+computational load, 2) the standard SVR using direct strategy achieves the
+second best accurate forecasts, but with the most expensive computational cost,
+and 3) the standard SVR using iterated strategy is the worst in terms of
+prediction accuracy, but with the least computational cost.

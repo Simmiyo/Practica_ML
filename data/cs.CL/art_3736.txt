@@ -1,0 +1,13 @@
+Assessing Language Models with Scaling Properties
+Language models have primarily been evaluated with perplexity. While
+perplexity quantifies the most comprehensible prediction performance, it does
+not provide qualitative information on the success or failure of models.
+Another approach for evaluating language models is thus proposed, using the
+scaling properties of natural language. Five such tests are considered, with
+the first two accounting for the vocabulary population and the other three for
+the long memory of natural language. The following models were evaluated with
+these tests: n-grams, probabilistic context-free grammar (PCFG), Simon and
+Pitman-Yor (PY) processes, hierarchical PY, and neural language models. Only
+the neural language models exhibit the long memory properties of natural
+language, but to a limited degree. The effectiveness of every test of these
+models is also discussed.

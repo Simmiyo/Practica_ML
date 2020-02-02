@@ -1,0 +1,16 @@
+High Dimensional Data Modeling Techniques for Detection of Chemical
+  Plumes and Anomalies in Hyperspectral Images and Movies
+We briefly review recent progress in techniques for modeling and analyzing
+hyperspectral images and movies, in particular for detecting plumes of both
+known and unknown chemicals. For detecting chemicals of known spectrum, we
+extend the technique of using a single subspace for modeling the background to
+a "mixture of subspaces" model to tackle more complicated background.
+Furthermore, we use partial least squares regression on a resampled training
+set to boost performance. For the detection of unknown chemicals we view the
+problem as an anomaly detection problem, and use novel estimators with
+low-sampled complexity for intrinsically low-dimensional data in
+high-dimensions that enable us to model the "normal" spectra and detect
+anomalies. We apply these algorithms to benchmark data sets made available by
+the Automated Target Detection program co-funded by NSF, DTRA and NGA, and
+compare, when applicable, to current state-of-the-art algorithms, with
+favorable results.

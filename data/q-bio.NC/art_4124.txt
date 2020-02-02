@@ -1,0 +1,19 @@
+The neural ring: an algebraic tool for analyzing the intrinsic structure
+  of neural codes
+Neurons in the brain represent external stimuli via neural codes. These codes
+often arise from stereotyped stimulus-response maps, associating to each neuron
+a convex receptive field. An important problem confronted by the brain is to
+infer properties of a represented stimulus space without knowledge of the
+receptive fields, using only the intrinsic structure of the neural code. How
+does the brain do this? To address this question, it is important to determine
+what stimulus space features can - in principle - be extracted from neural
+codes. This motivates us to define the neural ring and a related neural ideal,
+algebraic objects that encode the full combinatorial data of a neural code. Our
+main finding is that these objects can be expressed in a "canonical form" that
+directly translates to a minimal description of the receptive field structure
+intrinsic to the code. We also find connections to Stanley-Reisner rings, and
+use ideas similar to those in the theory of monomial ideals to obtain an
+algorithm for computing the primary decomposition of pseudo-monomial ideals.
+This allows us to algorithmically extract the canonical form associated to any
+neural code, providing the groundwork for inferring stimulus space features
+from neural activity alone.

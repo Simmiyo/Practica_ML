@@ -1,0 +1,14 @@
+Patterns of Scalable Bayesian Inference
+Datasets are growing not just in size but in complexity, creating a demand
+for rich models and quantification of uncertainty. Bayesian methods are an
+excellent fit for this demand, but scaling Bayesian inference is a challenge.
+In response to this challenge, there has been considerable recent work based on
+varying assumptions about model structure, underlying computational resources,
+and the importance of asymptotic correctness. As a result, there is a zoo of
+ideas with few clear overarching principles.
+  In this paper, we seek to identify unifying principles, patterns, and
+intuitions for scaling Bayesian inference. We review existing work on utilizing
+modern computing resources with both MCMC and variational approximation
+techniques. From this taxonomy of ideas, we characterize the general principles
+that have proven successful for designing scalable inference procedures and
+comment on the path forward.

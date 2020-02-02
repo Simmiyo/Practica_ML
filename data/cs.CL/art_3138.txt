@@ -1,0 +1,12 @@
+Revisiting the Design Issues of Local Models for Japanese
+  Predicate-Argument Structure Analysis
+The research trend in Japanese predicate-argument structure (PAS) analysis is
+shifting from pointwise prediction models with local features to global models
+designed to search for globally optimal solutions. However, the existing global
+models tend to employ only relatively simple local features; therefore, the
+overall performance gains are rather limited. The importance of designing a
+local model is demonstrated in this study by showing that the performance of a
+sophisticated local model can be considerably improved with recent feature
+embedding methods and a feature combination learning based on a neural network,
+outperforming the state-of-the-art global models in $F_1$ on a common benchmark
+dataset.

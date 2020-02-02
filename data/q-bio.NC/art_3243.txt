@@ -1,0 +1,19 @@
+Construction and Evaluation of Hierarchical Parcellation of the Brain
+  using fMRI with Prewhitening
+Brain atlases are a ubiquitous tool used for analyzing and interpreting brain
+imaging datasets. Traditionally, brain atlases divided the brain into regions
+separated by anatomical landmarks. In the last decade, several attempts have
+been made to parcellate the brain into regions with distinct functional
+activity using fMRI. To construct a brain atlas using fMRI, data driven
+algorithms are used to group voxels with similar functional activity together
+to form regions. Hierarchical clustering is one parcellation method that has
+been used for functional parcellation of the brain, resulting in parcellations
+that align well with cytoarchitectonic divisions of the brain. However, few
+rigorous data driven evaluations of the method have been performed. Moreover,
+the effect of removing autocorrelation trends from fMRI time series
+(prewhitening) on the structure of the resultant atlas has not been previously
+explored. In this paper, we use hierarchical clustering to produce functional
+parcellations of the brain using hierarchical clustering. We use both
+prewhitened and raw fMRI time series to construct the atlas. The resultant
+atlases were then evaluated for their homogeneity, separation between regions,
+reproducibility across subjects, and reproducibility across scans.

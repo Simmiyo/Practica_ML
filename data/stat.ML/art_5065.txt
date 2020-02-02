@@ -1,0 +1,16 @@
+Tuning the Scheduling of Distributed Stochastic Gradient Descent with
+  Bayesian Optimization
+We present an optimizer which uses Bayesian optimization to tune the system
+parameters of distributed stochastic gradient descent (SGD). Given a specific
+context, our goal is to quickly find efficient configurations which
+appropriately balance the load between the available machines to minimize the
+average SGD iteration time. Our experiments consider setups with over thirty
+parameters. Traditional Bayesian optimization, which uses a Gaussian process as
+its model, is not well suited to such high dimensional domains. To reduce
+convergence time, we exploit the available structure. We design a probabilistic
+model which simulates the behavior of distributed SGD and use it within
+Bayesian optimization. Our model can exploit many runtime measurements for
+inference per evaluation of the objective function. Our experiments show that
+our resulting optimizer converges to efficient configurations within ten
+iterations, the optimized configurations outperform those found by generic
+optimizer in thirty iterations by up to 2X.

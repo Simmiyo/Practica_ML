@@ -1,0 +1,23 @@
+Double/Debiased Machine Learning for Treatment and Causal Parameters
+Most modern supervised statistical/machine learning (ML) methods are
+explicitly designed to solve prediction problems very well. Achieving this goal
+does not imply that these methods automatically deliver good estimators of
+causal parameters. Examples of such parameters include individual regression
+coefficients, average treatment effects, average lifts, and demand or supply
+elasticities. In fact, estimates of such causal parameters obtained via naively
+plugging ML estimators into estimating equations for such parameters can behave
+very poorly due to the regularization bias. Fortunately, this regularization
+bias can be removed by solving auxiliary prediction problems via ML tools.
+Specifically, we can form an orthogonal score for the target low-dimensional
+parameter by combining auxiliary and main ML predictions. The score is then
+used to build a de-biased estimator of the target parameter which typically
+will converge at the fastest possible 1/root(n) rate and be approximately
+unbiased and normal, and from which valid confidence intervals for these
+parameters of interest may be constructed. The resulting method thus could be
+called a "double ML" method because it relies on estimating primary and
+auxiliary predictive models. In order to avoid overfitting, our construction
+also makes use of the K-fold sample splitting, which we call cross-fitting.
+This allows us to use a very broad set of ML predictive methods in solving the
+auxiliary and main prediction problems, such as random forest, lasso, ridge,
+deep neural nets, boosted trees, as well as various hybrids and aggregators of
+these methods.

@@ -1,0 +1,20 @@
+Family of closed-form solutions for two-dimensional correlated diffusion
+  processes
+Diffusion processes with boundaries are models of transport phenomena with
+wide applicability across many fields. These processes are described by their
+probability density functions (PDFs), which often obey Fokker-Planck equations
+(FPEs). While obtaining analytical solutions is often possible in the absence
+of boundaries, obtaining closed-form solutions to the FPE is more challenging
+once absorbing boundaries are present. As a result, analyses of these processes
+have largely relied on approximations or direct simulations. In this paper, we
+studied two-dimensional, time-homogeneous, spatially-correlated diffusion with
+linear, axis-aligned, absorbing boundaries. Our main result is the explicit
+construction of a full family of closed-form solutions for their PDFs using the
+method of images (MoI). We found that such solutions can be built if and only
+if the correlation coefficient $\rho$ between the two diffusing processes takes
+one of a numerable set of values. Using a geometric argument, we derived the
+complete set of $\rho$'s where such solutions can be found. Solvable $\rho$'s
+are given by $\rho = - \cos \left( \frac{\pi}{k} \right)$, where $k \in
+\mathbb{Z}^+ \cup \{ +\infty\}$. Solutions were validated in simulations.
+Qualitative behaviors of the process appear to vary smoothly over $\rho$,
+allowing extrapolation from our solutions to cases with unsolvable $\rho$'s.

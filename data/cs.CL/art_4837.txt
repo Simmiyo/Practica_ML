@@ -1,0 +1,13 @@
+Event Coreference Resolution Using Neural Network Classifiers
+This paper presents a neural network classifier approach to detecting both
+within- and cross- document event coreference effectively using only event
+mention based features. Our approach does not (yet) rely on any event argument
+features such as semantic roles or spatiotemporal arguments. Experimental
+results on the ECB+ dataset show that our approach produces F1 scores that
+significantly outperform the state-of-the-art methods for both within-document
+and cross-document event coreference resolution when we use B3 and CEAFe
+evaluation measures, but gets worse F1 score with the MUC measure. However,
+when we use the CoNLL measure, which is the average of these three scores, our
+approach has slightly better F1 for within- document event coreference
+resolution but is significantly better for cross-document event coreference
+resolution.

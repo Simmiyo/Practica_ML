@@ -1,0 +1,15 @@
+Effective Slot Filling Based on Shallow Distant Supervision Methods
+Spoken Language Systems at Saarland University (LSV) participated this year
+with 5 runs at the TAC KBP English slot filling track. Effective algorithms for
+all parts of the pipeline, from document retrieval to relation prediction and
+response post-processing, are bundled in a modular end-to-end relation
+extraction system called RelationFactory. The main run solely focuses on
+shallow techniques and achieved significant improvements over LSV's last year's
+system, while using the same training data and patterns. Improvements mainly
+have been obtained by a feature representation focusing on surface skip n-grams
+and improved scoring for extracted distant supervision patterns. Important
+factors for effective extraction are the training and tuning scheme for distant
+supervision classifiers, and the query expansion by a translation model based
+on Wikipedia links. In the TAC KBP 2013 English Slotfilling evaluation, the
+submitted main run of the LSV RelationFactory system achieved the top-ranked
+F1-score of 37.3%.

@@ -1,0 +1,15 @@
+Bigeometric Organization of Deep Nets
+In this paper, we build an organization of high-dimensional datasets that
+cannot be cleanly embedded into a low-dimensional representation due to missing
+entries and a subset of the features being irrelevant to modeling functions of
+interest. Our algorithm begins by defining coarse neighborhoods of the points
+and defining an expected empirical function value on these neighborhoods. We
+then generate new non-linear features with deep net representations tuned to
+model the approximate function, and re-organize the geometry of the points with
+respect to the new representation. Finally, the points are locally z-scored to
+create an intrinsic geometric organization which is independent of the
+parameters of the deep net, a geometry designed to assure smoothness with
+respect to the empirical function. We examine this approach on data from the
+Center for Medicare and Medicaid Services Hospital Quality Initiative, and
+generate an intrinsic low-dimensional organization of the hospitals that is
+smooth with respect to an expert driven function of quality.

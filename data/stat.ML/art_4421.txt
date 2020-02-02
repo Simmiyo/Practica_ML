@@ -1,0 +1,15 @@
+JADE: Joint Autoencoders for Dis-Entanglement
+The problem of feature disentanglement has been explored in the literature,
+for the purpose of image and video processing and text analysis.
+State-of-the-art methods for disentangling feature representations rely on the
+presence of many labeled samples. In this work, we present a novel method for
+disentangling factors of variation in data-scarce regimes. Specifically, we
+explore the application of feature disentangling for the problem of supervised
+classification in a setting where few labeled samples exist, and there are no
+unlabeled samples for use in unsupervised training. Instead, a similar datasets
+exists which shares at least one direction of variation with the
+sample-constrained datasets. We train our model end-to-end using the framework
+of variational autoencoders and are able to experimentally demonstrate that
+using an auxiliary dataset with similar variation factors contribute positively
+to classification performance, yielding competitive results with the
+state-of-the-art in unsupervised learning.

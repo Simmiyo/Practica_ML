@@ -1,0 +1,18 @@
+Quantum repeaters based on entanglement purification
+We study the use of entanglement purification for quantum communication over
+long distances. For distances much longer than the coherence length of a
+corresponding noisy quantum channel, the fidelity of transmission is usually so
+low that standard purification methods are not applicable. It is however
+possible to divide the channel into shorter segments that are purified
+separately and then connected by the method of entanglement swapping. This
+method can be much more efficient than schemes based on quantum error
+correction, as it makes explicit use of two-way classical communication. An
+important question is how the noise, introduced by imperfect local operations
+(that constitute the protocols of purification and the entanglement swapping),
+accumulates in such a compound channel, and how it can be kept below a certain
+noise level. To treat this problem, we first study the applicability and the
+efficiency of entanglement purification protocols in the situation of imperfect
+local operations. We then present a scheme that allows entanglement
+purification over arbitrary long channels and tolerates errors on the per-cent
+level. It requires a polynomial overhead in time, and an overhead in local
+resources that grows only logarithmically with the length of the channel.

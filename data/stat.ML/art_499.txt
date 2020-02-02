@@ -1,0 +1,20 @@
+The NLMS algorithm with time-variant optimum stepsize derived from a
+  Bayesian network perspective
+In this article, we derive a new stepsize adaptation for the normalized least
+mean square algorithm (NLMS) by describing the task of linear acoustic echo
+cancellation from a Bayesian network perspective. Similar to the well-known
+Kalman filter equations, we model the acoustic wave propagation from the
+loudspeaker to the microphone by a latent state vector and define a linear
+observation equation (to model the relation between the state vector and the
+observation) as well as a linear process equation (to model the temporal
+progress of the state vector). Based on additional assumptions on the
+statistics of the random variables in observation and process equation, we
+apply the expectation-maximization (EM) algorithm to derive an NLMS-like filter
+adaptation. By exploiting the conditional independence rules for Bayesian
+networks, we reveal that the resulting EM-NLMS algorithm has a stepsize update
+equivalent to the optimal-stepsize calculation proposed by Yamamoto and
+Kitayama in 1982, which has been adopted in many textbooks. As main difference,
+the instantaneous stepsize value is estimated in the M step of the EM algorithm
+(instead of being approximated by artificially extending the acoustic echo
+path). The EM-NLMS algorithm is experimentally verified for synthesized
+scenarios with both, white noise and male speech as input signal.

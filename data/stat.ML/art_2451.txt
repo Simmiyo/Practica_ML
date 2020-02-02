@@ -1,0 +1,17 @@
+Variational Semi-blind Sparse Deconvolution with Orthogonal Kernel Bases
+  and its Application to MRFM
+We present a variational Bayesian method of joint image reconstruction and
+point spread function (PSF) estimation when the PSF of the imaging device is
+only partially known. To solve this semi-blind deconvolution problem, prior
+distributions are specified for the PSF and the 3D image. Joint image
+reconstruction and PSF estimation is then performed within a Bayesian
+framework, using a variational algorithm to estimate the posterior
+distribution. The image prior distribution imposes an explicit atomic measure
+that corresponds to image sparsity. Importantly, the proposed Bayesian
+deconvolution algorithm does not require hand tuning. Simulation results
+clearly demonstrate that the semi-blind deconvolution algorithm compares
+favorably with previous Markov chain Monte Carlo (MCMC) version of myopic
+sparse reconstruction. It significantly outperforms mismatched non-blind
+algorithms that rely on the assumption of the perfect knowledge of the PSF. The
+algorithm is illustrated on real data from magnetic resonance force microscopy
+(MRFM).

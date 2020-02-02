@@ -1,0 +1,17 @@
+Swift Two-sample Test on High-dimensional Neural Spiking Data
+To understand how neural networks process information, it is important to
+investigate how neural network dynamics varies with respect to different
+stimuli. One challenging task is to design efficient statistical approaches to
+analyze multiple spike train data obtained from a short recording time. Based
+on the development of high-dimensional statistical methods, it is able to deal
+with data whose dimension is much larger than the sample size. However, these
+methods often require statistically independent samples to start with, while
+neural data are correlated over consecutive sampling time bins. We develop an
+approach to pretreat neural data to become independent samples over time by
+transferring the correlation of dynamics for each neuron in different sampling
+time bins into the correlation of dynamics among different dimensions within
+each sampling time bin. We verify the method using simulation data generated
+from Integrate-and-fire neuron network models and a large-scale network model
+of primary visual cortex within a short time, e.g., a few seconds. Our method
+may offer experimenters to use the advantage of the development of statistical
+methods to analyze high-dimensional neural data.

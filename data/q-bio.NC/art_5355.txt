@@ -1,0 +1,26 @@
+fMRI Based Cerebral Instantaneous Parameters for Automatic Alzheimer's,
+  Mild Cognitive Impairment and Healthy Subject Classification
+Automatic identification and categorization of Alzheimer's patients and the
+ability to distinguish between different levels of this disease can be very
+helpful to the research community in this field, since other non-automatic
+approaches are very time-consuming and are highly dependent on experts'
+experience. Herein, we propose the utility of cerebral instantaneous phase and
+envelope information in order to discriminate between Alzheimer's patients, MCI
+subjects and healthy normal individuals from functional magnetic resonance
+imaging (fMRI) data. To this end, after performing the region-of-interest (ROI)
+analysis on fMRI data, different features covering power, entropy and coherency
+aspects of data are derived from instantaneous phase and envelope sequences of
+ROI signals. Various sets of features are calculated and fed to a sequential
+forward floating feature selection (SFFFS) to choose the most discriminative
+and informative sets of features. A Student's t-test has been used to select
+the most relevant features from chosen sets. Finally, a K-NN classifier is used
+to distinguish between classes in a three-class categorization problem. The
+reported performance in overall accuracy using fMRI data of 111 combined
+subjects, is 80.1% with 80.0% Sensitivity to both Alzheimer's and Normal
+categories distinction and is comparable to the state-of-the-art approaches
+recently proposed in this regard. The significance of obtained results was
+statistically confirmed by evaluating through standard classification
+performance indicators. The obtained results illustrate that introduced
+analytic phase and envelope feature indexes derived from the ROI signals are
+significantly discriminative in distinguishing between Alzheimer's patients and
+Normal healthy subject.

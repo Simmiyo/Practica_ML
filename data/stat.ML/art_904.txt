@@ -1,0 +1,12 @@
+Bayesian Semisupervised Learning with Deep Generative Models
+Neural network based generative models with discriminative components are a
+powerful approach for semi-supervised learning. However, these techniques a)
+cannot account for model uncertainty in the estimation of the model's
+discriminative component and b) lack flexibility to capture complex stochastic
+patterns in the label generation process. To avoid these problems, we first
+propose to use a discriminative component with stochastic inputs for increased
+noise flexibility. We show how an efficient Gibbs sampling procedure can
+marginalize the stochastic inputs when inferring missing labels in this model.
+Following this, we extend the discriminative component to be fully Bayesian and
+produce estimates of uncertainty in its parameter values. This opens the door
+for semi-supervised Bayesian active learning.

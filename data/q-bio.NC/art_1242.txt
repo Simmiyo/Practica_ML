@@ -1,0 +1,17 @@
+Large Deviation Theory for Parameter Estimation in Simple Neuron Models
+To investigate the complex dynamics of a biological neuron that is subject to
+small random perturbations we can use stochastic neuron models. While many
+techniques have already been developed to study properties of such models,
+especially the analysis of the (expected) first-passage time or (E)FPT remains
+difficult. In this thesis I apply the large deviation theory (LDT), which is
+already well-established in physics and finance, to the problem of determining
+the EFPT of the mean-reverting Ornstein-Uhlenbeck (OU) process. The OU process
+instantiates the Stochastic Leaky Integrate and Fire model and thus serves as
+an example of a biologically inspired mathematical neuron model. I derive
+several classical results using much simpler mathematics than the original
+publications from neuroscience and I provide a few conceivable interpretations
+and perspectives on these derivations. Using these results I explore some
+possible applications for parameter estimation and I provide an additional
+mathematical justification for using a Poisson process as a small-noise
+approximation of the full model. Finally I perform several simulations to
+verify these results and to reveal systematic biases of this estimator.

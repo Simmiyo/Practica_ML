@@ -1,0 +1,24 @@
+Learning Parameters for Weighted Matrix Completion via Empirical
+  Estimation
+Recently theoretical guarantees have been obtained for matrix completion in
+the non-uniform sampling regime. In particular, if the sampling distribution
+aligns with the underlying matrix's leverage scores, then with high probability
+nuclear norm minimization will exactly recover the low rank matrix. In this
+article, we analyze the scenario in which the non-uniform sampling distribution
+may or may not not align with the underlying matrix's leverage scores. Here we
+explore learning the parameters for weighted nuclear norm minimization in terms
+of the empirical sampling distribution. We provide a sufficiency condition for
+these learned weights which provide an exact recovery guarantee for weighted
+nuclear norm minimization. It has been established that a specific choice of
+weights in terms of the true sampling distribution not only allows for weighted
+nuclear norm minimization to exactly recover the low rank matrix, but also
+allows for a quantifiable relaxation in the exact recovery conditions. In this
+article we extend this quantifiable relaxation in exact recovery conditions for
+a specific choice of weights defined analogously in terms of the empirical
+distribution as opposed to the true sampling distribution. To accomplish this
+we employ a concentration of measure bound and a large deviation bound. We also
+present numerical evidence for the healthy robustness of the weighted nuclear
+norm minimization algorithm to the choice of empirically learned weights. These
+numerical experiments show that for a variety of easily computable empirical
+weights, weighted nuclear norm minimization outperforms unweighted nuclear norm
+minimization in the non-uniform sampling regime.

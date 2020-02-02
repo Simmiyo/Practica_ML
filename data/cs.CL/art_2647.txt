@@ -1,0 +1,18 @@
+Use of Knowledge Graph in Rescoring the N-Best List in Automatic Speech
+  Recognition
+With the evolution of neural network based methods, automatic speech
+recognition (ASR) field has been advanced to a level where building an
+application with speech interface is a reality. In spite of these advances,
+building a real-time speech recogniser faces several problems such as low
+recognition accuracy, domain constraint, and out-of-vocabulary words. The low
+recognition accuracy problem is addressed by improving the acoustic model,
+language model, decoder and by rescoring the N-best list at the output of the
+decoder. We are considering the N-best list rescoring approach to improve the
+recognition accuracy. Most of the methods in the literature use the
+grammatical, lexical, syntactic and semantic connection between the words in a
+recognised sentence as a feature to rescore. In this paper, we have tried to
+see the semantic relatedness between the words in a sentence to rescore the
+N-best list. Semantic relatedness is computed using
+TransE~\cite{bordes2013translating}, a method for low dimensional embedding of
+a triple in a knowledge graph. The novelty of the paper is the application of
+semantic web to automatic speech recognition.

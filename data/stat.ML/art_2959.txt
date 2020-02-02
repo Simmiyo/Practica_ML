@@ -1,0 +1,13 @@
+Matrix Coherence and the Nystrom Method
+The Nystrom method is an efficient technique used to speed up large-scale
+learning applications by generating low-rank approximations. Crucial to the
+performance of this technique is the assumption that a matrix can be well
+approximated by working exclusively with a subset of its columns. In this work
+we relate this assumption to the concept of matrix coherence, connecting
+coherence to the performance of the Nystrom method. Making use of related work
+in the compressed sensing and the matrix completion literature, we derive novel
+coherence-based bounds for the Nystrom method in the low-rank setting. We then
+present empirical results that corroborate these theoretical bounds. Finally,
+we present more general empirical results for the full-rank setting that
+convincingly demonstrate the ability of matrix coherence to measure the degree
+to which information can be extracted from a subset of columns.

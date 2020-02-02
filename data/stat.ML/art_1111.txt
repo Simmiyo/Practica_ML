@@ -1,0 +1,19 @@
+Robust Volume Minimization-Based Matrix Factorization for Remote Sensing
+  and Document Clustering
+This paper considers \emph{volume minimization} (VolMin)-based structured
+matrix factorization (SMF). VolMin is a factorization criterion that decomposes
+a given data matrix into a basis matrix times a structured coefficient matrix
+via finding the minimum-volume simplex that encloses all the columns of the
+data matrix. Recent work showed that VolMin guarantees the identifiability of
+the factor matrices under mild conditions that are realistic in a wide variety
+of applications. This paper focuses on both theoretical and practical aspects
+of VolMin. On the theory side, exact equivalence of two independently developed
+sufficient conditions for VolMin identifiability is proven here, thereby
+providing a more comprehensive understanding of this aspect of VolMin. On the
+algorithm side, computational complexity and sensitivity to outliers are two
+key challenges associated with real-world applications of VolMin. These are
+addressed here via a new VolMin algorithm that handles volume regularization in
+a computationally simple way, and automatically detects and {iteratively
+downweights} outliers, simultaneously. Simulations and real-data experiments
+using a remotely sensed hyperspectral image and the Reuters document corpus are
+employed to showcase the effectiveness of the proposed algorithm.

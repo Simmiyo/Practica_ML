@@ -1,0 +1,17 @@
+Towards Unsupervised Automatic Speech Recognition Trained by Unaligned
+  Speech and Text only
+Automatic speech recognition (ASR) has been widely researched with supervised
+approaches, while many low-resourced languages lack audio-text aligned data,
+and supervised methods cannot be applied on them.
+  In this work, we propose a framework to achieve unsupervised ASR on a read
+English speech dataset, where audio and text are unaligned. In the first stage,
+each word-level audio segment in the utterances is represented by a vector
+representation extracted by a sequence-of-sequence autoencoder, in which
+phonetic information and speaker information are disentangled.
+  Secondly, semantic embeddings of audio segments are trained from the vector
+representations using a skip-gram model. Last but not the least, an
+unsupervised method is utilized to transform semantic embeddings of audio
+segments to text embedding space, and finally the transformed embeddings are
+mapped to words.
+  With the above framework, we are towards unsupervised ASR trained by
+unaligned text and speech only.

@@ -1,0 +1,16 @@
+Rapid, parallel path planning by propagating wavefronts of spiking
+  neural activity
+Efficient path planning and navigation is critical for animals, robotics,
+logistics and transportation. We study a model in which spatial navigation
+problems can rapidly be solved in the brain by parallel mental exploration of
+alternative routes using propagating waves of neural activity. A wave of
+spiking activity propagates through a hippocampus-like network, altering the
+synaptic connectivity. The resulting vector field of synaptic change then
+guides a simulated animal to the appropriate selected target locations. We
+demonstrate that the navigation problem can be solved using realistic, local
+synaptic plasticity rules during a single passage of a wavefront. Our model can
+find optimal solutions for competing possible targets or learn and navigate in
+multiple environments. The model provides a hypothesis on the possible
+computational mechanisms for optimal path planning in the brain, at the same
+time it is useful for neuromorphic implementations, where the parallelism of
+information processing proposed here can fully be harnessed in hardware.

@@ -1,0 +1,26 @@
+Information Directed Sampling and Bandits with Heteroscedastic Noise
+In the stochastic bandit problem, the goal is to maximize an unknown function
+via a sequence of noisy evaluations. Typically, the observation noise is
+assumed to be independent of the evaluation point and to satisfy a tail bound
+uniformly on the domain; a restrictive assumption for many applications. In
+this work, we consider bandits with heteroscedastic noise, where we explicitly
+allow the noise distribution to depend on the evaluation point. We show that
+this leads to new trade-offs for information and regret, which are not taken
+into account by existing approaches like upper confidence bound algorithms
+(UCB) or Thompson Sampling. To address these shortcomings, we introduce a
+frequentist regret analysis framework, that is similar to the Bayesian
+framework of Russo and Van Roy (2014), and we prove a new high-probability
+regret bound for general, possibly randomized policies, which depends on a
+quantity we refer to as regret-information ratio. From this bound, we define a
+frequentist version of Information Directed Sampling (IDS) to minimize the
+regret-information ratio over all possible action sampling distributions. This
+further relies on concentration inequalities for online least squares
+regression in separable Hilbert spaces, which we generalize to the case of
+heteroscedastic noise. We then formulate several variants of IDS for linear and
+reproducing kernel Hilbert space response functions, yielding novel algorithms
+for Bayesian optimization. We also prove frequentist regret bounds, which in
+the homoscedastic case recover known bounds for UCB, but can be much better
+when the noise is heteroscedastic. Empirically, we demonstrate in a linear
+setting with heteroscedastic noise, that some of our methods can outperform UCB
+and Thompson Sampling, while staying competitive when the noise is
+homoscedastic.

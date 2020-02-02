@@ -1,0 +1,14 @@
+Adaptive Reconfiguration Moves for Dirichlet Mixtures
+Bayesian mixture models are widely applied for unsupervised learning and
+exploratory data analysis. Markov chain Monte Carlo based on Gibbs sampling and
+split-merge moves are widely used for inference in these models. However, both
+methods are restricted to limited types of transitions and suffer from torpid
+mixing and low accept rates even for problems of modest size. We propose a
+method that considers a broader range of transitions that are close to
+equilibrium by exploiting multiple chains in parallel and using the past states
+adaptively to inform the proposal distribution. The method significantly
+improves on Gibbs and split-merge sampling as quantified using convergence
+diagnostics and acceptance rates. Adaptive MCMC methods which use past states
+to inform the proposal distribution has given rise to many ingenious sampling
+schemes for continuous problems and the present work can be seen as an
+important first step in bringing these benefits to partition-based problems

@@ -1,0 +1,17 @@
+Median-Truncated Nonconvex Approach for Phase Retrieval with Outliers
+This paper investigates the phase retrieval problem, which aims to recover a
+signal from the magnitudes of its linear measurements. We develop statistically
+and computationally efficient algorithms for the situation when the
+measurements are corrupted by sparse outliers that can take arbitrary values.
+We propose a novel approach to robustify the gradient descent algorithm by
+using the sample median as a guide for pruning spurious samples in
+initialization and local search. Adopting the Poisson loss and the reshaped
+quadratic loss respectively, we obtain two algorithms termed median-TWF and
+median-RWF, both of which provably recover the signal from a near-optimal
+number of measurements when the measurement vectors are composed of i.i.d.
+Gaussian entries, up to a logarithmic factor, even when a constant fraction of
+the measurements are adversarially corrupted. We further show that both
+algorithms are stable in the presence of additional dense bounded noise. Our
+analysis is accomplished by developing non-trivial concentration results of
+median-related quantities, which may be of independent interest. We provide
+numerical experiments to demonstrate the effectiveness of our approach.

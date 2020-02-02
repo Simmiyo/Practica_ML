@@ -1,0 +1,19 @@
+Gaussian Mixture Models with Component Means Constrained in Pre-selected
+  Subspaces
+We investigate a Gaussian mixture model (GMM) with component means
+constrained in a pre-selected subspace. Applications to classification and
+clustering are explored. An EM-type estimation algorithm is derived. We prove
+that the subspace containing the component means of a GMM with a common
+covariance matrix also contains the modes of the density and the class means.
+This motivates us to find a subspace by applying weighted principal component
+analysis to the modes of a kernel density and the class means. To circumvent
+the difficulty of deciding the kernel bandwidth, we acquire multiple subspaces
+from the kernel densities based on a sequence of bandwidths. The GMM
+constrained by each subspace is estimated; and the model yielding the maximum
+likelihood is chosen. A dimension reduction property is proved in the sense of
+being informative for classification or clustering. Experiments on real and
+simulated data sets are conducted to examine several ways of determining the
+subspace and to compare with the reduced rank mixture discriminant analysis
+(MDA). Our new method with the simple technique of spanning the subspace only
+by class means often outperforms the reduced rank MDA when the subspace
+dimension is very low, making it particularly appealing for visualization.

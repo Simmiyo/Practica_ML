@@ -1,0 +1,14 @@
+Factorization of Language Models through Backing-Off Lattices
+Factorization of statistical language models is the task that we resolve the
+most discriminative model into factored models and determine a new model by
+combining them so as to provide better estimate. Most of previous works mainly
+focus on factorizing models of sequential events, each of which allows only one
+factorization manner. To enable parallel factorization, which allows a model
+event to be resolved in more than one ways at the same time, we propose a
+general framework, where we adopt a backing-off lattice to reflect parallel
+factorizations and to define the paths along which a model is resolved into
+factored models, we use a mixture model to combine parallel paths in the
+lattice, and generalize Katz's backing-off method to integrate all the mixture
+models got by traversing the entire lattice. Based on this framework, we
+formulate two types of model factorizations that are used in natural language
+modeling.

@@ -1,0 +1,19 @@
+Ultra High-Dimensional Nonlinear Feature Selection for Big Biological
+  Data
+Machine learning methods are used to discover complex nonlinear relationships
+in biological and medical data. However, sophisticated learning models are
+computationally unfeasible for data with millions of features. Here we
+introduce the first feature selection method for nonlinear learning problems
+that can scale up to large, ultra-high dimensional biological data. More
+specifically, we scale up the novel Hilbert-Schmidt Independence Criterion
+Lasso (HSIC Lasso) to handle millions of features with tens of thousand
+samples. The proposed method is guaranteed to find an optimal subset of
+maximally predictive features with minimal redundancy, yielding higher
+predictive power and improved interpretability. Its effectiveness is
+demonstrated through applications to classify phenotypes based on module
+expression in human prostate cancer patients and to detect enzymes among
+protein structures. We achieve high accuracy with as few as 20 out of one
+million features --- a dimensionality reduction of 99.998%. Our algorithm can
+be implemented on commodity cloud computing platforms. The dramatic reduction
+of features may lead to the ubiquitous deployment of sophisticated prediction
+models in mobile health care applications.

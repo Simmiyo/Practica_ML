@@ -1,0 +1,17 @@
+A Deep Reinforced Sequence-to-Set Model for Multi-Label Text
+  Classification
+Multi-label text classification (MLTC) aims to assign multiple labels to each
+sample in the dataset. The labels usually have internal correlations. However,
+traditional methods tend to ignore the correlations between labels. In order to
+capture the correlations between labels, the sequence-to-sequence (Seq2Seq)
+model views the MLTC task as a sequence generation problem, which achieves
+excellent performance on this task. However, the Seq2Seq model is not suitable
+for the MLTC task in essence. The reason is that it requires humans to
+predefine the order of the output labels, while some of the output labels in
+the MLTC task are essentially an unordered set rather than an ordered sequence.
+This conflicts with the strict requirement of the Seq2Seq model for the label
+order. In this paper, we propose a novel sequence-to-set framework utilizing
+deep reinforcement learning, which not only captures the correlations between
+labels, but also reduces the dependence on the label order. Extensive
+experimental results show that our proposed method outperforms the competitive
+baselines by a large margin.

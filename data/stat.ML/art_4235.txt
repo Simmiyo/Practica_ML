@@ -1,0 +1,17 @@
+Reexamining Low Rank Matrix Factorization for Trace Norm Regularization
+Trace norm regularization is a widely used approach for learning low rank
+matrices. A standard optimization strategy is based on formulating the problem
+as one of low rank matrix factorization which, however, leads to a non-convex
+problem. In practice this approach works well, and it is often computationally
+faster than standard convex solvers such as proximal gradient methods.
+Nevertheless, it is not guaranteed to converge to a global optimum, and the
+optimization can be trapped at poor stationary points. In this paper we show
+that it is possible to characterize all critical points of the non-convex
+problem. This allows us to provide an efficient criterion to determine whether
+a critical point is also a global minimizer. Our analysis suggests an iterative
+meta-algorithm that dynamically expands the parameter space and allows the
+optimization to escape any non-global critical point, thereby converging to a
+global minimizer. The algorithm can be applied to problems such as matrix
+completion or multitask learning, and our analysis holds for any random
+initialization of the factor matrices. Finally, we confirm the good performance
+of the algorithm on synthetic and real datasets.

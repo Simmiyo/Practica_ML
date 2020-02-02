@@ -1,0 +1,12 @@
+Solving Sinhala Language Arithmetic Problems using Neural Networks
+A methodology is presented to solve Arithmetic problems in Sinhala Language
+using a Neural Network. The system comprises of (a) keyword identification, (b)
+question identification, (c) mathematical operation identification and is
+combined using a neural network. Naive Bayes Classification is used in order to
+identify keywords and Conditional Random Field to identify the question and the
+operation which should be performed on the identified keywords to achieve the
+expected result. "One vs. all Classification" is done using a neural network
+for sentences. All functions are combined through the neural network which
+builds an equation to solve the problem. The paper compares each methodology in
+ARIS and Mahoshadha to the method presented in the paper. Mahoshadha2 learns to
+solve arithmetic problems with the accuracy of 76%.

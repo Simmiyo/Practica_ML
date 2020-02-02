@@ -1,0 +1,17 @@
+Optimal simulation of two-qubit Hamiltonians using general local
+  operations
+We consider the simulation of the dynamics of one nonlocal Hamiltonian by
+another, allowing arbitrary local resources but no entanglement nor classical
+communication. We characterize notions of simulation, and proceed to focus on
+deterministic simulation involving one copy of the system. More specifically,
+two otherwise isolated systems $A$ and $B$ interact by a nonlocal Hamiltonian
+$H \neq H_A+H_B$. We consider the achievable space of Hamiltonians $H'$ such
+that the evolution $e^{-iH't}$ can be simulated by the interaction $H$
+interspersed with local operations. For any dimensions of $A$ and $B$, and any
+nonlocal Hamiltonians $H$ and $H'$, there exists a scale factor $s$ such that
+for all times $t$ the evolution $e^{-iH'st}$ can be simulated by $H$ acting for
+time $t$ interspersed with local operations. For 2-qubit Hamiltonians $H$ and
+$H'$, we calculate the optimal $s$ and give protocols achieving it. The optimal
+protocols do not require local ancillas, and can be understood geometrically in
+terms of a polyhedron defined by a partial order on the set of 2-qubit
+Hamiltonians.

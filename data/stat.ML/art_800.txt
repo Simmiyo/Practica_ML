@@ -1,0 +1,11 @@
+A Birth and Death Process for Bayesian Network Structure Inference
+Bayesian networks (BNs) are graphical models that are useful for representing
+high-dimensional probability distributions. There has been a great deal of
+interest in recent years in the NP-hard problem of learning the structure of a
+BN from observed data. Typically, one assigns a score to various structures and
+the search becomes an optimization problem that can be approached with either
+deterministic or stochastic methods. In this paper, we walk through the space
+of graphs by modeling the appearance and disappearance of edges as a birth and
+death process and compare our novel approach to the popular Metropolis-Hastings
+search strategy. We give empirical evidence that the birth and death process
+has superior mixing properties.

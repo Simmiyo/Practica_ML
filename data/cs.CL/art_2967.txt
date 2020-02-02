@@ -1,0 +1,14 @@
+Do latent tree learning models identify meaningful structure in
+  sentences?
+Recent work on the problem of latent tree learning has made it possible to
+train neural networks that learn to both parse a sentence and use the resulting
+parse to interpret the sentence, all without exposure to ground-truth parse
+trees at training time. Surprisingly, these models often perform better at
+sentence understanding tasks than models that use parse trees from conventional
+parsers. This paper aims to investigate what these latent tree learning models
+learn. We replicate two such models in a shared codebase and find that (i) only
+one of these models outperforms conventional tree-structured models on sentence
+classification, (ii) its parsing strategies are not especially consistent
+across random restarts, (iii) the parses it produces tend to be shallower than
+standard Penn Treebank (PTB) parses, and (iv) they do not resemble those of PTB
+or any other semantic or syntactic formalism that the authors are aware of.

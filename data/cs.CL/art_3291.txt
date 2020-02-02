@@ -1,0 +1,14 @@
+Identifying emergency stages in Facebook posts of police departments
+  with convolutional and recurrent neural networks and support vector machines
+Classification of social media posts in emergency response is an important
+practical problem: accurate classification can help automate processing of such
+messages and help other responders and the public react to emergencies in a
+timely fashion. This research focused on classifying Facebook messages of US
+police departments. Randomly selected 5,000 messages were used to train
+classifiers that distinguished between four categories of messages: emergency
+preparedness, response and recovery, as well as general engagement messages.
+Features were represented with bag-of-words and word2vec, and models were
+constructed using support vector machines (SVMs) and convolutional (CNNs) and
+recurrent neural networks (RNNs). The best performing classifier was an RNN
+with a custom-trained word2vec model to represent features, which achieved the
+F1 measure of 0.839.

@@ -1,0 +1,14 @@
+Complex-Valued Kernel Methods for Regression
+Usually, complex-valued RKHS are presented as an straightforward application
+of the real-valued case. In this paper we prove that this procedure yields a
+limited solution for regression. We show that another kernel, here denoted as
+pseudo kernel, is needed to learn any function in complex-valued fields.
+Accordingly, we derive a novel RKHS to include it, the widely RKHS (WRKHS).
+When the pseudo-kernel cancels, WRKHS reduces to complex-valued RKHS of
+previous approaches. We address the kernel and pseudo-kernel design, paying
+attention to the kernel and the pseudo-kernel being complex-valued. In the
+experiments included we report remarkable improvements in simple scenarios
+where real a imaginary parts have different similitude relations for given
+inputs or cases where real and imaginary parts are correlated. In the context
+of these novel results we revisit the problem of non-linear channel
+equalization, to show that the WRKHS helps to design more efficient solutions.

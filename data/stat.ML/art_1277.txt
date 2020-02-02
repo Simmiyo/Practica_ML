@@ -1,0 +1,22 @@
+Accelerated Distributed Dual Averaging over Evolving Networks of Growing
+  Connectivity
+We consider the problem of accelerating distributed optimization in
+multi-agent networks by sequentially adding edges. Specifically, we extend the
+distributed dual averaging (DDA) subgradient algorithm to evolving networks of
+growing connectivity and analyze the corresponding improvement in convergence
+rate. It is known that the convergence rate of DDA is influenced by the
+algebraic connectivity of the underlying network, where better connectivity
+leads to faster convergence. However, the impact of network topology design on
+the convergence rate of DDA has not been fully understood. In this paper, we
+begin by designing network topologies via edge selection and scheduling. For
+edge selection, we determine the best set of candidate edges that achieves the
+optimal tradeoff between the growth of network connectivity and the usage of
+network resources. The dynamics of network evolution is then incurred by edge
+scheduling. Further, we provide a tractable approach to analyze the improvement
+in the convergence rate of DDA induced by the growth of network connectivity.
+Our analysis reveals the connection between network topology design and the
+convergence rate of DDA, and provides quantitative evaluation of DDA
+acceleration for distributed optimization that is absent in the existing
+analysis. Lastly, numerical experiments show that DDA can be significantly
+accelerated using a sequence of well-designed networks, and our theoretical
+predictions are well matched to its empirical convergence behavior.

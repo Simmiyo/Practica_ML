@@ -1,0 +1,17 @@
+Pseudo-Marginal Hamiltonian Monte Carlo
+Bayesian inference in the presence of an intractable likelihood function is
+computationally challenging. When following a Markov chain Monte Carlo (MCMC)
+approach to approximate the posterior distribution in this context, one
+typically either uses MCMC schemes which target the joint posterior of the
+parameters and some auxiliary latent variables or pseudo-marginal
+Metropolis-Hastings (MH) schemes which mimic a MH algorithm targeting the
+marginal posterior of the parameters by approximating unbiasedly the
+intractable likelihood. In scenarios where the parameters and auxiliary
+variables are strongly correlated under the posterior and/or this posterior is
+multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly
+and the pseudo-marginal MH algorithm, as any other MH scheme, will be
+inefficient for high dimensional parameters. We propose here an original MCMC
+algorithm, termed pseudo-marginal HMC, which approximates the HMC algorithm
+targeting the marginal posterior of the parameters. We demonstrate through
+experiments that pseudo-marginal HMC can outperform significantly both standard
+HMC and pseudo-marginal MH schemes.

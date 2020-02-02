@@ -1,0 +1,14 @@
+GapTV: Accurate and Interpretable Low-Dimensional Regression and
+  Classification
+We consider the problem of estimating a regression function in the common
+situation where the number of features is small, where interpretability of the
+model is a high priority, and where simple linear or additive models fail to
+provide adequate performance. To address this problem, we present GapTV, an
+approach that is conceptually related both to CART and to the more recent CRISP
+algorithm, a state-of-the-art alternative method for interpretable nonlinear
+regression. GapTV divides the feature space into blocks of constant value and
+fits the value of all blocks jointly via a convex optimization routine. Our
+method is fully data-adaptive, in that it incorporates highly robust routines
+for tuning all hyperparameters automatically. We compare our approach against
+CART and CRISP and demonstrate that GapTV finds a much better trade-off between
+accuracy and interpretability.

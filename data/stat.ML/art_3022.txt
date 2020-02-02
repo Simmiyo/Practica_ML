@@ -1,0 +1,22 @@
+Domain adaptation of weighted majority votes via perturbed
+  variation-based self-labeling
+In machine learning, the domain adaptation problem arrives when the test
+(target) and the train (source) data are generated from different
+distributions. A key applied issue is thus the design of algorithms able to
+generalize on a new distribution, for which we have no label information. We
+focus on learning classification models defined as a weighted majority vote
+over a set of real-val ued functions. In this context, Germain et al. (2013)
+have shown that a measure of disagreement between these functions is crucial to
+control. The core of this measure is a theoretical bound--the C-bound (Lacasse
+et al., 2007)--which involves the disagreement and leads to a well performing
+majority vote learning algorithm in usual non-adaptative supervised setting:
+MinCq. In this work, we propose a framework to extend MinCq to a domain
+adaptation scenario. This procedure takes advantage of the recent perturbed
+variation divergence between distributions proposed by Harel and Mannor (2012).
+Justified by a theoretical bound on the target risk of the vote, we provide to
+MinCq a target sample labeled thanks to a perturbed variation-based
+self-labeling focused on the regions where the source and target marginals
+appear similar. We also study the influence of our self-labeling, from which we
+deduce an original process for tuning the hyperparameters. Finally, our
+framework called PV-MinCq shows very promising results on a rotation and
+translation synthetic problem.

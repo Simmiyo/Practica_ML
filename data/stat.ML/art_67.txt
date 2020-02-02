@@ -1,0 +1,16 @@
+Distinguishing Cause and Effect via Second Order Exponential Models
+We propose a method to infer causal structures containing both discrete and
+continuous variables. The idea is to select causal hypotheses for which the
+conditional density of every variable, given its causes, becomes smooth. We
+define a family of smooth densities and conditional densities by second order
+exponential models, i.e., by maximizing conditional entropy subject to first
+and second statistical moments. If some of the variables take only values in
+proper subsets of R^n, these conditionals can induce different families of
+joint distributions even for Markov-equivalent graphs.
+  We consider the case of one binary and one real-valued variable where the
+method can distinguish between cause and effect. Using this example, we
+describe that sometimes a causal hypothesis must be rejected because
+P(effect|cause) and P(cause) share algorithmic information (which is untypical
+if they are chosen independently). This way, our method is in the same spirit
+as faithfulness-based causal inference because it also rejects non-generic
+mutual adjustments among DAG-parameters.

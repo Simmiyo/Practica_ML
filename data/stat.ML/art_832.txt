@@ -1,0 +1,23 @@
+Tensor Decompositions for Identifying Directed Graph Topologies and
+  Tracking Dynamic Networks
+Directed networks are pervasive both in nature and engineered systems, often
+underlying the complex behavior observed in biological systems, microblogs and
+social interactions over the web, as well as global financial markets. Since
+their structures are often unobservable, in order to facilitate network
+analytics, one generally resorts to approaches capitalizing on measurable nodal
+processes to infer the unknown topology. Structural equation models (SEMs) are
+capable of incorporating exogenous inputs to resolve inherent directional
+ambiguities. However, conventional SEMs assume full knowledge of exogenous
+inputs, which may not be readily available in some practical settings. The
+present paper advocates a novel SEM-based topology inference approach that
+entails factorization of a three-way tensor, constructed from the observed
+nodal data, using the well-known parallel factor (PARAFAC) decomposition. It
+turns out that second-order piecewise stationary statistics of exogenous
+variables suffice to identify the hidden topology. Capitalizing on the
+uniqueness properties inherent to high-order tensor factorizations, it is shown
+that topology identification is possible under reasonably mild conditions. In
+addition, to facilitate real-time operation and inference of time-varying
+networks, an adaptive (PARAFAC) tensor decomposition scheme which tracks the
+topology-revealing tensor factors is developed. Extensive tests on simulated
+and real stock quote data demonstrate the merits of the novel tensor-based
+approach.

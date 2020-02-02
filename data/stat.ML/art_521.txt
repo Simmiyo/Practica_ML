@@ -1,0 +1,19 @@
+Innovated interaction screening for high-dimensional nonlinear
+  classification
+This paper is concerned with the problems of interaction screening and
+nonlinear classification in a high-dimensional setting. We propose a two-step
+procedure, IIS-SQDA, where in the first step an innovated interaction screening
+(IIS) approach based on transforming the original $p$-dimensional feature
+vector is proposed, and in the second step a sparse quadratic discriminant
+analysis (SQDA) is proposed for further selecting important interactions and
+main effects and simultaneously conducting classification. Our IIS approach
+screens important interactions by examining only $p$ features instead of all
+two-way interactions of order $O(p^2)$. Our theory shows that the proposed
+method enjoys sure screening property in interaction selection in the
+high-dimensional setting of $p$ growing exponentially with the sample size. In
+the selection and classification step, we establish a sparse inequality on the
+estimated coefficient vector for QDA and prove that the classification error of
+our procedure can be upper-bounded by the oracle classification error plus some
+smaller order term. Extensive simulation studies and real data analysis show
+that our proposal compares favorably with existing methods in interaction
+selection and high-dimensional classification.

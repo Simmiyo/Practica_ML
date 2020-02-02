@@ -1,0 +1,19 @@
+Deep learning for affective computing: text-based emotion recognition in
+  decision support
+Emotions widely affect human decision-making. This fact is taken into account
+by affective computing with the goal of tailoring decision support to the
+emotional states of individuals. However, the accurate recognition of emotions
+within narrative documents presents a challenging undertaking due to the
+complexity and ambiguity of language. Performance improvements can be achieved
+through deep learning; yet, as demonstrated in this paper, the specific nature
+of this task requires the customization of recurrent neural networks with
+regard to bidirectional processing, dropout layers as a means of
+regularization, and weighted loss functions. In addition, we propose
+sent2affect, a tailored form of transfer learning for affective computing: here
+the network is pre-trained for a different task (i.e. sentiment analysis),
+while the output layer is subsequently tuned to the task of emotion
+recognition. The resulting performance is evaluated in a holistic setting
+across 6 benchmark datasets, where we find that both recurrent neural networks
+and transfer learning consistently outperform traditional machine learning.
+Altogether, the findings have considerable implications for the use of
+affective computing.

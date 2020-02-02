@@ -1,0 +1,15 @@
+Local Dynamics in Trained Recurrent Neural Networks
+Learning a task induces connectivity changes in neural circuits, thereby
+changing their dynamics. To elucidate task related neural dynamics we study
+trained Recurrent Neural Networks. We develop a Mean Field Theory for Reservoir
+Computing networks trained to have multiple fixed point attractors. Our main
+result is that the dynamics of the network's output in the vicinity of
+attractors is governed by a low order linear Ordinary Differential Equation.
+Stability of the resulting ODE can be assessed, predicting training success or
+failure. As a consequence, networks of Rectified Linear (RLU) and of sigmoidal
+nonlinearities are shown to have diametrically different properties when it
+comes to learning attractors. Furthermore, a characteristic time constant,
+which remains finite at the edge of chaos, offers an explanation of the
+network's output robustness in the presence of variability of the internal
+neural dynamics. Finally, the proposed theory predicts state dependent
+frequency selectivity in network response.

@@ -1,0 +1,20 @@
+Classifying Documents within Multiple Hierarchical Datasets using
+  Multi-Task Learning
+Multi-task learning (MTL) is a supervised learning paradigm in which the
+prediction models for several related tasks are learned jointly to achieve
+better generalization performance. When there are only a few training examples
+per task, MTL considerably outperforms the traditional Single task learning
+(STL) in terms of prediction accuracy. In this work we develop an MTL based
+approach for classifying documents that are archived within dual concept
+hierarchies, namely, DMOZ and Wikipedia. We solve the multi-class
+classification problem by defining one-versus-rest binary classification tasks
+for each of the different classes across the two hierarchical datasets. Instead
+of learning a linear discriminant for each of the different tasks
+independently, we use a MTL approach with relationships between the different
+tasks across the datasets established using the non-parametric, lazy, nearest
+neighbor approach. We also develop and evaluate a transfer learning (TL)
+approach and compare the MTL (and TL) methods against the standard single task
+learning and semi-supervised learning approaches. Our empirical results
+demonstrate the strength of our developed methods that show an improvement
+especially when there are fewer number of training examples per classification
+task.

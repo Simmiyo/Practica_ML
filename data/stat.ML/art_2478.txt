@@ -1,0 +1,15 @@
+A Counterexample for the Validity of Using Nuclear Norm as a Convex
+  Surrogate of Rank
+Rank minimization has attracted a lot of attention due to its robustness in
+data recovery. To overcome the computational difficulty, rank is often replaced
+with nuclear norm. For several rank minimization problems, such a replacement
+has been theoretically proven to be valid, i.e., the solution to nuclear norm
+minimization problem is also the solution to rank minimization problem.
+Although it is easy to believe that such a replacement may not always be valid,
+no concrete example has ever been found. We argue that such a validity checking
+cannot be done by numerical computation and show, by analyzing the noiseless
+latent low rank representation (LatLRR) model, that even for very simple rank
+minimization problems the validity may still break down. As a by-product, we
+find that the solution to the nuclear norm minimization formulation of LatLRR
+is non-unique. Hence the results of LatLRR reported in the literature may be
+questionable.

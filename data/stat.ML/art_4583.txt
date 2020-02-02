@@ -1,0 +1,16 @@
+Active Sensing of Social Networks
+This paper develops an active sensing method to estimate the relative weight
+(or trust) agents place on their neighbors' information in a social network.
+The model used for the regression is based on the steady state equation in the
+linear DeGroot model under the influence of stubborn agents, i.e., agents whose
+opinions are not influenced by their neighbors. This method can be viewed as a
+\emph{social RADAR}, where the stubborn agents excite the system and the latter
+can be estimated through the reverberation observed from the analysis of the
+agents' opinions. The social network sensing problem can be interpreted as a
+blind compressed sensing problem with a sparse measurement matrix. We prove
+that the network structure will be revealed when a sufficient number of
+stubborn agents independently influence a number of ordinary (non-stubborn)
+agents. We investigate the scenario with a deterministic or randomized DeGroot
+model and propose a consistent estimator of the steady states for the latter
+scenario. Simulation results on synthetic and real world networks support our
+findings.

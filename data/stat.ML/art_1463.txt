@@ -1,0 +1,19 @@
+From Distance Correlation to Multiscale Graph Correlation
+Understanding and developing a correlation measure that can detect general
+dependencies is not only imperative to statistics and machine learning, but
+also crucial to general scientific discovery in the big data age. In this
+paper, we establish a new framework that generalizes distance correlation --- a
+correlation measure that was recently proposed and shown to be universally
+consistent for dependence testing against all joint distributions of finite
+moments --- to the Multiscale Graph Correlation (MGC). By utilizing the
+characteristic functions and incorporating the nearest neighbor machinery, we
+formalize the population version of local distance correlations, define the
+optimal scale in a given dependency, and name the optimal local correlation as
+MGC. The new theoretical framework motivates a theoretically sound Sample MGC
+and allows a number of desirable properties to be proved, including the
+universal consistency, convergence and almost unbiasedness of the sample
+version. The advantages of MGC are illustrated via a comprehensive set of
+simulations with linear, nonlinear, univariate, multivariate, and noisy
+dependencies, where it loses almost no power in monotone dependencies while
+achieving better performance in general dependencies, compared to distance
+correlation and other popular methods.

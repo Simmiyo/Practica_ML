@@ -1,0 +1,18 @@
+Reading Neural Encodings using Phase Space Methods
+Environmental signals sensed by nervous systems are often represented in
+spike trains carried from sensory neurons to higher neural functions where
+decisions and functional actions occur. Information about the environmental
+stimulus is contained (encoded) in the train of spikes. We show how to "read"
+the encoding using state space methods of nonlinear dynamics. We create a
+mapping from spike signals which are output from the neural processing system
+back to an estimate of the analog input signal. This mapping is realized
+locally in a reconstructed state space embodying both the dynamics of the
+source of the sensory signal and the dynamics of the neural circuit doing the
+processing. We explore this idea using a Hodgkin-Huxley conductance based
+neuron model and input from a low dimensional dynamical system, the Lorenz
+system. We show that one may accurately learn the dynamical input/output
+connection and estimate with high precision the details of the input signals
+from spike timing output alone. This form of "reading the neural code" has a
+focus on the neural circuitry as a dynamical system and emphasizes how one
+interprets the dynamical degrees of freedom in the neural circuit as they
+transform analog environmental information into spike trains.

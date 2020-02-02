@@ -1,0 +1,15 @@
+Signal Conditioning for Learning in the Wild
+The mammalian olfactory system learns rapidly from very few examples,
+presented in unpredictable online sequences, and then recognizes these learned
+odors under conditions of substantial interference without exhibiting
+catastrophic forgetting. We have developed a brain-mimetic algorithm that
+replicates these properties, provided that sensory inputs adhere to a common
+statistical structure. However, in natural, unregulated environments, this
+constraint cannot be assured. We here present a series of signal conditioning
+steps, inspired by the mammalian olfactory system, that transform diverse
+sensory inputs into a regularized statistical structure to which the learning
+network can be tuned. This pre-processing enables a single instantiated network
+to be applied to widely diverse classification tasks and datasets - here
+including gas sensor data, remote sensing from spectral characteristics, and
+multi-label hierarchical identification of wild species - without adjusting
+network hyperparameters.

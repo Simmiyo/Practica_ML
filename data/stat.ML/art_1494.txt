@@ -1,0 +1,21 @@
+Upgrading from Gaussian Processes to Student's-T Processes
+Gaussian process priors are commonly used in aerospace design for performing
+Bayesian optimization. Nonetheless, Gaussian processes suffer two significant
+drawbacks: outliers are a priori assumed unlikely, and the posterior variance
+conditioned on observed data depends only on the locations of those data, not
+the associated sample values. Student's-T processes are a generalization of
+Gaussian processes, founded on the Student's-T distribution instead of the
+Gaussian distribution. Student's-T processes maintain the primary advantages of
+Gaussian processes (kernel function, analytic update rule) with additional
+benefits beyond Gaussian processes. The Student's-T distribution has higher
+Kurtosis than a Gaussian distribution and so outliers are much more likely, and
+the posterior variance increases or decreases depending on the variance of
+observed data sample values. Here, we describe Student's-T processes, and
+discuss their advantages in the context of aerospace optimization. We show how
+to construct a Student's-T process using a kernel function and how to update
+the process given new samples. We provide a clear derivation of
+optimization-relevant quantities such as expected improvement, and contrast
+with the related computations for Gaussian processes. Finally, we compare the
+performance of Student's-T processes against Gaussian process on canonical test
+problems in Bayesian optimization, and apply the Student's-T process to the
+optimization of an aerostructural design problem.

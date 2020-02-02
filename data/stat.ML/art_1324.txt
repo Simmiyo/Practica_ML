@@ -1,0 +1,13 @@
+ReFACTor: Practical Low-Rank Matrix Estimation Under Column-Sparsity
+Various problems in data analysis and statistical genetics call for recovery
+of a column-sparse, low-rank matrix from noisy observations. We propose
+ReFACTor, a simple variation of the classical Truncated Singular Value
+Decomposition (TSVD) algorithm. In contrast to previous sparse principal
+component analysis (PCA) algorithms, our algorithm can provably reveal a
+low-rank signal matrix better, and often significantly better, than the widely
+used TSVD, making it the algorithm of choice whenever column-sparsity is
+suspected. Empirically, we observe that ReFACTor consistently outperforms TSVD
+even when the underlying signal is not sparse, suggesting that it is generally
+safe to use ReFACTor instead of TSVD and PCA. The algorithm is extremely simple
+to implement and its running time is dominated by the runtime of PCA, making it
+as practical as standard principal component analysis.

@@ -1,0 +1,13 @@
+Faster independent component analysis by preconditioning with Hessian
+  approximations
+Independent Component Analysis (ICA) is a technique for unsupervised
+exploration of multi-channel data that is widely used in observational
+sciences. In its classic form, ICA relies on modeling the data as linear
+mixtures of non-Gaussian independent sources. The maximization of the
+corresponding likelihood is a challenging problem if it has to be completed
+quickly and accurately on large sets of real data. We introduce the
+Preconditioned ICA for Real Data (Picard) algorithm, which is a relative L-BFGS
+algorithm preconditioned with sparse Hessian approximations. Extensive
+numerical comparisons to several algorithms of the same class demonstrate the
+superior performance of the proposed technique, especially on real data, for
+which the ICA model does not necessarily hold.

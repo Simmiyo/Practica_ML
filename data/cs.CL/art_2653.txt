@@ -1,0 +1,11 @@
+Joint PoS Tagging and Stemming for Agglutinative Languages
+The number of word forms in agglutinative languages is theoretically infinite
+and this variety in word forms introduces sparsity in many natural language
+processing tasks. Part-of-speech tagging (PoS tagging) is one of these tasks
+that often suffers from sparsity. In this paper, we present an unsupervised
+Bayesian model using Hidden Markov Models (HMMs) for joint PoS tagging and
+stemming for agglutinative languages. We use stemming to reduce sparsity in PoS
+tagging. Two tasks are jointly performed to provide a mutual benefit in both
+tasks. Our results show that joint POS tagging and stemming improves PoS
+tagging scores. We present results for Turkish and Finnish as agglutinative
+languages and English as a morphologically poor language.

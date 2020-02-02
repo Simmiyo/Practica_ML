@@ -1,0 +1,20 @@
+A Statistical Parsing Framework for Sentiment Classification
+We present a statistical parsing framework for sentence-level sentiment
+classification in this article. Unlike previous works that employ syntactic
+parsing results for sentiment analysis, we develop a statistical parser to
+directly analyze the sentiment structure of a sentence. We show that
+complicated phenomena in sentiment analysis (e.g., negation, intensification,
+and contrast) can be handled the same as simple and straightforward sentiment
+expressions in a unified and probabilistic way. We formulate the sentiment
+grammar upon Context-Free Grammars (CFGs), and provide a formal description of
+the sentiment parsing framework. We develop the parsing model to obtain
+possible sentiment parse trees for a sentence, from which the polarity model is
+proposed to derive the sentiment strength and polarity, and the ranking model
+is dedicated to selecting the best sentiment tree. We train the parser directly
+from examples of sentences annotated only with sentiment polarity labels but
+without any syntactic annotations or polarity annotations of constituents
+within sentences. Therefore we can obtain training data easily. In particular,
+we train a sentiment parser, s.parser, from a large amount of review sentences
+with users' ratings as rough sentiment polarity labels. Extensive experiments
+on existing benchmark datasets show significant improvements over baseline
+sentiment classification approaches.

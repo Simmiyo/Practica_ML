@@ -1,0 +1,18 @@
+Formal Hypothesis Tests for Additive Structure in Random Forests
+While statistical learning methods have proved powerful tools for predictive
+modeling, the black-box nature of the models they produce can severely limit
+their interpretability and the ability to conduct formal inference. However,
+the natural structure of ensemble learners like bagged trees and random forests
+has been shown to admit desirable asymptotic properties when base learners are
+built with proper subsamples. In this work, we demonstrate that by defining an
+appropriate grid structure on the covariate space, we may carry out formal
+hypothesis tests for both variable importance and underlying additive model
+structure. To our knowledge, these tests represent the first statistical tools
+for investigating the underlying regression structure in a context such as
+random forests. We develop notions of total and partial additivity and further
+demonstrate that testing can be carried out at no additional computational cost
+by estimating the variance within the process of constructing the ensemble.
+Furthermore, we propose a novel extension of these testing procedures utilizing
+random projections in order to allow for computationally efficient testing
+procedures that retain high power even when the grid size is much larger than
+that of the training set.

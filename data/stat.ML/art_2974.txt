@@ -1,0 +1,14 @@
+BET: Bayesian Ensemble Trees for Clustering and Prediction in
+  Heterogeneous Data
+We propose a novel "tree-averaging" model that utilizes the ensemble of
+classification and regression trees (CART). Each constituent tree is estimated
+with a subset of similar data. We treat this grouping of subsets as Bayesian
+ensemble trees (BET) and model them as an infinite mixture Dirichlet process.
+We show that BET adapts to data heterogeneity and accurately estimates each
+component. Compared with the bootstrap-aggregating approach, BET shows improved
+prediction performance with fewer trees. We develop an efficient estimating
+procedure with improved sampling strategies in both CART and mixture models. We
+demonstrate these advantages of BET with simulations, classification of breast
+cancer and regression of lung function measurement of cystic fibrosis patients.
+  Keywords: Bayesian CART; Dirichlet Process; Ensemble Approach; Heterogeneity;
+Mixture of Trees.

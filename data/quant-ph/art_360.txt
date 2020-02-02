@@ -1,0 +1,16 @@
+Fault-tolerant quantum computation
+Recently, it was realized that use of the properties of quantum mechanics
+might speed up certain computations dramatically. Interest in quantum
+computation has since been growing. One of the main difficulties of realizing
+quantum computation is that decoherence tends to destroy the information in a
+superposition of states in a quantum computer, thus making long computations
+impossible. A futher difficulty is that inaccuracies in quantum state
+transformations throughout the computation accumulate, rendering the output of
+long computations unreliable. It was previously known that a quantum circuit
+with t gates could tolerate O(1/t) amounts of inaccuracy and decoherence per
+gate. We show, for any quantum computation with t gates, how to build a
+polynomial size quantum circuit that can tolerate O(1/(log t)^c) amounts of
+inaccuracy and decoherence per gate, for some constant c. We do this by showing
+how to compute using quantum error correcting codes. These codes were
+previously known to provide resistance to errors while storing and transmitting
+quantum data.

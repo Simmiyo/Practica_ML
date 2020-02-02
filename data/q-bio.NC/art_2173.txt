@@ -1,0 +1,19 @@
+Assessment of synchrony in multiple neural spike trains using loglinear
+  point process models
+Neural spike trains, which are sequences of very brief jumps in voltage
+across the cell membrane, were one of the motivating applications for the
+development of point process methodology. Early work required the assumption of
+stationarity, but contemporary experiments often use time-varying stimuli and
+produce time-varying neural responses. More recently, many statistical methods
+have been developed for nonstationary neural point process data. There has also
+been much interest in identifying synchrony, meaning events across two or more
+neurons that are nearly simultaneous at the time scale of the recordings. A
+natural statistical approach is to discretize time, using short time bins, and
+to introduce loglinear models for dependency among neurons, but previous use of
+loglinear modeling technology has assumed stationarity. We introduce a succinct
+yet powerful class of time-varying loglinear models by (a) allowing
+individual-neuron effects (main effects) to involve time-varying intensities;
+(b) also allowing the individual-neuron effects to involve autocovariation
+effects (history effects) due to past spiking, (c) assuming excess synchrony
+effects (interaction effects) do not depend on history, and (d) assuming all
+effects vary smoothly across time.

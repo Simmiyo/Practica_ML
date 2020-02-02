@@ -1,0 +1,8 @@
+Very Fast Kernel SVM under Budget Constraints
+In this paper we propose a fast online Kernel SVM algorithm under tight
+budget constraints. We propose to split the input space using LVQ and train a
+Kernel SVM in each cluster. To allow for online training, we propose to limit
+the size of the support vector set of each cluster using different strategies.
+We show in the experiment that our algorithm is able to achieve high accuracy
+while having a very high number of samples processed per second both in
+training and in the evaluation.

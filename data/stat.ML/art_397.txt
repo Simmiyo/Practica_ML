@@ -1,0 +1,18 @@
+On the Sensitivity of the Lasso to the Number of Predictor Variables
+The Lasso is a computationally efficient regression regularization procedure
+that can produce sparse estimators when the number of predictors (p) is large.
+Oracle inequalities provide probability loss bounds for the Lasso estimator at
+a deterministic choice of the regularization parameter. These bounds tend to
+zero if p is appropriately controlled, and are thus commonly cited as
+theoretical justification for the Lasso and its ability to handle
+high-dimensional settings. Unfortunately, in practice the regularization
+parameter is not selected to be a deterministic quantity, but is instead chosen
+using a random, data-dependent procedure. To address this shortcoming of
+previous theoretical work, we study the loss of the Lasso estimator when tuned
+optimally for prediction. Assuming orthonormal predictors and a sparse true
+model, we prove that the probability that the best possible predictive
+performance of the Lasso deteriorates as p increases is positive and can be
+arbitrarily close to one given a sufficiently high signal to noise ratio and
+sufficiently large p. We further demonstrate empirically that the amount of
+deterioration in performance can be far worse than the oracle inequalities
+suggest and provide a real data example where deterioration is observed.

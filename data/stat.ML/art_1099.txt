@@ -1,0 +1,28 @@
+The Landscape of Empirical Risk for Non-convex Losses
+Most high-dimensional estimation and prediction methods propose to minimize a
+cost function (empirical risk) that is written as a sum of losses associated to
+each data point. In this paper we focus on the case of non-convex losses, which
+is practically important but still poorly understood. Classical empirical
+process theory implies uniform convergence of the empirical risk to the
+population risk. While uniform convergence implies consistency of the resulting
+M-estimator, it does not ensure that the latter can be computed efficiently.
+  In order to capture the complexity of computing M-estimators, we propose to
+study the landscape of the empirical risk, namely its stationary points and
+their properties. We establish uniform convergence of the gradient and Hessian
+of the empirical risk to their population counterparts, as soon as the number
+of samples becomes larger than the number of unknown parameters (modulo
+logarithmic factors). Consequently, good properties of the population risk can
+be carried to the empirical risk, and we can establish one-to-one
+correspondence of their stationary points. We demonstrate that in several
+problems such as non-convex binary classification, robust regression, and
+Gaussian mixture model, this result implies a complete characterization of the
+landscape of the empirical risk, and of the convergence properties of descent
+algorithms.
+  We extend our analysis to the very high-dimensional setting in which the
+number of parameters exceeds the number of samples, and provide a
+characterization of the empirical risk landscape under a nearly
+information-theoretically minimal condition. Namely, if the number of samples
+exceeds the sparsity of the unknown parameters vector (modulo logarithmic
+factors), then a suitable uniform convergence result takes place. We apply this
+result to non-convex binary classification and robust regression in very
+high-dimension.

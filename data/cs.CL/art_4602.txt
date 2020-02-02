@@ -1,0 +1,12 @@
+Crowdsourcing Semantic Label Propagation in Relation Classification
+Distant supervision is a popular method for performing relation extraction
+from text that is known to produce noisy labels. Most progress in relation
+extraction and classification has been made with crowdsourced corrections to
+distant-supervised labels, and there is evidence that indicates still more
+would be better. In this paper, we explore the problem of propagating human
+annotation signals gathered for open-domain relation classification through the
+CrowdTruth methodology for crowdsourcing, that captures ambiguity in
+annotations by measuring inter-annotator disagreement. Our approach propagates
+annotations to sentences that are similar in a low dimensional embedding space,
+expanding the number of labels by two orders of magnitude. Our experiments show
+significant improvement in a sentence-level multi-class relation classifier.

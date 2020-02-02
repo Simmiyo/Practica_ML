@@ -1,0 +1,20 @@
+Regulating Greed Over Time
+In retail, there are predictable yet dramatic time-dependent patterns in
+customer behavior, such as periodic changes in the number of visitors, or
+increases in visitors just before major holidays. The current paradigm of
+multi-armed bandit analysis does not take these known patterns into account.
+This means that for applications in retail, where prices are fixed for periods
+of time, current bandit algorithms will not suffice. This work provides a
+remedy that takes the time-dependent patterns into account, and we show how
+this remedy is implemented in the UCB and {\epsilon}-greedy methods and we
+introduce a new policy called the variable arm pool method. In the corrected
+methods, exploitation (greed) is regulated over time, so that more exploitation
+occurs during higher reward periods, and more exploration occurs in periods of
+low reward. In order to understand why regret is reduced with the corrected
+methods, we present a set of bounds that provide insight into why we would want
+to exploit during periods of high reward, and discuss the impact on regret. Our
+proposed methods perform well in experiments, and were inspired by a
+high-scoring entry in the Exploration and Exploitation 3 contest using data
+from Yahoo! Front Page. That entry heavily used time-series methods to regulate
+greed over time, which was substantially more effective than other contextual
+bandit methods.

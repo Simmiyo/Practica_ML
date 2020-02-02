@@ -1,0 +1,25 @@
+Information flow between resting state networks
+The resting brain dynamics self-organizes into a finite number of correlated
+patterns known as resting state networks (RSNs). It is well known that
+techniques like independent component analysis can separate the brain activity
+at rest to provide such RSNs, but the specific pattern of interaction between
+RSNs is not yet fully understood. To this aim, we propose here a novel method
+to compute the information flow (IF) between different RSNs from resting state
+magnetic resonance imaging. After haemodynamic response function blind
+deconvolution of all voxel signals, and under the hypothesis that RSNs define
+regions of interest, our method first uses principal component analysis to
+reduce dimensionality in each RSN to next compute IF (estimated here in terms
+of Transfer Entropy) between the different RSNs by systematically increasing k
+(the number of principal components used in the calculation). When k = 1, this
+method is equivalent to computing IF using the average of all voxel activities
+in each RSN. For k greater than one our method calculates the k-multivariate IF
+between the different RSNs. We find that the average IF among RSNs is
+dimension-dependent, increasing from k =1 (i.e., the average voxels activity)
+up to a maximum occurring at k =5 to finally decay to zero for k greater than
+10. This suggests that a small number of components (close to 5) is sufficient
+to describe the IF pattern between RSNs. Our method - addressing differences in
+IF between RSNs for any generic data - can be used for group comparison in
+health or disease. To illustrate this, we have calculated the interRSNs IF in a
+dataset of Alzheimer's Disease (AD) to find that the most significant
+differences between AD and controls occurred for k =2, in addition to AD
+showing increased IF w.r.t. controls.

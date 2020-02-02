@@ -1,0 +1,16 @@
+Factorized Asymptotic Bayesian Inference for Factorial Hidden Markov
+  Models
+Factorial hidden Markov models (FHMMs) are powerful tools of modeling
+sequential data. Learning FHMMs yields a challenging simultaneous model
+selection issue, i.e., selecting the number of multiple Markov chains and the
+dimensionality of each chain. Our main contribution is to address this model
+selection issue by extending Factorized Asymptotic Bayesian (FAB) inference to
+FHMMs. First, we offer a better approximation of marginal log-likelihood than
+the previous FAB inference. Our key idea is to integrate out transition
+probabilities, yet still apply the Laplace approximation to emission
+probabilities. Second, we prove that if there are two very similar hidden
+states in an FHMM, i.e. one is redundant, then FAB will almost surely shrink
+and eliminate one of them, making the model parsimonious. Experimental results
+show that FAB for FHMMs significantly outperforms state-of-the-art
+nonparametric Bayesian iFHMM and Variational FHMM in model selection accuracy,
+with competitive held-out perplexity.

@@ -1,0 +1,13 @@
+On the numeric stability of the SFA implementation sfa-tk
+Slow feature analysis (SFA) is a method for extracting slowly varying
+features from a quickly varying multidimensional signal. An open source
+Matlab-implementation sfa-tk makes SFA easily useable. We show here that under
+certain circumstances, namely when the covariance matrix of the nonlinearly
+expanded data does not have full rank, this implementation runs into numerical
+instabilities. We propse a modified algorithm based on singular value
+decomposition (SVD) which is free of those instabilities even in the case where
+the rank of the matrix is only less than 10% of its size. Furthermore we show
+that an alternative way of handling the numerical problems is to inject a small
+amount of noise into the multidimensional input signal which can restore a
+rank-deficient covariance matrix to full rank, however at the price of
+modifying the original data and the need for noise parameter tuning.

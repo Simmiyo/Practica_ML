@@ -1,0 +1,17 @@
+Online Discrimination of Nonlinear Dynamics with Switching Differential
+  Equations
+How to recognise whether an observed person walks or runs? We consider a
+dynamic environment where observations (e.g. the posture of a person) are
+caused by different dynamic processes (walking or running) which are active one
+at a time and which may transition from one to another at any time. For this
+setup, switching dynamic models have been suggested previously, mostly, for
+linear and nonlinear dynamics in discrete time. Motivated by basic principles
+of computations in the brain (dynamic, internal models) we suggest a model for
+switching nonlinear differential equations. The switching process in the model
+is implemented by a Hopfield network and we use parametric dynamic movement
+primitives to represent arbitrary rhythmic motions. The model generates
+observed dynamics by linearly interpolating the primitives weighted by the
+switching variables and it is constructed such that standard filtering
+algorithms can be applied. In two experiments with synthetic planar motion and
+a human motion capture data set we show that inference with the unscented
+Kalman filter can successfully discriminate several dynamic processes online.

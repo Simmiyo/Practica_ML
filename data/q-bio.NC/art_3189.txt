@@ -1,0 +1,23 @@
+Modeling correlated noise is necessary to decode uncertainty
+Brain decoding algorithms form an important part of the arsenal of analysis
+tools available to neuroscientists, allowing for a more detailed study of the
+kind of information represented in patterns of cortical activity. While most
+current decoding algorithms focus on estimating a single, most likely stimulus
+from the pattern of noisy fMRI responses, the presence of noise causes this
+estimate to be uncertain. This uncertainty in stimulus estimates is a
+potentially highly relevant aspect of cortical stimulus processing, and
+features prominently in Bayesian or probabilistic models of neural coding.
+Here, we focus on sensory uncertainty and how best to extract this information
+with fMRI. We first demonstrate in simulations that decoding algorithms that
+take into account correlated noise between fMRI voxels better recover the
+amount of uncertainty (quantified as the width of a probability distribution
+over possible stimuli) associated with the decoded estimate. Furthermore, we
+show that not all correlated variability should be treated equally, as modeling
+tuning-dependent correlations has the greatest impact on decoding performance.
+Next, we examine actual noise correlations in human visual cortex, and find
+that shared variability in areas V1-V3 depends on the tuning properties of fMRI
+voxels. In line with our simulations, accounting for this shared noise between
+similarly tuned voxels produces important benefits in decoding. Our findings
+underscore the importance of accurate noise models in fMRI decoding approaches,
+and suggest a statistically feasible method to incorporate the most relevant
+forms of shared noise.

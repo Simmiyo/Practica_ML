@@ -1,0 +1,9 @@
+Graph Algorithms for Improving Type-Logical Proof Search
+Proof nets are a graph theoretical representation of proofs in various
+fragments of type-logical grammar. In spite of this basis in graph theory,
+there has been relatively little attention to the use of graph theoretic
+algorithms for type-logical proof search. In this paper we will look at several
+ways in which standard graph theoretic algorithms can be used to restrict the
+search space. In particular, we will provide an O(n4) algorithm for selecting
+an optimal axiom link at any stage in the proof search as well as a O(kn3)
+algorithm for selecting the k best proof candidates.

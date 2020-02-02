@@ -1,0 +1,20 @@
+Extracting spatial-temporal coherent patterns in large-scale neural
+  recordings using dynamic mode decomposition
+There is a broad need in the neuroscience community to understand and
+visualize large-scale recordings of neural activity, big data acquired by tens
+or hundreds of electrodes simultaneously recording dynamic brain activity over
+minutes to hours. Such dynamic datasets are characterized by coherent patterns
+across both space and time, yet existing computational methods are typically
+restricted to analysis either in space or in time separately. Here we report
+the adaptation of dynamic mode decomposition (DMD), an algorithm originally
+developed for the study of fluid physics, to large-scale neuronal recordings.
+DMD is a modal decomposition algorithm that describes high-dimensional dynamic
+data using coupled spatial-temporal modes; the resulting analysis combines key
+features of performing principal components analysis (PCA) in space and power
+spectral analysis in time. The algorithm scales easily to very large numbers of
+simultaneously acquired measurements. We validated the DMD approach on
+sub-dural electrode array recordings from human subjects performing a known
+motor activation task. Next, we leveraged DMD in combination with machine
+learning to develop a novel method to extract sleep spindle networks from the
+same subjects. We suggest that DMD is generally applicable as a powerful method
+in the analysis and understanding of large-scale recordings of neural activity.

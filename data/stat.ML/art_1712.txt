@@ -1,0 +1,15 @@
+How the result of graph clustering methods depends on the construction
+  of the graph
+We study the scenario of graph-based clustering algorithms such as spectral
+clustering. Given a set of data points, one first has to construct a graph on
+the data points and then apply a graph clustering algorithm to find a suitable
+partition of the graph. Our main question is if and how the construction of the
+graph (choice of the graph, choice of parameters, choice of weights) influences
+the outcome of the final clustering result. To this end we study the
+convergence of cluster quality measures such as the normalized cut or the
+Cheeger cut on various kinds of random geometric graphs as the sample size
+tends to infinity. It turns out that the limit values of the same objective
+function are systematically different on different types of graphs. This
+implies that clustering results systematically depend on the graph and can be
+very different for different types of graph. We provide examples to illustrate
+the implications on spectral clustering.

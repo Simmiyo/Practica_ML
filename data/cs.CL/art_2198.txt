@@ -1,0 +1,15 @@
+Inferring the location of authors from words in their texts
+For the purposes of computational dialectology or other geographically bound
+text analysis tasks, texts must be annotated with their or their authors'
+location. Many texts are locatable through explicit labels but most have no
+explicit annotation of place. This paper describes a series of experiments to
+determine how positionally annotated microblog posts can be used to learn
+location-indicating words which then can be used to locate blog texts and their
+authors. A Gaussian distribution is used to model the locational qualities of
+words. We introduce the notion of placeness to describe how locational words
+are.
+  We find that modelling word distributions to account for several locations
+and thus several Gaussian distributions per word, defining a filter which picks
+out words with high placeness based on their local distributional context, and
+aggregating locational information in a centroid for each text gives the most
+useful results. The results are applied to data in the Swedish language.

@@ -1,0 +1,17 @@
+Spike timing precision and neural error correction: local behavior
+The effects of spike timing precision and dynamical behavior on error
+correction in spiking neurons were investigated. Stationary discharges -- phase
+locked, quasiperiodic, or chaotic -- were induced in a simulated neuron by
+presenting pacemaker presynaptic spike trains across a model of a prototypical
+inhibitory synapse. Reduced timing precision was modeled by jittering
+presynaptic spike times. Aftereffects of errors -- in this communication,
+missed presynaptic spikes -- were determined by comparing postsynaptic spike
+times between simulations identical except for the presence or absence of
+errors. Results show that the effects of an error vary greatly depending on the
+ongoing dynamical behavior. In the case of phase lockings, a high degree of
+presynaptic spike timing precision can provide significantly faster error
+recovery. For non-locked behaviors, isolated missed spikes can have little or
+no discernible aftereffects (or even serve to paradoxically reduce uncertainty
+in postsynaptic spike timing), regardless of presynaptic imprecision. This
+suggests two possible categories of error correction: high-precision locking
+with rapid recovery and low-precision non-locked with error immunity.

@@ -1,0 +1,26 @@
+Dense Associative Memory is Robust to Adversarial Inputs
+Deep neural networks (DNN) trained in a supervised way suffer from two known
+problems. First, the minima of the objective function used in learning
+correspond to data points (also known as rubbish examples or fooling images)
+that lack semantic similarity with the training data. Second, a clean input can
+be changed by a small, and often imperceptible for human vision, perturbation,
+so that the resulting deformed input is misclassified by the network. These
+findings emphasize the differences between the ways DNN and humans classify
+patterns, and raise a question of designing learning algorithms that more
+accurately mimic human perception compared to the existing methods.
+  Our paper examines these questions within the framework of Dense Associative
+Memory (DAM) models. These models are defined by the energy function, with
+higher order (higher than quadratic) interactions between the neurons. We show
+that in the limit when the power of the interaction vertex in the energy
+function is sufficiently large, these models have the following three
+properties. First, the minima of the objective function are free from rubbish
+images, so that each minimum is a semantically meaningful pattern. Second,
+artificial patterns poised precisely at the decision boundary look ambiguous to
+human subjects and share aspects of both classes that are separated by that
+decision boundary. Third, adversarial images constructed by models with small
+power of the interaction vertex, which are equivalent to DNN with rectified
+linear units (ReLU), fail to transfer to and fool the models with higher order
+interactions. This opens up a possibility to use higher order models for
+detecting and stopping malicious adversarial attacks. The presented results
+suggest that DAM with higher order energy functions are closer to human visual
+perception than DNN with ReLUs.

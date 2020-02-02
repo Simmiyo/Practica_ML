@@ -1,0 +1,16 @@
+Convex Structure Learning for Bayesian Networks: Polynomial Feature
+  Selection and Approximate Ordering
+We present a new approach to learning the structure and parameters of a
+Bayesian network based on regularized estimation in an exponential family
+representation. Here we show that, given a fixed variable order, the optimal
+structure and parameters can be learned efficiently, even without restricting
+the size of the parent sets. We then consider the problem of optimizing the
+variable order for a given set of features. This is still a computationally
+hard problem, but we present a convex relaxation that yields an optimal 'soft'
+ordering in polynomial time. One novel aspect of the approach is that we do not
+perform a discrete search over DAG structures, nor over variable orders, but
+instead solve a continuous relaxation that can then be rounded to obtain a
+valid network structure. We conduct an experimental comparison against standard
+structure search procedures over standard objectives, which cope with local
+minima, and evaluate the advantages of using convex relaxations that reduce the
+effects of local minima.

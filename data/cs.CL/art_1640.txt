@@ -1,0 +1,15 @@
+Learning Recursive Segments for Discourse Parsing
+Automatically detecting discourse segments is an important preliminary step
+towards full discourse parsing. Previous research on discourse segmentation
+have relied on the assumption that elementary discourse units (EDUs) in a
+document always form a linear sequence (i.e., they can never be nested).
+Unfortunately, this assumption turns out to be too strong, for some theories of
+discourse like SDRT allows for nested discourse units. In this paper, we
+present a simple approach to discourse segmentation that is able to produce
+nested EDUs. Our approach builds on standard multi-class classification
+techniques combined with a simple repairing heuristic that enforces global
+coherence. Our system was developed and evaluated on the first round of
+annotations provided by the French Annodis project (an ongoing effort to create
+a discourse bank for French). Cross-validated on only 47 documents (1,445
+EDUs), our system achieves encouraging performance results with an F-score of
+73% for finding EDUs.

@@ -1,0 +1,11 @@
+A Nonparametric Adaptive Nonlinear Statistical Filter
+We use statistical learning methods to construct an adaptive state estimator
+for nonlinear stochastic systems. Optimal state estimation, in the form of a
+Kalman filter, requires knowledge of the system's process and measurement
+uncertainty. We propose that these uncertainties can be estimated from
+(conditioned on) past observed data, and without making any assumptions of the
+system's prior distribution. The system's prior distribution at each time step
+is constructed from an ensemble of least-squares estimates on sub-sampled sets
+of the data via jackknife sampling. As new data is acquired, the state
+estimates, process uncertainty, and measurement uncertainty are updated
+accordingly, as described in this manuscript.

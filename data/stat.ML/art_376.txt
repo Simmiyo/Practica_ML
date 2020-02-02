@@ -1,0 +1,24 @@
+Marginal Pseudo-Likelihood Learning of Markov Network structures
+Undirected graphical models known as Markov networks are popular for a wide
+variety of applications ranging from statistical physics to computational
+biology. Traditionally, learning of the network structure has been done under
+the assumption of chordality which ensures that efficient scoring methods can
+be used. In general, non-chordal graphs have intractable normalizing constants
+which renders the calculation of Bayesian and other scores difficult beyond
+very small-scale systems. Recently, there has been a surge of interest towards
+the use of regularized pseudo-likelihood methods for structural learning of
+large-scale Markov network models, as such an approach avoids the assumption of
+chordality. The currently available methods typically necessitate the use of a
+tuning parameter to adapt the level of regularization for a particular dataset,
+which can be optimized for example by cross-validation. Here we introduce a
+Bayesian version of pseudo-likelihood scoring of Markov networks, which enables
+an automatic regularization through marginalization over the nuisance
+parameters in the model. We prove consistency of the resulting MPL estimator
+for the network structure via comparison with the pseudo information criterion.
+Identification of the MPL-optimal network on a prescanned graph space is
+considered with both greedy hill climbing and exact pseudo-Boolean optimization
+algorithms. We find that for reasonable sample sizes the hill climbing approach
+most often identifies networks that are at a negligible distance from the
+restricted global optimum. Using synthetic and existing benchmark networks, the
+marginal pseudo-likelihood method is shown to generally perform favorably
+against recent popular inference methods for Markov networks.

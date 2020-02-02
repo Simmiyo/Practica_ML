@@ -1,0 +1,15 @@
+Analysis of Bag-of-n-grams Representation's Properties Based on Textual
+  Reconstruction
+Despite its simplicity, bag-of-n-grams sen- tence representation has been
+found to excel in some NLP tasks. However, it has not re- ceived much attention
+in recent years and fur- ther analysis on its properties is necessary. We
+propose a framework to investigate the amount and type of information captured
+in a general- purposed bag-of-n-grams sentence represen- tation. We first use
+sentence reconstruction as a tool to obtain bag-of-n-grams representa- tion
+that contains general information of the sentence. We then run prediction tasks
+(sen- tence length, word content, phrase content and word order) using the
+obtained representation to look into the specific type of information captured
+in the representation. Our analysis demonstrates that bag-of-n-grams
+representa- tion does contain sentence structure level in- formation. However,
+incorporating n-grams with higher order n empirically helps little with
+encoding more information in general, except for phrase content information.

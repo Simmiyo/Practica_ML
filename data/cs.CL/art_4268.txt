@@ -1,0 +1,15 @@
+Hierarchical Multi Task Learning With CTC
+In Automatic Speech Recognition it is still challenging to learn useful
+intermediate representations when using high-level (or abstract) target units
+such as words. For that reason, character or phoneme based systems tend to
+outperform word-based systems when just few hundreds of hours of training data
+are being used. In this paper, we first show how hierarchical multi-task
+training can encourage the formation of useful intermediate representations. We
+achieve this by performing Connectionist Temporal Classification at different
+levels of the network with targets of different granularity. Our model thus
+performs predictions in multiple scales for the same input. On the standard
+300h Switchboard training setup, our hierarchical multi-task architecture
+exhibits improvements over single-task architectures with the same number of
+parameters. Our model obtains 14.0% Word Error Rate on the Eval2000 Switchboard
+subset without any decoder or language model, outperforming the current
+state-of-the-art on acoustic-to-word models.

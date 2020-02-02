@@ -1,0 +1,17 @@
+Biologically inspired protection of deep networks from adversarial
+  attacks
+Inspired by biophysical principles underlying nonlinear dendritic computation
+in neural circuits, we develop a scheme to train deep neural networks to make
+them robust to adversarial attacks. Our scheme generates highly nonlinear,
+saturated neural networks that achieve state of the art performance on gradient
+based adversarial examples on MNIST, despite never being exposed to
+adversarially chosen examples during training. Moreover, these networks exhibit
+unprecedented robustness to targeted, iterative schemes for generating
+adversarial examples, including second-order methods. We further identify
+principles governing how these networks achieve their robustness, drawing on
+methods from information geometry. We find these networks progressively create
+highly flat and compressed internal representations that are sensitive to very
+few input dimensions, while still solving the task. Moreover, they employ
+highly kurtotic weight distributions, also found in the brain, and we
+demonstrate how such kurtosis can protect even linear classifiers from
+adversarial attack.

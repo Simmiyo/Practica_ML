@@ -1,0 +1,21 @@
+Sentence Boundary Detection for French with Subword-Level Information
+  Vectors and Convolutional Neural Networks
+In this work we tackle the problem of sentence boundary detection applied to
+French as a binary classification task ("sentence boundary" or "not sentence
+boundary"). We combine convolutional neural networks with subword-level
+information vectors, which are word embedding representations learned from
+Wikipedia that take advantage of the words morphology; so each word is
+represented as a bag of their character n-grams.
+  We decide to use a big written dataset (French Gigaword) instead of standard
+size transcriptions to train and evaluate the proposed architectures with the
+intention of using the trained models in posterior real life ASR
+transcriptions.
+  Three different architectures are tested showing similar results; general
+accuracy for all models overpasses 0.96. All three models have good F1 scores
+reaching values over 0.97 regarding the "not sentence boundary" class. However,
+the "sentence boundary" class reflects lower scores decreasing the F1 metric to
+0.778 for one of the models.
+  Using subword-level information vectors seem to be very effective leading to
+conclude that the morphology of words encoded in the embeddings representations
+behave like pixels in an image making feasible the use of convolutional neural
+network architectures.

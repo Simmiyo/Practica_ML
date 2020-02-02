@@ -1,0 +1,13 @@
+Density Ratio Hidden Markov Models
+Hidden Markov models and their variants are the predominant sequential
+classification method in such domains as speech recognition, bioinformatics and
+natural language processing. Being generative rather than discriminative
+models, however, their classification performance is a drawback. In this paper
+we apply ideas from the field of density ratio estimation to bypass the
+difficult step of learning likelihood functions in HMMs. By reformulating
+inference and model fitting in terms of density ratios and applying a fast
+kernel-based estimation method, we show that it is possible to obtain a
+striking increase in discriminative performance while retaining the
+probabilistic qualities of the HMM. We demonstrate experimentally that this
+formulation makes more efficient use of training data than alternative
+approaches.

@@ -1,0 +1,16 @@
+Prior-free and prior-dependent regret bounds for Thompson Sampling
+We consider the stochastic multi-armed bandit problem with a prior
+distribution on the reward distributions. We are interested in studying
+prior-free and prior-dependent regret bounds, very much in the same spirit as
+the usual distribution-free and distribution-dependent bounds for the
+non-Bayesian stochastic bandit. Building on the techniques of Audibert and
+Bubeck [2009] and Russo and Roy [2013] we first show that Thompson Sampling
+attains an optimal prior-free bound in the sense that for any prior
+distribution its Bayesian regret is bounded from above by $14 \sqrt{n K}$. This
+result is unimprovable in the sense that there exists a prior distribution such
+that any algorithm has a Bayesian regret bounded from below by $\frac{1}{20}
+\sqrt{n K}$. We also study the case of priors for the setting of Bubeck et al.
+[2013] (where the optimal mean is known as well as a lower bound on the
+smallest gap) and we show that in this case the regret of Thompson Sampling is
+in fact uniformly bounded over time, thus showing that Thompson Sampling can
+greatly take advantage of the nice properties of these priors.

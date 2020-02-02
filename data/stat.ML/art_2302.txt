@@ -1,0 +1,11 @@
+Budgeted Learning of Naive-Bayes Classifiers
+Frequently, acquiring training data has an associated cost. We consider the
+situation where the learner may purchase data during training, subject TO a
+budget. IN particular, we examine the CASE WHERE each feature label has an
+associated cost, AND the total cost OF ALL feature labels acquired during
+training must NOT exceed the budget.This paper compares methods FOR choosing
+which feature label TO purchase next, given the budget AND the CURRENT belief
+state OF naive Bayes model parameters.Whereas active learning has traditionally
+focused ON myopic(greedy) strategies FOR query selection, this paper presents a
+tractable method FOR incorporating knowledge OF the budget INTO the decision
+making process, which improves performance.

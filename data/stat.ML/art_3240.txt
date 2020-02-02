@@ -1,0 +1,17 @@
+Covariance Matrices and Influence Scores for Mean Field Variational
+  Bayes
+Mean field variational Bayes (MFVB) is a popular posterior approximation
+method due to its fast runtime on large-scale data sets. However, it is well
+known that a major failing of MFVB is that it underestimates the uncertainty of
+model variables (sometimes severely) and provides no information about model
+variable covariance. We develop a fast, general methodology for exponential
+families that augments MFVB to deliver accurate uncertainty estimates for model
+variables -- both for individual variables and coherently across variables.
+MFVB for exponential families defines a fixed-point equation in the means of
+the approximating posterior, and our approach yields a covariance estimate by
+perturbing this fixed point. Inspired by linear response theory, we call our
+method linear response variational Bayes (LRVB). We also show how LRVB can be
+used to quickly calculate a measure of the influence of individual data points
+on parameter point estimates. We demonstrate the accuracy and scalability of
+our method by learning Gaussian mixture models for both simulated and real
+data.

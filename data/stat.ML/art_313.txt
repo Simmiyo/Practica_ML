@@ -1,0 +1,15 @@
+Ellipsoidal Rounding for Nonnegative Matrix Factorization Under Noisy
+  Separability
+We present a numerical algorithm for nonnegative matrix factorization (NMF)
+problems under noisy separability. An NMF problem under separability can be
+stated as one of finding all vertices of the convex hull of data points. The
+research interest of this paper is to find the vectors as close to the vertices
+as possible in a situation in which noise is added to the data points. Our
+algorithm is designed to capture the shape of the convex hull of data points by
+using its enclosing ellipsoid. We show that the algorithm has correctness and
+robustness properties from theoretical and practical perspectives; correctness
+here means that if the data points do not contain any noise, the algorithm can
+find the vertices of their convex hull; robustness means that if the data
+points contain noise, the algorithm can find the near-vertices. Finally, we
+apply the algorithm to document clustering, and report the experimental
+results.

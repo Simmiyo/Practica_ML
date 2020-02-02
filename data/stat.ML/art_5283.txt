@@ -1,0 +1,13 @@
+Semi-supervised Learning for Discrete Choice Models
+We introduce a semi-supervised discrete choice model to calibrate discrete
+choice models when relatively few requests have both choice sets and stated
+preferences but the majority only have the choice sets. Two classic
+semi-supervised learning algorithms, the expectation maximization algorithm and
+the cluster-and-label algorithm, have been adapted to our choice modeling
+problem setting. We also develop two new algorithms based on the
+cluster-and-label algorithm. The new algorithms use the Bayesian Information
+Criterion to evaluate a clustering setting to automatically adjust the number
+of clusters. Two computational studies including a hotel booking case and a
+large-scale airline itinerary shopping case are presented to evaluate the
+prediction accuracy and computational effort of the proposed algorithms.
+Algorithmic recommendations are rendered under various scenarios.

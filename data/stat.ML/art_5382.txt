@@ -1,0 +1,11 @@
+Revisiting stochastic off-policy action-value gradients
+Off-policy stochastic actor-critic methods rely on approximating the
+stochastic policy gradient in order to derive an optimal policy. One may also
+derive the optimal policy by approximating the action-value gradient. The use
+of action-value gradients is desirable as policy improvement occurs along the
+direction of steepest ascent. This has been studied extensively within the
+context of natural gradient actor-critic algorithms and more recently within
+the context of deterministic policy gradients. In this paper we briefly discuss
+the off-policy stochastic counterpart to deterministic action-value gradients,
+as well as an incremental approach for following the policy gradient in lieu of
+the natural gradient.

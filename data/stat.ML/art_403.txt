@@ -1,0 +1,22 @@
+Characteristic Kernels and Infinitely Divisible Distributions
+We connect shift-invariant characteristic kernels to infinitely divisible
+distributions on $\mathbb{R}^{d}$. Characteristic kernels play an important
+role in machine learning applications with their kernel means to distinguish
+any two probability measures. The contribution of this paper is two-fold.
+First, we show, using the L\'evy-Khintchine formula, that any shift-invariant
+kernel given by a bounded, continuous and symmetric probability density
+function (pdf) of an infinitely divisible distribution on $\mathbb{R}^d$ is
+characteristic. We also present some closure property of such characteristic
+kernels under addition, pointwise product, and convolution. Second, in
+developing various kernel mean algorithms, it is fundamental to compute the
+following values: (i) kernel mean values $m_P(x)$, $x \in \mathcal{X}$, and
+(ii) kernel mean RKHS inner products ${\left\langle m_P, m_Q
+\right\rangle_{\mathcal{H}}}$, for probability measures $P, Q$. If $P, Q$, and
+kernel $k$ are Gaussians, then computation (i) and (ii) results in Gaussian
+pdfs that is tractable. We generalize this Gaussian combination to more general
+cases in the class of infinitely divisible distributions. We then introduce a
+{\it conjugate} kernel and {\it convolution trick}, so that the above (i) and
+(ii) have the same pdf form, expecting tractable computation at least in some
+cases. As specific instances, we explore $\alpha$-stable distributions and a
+rich class of generalized hyperbolic distributions, where the Laplace, Cauchy
+and Student-t distributions are included.

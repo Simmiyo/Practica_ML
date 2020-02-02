@@ -1,0 +1,16 @@
+Residual Component Analysis: Generalising PCA for more flexible
+  inference in linear-Gaussian models
+Probabilistic principal component analysis (PPCA) seeks a low dimensional
+representation of a data set in the presence of independent spherical Gaussian
+noise. The maximum likelihood solution for the model is an eigenvalue problem
+on the sample covariance matrix. In this paper we consider the situation where
+the data variance is already partially explained by other actors, for example
+sparse conditional dependencies between the covariates, or temporal
+correlations leaving some residual variance. We decompose the residual variance
+into its components through a generalised eigenvalue problem, which we call
+residual component analysis (RCA). We explore a range of new algorithms that
+arise from the framework, including one that factorises the covariance of a
+Gaussian density into a low-rank and a sparse-inverse component. We illustrate
+the ideas on the recovery of a protein-signaling network, a gene expression
+time-series data set and the recovery of the human skeleton from motion capture
+3-D cloud data.

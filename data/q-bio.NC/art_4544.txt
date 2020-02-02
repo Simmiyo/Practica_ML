@@ -1,0 +1,20 @@
+A Formal Approach to Modeling the Memory of a Living Organism
+We consider a living organism as an observer of the evolution of its
+environment recording sensory information about the state space X of the
+environment in real time. Sensory information is sampled and then processed on
+two levels. On the biological level, the organism serves as an evaluation
+mechanism of the subjective relevance of the incoming data to the observer: the
+observer assigns excitation values to events in X it could recognize using its
+sensory equipment. On the algorithmic level, sensory input is used for updating
+a database, the memory of the observer whose purpose is to serve as a
+geometric/combinatorial model of X, whose nodes are weighted by the excitation
+values produced by the evaluation mechanism. These values serve as a guidance
+system for deciding how the database should transform as observation data
+mounts. We define a searching problem for the proposed model and discuss the
+model's flexibility and its computational efficiency, as well as the
+possibility of implementing it as a dynamic network of neuron-like units. We
+show how various easily observable properties of the human memory and thought
+process can be explained within the framework of this model. These include:
+reasoning (with efficiency bounds), errors, temporary and permanent loss of
+information. We are also able to define general learning problems in terms of
+the new model, such as the language acquisition problem.

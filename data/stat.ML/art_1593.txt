@@ -1,0 +1,19 @@
+A Quasi-Newton Approach to Nonsmooth Convex Optimization Problems in
+  Machine Learning
+We extend the well-known BFGS quasi-Newton method and its memory-limited
+variant LBFGS to the optimization of nonsmooth convex objectives. This is done
+in a rigorous fashion by generalizing three components of BFGS to
+subdifferentials: the local quadratic model, the identification of a descent
+direction, and the Wolfe line search conditions. We prove that under some
+technical conditions, the resulting subBFGS algorithm is globally convergent in
+objective function value. We apply its memory-limited variant (subLBFGS) to
+L_2-regularized risk minimization with the binary hinge loss. To extend our
+algorithm to the multiclass and multilabel settings, we develop a new,
+efficient, exact line search algorithm. We prove its worst-case time complexity
+bounds, and show that our line search can also be used to extend a recently
+developed bundle method to the multiclass and multilabel settings. We also
+apply the direction-finding component of our algorithm to L_1-regularized risk
+minimization with logistic loss. In all these contexts our methods perform
+comparable to or better than specialized state-of-the-art solvers on a number
+of publicly available datasets. An open source implementation of our algorithms
+is freely available.

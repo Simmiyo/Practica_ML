@@ -1,0 +1,15 @@
+Multivariate Spearman's rho for aggregating ranks using copulas
+We study the problem of rank aggregation: given a set of ranked lists, we
+want to form a consensus ranking. Furthermore, we consider the case of extreme
+lists: i.e., only the rank of the best or worst elements are known. We impute
+missing ranks by the average value and generalise Spearman's \rho to extreme
+ranks. Our main contribution is the derivation of a non-parametric estimator
+for rank aggregation based on multivariate extensions of Spearman's \rho, which
+measures correlation between a set of ranked lists. Multivariate Spearman's
+\rho is defined using copulas, and we show that the geometric mean of
+normalised ranks maximises multivariate correlation. Motivated by this, we
+propose a weighted geometric mean approach for learning to rank which has a
+closed form least squares solution. When only the best or worst elements of a
+ranked list are known, we impute the missing ranks by the average value,
+allowing us to apply Spearman's \rho. Finally, we demonstrate good performance
+on the rank aggregation benchmarks MQ2007 and MQ2008.

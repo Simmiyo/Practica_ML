@@ -1,0 +1,19 @@
+Simulation of networks of spiking neurons: A review of tools and
+  strategies
+We review different aspects of the simulation of spiking neural networks. We
+start by reviewing the different types of simulation strategies and algorithms
+that are currently implemented. We next review the precision of those
+simulation strategies, in particular in cases where plasticity depends on the
+exact timing of the spikes. We overview different simulators and simulation
+environments presently available (restricted to those freely available, open
+source and documented). For each simulation tool, its advantages and pitfalls
+are reviewed, with an aim to allow the reader to identify which simulator is
+appropriate for a given task. Finally, we provide a series of benchmark
+simulations of different types of networks of spiking neurons, including
+Hodgkin-Huxley type, integrate-and-fire models, interacting with current-based
+or conductance-based synapses, using clock-driven or event-driven integration
+strategies. The same set of models are implemented on the different simulators,
+and the codes are made available. The ultimate goal of this review is to
+provide a resource to facilitate identifying the appropriate integration
+strategy and simulation tool to use for a given modeling problem related to
+spiking neural networks.

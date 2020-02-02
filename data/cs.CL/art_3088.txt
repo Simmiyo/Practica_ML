@@ -1,0 +1,14 @@
+Building Chatbots from Forum Data: Model Selection Using Question
+  Answering Metrics
+We propose to use question answering (QA) data from Web forums to train
+chatbots from scratch, i.e., without dialog training data. First, we extract
+pairs of question and answer sentences from the typically much longer texts of
+questions and answers in a forum. We then use these shorter texts to train
+seq2seq models in a more efficient way. We further improve the parameter
+optimization using a new model selection strategy based on QA measures.
+Finally, we propose to use extrinsic evaluation with respect to a QA task as an
+automatic evaluation method for chatbots. The evaluation shows that the model
+achieves a MAP of 63.5% on the extrinsic task. Moreover, it can answer
+correctly 49.5% of the questions when they are similar to questions asked in
+the forum, and 47.3% of the questions when they are more conversational in
+style.

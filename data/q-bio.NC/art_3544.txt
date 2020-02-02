@@ -1,0 +1,17 @@
+SpykeTorch: Efficient Simulation of Convolutional Spiking Neural
+  Networks with at most one Spike per Neuron
+Application of deep convolutional spiking neural networks (SNNs) to
+artificial intelligence (AI) tasks has recently gained a lot of interest since
+SNNs are hardware-friendly and energy-efficient. Unlike the non-spiking
+counterparts, most of the existing SNN simulation frameworks are not
+practically efficient enough for large-scale AI tasks. In this paper, we
+introduce SpykeTorch, an open-source high-speed simulation framework based on
+PyTorch. This framework simulates convolutional SNNs with at most one spike per
+neuron and the rank-order encoding scheme. In terms of learning rules, both
+spike-timing-dependent plasticity (STDP) and reward-modulated STDP (R-STDP) are
+implemented, but other rules could be implemented easily. Apart from the
+aforementioned properties, SpykeTorch is highly generic and capable of
+reproducing the results of various studies. Computations in the proposed
+framework are tensor-based and totally done by PyTorch functions, which in turn
+brings the ability of just-in-time optimization for running on CPUs, GPUs, or
+Multi-GPU platforms.

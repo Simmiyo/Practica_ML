@@ -1,0 +1,25 @@
+Reconstruction of recurrent synaptic connectivity of thousands of
+  neurons from simulated spiking activity
+Dynamics and function of neuronal networks are determined by their synaptic
+connectivity. Current experimental methods to analyze synaptic network
+structure on the cellular level, however, cover only small fractions of
+functional neuronal circuits, typically without a simultaneous record of
+neuronal spiking activity. Here we present a method for the reconstruction of
+large recurrent neuronal networks from thousands of parallel spike train
+recordings. We employ maximum likelihood estimation of a generalized linear
+model of the spiking activity in continuous time. For this model the point
+process likelihood is concave, such that a global optimum of the parameters can
+be obtained by gradient ascent. Previous methods, including those of the same
+class, did not allow recurrent networks of that order of magnitude to be
+reconstructed due to prohibitive computational cost and numerical
+instabilities. We describe a minimal model that is optimized for large networks
+and an efficient scheme for its parallelized numerical optimization on generic
+computing clusters. For a simulated balanced random network of 1000 neurons,
+synaptic connectivity is recovered with a misclassification error rate of less
+than 1% under ideal conditions. We show that the error rate remains low in a
+series of example cases under progressively less ideal conditions. Finally, we
+successfully reconstruct the connectivity of a hidden synfire chain that is
+embedded in a random network, which requires clustering of the network
+connectivity to reveal the synfire groups. Our results demonstrate how synaptic
+connectivity could potentially be inferred from large-scale parallel spike
+train recordings.

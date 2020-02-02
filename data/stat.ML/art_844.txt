@@ -1,0 +1,11 @@
+Function Driven Diffusion for Personalized Counterfactual Inference
+We consider the problem of constructing diffusion operators high dimensional
+data $X$ to address counterfactual functions $F$, such as individualized
+treatment effectiveness. We propose and construct a new diffusion metric $K_F$
+that captures both the local geometry of $X$ and the directions of variance of
+$F$. The resulting diffusion metric is then used to define a localized
+filtration of $F$ and answer counterfactual questions pointwise, particularly
+in situations such as drug trials where an individual patient's outcomes cannot
+be studied long term both taking and not taking a medication. We validate the
+model on synthetic and real world clinical trials, and create individualized
+notions of benefit from treatment.

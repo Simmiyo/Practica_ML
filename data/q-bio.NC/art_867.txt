@@ -1,0 +1,28 @@
+A statistical model for brain networks inferred from large-scale
+  electrophysiological signals
+Network science has been extensively developed to characterize structural
+properties of complex systems, including brain networks inferred from
+neuroimaging data. As a result of the inference process, networks estimated
+from experimentally obtained biological data, represent one instance of a
+larger number of realizations with similar intrinsic topology. A modeling
+approach is therefore needed to support statistical inference on the bottom-up
+local connectivity mechanisms influencing the formation of the estimated brain
+networks. We adopted a statistical model based on exponential random graphs
+(ERGM) to reproduce brain networks, or connectomes, estimated by spectral
+coherence between high-density electroencephalographic (EEG) signals. We
+validated this approach in a dataset of 108 healthy subjects during eyes-open
+(EO) and eyes-closed (EC) resting-state conditions. Results showed that the
+tendency to form triangles and stars, reflecting clustering and node
+centrality, better explained the global properties of the EEG connectomes as
+compared to other combinations of graph metrics. Synthetic networks generated
+by this model configuration replicated the characteristic differences found in
+brain networks, with EO eliciting significantly higher segregation in the alpha
+frequency band (8-13 Hz) as compared to EC. Furthermore, the fitted ERGM
+parameter values provided complementary information showing that clustering
+connections are significantly more represented from EC to EO in the alpha
+range, but also in the beta band (14-29 Hz), which is known to play a crucial
+role in cortical processing of visual input and externally oriented attention.
+These findings support the current view of the brain functional segregation and
+integration in terms of modules and hubs, and provide a statistical approach to
+extract new information on the (re)organizational mechanisms in healthy and
+diseased brains.

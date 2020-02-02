@@ -1,0 +1,21 @@
+Minimax-optimal decoding of movement goals from local field potentials
+  using complex spectral features
+We consider the problem of predicting eye movement goals from local field
+potentials (LFP) recorded through a multielectrode array in the macaque
+prefrontal cortex. The monkey is tasked with performing memory-guided saccades
+to one of eight targets during which LFP activity is recorded and used to train
+a decoder. Previous reports have mainly relied on the spectral amplitude of the
+LFPs as a feature in the decoding step to limited success, while neglecting the
+phase without proper theoretical justification. This paper formulates the
+problem of decoding eye movement intentions in a statistically optimal
+framework and uses Gaussian sequence modeling and Pinsker's theorem to generate
+minimax-optimal estimates of the LFP signals which are later used as features
+in the decoding step. The approach is shown to act as a low-pass filter and
+each LFP in the feature space is represented via its complex Fourier
+coefficients after appropriate shrinking such that higher frequency components
+are attenuated; this way, the phase information inherently present in the LFP
+signal is naturally embedded into the feature space. The proposed complex
+spectrum-based decoder achieves prediction accuracy of up to $94\%$ at
+superficial electrode depths near the surface of the prefrontal cortex, which
+marks a significant performance improvement over conventional power
+spectrum-based decoders.

@@ -1,0 +1,24 @@
+Improving Back-Propagation by Adding an Adversarial Gradient
+The back-propagation algorithm is widely used for learning in artificial
+neural networks. A challenge in machine learning is to create models that
+generalize to new data samples not seen in the training data. Recently, a
+common flaw in several machine learning algorithms was discovered: small
+perturbations added to the input data lead to consistent misclassification of
+data samples. Samples that easily mislead the model are called adversarial
+examples. Training a "maxout" network on adversarial examples has shown to
+decrease this vulnerability, but also increase classification performance. This
+paper shows that adversarial training has a regularizing effect also in
+networks with logistic, hyperbolic tangent and rectified linear units. A simple
+extension to the back-propagation method is proposed, that adds an adversarial
+gradient to the training. The extension requires an additional forward and
+backward pass to calculate a modified input sample, or mini batch, used as
+input for standard back-propagation learning. The first experimental results on
+MNIST show that the "adversarial back-propagation" method increases the
+resistance to adversarial examples and boosts the classification performance.
+The extension reduces the classification error on the permutation invariant
+MNIST from 1.60% to 0.95% in a logistic network, and from 1.40% to 0.78% in a
+network with rectified linear units. Results on CIFAR-10 indicate that the
+method has a regularizing effect similar to dropout in fully connected
+networks. Based on these promising results, adversarial back-propagation is
+proposed as a stand-alone regularizing method that should be further
+investigated.

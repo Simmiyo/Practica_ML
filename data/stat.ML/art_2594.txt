@@ -1,0 +1,20 @@
+Bayesian Conditional Gaussian Network Classifiers with Applications to
+  Mass Spectra Classification
+Classifiers based on probabilistic graphical models are very effective. In
+continuous domains, maximum likelihood is usually used to assess the
+predictions of those classifiers. When data is scarce, this can easily lead to
+overfitting. In any probabilistic setting, Bayesian averaging (BA) provides
+theoretically optimal predictions and is known to be robust to overfitting. In
+this work we introduce Bayesian Conditional Gaussian Network Classifiers, which
+efficiently perform exact Bayesian averaging over the parameters. We evaluate
+the proposed classifiers against the maximum likelihood alternatives proposed
+so far over standard UCI datasets, concluding that performing BA improves the
+quality of the assessed probabilities (conditional log likelihood) whilst
+maintaining the error rate.
+  Overfitting is more likely to occur in domains where the number of data items
+is small and the number of variables is large. These two conditions are met in
+the realm of bioinformatics, where the early diagnosis of cancer from mass
+spectra is a relevant task. We provide an application of our classification
+framework to that problem, comparing it with the standard maximum likelihood
+alternative, where the improvement of quality in the assessed probabilities is
+confirmed.

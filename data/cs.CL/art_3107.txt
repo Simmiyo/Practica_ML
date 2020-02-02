@@ -1,0 +1,17 @@
+Machine Learning Based Detection of Clickbait Posts in Social Media
+Clickbait (headlines) make use of misleading titles that hide critical
+information from or exaggerate the content on the landing target pages to
+entice clicks. As clickbaits often use eye-catching wording to attract viewers,
+target contents are often of low quality. Clickbaits are especially widespread
+on social media such as Twitter, adversely impacting user experience by causing
+immense dissatisfaction. Hence, it has become increasingly important to put
+forward a widely applicable approach to identify and detect clickbaits. In this
+paper, we make use of a dataset from the clickbait challenge 2017
+(clickbait-challenge.com) comprising of over 21,000 headlines/titles, each of
+which is annotated by at least five judgments from crowdsourcing on how
+clickbait it is. We attempt to build an effective computational clickbait
+detection model on this dataset. We first considered a total of 331 features,
+filtered out many features to avoid overfitting and improve the running time of
+learning, and eventually selected the 60 most important features for our final
+model. Using these features, Random Forest Regression achieved the following
+results: MSE=0.035 MSE, Accuracy=0.82, and F1-sore=0.61 on the clickbait class.

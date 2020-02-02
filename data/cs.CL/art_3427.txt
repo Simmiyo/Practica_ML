@@ -1,0 +1,18 @@
+Evaluating Scoped Meaning Representations
+Semantic parsing offers many opportunities to improve natural language
+understanding. We present a semantically annotated parallel corpus for English,
+German, Italian, and Dutch where sentences are aligned with scoped meaning
+representations in order to capture the semantics of negation, modals,
+quantification, and presupposition triggers. The semantic formalism is based on
+Discourse Representation Theory, but concepts are represented by WordNet
+synsets and thematic roles by VerbNet relations. Translating scoped meaning
+representations to sets of clauses enables us to compare them for the purpose
+of semantic parser evaluation and checking translations. This is done by
+computing precision and recall on matching clauses, in a similar way as is done
+for Abstract Meaning Representations. We show that our matching tool for
+evaluating scoped meaning representations is both accurate and efficient.
+Applying this matching tool to three baseline semantic parsers yields F-scores
+between 43% and 54%. A pilot study is performed to automatically find changes
+in meaning by comparing meaning representations of translations. This
+comparison turns out to be an additional way of (i) finding annotation mistakes
+and (ii) finding instances where our semantic analysis needs to be improved.

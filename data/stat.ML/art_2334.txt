@@ -1,0 +1,18 @@
+A Geometric Blind Source Separation Method Based on Facet Component
+  Analysis
+Given a set of mixtures, blind source separation attempts to retrieve the
+source signals without or with very little information of the the mixing
+process. We present a geometric approach for blind separation of nonnegative
+linear mixtures termed {\em facet component analysis} (FCA). The approach is
+based on facet identification of the underlying cone structure of the data.
+Earlier works focus on recovering the cone by locating its vertices (vertex
+component analysis or VCA) based on a mutual sparsity condition which requires
+each source signal to possess a stand-alone peak in its spectrum. We formulate
+alternative conditions so that enough data points fall on the facets of a cone
+instead of accumulating around the vertices. To find a regime of unique
+solvability, we make use of both geometric and density properties of the data
+points, and develop an efficient facet identification method by combining data
+classification and linear regression. For noisy data, we show that denoising
+methods may be employed, such as the total variation technique in imaging
+processing, and principle component analysis. We show computational results on
+nuclear magnetic resonance spectroscopic data to substantiate our method.

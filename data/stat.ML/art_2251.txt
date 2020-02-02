@@ -1,0 +1,11 @@
+Nonparametric Unsupervised Classification
+Unsupervised classification methods learn a discriminative classifier from
+unlabeled data, which has been proven to be an effective way of simultaneously
+clustering the data and training a classifier from the data. Various
+unsupervised classification methods obtain appealing results by the classifiers
+learned in an unsupervised manner. However, existing methods do not consider
+the misclassification error of the unsupervised classifiers except unsupervised
+SVM, so the performance of the unsupervised classifiers is not fully evaluated.
+In this work, we study the misclassification error of two popular classifiers,
+i.e. the nearest neighbor classifier (NN) and the plug-in classifier, in the
+setting of unsupervised classification.

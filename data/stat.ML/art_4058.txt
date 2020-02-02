@@ -1,0 +1,16 @@
+Graph Learning from Data under Structural and Laplacian Constraints
+Graphs are fundamental mathematical structures used in various fields to
+represent data, signals and processes. In this paper, we propose a novel
+framework for learning/estimating graphs from data. The proposed framework
+includes (i) formulation of various graph learning problems, (ii) their
+probabilistic interpretations and (iii) associated algorithms. Specifically,
+graph learning problems are posed as estimation of graph Laplacian matrices
+from some observed data under given structural constraints (e.g., graph
+connectivity and sparsity level). From a probabilistic perspective, the
+problems of interest correspond to maximum a posteriori (MAP) parameter
+estimation of Gaussian-Markov random field (GMRF) models, whose precision
+(inverse covariance) is a graph Laplacian matrix. For the proposed graph
+learning problems, specialized algorithms are developed by incorporating the
+graph Laplacian and structural constraints. The experimental results
+demonstrate that the proposed algorithms outperform the current
+state-of-the-art methods in terms of accuracy and computational efficiency.

@@ -1,0 +1,26 @@
+A point process framework for modeling electrical stimulation of the
+  auditory nerve
+Model-based studies of auditory nerve responses to electrical stimulation can
+provide insight into the functioning of cochlear implants. Ideally, these
+studies can identify limitations in sound processing strategies and lead to
+improved methods for providing sound information to cochlear implant users. To
+accomplish this, models must accurately describe auditory nerve spiking while
+avoiding excessive complexity that would preclude large-scale simulations of
+populations of auditory nerve fibers and obscure insight into the mechanisms
+that influence neural encoding of sound information. In this spirit, we develop
+a point process model of the auditory nerve that provides a compact and
+accurate description of neural responses to electric stimulation. Inspired by
+the framework of generalized linear models, the proposed model consists of a
+cascade of linear and nonlinear stages. We show how each of these stages can be
+associated with biophysical mechanisms and related to models of neuronal
+dynamics. Moreover, we derive a semi-analytical procedure that uniquely
+determines each parameter in the model on the basis of fundamental statistics
+from recordings of single fiber responses to electric stimulation, including
+threshold, relative spread, jitter, and chronaxie. The model also accounts for
+refractory and summation effects that influence the responses of auditory nerve
+fibers to high pulse rate stimulation. Throughout, we compare model predictions
+to published physiological data and explain differences in auditory nerve
+responses to high and low pulse rate stimulation. We close by performing an
+ideal observer analysis of simulated spike trains in response to sinusoidally
+amplitude modulated stimuli and find that carrier pulse rate does not affect
+modulation detection thresholds.

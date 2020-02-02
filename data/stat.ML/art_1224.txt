@@ -1,0 +1,21 @@
+DeepSleepNet: a Model for Automatic Sleep Stage Scoring based on Raw
+  Single-Channel EEG
+The present study proposes a deep learning model, named DeepSleepNet, for
+automatic sleep stage scoring based on raw single-channel EEG. Most of the
+existing methods rely on hand-engineered features which require prior knowledge
+of sleep analysis. Only a few of them encode the temporal information such as
+transition rules, which is important for identifying the next sleep stages,
+into the extracted features. In the proposed model, we utilize Convolutional
+Neural Networks to extract time-invariant features, and bidirectional-Long
+Short-Term Memory to learn transition rules among sleep stages automatically
+from EEG epochs. We implement a two-step training algorithm to train our model
+efficiently. We evaluated our model using different single-channel EEGs
+(F4-EOG(Left), Fpz-Cz and Pz-Oz) from two public sleep datasets, that have
+different properties (e.g., sampling rate) and scoring standards (AASM and
+R&K). The results showed that our model achieved similar overall accuracy and
+macro F1-score (MASS: 86.2%-81.7, Sleep-EDF: 82.0%-76.9) compared to the
+state-of-the-art methods (MASS: 85.9%-80.5, Sleep-EDF: 78.9%-73.7) on both
+datasets. This demonstrated that, without changing the model architecture and
+the training algorithm, our model could automatically learn features for sleep
+stage scoring from different raw single-channel EEGs from different datasets
+without utilizing any hand-engineered features.

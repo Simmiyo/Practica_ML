@@ -1,0 +1,14 @@
+Jointly Trained Sequential Labeling and Classification by Sparse
+  Attention Neural Networks
+Sentence-level classification and sequential labeling are two fundamental
+tasks in language understanding. While these two tasks are usually modeled
+separately, in reality, they are often correlated, for example in intent
+classification and slot filling, or in topic classification and named-entity
+recognition. In order to utilize the potential benefits from their
+correlations, we propose a jointly trained model for learning the two tasks
+simultaneously via Long Short-Term Memory (LSTM) networks. This model predicts
+the sentence-level category and the word-level label sequence from the stepwise
+output hidden representations of LSTM. We also introduce a novel mechanism of
+"sparse attention" to weigh words differently based on their semantic relevance
+to sentence-level classification. The proposed method outperforms baseline
+models on ATIS and TREC datasets.

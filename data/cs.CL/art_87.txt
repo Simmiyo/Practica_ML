@@ -1,0 +1,15 @@
+Turning Speech Into Scripts
+We describe an architecture for implementing spoken natural language dialogue
+interfaces to semi-autonomous systems, in which the central idea is to
+transform the input speech signal through successive levels of representation
+corresponding roughly to linguistic knowledge, dialogue knowledge, and domain
+knowledge. The final representation is an executable program in a simple
+scripting language equivalent to a subset of Cshell. At each stage of the
+translation process, an input is transformed into an output, producing as a
+byproduct a "meta-output" which describes the nature of the transformation
+performed. We show how consistent use of the output/meta-output distinction
+permits a simple and perspicuous treatment of apparently diverse topics
+including resolution of pronouns, correction of user misconceptions, and
+optimization of scripts. The methods described have been concretely realized in
+a prototype speech interface to a simulation of the Personal Satellite
+Assistant.

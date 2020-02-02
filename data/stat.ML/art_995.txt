@@ -1,0 +1,12 @@
+On Bayesian index policies for sequential resource allocation
+This paper is about index policies for minimizing (frequentist) regret in a
+stochastic multi-armed bandit model, inspired by a Bayesian view on the
+problem. Our main contribution is to prove that the Bayes-UCB algorithm, which
+relies on quantiles of posterior distributions, is asymptotically optimal when
+the reward distributions belong to a one-dimensional exponential family, for a
+large class of prior distributions. We also show that the Bayesian literature
+gives new insight on what kind of exploration rates could be used in
+frequentist, UCB-type algorithms. Indeed, approximations of the Bayesian
+optimal solution or the Finite Horizon Gittins indices provide a justification
+for the kl-UCB+ and kl-UCB-H+ algorithms, whose asymptotic optimality is also
+established.

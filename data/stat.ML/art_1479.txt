@@ -1,0 +1,19 @@
+Fast Low-Rank Matrix Estimation without the Condition Number
+In this paper, we study the general problem of optimizing a convex function
+$F(L)$ over the set of $p \times p$ matrices, subject to rank constraints on
+$L$. However, existing first-order methods for solving such problems either are
+too slow to converge, or require multiple invocations of singular value
+decompositions. On the other hand, factorization-based non-convex algorithms,
+while being much faster, require stringent assumptions on the \emph{condition
+number} of the optimum. In this paper, we provide a novel algorithmic framework
+that achieves the best of both worlds: asymptotically as fast as factorization
+methods, while requiring no dependency on the condition number.
+  We instantiate our general framework for three important matrix estimation
+problems that impact several practical applications; (i) a \emph{nonlinear}
+variant of affine rank minimization, (ii) logistic PCA, and (iii) precision
+matrix estimation in probabilistic graphical model learning. We then derive
+explicit bounds on the sample complexity as well as the running time of our
+approach, and show that it achieves the best possible bounds for both cases. We
+also provide an extensive range of experimental results, and demonstrate that
+our algorithm provides a very attractive tradeoff between estimation accuracy
+and running time.

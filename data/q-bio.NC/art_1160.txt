@@ -1,0 +1,28 @@
+Applications of Discrete Mathematics for Understanding Dynamics of
+  Synapses and Networks in Neuroscience
+Mathematical modeling has broad applications in neuroscience whether modeling
+the dynamics of a single synapse or an entire network of neurons. In Part I, we
+model vesicle replenishment and release at the photoreceptor synapse to better
+understand how visual information is processed. In Part II, we explore a simple
+model of neural networks with the goal of discovering how network structure
+shapes the behavior of the network.
+  To fully understand how visual information is processed requires an
+understanding of the way signals are transformed at the ribbon synapse of
+photoreceptor neurons. These synapses possess a ribbon-like structure capable
+of storing around 100 synaptic vesicles, allowing graded responses through the
+release of different numbers of vesicles in response to visual input. These
+responses depend critically on the ability of the ribbon to replenish itself as
+ribbon sites empty upon release. The rate of vesicle replenishment is thus an
+important factor in shaping neural coding in the retina. In collaboration with
+experimental neuroscientists we developed a mathematical model to describe the
+dynamics of vesicle release and replenishment at the ribbon synapse.
+  To learn more about how network architecture shapes the dynamics of the
+network, we study a specific type of threshold-linear network that is
+constructed from a simple directed graph. The network construction guarantees
+that differences in dynamics arise solely from differences in the connectivity
+of the underlying graph. By design, the activity of these networks is bounded
+and there are no stable fixed points. Computational experiments show that most
+of these networks yield limit cycles where the neurons fire in sequence. We
+devised an algorithm to predict the sequence of firing using the structure of
+the underlying graph. Using the algorithm we classify all the networks of this
+type on five or fewer nodes.

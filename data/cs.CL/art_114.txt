@@ -1,0 +1,11 @@
+Compact non-left-recursive grammars using the selective left-corner
+  transform and factoring
+The left-corner transform removes left-recursion from (probabilistic)
+context-free grammars and unification grammars, permitting simple top-down
+parsing techniques to be used. Unfortunately the grammars produced by the
+standard left-corner transform are usually much larger than the original. The
+selective left-corner transform described in this paper produces a transformed
+grammar which simulates left-corner recognition of a user-specified set of the
+original productions, and top-down recognition of the others. Combined with two
+factorizations, it produces non-left-recursive grammars that are not much
+larger than the original.

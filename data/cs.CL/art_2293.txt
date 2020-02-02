@@ -1,0 +1,15 @@
+Living a discrete life in a continuous world: Reference with distributed
+  representations
+Reference is a crucial property of language that allows us to connect
+linguistic expressions to the world. Modeling it requires handling both
+continuous and discrete aspects of meaning. Data-driven models excel at the
+former, but struggle with the latter, and the reverse is true for symbolic
+models.
+  This paper (a) introduces a concrete referential task to test both aspects,
+called cross-modal entity tracking; (b) proposes a neural network architecture
+that uses external memory to build an entity library inspired in the DRSs of
+DRT, with a mechanism to dynamically introduce new referents or add information
+to referents that are already in the library.
+  Our model shows promise: it beats traditional neural network architectures on
+the task. However, it is still outperformed by Memory Networks, another model
+with external memory.

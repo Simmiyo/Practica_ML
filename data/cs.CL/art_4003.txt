@@ -1,0 +1,15 @@
+Adversarial Learning of Task-Oriented Neural Dialog Models
+In this work, we propose an adversarial learning method for reward estimation
+in reinforcement learning (RL) based task-oriented dialog models. Most of the
+current RL based task-oriented dialog systems require the access to a reward
+signal from either user feedback or user ratings. Such user ratings, however,
+may not always be consistent or available in practice. Furthermore, online
+dialog policy learning with RL typically requires a large number of queries to
+users, suffering from sample efficiency problem. To address these challenges,
+we propose an adversarial learning method to learn dialog rewards directly from
+dialog samples. Such rewards are further used to optimize the dialog policy
+with policy gradient based RL. In the evaluation in a restaurant search domain,
+we show that the proposed adversarial dialog learning method achieves advanced
+dialog success rate comparing to strong baseline methods. We further discuss
+the covariate shift problem in online adversarial dialog learning and show how
+we can address that with partial access to user feedback.

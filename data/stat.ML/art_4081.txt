@@ -1,0 +1,13 @@
+Memory Lens: How Much Memory Does an Agent Use?
+We propose a new method to study the internal memory used by reinforcement
+learning policies. We estimate the amount of relevant past information by
+estimating mutual information between behavior histories and the current action
+of an agent. We perform this estimation in the passive setting, that is, we do
+not intervene but merely observe the natural behavior of the agent. Moreover,
+we provide a theoretical justification for our approach by showing that it
+yields an implementation-independent lower bound on the minimal memory capacity
+of any agent that implement the observed policy. We demonstrate our approach by
+estimating the use of memory of DQN policies on concatenated Atari frames,
+demonstrating sharply different use of memory across 49 games. The study of
+memory as information that flows from the past to the current action opens
+avenues to understand and improve successful reinforcement learning algorithms.

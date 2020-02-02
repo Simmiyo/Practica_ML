@@ -1,0 +1,12 @@
+Online Learning Without Prior Information
+The vast majority of optimization and online learning algorithms today
+require some prior information about the data (often in the form of bounds on
+gradients or on the optimal parameter value). When this information is not
+available, these algorithms require laborious manual tuning of various
+hyperparameters, motivating the search for algorithms that can adapt to the
+data with no prior information. We describe a frontier of new lower bounds on
+the performance of such algorithms, reflecting a tradeoff between a term that
+depends on the optimal parameter value and a term that depends on the
+gradients' rate of growth. Further, we construct a family of algorithms whose
+performance matches any desired point on this frontier, which no previous
+algorithm reaches.

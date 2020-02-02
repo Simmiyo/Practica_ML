@@ -1,0 +1,15 @@
+Nonparametric Bayes dynamic modeling of relational data
+Symmetric binary matrices representing relations among entities are commonly
+collected in many areas. Our focus is on dynamically evolving binary relational
+matrices, with interest being in inference on the relationship structure and
+prediction. We propose a nonparametric Bayesian dynamic model, which reduces
+dimensionality in characterizing the binary matrix through a lower-dimensional
+latent space representation, with the latent coordinates evolving in continuous
+time via Gaussian processes. By using a logistic mapping function from the
+probability matrix space to the latent relational space, we obtain a flexible
+and computational tractable formulation. Employing P\`olya-Gamma data
+augmentation, an efficient Gibbs sampler is developed for posterior
+computation, with the dimension of the latent space automatically inferred. We
+provide some theoretical results on flexibility of the model, and illustrate
+performance via simulation experiments. We also consider an application to
+co-movements in world financial markets.

@@ -1,0 +1,17 @@
+High-resolution intracellular recordings using a real-time computational
+  model of the electrode
+Intracellular recordings of neuronal membrane potential are a central tool in
+neurophysiology. In many situations, especially in vivo, the traditional
+limitation of such recordings is the high electrode resistance, which may cause
+significant measurement errors. We introduce a computer-aided technique, Active
+Electrode Compensation (AEC), based on a digital model of the electrode
+interfaced in real time with the electrophysiological setup. The
+characteristics of this model are first estimated using white noise current
+injection. The electrode and membrane contribution are digitally separated, and
+the recording is then made by online subtraction of the electrode contribution.
+Tests comparing AEC to other techniques demonstrate that it yields recordings
+with improved accuracy. It enables high-frequency recordings in demanding
+conditions, such as injection of conductance noise in dynamic-clamp mode, not
+feasible with a single high resistance electrode until now. AEC should be
+particularly useful to characterize fast phenomena in neurons, in vivo and in
+vitro.

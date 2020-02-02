@@ -1,0 +1,16 @@
+Foundations of a Multi-way Spectral Clustering Framework for Hybrid
+  Linear Modeling
+The problem of Hybrid Linear Modeling (HLM) is to model and segment data
+using a mixture of affine subspaces. Different strategies have been proposed to
+solve this problem, however, rigorous analysis justifying their performance is
+missing. This paper suggests the Theoretical Spectral Curvature Clustering
+(TSCC) algorithm for solving the HLM problem, and provides careful analysis to
+justify it. The TSCC algorithm is practically a combination of Govindu's
+multi-way spectral clustering framework (CVPR 2005) and Ng et al.'s spectral
+clustering algorithm (NIPS 2001). The main result of this paper states that if
+the given data is sampled from a mixture of distributions concentrated around
+affine subspaces, then with high sampling probability the TSCC algorithm
+segments well the different underlying clusters. The goodness of clustering
+depends on the within-cluster errors, the between-clusters interaction, and a
+tuning parameter applied by TSCC. The proof also provides new insights for the
+analysis of Ng et al. (NIPS 2001).

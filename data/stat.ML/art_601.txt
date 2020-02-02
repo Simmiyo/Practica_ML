@@ -1,0 +1,11 @@
+Dropout as a Bayesian Approximation: Appendix
+We show that a neural network with arbitrary depth and non-linearities, with
+dropout applied before every weight layer, is mathematically equivalent to an
+approximation to a well known Bayesian model. This interpretation might offer
+an explanation to some of dropout's key properties, such as its robustness to
+over-fitting. Our interpretation allows us to reason about uncertainty in deep
+learning, and allows the introduction of the Bayesian machinery into existing
+deep learning frameworks in a principled way.
+  This document is an appendix for the main paper "Dropout as a Bayesian
+Approximation: Representing Model Uncertainty in Deep Learning" by Gal and
+Ghahramani, 2015.

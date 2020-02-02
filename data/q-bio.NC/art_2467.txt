@@ -1,0 +1,21 @@
+Percolation under Noise: Detecting Explosive Percolation Using the
+  Second Largest Component
+We consider the problem of distinguishing classical (Erd\H{o}s-R\'{e}nyi)
+percolation from explosive (Achlioptas) percolation, under noise. A statistical
+model of percolation is constructed allowing for the birth and death of edges
+as well as the presence of noise in the observations. This graph-valued
+stochastic process is composed of a latent and an observed non-stationary
+process, where the observed graph process is corrupted by Type I and Type II
+errors. This produces a hidden Markov graph model. We show that for certain
+choices of parameters controlling the noise, the classical (ER) percolation is
+visually indistinguishable from the explosive (Achlioptas) percolation model.
+In this setting, we compare two different criteria for discriminating between
+these two percolation models, based on a quantile difference (QD) of the first
+component's size and on the maximal size of the second largest component. We
+show through data simulations that this second criterion outperforms the QD of
+the first component's size, in terms of discriminatory power. The maximal size
+of the second component therefore provides a useful statistic for
+distinguishing between the ER and Achlioptas models of percolation, under
+physically motivated conditions for the birth and death of edges, and under
+noise. The potential application of the proposed criteria for percolation
+detection in clinical neuroscience is also discussed.

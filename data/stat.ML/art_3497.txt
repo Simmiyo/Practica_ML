@@ -1,0 +1,19 @@
+Canonical Correlation Forests
+We introduce canonical correlation forests (CCFs), a new decision tree
+ensemble method for classification and regression. Individual canonical
+correlation trees are binary decision trees with hyperplane splits based on
+local canonical correlation coefficients calculated during training. Unlike
+axis-aligned alternatives, the decision surfaces of CCFs are not restricted to
+the coordinate system of the inputs features and therefore more naturally
+represent data with correlated inputs. CCFs naturally accommodate multiple
+outputs, provide a similar computational complexity to random forests, and
+inherit their impressive robustness to the choice of input parameters. As part
+of the CCF training algorithm, we also introduce projection bootstrapping, a
+novel alternative to bagging for oblique decision tree ensembles which
+maintains use of the full dataset in selecting split points, often leading to
+improvements in predictive accuracy. Our experiments show that, even without
+parameter tuning, CCFs out-perform axis-aligned random forests and other
+state-of-the-art tree ensemble methods on both classification and regression
+problems, delivering both improved predictive accuracy and faster training
+times. We further show that they outperform all of the 179 classifiers
+considered in a recent extensive survey.

@@ -1,0 +1,14 @@
+Radical-level Ideograph Encoder for RNN-based Sentiment Analysis of
+  Chinese and Japanese
+The character vocabulary can be very large in non-alphabetic languages such
+as Chinese and Japanese, which makes neural network models huge to process such
+languages. We explored a model for sentiment classification that takes the
+embeddings of the radicals of the Chinese characters, i.e, hanzi of Chinese and
+kanji of Japanese. Our model is composed of a CNN word feature encoder and a
+bi-directional RNN document feature encoder. The results achieved are on par
+with the character embedding-based models, and close to the state-of-the-art
+word embedding-based models, with 90% smaller vocabulary, and at least 13% and
+80% fewer parameters than the character embedding-based models and word
+embedding-based models respectively. The results suggest that the radical
+embedding-based approach is cost-effective for machine learning on Chinese and
+Japanese.

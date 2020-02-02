@@ -1,0 +1,14 @@
+A Streaming Algorithm for Crowdsourced Data Classification
+We propose a streaming algorithm for the binary classification of data based
+on crowdsourcing. The algorithm learns the competence of each labeller by
+comparing her labels to those of other labellers on the same tasks and uses
+this information to minimize the prediction error rate on each task. We provide
+performance guarantees of our algorithm for a fixed population of independent
+labellers. In particular, we show that our algorithm is optimal in the sense
+that the cumulative regret compared to the optimal decision with known labeller
+error probabilities is finite, independently of the number of tasks to label.
+The complexity of the algorithm is linear in the number of labellers and the
+number of tasks, up to some logarithmic factors. Numerical experiments
+illustrate the performance of our algorithm compared to existing algorithms,
+including simple majority voting and expectation-maximization algorithms, on
+both synthetic and real datasets.

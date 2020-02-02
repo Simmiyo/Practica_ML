@@ -1,0 +1,16 @@
+Group Iterative Spectrum Thresholding for Super-Resolution Sparse
+  Spectral Selection
+Recently, sparsity-based algorithms are proposed for super-resolution
+spectrum estimation. However, to achieve adequately high resolution in
+real-world signal analysis, the dictionary atoms have to be close to each other
+in frequency, thereby resulting in a coherent design. The popular convex
+compressed sensing methods break down in presence of high coherence and large
+noise. We propose a new regularization approach to handle model collinearity
+and obtain parsimonious frequency selection simultaneously. It takes advantage
+of the pairing structure of sine and cosine atoms in the frequency dictionary.
+A probabilistic spectrum screening is also developed for fast computation in
+high dimensions. A data-resampling version of high-dimensional Bayesian
+Information Criterion is used to determine the regularization parameters.
+Experiments show the efficacy and efficiency of the proposed algorithms in
+challenging situations with small sample size, high frequency resolution, and
+low signal-to-noise ratio.

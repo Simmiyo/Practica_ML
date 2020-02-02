@@ -1,0 +1,11 @@
+Schumacher's quantum data compression as a quantum computation
+An explicit algorithm for performing Schumacher's noiseless compression of
+quantum bits is given. This algorithm is based on a combinatorial expression
+for a particular bijection among binary strings. The algorithm, which adheres
+to the rules of reversible programming, is expressed in a high-level pseudocode
+language. It is implemented using $O(n^3)$ two- and three-bit primitive
+reversible operations, where $n$ is the length of the qubit strings to be
+compressed. Also, the algorithm makes use of $O(n)$ auxiliary qubits; however,
+space-saving techniques based on those proposed by Bennett are developed which
+reduce this workspace to $O(\sqrt{n})$ while increasing the running time by
+less than a factor of two.

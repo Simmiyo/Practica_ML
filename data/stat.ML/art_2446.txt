@@ -1,0 +1,11 @@
+Monte-Carlo utility estimates for Bayesian reinforcement learning
+This paper introduces a set of algorithms for Monte-Carlo Bayesian
+reinforcement learning. Firstly, Monte-Carlo estimation of upper bounds on the
+Bayes-optimal value function is employed to construct an optimistic policy.
+Secondly, gradient-based algorithms for approximate upper and lower bounds are
+introduced. Finally, we introduce a new class of gradient algorithms for
+Bayesian Bellman error minimisation. We theoretically show that the gradient
+methods are sound. Experimentally, we demonstrate the superiority of the upper
+bound method in terms of reward obtained. However, we also show that the
+Bayesian Bellman error method is a close second, despite its significant
+computational simplicity.

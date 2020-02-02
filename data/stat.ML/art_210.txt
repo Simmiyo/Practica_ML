@@ -1,0 +1,15 @@
+Learning Loosely Connected Markov Random Fields
+We consider the structure learning problem for graphical models that we call
+loosely connected Markov random fields, in which the number of short paths
+between any pair of nodes is small, and present a new conditional independence
+test based algorithm for learning the underlying graph structure. The novel
+maximization step in our algorithm ensures that the true edges are detected
+correctly even when there are short cycles in the graph. The number of samples
+required by our algorithm is C*log p, where p is the size of the graph and the
+constant C depends on the parameters of the model. We show that several
+previously studied models are examples of loosely connected Markov random
+fields, and our algorithm achieves the same or lower computational complexity
+than the previously designed algorithms for individual cases. We also get new
+results for more general graphical models, in particular, our algorithm learns
+general Ising models on the Erdos-Renyi random graph G(p, c/p) correctly with
+running time O(np^5).

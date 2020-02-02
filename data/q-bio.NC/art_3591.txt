@@ -1,0 +1,24 @@
+An optimizing multi-platform source-to-source compiler framework for the
+  NEURON MODeling Language
+Domain-specific languages (DSLs) play an increasingly important role in the
+generation of high performing software. They allow the user to exploit specific
+knowledge encoded in the constructs for the generation of code adapted to a
+particular hardware architecture; at the same time, they make it easier to
+generate optimized code for a multitude of platforms as the transformation has
+to be encoded only once. Here, we describe a new code generation framework
+(NMODL) for an existing DSL in the NEURON framework, a widely used software for
+massively parallel simulation of biophysically detailed brain tissue models.
+Existing NMODL DSL transpilers lack either essential features to generate
+optimized code or capability to parse the diversity of existing models in the
+user community. Our NMODL framework has been tested against a large number of
+previously published user models and offers high-level domain-specific
+optimizations and symbolic algebraic simplifications before target code
+generation. Furthermore, rich analysis tools are provided allowing the
+scientist to introspect models. NMODL implements multiple SIMD and SPMD targets
+optimized for modern hardware. Benchmarks were performed on Intel Skylake,
+Intel KNL and AMD Naples platforms. When comparing NMODL-generated kernels with
+NEURON we observe a speedup of up to 20x, resulting into overall speedups of
+two different production simulations by $\sim$10x. When compared to a
+previously published SIMD optimized version that heavily relied on
+auto-vectorization by the compiler still a speedup of up to $\sim$2x is
+observed.

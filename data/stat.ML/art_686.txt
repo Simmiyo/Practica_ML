@@ -1,0 +1,15 @@
+Scalable inference for a full multivariate stochastic volatility model
+We introduce a multivariate stochastic volatility model for asset returns
+that imposes no restrictions to the structure of the volatility matrix and
+treats all its elements as functions of latent stochastic processes. When the
+number of assets is prohibitively large, we propose a factor multivariate
+stochastic volatility model in which the variances and correlations of the
+factors evolve stochastically over time. Inference is achieved via a carefully
+designed feasible and scalable Markov chain Monte Carlo algorithm that combines
+two computationally important ingredients: it utilizes invariant to the prior
+Metropolis proposal densities for simultaneously updating all latent paths and
+has quadratic, rather than cubic, computational complexity when evaluating the
+multivariate normal densities required. We apply our modelling and
+computational methodology to $571$ stock daily returns of Euro STOXX index for
+data over a period of $10$ years. MATLAB software for this paper is available
+at http://www.aueb.gr/users/mtitsias/code/msv.zip.

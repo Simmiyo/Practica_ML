@@ -1,0 +1,22 @@
+Truncated Variational Expectation Maximization
+We derive a novel variational expectation maximization approach based on
+truncated posterior distributions. Truncated distributions are proportional to
+exact posteriors within subsets of a discrete state space and equal zero
+otherwise. The treatment of the distributions' subsets as variational
+parameters distinguishes the approach from previous variational approaches. The
+specific structure of truncated distributions allows for deriving novel and
+mathematically grounded results, which in turn can be used to formulate novel
+efficient algorithms to optimize the parameters of probabilistic generative
+models. Most centrally, we find the variational lower bounds that correspond to
+truncated distributions to be given by very concise and efficiently computable
+expressions, while update equations for model parameters remain in their
+standard form. Based on these findings, we show how efficient and easily
+applicable meta-algorithms can be formulated that guarantee a monotonic
+increase of the variational bound. Example applications of the here derived
+framework provide novel theoretical results and learning procedures for latent
+variable models as well as mixture models. Furthermore, we show that truncated
+variation EM naturally interpolates between standard EM with full posteriors
+and EM based on the maximum a-posteriori state (MAP). The approach can,
+therefore, be regarded as a generalization of the popular `hard EM' approach
+towards a similarly efficient method which can capture more of the true
+posterior structure.

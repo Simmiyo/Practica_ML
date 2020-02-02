@@ -1,0 +1,15 @@
+Deep Symbolic Representation Learning for Heterogeneous Time-series
+  Classification
+In this paper, we consider the problem of event classification with
+multi-variate time series data consisting of heterogeneous (continuous and
+categorical) variables. The complex temporal dependencies between the variables
+combined with sparsity of the data makes the event classification problem
+particularly challenging. Most state-of-art approaches address this either by
+designing hand-engineered features or breaking up the problem over homogeneous
+variates. In this work, we propose and compare three representation learning
+algorithms over symbolized sequences which enables classification of
+heterogeneous time-series data using a deep architecture. The proposed
+representations are trained jointly along with the rest of the network
+architecture in an end-to-end fashion that makes the learned features
+discriminative for the given task. Experiments on three real-world datasets
+demonstrate the effectiveness of the proposed approaches.

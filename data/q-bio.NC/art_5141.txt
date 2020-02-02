@@ -1,0 +1,19 @@
+Digital Multiplier-less Event-Driven Spiking Neural Network Architecture
+  for Learning a Context-Dependent Task
+Neuromorphic engineers aim to develop event-based spiking neural networks
+(SNNs) in hardware. These SNNs closer resemble dynamics of biological neurons
+than todays' artificial neural networks and achieve higher efficiency thanks to
+the event-based, asynchronous nature of processing. Learning in SNNs is more
+challenging, however. Since conventional supervised learning methods cannot be
+ported on SNNs due to the non-differentiable event-based nature of their
+activation, learning in SNNs is currently an active research topic.
+Reinforcement learning (RL) is particularly promising method for neuromorphic
+implementation, especially in the field of autonomous agents' control, and is
+in focus of this work. In particular, in this paper we propose a new digital
+multiplier-less hardware implementation of an SNN. We show how this network can
+learn stimulus-response associations in a context-dependent task through a RL
+mechanism. The task is inspired by biological experiments used to study RL in
+animals. The architecture is described using the standard digital design flow
+and uses power- and space-efficient cores. We implement the behavioral
+experiments using a robot, to show that learning in hardware also works in a
+closed sensorimotor loop.

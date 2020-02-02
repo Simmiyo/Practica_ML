@@ -1,0 +1,14 @@
+Handling non-compositionality in multilingual CNLs
+In this paper, we describe methods for handling multilingual
+non-compositional constructions in the framework of GF. We specifically look at
+methods to detect and extract non-compositional phrases from parallel texts and
+propose methods to handle such constructions in GF grammars. We expect that the
+methods to handle non-compositional constructions will enrich CNLs by providing
+more flexibility in the design of controlled languages. We look at two specific
+use cases of non-compositional constructions: a general-purpose method to
+detect and extract multilingual multiword expressions and a procedure to
+identify nominal compounds in German. We evaluate our procedure for multiword
+expressions by performing a qualitative analysis of the results. For the
+experiments on nominal compounds, we incorporate the detected compounds in a
+full SMT pipeline and evaluate the impact of our method in machine translation
+process.

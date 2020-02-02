@@ -1,0 +1,21 @@
+A comparison of Euclidean metrics and their application in statistical
+  inferences in the spike train space
+Statistical analysis and inferences on spike trains are one of the central
+topics in neural coding. It is of great interest to understand the underlying
+distribution and geometric structure of given spike train data. However, a
+fundamental obstacle is that the space of all spike trains is not an Euclidean
+space, and non-Euclidean metrics have been commonly used in the literature to
+characterize the variability and pattern in neural observations. Over the past
+few years, two Euclidean-like metrics were independently developed to measure
+distance in the spike train space. An important benefit of these metrics is
+that the spike train space will be suitable for embedding in Euclidean spaces
+due to their Euclidean properties. In this paper, we systematically compare
+these two metrics on theory, properties, and applications. Because of its
+Euclidean properties, one of these metrics has been further used in defining
+summary statistics (i.e. mean and variance) and conducting statistical
+inferences in the spike train space. Here we provide equivalent definitions
+using the other metric and show that consistent statistical inferences can be
+conducted. We then apply both inference frameworks in a neural coding problem
+for a recording in geniculate ganglion stimulated by different tastes. It is
+found that both frameworks achieve desirable results and provide useful new
+tools in statistical inferences in neural spike train space.

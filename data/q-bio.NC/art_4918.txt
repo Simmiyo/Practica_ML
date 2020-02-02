@@ -1,0 +1,15 @@
+Improving brain computer interface performance by data augmentation with
+  conditional Deep Convolutional Generative Adversarial Networks
+One of the big restrictions in brain computer interface field is the very
+limited training samples, it is difficult to build a reliable and usable system
+with such limited data. Inspired by generative adversarial networks, we propose
+a conditional Deep Convolutional Generative Adversarial (cDCGAN) Networks
+method to generate more artificial EEG signal automatically for data
+augmentation to improve the performance of convolutional neural networks in
+brain computer interface field and overcome the small training dataset
+problems. We evaluate the proposed cDCGAN method on BCI competition dataset of
+motor imagery. The results show that the generated artificial EEG data from
+Gaussian noise can learn the features from raw EEG data and has no less than
+the classification accuracy of raw EEG data in the testing dataset. Also by
+using generated artificial data can effectively improve classification accuracy
+at the same model with limited training data.

@@ -1,0 +1,18 @@
+Perturbative Corrections for Approximate Inference in Gaussian Latent
+  Variable Models
+Expectation Propagation (EP) provides a framework for approximate inference.
+When the model under consideration is over a latent Gaussian field, with the
+approximation being Gaussian, we show how these approximations can
+systematically be corrected. A perturbative expansion is made of the exact but
+intractable correction, and can be applied to the model's partition function
+and other moments of interest. The correction is expressed over the
+higher-order cumulants which are neglected by EP's local matching of moments.
+Through the expansion, we see that EP is correct to first order. By considering
+higher orders, corrections of increasing polynomial complexity can be applied
+to the approximation. The second order provides a correction in quadratic time,
+which we apply to an array of Gaussian process and Ising models. The
+corrections generalize to arbitrarily complex approximating families, which we
+illustrate on tree-structured Ising model approximations. Furthermore, they
+provide a polynomial-time assessment of the approximation error. We also
+provide both theoretical and practical insights on the exactness of the EP
+solution.

@@ -1,0 +1,18 @@
+Simple approximate MAP Inference for Dirichlet processes
+The Dirichlet process mixture (DPM) is a ubiquitous, flexible Bayesian
+nonparametric statistical model. However, full probabilistic inference in this
+model is analytically intractable, so that computationally intensive techniques
+such as Gibb's sampling are required. As a result, DPM-based methods, which
+have considerable potential, are restricted to applications in which
+computational resources and time for inference is plentiful. For example, they
+would not be practical for digital signal processing on embedded hardware,
+where computational resources are at a serious premium. Here, we develop
+simplified yet statistically rigorous approximate maximum a-posteriori (MAP)
+inference algorithms for DPMs. This algorithm is as simple as K-means
+clustering, performs in experiments as well as Gibb's sampling, while requiring
+only a fraction of the computational effort. Unlike related small variance
+asymptotics, our algorithm is non-degenerate and so inherits the "rich get
+richer" property of the Dirichlet process. It also retains a non-degenerate
+closed-form likelihood which enables standard tools such as cross-validation to
+be used. This is a well-posed approximation to the MAP solution of the
+probabilistic DPM model.

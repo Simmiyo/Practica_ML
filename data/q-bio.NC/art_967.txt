@@ -1,0 +1,23 @@
+A symmetry-based method to infer structural brain networks from
+  tractography data
+Recent progress in diffusion MRI and tractography algorithms as well as the
+launch of the Human Connectome Project (HCP) have provided brain research with
+an abundance of structural connectivity data. In this work, we describe and
+evaluate a method that can infer the structural brain network that
+interconnects a given set of Regions of Interest (ROIs) from tractography data.
+The proposed method, referred to as Minimum Asymmetry Network Inference
+Algorithm (MANIA), differs from prior work because it does not determine the
+connectivity between two ROIs based on an arbitrary connectivity threshold.
+Instead, we exploit a basic limitation of the tractography process: the
+observed streamlines from a source to a target do not provide any information
+about the polarity of the underlying white matter, and so if there are some
+fibers connecting two voxels (or two ROIs) X and Y tractography should be able
+in principle to follow this connection in both directions, from X to Y and from
+Y to X. We leverage this limitation to formulate the network inference process
+as an optimization problem that minimizes the (appropriately normalized)
+asymmetry of the observed network. We evaluate the proposed method on a noise
+model that randomly corrupts the observed connectivity of synthetic networks.
+As a case-study, we apply MANIA on diffusion MRI data from 28 healthy subjects
+to infer the structural network between 18 corticolimbic ROIs that are
+associated with various neuropsychiatric conditions including depression,
+anxiety and addiction.

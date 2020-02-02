@@ -1,0 +1,16 @@
+Learning Protein Dynamics with Metastable Switching Systems
+We introduce a machine learning approach for extracting fine-grained
+representations of protein evolution from molecular dynamics datasets.
+Metastable switching linear dynamical systems extend standard switching models
+with a physically-inspired stability constraint. This constraint enables the
+learning of nuanced representations of protein dynamics that closely match
+physical reality. We derive an EM algorithm for learning, where the E-step
+extends the forward-backward algorithm for HMMs and the M-step requires the
+solution of large biconvex optimization problems. We construct an approximate
+semidefinite program solver based on the Frank-Wolfe algorithm and use it to
+solve the M-step. We apply our EM algorithm to learn accurate dynamics from
+large simulation datasets for the opioid peptide met-enkephalin and the
+proto-oncogene Src-kinase. Our learned models demonstrate significant
+improvements in temporal coherence over HMMs and standard switching models for
+met-enkephalin, and sample transition paths (possibly useful in rational drug
+design) for Src-kinase.

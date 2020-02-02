@@ -1,0 +1,11 @@
+A Reliable Effective Terascale Linear Learning System
+We present a system and a set of techniques for learning linear predictors
+with convex losses on terascale datasets, with trillions of features, {The
+number of features here refers to the number of non-zero entries in the data
+matrix.} billions of training examples and millions of parameters in an hour
+using a cluster of 1000 machines. Individually none of the component techniques
+are new, but the careful synthesis required to obtain an efficient
+implementation is. The result is, up to our knowledge, the most scalable and
+efficient linear learning system reported in the literature (as of 2011 when
+our experiments were conducted). We describe and thoroughly evaluate the
+components of the system, showing the importance of the various design choices.

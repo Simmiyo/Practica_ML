@@ -1,0 +1,16 @@
+The Advantage of Cross Entropy over Entropy in Iterative Information
+  Gathering
+Gathering the most information by picking the least amount of data is a
+common task in experimental design or when exploring an unknown environment in
+reinforcement learning and robotics. A widely used measure for quantifying the
+information contained in some distribution of interest is its entropy. Greedily
+minimizing the expected entropy is therefore a standard method for choosing
+samples in order to gain strong beliefs about the underlying random variables.
+We show that this approach is prone to temporally getting stuck in local optima
+corresponding to wrongly biased beliefs. We suggest instead maximizing the
+expected cross entropy between old and new belief, which aims at challenging
+refutable beliefs and thereby avoids these local optima. We show that both
+criteria are closely related and that their difference can be traced back to
+the asymmetry of the Kullback-Leibler divergence. In illustrative examples as
+well as simulated and real-world experiments we demonstrate the advantage of
+cross entropy over simple entropy for practical applications.

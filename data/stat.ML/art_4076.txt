@@ -1,0 +1,20 @@
+Dealing with Range Anxiety in Mean Estimation via Statistical Queries
+We give algorithms for estimating the expectation of a given real-valued
+function $\phi:X\to {\bf R}$ on a sample drawn randomly from some unknown
+distribution $D$ over domain $X$, namely ${\bf E}_{{\bf x}\sim D}[\phi({\bf
+x})]$. Our algorithms work in two well-studied models of restricted access to
+data samples. The first one is the statistical query (SQ) model in which an
+algorithm has access to an SQ oracle for the input distribution $D$ over $X$
+instead of i.i.d. samples from $D$. Given a query function $\phi:X \to [0,1]$,
+the oracle returns an estimate of ${\bf E}_{{\bf x}\sim D}[\phi({\bf x})]$
+within some tolerance $\tau$. The second, is a model in which only a single bit
+is communicated from each sample. In both of these models the error obtained
+using a naive implementation would scale polynomially with the range of the
+random variable $\phi({\bf x})$ (which might even be infinite). In contrast,
+without restrictions on access to data the expected error scales with the
+standard deviation of $\phi({\bf x})$. Here we give a simple algorithm whose
+error scales linearly in standard deviation of $\phi({\bf x})$ and
+logarithmically with an upper bound on the second moment of $\phi({\bf x})$.
+  As corollaries, we obtain algorithms for high dimensional mean estimation and
+stochastic convex optimization in these models that work in more general
+settings than previously known solutions.

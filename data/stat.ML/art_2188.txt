@@ -1,0 +1,15 @@
+Conditional Chow-Liu Tree Structures for Modeling Discrete-Valued Vector
+  Time Series
+We consider the problem of modeling discrete-valued vector time series data
+using extensions of Chow-Liu tree models to capture both dependencies across
+time and dependencies across variables. Conditional Chow-Liu tree models are
+introduced, as an extension to standard Chow-Liu trees, for modeling
+conditional rather than joint densities. We describe learning algorithms for
+such models and show how they can be used to learn parsimonious representations
+for the output distributions in hidden Markov models. These models are applied
+to the important problem of simulating and forecasting daily precipitation
+occurrence for networks of rain stations. To demonstrate the effectiveness of
+the models, we compare their performance versus a number of alternatives using
+historical precipitation data from Southwestern Australia and the Western
+United States. We illustrate how the structure and parameters of the models can
+be used to provide an improved meteorological interpretation of such data.

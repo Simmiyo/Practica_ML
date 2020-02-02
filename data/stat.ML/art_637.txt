@@ -1,0 +1,19 @@
+Completely random measures for modelling block-structured networks
+Many statistical methods for network data parameterize the edge-probability
+by attributing latent traits to the vertices such as block structure and assume
+exchangeability in the sense of the Aldous-Hoover representation theorem.
+Empirical studies of networks indicate that many real-world networks have a
+power-law distribution of the vertices which in turn implies the number of
+edges scale slower than quadratically in the number of vertices. These
+assumptions are fundamentally irreconcilable as the Aldous-Hoover theorem
+implies quadratic scaling of the number of edges. Recently Caron and Fox (2014)
+proposed the use of a different notion of exchangeability due to Kallenberg
+(2009) and obtained a network model which admits power-law behaviour while
+retaining desirable statistical properties, however this model does not capture
+latent vertex traits such as block-structure. In this work we re-introduce the
+use of block-structure for network models obeying Kallenberg's notion of
+exchangeability and thereby obtain a model which admits the inference of
+block-structure and edge inhomogeneity. We derive a simple expression for the
+likelihood and an efficient sampling method. The obtained model is not
+significantly more difficult to implement than existing approaches to
+block-modelling and performs well on real network datasets.

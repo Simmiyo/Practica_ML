@@ -1,0 +1,18 @@
+Classifier Learning with Supervised Marginal Likelihood
+It has been argued that in supervised classification tasks, in practice it
+may be more sensible to perform model selection with respect to some more
+focused model selection score, like the supervised (conditional) marginal
+likelihood, than with respect to the standard marginal likelihood criterion.
+However, for most Bayesian network models, computing the supervised marginal
+likelihood score takes exponential time with respect to the amount of observed
+data. In this paper, we consider diagnostic Bayesian network classifiers where
+the significant model parameters represent conditional distributions for the
+class variable, given the values of the predictor variables, in which case the
+supervised marginal likelihood can be computed in linear time with respect to
+the data. As the number of model parameters grows in this case exponentially
+with respect to the number of predictors, we focus on simple diagnostic models
+where the number of relevant predictors is small, and suggest two approaches
+for applying this type of models in classification. The first approach is based
+on mixtures of simple diagnostic models, while in the second approach we apply
+the small predictor sets of the simple diagnostic models for augmenting the
+Naive Bayes classifier.

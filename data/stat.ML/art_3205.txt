@@ -1,0 +1,24 @@
+A Confident Information First Principle for Parametric Reduction and
+  Model Selection of Boltzmann Machines
+Typical dimensionality reduction (DR) methods are often data-oriented,
+focusing on directly reducing the number of random variables (features) while
+retaining the maximal variations in the high-dimensional data. In unsupervised
+situations, one of the main limitations of these methods lies in their
+dependency on the scale of data features. This paper aims to address the
+problem from a new perspective and considers model-oriented dimensionality
+reduction in parameter spaces of binary multivariate distributions.
+  Specifically, we propose a general parameter reduction criterion, called
+Confident-Information-First (CIF) principle, to maximally preserve confident
+parameters and rule out less confident parameters. Formally, the confidence of
+each parameter can be assessed by its contribution to the expected Fisher
+information distance within the geometric manifold over the neighbourhood of
+the underlying real distribution.
+  We then revisit Boltzmann machines (BM) from a model selection perspective
+and theoretically show that both the fully visible BM (VBM) and the BM with
+hidden units can be derived from the general binary multivariate distribution
+using the CIF principle. This can help us uncover and formalize the essential
+parts of the target density that BM aims to capture and the non-essential parts
+that BM should discard. Guided by the theoretical analysis, we develop a
+sample-specific CIF for model selection of BM that is adaptive to the observed
+samples. The method is studied in a series of density estimation experiments
+and has been shown effective in terms of the estimate accuracy.

@@ -1,0 +1,10 @@
+Improved Particle Filters for Vehicle Localisation
+The ability to track a moving vehicle is of crucial importance in numerous
+applications. The task has often been approached by the importance sampling
+technique of particle filters due to its ability to model non-linear and
+non-Gaussian dynamics, of which a vehicle travelling on a road network is a
+good example. Particle filters perform poorly when observations are highly
+informative. In this paper, we address this problem by proposing particle
+filters that sample around the most recent observation. The proposal leads to
+an order of magnitude improvement in accuracy and efficiency over conventional
+particle filters, especially when observations are infrequent but low-noise.

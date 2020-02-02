@@ -1,0 +1,28 @@
+Sequential Sparsening by Successive Adaptation in Neural Populations
+In the principal cells of the insect mushroom body, the Kenyon cells (KC),
+olfactory information is represented by a spatially and temporally sparse code.
+Each odor stimulus will activate only a small portion of neurons and each
+stimulus leads to only a short phasic response following stimulus onset
+irrespective of the actual duration of a constant stimulus. The mechanisms
+responsible for the sparse code in the KCs are yet unresolved.
+  Here, we explore the role of the neuron-intrinsic mechanism of
+spike-frequency adaptation (SFA) in producing temporally sparse responses to
+sensory stimulation in higher processing stages. Our single neuron model is
+defined through a conductance-based integrate-and-fire neuron with
+spike-frequency adaptation [1]. We study a fully connected feed-forward network
+architecture in coarse analogy to the insect olfactory pathway. A first layer
+of ten neurons represents the projection neurons (PNs) of the antenna lobe. All
+PNs receive a step-like input from the olfactory receptor neurons, which was
+realized by independent Poisson processes. The second layer represents 100 KCs
+which converge onto ten neurons in the output layer which represents the
+population of mushroom body extrinsic neurons (ENs).
+  Our simulation result matches with the experimental observations. In
+particular, intracellular recordings of PNs show a clear phasic-tonic response
+that outlasts the stimulus [2] while extracellular recordings from KCs in the
+locust express sharp transient responses [3]. We conclude that the
+neuron-intrinsic mechanism is can explain a progressive temporal response
+sparsening in the insect olfactory system. Further experimental work is needed
+to test this hypothesis empirically.
+  [1] Muller et. al., Neural Comput, 19(11):2958-3010, 2007. [2] Assisi et.
+al., Nat Neurosci, 10(9):1176-1184, 2007. [3] Krofczik et. al. Front. Comput.
+Neurosci., 2(9), 2009.

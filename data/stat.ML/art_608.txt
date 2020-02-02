@@ -1,0 +1,23 @@
+Community detection in multi-relational data with restricted multi-layer
+  stochastic blockmodel
+In recent years there has been an increased interest in statistical analysis
+of data with multiple types of relations among a set of entities. Such
+multi-relational data can be represented as multi-layer graphs where the set of
+vertices represents the entities and multiple types of edges represent the
+different relations among them. For community detection in multi-layer graphs,
+we consider two random graph models, the multi-layer stochastic blockmodel
+(MLSBM) and a model with a restricted parameter space, the restricted
+multi-layer stochastic blockmodel (RMLSBM). We derive consistency results for
+community assignments of the maximum likelihood estimators (MLEs) in both
+models where MLSBM is assumed to be the true model, and either the number of
+nodes or the number of types of edges or both grow. We compare MLEs in the two
+models with other baseline approaches, such as separate modeling of layers,
+aggregating the layers and majority voting. RMLSBM is shown to have advantage
+over MLSBM when either the growth rate of the number of communities is high or
+the growth rate of the average degree of the component graphs in the
+multi-graph is low. We also derive minimax rates of error and sharp thresholds
+for achieving consistency of community detection in both models, which are then
+used to compare the multi-layer models with a baseline model, the aggregate
+stochastic block model. The simulation studies and real data applications
+confirm the superior performance of the multi-layer approaches in comparison to
+the baseline procedures.

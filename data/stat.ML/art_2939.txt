@@ -1,0 +1,17 @@
+NMF with Sparse Regularizations in Transformed Domains
+Non-negative blind source separation (non-negative BSS), which is also
+referred to as non-negative matrix factorization (NMF), is a very active field
+in domains as different as astrophysics, audio processing or biomedical signal
+processing. In this context, the efficient retrieval of the sources requires
+the use of signal priors such as sparsity. If NMF has now been well studied
+with sparse constraints in the direct domain, only very few algorithms can
+encompass non-negativity together with sparsity in a transformed domain since
+simultaneously dealing with two priors in two different domains is challenging.
+In this article, we show how a sparse NMF algorithm coined non-negative
+generalized morphological component analysis (nGMCA) can be extended to impose
+non-negativity in the direct domain along with sparsity in a transformed
+domain, with both analysis and synthesis formulations. To our knowledge, this
+work presents the first comparison of analysis and synthesis priors ---as well
+as their reweighted versions--- in the context of blind source separation.
+Comparisons with state-of-the-art NMF algorithms on realistic data show the
+efficiency as well as the robustness of the proposed algorithms.

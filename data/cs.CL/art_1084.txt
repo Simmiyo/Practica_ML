@@ -1,0 +1,12 @@
+A Unified Tagging Solution: Bidirectional LSTM Recurrent Neural Network
+  with Word Embedding
+Bidirectional Long Short-Term Memory Recurrent Neural Network (BLSTM-RNN) has
+been shown to be very effective for modeling and predicting sequential data,
+e.g. speech utterances or handwritten documents. In this study, we propose to
+use BLSTM-RNN for a unified tagging solution that can be applied to various
+tagging tasks including part-of-speech tagging, chunking and named entity
+recognition. Instead of exploiting specific features carefully optimized for
+each task, our solution only uses one set of task-independent features and
+internal representations learnt from unlabeled text for all tasks.Requiring no
+task specific knowledge or sophisticated feature engineering, our approach gets
+nearly state-of-the-art performance in all these three tagging tasks.

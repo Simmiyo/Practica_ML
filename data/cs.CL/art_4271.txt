@@ -1,0 +1,14 @@
+Clinical Text Classification with Rule-based Features and
+  Knowledge-guided Convolutional Neural Networks
+Clinical text classification is an important problem in medical natural
+language processing. Existing studies have conventionally focused on rules or
+knowledge sources-based feature engineering, but only a few have exploited
+effective feature learning capability of deep learning methods. In this study,
+we propose a novel approach which combines rule-based features and
+knowledge-guided deep learning techniques for effective disease classification.
+Critical Steps of our method include identifying trigger phrases, predicting
+classes with very few examples using trigger phrases and training a
+convolutional neural network with word embeddings and Unified Medical Language
+System (UMLS) entity embeddings. We evaluated our method on the 2008
+Integrating Informatics with Biology and the Bedside (i2b2) obesity challenge.
+The results show that our method outperforms the state of the art methods.

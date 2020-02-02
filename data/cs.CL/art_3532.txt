@@ -1,0 +1,19 @@
+Pay More Attention - Neural Architectures for Question-Answering
+Machine comprehension is a representative task of natural language
+understanding. Typically, we are given context paragraph and the objective is
+to answer a question that depends on the context. Such a problem requires to
+model the complex interactions between the context paragraph and the question.
+Lately, attention mechanisms have been found to be quite successful at these
+tasks and in particular, attention mechanisms with attention flow from both
+context-to-question and question-to-context have been proven to be quite
+useful. In this paper, we study two state-of-the-art attention mechanisms
+called Bi-Directional Attention Flow (BiDAF) and Dynamic Co-Attention Network
+(DCN) and propose a hybrid scheme combining these two architectures that gives
+better overall performance. Moreover, we also suggest a new simpler attention
+mechanism that we call Double Cross Attention (DCA) that provides better
+results compared to both BiDAF and Co-Attention mechanisms while providing
+similar performance as the hybrid scheme. The objective of our paper is to
+focus particularly on the attention layer and to suggest improvements on that.
+Our experimental evaluations show that both our proposed models achieve
+superior results on the Stanford Question Answering Dataset (SQuAD) compared to
+BiDAF and DCN attention mechanisms.

@@ -1,0 +1,20 @@
+A study of the fixed points and spurious solutions of the FastICA
+  algorithm
+The FastICA algorithm is one of the most popular iterative algorithms in the
+domain of linear independent component analysis. Despite its success, it is
+observed that FastICA occasionally yields outcomes that do not correspond to
+any true solutions (known as demixing vectors) of the ICA problem. These
+outcomes are commonly referred to as spurious solutions. Although FastICA is
+among the most extensively studied ICA algorithms, the occurrence of spurious
+solutions are not yet completely understood by the community. In this
+contribution, we aim at addressing this issue. In the first part of this work,
+we are interested in the relationship between demixing vectors, local
+optimizers of the contrast function and (attractive or unattractive) fixed
+points of FastICA algorithm. Characterizations of these sets are given, and an
+inclusion relationship is discovered. In the second part, we investigate the
+possible scenarios where spurious solutions occur. We show that when certain
+bimodal Gaussian mixtures distributions are involved, there may exist spurious
+solutions that are attractive fixed points of FastICA. In this case, popular
+nonlinearities such as "gauss" or "tanh" tend to yield spurious solutions,
+whereas only "kurtosis" may give reliable results. Some advices are given for
+the practical choice of nonlinearity function.

@@ -1,0 +1,18 @@
+A Neuron as a Signal Processing Device
+A neuron is a basic physiological and computational unit of the brain. While
+much is known about the physiological properties of a neuron, its computational
+role is poorly understood. Here we propose to view a neuron as a signal
+processing device that represents the incoming streaming data matrix as a
+sparse vector of synaptic weights scaled by an outgoing sparse activity vector.
+Formally, a neuron minimizes a cost function comprising a cumulative squared
+representation error and regularization terms. We derive an online algorithm
+that minimizes such cost function by alternating between the minimization with
+respect to activity and with respect to synaptic weights. The steps of this
+algorithm reproduce well-known physiological properties of a neuron, such as
+weighted summation and leaky integration of synaptic inputs, as well as an
+Oja-like, but parameter-free, synaptic learning rule. Our theoretical framework
+makes several predictions, some of which can be verified by the existing data,
+others require further experiments. Such framework should allow modeling the
+function of neuronal circuits without necessarily measuring all the microscopic
+biophysical parameters, as well as facilitate the design of neuromorphic
+electronics.

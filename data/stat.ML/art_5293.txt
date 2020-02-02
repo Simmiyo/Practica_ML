@@ -1,0 +1,14 @@
+Interpreting Outliers: Localized Logistic Regression for Density Ratio
+  Estimation
+We propose an inlier-based outlier detection method capable of both
+identifying the outliers and explaining why they are outliers, by identifying
+the outlier-specific features. Specifically, we employ an inlier-based outlier
+detection criterion, which uses the ratio of inlier and test probability
+densities as a measure of plausibility of being an outlier. For estimating the
+density ratio function, we propose a localized logistic regression algorithm.
+Thanks to the locality of the model, variable selection can be
+outlier-specific, and will help interpret why points are outliers in a
+high-dimensional space. Through synthetic experiments, we show that the
+proposed algorithm can successfully detect the important features for outliers.
+Moreover, we show that the proposed algorithm tends to outperform existing
+algorithms in benchmark datasets.

@@ -1,0 +1,12 @@
+An Asynchronous Distributed Framework for Large-scale Learning Based on
+  Parameter Exchanges
+In many distributed learning problems, the heterogeneous loading of computing
+machines may harm the overall performance of synchronous strategies. In this
+paper, we propose an effective asynchronous distributed framework for the
+minimization of a sum of smooth functions, where each machine performs
+iterations in parallel on its local function and updates a shared parameter
+asynchronously. In this way, all machines can continuously work even though
+they do not have the latest version of the shared parameter. We prove the
+convergence of the consistency of this general distributed asynchronous method
+for gradient iterations then show its efficiency on the matrix factorization
+problem for recommender systems and on binary classification.

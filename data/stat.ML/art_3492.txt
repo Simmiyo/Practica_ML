@@ -1,0 +1,24 @@
+Sequential Quantiles via Hermite Series Density Estimation
+Sequential quantile estimation refers to incorporating observations into
+quantile estimates in an incremental fashion thus furnishing an online estimate
+of one or more quantiles at any given point in time. Sequential quantile
+estimation is also known as online quantile estimation. This area is relevant
+to the analysis of data streams and to the one-pass analysis of massive data
+sets. Applications include network traffic and latency analysis, real time
+fraud detection and high frequency trading. We introduce new techniques for
+online quantile estimation based on Hermite series estimators in the settings
+of static quantile estimation and dynamic quantile estimation. In the static
+quantile estimation setting we apply the existing Gauss-Hermite expansion in a
+novel manner. In particular, we exploit the fact that Gauss-Hermite
+coefficients can be updated in a sequential manner. To treat dynamic quantile
+estimation we introduce a novel expansion with an exponentially weighted
+estimator for the Gauss-Hermite coefficients which we term the Exponentially
+Weighted Gauss-Hermite (EWGH) expansion. These algorithms go beyond existing
+sequential quantile estimation algorithms in that they allow arbitrary
+quantiles (as opposed to pre-specified quantiles) to be estimated at any point
+in time. In doing so we provide a solution to online distribution function and
+online quantile function estimation on data streams. In particular we derive an
+analytical expression for the CDF and prove consistency results for the CDF
+under certain conditions. In addition we analyse the associated quantile
+estimator. Simulation studies and tests on real data reveal the Gauss-Hermite
+based algorithms to be competitive with a leading existing algorithm.

@@ -1,0 +1,14 @@
+Learning Predictive Leading Indicators for Forecasting Time Series
+  Systems with Unknown Clusters of Forecast Tasks
+We present a new method for forecasting systems of multiple interrelated time
+series. The method learns the forecast models together with discovering leading
+indicators from within the system that serve as good predictors improving the
+forecast accuracy and a cluster structure of the predictive tasks around these.
+The method is based on the classical linear vector autoregressive model (VAR)
+and links the discovery of the leading indicators to inferring sparse graphs of
+Granger causality. We formulate a new constrained optimisation problem to
+promote the desired sparse structures across the models and the sharing of
+information amongst the learning tasks in a multi-task manner. We propose an
+algorithm for solving the problem and document on a battery of synthetic and
+real-data experiments the advantages of our new method over baseline VAR models
+as well as the state-of-the-art sparse VAR learning methods.

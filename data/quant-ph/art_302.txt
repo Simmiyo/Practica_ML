@@ -1,0 +1,9 @@
+The Trouble with Quantum Bit Commitment
+In a recent paper, Lo and Chau explain how to break a family of quantum bit
+commitment schemes, and they claim that their attack applies to the 1993
+protocol of Brassard, Cr\'epeau, Jozsa and Langlois (BCJL). The intuition
+behind their attack is correct, and indeed they expose a weakness common to all
+proposals of a certain kind, but the BCJL protocol does not fall in this
+category. Nevertheless, it is true that the BCJL protocol is insecure, but the
+required attack and proof are more subtle. Here we provide the first complete
+proof that the BCJL protocol is insecure.

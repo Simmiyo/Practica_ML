@@ -1,0 +1,16 @@
+Approximate Methods for State-Space Models
+State-space models provide an important body of techniques for analyzing
+time-series, but their use requires estimating unobserved states. The optimal
+estimate of the state is its conditional expectation given the observation
+histories, and computing this expectation is hard when there are
+nonlinearities. Existing filtering methods, including sequential Monte Carlo,
+tend to be either inaccurate or slow. In this paper, we study a nonlinear
+filter for nonlinear/non-Gaussian state-space models, which uses Laplace's
+method, an asymptotic series expansion, to approximate the state's conditional
+mean and variance, together with a Gaussian conditional distribution. This {\em
+Laplace-Gaussian filter} (LGF) gives fast, recursive, deterministic state
+estimates, with an error which is set by the stochastic characteristics of the
+model and is, we show, stable over time. We illustrate the estimation ability
+of the LGF by applying it to the problem of neural decoding and compare it to
+sequential Monte Carlo both in simulations and with real data. We find that the
+LGF can deliver superior results in a small fraction of the computing time.

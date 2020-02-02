@@ -1,0 +1,12 @@
+Constrained speaker linking
+In this paper we study speaker linking (a.k.a.\ partitioning) given
+constraints of the distribution of speaker identities over speech recordings.
+Specifically, we show that the intractable partitioning problem becomes
+tractable when the constraints pre-partition the data in smaller cliques with
+non-overlapping speakers. The surprisingly common case where speakers in
+telephone conversations are known, but the assignment of channels to identities
+is unspecified, is treated in a Bayesian way. We show that for the Dutch CGN
+database, where this channel assignment task is at hand, a lightweight speaker
+recognition system can quite effectively solve the channel assignment problem,
+with 93% of the cliques solved. We further show that the posterior distribution
+over channel assignment configurations is well calibrated.

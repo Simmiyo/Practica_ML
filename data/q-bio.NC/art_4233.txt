@@ -1,0 +1,27 @@
+Efficient transfer entropy analysis of non-stationary neural time series
+Information theory allows us to investigate information processing in neural
+systems in terms of information transfer, storage and modification. Especially
+the measure of information transfer, transfer entropy, has seen a dramatic
+surge of interest in neuroscience. Estimating transfer entropy from two
+processes requires the observation of multiple realizations of these processes
+to estimate associated probability density functions. To obtain these
+observations, available estimators assume stationarity of processes to allow
+pooling of observations over time. This assumption however, is a major obstacle
+to the application of these estimators in neuroscience as observed processes
+are often non-stationary. As a solution, Gomez-Herrero and colleagues
+theoretically showed that the stationarity assumption may be avoided by
+estimating transfer entropy from an ensemble of realizations. Such an ensemble
+is often readily available in neuroscience experiments in the form of
+experimental trials. Thus, in this work we combine the ensemble method with a
+recently proposed transfer entropy estimator to make transfer entropy
+estimation applicable to non-stationary time series. We present an efficient
+implementation of the approach that deals with the increased computational
+demand of the ensemble method's practical application. In particular, we use a
+massively parallel implementation for a graphics processing unit to handle the
+computationally most heavy aspects of the ensemble method. We test the
+performance and robustness of our implementation on data from simulated
+stochastic processes and demonstrate the method's applicability to
+magnetoencephalographic data. While we mainly evaluate the proposed method for
+neuroscientific data, we expect it to be applicable in a variety of fields that
+are concerned with the analysis of information transfer in complex biological,
+social, and artificial systems.

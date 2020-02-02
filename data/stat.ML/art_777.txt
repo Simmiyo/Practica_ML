@@ -1,0 +1,15 @@
+Overdispersed Black-Box Variational Inference
+We introduce overdispersed black-box variational inference, a method to
+reduce the variance of the Monte Carlo estimator of the gradient in black-box
+variational inference. Instead of taking samples from the variational
+distribution, we use importance sampling to take samples from an overdispersed
+distribution in the same exponential family as the variational approximation.
+Our approach is general since it can be readily applied to any exponential
+family distribution, which is the typical choice for the variational
+approximation. We run experiments on two non-conjugate probabilistic models to
+show that our method effectively reduces the variance, and the overhead
+introduced by the computation of the proposal parameters and the importance
+weights is negligible. We find that our overdispersed importance sampling
+scheme provides lower variance than black-box variational inference, even when
+the latter uses twice the number of samples. This results in faster convergence
+of the black-box inference procedure.

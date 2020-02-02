@@ -1,0 +1,17 @@
+Communication-Efficient False Discovery Rate Control via Knockoff
+  Aggregation
+The false discovery rate (FDR)---the expected fraction of spurious
+discoveries among all the discoveries---provides a popular statistical
+assessment of the reproducibility of scientific studies in various disciplines.
+In this work, we introduce a new method for controlling the FDR in
+meta-analysis of many decentralized linear models. Our method targets the
+scenario where many research groups---possibly the number of which is
+random---are independently testing a common set of hypotheses and then sending
+summary statistics to a coordinating center in an online manner. Built on the
+knockoffs framework introduced by Barber and Candes (2015), our procedure
+starts by applying the knockoff filter to each linear model and then aggregates
+the summary statistics via one-shot communication in a novel way. This method
+gives exact FDR control non-asymptotically without any knowledge of the noise
+variances or making any assumption about sparsity of the signal. In certain
+settings, it has a communication complexity that is optimal up to a logarithmic
+factor.

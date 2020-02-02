@@ -1,0 +1,14 @@
+EP-GIG Priors and Applications in Bayesian Sparse Learning
+In this paper we propose a novel framework for the construction of
+sparsity-inducing priors. In particular, we define such priors as a mixture of
+exponential power distributions with a generalized inverse Gaussian density
+(EP-GIG). EP-GIG is a variant of generalized hyperbolic distributions, and the
+special cases include Gaussian scale mixtures and Laplace scale mixtures.
+Furthermore, Laplace scale mixtures can subserve a Bayesian framework for
+sparse learning with nonconvex penalization. The densities of EP-GIG can be
+explicitly expressed. Moreover, the corresponding posterior distribution also
+follows a generalized inverse Gaussian distribution. These properties lead us
+to EM algorithms for Bayesian sparse learning. We show that these algorithms
+bear an interesting resemblance to iteratively re-weighted $\ell_2$ or $\ell_1$
+methods. In addition, we present two extensions for grouped variable selection
+and logistic regression.

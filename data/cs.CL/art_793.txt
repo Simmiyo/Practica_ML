@@ -1,0 +1,13 @@
+Assamese-English Bilingual Machine Translation
+Machine translation is the process of translating text from one language to
+another. In this paper, Statistical Machine Translation is done on Assamese and
+English language by taking their respective parallel corpus. A statistical
+phrase based translation toolkit Moses is used here. To develop the language
+model and to align the words we used two another tools IRSTLM, GIZA
+respectively. BLEU score is used to check our translation system performance,
+how good it is. A difference in BLEU scores is obtained while translating
+sentences from Assamese to English and vice-versa. Since Indian languages are
+morphologically very rich hence translation is relatively harder from English
+to Assamese resulting in a low BLEU score. A statistical transliteration system
+is also introduced with our translation system to deal basically with proper
+nouns, OOV (out of vocabulary) words which are not present in our corpus.

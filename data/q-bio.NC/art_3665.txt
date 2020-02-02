@@ -1,0 +1,22 @@
+Sex differences in predicting fluid intelligence of adolescent brain
+  from T1-weighted MRIs
+Fluid intelligence (Gf) has been defined as the ability to reason and solve
+previously unseen problems. Links to Gf have been found in magnetic resonance
+imaging (MRI) sequences such as functional MRI and diffusion tensor imaging. As
+part of the Adolescent Brain Cognitive Development Neurocognitive Prediction
+Challenge 2019, we sought to predict Gf in children aged 9-10 from T1-weighted
+(T1W) MRIs. The data included atlas-aligned volumetric T1W images,
+atlas-defined segmented regions, age, and sex for 3739 subjects used for
+training and internal validation and 415 subjects used for external validation.
+We trained sex-specific convolutional neural net (CNN) and random forest models
+to predict Gf. For the convolutional model, skull-stripped volumetric T1W
+images aligned to the SRI24 brain atlas were used for training. Volumes of
+segmented atlas regions along with each subject's age were used to train the
+random forest regressor models. Performance was measured using the mean squared
+error (MSE) of the predictions. Random forest models achieved lower MSEs than
+CNNs. Further, the external validation data had a better MSE for females than
+males (60.68 vs. 80.74), with a combined MSE of 70.83. Our results suggest that
+predictive models of Gf from volumetric T1W MRI features alone may perform
+better when trained separately on male and female data. However, the
+performance of our models indicates that more information is necessary beyond
+the available data to make accurate predictions of Gf.

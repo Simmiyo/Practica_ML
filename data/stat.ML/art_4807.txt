@@ -1,0 +1,14 @@
+Explainable Restricted Boltzmann Machines for Collaborative Filtering
+Most accurate recommender systems are black-box models, hiding the reasoning
+behind their recommendations. Yet explanations have been shown to increase the
+user's trust in the system in addition to providing other benefits such as
+scrutability, meaning the ability to verify the validity of recommendations.
+This gap between accuracy and transparency or explainability has generated an
+interest in automated explanation generation methods. Restricted Boltzmann
+Machines (RBM) are accurate models for CF that also lack interpretability. In
+this paper, we focus on RBM based collaborative filtering recommendations, and
+further assume the absence of any additional data source, such as item content
+or user attributes. We thus propose a new Explainable RBM technique that
+computes the top-n recommendation list from items that are explainable.
+Experimental results show that our method is effective in generating accurate
+and explainable recommendations.

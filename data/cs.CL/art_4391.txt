@@ -1,0 +1,16 @@
+Predicting Human Trustfulness from Facebook Language
+Trustfulness -- one's general tendency to have confidence in unknown people
+or situations -- predicts many important real-world outcomes such as mental
+health and likelihood to cooperate with others such as clinicians. While
+data-driven measures of interpersonal trust have previously been introduced,
+here, we develop the first language-based assessment of the personality trait
+of trustfulness by fitting one's language to an accepted questionnaire-based
+trust score. Further, using trustfulness as a type of case study, we explore
+the role of questionnaire size as well as word count in developing
+language-based predictive models of users' psychological traits. We find that
+leveraging a longer questionnaire can yield greater test set accuracy, while,
+for training, we find it beneficial to include users who took smaller
+questionnaires which offers more observations for training. Similarly, after
+noting a decrease in individual prediction error as word count increased, we
+found a word count-weighted training scheme was helpful when there were very
+few users in the first place.

@@ -1,0 +1,20 @@
+Accounting for the Complex Hierarchical Topology of EEG Phase-Based
+  Functional Connectivity in Network Binarisation
+Research into binary network analysis of brain function faces a
+methodological challenge in selecting an appropriate threshold to binarise edge
+weights. For EEG phase-based functional connectivity, we test the hypothesis
+that such binarisation should take into account the complex hierarchical
+structure found in functional connectivity. We explore the density range
+suitable for such structure and provide a comparison of state-of-the-art
+binarisation techniques, the recently proposed Cluster-Span Threshold (CST),
+minimum spanning trees, efficiency-cost optimisation and union of shortest path
+graphs, with arbitrary proportional thresholds and weighted networks. We test
+these techniques on weighted complex hierarchy models by contrasting model
+realisations with small parametric differences. We also test the robustness of
+these techniques to random and targeted topological attacks.We find that the
+CST performs consistenty well in state-of-the-art modelling of EEG network
+topology, robustness to topological network attacks, and in three real
+datasets, agreeing with our hypothesis of hierarchical complexity. This
+provides interesting new evidence into the relevance of considering a large
+number of edges in EEG functional connectivity research to provide
+informational density in the topology.

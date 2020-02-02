@@ -1,0 +1,15 @@
+Variational Inference using Implicit Distributions
+Generative adversarial networks (GANs) have given us a great tool to fit
+implicit generative models to data. Implicit distributions are ones we can
+sample from easily, and take derivatives of samples with respect to model
+parameters. These models are highly expressive and we argue they can prove just
+as useful for variational inference (VI) as they are for generative modelling.
+Several papers have proposed GAN-like algorithms for inference, however,
+connections to the theory of VI are not always well understood. This paper
+provides a unifying review of existing algorithms establishing connections
+between variational autoencoders, adversarially learned inference, operator VI,
+GAN-based image reconstruction, and more. Secondly, the paper provides a
+framework for building new algorithms: depending on the way the variational
+bound is expressed we introduce prior-contrastive and joint-contrastive
+methods, and show practical inference algorithms based on either density ratio
+estimation or denoising.

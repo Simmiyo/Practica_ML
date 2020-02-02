@@ -1,0 +1,26 @@
+Distilling Model Knowledge
+Top-performing machine learning systems, such as deep neural networks, large
+ensembles and complex probabilistic graphical models, can be expensive to
+store, slow to evaluate and hard to integrate into larger systems. Ideally, we
+would like to replace such cumbersome models with simpler models that perform
+equally well.
+  In this thesis, we study knowledge distillation, the idea of extracting the
+knowledge contained in a complex model and injecting it into a more convenient
+model. We present a general framework for knowledge distillation, whereby a
+convenient model of our choosing learns how to mimic a complex model, by
+observing the latter's behaviour and being penalized whenever it fails to
+reproduce it.
+  We develop our framework within the context of three distinct machine
+learning applications: (a) model compression, where we compress large
+discriminative models, such as ensembles of neural networks, into models of
+much smaller size; (b) compact predictive distributions for Bayesian inference,
+where we distil large bags of MCMC samples into compact predictive
+distributions in closed form; (c) intractable generative models, where we
+distil unnormalizable models such as RBMs into tractable models such as NADEs.
+  We contribute to the state of the art with novel techniques and ideas. In
+model compression, we describe and implement derivative matching, which allows
+for better distillation when data is scarce. In compact predictive
+distributions, we introduce online distillation, which allows for significant
+savings in memory. Finally, in intractable generative models, we show how to
+use distilled models to robustly estimate intractable quantities of the
+original model, such as its intractable partition function.

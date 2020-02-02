@@ -1,0 +1,9 @@
+An Empirical Bayes Approach for High Dimensional Classification
+We propose an empirical Bayes estimator based on Dirichlet process mixture
+model for estimating the sparse normalized mean difference, which could be
+directly applied to the high dimensional linear classification. In theory, we
+build a bridge to connect the estimation error of the mean difference and the
+misclassification error, also provide sufficient conditions of sub-optimal
+classifiers and optimal classifiers. In implementation, a variational Bayes
+algorithm is developed to compute the posterior efficiently and could be
+parallelized to deal with the ultra-high dimensional case.

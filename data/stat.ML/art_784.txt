@@ -1,0 +1,16 @@
+Laplacian Eigenmaps from Sparse, Noisy Similarity Measurements
+Manifold learning and dimensionality reduction techniques are ubiquitous in
+science and engineering, but can be computationally expensive procedures when
+applied to large data sets or when similarities are expensive to compute. To
+date, little work has been done to investigate the tradeoff between
+computational resources and the quality of learned representations. We present
+both theoretical and experimental explorations of this question. In particular,
+we consider Laplacian eigenmaps embeddings based on a kernel matrix, and
+explore how the embeddings behave when this kernel matrix is corrupted by
+occlusion and noise. Our main theoretical result shows that under modest noise
+and occlusion assumptions, we can (with high probability) recover a good
+approximation to the Laplacian eigenmaps embedding based on the uncorrupted
+kernel matrix. Our results also show how regularization can aid this
+approximation. Experimentally, we explore the effects of noise and occlusion on
+Laplacian eigenmaps embeddings of two real-world data sets, one from speech
+processing and one from neuroscience, as well as a synthetic data set.

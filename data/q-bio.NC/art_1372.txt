@@ -1,0 +1,17 @@
+Implementing a Concept Network Model
+The same concept can mean different things or be instantiated in different
+forms depending on context, suggesting a degree of flexibility within the
+conceptual system. We propose that a compositional network model can be used to
+capture and predict this flexibility. We modeled individual concepts (e.g.,
+BANANA, BOTTLE) as graph-theoretical networks, in which properties (e.g.,
+YELLOW, SWEET) were represented as nodes and their associations as edges. In
+this framework, networks capture the within-concept statistics that reflect how
+properties correlate with each other across instances of a concept. We ran a
+classification analysis using graph eigendecomposition to validate these
+models, and find that these models can successfully discriminate between object
+concepts. We then computed formal measures from these concept networks and
+explored their relationship to conceptual structure. We find that diversity
+coefficients and core-periphery structure can be interpreted as network-based
+measures of conceptual flexibility and stability, respectively. These results
+support the feasibility of a concept network framework and highlight its
+ability to formally capture important characteristics of the conceptual system.

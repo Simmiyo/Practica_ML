@@ -1,0 +1,13 @@
+Microsoft's Submission to the WMT2018 News Translation Task: How I
+  Learned to Stop Worrying and Love the Data
+This paper describes the Microsoft submission to the WMT2018 news translation
+shared task. We participated in one language direction -- English-German. Our
+system follows current best-practice and combines state-of-the-art models with
+new data filtering (dual conditional cross-entropy filtering) and sentence
+weighting methods. We trained fairly standard Transformer-big models with an
+updated version of Edinburgh's training scheme for WMT2017 and experimented
+with different filtering schemes for Paracrawl. According to automatic metrics
+(BLEU) we reached the highest score for this subtask with a nearly 2 BLEU point
+margin over the next strongest system. Based on human evaluation we ranked
+first among constrained systems. We believe this is mostly caused by our data
+filtering/weighting regime.

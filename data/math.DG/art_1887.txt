@@ -1,0 +1,18 @@
+A harmonic map flow associated with the standard solution of Ricci flow
+Let $(\Bbb{R}^n,g(t))$, $0\le t\le T$, $n\ge 3$, be a standard solution of
+the Ricci flow with radially symmetric initial data $g_0$. We will extend a
+recent existence result of P. Lu and G. Tian and prove that for any $t_0\in
+[0,T)$ there exists a solution of the corresponding harmonic map flow
+$\phi_t:(\Bbb{R}^n,g(t))\to (\Bbb{R}^n,g(t_0))$ satisfying $\partial
+\phi_t/\partial t=\Delta_{g(t),g(t_0)}\phi_t$ of the form $\phi_t(r,\theta)
+=(\rho (r,t),\theta)$ in polar coordinates in $\Bbb{R}^n\times (t_0,T_0)$,
+$\phi_{t_0}(r,\theta)=(r,\theta)$, where $r=r(t)$ is the radial co-ordinate
+with respect to $g(t)$ and $T_0=\sup\{t_1\in (t_0,T]: \|\widetilde{\rho}(\cdot
+,t)\|_{L^{\infty}(\Bbb{R}^+)} +\|\partial\widetilde{\rho}/\partial r(\cdot
+,t)\|_{L^{\infty}(\Bbb{R}^+)} <\infty\quad\forall t_0<t\le t_1\}$ with
+$\widetilde{\rho}(r,t) =\log (\rho(r,t)/r)$. We will also prove the uniqueness
+of solution of the harmonic map flow. We will also use the same technique to
+prove that the solution $u$ of the heat equation in
+$(\Omega\setminus\{0\})\times (0,T)$ has removable singularities at
+$\{0\}\times (0,T)$, $\Omega\subset\Bbb{R}^m$, $m\ge 3$, if and only if
+$|u(x,t)|=O(|x|^{2-m})$ locally uniformly on every compact subset of $(0,T)$.

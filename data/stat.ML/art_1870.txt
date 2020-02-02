@@ -1,0 +1,11 @@
+Boosting as a Product of Experts
+In this paper, we derive a novel probabilistic model of boosting as a Product
+of Experts. We re-derive the boosting algorithm as a greedy incremental model
+selection procedure which ensures that addition of new experts to the ensemble
+does not decrease the likelihood of the data. These learning rules lead to a
+generic boosting algorithm - POE- Boost which turns out to be similar to the
+AdaBoost algorithm under certain assumptions on the expert probabilities. The
+paper then extends the POEBoost algorithm to POEBoost.CS which handles
+hypothesis that produce probabilistic predictions. This new algorithm is shown
+to have better generalization performance compared to other state of the art
+algorithms.

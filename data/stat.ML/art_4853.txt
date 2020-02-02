@@ -1,0 +1,12 @@
+Mini-Batch Spectral Clustering
+The cost of computing the spectrum of Laplacian matrices hinders the
+application of spectral clustering to large data sets. While approximations
+recover computational tractability, they can potentially affect clustering
+performance. This paper proposes a practical approach to learn spectral
+clustering based on adaptive stochastic gradient optimization. Crucially, the
+proposed approach recovers the exact spectrum of Laplacian matrices in the
+limit of the iterations, and the cost of each iteration is linear in the number
+of samples. Extensive experimental validation on data sets with up to half a
+million samples demonstrate its scalability and its ability to outperform
+state-of-the-art approximate methods to learn spectral clustering for a given
+computational budget.

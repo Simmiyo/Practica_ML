@@ -1,0 +1,17 @@
+A Unified Parallel Algorithm for Regularized Group PLS Scalable to Big
+  Data
+Partial Least Squares (PLS) methods have been heavily exploited to analyse
+the association between two blocs of data. These powerful approaches can be
+applied to data sets where the number of variables is greater than the number
+of observations and in presence of high collinearity between variables.
+Different sparse versions of PLS have been developed to integrate multiple data
+sets while simultaneously selecting the contributing variables. Sparse
+modelling is a key factor in obtaining better estimators and identifying
+associations between multiple data sets. The cornerstone of the sparsity
+version of PLS methods is the link between the SVD of a matrix (constructed
+from deflated versions of the original matrices of data) and least squares
+minimisation in linear regression. We present here an accurate description of
+the most popular PLS methods, alongside their mathematical proofs. A unified
+algorithm is proposed to perform all four types of PLS including their
+regularised versions. Various approaches to decrease the computation time are
+offered, and we show how the whole procedure can be scalable to big data sets.

@@ -1,0 +1,10 @@
+Compliance-Aware Bandits
+Motivated by clinical trials, we study bandits with observable
+non-compliance. At each step, the learner chooses an arm, after, instead of
+observing only the reward, it also observes the action that took place. We show
+that such noncompliance can be helpful or hurtful to the learner in general.
+Unfortunately, naively incorporating compliance information into bandit
+algorithms loses guarantees on sublinear regret. We present hybrid algorithms
+that maintain regret bounds up to a multiplicative factor and can incorporate
+compliance information. Simulations based on real data from the International
+Stoke Trial show the practical potential of these algorithms.

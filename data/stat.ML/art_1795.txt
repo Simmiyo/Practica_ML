@@ -1,0 +1,11 @@
+Gradient-based kernel dimension reduction for supervised learning
+This paper proposes a novel kernel approach to linear dimension reduction for
+supervised learning. The purpose of the dimension reduction is to find
+directions in the input space to explain the output as effectively as possible.
+The proposed method uses an estimator for the gradient of regression function,
+based on the covariance operators on reproducing kernel Hilbert spaces. In
+comparison with other existing methods, the proposed one has wide applicability
+without strong assumptions on the distributions or the type of variables, and
+uses computationally simple eigendecomposition. Experimental results show that
+the proposed method successfully finds the effective directions with efficient
+computation.

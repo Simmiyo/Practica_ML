@@ -1,0 +1,19 @@
+OCR Post-Processing Error Correction Algorithm using Google Online
+  Spelling Suggestion
+With the advent of digital optical scanners, a lot of paper-based books,
+textbooks, magazines, articles, and documents are being transformed into an
+electronic version that can be manipulated by a computer. For this purpose,
+OCR, short for Optical Character Recognition was developed to translate scanned
+graphical text into editable computer text. Unfortunately, OCR is still
+imperfect as it occasionally mis-recognizes letters and falsely identifies
+scanned text, leading to misspellings and linguistics errors in the OCR output
+text. This paper proposes a post-processing context-based error correction
+algorithm for detecting and correcting OCR non-word and real-word errors. The
+proposed algorithm is based on Google's online spelling suggestion which
+harnesses an internal database containing a huge collection of terms and word
+sequences gathered from all over the web, convenient to suggest possible
+replacements for words that have been misspelled during the OCR process.
+Experiments carried out revealed a significant improvement in OCR error
+correction rate. Future research can improve upon the proposed algorithm so
+much so that it can be parallelized and executed over multiprocessing
+platforms.

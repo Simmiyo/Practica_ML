@@ -1,0 +1,17 @@
+Scaffolding Networks: Incremental Learning and Teaching Through
+  Questioning
+We introduce a new paradigm of learning for reasoning, understanding, and
+prediction, as well as the scaffolding network to implement this paradigm. The
+scaffolding network embodies an incremental learning approach that is
+formulated as a teacher-student network architecture to teach machines how to
+understand text and do reasoning. The key to our computational scaffolding
+approach is the interactions between the teacher and the student through
+sequential questioning. The student observes each sentence in the text
+incrementally, and it uses an attention-based neural net to discover and
+register the key information in relation to its current memory. Meanwhile, the
+teacher asks questions about the observed text, and the student network gets
+rewarded by correctly answering these questions. The entire network is updated
+continually using reinforcement learning. Our experimental results on synthetic
+and real datasets show that the scaffolding network not only outperforms
+state-of-the-art methods but also learns to do reasoning in a scalable way even
+with little human generated input.

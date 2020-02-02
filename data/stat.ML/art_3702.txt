@@ -1,0 +1,21 @@
+Selective Sequential Model Selection
+Many model selection algorithms produce a path of fits specifying a sequence
+of increasingly complex models. Given such a sequence and the data used to
+produce them, we consider the problem of choosing the least complex model that
+is not falsified by the data. Extending the selected-model tests of Fithian et
+al. (2014), we construct p-values for each step in the path which account for
+the adaptive selection of the model path using the data. In the case of linear
+regression, we propose two specific tests, the max-t test for forward stepwise
+regression (generalizing a proposal of Buja and Brown (2014)), and the
+next-entry test for the lasso. These tests improve on the power of the
+saturated-model test of Tibshirani et al. (2014), sometimes dramatically. In
+addition, our framework extends beyond linear regression to a much more general
+class of parametric and nonparametric model selection problems.
+  To select a model, we can feed our single-step p-values as inputs into
+sequential stopping rules such as those proposed by G'Sell et al. (2013) and Li
+and Barber (2015), achieving control of the familywise error rate or false
+discovery rate (FDR) as desired. The FDR-controlling rules require the null
+p-values to be independent of each other and of the non-null p-values, a
+condition not satisfied by the saturated-model p-values of Tibshirani et al.
+(2014). We derive intuitive and general sufficient conditions for independence,
+and show that our proposed constructions yield independent p-values.

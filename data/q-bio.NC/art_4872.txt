@@ -1,0 +1,20 @@
+Community structure detection and evaluation during the pre- and
+  post-ictal hippocampal depth recordings
+Detecting and evaluating regions of brain under various circumstances is one
+of the most interesting topics in computational neuroscience. However, the
+majority of the studies on detecting communities of a functional connectivity
+network of the brain is done on networks obtained from coherency attributes,
+and not from correlation. This lack of studies, in part, is due to the fact
+that many common methods for clustering graphs require the nodes of the network
+to be `positively' linked together, a property that is guaranteed by a
+coherency matrix, by definition. However, correlation matrices reveal more
+information regarding how each pair of nodes are linked together. In this
+study, for the first time we simultaneously examine four inherently different
+network clustering methods (spectral, heuristic, and optimization methods)
+applied to the functional connectivity networks of the CA1 region of the
+hippocampus of an anaesthetized rat during pre-ictal and post-ictal states. The
+networks are obtained from correlation matrices, and its results are compared
+with the ones obtained by applying the same methods to coherency matrices. The
+correlation matrices show a much finer community structure compared to the
+coherency matrices. Furthermore, we examine the potential smoothing effect of
+choosing various window sizes for computing the correlation/coherency matrices.

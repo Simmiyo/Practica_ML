@@ -1,0 +1,21 @@
+Variational Latent Gaussian Process for Recovering Single-Trial Dynamics
+  from Population Spike Trains
+When governed by underlying low-dimensional dynamics, the interdependence of
+simultaneously recorded population of neurons can be explained by a small
+number of shared factors, or a low-dimensional trajectory. Recovering these
+latent trajectories, particularly from single-trial population recordings, may
+help us understand the dynamics that drive neural computation. However, due to
+the biophysical constraints and noise in the spike trains, inferring
+trajectories from data is a challenging statistical problem in general. Here,
+we propose a practical and efficient inference method, called the variational
+latent Gaussian process (vLGP). The vLGP combines a generative model with a
+history-dependent point process observation together with a smoothness prior on
+the latent trajectories. The vLGP improves upon earlier methods for recovering
+latent trajectories, which assume either observation models inappropriate for
+point processes or linear dynamics. We compare and validate vLGP on both
+simulated datasets and population recordings from the primary visual cortex. In
+the V1 dataset, we find that vLGP achieves substantially higher performance
+than previous methods for predicting omitted spike trains, as well as capturing
+both the toroidal topology of visual stimuli space, and the noise-correlation.
+These results show that vLGP is a robust method with a potential to reveal
+hidden neural dynamics from large-scale neural recordings.

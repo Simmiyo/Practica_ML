@@ -1,0 +1,15 @@
+Minimum $n$-Rank Approximation via Iterative Hard Thresholding
+The problem of recovering a low $n$-rank tensor is an extension of sparse
+recovery problem from the low dimensional space (matrix space) to the high
+dimensional space (tensor space) and has many applications in computer vision
+and graphics such as image inpainting and video inpainting. In this paper, we
+consider a new tensor recovery model, named as minimum $n$-rank approximation
+(MnRA), and propose an appropriate iterative hard thresholding algorithm with
+giving the upper bound of the $n$-rank in advance. The convergence analysis of
+the proposed algorithm is also presented. Particularly, we show that for the
+noiseless case, the linear convergence with rate $\frac{1}{2}$ can be obtained
+for the proposed algorithm under proper conditions. Additionally, combining an
+effective heuristic for determining $n$-rank, we can also apply the proposed
+algorithm to solve MnRA when $n$-rank is unknown in advance. Some preliminary
+numerical results on randomly generated and real low $n$-rank tensor completion
+problems are reported, which show the efficiency of the proposed algorithms.

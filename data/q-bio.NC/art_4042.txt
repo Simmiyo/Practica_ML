@@ -1,0 +1,16 @@
+Optimal Entrainment of Neural Oscillator Ensembles
+In this paper, we derive the minimum-energy periodic control that entrains an
+ensemble of structurally similar neural oscillators to a desired frequency. The
+state space representation of a nominal oscillator is reduced to a phase model
+by computing its limit cycle and phase response curve, from which the optimal
+control is derived by using formal averaging and the calculus of variations. We
+focus on the case of a 1:1 entrainment ratio, and introduce a numerical method
+for approximating the optimal controls. The method is applied to asymptotically
+control the spiking frequency of neural oscillators modeled using the
+Hodgkin-Huxley equations. This illustrates the optimality of entrainment
+controls derived using phase models when applied to the original state space
+system, which is a crucial requirement for using phase models in control
+synthesis for practical applications. The results of this work can be used to
+design low energy signals for deep brain stimulation therapies for
+neuropathologies, and can be generalized for optimal frequency control of
+large-scale complex oscillating systems with parameter uncertainty.

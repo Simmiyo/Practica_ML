@@ -1,0 +1,18 @@
+Information Projection and Approximate Inference for Structured Sparse
+  Variables
+Approximate inference via information projection has been recently introduced
+as a general-purpose approach for efficient probabilistic inference given
+sparse variables. This manuscript goes beyond classical sparsity by proposing
+efficient algorithms for approximate inference via information projection that
+are applicable to any structure on the set of variables that admits enumeration
+using a \emph{matroid}. We show that the resulting information projection can
+be reduced to combinatorial submodular optimization subject to matroid
+constraints. Further, leveraging recent advances in submodular optimization, we
+provide an efficient greedy algorithm with strong optimization-theoretic
+guarantees. The class of probabilistic models that can be expressed in this way
+is quite broad and, as we show, includes group sparse regression, group sparse
+principal components analysis and sparse canonical correlation analysis, among
+others. Moreover, empirical results on simulated data and high dimensional
+neuroimaging data highlight the superior performance of the information
+projection approach as compared to established baselines for a range of
+probabilistic models.

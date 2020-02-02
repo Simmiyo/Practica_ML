@@ -1,0 +1,23 @@
+Whiteout: Gaussian Adaptive Noise Regularization in Deep Neural Networks
+Noise injection (NI) is an efficient technique to mitigate over-fitting in
+neural networks (NNs). The Bernoulli NI procedure as implemented in dropout and
+shakeout has connections with $l_1$ and $l_2$ regularization for the NN model
+parameters. We propose whiteout, a family NI regularization techniques (NIRT)
+through injecting adaptive Gaussian noises during the training of NNs. Whiteout
+is the first NIRT than imposes a broad range of the $l_{\gamma}$ sparsity
+regularization $(\gamma\in(0,2))$ without having to involving the $l_2$
+regularization. Whiteout can also be extended to offer regularizations similar
+to the adaptive lasso and group lasso. We establish the regularization effect
+of whiteout in the framework of generalized linear models with closed-form
+penalty terms and show that whiteout stabilizes the training of NNs with
+decreased sensitivity to small perturbations in the input. We establish that
+the noise-perturbed empirical loss function (pelf) with whiteout converges
+almost surely to the ideal loss function (ilf), and the minimizer of the pelf
+is consistent for the minimizer of the ilf. We derive the tail bound on the
+pelf to establish the practical feasibility in its minimization. The
+superiority of whiteout over the Bernoulli NIRTs, dropout and shakeout, in
+learning NNs with relatively small-sized training sets and non-inferiority in
+large-sized training sets is demonstrated in both simulated and real-life data
+sets. This work represents the first in-depth theoretical, methodological, and
+practical examination of the regularization effects of both additive and
+multiplicative Gaussian NI in deep NNs.

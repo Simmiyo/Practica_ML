@@ -1,0 +1,23 @@
+Flexible High-dimensional Classification Machines and Their Asymptotic
+  Properties
+Classification is an important topic in statistics and machine learning with
+great potential in many real applications. In this paper, we investigate two
+popular large margin classification methods, Support Vector Machine (SVM) and
+Distance Weighted Discrimination (DWD), under two contexts: the
+high-dimensional, low-sample size data and the imbalanced data. A unified
+family of classification machines, the FLexible Assortment MachinE (FLAME) is
+proposed, within which DWD and SVM are special cases. The FLAME family helps to
+identify the similarities and differences between SVM and DWD. It is well known
+that many classifiers overfit the data in the high-dimensional setting; and
+others are sensitive to the imbalanced data, that is, the class with a larger
+sample size overly influences the classifier and pushes the decision boundary
+towards the minority class. SVM is resistant to the imbalanced data issue, but
+it overfits high-dimensional data sets by showing the undesired data-piling
+phenomena. The DWD method was proposed to improve SVM in the high-dimensional
+setting, but its decision boundary is sensitive to the imbalanced ratio of
+sample sizes. Our FLAME family helps to understand an intrinsic connection
+between SVM and DWD, and improves both methods by providing a better trade-off
+between sensitivity to the imbalanced data and overfitting the high-dimensional
+data. Several asymptotic properties of the FLAME classifiers are studied.
+Simulations and real data applications are investigated to illustrate the
+usefulness of the FLAME classifiers.

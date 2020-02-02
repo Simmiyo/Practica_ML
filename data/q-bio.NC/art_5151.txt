@@ -1,0 +1,19 @@
+Learning to aggregate feature representations
+The Algonauts challenge requires to construct a multi-subject encoder of
+images to brain activity. Deep networks such as ResNet-50 and AlexNet trained
+for image classification are known to produce feature representations along
+their intermediate stages which closely mimic the visual hierarchy. However the
+challenges introduced in the Algonauts project, including combining data from
+multiple subjects, relying on very few similarity data points, solving for
+various ROIs, and multi-modality, require devising a flexible framework which
+can efficiently accommodate them. Here we build upon a recent state-of-the-art
+classification network (SE-ResNeXt-50) and construct an adaptive combination of
+its intermediate representations. While the pretrained network serves as a
+backbone of our model, we learn how to aggregate feature representations along
+five stages of the network. During learning, our method enables to modulate and
+screen outputs from each stage along the network as governed by the optimized
+objective. We applied our method to the Algonauts2019 fMRI and MEG challenges.
+Using the combined fMRI and MEG data, our approach was rated among the leading
+five for both challenges. Surprisingly we find that for both the lower and
+higher order areas (EVC and IT) the adaptive aggregation favors features
+stemming at later stages of the network.

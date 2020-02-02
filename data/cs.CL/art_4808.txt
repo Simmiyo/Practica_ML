@@ -1,0 +1,13 @@
+A Comparative Study of Neural Network Models for Sentence Classification
+This paper presents an extensive comparative study of four neural network
+models, including feed-forward networks, convolutional networks, recurrent
+networks and long short-term memory networks, on two sentence classification
+datasets of English and Vietnamese text. We show that on the English dataset,
+the convolutional network models without any feature engineering outperform
+some competitive sentence classifiers with rich hand-crafted linguistic
+features. We demonstrate that the GloVe word embeddings are consistently better
+than both Skip-gram word embeddings and word count vectors. We also show the
+superiority of convolutional neural network models on a Vietnamese newspaper
+sentence dataset over strong baseline models. Our experimental results suggest
+some good practices for applying neural network models in sentence
+classification.

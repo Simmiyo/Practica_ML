@@ -1,0 +1,10 @@
+Unsupervised Dialogue Act Induction using Gaussian Mixtures
+This paper introduces a new unsupervised approach for dialogue act induction.
+Given the sequence of dialogue utterances, the task is to assign them the
+labels representing their function in the dialogue.
+  Utterances are represented as real-valued vectors encoding their meaning. We
+model the dialogue as Hidden Markov model with emission probabilities estimated
+by Gaussian mixtures. We use Gibbs sampling for posterior inference.
+  We present the results on the standard Switchboard-DAMSL corpus. Our
+algorithm achieves promising results compared with strong supervised baselines
+and outperforms other unsupervised algorithms.

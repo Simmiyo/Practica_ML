@@ -1,0 +1,17 @@
+Memory Recall and Spike Frequency Adaptation
+The brain can reproduce memories from partial data; this ability is critical
+for memory recall. The process of memory recall has been studied using
+auto-associative networks such as the Hopfield model. This kind of model
+reliably converges to stored patterns which contain the memory. However, it is
+unclear how the behavior is controlled by the brain so that after convergence
+to one configuration, it can proceed with recognition of another one. In the
+Hopfield model this happens only through unrealistic changes of an effective
+global temperature that destabilizes all stored configurations. Here we show
+that spike frequency adaptation (SFA), a common mechanism affecting neuron
+activation in the brain, can provide state dependent control of pattern
+retrieval. We demonstrate this in a Hopfield network modified to include SFA,
+and also in a model network of biophysical neurons. In both cases SFA allows
+for selective stabilization of attractors with different basins of attraction,
+and also for temporal dynamics of attractor switching that is not possible in
+standard auto-associative schemes. The dynamics of our models give a plausible
+account of different sorts of memory retrieval.

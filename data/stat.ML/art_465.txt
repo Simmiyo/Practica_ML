@@ -1,0 +1,8 @@
+MIST: L0 Sparse Linear Regression with Momentum
+Significant attention has been given to minimizing a penalized least squares
+criterion for estimating sparse solutions to large linear systems of equations.
+The penalty is responsible for inducing sparsity and the natural choice is the
+so-called $l_0$ norm. In this paper we develop a Momentumized Iterative
+Shrinkage Thresholding (MIST) algorithm for minimizing the resulting non-convex
+criterion and prove its convergence to a local minimizer. Simulations on large
+data sets show superior performance of the proposed method to other methods.

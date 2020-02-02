@@ -1,0 +1,14 @@
+Super-resolution estimation of cyclic arrival rates
+Exploiting the fact that most arrival processes exhibit cyclic behaviour, we
+propose a simple procedure for estimating the intensity of a nonhomogeneous
+Poisson process. The estimator is the super-resolution analogue to Shao 2010
+and Shao & Lii 2011, which is a sum of $p$ sinusoids where $p$ and the
+frequency, amplitude, and phase of each wave are not known and need to be
+estimated. This results in an interpretable yet flexible specification that is
+suitable for use in modelling as well as in high resolution simulations.
+  Our estimation procedure sits in between classic periodogram methods and
+atomic/total variation norm thresholding. Through a novel use of window
+functions in the point process domain, our approach attains super-resolution
+without semidefinite programming. Under suitable conditions, finite sample
+guarantees can be derived for our procedure. These resolve some open questions
+and expand existing results in spectral estimation literature.

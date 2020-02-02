@@ -1,0 +1,16 @@
+Learning Instrumental Variables with Non-Gaussianity Assumptions:
+  Theoretical Limitations and Practical Algorithms
+Learning a causal effect from observational data is not straightforward, as
+this is not possible without further assumptions. If hidden common causes
+between treatment $X$ and outcome $Y$ cannot be blocked by other measurements,
+one possibility is to use an instrumental variable. In principle, it is
+possible under some assumptions to discover whether a variable is structurally
+instrumental to a target causal effect $X \rightarrow Y$, but current
+frameworks are somewhat lacking on how general these assumptions can be. A
+instrumental variable discovery problem is challenging, as no variable can be
+tested as an instrument in isolation but only in groups, but different
+variables might require different conditions to be considered an instrument.
+Moreover, identification constraints might be hard to detect statistically. In
+this paper, we give a theoretical characterization of instrumental variable
+discovery, highlighting identifiability problems and solutions, the need for
+non-Gaussianity assumptions, and how they fit within existing methods.

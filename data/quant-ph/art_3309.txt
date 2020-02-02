@@ -1,0 +1,18 @@
+Quantum Computer as a Probabilistic Inference Engine
+We propose a new class of quantum computing algorithms which generalize many
+standard ones. The goal of our algorithms is to estimate probability
+distributions. Such estimates are useful in, for example, applications of
+Decision Theory and Artificial Intelligence, where inferences are made based on
+uncertain knowledge. The class of algorithms that we propose is based on a
+construction method that generalizes a Fredkin-Toffoli (F-T) construction
+method used in the field of classical reversible computing. F-T showed how,
+given any binary deterministic circuit, one can construct another binary
+deterministic circuit which does the same calculations in a reversible manner.
+We show how, given any classical stochastic network (classical Bayesian net),
+one can construct a quantum network (quantum Bayesian net). By running this
+quantum Bayesian net on a quantum computer, one can calculate any conditional
+probability that one would be interested in calculating for the original
+classical Bayesian net. Thus, we generalize the F-T construction method so that
+it can be applied to any classical stochastic circuit, not just binary
+deterministic ones. We also show that, in certain situations, our class of
+algorithms can be combined with Grover's algorithm to great advantage.

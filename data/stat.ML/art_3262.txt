@@ -1,0 +1,13 @@
+Mathematical understanding of detailed balance condition violation and
+  its application to Langevin dynamics
+We develop an efficient sampling method by simulating Langevin dynamics with
+an artificial force rather than a natural force by using the gradient of the
+potential energy. The standard technique for sampling following the
+predetermined distribution such as the Gibbs-Boltzmann one is performed under
+the detailed balance condition. In the present study, we propose a modified
+Langevin dynamics violating the detailed balance condition on the
+transition-probability formulation. We confirm that the numerical
+implementation of the proposed method actually demonstrates two major
+beneficial improvements: acceleration of the relaxation to the predetermined
+distribution and reduction of the correlation time between two different
+realizations in the steady state.

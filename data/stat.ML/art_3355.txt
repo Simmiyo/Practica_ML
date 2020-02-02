@@ -1,0 +1,25 @@
+Multi-task additive models with shared transfer functions based on
+  dictionary learning
+Additive models form a widely popular class of regression models which
+represent the relation between covariates and response variables as the sum of
+low-dimensional transfer functions. Besides flexibility and accuracy, a key
+benefit of these models is their interpretability: the transfer functions
+provide visual means for inspecting the models and identifying domain-specific
+relations between inputs and outputs. However, in large-scale problems
+involving the prediction of many related tasks, learning independently additive
+models results in a loss of model interpretability, and can cause overfitting
+when training data is scarce. We introduce a novel multi-task learning approach
+which provides a corpus of accurate and interpretable additive models for a
+large number of related forecasting tasks. Our key idea is to share transfer
+functions across models in order to reduce the model complexity and ease the
+exploration of the corpus. We establish a connection with sparse dictionary
+learning and propose a new efficient fitting algorithm which alternates between
+sparse coding and transfer function updates. The former step is solved via an
+extension of Orthogonal Matching Pursuit, whose properties are analyzed using a
+novel recovery condition which extends existing results in the literature. The
+latter step is addressed using a traditional dictionary update rule.
+Experiments on real-world data demonstrate that our approach compares favorably
+to baseline methods while yielding an interpretable corpus of models, revealing
+structure among the individual tasks and being more robust when training data
+is scarce. Our framework therefore extends the well-known benefits of additive
+models to common regression settings possibly involving thousands of tasks.

@@ -1,0 +1,24 @@
+Generalized Kalman Smoothing: Modeling and Algorithms
+State-space smoothing has found many applications in science and engineering.
+Under linear and Gaussian assumptions, smoothed estimates can be obtained using
+efficient recursions, for example Rauch-Tung-Striebel and Mayne-Fraser
+algorithms. Such schemes are equivalent to linear algebraic techniques that
+minimize a convex quadratic objective function with structure induced by the
+dynamic model.
+  These classical formulations fall short in many important circumstances. For
+instance, smoothers obtained using quadratic penalties can fail when outliers
+are present in the data, and cannot track impulsive inputs and abrupt state
+changes. Motivated by these shortcomings, generalized Kalman smoothing
+formulations have been proposed in the last few years, replacing quadratic
+models with more suitable, often nonsmooth, convex functions. In contrast to
+classical models, these general estimators require use of iterated algorithms,
+and these have received increased attention from control, signal processing,
+machine learning, and optimization communities.
+  In this survey we show that the optimization viewpoint provides the control
+and signal processing community great freedom in the development of novel
+modeling and inference frameworks for dynamical systems. We discuss general
+statistical models for dynamic systems, making full use of nonsmooth convex
+penalties and constraints, and providing links to important models in signal
+processing and machine learning. We also survey optimization techniques for
+these formulations, paying close attention to dynamic problem structure.
+Modeling concepts and algorithms are illustrated with numerical examples.

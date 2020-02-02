@@ -1,0 +1,16 @@
+Fast recursive filters for simulating nonlinear dynamic systems
+A fast and accurate computational scheme for simulating nonlinear dynamic
+systems is presented. The scheme assumes that the system can be represented by
+a combination of components of only two different types: first-order low-pass
+filters and static nonlinearities. The parameters of these filters and
+nonlinearities may depend on system variables, and the topology of the system
+may be complex, including feedback. Several examples taken from neuroscience
+are given: phototransduction, photopigment bleaching, and spike generation
+according to the Hodgkin-Huxley equations. The scheme uses two slightly
+different forms of autoregressive filters, with an implicit delay of zero for
+feedforward control and an implicit delay of half a sample distance for
+feedback control. On a fairly complex model of the macaque retinal horizontal
+cell it computes, for a given level of accuracy, 1-2 orders of magnitude faster
+than 4th-order Runge-Kutta. The computational scheme has minimal memory
+requirements, and is also suited for computation on a stream processor, such as
+a GPU (Graphical Processing Unit).

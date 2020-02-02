@@ -1,0 +1,14 @@
+Contextual Markov Decision Processes
+We consider a planning problem where the dynamics and rewards of the
+environment depend on a hidden static parameter referred to as the context. The
+objective is to learn a strategy that maximizes the accumulated reward across
+all contexts. The new model, called Contextual Markov Decision Process (CMDP),
+can model a customer's behavior when interacting with a website (the learner).
+The customer's behavior depends on gender, age, location, device, etc. Based on
+that behavior, the website objective is to determine customer characteristics,
+and to optimize the interaction between them. Our work focuses on one basic
+scenario--finite horizon with a small known number of possible contexts. We
+suggest a family of algorithms with provable guarantees that learn the
+underlying models and the latent contexts, and optimize the CMDPs. Bounds are
+obtained for specific naive implementations, and extensions of the framework
+are discussed, laying the ground for future research.

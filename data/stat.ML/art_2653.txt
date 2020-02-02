@@ -1,0 +1,20 @@
+On the Bayes-optimality of F-measure maximizers
+The F-measure, which has originally been introduced in information retrieval,
+is nowadays routinely used as a performance metric for problems such as binary
+classification, multi-label classification, and structured output prediction.
+Optimizing this measure is a statistically and computationally challenging
+problem, since no closed-form solution exists. Adopting a decision-theoretic
+perspective, this article provides a formal and experimental analysis of
+different approaches for maximizing the F-measure. We start with a Bayes-risk
+analysis of related loss functions, such as Hamming loss and subset zero-one
+loss, showing that optimizing such losses as a surrogate of the F-measure leads
+to a high worst-case regret. Subsequently, we perform a similar type of
+analysis for F-measure maximizing algorithms, showing that such algorithms are
+approximate, while relying on additional assumptions regarding the statistical
+distribution of the binary response variables. Furthermore, we present a new
+algorithm which is not only computationally efficient but also Bayes-optimal,
+regardless of the underlying distribution. To this end, the algorithm requires
+only a quadratic (with respect to the number of binary responses) number of
+parameters of the joint distribution. We illustrate the practical performance
+of all analyzed methods by means of experiments with multi-label classification
+problems.

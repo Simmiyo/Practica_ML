@@ -1,0 +1,16 @@
+Complex Independent Component Analysis of Frequency-Domain
+  Electroencephalographic Data
+Independent component analysis (ICA) has proven useful for modeling brain and
+electroencephalographic (EEG) data. Here, we present a new, generalized method
+to better capture the dynamics of brain signals than previous ICA algorithms.
+We regard EEG sources as eliciting spatio-temporal activity patterns,
+corresponding to, e.g., trajectories of activation propagating across cortex.
+This leads to a model of convolutive signal superposition, in contrast with the
+commonly used instantaneous mixing model. In the frequency-domain, convolutive
+mixing is equivalent to multiplicative mixing of complex signal sources within
+distinct spectral bands. We decompose the recorded spectral-domain signals into
+independent components by a complex infomax ICA algorithm. First results from a
+visual attention EEG experiment exhibit (1) sources of spatio-temporal dynamics
+in the data, (2) links to subject behavior, (3) sources with a limited spectral
+extent, and (4) a higher degree of independence compared to sources derived by
+standard ICA.

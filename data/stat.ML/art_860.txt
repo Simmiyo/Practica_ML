@@ -1,0 +1,10 @@
+Finding Alternate Features in Lasso
+We propose a method for finding alternate features missing in the Lasso
+optimal solution. In ordinary Lasso problem, one global optimum is obtained and
+the resulting features are interpreted as task-relevant features. However, this
+can overlook possibly relevant features not selected by the Lasso. With the
+proposed method, we can provide not only the Lasso optimal solution but also
+possible alternate features to the Lasso solution. We show that such alternate
+features can be computed efficiently by avoiding redundant computations. We
+also demonstrate how the proposed method works in the 20 newsgroup data, which
+shows that reasonable features are found as alternate features.

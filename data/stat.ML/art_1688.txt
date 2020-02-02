@@ -1,0 +1,13 @@
+Probabilistic Models over Ordered Partitions with Application in
+  Learning to Rank
+This paper addresses the general problem of modelling and learning rank data
+with ties. We propose a probabilistic generative model, that models the process
+as permutations over partitions. This results in super-exponential
+combinatorial state space with unknown numbers of partitions and unknown
+ordering among them. We approach the problem from the discrete choice theory,
+where subsets are chosen in a stagewise manner, reducing the state space per
+each stage significantly. Further, we show that with suitable parameterisation,
+we can still learn the models in linear time. We evaluate the proposed models
+on the problem of learning to rank with the data from the recently held Yahoo!
+challenge, and demonstrate that the models are competitive against well-known
+rivals.

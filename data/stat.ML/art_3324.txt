@@ -1,0 +1,15 @@
+Computational Cost Reduction in Learned Transform Classifications
+We present a theoretical analysis and empirical evaluations of a novel set of
+techniques for computational cost reduction of classifiers that are based on
+learned transform and soft-threshold. By modifying optimization procedures for
+dictionary and classifier training, as well as the resulting dictionary
+entries, our techniques allow to reduce the bit precision and to replace each
+floating-point multiplication by a single integer bit shift. We also show how
+the optimization algorithms in some dictionary training methods can be modified
+to penalize higher-energy dictionaries. We applied our techniques with the
+classifier Learning Algorithm for Soft-Thresholding, testing on the datasets
+used in its original paper. Our results indicate it is feasible to use solely
+sums and bit shifts of integers to classify at test time with a limited
+reduction of the classification accuracy. These low power operations are a
+valuable trade off in FPGA implementations as they increase the classification
+throughput while decrease both energy consumption and manufacturing cost.

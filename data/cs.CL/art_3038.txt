@@ -1,0 +1,13 @@
+Language Modeling with Highway LSTM
+Language models (LMs) based on Long Short Term Memory (LSTM) have shown good
+gains in many automatic speech recognition tasks. In this paper, we extend an
+LSTM by adding highway networks inside an LSTM and use the resulting Highway
+LSTM (HW-LSTM) model for language modeling. The added highway networks increase
+the depth in the time dimension. Since a typical LSTM has two internal states,
+a memory cell and a hidden state, we compare various types of HW-LSTM by adding
+highway networks onto the memory cell and/or the hidden state. Experimental
+results on English broadcast news and conversational telephone speech
+recognition show that the proposed HW-LSTM LM improves speech recognition
+accuracy on top of a strong LSTM LM baseline. We report 5.1% and 9.9% on the
+Switchboard and CallHome subsets of the Hub5 2000 evaluation, which reaches the
+best performance numbers reported on these tasks to date.

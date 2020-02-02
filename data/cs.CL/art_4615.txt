@@ -1,0 +1,11 @@
+The Effect of Context on Metaphor Paraphrase Aptness Judgments
+We conduct two experiments to study the effect of context on metaphor
+paraphrase aptness judgments. The first is an AMT crowd source task in which
+speakers rank metaphor paraphrase candidate sentence pairs in short document
+contexts for paraphrase aptness. In the second we train a composite DNN to
+predict these human judgments, first in binary classifier mode, and then as
+gradient ratings. We found that for both mean human judgments and our DNN's
+predictions, adding document context compresses the aptness scores towards the
+center of the scale, raising low out of context ratings and decreasing high out
+of context scores. We offer a provisional explanation for this compression
+effect.

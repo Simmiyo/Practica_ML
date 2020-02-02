@@ -1,0 +1,22 @@
+Mapping Generative Models onto a Network of Digital Spiking Neurons
+Stochastic neural networks such as Restricted Boltzmann Machines (RBMs) have
+been successfully used in applications ranging from speech recognition to image
+classification. Inference and learning in these algorithms use a Markov Chain
+Monte Carlo procedure called Gibbs sampling, where a logistic function forms
+the kernel of this sampler. On the other side of the spectrum, neuromorphic
+systems have shown great promise for low-power and parallelized cognitive
+computing, but lack well-suited applications and automation procedures. In this
+work, we propose a systematic method for bridging the RBM algorithm and digital
+neuromorphic systems, with a generative pattern completion task as proof of
+concept. For this, we first propose a method of producing the Gibbs sampler
+using bio-inspired digital noisy integrate-and-fire neurons. Next, we describe
+the process of mapping generative RBMs trained offline onto the IBM TrueNorth
+neurosynaptic processor -- a low-power digital neuromorphic VLSI substrate.
+Mapping these algorithms onto neuromorphic hardware presents unique challenges
+in network connectivity and weight and bias quantization, which, in turn,
+require architectural and design strategies for the physical realization.
+Generative performance metrics are analyzed to validate the neuromorphic
+requirements and to best select the neuron parameters for the model. Lastly, we
+describe a design automation procedure which achieves optimal resource usage,
+accounting for the novel hardware adaptations. This work represents the first
+implementation of generative RBM inference on a neuromorphic VLSI substrate.

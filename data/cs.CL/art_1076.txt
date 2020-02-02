@@ -1,0 +1,13 @@
+Combine CRF and MMSEG to Boost Chinese Word Segmentation in Social Media
+In this paper, we propose a joint algorithm for the word segmentation on
+Chinese social media. Previous work mainly focus on word segmentation for plain
+Chinese text, in order to develop a Chinese social media processing tool, we
+need to take the main features of social media into account, whose grammatical
+structure is not rigorous, and the tendency of using colloquial and Internet
+terms makes the existing Chinese-processing tools inefficient to obtain good
+performance on social media.
+  In our approach, we combine CRF and MMSEG algorithm and extend features of
+traditional CRF algorithm to train the model for word segmentation, We use
+Internet lexicon in order to improve the performance of our model on Chinese
+social media. Our experimental result on Sina Weibo shows that our approach
+outperforms the state-of-the-art model.

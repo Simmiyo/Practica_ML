@@ -1,0 +1,15 @@
+Transfer Learning in Brain-Computer Interfaces
+The performance of brain-computer interfaces (BCIs) improves with the amount
+of available training data, the statistical distribution of this data, however,
+varies across subjects as well as across sessions within individual subjects,
+limiting the transferability of training data or trained models between them.
+In this article, we review current transfer learning techniques in BCIs that
+exploit shared structure between training data of multiple subjects and/or
+sessions to increase performance. We then present a framework for transfer
+learning in the context of BCIs that can be applied to any arbitrary feature
+space, as well as a novel regression estimation method that is specifically
+designed for the structure of a system based on the electroencephalogram (EEG).
+We demonstrate the utility of our framework and method on subject-to-subject
+transfer in a motor-imagery paradigm as well as on session-to-session transfer
+in one patient diagnosed with amyotrophic lateral sclerosis (ALS), showing that
+it is able to outperform other comparable methods on an identical dataset.

@@ -1,0 +1,24 @@
+Extended Gauss-Newton and Gauss-Newton-ADMM Algorithms for Low-Rank
+  Matrix Optimization
+We develop a generic Gauss-Newton (GN) framework for solving a class of
+nonconvex optimization problems involving low-rank matrix variables. As opposed
+to standard Gauss-Newton method, our framework allows one to handle general
+smooth convex cost function via its surrogate. The main
+complexity-per-iteration consists of the inverse of two rank-size matrices and
+at most six small matrix multiplications to compute a closed form Gauss-Newton
+direction, and a backtracking linesearch. We show, under mild conditions, that
+the proposed algorithm globally and locally converges to a stationary point of
+the original nonconvex problem. We also show empirically that the Gauss-Newton
+algorithm achieves much higher accurate solutions compared to the well studied
+alternating direction method (ADM). Then, we specify our Gauss-Newton framework
+to handle the symmetric case and prove its convergence, where ADM is not
+applicable without lifting variables.
+  Next, we incorporate our Gauss-Newton scheme into the alternating direction
+method of multipliers (ADMM) to design a GN-ADMM algorithm for solving the
+low-rank optimization problem. We prove that, under mild conditions and a
+proper choice of the penalty parameter, our GN-ADMM globally converges to a
+stationary point of the original problem. Finally, we apply our algorithms to
+solve several problems in practice such as low-rank approximation, matrix
+completion, robust low-rank matrix recovery, and matrix recovery in quantum
+tomography. The numerical experiments provide encouraging results to motivate
+the use of nonconvex optimization.

@@ -1,0 +1,14 @@
+Learning Optimal Interventions
+Our goal is to identify beneficial interventions from observational data. We
+consider interventions that are narrowly focused (impacting few covariates) and
+may be tailored to each individual or globally enacted over a population. For
+applications where harmful intervention is drastically worse than proposing no
+change, we propose a conservative definition of the optimal intervention.
+Assuming the underlying relationship remains invariant under intervention, we
+develop efficient algorithms to identify the optimal intervention policy from
+limited data and provide theoretical guarantees for our approach in a Gaussian
+Process setting. Although our methods assume covariates can be precisely
+adjusted, they remain capable of improving outcomes in misspecified settings
+where interventions incur unintentional downstream effects. Empirically, our
+approach identifies good interventions in two practical applications: gene
+perturbation and writing improvement.

@@ -1,0 +1,20 @@
+Clustering Partially Observed Graphs via Convex Optimization
+This paper considers the problem of clustering a partially observed
+unweighted graph---i.e., one where for some node pairs we know there is an edge
+between them, for some others we know there is no edge, and for the remaining
+we do not know whether or not there is an edge. We want to organize the nodes
+into disjoint clusters so that there is relatively dense (observed)
+connectivity within clusters, and sparse across clusters.
+  We take a novel yet natural approach to this problem, by focusing on finding
+the clustering that minimizes the number of "disagreements"---i.e., the sum of
+the number of (observed) missing edges within clusters, and (observed) present
+edges across clusters. Our algorithm uses convex optimization; its basis is a
+reduction of disagreement minimization to the problem of recovering an
+(unknown) low-rank matrix and an (unknown) sparse matrix from their partially
+observed sum. We evaluate the performance of our algorithm on the classical
+Planted Partition/Stochastic Block Model. Our main theorem provides sufficient
+conditions for the success of our algorithm as a function of the minimum
+cluster size, edge density and observation probability; in particular, the
+results characterize the tradeoff between the observation probability and the
+edge density gap. When there are a constant number of clusters of equal size,
+our results are optimal up to logarithmic factors.

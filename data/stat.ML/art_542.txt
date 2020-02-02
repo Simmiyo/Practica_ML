@@ -1,0 +1,17 @@
+Local and Global Inference for High Dimensional Nonparanormal Graphical
+  Models
+This paper proposes a unified framework to quantify local and global
+inferential uncertainty for high dimensional nonparanormal graphical models. In
+particular, we consider the problems of testing the presence of a single edge
+and constructing a uniform confidence subgraph. Due to the presence of unknown
+marginal transformations, we propose a pseudo likelihood based inferential
+approach. In sharp contrast to the existing high dimensional score test method,
+our method is free of tuning parameters given an initial estimator, and extends
+the scope of the existing likelihood based inferential framework. Furthermore,
+we propose a U-statistic multiplier bootstrap method to construct the
+confidence subgraph. We show that the constructed subgraph is contained in the
+true graph with probability greater than a given nominal level. Compared with
+existing methods for constructing confidence subgraphs, our method does not
+rely on Gaussian or sub-Gaussian assumptions. The theoretical properties of the
+proposed inferential methods are verified by thorough numerical experiments and
+real data analysis.

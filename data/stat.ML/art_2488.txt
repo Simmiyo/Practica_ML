@@ -1,0 +1,11 @@
+Regret Bounds for Reinforcement Learning with Policy Advice
+In some reinforcement learning problems an agent may be provided with a set
+of input policies, perhaps learned from prior experience or provided by
+advisors. We present a reinforcement learning with policy advice (RLPA)
+algorithm which leverages this input set and learns to use the best policy in
+the set for the reinforcement learning task at hand. We prove that RLPA has a
+sub-linear regret of \tilde O(\sqrt{T}) relative to the best input policy, and
+that both this regret and its computational complexity are independent of the
+size of the state and action space. Our empirical simulations support our
+theoretical analysis. This suggests RLPA may offer significant advantages in
+large domains where some prior good policies are provided.

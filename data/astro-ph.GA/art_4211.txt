@@ -1,0 +1,27 @@
+The initial mass function of star clusters that form in turbulent
+  molecular clouds
+We simulate the formation and evolution of young star clusters using the
+combination of SPH simulations and direct N-body simulations. We start by
+performing SPH simulations of the giant molecular cloud with a turbulent
+velocity field, a mass of $4\times10^4$ to $5\times10^6M_{\odot}$, and a
+density between $1.7\times10^3$ and $170cm^{-3}$. We continue the SPH
+simulations for a free-fall time scale, and analyze the resulting structure of
+the collapsed cloud. We subsequently replace a density-selected subset of SPH
+particles with stars by adopting a local star-formation efficiency proportional
+to $\rho^{1/2}$. As a consequence, the local star formation efficiency exceeds
+30 %, whereas globally only a few % of the gas is converted to stars. The
+stellar distribution by the time gas is converted to stars is very clumpy, with
+typically a dozen bound conglomerates that consist of 100 to $10^4$ stars. We
+continue to evolve the stars dynamically using the collisional N-body method,
+which accurately treats all pairwise interactions, stellar collisions and
+stellar evolution. We analyze the results of the N-body simulations when the
+stars have an age of 2 Myr and 10 Myr. During the dynamical simulations,
+massive clusters grow via hierarchical merging of smaller clusters. The shape
+of the cluster mass function that originates from an individual molecular cloud
+is consistent with a Schechter function with a power-law slope of -1.73 at 2
+Myr and -1.67 at 10 Myr, which fits to observed cluster mass function of the
+Carina region. The superposition of mass functions have a power-law slope of <
+-2, which fits the observed mass function of star clusters in the Milky Way,
+M31 and M83. We further find that the mass of the most massive cluster formed
+in a single molecular cloud with a mass of $M_g$ scales with $6.1M_g^{0.51}$
+which also agrees with recent observation of the GMC and young clusters in M51.

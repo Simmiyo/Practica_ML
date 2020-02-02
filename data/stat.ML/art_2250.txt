@@ -1,0 +1,16 @@
+Sparse Ising Models with Covariates
+There has been a lot of work fitting Ising models to multivariate binary data
+in order to understand the conditional dependency relationships between the
+variables. However, additional covariates are frequently recorded together with
+the binary data, and may influence the dependence relationships. Motivated by
+such a dataset on genomic instability collected from tumor samples of several
+types, we propose a sparse covariate dependent Ising model to study both the
+conditional dependency within the binary data and its relationship with the
+additional covariates. This results in subject-specific Ising models, where the
+subject's covariates influence the strength of association between the genes.
+As in all exploratory data analysis, interpretability of results is important,
+and we use L1 penalties to induce sparsity in the fitted graphs and in the
+number of selected covariates. Two algorithms to fit the model are proposed and
+compared on a set of simulated data, and asymptotic results are established.
+The results on the tumor dataset and their biological significance are
+discussed in detail.

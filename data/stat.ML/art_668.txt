@@ -1,0 +1,14 @@
+Macau: Scalable Bayesian Multi-relational Factorization with Side
+  Information using MCMC
+We propose Macau, a powerful and flexible Bayesian factorization method for
+heterogeneous data. Our model can factorize any set of entities and relations
+that can be represented by a relational model, including tensors and also
+multiple relations for each entity. Macau can also incorporate side
+information, specifically entity and relation features, which are crucial for
+predicting sparsely observed relations. Macau scales to millions of entity
+instances, hundred millions of observations, and sparse entity features with
+millions of dimensions. To achieve the scale up, we specially designed sampling
+procedure for entity and relation features that relies primarily on noise
+injection in linear regressions. We show performance and advanced features of
+Macau in a set of experiments, including challenging drug-protein activity
+prediction task.

@@ -1,0 +1,12 @@
+Soft (Gaussian CDE) regression models and loss functions
+Regression, unlike classification, has lacked a comprehensive and effective
+approach to deal with cost-sensitive problems by the reuse (and not a
+re-training) of general regression models. In this paper, a wide variety of
+cost-sensitive problems in regression (such as bids, asymmetric losses and
+rejection rules) can be solved effectively by a lightweight but powerful
+approach, consisting of: (1) the conversion of any traditional one-parameter
+crisp regression model into a two-parameter soft regression model, seen as a
+normal conditional density estimator, by the use of newly-introduced enrichment
+methods; and (2) the reframing of an enriched soft regression model to new
+contexts by an instance-dependent optimisation of the expected loss derived
+from the conditional normal distribution.

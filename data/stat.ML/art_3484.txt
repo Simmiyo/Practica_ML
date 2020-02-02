@@ -1,0 +1,16 @@
+Minimum Density Hyperplanes
+Associating distinct groups of objects (clusters) with contiguous regions of
+high probability density (high-density clusters), is central to many
+statistical and machine learning approaches to the classification of unlabelled
+data. We propose a novel hyperplane classifier for clustering and
+semi-supervised classification which is motivated by this objective. The
+proposed minimum density hyperplane minimises the integral of the empirical
+probability density function along it, thereby avoiding intersection with high
+density clusters. We show that the minimum density and the maximum margin
+hyperplanes are asymptotically equivalent, thus linking this approach to
+maximum margin clustering and semi-supervised support vector classifiers. We
+propose a projection pursuit formulation of the associated optimisation problem
+which allows us to find minimum density hyperplanes efficiently in practice,
+and evaluate its performance on a range of benchmark datasets. The proposed
+approach is found to be very competitive with state of the art methods for
+clustering and semi-supervised classification.

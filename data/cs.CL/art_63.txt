@@ -1,0 +1,12 @@
+A Real World Implementation of Answer Extraction
+In this paper we describe ExtrAns, an answer extraction system. Answer
+extraction (AE) aims at retrieving those exact passages of a document that
+directly answer a given user question. AE is more ambitious than information
+retrieval and information extraction in that the retrieval results are phrases,
+not entire documents, and in that the queries may be arbitrarily specific. It
+is less ambitious than full-fledged question answering in that the answers are
+not generated from a knowledge base but looked up in the text of documents. The
+current version of ExtrAns is able to parse unedited Unix "man pages", and
+derive the logical form of their sentences. User queries are also translated
+into logical forms. A theorem prover then retrieves the relevant phrases, which
+are presented through selective highlighting in their context.

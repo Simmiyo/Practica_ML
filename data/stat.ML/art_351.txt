@@ -1,0 +1,14 @@
+Generalized Non-orthogonal Joint Diagonalization with LU Decomposition
+  and Successive Rotations
+Non-orthogonal joint diagonalization (NJD) free of prewhitening has been
+widely studied in the context of blind source separation (BSS) and array signal
+processing, etc. However, NJD is used to retrieve the jointly diagonalizable
+structure for a single set of target matrices which are mostly formulized with
+a single dataset, and thus is insufficient to handle multiple datasets with
+inter-set dependences, a scenario often encountered in joint BSS (J-BSS)
+applications. As such, we present a generalized NJD (GNJD) algorithm to
+simultaneously perform asymmetric NJD upon multiple sets of target matrices
+with mutually linked loading matrices, by using LU decomposition and successive
+rotations, to enable J-BSS over multiple datasets with indication/exploitation
+of their mutual dependences. Experiments with synthetic and real-world datasets
+are provided to illustrate the performance of the proposed algorithm.

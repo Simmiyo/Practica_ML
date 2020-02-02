@@ -1,0 +1,12 @@
+Task-Oriented Learning of Word Embeddings for Semantic Relation
+  Classification
+We present a novel learning method for word embeddings designed for relation
+classification. Our word embeddings are trained by predicting words between
+noun pairs using lexical relation-specific features on a large unlabeled
+corpus. This allows us to explicitly incorporate relation-specific information
+into the word embeddings. The learned word embeddings are then used to
+construct feature vectors for a relation classification model. On a
+well-established semantic relation classification task, our method
+significantly outperforms a baseline based on a previously introduced word
+embedding method, and compares favorably to previous state-of-the-art models
+that use syntactic information or manually constructed external resources.

@@ -1,0 +1,21 @@
+Conditional probability based significance tests for sequential patterns
+  in multi-neuronal spike trains
+In this paper we consider the problem of detecting statistically significant
+sequential patterns in multi-neuronal spike trains. These patterns are
+characterized by ordered sequences of spikes from different neurons with
+specific delays between spikes. We have previously proposed a data mining
+scheme to efficiently discover such patterns which are frequent in the sense
+that the count of non-overlapping occurrences of the pattern in the data stream
+is above a threshold. Here we propose a method to determine the statistical
+significance of these repeating patterns and to set the thresholds
+automatically. The novelty of our approach is that we use a compound null
+hypothesis that includes not only models of independent neurons but also models
+where neurons have weak dependencies. The strength of interaction among the
+neurons is represented in terms of certain pair-wise conditional probabilities.
+We specify our null hypothesis by putting an upper bound on all such
+conditional probabilities. We construct a probabilistic model that captures the
+counting process and use this to calculate the mean and variance of the count
+for any pattern. Using this we derive a test of significance for rejecting such
+a null hypothesis. This also allows us to rank-order different significant
+patterns. We illustrate the effectiveness of our approach using spike trains
+generated from a non-homogeneous Poisson model with embedded dependencies.

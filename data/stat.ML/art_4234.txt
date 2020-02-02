@@ -1,0 +1,21 @@
+Preserving Differential Privacy in Convolutional Deep Belief Networks
+The remarkable development of deep learning in medicine and healthcare domain
+presents obvious privacy issues, when deep neural networks are built on users'
+personal and highly sensitive data, e.g., clinical records, user profiles,
+biomedical images, etc. However, only a few scientific studies on preserving
+privacy in deep learning have been conducted. In this paper, we focus on
+developing a private convolutional deep belief network (pCDBN), which
+essentially is a convolutional deep belief network (CDBN) under differential
+privacy. Our main idea of enforcing epsilon-differential privacy is to leverage
+the functional mechanism to perturb the energy-based objective functions of
+traditional CDBNs, rather than their results. One key contribution of this work
+is that we propose the use of Chebyshev expansion to derive the approximate
+polynomial representation of objective functions. Our theoretical analysis
+shows that we can further derive the sensitivity and error bounds of the
+approximate polynomial representation. As a result, preserving differential
+privacy in CDBNs is feasible. We applied our model in a health social network,
+i.e., YesiWell data, and in a handwriting digit dataset, i.e., MNIST data, for
+human behavior prediction, human behavior classification, and handwriting digit
+recognition tasks. Theoretical analysis and rigorous experimental evaluations
+show that the pCDBN is highly effective. It significantly outperforms existing
+solutions.

@@ -1,0 +1,15 @@
+A short note on extension theorems and their connection to universal
+  consistency in machine learning
+Statistical machine learning plays an important role in modern statistics and
+computer science. One main goal of statistical machine learning is to provide
+universally consistent algorithms, i.e., the estimator converges in probability
+or in some stronger sense to the Bayes risk or to the Bayes decision function.
+Kernel methods based on minimizing the regularized risk over a reproducing
+kernel Hilbert space (RKHS) belong to these statistical machine learning
+methods. It is in general unknown which kernel yields optimal results for a
+particular data set or for the unknown probability measure. Hence various
+kernel learning methods were proposed to choose the kernel and therefore also
+its RKHS in a data adaptive manner. Nevertheless, many practitioners often use
+the classical Gaussian RBF kernel or certain Sobolev kernels with good success.
+The goal of this short note is to offer one possible theoretical explanation
+for this empirical fact.

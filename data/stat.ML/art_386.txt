@@ -1,0 +1,17 @@
+Variational Inference in Sparse Gaussian Process Regression and Latent
+  Variable Models - a Gentle Tutorial
+In this tutorial we explain the inference procedures developed for the sparse
+Gaussian process (GP) regression and Gaussian process latent variable model
+(GPLVM). Due to page limit the derivation given in Titsias (2009) and Titsias &
+Lawrence (2010) is brief, hence getting a full picture of it requires
+collecting results from several different sources and a substantial amount of
+algebra to fill-in the gaps. Our main goal is thus to collect all the results
+and full derivations into one place to help speed up understanding this work.
+In doing so we present a re-parametrisation of the inference that allows it to
+be carried out in parallel. A secondary goal for this document is, therefore,
+to accompany our paper and open-source implementation of the parallel inference
+scheme for the models. We hope that this document will bridge the gap between
+the equations as implemented in code and those published in the original
+papers, in order to make it easier to extend existing work. We assume prior
+knowledge of Gaussian processes and variational inference, but we also include
+references for further reading where appropriate.

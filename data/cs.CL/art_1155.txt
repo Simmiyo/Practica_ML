@@ -1,0 +1,15 @@
+Toward Mention Detection Robustness with Recurrent Neural Networks
+One of the key challenges in natural language processing (NLP) is to yield
+good performance across application domains and languages. In this work, we
+investigate the robustness of the mention detection systems, one of the
+fundamental tasks in information extraction, via recurrent neural networks
+(RNNs). The advantage of RNNs over the traditional approaches is their capacity
+to capture long ranges of context and implicitly adapt the word embeddings,
+trained on a large corpus, into a task-specific word representation, but still
+preserve the original semantic generalization to be helpful across domains. Our
+systematic evaluation for RNN architectures demonstrates that RNNs not only
+outperform the best reported systems (up to 9\% relative error reduction) in
+the general setting but also achieve the state-of-the-art performance in the
+cross-domain setting for English. Regarding other languages, RNNs are
+significantly better than the traditional methods on the similar task of named
+entity recognition for Dutch (up to 22\% relative error reduction).

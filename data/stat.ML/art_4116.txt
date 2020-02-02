@@ -1,0 +1,14 @@
+Co-adaptive learning over a countable space
+Co-adaptation is a special form of on-line learning where an algorithm
+$\mathcal{A}$ must assist an unknown algorithm $\mathcal{B}$ to perform some
+task. This is a general framework and has applications in recommendation
+systems, search, education, and much more. Today, the most common use of
+co-adaptive algorithms is in brain-computer interfacing (BCI), where algorithms
+help patients gain and maintain control over prosthetic devices. While previous
+studies have shown strong empirical results Kowalski et al. (2013); Orsborn et
+al. (2014) or have been studied in specific examples Merel et al. (2013, 2015),
+there is no general analysis of the co-adaptive learning problem. Here we will
+study the co-adaptive learning problem in the online, closed-loop setting. We
+will prove that, with high probability, co-adaptive learning is guaranteed to
+outperform learning with a fixed decoder as long as a particular condition is
+met.

@@ -1,0 +1,12 @@
+One-shot Learning for Question-Answering in Gaokao History Challenge
+Answering questions from university admission exams (Gaokao in Chinese) is a
+challenging AI task since it requires effective representation to capture
+complicated semantic relations between questions and answers. In this work, we
+propose a hybrid neural model for deep question-answering task from history
+examinations. Our model employs a cooperative gated neural network to retrieve
+answers with the assistance of extra labels given by a neural turing machine
+labeler. Empirical study shows that the labeler works well with only a small
+training dataset and the gated mechanism is good at fetching the semantic
+representation of lengthy answers. Experiments on question answering
+demonstrate the proposed model obtains substantial performance gains over
+various neural model baselines in terms of multiple evaluation metrics.

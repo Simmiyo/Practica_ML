@@ -1,0 +1,12 @@
+A Bayesian Model for Generative Transition-based Dependency Parsing
+We propose a simple, scalable, fully generative model for transition-based
+dependency parsing with high accuracy. The model, parameterized by Hierarchical
+Pitman-Yor Processes, overcomes the limitations of previous generative models
+by allowing fast and accurate inference. We propose an efficient decoding
+algorithm based on particle filtering that can adapt the beam size to the
+uncertainty in the model while jointly predicting POS tags and parse trees. The
+UAS of the parser is on par with that of a greedy discriminative baseline. As a
+language model, it obtains better perplexity than a n-gram model by performing
+semi-supervised learning over a large unlabelled corpus. We show that the model
+is able to generate locally and syntactically coherent sentences, opening the
+door to further applications in language generation.

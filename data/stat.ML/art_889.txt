@@ -1,0 +1,18 @@
+A Comparison of Resampling and Recursive Partitioning Methods in Random
+  Forest for Estimating the Asymptotic Variance Using the Infinitesimal
+  Jackknife
+The infinitesimal jackknife (IJ) has recently been applied to the random
+forest to estimate its prediction variance. These theorems were verified under
+a traditional random forest framework which uses classification and regression
+trees (CART) and bootstrap resampling. However, random forests using
+conditional inference (CI) trees and subsampling have been found to be not
+prone to variable selection bias. Here, we conduct simulation experiments using
+a novel approach to explore the applicability of the IJ to random forests using
+variations on the resampling method and base learner. Test data points were
+simulated and each trained using random forest on one hundred simulated
+training data sets using different combinations of resampling and base
+learners. Using CI trees instead of traditional CART trees as well as using
+subsampling instead of bootstrap sampling resulted in a much more accurate
+estimation of prediction variance when using the IJ. The random forest
+variations here have been incorporated into an open source software package for
+the R programming language.

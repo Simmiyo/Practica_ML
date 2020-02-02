@@ -1,0 +1,14 @@
+On-line relational SOM for dissimilarity data
+In some applications and in order to address real world situations better,
+data may be more complex than simple vectors. In some examples, they can be
+known through their pairwise dissimilarities only. Several variants of the Self
+Organizing Map algorithm were introduced to generalize the original algorithm
+to this framework. Whereas median SOM is based on a rough representation of the
+prototypes, relational SOM allows representing these prototypes by a virtual
+combination of all elements in the data set. However, this latter approach
+suffers from two main drawbacks. First, its complexity can be large. Second,
+only a batch version of this algorithm has been studied so far and it often
+provides results having a bad topographic organization. In this article, an
+on-line version of relational SOM is described and justified. The algorithm is
+tested on several datasets, including categorical data and graphs, and compared
+with the batch version and with other SOM algorithms for non vector data.

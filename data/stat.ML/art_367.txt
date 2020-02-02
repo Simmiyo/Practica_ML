@@ -1,0 +1,14 @@
+A Fused Elastic Net Logistic Regression Model for Multi-Task Binary
+  Classification
+Multi-task learning has shown to significantly enhance the performance of
+multiple related learning tasks in a variety of situations. We present the
+fused logistic regression, a sparse multi-task learning approach for binary
+classification. Specifically, we introduce sparsity inducing penalties over
+parameter differences of related logistic regression models to encode
+similarity across related tasks. The resulting joint learning task is cast into
+a form that lends itself to be efficiently optimized with a recursive variant
+of the alternating direction method of multipliers. We show results on
+synthetic data and describe the regime of settings where our multi-task
+approach achieves significant improvements over the single task learning
+approach and discuss the implications on applying the fused logistic regression
+in different real world settings.

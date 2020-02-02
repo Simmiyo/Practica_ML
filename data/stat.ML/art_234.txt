@@ -1,0 +1,15 @@
+Anomaly Detection in Time Series of Graphs using Fusion of Graph
+  Invariants
+Given a time series of graphs G(t) = (V, E(t)), t = 1, 2, ..., where the
+fixed vertex set V represents "actors" and an edge between vertex u and vertex
+v at time t (uv \in E(t)) represents the existence of a communications event
+between actors u and v during the tth time period, we wish to detect anomalies
+and/or change points. We consider a collection of graph features, or
+invariants, and demonstrate that adaptive fusion provides superior inferential
+efficacy compared to naive equal weighting for a certain class of anomaly
+detection problems. Simulation results using a latent process model for time
+series of graphs, as well as illustrative experimental results for a time
+series of graphs derived from the Enron email data, show that a fusion
+statistic can provide superior inference compared to individual invariants
+alone. These results also demonstrate that an adaptive weighting scheme for
+fusion of invariants performs better than naive equal weighting.

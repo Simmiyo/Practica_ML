@@ -1,0 +1,27 @@
+Latent Variable Modeling with Diversity-Inducing Mutual Angular
+  Regularization
+Latent Variable Models (LVMs) are a large family of machine learning models
+providing a principled and effective way to extract underlying patterns,
+structure and knowledge from observed data. Due to the dramatic growth of
+volume and complexity of data, several new challenges have emerged and cannot
+be effectively addressed by existing LVMs: (1) How to capture long-tail
+patterns that carry crucial information when the popularity of patterns is
+distributed in a power-law fashion? (2) How to reduce model complexity and
+computational cost without compromising the modeling power of LVMs? (3) How to
+improve the interpretability and reduce the redundancy of discovered patterns?
+To addresses the three challenges discussed above, we develop a novel
+regularization technique for LVMs, which controls the geometry of the latent
+space during learning to enable the learned latent components of LVMs to be
+diverse in the sense that they are favored to be mutually different from each
+other, to accomplish long-tail coverage, low redundancy, and better
+interpretability. We propose a mutual angular regularizer (MAR) to encourage
+the components in LVMs to have larger mutual angles. The MAR is non-convex and
+non-smooth, entailing great challenges for optimization. To cope with this
+issue, we derive a smooth lower bound of the MAR and optimize the lower bound
+instead. We show that the monotonicity of the lower bound is closely aligned
+with the MAR to qualify the lower bound as a desirable surrogate of the MAR.
+Using neural network (NN) as an instance, we analyze how the MAR affects the
+generalization performance of NN. On two popular latent variable models ---
+restricted Boltzmann machine and distance metric learning, we demonstrate that
+MAR can effectively capture long-tail patterns, reduce model complexity without
+sacrificing expressivity and improve interpretability.

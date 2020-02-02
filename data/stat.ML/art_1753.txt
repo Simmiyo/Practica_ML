@@ -1,0 +1,10 @@
+Ergodic Mirror Descent
+We generalize stochastic subgradient descent methods to situations in which
+we do not receive independent samples from the distribution over which we
+optimize, but instead receive samples that are coupled over time. We show that
+as long as the source of randomness is suitably ergodic---it converges quickly
+enough to a stationary distribution---the method enjoys strong convergence
+guarantees, both in expectation and with high probability. This result has
+implications for stochastic optimization in high-dimensional spaces,
+peer-to-peer distributed optimization schemes, decision problems with dependent
+data, and stochastic optimization problems over combinatorial spaces.

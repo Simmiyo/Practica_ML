@@ -1,0 +1,13 @@
+Unsupervised model-free representation learning
+Numerous control and learning problems face the situation where sequences of
+high-dimensional highly dependent data are available, but no or little feedback
+is provided to the learner. To address this issue, we formulate the following
+problem. Given a series of observations X_0,...,X_n coming from a large
+(high-dimensional) space X, find a representation function f mapping X to a
+finite space Y such that the series f(X_0),...,f(X_n) preserve as much
+information as possible about the original time-series dependence in
+X_0,...,X_n. We show that, for stationary time series, the function f can be
+selected as the one maximizing the time-series information h_0(f(X))- h_\infty
+(f(X)) where h_0(f(X)) is the Shannon entropy of f(X_0) and h_\infty (f(X)) is
+the entropy rate of the time series f(X_0),...,f(X_n),... Implications for the
+problem of optimal control are presented.

@@ -1,0 +1,10 @@
+Honk: A PyTorch Reimplementation of Convolutional Neural Networks for
+  Keyword Spotting
+We describe Honk, an open-source PyTorch reimplementation of convolutional
+neural networks for keyword spotting that are included as examples in
+TensorFlow. These models are useful for recognizing "command triggers" in
+speech-based interfaces (e.g., "Hey Siri"), which serve as explicit cues for
+audio recordings of utterances that are sent to the cloud for full speech
+recognition. Evaluation on Google's recently released Speech Commands Dataset
+shows that our reimplementation is comparable in accuracy and provides a
+starting point for future work on the keyword spotting task.

@@ -1,0 +1,20 @@
+Corralling a Band of Bandit Algorithms
+We study the problem of combining multiple bandit algorithms (that is, online
+learning algorithms with partial feedback) with the goal of creating a master
+algorithm that performs almost as well as the best base algorithm if it were to
+be run on its own. The main challenge is that when run with a master, base
+algorithms unavoidably receive much less feedback and it is thus critical that
+the master not starve a base algorithm that might perform uncompetitively
+initially but would eventually outperform others if given enough feedback. We
+address this difficulty by devising a version of Online Mirror Descent with a
+special mirror map together with a sophisticated learning rate scheme. We show
+that this approach manages to achieve a more delicate balance between
+exploiting and exploring base algorithms than previous works yielding superior
+regret bounds.
+  Our results are applicable to many settings, such as multi-armed bandits,
+contextual bandits, and convex bandits. As examples, we present two main
+applications. The first is to create an algorithm that enjoys worst-case
+robustness while at the same time performing much better when the environment
+is relatively easy. The second is to create an algorithm that works
+simultaneously under different assumptions of the environment, such as
+different priors or different loss structures.

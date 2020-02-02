@@ -1,0 +1,15 @@
+A Function Approximation Approach to Estimation of Policy Gradient for
+  POMDP with Structured Policies
+We consider the estimation of the policy gradient in partially observable
+Markov decision processes (POMDP) with a special class of structured policies
+that are finite-state controllers. We show that the gradient estimation can be
+done in the Actor-Critic framework, by making the critic compute a "value"
+function that does not depend on the states of POMDP. This function is the
+conditional mean of the true value function that depends on the states. We show
+that the critic can be implemented using temporal difference (TD) methods with
+linear function approximations, and the analytical results on TD and
+Actor-Critic can be transfered to this case. Although Actor-Critic algorithms
+have been used extensively in Markov decision processes (MDP), up to now they
+have not been proposed for POMDP as an alternative to the earlier proposal
+GPOMDP algorithm, an actor-only method. Furthermore, we show that the same idea
+applies to semi-Markov problems with a subset of finite-state controllers.

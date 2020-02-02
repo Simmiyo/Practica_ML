@@ -1,0 +1,12 @@
+Learning Boltzmann Machine with EM-like Method
+We propose an expectation-maximization-like(EMlike) method to train Boltzmann
+machine with unconstrained connectivity. It adopts Monte Carlo approximation in
+the E-step, and replaces the intractable likelihood objective with efficiently
+computed objectives or directly approximates the gradient of likelihood
+objective in the M-step. The EM-like method is a modification of alternating
+minimization. We prove that EM-like method will be the exactly same with
+contrastive divergence in restricted Boltzmann machine if the M-step of this
+method adopts special approximation. We also propose a new measure to assess
+the performance of Boltzmann machine as generative models of data, and its
+computational complexity is O(Rmn). Finally, we demonstrate the performance of
+EM-like method using numerical experiments.

@@ -1,0 +1,26 @@
+Recursive Partitioning for Heterogeneous Causal Effects
+In this paper we study the problems of estimating heterogeneity in causal
+effects in experimental or observational studies and conducting inference about
+the magnitude of the differences in treatment effects across subsets of the
+population. In applications, our method provides a data-driven approach to
+determine which subpopulations have large or small treatment effects and to
+test hypotheses about the differences in these effects. For experiments, our
+method allows researchers to identify heterogeneity in treatment effects that
+was not specified in a pre-analysis plan, without concern about invalidating
+inference due to multiple testing. In most of the literature on supervised
+machine learning (e.g. regression trees, random forests, LASSO, etc.), the goal
+is to build a model of the relationship between a unit's attributes and an
+observed outcome. A prominent role in these methods is played by
+cross-validation which compares predictions to actual outcomes in test samples,
+in order to select the level of complexity of the model that provides the best
+predictive power. Our method is closely related, but it differs in that it is
+tailored for predicting causal effects of a treatment rather than a unit's
+outcome. The challenge is that the "ground truth" for a causal effect is not
+observed for any individual unit: we observe the unit with the treatment, or
+without the treatment, but not both at the same time. Thus, it is not obvious
+how to use cross-validation to determine whether a causal effect has been
+accurately predicted. We propose several novel cross-validation criteria for
+this problem and demonstrate through simulations the conditions under which
+they perform better than standard methods for the problem of causal effects. We
+then apply the method to a large-scale field experiment re-ranking results on a
+search engine.

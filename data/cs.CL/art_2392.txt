@@ -1,0 +1,10 @@
+Detecting Sockpuppets in Deceptive Opinion Spam
+This paper explores the problem of sockpuppet detection in deceptive opinion
+spam using authorship attribution and verification approaches. Two methods are
+explored. The first is a feature subsampling scheme that uses the KL-Divergence
+on stylistic language models of an author to find discriminative features. The
+second is a transduction scheme, spy induction that leverages the diversity of
+authors in the unlabeled test set by sending a set of spies (positive samples)
+from the training set to retrieve hidden samples in the unlabeled test set
+using nearest and farthest neighbors. Experiments using ground truth sockpuppet
+data show the effectiveness of the proposed schemes.

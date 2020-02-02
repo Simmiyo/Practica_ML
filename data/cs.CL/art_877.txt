@@ -1,0 +1,14 @@
+Construction of Vietnamese SentiWordNet by using Vietnamese Dictionary
+SentiWordNet is an important lexical resource supporting sentiment analysis
+in opinion mining applications. In this paper, we propose a novel approach to
+construct a Vietnamese SentiWordNet (VSWN). SentiWordNet is typically generated
+from WordNet in which each synset has numerical scores to indicate its opinion
+polarities. Many previous studies obtained these scores by applying a machine
+learning method to WordNet. However, Vietnamese WordNet is not available
+unfortunately by the time of this paper. Therefore, we propose a method to
+construct VSWN from a Vietnamese dictionary, not from WordNet. We show the
+effectiveness of the proposed method by generating a VSWN with 39,561 synsets
+automatically. The method is experimentally tested with 266 synsets with aspect
+of positivity and negativity. It attains a competitive result compared with
+English SentiWordNet that is 0.066 and 0.052 differences for positivity and
+negativity sets respectively.

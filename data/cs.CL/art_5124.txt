@@ -1,0 +1,19 @@
+Multi Task Deep Morphological Analyzer: Context Aware Joint
+  Morphological Tagging and Lemma Prediction
+The ambiguities introduced by the recombination of morphemes constructing
+several possible inflections for a word makes the prediction of syntactic
+traits in Morphologically Rich Languages (MRLs) a notoriously complicated task.
+We propose the Multi Task Deep Morphological analyzer (MT-DMA), a
+character-level neural morphological analyzer based on multitask learning of
+word-level tag markers for Hindi and Urdu. MT-DMA predicts a set of six
+morphological tags for words of Indo-Aryan languages: Parts-of-speech (POS),
+Gender (G), Number (N), Person (P), Case (C), Tense-Aspect-Modality (TAM)
+marker as well as the Lemma (L) by jointly learning all these in one trainable
+framework. We show the effectiveness of training of such deep neural networks
+by the simultaneous optimization of multiple loss functions and sharing of
+initial parameters for context-aware morphological analysis. Exploiting
+character-level features in phonological space optimized for each tag using
+multi-objective genetic algorithm, our model establishes a new state-of-the-art
+accuracy score upon all seven of the tasks for both the languages. MT-DMA is
+publicly accessible: code, models and data are available at
+https://github.com/Saurav0074/morph_analyzer.

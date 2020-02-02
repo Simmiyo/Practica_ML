@@ -1,0 +1,17 @@
+Orthogonal Machine Learning for Demand Estimation: High Dimensional
+  Causal Inference in Dynamic Panels
+There has been growing interest in how economists can import machine learning
+tools designed for prediction to accelerate and automate the model selection
+process, while still retaining desirable inference properties for causal
+parameters. Focusing on partially linear models, we extend the Double ML
+framework to allow for (1) a number of treatments that may grow with the sample
+size and (2) the analysis of panel data under sequentially exogenous errors.
+Our low-dimensional treatment (LD) regime directly extends the work in
+[Chernozhukov et al., 2016], by showing that the coefficients from a second
+stage, ordinary least squares estimator attain root-n convergence and desired
+coverage even if the dimensionality of treatment is allowed to grow. In a
+high-dimensional sparse (HDS) regime, we show that second stage LASSO and
+debiased LASSO have asymptotic properties equivalent to oracle estimators with
+no upstream error. We argue that these advances make Double ML methods a
+desirable alternative for practitioners estimating short-term demand
+elasticities in non-contractual settings.

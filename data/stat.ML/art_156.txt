@@ -1,0 +1,10 @@
+Spectral approximations in machine learning
+In many areas of machine learning, it becomes necessary to find the
+eigenvector decompositions of large matrices. We discuss two methods for
+reducing the computational burden of spectral decompositions: the more
+venerable Nystom extension and a newly introduced algorithm based on random
+projections. Previous work has centered on the ability to reconstruct the
+original matrix. We argue that a more interesting and relevant comparison is
+their relative performance in clustering and classification tasks using the
+approximate eigenvectors as features. We demonstrate that performance is task
+specific and depends on the rank of the approximation.

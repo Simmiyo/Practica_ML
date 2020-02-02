@@ -1,0 +1,21 @@
+An Attention-Based Word-Level Interaction Model: Relation Detection for
+  Knowledge Base Question Answering
+Relation detection plays a crucial role in Knowledge Base Question Answering
+(KBQA) because of the high variance of relation expression in the question.
+Traditional deep learning methods follow an encoding-comparing paradigm, where
+the question and the candidate relation are represented as vectors to compare
+their semantic similarity. Max- or average- pooling operation, which compresses
+the sequence of words into fixed-dimensional vectors, becomes the bottleneck of
+information. In this paper, we propose to learn attention-based word-level
+interactions between questions and relations to alleviate the bottleneck issue.
+Similar to the traditional models, the question and relation are firstly
+represented as sequences of vectors. Then, instead of merging the sequence into
+a single vector with pooling operation, soft alignments between words from the
+question and the relation are learned. The aligned words are subsequently
+compared with the convolutional neural network (CNN) and the comparison results
+are merged finally. Through performing the comparison on low-level
+representations, the attention-based word-level interaction model (ABWIM)
+relieves the information loss issue caused by merging the sequence into a
+fixed-dimensional vector before the comparison. The experimental results of
+relation detection on both SimpleQuestions and WebQuestions datasets show that
+ABWIM achieves state-of-the-art accuracy, demonstrating its effectiveness.

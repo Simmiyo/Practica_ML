@@ -1,0 +1,12 @@
+Disentangling ASR and MT Errors in Speech Translation
+The main aim of this paper is to investigate automatic quality assessment for
+spoken language translation (SLT). More precisely, we investigate SLT errors
+that can be due to transcription (ASR) or to translation (MT) modules. This
+paper investigates automatic detection of SLT errors using a single classifier
+based on joint ASR and MT features. We evaluate both 2-class (good/bad) and
+3-class (good/badASR/badMT ) labeling tasks. The 3-class problem necessitates
+to disentangle ASR and MT errors in the speech translation output and we
+propose two label extraction methods for this non trivial step. This enables -
+as a by-product - qualitative analysis on the SLT errors and their origin (are
+they due to transcription or to translation step?) on our large in-house corpus
+for French-to-English speech translation.

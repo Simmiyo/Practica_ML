@@ -1,0 +1,10 @@
+Recurrent Dropout without Memory Loss
+This paper presents a novel approach to recurrent neural network (RNN)
+regularization. Differently from the widely adopted dropout method, which is
+applied to \textit{forward} connections of feed-forward architectures or RNNs,
+we propose to drop neurons directly in \textit{recurrent} connections in a way
+that does not cause loss of long-term memory. Our approach is as easy to
+implement and apply as the regular feed-forward dropout and we demonstrate its
+effectiveness for Long Short-Term Memory network, the most popular type of RNN
+cells. Our experiments on NLP benchmarks show consistent improvements even when
+combined with conventional feed-forward dropout.

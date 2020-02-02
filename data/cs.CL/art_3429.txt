@@ -1,0 +1,16 @@
+Automatic Speech Recognition and Topic Identification for
+  Almost-Zero-Resource Languages
+Automatic speech recognition (ASR) systems often need to be developed for
+extremely low-resource languages to serve end-uses such as audio content
+categorization and search. While universal phone recognition is natural to
+consider when no transcribed speech is available to train an ASR system in a
+language, adapting universal phone models using very small amounts (minutes
+rather than hours) of transcribed speech also needs to be studied, particularly
+with state-of-the-art DNN-based acoustic models. The DARPA LORELEI program
+provides a framework for such very-low-resource ASR studies, and provides an
+extrinsic metric for evaluating ASR performance in a humanitarian assistance,
+disaster relief setting. This paper presents our Kaldi-based systems for the
+program, which employ a universal phone modeling approach to ASR, and describes
+recipes for very rapid adaptation of this universal ASR system. The results we
+obtain significantly outperform results obtained by many competing approaches
+on the NIST LoReHLT 2017 Evaluation datasets.

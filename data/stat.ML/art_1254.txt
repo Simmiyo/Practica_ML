@@ -1,0 +1,20 @@
+Optimal Policies for Observing Time Series and Related Restless Bandit
+  Problems
+The trade-off between the cost of acquiring and processing data, and
+uncertainty due to a lack of data is fundamental in machine learning. A basic
+instance of this trade-off is the problem of deciding when to make noisy and
+costly observations of a discrete-time Gaussian random walk, so as to minimise
+the posterior variance plus observation costs. We present the first proof that
+a simple policy, which observes when the posterior variance exceeds a
+threshold, is optimal for this problem. The proof generalises to a wide range
+of cost functions other than the posterior variance.
+  This result implies that optimal policies for linear-quadratic-Gaussian
+control with costly observations have a threshold structure. It also implies
+that the restless bandit problem of observing multiple such time series, has a
+well-defined Whittle index. We discuss computation of that index, give
+closed-form formulae for it, and compare the performance of the associated
+index policy with heuristic policies.
+  The proof is based on a new verification theorem that demonstrates threshold
+structure for Markov decision processes, and on the relation between binary
+sequences known as mechanical words and the dynamics of discontinuous nonlinear
+maps, which frequently arise in physics, control and biology.

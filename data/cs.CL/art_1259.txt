@@ -1,0 +1,11 @@
+Fast, Scalable Phrase-Based SMT Decoding
+The utilization of statistical machine translation (SMT) has grown enormously
+over the last decade, many using open-source software developed by the NLP
+community. As commercial use has increased, there is need for software that is
+optimized for commercial requirements, in particular, fast phrase-based
+decoding and more efficient utilization of modern multicore servers.
+  In this paper we re-examine the major components of phrase-based decoding and
+decoder implementation with particular emphasis on speed and scalability on
+multicore machines. The result is a drop-in replacement for the Moses decoder
+which is up to fifteen times faster and scales monotonically with the number of
+cores.

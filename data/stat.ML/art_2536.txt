@@ -1,0 +1,18 @@
+On Finding the Largest Mean Among Many
+Sampling from distributions to find the one with the largest mean arises in a
+broad range of applications, and it can be mathematically modeled as a
+multi-armed bandit problem in which each distribution is associated with an
+arm. This paper studies the sample complexity of identifying the best arm
+(largest mean) in a multi-armed bandit problem. Motivated by large-scale
+applications, we are especially interested in identifying situations where the
+total number of samples that are necessary and sufficient to find the best arm
+scale linearly with the number of arms. We present a single-parameter
+multi-armed bandit model that spans the range from linear to superlinear sample
+complexity. We also give a new algorithm for best arm identification, called
+PRISM, with linear sample complexity for a wide range of mean distributions.
+The algorithm, like most exploration procedures for multi-armed bandits, is
+adaptive in the sense that the next arms to sample are selected based on
+previous samples. We compare the sample complexity of adaptive procedures with
+simpler non-adaptive procedures using new lower bounds. For many problem
+instances, the increased sample complexity required by non-adaptive procedures
+is a polynomial factor of the number of arms.

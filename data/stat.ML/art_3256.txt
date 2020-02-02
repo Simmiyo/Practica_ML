@@ -1,0 +1,24 @@
+Sparse multi-view matrix factorisation: a multivariate approach to
+  multiple tissue comparisons
+Gene expression levels in a population vary extensively across tissues. Such
+heterogeneity is caused by genetic variability and environmental factors, and
+is expected to be linked to disease development. The abundance of experimental
+data now enables the identification of features of gene expression profiles
+that are shared across tissues, and those that are tissue-specific. While most
+current research is concerned with characterising differential expression by
+comparing mean expression profiles across tissues, it is also believed that a
+significant difference in a gene expression's variance across tissues may also
+be associated to molecular mechanisms that are important for tissue development
+and function. We propose a sparse multi-view matrix factorisation (sMVMF)
+algorithm to jointly analyse gene expression measurements in multiple tissues,
+where each tissue provides a different "view" of the underlying organism. The
+proposed methodology can be interpreted as an extension of principal component
+analysis in that it provides the means to decompose the total sample variance
+in each tissue into the sum of two components: one capturing the variance that
+is shared across tissues, and one isolating the tissue-specific variances.
+sMVMF has been used to jointly model mRNA expression profiles in three tissues
+- adipose, skin and LCL - which are available for a large and well-phenotyped
+twins cohort, TwinsUK. Using sMVMF, we are able to prioritise genes based on
+whether their variation patterns are specific to each tissue. Furthermore,
+using DNA methylation profiles available, we provide supporting evidence that
+adipose-specific gene expression patterns may be driven by epigenetic effects.

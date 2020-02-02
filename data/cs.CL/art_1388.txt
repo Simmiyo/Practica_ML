@@ -1,0 +1,16 @@
+Neural Machine Translation with Latent Semantic of Image and Text
+Although attention-based Neural Machine Translation have achieved great
+success, attention-mechanism cannot capture the entire meaning of the source
+sentence because the attention mechanism generates a target word depending
+heavily on the relevant parts of the source sentence. The report of earlier
+studies has introduced a latent variable to capture the entire meaning of
+sentence and achieved improvement on attention-based Neural Machine
+Translation. We follow this approach and we believe that the capturing meaning
+of sentence benefits from image information because human beings understand the
+meaning of language not only from textual information but also from perceptual
+information such as that gained from vision. As described herein, we propose a
+neural machine translation model that introduces a continuous latent variable
+containing an underlying semantic extracted from texts and images. Our model,
+which can be trained end-to-end, requires image information only when training.
+Experiments conducted with an English--German translation task show that our
+model outperforms over the baseline.

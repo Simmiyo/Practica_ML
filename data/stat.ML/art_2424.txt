@@ -1,0 +1,16 @@
+Accelerated Linear SVM Training with Adaptive Variable Selection
+  Frequencies
+Support vector machine (SVM) training is an active research area since the
+dawn of the method. In recent years there has been increasing interest in
+specialized solvers for the important case of linear models. The algorithm
+presented by Hsieh et al., probably best known under the name of the
+"liblinear" implementation, marks a major breakthrough. The method is analog to
+established dual decomposition algorithms for training of non-linear SVMs, but
+with greatly reduced computational complexity per update step. This comes at
+the cost of not keeping track of the gradient of the objective any more, which
+excludes the application of highly developed working set selection algorithms.
+We present an algorithmic improvement to this method. We replace uniform
+working set selection with an online adaptation of selection frequencies. The
+adaptation criterion is inspired by modern second order working set selection
+methods. The same mechanism replaces the shrinking heuristic. This novel
+technique speeds up training in some cases by more than an order of magnitude.

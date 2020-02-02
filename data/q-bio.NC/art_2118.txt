@@ -1,0 +1,14 @@
+Finite volume and asymptotic methods for stochastic neuron models with
+  correlated inputs
+We consider a pair of stochastic integrate and fire neurons receiving
+correlated stochastic inputs. The evolution of this system can be described by
+the corresponding Fokker-Planck equation with non-trivial boundary conditions
+resulting from the refractory period and firing threshold. We propose a finite
+volume method that is orders of magnitude faster than the Monte Carlo methods
+traditionally used to model such systems. The resulting numerical
+approximations are proved to be accurate, nonnegative and integrate to 1. We
+also approximate the transient evolution of the system using an
+Ornstein--Uhlenbeck process, and use the result to examine the properties of
+the joint output of cell pairs. The results suggests that the joint output of a
+cell pair is most sensitive to changes in input variance, and less sensitive to
+changes in input mean and correlation.

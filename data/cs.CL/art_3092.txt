@@ -1,0 +1,12 @@
+Identifying Nominals with No Head Match Co-references Using Deep
+  Learning
+Identifying nominals with no head match is a long-standing challenge in
+coreference resolution with current systems performing significantly worse than
+humans. In this paper we present a new neural network architecture which
+outperforms the current state-of-the-art system on the English portion of the
+CoNLL 2012 Shared Task. This is done by using a logistic regression on features
+produced by two submodels, one of which is has the architecture proposed in
+[CM16a] while the other combines domain specific embeddings of the antecedent
+and the mention. We also propose some simple additional features which seem to
+improve performance for all models substantially, increasing F1 by almost 4% on
+basic logistic regression and other complex models.

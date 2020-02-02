@@ -1,0 +1,14 @@
+Approximate Kernel-based Conditional Independence Tests for Fast
+  Non-Parametric Causal Discovery
+Constraint-based causal discovery (CCD) algorithms require fast and accurate
+conditional independence (CI) testing. The Kernel Conditional Independence Test
+(KCIT) is currently one of the most popular CI tests in the non-parametric
+setting, but many investigators cannot use KCIT with large datasets because the
+test scales cubicly with sample size. We therefore devise two relaxations
+called the Randomized Conditional Independence Test (RCIT) and the Randomized
+conditional Correlation Test (RCoT) which both approximate KCIT by utilizing
+random Fourier features. In practice, both of the proposed tests scale linearly
+with sample size and return accurate p-values much faster than KCIT in the
+large sample size context. CCD algorithms run with RCIT or RCoT also return
+graphs at least as accurate as the same algorithms run with KCIT but with large
+reductions in run time.

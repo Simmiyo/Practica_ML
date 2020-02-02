@@ -1,0 +1,14 @@
+Exact ICL maximization in a non-stationary temporal extension of the
+  stochastic block model for dynamic networks
+The stochastic block model (SBM) is a flexible probabilistic tool that can be
+used to model interactions between clusters of nodes in a network. However, it
+does not account for interactions of time varying intensity between clusters.
+The extension of the SBM developed in this paper addresses this shortcoming
+through a temporal partition: assuming interactions between nodes are recorded
+on fixed-length time intervals, the inference procedure associated with the
+model we propose allows to cluster simultaneously the nodes of the network and
+the time intervals. The number of clusters of nodes and of time intervals, as
+well as the memberships to clusters, are obtained by maximizing an exact
+integrated complete-data likelihood, relying on a greedy search approach.
+Experiments on simulated and real data are carried out in order to assess the
+proposed methodology.

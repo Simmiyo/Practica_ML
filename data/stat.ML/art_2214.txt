@@ -1,0 +1,16 @@
+Consistent selection of tuning parameters via variable selection
+  stability
+Penalized regression models are popularly used in high-dimensional data
+analysis to conduct variable selection and model fitting simultaneously.
+Whereas success has been widely reported in literature, their performances
+largely depend on the tuning parameters that balance the trade-off between
+model fitting and model sparsity. Existing tuning criteria mainly follow the
+route of minimizing the estimated prediction error or maximizing the posterior
+model probability, such as cross-validation, AIC and BIC. This article
+introduces a general tuning parameter selection criterion based on a novel
+concept of variable selection stability. The key idea is to select the tuning
+parameters so that the resultant penalized regression model is stable in
+variable selection. The asymptotic selection consistency is established for
+both fixed and diverging dimensions. The effectiveness of the proposed
+criterion is also demonstrated in a variety of simulated examples as well as an
+application to the prostate cancer data.

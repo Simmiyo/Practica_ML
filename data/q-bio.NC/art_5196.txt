@@ -1,0 +1,22 @@
+Sleep Staging from Electrocardiography and Respiration with Deep
+  Learning
+Study Objective: Sleep is reflected not only in the electroencephalogram but
+also in heart rhythms and breathing patterns. Therefore, we hypothesize that it
+is possible to accurately stage sleep based on the electrocardiogram (ECG) and
+respiratory signals. Methods: Using a dataset including 8,682 polysomnographs,
+we develop deep neural networks to stage sleep from ECG and respiratory
+signals. Five deep neural networks consisting of convolutional networks and
+long short-term memory networks are trained to stage sleep using heart and
+breathing, including the timing of R peaks from ECG, abdominal and chest
+respiratory effort, and the combinations of these signals. Results: ECG in
+combination with the abdominal respiratory effort achieve the best performance
+for staging all five sleep stages with a Cohen's kappa of 0.600 (95% confidence
+interval 0.599 -- 0.602); and 0.762 (0.760 -- 0.763) for discriminating awake
+vs. rapid eye movement vs. non-rapid eye movement sleep. The performance is
+better for young participants and for those with a low apnea-hypopnea index,
+while it is robust for commonly used outpatient medications. Conclusions: Our
+results validate that ECG and respiratory effort provide substantial
+information about sleep stages in a large population. It opens new
+possibilities in sleep research and applications where electroencephalography
+is not readily available or may be infeasible, such as in critically ill
+patients.

@@ -1,0 +1,10 @@
+Low-Rank RNN Adaptation for Context-Aware Language Modeling
+A context-aware language model uses location, user and/or domain metadata
+(context) to adapt its predictions. In neural language models, context
+information is typically represented as an embedding and it is given to the RNN
+as an additional input, which has been shown to be useful in many applications.
+We introduce a more powerful mechanism for using context to adapt an RNN by
+letting the context vector control a low-rank transformation of the recurrent
+layer weight matrix. Experiments show that allowing a greater fraction of the
+model parameters to be adjusted has benefits in terms of perplexity and
+classification for several different types of context.

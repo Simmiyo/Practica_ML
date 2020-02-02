@@ -1,0 +1,23 @@
+Propensity score prediction for electronic healthcare databases using
+  Super Learner and High-dimensional Propensity Score Methods
+The optimal learner for prediction modeling varies depending on the
+underlying data-generating distribution. Super Learner (SL) is a generic
+ensemble learning algorithm that uses cross-validation to select among a
+"library" of candidate prediction models. The SL is not restricted to a single
+prediction model, but uses the strengths of a variety of learning algorithms to
+adapt to different databases. While the SL has been shown to perform well in a
+number of settings, it has not been thoroughly evaluated in large electronic
+healthcare databases that are common in pharmacoepidemiology and comparative
+effectiveness research. In this study, we applied and evaluated the performance
+of the SL in its ability to predict treatment assignment using three electronic
+healthcare databases. We considered a library of algorithms that consisted of
+both nonparametric and parametric models. We also considered a novel strategy
+for prediction modeling that combines the SL with the high-dimensional
+propensity score (hdPS) variable selection algorithm. Predictive performance
+was assessed using three metrics: the negative log-likelihood, area under the
+curve (AUC), and time complexity. Results showed that the best individual
+algorithm, in terms of predictive performance, varied across datasets. The SL
+was able to adapt to the given dataset and optimize predictive performance
+relative to any individual learner. Combining the SL with the hdPS was the most
+consistent prediction method and may be promising for PS estimation and
+prediction modeling in electronic healthcare databases.

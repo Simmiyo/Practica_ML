@@ -1,0 +1,20 @@
+Gene-Gene association for Imaging Genetics Data using Robust Kernel
+  Canonical Correlation Analysis
+In genome-wide interaction studies, to detect gene-gene interactions, most
+methods are divided into two folds: single nucleotide polymorphisms (SNP) based
+and gene-based methods. Basically, the methods based on the gene are more
+effective than the methods based on a single SNP. Recent years, while the
+kernel canonical correlation analysis (Classical kernel CCA) based U statistic
+(KCCU) has proposed to detect the nonlinear relationship between genes. To
+estimate the variance in KCCU, they have used resampling based methods which
+are highly computationally intensive. In addition, classical kernel CCA is not
+robust to contaminated data. We, therefore, first discuss robust kernel mean
+element, the robust kernel covariance, and cross-covariance operators. Second,
+we propose a method based on influence function to estimate the variance of the
+KCCU. Third, we propose a nonparametric robust KCCU method based on robust
+kernel CCA, which is designed for contaminated data and less sensitive to noise
+than classical kernel CCA. Finally, we investigate the proposed methods to
+synthesized data and imaging genetic data set. Based on gene ontology and
+pathway analysis, the synthesized and genetics analysis demonstrate that the
+proposed robust method shows the superior performance of the state-of-the-art
+methods.

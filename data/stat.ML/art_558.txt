@@ -1,0 +1,11 @@
+Matrix Completion with Noisy Entries and Outliers
+This paper considers the problem of matrix completion when the observed
+entries are noisy and contain outliers. It begins with introducing a new
+optimization criterion for which the recovered matrix is defined as its
+solution. This criterion uses the celebrated Huber function from the robust
+statistics literature to downweigh the effects of outliers. A practical
+algorithm is developed to solve the optimization involved. This algorithm is
+fast, straightforward to implement, and monotonic convergent. Furthermore, the
+proposed methodology is theoretically shown to be stable in a well defined
+sense. Its promising empirical performance is demonstrated via a sequence of
+simulation experiments, including image inpainting.

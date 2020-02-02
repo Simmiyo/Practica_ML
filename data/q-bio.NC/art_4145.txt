@@ -1,0 +1,18 @@
+Bayesian Odds-Ratio Filters: A Template-Based Method for Online
+  Detection of P300 Evoked Responses
+Template-based signal detection most often relies on computing a correlation,
+or a dot product, between an incoming data stream and a signal template. While
+such a correlation results in an ongoing estimate of the magnitude of the
+signal in the data stream, it does not directly indicate the presence or
+absence of a signal. Instead, the problem of signal detection is one of
+model-selection. Here we explore the use of the Bayesian odds-ratio (OR), which
+is the ratio of posterior probabilities of a signal-plus-noise model over a
+noise-only model. We demonstrate this method by applying it to simulated
+electroencephalographic (EEG) signals based on the P300 response, which is
+widely used in both Brain Computer Interface (BCI) and Brain Machine Interface
+(BMI) systems. The efficacy of this algorithm is demonstrated by comparing the
+receiver operating characteristic (ROC) curves of the OR-based (logOR) filter
+to the usual correlation method where we find a significant improvement in P300
+detection. The logOR filter promises to improve the accuracy and speed of the
+detection of evoked brain responses in BCI/BMI applications as well the
+detection of template signals in general.

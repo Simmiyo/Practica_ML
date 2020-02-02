@@ -1,0 +1,21 @@
+On the statistical significance of temporal firing patterns in
+  multi-neuronal spike trains
+Repeated occurrences of serial firing sequences of a group of neurons with
+fixed time delays between neurons are observed in many experiments involving
+simultaneous recordings from multiple neurons. Such temporal patterns are
+potentially indicative of underlying microcircuits and it is important to know
+when a repeatedly occurring pattern is statistically significant. These
+sequences are typically identified through correlation counts, such as in the
+two-tape algorithm of Abeles and Gerstein. In this paper we present a method
+for deciding on the significance of such correlations by characterizing the
+influence of one neuron on another in terms of conditional probabilities and
+specifying our null hypothesis in terms of a bound on the conditional
+probabilities. This method of testing significance of correlation counts is
+more general than the currently available methods since under our null
+hypothesis we do not assume that the spiking processes of different neurons are
+independent. The structure of our null hypothesis also allows us to rank order
+the detected patterns in terms of the strength of interaction among the neurons
+constituting the pattern. We demonstrate our method of assessing significance
+on simulated spike trains involving inhomogeneous Poisson processes with strong
+interactions, where the correlation counts are obtained using the two-tape
+algorithm.

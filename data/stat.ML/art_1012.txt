@@ -1,0 +1,14 @@
+Random Projection Estimation of Discrete-Choice Models with Large Choice
+  Sets
+We introduce sparse random projection, an important dimension-reduction tool
+from machine learning, for the estimation of discrete-choice models with
+high-dimensional choice sets. Initially, high-dimensional data are compressed
+into a lower-dimensional Euclidean space using random projections.
+Subsequently, estimation proceeds using cyclic monotonicity moment inequalities
+implied by the multinomial choice model; the estimation procedure is
+semi-parametric and does not require explicit distributional assumptions to be
+made regarding the random utility errors. The random projection procedure is
+justified via the Johnson-Lindenstrauss Lemma -- the pairwise distances between
+data points are preserved during data compression, which we exploit to show
+convergence of our estimator. The estimator works well in simulations and in an
+application to a supermarket scanner dataset.

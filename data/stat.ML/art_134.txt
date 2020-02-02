@@ -1,0 +1,17 @@
+Sharp Convergence Rate and Support Consistency of Multiple Kernel
+  Learning with Sparse and Dense Regularization
+We theoretically investigate the convergence rate and support consistency
+(i.e., correctly identifying the subset of non-zero coefficients in the large
+sample limit) of multiple kernel learning (MKL). We focus on MKL with block-l1
+regularization (inducing sparse kernel combination), block-l2 regularization
+(inducing uniform kernel combination), and elastic-net regularization
+(including both block-l1 and block-l2 regularization). For the case where the
+true kernel combination is sparse, we show a sharper convergence rate of the
+block-l1 and elastic-net MKL methods than the existing rate for block-l1 MKL.
+We further show that elastic-net MKL requires a milder condition for being
+consistent than block-l1 MKL. For the case where the optimal kernel combination
+is not exactly sparse, we prove that elastic-net MKL can achieve a faster
+convergence rate than the block-l1 and block-l2 MKL methods by carefully
+controlling the balance between the block-l1and block-l2 regularizers. Thus,
+our theoretical results overall suggest the use of elastic-net regularization
+in MKL.

@@ -1,0 +1,23 @@
+Unified Convergence Analysis of Stochastic Momentum Methods for Convex
+  and Non-convex Optimization
+Recently, {\it stochastic momentum} methods have been widely adopted in
+training deep neural networks. However, their convergence analysis is still
+underexplored at the moment, in particular for non-convex optimization. This
+paper fills the gap between practice and theory by developing a basic
+convergence analysis of two stochastic momentum methods, namely stochastic
+heavy-ball method and the stochastic variant of Nesterov's accelerated gradient
+method. We hope that the basic convergence results developed in this paper can
+serve the reference to the convergence of stochastic momentum methods and also
+serve the baselines for comparison in future development of stochastic momentum
+methods. The novelty of convergence analysis presented in this paper is a
+unified framework, revealing more insights about the similarities and
+differences between different stochastic momentum methods and stochastic
+gradient method. The unified framework exhibits a continuous change from the
+gradient method to Nesterov's accelerated gradient method and finally the
+heavy-ball method incurred by a free parameter, which can help explain a
+similar change observed in the testing error convergence behavior for deep
+learning. Furthermore, our empirical results for optimizing deep neural
+networks demonstrate that the stochastic variant of Nesterov's accelerated
+gradient method achieves a good tradeoff (between speed of convergence in
+training error and robustness of convergence in testing error) among the three
+stochastic methods.

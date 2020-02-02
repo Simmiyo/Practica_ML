@@ -1,0 +1,16 @@
+Faster solutions of the inverse pairwise Ising problem
+Recent work has shown that probabilistic models based on pairwise
+interactions-in the simplest case, the Ising model-provide surprisingly
+accurate descriptions of experiments on real biological networks ranging from
+neurons to genes. Finding these models requires us to solve an inverse problem:
+given experimentally measured expectation values, what are the parameters of
+the underlying Hamiltonian? This problem sits at the intersection of
+statistical physics and machine learning, and we suggest that more efficient
+solutions are possible by merging ideas from the two fields. We use a
+combination of recent coordinate descent algorithms with an adaptation of the
+histogram Monte Carlo method, and implement these techniques to take advantage
+of the sparseness found in data on real neurons. The resulting algorithm learns
+the parameters of an Ising model describing a network of forty neurons within a
+few minutes. This opens the possibility of analyzing much larger data sets now
+emerging, and thus testing hypotheses about the collective behaviors of these
+networks.

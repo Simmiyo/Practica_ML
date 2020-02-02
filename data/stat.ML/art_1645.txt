@@ -1,0 +1,15 @@
+Efficient Bayesian analysis of multiple changepoint models with
+  dependence across segments
+We consider Bayesian analysis of a class of multiple changepoint models.
+While there are a variety of efficient ways to analyse these models if the
+parameters associated with each segment are independent, there are few general
+approaches for models where the parameters are dependent. Under the assumption
+that the dependence is Markov, we propose an efficient online algorithm for
+sampling from an approximation to the posterior distribution of the number and
+position of the changepoints. In a simulation study, we show that the
+approximation introduced is negligible. We illustrate the power of our approach
+through fitting piecewise polynomial models to data, under a model which allows
+for either continuity or discontinuity of the underlying curve at each
+changepoint. This method is competitive with, or out-performs, other methods
+for inferring curves from noisy data; and uniquely it allows for inference of
+the locations of discontinuities in the underlying curve.

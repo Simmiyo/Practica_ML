@@ -1,0 +1,16 @@
+Bifurcation Spiking Neural Network
+Recently spiking neural networks (SNNs) have received much attention because
+of its rich biological significance and its power in processing spatial and
+temporal information. However, most existing SNNs are static due to the fixed
+eigenvalues of spiking generation functions, which means that neurons fire
+spikes in a fixed frequency when receiving constant input signals. Thereby, the
+static SNNs are limited in scalability. In this paper, we clarify the
+bifurcation relationship that dynamic eigenvalues have a great influence on the
+neuron excitation frequency. And then we propose the Bifurcation Spiking Neural
+Network (BSNN) for developing a dynamic SNN. Different from traditional static
+SNNs, BSNN takes a bifurcation system with time-varying eigenvalues as the
+basic building block, thus it has more powerful flexibility and is able to
+handle data with complex nonlinear structures. Experiments on wide-range tasks
+have been conducted, including a delayed-memory XOR task, four image
+recognition datasets, and 25 UCR archive. The results show that the performance
+of BSNN is superior to the existing static SNN models.

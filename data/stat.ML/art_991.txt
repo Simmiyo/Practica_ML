@@ -1,0 +1,24 @@
+Another Look at DWD: Thrifty Algorithm and Bayes Risk Consistency in
+  RKHS
+Distance weighted discrimination (DWD) is a margin-based classifier with an
+interesting geometric motivation. DWD was originally proposed as a superior
+alternative to the support vector machine (SVM), however DWD is yet to be
+popular compared with the SVM. The main reasons are twofold. First, the
+state-of-the-art algorithm for solving DWD is based on the second-order-cone
+programming (SOCP), while the SVM is a quadratic programming problem which is
+much more efficient to solve. Second, the current statistical theory of DWD
+mainly focuses on the linear DWD for the high-dimension-low-sample-size setting
+and data-piling, while the learning theory for the SVM mainly focuses on the
+Bayes risk consistency of the kernel SVM. In fact, the Bayes risk consistency
+of DWD is presented as an open problem in the original DWD paper. In this work,
+we advance the current understanding of DWD from both computational and
+theoretical perspectives. We propose a novel efficient algorithm for solving
+DWD, and our algorithm can be several hundred times faster than the existing
+state-of-the-art algorithm based on the SOCP. In addition, our algorithm can
+handle the generalized DWD, while the SOCP algorithm only works well for a
+special DWD but not the generalized DWD. Furthermore, we consider a natural
+kernel DWD in a reproducing kernel Hilbert space and then establish the Bayes
+risk consistency of the kernel DWD. We compare DWD and the SVM on several
+benchmark data sets and show that the two have comparable classification
+accuracy, but DWD equipped with our new algorithm can be much faster to compute
+than the SVM.

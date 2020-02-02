@@ -1,0 +1,18 @@
+Dialogue Act Recognition via CRF-Attentive Structured Network
+Dialogue Act Recognition (DAR) is a challenging problem in dialogue
+interpretation, which aims to attach semantic labels to utterances and
+characterize the speaker's intention. Currently, many existing approaches
+formulate the DAR problem ranging from multi-classification to structured
+prediction, which suffer from handcrafted feature extensions and attentive
+contextual structural dependencies. In this paper, we consider the problem of
+DAR from the viewpoint of extending richer Conditional Random Field (CRF)
+structural dependencies without abandoning end-to-end training. We incorporate
+hierarchical semantic inference with memory mechanism on the utterance
+modeling. We then extend structured attention network to the linear-chain
+conditional random field layer which takes into account both contextual
+utterances and corresponding dialogue acts. The extensive experiments on two
+major benchmark datasets Switchboard Dialogue Act (SWDA) and Meeting Recorder
+Dialogue Act (MRDA) datasets show that our method achieves better performance
+than other state-of-the-art solutions to the problem. It is a remarkable fact
+that our method is nearly close to the human annotator's performance on SWDA
+within 2% gap.

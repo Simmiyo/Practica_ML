@@ -1,0 +1,10 @@
+Towards JointUD: Part-of-speech Tagging and Lemmatization using
+  Recurrent Neural Networks
+This paper describes our submission to CoNLL 2018 UD Shared Task. We have
+extended an LSTM-based neural network designed for sequence tagging to
+additionally generate character-level sequences. The network was jointly
+trained to produce lemmas, part-of-speech tags and morphological features.
+Sentence segmentation, tokenization and dependency parsing were handled by
+UDPipe 1.2 baseline. The results demonstrate the viability of the proposed
+multitask architecture, although its performance still remains far from
+state-of-the-art.

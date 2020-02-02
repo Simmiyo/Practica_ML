@@ -1,0 +1,12 @@
+Connecting Phrase based Statistical Machine Translation Adaptation
+Although more additional corpora are now available for Statistical Machine
+Translation (SMT), only the ones which belong to the same or similar domains
+with the original corpus can indeed enhance SMT performance directly. Most of
+the existing adaptation methods focus on sentence selection. In comparison,
+phrase is a smaller and more fine grained unit for data selection, therefore we
+propose a straightforward and efficient connecting phrase based adaptation
+method, which is applied to both bilingual phrase pair and monolingual n-gram
+adaptation. The proposed method is evaluated on IWSLT/NIST data sets, and the
+results show that phrase based SMT performance are significantly improved (up
+to +1.6 in comparison with phrase based SMT baseline system and +0.9 in
+comparison with existing methods).

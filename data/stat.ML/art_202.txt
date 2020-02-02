@@ -1,0 +1,14 @@
+Application of Bayesian Hierarchical Prior Modeling to Sparse Channel
+  Estimation
+Existing methods for sparse channel estimation typically provide an estimate
+computed as the solution maximizing an objective function defined as the sum of
+the log-likelihood function and a penalization term proportional to the l1-norm
+of the parameter of interest. However, other penalization terms have proven to
+have strong sparsity-inducing properties. In this work, we design
+pilot-assisted channel estimators for OFDM wireless receivers within the
+framework of sparse Bayesian learning by defining hierarchical Bayesian prior
+models that lead to sparsity-inducing penalization terms. The estimators result
+as an application of the variational message-passing algorithm on the factor
+graph representing the signal model extended with the hierarchical prior
+models. Numerical results demonstrate the superior performance of our channel
+estimators as compared to traditional and state-of-the-art sparse methods.

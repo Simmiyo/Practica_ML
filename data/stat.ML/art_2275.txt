@@ -1,0 +1,17 @@
+Unsupervised Joint Alignment and Clustering using Bayesian
+  Nonparametrics
+Joint alignment of a collection of functions is the process of independently
+transforming the functions so that they appear more similar to each other.
+Typically, such unsupervised alignment algorithms fail when presented with
+complex data sets arising from multiple modalities or make restrictive
+assumptions about the form of the functions or transformations, limiting their
+generality. We present a transformed Bayesian infinite mixture model that can
+simultaneously align and cluster a data set. Our model and associated learning
+scheme offer two key advantages: the optimal number of clusters is determined
+in a data-driven fashion through the use of a Dirichlet process prior, and it
+can accommodate any transformation function parameterized by a continuous
+parameter vector. As a result, it is applicable to a wide range of data types,
+and transformation functions. We present positive results on synthetic
+two-dimensional data, on a set of one-dimensional curves, and on various image
+data sets, showing large improvements over previous work. We discuss several
+variations of the model and conclude with directions for future work.

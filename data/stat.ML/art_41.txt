@@ -1,0 +1,16 @@
+Finding Exogenous Variables in Data with Many More Variables than
+  Observations
+Many statistical methods have been proposed to estimate causal models in
+classical situations with fewer variables than observations (p<n, p: the number
+of variables and n: the number of observations). However, modern datasets
+including gene expression data need high-dimensional causal modeling in
+challenging situations with orders of magnitude more variables than
+observations (p>>n). In this paper, we propose a method to find exogenous
+variables in a linear non-Gaussian causal model, which requires much smaller
+sample sizes than conventional methods and works even when p>>n. The key idea
+is to identify which variables are exogenous based on non-Gaussianity instead
+of estimating the entire structure of the model. Exogenous variables work as
+triggers that activate a causal chain in the model, and their identification
+leads to more efficient experimental designs and better understanding of the
+causal mechanism. We present experiments with artificial data and real-world
+gene expression data to evaluate the method.

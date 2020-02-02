@@ -1,0 +1,17 @@
+Embedding Feature Selection for Large-scale Hierarchical Classification
+Large-scale Hierarchical Classification (HC) involves datasets consisting of
+thousands of classes and millions of training instances with high-dimensional
+features posing several big data challenges. Feature selection that aims to
+select the subset of discriminant features is an effective strategy to deal
+with large-scale HC problem. It speeds up the training process, reduces the
+prediction time and minimizes the memory requirements by compressing the total
+size of learned model weight vectors. Majority of the studies have also shown
+feature selection to be competent and successful in improving the
+classification accuracy by removing irrelevant features. In this work, we
+investigate various filter-based feature selection methods for dimensionality
+reduction to solve the large-scale HC problem. Our experimental evaluation on
+text and image datasets with varying distribution of features, classes and
+instances shows upto 3x order of speed-up on massive datasets and upto 45% less
+memory requirements for storing the weight vectors of learned model without any
+significant loss (improvement for some datasets) in the classification
+accuracy. Source Code: https://cs.gmu.edu/~mlbio/featureselection.

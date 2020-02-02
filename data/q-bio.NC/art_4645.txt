@@ -1,0 +1,19 @@
+Learning to learn with backpropagation of Hebbian plasticity
+Hebbian plasticity is a powerful principle that allows biological brains to
+learn from their lifetime experience. By contrast, artificial neural networks
+trained with backpropagation generally have fixed connection weights that do
+not change once training is complete. While recent methods can endow neural
+networks with long-term memories, Hebbian plasticity is currently not amenable
+to gradient descent. Here we derive analytical expressions for activity
+gradients in neural networks with Hebbian plastic connections. Using these
+expressions, we can use backpropagation to train not just the baseline weights
+of the connections, but also their plasticity. As a result, the networks "learn
+how to learn" in order to solve the problem at hand: the trained networks
+automatically perform fast learning of unpredictable environmental features
+during their lifetime, expanding the range of solvable problems. We test the
+algorithm on various on-line learning tasks, including pattern completion,
+one-shot learning, and reversal learning. The algorithm successfully learns how
+to learn the relevant associations from one-shot instruction, and fine-tunes
+the temporal dynamics of plasticity to allow for continual learning in response
+to changing environmental parameters. We conclude that backpropagation of
+Hebbian plasticity offers a powerful model for lifelong learning.

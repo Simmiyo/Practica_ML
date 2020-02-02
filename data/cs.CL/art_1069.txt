@@ -1,0 +1,10 @@
+Improved Deep Learning Baselines for Ubuntu Corpus Dialogs
+This paper presents results of our experiments for the next utterance ranking
+on the Ubuntu Dialog Corpus -- the largest publicly available multi-turn dialog
+corpus. First, we use an in-house implementation of previously reported models
+to do an independent evaluation using the same data. Second, we evaluate the
+performances of various LSTMs, Bi-LSTMs and CNNs on the dataset. Third, we
+create an ensemble by averaging predictions of multiple models. The ensemble
+further improves the performance and it achieves a state-of-the-art result for
+the next utterance ranking on this dataset. Finally, we discuss our future
+plans using this corpus.

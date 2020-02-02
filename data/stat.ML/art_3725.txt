@@ -1,0 +1,16 @@
+Implementing a Bayes Filter in a Neural Circuit: The Case of Unknown
+  Stimulus Dynamics
+In order to interact intelligently with objects in the world, animals must
+first transform neural population responses into estimates of the dynamic,
+unknown stimuli which caused them. The Bayesian solution to this problem is
+known as a Bayes filter, which applies Bayes' rule to combine population
+responses with the predictions of an internal model. In this paper we present a
+method for learning to approximate a Bayes filter when the stimulus dynamics
+are unknown. To do this we use the inferential properties of probabilistic
+population codes to compute Bayes' rule, and train a neural network to compute
+approximate predictions by the method of maximum likelihood. In particular, we
+perform stochastic gradient descent on the negative log-likelihood with a novel
+approximation of the gradient. We demonstrate our methods on a finite-state, a
+linear, and a nonlinear filtering problem, and show how the hidden layer of the
+neural network develops tuning curves which are consistent with findings in
+experimental neuroscience.

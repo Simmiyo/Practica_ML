@@ -1,0 +1,15 @@
+Survival-Supervised Topic Modeling with Anchor Words: Characterizing
+  Pancreatitis Outcomes
+We introduce a new approach for topic modeling that is supervised by survival
+analysis. Specifically, we build on recent work on unsupervised topic modeling
+with so-called anchor words by providing supervision through an elastic-net
+regularized Cox proportional hazards model. In short, an anchor word being
+present in a document provides strong indication that the document is partially
+about a specific topic. For example, by seeing "gallstones" in a document, we
+are fairly certain that the document is partially about medicine. Our proposed
+method alternates between learning a topic model and learning a survival model
+to find a local minimum of a block convex optimization problem. We apply our
+proposed approach to predicting how long patients with pancreatitis admitted to
+an intensive care unit (ICU) will stay in the ICU. Our approach is as accurate
+as the best of a variety of baselines while being more interpretable than any
+of the baselines.

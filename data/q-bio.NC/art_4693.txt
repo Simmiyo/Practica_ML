@@ -1,0 +1,20 @@
+A Goal-Based Movement Model for Continuous Multi-Agent Tasks
+Despite increasing attention paid to the need for fast, scalable methods to
+analyze next-generation neuroscience data, comparatively little attention has
+been paid to the development of similar methods for behavioral analysis. Just
+as the volume and complexity of brain data have grown, behavioral paradigms in
+systems neuroscience have likewise become more naturalistic and less
+constrained, necessitating an increase in the flexibility and scalability of
+the models used to study them. In particular, key assumptions made in the
+analysis of typical decision paradigms --- optimality; analytic tractability;
+discrete, low-dimensional action spaces --- may be untenable in richer tasks.
+Here, using the case of a two-player, real-time, continuous strategic game as
+an example, we show how the use of modern machine learning methods allows us to
+relax each of these assumptions. Following an inverse reinforcement learning
+approach, we are able to succinctly characterize the joint distribution over
+players' actions via a generative model that allows us to simulate realistic
+game play. We compare simulated play from a number of generative time series
+models and show that ours successfully resists mode collapse while generating
+trajectories with the rich variability of real behavior. Together, these
+methods offer a rich class of models for the analysis of continuous action
+tasks at the single-trial level.

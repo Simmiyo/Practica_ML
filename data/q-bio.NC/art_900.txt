@@ -1,0 +1,26 @@
+Simulation Study of Two Measures of Integrated Information
+Background: Many authors have proposed Quantitative Theories of Consciousness
+(QTC) based on theoretical principles like information theory, Granger
+causality and complexity. Recently, Virmani and Nagaraj (arXiv:1608.08450v2
+[cs.IT]) noted the similarity between Integrated Information and
+Compression-Complexity, and on this basis, proposed a novel measure of network
+complexity called Phi-Compression Complexity (Phi-C or $\Phi^C$). Their
+computer simulations using Boolean networks showed that $\Phi^C$ compares
+favorably to Giulio Tononi et al's Integrated Information measure $\Phi$ 3.0
+and exhibits desirable mathematical and computational characteristics. Methods:
+In the present work, $\Phi^C$ was measured for two types of simulated networks:
+(A) Networks representing simple neuronal connectivity motifs (presented in
+Fig.9 of Tononi and Sporns, BMC Neuroscience 4(1), 2003); (B) random networks
+derived from Erd\"os-R \'enyi G(N, p)graphs. Code for all simulations was
+written in Python 3.6, and the library NetworkX was used to simulate the
+graphs. Results and discussions summary: In simulations A, for the same set of
+networks, $\Phi^C$ values differ from the values of IIT 1.0 $\Phi$ in a
+counter-intuitive manner. It appears that $\Phi^C$ captures some invariant
+aspects of the interplay between information integration, network topology,
+graph composition and node entropy. While Virmani and Nagaraj
+(arXiv:1608.08450v2 [cs.IT]) sought to highlight the correlations between
+$\Phi^C$ and IIT $\Phi$, the results of simulations A highlight the differences
+between the two measures in the way they capture the integrated information. In
+simulations B, the results of simulations A are extended to the more general
+case of random networks. In the concluding section we outline the novel aspects
+of this paper, and our ongoing and future research.

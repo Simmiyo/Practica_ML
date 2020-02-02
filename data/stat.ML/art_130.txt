@@ -1,0 +1,20 @@
+Additive Kernels for Gaussian Process Modeling
+Gaussian Process (GP) models are often used as mathematical approximations of
+computationally expensive experiments. Provided that its kernel is suitably
+chosen and that enough data is available to obtain a reasonable fit of the
+simulator, a GP model can beneficially be used for tasks such as prediction,
+optimization, or Monte-Carlo-based quantification of uncertainty. However, the
+former conditions become unrealistic when using classical GPs as the dimension
+of input increases. One popular alternative is then to turn to Generalized
+Additive Models (GAMs), relying on the assumption that the simulator's response
+can approximately be decomposed as a sum of univariate functions. If such an
+approach has been successfully applied in approximation, it is nevertheless not
+completely compatible with the GP framework and its versatile applications. The
+ambition of the present work is to give an insight into the use of GPs for
+additive models by integrating additivity within the kernel, and proposing a
+parsimonious numerical method for data-driven parameter estimation. The first
+part of this article deals with the kernels naturally associated to additive
+processes and the properties of the GP models based on such kernels. The second
+part is dedicated to a numerical procedure based on relaxation for additive
+kernel parameter estimation. Finally, the efficiency of the proposed method is
+illustrated and compared to other approaches on Sobol's g-function.

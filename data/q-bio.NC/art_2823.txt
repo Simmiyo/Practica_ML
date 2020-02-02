@@ -1,0 +1,23 @@
+An optimization method to simultaneously estimate electrophysiology and
+  connectivity in a model central pattern generator
+Central pattern generators (CPGs) appear to have evolved multiple times
+throughout the animal kingdom, indicating that their design imparts a
+significant evolutionary advantage. Insight into how this design is achieved is
+hindered by the difficulty inherent in examining relationships among
+electrophysiological properties of the constituent cells of a CPG and their
+functional connectivity. That is: experimentally it is challenging to estimate
+the values of more than two or three of these properties simultaneously. We
+employ a method of statistical data assimilation (D.A.) to estimate the
+synaptic weights, synaptic reversal potentials, and maximum conductances of ion
+channels of the constituent neurons in a multi-modal network model. We then use
+these estimates to predict the functional mode of activity that the network is
+expressing. The measurements used are the membrane voltage time series of all
+neurons in the circuit. We find that these measurements provide sufficient
+information to yield accurate predictions of the network's associated
+electrical activity. This experiment can apply directly in a real laboratory
+using intracellular recordings from a known biological CPG whose structural
+mapping is known, and which can be completely isolated from the animal. The
+simulated results in this paper suggest that D.A. might provide a tool for
+simultaneously estimating tens to hundreds of CPG properties, thereby offering
+the opportunity to seek possible systematic relationships among these
+properties and the emergent electrical activity.

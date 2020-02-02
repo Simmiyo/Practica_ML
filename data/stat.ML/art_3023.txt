@@ -1,0 +1,20 @@
+Learning to Transfer Privileged Information
+We introduce a learning framework called learning using privileged
+information (LUPI) to the computer vision field. We focus on the prototypical
+computer vision problem of teaching computers to recognize objects in images.
+We want the computers to be able to learn faster at the expense of providing
+extra information during training time. As additional information about the
+image data, we look at several scenarios that have been studied in computer
+vision before: attributes, bounding boxes and image tags. The information is
+privileged as it is available at training time but not at test time. We explore
+two maximum-margin techniques that are able to make use of this additional
+source of information, for binary and multiclass object classification. We
+interpret these methods as learning easiness and hardness of the objects in the
+privileged space and then transferring this knowledge to train a better
+classifier in the original space. We provide a thorough analysis and comparison
+of information transfer from privileged to the original data spaces for both
+LUPI methods. Our experiments show that incorporating privileged information
+can improve the classification accuracy. Finally, we conduct user studies to
+understand which samples are easy and which are hard for human learning, and
+explore how this information is related to easy and hard samples when learning
+a classifier.

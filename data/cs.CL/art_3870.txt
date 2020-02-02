@@ -1,0 +1,11 @@
+Effects of Word Embeddings on Neural Network-based Pitch Accent
+  Detection
+Pitch accent detection often makes use of both acoustic and lexical features
+based on the fact that pitch accents tend to correlate with certain words. In
+this paper, we extend a pitch accent detector that involves a convolutional
+neural network to include word embeddings, which are state-of-the-art vector
+representations of words. We examine the effect these features have on
+within-corpus and cross-corpus experiments on three English datasets. The
+results show that while word embeddings can improve the performance in
+corpus-dependent experiments, they also have the potential to make
+generalization to unseen data more challenging.

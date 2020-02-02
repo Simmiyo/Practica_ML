@@ -1,0 +1,14 @@
+Theoretical Analysis of Bayesian Optimisation with Unknown Gaussian
+  Process Hyper-Parameters
+Bayesian optimisation has gained great popularity as a tool for optimising
+the parameters of machine learning algorithms and models. Somewhat ironically,
+setting up the hyper-parameters of Bayesian optimisation methods is notoriously
+hard. While reasonable practical solutions have been advanced, they can often
+fail to find the best optima. Surprisingly, there is little theoretical
+analysis of this crucial problem in the literature. To address this, we derive
+a cumulative regret bound for Bayesian optimisation with Gaussian processes and
+unknown kernel hyper-parameters in the stochastic setting. The bound, which
+applies to the expected improvement acquisition function and sub-Gaussian
+observation noise, provides us with guidelines on how to design hyper-parameter
+estimation methods. A simple simulation demonstrates the importance of
+following these guidelines.

@@ -1,0 +1,20 @@
+Efficient Algorithm for Extremely Large Multi-task Regression with
+  Massive Structured Sparsity
+We develop a highly scalable optimization method called "hierarchical
+group-thresholding" for solving a multi-task regression model with complex
+structured sparsity constraints on both input and output spaces. Despite the
+recent emergence of several efficient optimization algorithms for tackling
+complex sparsity-inducing regularizers, true scalability in practical
+high-dimensional problems where a huge amount (e.g., millions) of sparsity
+patterns need to be enforced remains an open challenge, because all existing
+algorithms must deal with ALL such patterns exhaustively in every iteration,
+which is computationally prohibitive. Our proposed algorithm addresses the
+scalability problem by screening out multiple groups of coefficients
+simultaneously and systematically. We employ a hierarchical tree representation
+of group constraints to accelerate the process of removing irrelevant
+constraints by taking advantage of the inclusion relationships between group
+sparsities, thereby avoiding dealing with all constraints in every optimization
+step, and necessitating optimization operation only on a small number of
+outstanding coefficients. In our experiments, we demonstrate the efficiency of
+our method on simulation datasets, and in an application of detecting genetic
+variants associated with gene expression traits.

@@ -1,0 +1,24 @@
+Salience-Affected Neural Networks
+We present a simple neural network model which combines a locally-connected
+feedforward structure, as is traditionally used to model inter-neuron
+connectivity, with a layer of undifferentiated connections which model the
+diffuse projections from the human limbic system to the cortex. This new layer
+makes it possible to model global effects such as salience, at the same time as
+the local network processes task-specific or local information. This simple
+combination network displays interactions between salience and regular
+processing which correspond to known effects in the developing brain, such as
+enhanced learning as a result of heightened affect.
+  The cortex biases neuronal responses to affect both learning and memory,
+through the use of diffuse projections from the limbic system to the cortex.
+Standard ANNs do not model this non-local flow of information represented by
+the ascending systems, which are a significant feature of the structure of the
+brain, and although they do allow associational learning with multiple-trial,
+they simply don't provide the capacity for one-time learning.
+  In this research we model this effect using an artificial neural network
+(ANN), creating a salience-affected neural network (SANN). We adapt an ANN to
+embody the capacity to respond to an input salience signal and to produce a
+reverse salience signal during testing.
+  This research demonstrates that input combinations similar to the inputs in
+the training data sets will produce similar reverse salience signals during
+testing. Furthermore, this research has uncovered a novel method for training
+ANNs with a single training iteration.

@@ -1,0 +1,16 @@
+Incorporating Side Information in Probabilistic Matrix Factorization
+  with Gaussian Processes
+Probabilistic matrix factorization (PMF) is a powerful method for modeling
+data associ- ated with pairwise relationships, Finding use in collaborative
+Filtering, computational bi- ology, and document analysis, among other areas.
+In many domains, there are additional covariates that can assist in prediction.
+For example, when modeling movie ratings, we might know when the rating
+occurred, where the user lives, or what actors appear in the movie. It is
+difficult, however, to incorporate this side information into the PMF model. We
+propose a framework for incorporating side information by coupling together
+multi- ple PMF problems via Gaussian process priors. We replace scalar latent
+features with func- tions that vary over the covariate space. The GP priors on
+these functions require them to vary smoothly and share information. We apply
+this new method to predict the scores of professional basketball games, where
+side information about the venue and date of the game are relevant for the
+outcome.

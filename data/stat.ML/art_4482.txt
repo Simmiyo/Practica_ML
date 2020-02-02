@@ -1,0 +1,18 @@
+Mixture Gaussian Process Conditional Heteroscedasticity
+Generalized autoregressive conditional heteroscedasticity (GARCH) models have
+long been considered as one of the most successful families of approaches for
+volatility modeling in financial return series. In this paper, we propose an
+alternative approach based on methodologies widely used in the field of
+statistical machine learning. Specifically, we propose a novel nonparametric
+Bayesian mixture of Gaussian process regression models, each component of which
+models the noise variance process that contaminates the observed data as a
+separate latent Gaussian process driven by the observed data. This way, we
+essentially obtain a mixture Gaussian process conditional heteroscedasticity
+(MGPCH) model for volatility modeling in financial return series. We impose a
+nonparametric prior with power-law nature over the distribution of the model
+mixture components, namely the Pitman-Yor process prior, to allow for better
+capturing modeled data distributions with heavy tails and skewness. Finally, we
+provide a copula- based approach for obtaining a predictive posterior for the
+covariances over the asset returns modeled by means of a postulated MGPCH
+model. We evaluate the efficacy of our approach in a number of benchmark
+scenarios, and compare its performance to state-of-the-art methodologies.

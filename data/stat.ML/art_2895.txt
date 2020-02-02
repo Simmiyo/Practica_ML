@@ -1,0 +1,17 @@
+Divide-and-Conquer with Sequential Monte Carlo
+We propose a novel class of Sequential Monte Carlo (SMC) algorithms,
+appropriate for inference in probabilistic graphical models. This class of
+algorithms adopts a divide-and-conquer approach based upon an auxiliary
+tree-structured decomposition of the model of interest, turning the overall
+inferential task into a collection of recursively solved sub-problems. The
+proposed method is applicable to a broad class of probabilistic graphical
+models, including models with loops. Unlike a standard SMC sampler, the
+proposed Divide-and-Conquer SMC employs multiple independent populations of
+weighted particles, which are resampled, merged, and propagated as the method
+progresses. We illustrate empirically that this approach can outperform
+standard methods in terms of the accuracy of the posterior expectation and
+marginal likelihood approximations. Divide-and-Conquer SMC also opens up novel
+parallel implementation options and the possibility of concentrating the
+computational effort on the most challenging sub-problems. We demonstrate its
+performance on a Markov random field and on a hierarchical logistic regression
+problem.

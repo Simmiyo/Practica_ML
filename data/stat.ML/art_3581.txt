@@ -1,0 +1,17 @@
+Kernel Sequential Monte Carlo
+We propose kernel sequential Monte Carlo (KSMC), a framework for sampling
+from static target densities. KSMC is a family of sequential Monte Carlo
+algorithms that are based on building emulator models of the current particle
+system in a reproducing kernel Hilbert space. We here focus on modelling
+nonlinear covariance structure and gradients of the target. The emulator's
+geometry is adaptively updated and subsequently used to inform local proposals.
+Unlike in adaptive Markov chain Monte Carlo, continuous adaptation does not
+compromise convergence of the sampler. KSMC combines the strengths of sequental
+Monte Carlo and kernel methods: superior performance for multimodal targets and
+the ability to estimate model evidence as compared to Markov chain Monte Carlo,
+and the emulator's ability to represent targets that exhibit high degrees of
+nonlinearity. As KSMC does not require access to target gradients, it is
+particularly applicable on targets whose gradients are unknown or prohibitively
+expensive. We describe necessary tuning details and demonstrate the benefits of
+the the proposed methodology on a series of challenging synthetic and
+real-world examples.

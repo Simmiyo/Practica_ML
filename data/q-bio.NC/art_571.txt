@@ -1,0 +1,18 @@
+Probabilistic Synapses
+Learning, especially rapid learning, is critical for survival. However,
+learning is hard: a large number of synaptic weights must be set based on
+noisy, often ambiguous, sensory information. In such a high-noise regime,
+keeping track of probability distributions over weights - not just point
+estimates - is the optimal strategy. Here we hypothesize that synapses take
+that optimal strategy: they do not store just the mean weight; they also store
+their degree of uncertainty - in essence, they put error bars on the weights.
+They then use that uncertainty to adjust their learning rates, with higher
+uncertainty resulting in higher learning rates. We also make a second,
+independent, hypothesis: synapses communicate their uncertainty by linking it
+to variability, with more uncertainty leading to more variability. More
+concretely, the value of a synaptic weight at a given time is a sample from its
+probability distribution. These two hypotheses cast synaptic plasticity as a
+problem of Bayesian inference, and thus provide a normative view of learning.
+They are consistent with known learning rules, offer an explanation for the
+large variability in the size of post-synaptic potentials, and make several
+falsifiable experimental predictions.

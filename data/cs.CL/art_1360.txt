@@ -1,0 +1,15 @@
+Classify or Select: Neural Architectures for Extractive Document
+  Summarization
+We present two novel and contrasting Recurrent Neural Network (RNN) based
+architectures for extractive summarization of documents. The Classifier based
+architecture sequentially accepts or rejects each sentence in the original
+document order for its membership in the final summary. The Selector
+architecture, on the other hand, is free to pick one sentence at a time in any
+arbitrary order to piece together the summary. Our models under both
+architectures jointly capture the notions of salience and redundancy of
+sentences. In addition, these models have the advantage of being very
+interpretable, since they allow visualization of their predictions broken up by
+abstract features such as information content, salience and redundancy. We show
+that our models reach or outperform state-of-the-art supervised models on two
+different corpora. We also recommend the conditions under which one
+architecture is superior to the other based on experimental evidence.

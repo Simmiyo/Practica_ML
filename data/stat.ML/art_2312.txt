@@ -1,0 +1,19 @@
+Efficiently Inducing Features of Conditional Random Fields
+Conditional Random Fields (CRFs) are undirected graphical models, a special
+case of which correspond to conditionally-trained finite state machines. A key
+advantage of these models is their great flexibility to include a wide array of
+overlapping, multi-granularity, non-independent features of the input. In face
+of this freedom, an important question that remains is, what features should be
+used? This paper presents a feature induction method for CRFs. Founded on the
+principle of constructing only those feature conjunctions that significantly
+increase log-likelihood, the approach is based on that of Della Pietra et al
+[1997], but altered to work with conditional rather than joint probabilities,
+and with additional modifications for providing tractability specifically for a
+sequence model. In comparison with traditional approaches, automated feature
+induction offers both improved accuracy and more than an order of magnitude
+reduction in feature count; it enables the use of richer, higher-order Markov
+models, and offers more freedom to liberally guess about which atomic features
+may be relevant to a task. The induction method applies to linear-chain CRFs,
+as well as to more arbitrary CRF structures, also known as Relational Markov
+Networks [Taskar & Koller, 2002]. We present experimental results on a named
+entity extraction task.

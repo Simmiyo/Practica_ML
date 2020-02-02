@@ -1,0 +1,17 @@
+Brain Gene Expression Analysis: a MATLAB toolbox for the analysis of
+  brain-wide gene-expression data
+The Allen Brain Atlas project (ABA) generated a genome-scale collection of
+gene-expression profiles using in-situ hybridization. These profiles were
+co-registered to the three-dimensional Allen Reference Atlas (ARA) of the adult
+mouse brain. A set of more than 4,000 such volumetric data are available for
+the full brain, at a resolution of 200 microns. These data are presented in a
+voxel-by-gene matrix. The ARA comes with several systems of annotation,
+hierarchical (40 cortical regions, 209 sub-cortical regions in the whole
+brain), or non-hierarchical (12 regions in the left hemisphere, with refinement
+into 94 regions, and cortical layers). The high-dimensional nature of this
+dataset and the possible connection between anatomy and gene expression pose
+challenges to data analysis. We developed the Brain Gene Expression Analysis
+Toolbox, whose functionalities include: determination of marker genes for brain
+regions, statistical analysis of brain-wide co-expression patterns, and the
+computation of brain-wide correlation maps with cell-type specific microarray
+data.

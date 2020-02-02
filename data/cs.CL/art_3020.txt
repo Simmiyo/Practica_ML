@@ -1,0 +1,18 @@
+Combining Search with Structured Data to Create a More Engaging User
+  Experience in Open Domain Dialogue
+The greatest challenges in building sophisticated open-domain conversational
+agents arise directly from the potential for ongoing mixed-initiative
+multi-turn dialogues, which do not follow a particular plan or pursue a
+particular fixed information need. In order to make coherent conversational
+contributions in this context, a conversational agent must be able to track the
+types and attributes of the entities under discussion in the conversation and
+know how they are related. In some cases, the agent can rely on structured
+information sources to help identify the relevant semantic relations and
+produce a turn, but in other cases, the only content available comes from
+search, and it may be unclear which semantic relations hold between the search
+results and the discourse context. A further constraint is that the system must
+produce its contribution to the ongoing conversation in real-time. This paper
+describes our experience building SlugBot for the 2017 Alexa Prize, and
+discusses how we leveraged search and structured data from different sources to
+help SlugBot produce dialogic turns and carry on conversations whose length
+over the semi-finals user evaluation period averaged 8:17 minutes.

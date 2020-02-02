@@ -1,0 +1,15 @@
+Morphology Generation for Statistical Machine Translation
+When translating into morphologically rich languages, Statistical MT
+approaches face the problem of data sparsity. The severity of the sparseness
+problem will be high when the corpus size of morphologically richer language is
+less. Even though we can use factored models to correctly generate
+morphological forms of words, the problem of data sparseness limits their
+performance. In this paper, we describe a simple and effective solution which
+is based on enriching the input corpora with various morphological forms of
+words. We use this method with the phrase-based and factor-based experiments on
+two morphologically rich languages: Hindi and Marathi when translating from
+English. We evaluate the performance of our experiments both in terms automatic
+evaluation and subjective evaluation such as adequacy and fluency. We observe
+that the morphology injection method helps in improving the quality of
+translation. We further analyze that the morph injection method helps in
+handling the data sparseness problem to a great level.

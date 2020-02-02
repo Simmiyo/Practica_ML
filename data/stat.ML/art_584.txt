@@ -1,0 +1,19 @@
+On the Feasibility of Distributed Kernel Regression for Big Data
+In modern scientific research, massive datasets with huge numbers of
+observations are frequently encountered. To facilitate the computational
+process, a divide-and-conquer scheme is often used for the analysis of big
+data. In such a strategy, a full dataset is first split into several manageable
+segments; the final output is then averaged from the individual outputs of the
+segments. Despite its popularity in practice, it remains largely unknown that
+whether such a distributive strategy provides valid theoretical inferences to
+the original data. In this paper, we address this fundamental issue for the
+distributed kernel regression (DKR), where the algorithmic feasibility is
+measured by the generalization performance of the resulting estimator. To
+justify DKR, a uniform convergence rate is needed for bounding the
+generalization error over the individual outputs, which brings new and
+challenging issues in the big data setup. Under mild conditions, we show that,
+with a proper number of segments, DKR leads to an estimator that is
+generalization consistent to the unknown regression function. The obtained
+results justify the method of DKR and shed light on the feasibility of using
+other distributed algorithms for processing big data. The promising preference
+of the method is supported by both simulation and real data examples.

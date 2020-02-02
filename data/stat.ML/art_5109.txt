@@ -1,0 +1,20 @@
+Inferring object rankings based on noisy pairwise comparisons from
+  multiple annotators
+Ranking a set of objects involves establishing an order allowing for
+comparisons between any pair of objects in the set. Oftentimes, due to the
+unavailability of a ground truth of ranked orders, researchers resort to
+obtaining judgments from multiple annotators followed by inferring the ground
+truth based on the collective knowledge of the crowd. However, the aggregation
+is often ad-hoc and involves imposing stringent assumptions in inferring the
+ground truth (e.g. majority vote). In this work, we propose
+Expectation-Maximization (EM) based algorithms that rely on the judgments from
+multiple annotators and the object attributes for inferring the latent ground
+truth. The algorithm learns the relation between the latent ground truth and
+object attributes as well as annotator specific probabilities of flipping, a
+metric to assess annotator quality. We further extend the EM algorithm to allow
+for a variable probability of flipping based on the pair of objects at hand. We
+test our algorithms on two data sets with synthetic annotations and investigate
+the impact of annotator quality and quantity on the inferred ground truth. We
+also obtain the results on two other data sets with annotations from
+machine/human annotators and interpret the output trends based on the data
+characteristics.

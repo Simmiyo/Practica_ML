@@ -1,0 +1,21 @@
+Exploring the total Galactic extinction with SDSS BHB stars
+Aims: We used 12,530 photometrically-selected blue horizontal branch (BHB)
+stars from the Sloan Digital Sky Survey (SDSS) to estimate the total extinction
+of the Milky Way at the high Galactic latitudes, $R_V$ and $A_V$ in each line
+of sight. Methods: A Bayesian method was developed to estimate the reddening
+values in the given lines of sight. Based on the most likely values of
+reddening in multiple colors, we were able to derive the values of $R_V$ and
+$A_V$.
+  Results: We selected 94 zero-reddened BHB stars from seven globular clusters
+as the template. The reddening in the four SDSS colors for the northern
+Galactic cap were estimated by comparing the field BHB stars with the template
+stars. The accuracy of this estimation is around 0.01\,mag for most lines of
+sight. We also obtained $<R_V>$ to be around 2.40$\pm1.05$ and $A_V$ map within
+an uncertainty of 0.1\,mag. The results, including reddening values in the four
+SDSS colors, $A_V$, and $R_V$ in each line of sight, are released on line. In
+this work, we employ an up-to-date parallel technique on GPU card to overcome
+time-consuming computations. We plan to release online the C++ CUDA code used
+for this analysis.
+  Conclusions: The extinction map derived from BHB stars is highly consistent
+with that from Schlegel, Finkbeiner & Davis(1998). The derived $R_V$ is around
+2.40$\pm1.05$. The contamination probably makes the $R_V$ be larger.

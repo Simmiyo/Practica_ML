@@ -1,0 +1,14 @@
+Analysis of Nuclear Norm Regularization for Full-rank Matrix Completion
+In this paper, we provide a theoretical analysis of the nuclear-norm
+regularized least squares for full-rank matrix completion. Although similar
+formulations have been examined by previous studies, their results are
+unsatisfactory because only additive upper bounds are provided. Under the
+assumption that the top eigenspaces of the target matrix are incoherent, we
+derive a relative upper bound for recovering the best low-rank approximation of
+the unknown matrix. Our relative upper bound is tighter than previous additive
+bounds of other methods if the mass of the target matrix is concentrated on its
+top eigenspaces, and also implies perfect recovery if it is low-rank. The
+analysis is built upon the optimality condition of the regularized formulation
+and existing guarantees for low-rank matrix completion. To the best of our
+knowledge, this is first time such a relative bound is proved for the
+regularized formulation of matrix completion.

@@ -1,0 +1,24 @@
+Automated point-neuron simplification of data-driven microcircuit models
+A method is presented for the reduction of morphologically detailed
+microcircuit models to a point-neuron representation without human
+intervention. The simplification occurs in a modular workflow, in the
+neighborhood of a user specified network activity state for the reference
+model, the "operating point". First, synapses are moved to the soma, correcting
+for dendritic filtering by low-pass filtering the delivered synaptic current.
+Filter parameters are computed numerically and independently for inhibitory and
+excitatory input using a Green's function approach. Next, point-neuron models
+for each neuron in the microcircuit are fit to their respective morphologically
+detailed counterparts. Here, generalized integrate-and-fire point neuron models
+are used, leveraging a recently published fitting toolbox. The fits are
+constrained by currents and voltages computed in the morphologically detailed
+partner neurons with soma corrected synapses at three depolarizations about the
+user specified operating point. The result is a simplified circuit which is
+well constrained by the reference circuit, and can be continuously updated as
+the latter iteratively integrates new data. The modularity of the approach
+makes it applicable also for other point-neuron and synapse models. The
+approach is demonstrated on a recently reported reconstruction of a neocortical
+microcircuit around an in vivo-like working point. The resulting simplified
+network model is benchmarked to the reference morphologically detailed
+microcircuit model for a range of simulated network protocols. The simplified
+network is found to be slightly more sub-critical than the reference, with
+otherwise good agreement for both quantitative and qualitative validations.

@@ -1,0 +1,12 @@
+Fast Embedding for JOFC Using the Raw Stress Criterion
+The Joint Optimization of Fidelity and Commensurability (JOFC) manifold
+matching methodology embeds an omnibus dissimilarity matrix consisting of
+multiple dissimilarities on the same set of objects. One approach to this
+embedding optimizes the preservation of fidelity to each individual
+dissimilarity matrix together with commensurability of each given observation
+across modalities via iterative majorization of a raw stress error criterion by
+successive Guttman transforms. In this paper, we exploit the special structure
+inherent to JOFC to exactly and efficiently compute the successive Guttman
+transforms, and as a result we are able to greatly speed up the JOFC procedure
+for both in-sample and out-of-sample embedding. We demonstrate the scalability
+of our implementation on both real and simulated data examples.

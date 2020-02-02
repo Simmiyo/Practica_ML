@@ -1,0 +1,18 @@
+A closed-form approach to Bayesian inference in tree-structured
+  graphical models
+We consider the inference of the structure of an undirected graphical model
+in an exact Bayesian framework. More specifically we aim at achieving the
+inference with close-form posteriors, avoiding any sampling step. This task
+would be intractable without any restriction on the considered graphs, so we
+limit our exploration to mixtures of spanning trees. We consider the inference
+of the structure of an undirected graphical model in a Bayesian framework. To
+avoid convergence issues and highly demanding Monte Carlo sampling, we focus on
+exact inference. More specifically we aim at achieving the inference with
+close-form posteriors, avoiding any sampling step. To this aim, we restrict the
+set of considered graphs to mixtures of spanning trees. We investigate under
+which conditions on the priors - on both tree structures and parameters - exact
+Bayesian inference can be achieved. Under these conditions, we derive a fast an
+exact algorithm to compute the posterior probability for an edge to belong to
+{the tree model} using an algebraic result called the Matrix-Tree theorem. We
+show that the assumption we have made does not prevent our approach to perform
+well on synthetic and flow cytometry data.

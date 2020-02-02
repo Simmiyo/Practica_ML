@@ -1,0 +1,10 @@
+Randomized Kaczmarz for Rank Aggregation from Pairwise Comparisons
+We revisit the problem of inferring the overall ranking among entities in the
+framework of Bradley-Terry-Luce (BTL) model, based on available empirical data
+on pairwise preferences. By a simple transformation, we can cast the problem as
+that of solving a noisy linear system, for which a ready algorithm is available
+in the form of the randomized Kaczmarz method. This scheme is provably
+convergent, has excellent empirical performance, and is amenable to on-line,
+distributed and asynchronous variants. Convergence, convergence rate, and error
+analysis of the proposed algorithm are presented and several numerical
+experiments are conducted whose results validate our theoretical findings.

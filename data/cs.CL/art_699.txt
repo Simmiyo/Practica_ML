@@ -1,0 +1,16 @@
+Multi-Topic Multi-Document Summarizer
+Current multi-document summarization systems can successfully extract summary
+sentences, however with many limitations including: low coverage, inaccurate
+extraction to important sentences, redundancy and poor coherence among the
+selected sentences. The present study introduces a new concept of centroid
+approach and reports new techniques for extracting summary sentences for
+multi-document. In both techniques keyphrases are used to weigh sentences and
+documents. The first summarization technique (Sen-Rich) prefers maximum
+richness sentences. While the second (Doc-Rich), prefers sentences from
+centroid document. To demonstrate the new summarization system application to
+extract summaries of Arabic documents we performed two experiments. First, we
+applied Rouge measure to compare the new techniques among systems presented at
+TAC2011. The results show that Sen-Rich outperformed all systems in ROUGE-S.
+Second, the system was applied to summarize multi-topic documents. Using human
+evaluators, the results show that Doc-Rich is the superior, where summary
+sentences characterized by extra coverage and more cohesion.

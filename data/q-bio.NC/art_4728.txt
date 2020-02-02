@@ -1,0 +1,19 @@
+A Digital Neuromorphic Architecture Efficiently Facilitating Complex
+  Synaptic Response Functions Applied to Liquid State Machines
+Information in neural networks is represented as weighted connections, or
+synapses, between neurons. This poses a problem as the primary computational
+bottleneck for neural networks is the vector-matrix multiply when inputs are
+multiplied by the neural network weights. Conventional processing architectures
+are not well suited for simulating neural networks, often requiring large
+amounts of energy and time. Additionally, synapses in biological neural
+networks are not binary connections, but exhibit a nonlinear response function
+as neurotransmitters are emitted and diffuse between neurons. Inspired by
+neuroscience principles, we present a digital neuromorphic architecture, the
+Spiking Temporal Processing Unit (STPU), capable of modeling arbitrary complex
+synaptic response functions without requiring additional hardware components.
+We consider the paradigm of spiking neurons with temporally coded information
+as opposed to non-spiking rate coded neurons used in most neural networks. In
+this paradigm we examine liquid state machines applied to speech recognition
+and show how a liquid state machine with temporal dynamics maps onto the
+STPU-demonstrating the flexibility and efficiency of the STPU for instantiating
+neural algorithms.

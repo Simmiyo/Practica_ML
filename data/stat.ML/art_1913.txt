@@ -1,0 +1,15 @@
+A Short Note on Gaussian Process Modeling for Large Datasets using
+  Graphics Processing Units
+The graphics processing unit (GPU) has emerged as a powerful and cost
+effective processor for general performance computing. GPUs are capable of an
+order of magnitude more floating-point operations per second as compared to
+modern central processing units (CPUs), and thus provide a great deal of
+promise for computationally intensive statistical applications. Fitting complex
+statistical models with a large number of parameters and/or for large datasets
+is often very computationally expensive. In this study, we focus on Gaussian
+process (GP) models -- statistical models commonly used for emulating expensive
+computer simulators. We demonstrate that the computational cost of implementing
+GP models can be significantly reduced by using a CPU+GPU heterogeneous
+computing system over an analogous implementation on a traditional computing
+system with no GPU acceleration. Our small study suggests that GP models are
+fertile ground for further implementation on CPU+GPU systems.

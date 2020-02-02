@@ -1,0 +1,14 @@
+Unsupervised predictive coding models may explain visual brain
+  representation
+Deep predictive coding networks are neuroscience-inspired unsupervised
+learning models that learn to predict future sensory states. We build upon the
+PredNet implementation by Lotter, Kreiman, and Cox (2016) to investigate if
+predictive coding representations are useful to predict brain activity in the
+visual cortex. We use representational similarity analysis (RSA) to compare
+PredNet representations to functional magnetic resonance imaging (fMRI) and
+magnetoencephalography (MEG) data from the Algonauts Project. In contrast to
+previous findings in the literature (Khaligh-Razavi &Kriegeskorte, 2014), we
+report empirical data suggesting that unsupervised models trained to predict
+frames of videos may outperform supervised image classification baselines. Our
+best submission achieves an average noise normalized score of 16.67% and 27.67%
+on the fMRI and MEG tracks of the Algonauts Challenge.

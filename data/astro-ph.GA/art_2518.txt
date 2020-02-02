@@ -1,0 +1,26 @@
+TreeCol: a novel approach to estimating column densities in
+  astrophysical simulations
+We present TreeCol, a new and efficient tree-based scheme to calculate column
+densities in numerical simulations. Knowing the column density in any direction
+at any location in space is a prerequisite for modelling the propagation of
+radiation through the computational domain. TreeCol therefore forms the basis
+for a fast, approximate method for modelling the attenuation of radiation
+within large numerical simulations. It constructs a HEALPix sphere at any
+desired location and accumulates the column density by walking the tree and by
+adding up the contributions from all tree nodes whose line of sight contributes
+to the pixel under consideration. In particular when combined with widely-used
+tree-based gravity solvers the new scheme requires little additional
+computational cost. In a simulation with $N$ resolution elements, the
+computational cost of TreeCol scales as $N \log N$, instead of the $N^{5/3}$
+scaling of most other radiative transfer schemes. TreeCol is naturally
+adaptable to arbitrary density distributions and is easy to implement and to
+parallelize. We discuss its accuracy and performance characteristics for the
+examples of a spherical protostellar core and for the turbulent interstellar
+medium. We find that the column density estimates provided by TreeCol are on
+average accurate to better than 10 percent. In another application, we compute
+the dust temperatures for solar neighborhood conditions and compare with the
+result of a full-fledged Monte Carlo radiation-transfer calculation. We find
+that both methods give very similar answers. We conclude that TreeCol provides
+a fast, easy to use, and sufficiently accurate method of calculating column
+densities that comes with little additional computational cost when combined
+with an existing tree-based gravity solver.

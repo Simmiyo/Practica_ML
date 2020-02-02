@@ -1,0 +1,26 @@
+Graph coarse-graining reveals differences in the module-level structure
+  of functional brain networks
+Network analysis is rapidly becoming a standard tool for studying functional
+magnetic resonance imaging (fMRI) data. In this framework, different brain
+areas are mapped to the nodes of a network, whose links depict functional
+dependencies between the areas. The sizes of the areas that the nodes portray
+vary between studies. Recently, it has been recommended that the original
+volume elements, voxels, of the imaging experiment should be used as the
+network nodes to avoid artefacts and biases. However, this results in a large
+numbers of nodes and links, and the sheer amount of detail may obscure
+important network features that are manifested on larger scales. One fruitful
+approach to detecting such features is to partition networks into modules, i.e.
+groups of nodes that are densely connected internally but have few connections
+between them. However, attempting to understand how functional networks differ
+by simply comparing their individual modular structures can be a daunting task,
+and results may be hard to interpret. We show that instead of comparing
+different partitions, it is beneficial to analyze differences in the
+connectivity between and within the very same modules in networks obtained
+under different conditions. We develop a network coarse-graining methodology
+that provides easily interpretable results and allows assessing the statistical
+significance of observed differences. The feasibility of the method is
+demonstrated by analyzing fMRI data recorded from 13 healthy subjects during
+rest and movie viewing. While independent partitioning of the networks
+corresponding to the the two conditions yields few insights on their
+differences, network coarse-graining allows us to pinpoint e.g. the increased
+number of intra-module links within the visual cortex during movie viewing.

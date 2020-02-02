@@ -1,0 +1,14 @@
+Domain Generalization by Marginal Transfer Learning
+Domain generalization is the problem of assigning class labels to an
+unlabeled test data set, given several labeled training data sets drawn from
+similar distributions. This problem arises in several applications where data
+distributions fluctuate because of biological, technical, or other sources of
+variation. We develop a distribution-free, kernel-based approach that predicts
+a classifier from the marginal distribution of features, by leveraging the
+trends present in related classification tasks. This approach involves
+identifying an appropriate reproducing kernel Hilbert space and optimizing a
+regularized empirical risk over the space. We present generalization error
+analysis, describe universal kernels, and establish universal consistency of
+the proposed methodology. Experimental results on synthetic data and three real
+data applications demonstrate the superiority of the method with respect to a
+pooling strategy.

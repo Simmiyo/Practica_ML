@@ -1,0 +1,16 @@
+Sampling-based Causal Inference in Cue Combination and its Neural
+  Implementation
+Causal inference in cue combination is to decide whether the cues have a
+single cause or multiple causes. Although the Bayesian causal inference model
+explains the problem of causal inference in cue combination successfully, how
+causal inference in cue combination could be implemented by neural circuits, is
+unclear. The existing method based on calculating log posterior ratio with
+variable elimination has the problem of being unrealistic and task-specific. In
+this paper, we take advantages of the special structure of the Bayesian causal
+inference model and propose a hierarchical inference algorithm based on
+importance sampling. A simple neural circuit is designed to implement the
+proposed inference algorithm. Theoretical analyses and experimental results
+demonstrate that our algorithm converges to the accurate value as the sample
+size goes to infinite. Moreover, the neural circuit we design can be easily
+generalized to implement inference for other problems, such as the
+multi-stimuli cause inference and the same-different judgment.

@@ -1,0 +1,12 @@
+Application of Dictionary Learning in Alleviating Computational Burden
+  of EEG Source Localization
+Two techniques are proposed to alleviate the computational burden of MUltiple
+SIgnal Classification (MUSIC) algorithm applied to Electroencephalogram (EEG)
+source localization. A significant reduction was achieved by parsing the cortex
+surface into smaller regions and nominating only a few regions for the
+exhaustive search inherent in the MUSIC algorithm. The nomination procedure
+involves a dictionary learning phase in which each region is assigned an atom
+matrix. Moreover, a dimensionality reduction step provided by excluding some of
+the electrodes is designed such that the Cramer-Rao bound of localization is
+maintained. It is shown by simulation that computational complexity of the
+MUSIC-based localization can be reduced by up to $80\%$.

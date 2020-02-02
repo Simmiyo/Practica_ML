@@ -1,0 +1,15 @@
+Learning to Adapt by Minimizing Discrepancy
+We explore whether useful temporal neural generative models can be learned
+from sequential data without back-propagation through time. We investigate the
+viability of a more neurocognitively-grounded approach in the context of
+unsupervised generative modeling of sequences. Specifically, we build on the
+concept of predictive coding, which has gained influence in cognitive science,
+in a neural framework. To do so we develop a novel architecture, the Temporal
+Neural Coding Network, and its learning algorithm, Discrepancy Reduction. The
+underlying directed generative model is fully recurrent, meaning that it
+employs structural feedback connections and temporal feedback connections,
+yielding information propagation cycles that create local learning signals.
+This facilitates a unified bottom-up and top-down approach for information
+transfer inside the architecture. Our proposed algorithm shows promise on the
+bouncing balls generative modeling problem. Further experiments could be
+conducted to explore the strengths and weaknesses of our approach.

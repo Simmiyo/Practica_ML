@@ -1,0 +1,14 @@
+Bayesian Out-Trees
+A Bayesian treatment of latent directed graph structure for non-iid data is
+provided where each child datum is sampled with a directed conditional
+dependence on a single unknown parent datum. The latent graph structure is
+assumed to lie in the family of directed out-tree graphs which leads to
+efficient Bayesian inference. The latent likelihood of the data and its
+gradients are computable in closed form via Tutte's directed matrix tree
+theorem using determinants and inverses of the out-Laplacian. This novel
+likelihood subsumes iid likelihood, is exchangeable and yields efficient
+unsupervised and semi-supervised learning algorithms. In addition to handling
+taxonomy and phylogenetic datasets the out-tree assumption performs
+surprisingly well as a semi-parametric density estimator on standard iid
+datasets. Experiments with unsupervised and semisupervised learning are shown
+on various UCI and taxonomy datasets.

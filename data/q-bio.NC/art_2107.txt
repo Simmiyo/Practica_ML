@@ -1,0 +1,28 @@
+On stochastic differential equation models for ion channel noise in
+  Hodgkin-Huxley neurons
+The random transitions of ion channels between conducting and non-conducting
+states generate a source of internal fluctuations in a neuron, known as channel
+noise. The standard method for modeling fluctuations in the states of ion
+channels uses continuous-time Markov chains nonlinearly coupled to a
+differential equation for voltage. Beginning with the work of Fox and Lu, there
+have been attempts to generate simpler models that use stochastic differential
+equation (SDEs) to approximate the stochastic spiking activity produced by
+Markov chain models. Recent numerical investigations, however, have raised
+doubts that SDE models can preserve the stochastic dynamics of Markov chain
+models.
+  We analyze three SDE models that have been proposed as approximations to the
+Markov chain model: one that describes the states of the ion channels and two
+that describe the states of the ion channel subunits. We show that the former
+channel-based approach can capture the distribution of channel noise and its
+effect on spiking in a Hodgkin-Huxley neuron model to a degree not previously
+demonstrated, but the latter two subunit-based approaches cannot. Our analysis
+provides intuitive and mathematical explanations for why this is the case: the
+temporal correlation in the channel noise is determined by the combinatorics of
+bundling subunits into channels, and the subunit-based approaches do not
+correctly account for this structure. Our study therefore confirms and
+elucidates the findings of previous numerical investigations of subunit-based
+SDE models. Moreover, it presents the first evidence that Markov chain models
+of the nonlinear, stochastic dynamics of neural membranes can be accurately
+approximated by SDEs. This finding opens a door to future modeling work using
+SDE techniques to further illuminate the effects of ion channel fluctuations on
+electrically active cells.

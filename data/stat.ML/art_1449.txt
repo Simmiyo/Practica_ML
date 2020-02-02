@@ -1,0 +1,11 @@
+Fully adaptive algorithm for pure exploration in linear bandits
+We propose the first fully-adaptive algorithm for pure exploration in linear
+bandits---the task to find the arm with the largest expected reward, which
+depends on an unknown parameter linearly. While existing methods partially or
+entirely fix sequences of arm selections before observing rewards, our method
+adaptively changes the arm selection strategy based on past observations at
+each round. We show our sample complexity matches the achievable lower bound up
+to a constant factor in an extreme case. Furthermore, we evaluate the
+performance of the methods by simulations based on both synthetic setting and
+real-world data, in which our method shows vast improvement over existing
+methods.

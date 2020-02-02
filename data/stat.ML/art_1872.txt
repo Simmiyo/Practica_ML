@@ -1,0 +1,14 @@
+Generalized Fisher Score for Feature Selection
+Fisher score is one of the most widely used supervised feature selection
+methods. However, it selects each feature independently according to their
+scores under the Fisher criterion, which leads to a suboptimal subset of
+features. In this paper, we present a generalized Fisher score to jointly
+select features. It aims at finding an subset of features, which maximize the
+lower bound of traditional Fisher score. The resulting feature selection
+problem is a mixed integer programming, which can be reformulated as a
+quadratically constrained linear programming (QCLP). It is solved by cutting
+plane algorithm, in each iteration of which a multiple kernel learning problem
+is solved alternatively by multivariate ridge regression and projected gradient
+descent. Experiments on benchmark data sets indicate that the proposed method
+outperforms Fisher score as well as many other state-of-the-art feature
+selection methods.

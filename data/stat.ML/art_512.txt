@@ -1,0 +1,18 @@
+Inference for Sparse Conditional Precision Matrices
+Given $n$ i.i.d. observations of a random vector $(X,Z)$, where $X$ is a
+high-dimensional vector and $Z$ is a low-dimensional index variable, we study
+the problem of estimating the conditional inverse covariance matrix $\Omega(z)
+= (E[(X-E[X \mid Z])(X-E[X \mid Z])^T \mid Z=z])^{-1}$ under the assumption
+that the set of non-zero elements is small and does not depend on the index
+variable. We develop a novel procedure that combines the ideas of the local
+constant smoothing and the group Lasso for estimating the conditional inverse
+covariance matrix. A proximal iterative smoothing algorithm is used to solve
+the corresponding convex optimization problems. We prove that our procedure
+recovers the conditional independence assumptions of the distribution $X \mid
+Z$ with high probability. This result is established by developing a uniform
+deviation bound for the high-dimensional conditional covariance matrix from its
+population counterpart, which may be of independent interest. Furthermore, we
+develop point-wise confidence intervals for individual elements of the
+conditional inverse covariance matrix. We perform extensive simulation studies,
+in which we demonstrate that our proposed procedure outperforms sensible
+competitors. We illustrate our proposal on a S&P 500 stock price data set.

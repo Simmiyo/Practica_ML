@@ -1,0 +1,25 @@
+Critique of the Fox-Lu model for Hodgkin-Huxley fluctuations in neuron
+  ion channels
+Using a well known result that every FP equation has an antecedent Langevin
+equation LE Fox and Lu proposed such a description for ion channels in 1994.
+Their contraction followed the works of van Kampen and of T. Kurtz. The
+contraction produces a diffusion term with a state dependent diffusion matrix,
+D, that arises from the coupling matrix, S, in the LE. This S connected the
+noise terms to the channel subunit variables in the LE. Fox and Lu and many
+others later on observed that SS = D. Since D was determined by the contraction
+of the MC equations into the FP equation, this left the problem of determining
+the square root matrix, S, for every time step of the simulation. Since this is
+time consuming, Fox and Lu introduced simplified models not requiring the
+square root of a matrix. Subsequently, numerous studies were published that
+showed the several shortcomings of these simplified models. In 2011, Goldwyn et
+al. [6] rediscovered the overlooked original matrix dependent approach in the
+Fox-Lu 1994 paper. They showed that it produced results in very good agreement
+with the MC results. In 1991, Fox and Keizer [7] wrote a paper on an unrelated
+topic that utilized the work of van Kampen and of Kurtz. In that work the
+connection between D and S is SST = D. ST is the adjoint (transpose) of S. D
+remains a positive definite symmetric matrix but S need not be. Fox has
+reproduced the 2012 results of Orio and Soudry for potassium channels and has
+also found in closed form the solution for the more complicated sodium
+channels. The square root problem generally must be done numerically, but the
+Cholesky is always doable in closed form. Thereby the S matrix for sodium is
+given explicitly for the first time in this paper

@@ -1,0 +1,18 @@
+Backward Renormalization Priors and the Cortical Source Localization
+  Problem with EEG or MEG
+We study source localization from high dimensional M/EEG data by extending a
+multiscale method based on Entropic inference devised to increase the spatial
+resolution of inverse problems. This method is used to construct informative
+prior distributions in a manner inspired in the context of fMRI (Amaral et al
+2004). We construct a set of renormalized lattices that approximate the cortex
+region where the source activity is located and address the related problem of
+defining the relevant variables in a coarser scale representation of the
+cortex. The priors can be used in conjunction with other Bayesian methods such
+as the Variational Bayes method (VB, Sato et al 2004). The central point of the
+algorithm is that it uses a posterior obtained at a coarse scale to induce a
+prior at the next finer scale stage of the problem. We present results which
+suggest, on simulated data, that this way of including prior information is a
+useful aid for the source location problem. This is judged by the rate and
+magnitude of errors in source localization. Better convergence times are also
+achieved. We also present results on public data collected during a face
+recognition task.

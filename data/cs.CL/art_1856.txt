@@ -1,0 +1,13 @@
+Brundlefly at SemEval-2016 Task 12: Recurrent Neural Networks vs. Joint
+  Inference for Clinical Temporal Information Extraction
+We submitted two systems to the SemEval-2016 Task 12: Clinical TempEval
+challenge, participating in Phase 1, where we identified text spans of time and
+event expressions in clinical notes and Phase 2, where we predicted a relation
+between an event and its parent document creation time.
+  For temporal entity extraction, we find that a joint inference-based approach
+using structured prediction outperforms a vanilla recurrent neural network that
+incorporates word embeddings trained on a variety of large clinical document
+sets. For document creation time relations, we find that a combination of date
+canonicalization and distant supervision rules for predicting relations on both
+events and time expressions improves classification, though gains are limited,
+likely due to the small scale of training data.

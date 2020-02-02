@@ -1,0 +1,24 @@
+Inferring Regulatory Networks by Combining Perturbation Screens and
+  Steady State Gene Expression Profiles
+Reconstructing transcriptional regulatory networks is an important task in
+functional genomics. Data obtained from experiments that perturb genes by
+knockouts or RNA interference contain useful information for addressing this
+reconstruction problem. However, such data can be limited in size and/or are
+expensive to acquire. On the other hand, observational data of the organism in
+steady state (e.g. wild-type) are more readily available, but their
+informational content is inadequate for the task at hand. We develop a
+computational approach to appropriately utilize both data sources for
+estimating a regulatory network. The proposed approach is based on a three-step
+algorithm to estimate the underlying directed but cyclic network, that uses as
+input both perturbation screens and steady state gene expression data. In the
+first step, the algorithm determines causal orderings of the genes that are
+consistent with the perturbation data, by combining an exhaustive search method
+with a fast heuristic that in turn couples a Monte Carlo technique with a fast
+search algorithm. In the second step, for each obtained causal ordering, a
+regulatory network is estimated using a penalized likelihood based method,
+while in the third step a consensus network is constructed from the highest
+scored ones. Extensive computational experiments show that the algorithm
+performs well in reconstructing the underlying network and clearly outperforms
+competing approaches that rely only on a single data source. Further, it is
+established that the algorithm produces a consistent estimate of the regulatory
+network.

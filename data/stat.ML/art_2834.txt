@@ -1,0 +1,19 @@
+Simultaneous sparse estimation of canonical vectors in the p>>N setting
+This article considers the problem of sparse estimation of canonical vectors
+in linear discriminant analysis when $p\gg N$. Several methods have been
+proposed in the literature that estimate one canonical vector in the two-group
+case. However, $G-1$ canonical vectors can be considered if the number of
+groups is $G$. In the multi-group context, it is common to estimate canonical
+vectors in a sequential fashion. Moreover, separate prior estimation of the
+covariance structure is often required. We propose a novel methodology for
+direct estimation of canonical vectors. In contrast to existing techniques, the
+proposed method estimates all canonical vectors at once, performs variable
+selection across all the vectors and comes with theoretical guarantees on the
+variable selection and classification consistency. First, we highlight the fact
+that in the $N>p$ setting the canonical vectors can be expressed in a closed
+form up to an orthogonal transformation. Secondly, we propose an extension of
+this form to the $p\gg N$ setting and achieve feature selection by using a
+group penalty. The resulting optimization problem is convex and can be solved
+using a block-coordinate descent algorithm. The practical performance of the
+method is evaluated through simulation studies as well as real data
+applications.

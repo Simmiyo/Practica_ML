@@ -1,0 +1,13 @@
+Loss-sensitive Training of Probabilistic Conditional Random Fields
+We consider the problem of training probabilistic conditional random fields
+(CRFs) in the context of a task where performance is measured using a specific
+loss function. While maximum likelihood is the most common approach to training
+CRFs, it ignores the inherent structure of the task's loss function. We
+describe alternatives to maximum likelihood which take that loss into account.
+These include a novel adaptation of a loss upper bound from the structured SVMs
+literature to the CRF context, as well as a new loss-inspired KL divergence
+objective which relies on the probabilistic nature of CRFs. These
+loss-sensitive objectives are compared to maximum likelihood using ranking as a
+benchmark task. This comparison confirms the importance of incorporating loss
+information in the probabilistic training of CRFs, with the loss-inspired KL
+outperforming all other objectives.

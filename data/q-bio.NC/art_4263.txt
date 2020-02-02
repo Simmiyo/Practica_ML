@@ -1,0 +1,15 @@
+Detection of dependence patterns with delay
+The Unitary Events (UE) method is a popular and efficient method used this
+last decade to detect dependence patterns of joint spike activity among
+simultaneously recorded neurons. The first introduced method is based on binned
+coincidence count \citep{Grun1996} and can be applied on two or more
+simultaneously recorded neurons. Among the improvements of the methods, a
+transposition to the continuous framework has recently been proposed in
+\citep{muino2014frequent} and fully investigated in \citep{MTGAUE} for two
+neurons. The goal of the present paper is to extend this study to more than two
+neurons. The main result is the determination of the limit distribution of the
+coincidence count. This leads to the construction of an independence test
+between $L\geq 2$ neurons. Finally we propose a multiple test procedure via a
+Benjamini and Hochberg approach \citep{Benjamini1995}. All the theoretical
+results are illustrated by a simulation study, and compared to the UE method
+proposed in \citep{Grun2002}. Furthermore our method is applied on real data.

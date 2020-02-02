@@ -1,0 +1,19 @@
+Sparse Coding Predicts Optic Flow Specificities of Zebrafish Pretectal
+  Neurons
+Zebrafish pretectal neurons exhibit specificities for large-field optic flow
+patterns associated with rotatory or translatory body motion. We investigate
+the hypothesis that these specificities reflect the input statistics of natural
+optic flow. Realistic motion sequences were generated using computer graphics
+simulating self-motion in an underwater scene. Local retinal motion was
+estimated with a motion detector and encoded in four populations of
+directionally tuned retinal ganglion cells, represented as two signed input
+variables. This activity was then used as input into one of two learning
+networks: a sparse coding network (competitive learning) and backpropagation
+network (supervised learning). Both simulations develop specificities for optic
+flow which are comparable to those found in a neurophysiological study (Kubo et
+al. 2014), and relative frequencies of the various neuronal responses are best
+modeled by the sparse coding approach. We conclude that the optic flow neurons
+in the zebrafish pretectum do reflect the optic flow statistics. The predicted
+vectorial receptive fields show typical optic flow fields but also "Gabor" and
+dipole-shaped patterns that likely reflect difference fields needed for
+reconstruction by linear superposition.

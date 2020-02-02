@@ -1,0 +1,21 @@
+Proximal Methods for Hierarchical Sparse Coding
+Sparse coding consists in representing signals as sparse linear combinations
+of atoms selected from a dictionary. We consider an extension of this framework
+where the atoms are further assumed to be embedded in a tree. This is achieved
+using a recently introduced tree-structured sparse regularization norm, which
+has proven useful in several applications. This norm leads to regularized
+problems that are difficult to optimize, and we propose in this paper efficient
+algorithms for solving them. More precisely, we show that the proximal operator
+associated with this norm is computable exactly via a dual approach that can be
+viewed as the composition of elementary proximal operators. Our procedure has a
+complexity linear, or close to linear, in the number of atoms, and allows the
+use of accelerated gradient techniques to solve the tree-structured sparse
+approximation problem at the same computational cost as traditional ones using
+the L1-norm. Our method is efficient and scales gracefully to millions of
+variables, which we illustrate in two types of applications: first, we consider
+fixed hierarchical dictionaries of wavelets to denoise natural images. Then, we
+apply our optimization tools in the context of dictionary learning, where
+learned dictionary elements naturally organize in a prespecified arborescent
+structure, leading to a better performance in reconstruction of natural image
+patches. When applied to text documents, our method learns hierarchies of
+topics, thus providing a competitive alternative to probabilistic topic models.

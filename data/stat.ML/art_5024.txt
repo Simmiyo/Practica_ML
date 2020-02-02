@@ -1,0 +1,26 @@
+Sequential Ensemble Learning for Outlier Detection: A Bias-Variance
+  Perspective
+Ensemble methods for classification and clustering have been effectively used
+for decades, while ensemble learning for outlier detection has only been
+studied recently. In this work, we design a new ensemble approach for outlier
+detection in multi-dimensional point data, which provides improved accuracy by
+reducing error through both bias and variance. Although classification and
+outlier detection appear as different problems, their theoretical underpinnings
+are quite similar in terms of the bias-variance trade-off [1], where outlier
+detection is considered as a binary classification task with unobserved labels
+but a similar bias-variance decomposition of error.
+  In this paper, we propose a sequential ensemble approach called CARE that
+employs a two-phase aggregation of the intermediate results in each iteration
+to reach the final outcome. Unlike existing outlier ensembles which solely
+incorporate a parallel framework by aggregating the outcomes of independent
+base detectors to reduce variance, our ensemble incorporates both the parallel
+and sequential building blocks to reduce bias as well as variance by ($i$)
+successively eliminating outliers from the original dataset to build a better
+data model on which outlierness is estimated (sequentially), and ($ii$)
+combining the results from individual base detectors and across iterations
+(parallelly). Through extensive experiments on sixteen real-world datasets
+mainly from the UCI machine learning repository [2], we show that CARE performs
+significantly better than or at least similar to the individual baselines. We
+also compare CARE with the state-of-the-art outlier ensembles where it also
+provides significant improvement when it is the winner and remains close
+otherwise.

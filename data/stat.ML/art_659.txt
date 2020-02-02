@@ -1,0 +1,10 @@
+Matrix Factorisation with Linear Filters
+This text investigates relations between two well-known family of algorithms,
+matrix factorisations and recursive linear filters, by describing a
+probabilistic model in which approximate inference corresponds to a matrix
+factorisation algorithm. Using the probabilistic model, we derive a matrix
+factorisation algorithm as a recursive linear filter. More precisely, we derive
+a matrix-variate recursive linear filter in order to perform efficient
+inference in high dimensions. We also show that it is possible to interpret our
+algorithm as a nontrivial stochastic gradient algorithm. Demonstrations and
+comparisons on an image restoration task are given.

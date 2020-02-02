@@ -1,0 +1,25 @@
+Large-scale validation of an automatic EEG arousal detection algorithm
+  using different heterogeneous databases
+$\textbf{Objective}$: To assess the validity of an automatic EEG arousal
+detection algorithm using large patient samples and different heterogeneous
+databases
+  $\textbf{Methods}$: Automatic scorings were confronted with results from
+human expert scorers on a total of 2768 full-night PSG recordings obtained from
+two different databases. Of them, 472 recordings were obtained during clinical
+routine at our sleep center and were subdivided into two subgroups of 220
+(HMC-S) and 252 (HMC-M) recordings each, attending to the procedure followed by
+the clinical expert during the visual review (semi-automatic or purely manual,
+respectively). In addition, 2296 recordings from the public SHHS-2 database
+were evaluated against the respective manual expert scorings.
+  $\textbf{Results}$: Event-by-event epoch-based validation resulted in an
+overall Cohen kappa agreement K = 0.600 (HMC-S), 0.559 (HMC-M), and 0.573
+(SHHS-2). Estimated inter-scorer variability on the datasets was, respectively,
+K = 0.594, 0.561 and 0.543. Analyses of the corresponding Arousal Index scores
+showed associated automatic-human repeatability indices ranging in 0.693-0.771
+(HMC-S), 0.646-0.791 (HMC-M), and 0.759-0.791 (SHHS-2).
+  $\textbf{Conclusions}$: Large-scale validation of our automatic EEG arousal
+detector on different databases has shown robust performance and good
+generalization results comparable to the expected levels of human agreement.
+Special emphasis has been put on allowing reproducibility of the results and
+implementation of our method has been made accessible online as open source
+code

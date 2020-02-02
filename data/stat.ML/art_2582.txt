@@ -1,0 +1,12 @@
+Fast Simultaneous Training of Generalized Linear Models (FaSTGLZ)
+We present an efficient algorithm for simultaneously training sparse
+generalized linear models across many related problems, which may arise from
+bootstrapping, cross-validation and nonparametric permutation testing. Our
+approach leverages the redundancies across problems to obtain significant
+computational improvements relative to solving the problems sequentially by a
+conventional algorithm. We demonstrate our fast simultaneous training of
+generalized linear models (FaSTGLZ) algorithm on a number of real-world
+datasets, and we run otherwise computationally intensive bootstrapping and
+permutation test analyses that are typically necessary for obtaining
+statistically rigorous classification results and meaningful interpretation.
+Code is freely available at http://liinc.bme.columbia.edu/fastglz.

@@ -1,0 +1,18 @@
+Stability Enhanced Large-Margin Classifier Selection
+Stability is an important aspect of a classification procedure because
+unstable predictions can potentially reduce users' trust in a classification
+system and also harm the reproducibility of scientific conclusions. The major
+goal of our work is to introduce a novel concept of classification instability,
+i.e., decision boundary instability (DBI), and incorporate it with the
+generalization error (GE) as a standard for selecting the most accurate and
+stable classifier. Specifically, we implement a two-stage algorithm: (i)
+initially select a subset of classifiers whose estimated GEs are not
+significantly different from the minimal estimated GE among all the candidate
+classifiers; (ii) the optimal classifier is chosen as the one achieving the
+minimal DBI among the subset selected in stage (i). This general selection
+principle applies to both linear and nonlinear classifiers. Large-margin
+classifiers are used as a prototypical example to illustrate the above idea.
+Our selection method is shown to be consistent in the sense that the optimal
+classifier simultaneously achieves the minimal GE and the minimal DBI. Various
+simulations and real examples further demonstrate the advantage of our method
+over several alternative approaches.

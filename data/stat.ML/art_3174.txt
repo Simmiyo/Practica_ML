@@ -1,0 +1,12 @@
+Random Bits Regression: a Strong General Predictor for Big Data
+To improve accuracy and speed of regressions and classifications, we present
+a data-based prediction method, Random Bits Regression (RBR). This method first
+generates a large number of random binary intermediate/derived features based
+on the original input matrix, and then performs regularized linear/logistic
+regression on those intermediate/derived features to predict the outcome.
+Benchmark analyses on a simulated dataset, UCI machine learning repository
+datasets and a GWAS dataset showed that RBR outperforms other popular methods
+in accuracy and robustness. RBR (available on
+https://sourceforge.net/projects/rbr/) is very fast and requires reasonable
+memories, therefore, provides a strong, robust and fast predictor in the big
+data era.

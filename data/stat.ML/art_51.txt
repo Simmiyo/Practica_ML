@@ -1,0 +1,13 @@
+Empirical Bernstein Bounds and Sample Variance Penalization
+We give improved constants for data dependent and variance sensitive
+confidence bounds, called empirical Bernstein bounds, and extend these
+inequalities to hold uniformly over classes of functionswhose growth function
+is polynomial in the sample size n. The bounds lead us to consider sample
+variance penalization, a novel learning method which takes into account the
+empirical variance of the loss function. We give conditions under which sample
+variance penalization is effective. In particular, we present a bound on the
+excess risk incurred by the method. Using this, we argue that there are
+situations in which the excess risk of our method is of order 1/n, while the
+excess risk of empirical risk minimization is of order 1/sqrt/{n}. We show some
+experimental results, which confirm the theory. Finally, we discuss the
+potential application of our results to sample compression schemes.

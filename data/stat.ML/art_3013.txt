@@ -1,0 +1,13 @@
+Parallel and Distributed Block-Coordinate Frank-Wolfe Algorithms
+We develop parallel and distributed Frank-Wolfe algorithms; the former on
+shared memory machines with mini-batching, and the latter in a delayed update
+framework. Whenever possible, we perform computations asynchronously, which
+helps attain speedups on multicore machines as well as in distributed
+environments. Moreover, instead of worst-case bounded delays, our methods only
+depend (mildly) on \emph{expected} delays, allowing them to be robust to
+stragglers and faulty worker threads. Our algorithms assume block-separable
+constraints, and subsume the recent Block-Coordinate Frank-Wolfe (BCFW)
+method~\citep{lacoste2013block}. Our analysis reveals problem-dependent
+quantities that govern the speedups of our methods over BCFW. We present
+experiments on structural SVM and Group Fused Lasso, obtaining significant
+speedups over competing state-of-the-art (and synchronous) methods.

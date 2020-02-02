@@ -1,0 +1,11 @@
+Bootstrapping a Tagged Corpus through Combination of Existing
+  Heterogeneous Taggers
+This paper describes a new method, Combi-bootstrap, to exploit existing
+taggers and lexical resources for the annotation of corpora with new tagsets.
+Combi-bootstrap uses existing resources as features for a second level machine
+learning module, that is trained to make the mapping to the new tagset on a
+very small sample of annotated corpus material. Experiments show that
+Combi-bootstrap: i) can integrate a wide variety of existing resources, and ii)
+achieves much higher accuracy (up to 44.7 % error reduction) than both the best
+single tagger and an ensemble tagger constructed out of the same small training
+sample.

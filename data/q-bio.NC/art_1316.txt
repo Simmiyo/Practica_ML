@@ -1,0 +1,22 @@
+Relation between firing statistics of spiking neuron with delayed fast
+  inhibitory feedback and without feedback
+We consider a class of spiking neuronal models, defined by a set of
+conditions typical for basic threshold-type models, such as the leaky
+integrate-and-fire or the binding neuron model and also for some artificial
+neurons. A neuron is fed with a Poisson process. Each output impulse is applied
+to the neuron itself after a finite delay $\Delta$. This impulse acts as being
+delivered through a fast Cl-type inhibitory synapse. We derive a general
+relation which allows calculating exactly the probability density function
+(pdf) $p(t)$ of output interspike intervals of a neuron with feedback based on
+known pdf $p^0(t)$ for the same neuron without feedback and on the properties
+of the feedback line (the $\Delta$ value). Similar relations between
+corresponding moments are derived. Furthermore, we prove that initial segment
+of pdf $p^0(t)$ for a neuron with a fixed threshold level is the same for any
+neuron satisfying the imposed conditions and is completely determined by the
+input stream. For the Poisson input stream, we calculate that initial segment
+exactly and, based on it, obtain exactly the initial segment of pdf $p(t)$ for
+a neuron with feedback. That is the initial segment of $p(t)$ is
+model-independent as well. The obtained expressions are checked by means of
+Monte Carlo simulation. The course of $p(t)$ has a pronounced peculiarity,
+which makes it impossible to approximate $p(t)$ by Poisson or another simple
+stochastic process.

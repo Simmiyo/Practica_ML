@@ -1,0 +1,13 @@
+Filter Out High Frequency Noise in EEG Data Using The Method of Maximum
+  Entropy
+We propose a maximum entropy (ME) based approach to smooth noise not only in
+data but also to noise amplified by second order derivative calculation of the
+data especially for electroencephalography (EEG) studies. The approach includes
+two steps, applying method of ME to generate a family of filters and minimizing
+noise variance after applying these filters on data selects the preferred one
+within the family. We examine performance of the ME filter through frequency
+and noise variance analysis and compare it with other well known filters
+developed in the EEG studies. The results show the ME filters to outperform
+others. Although we only demonstrate a filter design especially for second
+order derivative of EEG data, these studies still shed an informatic approach
+of systematically designing a filter for specific purposes.

@@ -1,0 +1,17 @@
+Gaussian Process Classification with Privileged Information by
+  Soft-to-Hard Labeling Transfer
+Learning using privileged information is an attractive problem setting that
+helps many learning scenarios in the real world. A state-of-the-art method of
+Gaussian process classification (GPC) with privileged information is GPC+,
+which incorporates privileged information into a noise term of the likelihood.
+A drawback of GPC+ is that it requires numerical quadrature to calculate the
+posterior distribution of the latent function, which is extremely
+time-consuming. To overcome this limitation, we propose a novel classification
+method with privileged information based on Gaussian processes, called
+"soft-label-transferred Gaussian process (SLT-GP)." Our basic idea is that we
+construct another learning task of predicting soft labels (continuous values)
+obtained from privileged information and we perform transfer learning from this
+task to the target task of predicting hard labels. We derive a PAC-Bayesian
+bound of our proposed method, which justifies optimizing hyperparameters by the
+empirical Bayes method. We also experimentally show the usefulness of our
+proposed method compared with GPC and GPC+.

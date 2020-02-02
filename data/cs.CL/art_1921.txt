@@ -1,0 +1,14 @@
+A Data-Driven Approach for Semantic Role Labeling from Induced Grammar
+  Structures in Language
+Semantic roles play an important role in extracting knowledge from text.
+Current unsupervised approaches utilize features from grammar structures, to
+induce semantic roles. The dependence on these grammars, however, makes it
+difficult to adapt to noisy and new languages. In this paper we develop a
+data-driven approach to identifying semantic roles, the approach is entirely
+unsupervised up to the point where rules need to be learned to identify the
+position the semantic role occurs. Specifically we develop a modified-ADIOS
+algorithm based on ADIOS Solan et al. (2005) to learn grammar structures, and
+use these grammar structures to learn the rules for identifying the semantic
+roles based on the context in which the grammar structures appeared. The
+results obtained are comparable with the current state-of-art models that are
+inherently dependent on human annotated data.

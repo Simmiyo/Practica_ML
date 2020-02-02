@@ -1,0 +1,18 @@
+Revisiting the poverty of the stimulus: hierarchical generalization
+  without a hierarchical bias in recurrent neural networks
+Syntactic rules in natural language typically need to make reference to
+hierarchical sentence structure. However, the simple examples that language
+learners receive are often equally compatible with linear rules. Children
+consistently ignore these linear explanations and settle instead on the correct
+hierarchical one. This fact has motivated the proposal that the learner's
+hypothesis space is constrained to include only hierarchical rules. We examine
+this proposal using recurrent neural networks (RNNs), which are not constrained
+in such a way. We simulate the acquisition of question formation, a
+hierarchical transformation, in a fragment of English. We find that some RNN
+architectures tend to learn the hierarchical rule, suggesting that hierarchical
+cues within the language, combined with the implicit architectural biases
+inherent in certain RNNs, may be sufficient to induce hierarchical
+generalizations. The likelihood of acquiring the hierarchical generalization
+increased when the language included an additional cue to hierarchy in the form
+of subject-verb agreement, underscoring the role of cues to hierarchy in the
+learner's input.

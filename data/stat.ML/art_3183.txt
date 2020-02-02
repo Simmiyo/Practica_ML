@@ -1,0 +1,19 @@
+Exploiting Big Data in Logistics Risk Assessment via Bayesian
+  Nonparametrics
+In cargo logistics, a key performance measure is transport risk, defined as
+the deviation of the actual arrival time from the planned arrival time. Neither
+earliness nor tardiness is desirable for customer and freight forwarders. In
+this paper, we investigate ways to assess and forecast transport risks using a
+half-year of air cargo data, provided by a leading forwarder on 1336 routes
+served by 20 airlines. Interestingly, our preliminary data analysis shows a
+strong multimodal feature in the transport risks, driven by unobserved events,
+such as cargo missing flights. To accommodate this feature, we introduce a
+Bayesian nonparametric model -- the probit stick-breaking process (PSBP)
+mixture model -- for flexible estimation of the conditional (i.e.,
+state-dependent) density function of transport risk. We demonstrate that using
+simpler methods, such as OLS linear regression, can lead to misleading
+inferences. Our model provides a tool for the forwarder to offer customized
+price and service quotes. It can also generate baseline airline performance to
+enable fair supplier evaluation. Furthermore, the method allows us to separate
+recurrent risks from disruption risks. This is important, because hedging
+strategies for these two kinds of risks are often drastically different.

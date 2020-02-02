@@ -1,0 +1,15 @@
+Byte-Level Recursive Convolutional Auto-Encoder for Text
+This article proposes to auto-encode text at byte-level using convolutional
+networks with a recursive architecture. The motivation is to explore whether it
+is possible to have scalable and homogeneous text generation at byte-level in a
+non-sequential fashion through the simple task of auto-encoding. We show that
+non-sequential text generation from a fixed-length representation is not only
+possible, but also achieved much better auto-encoding results than recurrent
+networks. The proposed model is a multi-stage deep convolutional
+encoder-decoder framework using residual connections, containing up to 160
+parameterized layers. Each encoder or decoder contains a shared group of
+modules that consists of either pooling or upsampling layers, making the
+network recursive in terms of abstraction levels in representation. Results for
+6 large-scale paragraph datasets are reported, in 3 languages including Arabic,
+Chinese and English. Analyses are conducted to study several properties of the
+proposed model.

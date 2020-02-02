@@ -1,0 +1,12 @@
+Semi-supervised Tuning from Temporal Coherence
+Recent works demonstrated the usefulness of temporal coherence to regularize
+supervised training or to learn invariant features with deep architectures. In
+particular, enforcing smooth output changes while presenting temporally-closed
+frames from video sequences, proved to be an effective strategy. In this paper
+we prove the efficacy of temporal coherence for semi-supervised incremental
+tuning. We show that a deep architecture, just mildly trained in a supervised
+manner, can progressively improve its classification accuracy, if exposed to
+video sequences of unlabeled data. The extent to which, in some cases, a
+semi-supervised tuning allows to improve classification accuracy (approaching
+the supervised one) is somewhat surprising. A number of control experiments
+pointed out the fundamental role of temporal coherence.

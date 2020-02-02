@@ -1,0 +1,25 @@
+Nonoptimal Component Placement, but Short Processing Paths, due to
+  Long-Distance Projections in Neural Systems
+It has been suggested that neural systems across several scales of
+organization show optimal component placement, in which any spatial
+rearrangement of the components would lead to an increase of total wiring.
+Using extensive connectivity datasets for diverse neural networks combined with
+spatial coordinates for network nodes, we applied an optimization algorithm to
+the network layouts, in order to search for wire-saving component
+rearrangements. We found that optimized component rearrangements could
+substantially reduce total wiring length in all tested neural networks.
+Specifically, total wiring among 95 primate (Macaque) cortical areas could be
+decreased by 32%, and wiring of neuronal networks in the nematode
+Caenorhabditis elegans could be reduced by 48% on the global level, and by 49%
+for neurons within frontal ganglia. Wiring length reductions were possible due
+to the existence of long-distance projections in neural networks. We explored
+the role of these projections by comparing the original networks with minimally
+rewired networks of the same size, which possessed only the shortest possible
+connections. In the minimally rewired networks, the number of processing steps
+along the shortest paths between components was significantly increased
+compared to the original networks. Additional benchmark comparisons also
+indicated that neural networks are more similar to network layouts that
+minimize the length of processing paths, rather than wiring length. These
+findings suggest that neural systems are not exclusively optimized for minimal
+global wiring, but for a variety of factors including the minimization of
+processing steps.

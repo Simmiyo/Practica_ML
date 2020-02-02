@@ -1,0 +1,11 @@
+A non-parametric mixture model for topic modeling over time
+A single, stationary topic model such as latent Dirichlet allocation is
+inappropriate for modeling corpora that span long time periods, as the
+popularity of topics is likely to change over time. A number of models that
+incorporate time have been proposed, but in general they either exhibit limited
+forms of temporal variation, or require computationally expensive inference
+methods. In this paper we propose non-parametric Topics over Time (npTOT), a
+model for time-varying topics that allows an unbounded number of topics and
+exible distribution over the temporal variations in those topics' popularity.
+We develop a collapsed Gibbs sampler for the proposed model and compare against
+existing models on synthetic and real document sets.

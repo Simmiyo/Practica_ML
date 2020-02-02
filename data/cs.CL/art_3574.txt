@@ -1,0 +1,18 @@
+Incorporating Word Embeddings into Open Directory Project based
+  Large-scale Classification
+Recently, implicit representation models, such as embedding or deep learning,
+have been successfully adopted to text classification task due to their
+outstanding performance. However, these approaches are limited to small- or
+moderate-scale text classification. Explicit representation models are often
+used in a large-scale text classification, like the Open Directory Project
+(ODP)-based text classification. However, the performance of these models is
+limited to the associated knowledge bases. In this paper, we incorporate word
+embeddings into the ODP-based large-scale classification. To this end, we first
+generate category vectors, which represent the semantics of ODP categories by
+jointly modeling word embeddings and the ODP-based text classification. We then
+propose a novel semantic similarity measure, which utilizes the category and
+word vectors obtained from the joint model and word embeddings, respectively.
+The evaluation results clearly show the efficacy of our methodology in
+large-scale text classification. The proposed scheme exhibits significant
+improvements of 10% and 28% in terms of macro-averaging F1-score and precision
+at k, respectively, over state-of-the-art techniques.

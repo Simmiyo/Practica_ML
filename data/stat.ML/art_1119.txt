@@ -1,0 +1,19 @@
+Geometric adaptive Monte Carlo in random environment
+Manifold Markov chain Monte Carlo algorithms have been introduced to sample
+more effectively from challenging target densities exhibiting multiple modes or
+strong correlations. Such algorithms exploit the local geometry of the
+parameter space, thus enabling chains to achieve a faster convergence rate when
+measured in number of steps. However, acquiring local geometric information can
+often increase computational complexity per step to the extent that sampling
+from high-dimensional targets becomes inefficient in terms of total
+computational time. This paper analyzes the computational complexity of
+manifold Langevin Monte Carlo and proposes a geometric adaptive Monte Carlo
+sampler aimed at balancing the benefits of exploiting local geometry with
+computational cost to achieve a high effective sample size for a given
+computational cost. The suggested sampler is a discrete-time stochastic process
+in random environment. The random environment allows to switch between local
+geometric and adaptive proposal kernels with the help of a schedule. An
+exponential schedule is put forward that enables more frequent use of geometric
+information in early transient phases of the chain, while saving computational
+time in late stationary phases. The average complexity can be manually set
+depending on the need for geometric exploitation posed by the underlying model.

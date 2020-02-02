@@ -1,0 +1,11 @@
+Spectral Clustering using PCKID - A Probabilistic Cluster Kernel for
+  Incomplete Data
+In this paper, we propose PCKID, a novel, robust, kernel function for
+spectral clustering, specifically designed to handle incomplete data. By
+combining posterior distributions of Gaussian Mixture Models for incomplete
+data on different scales, we are able to learn a kernel for incomplete data
+that does not depend on any critical hyperparameters, unlike the commonly used
+RBF kernel. To evaluate our method, we perform experiments on two real
+datasets. PCKID outperforms the baseline methods for all fractions of missing
+values and in some cases outperforms the baseline methods with up to 25
+percentage points.

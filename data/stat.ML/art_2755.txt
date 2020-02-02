@@ -1,0 +1,15 @@
+Excess Risk Bounds for Exponentially Concave Losses
+The overarching goal of this paper is to derive excess risk bounds for
+learning from exp-concave loss functions in passive and sequential learning
+settings. Exp-concave loss functions encompass several fundamental problems in
+machine learning such as squared loss in linear regression, logistic loss in
+classification, and negative logarithm loss in portfolio management. In batch
+setting, we obtain sharp bounds on the performance of empirical risk
+minimization performed in a linear hypothesis space and with respect to the
+exp-concave loss functions. We also extend the results to the online setting
+where the learner receives the training examples in a sequential manner. We
+propose an online learning algorithm that is a properly modified version of
+online Newton method to obtain sharp risk bounds. Under an additional mild
+assumption on the loss function, we show that in both settings we are able to
+achieve an excess risk bound of $O(d\log n/n)$ that holds with a high
+probability.

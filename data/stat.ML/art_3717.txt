@@ -1,0 +1,9 @@
+Learning optimal nonlinearities for iterative thresholding algorithms
+Iterative shrinkage/thresholding algorithm (ISTA) is a well-studied method
+for finding sparse solutions to ill-posed inverse problems. In this letter, we
+present a data-driven scheme for learning optimal thresholding functions for
+ISTA. The proposed scheme is obtained by relating iterations of ISTA to layers
+of a simple deep neural network (DNN) and developing a corresponding error
+backpropagation algorithm that allows to fine-tune the thresholding functions.
+Simulations on sparse statistical signals illustrate potential gains in
+estimation quality due to the proposed data adaptive ISTA.

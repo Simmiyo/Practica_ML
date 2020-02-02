@@ -1,0 +1,19 @@
+Why do similarity matching objectives lead to Hebbian/anti-Hebbian
+  networks?
+Modeling self-organization of neural networks for unsupervised learning using
+Hebbian and anti-Hebbian plasticity has a long history in neuroscience. Yet,
+derivations of single-layer networks with such local learning rules from
+principled optimization objectives became possible only recently, with the
+introduction of similarity matching objectives. What explains the success of
+similarity matching objectives in deriving neural networks with local learning
+rules? Here, using dimensionality reduction as an example, we introduce several
+variable substitutions that illuminate the success of similarity matching. We
+show that the full network objective may be optimized separately for each
+synapse using local learning rules both in the offline and online settings. We
+formalize the long-standing intuition of the rivalry between Hebbian and
+anti-Hebbian rules by formulating a min-max optimization problem. We introduce
+a novel dimensionality reduction objective using fractional matrix exponents.
+To illustrate the generality of our approach, we apply it to a novel
+formulation of dimensionality reduction combined with whitening. We confirm
+numerically that the networks with learning rules derived from principled
+objectives perform better than those with heuristic learning rules.

@@ -1,0 +1,21 @@
+Sparse-posterior Gaussian Processes for general likelihoods
+Gaussian processes (GPs) provide a probabilistic nonparametric representation
+of functions in regression, classification, and other problems. Unfortunately,
+exact learning with GPs is intractable for large datasets. A variety of
+approximate GP methods have been proposed that essentially map the large
+dataset into a small set of basis points. Among them, two state-of-the-art
+methods are sparse pseudo-input Gaussian process (SPGP) (Snelson and
+Ghahramani, 2006) and variablesigma GP (VSGP) Walder et al. (2008), which
+generalizes SPGP and allows each basis point to have its own length scale.
+However, VSGP was only derived for regression. In this paper, we propose a new
+sparse GP framework that uses expectation propagation to directly approximate
+general GP likelihoods using a sparse and smooth basis. It includes both SPGP
+and VSGP for regression as special cases. Plus as an EP algorithm, it inherits
+the ability to process data online. As a particular choice of approximating
+family, we blur each basis point with a Gaussian distribution that has a full
+covariance matrix representing the data distribution around that basis point;
+as a result, we can summarize local data manifold information with a small set
+of basis points. Our experiments demonstrate that this framework outperforms
+previous GP classification methods on benchmark datasets in terms of minimizing
+divergence to the non-sparse GP solution as well as lower misclassification
+rate.

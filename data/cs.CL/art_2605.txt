@@ -1,0 +1,16 @@
+Density Estimation for Geolocation via Convolutional Mixture Density
+  Network
+Nowadays, geographic information related to Twitter is crucially important
+for fine-grained applications. However, the amount of geographic information
+avail- able on Twitter is low, which makes the pursuit of many applications
+challenging. Under such circumstances, estimating the location of a tweet is an
+important goal of the study. Unlike most previous studies that estimate the
+pre-defined district as the classification task, this study employs a
+probability distribution to represent richer information of the tweet, not only
+the location but also its ambiguity. To realize this modeling, we propose the
+convolutional mixture density network (CMDN), which uses text data to estimate
+the mixture model parameters. Experimentally obtained results reveal that CMDN
+achieved the highest prediction performance among the method for predicting the
+exact coordinates. It also provides a quantitative representation of the
+location ambiguity for each tweet that properly works for extracting the
+reliable location estimations.

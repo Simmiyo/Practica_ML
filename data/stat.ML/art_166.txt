@@ -1,0 +1,13 @@
+Mixtures of conditional Gaussian scale mixtures applied to multiscale
+  image representations
+We present a probabilistic model for natural images which is based on
+Gaussian scale mixtures and a simple multiscale representation. In contrast to
+the dominant approach to modeling whole images focusing on Markov random
+fields, we formulate our model in terms of a directed graphical model. We show
+that it is able to generate images with interesting higher-order correlations
+when trained on natural images or samples from an occlusion based model. More
+importantly, the directed model enables us to perform a principled evaluation.
+While it is easy to generate visually appealing images, we demonstrate that our
+model also yields the best performance reported to date when evaluated with
+respect to the cross-entropy rate, a measure tightly linked to the average
+log-likelihood.

@@ -1,0 +1,21 @@
+Sparse Linear Models applied to Power Quality Disturbance Classification
+Power quality (PQ) analysis describes the non-pure electric signals that are
+usually present in electric power systems. The automatic recognition of PQ
+disturbances can be seen as a pattern recognition problem, in which different
+types of waveform distortion are differentiated based on their features.
+Similar to other quasi-stationary signals, PQ disturbances can be decomposed
+into time-frequency dependent components by using time-frequency or time-scale
+transforms, also known as dictionaries. These dictionaries are used in the
+feature extraction step in pattern recognition systems. Short-time Fourier,
+Wavelets and Stockwell transforms are some of the most common dictionaries used
+in the PQ community, aiming to achieve a better signal representation. To the
+best of our knowledge, previous works about PQ disturbance classification have
+been restricted to the use of one among several available dictionaries. Taking
+advantage of the theory behind sparse linear models (SLM), we introduce a
+sparse method for PQ representation, starting from overcomplete dictionaries.
+In particular, we apply Group Lasso. We employ different types of
+time-frequency (or time-scale) dictionaries to characterize the PQ
+disturbances, and evaluate their performance under different pattern
+recognition algorithms. We show that the SLM reduce the PQ classification
+complexity promoting sparse basis selection, and improving the classification
+accuracy.

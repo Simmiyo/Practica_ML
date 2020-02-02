@@ -1,0 +1,12 @@
+A Recipe for Arabic-English Neural Machine Translation
+In this paper, we present a recipe for building a good Arabic-English neural
+machine translation. We compare neural systems with traditional phrase-based
+systems using various parallel corpora including UN, ISI and Ummah. We also
+investigate the importance of special preprocessing of the Arabic script. The
+presented results are based on test sets from NIST MT 2005 and 2012. The best
+neural system produces a gain of +13 BLEU points compared to an equivalent
+simple phrase-based system in NIST MT12 test set. Unexpectedly, we find that
+tuning a model trained on the whole data using a small high quality corpus like
+Ummah gives a substantial improvement (+3 BLEU points). We also find that
+training a neural system with a small Arabic-English corpus is competitive to a
+traditional phrase-based system.

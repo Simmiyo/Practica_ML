@@ -1,0 +1,11 @@
+Nonstochastic Multi-Armed Bandits with Graph-Structured Feedback
+We present and study a partial-information model of online learning, where a
+decision maker repeatedly chooses from a finite set of actions, and observes
+some subset of the associated losses. This naturally models several situations
+where the losses of different actions are related, and knowing the loss of one
+action provides information on the loss of other actions. Moreover, it
+generalizes and interpolates between the well studied full-information setting
+(where all losses are revealed) and the bandit setting (where only the loss of
+the action chosen by the player is revealed). We provide several algorithms
+addressing different variants of our setting, and provide tight regret bounds
+depending on combinatorial properties of the information feedback structure.

@@ -1,0 +1,25 @@
+metboost: Exploratory regression analysis with hierarchically clustered
+  data
+As data collections become larger, exploratory regression analysis becomes
+more important but more challenging. When observations are hierarchically
+clustered the problem is even more challenging because model selection with
+mixed effect models can produce misleading results when nonlinear effects are
+not included into the model (Bauer and Cai, 2009). A machine learning method
+called boosted decision trees (Friedman, 2001) is a good approach for
+exploratory regression analysis in real data sets because it can detect
+predictors with nonlinear and interaction effects while also accounting for
+missing data. We propose an extension to boosted decision decision trees called
+metboost for hierarchically clustered data. It works by constraining the
+structure of each tree to be the same across groups, but allowing the terminal
+node means to differ. This allows predictors and split points to lead to
+different predictions within each group, and approximates nonlinear group
+specific effects. Importantly, metboost remains computationally feasible for
+thousands of observations and hundreds of predictors that may contain missing
+values. We apply the method to predict math performance for 15,240 students
+from 751 schools in data collected in the Educational Longitudinal Study 2002
+(Ingels et al., 2007), allowing 76 predictors to have unique effects for each
+school. When comparing results to boosted decision trees, metboost has 15%
+improved prediction performance. Results of a large simulation study show that
+metboost has up to 70% improved variable selection performance and up to 30%
+improved prediction performance compared to boosted decision trees when group
+sizes are small

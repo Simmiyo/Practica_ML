@@ -1,0 +1,24 @@
+Causality on Longitudinal Data: Stable Specification Search in
+  Constrained Structural Equation Modeling
+A typical problem in causal modeling is the instability of model structure
+learning, i.e., small changes in finite data can result in completely different
+optimal models. The present work introduces a novel causal modeling algorithm
+for longitudinal data, that is robust for finite samples based on recent
+advances in stability selection using subsampling and selection algorithms. Our
+approach uses exploratory search but allows incorporation of prior knowledge,
+e.g., the absence of a particular causal relationship between two specific
+variables. We represent causal relationships using structural equation models.
+Models are scored along two objectives: the model fit and the model complexity.
+Since both objectives are often conflicting we apply a multi-objective
+evolutionary algorithm to search for Pareto optimal models. To handle the
+instability of small finite data samples, we repeatedly subsample the data and
+select those substructures (from the optimal models) that are both stable and
+parsimonious. These substructures can be visualized through a causal graph. Our
+more exploratory approach achieves at least comparable performance as, but
+often a significant improvement over state-of-the-art alternative approaches on
+a simulated data set with a known ground truth. We also present the results of
+our method on three real-world longitudinal data sets on chronic fatigue
+syndrome, Alzheimer disease, and chronic kidney disease. The findings obtained
+with our approach are generally in line with results from more
+hypothesis-driven analyses in earlier studies and suggest some novel
+relationships that deserve further research.

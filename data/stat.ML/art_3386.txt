@@ -1,0 +1,15 @@
+Bayesian optimization for materials design
+We introduce Bayesian optimization, a technique developed for optimizing
+time-consuming engineering simulations and for fitting machine learning models
+on large datasets. Bayesian optimization guides the choice of experiments
+during materials design and discovery to find good material designs in as few
+experiments as possible. We focus on the case when materials designs are
+parameterized by a low-dimensional vector. Bayesian optimization is built on a
+statistical technique called Gaussian process regression, which allows
+predicting the performance of a new design based on previously tested designs.
+After providing a detailed introduction to Gaussian process regression, we
+introduce two Bayesian optimization methods: expected improvement, for design
+problems with noise-free evaluations; and the knowledge-gradient method, which
+generalizes expected improvement and may be used in design problems with noisy
+evaluations. Both methods are derived using a value-of-information analysis,
+and enjoy one-step Bayes-optimality.

@@ -1,0 +1,13 @@
+Testing for Feature Relevance: The HARVEST Algorithm
+Feature selection with high-dimensional data and a very small proportion of
+relevant features poses a severe challenge to standard statistical methods. We
+have developed a new approach (HARVEST) that is straightforward to apply,
+albeit somewhat computer-intensive. This algorithm can be used to pre-screen a
+large number of features to identify those that are potentially useful. The
+basic idea is to evaluate each feature in the context of many random subsets of
+other features. HARVEST is predicated on the assumption that an irrelevant
+feature can add no real predictive value, regardless of which other features
+are included in the subset. Motivated by this idea, we have derived a simple
+statistical test for feature relevance. Empirical analyses and simulations
+produced so far indicate that the HARVEST algorithm is highly effective in
+predictive analytics, both in science and business.

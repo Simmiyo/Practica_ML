@@ -1,0 +1,18 @@
+ACCAMS: Additive Co-Clustering to Approximate Matrices Succinctly
+Matrix completion and approximation are popular tools to capture a user's
+preferences for recommendation and to approximate missing data. Instead of
+using low-rank factorization we take a drastically different approach, based on
+the simple insight that an additive model of co-clusterings allows one to
+approximate matrices efficiently. This allows us to build a concise model that,
+per bit of model learned, significantly beats all factorization approaches to
+matrix approximation. Even more surprisingly, we find that summing over small
+co-clusterings is more effective in modeling matrices than classic
+co-clustering, which uses just one large partitioning of the matrix.
+  Following Occam's razor principle suggests that the simple structure induced
+by our model better captures the latent preferences and decision making
+processes present in the real world than classic co-clustering or matrix
+factorization. We provide an iterative minimization algorithm, a collapsed
+Gibbs sampler, theoretical guarantees for matrix approximation, and excellent
+empirical evidence for the efficacy of our approach. We achieve
+state-of-the-art results on the Netflix problem with a fraction of the model
+complexity.

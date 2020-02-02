@@ -1,0 +1,14 @@
+Clustering with t-SNE, provably
+t-distributed Stochastic Neighborhood Embedding (t-SNE), a clustering and
+visualization method proposed by van der Maaten & Hinton in 2008, has rapidly
+become a standard tool in a number of natural sciences. Despite its
+overwhelming success, there is a distinct lack of mathematical foundations and
+the inner workings of the algorithm are not well understood. The purpose of
+this paper is to prove that t-SNE is able to recover well-separated clusters;
+more precisely, we prove that t-SNE in the `early exaggeration' phase, an
+optimization technique proposed by van der Maaten & Hinton (2008) and van der
+Maaten (2014), can be rigorously analyzed. As a byproduct, the proof suggests
+novel ways for setting the exaggeration parameter $\alpha$ and step size $h$.
+Numerical examples illustrate the effectiveness of these rules: in particular,
+the quality of embedding of topological structures (e.g. the swiss roll)
+improves. We also discuss a connection to spectral clustering methods.

@@ -1,0 +1,20 @@
+Query Focused Abstractive Summarization: Incorporating Query Relevance,
+  Multi-Document Coverage, and Summary Length Constraints into seq2seq Models
+Query Focused Summarization (QFS) has been addressed mostly using extractive
+methods. Such methods, however, produce text which suffers from low coherence.
+We investigate how abstractive methods can be applied to QFS, to overcome such
+limitations. Recent developments in neural-attention based sequence-to-sequence
+models have led to state-of-the-art results on the task of abstractive generic
+single document summarization. Such models are trained in an end to end method
+on large amounts of training data. We address three aspects to make abstractive
+summarization applicable to QFS: (a)since there is no training data, we
+incorporate query relevance into a pre-trained abstractive model; (b) since
+existing abstractive models are trained in a single-document setting, we design
+an iterated method to embed abstractive models within the multi-document
+requirement of QFS; (c) the abstractive models we adapt are trained to generate
+text of specific length (about 100 words), while we aim at generating output of
+a different size (about 250 words); we design a way to adapt the target size of
+the generated summaries to a given size ratio. We compare our method (Relevance
+Sensitive Attention for QFS) to extractive baselines and with various ways to
+combine abstractive models on the DUC QFS datasets and demonstrate solid
+improvements on ROUGE performance.

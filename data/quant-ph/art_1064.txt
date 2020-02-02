@@ -1,0 +1,17 @@
+Multiparty Quantum Communication Complexity
+Quantum entanglement cannot be used to achieve direct communication between
+remote parties, but it can reduce the communication needed for some problems.
+Let each of k parties hold some partial input data to some fixed k-variable
+function f. The communication complexity of f is the minimum number of
+classical bits required to be broadcasted for every party to know the value of
+f on their inputs.
+  We construct a function G such that for the one-round communication model and
+three parties, G can be computed with n+1 bits of communication when the
+parties share prior entanglement. We then show that without entangled
+particles, the one-round communication complexity of G is (3/2)n + 1. Next we
+generalize this function to a function F. We show that if the parties share
+prior quantum entanglement, then the communication complexity of F is exactly
+k. We also show that if no entangled particles are provided, then the
+communication complexity of F is roughly k*log(k).
+  These two results prove for the first time communication complexity
+separations better than a constant number of bits.

@@ -1,0 +1,21 @@
+Batch Bayesian Optimization via Local Penalization
+The popularity of Bayesian optimization methods for efficient exploration of
+parameter spaces has lead to a series of papers applying Gaussian processes as
+surrogates in the optimization of functions. However, most proposed approaches
+only allow the exploration of the parameter space to occur sequentially. Often,
+it is desirable to simultaneously propose batches of parameter values to
+explore. This is particularly the case when large parallel processing
+facilities are available. These facilities could be computational or physical
+facets of the process being optimized. E.g. in biological experiments many
+experimental set ups allow several samples to be simultaneously processed.
+Batch methods, however, require modeling of the interaction between the
+evaluations in the batch, which can be expensive in complex scenarios. We
+investigate a simple heuristic based on an estimate of the Lipschitz constant
+that captures the most important aspect of this interaction (i.e. local
+repulsion) at negligible computational overhead. The resulting algorithm
+compares well, in running time, with much more elaborate alternatives. The
+approach assumes that the function of interest, $f$, is a Lipschitz continuous
+function. A wrap-loop around the acquisition function is used to collect
+batches of points of certain size minimizing the non-parallelizable
+computational effort. The speed-up of our method with respect to previous
+approaches is significant in a set of computationally expensive experiments.

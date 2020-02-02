@@ -1,0 +1,16 @@
+The Dependent Random Measures with Independent Increments in Mixture
+  Models
+When observations are organized into groups where commonalties exist amongst
+them, the dependent random measures can be an ideal choice for modeling. One of
+the propositions of the dependent random measures is that the atoms of the
+posterior distribution are shared amongst groups, and hence groups can borrow
+information from each other. When normalized dependent random measures prior
+with independent increments are applied, we can derive appropriate exchangeable
+probability partition function (EPPF), and subsequently also deduce its
+inference algorithm given any mixture model likelihood. We provide all
+necessary derivation and solution to this framework. For demonstration, we used
+mixture of Gaussians likelihood in combination with a dependent structure
+constructed by linear combinations of CRMs. Our experiments show superior
+performance when using this framework, where the inferred values including the
+mixing weights and the number of clusters both respond appropriately to the
+number of completely random measure used.

@@ -1,0 +1,9 @@
+Later-stage Minimum Bayes-Risk Decoding for Neural Machine Translation
+For extended periods of time, sequence generation models rely on beam search
+algorithm to generate output sequence. However, the correctness of beam search
+degrades when the a model is over-confident about a suboptimal prediction. In
+this paper, we propose to perform minimum Bayes-risk (MBR) decoding for some
+extra steps at a later stage. In order to speed up MBR decoding, we compute the
+Bayes risks on GPU in batch mode. In our experiments, we found that MBR
+reranking works with a large beam size. Later-stage MBR decoding is shown to
+outperform simple MBR reranking in machine translation tasks.

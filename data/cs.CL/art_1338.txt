@@ -1,0 +1,17 @@
+Dependency Sensitive Convolutional Neural Networks for Modeling
+  Sentences and Documents
+The goal of sentence and document modeling is to accurately represent the
+meaning of sentences and documents for various Natural Language Processing
+tasks. In this work, we present Dependency Sensitive Convolutional Neural
+Networks (DSCNN) as a general-purpose classification system for both sentences
+and documents. DSCNN hierarchically builds textual representations by
+processing pretrained word embeddings via Long Short-Term Memory networks and
+subsequently extracting features with convolution operators. Compared with
+existing recursive neural models with tree structures, DSCNN does not rely on
+parsers and expensive phrase labeling, and thus is not restricted to
+sentence-level tasks. Moreover, unlike other CNN-based models that analyze
+sentences locally by sliding windows, our system captures both the dependency
+information within each sentence and relationships across sentences in the same
+document. Experiment results demonstrate that our approach is achieving
+state-of-the-art performance on several tasks, including sentiment analysis,
+question type classification, and subjectivity classification.

@@ -1,0 +1,13 @@
+Grafting for Combinatorial Boolean Model using Frequent Itemset Mining
+This paper introduces the combinatorial Boolean model (CBM), which is defined
+as the class of linear combinations of conjunctions of Boolean attributes. This
+paper addresses the issue of learning CBM from labeled data. CBM is of high
+knowledge interpretability but na\"{i}ve learning of it requires exponentially
+large computation time with respect to data dimension and sample size. To
+overcome this computational difficulty, we propose an algorithm GRAB (GRAfting
+for Boolean datasets), which efficiently learns CBM within the
+$L_1$-regularized loss minimization framework. The key idea of GRAB is to
+reduce the loss minimization problem to the weighted frequent itemset mining,
+in which frequent patterns are efficiently computable. We employ benchmark
+datasets to empirically demonstrate that GRAB is effective in terms of
+computational efficiency, prediction accuracy and knowledge discovery.

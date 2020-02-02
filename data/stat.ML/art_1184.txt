@@ -1,0 +1,16 @@
+Intercomparison of Machine Learning Methods for Statistical Downscaling:
+  The Case of Daily and Extreme Precipitation
+Statistical downscaling of global climate models (GCMs) allows researchers to
+study local climate change effects decades into the future. A wide range of
+statistical models have been applied to downscaling GCMs but recent advances in
+machine learning have not been explored. In this paper, we compare four
+fundamental statistical methods, Bias Correction Spatial Disaggregation (BCSD),
+Ordinary Least Squares, Elastic-Net, and Support Vector Machine, with three
+more advanced machine learning methods, Multi-task Sparse Structure Learning
+(MSSL), BCSD coupled with MSSL, and Convolutional Neural Networks to downscale
+daily precipitation in the Northeast United States. Metrics to evaluate of each
+method's ability to capture daily anomalies, large scale climate shifts, and
+extremes are analyzed. We find that linear methods, led by BCSD, consistently
+outperform non-linear approaches. The direct application of state-of-the-art
+machine learning methods to statistical downscaling does not provide
+improvements over simpler, longstanding approaches.

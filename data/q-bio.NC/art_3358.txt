@@ -1,0 +1,20 @@
+Integrating Flexible Normalization into Mid-Level Representations of
+  Deep Convolutional Neural Networks
+Deep convolutional neural networks (CNNs) are becoming increasingly popular
+models to predict neural responses in visual cortex. However, contextual
+effects, which are prevalent in neural processing and in perception, are not
+explicitly handled by current CNNs, including those used for neural prediction.
+In primary visual cortex, neural responses are modulated by stimuli spatially
+surrounding the classical receptive field in rich ways. These effects have been
+modeled with divisive normalization approaches, including flexible models,
+where spatial normalization is recruited only to the degree responses from
+center and surround locations are deemed statistically dependent. We propose a
+flexible normalization model applied to mid-level representations of deep CNNs
+as a tractable way to study contextual normalization mechanisms in mid-level
+cortical areas. This approach captures non-trivial spatial dependencies among
+mid-level features in CNNs, such as those present in textures and other visual
+stimuli, that arise from tiling high order features, geometrically. We expect
+that the proposed approach can make predictions about when spatial
+normalization might be recruited in mid-level cortical areas. We also expect
+this approach to be useful as part of the CNN toolkit, therefore going beyond
+more restrictive fixed forms of normalization.

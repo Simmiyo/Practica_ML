@@ -1,0 +1,15 @@
+Comparing Probabilistic Models for Melodic Sequences
+Modelling the real world complexity of music is a challenge for machine
+learning. We address the task of modeling melodic sequences from the same music
+genre. We perform a comparative analysis of two probabilistic models; a
+Dirichlet Variable Length Markov Model (Dirichlet-VMM) and a Time Convolutional
+Restricted Boltzmann Machine (TC-RBM). We show that the TC-RBM learns
+descriptive music features, such as underlying chords and typical melody
+transitions and dynamics. We assess the models for future prediction and
+compare their performance to a VMM, which is the current state of the art in
+melody generation. We show that both models perform significantly better than
+the VMM, with the Dirichlet-VMM marginally outperforming the TC-RBM. Finally,
+we evaluate the short order statistics of the models, using the
+Kullback-Leibler divergence between test sequences and model samples, and show
+that our proposed methods match the statistics of the music genre significantly
+better than the VMM.

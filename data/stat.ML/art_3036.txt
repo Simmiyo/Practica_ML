@@ -1,0 +1,12 @@
+Zero-Shot Object Recognition System based on Topic Model
+Object recognition systems usually require fully complete manually labeled
+training data to train the classifier. In this paper, we study the problem of
+object recognition where the training samples are missing during the classifier
+learning stage, a task also known as zero-shot learning. We propose a novel
+zero-shot learning strategy that utilizes the topic model and hierarchical
+class concept. Our proposed method advanced where cumbersome human annotation
+stage (i.e. attribute-based classification) is eliminated. We achieve
+comparable performance with state-of-the-art algorithms in four public
+datasets: PubFig (67.09%), Cifar-100 (54.85%), Caltech-256 (52.14%), and
+Animals with Attributes (49.65%) when unseen classes exist in the
+classification task.

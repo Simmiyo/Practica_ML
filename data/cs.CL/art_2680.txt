@@ -1,0 +1,12 @@
+DAG-based Long Short-Term Memory for Neural Word Segmentation
+Neural word segmentation has attracted more and more research interests for
+its ability to alleviate the effort of feature engineering and utilize the
+external resource by the pre-trained character or word embeddings. In this
+paper, we propose a new neural model to incorporate the word-level information
+for Chinese word segmentation. Unlike the previous word-based models, our model
+still adopts the framework of character-based sequence labeling, which has
+advantages on both effectiveness and efficiency at the inference stage. To
+utilize the word-level information, we also propose a new long short-term
+memory (LSTM) architecture over directed acyclic graph (DAG). Experimental
+results demonstrate that our model leads to better performances than the
+baseline models.

@@ -1,0 +1,19 @@
+History PCA: A New Algorithm for Streaming PCA
+In this paper we propose a new algorithm for streaming principal component
+analysis. With limited memory, small devices cannot store all the samples in
+the high-dimensional regime. Streaming principal component analysis aims to
+find the $k$-dimensional subspace which can explain the most variation of the
+$d$-dimensional data points that come into memory sequentially. In order to
+deal with large $d$ and large $N$ (number of samples), most streaming PCA
+algorithms update the current model using only the incoming sample and then
+dump the information right away to save memory. However the information
+contained in previously streamed data could be useful. Motivated by this idea,
+we develop a new streaming PCA algorithm called History PCA that achieves this
+goal. By using $O(Bd)$ memory with $B\approx 10$ being the block size, our
+algorithm converges much faster than existing streaming PCA algorithms. By
+changing the number of inner iterations, the memory usage can be further
+reduced to $O(d)$ while maintaining a comparable convergence speed. We provide
+theoretical guarantees for the convergence of our algorithm along with the rate
+of convergence. We also demonstrate on synthetic and real world data sets that
+our algorithm compares favorably with other state-of-the-art streaming PCA
+methods in terms of the convergence speed and performance.

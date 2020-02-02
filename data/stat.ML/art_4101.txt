@@ -1,0 +1,14 @@
+Identifying Significant Predictive Bias in Classifiers
+We present a novel subset scan method to detect if a probabilistic binary
+classifier has statistically significant bias -- over or under predicting the
+risk -- for some subgroup, and identify the characteristics of this subgroup.
+This form of model checking and goodness-of-fit test provides a way to
+interpretably detect the presence of classifier bias or regions of poor
+classifier fit. This allows consideration of not just subgroups of a priori
+interest or small dimensions, but the space of all possible subgroups of
+features. To address the difficulty of considering these exponentially many
+possible subgroups, we use subset scan and parametric bootstrap-based methods.
+Extending this method, we can penalize the complexity of the detected subgroup
+and also identify subgroups with high classification errors. We demonstrate
+these methods and find interesting results on the COMPAS crime recidivism and
+credit delinquency data.

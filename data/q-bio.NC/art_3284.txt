@@ -1,0 +1,16 @@
+ElasticPath2Path: Automated morphological classification of neurons by
+  elastic path matching
+In the study of neurons, morphology influences function. The complexity in
+the structure of neurons poses a challenge in the identification and analysis
+of similar and dissimilar neuronal cells. Existing methodologies carry out
+structural and geometrical simplifications, which substantially change the
+morphological statistics. Using digitally-reconstructed neurons, we extend the
+work of Path2Path as ElasticPath2Path, which seamlessly integrates the
+graph-theoretic and differential-geometric frameworks. By decomposing a neuron
+into a set of paths, we derive graph metrics, which are path concurrence and
+path hierarchy. Next, we model each path as an elastic string to compute the
+geodesic distance between the paths of a pair of neurons. Later, we formulate
+the problem of finding the distance between two neurons as a path assignment
+problem with a cost function combining the graph metrics and the geodesic
+deformation of paths. ElasticPath2Path is shown to have superior performance
+over the state of the art.

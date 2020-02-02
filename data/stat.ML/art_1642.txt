@@ -1,0 +1,15 @@
+Regularization Techniques for Learning with Matrices
+There is growing body of learning problems for which it is natural to
+organize the parameters into matrix, so as to appropriately regularize the
+parameters under some matrix norm (in order to impose some more sophisticated
+prior knowledge). This work describes and analyzes a systematic method for
+constructing such matrix-based, regularization methods. In particular, we focus
+on how the underlying statistical properties of a given problem can help us
+decide which regularization function is appropriate.
+  Our methodology is based on the known duality fact: that a function is
+strongly convex with respect to some norm if and only if its conjugate function
+is strongly smooth with respect to the dual norm. This result has already been
+found to be a key component in deriving and analyzing several learning
+algorithms. We demonstrate the potential of this framework by deriving novel
+generalization and regret bounds for multi-task learning, multi-class learning,
+and kernel learning.

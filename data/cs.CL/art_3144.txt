@@ -1,0 +1,12 @@
+Clickbait Detection in Tweets Using Self-attentive Network
+Clickbait detection in tweets remains an elusive challenge. In this paper, we
+describe the solution for the Zingel Clickbait Detector at the Clickbait
+Challenge 2017, which is capable of evaluating each tweet's level of click
+baiting. We first reformat the regression problem as a multi-classification
+problem, based on the annotation scheme. To perform multi-classification, we
+apply a token-level, self-attentive mechanism on the hidden states of
+bi-directional Gated Recurrent Units (biGRU), which enables the model to
+generate tweets' task-specific vector representations by attending to important
+tokens. The self-attentive neural network can be trained end-to-end, without
+involving any manual feature engineering. Our detector ranked first in the
+final evaluation of Clickbait Challenge 2017.

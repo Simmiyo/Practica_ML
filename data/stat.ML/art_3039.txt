@@ -1,0 +1,16 @@
+Crowd Saliency Detection via Global Similarity Structure
+It is common for CCTV operators to overlook inter- esting events taking place
+within the crowd due to large number of people in the crowded scene (i.e.
+marathon, rally). Thus, there is a dire need to automate the detection of
+salient crowd regions acquiring immediate attention for a more effective and
+proactive surveillance. This paper proposes a novel framework to identify and
+localize salient regions in a crowd scene, by transforming low-level features
+extracted from crowd motion field into a global similarity structure. The
+global similarity structure representation allows the discovery of the
+intrinsic manifold of the motion dynamics, which could not be captured by the
+low-level representation. Ranking is then performed on the global similarity
+structure to identify a set of extrema. The proposed approach is unsupervised
+so learning stage is eliminated. Experimental results on public datasets
+demonstrates the effectiveness of exploiting such extrema in identifying
+salient regions in various crowd scenarios that exhibit crowding, local
+irregular motion, and unique motion areas such as sources and sinks.

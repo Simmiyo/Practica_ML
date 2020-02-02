@@ -1,0 +1,12 @@
+Particle filter-based Gaussian process optimisation for parameter
+  inference
+We propose a novel method for maximum likelihood-based parameter inference in
+nonlinear and/or non-Gaussian state space models. The method is an iterative
+procedure with three steps. At each iteration a particle filter is used to
+estimate the value of the log-likelihood function at the current parameter
+iterate. Using these log-likelihood estimates, a surrogate objective function
+is created by utilizing a Gaussian process model. Finally, we use a heuristic
+procedure to obtain a revised parameter iterate, providing an automatic
+trade-off between exploration and exploitation of the surrogate model. The
+method is profiled on two state space models with good performance both
+considering accuracy and computational cost.

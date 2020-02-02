@@ -1,0 +1,27 @@
+N-gram Language Modeling using Recurrent Neural Network Estimation
+We investigate the effective memory depth of RNN models by using them for
+$n$-gram language model (LM) smoothing.
+  Experiments on a small corpus (UPenn Treebank, one million words of training
+data and 10k vocabulary) have found the LSTM cell with dropout to be the best
+model for encoding the $n$-gram state when compared with feed-forward and
+vanilla RNN models. When preserving the sentence independence assumption the
+LSTM $n$-gram matches the LSTM LM performance for $n=9$ and slightly
+outperforms it for $n=13$. When allowing dependencies across sentence
+boundaries, the LSTM $13$-gram almost matches the perplexity of the unlimited
+history LSTM LM.
+  LSTM $n$-gram smoothing also has the desirable property of improving with
+increasing $n$-gram order, unlike the Katz or Kneser-Ney back-off estimators.
+Using multinomial distributions as targets in training instead of the usual
+one-hot target is only slightly beneficial for low $n$-gram orders.
+  Experiments on the One Billion Words benchmark show that the results hold at
+larger scale: while LSTM smoothing for short $n$-gram contexts does not provide
+significant advantages over classic N-gram models, it becomes effective with
+long contexts ($n > 5$); depending on the task and amount of data it can match
+fully recurrent LSTM models at about $n=13$. This may have implications when
+modeling short-format text, e.g. voice search/query LMs.
+  Building LSTM $n$-gram LMs may be appealing for some practical situations:
+the state in a $n$-gram LM can be succinctly represented with $(n-1)*4$ bytes
+storing the identity of the words in the context and batches of $n$-gram
+contexts can be processed in parallel. On the downside, the $n$-gram context
+encoding computed by the LSTM is discarded, making the model more expensive
+than a regular recurrent LSTM LM.

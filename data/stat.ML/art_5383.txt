@@ -1,0 +1,21 @@
+Classification and clustering for observations of event time data using
+  non-homogeneous Poisson process models
+Data of the form of event times arise in various applications. A simple model
+for such data is a non-homogeneous Poisson process (NHPP) which is specified by
+a rate function that depends on time. We consider the problem of having access
+to multiple independent observations of event time data, observed on a common
+interval, from which we wish to classify or cluster the observations according
+to their rate functions. Each rate function is unknown but assumed to belong to
+a finite number of rate functions each defining a distinct class. We model the
+rate functions using a spline basis expansion, the coefficients of which need
+to be estimated from data. The classification approach consists of using
+training data for which the class membership is known, to calculate maximum
+likelihood estimates of the coefficients for each group, then assigning test
+observations to a group by a maximum likelihood criterion. For clustering, by
+analogy to the Gaussian mixture model approach for Euclidean data, we consider
+mixtures of NHPP and use the expectation-maximisation algorithm to estimate the
+coefficients of the rate functions for the component models and group
+membership probabilities for each observation. The classification and
+clustering approaches perform well on both synthetic and real-world data sets.
+Code associated with this paper is available at
+https://github.com/duncan-barrack/NHPP .

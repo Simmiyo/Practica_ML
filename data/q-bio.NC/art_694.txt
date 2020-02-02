@@ -1,0 +1,18 @@
+Inference based method for realignment of single trial neuronal
+  responses
+Neuronal responses to sensory stimuli or neuronal responses related to
+behaviour are often extracted by averaging neuronal activity over large number
+of experimental trials. Such trial-averaging is carried out to reduce noise and
+to reduce the influence of other signals unrelated to the corresponding
+stimulus or behaviour. However, if the recorded neuronal responses are jittered
+in time with respect to the corresponding stimulus or behaviour, averaging over
+trials may distort the estimation of the underlying neuronal response. Here, we
+present an algorithm, named dTAV algorithm, for realigning the recorded
+neuronal activity to an arbitrary internal trigger. Using simulated data, we
+show that the dTAV algorithm can reduce the jitter of neuronal responses for
+signal to noise ratios of 0.2 or higher, i.e. in cases where the standard
+deviation of the noise is up to five times larger than the neuronal response
+amplitude. By removing the jitter and, therefore, enabling more accurate
+estimation of neuronal responses, the dTAV algorithm can improve analysis and
+interpretation of the responses and improve the accuracy of systems relaying on
+asynchronous detection of events from neuronal recordings.

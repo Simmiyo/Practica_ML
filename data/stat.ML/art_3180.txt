@@ -1,0 +1,15 @@
+Stochastic Local Interaction (SLI) Model: Interfacing Machine Learning
+  and Geostatistics
+Machine learning and geostatistics are powerful mathematical frameworks for
+modeling spatial data. Both approaches, however, suffer from poor scaling of
+the required computational resources for large data applications. We present
+the Stochastic Local Interaction (SLI) model, which employs a local
+representation to improve computational efficiency. SLI combines geostatistics
+and machine learning with ideas from statistical physics and computational
+geometry. It is based on a joint probability density function defined by an
+energy functional which involves local interactions implemented by means of
+kernel functions with adaptive local kernel bandwidths. SLI is expressed in
+terms of an explicit, typically sparse, precision (inverse covariance) matrix.
+This representation leads to a semi-analytical expression for interpolation
+(prediction), which is valid in any number of dimensions and avoids the
+computationally costly covariance matrix inversion.

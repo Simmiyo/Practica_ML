@@ -1,0 +1,14 @@
+A Hybrid Algorithm for Matching Arabic Names
+In this paper, a new hybrid algorithm which combines both of token-based and
+character-based approaches is presented. The basic Levenshtein approach has
+been extended to token-based distance metric. The distance metric is enhanced
+to set the proper granularity level behavior of the algorithm. It smoothly maps
+a threshold of misspellings differences at the character level, and the
+importance of token level errors in terms of token's position and frequency.
+Using a large Arabic dataset, the experimental results show that the proposed
+algorithm overcomes successfully many types of errors such as: typographical
+errors, omission or insertion of middle name components, omission of
+non-significant popular name components, and different writing styles character
+variations. When compared the results with other classical algorithms, using
+the same dataset, the proposed algorithm was found to increase the minimum
+success level of best tested algorithms, while achieving higher upper limits .

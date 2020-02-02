@@ -1,0 +1,27 @@
+Efficient Benchmarking of Algorithm Configuration Procedures via
+  Model-Based Surrogates
+The optimization of algorithm (hyper-)parameters is crucial for achieving
+peak performance across a wide range of domains, ranging from deep neural
+networks to solvers for hard combinatorial problems. The resulting algorithm
+configuration (AC) problem has attracted much attention from the machine
+learning community. However, the proper evaluation of new AC procedures is
+hindered by two key hurdles. First, AC benchmarks are hard to set up. Second
+and even more significantly, they are computationally expensive: a single run
+of an AC procedure involves many costly runs of the target algorithm whose
+performance is to be optimized in a given AC benchmark scenario. One common
+workaround is to optimize cheap-to-evaluate artificial benchmark functions
+(e.g., Branin) instead of actual algorithms; however, these have different
+properties than realistic AC problems. Here, we propose an alternative
+benchmarking approach that is similarly cheap to evaluate but much closer to
+the original AC problem: replacing expensive benchmarks by surrogate benchmarks
+constructed from AC benchmarks. These surrogate benchmarks approximate the
+response surface corresponding to true target algorithm performance using a
+regression model, and the original and surrogate benchmark share the same
+(hyper-)parameter space. In our experiments, we construct and evaluate
+surrogate benchmarks for hyperparameter optimization as well as for AC problems
+that involve performance optimization of solvers for hard combinatorial
+problems, drawing training data from the runs of existing AC procedures. We
+show that our surrogate benchmarks capture overall important characteristics of
+the AC scenarios, such as high- and low-performing regions, from which they
+were derived, while being much easier to use and orders of magnitude cheaper to
+evaluate.

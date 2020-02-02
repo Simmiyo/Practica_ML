@@ -1,0 +1,12 @@
+Multivariate regression and fit function uncertainty
+This article describes a multivariate polynomial regression method where the
+uncertainty of the input parameters are approximated with Gaussian
+distributions, derived from the central limit theorem for large weighted sums,
+directly from the training sample. The estimated uncertainties can be
+propagated into the optimal fit function, as an alternative to the statistical
+bootstrap method. This uncertainty can be propagated further into a loss
+function like quantity, with which it is possible to calculate the expected
+loss function, and allows to select the optimal polynomial degree with
+statistical significance. Combined with simple phase space splitting methods,
+it is possible to model most features of the training data even with low degree
+polynomials or constants.

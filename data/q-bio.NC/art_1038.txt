@@ -1,0 +1,20 @@
+Decoding dynamic brain patterns from evoked responses: A tutorial on
+  multivariate pattern analysis applied to time-series neuroimaging data
+Multivariate pattern analysis (MVPA) or brain decoding methods have become
+standard practice in analysing fMRI data. Although decoding methods have been
+extensively applied in Brain Computing Interfaces (BCI), these methods have
+only recently been applied to time-series neuroimaging data such as MEG and EEG
+to address experimental questions in Cognitive Neuroscience. In a
+tutorial-style review, we describe a broad set of options to inform future
+time-series decoding studies from a Cognitive Neuroscience perspective. Using
+example MEG data, we illustrate the effects that different options in the
+decoding analysis pipeline can have on experimental results where the aim is to
+'decode' different perceptual stimuli or cognitive states over time from
+dynamic brain activation patterns. We show that decisions made at both
+preprocessing (e.g., dimensionality reduction, subsampling, trial averaging)
+and decoding (e.g., classifier selection, cross-validation design) stages of
+the analysis can significantly affect the results. In addition to standard
+decoding, we describe extensions to MVPA for time-varying neuroimaging data
+including representational similarity analysis, temporal generalisation, and
+the interpretation of classifier weight maps. Finally, we outline important
+caveats in the design and interpretation of time-series decoding experiments.

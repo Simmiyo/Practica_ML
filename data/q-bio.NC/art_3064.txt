@@ -1,0 +1,26 @@
+Modeling Retinal Ganglion Cell Population Activity with Restricted
+  Boltzmann Machines
+The retina is a complex nervous system which encodes visual stimuli before
+higher order processing occurs in the visual cortex. In this study we evaluated
+whether information about the stimuli received by the retina can be retrieved
+from the firing rate distribution of Retinal Ganglion Cells (RGCs), exploiting
+High-Density 64x64 MEA technology. To this end, we modeled the RGC population
+activity using mean-covariance Restricted Boltzmann Machines, latent variable
+models capable of learning the joint distribution of a set of continuous
+observed random variables and a set of binary unobserved random units. The idea
+was to figure out if binary latent states encode the regularities associated to
+different visual stimuli, as modes in the joint distribution. We measured the
+goodness of mcRBM encoding by calculating the Mutual Information between the
+latent states and the stimuli shown to the retina. Results show that binary
+states can encode the regularities associated to different stimuli, using both
+gratings and natural scenes as stimuli. We also discovered that hidden
+variables encode interesting properties of retinal activity, interpreted as
+population receptive fields. We further investigated the ability of the model
+to learn different modes in population activity by comparing results associated
+to a retina in normal conditions and after pharmacologically blocking GABA
+receptors (GABAC at first, and then also GABAA and GABAB). As expected, Mutual
+Information tends to decrease if we pharmacologically block receptors. We
+finally stress that the computational method described in this work could
+potentially be applied to any kind of neural data obtained through MEA
+technology, though different techniques should be applied to interpret the
+results.

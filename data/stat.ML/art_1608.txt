@@ -1,0 +1,16 @@
+PDE-Foam - a probability-density estimation method using self-adapting
+  phase-space binning
+Probability Density Estimation (PDE) is a multivariate discrimination
+technique based on sampling signal and background densities defined by event
+samples from data or Monte-Carlo (MC) simulations in a multi-dimensional phase
+space. In this paper, we present a modification of the PDE method that uses a
+self-adapting binning method to divide the multi-dimensional phase space in a
+finite number of hyper-rectangles (cells). The binning algorithm adjusts the
+size and position of a predefined number of cells inside the multi-dimensional
+phase space, minimising the variance of the signal and background densities
+inside the cells. The implementation of the binning algorithm PDE-Foam is based
+on the MC event-generation package Foam. We present performance results for
+representative examples (toy models) and discuss the dependence of the obtained
+results on the choice of parameters. The new PDE-Foam shows improved
+classification capability for small training samples and reduced classification
+time compared to the original PDE method based on range searching.

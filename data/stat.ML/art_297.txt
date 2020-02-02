@@ -1,0 +1,20 @@
+The blessing of transitivity in sparse and stochastic networks
+The interaction between transitivity and sparsity, two common features in
+empirical networks, implies that there are local regions of large sparse
+networks that are dense. We call this the blessing of transitivity and it has
+consequences for both modeling and inference. Extant research suggests that
+statistical inference for the Stochastic Blockmodel is more difficult when the
+edges are sparse. However, this conclusion is confounded by the fact that the
+asymptotic limit in all of the previous studies is not merely sparse, but also
+non-transitive. To retain transitivity, the blocks cannot grow faster than the
+expected degree. Thus, in sparse models, the blocks must remain asymptotically
+small. \n Previous algorithmic research demonstrates that small "local"
+clusters are more amenable to computation, visualization, and interpretation
+when compared to "global" graph partitions. This paper provides the first
+statistical results that demonstrate how these small transitive clusters are
+also more amenable to statistical estimation. Theorem 2 shows that a "local"
+clustering algorithm can, with high probability, detect a transitive stochastic
+block of a fixed size (e.g. 30 nodes) embedded in a large graph. The only
+constraint on the ambient graph is that it is large and sparse--it could be
+generated at random or by an adversary--suggesting a theoretical explanation
+for the robust empirical performance of local clustering algorithms.

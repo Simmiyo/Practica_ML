@@ -1,0 +1,24 @@
+3D Morphology Prediction of Progressive Spinal Deformities from
+  Probabilistic Modeling of Discriminant Manifolds
+We introduce a novel approach for predicting the progression of adolescent
+idiopathic scoliosis from 3D spine models reconstructed from biplanar X-ray
+images. Recent progress in machine learning have allowed to improve
+classification and prognosis rates, but lack a probabilistic framework to
+measure uncertainty in the data. We propose a discriminative probabilistic
+manifold embedding where locally linear mappings transform data points from
+high-dimensional space to corresponding low-dimensional coordinates. A
+discriminant adjacency matrix is constructed to maximize the separation between
+progressive and non-progressive groups of patients diagnosed with scoliosis,
+while minimizing the distance in latent variables belonging to the same class.
+To predict the evolution of deformation, a baseline reconstruction is projected
+onto the manifold, from which a spatiotemporal regression model is built from
+parallel transport curves inferred from neighboring exemplars. Rate of
+progression is modulated from the spine flexibility and curve magnitude of the
+3D spine deformation. The method was tested on 745 reconstructions from 133
+subjects using longitudinal 3D reconstructions of the spine, with results
+demonstrating the discriminatory framework can identify between progressive and
+non-progressive of scoliotic patients with a classification rate of 81% and
+prediction differences of 2.1$^{o}$ in main curve angulation, outperforming
+other manifold learning methods. Our method achieved a higher prediction
+accuracy and improved the modeling of spatiotemporal morphological changes in
+highly deformed spines compared to other learning methods.

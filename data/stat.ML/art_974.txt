@@ -1,0 +1,11 @@
+Exact and Efficient Parallel Inference for Nonparametric Mixture Models
+Nonparametric mixture models based on the Dirichlet process are an elegant
+alternative to finite models when the number of underlying components is
+unknown, but inference in such models can be slow. Existing attempts to
+parallelize inference in such models have relied on introducing approximations,
+which can lead to inaccuracies in the posterior estimate. In this paper, we
+describe auxiliary variable representations for the Dirichlet process and the
+hierarchical Dirichlet process that allow us to sample from the true posterior
+in a distributed manner. We show that our approach allows scalable inference
+without the deterioration in estimate quality that accompanies existing
+methods.

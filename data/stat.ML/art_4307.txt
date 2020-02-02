@@ -1,0 +1,18 @@
+Multi-Relevance Transfer Learning
+Transfer learning aims to faciliate learning tasks in a label-scarce target
+domain by leveraging knowledge from a related source domain with plenty of
+labeled data. Often times we may have multiple domains with little or no
+labeled data as targets waiting to be solved. Most existing efforts tackle
+target domains separately by modeling the `source-target' pairs without
+exploring the relatedness between them, which would cause loss of crucial
+information, thus failing to achieve optimal capability of knowledge transfer.
+In this paper, we propose a novel and effective approach called Multi-Relevance
+Transfer Learning (MRTL) for this purpose, which can simultaneously transfer
+different knowledge from the source and exploits the shared common latent
+factors between target domains. Specifically, we formulate the problem as an
+optimization task based on a collective nonnegative matrix tri-factorization
+framework. The proposed approach achieves both source-target transfer and
+target-target leveraging by sharing multiple decomposed latent subspaces.
+Further, an alternative minimization learning algorithm is developed with
+convergence guarantee. Empirical study validates the performance and
+effectiveness of MRTL compared to the state-of-the-art methods.

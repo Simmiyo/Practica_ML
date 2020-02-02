@@ -1,0 +1,12 @@
+Hyponymy extraction of domain ontology concept based on ccrfs and
+  hierarchy clustering
+Concept hierarchy is the backbone of ontology, and the concept hierarchy
+acquisition has been a hot topic in the field of ontology learning. this paper
+proposes a hyponymy extraction method of domain ontology concept based on
+cascaded conditional random field(CCRFs) and hierarchy clustering. It takes
+free text as extracting object, adopts CCRFs identifying the domain concepts.
+First the low layer of CCRFs is used to identify simple domain concept, then
+the results are sent to the high layer, in which the nesting concepts are
+recognized. Next we adopt hierarchy clustering to identify the hyponymy
+relation between domain ontology concepts. The experimental results demonstrate
+the proposed method is efficient.

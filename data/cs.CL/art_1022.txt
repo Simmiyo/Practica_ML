@@ -1,0 +1,16 @@
+Integrate Document Ranking Information into Confidence Measure
+  Calculation for Spoken Term Detection
+This paper proposes an algorithm to improve the calculation of confidence
+measure for spoken term detection (STD). Given an input query term, the
+algorithm first calculates a measurement named document ranking weight for each
+document in the speech database to reflect its relevance with the query term by
+summing all the confidence measures of the hypothesized term occurrences in
+this document. The confidence measure of each term occurrence is then
+re-estimated through linear interpolation with the calculated document ranking
+weight to improve its reliability by integrating document-level information.
+Experiments are conducted on three standard STD tasks for Tamil, Vietnamese and
+English respectively. The experimental results all demonstrate that the
+proposed algorithm achieves consistent improvements over the state-of-the-art
+method for confidence measure calculation. Furthermore, this algorithm is still
+effective even if a high accuracy speech recognizer is not available, which
+makes it applicable for the languages with limited speech resources.

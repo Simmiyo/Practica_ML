@@ -1,0 +1,18 @@
+A tutorial on group effective connectivity analysis, part 1: first level
+  analysis with DCM for fMRI
+Dynamic Causal Modelling (DCM) is the predominant method for inferring
+effective connectivity from neuroimaging data. In the 15 years since its
+introduction, the neural models and statistical routines in DCM have developed
+in parallel, driven by the needs of researchers in cognitive and clinical
+neuroscience. In this tutorial, we step through an exemplar fMRI analysis in
+detail, reviewing the current implementation of DCM and demonstrating recent
+developments in group-level connectivity analysis. In the first part of the
+tutorial (current paper), we focus on issues specific to DCM for fMRI,
+unpacking the relevant theory and highlighting practical considerations. In
+particular, we clarify the assumptions (i.e., priors) used in DCM for fMRI and
+how to interpret the model parameters. This tutorial is accompanied by all the
+necessary data and instructions to reproduce the analyses using the SPM
+software. In the second part (in a companion paper), we move from subject-level
+to group-level modelling using the Parametric Empirical Bayes framework, and
+illustrate how to test for commonalities and differences in effective
+connectivity across subjects, based on imaging data from any modality.

@@ -1,0 +1,18 @@
+An Information Theoretic Approach Towards Assessing Perceptual Audio
+  Quality using EEG
+In this paper, we propose a novel information theoretic model to interpret
+the entire "transmission chain" comprising stimulus generation, brain
+processing by the human subject, and the electroencephalograph (EEG) response
+measurements as a nonlinear, time-varying communication channel with memory. We
+use mutual information (MI) as a measure to assess audio quality perception by
+directly measuring the brainwave responses of the human subjects using a high
+resolution EEG. Our focus here is on audio where the quality is impaired by
+time varying distortions. In particular, we conduct experiments where subjects
+are presented with audio whose quality varies with time between different
+possible quality levels. The recorded EEG measurements can be modeled as a
+multidimensional Gaussian mixture model (GMM). In order to make the computation
+of the MI feasible, we present a novel low-complexity approximation technique
+for the differential entropy of the multidimensional GMM. We find the proposed
+information theoretic approach to be successful in quantifying subjective audio
+quality perception, with the results being consistent across different music
+sequences and distortion types.

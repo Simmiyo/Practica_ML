@@ -1,0 +1,12 @@
+Gaussian Process Quadrature Moment Transform
+Computation of moments of transformed random variables is a problem appearing
+in many engineering applications. The current methods for moment transformation
+are mostly based on the classical quadrature rules which cannot account for the
+approximation errors. Our aim is to design a method for moment transformation
+for Gaussian random variables which accounts for the error in the numerically
+computed mean. We employ an instance of Bayesian quadrature, called Gaussian
+process quadrature (GPQ), which allows us to treat the integral itself as a
+random variable, where the integral variance informs about the incurred
+integration error. Experiments on the coordinate transformation and nonlinear
+filtering examples show that the proposed GPQ moment transform performs better
+than the classical transforms.

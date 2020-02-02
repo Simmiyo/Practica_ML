@@ -1,0 +1,16 @@
+Computing persistent homology of directed flag complexes
+We present a new computing package Flagser, designed to construct the
+directed flag complex of a finite directed graph, and compute persistent
+homology for flexibly defined filtrations on the graph and the resulting
+complex. The persistent homology computation part of Flagser is based on the
+program Ripser [Bau18a], but is optimized specifically for large computations.
+The construction of the directed flag complex is done in a way that allows easy
+parallelization by arbitrarily many cores. Flagser also has the option of
+working with undirected graphs. For homology computations Flagser has an
+Approximate option, which shortens compute time with remarkable accuracy. We
+demonstrate the power of Flagser by applying it to the construction of the
+directed flag complex of digital reconstructions of brain microcircuitry by the
+Blue Brain Project and several other examples. In some instances we perform
+computation of homology. For a more complete performance analysis, we also
+apply Flagser to some other data collections. In all cases the hardware used in
+the computation, the use of memory and the compute time are recorded.

@@ -1,0 +1,16 @@
+Don't Fall for Tuning Parameters: Tuning-Free Variable Selection in High
+  Dimensions With the TREX
+Lasso is a seminal contribution to high-dimensional statistics, but it hinges
+on a tuning parameter that is difficult to calibrate in practice. A partial
+remedy for this problem is Square-Root Lasso, because it inherently calibrates
+to the noise variance. However, Square-Root Lasso still requires the
+calibration of a tuning parameter to all other aspects of the model. In this
+study, we introduce TREX, an alternative to Lasso with an inherent calibration
+to all aspects of the model. This adaptation to the entire model renders TREX
+an estimator that does not require any calibration of tuning parameters. We
+show that TREX can outperform cross-validated Lasso in terms of variable
+selection and computational efficiency. We also introduce a bootstrapped
+version of TREX that can further improve variable selection. We illustrate the
+promising performance of TREX both on synthetic data and on a recent
+high-dimensional biological data set that considers riboflavin production in B.
+subtilis.

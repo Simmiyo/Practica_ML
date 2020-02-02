@@ -1,0 +1,15 @@
+Machine Learning on Sequential Data Using a Recurrent Weighted Average
+Recurrent Neural Networks (RNN) are a type of statistical model designed to
+handle sequential data. The model reads a sequence one symbol at a time. Each
+symbol is processed based on information collected from the previous symbols.
+With existing RNN architectures, each symbol is processed using only
+information from the previous processing step. To overcome this limitation, we
+propose a new kind of RNN model that computes a recurrent weighted average
+(RWA) over every past processing step. Because the RWA can be computed as a
+running average, the computational overhead scales like that of any other RNN
+architecture. The approach essentially reformulates the attention mechanism
+into a stand-alone model. The performance of the RWA model is assessed on the
+variable copy problem, the adding problem, classification of artificial
+grammar, classification of sequences by length, and classification of the MNIST
+images (where the pixels are read sequentially one at a time). On almost every
+task, the RWA model is found to outperform a standard LSTM model.

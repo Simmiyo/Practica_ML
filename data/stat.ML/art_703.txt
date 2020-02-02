@@ -1,0 +1,11 @@
+Streaming regularization parameter selection via stochastic gradient
+  descent
+We propose a framework to perform streaming covariance selection. Our
+approach employs regularization constraints where a time-varying sparsity
+parameter is iteratively estimated via stochastic gradient descent. This allows
+for the regularization parameter to be efficiently learnt in an online manner.
+The proposed framework is developed for linear regression models and extended
+to graphical models via neighbourhood selection. Under mild assumptions, we are
+able to obtain convergence results in a non-stochastic setting. The
+capabilities of such an approach are demonstrated using both synthetic data as
+well as neuroimaging data.

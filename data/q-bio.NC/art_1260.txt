@@ -1,0 +1,25 @@
+Information Integration In Large Brain Networks
+An outstanding problem in neuroscience is to understand how information is
+integrated across the many modules of the brain. While classic
+information-theoretic measures have transformed our understanding of
+feedforward information processing in the brain's sensory periphery, comparable
+measures for information flow in the massively recurrent networks of the rest
+of the brain have been lacking. To address this, recent work in information
+theory has produced a sound measure of network-wide "integrated information,"
+which can be estimated from time-series data. But, a computational hurdle has
+stymied attempts to measure large-scale information integration in real brains.
+Specifically, the measurement of integrated information involves a
+combinatorial search for the informational "weakest link" of a network, a
+process whose computation time explodes super-exponentially with network size.
+Here, we show that spectral clustering, applied on the correlation matrix of
+time-series data, provides an approximate but robust solution to the search for
+the the informational weakest link of large networks. This reduces the
+computation time for integrated information in large systems from longer than
+the lifespan of the universe to just minutes. We evaluate this solution in
+brain-like systems of coupled oscillators as well as in high-density
+electrocortigraphy data from two macaque monkeys, and show that the
+informational "weakest link" of the monkey cortex splits posterior sensory
+areas from anterior association areas. Finally, we use our solution to provide
+evidence in support of the long-standing hypothesis that information
+integration is maximized by networks with a high global efficiency, and that
+modular network structures promote the segregation of information.

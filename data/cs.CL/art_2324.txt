@@ -1,0 +1,11 @@
+A case study on using speech-to-translation alignments for language
+  documentation
+For many low-resource or endangered languages, spoken language resources are
+more likely to be annotated with translations than with transcriptions. Recent
+work exploits such annotations to produce speech-to-translation alignments,
+without access to any text transcriptions. We investigate whether providing
+such information can aid in producing better (mismatched) crowdsourced
+transcriptions, which in turn could be valuable for training speech recognition
+systems, and show that they can indeed be beneficial through a small-scale case
+study as a proof-of-concept. We also present a simple phonetically aware string
+averaging technique that produces transcriptions of higher quality.

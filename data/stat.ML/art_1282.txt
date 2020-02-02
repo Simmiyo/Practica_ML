@@ -1,0 +1,22 @@
+Spectral and matrix factorization methods for consistent community
+  detection in multi-layer networks
+We consider the problem of estimating a consensus community structure by
+combining information from multiple layers of a multi-layer network using
+methods based on the spectral clustering or a low-rank matrix factorization. As
+a general theme, these "intermediate fusion" methods involve obtaining a low
+column rank matrix by optimizing an objective function and then using the
+columns of the matrix for clustering. However, the theoretical properties of
+these methods remain largely unexplored. In the absence of statistical
+guarantees on the objective functions, it is difficult to determine if the
+algorithms optimizing the objectives will return good community structures. We
+investigate the consistency properties of the global optimizer of some of these
+objective functions under the multi-layer stochastic blockmodel. For this
+purpose, we derive several new asymptotic results showing consistency of the
+intermediate fusion techniques along with the spectral clustering of mean
+adjacency matrix under a high dimensional setup, where the number of nodes, the
+number of layers and the number of communities of the multi-layer graph grow.
+Our numerical study shows that the intermediate fusion techniques outperform
+late fusion methods, namely spectral clustering on aggregate spectral kernel
+and module allegiance matrix in sparse networks, while they outperform the
+spectral clustering of mean adjacency matrix in multi-layer networks that
+contain layers with both homophilic and heterophilic communities.

@@ -1,0 +1,15 @@
+NTUA-SLP at SemEval-2018 Task 1: Predicting Affective Content in Tweets
+  with Deep Attentive RNNs and Transfer Learning
+In this paper we present deep-learning models that submitted to the
+SemEval-2018 Task~1 competition: "Affect in Tweets". We participated in all
+subtasks for English tweets. We propose a Bi-LSTM architecture equipped with a
+multi-layer self attention mechanism. The attention mechanism improves the
+model performance and allows us to identify salient words in tweets, as well as
+gain insight into the models making them more interpretable. Our model utilizes
+a set of word2vec word embeddings trained on a large collection of 550 million
+Twitter messages, augmented by a set of word affective features. Due to the
+limited amount of task-specific training data, we opted for a transfer learning
+approach by pretraining the Bi-LSTMs on the dataset of Semeval 2017, Task 4A.
+The proposed approach ranked 1st in Subtask E "Multi-Label Emotion
+Classification", 2nd in Subtask A "Emotion Intensity Regression" and achieved
+competitive results in other subtasks.

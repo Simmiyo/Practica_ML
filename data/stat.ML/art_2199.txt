@@ -1,0 +1,13 @@
+Fast nonparametric classification based on data depth
+A new procedure, called DDa-procedure, is developed to solve the problem of
+classifying d-dimensional objects into q >= 2 classes. The procedure is
+completely nonparametric; it uses q-dimensional depth plots and a very
+efficient algorithm for discrimination analysis in the depth space [0,1]^q.
+Specifically, the depth is the zonoid depth, and the algorithm is the
+alpha-procedure. In case of more than two classes several binary
+classifications are performed and a majority rule is applied. Special
+treatments are discussed for 'outsiders', that is, data having zero depth
+vector. The DDa-classifier is applied to simulated as well as real data, and
+the results are compared with those of similar procedures that have been
+recently proposed. In most cases the new procedure has comparable error rates,
+but is much faster than other classification approaches, including the SVM.

@@ -1,0 +1,16 @@
+Bayesian Probabilistic Matrix Factorization: A User Frequency Analysis
+Matrix factorization (MF) has become a common approach to collaborative
+filtering, due to ease of implementation and scalability to large data sets.
+Two existing drawbacks of the basic model is that it does not incorporate side
+information on either users or items, and assumes a common variance for all
+users. We extend the work of constrained probabilistic matrix factorization by
+deriving the Gibbs updates for the side feature vectors for items
+(Salakhutdinov and Minh, 2008). We show that this Bayesian treatment to the
+constrained PMF model outperforms simple MAP estimation. We also consider
+extensions to heteroskedastic precision introduced in the literature
+(Lakshminarayanan, Bouchard, and Archambeau, 2011). We show that this tends
+result in overfitting for deterministic approximation algorithms (ex:
+Variational inference) when the observed entries in the user / item matrix are
+distributed in an non-uniform manner. In light of this, we propose a truncated
+precision model. Our experimental results suggest that this model tends to
+delay overfitting.

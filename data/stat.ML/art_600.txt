@@ -1,0 +1,13 @@
+Parallel Stochastic Gradient Markov Chain Monte Carlo for Matrix
+  Factorisation Models
+For large matrix factorisation problems, we develop a distributed Markov
+Chain Monte Carlo (MCMC) method based on stochastic gradient Langevin dynamics
+(SGLD) that we call Parallel SGLD (PSGLD). PSGLD has very favourable scaling
+properties with increasing data size and is comparable in terms of
+computational requirements to optimisation methods based on stochastic gradient
+descent. PSGLD achieves high performance by exploiting the conditional
+independence structure of the MF models to sub-sample data in a systematic
+manner as to allow parallelisation and distributed computation. We provide a
+convergence proof of the algorithm and verify its superior performance on
+various architectures such as Graphics Processing Units, shared memory
+multi-core systems and multi-computer clusters.

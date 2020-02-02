@@ -1,0 +1,24 @@
+Global Sensitivity Analysis of High Dimensional Neuroscience Models: An
+  Example of Neurovascular Coupling
+The complexity and size of state-of-the-art cell models have significantly
+increased in part due to the requirement that these models possess complex
+cellular functions which are thought--but not necessarily proven--to be
+important. Modern cell models often involve hundreds of parameters; the values
+of these parameters come, more often than not, from animal experiments whose
+relationship to the human physiology is weak with very little information on
+the errors in these measurements. The concomitant uncertainties in parameter
+values result in uncertainties in the model outputs or Quantities of Interest
+(QoIs). Global Sensitivity Analysis (GSA) aims at apportioning to individual
+parameters (or sets of parameters) their relative contribution to output
+uncertainty thereby introducing a measure of influence or importance of said
+parameters. New GSA approaches are required to deal with increased model size
+and complexity; a three stage methodology consisting of screening (dimension
+reduction), surrogate modeling, and computing Sobol' indices, is presented. The
+methodology is used to analyze a physiologically validated numerical model of
+neurovascular coupling which possess 160 uncertain parameters. The sensitivity
+analysis investigates three quantities of interest (QoIs), the average value of
+$K^+$ in the extracellular space, the average volumetric flow rate through the
+perfusing vessel, and the minimum value of the actin/myosin complex in the
+smooth muscle cell. GSA provides a measure of the influence of each parameter,
+for each of the three QoIs, giving insight into areas of possible physiological
+dysfunction and areas of further investigation.

@@ -1,0 +1,21 @@
+Hypothesis Testing For Network Data in Functional Neuroimaging
+In recent years, it has become common practice in neuroscience to use
+networks to summarize relational information in a set of measurements,
+typically assumed to be reflective of either functional or structural
+relationships between regions of interest in the brain. One of the most basic
+tasks of interest in the analysis of such data is the testing of hypotheses, in
+answer to questions such as "Is there a difference between the networks of
+these two groups of subjects?" In the classical setting, where the unit of
+interest is a scalar or a vector, such questions are answered through the use
+of familiar two-sample testing strategies. Networks, however, are not Euclidean
+objects, and hence classical methods do not directly apply. We address this
+challenge by drawing on concepts and techniques from geometry, and
+high-dimensional statistical inference. Our work is based on a precise
+geometric characterization of the space of graph Laplacian matrices and a
+nonparametric notion of averaging due to Fr\'echet. We motivate and illustrate
+our resulting methodologies for testing in the context of networks derived from
+functional neuroimaging data on human subjects from the 1000 Functional
+Connectomes Project. In particular, we show that this global test is more
+statistical powerful, than a mass-univariate approach. In addition, we have
+also provided a method for visualizing the individual contribution of each edge
+to the overall test statistic.

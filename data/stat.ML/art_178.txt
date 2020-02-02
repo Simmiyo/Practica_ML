@@ -1,0 +1,20 @@
+Fast Learning Rate of Non-Sparse Multiple Kernel Learning and Optimal
+  Regularization Strategies
+In this paper, we give a new generalization error bound of Multiple Kernel
+Learning (MKL) for a general class of regularizations, and discuss what kind of
+regularization gives a favorable predictive accuracy. Our main target in this
+paper is dense type regularizations including \ellp-MKL. According to the
+recent numerical experiments, the sparse regularization does not necessarily
+show a good performance compared with dense type regularizations. Motivated by
+this fact, this paper gives a general theoretical tool to derive fast learning
+rates of MKL that is applicable to arbitrary mixed-norm-type regularizations in
+a unifying manner. This enables us to compare the generalization performances
+of various types of regularizations. As a consequence, we observe that the
+homogeneity of the complexities of candidate reproducing kernel Hilbert spaces
+(RKHSs) affects which regularization strategy (\ell1 or dense) is preferred. In
+fact, in homogeneous complexity settings where the complexities of all RKHSs
+are evenly same, \ell1-regularization is optimal among all isotropic norms. On
+the other hand, in inhomogeneous complexity settings, dense type
+regularizations can show better learning rate than sparse \ell1-regularization.
+We also show that our learning rate achieves the minimax lower bound in
+homogeneous complexity settings.

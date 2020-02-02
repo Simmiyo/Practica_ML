@@ -1,0 +1,11 @@
+Context Aware Document Embedding
+Recently, doc2vec has achieved excellent results in different tasks. In this
+paper, we present a context aware variant of doc2vec. We introduce a novel
+weight estimating mechanism that generates weights for each word occurrence
+according to its contribution in the context, using deep neural networks. Our
+context aware model can achieve similar results compared to doc2vec initialized
+byWikipedia trained vectors, while being much more efficient and free from
+heavy external corpus. Analysis of context aware weights shows they are a kind
+of enhanced IDF weights that capture sub-topic level keywords in documents.
+They might result from deep neural networks that learn hidden representations
+with the least entropy.

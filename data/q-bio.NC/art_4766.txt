@@ -1,0 +1,21 @@
+Simple Analysis of Sparse, Sign-Consistent JL
+Allen-Zhu, Gelashvili, Micali, and Shavit constructed a sparse,
+sign-consistent Johnson Lindenstrauss distribution, and proved that this
+distribution yields an essentially optimal dimension for the correct choice of
+sparsity. However, their analysis of the upper bound on the dimension and
+sparsity required a complicated combinatorial graph-based argument similar to
+Kane and Nelson's analysis of sparse JL. We present a simple,
+combinatorics-free analysis of sparse, sign-consistent JL that yields the same
+dimension and sparsity upper bounds as the original analysis. Our proof also
+yields dimension/sparsity tradeoffs, which were not previously known.
+  As with previous proofs in this area, our analysis is based on applying
+Markov's inequality to the $p$th moment of an error term that can be expressed
+as a quadratic form of Rademacher variables. Interestingly, we show that,
+unlike in previous work in the area, the traditionally used Hanson-Wright bound
+is not strong enough to yield our desired result. Indeed, although the
+Hanson-Wright bound is known to be optimal for gaussian degree-2 chaos, it was
+already shown to be suboptimal for Rademachers. Surprisingly, we are able to
+show a simple moment bound for quadratic forms of Rademachers that is
+sufficiently tight to achieve our desired result, which given the ubiquity of
+moment and tail bounds in theoretical computer science, is likely to be of
+broader interest.

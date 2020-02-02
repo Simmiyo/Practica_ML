@@ -1,0 +1,9 @@
+How the initialization affects the stability of the k-means algorithm
+We investigate the role of the initialization for the stability of the
+k-means clustering algorithm. As opposed to other papers, we consider the
+actual k-means algorithm and do not ignore its property of getting stuck in
+local optima. We are interested in the actual clustering, not only in the costs
+of the solution. We analyze when different initializations lead to the same
+local optimum, and when they lead to different local optima. This enables us to
+prove that it is reasonable to select the number of clusters based on stability
+scores.

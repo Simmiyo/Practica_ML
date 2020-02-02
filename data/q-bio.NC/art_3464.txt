@@ -1,0 +1,11 @@
+3D MRI brain tumor segmentation using autoencoder regularization
+Automated segmentation of brain tumors from 3D magnetic resonance images
+(MRIs) is necessary for the diagnosis, monitoring, and treatment planning of
+the disease. Manual delineation practices require anatomical knowledge, are
+expensive, time consuming and can be inaccurate due to human error. Here, we
+describe a semantic segmentation network for tumor subregion segmentation from
+3D MRIs based on encoder-decoder architecture. Due to a limited training
+dataset size, a variational auto-encoder branch is added to reconstruct the
+input image itself in order to regularize the shared decoder and impose
+additional constraints on its layers. The current approach won 1st place in the
+BraTS 2018 challenge.

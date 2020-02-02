@@ -1,0 +1,16 @@
+Single-shot Adaptive Measurement for Quantum-enhanced Metrology
+Quantum-enhanced metrology aims to estimate an unknown parameter such that
+the precision scales better than the shot-noise bound. Single-shot adaptive
+quantum-enhanced metrology (AQEM) is a promising approach that uses feedback to
+tweak the quantum process according to previous measurement outcomes.
+Techniques and formalism for the adaptive case are quite different from the
+usual non-adaptive quantum metrology approach due to the causal relationship
+between measurements and outcomes. We construct a formal framework for AQEM by
+modeling the procedure as a decision-making process, and we derive the
+imprecision and the Cram\'{e}r-Rao lower bound with explicit dependence on the
+feedback policy. We also explain the reinforcement learning approach for
+generating quantum control policies, which is adopted due to the optimal policy
+being non-trivial to devise. Applying a learning algorithm based on
+differential evolution enables us to attain imprecision for adaptive
+interferometric phase estimation, which turns out to be SQL when non-entangled
+particles are used in the scheme.

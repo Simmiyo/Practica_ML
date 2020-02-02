@@ -1,0 +1,23 @@
+A Generalized Mean Field Algorithm for Variational Inference in
+  Exponential Families
+The mean field methods, which entail approximating intractable probability
+distributions variationally with distributions from a tractable family, enjoy
+high efficiency, guaranteed convergence, and provide lower bounds on the true
+likelihood. But due to requirement for model-specific derivation of the
+optimization equations and unclear inference quality in various models, it is
+not widely used as a generic approximate inference algorithm. In this paper, we
+discuss a generalized mean field theory on variational approximation to a broad
+class of intractable distributions using a rich set of tractable distributions
+via constrained optimization over distribution spaces. We present a class of
+generalized mean field (GMF) algorithms for approximate inference in complex
+exponential family models, which entails limiting the optimization over the
+class of cluster-factorizable distributions. GMF is a generic method requiring
+no model-specific derivations. It factors a complex model into a set of
+disjoint variable clusters, and uses a set of canonical fix-point equations to
+iteratively update the cluster distributions, and converge to locally optimal
+cluster marginals that preserve the original dependency structure within each
+cluster, hence, fully decomposed the overall inference problem. We empirically
+analyzed the effect of different tractable family (clusters of different
+granularity) on inference quality, and compared GMF with BP on several
+canonical models. Possible extension to higher-order MF approximation is also
+discussed.

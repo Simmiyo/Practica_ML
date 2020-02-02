@@ -1,0 +1,26 @@
+Efficient Deep Feature Learning and Extraction via StochasticNets
+Deep neural networks are a powerful tool for feature learning and extraction
+given their ability to model high-level abstractions in highly complex data.
+One area worth exploring in feature learning and extraction using deep neural
+networks is efficient neural connectivity formation for faster feature learning
+and extraction. Motivated by findings of stochastic synaptic connectivity
+formation in the brain as well as the brain's uncanny ability to efficiently
+represent information, we propose the efficient learning and extraction of
+features via StochasticNets, where sparsely-connected deep neural networks can
+be formed via stochastic connectivity between neurons. To evaluate the
+feasibility of such a deep neural network architecture for feature learning and
+extraction, we train deep convolutional StochasticNets to learn abstract
+features using the CIFAR-10 dataset, and extract the learned features from
+images to perform classification on the SVHN and STL-10 datasets. Experimental
+results show that features learned using deep convolutional StochasticNets,
+with fewer neural connections than conventional deep convolutional neural
+networks, can allow for better or comparable classification accuracy than
+conventional deep neural networks: relative test error decrease of ~4.5% for
+classification on the STL-10 dataset and ~1% for classification on the SVHN
+dataset. Furthermore, it was shown that the deep features extracted using deep
+convolutional StochasticNets can provide comparable classification accuracy
+even when only 10% of the training data is used for feature learning. Finally,
+it was also shown that significant gains in feature extraction speed can be
+achieved in embedded applications using StochasticNets. As such, StochasticNets
+allow for faster feature learning and extraction performance while facilitate
+for better or comparable accuracy performances.

@@ -1,0 +1,18 @@
+Towards tailoring non-invasive brain stimulation using real-time fMRI
+  and Bayesian optimization
+Non-invasive brain stimulation, such as transcranial alternating current
+stimulation (tACS) provides a powerful tool to directly modulate brain
+oscillations that mediate complex cognitive processes. While the body of
+evidence about the effect of tACS on behavioral and cognitive performance is
+constantly growing, those studies fail to address the importance of subject-
+specific stimulation protocols. With this study here, we set the foundation to
+combine tACS with a recently presented framework that utilizes real-time fRMI
+and Bayesian optimization in order to identify the most optimal tACS protocol
+for a given individual. While Bayesian optimization is particularly relevant to
+such a scenario, its success depends on two fundamental choices: the choice of
+covariance kernel for the Gaussian process prior as well as the choice of
+acquisition function that guides the search. Using empirical (functional
+neuroimaging) as well as simulation data, we identified the squared exponential
+kernel and the upper confidence bound acquisition function to work best for our
+problem. These results will be used to inform our upcoming real- time
+experiments.

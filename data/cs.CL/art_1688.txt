@@ -1,0 +1,12 @@
+Feature-based Decipherment for Large Vocabulary Machine Translation
+Orthographic similarities across languages provide a strong signal for
+probabilistic decipherment, especially for closely related language pairs. The
+existing decipherment models, however, are not well-suited for exploiting these
+orthographic similarities. We propose a log-linear model with latent variables
+that incorporates orthographic similarity features. Maximum likelihood training
+is computationally expensive for the proposed log-linear model. To address this
+challenge, we perform approximate inference via MCMC sampling and contrastive
+divergence. Our results show that the proposed log-linear model with
+contrastive divergence scales to large vocabularies and outperforms the
+existing generative decipherment models by exploiting the orthographic
+features.

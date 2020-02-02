@@ -1,0 +1,20 @@
+Deep Neural Networks Regularization for Structured Output Prediction
+A deep neural network model is a powerful framework for learning
+representations. Usually, it is used to learn the relation $x \to y$ by
+exploiting the regularities in the input $x$. In structured output prediction
+problems, $y$ is multi-dimensional and structural relations often exist between
+the dimensions. The motivation of this work is to learn the output dependencies
+that may lie in the output data in order to improve the prediction accuracy.
+Unfortunately, feedforward networks are unable to exploit the relations between
+the outputs. In order to overcome this issue, we propose in this paper a
+regularization scheme for training neural networks for these particular tasks
+using a multi-task framework. Our scheme aims at incorporating the learning of
+the output representation $y$ in the training process in an unsupervised
+fashion while learning the supervised mapping function $x \to y$.
+  We evaluate our framework on a facial landmark detection problem which is a
+typical structured output task. We show over two public challenging datasets
+(LFPW and HELEN) that our regularization scheme improves the generalization of
+deep neural networks and accelerates their training. The use of unlabeled data
+and label-only data is also explored, showing an additional improvement of the
+results. We provide an opensource implementation
+(https://github.com/sbelharbi/structured-output-ae) of our framework.

@@ -1,0 +1,10 @@
+Probabilistic map-matching using particle filters
+Increasing availability of vehicle GPS data has created potentially
+transformative opportunities for traffic management, route planning and other
+location-based services. Critical to the utility of the data is their accuracy.
+Map-matching is the process of improving the accuracy by aligning GPS data with
+the road network. In this paper, we propose a purely probabilistic approach to
+map-matching based on a sequential Monte Carlo algorithm known as particle
+filters. The approach performs map-matching by producing a range of candidate
+solutions, each with an associated probability score. We outline implementation
+details and thoroughly validate the technique on GPS data of varied quality.

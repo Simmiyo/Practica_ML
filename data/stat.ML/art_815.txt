@@ -1,0 +1,10 @@
+Black-box Importance Sampling
+Importance sampling is widely used in machine learning and statistics, but
+its power is limited by the restriction of using simple proposals for which the
+importance weights can be tractably calculated. We address this problem by
+studying black-box importance sampling methods that calculate importance
+weights for samples generated from any unknown proposal or black-box mechanism.
+Our method allows us to use better and richer proposals to solve difficult
+problems, and (somewhat counter-intuitively) also has the additional benefit of
+improving the estimation accuracy beyond typical importance sampling. Both
+theoretical and empirical analyses are provided.

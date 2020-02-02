@@ -1,0 +1,13 @@
+Distance Metric Learning for Aspect Phrase Grouping
+Aspect phrase grouping is an important task in aspect-level sentiment
+analysis. It is a challenging problem due to polysemy and context dependency.
+We propose an Attention-based Deep Distance Metric Learning (ADDML) method, by
+considering aspect phrase representation as well as context representation.
+First, leveraging the characteristics of the review text, we automatically
+generate aspect phrase sample pairs for distant supervision. Second, we feed
+word embeddings of aspect phrases and their contexts into an attention-based
+neural network to learn feature representation of contexts. Both aspect phrase
+embedding and context embedding are used to learn a deep feature subspace for
+measure the distances between aspect phrases for K-means clustering.
+Experiments on four review datasets show that the proposed method outperforms
+state-of-the-art strong baseline methods.

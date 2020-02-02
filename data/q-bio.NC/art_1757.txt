@@ -1,0 +1,25 @@
+A measure for the complexity of Boolean functions related to their
+  implementation in neural networks
+We define a measure for the complexity of Boolean functions related to their
+implementation in neural networks, and in particular close related to the
+generalization ability that could be obtained through the learning process. The
+measure is computed through the calculus of the number of neighbor examples
+that differ in their output value. Pairs of these examples have been previously
+shown to be part of the minimum size training set needed to obtain perfect
+generalization in feedforward neural networks.
+  The main advantage of the proposed measure, in comparison to existing ones,
+is the way in which the measure is evaluated, as it can be computed from the
+definition of the function itself, independently of its implementation. The
+validity of the proposal is analyzed through numerical simulations performed on
+different feedforward neural networks architectures, and a good agreement is
+obtained between the predicted complexity and the generalization ability for
+different classes of functions.
+  Also an interesting analogy was found between the proposed complexity measure
+and the energy function of ferromagnetic systems, that could be exploited, by
+use of the existing results and mathematical tools developed within a
+statistical mechanics framework, to explore in a more rigorous way the
+properties of Boolean functions when implemented on neural networks.
+  We conjecture that the proposed measure could help as an useful tool for
+carrying a systematic study of the computational capabilities of neural
+networks, essentially by permitting an easy and reliable classification of
+Boolean functions. Possible extensions of the work are also discussed.

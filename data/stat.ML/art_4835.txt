@@ -1,0 +1,11 @@
+Unsupervised Learning with Imbalanced Data via Structure Consolidation
+  Latent Variable Model
+Unsupervised learning on imbalanced data is challenging because, when given
+imbalanced data, current model is often dominated by the major category and
+ignores the categories with small amount of data. We develop a latent variable
+model that can cope with imbalanced data by dividing the latent space into a
+shared space and a private space. Based on Gaussian Process Latent Variable
+Models, we propose a new kernel formulation that enables the separation of
+latent space and derives an efficient variational inference method. The
+performance of our model is demonstrated with an imbalanced medical image
+dataset.

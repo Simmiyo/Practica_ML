@@ -1,0 +1,24 @@
+The EcoLexicon Semantic Sketch Grammar: from Knowledge Patterns to Word
+  Sketches
+Many projects have applied knowledge patterns (KPs) to the retrieval of
+specialized information. Yet terminologists still rely on manual analysis of
+concordance lines to extract semantic information, since there are no
+user-friendly publicly available applications enabling them to find knowledge
+rich contexts (KRCs). To fill this void, we have created the KP-based
+EcoLexicon Semantic SketchGrammar (ESSG) in the well-known corpus query system
+Sketch Engine. For the first time, the ESSG is now publicly available inSketch
+Engine to query the EcoLexicon English Corpus. Additionally, reusing the ESSG
+in any English corpus uploaded by the user enables Sketch Engine to extract
+KRCs codifying generic-specific, part-whole, location, cause and function
+relations, because most of the KPs are domain-independent. The information is
+displayed in the form of summary lists (word sketches) containing the pairs of
+terms linked by a given semantic relation. This paper describes the process of
+building a KP-based sketch grammar with special focus on the last stage,
+namely, the evaluation with refinement purposes. We conducted an initial
+shallow precision and recall evaluation of the 64 English sketch grammar rules
+created so far for hyponymy, meronymy and causality. Precision was measured
+based on a random sample of concordances extracted from each word sketch type.
+Recall was assessed based on a random sample of concordances where known term
+pairs are found. The results are necessary for the improvement and refinement
+of the ESSG. The noise of false positives helped to further specify the rules,
+whereas the silence of false negatives allows us to find useful new patterns.

@@ -1,0 +1,7 @@
+Heuristic algorithm for 1D and 2D unfolding
+A very simple heuristic approach to the unfolding problem will be described.
+An iterative algorithm starts with an empty histogram and every iteration aims
+to add one entry to this histogram. The entry to be added is selected according
+to a criteria which includes a $\chi^2$ test and a regularization. After a
+relatively small number of iterations (500 - 1000) the growing reconstructed
+distribution converges to the true distribution.

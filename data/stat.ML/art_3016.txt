@@ -1,0 +1,12 @@
+Order-invariant prior specification in Bayesian factor analysis
+In (exploratory) factor analysis, the loading matrix is identified only up to
+orthogonal rotation. For identifiability, one thus often takes the loading
+matrix to be lower triangular with positive diagonal entries. In Bayesian
+inference, a standard practice is then to specify a prior under which the
+loadings are independent, the off-diagonal loadings are normally distributed,
+and the diagonal loadings follow a truncated normal distribution. This prior
+specification, however, depends in an important way on how the variables and
+associated rows of the loading matrix are ordered. We show how a minor
+modification of the approach allows one to compute with the identifiable lower
+triangular loading matrix but maintain invariance properties under reordering
+of the variables.

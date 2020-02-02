@@ -1,0 +1,13 @@
+Structured Variable Selection with Sparsity-Inducing Norms
+We consider the empirical risk minimization problem for linear supervised
+learning, with regularization by structured sparsity-inducing norms. These are
+defined as sums of Euclidean norms on certain subsets of variables, extending
+the usual $\ell_1$-norm and the group $\ell_1$-norm by allowing the subsets to
+overlap. This leads to a specific set of allowed nonzero patterns for the
+solutions of such problems. We first explore the relationship between the
+groups defining the norm and the resulting nonzero patterns, providing both
+forward and backward algorithms to go back and forth from groups to patterns.
+This allows the design of norms adapted to specific prior knowledge expressed
+in terms of nonzero patterns. We also present an efficient active set
+algorithm, and analyze the consistency of variable selection for least-squares
+linear regression in low and high-dimensional settings.

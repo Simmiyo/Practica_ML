@@ -1,0 +1,12 @@
+Application of multiview techniques to NHANES dataset
+Disease prediction or classification using health datasets involve using
+well-known predictors associated with the disease as features for the models.
+This study considers multiple data components of an individual's health, using
+the relationship between variables to generate features that may improve the
+performance of disease classification models. In order to capture information
+from different aspects of the data, this project uses a multiview learning
+approach, using Canonical Correlation Analysis (CCA), a technique that finds
+projections with maximum correlations between two data views. Data categories
+collected from the NHANES survey (1999-2014) are used as views to learn the
+multiview representations. The usefulness of the representations is
+demonstrated by applying them as features in a Diabetes classification task.

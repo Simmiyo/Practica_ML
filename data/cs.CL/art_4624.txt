@@ -1,0 +1,18 @@
+Neural MultiVoice Models for Expressing Novel Personalities in Dialog
+Natural language generators for task-oriented dialog should be able to vary
+the style of the output utterance while still effectively realizing the system
+dialog actions and their associated semantics. While the use of neural
+generation for training the response generation component of conversational
+agents promises to simplify the process of producing high quality responses in
+new domains, to our knowledge, there has been very little investigation of
+neural generators for task-oriented dialog that can vary their response style,
+and we know of no experiments on models that can generate responses that are
+different in style from those seen during training, while still maintain- ing
+semantic fidelity to the input meaning representation. Here, we show that a
+model that is trained to achieve a single stylis- tic personality target can
+produce outputs that combine stylistic targets. We carefully evaluate the
+multivoice outputs for both semantic fidelity and for similarities to and
+differences from the linguistic features that characterize the original
+training style. We show that contrary to our predictions, the learned models do
+not always simply interpolate model parameters, but rather produce styles that
+are distinct, and novel from the personalities they were trained on.

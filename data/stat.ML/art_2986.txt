@@ -1,0 +1,22 @@
+On the Equivalence Between Deep NADE and Generative Stochastic Networks
+Neural Autoregressive Distribution Estimators (NADEs) have recently been
+shown as successful alternatives for modeling high dimensional multimodal
+distributions. One issue associated with NADEs is that they rely on a
+particular order of factorization for $P(\mathbf{x})$. This issue has been
+recently addressed by a variant of NADE called Orderless NADEs and its deeper
+version, Deep Orderless NADE. Orderless NADEs are trained based on a criterion
+that stochastically maximizes $P(\mathbf{x})$ with all possible orders of
+factorizations. Unfortunately, ancestral sampling from deep NADE is very
+expensive, corresponding to running through a neural net separately predicting
+each of the visible variables given some others. This work makes a connection
+between this criterion and the training criterion for Generative Stochastic
+Networks (GSNs). It shows that training NADEs in this way also trains a GSN,
+which defines a Markov chain associated with the NADE model. Based on this
+connection, we show an alternative way to sample from a trained Orderless NADE
+that allows to trade-off computing time and quality of the samples: a 3 to
+10-fold speedup (taking into account the waste due to correlations between
+consecutive samples of the chain) can be obtained without noticeably reducing
+the quality of the samples. This is achieved using a novel sampling procedure
+for GSNs called annealed GSN sampling, similar to tempering methods that
+combines fast mixing (obtained thanks to steps at high noise levels) with
+accurate samples (obtained thanks to steps at low noise levels).

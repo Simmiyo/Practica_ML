@@ -1,0 +1,14 @@
+A Dictionary Learning Approach for Factorial Gaussian Models
+In this paper, we develop a parameter estimation method for factorially
+parametrized models such as Factorial Gaussian Mixture Model and Factorial
+Hidden Markov Model. Our contributions are two-fold. First, we show that the
+emission matrix of the standard Factorial Model is unidentifiable even if the
+true assignment matrix is known. Secondly, we address the issue of
+identifiability by making a one component sharing assumption and derive a
+parameter learning algorithm for this case. Our approach is based on a
+dictionary learning problem of the form $X = O R$, where the goal is to learn
+the dictionary $O$ given the data matrix $X$. We argue that due to the specific
+structure of the activation matrix $R$ in the shared component factorial
+mixture model, and an incoherence assumption on the shared component, it is
+possible to extract the columns of the $O$ matrix without the need for
+alternating between the estimation of $O$ and $R$.

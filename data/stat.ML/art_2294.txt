@@ -1,0 +1,20 @@
+Cost-Sensitive Support Vector Machines
+A new procedure for learning cost-sensitive SVM(CS-SVM) classifiers is
+proposed. The SVM hinge loss is extended to the cost sensitive setting, and the
+CS-SVM is derived as the minimizer of the associated risk. The extension of the
+hinge loss draws on recent connections between risk minimization and
+probability elicitation. These connections are generalized to cost-sensitive
+classification, in a manner that guarantees consistency with the cost-sensitive
+Bayes risk, and associated Bayes decision rule. This ensures that optimal
+decision rules, under the new hinge loss, implement the Bayes-optimal
+cost-sensitive classification boundary. Minimization of the new hinge loss is
+shown to be a generalization of the classic SVM optimization problem, and can
+be solved by identical procedures. The dual problem of CS-SVM is carefully
+scrutinized by means of regularization theory and sensitivity analysis and the
+CS-SVM algorithm is substantiated. The proposed algorithm is also extended to
+cost-sensitive learning with example dependent costs. The minimum cost
+sensitive risk is proposed as the performance measure and is connected to ROC
+analysis through vector optimization. The resulting algorithm avoids the
+shortcomings of previous approaches to cost-sensitive SVM design, and is shown
+to have superior experimental performance on a large number of cost sensitive
+and imbalanced datasets.

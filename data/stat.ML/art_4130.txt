@@ -1,0 +1,17 @@
+Nonconvex penalties with analytical solutions for one-bit compressive
+  sensing
+One-bit measurements widely exist in the real world, and they can be used to
+recover sparse signals. This task is known as the problem of learning
+halfspaces in learning theory and one-bit compressive sensing (1bit-CS) in
+signal processing. In this paper, we propose novel algorithms based on both
+convex and nonconvex sparsity-inducing penalties for robust 1bit-CS. We provide
+a sufficient condition to verify whether a solution is globally optimal or not.
+Then we show that the globally optimal solution for positive homogeneous
+penalties can be obtained in two steps: a proximal operator and a normalization
+step. For several nonconvex penalties, including minimax concave penalty (MCP),
+$\ell_0$ norm, and sorted $\ell_1$ penalty, we provide fast algorithms for
+finding the analytical solutions by solving the dual problem. Specifically, our
+algorithm is more than $200$ times faster than the existing algorithm for MCP.
+Its efficiency is comparable to the algorithm for the $\ell_1$ penalty in time,
+while its performance is much better. Among these penalties, the sorted
+$\ell_1$ penalty is most robust to noise in different settings.

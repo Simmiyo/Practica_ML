@@ -1,0 +1,18 @@
+Supervised Learning of Logical Operations in Layered Spiking Neural
+  Networks with Spike Train Encoding
+Few algorithms for supervised training of spiking neural networks exist that
+can deal with patterns of multiple spikes, and their computational properties
+are largely unexplored. We demonstrate in a set of simulations that the ReSuMe
+learning algorithm can be successfully applied to layered neural networks.
+Input and output patterns are encoded as spike trains of multiple precisely
+timed spikes, and the network learns to transform the input trains into target
+output trains. This is done by combining the ReSuMe learning algorithm with
+multiplicative scaling of the connections of downstream neurons.
+  We show in particular that layered networks with one hidden layer can learn
+the basic logical operations, including Exclusive-Or, while networks without
+hidden layer cannot, mirroring an analogous result for layered networks of rate
+neurons.
+  While supervised learning in spiking neural networks is not yet fit for
+technical purposes, exploring computational properties of spiking neural
+networks advances our understanding of how computations can be done with spike
+trains.

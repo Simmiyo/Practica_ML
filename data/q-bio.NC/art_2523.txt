@@ -1,0 +1,20 @@
+Maximally reliable spatial filtering of steady state visual evoked
+  potentials
+Due to their high signal-to-noise ratio (SNR) and robustness to artifacts,
+steady state visual evoked potentials (SSVEPs) are a popular technique for
+studying neural processing in the human visual system. SSVEPs are
+conventionally analyzed at individual electrodes or linear combinations of
+electrodes which maximize some variant of the SNR. Here we exploit the
+fundamental assumption of evoked responses -- reproducibility across trials --
+to develop a technique that extracts a small number of high SNR, maximally
+reliable SSVEP components. This novel spatial filtering method operates on an
+array of Fourier coefficients and projects the data into a low-dimensional
+space in which the trial-to-trial spectral covariance is maximized. When
+applied to two sample data sets, the resulting technique recovers
+physiologically plausible components (i.e., the recovered topographies match
+the lead fields of the underlying sources) while drastically reducing the
+dimensionality of the data (i.e., more than 90% of the trial-to-trial
+reliability is captured in the first four components). Moreover, the proposed
+technique achieves a higher SNR than that of the single-best electrode or the
+Principal Components. We provide a freely-available MATLAB implementation of
+the proposed technique, herein termed "Reliable Components Analysis".

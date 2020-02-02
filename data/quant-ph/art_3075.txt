@@ -1,0 +1,12 @@
+Quantum Computation by Adiabatic Evolution
+We give a quantum algorithm for solving instances of the satisfiability
+problem, based on adiabatic evolution. The evolution of the quantum state is
+governed by a time-dependent Hamiltonian that interpolates between an initial
+Hamiltonian, whose ground state is easy to construct, and a final Hamiltonian,
+whose ground state encodes the satisfying assignment. To ensure that the system
+evolves to the desired final ground state, the evolution time must be big
+enough. The time required depends on the minimum energy difference between the
+two lowest states of the interpolating Hamiltonian. We are unable to estimate
+this gap in general. We give some special symmetric cases of the satisfiability
+problem where the symmetry allows us to estimate the gap and we show that, in
+these cases, our algorithm runs in polynomial time.

@@ -1,0 +1,16 @@
+Compositional Learning of Relation Path Embedding for Knowledge Base
+  Completion
+Large-scale knowledge bases have currently reached impressive sizes; however,
+these knowledge bases are still far from complete. In addition, most of the
+existing methods for knowledge base completion only consider the direct links
+between entities, ignoring the vital impact of the consistent semantics of
+relation paths. In this paper, we study the problem of how to better embed
+entities and relations of knowledge bases into different low-dimensional spaces
+by taking full advantage of the additional semantics of relation paths, and we
+propose a compositional learning model of relation path embedding (RPE).
+Specifically, with the corresponding relation and path projections, RPE can
+simultaneously embed each entity into two types of latent spaces. It is also
+proposed that type constraints could be extended from traditional
+relation-specific constraints to the new proposed path-specific constraints.
+The results of experiments show that the proposed model achieves significant
+and consistent improvements compared with the state-of-the-art algorithms.

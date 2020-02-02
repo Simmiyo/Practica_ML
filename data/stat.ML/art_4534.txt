@@ -1,0 +1,21 @@
+Maximum Entropy Vector Kernels for MIMO system identification
+Recent contributions have framed linear system identification as a
+nonparametric regularized inverse problem. Relying on $\ell_2$-type
+regularization which accounts for the stability and smoothness of the impulse
+response to be estimated, these approaches have been shown to be competitive
+w.r.t classical parametric methods. In this paper, adopting Maximum Entropy
+arguments, we derive a new $\ell_2$ penalty deriving from a vector-valued
+kernel; to do so we exploit the structure of the Hankel matrix, thus
+controlling at the same time complexity, measured by the McMillan degree,
+stability and smoothness of the identified models. As a special case we recover
+the nuclear norm penalty on the squared block Hankel matrix. In contrast with
+previous literature on reweighted nuclear norm penalties, our kernel is
+described by a small number of hyper-parameters, which are iteratively updated
+through marginal likelihood maximization; constraining the structure of the
+kernel acts as a (hyper)regularizer which helps controlling the effective
+degrees of freedom of our estimator. To optimize the marginal likelihood we
+adapt a Scaled Gradient Projection (SGP) algorithm which is proved to be
+significantly computationally cheaper than other first and second order
+off-the-shelf optimization methods. The paper also contains an extensive
+comparison with many state-of-the-art methods on several Monte-Carlo studies,
+which confirms the effectiveness of our procedure.

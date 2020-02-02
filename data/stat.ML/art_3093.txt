@@ -1,0 +1,13 @@
+HIPAD - A Hybrid Interior-Point Alternating Direction algorithm for
+  knowledge-based SVM and feature selection
+We consider classification tasks in the regime of scarce labeled training
+data in high dimensional feature space, where specific expert knowledge is also
+available. We propose a new hybrid optimization algorithm that solves the
+elastic-net support vector machine (SVM) through an alternating direction
+method of multipliers in the first phase, followed by an interior-point method
+for the classical SVM in the second phase. Both SVM formulations are adapted to
+knowledge incorporation. Our proposed algorithm addresses the challenges of
+automatic feature selection, high optimization accuracy, and algorithmic
+flexibility for taking advantage of prior knowledge. We demonstrate the
+effectiveness and efficiency of our algorithm and compare it with existing
+methods on a collection of synthetic and real-world data.

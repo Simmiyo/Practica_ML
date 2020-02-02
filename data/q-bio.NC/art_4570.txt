@@ -1,0 +1,25 @@
+A martingale analysis of first passage times of time-dependent Wiener
+  diffusion models
+Research in psychology and neuroscience has successfully modeled decision
+making as a process of noisy evidence accumulation to a decision bound. While
+there are several variants and implementations of this idea, the majority of
+these models make use of a noisy accumulation between two absorbing boundaries.
+A common assumption of these models is that decision parameters, e.g., the rate
+of accumulation (drift rate), remain fixed over the course of a decision,
+allowing the derivation of analytic formulas for the probabilities of hitting
+the upper or lower decision threshold, and the mean decision time. There is
+reason to believe, however, that many types of behavior would be better
+described by a model in which the parameters were allowed to vary over the
+course of the decision process.
+  In this paper, we use martingale theory to derive formulas for the mean
+decision time, hitting probabilities, and first passage time (FPT) densities of
+a Wiener process with time-varying drift between two time-varying absorbing
+boundaries. This model was first studied by Ratcliff (1980) in the two-stage
+form, and here we consider the same model for an arbitrary number of stages
+(i.e. intervals of time during which parameters are constant). Our calculations
+enable direct computation of mean decision times and hitting probabilities for
+the associated multistage process. We also provide a review of how martingale
+theory may be used to analyze similar models employing Wiener processes by
+re-deriving some classical results. In concert with a variety of numerical
+tools already available, the current derivations should encourage mathematical
+analysis of more complex models of decision making with time-varying evidence.

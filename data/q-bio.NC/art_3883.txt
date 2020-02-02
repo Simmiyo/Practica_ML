@@ -1,0 +1,24 @@
+Observers for canonic models of neural oscillators
+We consider the problem of state and parameter estimation for a wide class of
+nonlinear oscillators. Observable variables are limited to a few components of
+state vector and an input signal. The problem of state and parameter
+reconstruction is viewed within the classical framework of observer design.
+This framework offers computationally-efficient solutions to the problem of
+state and parameter reconstruction of a system of nonlinear differential
+equations, provided that these equations are in the so-called adaptive observer
+canonic form. We show that despite typical neural oscillators being locally
+observable they are not in the adaptive canonic observer form. Furthermore, we
+show that no parameter-independent diffeomorphism exists such that the original
+equations of these models can be transformed into the adaptive canonic observer
+form. We demonstrate, however, that for the class of Hindmarsh-Rose and
+FitzHugh-Nagumo models, parameter-dependent coordinate transformations can be
+used to render these systems into the adaptive observer canonical form. This
+allows reconstruction, at least partially and up to a (bi)linear
+transformation, of unknown state and parameter values with exponential rate of
+convergence. In order to avoid the problem of only partial reconstruction and
+to deal with more general nonlinear models in which the unknown parameters
+enter the system nonlinearly, we present a new method for state and parameter
+reconstruction for these systems. The method combines advantages of standard
+Lyapunov-based design with more flexible design and analysis techniques based
+on the non-uniform small-gain theorems. Effectiveness of the method is
+illustrated with simple numerical examples.

@@ -1,0 +1,15 @@
+An evaluation of randomized machine learning methods for redundant data:
+  Predicting short and medium-term suicide risk from administrative records and
+  risk assessments
+Accurate prediction of suicide risk in mental health patients remains an open
+problem. Existing methods including clinician judgments have acceptable
+sensitivity, but yield many false positives. Exploiting administrative data has
+a great potential, but the data has high dimensionality and redundancies in the
+recording processes. We investigate the efficacy of three most effective
+randomized machine learning techniques random forests, gradient boosting
+machines, and deep neural nets with dropout in predicting suicide risk. Using a
+cohort of mental health patients from a regional Australian hospital, we
+compare the predictive performance with popular traditional approaches
+clinician judgments based on a checklist, sparse logistic regression and
+decision trees. The randomized methods demonstrated robustness against data
+redundancies and superior predictive performance on AUC and F-measure.

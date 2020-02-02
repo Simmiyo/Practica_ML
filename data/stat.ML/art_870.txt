@@ -1,0 +1,26 @@
+Non-Convex Projected Gradient Descent for Generalized Low-Rank Tensor
+  Regression
+In this paper, we consider the problem of learning high-dimensional tensor
+regression problems with low-rank structure. One of the core challenges
+associated with learning high-dimensional models is computation since the
+underlying optimization problems are often non-convex. While convex relaxations
+could lead to polynomial-time algorithms they are often slow in practice. On
+the other hand, limited theoretical guarantees exist for non-convex methods. In
+this paper we provide a general framework that provides theoretical guarantees
+for learning high-dimensional tensor regression models under different low-rank
+structural assumptions using the projected gradient descent algorithm applied
+to a potentially non-convex constraint set $\Theta$ in terms of its
+\emph{localized Gaussian width}. We juxtapose our theoretical results for
+non-convex projected gradient descent algorithms with previous results on
+regularized convex approaches. The two main differences between the convex and
+non-convex approach are: (i) from a computational perspective whether the
+non-convex projection operator is computable and whether the projection has
+desirable contraction properties and (ii) from a statistical upper bound
+perspective, the non-convex approach has a superior rate for a number of
+examples. We provide three concrete examples of low-dimensional structure which
+address these issues and explain the pros and cons for the non-convex and
+convex approaches. We supplement our theoretical results with simulations which
+show that, under several common settings of generalized low rank tensor
+regression, the projected gradient descent approach is superior both in terms
+of statistical error and run-time provided the step-sizes of the projected
+descent algorithm are suitably chosen.

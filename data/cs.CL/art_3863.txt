@@ -1,0 +1,18 @@
+Word learning and the acquisition of syntactic--semantic overhypotheses
+Children learning their first language face multiple problems of induction:
+how to learn the meanings of words, and how to build meaningful phrases from
+those words according to syntactic rules. We consider how children might solve
+these problems efficiently by solving them jointly, via a computational model
+that learns the syntax and semantics of multi-word utterances in a grounded
+reference game. We select a well-studied empirical case in which children are
+aware of patterns linking the syntactic and semantic properties of words ---
+that the properties picked out by base nouns tend to be related to shape, while
+prenominal adjectives tend to refer to other properties such as color. We show
+that children applying such inductive biases are accurately reflecting the
+statistics of child-directed speech, and that inducing similar biases in our
+computational model captures children's behavior in a classic adjective
+learning experiment. Our model incorporating such biases also demonstrates a
+clear data efficiency in learning, relative to a baseline model that learns
+without forming syntax-sensitive overhypotheses of word meaning. Thus solving a
+more complex joint inference problem may make the full problem of language
+acquisition easier, not harder.

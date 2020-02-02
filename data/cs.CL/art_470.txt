@@ -1,0 +1,16 @@
+A Concise Query Language with Search and Transform Operations for
+  Corpora with Multiple Levels of Annotation
+The usefulness of annotated corpora is greatly increased if there is an
+associated tool that can allow various kinds of operations to be performed in a
+simple way. Different kinds of annotation frameworks and many query languages
+for them have been proposed, including some to deal with multiple layers of
+annotation. We present here an easy to learn query language for a particular
+kind of annotation framework based on 'threaded trees', which are somewhere
+between the complete order of a tree and the anarchy of a graph. Through
+'typed' threads, they can allow multiple levels of annotation in the same
+document. Our language has a simple, intuitive and concise syntax and high
+expressive power. It allows not only to search for complicated patterns with
+short queries but also allows data manipulation and specification of arbitrary
+return values. Many of the commonly used tasks that otherwise require writing
+programs, can be performed with one or more queries. We compare the language
+with some others and try to evaluate it.

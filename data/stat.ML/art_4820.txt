@@ -1,0 +1,17 @@
+Large-Scale Kernel Methods for Independence Testing
+Representations of probability measures in reproducing kernel Hilbert spaces
+provide a flexible framework for fully nonparametric hypothesis tests of
+independence, which can capture any type of departure from independence,
+including nonlinear associations and multivariate interactions. However, these
+approaches come with an at least quadratic computational cost in the number of
+observations, which can be prohibitive in many applications. Arguably, it is
+exactly in such large-scale datasets that capturing any type of dependence is
+of interest, so striking a favourable tradeoff between computational efficiency
+and test performance for kernel independence tests would have a direct impact
+on their applicability in practice. In this contribution, we provide an
+extensive study of the use of large-scale kernel approximations in the context
+of independence testing, contrasting block-based, Nystrom and random Fourier
+feature approaches. Through a variety of synthetic data experiments, it is
+demonstrated that our novel large scale methods give comparable performance
+with existing methods whilst using significantly less computation time and
+memory.

@@ -1,0 +1,18 @@
+Learning Similarity Functions for Pronunciation Variations
+A significant source of errors in Automatic Speech Recognition (ASR) systems
+is due to pronunciation variations which occur in spontaneous and
+conversational speech. Usually ASR systems use a finite lexicon that provides
+one or more pronunciations for each word. In this paper, we focus on learning a
+similarity function between two pronunciations. The pronunciations can be the
+canonical and the surface pronunciations of the same word or they can be two
+surface pronunciations of different words. This task generalizes problems such
+as lexical access (the problem of learning the mapping between words and their
+possible pronunciations), and defining word neighborhoods. It can also be used
+to dynamically increase the size of the pronunciation lexicon, or in predicting
+ASR errors. We propose two methods, which are based on recurrent neural
+networks, to learn the similarity function. The first is based on binary
+classification, and the second is based on learning the ranking of the
+pronunciations. We demonstrate the efficiency of our approach on the task of
+lexical access using a subset of the Switchboard conversational speech corpus.
+Results suggest that on this task our methods are superior to previous methods
+which are based on graphical Bayesian methods.

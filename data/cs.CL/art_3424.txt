@@ -1,0 +1,16 @@
+EmotionLines: An Emotion Corpus of Multi-Party Conversations
+Feeling emotion is a critical characteristic to distinguish people from
+machines. Among all the multi-modal resources for emotion detection, textual
+datasets are those containing the least additional information in addition to
+semantics, and hence are adopted widely for testing the developed systems.
+However, most of the textual emotional datasets consist of emotion labels of
+only individual words, sentences or documents, which makes it challenging to
+discuss the contextual flow of emotions. In this paper, we introduce
+EmotionLines, the first dataset with emotions labeling on all utterances in
+each dialogue only based on their textual content. Dialogues in EmotionLines
+are collected from Friends TV scripts and private Facebook messenger dialogues.
+Then one of seven emotions, six Ekman's basic emotions plus the neutral
+emotion, is labeled on each utterance by 5 Amazon MTurkers. A total of 29,245
+utterances from 2,000 dialogues are labeled in EmotionLines. We also provide
+several strong baselines for emotion detection models on EmotionLines in this
+paper.

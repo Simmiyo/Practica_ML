@@ -1,0 +1,16 @@
+Text normalization using memory augmented neural networks
+We perform text normalization, i.e. the transformation of words from the
+written to the spoken form, using a memory augmented neural network. With the
+addition of dynamic memory access and storage mechanism, we present a neural
+architecture that will serve as a language-agnostic text normalization system
+while avoiding the kind of unacceptable errors made by the LSTM-based recurrent
+neural networks. By successfully reducing the frequency of such mistakes, we
+show that this novel architecture is indeed a better alternative. Our proposed
+system requires significantly lesser amounts of data, training time and compute
+resources. Additionally, we perform data up-sampling, circumventing the data
+sparsity problem in some semiotic classes, to show that sufficient examples in
+any particular class can improve the performance of our text normalization
+system. Although a few occurrences of these errors still remain in certain
+semiotic classes, we demonstrate that memory augmented networks with
+meta-learning capabilities can open many doors to a superior text normalization
+system.

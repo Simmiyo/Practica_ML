@@ -1,0 +1,13 @@
+Unbiased Sparse Subspace Clustering By Selective Pursuit
+Sparse subspace clustering (SSC) is an elegant approach for unsupervised
+segmentation if the data points of each cluster are located in linear
+subspaces. This model applies, for instance, in motion segmentation if some
+restrictions on the camera model hold. SSC requires that problems based on the
+$l_1$-norm are solved to infer which points belong to the same subspace. If
+these unknown subspaces are well-separated this algorithm is guaranteed to
+succeed. The algorithm rests upon the assumption that points on the same
+subspace are well spread. The question what happens if this condition is
+violated has not yet been investigated. In this work, the effect of particular
+distributions on the same subspace will be analyzed. It will be shown that SSC
+fails to infer correct labels if points on the same subspace fall into more
+than one cluster.

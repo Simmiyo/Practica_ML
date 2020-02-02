@@ -1,0 +1,12 @@
+A Deep Learning Architecture for De-identification of Patient Notes:
+  Implementation and Evaluation
+De-identification is the process of removing 18 protected health information
+(PHI) from clinical notes in order for the text to be considered not
+individually identifiable. Recent advances in natural language processing (NLP)
+has allowed for the use of deep learning techniques for the task of
+de-identification. In this paper, we present a deep learning architecture that
+builds on the latest NLP advances by incorporating deep contextualized word
+embeddings and variational drop out Bi-LSTMs. We test this architecture on two
+gold standard datasets and show that the architecture achieves state-of-the-art
+performance on both data sets while also converging faster than other systems
+without the use of dictionaries or other knowledge sources.

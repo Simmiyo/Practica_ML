@@ -1,0 +1,12 @@
+Neural Ideals in SageMath
+A major area in neuroscience research is the study of how the brain processes
+spatial information. Neurons in the brain represent external stimuli via neural
+codes. These codes often arise from stereotyped stimulus-response maps,
+associating to each neuron a convex receptive field. An important problem
+consists in determining what stimulus space features can be extracted directly
+from a neural code. The neural ideal is an algebraic object that encodes the
+full combinatorial data of a neural code. This ideal can be expressed in a
+canonical form that directly translates to a minimal description of the
+receptive field structure intrinsic to the code. In here, we describe a
+SageMath package that contains several algorithms related to the canonical form
+of a neural ideal.

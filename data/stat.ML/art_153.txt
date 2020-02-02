@@ -1,0 +1,11 @@
+Online algorithms for Nonnegative Matrix Factorization with the
+  Itakura-Saito divergence
+Nonnegative matrix factorization (NMF) is now a common tool for audio source
+separation. When learning NMF on large audio databases, one major drawback is
+that the complexity in time is O(FKN) when updating the dictionary (where (F;N)
+is the dimension of the input power spectrograms, and K the number of basis
+spectra), thus forbidding its application on signals longer than an hour. We
+provide an online algorithm with a complexity of O(FK) in time and memory for
+updates in the dictionary. We show on audio simulations that the online
+approach is faster for short audio signals and allows to analyze audio signals
+of several hours.

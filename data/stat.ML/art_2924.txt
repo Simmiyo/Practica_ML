@@ -1,0 +1,16 @@
+Biclustering Via Sparse Clustering
+In many situations it is desirable to identify clusters that differ with
+respect to only a subset of features. Such clusters may represent homogeneous
+subgroups of patients with a disease, such as cancer or chronic pain. We define
+a bicluster to be a submatrix U of a larger data matrix X such that the
+features and observations in U differ from those not contained in U. For
+example, the observations in U could have different means or variances with
+respect to the features in U. We propose a general framework for biclustering
+based on the sparse clustering method of Witten and Tibshirani (2010). We
+develop a method for identifying features that belong to biclusters. This
+framework can be used to identify biclusters that differ with respect to the
+means of the features, the variance of the features, or more general
+differences. We apply these methods to several simulated and real-world data
+sets and compare the results of our method with several previously published
+methods. The results of our method compare favorably with existing methods with
+respect to both predictive accuracy and computing time.

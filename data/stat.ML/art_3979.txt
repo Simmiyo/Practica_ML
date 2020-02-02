@@ -1,0 +1,20 @@
+A Category Space Approach to Supervised Dimensionality Reduction
+Supervised dimensionality reduction has emerged as an important theme in the
+last decade. Despite the plethora of models and formulations, there is a lack
+of a simple model which aims to project the set of patterns into a space
+defined by the classes (or categories). To this end, we set up a model in which
+each class is represented as a 1D subspace of the vector space formed by the
+features. Assuming the set of classes does not exceed the cardinality of the
+features, the model results in multi-class supervised learning in which the
+features of each class are projected into the class subspace. Class
+discrimination is automatically guaranteed via the imposition of orthogonality
+of the 1D class sub-spaces. The resulting optimization problem - formulated as
+the minimization of a sum of quadratic functions on a Stiefel manifold - while
+being non-convex (due to the constraints), nevertheless has a structure for
+which we can identify when we have reached a global minimum. After formulating
+a version with standard inner products, we extend the formulation to
+reproducing kernel Hilbert spaces in a straightforward manner. The optimization
+approach also extends in a similar fashion to the kernel version. Results and
+comparisons with the multi-class Fisher linear (and kernel) discriminants and
+principal component analysis (linear and kernel) showcase the relative merits
+of this approach to dimensionality reduction.

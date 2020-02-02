@@ -1,0 +1,14 @@
+Feature importance scores and lossless feature pruning using Banzhaf
+  power indices
+Understanding the influence of features in machine learning is crucial to
+interpreting models and selecting the best features for classification. In this
+work we propose the use of principles from coalitional game theory to reason
+about importance of features. In particular, we propose the use of the Banzhaf
+power index as a measure of influence of features on the outcome of a
+classifier. We show that features having Banzhaf power index of zero can be
+losslessly pruned without damage to classifier accuracy. Computing the power
+indices does not require having access to data samples. However, if samples are
+available, the indices can be empirically estimated. We compute Banzhaf power
+indices for a neural network classifier on real-life data, and compare the
+results with gradient-based feature saliency, and coefficients of a logistic
+regression model with $L_1$ regularization.

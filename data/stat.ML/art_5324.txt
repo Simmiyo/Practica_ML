@@ -1,0 +1,17 @@
+Kiefer Wolfowitz Algorithm is Asymptotically Optimal for a Class of
+  Non-Stationary Bandit Problems
+We consider the problem of designing an allocation rule or an "online
+learning algorithm" for a class of bandit problems in which the set of control
+actions available at each time $s$ is a convex, compact subset of
+$\mathbb{R}^d$. Upon choosing an action $x$ at time $s$, the algorithm obtains
+a noisy value of the unknown and time-varying function $f_s$ evaluated at $x$.
+The "regret" of an algorithm is the gap between its expected reward, and the
+reward earned by a strategy which has the knowledge of the function $f_s$ at
+each time $s$ and hence chooses the action $x_s$ that maximizes $f_s$.
+  For this non-stationary bandit problem set-up, we consider two variants of
+the Kiefer Wolfowitz (KW) algorithm i) KW with fixed step-size $\beta$, and ii)
+KW with sliding window of length $L$. We show that if the number of times that
+the function $f_s$ varies during time $T$ is $o(T)$, and if the learning rates
+of the proposed algorithms are chosen "optimally", then the regret of the
+proposed algorithms is $o(T)$, and hence the algorithms are asymptotically
+efficient.

@@ -1,0 +1,17 @@
+Sparse Trace Norm Regularization
+We study the problem of estimating multiple predictive functions from a
+dictionary of basis functions in the nonparametric regression setting. Our
+estimation scheme assumes that each predictive function can be estimated in the
+form of a linear combination of the basis functions. By assuming that the
+coefficient matrix admits a sparse low-rank structure, we formulate the
+function estimation problem as a convex program regularized by the trace norm
+and the $\ell_1$-norm simultaneously. We propose to solve the convex program
+using the accelerated gradient (AG) method and the alternating direction method
+of multipliers (ADMM) respectively; we also develop efficient algorithms to
+solve the key components in both AG and ADMM. In addition, we conduct
+theoretical analysis on the proposed function estimation scheme: we derive a
+key property of the optimal solution to the convex program; based on an
+assumption on the basis functions, we establish a performance bound of the
+proposed function estimation scheme (via the composite regularization).
+Simulation studies demonstrate the effectiveness and efficiency of the proposed
+algorithms.

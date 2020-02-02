@@ -1,0 +1,20 @@
+Analyzing dynamic decision-making models using Chapman-Kolmogorov
+  equations
+Decision-making in dynamic environments typically requires adaptive evidence
+accumulation that weights new evidence more heavily than old observations.
+Recent experimental studies of dynamic decision tasks require subjects to make
+decisions for which the correct choice switches stochastically throughout a
+single trial. In such cases, an ideal observer's belief is described by an
+evolution equation that is doubly stochastic, reflecting stochasticity in the
+both observations and environmental changes. In these contexts, we show that
+the probability density of the belief can be represented using differential
+Chapman-Kolmogorov equations, allowing efficient computation of ensemble
+statistics. This allows us to reliably compare normative models to
+near-normative approximations using, as model performance metrics, decision
+response accuracy and Kullback-Leibler divergence of the belief distributions.
+Such belief distributions could be obtained empirically from subjects by asking
+them to report their decision confidence. We also study how response accuracy
+is affected by additional internal noise, showing optimality requires longer
+integration timescales as more noise is added. Lastly, we demonstrate that our
+method can be applied to tasks in which evidence arrives in a discrete,
+pulsatile fashion, rather than continuously.

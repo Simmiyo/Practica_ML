@@ -1,0 +1,13 @@
+Dual Teaching: A Practical Semi-supervised Wrapper Method
+Semi-supervised wrapper methods are concerned with building effective
+supervised classifiers from partially labeled data. Though previous works have
+succeeded in some fields, it is still difficult to apply semi-supervised
+wrapper methods to practice because the assumptions those methods rely on tend
+to be unrealistic in practice. For practical use, this paper proposes a novel
+semi-supervised wrapper method, Dual Teaching, whose assumptions are easy to
+set up. Dual Teaching adopts two external classifiers to estimate the false
+positives and false negatives of the base learner. Only if the recall of every
+external classifier is greater than zero and the sum of the precision is
+greater than one, Dual Teaching will train a base learner from partially
+labeled data as effectively as the fully-labeled-data-trained classifier. The
+effectiveness of Dual Teaching is proved in both theory and practice.

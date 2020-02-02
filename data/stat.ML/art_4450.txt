@@ -1,0 +1,21 @@
+NPC: Neighbors Progressive Competition Algorithm for Classification of
+  Imbalanced Data Sets
+Learning from many real-world datasets is limited by a problem called the
+class imbalance problem. A dataset is imbalanced when one class (the majority
+class) has significantly more samples than the other class (the minority
+class). Such datasets cause typical machine learning algorithms to perform
+poorly on the classification task. To overcome this issue, this paper proposes
+a new approach Neighbors Progressive Competition (NPC) for classification of
+imbalanced datasets. Whilst the proposed algorithm is inspired by weighted
+k-Nearest Neighbor (k-NN) algorithms, it has major differences from them.
+Unlike k- NN, NPC does not limit its decision criteria to a preset number of
+nearest neighbors. In contrast, NPC considers progressively more neighbors of
+the query sample in its decision making until the sum of grades for one class
+is much higher than the other classes. Furthermore, NPC uses a novel method for
+grading the training samples to compensate for the imbalance issue. The grades
+are calculated using both local and global information. In brief, the
+contribution of this paper is an entirely new classifier for handling the
+imbalance issue effectively without any manually-set parameters or any need for
+expert knowledge. Experimental results compare the proposed approach with five
+representative algorithms applied to fifteen imbalanced datasets and illustrate
+this algorithms effectiveness.

@@ -1,0 +1,15 @@
+How to Generate a Good Word Embedding?
+We analyze three critical components of word embedding training: the model,
+the corpus, and the training parameters. We systematize existing
+neural-network-based word embedding algorithms and compare them using the same
+corpus. We evaluate each word embedding in three ways: analyzing its semantic
+properties, using it as a feature for supervised tasks and using it to
+initialize neural networks. We also provide several simple guidelines for
+training word embeddings. First, we discover that corpus domain is more
+important than corpus size. We recommend choosing a corpus in a suitable domain
+for the desired task, after that, using a larger corpus yields better results.
+Second, we find that faster models provide sufficient performance in most
+cases, and more complex models can be used if the training corpus is
+sufficiently large. Third, the early stopping metric for iterating should rely
+on the development set of the desired task rather than the validation loss of
+training embedding.

@@ -1,0 +1,16 @@
+A Semi-Markov Switching Linear Gaussian Model for Censored Physiological
+  Data
+Critically ill patients in regular wards are vulnerable to unanticipated
+clinical dete- rioration which requires timely transfer to the intensive care
+unit (ICU). To allow for risk scoring and patient monitoring in such a setting,
+we develop a novel Semi- Markov Switching Linear Gaussian Model (SSLGM) for the
+inpatients' physiol- ogy. The model captures the patients' latent clinical
+states and their corresponding observable lab tests and vital signs. We present
+an efficient unsupervised learn- ing algorithm that capitalizes on the
+informatively censored data in the electronic health records (EHR) to learn the
+parameters of the SSLGM; the learned model is then used to assess the new
+inpatients' risk for clinical deterioration in an online fashion, allowing for
+timely ICU admission. Experiments conducted on a het- erogeneous cohort of
+6,094 patients admitted to a large academic medical center show that the
+proposed model significantly outperforms the currently deployed risk scores
+such as Rothman index, MEWS, SOFA and APACHE.

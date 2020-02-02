@@ -1,0 +1,17 @@
+Scalable Latent Tree Model and its Application to Health Analytics
+We present an integrated approach to structure and parameter estimation in
+latent tree graphical models, where some nodes are hidden. Our overall approach
+follows a "divide-and-conquer" strategy that learns models over small groups of
+variables and iteratively merges into a global solution. The structure learning
+involves combinatorial operations such as minimum spanning tree construction
+and local recursive grouping; the parameter learning is based on the method of
+moments and on tensor decompositions. Our method is guaranteed to correctly
+recover the unknown tree structure and the model parameters with low sample
+complexity for the class of linear multivariate latent tree models which
+includes discrete and Gaussian distributions, and Gaussian mixtures. Our bulk
+asynchronous parallel algorithm is implemented in parallel using the OpenMP
+framework and scales logarithmically with the number of variables and linearly
+with dimensionality of each variable. Our experiments confirm a high degree of
+efficiency and accuracy on large datasets of electronic health records. The
+proposed algorithm also generates intuitive and clinically meaningful disease
+hierarchies.

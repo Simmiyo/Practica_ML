@@ -1,0 +1,17 @@
+Signal and Noise Statistics Oblivious Sparse Reconstruction using
+  OMP/OLS
+Orthogonal matching pursuit (OMP) and orthogonal least squares (OLS) are
+widely used for sparse signal reconstruction in under-determined linear
+regression problems. The performance of these compressed sensing (CS)
+algorithms depends crucially on the \textit{a priori} knowledge of either the
+sparsity of the signal ($k_0$) or noise variance ($\sigma^2$). Both $k_0$ and
+$\sigma^2$ are unknown in general and extremely difficult to estimate in under
+determined models. This limits the application of OMP and OLS in many practical
+situations. In this article, we develop two computationally efficient
+frameworks namely TF-IGP and RRT-IGP for using OMP and OLS even when $k_0$ and
+$\sigma^2$ are unavailable. Both TF-IGP and RRT-IGP are analytically shown to
+accomplish successful sparse recovery under the same set of restricted isometry
+conditions on the design matrix required for OMP/OLS with \textit{a priori}
+knowledge of $k_0$ and $\sigma^2$. Numerical simulations also indicate a highly
+competitive performance of TF-IGP and RRT-IGP in comparison to OMP/OLS with
+\textit{a priori} knowledge of $k_0$ and $\sigma^2$.

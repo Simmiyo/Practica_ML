@@ -1,0 +1,21 @@
+Quantum recognition of eigenvalues, structure of devices and
+  thermodynamic properties
+Quantum algorithms speeding up classical counterparts are proposed for the
+problems:
+  1. Recognition of eigenvalues with fixed precision. Given a quantum circuit
+generating unitary mapping $U$ and a complex number the problem is to determine
+is it an eigenvalue of $U$ or not.
+  2. Given a molecular structure find thermodynamic functions like partitioning
+function, entropy, etc. for a gas consisting of such molecules.
+  3. Recognition of molecular structures. Find a molecular structure given its
+spectrum.
+  4. Recognition of electronic devices. Given an electronic device that can be
+used only as a black box how to recognize its internal construction?
+  We consider mainly structures generating sparse spectrums. These algorithms
+require the time from about square root to logarithm of the time of classical
+analogs and for the first three problems give exponential memory saving. Say,
+the time required for distinguishing two devices with the same given spectrum
+is about seventh root of the time of direct classical method, for the
+recognition of eigenvalue - about sixth root. Thus microscopic quantum devices
+can recognize molecular structures and physical properties of environment
+faster than big classical computers.

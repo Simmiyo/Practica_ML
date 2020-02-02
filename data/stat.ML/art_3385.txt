@@ -1,0 +1,13 @@
+PeakSegJoint: fast supervised peak detection via joint segmentation of
+  multiple count data samples
+Joint peak detection is a central problem when comparing samples in genomic
+data analysis, but current algorithms for this task are unsupervised and
+limited to at most 2 sample types. We propose PeakSegJoint, a new constrained
+maximum likelihood segmentation model for any number of sample types. To select
+the number of peaks in the segmentation, we propose a supervised penalty
+learning model. To infer the parameters of these two models, we propose to use
+a discrete optimization heuristic for the segmentation, and convex optimization
+for the penalty learning. In comparisons with state-of-the-art peak detection
+algorithms, PeakSegJoint achieves similar accuracy, faster speeds, and a more
+interpretable model with overlapping peaks that occur in exactly the same
+positions across all samples.

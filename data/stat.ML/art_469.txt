@@ -1,0 +1,16 @@
+Graphical LASSO Based Model Selection for Time Series
+We propose a novel graphical model selection (GMS) scheme for
+high-dimensional stationary time series or discrete time process. The method is
+based on a natural generalization of the graphical LASSO (gLASSO), introduced
+originally for GMS based on i.i.d. samples, and estimates the conditional
+independence graph (CIG) of a time series from a finite length observation. The
+gLASSO for time series is defined as the solution of an l1-regularized maximum
+(approximate) likelihood problem. We solve this optimization problem using the
+alternating direction method of multipliers (ADMM). Our approach is
+nonparametric as we do not assume a finite dimensional (e.g., an
+autoregressive) parametric model for the observed process. Instead, we require
+the process to be sufficiently smooth in the spectral domain. For Gaussian
+processes, we characterize the performance of our method theoretically by
+deriving an upper bound on the probability that our algorithm fails to
+correctly identify the CIG. Numerical experiments demonstrate the ability of
+our method to recover the correct CIG from a limited amount of samples.

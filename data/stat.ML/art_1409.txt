@@ -1,0 +1,15 @@
+Dependence Modeling in Ultra High Dimensions with Vine Copulas and the
+  Graphical Lasso
+To model high dimensional data, Gaussian methods are widely used since they
+remain tractable and yield parsimonious models by imposing strong assumptions
+on the data. Vine copulas are more flexible by combining arbitrary marginal
+distributions and (conditional) bivariate copulas. Yet, this adaptability is
+accompanied by sharply increasing computational effort as the dimension
+increases. The approach proposed in this paper overcomes this burden and makes
+the first step into ultra high dimensional non-Gaussian dependence modeling by
+using a divide-and-conquer approach. First, we apply Gaussian methods to split
+datasets into feasibly small subsets and second, apply parsimonious and
+flexible vine copulas thereon. Finally, we reconcile them into one joint model.
+We provide numerical results demonstrating the feasibility of our approach in
+moderate dimensions and showcase its ability to estimate ultra high dimensional
+non-Gaussian dependence models in thousands of dimensions.

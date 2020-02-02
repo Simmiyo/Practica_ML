@@ -1,0 +1,19 @@
+WiFi based trajectory alignment, calibration and easy site survey using
+  smart phones and foot-mounted IMUs
+Foot-mounted inertial positioning (FMIP) can face problems of inertial drifts
+and unknown initial states in real applications, which renders the estimated
+trajectories inaccurate and not obtained in a well defined coordinate system
+for matching trajectories of different users. In this paper, an approach
+adopting received signal strength (RSS) measurements for Wifi access points
+(APs) are proposed to align and calibrate the trajectories estimated from foot
+mounted inertial measurement units (IMUs). A crowd-sourced radio map (RM) can
+be built subsequently and can be used for fingerprinting based Wifi indoor
+positioning (FWIP). The foundation of the proposed approach is graph based
+simultaneously localization and mapping (SLAM). The nodes in the graph denote
+users poses and the edges denote the pairwise constrains between the nodes. The
+constrains are derived from: (1) inertial estimated trajectories; (2) vicinity
+in the RSS space. With these constrains, an error functions is defined. By
+minimizing the error function, the graph is optimized and the
+aligned/calibrated trajectories along with the RM are acquired. The
+experimental results have corroborated the effectiveness of the approach for
+trajectory alignment, calibration as well as RM construction.

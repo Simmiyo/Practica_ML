@@ -1,0 +1,25 @@
+A Three Spatial Dimension Wave Latent Force Model for Describing
+  Excitation Sources and Electric Potentials Produced by Deep Brain Stimulation
+Deep brain stimulation (DBS) is a surgical treatment for Parkinson's Disease.
+Static models based on quasi-static approximation are common approaches for DBS
+modeling. While this simplification has been validated for bioelectric sources,
+its application to rapid stimulation pulses, which contain more high-frequency
+power, may not be appropriate, as DBS therapeutic results depend on stimulus
+parameters such as frequency and pulse width, which are related to time
+variations of the electric field. We propose an alternative hybrid approach
+based on probabilistic models and differential equations, by using Gaussian
+processes and wave equation. Our model avoids quasi-static approximation,
+moreover, it is able to describe dynamic behavior of DBS. Therefore, the
+proposed model may be used to obtain a more realistic phenomenon description.
+The proposed model can also solve inverse problems, i.e. to recover the
+corresponding source of excitation, given electric potential distribution. The
+electric potential produced by a time-varying source was predicted using
+proposed model. For static sources, the electric potential produced by
+different electrode configurations were modeled. Four different sources of
+excitation were recovered by solving the inverse problem. We compare our
+outcomes with the electric potential obtained by solving Poisson's equation
+using the Finite Element Method (FEM). Our approach is able to take into
+account time variations of the source and the produced field. Also, inverse
+problem can be addressed using the proposed model. The electric potential
+calculated with the proposed model is close to the potential obtained by
+solving Poisson's equation using FEM.

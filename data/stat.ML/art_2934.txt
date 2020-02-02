@@ -1,0 +1,15 @@
+Stabilizing Sparse Cox Model using Clinical Structures in Electronic
+  Medical Records
+Stability in clinical prediction models is crucial for transferability
+between studies, yet has received little attention. The problem is paramount in
+high dimensional data which invites sparse models with feature selection
+capability. We introduce an effective method to stabilize sparse Cox model of
+time-to-events using clinical structures inherent in Electronic Medical
+Records. Model estimation is stabilized using a feature graph derived from two
+types of EMR structures: temporal structure of disease and intervention
+recurrences, and hierarchical structure of medical knowledge and practices. We
+demonstrate the efficacy of the method in predicting time-to-readmission of
+heart failure patients. On two stability measures - the Jaccard index and the
+Consistency index - the use of clinical structures significantly increased
+feature stability without hurting discriminative power. Our model reported a
+competitive AUC of 0.64 (95% CIs: [0.58,0.69]) for 6 months prediction.

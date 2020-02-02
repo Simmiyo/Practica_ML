@@ -1,0 +1,20 @@
+Bayesian Inference Applied to the Electromagnetic Inverse Problem
+We present a new approach to the electromagnetic inverse problem that
+explicitly addresses the ambiguity associated with its ill-posed character.
+Rather than calculating a single ``best'' solution according to some criterion,
+our approach produces a large number of likely solutions that both fit the data
+and any prior information that is used. While the range of the different likely
+results is representative of the ambiguity in the inverse problem even with
+prior information present, features that are common across a large number of
+the different solutions can be identified and are associated with a high degree
+of probability. This approach is implemented and quantified within the
+formalism of Bayesian inference which combines prior information with that from
+measurement in a common framework using a single measure. To demonstrate this
+approach, a general neural activation model is constructed that includes a
+variable number of extended regions of activation and can incorporate a great
+deal of prior information on neural current such as information on location,
+orientation, strength and spatial smoothness. Taken together, this activation
+model and the Bayesian inferential approach yield estimates of the probability
+distributions for the number, location, and extent of active regions. Both
+simulated MEG data and data from a visual evoked response experiment are used
+to demonstrate the capabilities of this approach.

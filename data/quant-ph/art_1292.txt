@@ -1,0 +1,15 @@
+Notes on nonlinear quantum algorithms
+Recenty Abrams and Lloyd have proposed a fast algorithm that is based on a
+nonlinear evolution of a state of a quantum computer. They have explicitly used
+the fact that nonlinear evolutions in Hilbert spaces do not conserve scalar
+products of states, and applied a description of separated systems taken from
+Weinberg's nonlinear quantum mechanics. On the other hand it is known that
+violation of orthogonality combined with the Weinberg-type description
+generates unphysical, arbitrarily fast influences between noninteracting
+systems. It was not therefore clear whether the algorithm is fast because
+arbitrarily fast unphysical effects are involved. In these notes I show that
+this is not the case. I analyze both algorithms proposed by Abrams and Lloyd on
+concrete, simple models of nonlinear evolution. The description I choose is
+known to be free of the unphysical influences (therefore it is not the Weinberg
+one). I show, in particular, that the correct local formalism allows even to
+simplify the algorithm.

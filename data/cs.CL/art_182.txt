@@ -1,0 +1,13 @@
+Classes for Fast Maximum Entropy Training
+Maximum entropy models are considered by many to be one of the most promising
+avenues of language modeling research. Unfortunately, long training times make
+maximum entropy research difficult. We present a novel speedup technique: we
+change the form of the model to use classes. Our speedup works by creating two
+maximum entropy models, the first of which predicts the class of each word, and
+the second of which predicts the word itself. This factoring of the model leads
+to fewer non-zero indicator functions, and faster normalization, achieving
+speedups of up to a factor of 35 over one of the best previous techniques. It
+also results in typically slightly lower perplexities. The same trick can be
+used to speed training of other machine learning techniques, e.g. neural
+networks, applied to any problem with a large number of outputs, such as
+language modeling.

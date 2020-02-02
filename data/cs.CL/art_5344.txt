@@ -1,0 +1,18 @@
+Squared English Word: A Method of Generating Glyph to Use Super
+  Characters for Sentiment Analysis
+The Super Characters method addresses sentiment analysis problems by first
+converting the input text into images and then applying 2D-CNN models to
+classify the sentiment. It achieves state of the art performance on many
+benchmark datasets. However, it is not as straightforward to apply in Latin
+languages as in Asian languages. Because the 2D-CNN model is designed to
+recognize two-dimensional images, it is better if the inputs are in the form of
+glyphs. In this paper, we propose SEW (Squared English Word) method generating
+a squared glyph for each English word by drawing Super Characters images of
+each English word at the alphabet level, combining the squared glyph together
+into a whole Super Characters image at the sentence level, and then applying
+the CNN model to classify the sentiment within the sentence. We applied the SEW
+method to Wikipedia dataset and obtained a 2.1% accuracy gain compared to the
+original Super Characters method. For multi-modal data with both structured
+tabular data and unstructured natural language text, the modified SEW method
+integrates the data into a single image and classifies sentiment with one
+unified CNN model.

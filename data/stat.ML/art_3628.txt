@@ -1,0 +1,12 @@
+A Hierarchical Spectral Method for Extreme Classification
+Extreme classification problems are multiclass and multilabel classification
+problems where the number of outputs is so large that straightforward
+strategies are neither statistically nor computationally viable. One strategy
+for dealing with the computational burden is via a tree decomposition of the
+output space. While this typically leads to training and inference that scales
+sublinearly with the number of outputs, it also results in reduced statistical
+performance. In this work, we identify two shortcomings of tree decomposition
+methods, and describe two heuristic mitigations. We compose these with an
+eigenvalue technique for constructing the tree. The end result is a
+computationally efficient algorithm that provides good statistical performance
+on several extreme data sets.

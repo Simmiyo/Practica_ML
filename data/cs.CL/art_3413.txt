@@ -1,0 +1,9 @@
+Zero-Shot Question Generation from Knowledge Graphs for Unseen
+  Predicates and Entity Types
+We present a neural model for question generation from knowledge base triples
+in a "Zero-Shot" setup, that is generating questions for triples containing
+predicates, subject types or object types that were not seen at training time.
+Our model leverages triples occurrences in the natural language corpus in an
+encoder-decoder architecture, paired with an original part-of-speech copy
+action mechanism to generate questions. Benchmark and human evaluation show
+that our model sets a new state-of-the-art for zero-shot QG.

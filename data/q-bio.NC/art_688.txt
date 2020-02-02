@@ -1,0 +1,15 @@
+Simulating leaky integrate and fire neuron with integers
+The leaky integrate and fire (LIF) neuron represents standard neuronal model
+used for numerical simulations. The leakage is implemented in the model as
+exponential decay of trans-membrane voltage towards its resting value. This
+makes inevitable the usage of machine floating point numbers in the course of
+simulation. It is known that machine floating point arithmetic is subjected to
+small inaccuracies, which prevent from exact comparison of floating point
+quantities. In particular, it is incorrect to decide whether two separate in
+time states of a simulated system composed of LIF neurons are exactly
+identical. However, decision of this type is necessary, e.g. to figure periodic
+dynamical regimes in a reverberating network. Here we offer a simulation
+paradigm of a LIF neuron, in which neuronal states are described by whole
+numbers. Within this paradigm, the LIF neuron behaves exactly the same way as
+does the standard floating point simulated LIF, although exact comparison of
+states becomes correctly defined.

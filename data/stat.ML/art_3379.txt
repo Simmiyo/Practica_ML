@@ -1,0 +1,12 @@
+Robust PCA: Optimization of the Robust Reconstruction Error over the
+  Stiefel Manifold
+It is well known that Principal Component Analysis (PCA) is strongly affected
+by outliers and a lot of effort has been put into robustification of PCA. In
+this paper we present a new algorithm for robust PCA minimizing the trimmed
+reconstruction error. By directly minimizing over the Stiefel manifold, we
+avoid deflation as often used by projection pursuit methods. In distinction to
+other methods for robust PCA, our method has no free parameter and is
+computationally very efficient. We illustrate the performance on various
+datasets including an application to background modeling and subtraction. Our
+method performs better or similar to current state-of-the-art methods while
+being faster.

@@ -1,0 +1,16 @@
+Component models for large networks
+Being among the easiest ways to find meaningful structure from discrete data,
+Latent Dirichlet Allocation (LDA) and related component models have been
+applied widely. They are simple, computationally fast and scalable,
+interpretable, and admit nonparametric priors. In the currently popular field
+of network modeling, relatively little work has taken uncertainty of data
+seriously in the Bayesian sense, and component models have been introduced to
+the field only recently, by treating each node as a bag of out-going links. We
+introduce an alternative, interaction component model for communities (ICMc),
+where the whole network is a bag of links, stemming from different components.
+The former finds both disassortative and assortative structure, while the
+alternative assumes assortativity and finds community-like structures like the
+earlier methods motivated by physics. With Dirichlet Process priors and an
+efficient implementation the models are highly scalable, as demonstrated with a
+social network from the Last.fm web site, with 670,000 nodes and 1.89 million
+links.

@@ -1,0 +1,18 @@
+Introducing Astrocytes on a Neuromorphic Processor: Synchronization,
+  Local Plasticity and Edge of Chaos
+While there is still a lot to learn about astrocytes and their
+neuromodulatory role in the spatial and temporal integration of neuronal
+activity, their introduction to neuromorphic hardware is timely, facilitating
+their computational exploration in basic science questions as well as their
+exploitation in real-world applications. Here, we present an astrocytic module
+that enables the development of a spiking Neuronal-Astrocytic Network (SNAN)
+into Intel's Loihi neuromorphic chip. The basis of the Loihi module is an
+end-to-end biophysically plausible compartmental model of an astrocyte that
+simulates the intracellular activity in response to the synaptic activity in
+space and time. To demonstrate the functional role of astrocytes in SNAN, we
+describe how an astrocyte may sense and induce activity-dependent neuronal
+synchronization, switch on and off spike-time-dependent plasticity (STDP) to
+introduce single-shot learning, and monitor the transition between ordered and
+chaotic activity at the synaptic space. Our module may serve as an extension
+for neuromorphic hardware, by either replicating or exploring the distinct
+computational roles that astrocytes have in forming biological intelligence.

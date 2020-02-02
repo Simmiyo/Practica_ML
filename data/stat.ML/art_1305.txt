@@ -1,0 +1,11 @@
+Learning Gaussian Graphical Models Using Discriminated Hub Graphical
+  Lasso
+We develop a new method called Discriminated Hub Graphical Lasso (DHGL) based
+on Hub Graphical Lasso (HGL) by providing prior information of hubs. We apply
+this new method in two situations: with known hubs and without known hubs. Then
+we compare DHGL with HGL using several measures of performance. When some hubs
+are known, we can always estimate the precision matrix better via DHGL than
+HGL. When no hubs are known, we use Graphical Lasso (GL) to provide information
+of hubs and find that the performance of DHGL will always be better than HGL if
+correct prior information is given and will seldom degenerate when the prior
+information is wrong.

@@ -1,0 +1,27 @@
+Left-corner Methods for Syntactic Modeling with Universal Structural
+  Constraints
+The primary goal in this thesis is to identify better syntactic constraint or
+bias, that is language independent but also efficiently exploitable during
+sentence processing. We focus on a particular syntactic construction called
+center-embedding, which is well studied in psycholinguistics and noted to cause
+particular difficulty for comprehension. Since people use language as a tool
+for communication, one expects such complex constructions to be avoided for
+communication efficiency. From a computational perspective, center-embedding is
+closely relevant to a left-corner parsing algorithm, which can capture the
+degree of center-embedding of a parse tree being constructed. This connection
+suggests left-corner methods can be a tool to exploit the universal syntactic
+constraint that people avoid generating center-embedded structures. We explore
+such utilities of center-embedding as well as left-corner methods extensively
+through several theoretical and empirical examinations.
+  Our primary task is unsupervised grammar induction. In this task, the input
+to the algorithm is a collection of sentences, from which the model tries to
+extract the salient patterns on them as a grammar. This is a particularly hard
+problem although we expect the universal constraint may help in improving the
+performance since it can effectively restrict the possible search space for the
+model. We build the model by extending the left-corner parsing algorithm for
+efficiently tabulating the search space except those involving center-embedding
+up to a specific degree. We examine the effectiveness of our approach on many
+treebanks, and demonstrate that often our constraint leads to better parsing
+performance. We thus conclude that left-corner methods are particularly useful
+for syntax-oriented systems, as it can exploit efficiently the inherent
+universal constraints in languages.

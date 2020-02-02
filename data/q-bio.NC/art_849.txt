@@ -1,0 +1,15 @@
+Multiscale modeling via split-step methods in neural firing
+Neuronal models based on the Hodgkin-Huxley equation form a fundamental
+framework in the field of computational neuroscience. While the neuronal state
+is often modeled deterministically, experimental recordings show stochastic
+fluctuations, presumably driven by molecular noise from the underlying
+microphysical conditions. In turn, the firing of individual neurons gives rise
+to an electric field n extracellular space, also thought to affect the firing
+pattern of nearby neurons.
+  We develop a multiscale model which combines a stochastic ion channel gating
+process taking place on the neuronal membrane, together with the propagation of
+an action potential along the neuronal structure. We also devise a numerical
+method relying on a split-step strategy which effectively couples these two
+processes and we experimentally test the feasibility of this approach. We
+finally also explain how the approach can be extended with Maxwell's equations
+to allow the potential to be propagated in extracellular space.

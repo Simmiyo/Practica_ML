@@ -1,0 +1,11 @@
+Modulating and attending the source image during encoding improves
+  Multimodal Translation
+We propose a new and fully end-to-end approach for multimodal translation
+where the source text encoder modulates the entire visual input processing
+using conditional batch normalization, in order to compute the most informative
+image features for our task. Additionally, we propose a new attention mechanism
+derived from this original idea, where the attention model for the visual input
+is conditioned on the source text encoder representations. In the paper, we
+detail our models as well as the image analysis pipeline. Finally, we report
+experimental results. They are, as far as we know, the new state of the art on
+three different test sets.

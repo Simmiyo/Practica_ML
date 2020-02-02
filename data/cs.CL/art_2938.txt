@@ -1,0 +1,11 @@
+A Simple LSTM model for Transition-based Dependency Parsing
+We present a simple LSTM-based transition-based dependency parser. Our model
+is composed of a single LSTM hidden layer replacing the hidden layer in the
+usual feed-forward network architecture. We also propose a new initialization
+method that uses the pre-trained weights from a feed-forward neural network to
+initialize our LSTM-based model. We also show that using dropout on the input
+layer has a positive effect on performance. Our final parser achieves a 93.06%
+unlabeled and 91.01% labeled attachment score on the Penn Treebank. We
+additionally replace LSTMs with GRUs and Elman units in our model and explore
+the effectiveness of our initialization method on individual gates constituting
+all three types of RNN units.

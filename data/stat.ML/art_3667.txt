@@ -1,0 +1,14 @@
+Fast Parallel SAME Gibbs Sampling on General Discrete Bayesian Networks
+A fundamental task in machine learning and related fields is to perform
+inference on Bayesian networks. Since exact inference takes exponential time in
+general, a variety of approximate methods are used. Gibbs sampling is one of
+the most accurate approaches and provides unbiased samples from the posterior
+but it has historically been too expensive for large models. In this paper, we
+present an optimized, parallel Gibbs sampler augmented with state replication
+(SAME or State Augmented Marginal Estimation) to decrease convergence time. We
+find that SAME can improve the quality of parameter estimates while
+accelerating convergence. Experiments on both synthetic and real data show that
+our Gibbs sampler is substantially faster than the state of the art sampler,
+JAGS, without sacrificing accuracy. Our ultimate objective is to introduce the
+Gibbs sampler to researchers in many fields to expand their range of feasible
+inference problems.

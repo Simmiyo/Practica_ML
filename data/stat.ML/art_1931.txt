@@ -1,0 +1,11 @@
+Dirichlet Process Mixtures of Generalized Mallows Models
+We present a Dirichlet process mixture model over discrete incomplete
+rankings and study two Gibbs sampling inference techniques for estimating
+posterior clusterings. The first approach uses a slice sampling subcomponent
+for estimating cluster parameters. The second approach marginalizes out several
+cluster parameters by taking advantage of approximations to the conditional
+posteriors. We empirically demonstrate (1) the effectiveness of this
+approximation for improving convergence, (2) the benefits of the Dirichlet
+process model over alternative clustering techniques for ranked data, and (3)
+the applicability of the approach to exploring large realworld ranking
+datasets.

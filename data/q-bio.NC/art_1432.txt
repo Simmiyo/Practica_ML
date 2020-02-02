@@ -1,0 +1,28 @@
+Reconciliation of weak pairwise spike-train correlations and highly
+  coherent local field potentials across space
+Chronic and acute implants of multi-electrode arrays that cover several
+mm$^2$ of neural tissue provide simultaneous access to population signals like
+extracellular potentials and the spiking activity of 100 or more individual
+neurons. While the recorded data may uncover principles of brain function, its
+interpretation calls for multiscale computational models with corresponding
+spatial dimensions and signal predictions. Such models can facilitate the
+search of mechanisms underlying observed spatiotemporal activity patterns in
+cortex. Multi-layer spiking neuron network models of local cortical circuits
+covering ~1 mm$^2$ have been developed, integrating experimentally obtained
+neuron-type specific connectivity data and reproducing features of in-vivo
+spiking statistics. With forward models, local field potentials (LFPs) can be
+computed from the simulated spiking activity. To account for the spatial scale
+of common neural recordings, we extend a local network and LFP model to 4x4
+mm$^2$. The upscaling preserves the neuron densities, and introduces
+distance-dependent connection probabilities and delays. As detailed
+experimental connectivity data is partially lacking, we address this
+uncertainty in model parameters by testing parameter combinations within
+biologically plausible bounds. Based on model predictions of spiking activity
+and LFPs, we find that the upscaling procedure preserves the overall spiking
+statistics of the original model and reproduces asynchronous irregular spiking
+across populations and weak pairwise spike-train correlations observed in
+sensory cortex. In contrast with the weak spike-train correlations, the
+correlation of LFP signals is strong and distance-dependent, compatible with
+experimental observations. Enhanced spatial coherence in the low-gamma band may
+explain the recent experimental report of an apparent band-pass filter effect
+in the spatial reach of the LFP.

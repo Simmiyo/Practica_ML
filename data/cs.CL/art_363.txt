@@ -1,0 +1,14 @@
+UNL-French deconversion as transfer & generation from an interlingua
+  with possible quality enhancement through offline human interaction
+We present the architecture of the UNL-French deconverter, which "generates"
+from the UNL interlingua by first"localizing" the UNL form for French, within
+UNL, and then applying slightly adapted but classical transfer and generation
+techniques, implemented in GETA's Ariane-G5 environment, supplemented by some
+UNL-specific tools. Online interaction can be used during deconversion to
+enhance output quality and is now used for development purposes. We show how
+interaction could be delayed and embedded in the postedition phase, which would
+then interact not directly with the output text, but indirectly with several
+components of the deconverter. Interacting online or offline can improve the
+quality not only of the utterance at hand, but also of the utterances processed
+later, as various preferences may be automatically changed to let the
+deconverter "learn".

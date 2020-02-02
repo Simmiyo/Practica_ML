@@ -1,0 +1,12 @@
+Factoring in a Dissipative Quantum Computer
+We describe an array of quantum gates implementing Shor's algorithm for prime
+factorization in a quantum computer. The array includes a circuit for modular
+exponentiation with several subcomponents (such as controlled multipliers,
+adders, etc) which are described in terms of elementary Toffoli gates. We
+present a simple analysis of the impact of losses and decoherence on the
+performance of this quantum factoring circuit. For that purpose, we simulate a
+quantum computer which is running the program to factor N = 15 while
+interacting with a dissipative environment. As a consequence of this
+interaction randomly selected qubits may spontaneously decay. Using the results
+of our numerical simulations we analyze the efficiency of some simple error
+correction techniques.

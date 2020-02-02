@@ -1,0 +1,8 @@
+Type Arithmetics: Computation based on the theory of types
+The present paper shows meta-programming turn programming, which is rich
+enough to express arbitrary arithmetic computations. We demonstrate a type
+system that implements Peano arithmetics, slightly generalized to negative
+numbers. Certain types in this system denote numerals. Arithmetic operations on
+such types-numerals - addition, subtraction, and even division - are expressed
+as type reduction rules executed by a compiler. A remarkable trait is that
+division by zero becomes a type error - and reported as such by a compiler.

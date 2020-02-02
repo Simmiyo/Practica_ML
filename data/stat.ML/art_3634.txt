@@ -1,0 +1,12 @@
+Robust Elastic Net Regression
+We propose a robust elastic net (REN) model for high-dimensional sparse
+regression and give its performance guarantees (both the statistical error
+bound and the optimization bound). A simple idea of trimming the inner product
+is applied to the elastic net model. Specifically, we robustify the covariance
+matrix by trimming the inner product based on the intuition that the trimmed
+inner product can not be significant affected by a bounded number of
+arbitrarily corrupted points (outliers). The REN model can also derive two
+interesting special cases: robust Lasso and robust soft thresholding.
+Comprehensive experimental results show that the robustness of the proposed
+model consistently outperforms the original elastic net and matches the
+performance guarantees nicely.

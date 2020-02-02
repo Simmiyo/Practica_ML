@@ -1,0 +1,12 @@
+A Primal-Dual Algorithmic Framework for Constrained Convex Minimization
+We present a primal-dual algorithmic framework to obtain approximate
+solutions to a prototypical constrained convex optimization problem, and
+rigorously characterize how common structural assumptions affect the numerical
+efficiency. Our main analysis technique provides a fresh perspective on
+Nesterov's excessive gap technique in a structured fashion and unifies it with
+smoothing and primal-dual methods. For instance, through the choices of a dual
+smoothing strategy and a center point, our framework subsumes decomposition
+algorithms, augmented Lagrangian as well as the alternating direction
+method-of-multipliers methods as its special cases, and provides optimal
+convergence rates on the primal objective residual as well as the primal
+feasibility gap of the iterates for all.

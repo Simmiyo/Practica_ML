@@ -1,0 +1,17 @@
+Interpretable brain age prediction using linear latent variable models
+  of functional connectivity
+Neuroimaging-driven prediction of brain age, defined as the predicted
+biological age of a subject using only brain imaging data, is an exciting
+avenue of research. In this work we seek to build models of brain age based on
+functional connectivity while prioritizing model interpretability and
+understanding. This way, the models serve to both provide accurate estimates of
+brain age as well as allow us to investigate changes in functional connectivity
+which occur during the ageing process. The methods proposed in this work
+consist of a two-step procedure: first, linear latent variable models, such as
+PCA and its extensions, are employed to learn reproducible functional
+connectivity networks present across a cohort of subjects. The activity within
+each network is subsequently employed as a feature in a linear regression model
+to predict brain age. The proposed framework is employed on the data from the
+CamCAN repository and the inferred brain age models are further demonstrated to
+generalize using data from two open-access repositories: the Human Connectome
+Project and the ATR Wide-Age-Range.

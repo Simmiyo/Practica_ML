@@ -1,0 +1,27 @@
+The what and where of adding channel noise to the Hodgkin-Huxley
+  equations
+One of the most celebrated successes in computational biology is the
+Hodgkin-Huxley framework for modeling electrically active cells. This
+framework, expressed through a set of differential equations, synthesizes the
+impact of ionic currents on a cell's voltage -- and the highly nonlinear impact
+of that voltage back on the currents themselves -- into the rapid push and pull
+of the action potential. Latter studies confirmed that these cellular dynamics
+are orchestrated by individual ion channels, whose conformational changes
+regulate the conductance of each ionic current. Thus, kinetic equations
+familiar from physical chemistry are the natural setting for describing
+conductances; for small-to-moderate numbers of channels, these will predict
+fluctuations in conductances and stochasticity in the resulting action
+potentials. At first glance, the kinetic equations provide a far more complex
+(and higher-dimensional) description than the original Hodgkin-Huxley
+equations. This has prompted more than a decade of efforts to capture channel
+fluctuations with noise terms added to the Hodgkin-Huxley equations. Many of
+these approaches, while intuitively appealing, produce quantitative errors when
+compared to kinetic equations; others, as only very recently demonstrated, are
+both accurate and relatively simple. We review what works, what doesn't, and
+why, seeking to build a bridge to well-established results for the
+deterministic Hodgkin-Huxley equations. As such, we hope that this review will
+speed emerging studies of how channel noise modulates electrophysiological
+dynamics and function. We supply user-friendly Matlab simulation code of these
+stochastic versions of the Hodgkin-Huxley equations on the ModelDB website
+(accession number 138950) and
+http://www.amath.washington.edu/~etsb/tutorials.html.

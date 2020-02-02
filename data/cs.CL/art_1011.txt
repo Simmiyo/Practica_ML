@@ -1,0 +1,16 @@
+Reasoning about Linguistic Regularities in Word Embeddings using Matrix
+  Manifolds
+Recent work has explored methods for learning continuous vector space word
+representations reflecting the underlying semantics of words. Simple vector
+space arithmetic using cosine distances has been shown to capture certain types
+of analogies, such as reasoning about plurals from singulars, past tense from
+present tense, etc. In this paper, we introduce a new approach to capture
+analogies in continuous word representations, based on modeling not just
+individual word vectors, but rather the subspaces spanned by groups of words.
+We exploit the property that the set of subspaces in n-dimensional Euclidean
+space form a curved manifold space called the Grassmannian, a quotient subgroup
+of the Lie group of rotations in n- dimensions. Based on this mathematical
+model, we develop a modified cosine distance model based on geodesic kernels
+that captures relation-specific distances across word categories. Our
+experiments on analogy tasks show that our approach performs significantly
+better than the previous approaches for the given task.

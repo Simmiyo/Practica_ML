@@ -1,0 +1,16 @@
+DirectLiNGAM: A direct method for learning a linear non-Gaussian
+  structural equation model
+Structural equation models and Bayesian networks have been widely used to
+analyze causal relations between continuous variables. In such frameworks,
+linear acyclic models are typically used to model the data-generating process
+of variables. Recently, it was shown that use of non-Gaussianity identifies the
+full structure of a linear acyclic model, i.e., a causal ordering of variables
+and their connection strengths, without using any prior knowledge on the
+network structure, which is not the case with conventional methods. However,
+existing estimation methods are based on iterative search algorithms and may
+not converge to a correct solution in a finite number of steps. In this paper,
+we propose a new direct method to estimate a causal ordering and connection
+strengths based on non-Gaussianity.
+  In contrast to the previous methods, our algorithm requires no algorithmic
+parameters and is guaranteed to converge to the right solution within a small
+fixed number of steps if the data strictly follows the model.

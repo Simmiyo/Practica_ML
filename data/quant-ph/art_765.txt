@@ -1,0 +1,14 @@
+Spatially Correlated Qubit Errors and Burst-Correcting Quantum Codes
+We explore the design of quantum error-correcting codes for cases where the
+decoherence events of qubits are correlated. In particular, we consider the
+case where only spatially contiguous qubits decohere, which is analogous to the
+case of burst errors in classical coding theory. We present several different
+efficient schemes for constructing families of such codes. For example, one can
+find one-dimensional quantum codes of length n=13 and 15 that correct burst
+errors of width b < 4; as a comparison, a random-error correcting quantum code
+that corrects t=3 errors must have length n > 18. In general, we show that it
+is possible to build quantum burst-correcting codes that have near optimal
+dimension. For example, we show that for any constant b, there exist
+b-burst-correcting quantum codes with length n, and dimension k=n-log n -O(b);
+as a comparison, the Hamming bound for the case with t (constant) random errors
+yields k < n - t log n - O(1) .

@@ -1,0 +1,16 @@
+EEG-based Subjects Identification based on Biometrics of Imagined Speech
+  using EMD
+When brain activity is translated into commands for real applications, the
+potential for human capacities augmentation is promising. In this paper, EMD is
+used to decompose EEG signals during Imagined Speech in order to use it as a
+biometric marker for creating a Biometric Recognition System. For each EEG
+channel, the most relevant Intrinsic Mode Functions (IMFs) are decided based on
+the Minkowski distance, and for each IMF 4 features are computed: Instantaneous
+and Teager energy distribution and Higuchi and Petrosian Fractal Dimension. To
+test the proposed method, a dataset with 20 subjects who imagined 30
+repetitions of 5 words in Spanish, is used. Four classifiers are used for this
+task - random forest, SVM, naive Bayes, and k-NN - and their performances are
+compared. The accuracy obtained (up to 0.92 using Linear SVM) after 10-folds
+cross-validation suggest that the proposed method based on EMD can be valuable
+for creating EEG-based biometrics of imagined speech for Subjects
+identification.

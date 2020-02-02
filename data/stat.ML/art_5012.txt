@@ -1,0 +1,22 @@
+Tensor Graphical Model: Non-convex Optimization and Statistical
+  Inference
+We consider the estimation and inference of graphical models that
+characterize the dependency structure of high-dimensional tensor-valued data.
+To facilitate the estimation of the precision matrix corresponding to each way
+of the tensor, we assume the data follow a tensor normal distribution whose
+covariance has a Kronecker product structure. A critical challenge in the
+estimation and inference of this model is the fact that its penalized maximum
+likelihood estimation involves minimizing a non-convex objective function. To
+address it, this paper makes two contributions: (i) In spite of the
+non-convexity of this estimation problem, we prove that an alternating
+minimization algorithm, which iteratively estimates each sparse precision
+matrix while fixing the others, attains an estimator with an optimal
+statistical rate of convergence. (ii) We propose a de-biased statistical
+inference procedure for testing hypotheses on the true support of the sparse
+precision matrices, and employ it for testing a growing number of hypothesis
+with false discovery rate (FDR) control. The asymptotic normality of our test
+statistic and the consistency of FDR control procedure are established. Our
+theoretical results are backed up by thorough numerical studies and our real
+applications on neuroimaging studies of Autism spectrum disorder and users'
+advertising click analysis bring new scientific findings and business insights.
+The proposed methods are encoded into a publicly available R package Tlasso.

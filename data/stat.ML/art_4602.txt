@@ -1,0 +1,17 @@
+Hankel Matrix Nuclear Norm Regularized Tensor Completion for
+  $N$-dimensional Exponential Signals
+Signals are generally modeled as a superposition of exponential functions in
+spectroscopy of chemistry, biology and medical imaging. For fast data
+acquisition or other inevitable reasons, however, only a small amount of
+samples may be acquired and thus how to recover the full signal becomes an
+active research topic. But existing approaches can not efficiently recover
+$N$-dimensional exponential signals with $N\geq 3$. In this paper, we study the
+problem of recovering N-dimensional (particularly $N\geq 3$) exponential
+signals from partial observations, and formulate this problem as a low-rank
+tensor completion problem with exponential factor vectors. The full signal is
+reconstructed by simultaneously exploiting the CANDECOMP/PARAFAC structure and
+the exponential structure of the associated factor vectors. The latter is
+promoted by minimizing an objective function involving the nuclear norm of
+Hankel matrices. Experimental results on simulated and real magnetic resonance
+spectroscopy data show that the proposed approach can successfully recover full
+signals from very limited samples and is robust to the estimated tensor rank.

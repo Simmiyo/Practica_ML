@@ -1,0 +1,15 @@
+Expanding Subjective Lexicons for Social Media Mining with Embedding
+  Subspaces
+Recent approaches for sentiment lexicon induction have capitalized on
+pre-trained word embeddings that capture latent semantic properties. However,
+embeddings obtained by optimizing performance of a given task (e.g. predicting
+contextual words) are sub-optimal for other applications. In this paper, we
+address this problem by exploiting task-specific representations, induced via
+embedding sub-space projection. This allows us to expand lexicons describing
+multiple semantic properties. For each property, our model jointly learns
+suitable representations and the concomitant predictor. Experiments conducted
+over multiple subjective lexicons, show that our model outperforms previous
+work and other baselines; even in low training data regimes. Furthermore,
+lexicon-based sentiment classifiers built on top of our lexicons outperform
+similar resources and yield performances comparable to those of supervised
+models.

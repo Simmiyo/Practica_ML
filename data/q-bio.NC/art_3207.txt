@@ -1,0 +1,20 @@
+A Constrained, Weighted-L1 Minimization Approach for Joint Discovery of
+  Heterogeneous Neural Connectivity Graphs
+Determining functional brain connectivity is crucial to understanding the
+brain and neural differences underlying disorders such as autism. Recent
+studies have used Gaussian graphical models to learn brain connectivity via
+statistical dependencies across brain regions from neuroimaging. However,
+previous studies often fail to properly incorporate priors tailored to
+neuroscience, such as preferring shorter connections. To remedy this problem,
+the paper here introduces a novel, weighted-$\ell_1$, multi-task graphical
+model (W-SIMULE). This model elegantly incorporates a flexible prior, along
+with a parallelizable formulation. Additionally, W-SIMULE extends the
+often-used Gaussian assumption, leading to considerable performance increases.
+Here, applications to fMRI data show that W-SIMULE succeeds in determining
+functional connectivity in terms of (1) log-likelihood, (2) finding edges that
+differentiate groups, and (3) classifying different groups based on their
+connectivity, achieving 58.6\% accuracy on the ABIDE dataset. Having
+established W-SIMULE's effectiveness, it links four key areas to autism, all of
+which are consistent with the literature. Due to its elegant domain adaptivity,
+W-SIMULE can be readily applied to various data types to effectively estimate
+connectivity.

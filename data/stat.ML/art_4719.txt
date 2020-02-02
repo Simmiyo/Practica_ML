@@ -1,0 +1,15 @@
+Asymptotic Analysis of Objectives based on Fisher Information in Active
+  Learning
+Obtaining labels can be costly and time-consuming. Active learning allows a
+learning algorithm to intelligently query samples to be labeled for efficient
+learning. Fisher information ratio (FIR) has been used as an objective for
+selecting queries in active learning. However, little is known about the theory
+behind the use of FIR for active learning. There is a gap between the
+underlying theory and the motivation of its usage in practice. In this paper,
+we attempt to fill this gap and provide a rigorous framework for analyzing
+existing FIR-based active learning methods. In particular, we show that FIR can
+be asymptotically viewed as an upper bound of the expected variance of the
+log-likelihood ratio. Additionally, our analysis suggests a unifying framework
+that not only enables us to make theoretical comparisons among the existing
+querying methods based on FIR, but also allows us to give insight into the
+development of new active learning approaches based on this objective.

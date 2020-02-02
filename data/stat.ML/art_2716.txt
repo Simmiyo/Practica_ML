@@ -1,0 +1,15 @@
+Probable convexity and its application to Correlated Topic Models
+Non-convex optimization problems often arise from probabilistic modeling,
+such as estimation of posterior distributions. Non-convexity makes the problems
+intractable, and poses various obstacles for us to design efficient algorithms.
+In this work, we attack non-convexity by first introducing the concept of
+\emph{probable convexity} for analyzing convexity of real functions in
+practice. We then use the new concept to analyze an inference problem in the
+\emph{Correlated Topic Model} (CTM) and related nonconjugate models. Contrary
+to the existing belief of intractability, we show that this inference problem
+is concave under certain conditions. One consequence of our analyses is a novel
+algorithm for learning CTM which is significantly more scalable and qualitative
+than existing methods. Finally, we highlight that stochastic gradient
+algorithms might be a practical choice to resolve efficiently non-convex
+problems. This finding might find beneficial in many contexts which are beyond
+probabilistic modeling.

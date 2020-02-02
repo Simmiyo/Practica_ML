@@ -1,0 +1,9 @@
+Dual Augmented Lagrangian Method for Efficient Sparse Reconstruction
+We propose an efficient algorithm for sparse signal reconstruction problems.
+The proposed algorithm is an augmented Lagrangian method based on the dual
+sparse reconstruction problem. It is efficient when the number of unknown
+variables is much larger than the number of observations because of the dual
+formulation. Moreover, the primal variable is explicitly updated and the
+sparsity in the solution is exploited. Numerical comparison with the
+state-of-the-art algorithms shows that the proposed algorithm is favorable when
+the design matrix is poorly conditioned or dense and very large.

@@ -1,0 +1,11 @@
+Lass-0: sparse non-convex regression by local search
+We compute approximate solutions to L0 regularized linear regression using L1
+regularization, also known as the Lasso, as an initialization step. Our
+algorithm, the Lass-0 ("Lass-zero"), uses a computationally efficient stepwise
+search to determine a locally optimal L0 solution given any L1 regularization
+solution. We present theoretical results of consistency under orthogonality and
+appropriate handling of redundant features. Empirically, we use synthetic data
+to demonstrate that Lass-0 solutions are closer to the true sparse support than
+L1 regularization models. Additionally, in real-world data Lass-0 finds more
+parsimonious solutions than L1 regularization while maintaining similar
+predictive accuracy.

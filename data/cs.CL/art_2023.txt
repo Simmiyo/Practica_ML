@@ -1,0 +1,14 @@
+Encoder-decoder with Focus-mechanism for Sequence Labelling Based Spoken
+  Language Understanding
+This paper investigates the framework of encoder-decoder with attention for
+sequence labelling based spoken language understanding. We introduce
+Bidirectional Long Short Term Memory - Long Short Term Memory networks
+(BLSTM-LSTM) as the encoder-decoder model to fully utilize the power of deep
+learning. In the sequence labelling task, the input and output sequences are
+aligned word by word, while the attention mechanism cannot provide the exact
+alignment. To address this limitation, we propose a novel focus mechanism for
+encoder-decoder framework. Experiments on the standard ATIS dataset showed that
+BLSTM-LSTM with focus mechanism defined the new state-of-the-art by
+outperforming standard BLSTM and attention based encoder-decoder. Further
+experiments also show that the proposed model is more robust to speech
+recognition errors.

@@ -1,0 +1,16 @@
+Using Riemannian geometry for SSVEP-based Brain Computer Interface
+Riemannian geometry has been applied to Brain Computer Interface (BCI) for
+brain signals classification yielding promising results. Studying
+electroencephalographic (EEG) signals from their associated covariance matrices
+allows a mitigation of common sources of variability (electronic, electrical,
+biological) by constructing a representation which is invariant to these
+perturbations. While working in Euclidean space with covariance matrices is
+known to be error-prone, one might take advantage of algorithmic advances in
+information geometry and matrix manifold to implement methods for Symmetric
+Positive-Definite (SPD) matrices. This paper proposes a comprehensive review of
+the actual tools of information geometry and how they could be applied on
+covariance matrices of EEG. In practice, covariance matrices should be
+estimated, thus a thorough study of all estimators is conducted on real EEG
+dataset. As a main contribution, this paper proposes an online implementation
+of a classifier in the Riemannian space and its subsequent assessment in
+Steady-State Visually Evoked Potential (SSVEP) experimentations.

@@ -1,0 +1,16 @@
+Optimal Spike-Timing Dependent Plasticity for Precise Action Potential
+  Firing
+In timing-based neural codes, neurons have to emit action potentials at
+precise moments in time. We use a supervised learning paradigm to derive a
+synaptic update rule that optimizes via gradient ascent the likelihood of
+postsynaptic firing at one or several desired firing times. We find that the
+optimal strategy of up- and downregulating synaptic efficacies can be described
+by a two-phase learning window similar to that of Spike-Timing Dependent
+Plasticity (STDP). If the presynaptic spike arrives before the desired
+postsynaptic spike timing, our optimal learning rule predicts that the synapse
+should become potentiated. The dependence of the potentiation on spike timing
+directly reflects the time course of an excitatory postsynaptic potential. The
+presence and amplitude of depression of synaptic efficacies for reversed spike
+timing depends on how constraints are implemented in the optimization problem.
+Two different constraints, i.e., control of postsynaptic rates or control of
+temporal locality,are discussed.

@@ -1,0 +1,9 @@
+TristouNet: Triplet Loss for Speaker Turn Embedding
+TristouNet is a neural network architecture based on Long Short-Term Memory
+recurrent networks, meant to project speech sequences into a fixed-dimensional
+euclidean space. Thanks to the triplet loss paradigm used for training, the
+resulting sequence embeddings can be compared directly with the euclidean
+distance, for speaker comparison purposes. Experiments on short (between 500ms
+and 5s) speech turn comparison and speaker change detection show that
+TristouNet brings significant improvements over the current state-of-the-art
+techniques for both tasks.

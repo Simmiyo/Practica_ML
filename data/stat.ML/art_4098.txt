@@ -1,0 +1,13 @@
+Interpreting the Predictions of Complex ML Models by Layer-wise
+  Relevance Propagation
+Complex nonlinear models such as deep neural network (DNNs) have become an
+important tool for image classification, speech recognition, natural language
+processing, and many other fields of application. These models however lack
+transparency due to their complex nonlinear structure and to the complex data
+distributions to which they typically apply. As a result, it is difficult to
+fully characterize what makes these models reach a particular decision for a
+given input. This lack of transparency can be a drawback, especially in the
+context of sensitive applications such as medical analysis or security. In this
+short paper, we summarize a recent technique introduced by Bach et al. [1] that
+explains predictions by decomposing the classification decision of DNN models
+in terms of input variables.

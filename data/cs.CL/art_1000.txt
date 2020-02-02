@@ -1,0 +1,19 @@
+Multi-Document Summarization via Discriminative Summary Reranking
+Existing multi-document summarization systems usually rely on a specific
+summarization model (i.e., a summarization method with a specific parameter
+setting) to extract summaries for different document sets with different
+topics. However, according to our quantitative analysis, none of the existing
+summarization models can always produce high-quality summaries for different
+document sets, and even a summarization model with good overall performance may
+produce low-quality summaries for some document sets. On the contrary, a
+baseline summarization model may produce high-quality summaries for some
+document sets. Based on the above observations, we treat the summaries produced
+by different summarization models as candidate summaries, and then explore
+discriminative reranking techniques to identify high-quality summaries from the
+candidates for difference document sets. We propose to extract a set of
+candidate summaries for each document set based on an ILP framework, and then
+leverage Ranking SVM for summary reranking. Various useful features have been
+developed for the reranking process, including word-level features,
+sentence-level features and summary-level features. Evaluation results on the
+benchmark DUC datasets validate the efficacy and robustness of our proposed
+approach.

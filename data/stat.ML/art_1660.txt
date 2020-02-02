@@ -1,0 +1,13 @@
+Algebraic Comparison of Partial Lists in Bioinformatics
+The outcome of a functional genomics pipeline is usually a partial list of
+genomic features, ranked by their relevance in modelling biological phenotype
+in terms of a classification or regression model. Due to resampling protocols
+or just within a meta-analysis comparison, instead of one list it is often the
+case that sets of alternative feature lists (possibly of different lengths) are
+obtained. Here we introduce a method, based on the algebraic theory of
+symmetric groups, for studying the variability between lists ("list stability")
+in the case of lists of unequal length. We provide algorithms evaluating
+stability for lists embedded in the full feature set or just limited to the
+features occurring in the partial lists. The method is demonstrated first on
+synthetic data in a gene filtering task and then for finding gene profiles on a
+recent prostate cancer dataset.

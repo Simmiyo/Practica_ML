@@ -1,0 +1,15 @@
+Local Rademacher Complexity for Multi-label Learning
+We analyze the local Rademacher complexity of empirical risk minimization
+(ERM)-based multi-label learning algorithms, and in doing so propose a new
+algorithm for multi-label learning. Rather than using the trace norm to
+regularize the multi-label predictor, we instead minimize the tail sum of the
+singular values of the predictor in multi-label learning. Benefiting from the
+use of the local Rademacher complexity, our algorithm, therefore, has a sharper
+generalization error bound and a faster convergence rate. Compared to methods
+that minimize over all singular values, concentrating on the tail singular
+values results in better recovery of the low-rank structure of the multi-label
+predictor, which plays an import role in exploiting label correlations. We
+propose a new conditional singular value thresholding algorithm to solve the
+resulting objective function. Empirical studies on real-world datasets validate
+our theoretical results and demonstrate the effectiveness of the proposed
+algorithm.

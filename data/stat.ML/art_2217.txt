@@ -1,0 +1,23 @@
+Joint-ViVo: Selecting and Weighting Visual Words Jointly for
+  Bag-of-Features based Tissue Classification in Medical Images
+Automatically classifying the tissues types of Region of Interest (ROI) in
+medical imaging has been an important application in Computer-Aided Diagnosis
+(CAD), such as classification of breast parenchymal tissue in the mammogram,
+classify lung disease patterns in High-Resolution Computed Tomography (HRCT)
+etc. Recently, bag-of-features method has shown its power in this field,
+treating each ROI as a set of local features. In this paper, we investigate
+using the bag-of-features strategy to classify the tissue types in medical
+imaging applications. Two important issues are considered here: the visual
+vocabulary learning and weighting. Although there are already plenty of
+algorithms to deal with them, all of them treat them independently, namely, the
+vocabulary learned first and then the histogram weighted. Inspired by
+Auto-Context who learns the features and classifier jointly, we try to develop
+a novel algorithm that learns the vocabulary and weights jointly. The new
+algorithm, called Joint-ViVo, works in an iterative way. In each iteration, we
+first learn the weights for each visual word by maximizing the margin of ROI
+triplets, and then select the most discriminate visual words based on the
+learned weights for the next iteration. We test our algorithm on three tissue
+classification tasks: identifying brain tissue type in magnetic resonance
+imaging (MRI), classifying lung tissue in HRCT images, and classifying breast
+tissue density in mammograms. The results show that Joint-ViVo can perform
+effectively for classifying tissues.

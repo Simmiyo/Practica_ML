@@ -1,0 +1,13 @@
+Effects of Language Modeling on Speech-driven Question Answering
+We integrate automatic speech recognition (ASR) and question answering (QA)
+to realize a speech-driven QA system, and evaluate its performance. We adapt an
+N-gram language model to natural language questions, so that the input of our
+system can be recognized with a high accuracy. We target WH-questions which
+consist of the topic part and fixed phrase used to ask about something. We
+first produce a general N-gram model intended to recognize the topic and
+emphasize the counts of the N-grams that correspond to the fixed phrases. Given
+a transcription by the ASR engine, the QA engine extracts the answer candidates
+from target documents. We propose a passage retrieval method robust against
+recognition errors in the transcription. We use the QA test collection produced
+in NTCIR, which is a TREC-style evaluation workshop, and show the effectiveness
+of our method by means of experiments.

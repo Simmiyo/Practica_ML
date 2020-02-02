@@ -1,0 +1,23 @@
+A Simulation of the Effects of Receive Field Contrast on
+  Motion-Corrected EPI Time Series
+The receive field of MRI imparts an image contrast which is spatially fixed
+relative to the receive coil. If motion correction is used to correct subject
+motion occurring during an EPI time series then the receiver contrast will
+effectively move relative to the subject and produce temporal modulations in
+the image amplitude. This effect, which we will call the RFC-MoCo effect, may
+have consequences in the analysis and interpretation of fMRI results. There are
+many potential causes of motion-related noise and systematic error in EPI time
+series and isolating the RFC-MoCo effect would be difficult. Therefore, we have
+undertaken a simulation of this effect to better understand its severity. The
+simulations examine this effect for a receive-only single-channel 16-leg
+birdcage coil and a receive-only 12-channel phased array. In particular we
+study: (1) The effect size; (2) Its consequences to the temporal correlations
+between signals arising at different spatial locations (spatial-temporal
+correlations) as is often calculated in resting state fMRI analyses; and (3)
+Its impact on the temporal signal-to-noise ratio of an EPI time series. We find
+that signal changes arising from the RFC-MoCo effect are likely to compete with
+BOLD (blood-oxygen-level-dependent) signal changes in the presence of
+significant motion, even under the assumption of perfect motion correction.
+Consequently, we find that the RFC-MoCo effect may lead to spurious temporal
+correlations across the image space, and that temporal SNR may be degraded with
+increasing motion.

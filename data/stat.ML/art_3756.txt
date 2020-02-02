@@ -1,0 +1,18 @@
+Convex Relaxation Regression: Black-Box Optimization of Smooth Functions
+  by Learning Their Convex Envelopes
+Finding efficient and provable methods to solve non-convex optimization
+problems is an outstanding challenge in machine learning and optimization
+theory. A popular approach used to tackle non-convex problems is to use convex
+relaxation techniques to find a convex surrogate for the problem.
+Unfortunately, convex relaxations typically must be found on a
+problem-by-problem basis. Thus, providing a general-purpose strategy to
+estimate a convex relaxation would have a wide reaching impact. Here, we
+introduce Convex Relaxation Regression (CoRR), an approach for learning convex
+relaxations for a class of smooth functions. The main idea behind our approach
+is to estimate the convex envelope of a function $f$ by evaluating $f$ at a set
+of $T$ random points and then fitting a convex function to these function
+evaluations. We prove that with probability greater than $1-\delta$, the
+solution of our algorithm converges to the global optimizer of $f$ with error
+$\mathcal{O} \Big( \big(\frac{\log(1/\delta) }{T} \big)^{\alpha} \Big)$ for
+some $\alpha> 0$. Our approach enables the use of convex optimization tools to
+solve a class of non-convex optimization problems.

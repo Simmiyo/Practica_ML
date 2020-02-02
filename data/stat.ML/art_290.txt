@@ -1,0 +1,26 @@
+Optimal computational and statistical rates of convergence for sparse
+  nonconvex learning problems
+We provide theoretical analysis of the statistical and computational
+properties of penalized $M$-estimators that can be formulated as the solution
+to a possibly nonconvex optimization problem. Many important estimators fall in
+this category, including least squares regression with nonconvex
+regularization, generalized linear models with nonconvex regularization and
+sparse elliptical random design regression. For these problems, it is
+intractable to calculate the global solution due to the nonconvex formulation.
+In this paper, we propose an approximate regularization path-following method
+for solving a variety of learning problems with nonconvex objective functions.
+Under a unified analytic framework, we simultaneously provide explicit
+statistical and computational rates of convergence for any local solution
+attained by the algorithm. Computationally, our algorithm attains a global
+geometric rate of convergence for calculating the full regularization path,
+which is optimal among all first-order algorithms. Unlike most existing methods
+that only attain geometric rates of convergence for one single regularization
+parameter, our algorithm calculates the full regularization path with the same
+iteration complexity. In particular, we provide a refined iteration complexity
+bound to sharply characterize the performance of each stage along the
+regularization path. Statistically, we provide sharp sample complexity analysis
+for all the approximate local solutions along the regularization path. In
+particular, our analysis improves upon existing results by providing a more
+refined sample complexity bound as well as an exact support recovery result for
+the final estimator. These results show that the final estimator attains an
+oracle statistical property due to the usage of nonconvex penalty.

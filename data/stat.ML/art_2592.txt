@@ -1,0 +1,19 @@
+Sparse and Non-Negative BSS for Noisy Data
+Non-negative blind source separation (BSS) has raised interest in various
+fields of research, as testified by the wide literature on the topic of
+non-negative matrix factorization (NMF). In this context, it is fundamental
+that the sources to be estimated present some diversity in order to be
+efficiently retrieved. Sparsity is known to enhance such contrast between the
+sources while producing very robust approaches, especially to noise. In this
+paper we introduce a new algorithm in order to tackle the blind separation of
+non-negative sparse sources from noisy measurements. We first show that
+sparsity and non-negativity constraints have to be carefully applied on the
+sought-after solution. In fact, improperly constrained solutions are unlikely
+to be stable and are therefore sub-optimal. The proposed algorithm, named nGMCA
+(non-negative Generalized Morphological Component Analysis), makes use of
+proximal calculus techniques to provide properly constrained solutions. The
+performance of nGMCA compared to other state-of-the-art algorithms is
+demonstrated by numerical experiments encompassing a wide variety of settings,
+with negligible parameter tuning. In particular, nGMCA is shown to provide
+robustness to noise and performs well on synthetic mixtures of real NMR
+spectra.

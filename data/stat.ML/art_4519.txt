@@ -1,0 +1,27 @@
+An Easy to Use Repository for Comparing and Improving Machine Learning
+  Algorithm Usage
+The results from most machine learning experiments are used for a specific
+purpose and then discarded. This results in a significant loss of information
+and requires rerunning experiments to compare learning algorithms. This also
+requires implementation of another algorithm for comparison, that may not
+always be correctly implemented. By storing the results from previous
+experiments, machine learning algorithms can be compared easily and the
+knowledge gained from them can be used to improve their performance. The
+purpose of this work is to provide easy access to previous experimental results
+for learning and comparison. These stored results are comprehensive -- storing
+the prediction for each test instance as well as the learning algorithm,
+hyperparameters, and training set that were used. Previous results are
+particularly important for meta-learning, which, in a broad sense, is the
+process of learning from previous machine learning results such that the
+learning process is improved. While other experiment databases do exist, one of
+our focuses is on easy access to the data. We provide meta-learning data sets
+that are ready to be downloaded for meta-learning experiments. In addition,
+queries to the underlying database can be made if specific information is
+desired. We also differ from previous experiment databases in that our
+databases is designed at the instance level, where an instance is an example in
+a data set. We store the predictions of a learning algorithm trained on a
+specific training set for each instance in the test set. Data set level
+information can then be obtained by aggregating the results from the instances.
+The instance level information can be used for many tasks such as determining
+the diversity of a classifier or algorithmically determining the optimal subset
+of training instances for a learning algorithm.

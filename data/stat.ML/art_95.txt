@@ -1,0 +1,21 @@
+Support Vector Machines for Additive Models: Consistency and Robustness
+Support vector machines (SVMs) are special kernel based methods and belong to
+the most successful learning methods since more than a decade. SVMs can
+informally be described as a kind of regularized M-estimators for functions and
+have demonstrated their usefulness in many complicated real-life problems.
+During the last years a great part of the statistical research on SVMs has
+concentrated on the question how to design SVMs such that they are universally
+consistent and statistically robust for nonparametric classification or
+nonparametric regression purposes. In many applications, some qualitative prior
+knowledge of the distribution P or of the unknown function f to be estimated is
+present or the prediction function with a good interpretability is desired,
+such that a semiparametric model or an additive model is of interest.
+  In this paper we mainly address the question how to design SVMs by choosing
+the reproducing kernel Hilbert space (RKHS) or its corresponding kernel to
+obtain consistent and statistically robust estimators in additive models. We
+give an explicit construction of kernels - and thus of their RKHSs - which
+leads in combination with a Lipschitz continuous loss function to consistent
+and statistically robust SMVs for additive models. Examples are quantile
+regression based on the pinball loss function, regression based on the
+epsilon-insensitive loss function, and classification based on the hinge loss
+function.

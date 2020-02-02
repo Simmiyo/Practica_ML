@@ -1,0 +1,23 @@
+Reshaped Wirtinger Flow and Incremental Algorithm for Solving Quadratic
+  System of Equations
+We study the phase retrieval problem, which solves quadratic system of
+equations, i.e., recovers a vector $\boldsymbol{x}\in \mathbb{R}^n$ from its
+magnitude measurements $y_i=|\langle \boldsymbol{a}_i, \boldsymbol{x}\rangle|,
+i=1,..., m$. We develop a gradient-like algorithm (referred to as RWF
+representing reshaped Wirtinger flow) by minimizing a nonconvex nonsmooth loss
+function. In comparison with existing nonconvex Wirtinger flow (WF) algorithm
+\cite{candes2015phase}, although the loss function becomes nonsmooth, it
+involves only the second power of variable and hence reduces the complexity. We
+show that for random Gaussian measurements, RWF enjoys geometric convergence to
+a global optimal point as long as the number $m$ of measurements is on the
+order of $n$, the dimension of the unknown $\boldsymbol{x}$. This improves the
+sample complexity of WF, and achieves the same sample complexity as truncated
+Wirtinger flow (TWF) \cite{chen2015solving}, but without truncation in gradient
+loop. Furthermore, RWF costs less computationally than WF, and runs faster
+numerically than both WF and TWF. We further develop the incremental
+(stochastic) reshaped Wirtinger flow (IRWF) and show that IRWF converges
+linearly to the true signal. We further establish performance guarantee of an
+existing Kaczmarz method for the phase retrieval problem based on its
+connection to IRWF. We also empirically demonstrate that IRWF outperforms
+existing ITWF algorithm (stochastic version of TWF) as well as other batch
+algorithms.

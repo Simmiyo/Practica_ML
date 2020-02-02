@@ -1,0 +1,11 @@
+Sparse Matrix Factorization
+We investigate the problem of factorizing a matrix into several sparse
+matrices and propose an algorithm for this under randomness and sparsity
+assumptions. This problem can be viewed as a simplification of the deep
+learning problem where finding a factorization corresponds to finding edges in
+different layers and values of hidden units. We prove that under certain
+assumptions for a sparse linear deep network with $n$ nodes in each layer, our
+algorithm is able to recover the structure of the network and values of top
+layer hidden units for depths up to $\tilde O(n^{1/6})$. We further discuss the
+relation among sparse matrix factorization, deep learning, sparse recovery and
+dictionary learning.

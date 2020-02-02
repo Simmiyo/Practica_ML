@@ -1,0 +1,16 @@
+Fast Methods for Recovering Sparse Parameters in Linear Low Rank Models
+In this paper, we investigate the recovery of a sparse weight vector
+(parameters vector) from a set of noisy linear combinations. However, only
+partial information about the matrix representing the linear combinations is
+available. Assuming a low-rank structure for the matrix, one natural solution
+would be to first apply a matrix completion on the data, and then to solve the
+resulting compressed sensing problem. In big data applications such as massive
+MIMO and medical data, the matrix completion step imposes a huge computational
+burden. Here, we propose to reduce the computational cost of the completion
+task by ignoring the columns corresponding to zero elements in the sparse
+vector. To this end, we employ a technique to initially approximate the support
+of the sparse vector. We further propose to unify the partial matrix completion
+and sparse vector recovery into an augmented four-step problem. Simulation
+results reveal that the augmented approach achieves the best performance, while
+both proposed methods outperform the natural two-step technique with
+substantially less computational requirements.

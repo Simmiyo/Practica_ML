@@ -1,0 +1,21 @@
+Distributed Online Learning via Cooperative Contextual Bandits
+In this paper we propose a novel framework for decentralized, online learning
+by many learners. At each moment of time, an instance characterized by a
+certain context may arrive to each learner; based on the context, the learner
+can select one of its own actions (which gives a reward and provides
+information) or request assistance from another learner. In the latter case,
+the requester pays a cost and receives the reward but the provider learns the
+information. In our framework, learners are modeled as cooperative contextual
+bandits. Each learner seeks to maximize the expected reward from its arrivals,
+which involves trading off the reward received from its own actions, the
+information learned from its own actions, the reward received from the actions
+requested of others and the cost paid for these actions - taking into account
+what it has learned about the value of assistance from each other learner. We
+develop distributed online learning algorithms and provide analytic bounds to
+compare the efficiency of these with algorithms with the complete knowledge
+(oracle) benchmark (in which the expected reward of every action in every
+context is known by every learner). Our estimates show that regret - the loss
+incurred by the algorithm - is sublinear in time. Our theoretical framework can
+be used in many practical applications including Big Data mining, event
+detection in surveillance sensor networks and distributed online recommendation
+systems.

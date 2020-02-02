@@ -1,0 +1,17 @@
+Active Perceptual Similarity Modeling with Auxiliary Information
+Learning a model of perceptual similarity from a collection of objects is a
+fundamental task in machine learning underlying numerous applications. A common
+way to learn such a model is from relative comparisons in the form of triplets:
+responses to queries of the form "Is object a more similar to b than it is to
+c?". If no consideration is made in the determination of which queries to ask,
+existing similarity learning methods can require a prohibitively large number
+of responses. In this work, we consider the problem of actively learning from
+triplets -finding which queries are most useful for learning. Different from
+previous active triplet learning approaches, we incorporate auxiliary
+information into our similarity model and introduce an active learning scheme
+to find queries that are informative for quickly learning both the relevant
+aspects of auxiliary data and the directly-learned similarity components.
+Compared to prior approaches, we show that we can learn just as effectively
+with much fewer queries. For evaluation, we introduce a new dataset of
+exhaustive triplet comparisons obtained from humans and demonstrate improved
+performance for different types of auxiliary information.

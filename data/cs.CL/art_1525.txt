@@ -1,0 +1,10 @@
+Fine-tuning Tree-LSTM for phrase-level sentiment classification on a
+  Polish dependency treebank. Submission to PolEval task 2
+We describe a variant of Child-Sum Tree-LSTM deep neural network (Tai et al,
+2015) fine-tuned for working with dependency trees and morphologically rich
+languages using the example of Polish. Fine-tuning included applying a custom
+regularization technique (zoneout, described by (Krueger et al., 2016), and
+further adapted for Tree-LSTMs) as well as using pre-trained word embeddings
+enhanced with sub-word information (Bojanowski et al., 2016). The system was
+implemented in PyTorch and evaluated on phrase-level sentiment labeling task as
+part of the PolEval competition.

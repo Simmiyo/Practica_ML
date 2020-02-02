@@ -1,0 +1,14 @@
+TAMU at KBP 2017: Event Nugget Detection and Coreference Resolution
+In this paper, we describe TAMU's system submitted to the TAC KBP 2017 event
+nugget detection and coreference resolution task. Our system builds on the
+statistical and empirical observations made on training and development data.
+We found that modifiers of event nuggets tend to have unique syntactic
+distribution. Their parts-of-speech tags and dependency relations provides them
+essential characteristics that are useful in identifying their span and also
+defining their types and realis status. We further found that the joint
+modeling of event span detection and realis status identification performs
+better than the individual models for both tasks. Our simple system designed
+using minimal features achieved the micro-average F1 scores of 57.72, 44.27 and
+42.47 for event span detection, type identification and realis status
+classification tasks respectively. Also, our system achieved the CoNLL F1 score
+of 27.20 in event coreference resolution task.

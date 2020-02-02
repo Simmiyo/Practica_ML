@@ -1,0 +1,13 @@
+InfyNLP at SMM4H Task 2: Stacked Ensemble of Shallow Convolutional
+  Neural Networks for Identifying Personal Medication Intake from Twitter
+This paper describes Infosys's participation in the "2nd Social Media Mining
+for Health Applications Shared Task at AMIA, 2017, Task 2". Mining social media
+messages for health and drug related information has received significant
+interest in pharmacovigilance research. This task targets at developing
+automated classification models for identifying tweets containing descriptions
+of personal intake of medicines. Towards this objective we train a stacked
+ensemble of shallow convolutional neural network (CNN) models on an annotated
+dataset provided by the organizers. We use random search for tuning the
+hyper-parameters of the CNN and submit an ensemble of best models for the
+prediction task. Our system secured first place among 9 teams, with a
+micro-averaged F-score of 0.693.

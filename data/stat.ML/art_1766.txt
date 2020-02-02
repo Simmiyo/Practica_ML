@@ -1,0 +1,11 @@
+Robust Bayesian reinforcement learning through tight lower bounds
+In the Bayesian approach to sequential decision making, exact calculation of
+the (subjective) utility is intractable. This extends to most special cases of
+interest, such as reinforcement learning problems. While utility bounds are
+known to exist for this problem, so far none of them were particularly tight.
+In this paper, we show how to efficiently calculate a lower bound, which
+corresponds to the utility of a near-optimal memoryless policy for the decision
+problem, which is generally different from both the Bayes-optimal policy and
+the policy which is optimal for the expected MDP under the current belief. We
+then show how these can be applied to obtain robust exploration policies in a
+Bayesian reinforcement learning setting.

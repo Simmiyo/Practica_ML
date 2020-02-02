@@ -1,0 +1,16 @@
+A New Vision of Collaborative Active Learning
+Active learning (AL) is a learning paradigm where an active learner has to
+train a model (e.g., a classifier) which is in principal trained in a
+supervised way, but in AL it has to be done by means of a data set with
+initially unlabeled samples. To get labels for these samples, the active
+learner has to ask an oracle (e.g., a human expert) for labels. The goal is to
+maximize the performance of the model and to minimize the number of queries at
+the same time. In this article, we first briefly discuss the state of the art
+and own, preliminary work in the field of AL. Then, we propose the concept of
+collaborative active learning (CAL). With CAL, we will overcome some of the
+harsh limitations of current AL. In particular, we envision scenarios where an
+expert may be wrong for various reasons, there might be several or even many
+experts with different expertise, the experts may label not only samples but
+also knowledge at a higher level such as rules, and we consider that the
+labeling costs depend on many conditions. Moreover, in a CAL process human
+experts will profit by improving their own knowledge, too.

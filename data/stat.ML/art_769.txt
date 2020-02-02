@@ -1,0 +1,16 @@
+A Mutual Contamination Analysis of Mixed Membership and Partial Label
+  Models
+Many machine learning problems can be characterized by mutual contamination
+models. In these problems, one observes several random samples from different
+convex combinations of a set of unknown base distributions. It is of interest
+to decontaminate mutual contamination models, i.e., to recover the base
+distributions either exactly or up to a permutation. This paper considers the
+general setting where the base distributions are defined on arbitrary
+probability spaces. We examine the decontamination problem in two mutual
+contamination models that describe popular machine learning tasks: recovering
+the base distributions up to a permutation in a mixed membership model, and
+recovering the base distributions exactly in a partial label model for
+classification. We give necessary and sufficient conditions for identifiability
+of both mutual contamination models, algorithms for both problems in the
+infinite and finite sample cases, and introduce novel proof techniques based on
+affine geometry.

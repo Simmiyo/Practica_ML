@@ -1,0 +1,17 @@
+Herding as a Learning System with Edge-of-Chaos Dynamics
+Herding defines a deterministic dynamical system at the edge of chaos. It
+generates a sequence of model states and parameters by alternating parameter
+perturbations with state maximizations, where the sequence of states can be
+interpreted as "samples" from an associated MRF model. Herding differs from
+maximum likelihood estimation in that the sequence of parameters does not
+converge to a fixed point and differs from an MCMC posterior sampling approach
+in that the sequence of states is generated deterministically. Herding may be
+interpreted as a"perturb and map" method where the parameter perturbations are
+generated using a deterministic nonlinear dynamical system rather than randomly
+from a Gumbel distribution. This chapter studies the distinct statistical
+characteristics of the herding algorithm and shows that the fast convergence
+rate of the controlled moments may be attributed to edge of chaos dynamics. The
+herding algorithm can also be generalized to models with latent variables and
+to a discriminative learning setting. The perceptron cycling theorem ensures
+that the fast moment matching property is preserved in the more general
+framework.

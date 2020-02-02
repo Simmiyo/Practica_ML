@@ -1,0 +1,16 @@
+A Unified Computational and Statistical Framework for Nonconvex Low-Rank
+  Matrix Estimation
+We propose a unified framework for estimating low-rank matrices through
+nonconvex optimization based on gradient descent algorithm. Our framework is
+quite general and can be applied to both noisy and noiseless observations. In
+the general case with noisy observations, we show that our algorithm is
+guaranteed to linearly converge to the unknown low-rank matrix up to minimax
+optimal statistical error, provided an appropriate initial estimator. While in
+the generic noiseless setting, our algorithm converges to the unknown low-rank
+matrix at a linear rate and enables exact recovery with optimal sample
+complexity. In addition, we develop a new initialization algorithm to provide a
+desired initial estimator, which outperforms existing initialization algorithms
+for nonconvex low-rank matrix estimation. We illustrate the superiority of our
+framework through three examples: matrix regression, matrix completion, and
+one-bit matrix completion. We also corroborate our theory through extensive
+experiments on synthetic data.

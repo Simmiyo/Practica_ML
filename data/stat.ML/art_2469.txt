@@ -1,0 +1,8 @@
+Advice-Efficient Prediction with Expert Advice
+Advice-efficient prediction with expert advice (in analogy to label-efficient
+prediction) is a variant of prediction with expert advice game, where on each
+round of the game we are allowed to ask for advice of a limited number $M$ out
+of $N$ experts. This setting is especially interesting when asking for advice
+of every expert on every round is expensive. We present an algorithm for
+advice-efficient prediction with expert advice that achieves
+$O(\sqrt{\frac{N}{M}T\ln N})$ regret on $T$ rounds of the game.

@@ -1,0 +1,15 @@
+Estimation of low-rank tensors via convex optimization
+In this paper, we propose three approaches for the estimation of the Tucker
+decomposition of multi-way arrays (tensors) from partial observations. All
+approaches are formulated as convex minimization problems. Therefore, the
+minimum is guaranteed to be unique. The proposed approaches can automatically
+estimate the number of factors (rank) through the optimization. Thus, there is
+no need to specify the rank beforehand. The key technique we employ is the
+trace norm regularization, which is a popular approach for the estimation of
+low-rank matrices. In addition, we propose a simple heuristic to improve the
+interpretability of the obtained factorization. The advantages and
+disadvantages of three proposed approaches are demonstrated through numerical
+experiments on both synthetic and real world datasets. We show that the
+proposed convex optimization based approaches are more accurate in predictive
+performance, faster, and more reliable in recovering a known multilinear
+structure than conventional approaches.

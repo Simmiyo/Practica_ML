@@ -1,0 +1,11 @@
+Empirical Normalization for Quadratic Discriminant Analysis and
+  Classifying Cancer Subtypes
+We introduce a new discriminant analysis method (Empirical Discriminant
+Analysis or EDA) for binary classification in machine learning. Given a dataset
+of feature vectors, this method defines an empirical feature map transforming
+the training and test data into new data with components having Gaussian
+empirical distributions. This map is an empirical version of the Gaussian
+copula used in probability and mathematical finance. The purpose is to form a
+feature mapped dataset as close as possible to Gaussian, after which standard
+quadratic discriminants can be used for classification. We discuss this method
+in general, and apply it to some datasets in computational biology.

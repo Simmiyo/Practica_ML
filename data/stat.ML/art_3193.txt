@@ -1,0 +1,13 @@
+Tensor Factorization via Matrix Factorization
+Tensor factorization arises in many machine learning applications, such
+knowledge base modeling and parameter estimation in latent variable models.
+However, numerical methods for tensor factorization have not reached the level
+of maturity of matrix factorization methods. In this paper, we propose a new
+method for CP tensor factorization that uses random projections to reduce the
+problem to simultaneous matrix diagonalization. Our method is conceptually
+simple and also applies to non-orthogonal and asymmetric tensors of arbitrary
+order. We prove that a small number random projections essentially preserves
+the spectral information in the tensor, allowing us to remove the dependence on
+the eigengap that plagued earlier tensor-to-matrix reductions. Experimentally,
+our method outperforms existing tensor factorization methods on both simulated
+data and two real datasets.

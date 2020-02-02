@@ -1,0 +1,20 @@
+Blind Analysis of EGM Signals: Sparsity-Aware Formulation
+This technical note considers the problems of blind sparse learning and
+inference of electrogram (EGM) signals under atrial fibrillation (AF)
+conditions. First of all we introduce a mathematical model for the observed
+signals that takes into account the multiple foci typically appearing inside
+the heart during AF. Then we propose a reconstruction model based on a fixed
+dictionary and discuss several alternatives for choosing the dictionary. In
+order to obtain a sparse solution that takes into account the biological
+restrictions of the problem, a first alternative is using LASSO regularization
+followed by a post-processing stage that removes low amplitude coefficients
+violating the refractory period characteristic of cardiac cells. As an
+alternative we propose a novel regularization term, called cross products LASSO
+(CP-LASSO), that is able to incorporate the biological constraints directly
+into the optimization problem. Unfortunately, the resulting problem is
+non-convex, but we show how it can be solved efficiently in an approximated way
+making use of successive convex approximations (SCA). Finally, spectral
+analysis is performed on the clean activation sequence obtained from the sparse
+learning stage in order to estimate the number of latent foci and their
+frequencies. Simulations on synthetic and real data are provided to validate
+the proposed approach.

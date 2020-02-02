@@ -1,0 +1,14 @@
+Asymptotic properties for combined $L_1$ and concave regularization
+Two important goals of high-dimensional modeling are prediction and variable
+selection. In this article, we consider regularization with combined $L_1$ and
+concave penalties, and study the sampling properties of the global optimum of
+the suggested method in ultra-high dimensional settings. The $L_1$-penalty
+provides the minimum regularization needed for removing noise variables in
+order to achieve oracle prediction risk, while concave penalty imposes
+additional regularization to control model sparsity. In the linear model
+setting, we prove that the global optimum of our method enjoys the same oracle
+inequalities as the lasso estimator and admits an explicit bound on the false
+sign rate, which can be asymptotically vanishing. Moreover, we establish oracle
+risk inequalities for the method and the sampling properties of computable
+solutions. Numerical studies suggest that our method yields more stable
+estimates than using a concave penalty alone.

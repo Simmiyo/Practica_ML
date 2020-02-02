@@ -1,0 +1,15 @@
+Variational Gaussian Process Auto-Encoder for Ordinal Prediction of
+  Facial Action Units
+We address the task of simultaneous feature fusion and modeling of discrete
+ordinal outputs. We propose a novel Gaussian process(GP) auto-encoder modeling
+approach. In particular, we introduce GP encoders to project multiple observed
+features onto a latent space, while GP decoders are responsible for
+reconstructing the original features. Inference is performed in a novel
+variational framework, where the recovered latent representations are further
+constrained by the ordinal output labels. In this way, we seamlessly integrate
+the ordinal structure in the learned manifold, while attaining robust fusion of
+the input features. We demonstrate the representation abilities of our model on
+benchmark datasets from machine learning and affect analysis. We further
+evaluate the model on the tasks of feature fusion and joint ordinal prediction
+of facial action units. Our experiments demonstrate the benefits of the
+proposed approach compared to the state of the art.

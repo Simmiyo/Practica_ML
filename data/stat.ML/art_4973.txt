@@ -1,0 +1,18 @@
+Wasserstein Discriminant Analysis
+Wasserstein Discriminant Analysis (WDA) is a new supervised method that can
+improve classification of high-dimensional data by computing a suitable linear
+map onto a lower dimensional subspace. Following the blueprint of classical
+Linear Discriminant Analysis (LDA), WDA selects the projection matrix that
+maximizes the ratio of two quantities: the dispersion of projected points
+coming from different classes, divided by the dispersion of projected points
+coming from the same class. To quantify dispersion, WDA uses regularized
+Wasserstein distances, rather than cross-variance measures which have been
+usually considered, notably in LDA. Thanks to the the underlying principles of
+optimal transport, WDA is able to capture both global (at distribution scale)
+and local (at samples scale) interactions between classes. Regularized
+Wasserstein distances can be computed using the Sinkhorn matrix scaling
+algorithm; We show that the optimization of WDA can be tackled using automatic
+differentiation of Sinkhorn iterations. Numerical experiments show promising
+results both in terms of prediction and visualization on toy examples and real
+life datasets such as MNIST and on deep features obtained from a subset of the
+Caltech dataset.

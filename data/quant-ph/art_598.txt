@@ -1,0 +1,10 @@
+Threshold Estimate for Fault Tolerant Quantum Computation
+I make a rough estimate of the accuracy threshold for fault tolerant quantum
+computing with concatenated codes. First I consider only gate errors and use
+the depolarizing channel error model. I will follow P.Shor (quant-ph/9505011)
+for fault tolerant error correction (FTEC) and the fault tolerant
+implementation of elementary operations on states encoded by the 7-qubit code.
+A simple computer simulation suggests a threshold for gate errors of the order
+\epsilon \approx 10^{-3} or better. I also give a simple argument that the
+threshold for memory errors is about 10 times smaller, thus \epsilon \approx
+10^{-4}.

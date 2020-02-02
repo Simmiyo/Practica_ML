@@ -1,0 +1,16 @@
+High-dimensional regression over disease subgroups
+We consider high-dimensional regression over subgroups of observations. Our
+work is motivated by biomedical problems, where disease subtypes, for example,
+may differ with respect to underlying regression models, but sample sizes at
+the subgroup-level may be limited. We focus on the case in which
+subgroup-specific models may be expected to be similar but not necessarily
+identical. Our approach is to treat subgroups as related problem instances and
+jointly estimate subgroup-specific regression coefficients. This is done in a
+penalized framework, combining an $\ell_1$ term with an additional term that
+penalizes differences between subgroup-specific coefficients. This gives
+solutions that are globally sparse but that allow information-sharing between
+the subgroups. We present algorithms for estimation and empirical results on
+simulated data and using Alzheimer's disease, amyotrophic lateral sclerosis and
+cancer datasets. These examples demonstrate the gains our approach can offer in
+terms of prediction and the ability to estimate subgroup-specific sparsity
+patterns.

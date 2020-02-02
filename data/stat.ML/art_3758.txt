@@ -1,0 +1,18 @@
+Variational Hamiltonian Monte Carlo via Score Matching
+Traditionally, the field of computational Bayesian statistics has been
+divided into two main subfields: variational methods and Markov chain Monte
+Carlo (MCMC). In recent years, however, several methods have been proposed
+based on combining variational Bayesian inference and MCMC simulation in order
+to improve their overall accuracy and computational efficiency. This marriage
+of fast evaluation and flexible approximation provides a promising means of
+designing scalable Bayesian inference methods. In this paper, we explore the
+possibility of incorporating variational approximation into a state-of-the-art
+MCMC method, Hamiltonian Monte Carlo (HMC), to reduce the required gradient
+computation in the simulation of Hamiltonian flow, which is the bottleneck for
+many applications of HMC in big data problems. To this end, we use a {\it
+free-form} approximation induced by a fast and flexible surrogate function
+based on single-hidden layer feedforward neural networks. The surrogate
+provides sufficiently accurate approximation while allowing for fast
+exploration of parameter space, resulting in an efficient approximate inference
+algorithm. We demonstrate the advantages of our method on both synthetic and
+real data problems.

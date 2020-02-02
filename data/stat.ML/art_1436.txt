@@ -1,0 +1,19 @@
+Smooth Pinball Neural Network for Probabilistic Forecasting of Wind
+  Power
+Uncertainty analysis in the form of probabilistic forecasting can
+significantly improve decision making processes in the smart power grid for
+better integrating renewable energy sources such as wind. Whereas point
+forecasting provides a single expected value, probabilistic forecasts provide
+more information in the form of quantiles, prediction intervals, or full
+predictive densities. This paper analyzes the effectiveness of a novel approach
+for nonparametric probabilistic forecasting of wind power that combines a
+smooth approximation of the pinball loss function with a neural network
+architecture and a weighting initialization scheme to prevent the quantile
+cross over problem. A numerical case study is conducted using publicly
+available wind data from the Global Energy Forecasting Competition 2014.
+Multiple quantiles are estimated to form 10%, to 90% prediction intervals which
+are evaluated using a quantile score and reliability measures. Benchmark models
+such as the persistence and climatology distributions, multiple quantile
+regression, and support vector quantile regression are used for comparison
+where results demonstrate the proposed approach leads to improved performance
+while preventing the problem of overlapping quantile estimates.

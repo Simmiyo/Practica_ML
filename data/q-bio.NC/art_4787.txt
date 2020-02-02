@@ -1,0 +1,18 @@
+Statistical learning of spatiotemporal patterns from longitudinal
+  manifold-valued networks
+We introduce a mixed-effects model to learn spatiotempo-ral patterns on a
+network by considering longitudinal measures distributed on a fixed graph. The
+data come from repeated observations of subjects at different time points which
+take the form of measurement maps distributed on a graph such as an image or a
+mesh. The model learns a typical group-average trajectory characterizing the
+propagation of measurement changes across the graph nodes. The subject-specific
+trajectories are defined via spatial and temporal transformations of the
+group-average scenario, thus estimating the variability of spatiotemporal
+patterns within the group. To estimate population and individual model
+parameters, we adapted a stochastic version of the Expectation-Maximization
+algorithm, the MCMC-SAEM. The model is used to describe the propagation of
+cortical atrophy during the course of Alzheimer's Disease. Model parameters
+show the variability of this average pattern of atrophy in terms of
+trajectories across brain regions, age at disease onset and pace of
+propagation. We show that the personalization of this model yields accurate
+prediction of maps of cortical thickness in patients.

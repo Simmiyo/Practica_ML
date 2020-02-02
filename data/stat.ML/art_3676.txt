@@ -1,0 +1,22 @@
+Top-N recommendations from expressive recommender systems
+Normalized nonnegative models assign probability distributions to users and
+random variables to items; see [Stark, 2015]. Rating an item is regarded as
+sampling the random variable assigned to the item with respect to the
+distribution assigned to the user who rates the item. Models of that kind are
+highly expressive. For instance, using normalized nonnegative models we can
+understand users' preferences as mixtures of interpretable user stereotypes,
+and we can arrange properties of users and items in a hierarchical manner.
+These features would not be useful if the predictive power of normalized
+nonnegative models was poor. Thus, we analyze here the performance of
+normalized nonnegative models for top-N recommendation and observe that their
+performance matches the performance of methods like PureSVD which was
+introduced in [Cremonesi et al., 2010]. We conclude that normalized nonnegative
+models not only provide accurate recommendations but they also deliver (for
+free) representations that are interpretable. We deepen the discussion of
+normalized nonnegative models by providing further theoretical insights. In
+particular, we introduce total variational distance as an operational
+similarity measure, we discover scenarios where normalized nonnegative models
+yield unique representations of users and items, we prove that the inference of
+optimal normalized nonnegative models is NP-hard and finally, we discuss the
+relationship between normalized nonnegative models and nonnegative matrix
+factorization.

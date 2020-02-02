@@ -1,0 +1,21 @@
+Statistical modelling of higher-order correlations in pools of neural
+  activity
+Simultaneous recordings from multiple neural units allow us to investigate
+the activity of very large neural ensembles. To understand how large ensembles
+of neurons process sensory information, it is necessary to develop suitable
+statistical models to describe the response variability of the recorded spike
+trains. Using the information geometry framework, it is possible to estimate
+higher-order correlations by assigning one interaction parameter to each degree
+of correlation, leading to a $(2^N-1)$-dimensional model for a population with
+$N$ neurons. However, this model suffers greatly from a combinatorial
+explosion, and the number of parameters to be estimated from the available
+sample size constitutes the main intractability reason of this approach. To
+quantify the extent of higher than pairwise spike correlations in pools of
+multiunit activity, we use an information-geometric approach within the
+framework of the extended central limit theorem considering all possible
+contributions from high-order spike correlations. The identification of a
+deformation parameter allows us to provide a statistical characterisation of
+the amount of high-order correlations in the case of a very large neural
+ensemble, significantly reducing the number of parameters, avoiding the
+sampling problem, and inferring the underlying dynamical properties of the
+network within pools of multiunit neural activity.

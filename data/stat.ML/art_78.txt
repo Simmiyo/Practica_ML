@@ -1,0 +1,13 @@
+Learning the Structure of Deep Sparse Graphical Models
+Deep belief networks are a powerful way to model complex probability
+distributions. However, learning the structure of a belief network,
+particularly one with hidden units, is difficult. The Indian buffet process has
+been used as a nonparametric Bayesian prior on the directed structure of a
+belief network with a single infinitely wide hidden layer. In this paper, we
+introduce the cascading Indian buffet process (CIBP), which provides a
+nonparametric prior on the structure of a layered, directed belief network that
+is unbounded in both depth and width, yet allows tractable inference. We use
+the CIBP prior with the nonlinear Gaussian belief network so each unit can
+additionally vary its behavior between discrete and continuous representations.
+We provide Markov chain Monte Carlo algorithms for inference in these belief
+networks and explore the structures learned on several image data sets.

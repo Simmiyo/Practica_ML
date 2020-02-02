@@ -1,0 +1,27 @@
+Accurate reconstruction of image stimuli from human fMRI based on the
+  decoding model with capsule network architecture
+In neuroscience, all kinds of computation models were designed to answer the
+open question of how sensory stimuli are encoded by neurons and conversely, how
+sensory stimuli can be decoded from neuronal activities. Especially, functional
+Magnetic Resonance Imaging (fMRI) studies have made many great achievements
+with the rapid development of the deep network computation. However, comparing
+with the goal of decoding orientation, position and object category from
+activities in visual cortex, accurate reconstruction of image stimuli from
+human fMRI is a still challenging work. In this paper, the capsule network
+(CapsNet) architecture based visual reconstruction (CNAVR) method is developed
+to reconstruct image stimuli. The capsule means containing a group of neurons
+to perform the better organization of feature structure and representation,
+inspired by the structure of cortical mini column including several hundred
+neurons in primates. The high-level capsule features in the CapsNet includes
+diverse features of image stimuli such as semantic class, orientation, location
+and so on. We used these features to bridge between human fMRI and image
+stimuli. We firstly employed the CapsNet to train the nonlinear mapping from
+image stimuli to high-level capsule features, and from high-level capsule
+features to image stimuli again in an end-to-end manner. After estimating the
+serviceability of each voxel by encoding performance to accomplish the
+selecting of voxels, we secondly trained the nonlinear mapping from
+dimension-decreasing fMRI data to high-level capsule features. Finally, we can
+predict the high-level capsule features with fMRI data, and reconstruct image
+stimuli with the CapsNet. We evaluated the proposed CNAVR method on the dataset
+of handwritten digital images, and exceeded about 10% than the accuracy of all
+existing state-of-the-art methods on the structural similarity index (SSIM).

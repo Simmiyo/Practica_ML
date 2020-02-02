@@ -1,0 +1,12 @@
+Shortcut Sequence Tagging
+Deep stacked RNNs are usually hard to train. Adding shortcut connections
+across different layers is a common way to ease the training of stacked
+networks. However, extra shortcuts make the recurrent step more complicated. To
+simply the stacked architecture, we propose a framework called shortcut block,
+which is a marriage of the gating mechanism and shortcuts, while discarding the
+self-connected part in LSTM cell. We present extensive empirical experiments
+showing that this design makes training easy and improves generalization. We
+propose various shortcut block topologies and compositions to explore its
+effectiveness. Based on this architecture, we obtain a 6% relatively
+improvement over the state-of-the-art on CCGbank supertagging dataset. We also
+get comparable results on POS tagging task.

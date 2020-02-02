@@ -1,0 +1,26 @@
+Cross-Validated Variable Selection in Tree-Based Methods Improves
+  Predictive Performance
+Recursive partitioning approaches producing tree-like models are a long
+standing staple of predictive modeling, in the last decade mostly as
+``sub-learners'' within state of the art ensemble methods like Boosting and
+Random Forest. However, a fundamental flaw in the partitioning (or splitting)
+rule of commonly used tree building methods precludes them from treating
+different types of variables equally. This most clearly manifests in these
+methods' inability to properly utilize categorical variables with a large
+number of categories, which are ubiquitous in the new age of big data. Such
+variables can often be very informative, but current tree methods essentially
+leave us a choice of either not using them, or exposing our models to severe
+overfitting. We propose a conceptual framework to splitting using leave-one-out
+(LOO) cross validation for selecting the splitting variable, then performing a
+regular split (in our case, following CART's approach) for the selected
+variable. The most important consequence of our approach is that categorical
+variables with many categories can be safely used in tree building and are only
+chosen if they contribute to predictive power. We demonstrate in extensive
+simulation and real data analysis that our novel splitting approach
+significantly improves the performance of both single tree models and ensemble
+methods that utilize trees. Importantly, we design an algorithm for LOO
+splitting variable selection which under reasonable assumptions does not
+increase the overall computational complexity compared to CART for two-class
+classification. For regression tasks, our approach carries an increased
+computational burden, replacing a O(log(n)) factor in CART splitting rule
+search with an O(n) term.

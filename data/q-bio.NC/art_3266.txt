@@ -1,0 +1,23 @@
+Volume entropy and information flow in a brain graph
+Entropy is a classical measure to quantify the amount of information or
+complexity of a system. Various entropy-based measures such as functional and
+spectral entropies have been proposed in brain network analysis. However, they
+are less widely used than traditional graph theoretic measures such as global
+and local efficiencies because either they are not well-defined on a graph or
+difficult to interpret its biological meaning. In this paper, we propose a new
+entropy-based graph invariant, called volume entropy. It measures the
+exponential growth rate of the number of paths in a graph, which is a relevant
+measure if information flows through the graph forever. We model the
+information propagation on a graph by the generalized Markov system associated
+to the weighted edge-transition matrix. We estimate the volume entropy using
+the stationary equation of the generalized Markov system. A prominent advantage
+of using the stationary equation is that it assigns certain distribution of
+weights on the edges of the brain graph, which we call the stationary
+distribution. The stationary distribution shows the information capacity of
+edges and the direction of information flow on a brain graph. The simulation
+results show that the volume entropy distinguishes the underlying graph
+topology and geometry better than the existing graph measures. In brain imaging
+data application, the volume entropy of brain graphs was significantly related
+to healthy normal aging from 20s to 60s. In addition, the stationary
+distribution of information propagation gives a new insight into the
+information flow of functional brain graph.

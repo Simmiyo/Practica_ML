@@ -1,0 +1,16 @@
+Inertial Regularization and Selection (IRS): Sequential Regression in
+  High-Dimension and Sparsity
+In this paper, we develop a new sequential regression modeling approach for
+data streams. Data streams are commonly found around us, e.g in a retail
+enterprise sales data is continuously collected every day. A demand forecasting
+model is an important outcome from the data that needs to be continuously
+updated with the new incoming data. The main challenge in such modeling arises
+when there is a) high dimensional and sparsity, b) need for an adaptive use of
+prior knowledge, and/or c) structural changes in the system. The proposed
+approach addresses these challenges by incorporating an adaptive L1-penalty and
+inertia terms in the loss function, and thus called Inertial Regularization and
+Selection (IRS). The former term performs model selection to handle the first
+challenge while the latter is shown to address the last two challenges. A
+recursive estimation algorithm is developed, and shown to outperform the
+commonly used state-space models, such as Kalman Filters, in experimental
+studies and real data.

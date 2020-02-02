@@ -1,0 +1,14 @@
+Efficient Metric Learning for the Analysis of Motion Data
+We investigate metric learning in the context of dynamic time warping (DTW),
+the by far most popular dissimilarity measure used for the comparison and
+analysis of motion capture data. While metric learning enables a
+problem-adapted representation of data, the majority of methods has been
+proposed for vectorial data only. In this contribution, we extend the popular
+principle offered by the large margin nearest neighbors learner (LMNN) to DTW
+by treating the resulting component-wise dissimilarity values as features. We
+demonstrate that this principle greatly enhances the classification accuracy in
+several benchmarks. Further, we show that recent auxiliary concepts such as
+metric regularization can be transferred from the vectorial case to
+component-wise DTW in a similar way. We illustrate that metric regularization
+constitutes a crucial prerequisite for the interpretation of the resulting
+relevance profiles.

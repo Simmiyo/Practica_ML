@@ -1,0 +1,19 @@
+Covariate Regularized Community Detection in Sparse Graphs
+In this paper, we investigate community detection in networks in the presence
+of node covariates. In many instances, covariates and networks individually
+only give a partial view of the cluster structure. One needs to jointly infer
+the full cluster structure by considering both. In statistics, an emerging body
+of work has been focused on combining information from both the edges in the
+network and the node covariates to infer community memberships. However, so far
+the theoretical guarantees have been established in the dense regime, where the
+network can lead to perfect clustering under a broad parameter regime, and
+hence the role of covariates is often not clear. In this paper, we examine
+sparse networks in conjunction with finite dimensional sub-gaussian mixtures as
+covariates under moderate separation conditions. In this setting each
+individual source can only cluster a non-vanishing fraction of nodes correctly.
+We propose a simple optimization framework which provably improves clustering
+accuracy when the two sources carry partial information about the cluster
+memberships, and hence perform poorly on their own. Our optimization problem
+can be solved using scalable convex optimization algorithms. Using a variety of
+simulated and real data examples, we show that the proposed method outperforms
+other existing methodology.

@@ -1,0 +1,19 @@
+High Dimensional Semiparametric Latent Graphical Model for Mixed Data
+Graphical models are commonly used tools for modeling multivariate random
+variables. While there exist many convenient multivariate distributions such as
+Gaussian distribution for continuous data, mixed data with the presence of
+discrete variables or a combination of both continuous and discrete variables
+poses new challenges in statistical modeling. In this paper, we propose a
+semiparametric model named latent Gaussian copula model for binary and mixed
+data. The observed binary data are assumed to be obtained by dichotomizing a
+latent variable satisfying the Gaussian copula distribution or the
+nonparanormal distribution. The latent Gaussian model with the assumption that
+the latent variables are multivariate Gaussian is a special case of the
+proposed model. A novel rank-based approach is proposed for both latent graph
+estimation and latent principal component analysis. Theoretically, the proposed
+methods achieve the same rates of convergence for both precision matrix
+estimation and eigenvector estimation, as if the latent variables were
+observed. Under similar conditions, the consistency of graph structure recovery
+and feature selection for leading eigenvectors is established. The performance
+of the proposed methods is numerically assessed through simulation studies, and
+the usage of our methods is illustrated by a genetic dataset.

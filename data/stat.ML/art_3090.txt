@@ -1,0 +1,10 @@
+A warped kernel improving robustness in Bayesian optimization via random
+  embeddings
+This works extends the Random Embedding Bayesian Optimization approach by
+integrating a warping of the high dimensional subspace within the covariance
+kernel. The proposed warping, that relies on elementary geometric
+considerations, allows mitigating the drawbacks of the high extrinsic
+dimensionality while avoiding the algorithm to evaluate points giving redundant
+information. It also alleviates constraints on bound selection for the embedded
+domain, thus improving the robustness, as illustrated with a test case with 25
+variables and intrinsic dimension 6.

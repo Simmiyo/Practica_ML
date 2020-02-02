@@ -1,0 +1,17 @@
+Regularization Strategies and Empirical Bayesian Learning for MKL
+Multiple kernel learning (MKL), structured sparsity, and multi-task learning
+have recently received considerable attention. In this paper, we show how
+different MKL algorithms can be understood as applications of either
+regularization on the kernel weights or block-norm-based regularization, which
+is more common in structured sparsity and multi-task learning. We show that
+these two regularization strategies can be systematically mapped to each other
+through a concave conjugate operation. When the kernel-weight-based regularizer
+is separable into components, we can naturally consider a generative
+probabilistic model behind MKL. Based on this model, we propose learning
+algorithms for the kernel weights through the maximization of marginal
+likelihood. We show through numerical experiments that $\ell_2$-norm MKL and
+Elastic-net MKL achieve comparable accuracy to uniform kernel combination.
+Although uniform kernel combination might be preferable from its simplicity,
+$\ell_2$-norm MKL and Elastic-net MKL can learn the usefulness of the
+information sources represented as kernels. In particular, Elastic-net MKL
+achieves sparsity in the kernel weights.

@@ -1,0 +1,12 @@
+Local stability of Belief Propagation algorithm with multiple fixed
+  points
+A number of problems in statistical physics and computer science can be
+expressed as the computation of marginal probabilities over a Markov random
+field. Belief propagation, an iterative message-passing algorithm, computes
+exactly such marginals when the underlying graph is a tree. But it has gained
+its popularity as an efficient way to approximate them in the more general
+case, even if it can exhibits multiple fixed points and is not guaranteed to
+converge. In this paper, we express a new sufficient condition for local
+stability of a belief propagation fixed point in terms of the graph structure
+and the beliefs values at the fixed point. This gives credence to the usual
+understanding that Belief Propagation performs better on sparse graphs.

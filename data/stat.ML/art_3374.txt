@@ -1,0 +1,13 @@
+Belief Flows of Robust Online Learning
+This paper introduces a new probabilistic model for online learning which
+dynamically incorporates information from stochastic gradients of an arbitrary
+loss function. Similar to probabilistic filtering, the model maintains a
+Gaussian belief over the optimal weight parameters. Unlike traditional Bayesian
+updates, the model incorporates a small number of gradient evaluations at
+locations chosen using Thompson sampling, making it computationally tractable.
+The belief is then transformed via a linear flow field which optimally updates
+the belief distribution using rules derived from information theoretic
+principles. Several versions of the algorithm are shown using different
+constraints on the flow field and compared with conventional online learning
+algorithms. Results are given for several classification tasks including
+logistic regression and multilayer neural networks.

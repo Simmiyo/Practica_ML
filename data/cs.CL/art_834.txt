@@ -1,0 +1,16 @@
+A Modality Lexicon and its use in Automatic Tagging
+This paper describes our resource-building results for an eight-week JHU
+Human Language Technology Center of Excellence Summer Camp for Applied Language
+Exploration (SCALE-2009) on Semantically-Informed Machine Translation.
+Specifically, we describe the construction of a modality annotation scheme, a
+modality lexicon, and two automated modality taggers that were built using the
+lexicon and annotation scheme. Our annotation scheme is based on identifying
+three components of modality: a trigger, a target and a holder. We describe how
+our modality lexicon was produced semi-automatically, expanding from an initial
+hand-selected list of modality trigger words and phrases. The resulting
+expanded modality lexicon is being made publicly available. We demonstrate that
+one tagger---a structure-based tagger---results in precision around 86%
+(depending on genre) for tagging of a standard LDC data set. In a machine
+translation application, using the structure-based tagger to annotate English
+modalities on an English-Urdu training corpus improved the translation quality
+score for Urdu by 0.3 Bleu points in the face of sparse training data.

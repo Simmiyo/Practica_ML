@@ -1,0 +1,17 @@
+Alzheimer's Disease Diagnostics by a Deeply Supervised Adaptable 3D
+  Convolutional Network
+Early diagnosis, playing an important role in preventing progress and
+treating the Alzheimer's disease (AD), is based on classification of features
+extracted from brain images. The features have to accurately capture main
+AD-related variations of anatomical brain structures, such as, e.g., ventricles
+size, hippocampus shape, cortical thickness, and brain volume. This paper
+proposes to predict the AD with a deep 3D convolutional neural network
+(3D-CNN), which can learn generic features capturing AD biomarkers and adapt to
+different domain datasets. The 3D-CNN is built upon a 3D convolutional
+autoencoder, which is pre-trained to capture anatomical shape variations in
+structural brain MRI scans. Fully connected upper layers of the 3D-CNN are then
+fine-tuned for each task-specific AD classification. Experiments on the
+\emph{ADNI} MRI dataset with no skull-stripping preprocessing have shown our
+3D-CNN outperforms several conventional classifiers by accuracy and robustness.
+Abilities of the 3D-CNN to generalize the features learnt and adapt to other
+domains have been validated on the \emph{CADDementia} dataset.

@@ -1,0 +1,18 @@
+Nonlinear Statistical Data Assimilation for HVC$_{\text{RA}}$ Neurons in
+  the Avian Song System
+With the goal of building a model of the HVC nucleus in the avian song
+system, we discuss in detail a model of HVC$_{\text{RA}}$ projection neurons
+comprised of a somatic compartment with fast Na$^+$ and K$^+$ currents and a
+dendritic compartment with slower Ca$^{2+}$ dynamics. We show this model
+qualitatively exhibits many observed electrophysiological behaviors. We then
+show in numerical procedures how one can design and analyze feasible laboratory
+experiments that allow the estimation of all of the many parameters and
+unmeasured dynamical variables, given observations of the somatic voltage
+$V_s(t)$ alone. A key to this procedure is to initially estimate the slow
+dynamics associated with Ca, blocking the fast Na and K variations, and then
+with the Ca parameters fixed, estimate the fast Na and K dynamics. This
+separation of time scales provides a numerically robust method for completing
+the full neuron model, and the efficacy of the method is tested by prediction
+when observations are complete. The simulation provides a framework for the
+slice preparation experiments and illustrates the use of data assimilation
+methods for the design of those experiments.

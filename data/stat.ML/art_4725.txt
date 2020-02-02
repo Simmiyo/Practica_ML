@@ -1,0 +1,21 @@
+A budget-constrained inverse classification framework for smooth
+  classifiers
+Inverse classification is the process of manipulating an instance such that
+it is more likely to conform to a specific class. Past methods that address
+such a problem have shortcomings. Greedy methods make changes that are overly
+radical, often relying on data that is strictly discrete. Other methods rely on
+certain data points, the presence of which cannot be guaranteed. In this paper
+we propose a general framework and method that overcomes these and other
+limitations. The formulation of our method can use any differentiable
+classification function. We demonstrate the method by using logistic regression
+and Gaussian kernel SVMs. We constrain the inverse classification to occur on
+features that can actually be changed, each of which incurs an individual cost.
+We further subject such changes to fall within a certain level of cumulative
+change (budget). Our framework can also accommodate the estimation of
+(indirectly changeable) features whose values change as a consequence of
+actions taken. Furthermore, we propose two methods for specifying feature-value
+ranges that result in different algorithmic behavior. We apply our method, and
+a proposed sensitivity analysis-based benchmark method, to two freely available
+datasets: Student Performance from the UCI Machine Learning Repository and a
+real world cardiovascular disease dataset. The results obtained demonstrate the
+validity and benefits of our framework and method.

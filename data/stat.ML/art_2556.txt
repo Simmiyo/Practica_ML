@@ -1,0 +1,18 @@
+Bayesian Discovery of Multiple Bayesian Networks via Transfer Learning
+Bayesian network structure learning algorithms with limited data are being
+used in domains such as systems biology and neuroscience to gain insight into
+the underlying processes that produce observed data. Learning reliable networks
+from limited data is difficult, therefore transfer learning can improve the
+robustness of learned networks by leveraging data from related tasks. Existing
+transfer learning algorithms for Bayesian network structure learning give a
+single maximum a posteriori estimate of network models. Yet, many other models
+may be equally likely, and so a more informative result is provided by Bayesian
+structure discovery. Bayesian structure discovery algorithms estimate posterior
+probabilities of structural features, such as edges. We present transfer
+learning for Bayesian structure discovery which allows us to explore the shared
+and unique structural features among related tasks. Efficient computation
+requires that our transfer learning objective factors into local calculations,
+which we prove is given by a broad class of transfer biases. Theoretically, we
+show the efficiency of our approach. Empirically, we show that compared to
+single task learning, transfer learning is better able to positively identify
+true edges. We apply the method to whole-brain neuroimaging data.

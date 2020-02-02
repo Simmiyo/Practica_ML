@@ -1,0 +1,22 @@
+Analyzing features learned for Offline Signature Verification using Deep
+  CNNs
+Research on Offline Handwritten Signature Verification explored a large
+variety of handcrafted feature extractors, ranging from graphology, texture
+descriptors to interest points. In spite of advancements in the last decades,
+performance of such systems is still far from optimal when we test the systems
+against skilled forgeries - signature forgeries that target a particular
+individual. In previous research, we proposed a formulation of the problem to
+learn features from data (signature images) in a Writer-Independent format,
+using Deep Convolutional Neural Networks (CNNs), seeking to improve performance
+on the task. In this research, we push further the performance of such method,
+exploring a range of architectures, and obtaining a large improvement in
+state-of-the-art performance on the GPDS dataset, the largest publicly
+available dataset on the task. In the GPDS-160 dataset, we obtained an Equal
+Error Rate of 2.74%, compared to 6.97% in the best result published in
+literature (that used a combination of multiple classifiers). We also present a
+visual analysis of the feature space learned by the model, and an analysis of
+the errors made by the classifier. Our analysis shows that the model is very
+effective in separating signatures that have a different global appearance,
+while being particularly vulnerable to forgeries that very closely resemble
+genuine signatures, even if their line quality is bad, which is the case of
+slowly-traced forgeries.

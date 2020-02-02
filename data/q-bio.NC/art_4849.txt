@@ -1,0 +1,20 @@
+Ising distribution as a latent variable model
+During the past decades, the Ising distribution has attracted interest in
+many applied disciplines, as the maximum entropy distribution associated to any
+set of correlated binary (`spin') variables with observed means and
+covariances. However, numerically speaking, the Ising distribution is
+unpractical, so alternative models are often preferred to handle correlated
+binary data. One popular alternative, especially in life sciences, is the Cox
+distribution (or the closely related dichotomized Gaussian distribution and
+log-normal Cox point process), where the spins are generated independently
+conditioned on the drawing of a latent variable with a multivariate normal
+distribution. This article explores the conditions for a principled replacement
+of the Ising distribution by a Cox distribution. It shows that the Ising
+distribution itself can be treated as a latent variable model, and it explores
+when this latent variable has a quasi-normal distribution. A variational
+approach to this question reveals a formal link with classic mean-field
+methods, especially Opper and Winther's adaptive TAP approximation. This link
+is confirmed by weak coupling (Plefka) expansions of the different
+approximations and then by numerical tests. Overall, this study suggests that
+an Ising distribution can be replaced by a Cox distribution in practical
+applications, precisely when its parameters lie in the `mean-field domain'.

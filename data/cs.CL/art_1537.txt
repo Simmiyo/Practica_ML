@@ -1,0 +1,22 @@
+Language Modeling for Code-Switched Data: Challenges and Approaches
+Lately, the problem of code-switching has gained a lot of attention and has
+emerged as an active area of research. In bilingual communities, the speakers
+commonly embed the words and phrases of a non-native language into the syntax
+of a native language in their day-to-day communications. The code-switching is
+a global phenomenon among multilingual communities, still very limited acoustic
+and linguistic resources are available as yet. For developing effective speech
+based applications, the ability of the existing language technologies to deal
+with the code-switched data can not be over emphasized. The code-switching is
+broadly classified into two modes: inter-sentential and intra-sentential
+code-switching. In this work, we have studied the intra-sentential problem in
+the context of code-switching language modeling task. The salient contributions
+of this paper includes: (i) the creation of Hindi-English code-switching text
+corpus by crawling a few blogging sites educating about the usage of the
+Internet (ii) the exploration of the parts-of-speech features towards more
+effective modeling of Hindi-English code-switched data by the monolingual
+language model (LM) trained on native (Hindi) language data, and (iii) the
+proposal of a novel textual factor referred to as the code-switch factor
+(CS-factor), which allows the LM to predict the code-switching instances. In
+the context of recognition of the code-switching data, the substantial
+reduction in the PPL is achieved with the use of POS factors and also the
+proposed CS-factor provides independent as well as additive gain in the PPL.

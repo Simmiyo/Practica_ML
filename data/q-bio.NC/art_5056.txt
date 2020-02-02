@@ -1,0 +1,20 @@
+Desynchronization dynamics of the Kuramoto model on connectome graphs
+The time dependent behavior of the Kuramoto model, describing
+synchronization, has been studied numerically on small-world graphs. We
+determined the desynchronziation behavior, by solving this model via the 4th
+order Runge-Kutta algorithm on a large, weighted human connectome network and
+compared the results with those of a two-dimensional lattice, with additional
+random, long-range links. In the latter case a mean-field critical transition
+is expected and here we provide numerical results for the
+synchonization/desynchonization duration distributions. We find power-law
+tails, characterized by a critical exponent $\tau_d \simeq 1.6(1)$. In case of
+the connectome we assumed a homeostatic state, by the application of normalized
+incoming weights. Since this graph has a topological dimension $d < 4$ a real
+synchronization phase transition is not possible in the thermodynamic limit,
+still we could locate a transition between partially synchronized and
+desynchronized states. At this crossover point we observe power-law--tailed
+desynchronization durations, with $\tau_t \simeq 1.2(1)$, away from
+experimental values for the brain. Additionally, we changed the signs of
+outgoing weights of 20\% of randomly selected nodes, to mimic a model with
+inhibitory interactions. In this case the at the crossover point we found
+$\tau_t \simeq 1.9(2)$, which is in the range of human brain experiments.

@@ -1,0 +1,14 @@
+Exact Bayesian inference for off-line change-point detection in
+  tree-structured graphical models
+We consider the problem of change-point detection in multivariate
+time-series. The multivariate distribution of the observations is supposed to
+follow a graphical model, whose graph and parameters are affected by abrupt
+changes throughout time. We demonstrate that it is possible to perform exact
+Bayesian inference whenever one considers a simple class of undirected graphs
+called spanning trees as possible structures. We are then able to integrate on
+the graph and segmentation spaces at the same time by combining classical
+dynamic programming with algebraic results pertaining to spanning trees. In
+particular, we show that quantities such as posterior distributions for
+change-points or posterior edge probabilities over time can efficiently be
+obtained. We illustrate our results on both synthetic and experimental data
+arising from biology and neuroscience.

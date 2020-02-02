@@ -1,0 +1,13 @@
+A Mixed-Signal Structured AdEx Neuron for Accelerated Neuromorphic Cores
+Here we describe a multi-compartment neuron circuit based on the
+Adaptive-Exponential I&F (AdEx) model, developed for the second-generation
+BrainScaleS hardware. Based on an existing modular Leaky Integrate-and-Fire
+(LIF) architecture designed in 65 nm CMOS, the circuit features exponential
+spike generation, neuronal adaptation, inter-compartmental connections as well
+as a conductance-based reset. The design reproduces a diverse set of firing
+patterns observed in cortical pyramidal neurons. Further, it enables the
+emulation of sodium and calcium spikes, as well as N-Methyl-D-Aspartate (NMDA)
+plateau potentials known from apical and thin dendrites. We characterize the
+AdEx circuit extensions and exemplify how the interplay between passive and
+non-linear active signal processing enhances the computational capabilities of
+single (but structured) on-chip neurons.

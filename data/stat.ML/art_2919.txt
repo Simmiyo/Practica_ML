@@ -1,0 +1,14 @@
+Inferring latent structures via information inequalities
+One of the goals of probabilistic inference is to decide whether an
+empirically observed distribution is compatible with a candidate Bayesian
+network. However, Bayesian networks with hidden variables give rise to highly
+non-trivial constraints on the observed distribution. Here, we propose an
+information-theoretic approach, based on the insight that conditions on
+entropies of Bayesian networks take the form of simple linear inequalities. We
+describe an algorithm for deriving entropic tests for latent structures. The
+well-known conditional independence tests appear as a special case. While the
+approach applies for generic Bayesian networks, we presently adopt the causal
+view, and show the versatility of the framework by treating several relevant
+problems from that domain: detecting common ancestors, quantifying the strength
+of causal influence, and inferring the direction of causation from two-variable
+marginals.

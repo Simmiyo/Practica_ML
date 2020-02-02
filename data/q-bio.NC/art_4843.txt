@@ -1,0 +1,20 @@
+Fast Nonconvex Deconvolution of Calcium Imaging Data
+Calcium imaging data promises to transform the field of neuroscience by
+making it possible to record from large populations of neurons simultaneously.
+However, determining the exact moment in time at which a neuron spikes, from a
+calcium imaging data set, amounts to a non-trivial deconvolution problem which
+is of critical importance for downstream analyses. While a number of
+formulations have been proposed for this task in the recent literature, in this
+paper we focus on a formulation recently proposed in Jewell and Witten (2017)
+which has shown initial promising results. However, this proposal is slow to
+run on fluorescence traces of hundreds of thousands of timesteps.
+  Here we develop a much faster online algorithm for solving the optimization
+problem of Jewell and Witten (2017) that can be used to deconvolve a
+fluorescence trace of 100,000 timesteps in less than a second. Furthermore,
+this algorithm overcomes a technical challenge of Jewell and Witten (2017) by
+avoiding the occurrence of so-called "negative" spikes. We demonstrate that
+this algorithm has superior performance relative to existing methods for spike
+deconvolution on calcium imaging datasets that were recently released as part
+of the spikefinder challenge (http://spikefinder.codeneuro.org/).
+  Our C++ implementation, along with R and python wrappers, is publicly
+available on Github at https://github.com/jewellsean/FastLZeroSpikeInference.

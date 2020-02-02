@@ -1,0 +1,16 @@
+Adversarial Domain Adaptation for Variational Neural Language Generation
+  in Dialogue Systems
+Domain Adaptation arises when we aim at learning from source domain a model
+that can per- form acceptably well on a different target domain. It is
+especially crucial for Natural Language Generation (NLG) in Spoken Dialogue
+Systems when there are sufficient annotated data in the source domain, but
+there is a limited labeled data in the target domain. How to effectively
+utilize as much of existing abilities from source domains is a crucial issue in
+domain adaptation. In this paper, we propose an adversarial training procedure
+to train a Variational encoder-decoder based language generator via multiple
+adaptation steps. In this procedure, a model is first trained on a source
+domain data and then fine-tuned on a small set of target domain utterances
+under the guidance of two proposed critics. Experimental results show that the
+proposed method can effec- tively leverage the existing knowledge in the source
+domain to adapt to another related domain by using only a small amount of
+in-domain data.

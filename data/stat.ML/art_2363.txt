@@ -1,0 +1,14 @@
+Anomaly Classification with the Anti-Profile Support Vector Machine
+We introduce the anti-profile Support Vector Machine (apSVM) as a novel
+algorithm to address the anomaly classification problem, an extension of
+anomaly detection where the goal is to distinguish data samples from a number
+of anomalous and heterogeneous classes based on their pattern of deviation from
+a normal stable class. We show that under heterogeneity assumptions defined
+here that the apSVM can be solved as the dual of a standard SVM with an
+indirect kernel that measures similarity of anomalous samples through
+similarity to the stable normal class. We characterize this indirect kernel as
+the inner product in a Reproducing Kernel Hilbert Space between representers
+that are projected to the subspace spanned by the representers of the normal
+samples. We show by simulation and application to cancer genomics datasets that
+the anti-profile SVM produces classifiers that are more accurate and stable
+than the standard SVM in the anomaly classification setting.

@@ -1,0 +1,19 @@
+An Information-Theoretic External Cluster-Validity Measure
+In this paper we propose a measure of clustering quality or accuracy that is
+appropriate in situations where it is desirable to evaluate a clustering
+algorithm by somehow comparing the clusters it produces with ``ground truth'
+consisting of classes assigned to the patterns by manual means or some other
+means in whose veracity there is confidence. Such measures are refered to as
+``external'. Our measure also has the characteristic of allowing clusterings
+with different numbers of clusters to be compared in a quantitative and
+principled way. Our evaluation scheme quantitatively measures how useful the
+cluster labels of the patterns are as predictors of their class labels. In
+cases where all clusterings to be compared have the same number of clusters,
+the measure is equivalent to the mutual information between the cluster labels
+and the class labels. In cases where the numbers of clusters are different,
+however, it computes the reduction in the number of bits that would be required
+to encode (compress) the class labels if both the encoder and decoder have free
+acccess to the cluster labels. To achieve this encoding the estimated
+conditional probabilities of the class labels given the cluster labels must
+also be encoded. These estimated probabilities can be seen as a model for the
+class labels and their associated code length as a model cost.

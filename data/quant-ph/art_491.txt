@@ -1,0 +1,15 @@
+Unitary dynamics for quantum codewords
+A quantum codeword is a redundant representation of a logical qubit by means
+of several physical qubits. It is constructed in such a way that if one of the
+physical qubits is perturbed, for example if it gets entangled with an unknown
+environment, there still is enough information encoded in the other physical
+qubits to restore the logical qubit, and disentangle it from the environment.
+The recovery procedure may consist of the detection of an error syndrome,
+followed by the correction of the error, as in the classical case. However, it
+can also be performed by means of unitary operations, without having to know
+the error syndrome. Since quantum codewords span only a restricted subspace of
+the complete physical Hilbert space, the unitary operations that generate
+quantum dynamics (that is, the computational process) are subject to
+considerable arbitrariness, similar to the gauge freedom in quantum field
+theory. Quantum codewords can thus serve as a toy model for investigating the
+quantization of constrained dynamical systems.

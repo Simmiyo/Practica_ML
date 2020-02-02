@@ -1,0 +1,13 @@
+Removal of Batch Effects using Distribution-Matching Residual Networks
+Sources of variability in experimentally derived data include measurement
+error in addition to the physical phenomena of interest. This measurement error
+is a combination of systematic components, originating from the measuring
+instrument, and random measurement errors. Several novel biological
+technologies, such as mass cytometry and single-cell RNA-seq, are plagued with
+systematic errors that may severely affect statistical analysis if the data is
+not properly calibrated. We propose a novel deep learning approach for removing
+systematic batch effects. Our method is based on a residual network, trained to
+minimize the Maximum Mean Discrepancy (MMD) between the multivariate
+distributions of two replicates, measured in different batches. We apply our
+method to mass cytometry and single-cell RNA-seq datasets, and demonstrate that
+it effectively attenuates batch effects.

@@ -1,0 +1,13 @@
+Joint Bayesian estimation of close subspaces from noisy measurements
+In this letter, we consider two sets of observations defined as subspace
+signals embedded in noise and we wish to analyze the distance between these two
+subspaces. The latter entails evaluating the angles between the subspaces, an
+issue reminiscent of the well-known Procrustes problem. A Bayesian approach is
+investigated where the subspaces of interest are considered as random with a
+joint prior distribution (namely a Bingham distribution), which allows the
+closeness of the two subspaces to be adjusted. Within this framework, the
+minimum mean-square distance estimator of both subspaces is formulated and
+implemented via a Gibbs sampler. A simpler scheme based on alternative maximum
+a posteriori estimation is also presented. The new schemes are shown to provide
+more accurate estimates of the angles between the subspaces, compared to
+singular value decomposition based independent estimation of the two subspaces.

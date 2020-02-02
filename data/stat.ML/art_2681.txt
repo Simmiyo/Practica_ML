@@ -1,0 +1,24 @@
+Predictable Feature Analysis
+Every organism in an environment, whether biological, robotic or virtual,
+must be able to predict certain aspects of its environment in order to survive
+or perform whatever task is intended. It needs a model that is capable of
+estimating the consequences of possible actions, so that planning, control, and
+decision-making become feasible. For scientific purposes, such models are
+usually created in a problem specific manner using differential equations and
+other techniques from control- and system-theory. In contrast to that, we aim
+for an unsupervised approach that builds up the desired model in a
+self-organized fashion. Inspired by Slow Feature Analysis (SFA), our approach
+is to extract sub-signals from the input, that behave as predictable as
+possible. These "predictable features" are highly relevant for modeling,
+because predictability is a desired property of the needed
+consequence-estimating model by definition. In our approach, we measure
+predictability with respect to a certain prediction model. We focus here on the
+solution of the arising optimization problem and present a tractable algorithm
+based on algebraic methods which we call Predictable Feature Analysis (PFA). We
+prove that the algorithm finds the globally optimal signal, if this signal can
+be predicted with low error. To deal with cases where the optimal signal has a
+significant prediction error, we provide a robust, heuristically motivated
+variant of the algorithm and verify it empirically. Additionally, we give
+formal criteria a prediction-model must meet to be suitable for measuring
+predictability in the PFA setting and also provide a suitable default-model
+along with a formal proof that it meets these criteria.

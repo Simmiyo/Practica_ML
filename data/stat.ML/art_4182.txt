@@ -1,0 +1,14 @@
+A Practical Method for Solving Contextual Bandit Problems Using Decision
+  Trees
+Many efficient algorithms with strong theoretical guarantees have been
+proposed for the contextual multi-armed bandit problem. However, applying these
+algorithms in practice can be difficult because they require domain expertise
+to build appropriate features and to tune their parameters. We propose a new
+method for the contextual bandit problem that is simple, practical, and can be
+applied with little or no domain expertise. Our algorithm relies on decision
+trees to model the context-reward relationship. Decision trees are
+non-parametric, interpretable, and work well without hand-crafted features. To
+guide the exploration-exploitation trade-off, we use a bootstrapping approach
+which abstracts Thompson sampling to non-Bayesian settings. We also discuss
+several computational heuristics and demonstrate the performance of our method
+on several datasets.

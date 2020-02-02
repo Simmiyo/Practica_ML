@@ -1,0 +1,22 @@
+A Framework for Enriching Lexical Semantic Resources with Distributional
+  Semantics
+We present an approach to combining distributional semantic representations
+induced from text corpora with manually constructed lexical-semantic networks.
+While both kinds of semantic resources are available with high lexical
+coverage, our aligned resource combines the domain specificity and availability
+of contextual information from distributional models with the conciseness and
+high quality of manually crafted lexical networks. We start with a
+distributional representation of induced senses of vocabulary terms, which are
+accompanied with rich context information given by related lexical items. We
+then automatically disambiguate such representations to obtain a full-fledged
+proto-conceptualization, i.e. a typed graph of induced word senses. In a final
+step, this proto-conceptualization is aligned to a lexical ontology, resulting
+in a hybrid aligned resource. Moreover, unmapped induced senses are associated
+with a semantic type in order to connect them to the core resource. Manual
+evaluations against ground-truth judgments for different stages of our method
+as well as an extrinsic evaluation on a knowledge-based Word Sense
+Disambiguation benchmark all indicate the high quality of the new hybrid
+resource. Additionally, we show the benefits of enriching top-down lexical
+knowledge resources with bottom-up distributional information from text for
+addressing high-end knowledge acquisition tasks such as cleaning hypernym
+graphs and learning taxonomies from scratch.

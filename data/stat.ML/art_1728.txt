@@ -1,0 +1,12 @@
+Online and Batch Learning Algorithms for Data with Missing Features
+We introduce new online and batch algorithms that are robust to data with
+missing features, a situation that arises in many practical applications. In
+the online setup, we allow for the comparison hypothesis to change as a
+function of the subset of features that is observed on any given round,
+extending the standard setting where the comparison hypothesis is fixed
+throughout. In the batch setup, we present a convex relation of a non-convex
+problem to jointly estimate an imputation function, used to fill in the values
+of missing features, along with the classification hypothesis. We prove regret
+bounds in the online setting and Rademacher complexity bounds for the batch
+i.i.d. setting. The algorithms are tested on several UCI datasets, showing
+superior performance over baselines.

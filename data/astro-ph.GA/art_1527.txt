@@ -1,0 +1,24 @@
+Photometric identification of blue horizontal branch stars
+We investigate the performance of some common machine learning techniques in
+identifying BHB stars from photometric data. To train the machine learning
+algorithms, we use previously published spectroscopic identifications of BHB
+stars from SDSS data. We investigate the performance of three different
+techniques, namely k nearest neighbour classification, kernel density
+estimation and a support vector machine (SVM). We discuss the performance of
+the methods in terms of both completeness and contamination. We discuss the
+prospect of trading off these values, achieving lower contamination at the
+expense of lower completeness, by adjusting probability thresholds for the
+classification. We also discuss the role of prior probabilities in the
+classification performance, and we assess via simulations the reliability of
+the dataset used for training. Overall it seems that no-prior gives the best
+completeness, but adopting a prior lowers the contamination. We find that the
+SVM generally delivers the lowest contamination for a given level of
+completeness, and so is our method of choice. Finally, we classify a large
+sample of SDSS DR7 photometry using the SVM trained on the spectroscopic
+sample. We identify 27,074 probable BHB stars out of a sample of 294,652 stars.
+We derive photometric parallaxes and demonstrate that our results are
+reasonable by comparing to known distances for a selection of globular
+clusters. We attach our classifications, including probabilities, as an
+electronic table, so that they can be used either directly as a BHB star
+catalogue, or as priors to a spectroscopic or other classification method. We
+also provide our final models so that they can be directly applied to new data.

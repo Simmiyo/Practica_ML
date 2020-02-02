@@ -1,0 +1,22 @@
+Improved prediction accuracy for disease risk mapping using Gaussian
+  Process stacked generalisation
+Maps of infectious disease---charting spatial variations in the force of
+infection, degree of endemicity, and the burden on human health---provide an
+essential evidence base to support planning towards global health targets.
+Contemporary disease mapping efforts have embraced statistical modelling
+approaches to properly acknowledge uncertainties in both the available
+measurements and their spatial interpolation. The most common such approach is
+that of Gaussian process regression, a mathematical framework comprised of two
+components: a mean function harnessing the predictive power of multiple
+independent variables, and a covariance function yielding spatio-temporal
+shrinkage against residual variation from the mean. Though many techniques have
+been developed to improve the flexibility and fitting of the covariance
+function, models for the mean function have typically been restricted to simple
+linear terms. For infectious diseases, known to be driven by complex
+interactions between environmental and socio-economic factors, improved
+modelling of the mean function can greatly boost predictive power. Here we
+present an ensemble approach based on stacked generalisation that allows for
+multiple, non-linear algorithmic mean functions to be jointly embedded within
+the Gaussian process framework. We apply this method to mapping Plasmodium
+falciparum prevalence data in Sub-Saharan Africa and show that the generalised
+ensemble approach markedly out-performs any individual method.

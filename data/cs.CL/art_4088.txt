@@ -1,0 +1,15 @@
+Neural Network Models for Paraphrase Identification, Semantic Textual
+  Similarity, Natural Language Inference, and Question Answering
+In this paper, we analyze several neural network designs (and their
+variations) for sentence pair modeling and compare their performance
+extensively across eight datasets, including paraphrase identification,
+semantic textual similarity, natural language inference, and question answering
+tasks. Although most of these models have claimed state-of-the-art performance,
+the original papers often reported on only one or two selected datasets. We
+provide a systematic study and show that (i) encoding contextual information by
+LSTM and inter-sentence interactions are critical, (ii) Tree-LSTM does not help
+as much as previously claimed but surprisingly improves performance on Twitter
+datasets, (iii) the Enhanced Sequential Inference Model is the best so far for
+larger datasets, while the Pairwise Word Interaction Model achieves the best
+performance when less data is available. We release our implementations as an
+open-source toolkit.

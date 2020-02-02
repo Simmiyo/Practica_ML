@@ -1,0 +1,14 @@
+Estimation of interventional effects of features on prediction
+The interpretability of prediction mechanisms with respect to the underlying
+prediction problem is often unclear. While several studies have focused on
+developing prediction models with meaningful parameters, the causal
+relationships between the predictors and the actual prediction have not been
+considered. Here, we connect the underlying causal structure of a data
+generation process and the causal structure of a prediction mechanism. To
+achieve this, we propose a framework that identifies the feature with the
+greatest causal influence on the prediction and estimates the necessary causal
+intervention of a feature such that a desired prediction is obtained. The
+general concept of the framework has no restrictions regarding data linearity;
+however, we focus on an implementation for linear data here. The framework
+applicability is evaluated using artificial data and demonstrated using
+real-world data.

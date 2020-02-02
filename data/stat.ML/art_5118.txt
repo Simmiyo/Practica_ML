@@ -1,0 +1,15 @@
+Semi-Supervised Phone Classification using Deep Neural Networks and
+  Stochastic Graph-Based Entropic Regularization
+We describe a graph-based semi-supervised learning framework in the context
+of deep neural networks that uses a graph-based entropic regularizer to favor
+smooth solutions over a graph induced by the data. The main contribution of
+this work is a computationally efficient, stochastic graph-regularization
+technique that uses mini-batches that are consistent with the graph structure,
+but also provides enough stochasticity (in terms of mini-batch data diversity)
+for convergence of stochastic gradient descent methods to good solutions. For
+this work, we focus on results of frame-level phone classification accuracy on
+the TIMIT speech corpus but our method is general and scalable to much larger
+data sets. Results indicate that our method significantly improves
+classification accuracy compared to the fully-supervised case when the fraction
+of labeled data is low, and it is competitive with other methods in the fully
+labeled case.

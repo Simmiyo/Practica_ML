@@ -1,0 +1,12 @@
+Bootstrapped Thompson Sampling and Deep Exploration
+This technical note presents a new approach to carrying out the kind of
+exploration achieved by Thompson sampling, but without explicitly maintaining
+or sampling from posterior distributions. The approach is based on a bootstrap
+technique that uses a combination of observed and artificially generated data.
+The latter serves to induce a prior distribution which, as we will demonstrate,
+is critical to effective exploration. We explain how the approach can be
+applied to multi-armed bandit and reinforcement learning problems and how it
+relates to Thompson sampling. The approach is particularly well-suited for
+contexts in which exploration is coupled with deep learning, since in these
+settings, maintaining or generating samples from a posterior distribution
+becomes computationally infeasible.

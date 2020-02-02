@@ -1,0 +1,18 @@
+Distributionally Ambiguous Optimization Techniques for Batch Bayesian
+  Optimization
+We propose a novel, theoretically-grounded, acquisition function for Batch
+Bayesian optimization informed by insights from distributionally ambiguous
+optimization. Our acquisition function is a lower bound on the well-known
+Expected Improvement function, which requires evaluation of a Gaussian
+Expectation over a multivariate piecewise affine function. Our bound is
+computed instead by evaluating the best-case expectation over all probability
+distributions consistent with the same mean and variance as the original
+Gaussian distribution. Unlike alternative approaches, including Expected
+Improvement, our proposed acquisition function avoids multi-dimensional
+integrations entirely, and can be computed exactly - even on large batch sizes
+- as the solution of a tractable convex optimization problem. Our suggested
+acquisition function can also be optimized efficiently, since first and second
+derivative information can be calculated inexpensively as by-products of the
+acquisition function calculation itself. We derive various novel theorems that
+ground our work theoretically and we demonstrate superior performance via
+simple motivating examples, benchmark functions and real-world problems.

@@ -1,0 +1,23 @@
+Statistical Pattern Recognition for Driving Styles Based on Bayesian
+  Probability and Kernel Density Estimation
+Driving styles have a great influence on vehicle fuel economy, active safety,
+and drivability. To recognize driving styles of path-tracking behaviors for
+different divers, a statistical pattern-recognition method is developed to deal
+with the uncertainty of driving styles or characteristics based on probability
+density estimation. First, to describe driver path-tracking styles, vehicle
+speed and throttle opening are selected as the discriminative parameters, and a
+conditional kernel density function of vehicle speed and throttle opening is
+built, respectively, to describe the uncertainty and probability of two
+representative driving styles, e.g., aggressive and normal. Meanwhile, a
+posterior probability of each element in feature vector is obtained using full
+Bayesian theory. Second, a Euclidean distance method is involved to decide to
+which class the driver should be subject instead of calculating the complex
+covariance between every two elements of feature vectors. By comparing the
+Euclidean distance between every elements in feature vector, driving styles are
+classified into seven levels ranging from low normal to high aggressive.
+Subsequently, to show benefits of the proposed pattern-recognition method, a
+cross-validated method is used, compared with a fuzzy logic-based
+pattern-recognition method. The experiment results show that the proposed
+statistical pattern-recognition method for driving styles based on kernel
+density estimation is more efficient and stable than the fuzzy logic-based
+method.

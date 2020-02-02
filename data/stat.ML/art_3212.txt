@@ -1,0 +1,19 @@
+Sparse Coding with Earth Mover's Distance for Multi-Instance Histogram
+  Representation
+Sparse coding (Sc) has been studied very well as a powerful data
+representation method. It attempts to represent the feature vector of a data
+sample by reconstructing it as the sparse linear combination of some basic
+elements, and a $L_2$ norm distance function is usually used as the loss
+function for the reconstruction error. In this paper, we investigate using Sc
+as the representation method within multi-instance learning framework, where a
+sample is given as a bag of instances, and further represented as a histogram
+of the quantized instances. We argue that for the data type of histogram, using
+$L_2$ norm distance is not suitable, and propose to use the earth mover's
+distance (EMD) instead of $L_2$ norm distance as a measure of the
+reconstruction error. By minimizing the EMD between the histogram of a sample
+and the its reconstruction from some basic histograms, a novel sparse coding
+method is developed, which is refereed as SC-EMD. We evaluate its performances
+as a histogram representation method in tow multi-instance learning problems
+--- abnormal image detection in wireless capsule endoscopy videos, and protein
+binding site retrieval. The encouraging results demonstrate the advantages of
+the new method over the traditional method using $L_2$ norm distance.

@@ -1,0 +1,22 @@
+Saccade learning with concurrent cortical and subcortical basal ganglia
+  loops
+The Basal Ganglia is a central structure involved in multiple cortical and
+subcortical loops. Some of these loops are believed to be responsible for
+saccade target selection. We study here how the very specific structural
+relationships of these saccadic loops can affect the ability of learning
+spatial and feature-based tasks.
+  We propose a model of saccade generation with reinforcement learning
+capabilities based on our previous basal ganglia and superior colliculus
+models. It is structured around the interactions of two parallel cortico-basal
+loops and one tecto-basal loop. The two cortical loops separately deal with
+spatial and non-spatial information to select targets in a concurrent way. The
+subcortical loop is used to make the final target selection leading to the
+production of the saccade. These different loops may work in concert or disturb
+each other regarding reward maximization. Interactions between these loops and
+their learning capabilities are tested on different saccade tasks.
+  The results show the ability of this model to correctly learn basic target
+selection based on different criteria (spatial or not). Moreover the model
+reproduces and explains training dependent express saccades toward targets
+based on a spatial criterion.
+  Finally, the model predicts that in absence of prefrontal control, the
+spatial loop should dominate.

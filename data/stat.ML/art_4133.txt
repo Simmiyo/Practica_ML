@@ -1,0 +1,19 @@
+Inconsistent Node Flattening for Improving Top-down Hierarchical
+  Classification
+Large-scale classification of data where classes are structurally organized
+in a hierarchy is an important area of research. Top-down approaches that
+exploit the hierarchy during the learning and prediction phase are efficient
+for large scale hierarchical classification. However, accuracy of top-down
+approaches is poor due to error propagation i.e., prediction errors made at
+higher levels in the hierarchy cannot be corrected at lower levels. One of the
+main reason behind errors at the higher levels is the presence of inconsistent
+nodes that are introduced due to the arbitrary process of creating these
+hierarchies by domain experts. In this paper, we propose two different
+data-driven approaches (local and global) for hierarchical structure
+modification that identifies and flattens inconsistent nodes present within the
+hierarchy. Our extensive empirical evaluation of the proposed approaches on
+several image and text datasets with varying distribution of features, classes
+and training instances per class shows improved classification performance over
+competing hierarchical modification approaches. Specifically, we see an
+improvement upto 7% in Macro-F1 score with our approach over best TD baseline.
+SOURCE CODE: http://www.cs.gmu.edu/~mlbio/InconsistentNodeFlattening

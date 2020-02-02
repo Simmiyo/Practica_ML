@@ -1,0 +1,8 @@
+A Quantum Algorithm for finding the Maximum
+This paper describes a quantum algorithm for finding the maximum among N
+items. The classical method for the same problem takes O(N) steps because we
+need to compare two numbers in one step. This algorithm takes O(sqrt(N)) steps
+by exploiting the property of quantum states to exist in a superposition of
+states and hence performing an operation on a number of elements in one go. A
+tight upper bound of 6.8(sqrt(N)) for the number of steps needed using this
+algorithm was found. These steps are the number of queries made to the oracle.

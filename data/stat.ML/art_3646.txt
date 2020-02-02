@@ -1,0 +1,20 @@
+On the interplay of network structure and gradient convergence in deep
+  learning
+The regularization and output consistency behavior of dropout and layer-wise
+pretraining for learning deep networks have been fairly well studied. However,
+our understanding of how the asymptotic convergence of backpropagation in deep
+architectures is related to the structural properties of the network and other
+design choices (like denoising and dropout rate) is less clear at this time. An
+interesting question one may ask is whether the network architecture and input
+data statistics may guide the choices of learning parameters and vice versa. In
+this work, we explore the association between such structural, distributional
+and learnability aspects vis-\`a-vis their interaction with parameter
+convergence rates. We present a framework to address these questions based on
+convergence of backpropagation for general nonconvex objectives using
+first-order information. This analysis suggests an interesting relationship
+between feature denoising and dropout. Building upon these results, we obtain a
+setup that provides systematic guidance regarding the choice of learning
+parameters and network sizes that achieve a certain level of convergence (in
+the optimization sense) often mediated by statistical attributes of the inputs.
+Our results are supported by a set of experimental evaluations as well as
+independent empirical observations reported by other groups.

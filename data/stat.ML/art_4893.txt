@@ -1,0 +1,15 @@
+Deepr: A Convolutional Net for Medical Records
+Feature engineering remains a major bottleneck when creating predictive
+systems from electronic medical records. At present, an important missing
+element is detecting predictive regular clinical motifs from irregular episodic
+records. We present Deepr (short for Deep record), a new end-to-end deep
+learning system that learns to extract features from medical records and
+predicts future risk automatically. Deepr transforms a record into a sequence
+of discrete elements separated by coded time gaps and hospital transfers. On
+top of the sequence is a convolutional neural net that detects and combines
+predictive local clinical motifs to stratify the risk. Deepr permits
+transparent inspection and visualization of its inner working. We validate
+Deepr on hospital data to predict unplanned readmission after discharge. Deepr
+achieves superior accuracy compared to traditional techniques, detects
+meaningful clinical motifs, and uncovers the underlying structure of the
+disease and intervention space.

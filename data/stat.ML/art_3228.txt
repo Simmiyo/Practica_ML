@@ -1,0 +1,21 @@
+Proper Complex Gaussian Processes for Regression
+Complex-valued signals are used in the modeling of many systems in
+engineering and science, hence being of fundamental interest. Often, random
+complex-valued signals are considered to be proper. A proper complex random
+variable or process is uncorrelated with its complex conjugate. This assumption
+is a good model of the underlying physics in many problems, and simplifies the
+computations. While linear processing and neural networks have been widely
+studied for these signals, the development of complex-valued nonlinear kernel
+approaches remains an open problem. In this paper we propose Gaussian processes
+for regression as a framework to develop 1) a solution for proper
+complex-valued kernel regression and 2) the design of the reproducing kernel
+for complex-valued inputs, using the convolutional approach for
+cross-covariances. In this design we pay attention to preserve, in the complex
+domain, the measure of similarity between near inputs. The hyperparameters of
+the kernel are learned maximizing the marginal likelihood using Wirtinger
+derivatives. Besides, the approach is connected to the multiple output learning
+scenario. In the experiments included, we first solve a proper complex Gaussian
+process where the cross-covariance does not cancel, a challenging scenario when
+dealing with proper complex signals. Then we successfully use these novel
+results to solve some problems previously proposed in the literature as
+benchmarks, reporting a remarkable improvement in the estimation error.

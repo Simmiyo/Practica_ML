@@ -1,0 +1,16 @@
+Structured Prediction: From Gaussian Perturbations to Linear-Time
+  Principled Algorithms
+Margin-based structured prediction commonly uses a maximum loss over all
+possible structured outputs \cite{Altun03,Collins04b,Taskar03}. In natural
+language processing, recent work \cite{Zhang14,Zhang15} has proposed the use of
+the maximum loss over random structured outputs sampled independently from some
+proposal distribution. This method is linear-time in the number of random
+structured outputs and trivially parallelizable. We study this family of loss
+functions in the PAC-Bayes framework under Gaussian perturbations
+\cite{McAllester07}. Under some technical conditions and up to statistical
+accuracy, we show that this family of loss functions produces a tighter upper
+bound of the Gibbs decoder distortion than commonly used methods. Thus, using
+the maximum loss over random structured outputs is a principled way of learning
+the parameter of structured prediction models. Besides explaining the
+experimental success of \cite{Zhang14,Zhang15}, our theoretical results show
+that more general techniques are possible.

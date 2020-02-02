@@ -1,0 +1,25 @@
+Language Distribution Prediction based on Batch Markov Monte Carlo
+  Simulation with Migration
+Language spreading is a complex mechanism that involves issues like culture,
+economics, migration, population etc. In this paper, we propose a set of
+methods to model the dynamics of the spreading system. To model the randomness
+of language spreading, we propose the Batch Markov Monte Carlo Simulation with
+Migration(BMMCSM) algorithm, in which each agent is treated as a language
+stack. The agent learns languages and migrates based on the proposed Batch
+Markov Property according to the transition matrix T and migration matrix M.
+Since population plays a crucial role in language spreading, we also introduce
+the Mortality and Fertility Mechanism, which controls the birth and death of
+the simulated agents, into the BMMCSM algorithm. The simulation results of
+BMMCSM show that the numerical and geographic distribution of languages varies
+across the time. The change of distribution fits the world cultural and
+economic development trend. Next, when we construct Matrix T, there are some
+entries of T can be directly calculated from historical statistics while some
+entries of T is unknown. Thus, the key to the success of the BMMCSM lies in the
+accurate estimation of transition matrix T by estimating the unknown entries of
+T under the supervision of the known entries. To achieve this, we first
+construct a 20 by 20 by 5 factor tensor X to characterize each entry of T. Then
+we train a Random Forest Regressor on the known entries of T and use the
+trained regressor to predict the unknown entries. The reason why we choose
+Random Forest(RF) is that, compared to Single Decision Tree, it conquers the
+problem of over fitting and the Shapiro test also suggests that the residual of
+RF subjects to the Normal distribution.

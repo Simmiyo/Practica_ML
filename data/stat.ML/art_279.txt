@@ -1,0 +1,15 @@
+Adaptive estimation of the copula correlation matrix for semiparametric
+  elliptical copulas
+We study the adaptive estimation of copula correlation matrix $\Sigma$ for
+the semi-parametric elliptical copula model. In this context, the correlations
+are connected to Kendall's tau through a sine function transformation. Hence, a
+natural estimate for $\Sigma$ is the plug-in estimator $\hat{\Sigma}$ with
+Kendall's tau statistic. We first obtain a sharp bound on the operator norm of
+$\hat{\Sigma}-\Sigma$. Then we study a factor model of $\Sigma$, for which we
+propose a refined estimator $\widetilde{\Sigma}$ by fitting a low-rank matrix
+plus a diagonal matrix to $\hat{\Sigma}$ using least squares with a nuclear
+norm penalty on the low-rank matrix. The bound on the operator norm of
+$\hat{\Sigma}-\Sigma$ serves to scale the penalty term, and we obtain finite
+sample oracle inequalities for $\widetilde{\Sigma}$. We also consider an
+elementary factor copula model of $\Sigma$, for which we propose closed-form
+estimators. All of our estimation procedures are entirely data-driven.

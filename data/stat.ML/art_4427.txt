@@ -1,0 +1,16 @@
+Highly Efficient Human Action Recognition with Quantum Genetic Algorithm
+  Optimized Support Vector Machine
+In this paper we propose the use of quantum genetic algorithm to optimize the
+support vector machine (SVM) for human action recognition. The Microsoft Kinect
+sensor can be used for skeleton tracking, which provides the joints' position
+data. However, how to extract the motion features for representing the dynamics
+of a human skeleton is still a challenge due to the complexity of human motion.
+We present a highly efficient features extraction method for action
+classification, that is, using the joint angles to represent a human skeleton
+and calculating the variance of each angle during an action time window. Using
+the proposed representation, we compared the human action classification
+accuracy of two approaches, including the optimized SVM based on quantum
+genetic algorithm and the conventional SVM with grid search. Experimental
+results on the MSR-12 dataset show that the conventional SVM achieved an
+accuracy of $ 93.85\% $. The proposed approach outperforms the conventional
+method with an accuracy of $ 96.15\% $.

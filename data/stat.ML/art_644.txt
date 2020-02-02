@@ -1,0 +1,11 @@
+Scalable Gaussian Process Classification via Expectation Propagation
+Variational methods have been recently considered for scaling the training
+process of Gaussian process classifiers to large datasets. As an alternative,
+we describe here how to train these classifiers efficiently using expectation
+propagation. The proposed method allows for handling datasets with millions of
+data instances. More precisely, it can be used for (i) training in a
+distributed fashion where the data instances are sent to different nodes in
+which the required computations are carried out, and for (ii) maximizing an
+estimate of the marginal likelihood using a stochastic approximation of the
+gradient. Several experiments indicate that the method described is competitive
+with the variational approach.

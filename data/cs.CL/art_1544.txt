@@ -1,0 +1,17 @@
+Towards Automated ICD Coding Using Deep Learning
+International Classification of Diseases(ICD) is an authoritative health care
+classification system of different diseases and conditions for clinical and
+management purposes. Considering the complicated and dedicated process to
+assign correct codes to each patient admission based on overall diagnosis, we
+propose a hierarchical deep learning model with attention mechanism which can
+automatically assign ICD diagnostic codes given written diagnosis. We utilize
+character-aware neural language models to generate hidden representations of
+written diagnosis descriptions and ICD codes, and design an attention mechanism
+to address the mismatch between the numbers of descriptions and corresponding
+codes. Our experimental results show the strong potential of automated ICD
+coding from diagnosis descriptions. Our best model achieves 0.53 and 0.90 of F1
+score and area under curve of receiver operating characteristic respectively.
+The result outperforms those achieved using character-unaware encoding method
+or without attention mechanism. It indicates that our proposed deep learning
+model can code automatically in a reasonable way and provide a framework for
+computer-auxiliary ICD coding.

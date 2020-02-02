@@ -1,0 +1,18 @@
+NEMO: Extraction and normalization of organization names from PubMed
+  affiliation strings
+We propose NEMO, a system for extracting organization names in the
+affiliation and normalizing them to a canonical organization name. Our parsing
+process involves multi-layered rule matching with multiple dictionaries. The
+system achieves more than 98% f-score in extracting organization names. Our
+process of normalization that involves clustering based on local sequence
+alignment metrics and local learning based on finding connected components. A
+high precision was also observed in normalization. NEMO is the missing link in
+associating each biomedical paper and its authors to an organization name in
+its canonical form and the Geopolitical location of the organization. This
+research could potentially help in analyzing large social networks of
+organizations for landscaping a particular topic, improving performance of
+author disambiguation, adding weak links in the co-author network of authors,
+augmenting NLM's MARS system for correcting errors in OCR output of affiliation
+field, and automatically indexing the PubMed citations with the normalized
+organization name and country. Our system is available as a graphical user
+interface available for download along with this paper.

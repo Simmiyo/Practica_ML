@@ -1,0 +1,14 @@
+Attention-based Information Fusion using Multi-Encoder-Decoder Recurrent
+  Neural Networks
+With the rising number of interconnected devices and sensors, modeling
+distributed sensor networks is of increasing interest. Recurrent neural
+networks (RNN) are considered particularly well suited for modeling sensory and
+streaming data. When predicting future behavior, incorporating information from
+neighboring sensor stations is often beneficial. We propose a new RNN based
+architecture for context specific information fusion across multiple spatially
+distributed sensor stations. Hereby, latent representations of multiple local
+models, each modeling one sensor station, are jointed and weighted, according
+to their importance for the prediction. The particular importance is assessed
+depending on the current context using a separate attention function. We
+demonstrate the effectiveness of our model on three different real-world sensor
+network datasets.

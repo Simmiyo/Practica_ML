@@ -1,0 +1,11 @@
+Boosting Trees for Anti-Spam Email Filtering
+This paper describes a set of comparative experiments for the problem of
+automatically filtering unwanted electronic mail messages. Several variants of
+the AdaBoost algorithm with confidence-rated predictions [Schapire & Singer,
+99] have been applied, which differ in the complexity of the base learners
+considered. Two main conclusions can be drawn from our experiments: a) The
+boosting-based methods clearly outperform the baseline learning algorithms
+(Naive Bayes and Induction of Decision Trees) on the PU1 corpus, achieving very
+high levels of the F1 measure; b) Increasing the complexity of the base
+learners allows to obtain better ``high-precision'' classifiers, which is a
+very important issue when misclassification costs are considered.

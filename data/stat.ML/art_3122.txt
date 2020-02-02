@@ -1,0 +1,20 @@
+Multi-Target Shrinkage
+Stein showed that the multivariate sample mean is outperformed by "shrinking"
+to a constant target vector. Ledoit and Wolf extended this approach to the
+sample covariance matrix and proposed a multiple of the identity as shrinkage
+target. In a general framework, independent of a specific estimator, we extend
+the shrinkage concept by allowing simultaneous shrinkage to a set of targets.
+Application scenarios include settings with (A) additional data sets from
+potentially similar distributions, (B) non-stationarity, (C) a natural grouping
+of the data or (D) multiple alternative estimators which could serve as
+targets.
+  We show that this Multi-Target Shrinkage can be translated into a quadratic
+program and derive conditions under which the estimation of the shrinkage
+intensities yields optimal expected squared error in the limit. For the sample
+mean and the sample covariance as specific instances, we derive conditions
+under which the optimality of MTS is applicable. We consider two asymptotic
+settings: the large dimensional limit (LDL), where the dimensionality and the
+number of observations go to infinity at the same rate, and the finite
+observations large dimensional limit (FOLDL), where only the dimensionality
+goes to infinity while the number of observations remains constant. We then
+show the effectiveness in extensive simulations and on real world data.

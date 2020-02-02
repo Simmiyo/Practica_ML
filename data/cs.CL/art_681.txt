@@ -1,0 +1,17 @@
+Identifying Purpose Behind Electoral Tweets
+Tweets pertaining to a single event, such as a national election, can number
+in the hundreds of millions. Automatically analyzing them is beneficial in many
+downstream natural language applications such as question answering and
+summarization. In this paper, we propose a new task: identifying the purpose
+behind electoral tweets--why do people post election-oriented tweets? We show
+that identifying purpose is correlated with the related phenomenon of sentiment
+and emotion detection, but yet significantly different. Detecting purpose has a
+number of applications including detecting the mood of the electorate,
+estimating the popularity of policies, identifying key issues of contention,
+and predicting the course of events. We create a large dataset of electoral
+tweets and annotate a few thousand tweets for purpose. We develop a system that
+automatically classifies electoral tweets as per their purpose, obtaining an
+accuracy of 43.56% on an 11-class task and an accuracy of 73.91% on a 3-class
+task (both accuracies well above the most-frequent-class baseline). Finally, we
+show that resources developed for emotion detection are also helpful for
+detecting purpose.

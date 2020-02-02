@@ -1,0 +1,17 @@
+Transductive Learning for Multi-Task Copula Processes
+We tackle the problem of multi-task learning with copula process.
+Multivariable prediction in spatial and spatial-temporal processes such as
+natural resource estimation and pollution monitoring have been typically
+addressed using techniques based on Gaussian processes and co-Kriging. While
+the Gaussian prior assumption is convenient from analytical and computational
+perspectives, nature is dominated by non-Gaussian likelihoods. Copula processes
+are an elegant and flexible solution to handle various non-Gaussian likelihoods
+by capturing the dependence structure of random variables with cumulative
+distribution functions rather than their marginals. We show how multi-task
+learning for copula processes can be used to improve multivariable prediction
+for problems where the simple Gaussianity prior assumption does not hold. Then,
+we present a transductive approximation for multi-task learning and derive
+analytical expressions for the copula process model. The approach is evaluated
+and compared to other techniques in one artificial dataset and two publicly
+available datasets for natural resource estimation and concrete slump
+prediction.

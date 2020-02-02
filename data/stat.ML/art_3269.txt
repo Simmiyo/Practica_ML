@@ -1,0 +1,16 @@
+Compact Nonlinear Maps and Circulant Extensions
+Kernel approximation via nonlinear random feature maps is widely used in
+speeding up kernel machines. There are two main challenges for the conventional
+kernel approximation methods. First, before performing kernel approximation, a
+good kernel has to be chosen. Picking a good kernel is a very challenging
+problem in itself. Second, high-dimensional maps are often required in order to
+achieve good performance. This leads to high computational cost in both
+generating the nonlinear maps, and in the subsequent learning and prediction
+process. In this work, we propose to optimize the nonlinear maps directly with
+respect to the classification objective in a data-dependent fashion. The
+proposed approach achieves kernel approximation and kernel learning in a joint
+framework. This leads to much more compact maps without hurting the
+performance. As a by-product, the same framework can also be used to achieve
+more compact kernel maps to approximate a known kernel. We also introduce
+Circulant Nonlinear Maps, which uses a circulant-structured projection matrix
+to speed up the nonlinear maps for high-dimensional data.

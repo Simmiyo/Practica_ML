@@ -1,0 +1,18 @@
+Binary Excess Risk for Smooth Convex Surrogates
+In statistical learning theory, convex surrogates of the 0-1 loss are highly
+preferred because of the computational and theoretical virtues that convexity
+brings in. This is of more importance if we consider smooth surrogates as
+witnessed by the fact that the smoothness is further beneficial both
+computationally- by attaining an {\it optimal} convergence rate for
+optimization, and in a statistical sense- by providing an improved {\it
+optimistic} rate for generalization bound. In this paper we investigate the
+smoothness property from the viewpoint of statistical consistency and show how
+it affects the binary excess risk. We show that in contrast to optimization and
+generalization errors that favor the choice of smooth surrogate loss, the
+smoothness of loss function may degrade the binary excess risk. Motivated by
+this negative result, we provide a unified analysis that integrates
+optimization error, generalization bound, and the error in translating convex
+excess risk into a binary excess risk when examining the impact of smoothness
+on the binary excess risk. We show that under favorable conditions appropriate
+choice of smooth convex loss will result in a binary excess risk that is better
+than $O(1/\sqrt{n})$.

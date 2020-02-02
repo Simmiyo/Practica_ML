@@ -1,0 +1,20 @@
+Neural Granger Causality for Nonlinear Time Series
+While most classical approaches to Granger causality detection assume linear
+dynamics, many interactions in applied domains, like neuroscience and genomics,
+are inherently nonlinear. In these cases, using linear models may lead to
+inconsistent estimation of Granger causal interactions. We propose a class of
+nonlinear methods by applying structured multilayer perceptrons (MLPs) or
+recurrent neural networks (RNNs) combined with sparsity-inducing penalties on
+the weights. By encouraging specific sets of weights to be zero---in particular
+through the use of convex group-lasso penalties---we can extract the Granger
+causal structure. To further contrast with traditional approaches, our
+framework naturally enables us to efficiently capture long-range dependencies
+between series either via our RNNs or through an automatic lag selection in the
+MLP. We show that our neural Granger causality methods outperform
+state-of-the-art nonlinear Granger causality methods on the DREAM3 challenge
+data. This data consists of nonlinear gene expression and regulation time
+courses with only a limited number of time points. The successes we show in
+this challenging dataset provide a powerful example of how deep learning can be
+useful in cases that go beyond prediction on large datasets. We likewise
+demonstrate our methods in detecting nonlinear interactions in a human motion
+capture dataset.

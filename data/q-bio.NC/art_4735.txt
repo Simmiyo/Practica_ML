@@ -1,0 +1,12 @@
+Sparse Coding by Spiking Neural Networks: Convergence Theory and
+  Computational Results
+In a spiking neural network (SNN), individual neurons operate autonomously
+and only communicate with other neurons sparingly and asynchronously via spike
+signals. These characteristics render a massively parallel hardware
+implementation of SNN a potentially powerful computer, albeit a non von Neumann
+one. But can one guarantee that a SNN computer solves some important problems
+reliably? In this paper, we formulate a mathematical model of one SNN that can
+be configured for a sparse coding problem for feature extraction. With a
+moderate but well-defined assumption, we prove that the SNN indeed solves
+sparse coding. To the best of our knowledge, this is the first rigorous result
+of this kind.

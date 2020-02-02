@@ -1,0 +1,18 @@
+A C++ library using quantum trajectories to solve quantum master
+  equations
+Quantum trajectory methods can be used for a wide range of open quantum
+systems to solve the master equation by unraveling the density operator
+evolution into individual stochastic trajectories in Hilbert space. This C++
+class library offers a choice of integration algorithms for three important
+unravelings of the master equation. Different physical systems are modeled by
+different Hamiltonians and environment operators. The program achieves
+flexibility and user friendliness, without sacrificing execution speed, through
+the way it represents operators and states in Hilbert space. Primary operators,
+implemented in the form of simple routines acting on single degrees of freedom,
+can be used to build up arbitrarily complex operators in product Hilbert spaces
+with arbitrary numbers of components. Standard algebraic notation is used to
+build operators and to perform arithmetic operations on operators and states.
+States can be represented in a local moving basis, often leading to dramatic
+savings of computing resources. The state and operator classes are very general
+and can be used independently of the quantum trajectory algorithms. Only a
+rudimentary knowledge of C++ is required to use this package.

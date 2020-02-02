@@ -1,0 +1,9 @@
+Reduction of Intermediate Alphabets in Finite-State Transducer Cascades
+This article describes an algorithm for reducing the intermediate alphabets
+in cascades of finite-state transducers (FSTs). Although the method modifies
+the component FSTs, there is no change in the overall relation described by the
+whole cascade. No additional information or special algorithm, that could
+decelerate the processing of input, is required at runtime. Two examples from
+Natural Language Processing are used to illustrate the effect of the algorithm
+on the sizes of the FSTs and their alphabets. With some FSTs the number of arcs
+and symbols shrank considerably.

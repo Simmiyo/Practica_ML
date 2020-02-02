@@ -1,0 +1,23 @@
+Solution Path Clustering with Adaptive Concave Penalty
+Fast accumulation of large amounts of complex data has created a need for
+more sophisticated statistical methodologies to discover interesting patterns
+and better extract information from these data. The large scale of the data
+often results in challenging high-dimensional estimation problems where only a
+minority of the data shows specific grouping patterns. To address these
+emerging challenges, we develop a new clustering methodology that introduces
+the idea of a regularization path into unsupervised learning. A regularization
+path for a clustering problem is created by varying the degree of sparsity
+constraint that is imposed on the differences between objects via the minimax
+concave penalty with adaptive tuning parameters. Instead of providing a single
+solution represented by a cluster assignment for each object, the method
+produces a short sequence of solutions that determines not only the cluster
+assignment but also a corresponding number of clusters for each solution. The
+optimization of the penalized loss function is carried out through an MM
+algorithm with block coordinate descent. The advantages of this clustering
+algorithm compared to other existing methods are as follows: it does not
+require the input of the number of clusters; it is capable of simultaneously
+separating irrelevant or noisy observations that show no grouping pattern,
+which can greatly improve data interpretation; it is a general methodology that
+can be applied to many clustering problems. We test this method on various
+simulated datasets and on gene expression data, where it shows better or
+competitive performance compared against several clustering methods.

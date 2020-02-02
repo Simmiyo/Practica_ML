@@ -1,0 +1,14 @@
+IISCNLP at SemEval-2016 Task 2: Interpretable STS with ILP based
+  Multiple Chunk Aligner
+Interpretable semantic textual similarity (iSTS) task adds a crucial
+explanatory layer to pairwise sentence similarity. We address various
+components of this task: chunk level semantic alignment along with assignment
+of similarity type and score for aligned chunks with a novel system presented
+in this paper. We propose an algorithm, iMATCH, for the alignment of multiple
+non-contiguous chunks based on Integer Linear Programming (ILP). Similarity
+type and score assignment for pairs of chunks is done using a supervised
+multiclass classification technique based on Random Forrest Classifier. Results
+show that our algorithm iMATCH has low execution time and outperforms most
+other participating systems in terms of alignment score. Of the three datasets,
+we are top ranked for answer- students dataset in terms of overall score and
+have top alignment score for headlines dataset in the gold chunks track.

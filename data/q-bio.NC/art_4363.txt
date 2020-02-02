@@ -1,0 +1,28 @@
+A Graph Algorithmic Approach to Separate Direct from Indirect Neural
+  Interactions
+Network graphs have become a popular tool to represent complex systems
+composed of many interacting subunits; especially in neuroscience, network
+graphs are increasingly used to represent and analyze functional interactions
+between neural sources. Interactions are often reconstructed using pairwise
+bivariate analyses, overlooking their multivariate nature: it is neglected that
+investigating the effect of one source on a target necessitates to take all
+other sources as potential nuisance variables into account; also combinations
+of sources may act jointly on a given target. Bivariate analyses produce
+networks that may contain spurious interactions, which reduce the
+interpretability of the network and its graph metrics. A truly multivariate
+reconstruction, however, is computationally intractable due to combinatorial
+explosion in the number of potential interactions. Thus, we have to resort to
+approximative methods to handle the intractability of multivariate interaction
+reconstruction, and thereby enable the use of networks in neuroscience. Here,
+we suggest such an approximative approach in the form of an algorithm that
+extends fast bivariate interaction reconstruction by identifying potentially
+spurious interactions post-hoc: the algorithm flags potentially spurious edges,
+which may then be pruned from the network. This produces a statistically
+conservative network approximation that is guaranteed to contain non-spurious
+interactions only. We describe the algorithm and present a reference
+implementation to test its performance. We discuss the algorithm in relation to
+other approximative multivariate methods and highlight suitable application
+scenarios. Our approach is a tractable and data-efficient way of reconstructing
+approximative networks of multivariate interactions. It is preferable if
+available data are limited or if fully multivariate approaches are
+computationally infeasible.

@@ -1,0 +1,13 @@
+MEBoost: Variable Selection in the Presence of Measurement Error
+We present a novel method for variable selection in regression models when
+covariates are measured with error. The iterative algorithm we propose,
+MEBoost, follows a path defined by estimating equations that correct for
+covariate measurement error. Via simulation, we evaluated our method and
+compare its performance to the recently-proposed Convex Conditioned Lasso
+(CoCoLasso) and to the "naive" Lasso which does not correct for measurement
+error. Increasing the degree of measurement error increased prediction error
+and decreased the probability of accurate covariate selection, but this loss of
+accuracy was least pronounced when using MEBoost. We illustrate the use of
+MEBoost in practice by analyzing data from the Box Lunch Study, a clinical
+trial in nutrition where several variables are based on self-report and hence
+measured with error.

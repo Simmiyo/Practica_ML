@@ -1,0 +1,16 @@
+Sense Embedding Learning for Word Sense Induction
+Conventional word sense induction (WSI) methods usually represent each
+instance with discrete linguistic features or cooccurrence features, and train
+a model for each polysemous word individually. In this work, we propose to
+learn sense embeddings for the WSI task. In the training stage, our method
+induces several sense centroids (embedding) for each polysemous word. In the
+testing stage, our method represents each instance as a contextual vector, and
+induces its sense by finding the nearest sense centroid in the embedding space.
+The advantages of our method are (1) distributed sense vectors are taken as the
+knowledge representations which are trained discriminatively, and usually have
+better performance than traditional count-based distributional models, and (2)
+a general model for the whole vocabulary is jointly trained to induce sense
+centroids under the mutlitask learning framework. Evaluated on SemEval-2010 WSI
+dataset, our method outperforms all participants and most of the recent
+state-of-the-art methods. We further verify the two advantages by comparing
+with carefully designed baselines.

@@ -1,0 +1,16 @@
+Probabilistic Inference of Binary Markov Random Fields in Spiking Neural
+  Networks through Mean-field Approximation
+Recent studies have suggested that the cognitive process of the human brain
+is realized as probabilistic inference and can be further modeled by
+probabilistic graphical models like Markov random fields. Nevertheless, it
+remains unclear how probabilistic inference can be implemented by a network of
+spiking neurons in the brain. Previous studies tried to relate the inference
+equation of binary Markov random fields to the dynamic equation of spiking
+neural networks through belief propagation algorithm and reparameterization,
+but they are valid only for Markov random fields with limited network
+structure. In this paper, we propose a spiking neural network model that can
+implement inference of arbitrary binary Markov random fields. Specifically, we
+design a spiking recurrent neural network and prove that its neuronal dynamics
+are mathematically equivalent to the inference process of Markov random fields
+by adopting mean-field theory. Theoretical analysis and experimental results,
+together with the application

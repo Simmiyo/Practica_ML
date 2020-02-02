@@ -1,0 +1,16 @@
+Scale-free network optimization: foundations and algorithms
+We investigate the fundamental principles that drive the development of
+scalable algorithms for network optimization. Despite the significant amount of
+work on parallel and decentralized algorithms in the optimization community,
+the methods that have been proposed typically rely on strict separability
+assumptions for objective function and constraints. Beside sparsity, these
+methods typically do not exploit the strength of the interaction between
+variables in the system. We propose a notion of correlation in constrained
+optimization that is based on the sensitivity of the optimal solution upon
+perturbations of the constraints. We develop a general theory of sensitivity of
+optimizers the extends beyond the infinitesimal setting. We present instances
+in network optimization where the correlation decays exponentially fast with
+respect to the natural distance in the network, and we design algorithms that
+can exploit this decay to yield dimension-free optimization. Our results are
+the first of their kind, and open new possibilities in the theory of local
+algorithms.

@@ -1,0 +1,21 @@
+Non-Negative Matrix Factorizations for Multiplex Network Analysis
+Networks have been a general tool for representing, analyzing, and modeling
+relational data arising in several domains. One of the most important aspect of
+network analysis is community detection or network clustering. Until recently,
+the major focus have been on discovering community structure in single (i.e.,
+monoplex) networks. However, with the advent of relational data with multiple
+modalities, multiplex networks, i.e., networks composed of multiple layers
+representing different aspects of relations, have emerged. Consequently,
+community detection in multiplex network, i.e., detecting clusters of nodes
+shared by all layers, has become a new challenge. In this paper, we propose
+Network Fusion for Composite Community Extraction (NF-CCE), a new class of
+algorithms, based on four different non-negative matrix factorization models,
+capable of extracting composite communities in multiplex networks. Each
+algorithm works in two steps: first, it finds a non-negative, low-dimensional
+feature representation of each network layer; then, it fuses the feature
+representation of layers into a common non-negative, low-dimensional feature
+representation via collective factorization. The composite clusters are
+extracted from the common feature representation. We demonstrate the superior
+performance of our algorithms over the state-of-the-art methods on various
+types of multiplex networks, including biological, social, economic, citation,
+phone communication, and brain multiplex networks.

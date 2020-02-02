@@ -1,0 +1,15 @@
+A Study on Dialog Act Recognition using Character-Level Tokenization
+Dialog act recognition is an important step for dialog systems since it
+reveals the intention behind the uttered words. Most approaches on the task use
+word-level tokenization. In contrast, this paper explores the use of
+character-level tokenization. This is relevant since there is information at
+the sub-word level that is related to the function of the words and, thus,
+their intention. We also explore the use of different context windows around
+each token, which are able to capture important elements, such as affixes.
+Furthermore, we assess the importance of punctuation and capitalization. We
+performed experiments on both the Switchboard Dialog Act Corpus and the DIHANA
+Corpus. In both cases, the experiments not only show that character-level
+tokenization leads to better performance than the typical word-level
+approaches, but also that both approaches are able to capture complementary
+information. Thus, the best results are achieved by combining tokenization at
+both levels.

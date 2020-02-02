@@ -1,0 +1,14 @@
+Classification of weak multi-view signals by sharing factors in a
+  mixture of Bayesian group factor analyzers
+We propose a novel classification model for weak signal data, building upon a
+recent model for Bayesian multi-view learning, Group Factor Analysis (GFA).
+Instead of assuming all data to come from a single GFA model, we allow latent
+clusters, each having a different GFA model and producing a different class
+distribution. We show that sharing information across the clusters, by sharing
+factors, increases the classification accuracy considerably; the shared factors
+essentially form a flexible noise model that explains away the part of data not
+related to classification. Motivation for the setting comes from single-trial
+functional brain imaging data, having a very low signal-to-noise ratio and a
+natural multi-view setting, with the different sensors, measurement modalities
+(EEG, MEG, fMRI) and possible auxiliary information as views. We demonstrate
+our model on a MEG dataset.

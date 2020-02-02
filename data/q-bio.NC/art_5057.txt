@@ -1,0 +1,26 @@
+On genetic correlation estimation with summary statistics from
+  genome-wide association studies
+Genome-wide association studies (GWAS) have been widely used to examine the
+association between single nucleotide polymorphisms (SNPs) and complex traits,
+where both the sample size n and the number of SNPs p can be very large.
+Recently, cross-trait polygenic risk score (PRS) method has gained extremely
+popular for assessing genetic correlation of complex traits based on GWAS
+summary statistics (e.g., SNP effect size). However, empirical evidence has
+shown a common bias phenomenon that even highly significant cross-trait PRS can
+only account for a very small amount of genetic variance (R^2 often <1%). The
+aim of this paper is to develop a novel and powerful method to address the bias
+phenomenon of cross-trait PRS. We theoretically show that the estimated genetic
+correlation is asymptotically biased towards zero when complex traits are
+highly polygenic/omnigenic. When all p SNPs are used to construct PRS, we show
+that the asymptotic bias of PRS estimator is independent of the unknown number
+of causal SNPs m. We propose a consistent PRS estimator to correct such
+asymptotic bias. We also develop a novel estimator of genetic correlation which
+is solely based on two sets of GWAS summary statistics. In addition, we
+investigate whether or not SNP screening by GWAS p-values can lead to improved
+estimation and show the effect of overlapping samples among GWAS. Our results
+may help demystify and tackle the puzzling "missing genetic overlap" phenomenon
+of cross-trait PRS for dissecting the genetic similarity of closely related
+heritable traits. We illustrate the finite sample performance of our
+bias-corrected PRS estimator by using both numerical experiments and the UK
+Biobank data, in which we assess the genetic correlation between brain white
+matter tracts and neuropsychiatric disorders.

@@ -1,0 +1,20 @@
+Data-Driven Learning of a Union of Sparsifying Transforms Model for
+  Blind Compressed Sensing
+Compressed sensing is a powerful tool in applications such as magnetic
+resonance imaging (MRI). It enables accurate recovery of images from highly
+undersampled measurements by exploiting the sparsity of the images or image
+patches in a transform domain or dictionary. In this work, we focus on blind
+compressed sensing (BCS), where the underlying sparse signal model is a priori
+unknown, and propose a framework to simultaneously reconstruct the underlying
+image as well as the unknown model from highly undersampled measurements.
+Specifically, our model is that the patches of the underlying image(s) are
+approximately sparse in a transform domain. We also extend this model to a
+union of transforms model that better captures the diversity of features in
+natural images. The proposed block coordinate descent type algorithms for blind
+compressed sensing are highly efficient, and are guaranteed to converge to at
+least the partial global and partial local minimizers of the highly non-convex
+BCS problems. Our numerical experiments show that the proposed framework
+usually leads to better quality of image reconstructions in MRI compared to
+several recent image reconstruction methods. Importantly, the learning of a
+union of sparsifying transforms leads to better image reconstructions than a
+single adaptive transform.

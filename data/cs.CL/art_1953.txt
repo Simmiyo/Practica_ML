@@ -1,0 +1,12 @@
+Exploring Prediction Uncertainty in Machine Translation Quality
+  Estimation
+Machine Translation Quality Estimation is a notoriously difficult task, which
+lessens its usefulness in real-world translation environments. Such scenarios
+can be improved if quality predictions are accompanied by a measure of
+uncertainty. However, models in this task are traditionally evaluated only in
+terms of point estimate metrics, which do not take prediction uncertainty into
+account. We investigate probabilistic methods for Quality Estimation that can
+provide well-calibrated uncertainty estimates and evaluate them in terms of
+their full posterior predictive distributions. We also show how this posterior
+information can be useful in an asymmetric risk scenario, which aims to capture
+typical situations in translation workflows.

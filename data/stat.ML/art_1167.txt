@@ -1,0 +1,17 @@
+Estimating Individual Treatment Effect in Observational Data Using
+  Random Forest Methods
+Estimation of individual treatment effect in observational data is
+complicated due to the challenges of confounding and selection bias. A useful
+inferential framework to address this is the counterfactual (potential
+outcomes) model which takes the hypothetical stance of asking what if an
+individual had received both treatments. Making use of random forests (RF)
+within the counterfactual framework we estimate individual treatment effects by
+directly modeling the response. We find accurate estimation of individual
+treatment effects is possible even in complex heterogeneous settings but that
+the type of RF approach plays an important role in accuracy. Methods designed
+to be adaptive to confounding, when used in parallel with out-of-sample
+estimation, do best. One method found to be especially promising is
+counterfactual synthetic forests. We illustrate this new methodology by
+applying it to a large comparative effectiveness trial, Project Aware, in order
+to explore the role drug use plays in sexual risk. The analysis reveals
+important connections between risky behavior, drug usage, and sexual risk.

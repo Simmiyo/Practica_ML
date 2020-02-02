@@ -1,0 +1,20 @@
+Learning Functional Causal Models with Generative Neural Networks
+We introduce a new approach to functional causal modeling from observational
+data, called Causal Generative Neural Networks (CGNN). CGNN leverages the power
+of neural networks to learn a generative model of the joint distribution of the
+observed variables, by minimizing the Maximum Mean Discrepancy between
+generated and observed data. An approximate learning criterion is proposed to
+scale the computational cost of the approach to linear complexity in the number
+of observations. The performance of CGNN is studied throughout three
+experiments. Firstly, CGNN is applied to cause-effect inference, where the task
+is to identify the best causal hypothesis out of $X\rightarrow Y$ and
+$Y\rightarrow X$. Secondly, CGNN is applied to the problem of identifying
+v-structures and conditional independences. Thirdly, CGNN is applied to
+multivariate functional causal modeling: given a skeleton describing the direct
+dependences in a set of random variables $\textbf{X} = [X_1, \ldots, X_d]$,
+CGNN orients the edges in the skeleton to uncover the directed acyclic causal
+graph describing the causal structure of the random variables. On all three
+tasks, CGNN is extensively assessed on both artificial and real-world data,
+comparing favorably to the state-of-the-art. Finally, CGNN is extended to
+handle the case of confounders, where latent variables are involved in the
+overall causal model.

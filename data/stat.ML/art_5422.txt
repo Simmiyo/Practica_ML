@@ -1,0 +1,12 @@
+Shift Aggregate Extract Networks
+We introduce an architecture based on deep hierarchical decompositions to
+learn effective representations of large graphs. Our framework extends classic
+R-decompositions used in kernel methods, enabling nested "part-of-part"
+relations. Unlike recursive neural networks, which unroll a template on input
+graphs directly, we unroll a neural network template over the decomposition
+hierarchy, allowing us to deal with the high degree variability that typically
+characterize social network graphs. Deep hierarchical decompositions are also
+amenable to domain compression, a technique that reduces both space and time
+complexity by exploiting symmetries. We show empirically that our approach is
+competitive with current state-of-the-art graph classification methods,
+particularly when dealing with social network datasets.

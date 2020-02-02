@@ -1,0 +1,22 @@
+Regularized Optimal Transport and the Rot Mover's Distance
+This paper presents a unified framework for smooth convex regularization of
+discrete optimal transport problems. In this context, the regularized optimal
+transport turns out to be equivalent to a matrix nearness problem with respect
+to Bregman divergences. Our framework thus naturally generalizes a previously
+proposed regularization based on the Boltzmann-Shannon entropy related to the
+Kullback-Leibler divergence, and solved with the Sinkhorn-Knopp algorithm. We
+call the regularized optimal transport distance the rot mover's distance in
+reference to the classical earth mover's distance. We develop two generic
+schemes that we respectively call the alternate scaling algorithm and the
+non-negative alternate scaling algorithm, to compute efficiently the
+regularized optimal plans depending on whether the domain of the regularizer
+lies within the non-negative orthant or not. These schemes are based on
+Dykstra's algorithm with alternate Bregman projections, and further exploit the
+Newton-Raphson method when applied to separable divergences. We enhance the
+separable case with a sparse extension to deal with high data dimensions. We
+also instantiate our proposed framework and discuss the inherent specificities
+for well-known regularizers and statistical divergences in the machine learning
+and information geometry communities. Finally, we demonstrate the merits of our
+methods with experiments using synthetic data to illustrate the effect of
+different regularizers and penalties on the solutions, as well as real-world
+data for a pattern recognition application to audio scene classification.

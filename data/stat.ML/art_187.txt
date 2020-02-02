@@ -1,0 +1,17 @@
+Graph Construction for Learning with Unbalanced Data
+Unbalanced data arises in many learning tasks such as clustering of
+multi-class data, hierarchical divisive clustering and semisupervised learning.
+Graph-based approaches are popular tools for these problems. Graph construction
+is an important aspect of graph-based learning. We show that graph-based
+algorithms can fail for unbalanced data for many popular graphs such as k-NN,
+\epsilon-neighborhood and full-RBF graphs. We propose a novel graph
+construction technique that encodes global statistical information into node
+degrees through a ranking scheme. The rank of a data sample is an estimate of
+its p-value and is proportional to the total number of data samples with
+smaller density. This ranking scheme serves as a surrogate for density; can be
+reliably estimated; and indicates whether a data sample is close to
+valleys/modes. This rank-modulated degree(RMD) scheme is able to significantly
+sparsify the graph near valleys and provides an adaptive way to cope with
+unbalanced data. We then theoretically justify our method through limit cut
+analysis. Unsupervised and semi-supervised experiments on synthetic and real
+data sets demonstrate the superiority of our method.

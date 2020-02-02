@@ -1,0 +1,12 @@
+Ideomotor feedback control in a recurrent neural network
+The architecture of a neural network controlling an unknown environment is
+presented. It is based on a randomly connected recurrent neural network from
+which both perception and action are simultaneously read and fed back. There
+are two concurrent learning rules implementing a sort of ideomotor control: (i)
+perception is learned along the principle that the network should predict
+reliably its incoming stimuli; (ii) action is learned along the principle that
+the prediction of the network should match a target time series. The coherent
+behavior of the neural network in its environment is a consequence of the
+interaction between the two principles. Numerical simulations show the
+promising performance of the approach, which can be turned into a local, and
+thus "biologically plausible", algorithm.

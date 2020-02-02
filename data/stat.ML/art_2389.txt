@@ -1,0 +1,11 @@
+Accelerating EM: An Empirical Study
+Many applications require that we learn the parameters of a model from data.
+EM is a method used to learn the parameters of probabilistic models for which
+the data for some of the variables in the models is either missing or hidden.
+There are instances in which this method is slow to converge. Therefore,
+several accelerations have been proposed to improve the method. None of the
+proposed acceleration methods are theoretically dominant and experimental
+comparisons are lacking. In this paper, we present the different proposed
+accelerations and try to compare them experimentally. From the results of the
+experiments, we argue that some acceleration of EM is always possible, but that
+which acceleration is superior depends on properties of the problem.

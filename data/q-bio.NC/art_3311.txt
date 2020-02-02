@@ -1,0 +1,25 @@
+Nonlinear Deconvolution by Sampling Biophysically Plausible Hemodynamic
+  Models
+Non-invasive methods to measure brain activity are important to understand
+cognitive processes in the human brain. A prominent example is functional
+magnetic resonance imaging (fMRI), which is a noisy measurement of a delayed
+signal that depends non-linearly on the neuronal activity through the
+neurovascular coupling. These characteristics make the inference of neuronal
+activity from fMRI a difficult but important step in fMRI studies that require
+information at the neuronal level. In this article, we address this inference
+problem using a Bayesian approach where we model the latent neural activity as
+a stochastic process and assume that the observed BOLD signal results from a
+realistic physiological (Balloon) model. We apply a recently developed
+smoothing method called APIS to efficiently sample the posterior given single
+event fMRI time series. To infer neuronal signals with high likelihood for
+multiple time series efficiently, a modification of the original algorithm is
+introduced. We demonstrate that our adaptive procedure is able to compensate
+the lacking of inputs in the model to infer the neuronal activity and that it
+outperforms dramatically the standard bootstrap particle filter-smoother in
+this setting. This makes the proposed procedure especially attractive to
+deconvolve resting state fMRI data. To validate the method, we evaluate the
+quality of the signals inferred using the timing information contained in them.
+APIS obtains reliable event timing estimates based on fMRI data gathered during
+a reaction time experiment with short stimuli. Hence, we show for the first
+time that one can obtain accurate absolute timing of neuronal activity by
+reconstructing the latent neural signal.

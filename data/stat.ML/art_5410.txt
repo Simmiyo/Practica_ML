@@ -1,0 +1,13 @@
+Multiscale Hierarchical Convolutional Networks
+Deep neural network algorithms are difficult to analyze because they lack
+structure allowing to understand the properties of underlying transforms and
+invariants. Multiscale hierarchical convolutional networks are structured deep
+convolutional networks where layers are indexed by progressively higher
+dimensional attributes, which are learned from training data. Each new layer is
+computed with multidimensional convolutions along spatial and attribute
+variables. We introduce an efficient implementation of such networks where the
+dimensionality is progressively reduced by averaging intermediate layers along
+attribute indices. Hierarchical networks are tested on CIFAR image data bases
+where they obtain comparable precisions to state of the art networks, with much
+fewer parameters. We study some properties of the attributes learned from these
+databases.

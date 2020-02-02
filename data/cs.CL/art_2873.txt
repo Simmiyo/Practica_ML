@@ -1,0 +1,18 @@
+What matters in a transferable neural network model for relation
+  classification in the biomedical domain?
+Lack of sufficient labeled data often limits the applicability of advanced
+machine learning algorithms to real life problems. However efficient use of
+Transfer Learning (TL) has been shown to be very useful across domains. TL
+utilizes valuable knowledge learned in one task (source task), where sufficient
+data is available, to the task of interest (target task). In biomedical and
+clinical domain, it is quite common that lack of sufficient training data do
+not allow to fully exploit machine learning models. In this work, we present
+two unified recurrent neural models leading to three transfer learning
+frameworks for relation classification tasks. We systematically investigate
+effectiveness of the proposed frameworks in transferring the knowledge under
+multiple aspects related to source and target tasks, such as, similarity or
+relatedness between source and target tasks, and size of training data for
+source task. Our empirical results show that the proposed frameworks in general
+improve the model performance, however these improvements do depend on aspects
+related to source and target tasks. This dependence then finally determine the
+choice of a particular TL framework.

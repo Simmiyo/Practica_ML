@@ -1,0 +1,17 @@
+Asymptotic Confidence Sets for General Nonparametric Regression and
+  Classification by Regularized Kernel Methods
+Regularized kernel methods such as, e.g., support vector machines and
+least-squares support vector regression constitute an important class of
+standard learning algorithms in machine learning. Theoretical investigations
+concerning asymptotic properties have manly focused on rates of convergence
+during the last years but there are only very few and limited (asymptotic)
+results on statistical inference so far. As this is a serious limitation for
+their use in mathematical statistics, the goal of the article is to fill this
+gap. Based on asymptotic normality of many of these methods, the article
+derives a strongly consistent estimator for the unknown covariance matrix of
+the limiting normal distribution. In this way, we obtain asymptotically correct
+confidence sets for $\psi(f_{P,\lambda_0})$ where $f_{P,\lambda_0}$ denotes the
+minimizer of the regularized risk in the reproducing kernel Hilbert space $H$
+and $\psi:H\rightarrow\mathds{R}^m$ is any Hadamard-differentiable functional.
+Applications include (multivariate) pointwise confidence sets for values of
+$f_{P,\lambda_0}$ and confidence sets for gradients, integrals, and norms.

@@ -1,0 +1,18 @@
+Pairwise Network Information and Nonlinear Correlations
+Reconstructing the structural connectivity between interacting units from
+observed activity is a challenge across many different disciplines. The
+fundamental first step is to establish whether or to what extent the
+interactions between the units can be considered pairwise and, thus, can be
+modeled as an interaction network with simple links corresponding to pairwise
+interactions. In principle this can be determined by comparing the maximum
+entropy given the bivariate probability distributions to the true joint
+entropy. In many practical cases this is not an option since the bivariate
+distributions needed may not be reliably estimated, or the optimization is too
+computationally expensive. Here we present an approach that allows one to use
+mutual informations as a proxy for the bivariate distributions. This has the
+advantage of being less computationally expensive and easier to estimate. We
+achieve this by introducing a novel entropy maximization scheme that is based
+on conditioning on entropies and mutual informations. This renders our approach
+typically superior to other methods based on linear approximations. The
+advantages of the proposed method are documented using oscillator networks and
+a resting-state human brain network as generic relevant examples.

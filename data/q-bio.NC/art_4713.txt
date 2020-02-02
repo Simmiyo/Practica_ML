@@ -1,0 +1,16 @@
+Pattern representation and recognition with accelerated analog
+  neuromorphic systems
+Despite being originally inspired by the central nervous system, artificial
+neural networks have diverged from their biological archetypes as they have
+been remodeled to fit particular tasks. In this paper, we review several
+possibilites to reverse map these architectures to biologically more realistic
+spiking networks with the aim of emulating them on fast, low-power neuromorphic
+hardware. Since many of these devices employ analog components, which cannot be
+perfectly controlled, finding ways to compensate for the resulting effects
+represents a key challenge. Here, we discuss three different strategies to
+address this problem: the addition of auxiliary network components for
+stabilizing activity, the utilization of inherently robust architectures and a
+training method for hardware-emulated networks that functions without perfect
+knowledge of the system's dynamics and parameters. For all three scenarios, we
+corroborate our theoretical considerations with experimental results on
+accelerated analog neuromorphic platforms.

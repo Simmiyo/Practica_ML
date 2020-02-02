@@ -1,0 +1,26 @@
+Learning Graphs with Monotone Topology Properties and Multiple Connected
+  Components
+Recent papers have formulated the problem of learning graphs from data as an
+inverse covariance estimation with graph Laplacian constraints. While such
+problems are convex, existing methods cannot guarantee that solutions will have
+specific graph topology properties (e.g., being $k$-partite), which are
+desirable for some applications. In fact, the problem of learning a graph with
+given topology properties, e.g., finding the $k$-partite graph that best
+matches the data, is in general non-convex. In this paper, we develop novel
+theoretical results that provide performance guarantees for an approach to
+solve these problems. Our solution decomposes this problem into two
+sub-problems, for which efficient solutions are known. Specifically, a graph
+topology inference (GTI) step is employed to select a feasible graph topology,
+i.e., one having the desired property. Then, a graph weight estimation (GWE)
+step is performed by solving a generalized graph Laplacian estimation problem,
+where edges are constrained by the topology found in the GTI step. Our main
+result is a bound on the error of the GWE step as a function of the error in
+the GTI step. This error bound indicates that the GTI step should be solved
+using an algorithm that approximates the similarity matrix by another matrix
+whose entries have been thresholded to zero to have the desired type of graph
+topology. The GTI stage can leverage existing methods (e.g., state of the art
+approaches for graph coloring) which are typically based on minimizing the
+total weight of removed edges. Since the GWE stage is formulated as an inverse
+covariance estimation problem with linear constraints, it can be solved using
+existing convex optimization methods. We demonstrate that our two step approach
+can achieve good results for both synthetic and texture image data.

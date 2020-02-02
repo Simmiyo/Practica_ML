@@ -1,0 +1,23 @@
+Cross-validation of matching correlation analysis by resampling matching
+  weights
+The strength of association between a pair of data vectors is represented by
+a nonnegative real number, called matching weight. For dimensionality
+reduction, we consider a linear transformation of data vectors, and define a
+matching error as the weighted sum of squared distances between transformed
+vectors with respect to the matching weights. Given data vectors and matching
+weights, the optimal linear transformation minimizing the matching error is
+solved by the spectral graph embedding of Yan et al. (2007). This method is a
+generalization of the canonical correlation analysis, and will be called as
+matching correlation analysis (MCA). In this paper, we consider a novel
+sampling scheme where the observed matching weights are randomly sampled from
+underlying true matching weights with small probability, whereas the data
+vectors are treated as constants. We then investigate a cross-validation by
+resampling the matching weights. Our asymptotic theory shows that the
+cross-validation, if rescaled properly, computes an unbiased estimate of the
+matching error with respect to the true matching weights. Existing ideas of
+cross-validation for resampling data vectors, instead of resampling matching
+weights, are not applicable here. MCA can be used for data vectors from
+multiple domains with different dimensions via an embarrassingly simple idea of
+coding the data vectors. This method will be called as cross-domain matching
+correlation analysis (CDMCA), and an interesting connection to the classical
+associative memory model of neural networks is also discussed.

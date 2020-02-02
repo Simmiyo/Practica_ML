@@ -1,0 +1,18 @@
+Learning Mixtures of Bernoulli Templates by Two-Round EM with
+  Performance Guarantee
+Dasgupta and Shulman showed that a two-round variant of the EM algorithm can
+learn mixture of Gaussian distributions with near optimal precision with high
+probability if the Gaussian distributions are well separated and if the
+dimension is sufficiently high. In this paper, we generalize their theory to
+learning mixture of high-dimensional Bernoulli templates. Each template is a
+binary vector, and a template generates examples by randomly switching its
+binary components independently with a certain probability. In computer vision
+applications, a binary vector is a feature map of an image, where each binary
+component indicates whether a local feature or structure is present or absent
+within a certain cell of the image domain. A Bernoulli template can be
+considered as a statistical model for images of objects (or parts of objects)
+from the same category. We show that the two-round EM algorithm can learn
+mixture of Bernoulli templates with near optimal precision with high
+probability, if the Bernoulli templates are sufficiently different and if the
+number of features is sufficiently high. We illustrate the theoretical results
+by synthetic and real examples.

@@ -1,0 +1,23 @@
+Principal Component Analysis for seizure characterization in EEG signals
+A large variety of methods has been proposed for automatic seizure detection
+in EEG signals. Those achieving maximal performance are based on
+machine-learning techniques, which require long training sessions with large
+labelled databases, and produce a verdict with no intuitive justification. As
+an alternative, we here explore an unsupervised algorithm applicable to
+intra-cranial EEG recordings that requires good sampling of the non-ictal
+periods, but imposes no demands on the amount of data during ictal activity.
+The algorithm analyses how the amount of power in each frequency band
+fluctuates ( an evaluation physicians are familiar with ) and can be
+implemented online. The analysis is performed electrode by electrode, thus
+providing the spatio-temporal sequence in which the affected regions are
+recruited into the crisis. We test it with 32 crisis registered in 5 patients,
+for which we also have the degree of loss of consciousness as determined from a
+behavioural analysis. The method can achieve a precision of 85% and a recall of
+88% in the identification of seizures, and 77% and 88% in the identification of
+recruited electrodes. The intuitive nature of the analysis allows us to
+identify certain physiological features that are correlated with the degree of
+loss of consciousness. For example, epileptic crisis in which the variance of
+the power in the alpha band increases at around seizure onset are particularly
+likely to impair consciousness. We conclude that the PCA of the distribution of
+power in different frequency bands provides information both about the
+detection and the characterization of epileptic seizures.

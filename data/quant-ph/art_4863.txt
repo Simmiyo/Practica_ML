@@ -1,0 +1,18 @@
+Optimizing Completely Positive Maps using Semidefinite Programming
+Recently, a lot of attention has been devoted to finding physically
+realisable operations that realise as closely as possible certain desired
+transformations between quantum states, e.g. quantum cloning, teleportation,
+quantum gates, etc. Mathematically, this problem boils down to finding a
+completely positive trace-preserving (CPTP) linear map that maximizes the
+(mean) fidelity between the map itself and the desired transformation. In this
+note we want to draw attention to the fact that this problem belongs to the
+class of so-called semidefinite programming (SDP) problems. As SDP problems are
+convex, it immediately follows that they do not suffer from local optima.
+Furthermore, this implies that the numerical optimization of the CPTP map can,
+and should, be done using methods from the well-established SDP field, as these
+methods exploit convexity and are guaranteed to converge to the real solution.
+Finally, we show how the duality inherent to convex and SDP problems can be
+exploited to prove analytically the optimality of a proposed solution. We give
+an example of how to apply this proof method by proving the optimality of Hardy
+and Song's proposed solution for the universal qubit $\theta$-shifter
+(quant-ph/0102100).

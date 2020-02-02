@@ -1,0 +1,16 @@
+Ensemble Risk Modeling Method for Robust Learning on Scarce Data
+In medical risk modeling, typical data are "scarce": they have relatively
+small number of training instances (N), censoring, and high dimensionality (M).
+We show that the problem may be effectively simplified by reducing it to
+bipartite ranking, and introduce new bipartite ranking algorithm, Smooth Rank,
+for robust learning on scarce data. The algorithm is based on ensemble learning
+with unsupervised aggregation of predictors. The advantage of our approach is
+confirmed in comparison with two "gold standard" risk modeling methods on 10
+real life survival analysis datasets, where the new approach has the best
+results on all but two datasets with the largest ratio N/M. For systematic
+study of the effects of data scarcity on modeling by all three methods, we
+conducted two types of computational experiments: on real life data with
+randomly drawn training sets of different sizes, and on artificial data with
+increasing number of features. Both experiments demonstrated that Smooth Rank
+has critical advantage over the popular methods on the scarce data; it does not
+suffer from overfitting where other methods do.

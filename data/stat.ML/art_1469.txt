@@ -1,0 +1,12 @@
+Implicit Manifold Learning on Generative Adversarial Networks
+This paper raises an implicit manifold learning perspective in Generative
+Adversarial Networks (GANs), by studying how the support of the learned
+distribution, modelled as a submanifold $\mathcal{M}_{\theta}$, perfectly match
+with $\mathcal{M}_{r}$, the support of the real data distribution. We show that
+optimizing Jensen-Shannon divergence forces $\mathcal{M}_{\theta}$ to perfectly
+match with $\mathcal{M}_{r}$, while optimizing Wasserstein distance does not.
+On the other hand, by comparing the gradients of the Jensen-Shannon divergence
+and the Wasserstein distances ($W_1$ and $W_2^2$) in their primal forms, we
+conjecture that Wasserstein $W_2^2$ may enjoy desirable properties such as
+reduced mode collapse. It is therefore interesting to design new distances that
+inherit the best from both distances.

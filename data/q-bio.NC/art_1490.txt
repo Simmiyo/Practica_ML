@@ -1,0 +1,24 @@
+A single coordinate framework for optic flow and binocular disparity
+Optic flow is two dimensional, but no special qualities are attached to one
+or other of these dimensions. For binocular disparity, on the other hand, the
+terms 'horizontal' and 'vertical' disparities are commonly used. This is odd,
+since binocular disparity and optic flow describe essentially the same thing.
+The difference is that, generally, people tend to fixate relatively close to
+the direction of heading as they move, meaning that fixation is close to the
+optic flow epipole, whereas, for binocular vision, fixation is close to the
+head-centric midline, i.e. approximately 90 degrees from the binocular epipole.
+For fixating animals, some separations of flow may lead to simple algorithms
+for the judgement of surface structure and the control of action. We consider
+the following canonical flow patterns that sum to produce overall flow: (i)
+'towards' flow, the component of translational flow produced by approaching (or
+retreating from) the fixated object, which produces pure radial flow on the
+retina; (ii) 'sideways' flow, the remaining component of translational flow,
+which is produced by translation of the optic centre orthogonal to the
+cyclopean line of sight and (iii) 'vergence' flow, rotational flow produced by
+a counter-rotation of the eye in order to maintain fixation. A general flow
+pattern could also include (iv) 'cyclovergence' flow, produced by rotation of
+one eye relative to the other about the line of sight. We consider some
+practical advantages of dividing up flow in this way when an observer fixates
+as they move. As in some previous treatments, we suggest that there are certain
+tasks for which it is sensible to consider 'towards' flow as one component and
+'sideways' + 'vergence' flow as another.

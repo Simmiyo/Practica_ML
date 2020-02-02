@@ -1,0 +1,18 @@
+Variational Approaches for Auto-Encoding Generative Adversarial Networks
+Auto-encoding generative adversarial networks (GANs) combine the standard GAN
+algorithm, which discriminates between real and model-generated data, with a
+reconstruction loss given by an auto-encoder. Such models aim to prevent mode
+collapse in the learned generative model by ensuring that it is grounded in all
+the available training data. In this paper, we develop a principle upon which
+auto-encoders can be combined with generative adversarial networks by
+exploiting the hierarchical structure of the generative model. The underlying
+principle shows that variational inference can be used a basic tool for
+learning, but with the in- tractable likelihood replaced by a synthetic
+likelihood, and the unknown posterior distribution replaced by an implicit
+distribution; both synthetic likelihoods and implicit posterior distributions
+can be learned using discriminators. This allows us to develop a natural fusion
+of variational auto-encoders and generative adversarial networks, combining the
+best of both these methods. We describe a unified objective for optimization,
+discuss the constraints needed to guide learning, connect to the wide range of
+existing work, and use a battery of tests to systematically and quantitatively
+assess the performance of our method.

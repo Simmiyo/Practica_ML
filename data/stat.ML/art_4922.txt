@@ -1,0 +1,14 @@
+On Lower Bounds for Regret in Reinforcement Learning
+This is a brief technical note to clarify the state of lower bounds on regret
+for reinforcement learning. In particular, this paper:
+  - Reproduces a lower bound on regret for reinforcement learning, similar to
+the result of Theorem 5 in the journal UCRL2 paper (Jaksch et al 2010).
+  - Clarifies that the proposed proof of Theorem 6 in the REGAL paper (Bartlett
+and Tewari 2009) does not hold using the standard techniques without further
+work. We suggest that this result should instead be considered a conjecture as
+it has no rigorous proof.
+  - Suggests that the conjectured lower bound given by (Bartlett and Tewari
+2009) is incorrect and, in fact, it is possible to improve the scaling of the
+upper bound to match the weaker lower bounds presented in this paper.
+  We hope that this note serves to clarify existing results in the field of
+reinforcement learning and provides interesting motivation for future work.

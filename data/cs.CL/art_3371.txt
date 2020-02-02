@@ -1,0 +1,10 @@
+Non-Projective Dependency Parsing via Latent Heads Representation (LHR)
+In this paper, we introduce a novel approach based on a bidirectional
+recurrent autoencoder to perform globally optimized non-projective dependency
+parsing via semi-supervised learning. The syntactic analysis is completed at
+the end of the neural process that generates a Latent Heads Representation
+(LHR), without any algorithmic constraint and with a linear complexity. The
+resulting "latent syntactic structure" can be used directly in other semantic
+tasks. The LHR is transformed into the usual dependency tree computing a simple
+vectors similarity. We believe that our model has the potential to compete with
+much more complex state-of-the-art parsing architectures.

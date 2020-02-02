@@ -1,0 +1,13 @@
+Perturbed Gibbs Samplers for Synthetic Data Release
+We propose a categorical data synthesizer with a quantifiable disclosure
+risk. Our algorithm, named Perturbed Gibbs Sampler, can handle high-dimensional
+categorical data that are often intractable to represent as contingency tables.
+The algorithm extends a multiple imputation strategy for fully synthetic data
+by utilizing feature hashing and non-parametric distribution approximations.
+California Patient Discharge data are used to demonstrate statistical
+properties of the proposed synthesizing methodology. Marginal and conditional
+distributions, as well as the coefficients of regression models built on the
+synthesized data are compared to those obtained from the original data.
+Intruder scenarios are simulated to evaluate disclosure risks of the
+synthesized data from multiple angles. Limitations and extensions of the
+proposed algorithm are also discussed.

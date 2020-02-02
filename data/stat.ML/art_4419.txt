@@ -1,0 +1,14 @@
+Persistent homology machine learning for fingerprint classification
+The fingerprint classification problem is to sort fingerprints into
+pre-determined groups, such as arch, loop, and whorl. It was asserted in the
+literature that minutiae points, which are commonly used for fingerprint
+matching, are not useful for classification. We show that, to the contrary,
+near state-of-the-art classification accuracy rates can be achieved when
+applying topological data analysis (TDA) to 3-dimensional point clouds of
+oriented minutiae points. We also apply TDA to fingerprint ink-roll images,
+which yields a lower accuracy rate but still shows promise, particularly since
+the only preprocessing is cropping; moreover, combining the two approaches
+outperforms each one individually. These methods use supervised learning
+applied to persistent homology and allow us to explore feature selection on
+barcodes, an important topic at the interface between TDA and machine learning.
+We test our classification algorithms on the NIST fingerprint database SD-27.

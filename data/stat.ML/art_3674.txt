@@ -1,0 +1,12 @@
+Variance Reduction in SGD by Distributed Importance Sampling
+Humans are able to accelerate their learning by selecting training materials
+that are the most informative and at the appropriate level of difficulty. We
+propose a framework for distributing deep learning in which one set of workers
+search for the most informative examples in parallel while a single worker
+updates the model on examples selected by importance sampling. This leads the
+model to update using an unbiased estimate of the gradient which also has
+minimum variance when the sampling proposal is proportional to the L2-norm of
+the gradient. We show experimentally that this method reduces gradient variance
+even in a context where the cost of synchronization across machines cannot be
+ignored, and where the factors for importance sampling are not updated
+instantly across the training set.

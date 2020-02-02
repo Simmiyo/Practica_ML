@@ -1,0 +1,18 @@
+Virtual Vector Machine for Bayesian Online Classification
+In a typical online learning scenario, a learner is required to process a
+large data stream using a small memory buffer. Such a requirement is usually in
+conflict with a learner's primary pursuit of prediction accuracy. To address
+this dilemma, we introduce a novel Bayesian online classi cation algorithm,
+called the Virtual Vector Machine. The virtual vector machine allows you to
+smoothly trade-off prediction accuracy with memory size. The virtual vector
+machine summarizes the information contained in the preceding data stream by a
+Gaussian distribution over the classi cation weights plus a constant number of
+virtual data points. The virtual data points are designed to add extra
+non-Gaussian information about the classi cation weights. To maintain the
+constant number of virtual points, the virtual vector machine adds the current
+real data point into the virtual point set, merges two most similar virtual
+points into a new virtual point or deletes a virtual point that is far from the
+decision boundary. The information lost in this process is absorbed into the
+Gaussian distribution. The extra information provided by the virtual points
+leads to improved predictive accuracy over previous online classification
+algorithms.

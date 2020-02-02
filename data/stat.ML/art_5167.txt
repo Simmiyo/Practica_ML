@@ -1,0 +1,19 @@
+End-to-End Attention based Text-Dependent Speaker Verification
+A new type of End-to-End system for text-dependent speaker verification is
+presented in this paper. Previously, using the phonetically
+discriminative/speaker discriminative DNNs as feature extractors for speaker
+verification has shown promising results. The extracted frame-level (DNN
+bottleneck, posterior or d-vector) features are equally weighted and aggregated
+to compute an utterance-level speaker representation (d-vector or i-vector). In
+this work we use speaker discriminative CNNs to extract the noise-robust
+frame-level features. These features are smartly combined to form an
+utterance-level speaker vector through an attention mechanism. The proposed
+attention model takes the speaker discriminative information and the phonetic
+information to learn the weights. The whole system, including the CNN and
+attention model, is joint optimized using an end-to-end criterion. The training
+algorithm imitates exactly the evaluation process --- directly mapping a test
+utterance and a few target speaker utterances into a single verification score.
+The algorithm can automatically select the most similar impostor for each
+target speaker to train the network. We demonstrated the effectiveness of the
+proposed end-to-end system on Windows $10$ "Hey Cortana" speaker verification
+task.

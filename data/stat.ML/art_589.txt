@@ -1,0 +1,20 @@
+Bootstrapped Adaptive Threshold Selection for Statistical Model
+  Selection and Estimation
+A central goal of neuroscience is to understand how activity in the nervous
+system is related to features of the external world, or to features of the
+nervous system itself. A common approach is to model neural responses as a
+weighted combination of external features, or vice versa. The structure of the
+model weights can provide insight into neural representations. Often, neural
+input-output relationships are sparse, with only a few inputs contributing to
+the output. In part to account for such sparsity, structured regularizers are
+incorporated into model fitting optimization. However, by imposing priors,
+structured regularizers can make it difficult to interpret learned model
+parameters. Here, we investigate a simple, minimally structured model
+estimation method for accurate, unbiased estimation of sparse models based on
+Bootstrapped Adaptive Threshold Selection followed by ordinary least-squares
+refitting (BoATS). Through extensive numerical investigations, we show that
+this method often performs favorably compared to L1 and L2 regularizers. In
+particular, for a variety of model distributions and noise levels, BoATS more
+accurately recovers the parameters of sparse models, leading to more
+parsimonious explanations of outputs. Finally, we apply this method to the task
+of decoding human speech production from ECoG recordings.

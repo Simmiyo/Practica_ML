@@ -1,0 +1,25 @@
+On efficient global optimization via universal Kriging surrogate models
+In this paper, we investigate the capability of the universal Kriging (UK)
+model for single-objective global optimization applied within an efficient
+global optimization (EGO) framework. We implemented this combined UK-EGO
+framework and studied four variants of the UK methods, that is, a UK with a
+first-order polynomial, a UK with a second-order polynomial, a blind Kriging
+(BK) implementation from the ooDACE toolbox, and a polynomial-chaos Kriging
+(PCK) implementation. The UK-EGO framework with automatic trend function
+selection derived from the BK and PCK models works by building a UK surrogate
+model and then performing optimizations via expected improvement criteria on
+the Kriging model with the lowest leave-one-out cross-validation error. Next,
+we studied and compared the UK-EGO variants and standard EGO using five
+synthetic test functions and one aerodynamic problem. Our results show that the
+proper choice for the trend function through automatic feature selection can
+improve the optimization performance of UK-EGO relative to EGO. From our
+results, we found that PCK-EGO was the best variant, as it had more robust
+performance as compared to the rest of the UK-EGO schemes; however, total-order
+expansion should be used to generate the candidate trend function set for
+high-dimensional problems. Note that, for some test functions, the UK with
+predetermined polynomial trend functions performed better than that of BK and
+PCK, indicating that the use of automatic trend function selection does not
+always lead to the best quality solutions. We also found that although some
+variants of UK are not as globally accurate as the ordinary Kriging (OK), they
+can still identify better-optimized solutions due to the addition of the trend
+function, which helps the optimizer locate the global optimum.

@@ -1,0 +1,9 @@
+Classification automatique de données temporelles en classes
+  ordonnées
+This paper proposes a method of segmenting temporal data into ordered
+classes. It is based on mixture models and a discrete latent process, which
+enables to successively activates the classes. The classification can be
+performed by maximizing the likelihood via the EM algorithm or by
+simultaneously optimizing the model parameters and the partition by the CEM
+algorithm. These two algorithms can be seen as alternatives to Fisher's
+algorithm, which improve its computing time.

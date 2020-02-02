@@ -1,0 +1,17 @@
+GP-select: Accelerating EM using adaptive subspace preselection
+We propose a nonparametric procedure to achieve fast inference in generative
+graphical models when the number of latent states is very large. The approach
+is based on iterative latent variable preselection, where we alternate between
+learning a 'selection function' to reveal the relevant latent variables, and
+use this to obtain a compact approximation of the posterior distribution for
+EM; this can make inference possible where the number of possible latent states
+is e.g. exponential in the number of latent variables, whereas an exact
+approach would be computationally unfeasible. We learn the selection function
+entirely from the observed data and current EM state via Gaussian process
+regression. This is by contrast with earlier approaches, where selection
+functions were manually-designed for each problem setting. We show that our
+approach performs as well as these bespoke selection functions on a wide
+variety of inference problems: in particular, for the challenging case of a
+hierarchical model for object localization with occlusion, we achieve results
+that match a customized state-of-the-art selection method, at a far lower
+computational cost.

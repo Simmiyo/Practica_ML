@@ -1,0 +1,18 @@
+A3Net: Adversarial-and-Attention Network for Machine Reading
+  Comprehension
+In this paper, we introduce Adversarial-and-attention Network (A3Net) for
+Machine Reading Comprehension. This model extends existing approaches from two
+perspectives. First, adversarial training is applied to several target
+variables within the model, rather than only to the inputs or embeddings. We
+control the norm of adversarial perturbations according to the norm of original
+target variables, so that we can jointly add perturbations to several target
+variables during training. As an effective regularization method, adversarial
+training improves robustness and generalization of our model. Second, we
+propose a multi-layer attention network utilizing three kinds of
+high-efficiency attention mechanisms. Multi-layer attention conducts
+interaction between question and passage within each layer, which contributes
+to reasonable representation and understanding of the model. Combining these
+two contributions, we enhance the diversity of dataset and the information
+extracting ability of the model at the same time. Meanwhile, we construct A3Net
+for the WebQA dataset. Results show that our model outperforms the
+state-of-the-art models (improving Fuzzy Score from 73.50% to 77.0%).

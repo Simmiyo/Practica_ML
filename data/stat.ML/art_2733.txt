@@ -1,0 +1,25 @@
+Joint segmentation of multivariate time series with hidden process
+  regression for human activity recognition
+The problem of human activity recognition is central for understanding and
+predicting the human behavior, in particular in a prospective of assistive
+services to humans, such as health monitoring, well being, security, etc. There
+is therefore a growing need to build accurate models which can take into
+account the variability of the human activities over time (dynamic models)
+rather than static ones which can have some limitations in such a dynamic
+context. In this paper, the problem of activity recognition is analyzed through
+the segmentation of the multidimensional time series of the acceleration data
+measured in the 3-d space using body-worn accelerometers. The proposed model
+for automatic temporal segmentation is a specific statistical latent process
+model which assumes that the observed acceleration sequence is governed by
+sequence of hidden (unobserved) activities. More specifically, the proposed
+approach is based on a specific multiple regression model incorporating a
+hidden discrete logistic process which governs the switching from one activity
+to another over time. The model is learned in an unsupervised context by
+maximizing the observed-data log-likelihood via a dedicated
+expectation-maximization (EM) algorithm. We applied it on a real-world
+automatic human activity recognition problem and its performance was assessed
+by performing comparisons with alternative approaches, including well-known
+supervised static classifiers and the standard hidden Markov model (HMM). The
+obtained results are very encouraging and show that the proposed approach is
+quite competitive even it works in an entirely unsupervised way and does not
+requires a feature extraction preprocessing step.

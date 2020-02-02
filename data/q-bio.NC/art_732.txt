@@ -1,0 +1,27 @@
+How to Direct the Edges of the Connectomes: Dynamics of the Consensus
+  Connectomes and the Development of the Connections in the Human Brain
+The human connectome is the object of an intensive research today. In these
+graphs, the vertices correspond to the small areas of the gray matter, and two
+vertices are connected by an edge, if a diffusion-MRI based workflow finds
+connections between those areas. One main question of the field is discovering
+the directions of the edges. In a previous work we have reported the
+construction of the Budapest Reference Connectome Server
+http://connectome.pitgroup.org from the data recorded in the Human Connectome
+Project of the NIH. After the server had been published, we recognized a
+surprising and unforeseen property of it: The server can generate the
+braingraph of connections that are present in at least $k$ graphs out of the
+418, for any value of $k=1,2,...,418$. When the value of $k$ is changed from
+$k=418$ through 1 by moving a slider at the webserver from right to left, more
+and more edges appear in the consensus graph. The astonishing observation is
+that the appearance of the new edges is not random: it is similar to a growing
+tree. We hypothesize that this movement of the slider in the webserver may copy
+the development of the connections in the human brain in the following sense:
+the connections that are present in all subjects are the oldest ones, and those
+that are present in a decreasing fraction of subjects are gradually the newer
+connections in the individual brain development. An animation on the phenomenon
+is available at https://youtu.be/EnWwIf_HNjw. Based on this hypothesis, we can
+assign directions to the edges of the connectome as follows: Let $G_i$ denote
+the consensus connectome where each edge is present in at least $i$ graphs.
+Suppose that vertex $v$ is isolated in $G_{k+1}$, and becomes connected to a
+vertex $u$ in $G_k$, where $u$ was connected to other vertices already in
+$G_{k+1}$. Then we direct this $(v,u)$ edge from $v$ to $u$.

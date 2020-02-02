@@ -1,0 +1,21 @@
+Evolutionary distances in the twilight zone -- a rational kernel
+  approach
+Phylogenetic tree reconstruction is traditionally based on multiple sequence
+alignments (MSAs) and heavily depends on the validity of this information
+bottleneck. With increasing sequence divergence, the quality of MSAs decays
+quickly. Alignment-free methods, on the other hand, are based on abstract
+string comparisons and avoid potential alignment problems. However, in general
+they are not biologically motivated and ignore our knowledge about the
+evolution of sequences. Thus, it is still a major open question how to define
+an evolutionary distance metric between divergent sequences that makes use of
+indel information and known substitution models without the need for a multiple
+alignment. Here we propose a new evolutionary distance metric to close this
+gap. It uses finite-state transducers to create a biologically motivated
+similarity score which models substitutions and indels, and does not depend on
+a multiple sequence alignment. The sequence similarity score is defined in
+analogy to pairwise alignments and additionally has the positive semi-definite
+property. We describe its derivation and show in simulation studies and
+real-world examples that it is more accurate in reconstructing phylogenies than
+competing methods. The result is a new and accurate way of determining
+evolutionary distances in and beyond the twilight zone of sequence alignments
+that is suitable for large datasets.

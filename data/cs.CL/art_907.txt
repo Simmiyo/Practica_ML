@@ -1,0 +1,15 @@
+Prediction Using Note Text: Synthetic Feature Creation with word2vec
+word2vec affords a simple yet powerful approach of extracting quantitative
+variables from unstructured textual data. Over half of healthcare data is
+unstructured and therefore hard to model without involved expertise in data
+engineering and natural language processing. word2vec can serve as a bridge to
+quickly gather intelligence from such data sources.
+  In this study, we ran 650 megabytes of unstructured, medical chart notes from
+the Providence Health & Services electronic medical record through word2vec. We
+used two different approaches in creating predictive variables and tested them
+on the risk of readmission for patients with COPD (Chronic Obstructive Lung
+Disease). As a comparative benchmark, we ran the same test using the LACE risk
+model (a single score based on length of stay, acuity, comorbid conditions, and
+emergency department visits).
+  Using only free text and mathematical might, we found word2vec comparable to
+LACE in predicting the risk of readmission of COPD patients.

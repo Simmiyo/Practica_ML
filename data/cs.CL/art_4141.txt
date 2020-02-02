@@ -1,0 +1,10 @@
+EmotionX-DLC: Self-Attentive BiLSTM for Detecting Sequential Emotions in
+  Dialogue
+In this paper, we propose a self-attentive bidirectional long short-term
+memory (SA-BiLSTM) network to predict multiple emotions for the EmotionX
+challenge. The BiLSTM exhibits the power of modeling the word dependencies, and
+extracting the most relevant features for emotion classification. Building on
+top of BiLSTM, the self-attentive network can model the contextual dependencies
+between utterances which are helpful for classifying the ambiguous emotions. We
+achieve 59.6 and 55.0 unweighted accuracy scores in the \textit{Friends} and
+the \textit{EmotionPush} test sets, respectively.

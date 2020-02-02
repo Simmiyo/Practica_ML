@@ -1,0 +1,9 @@
+A novel repetition normalized adversarial reward for headline generation
+While reinforcement learning can effectively improve language generation
+models, it often suffers from generating incoherent and repetitive phrases
+\cite{paulus2017deep}. In this paper, we propose a novel repetition normalized
+adversarial reward to mitigate these problems. Our repetition penalized reward
+can greatly reduce the repetition rate and adversarial training mitigates
+generating incoherent phrases. Our model significantly outperforms the baseline
+model on ROUGE-1\,(+3.24), ROUGE-L\,(+2.25), and a decreased repetition-rate
+(-4.98\%).

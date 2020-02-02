@@ -1,0 +1,11 @@
+Distributed Optimization of Multi-Class SVMs
+Training of one-vs.-rest SVMs can be parallelized over the number of classes
+in a straight forward way. Given enough computational resources, one-vs.-rest
+SVMs can thus be trained on data involving a large number of classes. The same
+cannot be stated, however, for the so-called all-in-one SVMs, which require
+solving a quadratic program of size quadratically in the number of classes. We
+develop distributed algorithms for two all-in-one SVM formulations (Lee et al.
+and Weston and Watkins) that parallelize the computation evenly over the number
+of classes. This allows us to compare these models to one-vs.-rest SVMs on
+unprecedented scale. The results indicate superior accuracy on text
+classification data.

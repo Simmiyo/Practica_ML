@@ -1,0 +1,17 @@
+Investigating Speech Features for Continuous Turn-Taking Prediction
+  Using LSTMs
+For spoken dialog systems to conduct fluid conversational interactions with
+users, the systems must be sensitive to turn-taking cues produced by a user.
+Models should be designed so that effective decisions can be made as to when it
+is appropriate, or not, for the system to speak. Traditional end-of-turn
+models, where decisions are made at utterance end-points, are limited in their
+ability to model fast turn-switches and overlap. A more flexible approach is to
+model turn-taking in a continuous manner using RNNs, where the system predicts
+speech probability scores for discrete frames within a future window. The
+continuous predictions represent generalized turn-taking behaviors observed in
+the training data and can be applied to make decisions that are not just
+limited to end-of-turn detection. In this paper, we investigate optimal
+speech-related feature sets for making predictions at pauses and overlaps in
+conversation. We find that while traditional acoustic features perform well,
+part-of-speech features generally perform worse than word features. We show
+that our current models outperform previously reported baselines.

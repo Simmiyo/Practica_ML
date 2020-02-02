@@ -1,0 +1,13 @@
+Confidence intervals for AB-test
+AB-testing is a very popular technique in web companies since it makes it
+possible to accurately predict the impact of a modification with the simplicity
+of a random split across users. One of the critical aspects of an AB-test is
+its duration and it is important to reliably compute confidence intervals
+associated with the metric of interest to know when to stop the test. In this
+paper, we define a clean mathematical framework to model the AB-test process.
+We then propose three algorithms based on bootstrapping and on the central
+limit theorem to compute reliable confidence intervals which extend to other
+metrics than the common probabilities of success. They apply to both absolute
+and relative increments of the most used comparison metrics, including the
+number of occurrences of a particular event and a click-through rate implying a
+ratio.

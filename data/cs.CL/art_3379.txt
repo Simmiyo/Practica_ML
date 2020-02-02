@@ -1,0 +1,10 @@
+Natural Language Inference over Interaction Space: ICLR 2018
+  Reproducibility Report
+We have tried to reproduce the results of the paper "Natural Language
+Inference over Interaction Space" submitted to ICLR 2018 conference as part of
+the ICLR 2018 Reproducibility Challenge. Initially, we were not aware that the
+code was available, so we started to implement the network from scratch. We
+have evaluated our version of the model on Stanford NLI dataset and reached
+86.38% accuracy on the test set, while the paper claims 88.0% accuracy. The
+main difference, as we understand it, comes from the optimizers and the way
+model selection is performed.

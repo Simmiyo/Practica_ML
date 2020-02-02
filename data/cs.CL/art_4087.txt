@@ -1,0 +1,14 @@
+ISO-Standard Domain-Independent Dialogue Act Tagging for Conversational
+  Agents
+Dialogue Act (DA) tagging is crucial for spoken language understanding
+systems, as it provides a general representation of speakers' intents, not
+bound to a particular dialogue system. Unfortunately, publicly available data
+sets with DA annotation are all based on different annotation schemes and thus
+incompatible with each other. Moreover, their schemes often do not cover all
+aspects necessary for open-domain human-machine interaction. In this paper, we
+propose a methodology to map several publicly available corpora to a subset of
+the ISO standard, in order to create a large task-independent training corpus
+for DA classification. We show the feasibility of using this corpus to train a
+domain-independent DA tagger testing it on out-of-domain conversational data,
+and argue the importance of training on multiple corpora to achieve robustness
+across different DA categories.

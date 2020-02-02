@@ -1,0 +1,11 @@
+Sparsity by Worst-Case Penalties
+This paper proposes a new interpretation of sparse penalties such as the
+elastic-net and the group-lasso. Beyond providing a new viewpoint on these
+penalization schemes, our approach results in a unified optimization strategy.
+Our experiments demonstrate that this strategy, implemented on the elastic-net,
+is computationally extremely efficient for small to medium size problems. Our
+accompanying software solves problems very accurately, at machine precision, in
+the time required to get a rough estimate with competing state-of-the-art
+algorithms. We illustrate on real and artificial datasets that this accuracy is
+required to for the correctness of the support of the solution, which is an
+important element for the interpretability of sparsity-inducing penalties.

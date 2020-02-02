@@ -1,0 +1,19 @@
+A Multilingual Information Extraction Pipeline for Investigative
+  Journalism
+We introduce an advanced information extraction pipeline to automatically
+process very large collections of unstructured textual data for the purpose of
+investigative journalism. The pipeline serves as a new input processor for the
+upcoming major release of our New/s/leak 2.0 software, which we develop in
+cooperation with a large German news organization. The use case is that
+journalists receive a large collection of files up to several Gigabytes
+containing unknown contents. Collections may originate either from official
+disclosures of documents, e.g. Freedom of Information Act requests, or
+unofficial data leaks. Our software prepares a visually-aided exploration of
+the collection to quickly learn about potential stories contained in the data.
+It is based on the automatic extraction of entities and their co-occurrence in
+documents. In contrast to comparable projects, we focus on the following three
+major requirements particularly serving the use case of investigative
+journalism in cross-border collaborations: 1) composition of multiple
+state-of-the-art NLP tools for entity extraction, 2) support of multi-lingual
+document sets up to 40 languages, 3) fast and easy-to-use extraction of
+full-text, metadata and entities from various file formats.

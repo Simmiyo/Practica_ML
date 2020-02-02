@@ -1,0 +1,18 @@
+An Equivalence between the Lasso and Support Vector Machines
+We investigate the relation of two fundamental tools in machine learning and
+signal processing, that is the support vector machine (SVM) for classification,
+and the Lasso technique used in regression. We show that the resulting
+optimization problems are equivalent, in the following sense. Given any
+instance of an $\ell_2$-loss soft-margin (or hard-margin) SVM, we construct a
+Lasso instance having the same optimal solutions, and vice versa.
+  As a consequence, many existing optimization algorithms for both SVMs and
+Lasso can also be applied to the respective other problem instances. Also, the
+equivalence allows for many known theoretical insights for SVM and Lasso to be
+translated between the two settings. One such implication gives a simple
+kernelized version of the Lasso, analogous to the kernels used in the SVM
+setting. Another consequence is that the sparsity of a Lasso solution is equal
+to the number of support vectors for the corresponding SVM instance, and that
+one can use screening rules to prune the set of support vectors. Furthermore,
+we can relate sublinear time algorithms for the two problems, and give a new
+such algorithm variant for the Lasso. We also study the regularization paths
+for both methods.

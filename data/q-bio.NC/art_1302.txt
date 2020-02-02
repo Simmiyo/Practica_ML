@@ -1,0 +1,14 @@
+Blindfold learning of an accurate neural metric
+The brain has no direct access to physical stimuli, but only to the spiking
+activity evoked in sensory organs. It is unclear how the brain can structure
+its representation of the world based on differences between those noisy,
+correlated responses alone. Here we show how to build a distance map of
+responses from the structure of the population activity of retinal ganglion
+cells, allowing for the accurate discrimination of distinct visual stimuli from
+the retinal response. We introduce the Temporal Restricted Boltzmann Machine to
+learn the spatiotemporal structure of the population activity, and use this
+model to define a distance between spike trains. We show that this metric
+outperforms existing neural distances at discriminating pairs of stimuli that
+are barely distinguishable. The proposed method provides a generic and
+biologically plausible way to learn to associate similar stimuli based on their
+spiking responses, without any other knowledge of these stimuli.

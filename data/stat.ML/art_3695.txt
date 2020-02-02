@@ -1,0 +1,18 @@
+PJAIT Systems for the IWSLT 2015 Evaluation Campaign Enhanced by
+  Comparable Corpora
+In this paper, we attempt to improve Statistical Machine Translation (SMT)
+systems on a very diverse set of language pairs (in both directions): Czech -
+English, Vietnamese - English, French - English and German - English. To
+accomplish this, we performed translation model training, created adaptations
+of training settings for each language pair, and obtained comparable corpora
+for our SMT systems. Innovative tools and data adaptation techniques were
+employed. The TED parallel text corpora for the IWSLT 2015 evaluation campaign
+were used to train language models, and to develop, tune, and test the system.
+In addition, we prepared Wikipedia-based comparable corpora for use with our
+SMT system. This data was specified as permissible for the IWSLT 2015
+evaluation. We explored the use of domain adaptation techniques, symmetrized
+word alignment models, the unsupervised transliteration models and the KenLM
+language modeling tool. To evaluate the effects of different preparations on
+translation results, we conducted experiments and used the BLEU, NIST and TER
+metrics. Our results indicate that our approach produced a positive impact on
+SMT quality.

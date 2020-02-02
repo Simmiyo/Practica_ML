@@ -1,0 +1,9 @@
+Learning Personalized Optimal Control for Repeatedly Operated Systems
+We consider the problem of online learning of optimal control for repeatedly
+operated systems in the presence of parametric uncertainty. During each round
+of operation, environment selects system parameters according to a fixed but
+unknown probability distribution. These parameters govern the dynamics of a
+plant. An agent chooses a control input to the plant and is then revealed the
+cost of the choice. In this setting, we design an agent that personalizes the
+control input to this plant taking into account the stochasticity involved. We
+demonstrate the effectiveness of our approach on a simulated system.

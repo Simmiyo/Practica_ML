@@ -1,0 +1,15 @@
+Text Generation Based on Generative Adversarial Nets with Latent
+  Variable
+In this paper, we propose a model using generative adversarial net (GAN) to
+generate realistic text. Instead of using standard GAN, we combine variational
+autoencoder (VAE) with generative adversarial net. The use of high-level latent
+random variables is helpful to learn the data distribution and solve the
+problem that generative adversarial net always emits the similar data. We
+propose the VGAN model where the generative model is composed of recurrent
+neural network and VAE. The discriminative model is a convolutional neural
+network. We train the model via policy gradient. We apply the proposed model to
+the task of text generation and compare it to other recent neural network based
+models, such as recurrent neural network language model and SeqGAN. We evaluate
+the performance of the model by calculating negative log-likelihood and the
+BLEU score. We conduct experiments on three benchmark datasets, and results
+show that our model outperforms other previous models.

@@ -1,0 +1,16 @@
+Iterative Log Thresholding
+Sparse reconstruction approaches using the re-weighted l1-penalty have been
+shown, both empirically and theoretically, to provide a significant improvement
+in recovering sparse signals in comparison to the l1-relaxation. However,
+numerical optimization of such penalties involves solving problems with
+l1-norms in the objective many times. Using the direct link of reweighted
+l1-penalties to the concave log-regularizer for sparsity, we derive a simple
+prox-like algorithm for the log-regularized formulation. The proximal splitting
+step of the algorithm has a closed form solution, and we call the algorithm
+'log-thresholding' in analogy to soft thresholding for the l1-penalty.
+  We establish convergence results, and demonstrate that log-thresholding
+provides more accurate sparse reconstructions compared to both soft and hard
+thresholding. Furthermore, the approach can be directly extended to
+optimization over matrices with penalty for rank (i.e. the nuclear norm penalty
+and its re-weigthed version), where we suggest a singular-value
+log-thresholding approach.

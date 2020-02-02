@@ -1,0 +1,21 @@
+Nonparametric regression using needlet kernels for spherical data
+Needlets have been recognized as state-of-the-art tools to tackle spherical
+data, due to their excellent localization properties in both spacial and
+frequency domains.
+  This paper considers developing kernel methods associated with the needlet
+kernel for nonparametric regression problems whose predictor variables are
+defined on a sphere. Due to the localization property in the frequency domain,
+we prove that the regularization parameter of the kernel ridge regression
+associated with the needlet kernel can decrease arbitrarily fast. A natural
+consequence is that the regularization term for the kernel ridge regression is
+not necessary in the sense of rate optimality. Based on the excellent
+localization property in the spacial domain further, we also prove that all the
+$l^{q}$ $(01\leq q < \infty)$ kernel regularization estimates associated with
+the needlet kernel, including the kernel lasso estimate and the kernel bridge
+estimate, possess almost the same generalization capability for a large range
+of regularization parameters in the sense of rate optimality.
+  This finding tentatively reveals that, if the needlet kernel is utilized,
+then the choice of $q$ might not have a strong impact in terms of the
+generalization capability in some modeling contexts. From this perspective, $q$
+can be arbitrarily specified, or specified merely by other no generalization
+criteria like smoothness, computational complexity, sparsity, etc..

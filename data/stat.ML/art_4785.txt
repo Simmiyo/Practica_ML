@@ -1,0 +1,19 @@
+Spectral decomposition method of dialog state tracking via collective
+  matrix factorization
+The task of dialog management is commonly decomposed into two sequential
+subtasks: dialog state tracking and dialog policy learning. In an end-to-end
+dialog system, the aim of dialog state tracking is to accurately estimate the
+true dialog state from noisy observations produced by the speech recognition
+and the natural language understanding modules. The state tracking task is
+primarily meant to support a dialog policy. From a probabilistic perspective,
+this is achieved by maintaining a posterior distribution over hidden dialog
+states composed of a set of context dependent variables. Once a dialog policy
+is learned, it strives to select an optimal dialog act given the estimated
+dialog state and a defined reward function. This paper introduces a novel
+method of dialog state tracking based on a bilinear algebric decomposition
+model that provides an efficient inference schema through collective matrix
+factorization. We evaluate the proposed approach on the second Dialog State
+Tracking Challenge (DSTC-2) dataset and we show that the proposed tracker gives
+encouraging results compared to the state-of-the-art trackers that participated
+in this standard benchmark. Finally, we show that the prediction schema is
+computationally efficient in comparison to the previous approaches.

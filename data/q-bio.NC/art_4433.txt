@@ -1,0 +1,19 @@
+FAASTA: A fast solver for total-variation regularization of
+  ill-conditioned problems with application to brain imaging
+The total variation (TV) penalty, as many other analysis-sparsity problems,
+does not lead to separable factors or a proximal operatorwith a closed-form
+expression, such as soft thresholding for the $\ell\_1$ penalty. As a result,
+in a variational formulation of an inverse problem or statisticallearning
+estimation, it leads to challenging non-smooth optimization problemsthat are
+often solved with elaborate single-step first-order methods. When thedata-fit
+term arises from empirical measurements, as in brain imaging, it isoften very
+ill-conditioned and without simple structure. In this situation, in proximal
+splitting methods, the computation cost of thegradient step can easily dominate
+each iteration. Thus it is beneficialto minimize the number of gradient
+steps.We present fAASTA, a variant of FISTA, that relies on an internal solver
+forthe TV proximal operator, and refines its tolerance to balance
+computationalcost of the gradient and the proximal steps. We give benchmarks
+andillustrations on "brain decoding": recovering brain maps from
+noisymeasurements to predict observed behavior. The algorithm as well as
+theempirical study of convergence speed are valuable for any non-exact
+proximaloperator, in particular analysis-sparsity problems.

@@ -1,0 +1,12 @@
+IAM at CLEF eHealth 2018: Concept Annotation and Coding in French Death
+  Certificates
+In this paper, we describe the approach and results for our participation in
+the task 1 (multilingual information extraction) of the CLEF eHealth 2018
+challenge. We addressed the task of automatically assigning ICD-10 codes to
+French death certificates. We used a dictionary-based approach using materials
+provided by the task organizers. The terms of the ICD-10 terminology were
+normalized, tokenized and stored in a tree data structure. The Levenshtein
+distance was used to detect typos. Frequent abbreviations were detected by
+manually creating a small set of them. Our system achieved an F-score of 0.786
+(precision: 0.794, recall: 0.779). These scores were substantially higher than
+the average score of the systems that participated in the challenge.

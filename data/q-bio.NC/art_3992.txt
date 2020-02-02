@@ -1,0 +1,14 @@
+Algorithmic choice of coordinates for injections into the brain:
+  encoding a neuroanatomical atlas on a grid
+Given an atlas of the brain and a number of injections to be performed in
+order to map out the connections between parts of the brain, we propose an
+algorithm to compute the coordinates of the injections. The algorithm is
+designed to sample the brain in the most homogeneous way compatible with the
+separation of brain regions. It can be applied to other species for which a
+neuroanatomical atlas is available. The computation is tested on the annotation
+at a resolution of 25 microns corresponding to the Allen Reference Atlas, which
+is hierarchical and consists of 209 regions. The resulting injection
+coordinates are being used for the injection protocol of the Mouse Brain
+Architecture project. Due to its large size and layered structure, the cerebral
+cortex is treated in a separate algorithm, which is more adapted to its
+geometry.

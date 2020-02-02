@@ -1,0 +1,20 @@
+Tricks from Deep Learning
+The deep learning community has devised a diverse set of methods to make
+gradient optimization, using large datasets, of large and highly complex models
+with deeply cascaded nonlinearities, practical. Taken as a whole, these methods
+constitute a breakthrough, allowing computational structures which are quite
+wide, very deep, and with an enormous number and variety of free parameters to
+be effectively optimized. The result now dominates much of practical machine
+learning, with applications in machine translation, computer vision, and speech
+recognition. Many of these methods, viewed through the lens of algorithmic
+differentiation (AD), can be seen as either addressing issues with the gradient
+itself, or finding ways of achieving increased efficiency using tricks that are
+AD-related, but not provided by current AD systems.
+  The goal of this paper is to explain not just those methods of most relevance
+to AD, but also the technical constraints and mindset which led to their
+discovery. After explaining this context, we present a "laundry list" of
+methods developed by the deep learning community. Two of these are discussed in
+further mathematical detail: a way to dramatically reduce the size of the tape
+when performing reverse-mode AD on a (theoretically) time-reversible process
+like an ODE integrator; and a new mathematical insight that allows for the
+implementation of a stochastic Newton's method.

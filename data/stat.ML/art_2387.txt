@@ -1,0 +1,13 @@
+Parameter Priors for Directed Acyclic Graphical Models and the
+  Characterization of Several Probability Distributions
+We show that the only parameter prior for complete Gaussian DAG models that
+satisfies global parameter independence, complete model equivalence, and some
+weak regularity assumptions, is the normal-Wishart distribution. Our analysis
+is based on the following new characterization of the Wishart distribution: let
+W be an n x n, n >= 3, positive-definite symmetric matrix of random variables
+and f(W) be a pdf of W. Then, f(W) is a Wishart distribution if and only if
+W_{11}-W_{12}W_{22}^{-1}W_{12}' is independent of {W_{12}, W_{22}} for every
+block partitioning W_{11}, W_{12}, W_{12}', W_{22} of W. Similar
+characterizations of the normal and normal-Wishart distributions are provided
+as well. We also show how to construct a prior for every DAG model over X from
+the prior of a single regression model.

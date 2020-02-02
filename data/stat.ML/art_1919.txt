@@ -1,0 +1,13 @@
+Bayesian Rose Trees
+Hierarchical structure is ubiquitous in data across many domains. There are
+many hierarchical clustering methods, frequently used by domain experts, which
+strive to discover this structure. However, most of these methods limit
+discoverable hierarchies to those with binary branching structure. This
+limitation, while computationally convenient, is often undesirable. In this
+paper we explore a Bayesian hierarchical clustering algorithm that can produce
+trees with arbitrary branching structure at each node, known as rose trees. We
+interpret these trees as mixtures over partitions of a data set, and use a
+computationally efficient, greedy agglomerative algorithm to find the rose
+trees which have high marginal likelihood given the data. Lastly, we perform
+experiments which demonstrate that rose trees are better models of data than
+the typical binary trees returned by other hierarchical clustering algorithms.

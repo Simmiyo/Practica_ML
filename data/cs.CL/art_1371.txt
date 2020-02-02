@@ -1,0 +1,11 @@
+End-to-End Neural Sentence Ordering Using Pointer Network
+Sentence ordering is one of important tasks in NLP. Previous works mainly
+focused on improving its performance by using pair-wise strategy. However, it
+is nontrivial for pair-wise models to incorporate the contextual sentence
+information. In addition, error prorogation could be introduced by using the
+pipeline strategy in pair-wise models. In this paper, we propose an end-to-end
+neural approach to address the sentence ordering problem, which uses the
+pointer network (Ptr-Net) to alleviate the error propagation problem and
+utilize the whole contextual information. Experimental results show the
+effectiveness of the proposed model. Source codes and dataset of this paper are
+available.

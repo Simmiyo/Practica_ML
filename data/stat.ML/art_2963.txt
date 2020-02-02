@@ -1,0 +1,13 @@
+Warped Mixtures for Nonparametric Cluster Shapes
+A mixture of Gaussians fit to a single curved or heavy-tailed cluster will
+report that the data contains many clusters. To produce more appropriate
+clusterings, we introduce a model which warps a latent mixture of Gaussians to
+produce nonparametric cluster shapes. The possibly low-dimensional latent
+mixture model allows us to summarize the properties of the high-dimensional
+clusters (or density manifolds) describing the data. The number of manifolds,
+as well as the shape and dimension of each manifold is automatically inferred.
+We derive a simple inference scheme for this model which analytically
+integrates out both the mixture parameters and the warping function. We show
+that our model is effective for density estimation, performs better than
+infinite Gaussian mixture models at recovering the true number of clusters, and
+produces interpretable summaries of high-dimensional datasets.

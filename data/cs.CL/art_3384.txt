@@ -1,0 +1,14 @@
+Understanding Recurrent Neural State Using Memory Signatures
+We demonstrate a network visualization technique to analyze the recurrent
+state inside the LSTMs/GRUs used commonly in language and acoustic models.
+Interpreting intermediate state and network activations inside end-to-end
+models remains an open challenge. Our method allows users to understand exactly
+how much and what history is encoded inside recurrent state in grapheme
+sequence models. Our procedure trains multiple decoders that predict prior
+input history. Compiling results from these decoders, a user can obtain a
+signature of the recurrent kernel that characterizes its memory behavior. We
+demonstrate this method's usefulness in revealing information divergence in the
+bases of recurrent factorized kernels, visualizing the character-level
+differences between the memory of n-gram and recurrent language models, and
+extracting knowledge of history encoded in the layers of grapheme-based
+end-to-end ASR networks.

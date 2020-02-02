@@ -1,0 +1,11 @@
+Source-side Prediction for Neural Headline Generation
+The encoder-decoder model is widely used in natural language generation
+tasks. However, the model sometimes suffers from repeated redundant generation,
+misses important phrases, and includes irrelevant entities. Toward solving
+these problems we propose a novel source-side token prediction module. Our
+method jointly estimates the probability distributions over source and target
+vocabularies to capture a correspondence between source and target tokens. The
+experiments show that the proposed model outperforms the current
+state-of-the-art method in the headline generation task. Additionally, we show
+that our method has an ability to learn a reasonable token-wise correspondence
+without knowing any true alignments.

@@ -1,0 +1,20 @@
+Scalable Modeling of Conversational-role based Self-presentation
+  Characteristics in Large Online Forums
+Online discussion forums are complex webs of overlapping subcommunities
+(macrolevel structure, across threads) in which users enact different roles
+depending on which subcommunity they are participating in within a particular
+time point (microlevel structure, within threads). This sub-network structure
+is implicit in massive collections of threads. To uncover this structure, we
+develop a scalable algorithm based on stochastic variational inference and
+leverage topic models (LDA) along with mixed membership stochastic block (MMSB)
+models. We evaluate our model on three large-scale datasets,
+Cancer-ThreadStarter (22K users and 14.4K threads), Cancer-NameMention(15.1K
+users and 12.4K threads) and StackOverFlow (1.19 million users and 4.55 million
+threads). Qualitatively, we demonstrate that our model can provide useful
+explanations of microlevel and macrolevel user presentation characteristics in
+different communities using the topics discovered from posts. Quantitatively,
+we show that our model does better than MMSB and LDA in predicting user reply
+structure within threads. In addition, we demonstrate via synthetic data
+experiments that the proposed active sub-network discovery model is stable and
+recovers the original parameters of the experimental setup with high
+probability.

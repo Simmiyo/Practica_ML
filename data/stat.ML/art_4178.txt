@@ -1,0 +1,24 @@
+Predictive modelling of training loads and injury in Australian football
+To investigate whether training load monitoring data could be used to predict
+injuries in elite Australian football players, data were collected from elite
+athletes over 3 seasons at an Australian football club. Loads were quantified
+using GPS devices, accelerometers and player perceived exertion ratings.
+Absolute and relative training load metrics were calculated for each player
+each day (rolling average, exponentially weighted moving average, acute:chronic
+workload ratio, monotony and strain). Injury prediction models (regularised
+logistic regression, generalised estimating equations, random forests and
+support vector machines) were built for non-contact, non-contact time-loss and
+hamstring specific injuries using the first two seasons of data. Injury
+predictions were generated for the third season and evaluated using the area
+under the receiver operator characteristic (AUC). Predictive performance was
+only marginally better than chance for models of non-contact and non-contact
+time-loss injuries (AUC$<$0.65). The best performing model was a multivariate
+logistic regression for hamstring injuries (best AUC=0.76). Learning curves
+suggested logistic regression was underfitting the load-injury relationship and
+that using a more complex model or increasing the amount of model building data
+may lead to future improvements. Injury prediction models built using training
+load data from a single club showed poor ability to predict injuries when
+tested on previously unseen data, suggesting they are limited as a daily
+decision tool for practitioners. Focusing the modelling approach on specific
+injury types and increasing the amount of training data may lead to the
+development of improved predictive models for injury prevention.

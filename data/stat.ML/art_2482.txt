@@ -1,0 +1,12 @@
+Semi-Supervised Information-Maximization Clustering
+Semi-supervised clustering aims to introduce prior knowledge in the decision
+process of a clustering algorithm. In this paper, we propose a novel
+semi-supervised clustering algorithm based on the information-maximization
+principle. The proposed method is an extension of a previous unsupervised
+information-maximization clustering algorithm based on squared-loss mutual
+information to effectively incorporate must-links and cannot-links. The
+proposed method is computationally efficient because the clustering solution
+can be obtained analytically via eigendecomposition. Furthermore, the proposed
+method allows systematic optimization of tuning parameters such as the kernel
+width, given the degree of belief in the must-links and cannot-links. The
+usefulness of the proposed method is demonstrated through experiments.

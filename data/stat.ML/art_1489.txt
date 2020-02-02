@@ -1,0 +1,12 @@
+Gauged Mini-Bucket Elimination for Approximate Inference
+Computing the partition function $Z$ of a discrete graphical model is a
+fundamental inference challenge. Since this is computationally intractable,
+variational approximations are often used in practice. Recently, so-called
+gauge transformations were used to improve variational lower bounds on $Z$. In
+this paper, we propose a new gauge-variational approach, termed WMBE-G, which
+combines gauge transformations with the weighted mini-bucket elimination (WMBE)
+method. WMBE-G can provide both upper and lower bounds on $Z$, and is easier to
+optimize than the prior gauge-variational algorithm. We show that WMBE-G
+strictly improves the earlier WMBE approximation for symmetric models including
+Ising models with no magnetic field. Our experimental results demonstrate the
+effectiveness of WMBE-G even for generic, nonsymmetric models.

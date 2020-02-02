@@ -1,0 +1,11 @@
+Generalized RBF kernel for incomplete data
+We construct $\bf genRBF$ kernel, which generalizes the classical Gaussian
+RBF kernel to the case of incomplete data. We model the uncertainty contained
+in missing attributes making use of data distribution and associate every point
+with a conditional probability density function. This allows to embed
+incomplete data into the function space and to define a kernel between two
+missing data points based on scalar product in $L_2$. Experiments show that
+introduced kernel applied to SVM classifier gives better results than other
+state-of-the-art methods, especially in the case when large number of features
+is missing. Moreover, it is easy to implement and can be used together with any
+kernel approaches with no additional modifications.

@@ -1,0 +1,12 @@
+Weightless: Lossy Weight Encoding For Deep Neural Network Compression
+The large memory requirements of deep neural networks limit their deployment
+and adoption on many devices. Model compression methods effectively reduce the
+memory requirements of these models, usually through applying transformations
+such as weight pruning or quantization. In this paper, we present a novel
+scheme for lossy weight encoding which complements conventional compression
+techniques. The encoding is based on the Bloomier filter, a probabilistic data
+structure that can save space at the cost of introducing random errors.
+Leveraging the ability of neural networks to tolerate these imperfections and
+by re-training around the errors, the proposed technique, Weightless, can
+compress DNN weights by up to 496x with the same model accuracy. This results
+in up to a 1.51x improvement over the state-of-the-art.

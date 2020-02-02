@@ -1,0 +1,19 @@
+On Convolutional Approximations to Linear Dimensionality Reduction
+  Operators for Large Scale Data Processing
+In this paper, we examine the problem of approximating a general linear
+dimensionality reduction (LDR) operator, represented as a matrix $A \in
+\mathbb{R}^{m \times n}$ with $m < n$, by a partial circulant matrix with rows
+related by circular shifts. Partial circulant matrices admit fast
+implementations via Fourier transform methods and subsampling operations; our
+investigation here is motivated by a desire to leverage these potential
+computational improvements in large-scale data processing tasks. We establish a
+fundamental result, that most large LDR matrices (whose row spaces are
+uniformly distributed) in fact cannot be well approximated by partial circulant
+matrices. Then, we propose a natural generalization of the partial circulant
+approximation framework that entails approximating the range space of a given
+LDR operator $A$ over a restricted domain of inputs, using a matrix formed as a
+product of a partial circulant matrix having $m '> m$ rows and a $m \times k$
+'post processing' matrix. We introduce a novel algorithmic technique, based on
+sparse matrix factorization, for identifying the factors comprising such
+approximations, and provide preliminary evidence to demonstrate the potential
+of this approach.

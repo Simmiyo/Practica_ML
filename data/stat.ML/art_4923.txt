@@ -1,0 +1,16 @@
+Classification with the pot-pot plot
+We propose a procedure for supervised classification that is based on
+potential functions. The potential of a class is defined as a kernel density
+estimate multiplied by the class's prior probability. The method transforms the
+data to a potential-potential (pot-pot) plot, where each data point is mapped
+to a vector of potentials. Separation of the classes, as well as classification
+of new data points, is performed on this plot. For this, either the
+$\alpha$-procedure ($\alpha$-P) or $k$-nearest neighbors ($k$-NN) are employed.
+For data that are generated from continuous distributions, these classifiers
+prove to be strongly Bayes-consistent. The potentials depend on the kernel and
+its bandwidth used in the density estimate. We investigate several variants of
+bandwidth selection, including joint and separate pre-scaling and a bandwidth
+regression approach. The new method is applied to benchmark data from the
+literature, including simulated data sets as well as 50 sets of real data. It
+compares favorably to known classification methods such as LDA, QDA, max kernel
+density estimates, $k$-NN, and $DD$-plot classification using depth functions.

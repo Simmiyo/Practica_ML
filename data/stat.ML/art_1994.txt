@@ -1,0 +1,13 @@
+New Analysis and Algorithm for Learning with Drifting Distributions
+We present a new analysis of the problem of learning with drifting
+distributions in the batch setting using the notion of discrepancy. We prove
+learning bounds based on the Rademacher complexity of the hypothesis set and
+the discrepancy of distributions both for a drifting PAC scenario and a
+tracking scenario. Our bounds are always tighter and in some cases
+substantially improve upon previous ones based on the $L_1$ distance. We also
+present a generalization of the standard on-line to batch conversion to the
+drifting scenario in terms of the discrepancy and arbitrary convex combinations
+of hypotheses. We introduce a new algorithm exploiting these learning
+guarantees, which we show can be formulated as a simple QP. Finally, we report
+the results of preliminary experiments demonstrating the benefits of this
+algorithm.

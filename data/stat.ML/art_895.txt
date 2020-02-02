@@ -1,0 +1,13 @@
+Cover Tree Compressed Sensing for Fast MR Fingerprint Recovery
+We adopt data structure in the form of cover trees and iteratively apply
+approximate nearest neighbour (ANN) searches for fast compressed sensing
+reconstruction of signals living on discrete smooth manifolds. Levering on the
+recent stability results for the inexact Iterative Projected Gradient (IPG)
+algorithm and by using the cover tree's ANN searches, we decrease the
+projection cost of the IPG algorithm to be logarithmically growing with data
+population for low dimensional smooth manifolds. We apply our results to
+quantitative MRI compressed sensing and in particular within the Magnetic
+Resonance Fingerprinting (MRF) framework. For a similar (or sometimes better)
+reconstruction accuracy, we report 2-3 orders of magnitude reduction in
+computations compared to the standard iterative method which uses brute-force
+searches.

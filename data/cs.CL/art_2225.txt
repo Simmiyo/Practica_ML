@@ -1,0 +1,16 @@
+Textual Entailment with Structured Attentions and Composition
+Deep learning techniques are increasingly popular in the textual entailment
+task, overcoming the fragility of traditional discrete models with hard
+alignments and logics. In particular, the recently proposed attention models
+(Rockt\"aschel et al., 2015; Wang and Jiang, 2015) achieves state-of-the-art
+accuracy by computing soft word alignments between the premise and hypothesis
+sentences. However, there remains a major limitation: this line of work
+completely ignores syntax and recursion, which is helpful in many traditional
+efforts. We show that it is beneficial to extend the attention model to tree
+nodes between premise and hypothesis. More importantly, this subtree-level
+attention reveals information about entailment relation. We study the recursive
+composition of this subtree-level entailment relation, which can be viewed as a
+soft version of the Natural Logic framework (MacCartney and Manning, 2009).
+Experiments show that our structured attention and entailment composition model
+can correctly identify and infer entailment relations from the bottom up, and
+bring significant improvements in accuracy.

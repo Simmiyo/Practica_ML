@@ -1,0 +1,9 @@
+Unsupervised spectral learning
+In spectral clustering and spectral image segmentation, the data is partioned
+starting from a given matrix of pairwise similarities S. the matrix S is
+constructed by hand, or learned on a separate training set. In this paper we
+show how to achieve spectral clustering in unsupervised mode. Our algorithm
+starts with a set of observed pairwise features, which are possible components
+of an unknown, parametric similarity function. This function is learned
+iteratively, at the same time as the clustering of the data. The algorithm
+shows promosing results on synthetic and real data.

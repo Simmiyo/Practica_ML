@@ -1,0 +1,26 @@
+Churn Prediction in Mobile Social Games: Towards a Complete Assessment
+  Using Survival Ensembles
+Reducing user attrition, i.e. churn, is a broad challenge faced by several
+industries. In mobile social games, decreasing churn is decisive to increase
+player retention and rise revenues. Churn prediction models allow to understand
+player loyalty and to anticipate when they will stop playing a game. Thanks to
+these predictions, several initiatives can be taken to retain those players who
+are more likely to churn.
+  Survival analysis focuses on predicting the time of occurrence of a certain
+event, churn in our case. Classical methods, like regressions, could be applied
+only when all players have left the game. The challenge arises for datasets
+with incomplete churning information for all players, as most of them still
+connect to the game. This is called a censored data problem and is in the
+nature of churn. Censoring is commonly dealt with survival analysis techniques,
+but due to the inflexibility of the survival statistical algorithms, the
+accuracy achieved is often poor. In contrast, novel ensemble learning
+techniques, increasingly popular in a variety of scientific fields, provide
+high-class prediction results.
+  In this work, we develop, for the first time in the social games domain, a
+survival ensemble model which provides a comprehensive analysis together with
+an accurate prediction of churn. For each player, we predict the probability of
+churning as function of time, which permits to distinguish various levels of
+loyalty profiles. Additionally, we assess the risk factors that explain the
+predicted player survival times. Our results show that churn prediction by
+survival ensembles significantly improves the accuracy and robustness of
+traditional analyses, like Cox regression.

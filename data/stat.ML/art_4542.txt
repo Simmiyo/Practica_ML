@@ -1,0 +1,22 @@
+The ABACOC Algorithm: a Novel Approach for Nonparametric Classification
+  of Data Streams
+Stream mining poses unique challenges to machine learning: predictive models
+are required to be scalable, incrementally trainable, must remain bounded in
+size (even when the data stream is arbitrarily long), and be nonparametric in
+order to achieve high accuracy even in complex and dynamic environments.
+Moreover, the learning system must be parameterless ---traditional tuning
+methods are problematic in streaming settings--- and avoid requiring prior
+knowledge of the number of distinct class labels occurring in the stream. In
+this paper, we introduce a new algorithmic approach for nonparametric learning
+in data streams. Our approach addresses all above mentioned challenges by
+learning a model that covers the input space using simple local classifiers.
+The distribution of these classifiers dynamically adapts to the local (unknown)
+complexity of the classification problem, thus achieving a good balance between
+model complexity and predictive accuracy. We design four variants of our
+approach of increasing adaptivity. By means of an extensive empirical
+evaluation against standard nonparametric baselines, we show state-of-the-art
+results in terms of accuracy versus model size. For the variant that imposes a
+strict bound on the model size, we show better performance against all other
+methods measured at the same model size value. Our empirical analysis is
+complemented by a theoretical performance guarantee which does not rely on any
+stochastic assumption on the source generating the stream.

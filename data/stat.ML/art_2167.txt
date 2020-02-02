@@ -1,0 +1,15 @@
+Maximum Margin Bayesian Networks
+We consider the problem of learning Bayesian network classifiers that
+maximize the marginover a set of classification variables. We find that this
+problem is harder for Bayesian networks than for undirected graphical models
+like maximum margin Markov networks. The main difficulty is that the parameters
+in a Bayesian network must satisfy additional normalization constraints that an
+undirected graphical model need not respect. These additional constraints
+complicate the optimization task. Nevertheless, we derive an effective training
+algorithm that solves the maximum margin training problem for a range of
+Bayesian network topologies, and converges to an approximate solution for
+arbitrary network topologies. Experimental results show that the method can
+demonstrate improved generalization performance over Markov networks when the
+directed graphical structure encodes relevant knowledge. In practice, the
+training technique allows one to combine prior knowledge expressed as a
+directed (causal) model with state of the art discriminative learning methods.

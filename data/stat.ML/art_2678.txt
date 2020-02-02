@@ -1,0 +1,17 @@
+An Inexact Proximal Path-Following Algorithm for Constrained Convex
+  Minimization
+Many scientific and engineering applications feature nonsmooth convex
+minimization problems over convex sets. In this paper, we address an important
+instance of this broad class where we assume that the nonsmooth objective is
+equipped with a tractable proximity operator and that the convex constraint set
+affords a self-concordant barrier. We provide a new joint treatment of proximal
+and self-concordant barrier concepts and illustrate that such problems can be
+efficiently solved, without the need of lifting the problem dimensions, as in
+disciplined convex optimization approach. We propose an inexact path-following
+algorithmic framework and theoretically characterize the worst-case analytical
+complexity of this framework when the proximal subproblems are solved
+inexactly. To show the merits of our framework, we apply its instances to both
+synthetic and real-world applications, where it shows advantages over standard
+interior point methods. As a by-product, we describe how our framework can
+obtain points on the Pareto frontier of regularized problems with
+self-concordant objectives in a tuning free fashion.

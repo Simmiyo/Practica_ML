@@ -1,0 +1,16 @@
+A new class of metrics for spike trains
+The distance between a pair of spike trains, quantifying the differences
+between them, can be measured using various metrics. Here we introduce a new
+class of spike train metrics, inspired by the Pompeiu-Hausdorff distance, and
+compare them with existing metrics. Some of our new metrics (the modulus-metric
+and the max-metric) have characteristics that are qualitatively different than
+those of classical metrics like the van Rossum distance or the Victor & Purpura
+distance. The modulus-metric and the max-metric are particularly suitable for
+measuring distances between spike trains where information is encoded in
+bursts, but the number and the timing of spikes inside a burst does not carry
+information. The modulus-metric does not depend on any parameters and can be
+computed using a fast algorithm, in a time that depends linearly on the number
+of spikes in the two spike trains. We also introduce localized versions of the
+new metrics, which could have the biologically-relevant interpretation of
+measuring the differences between spike trains as they are perceived at a
+particular moment in time by a neuron receiving these spike trains.

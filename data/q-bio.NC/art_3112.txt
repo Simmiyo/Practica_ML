@@ -1,0 +1,18 @@
+SCALPEL: Extracting Neurons from Calcium Imaging Data
+In the past few years, new technologies in the field of neuroscience have
+made it possible to simultaneously image activity in large populations of
+neurons at cellular resolution in behaving animals. In mid-2016, a huge
+repository of this so-called "calcium imaging" data was made
+publicly-available. The availability of this large-scale data resource opens
+the door to a host of scientific questions, for which new statistical methods
+must be developed.
+  In this paper, we consider the first step in the analysis of calcium imaging
+data: namely, identifying the neurons in a calcium imaging video. We propose a
+dictionary learning approach for this task. First, we perform image
+segmentation to develop a dictionary containing a huge number of candidate
+neurons. Next, we refine the dictionary using clustering. Finally, we apply the
+dictionary in order to select neurons and estimate their corresponding activity
+over time, using a sparse group lasso optimization problem. We apply our
+proposal to three calcium imaging data sets.
+  Our proposed approach is implemented in the R package scalpel, which is
+available on CRAN.

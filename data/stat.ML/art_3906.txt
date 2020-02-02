@@ -1,0 +1,18 @@
+Generalized Inverse Classification
+Inverse classification is the process of perturbing an instance in a
+meaningful way such that it is more likely to conform to a specific class.
+Historical methods that address such a problem are often framed to leverage
+only a single classifier, or specific set of classifiers. These works are often
+accompanied by naive assumptions. In this work we propose generalized inverse
+classification (GIC), which avoids restricting the classification model that
+can be used. We incorporate this formulation into a refined framework in which
+GIC takes place. Under this framework, GIC operates on features that are
+immediately actionable. Each change incurs an individual cost, either linear or
+non-linear. Such changes are subjected to occur within a specified level of
+cumulative change (budget). Furthermore, our framework incorporates the
+estimation of features that change as a consequence of direct actions taken
+(indirectly changeable features). To solve such a problem, we propose three
+real-valued heuristic-based methods and two sensitivity analysis-based
+comparison methods, each of which is evaluated on two freely available
+real-world datasets. Our results demonstrate the validity and benefits of our
+formulation, framework, and methods.

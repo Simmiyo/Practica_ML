@@ -1,0 +1,10 @@
+Nested Variational Compression in Deep Gaussian Processes
+Deep Gaussian processes provide a flexible approach to probabilistic
+modelling of data using either supervised or unsupervised learning. For
+tractable inference approximations to the marginal likelihood of the model must
+be made. The original approach to approximate inference in these models used
+variational compression to allow for approximate variational marginalization of
+the hidden variables leading to a lower bound on the marginal likelihood of the
+model [Damianou and Lawrence, 2013]. In this paper we extend this idea with a
+nested variational compression. The resulting lower bound on the likelihood can
+be easily parallelized or adapted for stochastic variational inference.

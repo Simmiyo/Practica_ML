@@ -1,0 +1,12 @@
+Multivariate Industrial Time Series with Cyber-Attack Simulation: Fault
+  Detection Using an LSTM-based Predictive Data Model
+We adopted an approach based on an LSTM neural network to monitor and detect
+faults in industrial multivariate time series data. To validate the approach we
+created a Modelica model of part of a real gasoil plant. By introducing hacks
+into the logic of the Modelica model, we were able to generate both the roots
+and causes of fault behavior in the plant. Having a self-consistent data set
+with labeled faults, we used an LSTM architecture with a forecasting error
+threshold to obtain precision and recall quality metrics. The dependency of the
+quality metric on the threshold level is considered. An appropriate mechanism
+such as "one handle" was introduced for filtering faults that are outside of
+the plant operator field of interest.

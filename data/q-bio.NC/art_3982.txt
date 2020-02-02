@@ -1,0 +1,24 @@
+Interaction patterns of brain activity across space, time and frequency.
+  Part I: methods
+We consider exploratory methods for the discovery of cortical functional
+connectivity. Typically, data for the i-th subject (i=1...NS) is represented as
+an NVxNT matrix Xi, corresponding to brain activity sampled at NT moments in
+time from NV cortical voxels. A widely used method of analysis first
+concatenates all subjects along the temporal dimension, and then performs an
+independent component analysis (ICA) for estimating the common cortical
+patterns of functional connectivity. There exist many other interesting
+variations of this technique, as reviewed in [Calhoun et al. 2009 Neuroimage
+45: S163-172]. We present methods for the more general problem of discovering
+functional connectivity occurring at all possible time lags. For this purpose,
+brain activity is viewed as a function of space and time, which allows the use
+of the relatively new techniques of functional data analysis [Ramsay &
+Silverman 2005: Functional data analysis. New York: Springer]. In essence, our
+method first vectorizes the data from each subject, which constitutes the
+natural discrete representation of a function of several variables, followed by
+concatenation of all subjects. The singular value decomposition (SVD), as well
+as the ICA of this new matrix of dimension [rows=(NT*NV); columns=NS] will
+reveal spatio-temporal patterns of connectivity. As a further example, in the
+case of EEG neuroimaging, Xi of size NVxNW may represent spectral density for
+electric neuronal activity at NW discrete frequencies from NV cortical voxels,
+from the i-th EEG epoch. In this case our functional data analysis approach
+would reveal coupling of brain regions at possibly different frequencies.

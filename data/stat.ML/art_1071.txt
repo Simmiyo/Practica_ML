@@ -1,0 +1,13 @@
+Modeling Group Dynamics Using Probabilistic Tensor Decompositions
+We propose a probabilistic modeling framework for learning the dynamic
+patterns in the collective behaviors of social agents and developing profiles
+for different behavioral groups, using data collected from multiple information
+sources. The proposed model is based on a hierarchical Bayesian process, in
+which each observation is a finite mixture of an set of latent groups and the
+mixture proportions (i.e., group probabilities) are drawn randomly. Each group
+is associated with some distributions over a finite set of outcomes. Moreover,
+as time evolves, the structure of these groups also changes; we model the
+change in the group structure by a hidden Markov model (HMM) with a fixed
+transition probability. We present an efficient inference method based on
+tensor decompositions and the expectation-maximization (EM) algorithm for
+parameter estimation.

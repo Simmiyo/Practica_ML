@@ -1,0 +1,18 @@
+Using objective words in the reviews to improve the colloquial arabic
+  sentiment analysis
+One of the main difficulties in sentiment analysis of the Arabic language is
+the presence of the colloquialism. In this paper, we examine the effect of
+using objective words in conjunction with sentimental words on sentiment
+classification for the colloquial Arabic reviews, specifically Jordanian
+colloquial reviews. The reviews often include both sentimental and objective
+words, however, the most existing sentiment analysis models ignore the
+objective words as they are considered useless. In this work, we created two
+lexicons: the first includes the colloquial sentimental words and compound
+phrases, while the other contains the objective words associated with values of
+sentiment tendency based on a particular estimation method. We used these
+lexicons to extract sentiment features that would be training input to the
+Support Vector Machines (SVM) to classify the sentiment polarity of the
+reviews. The reviews dataset have been collected manually from JEERAN website.
+The results of the experiments show that the proposed approach improves the
+polarity classification in comparison to two baseline models, with accuracy
+95.6%.

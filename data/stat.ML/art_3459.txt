@@ -1,0 +1,17 @@
+Selective Inference and Learning Mixed Graphical Models
+This thesis studies two problems in modern statistics. First, we study
+selective inference, or inference for hypothesis that are chosen after looking
+at the data. The motiving application is inference for regression coefficients
+selected by the lasso. We present the Condition-on-Selection method that allows
+for valid selective inference, and study its application to the lasso, and
+several other selection algorithms.
+  In the second part, we consider the problem of learning the structure of a
+pairwise graphical model over continuous and discrete variables. We present a
+new pairwise model for graphical models with both continuous and discrete
+variables that is amenable to structure learning. In previous work, authors
+have considered structure learning of Gaussian graphical models and structure
+learning of discrete models. Our approach is a natural generalization of these
+two lines of work to the mixed case. The penalization scheme involves a novel
+symmetric use of the group-lasso norm and follows naturally from a particular
+parametrization of the model. We provide conditions under which our estimator
+is model selection consistent in the high-dimensional regime.

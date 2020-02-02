@@ -1,0 +1,17 @@
+Spatio-Temporal Modeling of Users' Check-ins in Location-Based Social
+  Networks
+Social networks are getting closer to our real physical world. People share
+the exact location and time of their check-ins and are influenced by their
+friends. Modeling the spatio-temporal behavior of users in social networks is
+of great importance for predicting the future behavior of users, controlling
+the users' movements, and finding the latent influence network. It is observed
+that users have periodic patterns in their movements. Also, they are influenced
+by the locations that their close friends recently visited. Leveraging these
+two observations, we propose a probabilistic model based on a doubly stochastic
+point process with a periodic decaying kernel for the time of check-ins and a
+time-varying multinomial distribution for the location of check-ins of users in
+the location-based social networks. We learn the model parameters using an
+efficient EM algorithm, which distributes over the users. Experiments on
+synthetic and real data gathered from Foursquare show that the proposed
+inference algorithm learns the parameters efficiently and our model outperforms
+the other alternatives in the prediction of time and location of check-ins.

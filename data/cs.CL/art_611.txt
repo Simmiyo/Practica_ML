@@ -1,0 +1,16 @@
+ManTIME: Temporal expression identification and normalization in the
+  TempEval-3 challenge
+This paper describes a temporal expression identification and normalization
+system, ManTIME, developed for the TempEval-3 challenge. The identification
+phase combines the use of conditional random fields along with a
+post-processing identification pipeline, whereas the normalization phase is
+carried out using NorMA, an open-source rule-based temporal normalizer. We
+investigate the performance variation with respect to different feature types.
+Specifically, we show that the use of WordNet-based features in the
+identification task negatively affects the overall performance, and that there
+is no statistically significant difference in using gazetteers, shallow parsing
+and propositional noun phrases labels on top of the morphological features. On
+the test data, the best run achieved 0.95 (P), 0.85 (R) and 0.90 (F1) in the
+identification phase. Normalization accuracies are 0.84 (type attribute) and
+0.77 (value attribute). Surprisingly, the use of the silver data (alone or in
+addition to the gold annotated ones) does not improve the performance.

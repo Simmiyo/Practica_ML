@@ -1,0 +1,21 @@
+Spectral community detection in heterogeneous large networks
+In this article, we study spectral methods for community detection based on $
+\alpha$-parametrized normalized modularity matrix hereafter called $ {\bf
+L}_\alpha $ in heterogeneous graph models. We show, in a regime where community
+detection is not asymptotically trivial, that $ {\bf L}_\alpha $ can be well
+approximated by a more tractable random matrix which falls in the family of
+spiked random matrices. The analysis of this equivalent spiked random matrix
+allows us to improve spectral methods for community detection and assess their
+performances in the regime under study. In particular, we prove the existence
+of an optimal value $ \alpha_{\rm opt} $ of the parameter $ \alpha $ for which
+the detection of communities is best ensured and we provide an on-line
+estimation of $ \alpha_{\rm opt} $ only based on the knowledge of the graph
+adjacency matrix. Unlike classical spectral methods for community detection
+where clustering is performed on the eigenvectors associated with extreme
+eigenvalues, we show through our theoretical analysis that a regularization
+should instead be performed on those eigenvectors prior to clustering in
+heterogeneous graphs. Finally, through a deeper study of the regularized
+eigenvectors used for clustering, we assess the performances of our new
+algorithm for community detection. Numerical simulations in the course of the
+article show that our methods outperform state-of-the-art spectral methods on
+dense heterogeneous graphs.

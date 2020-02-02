@@ -1,0 +1,18 @@
+Generic Inference in Latent Gaussian Process Models
+We develop an automated variational method for inference in models with
+Gaussian process (GP) priors and general likelihoods. The method supports
+multiple outputs and multiple latent functions and does not require detailed
+knowledge of the conditional likelihood, only needing its evaluation as a
+black-box function. Using a mixture of Gaussians as the variational
+distribution, we show that the evidence lower bound and its gradients can be
+estimated efficiently using samples from univariate Gaussian distributions.
+Furthermore, the method is scalable to large datasets which is achieved by
+using an augmented prior via the inducing-variable approach underpinning most
+sparse GP approximations, along with parallel computation and stochastic
+optimization. We evaluate our approach quantitatively and qualitatively with
+experiments on small datasets, medium-scale datasets and large datasets,
+showing its competitiveness under different likelihood models and sparsity
+levels. On the large-scale experiments involving prediction of airline delays
+and classification of handwritten digits, we show that our method is on par
+with the state-of-the-art hard-coded approaches for scalable GP regression and
+classification.

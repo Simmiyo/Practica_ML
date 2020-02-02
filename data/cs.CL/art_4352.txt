@@ -1,0 +1,17 @@
+A Full End-to-End Semantic Role Labeler, Syntax-agnostic Over
+  Syntax-aware?
+Semantic role labeling (SRL) is to recognize the predicate-argument structure
+of a sentence, including subtasks of predicate disambiguation and argument
+labeling. Previous studies usually formulate the entire SRL problem into two or
+more subtasks. For the first time, this paper introduces an end-to-end neural
+model which unifiedly tackles the predicate disambiguation and the argument
+labeling in one shot. Using a biaffine scorer, our model directly predicts all
+semantic role labels for all given word pairs in the sentence without relying
+on any syntactic parse information. Specifically, we augment the BiLSTM encoder
+with a non-linear transformation to further distinguish the predicate and the
+argument in a given sentence, and model the semantic role labeling process as a
+word pair classification task by employing the biaffine attentional mechanism.
+Though the proposed model is syntax-agnostic with local decoder, it outperforms
+the state-of-the-art syntax-aware SRL systems on the CoNLL-2008, 2009
+benchmarks for both English and Chinese. To our best knowledge, we report the
+first syntax-agnostic SRL model that surpasses all known syntax-aware models.

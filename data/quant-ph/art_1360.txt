@@ -1,0 +1,12 @@
+Quantum Computers Speed Up Classical with Probability Zero
+Let $f$ denote length preserving function on words. A classical algorithm can
+be considered as $T$ iterated applications of black box representing $f$,
+beginning with input word $x$ of length $n$.
+  It is proved that if $T=O(2^{n/(7+e)}), e >0$, and $f$ is chosen randomly
+then with probability 1 every quantum computer requires not less than $T$
+evaluations of $f$ to obtain the result of classical computation. It means that
+the set of classical algorithms admitting quantum speeding up has probability
+measure zero.
+  The second result is that for arbitrary classical time complexity $T$ and $f$
+chosen randomly with probability 1 every quantum simulation of classical
+computation requires at least $\Omega (\sqrt {T})$ evaluations of $f$.

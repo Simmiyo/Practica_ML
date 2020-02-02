@@ -1,0 +1,19 @@
+Why Quantum Bit Commitment And Ideal Quantum Coin Tossing Are Impossible
+There had been well known claims of unconditionally secure quantum protocols
+for bit commitment. However, we, and independently Mayers, showed that all
+proposed quantum bit commitment schemes are, in principle, insecure because the
+sender, Alice, can almost always cheat successfully by using an
+Einstein-Podolsky-Rosen (EPR) type of attack and delaying her measurements. One
+might wonder if secure quantum bit commitment protocols exist at all. We answer
+this question by showing that the same type of attack by Alice will, in
+principle, break any bit commitment scheme. The cheating strategy generally
+requires a quantum computer. We emphasize the generality of this ``no-go
+theorem'': Unconditionally secure bit commitment schemes based on quantum
+mechanics---fully quantum, classical or quantum but with measurements---are all
+ruled out by this result. Since bit commitment is a useful primitive for
+building up more sophisticated protocols such as zero-knowledge proofs, our
+results cast very serious doubt on the security of quantum cryptography in the
+so-called ``post-cold-war'' applications. We also show that ideal quantum coin
+tossing is impossible because of the EPR attack. This no-go theorem for ideal
+quantum coin tossing may help to shed some lights on the possibility of
+non-ideal protocols.

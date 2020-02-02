@@ -1,0 +1,14 @@
+Non-Parametric Cluster Significance Testing with Reference to a Unimodal
+  Null Distribution
+Cluster analysis is an unsupervised learning strategy that can be employed to
+identify subgroups of observations in data sets of unknown structure. This
+strategy is particularly useful for analyzing high-dimensional data such as
+microarray gene expression data. Many clustering methods are available, but it
+is challenging to determine if the identified clusters represent distinct
+subgroups. We propose a novel strategy to investigate the significance of
+identified clusters by comparing the within- cluster sum of squares from the
+original data to that produced by clustering an appropriate unimodal null
+distribution. The null distribution we present for this problem uses kernel
+density estimation and thus does not require that the data follow any
+particular distribution. We find that our method can accurately test for the
+presence of clustering even when the number of features is high.

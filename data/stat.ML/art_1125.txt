@@ -1,0 +1,25 @@
+Structured Sparse Principal Components Analysis with the TV-Elastic Net
+  penalty
+Principal component analysis (PCA) is an exploratory tool widely used in data
+analysis to uncover dominant patterns of variability within a population.
+Despite its ability to represent a data set in a low-dimensional space, the
+interpretability of PCA remains limited. However, in neuroimaging, it is
+essential to uncover clinically interpretable phenotypic markers that would
+account for the main variability in the brain images of a population. Recently,
+some alternatives to the standard PCA approach, such as Sparse PCA, have been
+proposed, their aim being to limit the density of the components. Nonetheless,
+sparsity alone does not entirely solve the interpretability problem, since it
+may yield scattered and unstable components. We hypothesized that the
+incorporation of prior information regarding the structure of the data may lead
+to improved relevance and interpretability of brain patterns. We therefore
+present a simple extension of the popular PCA framework that adds structured
+sparsity penalties on the loading vectors in order to identify the few stable
+regions in the brain images accounting for most of the variability. Such
+structured sparsity can be obtained by combining l1 and total variation (TV)
+penalties, where the TV regularization encodes higher order information about
+the structure of the data. This paper presents the structured sparse PCA
+(denoted SPCA-TV) optimization framework and its resolution. We demonstrate the
+efficiency and versatility of SPCA-TV on three different data sets. The gains
+of SPCA-TV over unstructured approaches are significant,since SPCA-TV reveals
+the variability within a data set in the form of intelligible brain patterns
+that are easy to interpret, and are more stable across different samples.

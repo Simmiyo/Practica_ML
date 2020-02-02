@@ -1,0 +1,27 @@
+Artificial neural network based calibrations for the prediction of
+  galactic [NII] $λ$ 6584 and H$α$ line luminosities
+The artificial neural network (ANN) is a well-established mathematical
+technique for data prediction, based on the identification of correlations and
+pattern recognition in input training sets. We present the application of ANNs
+to predict the emission line luminosities of H$\alpha$ and [NII] $\lambda$6584
+in galaxies. These important spectral diagnostics are used for metallicities,
+active galactic nuclei (AGN) classification and star formation rates, yet are
+shifted into the infra-red for galaxies above $z \sim 0.5$, or may not be
+covered in spectra with limited wavelength coverage. The ANN is trained with a
+large sample of emission line galaxies selected from the Sloan Digital Sky
+Survey using various combinations of emission lines and stellar mass. The ANN
+is tested for galaxies dominated by both star formation and AGN; in both cases
+the H$\alpha$ and [NII] $\lambda$6584 line luminosities can be predicted with a
+scatter $\sigma <$ 0.1 dex. We also show that the performance of the ANN does
+not depend significantly on the covering fraction, mass or metallicity of the
+data. Polynomial functions are derived that allow easy application of the ANN
+predictions to determine H$\alpha$ and [NII] $\lambda$6584 line luminosities.
+An ANN calibration for the Balmer decrement (H$\alpha$/H$\beta$) based on line
+equivalent widths and colours is also presented. The effectiveness of the ANN
+calibration is demonstrated with an independent dataset (the Galaxy Mass and
+Assembly Survey). We demonstrate the application of our line luminosities to
+the determination of gas-phase metallicities and AGN classification. The ANN
+technique yields a significant improvement in the measurement of metallicities
+that require [NII] and H$\alpha$ when compared with the function based
+conversions of Kewley & Ellison. The AGN classification is successful for 86
+per cent of SDSS galaxies.

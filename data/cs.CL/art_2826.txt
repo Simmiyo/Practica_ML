@@ -1,0 +1,10 @@
+Combining Thesaurus Knowledge and Probabilistic Topic Models
+In this paper we present the approach of introducing thesaurus knowledge into
+probabilistic topic models. The main idea of the approach is based on the
+assumption that the frequencies of semantically related words and phrases,
+which are met in the same texts, should be enhanced: this action leads to their
+larger contribution into topics found in these texts. We have conducted
+experiments with several thesauri and found that for improving topic models, it
+is useful to utilize domain-specific knowledge. If a general thesaurus, such as
+WordNet, is used, the thesaurus-based improvement of topic models can be
+achieved with excluding hyponymy relations in combined topic models.

@@ -1,0 +1,24 @@
+A topological criterion for filtering information in complex brain
+  networks
+In many biological systems, the network of interactions between the elements
+can only be inferred from experimental measurements. In neuroscience,
+non-invasive imaging tools are extensively used to derive either structural or
+functional brain networks in-vivo. As a result of the inference process, we
+obtain a matrix of values corresponding to an unrealistic fully connected and
+weighted network. To turn this into a useful sparse network, thresholding is
+typically adopted to cancel a percentage of the weakest connections. The
+structural properties of the resulting network depend on how much of the
+inferred connectivity is eventually retained. However, how to fix this
+threshold is still an open issue. We introduce a criterion, the efficiency cost
+optimization (ECO), to select a threshold based on the optimization of the
+trade-off between the efficiency of a network and its wiring cost. We prove
+analytically and we confirm through numerical simulations that the connection
+density maximizing this trade-off emphasizes the intrinsic properties of a
+given network, while preserving its sparsity. Moreover, this density threshold
+can be determined a-priori, since the number of connections to filter only
+depends on the network size according to a power-law. We validate this result
+on several brain networks, from micro- to macro-scales, obtained with different
+imaging modalities. Finally, we test the potential of ECO in discriminating
+brain states with respect to alternative filtering methods. ECO advances our
+ability to analyze and compare biological networks, inferred from experimental
+data, in a fast and principled way.

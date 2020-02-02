@@ -1,0 +1,11 @@
+Exploration--Exploitation in MDPs with Options
+While a large body of empirical results show that temporally-extended actions
+and options may significantly affect the learning performance of an agent, the
+theoretical understanding of how and when options can be beneficial in online
+reinforcement learning is relatively limited. In this paper, we derive an upper
+and lower bound on the regret of a variant of UCRL using options. While we
+first analyze the algorithm in the general case of semi-Markov decision
+processes (SMDPs), we show how these results can be translated to the specific
+case of MDPs with options and we illustrate simple scenarios in which the
+regret of learning with options can be \textit{provably} much smaller than the
+regret suffered when learning with primitive actions.

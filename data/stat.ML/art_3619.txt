@@ -1,0 +1,23 @@
+Finding structure in data using multivariate tree boosting
+Technology and collaboration enable dramatic increases in the size of
+psychological and psychiatric data collections, but finding structure in these
+large data sets with many collected variables is challenging. Decision tree
+ensembles like random forests (Strobl, Malley, and Tutz, 2009) are a useful
+tool for finding structure, but are difficult to interpret with multiple
+outcome variables which are often of interest in psychology. To find and
+interpret structure in data sets with multiple outcomes and many predictors
+(possibly exceeding the sample size), we introduce a multivariate extension to
+a decision tree ensemble method called Gradient Boosted Regression Trees
+(Friedman, 2001). Our method, multivariate tree boosting, can be used for
+identifying important predictors, detecting predictors with non-linear effects
+and interactions without specification of such effects, and for identifying
+predictors that cause two or more outcome variables to covary without
+parametric assumptions. We provide the R package 'mvtboost' to estimate, tune,
+and interpret the resulting model, which extends the implementation of
+univariate boosting in the R package 'gbm' (Ridgeway, 2013) to continuous,
+multivariate outcomes. To illustrate the approach, we analyze predictors of
+psychological well-being (Ryff and Keyes, 1995). Simulations verify that our
+approach identifies predictors with non-linear effects and achieves high
+prediction accuracy, exceeding or matching the performance of (penalized)
+multivariate multiple regression and multivariate decision trees over a wide
+range of conditions.

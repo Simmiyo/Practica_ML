@@ -1,0 +1,13 @@
+Improving Social Media Text Summarization by Learning Sentence Weight
+  Distribution
+Recently, encoder-decoder models are widely used in social media text
+summarization. However, these models sometimes select noise words in irrelevant
+sentences as part of a summary by error, thus declining the performance. In
+order to inhibit irrelevant sentences and focus on key information, we propose
+an effective approach by learning sentence weight distribution. In our model,
+we build a multi-layer perceptron to predict sentence weights. During training,
+we use the ROUGE score as an alternative to the estimated sentence weight, and
+try to minimize the gap between estimated weights and predicted weights. In
+this way, we encourage our model to focus on the key sentences, which have high
+relevance with the summary. Experimental results show that our approach
+outperforms baselines on a large-scale social media corpus.

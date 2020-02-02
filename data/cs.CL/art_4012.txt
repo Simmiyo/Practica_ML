@@ -1,0 +1,10 @@
+Code-Switching Language Modeling using Syntax-Aware Multi-Task Learning
+Lack of text data has been the major issue on code-switching language
+modeling. In this paper, we introduce multi-task learning based language model
+which shares syntax representation of languages to leverage linguistic
+information and tackle the low resource data issue. Our model jointly learns
+both language modeling and Part-of-Speech tagging on code-switched utterances.
+In this way, the model is able to identify the location of code-switching
+points and improves the prediction of next word. Our approach outperforms
+standard LSTM based language model, with an improvement of 9.7% and 7.4% in
+perplexity on SEAME Phase I and Phase II dataset respectively.

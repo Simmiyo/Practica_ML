@@ -1,0 +1,19 @@
+Streaming Label Learning for Modeling Labels on the Fly
+It is challenging to handle a large volume of labels in multi-label learning.
+However, existing approaches explicitly or implicitly assume that all the
+labels in the learning process are given, which could be easily violated in
+changing environments. In this paper, we define and study streaming label
+learning (SLL), i.e., labels are arrived on the fly, to model newly arrived
+labels with the help of the knowledge learned from past labels. The core of SLL
+is to explore and exploit the relationships between new labels and past labels
+and then inherit the relationship into hypotheses of labels to boost the
+performance of new classifiers. In specific, we use the label
+self-representation to model the label relationship, and SLL will be divided
+into two steps: a regression problem and a empirical risk minimization (ERM)
+problem. Both problems are simple and can be efficiently solved. We further
+show that SLL can generate a tighter generalization error bound for new labels
+than the general ERM framework with trace norm or Frobenius norm
+regularization. Finally, we implement extensive experiments on various
+benchmark datasets to validate the new setting. And results show that SLL can
+effectively handle the constantly emerging new labels and provides excellent
+classification performance.

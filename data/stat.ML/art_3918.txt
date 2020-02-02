@@ -1,0 +1,17 @@
+Stochastic Alternating Direction Method of Multipliers with Variance
+  Reduction for Nonconvex Optimization
+In the paper, we study the stochastic alternating direction method of
+multipliers (ADMM) for the nonconvex optimizations, and propose three classes
+of the nonconvex stochastic ADMM with variance reduction, based on different
+reduced variance stochastic gradients. Specifically, the first class called the
+nonconvex stochastic variance reduced gradient ADMM (SVRG-ADMM), uses a
+multi-stage scheme to progressively reduce the variance of stochastic
+gradients. The second is the nonconvex stochastic average gradient ADMM
+(SAG-ADMM), which additionally uses the old gradients estimated in the previous
+iteration. The third called SAGA-ADMM is an extension of the SAG-ADMM method.
+Moreover, under some mild conditions, we establish the iteration complexity
+bound of $O(1/\epsilon)$ of the proposed methods to obtain an
+$\epsilon$-stationary solution of the nonconvex optimizations. In particular,
+we provide a general framework to analyze the iteration complexity of these
+nonconvex stochastic ADMM methods with variance reduction. Finally, some
+numerical experiments demonstrate the effectiveness of our methods.

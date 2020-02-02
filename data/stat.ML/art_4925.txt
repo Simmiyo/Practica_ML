@@ -1,0 +1,17 @@
+Stochastic Rank-1 Bandits
+We propose stochastic rank-$1$ bandits, a class of online learning problems
+where at each step a learning agent chooses a pair of row and column arms, and
+receives the product of their values as a reward. The main challenge of the
+problem is that the individual values of the row and column are unobserved. We
+assume that these values are stochastic and drawn independently. We propose a
+computationally-efficient algorithm for solving our problem, which we call
+Rank1Elim. We derive a $O((K + L) (1 / \Delta) \log n)$ upper bound on its
+$n$-step regret, where $K$ is the number of rows, $L$ is the number of columns,
+and $\Delta$ is the minimum of the row and column gaps; under the assumption
+that the mean row and column rewards are bounded away from zero. To the best of
+our knowledge, we present the first bandit algorithm that finds the maximum
+entry of a rank-$1$ matrix whose regret is linear in $K + L$, $1 / \Delta$, and
+$\log n$. We also derive a nearly matching lower bound. Finally, we evaluate
+Rank1Elim empirically on multiple problems. We observe that it leverages the
+structure of our problems and can learn near-optimal solutions even if our
+modeling assumptions are mildly violated.

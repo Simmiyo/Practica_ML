@@ -1,0 +1,14 @@
+Causal Effect Identification in Acyclic Directed Mixed Graphs and Gated
+  Models
+We introduce a new family of graphical models that consists of graphs with
+possibly directed, undirected and bidirected edges but without directed cycles.
+We show that these models are suitable for representing causal models with
+additive error terms. We provide a set of sufficient graphical criteria for the
+identification of arbitrary causal effects when the new models contain directed
+and undirected edges but no bidirected edge. We also provide a necessary and
+sufficient graphical criterion for the identification of the causal effect of a
+single variable on the rest of the variables. Moreover, we develop an exact
+algorithm for learning the new models from observational and interventional
+data via answer set programming. Finally, we introduce gated models for causal
+effect identification, a new family of graphical models that exploits context
+specific independences to identify additional causal effects.

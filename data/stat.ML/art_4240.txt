@@ -1,0 +1,14 @@
+Recovery of Missing Samples Using Sparse Approximation via a Convex
+  Similarity Measure
+In this paper, we study the missing sample recovery problem using methods
+based on sparse approximation. In this regard, we investigate the algorithms
+used for solving the inverse problem associated with the restoration of missed
+samples of image signal. This problem is also known as inpainting in the
+context of image processing and for this purpose, we suggest an iterative
+sparse recovery algorithm based on constrained $l_1$-norm minimization with a
+new fidelity metric. The proposed metric called Convex SIMilarity (CSIM) index,
+is a simplified version of the Structural SIMilarity (SSIM) index, which is
+convex and error-sensitive. The optimization problem incorporating this
+criterion, is then solved via Alternating Direction Method of Multipliers
+(ADMM). Simulation results show the efficiency of the proposed method for
+missing sample recovery of 1D patch vectors and inpainting of 2D image signals.

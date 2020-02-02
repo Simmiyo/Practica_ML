@@ -1,0 +1,13 @@
+Inverse Risk-Sensitive Reinforcement Learning
+We address the problem of inverse reinforcement learning in Markov decision
+processes where the agent is risk-sensitive. In particular, we model
+risk-sensitivity in a reinforcement learning framework by making use of models
+of human decision-making having their origins in behavioral psychology,
+behavioral economics, and neuroscience. We propose a gradient-based inverse
+reinforcement learning algorithm that minimizes a loss function defined on the
+observed behavior. We demonstrate the performance of the proposed technique on
+two examples, the first of which is the canonical Grid World example and the
+second of which is a Markov decision process modeling passengers' decisions
+regarding ride-sharing. In the latter, we use pricing and travel time data from
+a ride-sharing company to construct the transition probabilities and rewards of
+the Markov decision process.

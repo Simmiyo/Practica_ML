@@ -1,0 +1,8 @@
+Some Notes on Parallel Quantum Computation
+We exhibit some simple gadgets useful in designing shallow parallel circuits
+for quantum algorithms. We prove that any quantum circuit composed entirely of
+controlled-not gates or of diagonal gates can be parallelized to logarithmic
+depth, while circuits composed of both cannot. Finally, while we note the
+Quantum Fourier Transform can be parallelized to linear depth, we exhibit a
+simple quantum circuit related to it that we believe cannot be parallelized to
+less than linear depth, and therefore might be used to prove that QNC < QP.

@@ -1,0 +1,13 @@
+Bayesian Structured Prediction Using Gaussian Processes
+We introduce a conceptually novel structured prediction model, GPstruct,
+which is kernelized, non-parametric and Bayesian, by design. We motivate the
+model with respect to existing approaches, among others, conditional random
+fields (CRFs), maximum margin Markov networks (M3N), and structured support
+vector machines (SVMstruct), which embody only a subset of its properties. We
+present an inference procedure based on Markov Chain Monte Carlo. The framework
+can be instantiated for a wide range of structured objects such as linear
+chains, trees, grids, and other general graphs. As a proof of concept, the
+model is benchmarked on several natural language processing tasks and a video
+gesture segmentation task involving a linear chain structure. We show
+prediction accuracies for GPstruct which are comparable to or exceeding those
+of CRFs and SVMstruct.

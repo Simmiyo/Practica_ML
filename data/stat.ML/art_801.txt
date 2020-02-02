@@ -1,0 +1,14 @@
+Model Selection for Gaussian Process Regression by Approximation Set
+  Coding
+Gaussian processes are powerful, yet analytically tractable models for
+supervised learning. A Gaussian process is characterized by a mean function and
+a covariance function (kernel), which are determined by a model selection
+criterion. The functions to be compared do not just differ in their
+parametrization but in their fundamental structure. It is often not clear which
+function structure to choose, for instance to decide between a squared
+exponential and a rational quadratic kernel. Based on the principle of
+approximation set coding, we develop a framework for model selection to rank
+kernels for Gaussian process regression. In our experiments approximation set
+coding shows promise to become a model selection criterion competitive with
+maximum evidence (also called marginal likelihood) and leave-one-out
+cross-validation.

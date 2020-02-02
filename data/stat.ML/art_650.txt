@@ -1,0 +1,9 @@
+Gradient Importance Sampling
+Adaptive Monte Carlo schemes developed over the last years usually seek to
+ensure ergodicity of the sampling process in line with MCMC tradition. This
+poses constraints on what is possible in terms of adaptation. In the general
+case ergodicity can only be guaranteed if adaptation is diminished at a certain
+rate. Importance Sampling approaches offer a way to circumvent this limitation
+and design sampling algorithms that keep adapting. Here I present a gradient
+informed variant of SMC (and its special case Population Monte Carlo) for
+static problems.

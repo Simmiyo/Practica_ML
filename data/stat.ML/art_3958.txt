@@ -1,0 +1,11 @@
+Learning Deep Architectures for Interaction Prediction in
+  Structure-based Virtual Screening
+We introduce a deep learning architecture for structure-based virtual
+screening that generates fixed-sized fingerprints of proteins and small
+molecules by applying learnable atom convolution and softmax operations to each
+compound separately. These fingerprints are further transformed non-linearly,
+their inner-product is calculated and used to predict the binding potential.
+Moreover, we show that widely used benchmark datasets may be insufficient for
+testing structure-based virtual screening methods that utilize machine
+learning. Therefore, we introduce a new benchmark dataset, which we constructed
+based on DUD-E and PDBBind databases.

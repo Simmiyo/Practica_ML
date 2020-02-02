@@ -1,0 +1,21 @@
+Efficiency for Regularization Parameter Selection in Penalized
+  Likelihood Estimation of Misspecified Models
+It has been shown that AIC-type criteria are asymptotically efficient
+selectors of the tuning parameter in non-concave penalized regression methods
+under the assumption that the population variance is known or that a consistent
+estimator is available. We relax this assumption to prove that AIC itself is
+asymptotically efficient and we study its performance in finite samples. In
+classical regression, it is known that AIC tends to select overly complex
+models when the dimension of the maximum candidate model is large relative to
+the sample size. Simulation studies suggest that AIC suffers from the same
+shortcomings when used in penalized regression. We therefore propose the use of
+the classical corrected AIC (AICc) as an alternative and prove that it
+maintains the desired asymptotic properties. To broaden our results, we further
+prove the efficiency of AIC for penalized likelihood methods in the context of
+generalized linear models with no dispersion parameter. Similar results exist
+in the literature but only for a restricted set of candidate models. By
+employing results from the classical literature on maximum-likelihood
+estimation in misspecified models, we are able to establish this result for a
+general set of candidate models. We use simulations to assess the performance
+of AIC and AICc, as well as that of other selectors, in finite samples for both
+SCAD-penalized and Lasso regressions and a real data example is considered.

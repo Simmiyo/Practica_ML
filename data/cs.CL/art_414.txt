@@ -1,0 +1,26 @@
+Approximations to the MMI criterion and their effect on lattice-based
+  MMI
+Maximum mutual information (MMI) is a model selection criterion used for
+hidden Markov model (HMM) parameter estimation that was developed more than
+twenty years ago as a discriminative alternative to the maximum likelihood
+criterion for HMM-based speech recognition. It has been shown in the speech
+recognition literature that parameter estimation using the current MMI
+paradigm, lattice-based MMI, consistently outperforms maximum likelihood
+estimation, but this is at the expense of undesirable convergence properties.
+In particular, recognition performance is sensitive to the number of times that
+the iterative MMI estimation algorithm, extended Baum-Welch, is performed. In
+fact, too many iterations of extended Baum-Welch will lead to degraded
+performance, despite the fact that the MMI criterion improves at each
+iteration. This phenomenon is at variance with the analogous behavior of
+maximum likelihood estimation -- at least for the HMMs used in speech
+recognition -- and it has previously been attributed to `over fitting'. In this
+paper, we present an analysis of lattice-based MMI that demonstrates, first of
+all, that the asymptotic behavior of lattice-based MMI is much worse than was
+previously understood, i.e. it does not appear to converge at all, and, second
+of all, that this is not due to `over fitting'. Instead, we demonstrate that
+the `over fitting' phenomenon is the result of standard methodology that
+exacerbates the poor behavior of two key approximations in the lattice-based
+MMI machinery. We also demonstrate that if we modify the standard methodology
+to improve the validity of these approximations, then the convergence
+properties of lattice-based MMI become benign without sacrificing improvements
+to recognition accuracy.

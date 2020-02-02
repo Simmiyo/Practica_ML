@@ -1,0 +1,12 @@
+A Practioner's Guide to Evaluating Entity Resolution Results
+Entity resolution (ER) is the task of identifying records belonging to the
+same entity (e.g. individual, group) across one or multiple databases.
+Ironically, it has multiple names: deduplication and record linkage, among
+others. In this paper we survey metrics used to evaluate ER results in order to
+iteratively improve performance and guarantee sufficient quality prior to
+deployment. Some of these metrics are borrowed from multi-class classification
+and clustering domains, though some key differences exist differentiating
+entity resolution from general clustering. Menestrina et al. empirically showed
+rankings from these metrics often conflict with each other, thus our primary
+motivation for studying them. This paper provides practitioners the basic
+knowledge to begin evaluating their entity resolution results.

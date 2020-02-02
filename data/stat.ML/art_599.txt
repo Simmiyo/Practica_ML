@@ -1,0 +1,11 @@
+Bootstrap Bias Corrections for Ensemble Methods
+This paper examines the use of a residual bootstrap for bias correction in
+machine learning regression methods. Accounting for bias is an important
+obstacle in recent efforts to develop statistical inference for machine
+learning methods. We demonstrate empirically that the proposed bootstrap bias
+correction can lead to substantial improvements in both bias and predictive
+accuracy. In the context of ensembles of trees, we show that this correction
+can be approximated at only double the cost of training the original ensemble
+without introducing additional variance. Our method is shown to improve
+test-set accuracy over random forests by up to 70\% on example problems from
+the UCI repository.

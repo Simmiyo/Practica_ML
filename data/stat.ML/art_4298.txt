@@ -1,0 +1,21 @@
+Approximate message passing for nonconvex sparse regularization with
+  stability and asymptotic analysis
+We analyse a linear regression problem with nonconvex regularization called
+smoothly clipped absolute deviation (SCAD) under an overcomplete Gaussian basis
+for Gaussian random data. We propose an approximate message passing (AMP)
+algorithm considering nonconvex regularization, namely SCAD-AMP, and
+analytically show that the stability condition corresponds to the de
+Almeida--Thouless condition in spin glass literature. Through asymptotic
+analysis, we show the correspondence between the density evolution of SCAD-AMP
+and the replica symmetric solution. Numerical experiments confirm that for a
+sufficiently large system size, SCAD-AMP achieves the optimal performance
+predicted by the replica method. Through replica analysis, a phase transition
+between replica symmetric (RS) and replica symmetry breaking (RSB) region is
+found in the parameter space of SCAD. The appearance of the RS region for a
+nonconvex penalty is a significant advantage that indicates the region of
+smooth landscape of the optimization problem. Furthermore, we analytically show
+that the statistical representation performance of the SCAD penalty is better
+than that of L1-based methods, and the minimum representation error under RS
+assumption is obtained at the edge of the RS/RSB phase. The correspondence
+between the convergence of the existing coordinate descent algorithm and RS/RSB
+transition is also indicated.

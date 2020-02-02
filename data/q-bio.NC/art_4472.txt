@@ -1,0 +1,26 @@
+Automatically tracking neurons in a moving and deforming brain
+Advances in optical neuroimaging techniques now allow neural activity to be
+recorded with cellular resolution in awake and behaving animals. Brain motion
+in these recordings pose a unique challenge. The location of individual neurons
+must be tracked in 3D over time to accurately extract single neuron activity
+traces. Recordings from small invertebrates like C. elegans are especially
+challenging because they undergo very large brain motion and deformation during
+animal movement. Here we present an automated computer vision pipeline to
+reliably track populations of neurons with single neuron resolution in the
+brain of a freely moving C. elegans undergoing large motion and deformation. 3D
+volumetric fluorescent images of the animal's brain are straightened, aligned
+and registered, and the locations of neurons in the images are found via
+segmentation. Each neuron is then assigned an identity using a new
+time-independent machine-learning approach we call Neuron Registration Vector
+Encoding. In this approach, non-rigid point-set registration is used to match
+each segmented neuron in each volume with a set of reference volumes taken from
+throughout the recording. The way each neuron matches with the references
+defines a feature vector which is clustered to assign an identity to each
+neuron in each volume. Finally, thin-plate spline interpolation is used to
+correct errors in segmentation and check consistency of assigned identities.
+The Neuron Registration Vector Encoding approach proposed here is uniquely well
+suited for tracking neurons in brains undergoing large deformations. When
+applied to whole-brain calcium imaging recordings in freely moving C. elegans,
+this analysis pipeline located 150 neurons for the duration of an 8 minute
+recording and consistently found more neurons more quickly than manual or
+semi-automated approaches.

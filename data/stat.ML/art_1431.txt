@@ -1,0 +1,11 @@
+Decontamination of Mutual Contamination Models
+Many machine learning problems can be characterized by mutual contamination
+models. In these problems, one observes several random samples from different
+convex combinations of a set of unknown base distributions and the goal is to
+infer these base distributions. This paper considers the general setting where
+the base distributions are defined on arbitrary probability spaces. We examine
+three popular machine learning problems that arise in this general setting:
+multiclass classification with label noise, demixing of mixed membership
+models, and classification with partial labels. In each case, we give
+sufficient conditions for identifiability and present algorithms for the
+infinite and finite sample settings, with associated performance guarantees.

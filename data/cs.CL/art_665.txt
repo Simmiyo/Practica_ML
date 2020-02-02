@@ -1,0 +1,16 @@
+Domain-Specific Sentiment Word Extraction by Seed Expansion and Pattern
+  Generation
+This paper focuses on the automatic extraction of domain-specific sentiment
+word (DSSW), which is a fundamental subtask of sentiment analysis. Most
+previous work utilizes manual patterns for this task. However, the performance
+of those methods highly relies on the labelled patterns or selected seeds. In
+order to overcome the above problem, this paper presents an automatic framework
+to detect large-scale domain-specific patterns for DSSW extraction. To this
+end, sentiment seeds are extracted from massive dataset of user comments.
+Subsequently, these sentiment seeds are expanded by synonyms using a
+bootstrapping mechanism. Simultaneously, a synonymy graph is built and the
+graph propagation algorithm is applied on the built synonymy graph. Afterwards,
+syntactic and sequential relations between target words and high-ranked
+sentiment words are extracted automatically to construct large-scale patterns,
+which are further used to extracte DSSWs. The experimental results in three
+domains reveal the effectiveness of our method.

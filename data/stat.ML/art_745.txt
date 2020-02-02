@@ -1,0 +1,15 @@
+Post-Regularization Inference for Time-Varying Nonparanormal Graphical
+  Models
+We propose a novel class of time-varying nonparanormal graphical models,
+which allows us to model high dimensional heavy-tailed systems and the
+evolution of their latent network structures. Under this model, we develop
+statistical tests for presence of edges both locally at a fixed index value and
+globally over a range of values. The tests are developed for a high-dimensional
+regime, are robust to model selection mistakes and do not require commonly
+assumed minimum signal strength. The testing procedures are based on a high
+dimensional, debiasing-free moment estimator, which uses a novel kernel
+smoothed Kendall's tau correlation matrix as an input statistic. The estimator
+consistently estimates the latent inverse Pearson correlation matrix uniformly
+in both the index variable and kernel bandwidth. Its rate of convergence is
+shown to be minimax optimal. Our method is supported by thorough numerical
+simulations and an application to a neural imaging data set.

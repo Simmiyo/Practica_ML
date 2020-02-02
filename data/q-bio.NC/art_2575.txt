@@ -1,0 +1,20 @@
+Hardware-Amenable Structural Learning for Spike-based Pattern
+  Classification using a Simple Model of Active Dendrites
+This paper presents a spike-based model which employs neurons with
+functionally distinct dendritic compartments for classifying high dimensional
+binary patterns. The synaptic inputs arriving on each dendritic subunit are
+nonlinearly processed before being linearly integrated at the soma, giving the
+neuron a capacity to perform a large number of input-output mappings. The model
+utilizes sparse synaptic connectivity; where each synapse takes a binary value.
+The optimal connection pattern of a neuron is learned by using a simple
+hardware-friendly, margin enhancing learning algorithm inspired by the
+mechanism of structural plasticity in biological neurons. The learning
+algorithm groups correlated synaptic inputs on the same dendritic branch. Since
+the learning results in modified connection patterns, it can be incorporated
+into current event-based neuromorphic systems with little overhead. This work
+also presents a branch-specific spike-based version of this structural
+plasticity rule. The proposed model is evaluated on benchmark binary
+classification problems and its performance is compared against that achieved
+using Support Vector Machine (SVM) and Extreme Learning Machine (ELM)
+techniques. Our proposed method attains comparable performance while utilizing
+10 to 50% less computational resources than the other reported techniques.

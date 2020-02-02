@@ -1,0 +1,12 @@
+Nested Hierarchical Dirichlet Processes
+We develop a nested hierarchical Dirichlet process (nHDP) for hierarchical
+topic modeling. The nHDP is a generalization of the nested Chinese restaurant
+process (nCRP) that allows each word to follow its own path to a topic node
+according to a document-specific distribution on a shared tree. This alleviates
+the rigid, single-path formulation of the nCRP, allowing a document to more
+easily express thematic borrowings as a random effect. We derive a stochastic
+variational inference algorithm for the model, in addition to a greedy subtree
+selection method for each document, which allows for efficient inference using
+massive collections of text documents. We demonstrate our algorithm on 1.8
+million documents from The New York Times and 3.3 million documents from
+Wikipedia.

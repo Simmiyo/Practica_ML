@@ -1,0 +1,25 @@
+Network-based methods for outcome prediction in the "sample space"
+In this thesis we present the novel semi-supervised network-based algorithm
+P-Net, which is able to rank and classify patients with respect to a specific
+phenotype or clinical outcome under study. The peculiar and innovative
+characteristic of this method is that it builds a network of samples/patients,
+where the nodes represent the samples and the edges are functional or genetic
+relationships between individuals (e.g. similarity of expression profiles), to
+predict the phenotype under study. In other words, it constructs the network in
+the "sample space" and not in the "biomarker space" (where nodes represent
+biomolecules (e.g. genes, proteins) and edges represent functional or genetic
+relationships between nodes), as usual in state-of-the-art methods. To assess
+the performances of P-Net, we apply it on three different publicly available
+datasets from patients afflicted with a specific type of tumor: pancreatic
+cancer, melanoma and ovarian cancer dataset, by using the data and following
+the experimental set-up proposed in two recently published papers [Barter et
+al., 2014, Winter et al., 2012]. We show that network-based methods in the
+"sample space" can achieve results competitive with classical supervised
+inductive systems. Moreover, the graph representation of the samples can be
+easily visualized through networks and can be used to gain visual clues about
+the relationships between samples, taking into account the phenotype associated
+or predicted for each sample. To our knowledge this is one of the first works
+that proposes graph-based algorithms working in the "sample space" of the
+biomolecular profiles of the patients to predict their phenotype or outcome,
+thus contributing to a novel research line in the framework of the Network
+Medicine.

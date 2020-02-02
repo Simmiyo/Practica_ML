@@ -1,0 +1,16 @@
+Sentiment Transfer using Seq2Seq Adversarial Autoencoders
+Expressing in language is subjective. Everyone has a different style of
+reading and writing, apparently it all boil downs to the way their mind
+understands things (in a specific format). Language style transfer is a way to
+preserve the meaning of a text and change the way it is expressed. Progress in
+language style transfer is lagged behind other domains, such as computer
+vision, mainly because of the lack of parallel data, use cases, and reliable
+evaluation metrics. In response to the challenge of lacking parallel data, we
+explore learning style transfer from non-parallel data. We propose a model
+combining seq2seq, autoencoders, and adversarial loss to achieve this goal. The
+key idea behind the proposed models is to learn separate content
+representations and style representations using adversarial networks.
+Considering the problem of evaluating style transfer tasks, we frame the
+problem as sentiment transfer and evaluation using a sentiment classifier to
+calculate how many sentiments was the model able to transfer. We report our
+results on several kinds of models.

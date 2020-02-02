@@ -1,0 +1,13 @@
+Characterizing Ambiguity in Light Source Invariant Shape from Shading
+Shape from shading is a classical inverse problem in computer vision. This
+shape reconstruction problem is inherently ill-defined; it depends on the
+assumed light source direction. We introduce a novel mathematical formulation
+for calculating local surface shape based on covariant derivatives of the
+shading flow field, rather than the customary integral minimization or P.D.E
+approaches. On smooth surfaces, we show second derivatives of brightness are
+independent of the light sources and can be directly related to surface
+properties. We use these measurements to define the matching local family of
+surfaces that can result from any given shading patch, changing the emphasis to
+characterizing ambiguity in the problem. We give an example of how these local
+surface ambiguities collapse along certain image contours and how this can be
+used for the reconstruction problem.

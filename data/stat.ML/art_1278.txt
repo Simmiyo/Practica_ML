@@ -1,0 +1,13 @@
+Stein Variational Adaptive Importance Sampling
+We propose a novel adaptive importance sampling algorithm which incorporates
+Stein variational gradient decent algorithm (SVGD) with importance sampling
+(IS). Our algorithm leverages the nonparametric transforms in SVGD to
+iteratively decrease the KL divergence between our importance proposal and the
+target distribution. The advantages of this algorithm are twofold: first, our
+algorithm turns SVGD into a standard IS algorithm, allowing us to use standard
+diagnostic and analytic tools of IS to evaluate and interpret the results;
+second, we do not restrict the choice of our importance proposal to predefined
+distribution families like traditional (adaptive) IS methods. Empirical
+experiments demonstrate that our algorithm performs well on evaluating
+partition functions of restricted Boltzmann machines and testing likelihood of
+variational auto-encoders.

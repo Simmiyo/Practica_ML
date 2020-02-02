@@ -1,0 +1,17 @@
+ISS-MULT: Intelligent Sample Selection for Multi-Task Learning in
+  Question Answering
+Transferring knowledge from a source domain to another domain is useful,
+especially when gathering new data is very expensive and time-consuming. Deep
+networks have been well-studied for question answering tasks in recent years;
+however, no prominent research for transfer learning through deep neural
+networks exists in the question answering field. In this paper, two main
+methods (INIT and MULT) in this field are examined. Then, a new method named
+Intelligent sample selection (ISS-MULT) is proposed to improve the MULT method
+for question answering tasks. Different datasets, specificay SQuAD, SelQA,
+WikiQA, NewWikiQA and InforBoxQA, are used for evaluation. Moreover, two
+different tasks of question answering - answer selection and answer triggering
+- are evaluated to examine the effectiveness of transfer learning. The results
+show that using transfer learning generally improves the performance if the
+corpora are related and are based on the same policy. In addition, using
+ISS-MULT could finely improve the MULT method for question answering tasks, and
+these improvements prove more significant in the answer triggering task.

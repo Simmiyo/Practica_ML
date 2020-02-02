@@ -1,0 +1,26 @@
+A Differential Degree Test for Comparing Brain Networks
+Recently, graph theory has become a popular method for characterizing brain
+functional organization. One important goal in graph theoretical analysis of
+brain networks is to identify network differences across disease types or
+conditions. Typical approaches include massive univariate testing of each edge
+or comparisons of local and/or global network metrics to identify deviations in
+topological organization. Some limitations of these methods include low
+statistical power due to the large number of comparisons and difficulty
+attributing overall differences in networks to local variations in brain
+function. We propose a novel differential degree test (DDT) to identify brain
+regions incident to a large number of differentially weighted edges across two
+populations. The proposed test could help detect key brain locations involved
+in diseases by demonstrating significantly altered neural connections. We
+achieve this by generating an appropriate set of null networks which are
+matched on the first and second moments of the observed difference network
+using the Hirschberger-Qi-Steuer (HQS) algorithm. This formulation permits
+separation of the network's true topology from the nuisance topology which is
+induced by the correlation measure and may drive inter-regional connectivity in
+ways unrelated to the brain function. Simulations indicate that the proposed
+approach routinely outperforms competing methods in detecting differentially
+connected regions of interest. Furthermore, we propose a data-adaptive
+threshold selection procedure which is able to detect differentially weighted
+edges and is shown to outperform competing methods that perform edge-wise
+comparisons controlling for the error rate. An application of our method to a
+major depressive disorder dataset leads to the identification of brain regions
+in the default mode network commonly implicated in this ruminative disorder.

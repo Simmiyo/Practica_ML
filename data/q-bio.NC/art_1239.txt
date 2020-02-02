@@ -1,0 +1,24 @@
+A cortical sparse distributed coding model linking mini- and
+  macrocolumn-scale functionality
+No generic function for the minicolumn, i.e., one that would apply equally
+well to all cortical areas and species, has yet been proposed. I propose that
+the minicolumn does have a generic functionality, which only becomes clear when
+seen in the context of the function of the higher-level, subsuming unit, the
+macrocolumn. I propose that: a) a macrocolumn's function is to store sparse
+distributed representations of its inputs and to be a recognizer of those
+inputs; and b) the generic function of the minicolumn is to enforce
+macrocolumnar code sparseness. The minicolumn, defined here as a physically
+localized pool of ~20 L2/3 pyramidals, does this by acting as a winner-take-all
+(WTA) competitive module, implying that macrocolumnar codes consist of ~70
+active L2/3 cells, assuming ~70 minicolumns per macrocolumn. I describe an
+algorithm for activating these codes during both learning and retrievals, which
+causes more similar inputs to map to more highly intersecting codes, a property
+which yields ultra-fast (immediate, first-shot) storage and retrieval. The
+algorithm achieves this by adding an amount of randomness (noise) into the code
+selection process, which is inversely proportional to an input's familiarity. I
+propose a possible mapping of the algorithm onto cortical circuitry, and adduce
+evidence for a neuromodulatory implementation of this familiarity-contingent
+noise mechanism. The model is distinguished from other recent columnar cortical
+circuit models in proposing a generic minicolumnar function in which a group of
+cells within the minicolumn, the L2/3 pyramidals, compete (WTA) to be part of
+the sparse distributed macrocolumnar code.

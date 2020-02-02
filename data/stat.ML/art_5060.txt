@@ -1,0 +1,12 @@
+Phase Unmixing : Multichannel Source Separation with Magnitude
+  Constraints
+We consider the problem of estimating the phases of K mixed complex signals
+from a multichannel observation, when the mixing matrix and signal magnitudes
+are known. This problem can be cast as a non-convex quadratically constrained
+quadratic program which is known to be NP-hard in general. We propose three
+approaches to tackle it: a heuristic method, an alternate minimization method,
+and a convex relaxation into a semi-definite program. The last two approaches
+are showed to outperform the oracle multichannel Wiener filter in
+under-determined informed source separation tasks, using simulated and speech
+signals. The convex relaxation approach yields best results, including the
+potential for exact source separation in under-determined settings.

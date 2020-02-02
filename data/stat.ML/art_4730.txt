@@ -1,0 +1,14 @@
+Efficiently Bounding Optimal Solutions after Small Data Modification in
+  Large-Scale Empirical Risk Minimization
+We study large-scale classification problems in changing environments where a
+small part of the dataset is modified, and the effect of the data modification
+must be quickly incorporated into the classifier. When the entire dataset is
+large, even if the amount of the data modification is fairly small, the
+computational cost of re-training the classifier would be prohibitively large.
+In this paper, we propose a novel method for efficiently incorporating such a
+data modification effect into the classifier without actually re-training it.
+The proposed method provides bounds on the unknown optimal classifier with the
+cost only proportional to the size of the data modification. We demonstrate
+through numerical experiments that the proposed method provides sufficiently
+tight bounds with negligible computational costs, especially when a small part
+of the dataset is modified in a large-scale classification problem.

@@ -1,0 +1,17 @@
+The CAPIO 2017 Conversational Speech Recognition System
+In this paper we show how we have achieved the state-of-the-art performance
+on the industry-standard NIST 2000 Hub5 English evaluation set. We explore
+densely connected LSTMs, inspired by the densely connected convolutional
+networks recently introduced for image classification tasks. We also propose an
+acoustic model adaptation scheme that simply averages the parameters of a seed
+neural network acoustic model and its adapted version. This method was applied
+with the CallHome training corpus and improved individual system performances
+by on average 6.1% (relative) against the CallHome portion of the evaluation
+set with no performance loss on the Switchboard portion. With RNN-LM rescoring
+and lattice combination on the 5 systems trained across three different phone
+sets, our 2017 speech recognition system has obtained 5.0% and 9.1% on
+Switchboard and CallHome, respectively, both of which are the best word error
+rates reported thus far. According to IBM in their latest work to compare human
+and machine transcriptions, our reported Switchboard word error rate can be
+considered to surpass the human parity (5.1%) of transcribing conversational
+telephone speech.

@@ -1,0 +1,14 @@
+Annotating Derivations: A New Evaluation Strategy and Dataset for
+  Algebra Word Problems
+We propose a new evaluation for automatic solvers for algebra word problems,
+which can identify mistakes that existing evaluations overlook. Our proposal is
+to evaluate such solvers using derivations, which reflect how an equation
+system was constructed from the word problem. To accomplish this, we develop an
+algorithm for checking the equivalence between two derivations, and show how
+derivation an- notations can be semi-automatically added to existing datasets.
+To make our experiments more comprehensive, we include the derivation
+annotation for DRAW-1K, a new dataset containing 1000 general algebra word
+problems. In our experiments, we found that the annotated derivations enable a
+more accurate evaluation of automatic solvers than previously used metrics. We
+release derivation annotations for over 2300 algebra word problems for future
+evaluations.

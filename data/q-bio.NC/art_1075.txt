@@ -1,0 +1,26 @@
+Inferring brain-computational mechanisms with models of activity
+  measurements
+High-resolution functional imaging is providing increasingly rich
+measurements of brain activity in animals and humans. A major challenge is to
+leverage such data to gain insight into the brain's computational mechanisms.
+The first step is to define candidate brain-computational models (BCMs) that
+can perform the behavioural task in question. We would then like to infer,
+which of the candidate BCMs best accounts for measured brain-activity data.
+Here we describe a method that complements each BCM by a measurement model
+(MM), which simulates the way the brain-activity measurements reflect neuronal
+activity (e.g. local averaging in fMRI voxels or sparse sampling in array
+recordings). The resulting generative model (BCM-MM) produces simulated
+measurements. In order to avoid having to fit the MM to predict each individual
+measurement channel of the brain-activity data, we compare the measured and
+predicted data at the level of summary statistics. We describe a novel
+particular implementation of this approach, called probabilistic RSA (pRSA)
+with measurement models, which uses representational dissimilarity matrices
+(RDMs) as the summary statistics. We validate this method by simulations of
+fMRI measurements (locally averaging voxels) based on a deep convolutional
+neural network for visual object recognition. Results indicate that the way the
+measurements sample the activity patterns strongly affects the apparent
+representational dissimilarities. However, modelling of the measurement process
+can account for these effects and different BCMs remain distinguishable even
+under substantial noise. The pRSA method enables us to perform Bayesian
+inference on the set of BCMs and to recognise the data-generating model in each
+case.

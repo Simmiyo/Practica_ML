@@ -1,0 +1,14 @@
+High-dimensional regression adjustments in randomized experiments
+We study the problem of treatment effect estimation in randomized experiments
+with high-dimensional covariate information, and show that essentially any
+risk-consistent regression adjustment can be used to obtain efficient estimates
+of the average treatment effect. Our results considerably extend the range of
+settings where high-dimensional regression adjustments are guaranteed to
+provide valid inference about the population average treatment effect. We then
+propose cross-estimation, a simple method for obtaining finite-sample-unbiased
+treatment effect estimates that leverages high-dimensional regression
+adjustments. Our method can be used when the regression model is estimated
+using the lasso, the elastic net, subset selection, etc. Finally, we extend our
+analysis to allow for adaptive specification search via cross-validation, and
+flexible non-parametric regression adjustments with machine learning methods
+such as random forests or neural networks.

@@ -1,0 +1,14 @@
+Asymptotically exact inference in differentiable generative models
+Many generative models can be expressed as a differentiable function of
+random inputs drawn from some simple probability density. This framework
+includes both deep generative architectures such as Variational Autoencoders
+and a large class of procedurally defined simulator models. We present a method
+for performing efficient MCMC inference in such models when conditioning on
+observations of the model output. For some models this offers an asymptotically
+exact inference method where Approximate Bayesian Computation might otherwise
+be employed. We use the intuition that inference corresponds to integrating a
+density across the manifold corresponding to the set of inputs consistent with
+the observed outputs. This motivates the use of a constrained variant of
+Hamiltonian Monte Carlo which leverages the smooth geometry of the manifold to
+coherently move between inputs exactly consistent with observations. We
+validate the method by performing inference tasks in a diverse set of models.

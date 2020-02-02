@@ -1,0 +1,20 @@
+Cost-Sensitive Reference Pair Encoding for Multi-Label Learning
+Label space expansion for multi-label classification (MLC) is a methodology
+that encodes the original label vectors to higher dimensional codes before
+training and decodes the predicted codes back to the label vectors during
+testing. The methodology has been demonstrated to improve the performance of
+MLC algorithms when coupled with off-the-shelf error-correcting codes for
+encoding and decoding. Nevertheless, such a coding scheme can be complicated to
+implement, and cannot easily satisfy a common application need of
+cost-sensitive MLC---adapting to different evaluation criteria of interest. In
+this work, we show that a simpler coding scheme based on the concept of a
+reference pair of label vectors achieves cost-sensitivity more naturally. In
+particular, our proposed cost-sensitive reference pair encoding (CSRPE)
+algorithm contains cluster-based encoding, weight-based training and
+voting-based decoding steps, all utilizing the cost information. Furthermore,
+we leverage the cost information embedded in the code space of CSRPE to propose
+a novel active learning algorithm for cost-sensitive MLC. Extensive
+experimental results verify that CSRPE performs better than state-of-the-art
+algorithms across different MLC criteria. The results also demonstrate that the
+CSRPE-backed active learning algorithm is superior to existing algorithms for
+active MLC, and further justify the usefulness of CSRPE.

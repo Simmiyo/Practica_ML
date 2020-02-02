@@ -1,0 +1,25 @@
+The Generalized Mean Information Coefficient
+Reshef & Reshef recently published a paper in which they present a method
+called the Maximal Information Coefficient (MIC) that can detect all forms of
+statistical dependence between pairs of variables as sample size goes to
+infinity. While this method has been praised by some, it has also been
+criticized for its lack of power in finite samples. We seek to modify MIC so
+that it has higher power in detecting associations for limited sample sizes.
+Here we present the Generalized Mean Information Coefficient (GMIC), a
+generalization of MIC which incorporates a tuning parameter that can be used to
+modify the complexity of the association favored by the measure. We define GMIC
+and prove it maintains several key asymptotic properties of MIC. Its increased
+power over MIC is demonstrated using a simulation of eight different functional
+relationships at sixty different noise levels. The results are compared to the
+Pearson correlation, distance correlation, and MIC. Simulation results suggest
+that while generally GMIC has slightly lower power than the distance
+correlation measure, it achieves higher power than MIC for many forms of
+underlying association. For some functional relationships, GMIC surpasses all
+other statistics calculated. Preliminary results suggest choosing a moderate
+value of the tuning parameter for GMIC will yield a test that is robust across
+underlying relationships. GMIC is a promising new method that mitigates the
+power issues suffered by MIC, at the possible expense of equitability.
+Nonetheless, distance correlation was in our simulations more powerful for many
+forms of underlying relationships. At a minimum, this work motivates further
+consideration of maximal information-based nonparametric exploration (MINE)
+methods as statistical tests of independence.

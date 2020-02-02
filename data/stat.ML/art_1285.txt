@@ -1,0 +1,20 @@
+Estimating the Coefficients of a Mixture of Two Linear Regressions by
+  Expectation Maximization
+We give convergence guarantees for estimating the coefficients of a symmetric
+mixture of two linear regressions by expectation maximization (EM). In
+particular, we show that the empirical EM iterates converge to the target
+parameter vector at the parametric rate, provided the algorithm is initialized
+in an unbounded cone. In particular, if the initial guess has a sufficiently
+large cosine angle with the target parameter vector, a sample-splitting version
+of the EM algorithm converges to the true coefficient vector with high
+probability. Interestingly, our analysis borrows from tools used in the problem
+of estimating the centers of a symmetric mixture of two Gaussians by EM. We
+also show that the population EM operator for mixtures of two regressions is
+anti-contractive from the target parameter vector if the cosine angle between
+the input vector and the target parameter vector is too small, thereby
+establishing the necessity of our conic condition. Finally, we give empirical
+evidence supporting this theoretical observation, which suggests that the
+sample based EM algorithm performs poorly when initial guesses are drawn
+accordingly. Our simulation study also suggests that the EM algorithm performs
+well even under model misspecification (i.e., when the covariate and error
+distributions violate the model assumptions).

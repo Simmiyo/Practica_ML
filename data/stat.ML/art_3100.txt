@@ -1,0 +1,13 @@
+Learning nonparametric differential equations with operator-valued
+  kernels and gradient matching
+Modeling dynamical systems with ordinary differential equations implies a
+mechanistic view of the process underlying the dynamics. However in many cases,
+this knowledge is not available. To overcome this issue, we introduce a general
+framework for nonparametric ODE models using penalized regression in
+Reproducing Kernel Hilbert Spaces (RKHS) based on operator-valued kernels.
+Moreover, we extend the scope of gradient matching approaches to nonparametric
+ODE. A smooth estimate of the solution ODE is built to provide an approximation
+of the derivative of the ODE solution which is in turn used to learn the
+nonparametric ODE model. This approach benefits from the flexibility of
+penalized regression in RKHS allowing for ridge or (structured) sparse
+regression as well. Very good results are shown on 3 different ODE systems.

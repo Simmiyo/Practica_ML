@@ -1,0 +1,8 @@
+Quantum Algorithm for the Collision Problem
+In this note, we give a quantum algorithm that finds collisions in arbitrary
+r-to-one functions after only O((N/r)^(1/3)) expected evaluations of the
+function. Assuming the function is given by a black box, this is more efficient
+than the best possible classical algorithm, even allowing probabilism. We also
+give a similar algorithm for finding claws in pairs of functions. Furthermore,
+we exhibit a space-time tradeoff for our technique. Our approach uses Grover's
+quantum searching algorithm in a novel way.

@@ -1,0 +1,17 @@
+Using Robust PCA to estimate regional characteristics of language use
+  from geo-tagged Twitter messages
+Principal component analysis (PCA) and related techniques have been
+successfully employed in natural language processing. Text mining applications
+in the age of the online social media (OSM) face new challenges due to
+properties specific to these use cases (e.g. spelling issues specific to texts
+posted by users, the presence of spammers and bots, service announcements,
+etc.). In this paper, we employ a Robust PCA technique to separate typical
+outliers and highly localized topics from the low-dimensional structure present
+in language use in online social networks. Our focus is on identifying
+geospatial features among the messages posted by the users of the Twitter
+microblogging service. Using a dataset which consists of over 200 million
+geolocated tweets collected over the course of a year, we investigate whether
+the information present in word usage frequencies can be used to identify
+regional features of language use and topics of interest. Using the PCA pursuit
+method, we are able to identify important low-dimensional features, which
+constitute smoothly varying functions of the geographic location.

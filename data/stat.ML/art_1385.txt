@@ -1,0 +1,20 @@
+Maximum Volume Inscribed Ellipsoid: A New Simplex-Structured Matrix
+  Factorization Framework via Facet Enumeration and Convex Optimization
+Consider a structured matrix factorization model where one factor is
+restricted to have its columns lying in the unit simplex. This
+simplex-structured matrix factorization (SSMF) model and the associated
+factorization techniques have spurred much interest in research topics over
+different areas, such as hyperspectral unmixing in remote sensing, topic
+discovery in machine learning, to name a few. In this paper we develop a new
+theoretical SSMF framework whose idea is to study a maximum volume ellipsoid
+inscribed in the convex hull of the data points. This maximum volume inscribed
+ellipsoid (MVIE) idea has not been attempted in prior literature, and we show a
+sufficient condition under which the MVIE framework guarantees exact recovery
+of the factors. The sufficient recovery condition we show for MVIE is much more
+relaxed than that of separable non-negative matrix factorization (or pure-pixel
+search); coincidentally it is also identical to that of minimum volume
+enclosing simplex, which is known to be a powerful SSMF framework for
+non-separable problem instances. We also show that MVIE can be practically
+implemented by performing facet enumeration and then by solving a convex
+optimization problem. The potential of the MVIE framework is illustrated by
+numerical results.

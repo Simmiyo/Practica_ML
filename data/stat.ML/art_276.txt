@@ -1,0 +1,17 @@
+Sparse Approximate Inference for Spatio-Temporal Point Process Models
+Spatio-temporal point process models play a central role in the analysis of
+spatially distributed systems in several disciplines. Yet, scalable inference
+remains computa- tionally challenging both due to the high resolution modelling
+generally required and the analytically intractable likelihood function. Here,
+we exploit the sparsity structure typical of (spatially) discretised
+log-Gaussian Cox process models by using approximate message-passing
+algorithms. The proposed algorithms scale well with the state dimension and the
+length of the temporal horizon with moderate loss in distributional accuracy.
+They hence provide a flexible and faster alternative to both non-linear
+filtering-smoothing type algorithms and to approaches that implement the
+Laplace method or expectation propagation on (block) sparse latent Gaussian
+models. We infer the parameters of the latent Gaussian model using a structured
+variational Bayes approach. We demonstrate the proposed framework on simulation
+studies with both Gaussian and point-process observations and use it to
+reconstruct the conflict intensity and dynamics in Afghanistan from the
+WikiLeaks Afghan War Diary.

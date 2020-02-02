@@ -1,0 +1,16 @@
+One-Trial Correction of Legacy AI Systems and Stochastic Separation
+  Theorems
+We consider the problem of efficient "on the fly" tuning of existing, or {\it
+legacy}, Artificial Intelligence (AI) systems. The legacy AI systems are
+allowed to be of arbitrary class, albeit the data they are using for computing
+interim or final decision responses should posses an underlying structure of a
+high-dimensional topological real vector space. The tuning method that we
+propose enables dealing with errors without the need to re-train the system.
+Instead of re-training a simple cascade of perceptron nodes is added to the
+legacy system. The added cascade modulates the AI legacy system's decisions. If
+applied repeatedly, the process results in a network of modulating rules
+"dressing up" and improving performance of existing AI systems. Mathematical
+rationale behind the method is based on the fundamental property of measure
+concentration in high dimensional spaces. The method is illustrated with an
+example of fine-tuning a deep convolutional network that has been pre-trained
+to detect pedestrians in images.

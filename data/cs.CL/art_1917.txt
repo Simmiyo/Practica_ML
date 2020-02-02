@@ -1,0 +1,14 @@
+Can Machine Generate Traditional Chinese Poetry? A Feigenbaum Test
+Recent progress in neural learning demonstrated that machines can do well in
+regularized tasks, e.g., the game of Go. However, artistic activities such as
+poem generation are still widely regarded as human's special capability. In
+this paper, we demonstrate that a simple neural model can imitate human in some
+tasks of art generation. We particularly focus on traditional Chinese poetry,
+and show that machines can do as well as many contemporary poets and weakly
+pass the Feigenbaum Test, a variant of Turing test in professional domains. Our
+method is based on an attention-based recurrent neural network, which accepts a
+set of keywords as the theme and generates poems by looking at each keyword
+during the generation. A number of techniques are proposed to improve the
+model, including character vector initialization, attention to input and
+hybrid-style training. Compared to existing poetry generation methods, our
+model can generate much more theme-consistent and semantic-rich poems.

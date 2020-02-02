@@ -1,0 +1,19 @@
+Small Boxes Big Data: A Deep Learning Approach to Optimize Variable
+  Sized Bin Packing
+Bin Packing problems have been widely studied because of their broad
+applications in different domains. Known as a set of NP-hard problems, they
+have different vari- ations and many heuristics have been proposed for
+obtaining approximate solutions. Specifically, for the 1D variable sized bin
+packing problem, the two key sets of optimization heuristics are the bin
+assignment and the bin allocation. Usually the performance of a single static
+optimization heuristic can not beat that of a dynamic one which is tailored for
+each bin packing instance. Building such an adaptive system requires modeling
+the relationship between bin features and packing perform profiles. The primary
+drawbacks of traditional AI machine learnings for this task are the natural
+limitations of feature engineering, such as the curse of dimensionality and
+feature selection quality. We introduce a deep learning approach to overcome
+the drawbacks by applying a large training data set, auto feature selection and
+fast, accurate labeling. We show in this paper how to build such a system by
+both theoretical formulation and engineering practices. Our prediction system
+achieves up to 89% training accuracy and 72% validation accuracy to select the
+best heuristic that can generate a better quality bin packing solution.

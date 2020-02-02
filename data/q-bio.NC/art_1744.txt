@@ -1,0 +1,24 @@
+Monosynaptic inference via finely-timed spikes
+Observations of finely-timed spike relationships in population recordings are
+often used to support partial reconstruction of neural microcircuit diagrams.
+Here fine-timescale components of paired spike train interactions are isolated
+and subsequently attributed to synaptic parameters. Recent perturbation studies
+strengthen the case for such inferences, yet the complete set of measurements
+needed to calibrate statistical models are unavailable. To address this gap,
+{we study features of pairwise spiking in a large-scale {\it in vivo} dataset
+where presynaptic neurons were explicitly decoupled from network activity by
+juxtacellular stimulation. We then develop biophysical models of paired spike
+trains to reproduce the phenomenology of monosynaptic interactions observed in
+those data, including both fine-timescale spike-spike correlations and the
+irregular firing found {\it in vivo}.} We use simulated data generated from
+these biophysical models to study the inference of small synaptic changes from
+spike data, despite the presence of rapidly-varying background network
+fluctuations. A particular focus is the justification and application of a
+nonparametric separation of timescale principle, based on conditional
+inference, to implement synaptic inference. We develop a correspondence between
+classes of stochastic integrate-and-fire neurons and nonparametric inference in
+the context of microcircuit inference. A secondary goal is to initiate a
+critical exploration of neurostatistical assumptions in terms of biophysical
+mechanisms, particularly with regards to the challenging but arguably
+fundamental issue of fast, unobservable nonstationarities in background
+dynamics.

@@ -1,0 +1,18 @@
+Tensor Decomposition via Variational Auto-Encoder
+Tensor decomposition is an important technique for capturing the high-order
+interactions among multiway data. Multi-linear tensor composition methods, such
+as the Tucker decomposition and the CANDECOMP/PARAFAC (CP), assume that the
+complex interactions among objects are multi-linear, and are thus insufficient
+to represent nonlinear relationships in data. Another assumption of these
+methods is that a predefined rank should be known. However, the rank of tensors
+is hard to estimate, especially for cases with missing values. To address these
+issues, we design a Bayesian generative model for tensor decomposition.
+Different from the traditional Bayesian methods, the high-order interactions of
+tensor entries are modeled with variational auto-encoder. The proposed model
+takes advantages of Neural Networks and nonparametric Bayesian models, by
+replacing the multi-linear product in traditional Bayesian tensor decomposition
+with a complex nonlinear function (via Neural Networks) whose parameters can be
+learned from data. Experimental results on synthetic data and real-world
+chemometrics tensor data have demonstrated that our new model can achieve
+significantly higher prediction performance than the state-of-the-art tensor
+decomposition approaches.

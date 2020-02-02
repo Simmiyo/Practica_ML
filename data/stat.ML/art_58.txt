@@ -1,0 +1,19 @@
+Kernels for Measures Defined on the Gram Matrix of their Support
+We present in this work a new family of kernels to compare positive measures
+on arbitrary spaces $\Xcal$ endowed with a positive kernel $\kappa$, which
+translates naturally into kernels between histograms or clouds of points. We
+first cover the case where $\Xcal$ is Euclidian, and focus on kernels which
+take into account the variance matrix of the mixture of two measures to compute
+their similarity. The kernels we define are semigroup kernels in the sense that
+they only use the sum of two measures to compare them, and spectral in the
+sense that they only use the eigenspectrum of the variance matrix of this
+mixture. We show that such a family of kernels has close bonds with the laplace
+transforms of nonnegative-valued functions defined on the cone of positive
+semidefinite matrices, and we present some closed formulas that can be derived
+as special cases of such integral expressions. By focusing further on functions
+which are invariant to the addition of a null eigenvalue to the spectrum of the
+variance matrix, we can define kernels between atomic measures on arbitrary
+spaces $\Xcal$ endowed with a kernel $\kappa$ by using directly the eigenvalues
+of the centered Gram matrix of the joined support of the compared measures. We
+provide explicit formulas suited for applications and present preliminary
+experiments to illustrate the interest of the approach.

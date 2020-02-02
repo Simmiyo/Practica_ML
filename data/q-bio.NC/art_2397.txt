@@ -1,0 +1,19 @@
+Solving Hodgkin-Huxley equations using the compact difference scheme
+  -tapering dendrite
+Dendritic processing is now considered to be important in pre-processing of
+signals coming into a cell. Dendrites are involved in both propagation and
+backpropagation of signals. In a cylindrical dendrite, signals moving in either
+direction will be similar. However, if the dendrites taper, then this is not
+the case any more. The picture gets more complex if the ion channel
+distribution along the dendrite is also non-uniform. These equations have been
+solved using the Chebyshev pseudo-spectral method. Here we look at non-uniform
+dendritic voltage gated channels in both cylindrical and tapering dendrites.
+For back-propagating signals, the signal is accentuated in the case of tapering
+dendrites. We assume a Hodgkin-Huxley formulation of ion channels and solve
+these equations with the compact finite-difference scheme. The scheme gives
+spectral-like spatial resolution while being easier to solve than spectral
+methods. We show that the scheme is able to reproduce the results obtained from
+spectral methods. The compact difference scheme is widely used to study
+turbulence in airflow, however it is being used for the first time in our
+laboratory to solve the equations involving transmission of signals in the
+brain.

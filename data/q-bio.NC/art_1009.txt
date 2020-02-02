@@ -1,0 +1,27 @@
+The Dorsal Striatum and the Dynamics of the Consensus Connectomes in the
+  Frontal Lobe of the Human Brain
+In the applications of the graph theory it is unusual that one considers
+numerous, pairwise different graphs on the very same set of vertices. In the
+case of human braingraphs or connectomes, however, this is the standard
+situation: the nodes correspond to anatomically identified cerebral regions,
+and two vertices are connected by an edge if a diffusion MRI-based workflow
+identifies a fiber of axons, running between the two regions, corresponding to
+the two vertices. Therefore, if we examine the braingraphs of $n$ subjects,
+then we have $n$ graphs on the very same, anatomically identified vertex set.
+It is a natural idea to describe the $k$-frequently appearing edges in these
+graphs: the edges that are present between the same two vertices in at least
+$k$ out of the $n$ graphs. Based on the NIH-funded large Human Connectome
+Project's public data release, we have reported the construction of the
+Budapest Reference Connectome Server \url{http://connectome.pitgroup.org} that
+generates and visualizes these $k$-frequently appearing edges. We call the
+graphs of the $k$-frequently appearing edges "$k$-consensus connectomes" since
+an edge could be included only if it is present in at least $k$ graphs out of
+$n$. Considering the whole human brain, we have reported a surprising property
+of these consensus connectomes earlier. In the present work we are focusing on
+the frontal lobe of the brain, and we report here a similarly surprising
+dynamical property of the consensus connectomes when $k$ is gradually changed
+from $k=n$ to $k=1$: the connections between the nodes of the frontal lobe are
+seemingly emanating from those nodes that were connected to sub-cortical
+structures of the dorsal striatum: the caudate nucleus, and the putamen. We
+hypothesize that this dynamic behavior copies the axonal fiber development of
+the frontal lobe.

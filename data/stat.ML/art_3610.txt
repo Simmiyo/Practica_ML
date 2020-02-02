@@ -1,0 +1,14 @@
+Preconditioned Data Sparsification for Big Data with Applications to PCA
+  and K-means
+We analyze a compression scheme for large data sets that randomly keeps a
+small percentage of the components of each data sample. The benefit is that the
+output is a sparse matrix and therefore subsequent processing, such as PCA or
+K-means, is significantly faster, especially in a distributed-data setting.
+Furthermore, the sampling is single-pass and applicable to streaming data. The
+sampling mechanism is a variant of previous methods proposed in the literature
+combined with a randomized preconditioning to smooth the data. We provide
+guarantees for PCA in terms of the covariance matrix, and guarantees for
+K-means in terms of the error in the center estimators at a given step. We
+present numerical evidence to show both that our bounds are nearly tight and
+that our algorithms provide a real benefit when applied to standard test data
+sets, as well as providing certain benefits over related sampling approaches.

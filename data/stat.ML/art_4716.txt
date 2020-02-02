@@ -1,0 +1,14 @@
+Variational Bayesian Inference for Hidden Markov Models With
+  Multivariate Gaussian Output Distributions
+Hidden Markov Models (HMM) have been used for several years in many time
+series analysis or pattern recognitions tasks. HMM are often trained by means
+of the Baum-Welch algorithm which can be seen as a special variant of an
+expectation maximization (EM) algorithm. Second-order training techniques such
+as Variational Bayesian Inference (VI) for probabilistic models regard the
+parameters of the probabilistic models as random variables and define
+distributions over these distribution parameters, hence the name of this
+technique. VI can also bee regarded as a special case of an EM algorithm. In
+this article, we bring both together and train HMM with multivariate Gaussian
+output distributions with VI. The article defines the new training technique
+for HMM. An evaluation based on some case studies and a comparison to related
+approaches is part of our ongoing work.

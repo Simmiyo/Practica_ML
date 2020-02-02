@@ -1,0 +1,10 @@
+Noisy Tensor Completion for Tensors with a Sparse Canonical Polyadic
+  Factor
+In this paper we study the problem of noisy tensor completion for tensors
+that admit a canonical polyadic or CANDECOMP/PARAFAC (CP) decomposition with
+one of the factors being sparse. We present general theoretical error bounds
+for an estimate obtained by using a complexity-regularized maximum likelihood
+principle and then instantiate these bounds for the case of additive white
+Gaussian noise. We also provide an ADMM-type algorithm for solving the
+complexity-regularized maximum likelihood problem and validate the theoretical
+finding via experiments on synthetic data set.

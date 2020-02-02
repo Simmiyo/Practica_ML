@@ -1,0 +1,16 @@
+Bandit Label Inference for Weakly Supervised Learning
+The scarcity of data annotated at the desired level of granularity is a
+recurring issue in many applications. Significant amounts of effort have been
+devoted to developing weakly supervised methods tailored to each individual
+setting, which are often carefully designed to take advantage of the particular
+properties of weak supervision regimes, form of available data and prior
+knowledge of the task at hand. Unfortunately, it is difficult to adapt these
+methods to new tasks and/or forms of data, which often require different weak
+supervision regimes or models. We present a general-purpose method that can
+solve any weakly supervised learning problem irrespective of the weak
+supervision regime or the model. The proposed method turns any off-the-shelf
+strongly supervised classifier into a weakly supervised classifier and allows
+the user to specify any arbitrary weakly supervision regime via a loss
+function. We apply the method to several different weak supervision regimes and
+demonstrate competitive results compared to methods specifically engineered for
+those settings.

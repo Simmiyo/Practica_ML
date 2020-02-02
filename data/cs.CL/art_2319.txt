@@ -1,0 +1,12 @@
+Towards speech-to-text translation without speech recognition
+We explore the problem of translating speech to text in low-resource
+scenarios where neither automatic speech recognition (ASR) nor machine
+translation (MT) are available, but we have training data in the form of audio
+paired with text translations. We present the first system for this problem
+applied to a realistic multi-speaker dataset, the CALLHOME Spanish-English
+speech translation corpus. Our approach uses unsupervised term discovery (UTD)
+to cluster repeated patterns in the audio, creating a pseudotext, which we pair
+with translations to create a parallel text and train a simple bag-of-words MT
+model. We identify the challenges faced by the system, finding that the
+difficulty of cross-speaker UTD results in low recall, but that our system is
+still able to correctly translate some content words in test data.

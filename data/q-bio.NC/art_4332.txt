@@ -1,0 +1,14 @@
+Scalability and Optimization Strategies for GPU Enhanced Neural Networks
+  (GeNN)
+Simulation of spiking neural networks has been traditionally done on
+high-performance supercomputers or large-scale clusters. Utilizing the parallel
+nature of neural network computation algorithms, GeNN (GPU Enhanced Neural
+Network) provides a simulation environment that performs on General Purpose
+NVIDIA GPUs with a code generation based approach. GeNN allows the users to
+design and simulate neural networks by specifying the populations of neurons at
+different stages, their synapse connection densities and the model of
+individual neurons. In this report we describe work on how to scale synaptic
+weights based on the configuration of the user-defined network to ensure
+sufficient spiking and subsequent effective learning. We also discuss
+optimization strategies particular to GPU computing: sparse representation of
+synapse connections and occupancy based block-size determination.

@@ -1,0 +1,14 @@
+Variational Dual-Tree Framework for Large-Scale Transition Matrix
+  Approximation
+In recent years, non-parametric methods utilizing random walks on graphs have
+been used to solve a wide range of machine learning problems, but in their
+simplest form they do not scale well due to the quadratic complexity. In this
+paper, a new dual-tree based variational approach for approximating the
+transition matrix and efficiently performing the random walk is proposed. The
+approach exploits a connection between kernel density estimation, mixture
+modeling, and random walk on graphs in an optimization of the transition matrix
+for the data graph that ties together edge transitions probabilities that are
+similar. Compared to the de facto standard approximation method based on
+k-nearestneighbors, we demonstrate order of magnitudes speedup without
+sacrificing accuracy for Label Propagation tasks on benchmark data sets in
+semi-supervised learning.

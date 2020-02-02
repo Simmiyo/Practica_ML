@@ -1,0 +1,13 @@
+BioSimplify: an open source sentence simplification engine to improve
+  recall in automatic biomedical information extraction
+BioSimplify is an open source tool written in Java that introduces and
+facilitates the use of a novel model for sentence simplification tuned for
+automatic discourse analysis and information extraction (as opposed to sentence
+simplification for improving human readability). The model is based on a
+"shot-gun" approach that produces many different (simpler) versions of the
+original sentence by combining variants of its constituent elements. This tool
+is optimized for processing biomedical scientific literature such as the
+abstracts indexed in PubMed. We tested our tool on its impact to the task of
+PPI extraction and it improved the f-score of the PPI tool by around 7%, with
+an improvement in recall of around 20%. The BioSimplify tool and test corpus
+can be downloaded from https://biosimplify.sourceforge.net.

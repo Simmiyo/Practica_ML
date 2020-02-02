@@ -1,0 +1,27 @@
+Empirical bayes formulation of the elastic net and mixed-norm models:
+  application to the eeg inverse problem
+The estimation of EEG generating sources constitutes an Inverse Problem (IP)
+in Neuroscience. This is an ill-posed problem, due to the non-uniqueness of the
+solution, and many kinds of prior information have been used to constrain it. A
+combination of smoothness (L2 norm-based) and sparseness (L1 norm-based)
+constraints is a flexible approach that have been pursued by important examples
+such as the Elastic Net (ENET) and mixed-norm (MXN) models. The former is used
+to find solutions with a small number of smooth non-zero patches, while the
+latter imposes sparseness and smoothness simultaneously along different
+dimensions of the spatio-temporal matrix solutions. Both models have been
+addressed within the penalized regression approach, where the regularization
+parameters are selected heuristically, leading usually to non-optimal
+solutions. The existing Bayesian formulation of ENET allows hyperparameter
+learning, but using computationally intensive Monte Carlo/Expectation
+Maximization methods. In this work we attempt to solve the EEG IP using a
+Bayesian framework for models based on mixtures of L1/L2 norms penalization
+functions (Laplace/Normal priors) such as ENET and MXN. We propose a Sparse
+Bayesian Learning algorithm based on combining the Empirical Bayes and the
+iterative coordinate descent procedures to estimate both the parameters and
+hyperparameters. Using simple but realistic simulations we found that our
+methods are able to recover complicated source setups more accurately and with
+a more robust variable selection than the ENET and LASSO solutions using
+classical algorithms. We also solve the EEG IP using data coming from a visual
+attention experiment, finding more interpretable neurophysiological patterns
+with our methods, as compared with other known methods such as LORETA, ENET and
+LASSO FUSION using the classical regularization approach.

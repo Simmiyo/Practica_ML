@@ -1,0 +1,20 @@
+Binary Classifier Calibration: Non-parametric approach
+Accurate calibration of probabilistic predictive models learned is critical
+for many practical prediction and decision-making tasks. There are two main
+categories of methods for building calibrated classifiers. One approach is to
+develop methods for learning probabilistic models that are well-calibrated, ab
+initio. The other approach is to use some post-processing methods for
+transforming the output of a classifier to be well calibrated, as for example
+histogram binning, Platt scaling, and isotonic regression. One advantage of the
+post-processing approach is that it can be applied to any existing
+probabilistic classification model that was constructed using any
+machine-learning method.
+  In this paper, we first introduce two measures for evaluating how well a
+classifier is calibrated. We prove three theorems showing that using a simple
+histogram binning post-processing method, it is possible to make a classifier
+be well calibrated while retaining its discrimination capability. Also, by
+casting the histogram binning method as a density-based non-parametric binary
+classifier, we can extend it using two simple non-parametric density estimation
+methods. We demonstrate the performance of the proposed calibration methods on
+synthetic and real datasets. Experimental results show that the proposed
+methods either outperform or are comparable to existing calibration methods.

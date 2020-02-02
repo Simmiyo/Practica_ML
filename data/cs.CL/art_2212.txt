@@ -1,0 +1,16 @@
+Abstractive Headline Generation for Spoken Content by Attentive
+  Recurrent Neural Networks with ASR Error Modeling
+Headline generation for spoken content is important since spoken content is
+difficult to be shown on the screen and browsed by the user. It is a special
+type of abstractive summarization, for which the summaries are generated word
+by word from scratch without using any part of the original content. Many deep
+learning approaches for headline generation from text document have been
+proposed recently, all requiring huge quantities of training data, which is
+difficult for spoken document summarization. In this paper, we propose an ASR
+error modeling approach to learn the underlying structure of ASR error patterns
+and incorporate this model in an Attentive Recurrent Neural Network (ARNN)
+architecture. In this way, the model for abstractive headline generation for
+spoken content can be learned from abundant text data and the ASR data for some
+recognizers. Experiments showed very encouraging results and verified that the
+proposed ASR error model works well even when the input spoken content is
+recognized by a recognizer very different from the one the model learned from.

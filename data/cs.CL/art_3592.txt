@@ -1,0 +1,14 @@
+Efficient Graph-based Word Sense Induction by Distributional Inclusion
+  Vector Embeddings
+Word sense induction (WSI), which addresses polysemy by unsupervised
+discovery of multiple word senses, resolves ambiguities for downstream NLP
+tasks and also makes word representations more interpretable. This paper
+proposes an accurate and efficient graph-based method for WSI that builds a
+global non-negative vector embedding basis (which are interpretable like
+topics) and clusters the basis indexes in the ego network of each polysemous
+word. By adopting distributional inclusion vector embeddings as our basis
+formation model, we avoid the expensive step of nearest neighbor search that
+plagues other graph-based methods without sacrificing the quality of sense
+clusters. Experiments on three datasets show that our proposed method produces
+similar or better sense clusters and embeddings compared with previous
+state-of-the-art methods while being significantly more efficient.

@@ -1,0 +1,19 @@
+Clustering is Easy When ....What?
+It is well known that most of the common clustering objectives are NP-hard to
+optimize. In practice, however, clustering is being routinely carried out. One
+approach for providing theoretical understanding of this seeming discrepancy is
+to come up with notions of clusterability that distinguish realistically
+interesting input data from worst-case data sets. The hope is that there will
+be clustering algorithms that are provably efficient on such "clusterable"
+instances. This paper addresses the thesis that the computational hardness of
+clustering tasks goes away for inputs that one really cares about. In other
+words, that "Clustering is difficult only when it does not matter" (the
+\emph{CDNM thesis} for short).
+  I wish to present a a critical bird's eye overview of the results published
+on this issue so far and to call attention to the gap between available and
+desirable results on this issue. A longer, more detailed version of this note
+is available as arXiv:1507.05307.
+  I discuss which requirements should be met in order to provide formal support
+to the the CDNM thesis and then examine existing results in view of these
+requirements and list some significant unsolved research challenges in that
+direction.

@@ -1,0 +1,17 @@
+Deep Neural Networks Learn Non-Smooth Functions Effectively
+We theoretically discuss why deep neural networks (DNNs) performs better than
+other models in some cases by investigating statistical properties of DNNs for
+non-smooth functions. While DNNs have empirically shown higher performance than
+other standard methods, understanding its mechanism is still a challenging
+problem. From an aspect of the statistical theory, it is known many standard
+methods attain the optimal rate of generalization errors for smooth functions
+in large sample asymptotics, and thus it has not been straightforward to find
+theoretical advantages of DNNs. This paper fills this gap by considering
+learning of a certain class of non-smooth functions, which was not covered by
+the previous theory. We derive the generalization error of estimators by DNNs
+with a ReLU activation, and show that convergence rates of the generalization
+by DNNs are almost optimal to estimate the non-smooth functions, while some of
+the popular models do not attain the optimal rate. In addition, our theoretical
+result provides guidelines for selecting an appropriate number of layers and
+edges of DNNs. We provide numerical experiments to support the theoretical
+results.

@@ -1,0 +1,24 @@
+Classification of Fixed Point Network Dynamics From Multiple Node
+  Timeseries Data
+Fixed point networks are dynamic networks that encode stimuli via distinct
+output patterns. Although such networks are omnipresent in neural systems,
+their structures are typically unknown or poorly characterized. It is therefore
+valuable to use a supervised approach for resolving how a network encodes
+distinct inputs of interest, and the superposition of those inputs from sampled
+multiple node time series. In this paper we show that accomplishing such a task
+involves finding a low-dimensional state space from supervised recordings. We
+demonstrate that standard methods for dimension reduction are unable to provide
+the desired functionality of optimal separation of the fixed points and
+transient trajectories to them. However, the combination of dimension reduction
+with selection and optimization can successfully provide such functionality.
+Specifically, we propose two methods: Exclusive Threshold Reduction (ETR) and
+Optimal Exclusive Threshold Reduction (OETR) for finding a basis for the
+classification state space. We show that the classification space constructed
+upon combination of dimension reduction optimal separation can directly
+facilitate recognition of stimuli, and classify complex inputs (mixtures) into
+similarity classes. We test our methodology and compare it to standard
+state-of-the-art methods on a benchmark dataset - an experimental neuronal
+network (the olfactory system) that we recorded from to test these methods. We
+show that our methods are capable of providing a basis for the classification
+space in such network, and to perform recognition at a significantly better
+rate than previously proposed approaches.

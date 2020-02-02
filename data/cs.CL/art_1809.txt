@@ -1,0 +1,12 @@
+On the Convergent Properties of Word Embedding Methods
+Do word embeddings converge to learn similar things over different
+initializations? How repeatable are experiments with word embeddings? Are all
+word embedding techniques equally reliable? In this paper we propose evaluating
+methods for learning word representations by their consistency across
+initializations. We propose a measure to quantify the similarity of the learned
+word representations under this setting (where they are subject to different
+random initializations). Our preliminary results illustrate that our metric not
+only measures a intrinsic property of word embedding methods but also
+correlates well with other evaluation metrics on downstream tasks. We believe
+our methods are is useful in characterizing robustness -- an important property
+to consider when developing new word embedding methods.

@@ -1,0 +1,14 @@
+A Novel Variational Family for Hidden Nonlinear Markov Models
+Latent variable models have been widely applied for the analysis and
+visualization of large datasets. In the case of sequential data, closed-form
+inference is possible when the transition and observation functions are linear.
+However, approximate inference techniques are usually necessary when dealing
+with nonlinear dynamics and observation functions. Here, we propose a novel
+variational inference framework for the explicit modeling of time series,
+Variational Inference for Nonlinear Dynamics (VIND), that is able to uncover
+nonlinear observation and transition functions from sequential data. The
+framework includes a structured approximate posterior, and an algorithm that
+relies on the fixed-point iteration method to find the best estimate for latent
+trajectories. We apply the method to several datasets and show that it is able
+to accurately infer the underlying dynamics of these systems, in some cases
+substantially outperforming state-of-the-art methods.

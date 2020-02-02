@@ -1,0 +1,22 @@
+Interactive Web Application for Exploring Matrices of Neural
+  Connectivity
+We present here a browser-based application for visualizing patterns of
+connectivity in 3D stacked data matrices with large numbers of pairwise
+relations. Visualizing a connectivity matrix, looking for trends and patterns,
+and dynamically manipulating these values is a challenge for scientists from
+diverse fields, including neuroscience and genomics. In particular,
+high-dimensional neural data include those acquired via electroencephalography
+(EEG), electrocorticography (ECoG), magnetoencephalography (MEG), and
+functional MRI. Neural connectivity data contains multivariate attributes for
+each edge between different brain regions, which motivated our lightweight,
+open source, easy-to-use visualization tool for the exploration of these
+connectivity matrices to highlight connections of interest. Here we present a
+client-side, mobile-compatible visualization tool written entirely in
+HTML5/JavaScript that allows in-browser manipulation of user-defined files for
+exploration of brain connectivity. Visualizations can highlight different
+aspects of the data simultaneously across different dimensions. Input files are
+in JSON format, and custom Python scripts have been written to parse MATLAB or
+Python data files into JSON-loadable format. We demonstrate the analysis of
+connectivity data acquired via human ECoG recordings as a domain-specific
+implementation of our application. We envision applications for this
+interactive tool in fields seeking to visualize pairwise connectivity.

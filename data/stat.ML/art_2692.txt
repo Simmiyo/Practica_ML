@@ -1,0 +1,18 @@
+Beating the Minimax Rate of Active Learning with Prior Knowledge
+Active learning refers to the learning protocol where the learner is allowed
+to choose a subset of instances for labeling. Previous studies have shown that,
+compared with passive learning, active learning is able to reduce the label
+complexity exponentially if the data are linearly separable or satisfy the
+Tsybakov noise condition with parameter $\kappa=1$. In this paper, we propose a
+novel active learning algorithm using a convex surrogate loss, with the goal to
+broaden the cases for which active learning achieves an exponential
+improvement. We make use of a convex loss not only because it reduces the
+computational cost, but more importantly because it leads to a tight bound for
+the empirical process (i.e., the difference between the empirical estimation
+and the expectation) when the current solution is close to the optimal one.
+Under the assumption that the norm of the optimal classifier that minimizes the
+convex risk is available, our analysis shows that the introduction of the
+convex surrogate loss yields an exponential reduction in the label complexity
+even when the parameter $\kappa$ of the Tsybakov noise is larger than $1$. To
+the best of our knowledge, this is the first work that improves the minimax
+rate of active learning by utilizing certain priori knowledge.

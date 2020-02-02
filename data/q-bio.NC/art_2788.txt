@@ -1,0 +1,27 @@
+STDP allows close-to-optimal spatiotemporal spike pattern detection by
+  single coincidence detector neurons
+By recording multiple cells simultaneously, electrophysiologists have found
+evidence for repeating spatiotemporal spike patterns, which can carry
+information. How this information is extracted by downstream neurons is
+unclear. In this theoretical paper, we investigate to what extent a single cell
+could detect a given spike pattern and what the optimal parameters to do so
+are, in particular the membrane time constant $\tau$. Using a leaky
+integrate-and-fire (LIF) neuron with instantaneous synapses and homogeneous
+Poisson input, we were able to compute this optimum analytically. Our results
+indicate that a relatively small $\tau$ (at most a few tens of ms) is usually
+optimal, even when the pattern is much longer. This is somewhat counter
+intuitive as the resulting detector ignores most of the pattern, due to its
+fast memory decay. Next, we wondered if spike-timing-dependent plasticity
+(STDP) could enable a neuron to reach the theoretical optimum. We simulated a
+LIF neuron equipped with additive spike-timing-dependent potentiation and
+homeostatic rate-based depression, and repeatedly exposed it to a given input
+spike pattern. As in previous studies, the LIF progressively became selective
+to the repeating pattern with no supervision, even when the pattern was
+embedded in Poisson activity. Here we show that, using certain STDP parameters,
+the resulting pattern detector can be optimal. Taken together, these results
+may explain how humans can learn repeating visual or auditory sequences. Long
+sequences could be recognized thanks to coincidence detectors working at a much
+shorter timescale. This is consistent with the fact that recognition is still
+possible if a sound sequence is compressed, played backward, or scrambled using
+10ms bins. Coincidence detection is a simple yet powerful mechanism, which
+could be the main function of neurons in the brain.

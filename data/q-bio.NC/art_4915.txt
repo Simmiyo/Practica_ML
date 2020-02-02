@@ -1,0 +1,11 @@
+A simple blind-denoising filter inspired by electrically coupled
+  photoreceptors in the retina
+Photoreceptors in the retina are coupled by electrical synapses called "gap
+junctions". It has long been established that gap junctions increase the
+signal-to-noise ratio of photoreceptors. Inspired by electrically coupled
+photoreceptors, we introduced a simple filter, the PR-filter, with only one
+variable. On BSD68 dataset, PR-filter showed outstanding performance in SSIM
+during blind denoising tasks. It also significantly improved the performance of
+state-of-the-art convolutional neural network blind denosing on non-Gaussian
+noise. The performance of keeping more details might be attributed to small
+receptive field of the photoreceptors.

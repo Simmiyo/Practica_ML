@@ -1,0 +1,15 @@
+Acoustic data-driven lexicon learning based on a greedy pronunciation
+  selection framework
+Speech recognition systems for irregularly-spelled languages like English
+normally require hand-written pronunciations. In this paper, we describe a
+system for automatically obtaining pronunciations of words for which
+pronunciations are not available, but for which transcribed data exists. Our
+method integrates information from the letter sequence and from the acoustic
+evidence. The novel aspect of the problem that we address is the problem of how
+to prune entries from such a lexicon (since, empirically, lexicons with too
+many entries do not tend to be good for ASR performance). Experiments on
+various ASR tasks show that, with the proposed framework, starting with an
+initial lexicon of several thousand words, we are able to learn a lexicon which
+performs close to a full expert lexicon in terms of WER performance on test
+data, and is better than lexicons built using G2P alone or with a pruning
+criterion based on pronunciation probability.

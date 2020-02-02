@@ -1,0 +1,18 @@
+Transformation Forests
+Regression models for supervised learning problems with a continuous target
+are commonly understood as models for the conditional mean of the target given
+predictors. This notion is simple and therefore appealing for interpretation
+and visualisation. Information about the whole underlying conditional
+distribution is, however, not available from these models. A more general
+understanding of regression models as models for conditional distributions
+allows much broader inference from such models, for example the computation of
+prediction intervals. Several random forest-type algorithms aim at estimating
+conditional distributions, most prominently quantile regression forests
+(Meinshausen, 2006, JMLR). We propose a novel approach based on a parametric
+family of distributions characterised by their transformation function. A
+dedicated novel "transformation tree" algorithm able to detect distributional
+changes is developed. Based on these transformation trees, we introduce
+"transformation forests" as an adaptive local likelihood estimator of
+conditional distribution functions. The resulting models are fully parametric
+yet very general and allow broad inference procedures, such as the model-based
+bootstrap, to be applied in a straightforward way.

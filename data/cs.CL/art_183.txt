@@ -1,0 +1,14 @@
+Portability of Syntactic Structure for Language Modeling
+The paper presents a study on the portability of statistical syntactic
+knowledge in the framework of the structured language model (SLM). We
+investigate the impact of porting SLM statistics from the Wall Street Journal
+(WSJ) to the Air Travel Information System (ATIS) domain. We compare this
+approach to applying the Microsoft rule-based parser (NLPwin) for the ATIS data
+and to using a small amount of data manually parsed at UPenn for gathering the
+intial SLM statistics. Surprisingly, despite the fact that it performs modestly
+in perplexity (PPL), the model initialized on WSJ parses outperforms the other
+initialization methods based on in-domain annotated data, achieving a
+significant 0.4% absolute and 7% relative reduction in word error rate (WER)
+over a baseline system whose word error rate is 5.8%; the improvement measured
+relative to the minimum WER achievable on the N-best lists we worked with is
+12%.

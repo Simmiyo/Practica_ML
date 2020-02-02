@@ -1,0 +1,27 @@
+Large Scale Correlation Screening
+This paper treats the problem of screening for variables with high
+correlations in high dimensional data in which there can be many fewer samples
+than variables. We focus on threshold-based correlation screening methods for
+three related applications: screening for variables with large correlations
+within a single treatment (autocorrelation screening); screening for variables
+with large cross-correlations over two treatments (cross-correlation
+screening); screening for variables that have persistently large
+auto-correlations over two treatments (persistent-correlation screening). The
+novelty of correlation screening is that it identifies a smaller number of
+variables which are highly correlated with others, as compared to identifying a
+number of correlation parameters. Correlation screening suffers from a phase
+transition phenomenon: as the correlation threshold decreases the number of
+discoveries increases abruptly. We obtain asymptotic expressions for the mean
+number of discoveries and the phase transition thresholds as a function of the
+number of samples, the number of variables, and the joint sample distribution.
+We also show that under a weak dependency condition the number of discoveries
+is dominated by a Poisson random variable giving an asymptotic expression for
+the false positive rate. The correlation screening approach bears tremendous
+dividends in terms of the type and strength of the asymptotic results that can
+be obtained. It also overcomes some of the major hurdles faced by existing
+methods in the literature as correlation screening is naturally scalable to
+high dimension. Numerical results strongly validate the theory that is
+presented in this paper. We illustrate the application of the correlation
+screening methodology on a large scale gene-expression dataset, revealing a few
+influential variables that exhibit a significant amount of correlation over
+multiple treatments.

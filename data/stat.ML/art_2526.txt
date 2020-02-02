@@ -1,0 +1,20 @@
+Copula Mixed-Membership Stochastic Blockmodel for Intra-Subgroup
+  Correlations
+The \emph{Mixed-Membership Stochastic Blockmodel (MMSB)} is a popular
+framework for modeling social network relationships. It can fully exploit each
+individual node's participation (or membership) in a social structure. Despite
+its powerful representations, this model makes an assumption that the
+distributions of relational membership indicators between two nodes are
+independent. Under many social network settings, however, it is possible that
+certain known subgroups of people may have high or low correlations in terms of
+their membership categories towards each other, and such prior information
+should be incorporated into the model. To this end, we introduce a \emph{Copula
+Mixed-Membership Stochastic Blockmodel (cMMSB)} where an individual Copula
+function is employed to jointly model the membership pairs of those nodes
+within the subgroup of interest. The model enables the use of various Copula
+functions to suit the scenario, while maintaining the membership's marginal
+distribution, as needed, for modeling membership indicators with other nodes
+outside of the subgroup of interest. We describe the proposed model and its
+inference algorithm in detail for both the finite and infinite cases. In the
+experiment section, we compare our algorithms with other popular models in
+terms of link prediction, using both synthetic and real world data.

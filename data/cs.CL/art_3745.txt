@@ -1,0 +1,9 @@
+Hierarchical RNN for Information Extraction from Lawsuit Documents
+Every lawsuit document contains the information about the party's claim,
+court's analysis, decision and others, and all of this information are helpful
+to understand the case better and predict the judge's decision on similar case
+in the future. However, the extraction of these information from the document
+is difficult because the language is too complicated and sentences varied at
+length. We treat this problem as a task of sequence labeling, and this paper
+presents the first research to extract relevant information from the civil
+lawsuit document in China with the hierarchical RNN framework.

@@ -1,0 +1,19 @@
+Coherence Pursuit: Fast, Simple, and Robust Principal Component Analysis
+This paper presents a remarkably simple, yet powerful, algorithm termed
+Coherence Pursuit (CoP) to robust Principal Component Analysis (PCA). As
+inliers lie in a low dimensional subspace and are mostly correlated, an inlier
+is likely to have strong mutual coherence with a large number of data points.
+By contrast, outliers either do not admit low dimensional structures or form
+small clusters. In either case, an outlier is unlikely to bear strong
+resemblance to a large number of data points. Given that, CoP sets an outlier
+apart from an inlier by comparing their coherence with the rest of the data
+points. The mutual coherences are computed by forming the Gram matrix of the
+normalized data points. Subsequently, the sought subspace is recovered from the
+span of the subset of the data points that exhibit strong coherence with the
+rest of the data. As CoP only involves one simple matrix multiplication, it is
+significantly faster than the state-of-the-art robust PCA algorithms. We derive
+analytical performance guarantees for CoP under different models for the
+distributions of inliers and outliers in both noise-free and noisy settings.
+CoP is the first robust PCA algorithm that is simultaneously non-iterative,
+provably robust to both unstructured and structured outliers, and can tolerate
+a large number of unstructured outliers.

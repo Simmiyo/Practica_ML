@@ -1,0 +1,15 @@
+Discriminative training for Convolved Multiple-Output Gaussian processes
+Multi-output Gaussian processes (MOGP) are probability distributions over
+vector-valued functions, and have been previously used for multi-output
+regression and for multi-class classification. A less explored facet of the
+multi-output Gaussian process is that it can be used as a generative model for
+vector-valued random fields in the context of pattern recognition. As a
+generative model, the multi-output GP is able to handle vector-valued functions
+with continuous inputs, as opposed, for example, to hidden Markov models. It
+also offers the ability to model multivariate random functions with high
+dimensional inputs. In this report, we use a discriminative training criteria
+known as Minimum Classification Error to fit the parameters of a multi-output
+Gaussian process. We compare the performance of generative training and
+discriminative training of MOGP in emotion recognition, activity recognition,
+and face recognition. We also compare the proposed methodology against hidden
+Markov models trained in a generative and in a discriminative way.

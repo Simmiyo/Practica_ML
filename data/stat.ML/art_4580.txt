@@ -1,0 +1,14 @@
+Probabilistic Inference of Twitter Users' Age based on What They Follow
+Twitter provides an open and rich source of data for studying human behaviour
+at scale and is widely used in social and network sciences. However, a major
+criticism of Twitter data is that demographic information is largely absent.
+Enhancing Twitter data with user ages would advance our ability to study social
+network structures, information flows and the spread of contagions. Approaches
+toward age detection of Twitter users typically focus on specific properties of
+tweets, e.g., linguistic features, which are language dependent. In this paper,
+we devise a language-independent methodology for determining the age of Twitter
+users from data that is native to the Twitter ecosystem. The key idea is to use
+a Bayesian framework to generalise ground-truth age information from a few
+Twitter users to the entire network based on what/whom they follow. Our
+approach scales to inferring the age of 700 million Twitter accounts with high
+accuracy.

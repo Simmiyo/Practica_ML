@@ -1,0 +1,23 @@
+Some Open Problems in Optimal AdaBoost and Decision Stumps
+The significance of the study of the theoretical and practical properties of
+AdaBoost is unquestionable, given its simplicity, wide practical use, and
+effectiveness on real-world datasets. Here we present a few open problems
+regarding the behavior of "Optimal AdaBoost," a term coined by Rudin,
+Daubechies, and Schapire in 2004 to label the simple version of the standard
+AdaBoost algorithm in which the weak learner that AdaBoost uses always outputs
+the weak classifier with lowest weighted error among the respective hypothesis
+class of weak classifiers implicit in the weak learner. We concentrate on the
+standard, "vanilla" version of Optimal AdaBoost for binary classification that
+results from using an exponential-loss upper bound on the misclassification
+training error. We present two types of open problems. One deals with general
+weak hypotheses. The other deals with the particular case of decision stumps,
+as often and commonly used in practice. Answers to the open problems can have
+immediate significant impact to (1) cementing previously established results on
+asymptotic convergence properties of Optimal AdaBoost, for finite datasets,
+which in turn can be the start to any convergence-rate analysis; (2)
+understanding the weak-hypotheses class of effective decision stumps generated
+from data, which we have empirically observed to be significantly smaller than
+the typically obtained class, as well as the effect on the weak learner's
+running time and previously established improved bounds on the generalization
+performance of Optimal AdaBoost classifiers; and (3) shedding some light on the
+"self control" that AdaBoost tends to exhibit in practice.

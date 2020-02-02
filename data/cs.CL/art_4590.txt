@@ -1,0 +1,12 @@
+Dual Conditional Cross-Entropy Filtering of Noisy Parallel Corpora
+In this work we introduce dual conditional cross-entropy filtering for noisy
+parallel data. For each sentence pair of the noisy parallel corpus we compute
+cross-entropy scores according to two inverse translation models trained on
+clean data. We penalize divergent cross-entropies and weigh the penalty by the
+cross-entropy average of both models. Sorting or thresholding according to
+these scores results in better subsets of parallel data. We achieve higher BLEU
+scores with models trained on parallel data filtered only from Paracrawl than
+with models trained on clean WMT data. We further evaluate our method in the
+context of the WMT2018 shared task on parallel corpus filtering and achieve the
+overall highest ranking scores of the shared task, scoring top in three out of
+four subtasks.

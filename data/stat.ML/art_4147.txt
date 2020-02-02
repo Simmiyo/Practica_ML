@@ -1,0 +1,14 @@
+Distribution-Free One-Pass Learning
+In many large-scale machine learning applications, data are accumulated with
+time, and thus, an appropriate model should be able to update in an online
+paradigm. Moreover, as the whole data volume is unknown when constructing the
+model, it is desired to scan each data item only once with a storage
+independent with the data volume. It is also noteworthy that the distribution
+underlying may change during the data accumulation procedure. To handle such
+tasks, in this paper we propose DFOP, a distribution-free one-pass learning
+approach. This approach works well when distribution change occurs during data
+accumulation, without requiring prior knowledge about the change. Every data
+item can be discarded once it has been scanned. Besides, theoretical guarantee
+shows that the estimate error, under a mild assumption, decreases until
+convergence with high probability. The performance of DFOP for both regression
+and classification are validated in experiments.

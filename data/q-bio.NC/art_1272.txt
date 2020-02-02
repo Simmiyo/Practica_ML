@@ -1,0 +1,14 @@
+Sparse connectivity for MAP inference in linear models using sister
+  mitral cells
+Sensory processing is hard because the variables of interest are encoded in
+spike trains in a relatively complex way. A major goal in sensory processing is
+to understand how the brain extracts those variables. Here we revisit a common
+encoding model in which variables are encoded linearly. Although there are
+typically more variables than neurons, this problem is still solvable because
+only a small number of variables appear at any one time (sparse prior).
+However, previous solutions usually require all-to-all connectivity,
+inconsistent with the sparse connectivity seen in the brain. Here we propose a
+principled algorithm that provably reaches the MAP inference solution but using
+sparse connectivity. Our algorithm is inspired by the mouse olfactory bulb, but
+our approach is general enough to apply to other modalities; in addition, it
+should be possible to extend it to nonlinear encoding models.

@@ -1,0 +1,28 @@
+The Brain on Low Power Architectures - Efficient Simulation of Cortical
+  Slow Waves and Asynchronous States
+Efficient brain simulation is a scientific grand challenge, a
+parallel/distributed coding challenge and a source of requirements and
+suggestions for future computing architectures. Indeed, the human brain
+includes about 10^15 synapses and 10^11 neurons activated at a mean rate of
+several Hz. Full brain simulation poses Exascale challenges even if simulated
+at the highest abstraction level. The WaveScalES experiment in the Human Brain
+Project (HBP) has the goal of matching experimental measures and simulations of
+slow waves during deep-sleep and anesthesia and the transition to other brain
+states. The focus is the development of dedicated large-scale
+parallel/distributed simulation technologies. The ExaNeSt project designs an
+ARM-based, low-power HPC architecture scalable to million of cores, developing
+a dedicated scalable interconnect system, and SWA/AW simulations are included
+among the driving benchmarks. At the joint between both projects is the INFN
+proprietary Distributed and Plastic Spiking Neural Networks (DPSNN) simulation
+engine. DPSNN can be configured to stress either the networking or the
+computation features available on the execution platforms. The simulation
+stresses the networking component when the neural net - composed by a
+relatively low number of neurons, each one projecting thousands of synapses -
+is distributed over a large number of hardware cores. When growing the number
+of neurons per core, the computation starts to be the dominating component for
+short range connections. This paper reports about preliminary performance
+results obtained on an ARM-based HPC prototype developed in the framework of
+the ExaNeSt project. Furthermore, a comparison is given of instantaneous power,
+total energy consumption, execution time and energetic cost per synaptic event
+of SWA/AW DPSNN simulations when executed on either ARM- or Intel-based server
+platforms.

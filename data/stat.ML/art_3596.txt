@@ -1,0 +1,16 @@
+A Parallel algorithm for $\mathcal{X}$-Armed bandits
+The target of $\mathcal{X}$-armed bandit problem is to find the global
+maximum of an unknown stochastic function $f$, given a finite budget of $n$
+evaluations. Recently, $\mathcal{X}$-armed bandits have been widely used in
+many situations. Many of these applications need to deal with large-scale data
+sets. To deal with these large-scale data sets, we study a distributed setting
+of $\mathcal{X}$-armed bandits, where $m$ players collaborate to find the
+maximum of the unknown function. We develop a novel anytime distributed
+$\mathcal{X}$-armed bandit algorithm. Compared with prior work on
+$\mathcal{X}$-armed bandits, our algorithm uses a quite different searching
+strategy so as to fit distributed learning scenarios. Our theoretical analysis
+shows that our distributed algorithm is $m$ times faster than the classical
+single-player algorithm. Moreover, the number of communication rounds of our
+algorithm is only logarithmic in $mn$. The numerical results show that our
+method can make effective use of every players to minimize the loss. Thus, our
+distributed approach is attractive and useful.

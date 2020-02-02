@@ -1,0 +1,11 @@
+On the underestimation of model uncertainty by Bayesian K-nearest
+  neighbors
+When using the K-nearest neighbors method, one often ignores uncertainty in
+the choice of K. To account for such uncertainty, Holmes and Adams (2002)
+proposed a Bayesian framework for K-nearest neighbors (KNN). Their Bayesian KNN
+(BKNN) approach uses a pseudo-likelihood function, and standard Markov chain
+Monte Carlo (MCMC) techniques to draw posterior samples. Holmes and Adams
+(2002) focused on the performance of BKNN in terms of misclassification error
+but did not assess its ability to quantify uncertainty. We present some
+evidence to show that BKNN still significantly underestimates model
+uncertainty.

@@ -1,0 +1,16 @@
+Variational Gaussian Dropout is not Bayesian
+Gaussian multiplicative noise is commonly used as a stochastic regularisation
+technique in training of deterministic neural networks. A recent paper
+reinterpreted the technique as a specific algorithm for approximate inference
+in Bayesian neural networks; several extensions ensued. We show that the
+log-uniform prior used in all the above publications does not generally induce
+a proper posterior, and thus Bayesian inference in such models is ill-posed.
+Independent of the log-uniform prior, the correlated weight noise approximation
+has further issues leading to either infinite objective or high risk of
+overfitting. The above implies that the reported sparsity of obtained solutions
+cannot be explained by Bayesian or the related minimum description length
+arguments. We thus study the objective from a non-Bayesian perspective, provide
+its previously unknown analytical form which allows exact gradient evaluation,
+and show that the later proposed additive reparametrisation introduces minima
+not present in the original multiplicative parametrisation. Implications and
+future research directions are discussed.

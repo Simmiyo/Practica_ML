@@ -1,0 +1,16 @@
+Compressive Sensing via Convolutional Factor Analysis
+We solve the compressive sensing problem via convolutional factor analysis,
+where the convolutional dictionaries are learned {\em in situ} from the
+compressed measurements. An alternating direction method of multipliers (ADMM)
+paradigm for compressive sensing inversion based on convolutional factor
+analysis is developed. The proposed algorithm provides reconstructed images as
+well as features, which can be directly used for recognition ($e.g.$,
+classification) tasks. When a deep (multilayer) model is constructed, a
+stochastic unpooling process is employed to build a generative model. During
+reconstruction and testing, we project the upper layer dictionary to the data
+level and only a single layer deconvolution is required. We demonstrate that
+using $\sim30\%$ (relative to pixel numbers) compressed measurements, the
+proposed model achieves the classification accuracy comparable to the original
+data on MNIST. We also observe that when the compressed measurements are very
+limited ($e.g.$, $<10\%$), the upper layer dictionary can provide better
+reconstruction results than the bottom layer.

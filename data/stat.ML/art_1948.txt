@@ -1,0 +1,13 @@
+Spectral dimensionality reduction for HMMs
+Hidden Markov Models (HMMs) can be accurately approximated using
+co-occurrence frequencies of pairs and triples of observations by using a fast
+spectral method in contrast to the usual slow methods like EM or Gibbs
+sampling. We provide a new spectral method which significantly reduces the
+number of model parameters that need to be estimated, and generates a sample
+complexity that does not depend on the size of the observation vocabulary. We
+present an elementary proof giving bounds on the relative accuracy of
+probability estimates from our model. (Correlaries show our bounds can be
+weakened to provide either L1 bounds or KL bounds which provide easier direct
+comparisons to previous work.) Our theorem uses conditions that are checkable
+from the data, instead of putting conditions on the unobservable Markov
+transition matrix.

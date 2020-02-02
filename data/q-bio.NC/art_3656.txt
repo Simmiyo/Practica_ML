@@ -1,0 +1,19 @@
+Systematic Enhancement of Functional Connectivity in Brain-Computer
+  Interfacing using Common Spatial Patterns and Tangent Space Mapping
+Functional connectivity of cognitive tasks allows researchers to analyse the
+interaction mapping occurring between different regions of the brain using
+electroencephalography (EEG) signals. Standard practice in functional
+connectivity involve studying the electrode pair interactions across several
+trials. As the cognitive task always involves the human factor, it is
+inevitable to have lower quality data from the brain signals influenced by the
+subject concentration or other mental states which can occur anytime over the
+whole experimental trials. The connectivity among electrodes are heavily
+influenced by these low quality EEG. In this paper, we aim at enhancing the
+functional connectivity of mental tasks by implementing a classification step
+in the process to remove those incorrect EEG trials from the available set. The
+classification step removes the trials which were mis-classified or had a low
+probability of occurrence to extract only reliable EEG trials. Through our
+approach, we have successfully improved the separability among graph parameters
+for different mental tasks. We also observe an improvement in the readability
+of the connectivity by focusing only on a group of selected channels rather
+than employing all the channels.

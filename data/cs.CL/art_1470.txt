@@ -1,0 +1,17 @@
+Effective Spoken Language Labeling with Deep Recurrent Neural Networks
+Understanding spoken language is a highly complex problem, which can be
+decomposed into several simpler tasks. In this paper, we focus on Spoken
+Language Understanding (SLU), the module of spoken dialog systems responsible
+for extracting a semantic interpretation from the user utterance. The task is
+treated as a labeling problem. In the past, SLU has been performed with a wide
+variety of probabilistic models. The rise of neural networks, in the last
+couple of years, has opened new interesting research directions in this domain.
+Recurrent Neural Networks (RNNs) in particular are able not only to represent
+several pieces of information as embeddings but also, thanks to their recurrent
+architecture, to encode as embeddings relatively long contexts. Such long
+contexts are in general out of reach for models previously used for SLU. In
+this paper we propose novel RNNs architectures for SLU which outperform
+previous ones. Starting from a published idea as base block, we design new deep
+RNNs achieving state-of-the-art results on two widely used corpora for SLU:
+ATIS (Air Traveling Information System), in English, and MEDIA (Hotel
+information and reservation in France), in French.

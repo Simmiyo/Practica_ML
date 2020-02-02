@@ -1,0 +1,12 @@
+Effective Character-augmented Word Embedding for Machine Reading
+  Comprehension
+Machine reading comprehension is a task to model relationship between passage
+and query. In terms of deep learning framework, most of state-of-the-art models
+simply concatenate word and character level representations, which has been
+shown suboptimal for the concerned task. In this paper, we empirically explore
+different integration strategies of word and character embeddings and propose a
+character-augmented reader which attends character-level representation to
+augment word embedding with a short list to improve word representations,
+especially for rare words. Experimental results show that the proposed approach
+helps the baseline model significantly outperform state-of-the-art baselines on
+various public benchmarks.

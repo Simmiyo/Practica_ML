@@ -1,0 +1,23 @@
+Stochastic Training of Neural Networks via Successive Convex
+  Approximations
+This paper proposes a new family of algorithms for training neural networks
+(NNs). These are based on recent developments in the field of non-convex
+optimization, going under the general name of successive convex approximation
+(SCA) techniques. The basic idea is to iteratively replace the original
+(non-convex, highly dimensional) learning problem with a sequence of (strongly
+convex) approximations, which are both accurate and simple to optimize.
+Differently from similar ideas (e.g., quasi-Newton algorithms), the
+approximations can be constructed using only first-order information of the
+neural network function, in a stochastic fashion, while exploiting the overall
+structure of the learning problem for a faster convergence. We discuss several
+use cases, based on different choices for the loss function (e.g., squared loss
+and cross-entropy loss), and for the regularization of the NN's weights. We
+experiment on several medium-sized benchmark problems, and on a large-scale
+dataset involving simulated physical data. The results show how the algorithm
+outperforms state-of-the-art techniques, providing faster convergence to a
+better minimum. Additionally, we show how the algorithm can be easily
+parallelized over multiple computational units without hindering its
+performance. In particular, each computational unit can optimize a tailored
+surrogate function defined on a randomly assigned subset of the input
+variables, whose dimension can be selected depending entirely on the available
+computational power.

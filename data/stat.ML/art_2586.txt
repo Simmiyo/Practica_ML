@@ -1,0 +1,14 @@
+High dimensional Sparse Gaussian Graphical Mixture Model
+This paper considers the problem of networks reconstruction from
+heterogeneous data using a Gaussian Graphical Mixture Model (GGMM). It is well
+known that parameter estimation in this context is challenging due to large
+numbers of variables coupled with the degeneracy of the likelihood. We propose
+as a solution a penalized maximum likelihood technique by imposing an $l_{1}$
+penalty on the precision matrix. Our approach shrinks the parameters thereby
+resulting in better identifiability and variable selection. We use the
+Expectation Maximization (EM) algorithm which involves the graphical LASSO to
+estimate the mixing coefficients and the precision matrices. We show that under
+certain regularity conditions the Penalized Maximum Likelihood (PML) estimates
+are consistent. We demonstrate the performance of the PML estimator through
+simulations and we show the utility of our method for high dimensional data
+analysis in a genomic application.

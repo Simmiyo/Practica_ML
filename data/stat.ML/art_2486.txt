@@ -1,0 +1,12 @@
+Inference in Kingman's Coalescent with Particle Markov Chain Monte Carlo
+  Method
+We propose a new algorithm to do posterior sampling of Kingman's coalescent,
+based upon the Particle Markov Chain Monte Carlo methodology. Specifically, the
+algorithm is an instantiation of the Particle Gibbs Sampling method, which
+alternately samples coalescent times conditioned on coalescent tree structures,
+and tree structures conditioned on coalescent times via the conditional
+Sequential Monte Carlo procedure. We implement our algorithm as a C++ package,
+and demonstrate its utility via a parameter estimation task in population
+genetics on both single- and multiple-locus data. The experiment results show
+that the proposed algorithm performs comparable to or better than several
+well-developed methods.

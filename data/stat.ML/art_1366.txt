@@ -1,0 +1,14 @@
+Learning to Draw Samples with Amortized Stein Variational Gradient
+  Descent
+We propose a simple algorithm to train stochastic neural networks to draw
+samples from given target distributions for probabilistic inference. Our method
+is based on iteratively adjusting the neural network parameters so that the
+output changes along a Stein variational gradient direction (Liu & Wang, 2016)
+that maximally decreases the KL divergence with the target distribution. Our
+method works for any target distribution specified by their unnormalized
+density function, and can train any black-box architectures that are
+differentiable in terms of the parameters we want to adapt. We demonstrate our
+method with a number of applications, including variational autoencoder (VAE)
+with expressive encoders to model complex latent space structures, and
+hyper-parameter learning of MCMC samplers that allows Bayesian inference to
+adaptively improve itself when seeing more data.

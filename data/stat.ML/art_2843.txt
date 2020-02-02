@@ -1,0 +1,18 @@
+Ensemble Committees for Stock Return Classification and Prediction
+This paper considers a portfolio trading strategy formulated by algorithms in
+the field of machine learning. The profitability of the strategy is measured by
+the algorithm's capability to consistently and accurately identify stock
+indices with positive or negative returns, and to generate a preferred
+portfolio allocation on the basis of a learned model. Stocks are characterized
+by time series data sets consisting of technical variables that reflect market
+conditions in a previous time interval, which are utilized produce binary
+classification decisions in subsequent intervals. The learned model is
+constructed as a committee of random forest classifiers, a non-linear support
+vector machine classifier, a relevance vector machine classifier, and a
+constituent ensemble of k-nearest neighbors classifiers. The Global Industry
+Classification Standard (GICS) is used to explore the ensemble model's efficacy
+within the context of various fields of investment including Energy, Materials,
+Financials, and Information Technology. Data from 2006 to 2012, inclusive, are
+considered, which are chosen for providing a range of market circumstances for
+evaluating the model. The model is observed to achieve an accuracy of
+approximately 70% when predicting stock price returns three months in advance.

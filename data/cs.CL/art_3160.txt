@@ -1,0 +1,11 @@
+OhioState at IJCNLP-2017 Task 4: Exploring Neural Architectures for
+  Multilingual Customer Feedback Analysis
+This paper describes our systems for IJCNLP 2017 Shared Task on Customer
+Feedback Analysis. We experimented with simple neural architectures that gave
+competitive performance on certain tasks. This includes shallow CNN and
+Bi-Directional LSTM architectures with Facebook's Fasttext as a baseline model.
+Our best performing model was in the Top 5 systems using the Exact-Accuracy and
+Micro-Average-F1 metrics for the Spanish (85.28% for both) and French (70% and
+73.17% respectively) task, and outperformed all the other models on comment
+(87.28%) and meaningless (51.85%) tags using Micro Average F1 by Tags metric
+for the French task.

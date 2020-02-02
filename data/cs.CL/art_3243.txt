@@ -1,0 +1,11 @@
+Social Media Writing Style Fingerprint
+We present our approach for computer-aided social media text authorship
+attribution based on recent advances in short text authorship verification. We
+use various natural language techniques to create word-level and
+character-level models that act as hidden layers to simulate a simple neural
+network. The choice of word-level and character-level models in each layer was
+informed through validation performance. The output layer of our system uses an
+unweighted majority vote vector to arrive at a conclusion. We also considered
+writing bias in social media posts while collecting our training dataset to
+increase system robustness. Our system achieved a precision, recall, and
+F-measure of 0.82, 0.926 and 0.869 respectively.

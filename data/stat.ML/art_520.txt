@@ -1,0 +1,14 @@
+Sparse and low-rank multivariate Hawkes processes
+We consider the problem of unveiling the implicit network structure of node
+interactions (such as user interactions in a social network), based only on
+high-frequency timestamps. Our inference is based on the minimization of the
+least-squares loss associated with a multivariate Hawkes model, penalized by
+$\ell_1$ and trace norm of the interaction tensor. We provide a first
+theoretical analysis for this problem, that includes sparsity and low-rank
+inducing penalizations. This result involves a new data-driven concentration
+inequality for matrix martingales in continuous time with observable variance,
+which is a result of independent interest. A consequence of our analysis is the
+construction of sharply tuned $\ell_1$ and trace-norm penalizations, that leads
+to a data-driven scaling of the variability of information available for each
+users. Numerical experiments illustrate the significant improvements achieved
+by the use of such data-driven penalizations.

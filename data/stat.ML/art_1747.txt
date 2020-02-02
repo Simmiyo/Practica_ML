@@ -1,0 +1,14 @@
+Order-preserving factor analysis (OPFA)
+We present a novel factor analysis method that can be applied to the
+discovery of common factors shared among trajectories in multivariate time
+series data. These factors satisfy a precedence-ordering property: certain
+factors are recruited only after some other factors are activated.
+Precedence-ordering arise in applications where variables are activated in a
+specific order, which is unknown. The proposed method is based on a linear
+model that accounts for each factor's inherent delays and relative order. We
+present an algorithm to fit the model in an unsupervised manner using
+techniques from convex and non-convex optimization that enforce sparsity of the
+factor scores and consistent precedence-order of the factor loadings. We
+illustrate the Order-Preserving Factor Analysis (OPFA) method for the problem
+of extracting precedence-ordered factors from a longitudinal (time course)
+study of gene expression data.

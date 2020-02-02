@@ -1,0 +1,21 @@
+Recurrent Convolutional Networks for Pulmonary Nodule Detection in CT
+  Imaging
+Computed tomography (CT) generates a stack of cross-sectional images covering
+a region of the body. The visual assessment of these images for the
+identification of potential abnormalities is a challenging and time consuming
+task due to the large amount of information that needs to be processed. In this
+article we propose a deep artificial neural network architecture, ReCTnet, for
+the fully-automated detection of pulmonary nodules in CT scans. The
+architecture learns to distinguish nodules and normal structures at the pixel
+level and generates three-dimensional probability maps highlighting areas that
+are likely to harbour the objects of interest. Convolutional and recurrent
+layers are combined to learn expressive image representations exploiting the
+spatial dependencies across axial slices. We demonstrate that leveraging
+intra-slice dependencies substantially increases the sensitivity to detect
+pulmonary nodules without inflating the false positive rate. On the publicly
+available LIDC/IDRI dataset consisting of 1,018 annotated CT scans, ReCTnet
+reaches a detection sensitivity of 90.5% with an average of 4.5 false positives
+per scan. Comparisons with a competing multi-channel convolutional neural
+network for multi-slice segmentation and other published methodologies using
+the same dataset provide evidence that ReCTnet offers significant performance
+gains.

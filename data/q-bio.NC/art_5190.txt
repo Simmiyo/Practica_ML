@@ -1,0 +1,23 @@
+Mapping of Local and Global Synapses on Spiking Neuromorphic Hardware
+Spiking Neural Networks (SNNs) are widely deployed to solve complex pattern
+recognition, function approximation and image classification tasks. With the
+growing size and complexity of these networks, hardware implementation becomes
+challenging because scaling up the size of a single array (crossbar) of fully
+connected neurons is no longer feasible due to strict energy budget. Modern
+neromorphic hardware integrates small-sized crossbars with time-multiplexed
+interconnects. Partitioning SNNs becomes essential in order to map them on
+neuromorphic hardware with the major aim to reduce the global communication
+latency and energy overhead. To achieve this goal, we propose our instantiation
+of particle swarm optimization, which partitions SNNs into local synapses
+(mapped on crossbars) and global synapses (mapped on time-multiplexed
+interconnects), with the objective of reducing spike communication on the
+interconnect. This improves latency, power consumption as well as application
+performance by reducing inter-spike interval distortion and spike disorders.
+Our framework is implemented in Python, interfacing CARLsim, a GPU-accelerated
+application-level spiking neural network simulator with an extended version of
+Noxim, for simulating time-multiplexed interconnects. Experiments are conducted
+with realistic and synthetic SNN-based applications with different computation
+models, topologies and spike coding schemes. Using power numbers from in-house
+neuromorphic chips, we demonstrate significant reductions in energy consumption
+and spike latency over PACMAN, the widely-used partitioning technique for SNNs
+on SpiNNaker.

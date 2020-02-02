@@ -1,0 +1,20 @@
+Cramer Rao-Type Bounds for Sparse Bayesian Learning
+In this paper, we derive Hybrid, Bayesian and Marginalized Cram\'{e}r-Rao
+lower bounds (HCRB, BCRB and MCRB) for the single and multiple measurement
+vector Sparse Bayesian Learning (SBL) problem of estimating compressible
+vectors and their prior distribution parameters. We assume the unknown vector
+to be drawn from a compressible Student-t prior distribution. We derive CRBs
+that encompass the deterministic or random nature of the unknown parameters of
+the prior distribution and the regression noise variance. We extend the MCRB to
+the case where the compressible vector is distributed according to a general
+compressible prior distribution, of which the generalized Pareto distribution
+is a special case. We use the derived bounds to uncover the relationship
+between the compressibility and Mean Square Error (MSE) in the estimates.
+Further, we illustrate the tightness and utility of the bounds through
+simulations, by comparing them with the MSE performance of two popular
+SBL-based estimators. It is found that the MCRB is generally the tightest among
+the bounds derived and that the MSE performance of the Expectation-Maximization
+(EM) algorithm coincides with the MCRB for the compressible vector. Through
+simulations, we demonstrate the dependence of the MSE performance of SBL based
+estimators on the compressibility of the vector for several values of the
+number of observations and at different signal powers.

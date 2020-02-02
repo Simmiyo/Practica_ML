@@ -1,0 +1,19 @@
+Distributed Robust Power System State Estimation
+Deregulation of energy markets, penetration of renewables, advanced metering
+capabilities, and the urge for situational awareness, all call for system-wide
+power system state estimation (PSSE). Implementing a centralized estimator
+though is practically infeasible due to the complexity scale of an
+interconnection, the communication bottleneck in real-time monitoring, regional
+disclosure policies, and reliability issues. In this context, distributed PSSE
+methods are treated here under a unified and systematic framework. A novel
+algorithm is developed based on the alternating direction method of
+multipliers. It leverages existing PSSE solvers, respects privacy policies,
+exhibits low communication load, and its convergence to the centralized
+estimates is guaranteed even in the absence of local observability. Beyond the
+conventional least-squares based PSSE, the decentralized framework accommodates
+a robust state estimator. By exploiting interesting links to the compressive
+sampling advances, the latter jointly estimates the state and identifies
+corrupted measurements. The novel algorithms are numerically evaluated using
+the IEEE 14-, 118-bus, and a 4,200-bus benchmarks. Simulations demonstrate that
+the attainable accuracy can be reached within a few inter-area exchanges, while
+largest residual tests are outperformed.

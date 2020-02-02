@@ -1,0 +1,27 @@
+One step back, two steps forward: interference and learning in recurrent
+  neural networks
+Artificial neural networks, trained to perform cognitive tasks, have recently
+been used as models for neural recordings from animals performing these tasks.
+While some progress has been made in performing such comparisons, the evolution
+of network dynamics throughout learning remains unexplored. This is paralleled
+by an experimental focus on recording from trained animals, with few studies
+following neural activity throughout training. In this work, we address this
+gap in the realm of artificial networks by analyzing networks that are trained
+to perform memory and pattern generation tasks. The functional aspect of these
+tasks corresponds to dynamical objects in the fully trained network - a line
+attractor or a set of limit cycles for the two respective tasks. We use these
+dynamical objects as anchors to study the effect of learning on their
+emergence. We find that the sequential nature of learning has major
+consequences for the learning trajectory and its final outcome. Specifically,
+we show that Least Mean Squares (LMS), a simple gradient descent suggested as a
+biologically plausible version of the FORCE algorithm, is constantly obstructed
+by forgetting, which is manifested as the destruction of dynamical objects from
+previous trials. The degree of interference is determined by the correlation
+between different trials. We show which specific ingredients of FORCE avoid
+this phenomenon. Overall, this difference results in convergence that is orders
+of magnitude slower for LMS. Learning implies accumulating information across
+multiple trials to form the overall concept of the task. Our results show that
+interference between trials can greatly affect learning, in a learning rule
+dependent manner. These insights can help design experimental protocols that
+minimize such interference, and possibly infer underlying learning rules by
+observing behavior and neural activity throughout learning.

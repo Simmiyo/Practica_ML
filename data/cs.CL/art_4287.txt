@@ -1,0 +1,15 @@
+Open Source Automatic Speech Recognition for German
+High quality Automatic Speech Recognition (ASR) is a prerequisite for
+speech-based applications and research. While state-of-the-art ASR software is
+freely available, the language dependent acoustic models are lacking for
+languages other than English, due to the limited amount of freely available
+training data. We train acoustic models for German with Kaldi on two datasets,
+which are both distributed under a Creative Commons license. The resulting
+model is freely redistributable, lowering the cost of entry for German ASR. The
+models are trained on a total of 412 hours of German read speech data and we
+achieve a relative word error reduction of 26% by adding data from the Spoken
+Wikipedia Corpus to the previously best freely available German acoustic model
+recipe and dataset. Our best model achieves a word error rate of 14.38 on the
+Tuda-De test set. Due to the large amount of speakers and the diversity of
+topics included in the training data, our model is robust against speaker
+variation and topic shift.

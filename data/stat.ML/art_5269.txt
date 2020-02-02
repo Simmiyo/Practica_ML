@@ -1,0 +1,17 @@
+Data-Efficient Exploration, Optimization, and Modeling of Diverse
+  Designs through Surrogate-Assisted Illumination
+The MAP-Elites algorithm produces a set of high-performing solutions that
+vary according to features defined by the user. This technique has the
+potential to be a powerful tool for design space exploration, but is limited by
+the need for numerous evaluations. The Surrogate-Assisted Illumination
+algorithm (SAIL), introduced here, integrates approximative models and
+intelligent sampling of the objective function to minimize the number of
+evaluations required by MAP-Elites.
+  The ability of SAIL to efficiently produce both accurate models and diverse
+high performing solutions is illustrated on a 2D airfoil design problem. The
+search space is divided into bins, each holding a design with a different
+combination of features. In each bin SAIL produces a better performing solution
+than MAP-Elites, and requires several orders of magnitude fewer evaluations.
+The CMA-ES algorithm was used to produce an optimal design in each bin: with
+the same number of evaluations required by CMA-ES to find a near-optimal
+solution in a single bin, SAIL finds solutions of similar quality in every bin.

@@ -1,0 +1,18 @@
+Multi-Task Multiple Kernel Relationship Learning
+This paper presents a novel multitask multiple kernel learning framework that
+efficiently learns the kernel weights leveraging the relationship across
+multiple tasks. The idea is to automatically infer this task relationship in
+the \textit{RKHS} space corresponding to the given base kernels. The problem is
+formulated as a regularization-based approach called \textit{Multi-Task
+Multiple Kernel Relationship Learning} (\textit{MK-MTRL}), which models the
+task relationship matrix from the weights learned from latent feature spaces of
+task-specific base kernels. Unlike in previous work, the proposed formulation
+allows one to incorporate prior knowledge for simultaneously learning several
+related tasks. We propose an alternating minimization algorithm to learn the
+model parameters, kernel weights and task relationship matrix. In order to
+tackle large-scale problems, we further propose a two-stage \textit{MK-MTRL}
+online learning algorithm and show that it significantly reduces the
+computational time, and also achieves performance comparable to that of the
+joint learning framework. Experimental results on benchmark datasets show that
+the proposed formulations outperform several state-of-the-art multitask
+learning methods.

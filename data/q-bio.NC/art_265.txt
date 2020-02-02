@@ -1,0 +1,16 @@
+Adaptive Drift-Diffusion Process to Learn Time Intervals
+Animals learn the timing between consecutive events very easily. Their
+precision is usually proportional to the interval to time (Weber's law for
+timing). Most current timing models either require a central clock and
+unbounded accumulator or whole pre-defined populations of delay lines, decaying
+traces or oscillators to represent elapsing time. Current adaptive recurrent
+neural networks fail at learning to predict the timing of future events (the
+'when') in a realistic manner. In this paper, we present a new model of
+interval timing, based on simple temporal integrators, derived from
+drift-diffusion models. We develop a simple geometric rule to learn 'when'
+instead of 'what'. We provide an analytical proof that the model can learn
+inter-event intervals in a number of trials independent of the interval size
+and that the temporal precision of the system is proportional to the timed
+interval. This new model uses no clock, no gradient, no unbounded accumulators,
+no delay lines, and has internal noise allowing generations of individual
+trials. Three interesting predictions are made.

@@ -1,0 +1,18 @@
+Assessing Crosslingual Discourse Relations in Machine Translation
+In an attempt to improve overall translation quality, there has been an
+increasing focus on integrating more linguistic elements into Machine
+Translation (MT). While significant progress has been achieved, especially
+recently with neural models, automatically evaluating the output of such
+systems is still an open problem. Current practice in MT evaluation relies on a
+single reference translation, even though there are many ways of translating a
+particular text, and it tends to disregard higher level information such as
+discourse. We propose a novel approach that assesses the translated output
+based on the source text rather than the reference translation, and measures
+the extent to which the semantics of the discourse elements (discourse
+relations, in particular) in the source text are preserved in the MT output.
+The challenge is to detect the discourse relations in the source text and
+determine whether these relations are correctly transferred crosslingually to
+the target language -- without a reference translation. This methodology could
+be used independently for discourse-level evaluation, or as a component in
+other metrics, at a time where substantial amounts of MT are online and would
+benefit from evaluation where the source text serves as a benchmark.

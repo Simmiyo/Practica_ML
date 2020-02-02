@@ -1,0 +1,17 @@
+Kernel Two-Sample Hypothesis Testing Using Kernel Set Classification
+The two-sample hypothesis testing problem is studied for the challenging
+scenario of high dimensional data sets with small sample sizes. We show that
+the two-sample hypothesis testing problem can be posed as a one-class set
+classification problem. In the set classification problem the goal is to
+classify a set of data points that are assumed to have a common class. We prove
+that the average probability of error given a set is less than or equal to the
+Bayes error and decreases as a power of $n$ number of sample data points in the
+set. We use the positive definite Set Kernel for directly mapping sets of data
+to an associated Reproducing Kernel Hilbert Space, without the need to learn a
+probability distribution. We specifically solve the two-sample hypothesis
+testing problem using a one-class SVM in conjunction with the proposed Set
+Kernel. We compare the proposed method with the Maximum Mean Discrepancy,
+F-Test and T-Test methods on a number of challenging simulated high dimensional
+and small sample size data. We also perform two-sample hypothesis testing
+experiments on six cancer gene expression data sets and achieve zero type-I and
+type-II error results on all data sets.

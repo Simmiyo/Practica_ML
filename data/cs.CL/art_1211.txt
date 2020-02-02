@@ -1,0 +1,18 @@
+Compilation as a Typed EDSL-to-EDSL Transformation
+This article is about an implementation and compilation technique that is
+used in RAW-Feldspar which is a complete rewrite of the Feldspar embedded
+domain-specific language (EDSL) (Axelsson et al. 2010). Feldspar is high-level
+functional language that generates efficient C code to run on embedded targets.
+The gist of the technique presented in this post is the following: rather
+writing a back end that converts pure Feldspar expressions directly to C, we
+translate them to a low-level monadic EDSL. From the low-level EDSL, C code is
+then generated. This approach has several advantages:
+  1. The translation is simpler to write than a complete C back end.
+  2. The translation is between two typed EDSLs, which rules out many potential
+errors.
+  3. The low-level EDSL is reusable and can be shared between several
+high-level EDSLs.
+  Although the article contains a lot of code, most of it is in fact reusable.
+As mentioned in Discussion, we can write the same implementation in less than
+50 lines of code using generic libraries that we have developed to support
+Feldspar.

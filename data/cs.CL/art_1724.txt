@@ -1,0 +1,14 @@
+Political Speech Generation
+In this report we present a system that can generate political speeches for a
+desired political party. Furthermore, the system allows to specify whether a
+speech should hold a supportive or opposing opinion. The system relies on a
+combination of several state-of-the-art NLP methods which are discussed in this
+report. These include n-grams, Justeson & Katz POS tag filter, recurrent neural
+networks, and latent Dirichlet allocation. Sequences of words are generated
+based on probabilities obtained from two underlying models: A language model
+takes care of the grammatical correctness while a topic model aims for textual
+consistency. Both models were trained on the Convote dataset which contains
+transcripts from US congressional floor debates. Furthermore, we present a
+manual and an automated approach to evaluate the quality of generated speeches.
+In an experimental evaluation generated speeches have shown very high quality
+in terms of grammatical correctness and sentence transitions.

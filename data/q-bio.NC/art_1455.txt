@@ -1,0 +1,19 @@
+Shot Noise Neuron Model
+In this paper, we propose a shot noise-based leaky integrated and firing
+neuron model and provide a detailed analysis of the performance of this model
+compared to the traditional diffusion approximated model. In theoretical
+neuroscience, there are three general neuron models in the field: Compartmental
+neuron model is a conductance-based model, in which it views the biological
+neurons as a large circuit. The problem of this model comes from its structural
+complexity and the number of its free parameters; Leaky integrated and firing
+model is a more flexible model due to the special design called
+threshold-resetting, in which the voltage of the neuron is reset after reaching
+the threshold. This model is proposed as an alternative to the compartment
+model to provide a more biologically realistic model that can capture spike
+timing behaviors that are observed in experiments. In addition to that, it is
+more computationally efficient since it has much less free parameters; Firing
+rate-based neuron model uses the firing rate of the neuron as the coupling
+terms in the coupled neuronal network models. Models of this kind can be easily
+analyzed on the network level. Theoretical analysis for this model proves the
+existence of phase transition and shows that the computational capacity is
+boosted in the chaotic regime.

@@ -1,0 +1,14 @@
+The Dependence of Machine Learning on Electronic Medical Record Quality
+There is growing interest in applying machine learning methods to Electronic
+Medical Records (EMR). Across different institutions, however, EMR quality can
+vary widely. This work investigated the impact of this disparity on the
+performance of three advanced machine learning algorithms: logistic regression,
+multilayer perceptron, and recurrent neural network. The EMR disparity was
+emulated using different permutations of the EMR collected at Children's
+Hospital Los Angeles (CHLA) Pediatric Intensive Care Unit (PICU) and
+Cardiothoracic Intensive Care Unit (CTICU). The algorithms were trained using
+patients from the PICU to predict in-ICU mortality for patients in a held out
+set of PICU and CTICU patients. The disparate patient populations between the
+PICU and CTICU provide an estimate of generalization errors across different
+ICUs. We quantified and evaluated the generalization of these algorithms on
+varying EMR size, input types, and fidelity of data.

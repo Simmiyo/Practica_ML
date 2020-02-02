@@ -1,0 +1,18 @@
+Quantum Clustering and Gaussian Mixtures
+The mixture of Gaussian distributions, a soft version of k-means , is
+considered a state-of-the-art clustering algorithm. It is widely used in
+computer vision for selecting classes, e.g., color, texture, and shapes. In
+this algorithm, each class is described by a Gaussian distribution, defined by
+its mean and covariance. The data is described by a weighted sum of these
+Gaussian distributions. We propose a new method, inspired by quantum
+interference in physics. Instead of modeling each class distribution directly,
+we model a class wave function such that its magnitude square is the class
+Gaussian distribution. We then mix the class wave functions to create the
+mixture wave function. The final mixture distribution is then the magnitude
+square of the mixture wave function. As a result, we observe the quantum class
+interference phenomena, not present in the Gaussian mixture model. We show that
+the quantum method outperforms the Gaussian mixture method in every aspect of
+the estimations. It provides more accurate estimations of all distribution
+parameters, with much less fluctuations, and it is also more robust to data
+deformations from the Gaussian assumptions. We illustrate our method for color
+segmentation as an example application.

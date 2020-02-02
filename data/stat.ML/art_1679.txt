@@ -1,0 +1,23 @@
+Manifold Elastic Net: A Unified Framework for Sparse Dimension Reduction
+It is difficult to find the optimal sparse solution of a manifold learning
+based dimensionality reduction algorithm. The lasso or the elastic net
+penalized manifold learning based dimensionality reduction is not directly a
+lasso penalized least square problem and thus the least angle regression (LARS)
+(Efron et al. \cite{LARS}), one of the most popular algorithms in sparse
+learning, cannot be applied. Therefore, most current approaches take indirect
+ways or have strict settings, which can be inconvenient for applications. In
+this paper, we proposed the manifold elastic net or MEN for short. MEN
+incorporates the merits of both the manifold learning based dimensionality
+reduction and the sparse learning based dimensionality reduction. By using a
+series of equivalent transformations, we show MEN is equivalent to the lasso
+penalized least square problem and thus LARS is adopted to obtain the optimal
+sparse solution of MEN. In particular, MEN has the following advantages for
+subsequent classification: 1) the local geometry of samples is well preserved
+for low dimensional data representation, 2) both the margin maximization and
+the classification error minimization are considered for sparse projection
+calculation, 3) the projection matrix of MEN improves the parsimony in
+computation, 4) the elastic net penalty reduces the over-fitting problem, and
+5) the projection matrix of MEN can be interpreted psychologically and
+physiologically. Experimental evidence on face recognition over various popular
+datasets suggests that MEN is superior to top level dimensionality reduction
+algorithms.

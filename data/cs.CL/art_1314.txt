@@ -1,0 +1,14 @@
+Detecting Context Dependent Messages in a Conversational Environment
+While automatic response generation for building chatbot systems has drawn a
+lot of attention recently, there is limited understanding on when we need to
+consider the linguistic context of an input text in the generation process. The
+task is challenging, as messages in a conversational environment are short and
+informal, and evidence that can indicate a message is context dependent is
+scarce. After a study of social conversation data crawled from the web, we
+observed that some characteristics estimated from the responses of messages are
+discriminative for identifying context dependent messages. With the
+characteristics as weak supervision, we propose using a Long Short Term Memory
+(LSTM) network to learn a classifier. Our method carries out text
+representation and classifier learning in a unified framework. Experimental
+results show that the proposed method can significantly outperform baseline
+methods on accuracy of classification.

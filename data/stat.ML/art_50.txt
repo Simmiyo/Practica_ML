@@ -1,0 +1,13 @@
+Sparsistent Estimation of Time-Varying Discrete Markov Random Fields
+Network models have been popular for modeling and representing complex
+relationships and dependencies between observed variables. When data comes from
+a dynamic stochastic process, a single static network model cannot adequately
+capture transient dependencies, such as, gene regulatory dependencies
+throughout a developmental cycle of an organism. Kolar et al (2010b) proposed a
+method based on kernel-smoothing l1-penalized logistic regression for
+estimating time-varying networks from nodal observations collected from a
+time-series of observational data. In this paper, we establish conditions under
+which the proposed method consistently recovers the structure of a time-varying
+network. This work complements previous empirical findings by providing sound
+theoretical guarantees for the proposed estimation procedure. For completeness,
+we include numerical simulations in the paper.

@@ -1,0 +1,26 @@
+Estimation of high-resolution dust column density maps: Empirical model
+  fits
+Sub-millimetre dust emission is an important tracer of density N of dense
+interstellar clouds. One has to combine surface brightness information at
+different spatial resolutions, and specific methods are needed to derive N at a
+resolution higher than the lowest resolution of the observations. Some methods
+have been discussed in the literature, including a method (in the following,
+method B) that constructs the N estimate in stages, where the smallest spatial
+scales being derived only use the shortest wavelength maps. We propose simple
+model fitting as a flexible way to estimate high-resolution column density
+maps. Our goal is to evaluate the accuracy of this procedure and to determine
+whether it is a viable alternative for making these maps. The new method
+consists of model maps of column density (or intensity at a reference
+wavelength) and colour temperature. The model is fitted using Markov chain
+Monte Carlo (MCMC) methods, comparing model predictions with observations at
+their native resolution. We analyse simulated surface brightness maps and
+compare its accuracy with method B and the results that would be obtained using
+high-resolution observations without noise. The new method is able to produce
+reliable column density estimates at a resolution significantly higher than the
+lowest resolution of the input maps. Compared to method B, it is relatively
+resilient against the effects of noise. The method is computationally more
+demanding, but is feasible even in the analysis of large Herschel maps. The
+proposed empirical modelling method E is demonstrated to be a good alternative
+for calculating high-resolution column density maps, even with considerable
+super-resolution. Both methods E and B include the potential for further
+improvements, e.g., in the form of better a priori constraints.

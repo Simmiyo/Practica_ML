@@ -1,0 +1,17 @@
+Targeting Bayes factors with direct-path non-equilibrium thermodynamic
+  integration
+Thermodynamic integration (TI) for computing marginal likelihoods is based on
+an inverse annealing path from the prior to the posterior distribution. In many
+cases, the resulting estimator suffers from high variability, which
+particularly stems from the prior regime. When comparing complex models with
+differences in a comparatively small number of parameters, intrinsic errors
+from sampling fluctuations may outweigh the differences in the log marginal
+likelihood estimates. In the present article, we propose a thermodynamic
+integration scheme that directly targets the log Bayes factor. The method is
+based on a modified annealing path between the posterior distributions of the
+two models compared, which systematically avoids the high variance prior
+regime. We combine this scheme with the concept of non-equilibrium TI to
+minimise discretisation errors from numerical integration. Results obtained on
+Bayesian regression models applied to standard benchmark data, and a complex
+hierarchical model applied to biopathway inference, demonstrate a significant
+reduction in estimator variance over state-of-the-art TI methods.

@@ -1,0 +1,14 @@
+Calibrated Surrogate Losses for Classification with Label-Dependent
+  Costs
+We present surrogate regret bounds for arbitrary surrogate losses in the
+context of binary classification with label-dependent costs. Such bounds relate
+a classifier's risk, assessed with respect to a surrogate loss, to its
+cost-sensitive classification risk. Two approaches to surrogate regret bounds
+are developed. The first is a direct generalization of Bartlett et al. [2006],
+who focus on margin-based losses and cost-insensitive classification, while the
+second adopts the framework of Steinwart [2007] based on calibration functions.
+Nontrivial surrogate regret bounds are shown to exist precisely when the
+surrogate loss satisfies a "calibration" condition that is easily verified for
+many common losses. We apply this theory to the class of uneven margin losses,
+and characterize when these losses are properly calibrated. The uneven hinge,
+squared error, exponential, and sigmoid losses are then treated in detail.

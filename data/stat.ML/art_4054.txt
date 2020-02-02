@@ -1,0 +1,13 @@
+Localized Coulomb Descriptors for the Gaussian Approximation Potential
+We introduce a novel class of localized atomic environment representations,
+based upon the Coulomb matrix. By combining these functions with the Gaussian
+approximation potential approach, we present LC-GAP, a new system for
+generating atomic potentials through machine learning (ML). Tests on the QM7,
+QM7b and GDB9 biomolecular datasets demonstrate that potentials created with
+LC-GAP can successfully predict atomization energies for molecules larger than
+those used for training to chemical accuracy, and can (in the case of QM7b)
+also be used to predict a range of other atomic properties with accuracy in
+line with the recent literature. As the best-performing representation has only
+linear dimensionality in the number of atoms in a local atomic environment,
+this represents an improvement both in prediction accuracy and computational
+cost when considered against similar Coulomb matrix-based methods.

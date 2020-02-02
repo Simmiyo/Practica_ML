@@ -1,0 +1,20 @@
+Increasing robustness of pairwise methods for effective connectivity in
+  Magnetic Resonance Imaging by using fractional moment series of BOLD signal
+  distributions
+Estimating causal interactions in the brain from functional magnetic
+resonance imaging (fMRI) data remains a challenging task. Multiple studies have
+demonstrated that all current approaches to determine direction of connectivity
+perform poorly even when applied to synthetic fMRI datasets. Recent advances in
+this field include methods for pairwise inference, which involve creating a
+sparse connectome in the first step, and then using a classifier in order to
+determine the directionality of connection between of every pair of nodes in
+the second step. In this work, we introduce an advance to the second step of
+this procedure, by building a classifier based on fractional moments of the
+BOLD distribution combined into cumulants. The classifier is trained on
+datasets generated under the Dynamic Causal Modeling (DCM) generative model.
+The directionality is inferred based upon statistical dependencies between the
+two node time series, e.g. assigning a causal link from time series of low
+variance to time series of high variance. Our approach outperforms or performs
+as well as other methods for effective connectivity when applied to the
+benchmark datasets. Crucially, it is also more resilient to confounding effects
+such as differential noise level across different areas of the connectome.

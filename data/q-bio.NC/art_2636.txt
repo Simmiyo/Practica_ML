@@ -1,0 +1,28 @@
+Time-causal and time-recursive spatio-temporal receptive fields
+We present an improved model and theory for time-causal and time-recursive
+spatio-temporal receptive fields, based on a combination of Gaussian receptive
+fields over the spatial domain and first-order integrators or equivalently
+truncated exponential filters coupled in cascade over the temporal domain.
+  Compared to previous spatio-temporal scale-space formulations in terms of
+non-enhancement of local extrema or scale invariance, these receptive fields
+are based on different scale-space axiomatics over time by ensuring
+non-creation of new local extrema or zero-crossings with increasing temporal
+scale. Specifically, extensions are presented about (i) parameterizing the
+intermediate temporal scale levels, (ii) analysing the resulting temporal
+dynamics, (iii) transferring the theory to a discrete implementation, (iv)
+computing scale-normalized spatio-temporal derivative expressions for
+spatio-temporal feature detection and (v) computational modelling of receptive
+fields in the lateral geniculate nucleus (LGN) and the primary visual cortex
+(V1) in biological vision.
+  We show that by distributing the intermediate temporal scale levels according
+to a logarithmic distribution, we obtain much faster temporal response
+properties (shorter temporal delays) compared to a uniform distribution.
+Specifically, these kernels converge very rapidly to a limit kernel possessing
+true self-similar scale-invariant properties over temporal scales, thereby
+allowing for true scale invariance over variations in the temporal scale,
+although the underlying temporal scale-space representation is based on a
+discretized temporal scale parameter.
+  We show how scale-normalized temporal derivatives can be defined for these
+time-causal scale-space kernels and how the composed theory can be used for
+computing basic types of scale-normalized spatio-temporal derivative
+expressions in a computationally efficient manner.

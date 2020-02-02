@@ -1,0 +1,16 @@
+A Biologically Realistic Model of Saccadic Eye Control with
+  Probabilistic Population Codes
+The posterior parietal cortex is believed to direct eye movements, especially
+in regards to target tracking tasks, and a number of debates exist over the
+precise nature of the computations performed by the parietal cortex, with each
+side supported by different sets of biological evidence. In this paper I will
+present my model which navigates a course between some of these debates,
+towards the end of presenting a model which can explain some of the competing
+interpretations among the data sets. In particular, rather than assuming that
+proprioception or efference copies form the key source of information for
+computing eye position information, I use a biological plausible implementation
+of a Kalman filter to optimally combine the two signals, and a simple gain
+control mechanism in order to accommodate the latency of the proprioceptive
+signal. Fitting within the Bayesian brain hypothesis, the result is a Bayes
+optimal solution to the eye control problem, with a range of data supporting
+claims of biological plausibility.

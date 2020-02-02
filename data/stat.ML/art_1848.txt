@@ -1,0 +1,23 @@
+The Interaction of Entropy-Based Discretization and Sample Size: An
+  Empirical Study
+An empirical investigation of the interaction of sample size and
+discretization - in this case the entropy-based method CAIM (Class-Attribute
+Interdependence Maximization) - was undertaken to evaluate the impact and
+potential bias introduced into data mining performance metrics due to variation
+in sample size as it impacts the discretization process. Of particular interest
+was the effect of discretizing within cross-validation folds averse to outside
+discretization folds. Previous publications have suggested that discretizing
+externally can bias performance results; however, a thorough review of the
+literature found no empirical evidence to support such an assertion. This
+investigation involved construction of over 117,000 models on seven distinct
+datasets from the UCI (University of California-Irvine) Machine Learning
+Library and multiple modeling methods across a variety of configurations of
+sample size and discretization, with each unique "setup" being independently
+replicated ten times. The analysis revealed a significant optimistic bias as
+sample sizes decreased and discretization was employed. The study also revealed
+that there may be a relationship between the interaction that produces such
+bias and the numbers and types of predictor attributes, extending the "curse of
+dimensionality" concept from feature selection into the discretization realm.
+Directions for further exploration are laid out, as well some general
+guidelines about the proper application of discretization in light of these
+results.

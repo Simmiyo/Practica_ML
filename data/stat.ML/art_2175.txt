@@ -1,0 +1,18 @@
+Biogeography-Based Informative Gene Selection and Cancer Classification
+  Using SVM and Random Forests
+Microarray cancer gene expression data comprise of very high dimensions.
+Reducing the dimensions helps in improving the overall analysis and
+classification performance. We propose two hybrid techniques, Biogeography -
+based Optimization - Random Forests (BBO - RF) and BBO - SVM (Support Vector
+Machines) with gene ranking as a heuristic, for microarray gene expression
+analysis. This heuristic is obtained from information gain filter ranking
+procedure. The BBO algorithm generates a population of candidate subset of
+genes, as part of an ecosystem of habitats, and employs the migration and
+mutation processes across multiple generations of the population to improve the
+classification accuracy. The fitness of each gene subset is assessed by the
+classifiers - SVM and Random Forests. The performances of these hybrid
+techniques are evaluated on three cancer gene expression datasets retrieved
+from the Kent Ridge Biomedical datasets collection and the libSVM data
+repository. Our results demonstrate that genes selected by the proposed
+techniques yield classification accuracies comparable to previously reported
+algorithms.

@@ -1,0 +1,18 @@
+Parameter estimation in spherical symmetry groups
+This paper considers statistical estimation problems where the probability
+distribution of the observed random variable is invariant with respect to
+actions of a finite topological group. It is shown that any such distribution
+must satisfy a restricted finite mixture representation. When specialized to
+the case of distributions over the sphere that are invariant to the actions of
+a finite spherical symmetry group $\mathcal G$, a group-invariant extension of
+the Von Mises Fisher (VMF) distribution is obtained. The $\mathcal G$-invariant
+VMF is parameterized by location and scale parameters that specify the
+distribution's mean orientation and its concentration about the mean,
+respectively. Using the restricted finite mixture representation these
+parameters can be estimated using an Expectation Maximization (EM) maximum
+likelihood (ML) estimation algorithm. This is illustrated for the problem of
+mean crystal orientation estimation under the spherically symmetric group
+associated with the crystal form, e.g., cubic or octahedral or hexahedral.
+Simulations and experiments establish the advantages of the extended VMF EM-ML
+estimator for data acquired by Electron Backscatter Diffraction (EBSD)
+microscopy of a polycrystalline Nickel alloy sample.

@@ -1,0 +1,11 @@
+Morphological Error Detection in 3D Segmentations
+Deep learning algorithms for connectomics rely upon localized classification,
+rather than overall morphology. This leads to a high incidence of erroneously
+merged objects. Humans, by contrast, can easily detect such errors by acquiring
+intuition for the correct morphology of objects. Biological neurons have
+complicated and variable shapes, which are challenging to learn, and merge
+errors take a multitude of different forms. We present an algorithm, MergeNet,
+that shows 3D ConvNets can, in fact, detect merge errors from high-level
+neuronal morphology. MergeNet follows unsupervised training and operates across
+datasets. We demonstrate the performance of MergeNet both on a variety of
+connectomics data and on a dataset created from merged MNIST images.

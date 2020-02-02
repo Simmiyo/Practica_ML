@@ -1,0 +1,22 @@
+Configurable 3D Scene Synthesis and 2D Image Rendering with Per-Pixel
+  Ground Truth using Stochastic Grammars
+We propose a systematic learning-based approach to the generation of massive
+quantities of synthetic 3D scenes and arbitrary numbers of photorealistic 2D
+images thereof, with associated ground truth information, for the purposes of
+training, benchmarking, and diagnosing learning-based computer vision and
+robotics algorithms. In particular, we devise a learning-based pipeline of
+algorithms capable of automatically generating and rendering a potentially
+infinite variety of indoor scenes by using a stochastic grammar, represented as
+an attributed Spatial And-Or Graph, in conjunction with state-of-the-art
+physics-based rendering. Our pipeline is capable of synthesizing scene layouts
+with high diversity, and it is configurable inasmuch as it enables the precise
+customization and control of important attributes of the generated scenes. It
+renders photorealistic RGB images of the generated scenes while automatically
+synthesizing detailed, per-pixel ground truth data, including visible surface
+depth and normal, object identity, and material information (detailed to object
+parts), as well as environments (e.g., illuminations and camera viewpoints). We
+demonstrate the value of our synthesized dataset, by improving performance in
+certain machine-learning-based scene understanding tasks--depth and surface
+normal prediction, semantic segmentation, reconstruction, etc.--and by
+providing benchmarks for and diagnostics of trained models by modifying object
+attributes and scene properties in a controllable manner.

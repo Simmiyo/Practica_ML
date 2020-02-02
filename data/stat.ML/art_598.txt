@@ -1,0 +1,19 @@
+Automatic Inference for Inverting Software Simulators via Probabilistic
+  Programming
+Models of complex systems are often formalized as sequential software
+simulators: computationally intensive programs that iteratively build up
+probable system configurations given parameters and initial conditions. These
+simulators enable modelers to capture effects that are difficult to
+characterize analytically or summarize statistically. However, in many
+real-world applications, these simulations need to be inverted to match the
+observed data. This typically requires the custom design, derivation and
+implementation of sophisticated inversion algorithms. Here we give a framework
+for inverting a broad class of complex software simulators via probabilistic
+programming and automatic inference, using under 20 lines of probabilistic
+code. Our approach is based on a formulation of inversion as approximate
+inference in a simple sequential probabilistic model. We implement four
+inference strategies, including Metropolis-Hastings, a sequentialized
+Metropolis-Hastings scheme, and a particle Markov chain Monte Carlo scheme,
+requiring 4 or fewer lines of probabilistic code each. We demonstrate our
+framework by applying it to invert a real geological software simulator from
+the oil and gas industry.

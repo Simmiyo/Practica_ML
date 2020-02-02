@@ -1,0 +1,15 @@
+Morphology Generation for Statistical Machine Translation using Deep
+  Learning Techniques
+Morphology in unbalanced languages remains a big challenge in the context of
+machine translation. In this paper, we propose to de-couple machine translation
+from morphology generation in order to better deal with the problem. We
+investigate the morphology simplification with a reasonable trade-off between
+expected gain and generation complexity. For the Chinese-Spanish task, optimum
+morphological simplification is in gender and number. For this purpose, we
+design a new classification architecture which, compared to other standard
+machine learning techniques, obtains the best results. This proposed
+neural-based architecture consists of several layers: an embedding, a
+convolutional followed by a recurrent neural network and, finally, ends with
+sigmoid and softmax layers. We obtain classification results over 98% accuracy
+in gender classification, over 93% in number classification, and an overall
+translation improvement of 0.7 METEOR.

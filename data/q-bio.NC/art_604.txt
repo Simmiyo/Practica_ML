@@ -1,0 +1,20 @@
+Impact of triplet correlations on neural population codes
+Which statistical features of spiking activity matter for how stimuli are
+encoded in neural populations? A vast body of work has explored how firing
+rates in individual cells and correlations in the spikes of cell pairs impact
+coding. But little is known about how higher-order correlations, which describe
+simultaneous firing in triplets and larger ensembles of cells, impact encoded
+stimulus information. Here, we take a first step toward closing this gap. We
+vary triplet correlations in small (~10 cell) neural populations while keeping
+single cell and pairwise statistics fixed at typically reported values. For
+each value of triplet correlations, we estimate the performance of the neural
+population on a two-stimulus discrimination task. We identify a predominant way
+that such triplet correlations can strongly enhance coding: if triplet
+correlations differ for the two stimuli, they skew the response distributions
+of the two stimuli apart from each other, separating them and making them
+easier to distinguish. This coding benefit does not occur when both stimuli
+elicit similar triplet correlations. These results indicate that higher-order
+correlations could have a strong effect on population coding. Finally, we
+calculate how many samples are necessary to accurately measure spiking
+correlations of this type, providing an estimate of the necessary recording
+times in experiments.

@@ -1,0 +1,17 @@
+Improv Chat: Second Response Generation for Chatbot
+Existing research on response generation for chatbot focuses on \textbf{First
+Response Generation} which aims to teach the chatbot to say the first response
+(e.g. a sentence) appropriate to the conversation context (e.g. the user's
+query). In this paper, we introduce a new task \textbf{Second Response
+Generation}, termed as Improv chat, which aims to teach the chatbot to say the
+second response after saying the first response with respect the conversation
+context, so as to lighten the burden on the user to keep the conversation
+going. Specifically, we propose a general learning based framework and develop
+a retrieval based system which can generate the second responses with the
+users' query and the chatbot's first response as input. We present the approach
+to building the conversation corpus for Improv chat from public forums and
+social networks, as well as the neural networks based models for response
+matching and ranking. We include the preliminary experiments and results in
+this paper. This work could be further advanced with better deep matching
+models for retrieval base systems or generative models for generation based
+systems as well as extensive evaluations in real-life applications.

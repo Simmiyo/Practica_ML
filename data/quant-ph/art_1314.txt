@@ -1,0 +1,13 @@
+Efficient Quantum Key Distribution
+We devise a simple modification that essentially doubles the efficiency of a
+well-known quantum key distribution scheme proposed by Bennett and Brassard
+(BB84). Our scheme assigns significantly different probabilities for the
+different polarization bases during both transmission and reception to reduce
+the fraction of discarded data. The actual probabilities used in the scheme are
+announced in public. As the number of transmitted signals increases, the
+efficiency of our scheme can be made to approach 100%. An eavesdropper may try
+to break such a scheme by eavesdropping mainly along the predominant basis. To
+defeat such an attack, we perform a refined analysis of accepted data: Instead
+of lumping all the accepted data together to estimate a single error rate, we
+separate the accepted data into various subsets according to the basis employed
+and estimate an error rate for each subset {\it individually}.

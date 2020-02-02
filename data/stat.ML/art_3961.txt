@@ -1,0 +1,17 @@
+A Theoretical Analysis of Noisy Sparse Subspace Clustering on
+  Dimensionality-Reduced Data
+Subspace clustering is the problem of partitioning unlabeled data points into
+a number of clusters so that data points within one cluster lie approximately
+on a low-dimensional linear subspace. In many practical scenarios, the
+dimensionality of data points to be clustered are compressed due to constraints
+of measurement, computation or privacy. In this paper, we study the theoretical
+properties of a popular subspace clustering algorithm named sparse subspace
+clustering (SSC) and establish formal success conditions of SSC on
+dimensionality-reduced data. Our analysis applies to the most general fully
+deterministic model where both underlying subspaces and data points within each
+subspace are deterministically positioned, and also a wide range of
+dimensionality reduction techniques (e.g., Gaussian random projection, uniform
+subsampling, sketching) that fall into a subspace embedding framework (Meng &
+Mahoney, 2013; Avron et al., 2014). Finally, we apply our analysis to a
+differentially private SSC algorithm and established both privacy and utility
+guarantees of the proposed method.

@@ -1,0 +1,26 @@
+Effects of Scan Length and Shrinkage on Reliability of Resting-State
+  Functional Connectivity in the Human Connectome Project
+In this paper, we use data from the Human Connectome Project (N=461) to
+investigate the effect of scan length on reliability of resting-state
+functional connectivity (rsFC) estimates produced from resting-state functional
+magnetic resonance imaging (rsfMRI). Additionally, we study the benefits of
+empirical Bayes shrinkage, in which subject-level estimates borrow strength
+from the population average by trading a small increase in bias for a greater
+reduction in variance. For each subject, we compute raw and shrinkage estimates
+of rsFC between 300 regions identified through independent components analysis
+(ICA) based on rsfMRI scans varying from 3 to 30 minutes in length. The time
+course for each region is determined using dual regression, and rsFC is
+estimated as the Pearson correlation between each pair of time courses.
+Shrinkage estimates for each subject are computed as a weighted average between
+the raw subject-level estimate and the population average estimate, where the
+weight is determined for each connection by the relationship of within-subject
+variance to between-subject variance. We find that shrinkage estimates exhibit
+greater reliability than raw estimates for most connections, with 30-40%
+improvement using scans less than 10 minutes in length and 10-20% improvement
+using scans of 20-30 minutes. We also observe significant spatial variability
+in reliability of both raw and shrinkage estimates, with connections within the
+default mode and motor networks exhibiting the greatest reliability and
+between-network connections exhibiting the poorest reliability. We conclude
+that the scan length required for reliable estimation of rsFC depends on the
+specific connections of interest, and shrinkage can be used to increase
+reliability of rsFC, even when produced from long, high-quality rsfMRI scans.

@@ -1,0 +1,9 @@
+Practical Bayesian Optimization for Variable Cost Objectives
+We propose a novel Bayesian Optimization approach for black-box functions
+with an environmental variable whose value determines the tradeoff between
+evaluation cost and the fidelity of the evaluations. Further, we use a novel
+approach to sampling support points, allowing faster construction of the
+acquisition function. This allows us to achieve optimization with lower
+overheads than previous approaches and is implemented for a more general class
+of problem. We show this approach to be effective on synthetic and real world
+benchmark problems.

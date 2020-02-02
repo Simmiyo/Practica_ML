@@ -1,0 +1,19 @@
+Sampling constrained probability distributions using Spherical
+  Augmentation
+Statistical models with constrained probability distributions are abundant in
+machine learning. Some examples include regression models with norm constraints
+(e.g., Lasso), probit, many copula models, and latent Dirichlet allocation
+(LDA). Bayesian inference involving probability distributions confined to
+constrained domains could be quite challenging for commonly used sampling
+algorithms. In this paper, we propose a novel augmentation technique that
+handles a wide range of constraints by mapping the constrained domain to a
+sphere in the augmented space. By moving freely on the surface of this sphere,
+sampling algorithms handle constraints implicitly and generate proposals that
+remain within boundaries when mapped back to the original space. Our proposed
+method, called {Spherical Augmentation}, provides a mathematically natural and
+computationally efficient framework for sampling from constrained probability
+distributions. We show the advantages of our method over state-of-the-art
+sampling algorithms, such as exact Hamiltonian Monte Carlo, using several
+examples including truncated Gaussian distributions, Bayesian Lasso, Bayesian
+bridge regression, reconstruction of quantized stationary Gaussian process, and
+LDA for topic modeling.

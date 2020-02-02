@@ -1,0 +1,15 @@
+Tight bounds on quantum searching
+We provide a tight analysis of Grover's recent algorithm for quantum database
+searching. We give a simple closed-form formula for the probability of success
+after any given number of iterations of the algorithm. This allows us to
+determine the number of iterations necessary to achieve almost certainty of
+finding the answer. Furthermore, we analyse the behaviour of the algorithm when
+the element to be found appears more than once in the table and we provide a
+new algorithm to find such an element even when the number of solutions is not
+known ahead of time. Using techniques from Shor's quantum factoring algorithm
+in addition to Grover's approach, we introduce a new technique for approximate
+quantum counting, which allows to estimate the number of solutions. Finally we
+provide a lower bound on the efficiency of any possible quantum database
+searching algorithm and we show that Grover's algorithm nearly comes within a
+factor 2 of being optimal in terms of the number of probes required in the
+table.

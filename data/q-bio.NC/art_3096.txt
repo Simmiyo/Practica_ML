@@ -1,0 +1,18 @@
+An Efficient Method for online Detection of Polychronous Patterns in
+  Spiking Neural Network
+Polychronous neural groups are effective structures for the recognition of
+precise spike-timing patterns but the detection method is an inefficient
+multi-stage brute force process that works off-line on pre-recorded simulation
+data. This work presents a new model of polychronous patterns that can capture
+precise sequences of spikes directly in the neural simulation. In this scheme,
+each neuron is assigned a randomized code that is used to tag the post-synaptic
+neurons whenever a spike is transmitted. This creates a polychronous code that
+preserves the order of pre-synaptic activity and can be registered in a hash
+table when the post-synaptic neuron spikes. A polychronous code is a
+sub-component of a polychronous group that will occur, along with others, when
+the group is active. We demonstrate the representational and pattern
+recognition ability of polychronous codes on a direction selective visual task
+involving moving bars that is typical of a computation performed by simple
+cells in the cortex. The computational efficiency of the proposed algorithm far
+exceeds existing polychronous group detection methods and is well suited for
+online detection.

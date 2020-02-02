@@ -1,0 +1,24 @@
+Nonnegative Matrix Factorization for identification of unknown number of
+  sources emitting delayed signals
+Factor analysis is broadly used as a powerful unsupervised machine learning
+tool for reconstruction of hidden features in recorded mixtures of signals. In
+the case of a linear approximation, the mixtures can be decomposed by a variety
+of model-free Blind Source Separation (BSS) algorithms. Most of the available
+BSS algorithms consider an instantaneous mixing of signals, while the case when
+the mixtures are linear combinations of signals with delays is less explored.
+Especially difficult is the case when the number of sources of the signals with
+delays is unknown and has to be determined from the data as well. To address
+this problem, in this paper, we present a new method based on Nonnegative
+Matrix Factorization (NMF) that is capable of identifying: (a) the unknown
+number of the sources, (b) the delays and speed of propagation of the signals,
+and (c) the locations of the sources. Our method can be used to decompose
+records of mixtures of signals with delays emitted by an unknown number of
+sources in a nondispersive medium, based only on recorded data. This is the
+case, for example, when electromagnetic signals from multiple antennas are
+received asynchronously; or mixtures of acoustic or seismic signals recorded by
+sensors located at different positions; or when a shift in frequency is induced
+by the Doppler effect. By applying our method to synthetic datasets, we
+demonstrate its ability to identify the unknown number of sources as well as
+the waveforms, the delays, and the strengths of the signals. Using Bayesian
+analysis, we also evaluate estimation uncertainties and identify the region of
+likelihood where the positions of the sources can be found.

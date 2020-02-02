@@ -1,0 +1,23 @@
+Diversity-enabled sweet spots in layered architectures and
+  speed-accuracy trade-offs in sensorimotor control
+Nervous systems sense, communicate, compute, and actuate movement using
+distributed components with trade-offs in speed, accuracy, sparsity, noise, and
+saturation. Nevertheless, the resulting control can achieve remarkably fast,
+accurate, and robust performance due to a highly effective layered control
+architecture. However, there is no theory explaining the effectiveness of
+layered control architectures that connects speed-accuracy trade-offs (SATs) in
+neurophysiology to the resulting SATs in sensorimotor control. In this paper,
+we introduce a theoretical framework that provides a synthetic perspective to
+explain why there exists extreme diversity across layers and within levels.
+This framework characterizes how the sensorimotor control SATs are constrained
+by the hardware SATs of neurons communicating with spikes and their sensory and
+muscle endpoints, in both stochastic and deterministic models. The theoretical
+predictions of the model are experimentally confirmed using driving experiments
+in which the time delays and accuracy of the control input from the wheel are
+varied. These results show that the appropriate diversity in the properties of
+neurons and muscles across layers and within levels help create systems that
+are both fast and accurate despite being built from components that are
+individually slow or inaccurate. This novel concept, which we call
+"diversity-enabled sweet spots" (DESSs), explains the ubiquity of heterogeneity
+in the sizes of axons within a nerve as well the resulting superior performance
+of sensorimotor control.

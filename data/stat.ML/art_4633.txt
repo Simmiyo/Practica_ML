@@ -1,0 +1,15 @@
+Fast nonlinear embeddings via structured matrices
+We present a new paradigm for speeding up randomized computations of several
+frequently used functions in machine learning. In particular, our paradigm can
+be applied for improving computations of kernels based on random embeddings.
+Above that, the presented framework covers multivariate randomized functions.
+As a byproduct, we propose an algorithmic approach that also leads to a
+significant reduction of space complexity. Our method is based on careful
+recycling of Gaussian vectors into structured matrices that share properties of
+fully random matrices. The quality of the proposed structured approach follows
+from combinatorial properties of the graphs encoding correlations between rows
+of these structured matrices. Our framework covers as special cases already
+known structured approaches such as the Fast Johnson-Lindenstrauss Transform,
+but is much more general since it can be applied also to highly nonlinear
+embeddings. We provide strong concentration results showing the quality of the
+presented paradigm.

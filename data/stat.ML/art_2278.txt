@@ -1,0 +1,15 @@
+Fast Exact Inference for Recursive Cardinality Models
+Cardinality potentials are a generally useful class of high order potential
+that affect probabilities based on how many of D binary variables are active.
+Maximum a posteriori (MAP) inference for cardinality potential models is
+well-understood, with efficient computations taking O(DlogD) time. Yet
+efficient marginalization and sampling have not been addressed as thoroughly in
+the machine learning community. We show that there exists a simple algorithm
+for computing marginal probabilities and drawing exact joint samples that runs
+in O(Dlog2 D) time, and we show how to frame the algorithm as efficient belief
+propagation in a low order tree-structured model that includes additional
+auxiliary variables. We then develop a new, more general class of models,
+termed Recursive Cardinality models, which take advantage of this efficiency.
+Finally, we show how to do efficient exact inference in models composed of a
+tree structure and a cardinality potential. We explore the expressive power of
+Recursive Cardinality models and empirically demonstrate their utility.

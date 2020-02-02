@@ -1,0 +1,24 @@
+Can Prosody Aid the Automatic Classification of Dialog Acts in
+  Conversational Speech?
+Identifying whether an utterance is a statement, question, greeting, and so
+forth is integral to effective automatic understanding of natural dialog.
+Little is known, however, about how such dialog acts (DAs) can be automatically
+classified in truly natural conversation. This study asks whether current
+approaches, which use mainly word information, could be improved by adding
+prosodic information. The study is based on more than 1000 conversations from
+the Switchboard corpus. DAs were hand-annotated, and prosodic features
+(duration, pause, F0, energy, and speaking rate) were automatically extracted
+for each DA. In training, decision trees based on these features were inferred;
+trees were then applied to unseen test data to evaluate performance.
+Performance was evaluated for prosody models alone, and after combining the
+prosody models with word information -- either from true words or from the
+output of an automatic speech recognizer. For an overall classification task,
+as well as three subtasks, prosody made significant contributions to
+classification. Feature-specific analyses further revealed that although
+canonical features (such as F0 for questions) were important, less obvious
+features could compensate if canonical features were removed. Finally, in each
+task, integrating the prosodic model with a DA-specific statistical language
+model improved performance over that of the language model alone, especially
+for the case of recognized words. Results suggest that DAs are redundantly
+marked in natural conversation, and that a variety of automatically extractable
+prosodic features could aid dialog processing in speech applications.

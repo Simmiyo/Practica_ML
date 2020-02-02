@@ -1,0 +1,15 @@
+SpicyMKL
+We propose a new optimization algorithm for Multiple Kernel Learning (MKL)
+called SpicyMKL, which is applicable to general convex loss functions and
+general types of regularization. The proposed SpicyMKL iteratively solves
+smooth minimization problems. Thus, there is no need of solving SVM, LP, or QP
+internally. SpicyMKL can be viewed as a proximal minimization method and
+converges super-linearly. The cost of inner minimization is roughly
+proportional to the number of active kernels. Therefore, when we aim for a
+sparse kernel combination, our algorithm scales well against increasing number
+of kernels. Moreover, we give a general block-norm formulation of MKL that
+includes non-sparse regularizations, such as elastic-net and \ellp -norm
+regularizations. Extending SpicyMKL, we propose an efficient optimization
+method for the general regularization framework. Experimental results show that
+our algorithm is faster than existing methods especially when the number of
+kernels is large (> 1000).

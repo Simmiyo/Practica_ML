@@ -1,0 +1,12 @@
+Data Augmentation for Brain-Computer Interfaces: Analysis on
+  Event-Related Potentials Data
+On image data, data augmentation is becoming less relevant due to the large
+amount of available training data and regularization techniques. Common
+approaches are moving windows (cropping), scaling, affine distortions, random
+noise, and elastic deformations. For electroencephalographic data, the lack of
+sufficient training data is still a major issue. We suggest and evaluate
+different approaches to generate augmented data using temporal and
+spatial/rotational distortions. Our results on the perception of rare stimuli
+(P300 data) and movement prediction (MRCP data) show that these approaches are
+feasible and can significantly increase the performance of signal processing
+chains for brain-computer interfaces by 1% to 6%.

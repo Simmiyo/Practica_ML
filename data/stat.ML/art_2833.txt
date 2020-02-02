@@ -1,0 +1,16 @@
+CUR Algorithm with Incomplete Matrix Observation
+CUR matrix decomposition is a randomized algorithm that can efficiently
+compute the low rank approximation for a given rectangle matrix. One limitation
+with the existing CUR algorithms is that they require an access to the full
+matrix A for computing U. In this work, we aim to alleviate this limitation. In
+particular, we assume that besides having an access to randomly sampled d rows
+and d columns from A, we only observe a subset of randomly sampled entries from
+A. Our goal is to develop a low rank approximation algorithm, similar to CUR,
+based on (i) randomly sampled rows and columns from A, and (ii) randomly
+sampled entries from A. The proposed algorithm is able to perfectly recover the
+target matrix A with only O(rn log n) number of observed entries. In addition,
+instead of having to solve an optimization problem involved trace norm
+regularization, the proposed algorithm only needs to solve a standard
+regression problem. Finally, unlike most matrix completion theories that hold
+only when the target matrix is of low rank, we show a strong guarantee for the
+proposed algorithm even when the target matrix is not low rank.

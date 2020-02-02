@@ -1,0 +1,24 @@
+A shotgun sampling solution for the common input problem in neural
+  connectivity inference
+Inferring connectivity in neuronal networks remains a key challenge in
+statistical neuroscience. The `common input' problem presents the major
+roadblock: it is difficult to reliably distinguish causal connections between
+pairs of observed neurons from correlations induced by common input from
+unobserved neurons. Since available recording techniques allow us to sample
+from only a small fraction of large networks simultaneously with sufficient
+temporal resolution, naive connectivity estimators that neglect these common
+input effects are highly biased. This work proposes a `shotgun' experimental
+design, in which we observe multiple sub-networks briefly, in a serial manner.
+Thus, while the full network cannot be observed simultaneously at any given
+time, we may be able to observe most of it during the entire experiment. Using
+a generalized linear model for a spiking recurrent neural network, we develop
+scalable approximate Bayesian methods to perform network inference given this
+type of data, in which only a small fraction of the network is observed in each
+time bin. We demonstrate in simulation that, using this method: (1) The shotgun
+experimental design can eliminate the biases induced by common input effects.
+(2) Networks with thousands of neurons, in which only a small fraction of the
+neurons is observed in each time bin, could be quickly and accurately
+estimated. (3) Performance can be improved if we exploit prior information
+about the probability of having a connection between two neurons, its
+dependence on neuronal cell types (e.g., Dale's law), or its dependence on the
+distance between neurons.

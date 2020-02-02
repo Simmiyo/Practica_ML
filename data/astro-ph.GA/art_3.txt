@@ -1,0 +1,13 @@
+PIERNIK mhd code - a multi-fluid, non-ideal extension of the
+  relaxing-TVD scheme (IV)
+We present a new multi-fluid, grid MHD code PIERNIK, which is based on the
+Relaxing TVD scheme (Jin & Xin, 1995). The original scheme (see Trac & Pen
+(2003) and Pen et al. (2003)) has been extended by an addition of dynamically
+independent, but interacting fluids: dust and a diffusive cosmic ray gas,
+described within the fluid approximation, with an option to add other fluids in
+an easy way. The code has been equipped with shearing-box boundary conditions,
+and a selfgravity module, Ohmic resistivity module, as well as other facilities
+which are useful in astrophysical fluid-dynamical simulations. The code is
+parallelized by means of the MPI library. In this paper we present an extension
+of PIERNIK, which is designed for simulations of diffusive propagation of the
+Cosmic-Ray (CR) component in the magnetized ISM.

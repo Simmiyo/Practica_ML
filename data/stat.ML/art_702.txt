@@ -1,0 +1,18 @@
+Neutralized Empirical Risk Minimization with Generalization Neutrality
+  Bound
+Currently, machine learning plays an important role in the lives and
+individual activities of numerous people. Accordingly, it has become necessary
+to design machine learning algorithms to ensure that discrimination, biased
+views, or unfair treatment do not result from decision making or predictions
+made via machine learning. In this work, we introduce a novel empirical risk
+minimization (ERM) framework for supervised learning, neutralized ERM (NERM)
+that ensures that any classifiers obtained can be guaranteed to be neutral with
+respect to a viewpoint hypothesis. More specifically, given a viewpoint
+hypothesis, NERM works to find a target hypothesis that minimizes the empirical
+risk while simultaneously identifying a target hypothesis that is neutral to
+the viewpoint hypothesis. Within the NERM framework, we derive a theoretical
+bound on empirical and generalization neutrality risks. Furthermore, as a
+realization of NERM with linear classification, we derive a max-margin
+algorithm, neutral support vector machine (SVM). Experimental results show that
+our neutral SVM shows improved classification performance in real datasets
+without sacrificing the neutrality guarantee.

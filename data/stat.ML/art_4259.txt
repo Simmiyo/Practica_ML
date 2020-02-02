@@ -1,0 +1,18 @@
+Bayesian Recurrent Neural Network Models for Forecasting and Quantifying
+  Uncertainty in Spatial-Temporal Data
+Recurrent neural networks (RNNs) are nonlinear dynamical models commonly used
+in the machine learning and dynamical systems literature to represent complex
+dynamical or sequential relationships between variables. More recently, as deep
+learning models have become more common, RNNs have been used to forecast
+increasingly complicated systems. Dynamical spatio-temporal processes represent
+a class of complex systems that can potentially benefit from these types of
+models. Although the RNN literature is expansive and highly developed,
+uncertainty quantification is often ignored. Even when considered, the
+uncertainty is generally quantified without the use of a rigorous framework,
+such as a fully Bayesian setting. Here we attempt to quantify uncertainty in a
+more formal framework while maintaining the forecast accuracy that makes these
+models appealing, by presenting a Bayesian RNN model for nonlinear
+spatio-temporal forecasting. Additionally, we make simple modifications to the
+basic RNN to help accommodate the unique nature of nonlinear spatio-temporal
+data. The proposed model is applied to a Lorenz simulation and two real-world
+nonlinear spatio-temporal forecasting applications.

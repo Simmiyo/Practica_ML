@@ -1,0 +1,15 @@
+An integrate-and-fire model to generate spike trains with long-range
+  dependence
+Long-range dependence (LRD) has been observed in a variety of phenomena in
+nature, and for several years also in the spiking activity of neurons. Often,
+this is interpreted as originating from a non-Markovian system. Here we show
+that a purely Markovian integrate-and-fire (IF) model, with a noisy slow
+adaptation term, can generate interspike intervals (ISIs) that appear as having
+LRD. However a proper analysis shows that this is not the case asymptotically.
+For comparison, we also consider a new model of individual IF neuron with
+fractional (non-Markovian) noise. The correlations of its spike trains are
+studied and proven to have LRD, unlike classical IF models. On the other hand,
+to correctly measure long-range dependence, it is usually necessary to know if
+the data are stationary. Thus, a methodology to evaluate stationarity of the
+ISIs is presented and applied to the various IF models. We explain that
+Markovian IF models may seem to have LRD because of non-stationarities.

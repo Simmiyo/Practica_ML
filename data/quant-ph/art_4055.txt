@@ -1,0 +1,11 @@
+Quantum authentication of classical messages
+Although key distribution is arguably the most studied context on which to
+apply quantum cryptographic techniques, message authentication, i.e.,
+certifying the identity of the message originator and the integrity of the
+message sent, can also benefit from the use of quantum resources. Classically,
+message authentication can be performed by techniques based on hash functions.
+However, the security of the resulting protocols depends on the selection of
+appropriate hash functions, and on the use of long authentication keys. In this
+paper we propose a quantum authentication procedure that, making use of just
+one qubit as the authentication key, allows the authentication of binary
+classical messages in a secure manner.

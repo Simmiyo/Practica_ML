@@ -1,0 +1,20 @@
+Efficient and accurate extraction of in vivo calcium signals from
+  microendoscopic video data
+In vivo calcium imaging through microscopes has enabled deep brain imaging of
+previously inaccessible neuronal populations within the brains of freely moving
+subjects. However, microendoscopic data suffer from high levels of background
+fluorescence as well as an increased potential for overlapping neuronal
+signals. Previous methods fail in identifying neurons and demixing their
+temporal activity because the cellular signals are often submerged in the large
+fluctuating background. Here we develop an efficient method to extract cellular
+signals with minimal influence from the background. We model the background
+with two realistic components: (1) one models the constant baseline and slow
+trends of each pixel, and (2) the other models the fast fluctuations from
+out-of-focus signals and is therefore constrained to have low spatial-frequency
+structure. This decomposition avoids cellular signals being absorbed into the
+background term. After subtracting the background approximated with this model,
+we use Constrained Nonnegative Matrix Factorization (CNMF, Pnevmatikakis et al.
+(2016)) to better demix neural signals and get their denoised and deconvolved
+temporal activity. We validate our method on simulated and experimental data,
+where it shows fast, reliable, and high quality signal extraction under a wide
+variety of imaging parameters.

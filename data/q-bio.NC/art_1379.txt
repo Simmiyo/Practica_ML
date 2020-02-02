@@ -1,0 +1,15 @@
+On the pros and cons of using temporal derivatives to assess brain
+  functional connectivity
+The study of correlations between brain regions is an important chapter of
+the analysis of large-scale brain spatiotemporal dynamics. In particular, novel
+methods suited to extract dynamic changes in mutual correlations are needed.
+Here we scrutinize a recently reported metric dubbed "Multiplication of
+Temporal Derivatives" (MTD) which is based on the temporal derivative of each
+time series. The formal comparison of the MTD formula with the Pearson
+correlation of the derivatives reveals only minor differences, which we find
+negligible in practice. A comparison with the sliding window Pearson
+correlation of the raw time series in several stationary and non-stationary
+set-ups, including a realistic stationary network detection, reveals lower
+sensitivity of derivatives to low frequency drifts and to autocorrelations but
+also lower signal-to-noise ratio. It does not indicate any evident mathematical
+advantages of the proposed metric over commonly used correlation methods.

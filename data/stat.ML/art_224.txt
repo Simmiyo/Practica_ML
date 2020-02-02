@@ -1,0 +1,11 @@
+Link Prediction in Graphs with Autoregressive Features
+In the paper, we consider the problem of link prediction in time-evolving
+graphs. We assume that certain graph features, such as the node degree, follow
+a vector autoregressive (VAR) model and we propose to use this information to
+improve the accuracy of prediction. Our strategy involves a joint optimization
+procedure over the space of adjacency matrices and VAR matrices which takes
+into account both sparsity and low rank properties of the matrices. Oracle
+inequalities are derived and illustrate the trade-offs in the choice of
+smoothing parameters when modeling the joint effect of sparsity and low rank
+property. The estimate is computed efficiently using proximal methods through a
+generalized forward-backward agorithm.

@@ -1,0 +1,17 @@
+Sparse Signal Recovery with Temporally Correlated Source Vectors Using
+  Sparse Bayesian Learning
+We address the sparse signal recovery problem in the context of multiple
+measurement vectors (MMV) when elements in each nonzero row of the solution
+matrix are temporally correlated. Existing algorithms do not consider such
+temporal correlations and thus their performance degrades significantly with
+the correlations. In this work, we propose a block sparse Bayesian learning
+framework which models the temporal correlations. In this framework we derive
+two sparse Bayesian learning (SBL) algorithms, which have superior recovery
+performance compared to existing algorithms, especially in the presence of high
+temporal correlations. Furthermore, our algorithms are better at handling
+highly underdetermined problems and require less row-sparsity on the solution
+matrix. We also provide analysis of the global and local minima of their cost
+function, and show that the SBL cost function has the very desirable property
+that the global minimum is at the sparsest solution to the MMV problem.
+Extensive experiments also provide some interesting results that motivate
+future theoretical research on the MMV model.

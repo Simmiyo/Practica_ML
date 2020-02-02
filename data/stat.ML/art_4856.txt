@@ -1,0 +1,15 @@
+Beating level-set methods for 3D seismic data interpolation: a
+  primal-dual alternating approach
+Acquisition cost is a crucial bottleneck for seismic workflows, and low-rank
+formulations for data interpolation allow practitioners to `fill in' data
+volumes from critically subsampled data acquired in the field. Tremendous size
+of seismic data volumes required for seismic processing remains a major
+challenge for these techniques.
+  We propose a new approach to solve residual constrained formulations for
+interpolation. We represent the data volume using matrix factors, and build a
+block-coordinate algorithm with constrained convex subproblems that are solved
+with a primal-dual splitting scheme. The new approach is competitive with state
+of the art level-set algorithms that interchange the role of objectives with
+constraints. We use the new algorithm to successfully interpolate a large scale
+5D seismic data volume, generated from the geologically complex synthetic 3D
+Compass velocity model, where 80% of the data has been removed.

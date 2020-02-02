@@ -1,0 +1,9 @@
+Model Guided Sampling Optimization for Low-dimensional Problems
+Optimization of very expensive black-box functions requires utilization of
+maximum information gathered by the process of optimization. Model Guided
+Sampling Optimization (MGSO) forms a more robust alternative to Jones'
+Gaussian-process-based EGO algorithm. Instead of EGO's maximizing expected
+improvement, the MGSO uses sampling the probability of improvement which is
+shown to be helpful against trapping in local minima. Further, the MGSO can
+reach close-to-optimum solutions faster than standard optimization algorithms
+on low dimensional or smooth problems.

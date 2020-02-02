@@ -1,0 +1,16 @@
+Automated placement of stereotactic injections using a laser scan of the
+  skull
+Stereotactic targeting is a commonly used technique for performing injections
+in the brains of mice and other animals. The most common method for targeting
+stereoscopic injections uses the skull indentations bregma and lambda as
+reference points and is limited in its precision by factors such as skull
+curvature and individual variation, as well as an incomplete correspondence
+between skull landmarks and brain locations. In this software tool, a 3D laser
+scan of the mouse skull is taken in vitro and registered onto a reference skull
+using a point cloud matching algorithm, and the parameters of the
+transformation are used to position a glass pipette to place tracer injections.
+The software was capable of registering sample skulls with less than 100 micron
+error, and was able to target an injection in a mouse with error of roughly 500
+microns. These results indicate that using skull scan registration has the
+potential to be widely applicable in automating stereotactic targeting of
+tracer injections.

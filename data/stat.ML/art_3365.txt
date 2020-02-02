@@ -1,0 +1,12 @@
+A Fast and Flexible Algorithm for the Graph-Fused Lasso
+We propose a new algorithm for solving the graph-fused lasso (GFL), a method
+for parameter estimation that operates under the assumption that the signal
+tends to be locally constant over a predefined graph structure. Our key insight
+is to decompose the graph into a set of trails which can then each be solved
+efficiently using techniques for the ordinary (1D) fused lasso. We leverage
+these trails in a proximal algorithm that alternates between closed form primal
+updates and fast dual trail updates. The resulting techinque is both faster
+than previous GFL methods and more flexible in the choice of loss function and
+graph structure. Furthermore, we present two algorithms for constructing trail
+sets and show empirically that they offer a tradeoff between preprocessing time
+and convergence rate.

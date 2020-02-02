@@ -1,0 +1,21 @@
+Separating intrinsic interactions from extrinsic correlations in a
+  network of sensory neurons
+Correlations in sensory neural networks have both extrinsic and intrinsic
+origins. Extrinsic or stimulus correlations arise from shared inputs to the
+network, and thus depend strongly on the stimulus ensemble. Intrinsic or noise
+correlations reflect biophysical mechanisms of interactions between neurons,
+which are expected to be robust to changes of the stimulus ensemble. Despite
+the importance of this distinction for understanding how sensory networks
+encode information collectively, no method exists to reliably separate
+intrinsic interactions from extrinsic correlations in neural activity data,
+limiting our ability to build predictive models of the network response. In
+this paper we introduce a general strategy to infer {population models of
+interacting neurons that collectively encode stimulus information}. The key to
+disentangling intrinsic from extrinsic correlations is to infer the {couplings
+between neurons} separately from the encoding model, and to combine the two
+using corrections calculated in a mean-field approximation. We demonstrate the
+effectiveness of this approach on retinal recordings. The same coupling network
+is inferred from responses to radically different stimulus ensembles, showing
+that these couplings indeed reflect stimulus-independent interactions between
+neurons. The inferred model predicts accurately the collective response of
+retinal ganglion cell populations as a function of the stimulus.

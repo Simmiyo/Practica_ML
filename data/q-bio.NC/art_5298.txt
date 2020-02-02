@@ -1,0 +1,27 @@
+Disambiguating the role of noise correlations when decoding neural
+  populations together
+One of the most controversial problems in neural decoding is quantifying the
+information loss caused by ignoring noise correlations during optimal brain
+computations. For more than a decade, the measure here called $ \Delta I^{DL} $
+has been believed exact. However, we have recently shown that it can exceed the
+information loss $ \Delta I^{B} $ caused by optimal decoders constructed
+ignoring noise correlations. Unfortunately, the different information notions
+underlying $ \Delta I^{DL} $ and $ \Delta I^{B} $, and the putative rigorous
+information-theoretical derivation of $ \Delta I^{DL} $, both render unclear
+whether those findings indicate either flaws in $ \Delta I^{DL} $ or major
+departures from traditional relations between information and decoding. Here we
+resolve this paradox and prove that, under certain conditions, observing $
+\Delta I^{DL} {>}\Delta I^{B} $ implies that $ \Delta I^{DL} $ is flawed.
+Motivated by this analysis, we test both measures using neural populations that
+transmit independent information. Our results show that $ \Delta I^{DL} $ may
+deem noise correlations more important when decoding the populations together
+than when decoding them in parallel, whereas the opposite may occur for $
+\Delta I^{B} $. We trace these phenomena back, for $ \Delta I^{B} $, to the
+choice of tie-breaking rules, and for $ \Delta I^{DL} $, to unforeseen
+limitations within its information-theoretical foundations. Our study
+contributes with better estimates that potentially improve theoretical and
+experimental inferences currently drawn from $ \Delta I^{DL} $ without noticing
+that it may constitute an upper bound. On the practical side, our results
+promote the design of optimal decoding algorithms and neuroprosthetics without
+recording noise correlations, thereby saving experimental and computational
+resources.

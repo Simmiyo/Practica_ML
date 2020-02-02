@@ -1,0 +1,14 @@
+Finding role communities in directed networks using Role-Based
+  Similarity, Markov Stability and the Relaxed Minimum Spanning Tree
+We present a framework to cluster nodes in directed networks according to
+their roles by combining Role-Based Similarity (RBS) and Markov Stability, two
+techniques based on flows. First we compute the RBS matrix, which contains the
+pairwise similarities between nodes according to the scaled number of in- and
+out-directed paths of different lengths. The weighted RBS similarity matrix is
+then transformed into an undirected similarity network using the Relaxed
+Minimum-Spanning Tree (RMST) algorithm, which uses the geometric structure of
+the RBS matrix to unblur the network, such that edges between nodes with high,
+direct RBS are preserved. Finally, we partition the RMST similarity network
+into role-communities of nodes at all scales using Markov Stability to find a
+robust set of roles in the network. We showcase our framework through a
+biological and a man-made network.

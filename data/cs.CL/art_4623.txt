@@ -1,0 +1,15 @@
+RNNs as psycholinguistic subjects: Syntactic state and grammatical
+  dependency
+Recurrent neural networks (RNNs) are the state of the art in sequence
+modeling for natural language. However, it remains poorly understood what
+grammatical characteristics of natural language they implicitly learn and
+represent as a consequence of optimizing the language modeling objective. Here
+we deploy the methods of controlled psycholinguistic experimentation to shed
+light on to what extent RNN behavior reflects incremental syntactic state and
+grammatical dependency representations known to characterize human linguistic
+behavior. We broadly test two publicly available long short-term memory (LSTM)
+English sequence models, and learn and test a new Japanese LSTM. We demonstrate
+that these models represent and maintain incremental syntactic state, but that
+they do not always generalize in the same way as humans. Furthermore, none of
+our models learn the appropriate grammatical dependency configurations
+licensing reflexive pronouns or negative polarity items.

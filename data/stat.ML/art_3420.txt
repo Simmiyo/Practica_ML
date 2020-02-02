@@ -1,0 +1,17 @@
+Tree-Cut for Probabilistic Image Segmentation
+This paper presents a new probabilistic generative model for image
+segmentation, i.e. the task of partitioning an image into homogeneous regions.
+Our model is grounded on a mid-level image representation, called a region
+tree, in which regions are recursively split into subregions until superpixels
+are reached. Given the region tree, image segmentation is formalized as
+sampling cuts in the tree from the model. Inference for the cuts is exact, and
+formulated using dynamic programming. Our tree-cut model can be tuned to sample
+segmentations at a particular scale of interest out of many possible multiscale
+image segmentations. This generalizes the common notion that there should be
+only one correct segmentation per image. Also, it allows moving beyond the
+standard single-scale evaluation, where the segmentation result for an image is
+averaged against the corresponding set of coarse and fine human annotations, to
+conduct a scale-specific evaluation. Our quantitative results are comparable to
+those of the leading gPb-owt-ucm method, with the notable advantage that we
+additionally produce a distribution over all possible tree-consistent
+segmentations of the image.

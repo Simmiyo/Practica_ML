@@ -1,0 +1,15 @@
+Experimental Design for Non-Parametric Correction of Misspecified
+  Dynamical Models
+We consider a class of misspecified dynamical models where the governing term
+is only approximately known. Under the assumption that observations of the
+system's evolution are accessible for various initial conditions, our goal is
+to infer a non-parametric correction to the misspecified driving term such as
+to faithfully represent the system dynamics and devise system evolution
+predictions for unobserved initial conditions.
+  We model the unknown correction term as a Gaussian Process and analyze the
+problem of efficient experimental design to find an optimal correction term
+under constraints such as a limited experimental budget. We suggest a novel
+formulation for experimental design for this Gaussian Process and show that
+approximately optimal (up to a constant factor) designs may be efficiently
+derived by utilizing results from the literature on submodular optimization.
+Our numerical experiments exemplify the effectiveness of these techniques.

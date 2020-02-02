@@ -1,0 +1,13 @@
+What Cannot be Learned with Bethe Approximations
+We address the problem of learning the parameters in graphical models when
+inference is intractable. A common strategy in this case is to replace the
+partition function with its Bethe approximation. We show that there exists a
+regime of empirical marginals where such Bethe learning will fail. By failure
+we mean that the empirical marginals cannot be recovered from the approximated
+maximum likelihood parameters (i.e., moment matching is not achieved). We
+provide several conditions on empirical marginals that yield outer and inner
+bounds on the set of Bethe learnable marginals. An interesting implication of
+our results is that there exists a large class of marginals that cannot be
+obtained as stable fixed points of belief propagation. Taken together our
+results provide a novel approach to analyzing learning with Bethe
+approximations and highlight when it can be expected to work or fail.

@@ -1,0 +1,9 @@
+Human Interaction with Recommendation Systems
+Many recommendation algorithms rely on user data to generate recommendations.
+However, these recommendations also affect the data obtained from future users.
+This work aims to understand the effects of this dynamic interaction. We
+propose a simple model where users with heterogeneous preferences arrive over
+time. Based on this model, we prove that naive estimators, i.e. those which
+ignore this feedback loop, are not consistent. We show that consistent
+estimators are efficient in the presence of myopic agents. Our results are
+validated using extensive simulations.

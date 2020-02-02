@@ -1,0 +1,18 @@
+Point Localization and Density Estimation from Ordinal kNN graphs using
+  Synchronization
+We consider the problem of embedding unweighted, directed k-nearest neighbor
+graphs in low-dimensional Euclidean space. The k-nearest neighbors of each
+vertex provides ordinal information on the distances between points, but not
+the distances themselves. We use this ordinal information along with the
+low-dimensionality to recover the coordinates of the points up to arbitrary
+similarity transformations (rigid transformations and scaling). Furthermore, we
+also illustrate the possibility of robustly recovering the underlying density
+via the Total Variation Maximum Penalized Likelihood Estimation (TV-MPLE)
+method. We make existing approaches scalable by using an instance of a
+local-to-global algorithm based on group synchronization, recently proposed in
+the literature in the context of sensor network localization and structural
+biology, which we augment with a scaling synchronization step. We demonstrate
+the scalability of our approach on large graphs, and show how it compares to
+the Local Ordinal Embedding (LOE) algorithm, which was recently proposed for
+recovering the configuration of a cloud of points from pairwise ordinal
+comparisons between a sparse set of distances.

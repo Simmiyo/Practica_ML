@@ -1,0 +1,14 @@
+An Inexact Variable Metric Proximal Point Algorithm for Generic
+  Quasi-Newton Acceleration
+We propose an inexact variable-metric proximal point algorithm to accelerate
+gradient-based optimization algorithms. The proposed scheme, called QNing can
+be notably applied to incremental first-order methods such as the stochastic
+variance-reduced gradient descent algorithm (SVRG) and other randomized
+incremental optimization algorithms. QNing is also compatible with composite
+objectives, meaning that it has the ability to provide exactly sparse solutions
+when the objective involves a sparsity-inducing regularization. When combined
+with limited-memory BFGS rules, QNing is particularly effective to solve
+high-dimensional optimization problems, while enjoying a worst-case linear
+convergence rate for strongly convex problems. We present experimental results
+where QNing gives significant improvements over competing methods for training
+machine learning methods on large samples and in high dimensions.

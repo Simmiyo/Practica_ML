@@ -1,0 +1,14 @@
+Sobolev Norm Learning Rates for Regularized Least-Squares Algorithm
+Learning rates for least-squares regression are typically expressed in terms
+of $L_2$-norms. In this paper we extend these rates to norms stronger than the
+$L_2$-norm without requiring the regression function to be contained in the
+hypothesis space. In the special case of Sobolev reproducing kernel Hilbert
+spaces used as hypotheses spaces, these stronger norms coincide with fractional
+Sobolev norms between the used Sobolev space and $L_2$. As a consequence, not
+only the target function but also some of its derivatives can be estimated
+without changing the algorithm. From a technical point of view, we combine the
+well-known integral operator techniques with an embedding property, which so
+far has only been used in combination with empirical process arguments. This
+combination results in new finite sample bounds with respect to the stronger
+norms. From these finite sample bounds our rates easily follow. Finally, we
+prove the asymptotic optimality of our results in many cases.

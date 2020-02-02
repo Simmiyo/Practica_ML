@@ -1,0 +1,14 @@
+Online Natural Gradient as a Kalman Filter
+We cast Amari's natural gradient in statistical learning as a specific case
+of Kalman filtering. Namely, applying an extended Kalman filter to estimate a
+fixed unknown parameter of a probabilistic model from a series of observations,
+is rigorously equivalent to estimating this parameter via an online stochastic
+natural gradient descent on the log-likelihood of the observations.
+  In the i.i.d. case, this relation is a consequence of the "information
+filter" phrasing of the extended Kalman filter. In the recurrent (state space,
+non-i.i.d.) case, we prove that the joint Kalman filter over states and
+parameters is a natural gradient on top of real-time recurrent learning (RTRL),
+a classical algorithm to train recurrent models.
+  This exact algebraic correspondence provides relevant interpretations for
+natural gradient hyperparameters such as learning rates or initialization and
+regularization of the Fisher information matrix.

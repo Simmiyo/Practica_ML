@@ -1,0 +1,20 @@
+Robust Learning for Optimal Treatment Decision with NP-Dimensionality
+In order to identify important variables that are involved in making optimal
+treatment decision, Lu et al. (2013) proposed a penalized least squared
+regression framework for a fixed number of predictors, which is robust against
+the misspecification of the conditional mean model. Two problems arise: (i) in
+a world of explosively big data, effective methods are needed to handle
+ultra-high dimensional data set, for example, with the dimension of predictors
+is of the non-polynomial (NP) order of the sample size; (ii) both the
+propensity score and conditional mean models need to be estimated from data
+under NP dimensionality.
+  In this paper, we propose a two-step estimation procedure for deriving the
+optimal treatment regime under NP dimensionality. In both steps, penalized
+regressions are employed with the non-concave penalty function, where the
+conditional mean model of the response given predictors may be misspecified.
+The asymptotic properties, such as weak oracle properties, selection
+consistency and oracle distributions, of the proposed estimators are
+investigated. In addition, we study the limiting distribution of the estimated
+value function for the obtained optimal treatment regime. The empirical
+performance of the proposed estimation method is evaluated by simulations and
+an application to a depression dataset from the STAR*D study.

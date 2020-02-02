@@ -1,0 +1,19 @@
+Adversarial Training for Disease Prediction from Electronic Health
+  Records with Missing Data
+Electronic health records (EHRs) have contributed to the computerization of
+patient records and can thus be used not only for efficient and systematic
+medical services, but also for research on biomedical data science. However,
+there are many missing values in EHRs when provided in matrix form, which is an
+important issue in many biomedical EHR applications. In this paper, we propose
+a two-stage framework that includes missing data imputation and disease
+prediction to address the missing data problem in EHRs. We compared the disease
+prediction performance of generative adversarial networks (GANs) and
+conventional learning algorithms in combination with missing data prediction
+methods. As a result, we obtained a level of accuracy of 0.9777, sensitivity of
+0.9521, specificity of 0.9925, area under the receiver operating characteristic
+curve (AUC-ROC) of 0.9889, and F-score of 0.9688 with a stacked autoencoder as
+the missing data prediction method and an auxiliary classifier GAN (AC-GAN) as
+the disease prediction method. The comparison results show that a combination
+of a stacked autoencoder and an AC-GAN significantly outperforms other existing
+approaches. Our results suggest that the proposed framework is more robust for
+disease prediction from EHRs with missing data.

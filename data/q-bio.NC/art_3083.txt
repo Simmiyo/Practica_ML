@@ -1,0 +1,24 @@
+Multi-feature classifiers for burst detection in single EEG channels
+  from preterm infants
+The study of electroencephalographic (EEG) bursts in preterm infants provides
+valuable information about maturation or prognostication after perinatal
+asphyxia. Over the last two decades, a number of works proposed algorithms to
+automatically detect EEG bursts in preterm infants, but they were designed for
+populations under 35 weeks of post menstrual age (PMA). However, as the brain
+activity evolves rapidly during postnatal life, these solutions might be
+under-performing with increasing PMA. In this work we focused on preterm
+infants reaching term ages (PMA $\geq$ 36 weeks) using multi-feature
+classification on a single EEG channel. Five EEG burst detectors relying on
+different machine learning approaches were compared: Logistic regression (LR),
+linear discriminant analysis (LDA), k-nearest neighbors (kNN), support vector
+machines (SVM) and thresholding (Th). Classifiers were trained by visually
+labeled EEG recordings from 14 very preterm infants (born after 28 weeks of
+gestation) with 36 - 41 weeks PMA. The most performing classifiers reached
+about 95\% accuracy (kNN, SVM and LR) whereas Th obtained 84\%. Compared to
+human-automatic agreements, LR provided the highest scores (Cohen's kappa =
+0.71) and the best computational efficiency using only three EEG features.
+Applying this classifier in a test database of 21 infants $\geq$ 36 weeks PMA,
+we show that long EEG bursts and short inter-bust periods are characteristic of
+infants with the highest PMA and weights. In view of these results, LR-based
+burst detection could be a suitable tool to study maturation in monitoring or
+portable devices using a single EEG channel.

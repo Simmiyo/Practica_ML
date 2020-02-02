@@ -1,0 +1,12 @@
+Learning to Explain Non-Standard English Words and Phrases
+We describe a data-driven approach for automatically explaining new,
+non-standard English expressions in a given sentence, building on a large
+dataset that includes 15 years of crowdsourced examples from
+UrbanDictionary.com. Unlike prior studies that focus on matching keywords from
+a slang dictionary, we investigate the possibility of learning a neural
+sequence-to-sequence model that generates explanations of unseen non-standard
+English expressions given context. We propose a dual encoder approach---a
+word-level encoder learns the representation of context, and a second
+character-level encoder to learn the hidden representation of the target
+non-standard expression. Our model can produce reasonable definitions of new
+non-standard English expressions given their context with certain confidence.

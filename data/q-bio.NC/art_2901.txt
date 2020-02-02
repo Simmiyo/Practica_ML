@@ -1,0 +1,28 @@
+A three-threshold learning rule approaches the maximal capacity of
+  recurrent neural networks
+Understanding the theoretical foundations of how memories are encoded and
+retrieved in neural populations is a central challenge in neuroscience. A
+popular theoretical scenario for modeling memory function is the attractor
+neural network scenario, whose prototype is the Hopfield model. The model has a
+poor storage capacity, compared with the capacity achieved with perceptron
+learning algorithms. Here, by transforming the perceptron learning rule, we
+present an online learning rule for a recurrent neural network that achieves
+near-maximal storage capacity without an explicit supervisory error signal,
+relying only upon locally accessible information. The fully-connected network
+consists of excitatory binary neurons with plastic recurrent connections and
+non-plastic inhibitory feedback stabilizing the network dynamics; the memory
+patterns are presented online as strong afferent currents, producing a bimodal
+distribution for the neuron synaptic inputs. Synapses corresponding to active
+inputs are modified as a function of the value of the local fields with respect
+to three thresholds. Above the highest threshold, and below the lowest
+threshold, no plasticity occurs. In between these two thresholds,
+potentiation/depression occurs when the local field is above/below an
+intermediate threshold. We simulated and analyzed a network of binary neurons
+implementing this rule and measured its storage capacity for different sizes of
+the basins of attraction. The storage capacity obtained through numerical
+simulations is shown to be close to the value predicted by analytical
+calculations. We also measured the dependence of capacity on the strength of
+external inputs. Finally, we quantified the statistics of the resulting
+synaptic connectivity matrix, and found that both the fraction of zero weight
+synapses and the degree of symmetry of the weight matrix increase with the
+number of stored patterns.

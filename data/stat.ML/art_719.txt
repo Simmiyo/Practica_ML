@@ -1,0 +1,14 @@
+Unsupervised Adaptation of SPLDA
+State-of-the-art speaker recognition relays on models that need a large
+amount of training data. This models are successful in tasks like NIST SRE
+because there is sufficient data available. However, in real applications, we
+usually do not have so much data and, in many cases, the speaker labels are
+unknown. We present a method to adapt a PLDA model from a domain with a large
+amount of labeled data to another with unlabeled data. We describe a generative
+model that produces both sets of data where the unknown labels are modeled like
+latent variables. We used variational Bayes to estimate the hidden variables.
+Here, we derive the equations for this model. This model has been used in the
+papers: "UNSUPERVISED ADAPTATION OF PLDA BY USING VARIATIONAL BAYES METHODS"
+publised at ICASSP 2014, "Unsupervised Training of PLDA with Variational Bayes"
+published at Iberspeech 2014, and "VARIATIONAL BAYESIAN PLDA FOR SPEAKER
+DIARIZATION IN THE MGB CHALLENGE" published at ASRU 2015.

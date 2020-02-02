@@ -1,0 +1,23 @@
+CaMKII activation supports reward-based neural network optimization
+  through Hamiltonian sampling
+Synaptic plasticity is implemented and controlled through over thousand
+different types of molecules in the postsynaptic density and presynaptic
+boutons that assume a staggering array of different states through
+phosporylation and other mechanisms. One of the most prominent molecule in the
+postsynaptic density is CaMKII, that is described in molecular biology as a
+"memory molecule" that can integrate through auto-phosporylation Ca-influx
+signals on a relatively large time scale of dozens of seconds. The functional
+impact of this memory mechanism is largely unknown. We show that the
+experimental data on the specific role of CaMKII activation in dopamine-gated
+spine consolidation suggest a general functional role in speeding up
+reward-guided search for network configurations that maximize reward
+expectation. Our theoretical analysis shows that stochastic search could in
+principle even attain optimal network configurations by emulating one of the
+most well-known nonlinear optimization methods, simulated annealing. But this
+optimization is usually impeded by slowness of stochastic search at a given
+temperature. We propose that CaMKII contributes a momentum term that
+substantially speeds up this search. In particular, it allows the network to
+overcome saddle points of the fitness function. The resulting improved
+stochastic policy search can be understood on a more abstract level as
+Hamiltonian sampling, which is known to be one of the most efficient stochastic
+search methods.

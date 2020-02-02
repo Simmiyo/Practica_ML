@@ -1,0 +1,13 @@
+Gaussian Processes and Limiting Linear Models
+Gaussian processes retain the linear model either as a special case, or in
+the limit. We show how this relationship can be exploited when the data are at
+least partially linear. However from the perspective of the Bayesian posterior,
+the Gaussian processes which encode the linear model either have probability of
+nearly zero or are otherwise unattainable without the explicit construction of
+a prior with the limiting linear model in mind. We develop such a prior, and
+show that its practical benefits extend well beyond the computational and
+conceptual simplicity of the linear model. For example, linearity can be
+extracted on a per-dimension basis, or can be combined with treed partition
+models to yield a highly efficient nonstationary model. Our approach is
+demonstrated on synthetic and real datasets of varying linearity and
+dimensionality.

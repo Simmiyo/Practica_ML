@@ -1,0 +1,16 @@
+Variational inference of latent state sequences using Recurrent Networks
+Recent advances in the estimation of deep directed graphical models and
+recurrent networks let us contribute to the removal of a blind spot in the area
+of probabilistc modelling of time series. The proposed methods i) can infer
+distributed latent state-space trajectories with nonlinear transitions, ii)
+scale to large data sets thanks to the use of a stochastic objective and fast,
+approximate inference, iii) enable the design of rich emission models which iv)
+will naturally lead to structured outputs. Two different paths of introducing
+latent state sequences are pursued, leading to the variational recurrent auto
+encoder (VRAE) and the variational one step predictor (VOSP). The use of
+independent Wiener processes as priors on the latent state sequence is a viable
+compromise between efficient computation of the Kullback-Leibler divergence
+from the variational approximation of the posterior and maintaining a
+reasonable belief in the dynamics. We verify our methods empirically, obtaining
+results close or superior to the state of the art. We also show qualitative
+results for denoising and missing value imputation.

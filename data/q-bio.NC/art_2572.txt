@@ -1,0 +1,17 @@
+Images from the Mind: BCI image evolution based on Rapid Serial Visual
+  Presentation of polygon primitives
+This paper provides a proof of concept for an EEG-based reconstruction of a
+visual image which is on a user's mind. Our approach is based on the Rapid
+Serial Visual Presentation (RSVP) of polygon primitives and Brain-Computer
+Interface (BCI) technology. The presentation of polygons that contribute to
+build a target image (because they match the shape and/or color of the target)
+trigger attention-related EEG patterns. Accordingly, these target primitives
+can be determined using BCI classification of Event-Related Potentials (ERPs).
+They are then accumulated in the display until a satisfactory reconstruction is
+reached. Selection steps have an average classification accuracy of $75\%$.
+$25\%$ of the images could be reconstructed completely, while more than $65\%$
+of the available visual details could be captured on average. Most of the
+misclassifications were not misinterpretations of the BCI concerning users'
+intent; rather, users tried to select polygons that were different than what
+was intended by the experimenters. Open problems and alternatives to develop a
+practical BCI-based image reconstruction application are discussed.

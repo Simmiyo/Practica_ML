@@ -1,0 +1,9 @@
+Correcting Length Bias in Neural Machine Translation
+We study two problems in neural machine translation (NMT). First, in beam
+search, whereas a wider beam should in principle help translation, it often
+hurts NMT. Second, NMT has a tendency to produce translations that are too
+short. Here, we argue that these problems are closely related and both rooted
+in label bias. We show that correcting the brevity problem almost eliminates
+the beam problem; we compare some commonly-used methods for doing this, finding
+that a simple per-word reward works well; and we introduce a simple and quick
+way to tune this reward using the perceptron algorithm.

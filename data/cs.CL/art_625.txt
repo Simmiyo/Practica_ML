@@ -1,0 +1,13 @@
+Intelligent Hybrid Man-Machine Translation Quality Estimation
+Inferring evaluation scores based on human judgments is invaluable compared
+to using current evaluation metrics which are not suitable for real-time
+applications e.g. post-editing. However, these judgments are much more
+expensive to collect especially from expert translators, compared to evaluation
+based on indicators contrasting source and translation texts. This work
+introduces a novel approach for quality estimation by combining learnt
+confidence scores from a probabilistic inference model based on human
+judgments, with selective linguistic features-based scores, where the proposed
+inference model infers the credibility of given human ranks to solve the
+scarcity and inconsistency issues of human judgments. Experimental results,
+using challenging language-pairs, demonstrate improvement in correlation with
+human judgments over traditional evaluation metrics.

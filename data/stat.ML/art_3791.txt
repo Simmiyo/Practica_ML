@@ -1,0 +1,16 @@
+Pursuits in Structured Non-Convex Matrix Factorizations
+Efficiently representing real world data in a succinct and parsimonious
+manner is of central importance in many fields. We present a generalized greedy
+pursuit framework, allowing us to efficiently solve structured matrix
+factorization problems, where the factors are allowed to be from arbitrary sets
+of structured vectors. Such structure may include sparsity, non-negativeness,
+order, or a combination thereof. The algorithm approximates a given matrix by a
+linear combination of few rank-1 matrices, each factorized into an outer
+product of two vector atoms of the desired structure. For the non-convex
+subproblems of obtaining good rank-1 structured matrix atoms, we employ and
+analyze a general atomic power method. In addition to the above applications,
+we prove linear convergence for generalized pursuit variants in Hilbert spaces
+- for the task of approximation over the linear span of arbitrary dictionaries
+- which generalizes OMP and is useful beyond matrix problems. Our experiments
+on real datasets confirm both the efficiency and also the broad applicability
+of our framework in practice.

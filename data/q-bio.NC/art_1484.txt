@@ -1,0 +1,28 @@
+Built to Last: Functional and structural mechanisms in the moth
+  olfactory network mitigate effects of neural injury
+Most organisms are exposed to neural damage throughout their lives, which can
+reduce their ability to carry out core behavioral tasks. Their neural circuits
+need to maintain functionality despite injury, which often requires that key
+readout signals from the system be preserved. In this work, we explore whether
+and how certain structural and functional network motifs act as injury
+mitigation mechanisms by protecting these readouts. Specifically, we examine
+how (i) Hebbian learning, (ii) high levels of noise, and (iii) presence of
+parallel inhibitory and excitatory connections contribute to robustness of the
+olfactory system in the Manduca sexta moth.
+  We simulate injuries on a detailed computational model of the moth olfactory
+network in which structures-under-test are parametrically varied. Neuronal
+impairments are modeled as focal axonal swellings, an axonal pathology observed
+across all severities of traumatic brain injuries and present in other leading
+brain disorders. Axonal swellings effectively compromise spike train
+propagation along the axon and consequently reduce the effective neural firing
+rate delivered to downstream neurons.
+  All three of the network motifs examined significantly mitigate the effects
+of injury on readout neurons, either by reducing injury's impact on readout
+neuron responses or by restoring these responses to pre-injury levels through
+reinforcement learning. These motifs may thus be partially explained by their
+value as adaptive mechanisms to minimize the functional effects of neural
+injury. More generally, these experiments suggest that robustness to injury is
+a vital design principle to consider when analyzing biological neural systems.
+Indeed, it is possible that some neural structures and mechanisms, including
+the ability to learn, are best understood as evolutionary solutions to the
+challenge of maintaining system function despite injury.

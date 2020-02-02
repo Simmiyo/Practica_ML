@@ -1,0 +1,21 @@
+Linear Bandit algorithms using the Bootstrap
+This study presents two new algorithms for solving linear stochastic bandit
+problems. The proposed methods use an approach from non-parametric statistics
+called bootstrapping to create confidence bounds. This is achieved without
+making any assumptions about the distribution of noise in the underlying
+system. We present the X-Random and X-Fixed bootstrap bandits which correspond
+to the two well-known approaches for conducting bootstraps on models, in the
+literature. The proposed methods are compared to other popular solutions for
+linear stochastic bandit problems, namely, OFUL, LinUCB and Thompson Sampling.
+The comparisons are carried out using a simulation study on a hierarchical
+probability meta-model, built from published data of experiments, which are run
+on real systems. The model representing the response surfaces is conceptualized
+as a Bayesian Network which is presented with varying degrees of noise for the
+simulations. One of the proposed methods, X-Random bootstrap, performs better
+than the baselines in-terms of cumulative regret across various degrees of
+noise and different number of trials. In certain settings the cumulative regret
+of this method is less than half of the best baseline. The X-Fixed bootstrap
+performs comparably in most situations and particularly well when the number of
+trials is low. The study concludes that these algorithms could be a preferred
+alternative for solving linear bandit problems, especially when the
+distribution of the noise in the system is unknown.

@@ -1,0 +1,20 @@
+Musical NeuroPicks: a consumer-grade BCI for on-demand music streaming
+  services
+We investigated the possibility of using a machine-learning scheme in
+conjunction with commercial wearable EEG-devices for translating listener's
+subjective experience of music into scores that can be used in popular
+on-demand music streaming services. Our study resulted into two variants,
+differing in terms of performance and execution time, and hence, subserving
+distinct applications in online streaming music platforms. The first method,
+NeuroPicks, is extremely accurate but slower. It is based on the
+well-established neuroscientific concepts of brainwave frequency bands,
+activation asymmetry index and cross frequency coupling (CFC). The second
+method, NeuroPicksVQ, offers prompt predictions of lower credibility and relies
+on a custom-built version of vector quantization procedure that facilitates a
+novel parameterization of the music-modulated brainwaves. Beyond the feature
+engineering step, both methods exploit the inherent efficiency of extreme
+learning machines (ELMs) so as to translate, in a personalized fashion, the
+derived patterns into a listener's score. NeuroPicks method may find
+applications as an integral part of contemporary music recommendation systems,
+while NeuroPicksVQ can control the selection of music tracks. Encouraging
+experimental results, from a pragmatic use of the systems, are presented.

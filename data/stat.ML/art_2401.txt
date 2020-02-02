@@ -1,0 +1,16 @@
+An Experimental Comparison of Several Clustering and Initialization
+  Methods
+We examine methods for clustering in high dimensions. In the first part of
+the paper, we perform an experimental comparison between three batch clustering
+algorithms: the Expectation-Maximization (EM) algorithm, a winner take all
+version of the EM algorithm reminiscent of the K-means algorithm, and
+model-based hierarchical agglomerative clustering. We learn naive-Bayes models
+with a hidden root node, using high-dimensional discrete-variable data sets
+(both real and synthetic). We find that the EM algorithm significantly
+outperforms the other methods, and proceed to investigate the effect of various
+initialization schemes on the final solution produced by the EM algorithm. The
+initializations that we consider are (1) parameters sampled from an
+uninformative prior, (2) random perturbations of the marginal distribution of
+the data, and (3) the output of hierarchical agglomerative clustering. Although
+the methods are substantially different, they lead to learned models that are
+strikingly similar in quality.

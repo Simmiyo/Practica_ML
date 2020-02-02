@@ -1,0 +1,24 @@
+When Response Variability Increases Neural Network Robustness to
+  Synaptic Noise
+Cortical sensory neurons are known to be highly variable, in the sense that
+responses evoked by identical stimuli often change dramatically from trial to
+trial. The origin of this variability is uncertain, but it is usually
+interpreted as detrimental noise that reduces the computational accuracy of
+neural circuits. Here we investigate the possibility that such response
+variability might, in fact, be beneficial, because it may partially compensate
+for a decrease in accuracy due to stochastic changes in the synaptic strengths
+of a network. We study the interplay between two kinds of noise, response (or
+neuronal) noise and synaptic noise, by analyzing their joint influence on the
+accuracy of neural networks trained to perform various tasks. We find an
+interesting, generic interaction: when fluctuations in the synaptic connections
+are proportional to their strengths (multiplicative noise), a certain amount of
+response noise in the input neurons can significantly improve network
+performance, compared to the same network without response noise. Performance
+is enhanced because response noise and multiplicative synaptic noise are in
+some ways equivalent. These results are demonstrated analytically for the most
+basic network consisting of two input neurons and one output neuron performing
+a simple classification task, but computer simulations show that the phenomenon
+persists in a wide range of architectures, including recurrent (attractor)
+networks and sensory-motor networks that perform coordinate transformations.
+The results suggest that response variability could play an important dynamic
+role in networks that continuously learn.

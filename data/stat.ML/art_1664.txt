@@ -1,0 +1,13 @@
+Generative and Latent Mean Map Kernels
+We introduce two kernels that extend the mean map, which embeds probability
+measures in Hilbert spaces. The generative mean map kernel (GMMK) is a smooth
+similarity measure between probabilistic models. The latent mean map kernel
+(LMMK) generalizes the non-iid formulation of Hilbert space embeddings of
+empirical distributions in order to incorporate latent variable models. When
+comparing certain classes of distributions, the GMMK exhibits beneficial
+regularization and generalization properties not shown for previous generative
+kernels. We present experiments comparing support vector machine performance
+using the GMMK and LMMK between hidden Markov models to the performance of
+other methods on discrete and continuous observation sequence data. The results
+suggest that, in many cases, the GMMK has generalization error competitive with
+or better than other methods.

@@ -1,0 +1,12 @@
+Refinements of Universal Approximation Results for Deep Belief Networks
+  and Restricted Boltzmann Machines
+We improve recently published results about resources of Restricted Boltzmann
+Machines (RBM) and Deep Belief Networks (DBN) required to make them Universal
+Approximators. We show that any distribution p on the set of binary vectors of
+length n can be arbitrarily well approximated by an RBM with k-1 hidden units,
+where k is the minimal number of pairs of binary vectors differing in only one
+entry such that their union contains the support set of p. In important cases
+this number is half of the cardinality of the support set of p. We construct a
+DBN with 2^n/2(n-b), b ~ log(n), hidden layers of width n that is capable of
+approximating any distribution on {0,1}^n arbitrarily well. This confirms a
+conjecture presented by Le Roux and Bengio 2010.

@@ -1,0 +1,14 @@
+Asymptotic Behavior of Minimal-Exploration Allocation Policies: Almost
+  Sure, Arbitrarily Slow Growing Regret
+The purpose of this paper is to provide further understanding into the
+structure of the sequential allocation ("stochastic multi-armed bandit", or
+MAB) problem by establishing probability one finite horizon bounds and
+convergence rates for the sample (or "pseudo") regret associated with two
+simple classes of allocation policies $\pi$.
+  For any slowly increasing function $g$, subject to mild regularity
+constraints, we construct two policies (the $g$-Forcing, and the $g$-Inflated
+Sample Mean) that achieve a measure of regret of order $ O(g(n))$ almost surely
+as $n \to \infty$, bound from above and below. Additionally, almost sure upper
+and lower bounds on the remainder term are established. In the constructions
+herein, the function $g$ effectively controls the "exploration" of the
+classical "exploration/exploitation" tradeoff.

@@ -1,0 +1,17 @@
+Fault Tolerant Quantum Computation with Constant Error
+Recently Shor showed how to perform fault tolerant quantum computation when
+the error probability is logarithmically small. We improve this bound and
+describe fault tolerant quantum computation when the error probability is
+smaller than some constant threshold. The cost is polylogarithmic in time and
+space, and no measurements are used during the quantum computation. The result
+holds also for quantum circuits which operate on nearest neighbors only. To
+achieve this noise resistance, we use concatenated quantum error correcting
+codes. The scheme presented is general, and works with all quantum codes that
+satisfy some restrictions, namely that the code is ``proper''.
+  We present two explicit classes of proper quantum codes. The first example of
+proper quantum codes generalizes classical secret sharing with polynomials. The
+second uses a known class of quantum codes and converts it to a proper code.
+This class is defined over a field with p elements, so the elementary quantum
+particle is not a qubit but a ``qupit''. With our codes, the threshold is about
+10^(-6). Hopefully, this paper motivates a search for proper quantum codes with
+higher thresholds, at which point quantum computation becomes practical.

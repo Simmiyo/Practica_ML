@@ -1,0 +1,17 @@
+Listen and Translate: A Proof of Concept for End-to-End Speech-to-Text
+  Translation
+This paper proposes a first attempt to build an end-to-end speech-to-text
+translation system, which does not use source language transcription during
+learning or decoding. We propose a model for direct speech-to-text translation,
+which gives promising results on a small French-English synthetic corpus.
+Relaxing the need for source language transcription would drastically change
+the data collection methodology in speech translation, especially in
+under-resourced scenarios. For instance, in the former project DARPA TRANSTAC
+(speech translation from spoken Arabic dialects), a large effort was devoted to
+the collection of speech transcripts (and a prerequisite to obtain transcripts
+was often a detailed transcription guide for languages with little standardized
+spelling). Now, if end-to-end approaches for speech-to-text translation are
+successful, one might consider collecting data by asking bilingual speakers to
+directly utter speech in the source language from target language text
+utterances. Such an approach has the advantage to be applicable to any
+unwritten (source) language.

@@ -1,0 +1,13 @@
+Random Spanning Trees and the Prediction of Weighted Graphs
+We investigate the problem of sequentially predicting the binary labels on
+the nodes of an arbitrary weighted graph. We show that, under a suitable
+parametrization of the problem, the optimal number of prediction mistakes can
+be characterized (up to logarithmic factors) by the cutsize of a random
+spanning tree of the graph. The cutsize is induced by the unknown adversarial
+labeling of the graph nodes. In deriving our characterization, we obtain a
+simple randomized algorithm achieving in expectation the optimal mistake bound
+on any polynomially connected weighted graph. Our algorithm draws a random
+spanning tree of the original graph and then predicts the nodes of this tree in
+constant expected amortized time and linear space. Experiments on real-world
+datasets show that our method compares well to both global (Perceptron) and
+local (label propagation) methods, while being generally faster in practice.

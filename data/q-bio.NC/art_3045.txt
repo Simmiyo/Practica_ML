@@ -1,0 +1,24 @@
+Corrections for multiple comparisons in voxel-based lesion-symptom
+  mapping
+Voxel-based lesion-symptom mapping (VLSM) is an important method for basic
+and translational human neuroscience research. VLSM leverages modern
+neuroimaging analysis techniques to build on the classic approach of examining
+the relationship between location of brain damage and cognitive deficits.
+Testing an association between deficit severity and lesion status in each voxel
+involves very many individual tests and requires statistical correction for
+multiple comparisons. Several strategies have been adapted from analysis of
+functional neuroimaging data, though VLSM faces a more difficult trade-off
+between avoiding false positives and statistical power (missing true effects).
+Non-parametric, permutation-based methods are generally preferable because they
+do not make assumptions that are likely to be violated by skewed distributions
+of behavioral deficit (symptom) scores and by the necessary spatial contiguity
+of stroke lesions. We used simulated and real deficit scores from a sample of
+approximately 100 individuals with left hemisphere stroke to evaluate two such
+permutation-based approaches. Using permutation to set a minimum cluster size
+identified a region that systematically extended well beyond the true region,
+even under the most conservative settings tested here, making it ill-suited to
+identifying brain-behavior relationships. In contrast, generalizing the
+standard permutation-based family-wise error correction approach provided a
+principled way to balance false positives and false negatives. An
+implementation of this continuous permutation-based FWER correction method is
+available at https://gist.github.com/dmirman/05a92e0e9e0027f6fe6e528c648143d7

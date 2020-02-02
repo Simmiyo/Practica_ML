@@ -1,0 +1,11 @@
+Proof Supplement - Learning Sparse Causal Models is not NP-hard
+  (UAI2013)
+This article contains detailed proofs and additional examples related to the
+UAI-2013 submission `Learning Sparse Causal Models is not NP-hard'. It
+describes the FCI+ algorithm: a method for sound and complete causal model
+discovery in the presence of latent confounders and/or selection bias, that has
+worst case polynomial complexity of order $N^{2(k+1)}$ in the number of
+independence tests, for sparse graphs over $N$ nodes, bounded by node degree
+$k$. The algorithm is an adaptation of the well-known FCI algorithm by (Spirtes
+et al., 2000) that is also sound and complete, but has worst case complexity
+exponential in $N$.

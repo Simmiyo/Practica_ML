@@ -1,0 +1,13 @@
+Learning Using Privileged Information: SVM+ and Weighted SVM
+Prior knowledge can be used to improve predictive performance of learning
+algorithms or reduce the amount of data required for training. The same goal is
+pursued within the learning using privileged information paradigm which was
+recently introduced by Vapnik et al. and is aimed at utilizing additional
+information available only at training time -- a framework implemented by SVM+.
+We relate the privileged information to importance weighting and show that the
+prior knowledge expressible with privileged features can also be encoded by
+weights associated with every training example. We show that a weighted SVM can
+always replicate an SVM+ solution, while the converse is not true and we
+construct a counterexample highlighting the limitations of SVM+. Finally, we
+touch on the problem of choosing weights for weighted SVMs when privileged
+features are not available.

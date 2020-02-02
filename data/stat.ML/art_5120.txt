@@ -1,0 +1,20 @@
+Expectation Propagation performs a smoothed gradient descent
+Bayesian inference is a popular method to build learning algorithms but it is
+hampered by the fact that its key object, the posterior probability
+distribution, is often uncomputable. Expectation Propagation (EP) (Minka
+(2001)) is a popular algorithm that solves this issue by computing a parametric
+approximation (e.g: Gaussian) to the density of the posterior. However, while
+it is known empirically to quickly compute fine approximations, EP is extremely
+poorly understood which prevents it from being adopted by a larger fraction of
+the community.
+  The object of the present article is to shed intuitive light on EP, by
+relating it to other better understood methods. More precisely, we link it to
+using gradient descent to compute the Laplace approximation of a target
+probability distribution. We show that EP is exactly equivalent to performing
+gradient descent on a smoothed energy landscape: i.e: the original energy
+landscape convoluted with some smoothing kernel. This also relates EP to
+algorithms that compute the Gaussian approximation which minimizes the reverse
+KL divergence to the target distribution, a link that has been conjectured
+before but has not been proved rigorously yet. These results can help
+practitioners to get a better feel for how EP works, as well as lead to other
+new results on this important method.

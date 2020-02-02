@@ -1,0 +1,14 @@
+Stochastic Subsampling for Factorizing Huge Matrices
+We present a matrix-factorization algorithm that scales to input matrices
+with both huge number of rows and columns. Learned factors may be sparse or
+dense and/or non-negative, which makes our algorithm suitable for dictionary
+learning, sparse component analysis, and non-negative matrix factorization. Our
+algorithm streams matrix columns while subsampling them to iteratively learn
+the matrix factors. At each iteration, the row dimension of a new sample is
+reduced by subsampling, resulting in lower time complexity compared to a simple
+streaming algorithm. Our method comes with convergence guarantees to reach a
+stationary point of the matrix-factorization problem. We demonstrate its
+efficiency on massive functional Magnetic Resonance Imaging data (2 TB), and on
+patches extracted from hyperspectral images (103 GB). For both problems, which
+involve different penalties on rows and columns, we obtain significant
+speed-ups compared to state-of-the-art algorithms.

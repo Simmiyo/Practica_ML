@@ -1,0 +1,12 @@
+A Trie-Structured Bayesian Model for Unsupervised Morphological
+  Segmentation
+In this paper, we introduce a trie-structured Bayesian model for unsupervised
+morphological segmentation. We adopt prior information from different sources
+in the model. We use neural word embeddings to discover words that are
+morphologically derived from each other and thereby that are semantically
+similar. We use letter successor variety counts obtained from tries that are
+built by neural word embeddings. Our results show that using different
+information sources such as neural word embeddings and letter successor variety
+as prior information improves morphological segmentation in a Bayesian model.
+Our model outperforms other unsupervised morphological segmentation models on
+Turkish and gives promising results on English and German for scarce resources.

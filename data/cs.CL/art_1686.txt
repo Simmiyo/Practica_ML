@@ -1,0 +1,13 @@
+Egyptian Dialect Stopword List Generation from Social Network Data
+This paper proposes a methodology for generating a stopword list from online
+social network (OSN) corpora in Egyptian Dialect(ED). The aim of the paper is
+to investigate the effect of removingED stopwords on the Sentiment Analysis
+(SA) task. The stopwords lists generated before were on Modern Standard Arabic
+(MSA) which is not the common language used in OSN. We have generated a
+stopword list of Egyptian dialect to be used with the OSN corpora. We compare
+the efficiency of text classification when using the generated list along with
+previously generated lists of MSA and combining the Egyptian dialect list with
+the MSA list. The text classification was performed using Na\"ive Bayes and
+Decision Tree classifiers and two feature selection approaches, unigram and
+bigram. The experiments show that removing ED stopwords give better performance
+than using lists of MSA stopwords only.

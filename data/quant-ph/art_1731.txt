@@ -1,0 +1,14 @@
+Quantum Cryptography with Imperfect Apparatus
+Quantum key distribution, first proposed by Bennett and Brassard, provides a
+possible key distribution scheme whose security depends only on the quantum
+laws of physics. So far the protocol has been proved secure even under channel
+noise and detector faults of the receiver, but is vulnerable if the photon
+source used is imperfect. In this paper we propose and give a concrete design
+for a new concept, {\it self-checking source}, which requires the manufacturer
+of the photon source to provide certain tests; these tests are designed such
+that, if passed, the source is guaranteed to be adequate for the security of
+the quantum key distribution protocol, even though the testing devices may not
+be built to the original specification. The main mathematical result is a
+structural theorem which states that, for any state in a Hilbert space, if
+certain EPR-type equations are satisfied, the state must be essentially the
+orthogonal sum of EPR pairs.

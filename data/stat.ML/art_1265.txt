@@ -1,0 +1,14 @@
+Locally-adapted convolution-based super-resolution of
+  irregularly-sampled ocean remote sensing data
+Super-resolution is a classical problem in image processing, with numerous
+applications to remote sensing image enhancement. Here, we address the
+super-resolution of irregularly-sampled remote sensing images. Using an optimal
+interpolation as the low-resolution reconstruction, we explore locally-adapted
+multimodal convolutional models and investigate different dictionary-based
+decompositions, namely based on principal component analysis (PCA), sparse
+priors and non-negativity constraints. We consider an application to the
+reconstruction of sea surface height (SSH) fields from two information sources,
+along-track altimeter data and sea surface temperature (SST) data. The reported
+experiments demonstrate the relevance of the proposed model, especially
+locally-adapted parametrizations with non-negativity constraints, to outperform
+optimally-interpolated reconstructions.

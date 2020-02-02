@@ -1,0 +1,25 @@
+Sparse Fisher's Linear Discriminant Analysis for Partially Labeled Data
+Classification is an important tool with many useful applications. Among the
+many classification methods, Fisher's Linear Discriminant Analysis (LDA) is a
+traditional model-based approach which makes use of the covariance information.
+However, in the high-dimensional, low-sample size setting, LDA cannot be
+directly deployed because the sample covariance is not invertible. While there
+are modern methods designed to deal with high-dimensional data, they may not
+fully use the covariance information as LDA does. Hence in some situations, it
+is still desirable to use a model-based method such as LDA for classification.
+This article exploits the potential of LDA in more complicated data settings.
+In many real applications, it is costly to manually place labels on
+observations; hence it is often that only a small portion of labeled data is
+available while a large number of observations are left without a label. It is
+a great challenge to obtain good classification performance through the labeled
+data alone, especially when the dimension is greater than the size of the
+labeled data. In order to overcome this issue, we propose a semi-supervised
+sparse LDA classifier to take advantage of the seemingly useless unlabeled
+data. They provide additional information which helps to boost the
+classification performance in some situations. A direct estimation method is
+used to reconstruct LDA and achieve the sparsity; meanwhile we employ the
+difference-convex algorithm to handle the non-convex loss function associated
+with the unlabeled data. Theoretical properties of the proposed classifier are
+studied. Our simulated examples help to understand when and how the information
+extracted from the unlabeled data can be useful. A real data example further
+illustrates the usefulness of the proposed method.

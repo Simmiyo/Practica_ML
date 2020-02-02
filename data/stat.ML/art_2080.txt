@@ -1,0 +1,16 @@
+Learning Selectively Conditioned Forest Structures with Applications to
+  DBNs and Classification
+Dealing with uncertainty in Bayesian Network structures using maximum a
+posteriori (MAP) estimation or Bayesian Model Averaging (BMA) is often
+intractable due to the superexponential number of possible directed, acyclic
+graphs. When the prior is decomposable, two classes of graphs where efficient
+learning can take place are tree structures, and fixed-orderings with limited
+in-degree. We show how MAP estimates and BMA for selectively conditioned
+forests (SCF), a combination of these two classes, can be computed efficiently
+for ordered sets of variables. We apply SCFs to temporal data to learn Dynamic
+Bayesian Networks having an intra-timestep forest and inter-timestep limited
+in-degree structure, improving model accuracy over DBNs without the combination
+of structures. We also apply SCFs to Bayes Net classification to learn
+selective forest augmented Naive Bayes classifiers. We argue that the built-in
+feature selection of selective augmented Bayes classifiers makes them
+preferable to similar non-selective classifiers based on empirical evidence.

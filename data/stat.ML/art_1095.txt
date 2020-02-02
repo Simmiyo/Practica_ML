@@ -1,0 +1,11 @@
+Spectral Echolocation via the Wave Embedding
+Spectral embedding uses eigenfunctions of the discrete Laplacian on a
+weighted graph to obtain coordinates for an embedding of an abstract data set
+into Euclidean space. We propose a new pre-processing step of first using the
+eigenfunctions to simulate a low-frequency wave moving over the data and using
+both position as well as change in time of the wave to obtain a refined metric
+to which classical methods of dimensionality reduction can then applied. This
+is motivated by the behavior of waves, symmetries of the wave equation and the
+hunting technique of bats. It is shown to be effective in practice and also
+works for other partial differential equations -- the method yields improved
+results even for the classical heat equation.

@@ -1,0 +1,11 @@
+Comment on "Fastest learning in small-world neural networks"
+This comment reexamines Simard et al.'s work in [D. Simard, L. Nadeau, H.
+Kroger, Phys. Lett. A 336 (2005) 8-15]. We found that Simard et al. calculated
+mistakenly the local connectivity lengths Dlocal of networks. The right results
+of Dlocal are presented and the supervised learning performance of feedforward
+neural networks (FNNs) with different rewirings are re-investigated in this
+comment. This comment discredits Simard et al's work by two conclusions: 1)
+Rewiring connections of FNNs cannot generate networks with small-world
+connectivity; 2) For different training sets, there do not exist networks with
+a certain number of rewirings generating reduced learning errors than networks
+with other numbers of rewiring.

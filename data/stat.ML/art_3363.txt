@@ -1,0 +1,14 @@
+Randomized Robust Subspace Recovery for High Dimensional Data Matrices
+This paper explores and analyzes two randomized designs for robust Principal
+Component Analysis (PCA) employing low-dimensional data sketching. In one
+design, a data sketch is constructed using random column sampling followed by
+low dimensional embedding, while in the other, sketching is based on random
+column and row sampling. Both designs are shown to bring about substantial
+savings in complexity and memory requirements for robust subspace learning over
+conventional approaches that use the full scale data. A characterization of the
+sample and computational complexity of both designs is derived in the context
+of two distinct outlier models, namely, sparse and independent outlier models.
+The proposed randomized approach can provably recover the correct subspace with
+computational and sample complexity that are almost independent of the size of
+the data. The results of the mathematical analysis are confirmed through
+numerical simulations using both synthetic and real data.

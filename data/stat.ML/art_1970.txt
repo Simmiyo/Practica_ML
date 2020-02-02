@@ -1,0 +1,11 @@
+The Natural Gradient by Analogy to Signal Whitening, and Recipes and
+  Tricks for its Use
+The natural gradient allows for more efficient gradient descent by removing
+dependencies and biases inherent in a function's parameterization. Several
+papers present the topic thoroughly and precisely. It remains a very difficult
+idea to get your head around however. The intent of this note is to provide
+simple intuition for the natural gradient and its use. We review how an ill
+conditioned parameter space can undermine learning, introduce the natural
+gradient by analogy to the more widely understood concept of signal whitening,
+and present tricks and specific prescriptions for applying the natural gradient
+to learning problems.

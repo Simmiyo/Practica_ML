@@ -1,0 +1,11 @@
+Learning Densities Conditional on Many Interacting Features
+Learning a distribution conditional on a set of discrete-valued features is a
+commonly encountered task. This becomes more challenging with a
+high-dimensional feature set when there is the possibility of interaction
+between the features. In addition, many frequently applied techniques consider
+only prediction of the mean, but the complete conditional density is needed to
+answer more complex questions. We demonstrate a novel nonparametric Bayes
+method based upon a tensor factorization of feature-dependent weights for
+Gaussian kernels. The method makes use of multistage feature selection for
+dimension reduction. The resulting conditional density morphs flexibly with the
+selected features.

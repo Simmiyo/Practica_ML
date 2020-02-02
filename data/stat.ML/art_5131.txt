@@ -1,0 +1,18 @@
+WoCE: a framework for clustering ensemble by exploiting the wisdom of
+  Crowds theory
+The Wisdom of Crowds (WOC), as a theory in the social science, gets a new
+paradigm in computer science. The WOC theory explains that the aggregate
+decision made by a group is often better than those of its individual members
+if specific conditions are satisfied. This paper presents a novel framework for
+unsupervised and semi-supervised cluster ensemble by exploiting the WOC theory.
+We employ four conditions in the WOC theory, i.e., diversity, independency,
+decentralization and aggregation, to guide both the constructing of individual
+clustering results and the final combination for clustering ensemble. Firstly,
+independency criterion, as a novel mapping system on the raw data set, removes
+the correlation between features on our proposed method. Then, decentralization
+as a novel mechanism generates high-quality individual clustering results.
+Next, uniformity as a new diversity metric evaluates the generated clustering
+results. Further, weighted evidence accumulation clustering method is proposed
+for the final aggregation without using thresholding procedure. Experimental
+study on varied data sets demonstrates that the proposed approach achieves
+superior performance to state-of-the-art methods.

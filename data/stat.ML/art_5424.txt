@@ -1,0 +1,19 @@
+Gaussian process regression for forecasting battery state of health
+Accurately predicting the future capacity and remaining useful life of
+batteries is necessary to ensure reliable system operation and to minimise
+maintenance costs. The complex nature of battery degradation has meant that
+mechanistic modelling of capacity fade has thus far remained intractable;
+however, with the advent of cloud-connected devices, data from cells in various
+applications is becoming increasingly available, and the feasibility of
+data-driven methods for battery prognostics is increasing. Here we propose
+Gaussian process (GP) regression for forecasting battery state of health, and
+highlight various advantages of GPs over other data-driven and mechanistic
+approaches. GPs are a type of Bayesian non-parametric method, and hence can
+model complex systems whilst handling uncertainty in a principled manner. Prior
+information can be exploited by GPs in a variety of ways: explicit mean
+functions can be used if the functional form of the underlying degradation
+model is available, and multiple-output GPs can effectively exploit
+correlations between data from different cells. We demonstrate the predictive
+capability of GPs for short-term and long-term (remaining useful life)
+forecasting on a selection of capacity vs. cycle datasets from lithium-ion
+cells.

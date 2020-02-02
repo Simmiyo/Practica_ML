@@ -1,0 +1,21 @@
+Non-parametric Bayesian Models of Response Function in Dynamic Image
+  Sequences
+Estimation of response functions is an important task in dynamic medical
+imaging. This task arises for example in dynamic renal scintigraphy, where
+impulse response or retention functions are estimated, or in functional
+magnetic resonance imaging where hemodynamic response functions are required.
+These functions can not be observed directly and their estimation is
+complicated because the recorded images are subject to superposition of
+underlying signals. Therefore, the response functions are estimated via blind
+source separation and deconvolution. Performance of this algorithm heavily
+depends on the used models of the response functions. Response functions in
+real image sequences are rather complicated and finding a suitable parametric
+form is problematic. In this paper, we study estimation of the response
+functions using non-parametric Bayesian priors. These priors were designed to
+favor desirable properties of the functions, such as sparsity or smoothness.
+These assumptions are used within hierarchical priors of the blind source
+separation and deconvolution algorithm. Comparison of the resulting algorithms
+with these priors is performed on synthetic dataset as well as on real datasets
+from dynamic renal scintigraphy. It is shown that flexible non-parametric
+priors improve estimation of response functions in both cases. MATLAB
+implementation of the resulting algorithms is freely available for download.

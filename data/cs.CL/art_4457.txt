@@ -1,0 +1,11 @@
+Comparing CNN and LSTM character-level embeddings in BiLSTM-CRF models
+  for chemical and disease named entity recognition
+We compare the use of LSTM-based and CNN-based character-level word
+embeddings in BiLSTM-CRF models to approach chemical and disease named entity
+recognition (NER) tasks. Empirical results over the BioCreative V CDR corpus
+show that the use of either type of character-level word embeddings in
+conjunction with the BiLSTM-CRF models leads to comparable state-of-the-art
+performance. However, the models using CNN-based character-level word
+embeddings have a computational performance advantage, increasing training time
+over word-based models by 25% while the LSTM-based character-level word
+embeddings more than double the required training time.

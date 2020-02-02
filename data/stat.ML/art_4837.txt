@@ -1,0 +1,17 @@
+Efficient and Consistent Robust Time Series Analysis
+We study the problem of robust time series analysis under the standard
+auto-regressive (AR) time series model in the presence of arbitrary outliers.
+We devise an efficient hard thresholding based algorithm which can obtain a
+consistent estimate of the optimal AR model despite a large fraction of the
+time series points being corrupted. Our algorithm alternately estimates the
+corrupted set of points and the model parameters, and is inspired by recent
+advances in robust regression and hard-thresholding methods. However, a direct
+application of existing techniques is hindered by a critical difference in the
+time-series domain: each point is correlated with all previous points rendering
+existing tools inapplicable directly. We show how to overcome this hurdle using
+novel proof techniques. Using our techniques, we are also able to provide the
+first efficient and provably consistent estimator for the robust regression
+problem where a standard linear observation model with white additive noise is
+corrupted arbitrarily. We illustrate our methods on synthetic datasets and show
+that our methods indeed are able to consistently recover the optimal parameters
+despite a large fraction of points being corrupted.

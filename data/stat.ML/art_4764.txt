@@ -1,0 +1,16 @@
+Deep Directed Generative Models with Energy-Based Probability Estimation
+Training energy-based probabilistic models is confronted with apparently
+intractable sums, whose Monte Carlo estimation requires sampling from the
+estimated probability distribution in the inner loop of training. This can be
+approximately achieved by Markov chain Monte Carlo methods, but may still face
+a formidable obstacle that is the difficulty of mixing between modes with sharp
+concentrations of probability. Whereas an MCMC process is usually derived from
+a given energy function based on mathematical considerations and requires an
+arbitrarily long time to obtain good and varied samples, we propose to train a
+deep directed generative model (not a Markov chain) so that its sampling
+distribution approximately matches the energy function that is being trained.
+Inspired by generative adversarial networks, the proposed framework involves
+training of two models that represent dual views of the estimated probability
+distribution: the energy function (mapping an input configuration to a scalar
+energy value) and the generator (mapping a noise vector to a generated
+configuration), both represented by deep neural networks.

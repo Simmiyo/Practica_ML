@@ -1,0 +1,16 @@
+Bayesian Additive Adaptive Basis Tensor Product Models for Modeling High
+  Dimensional Surfaces: An application to high-throughput toxicity testing
+Many modern data sets are sampled with error from complex high-dimensional
+surfaces. Methods such as tensor product splines or Gaussian processes are
+effective/well suited for characterizing a surface in two or three dimensions
+but may suffer from difficulties when representing higher dimensional surfaces.
+Motivated by high throughput toxicity testing where observed dose-response
+curves are cross sections of a surface defined by a chemical's structural
+properties, a model is developed to characterize this surface to predict
+untested chemicals' dose-responses. This manuscript proposes a novel approach
+that models the multidimensional surface as a sum of learned basis functions
+formed as the tensor product of lower dimensional functions, which are
+themselves representable by a basis expansion learned from the data. The model
+is described, a Gibbs sampling algorithm proposed, and is investigated in a
+simulation study as well as data taken from the US EPA's ToxCast high
+throughput toxicity testing platform.

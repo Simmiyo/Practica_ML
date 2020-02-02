@@ -1,0 +1,22 @@
+Simple rules for complex decisions
+From doctors diagnosing patients to judges setting bail, experts often base
+their decisions on experience and intuition rather than on statistical models.
+While understandable, relying on intuition over models has often been found to
+result in inferior outcomes. Here we present a new method,
+select-regress-and-round, for constructing simple rules that perform well for
+complex decisions. These rules take the form of a weighted checklist, can be
+applied mentally, and nonetheless rival the performance of modern machine
+learning algorithms. Our method for creating these rules is itself simple, and
+can be carried out by practitioners with basic statistics knowledge. We
+demonstrate this technique with a detailed case study of judicial decisions to
+release or detain defendants while they await trial. In this application, as in
+many policy settings, the effects of proposed decision rules cannot be directly
+observed from historical data: if a rule recommends releasing a defendant that
+the judge in reality detained, we do not observe what would have happened under
+the proposed action. We address this key counterfactual estimation problem by
+drawing on tools from causal inference. We find that simple rules significantly
+outperform judges and are on par with decisions derived from random forests
+trained on all available features. Generalizing to 22 varied decision-making
+domains, we find this basic result replicates. We conclude with an analytical
+framework that helps explain why these simple decision rules perform as well as
+they do.

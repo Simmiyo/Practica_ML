@@ -1,0 +1,19 @@
+A Dynamic Bayesian Network Model for Inventory Level Estimation in
+  Retail Marketing
+Many retailers today employ inventory management systems based on Re-Order
+Point Policies, most of which rely on the assumption that all decreases in
+product inventory levels result from product sales. Unfortunately, it usually
+happens that small but random quantities of the product get lost, stolen or
+broken without record as time passes, e.g., as a consequence of shoplifting.
+This is usual for retailers handling large varieties of inexpensive products,
+e.g., grocery stores. In turn, over time these discrepancies lead to stock
+freezing problems, i.e., situations where the system believes the stock is
+above the re-order point but the actual stock is at zero, and so no
+replenishments or sales occur. Motivated by these issues, we model the
+interaction between sales, losses, replenishments and inventory levels as a
+Dynamic Bayesian Network (DBN), where the inventory levels are unobserved
+(i.e., hidden) variables we wish to estimate. We present an
+Expectation-Maximization (EM) algorithm to estimate the parameters of the sale
+and loss distributions, which relies on solving a one-dimensional dynamic
+program for the E-step and on solving two separate one-dimensional nonlinear
+programs for the M-step.

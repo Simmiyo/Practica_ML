@@ -1,0 +1,15 @@
+The Parallel Meaning Bank: Towards a Multilingual Corpus of Translations
+  Annotated with Compositional Meaning Representations
+The Parallel Meaning Bank is a corpus of translations annotated with shared,
+formal meaning representations comprising over 11 million words divided over
+four languages (English, German, Italian, and Dutch). Our approach is based on
+cross-lingual projection: automatically produced (and manually corrected)
+semantic annotations for English sentences are mapped onto their word-aligned
+translations, assuming that the translations are meaning-preserving. The
+semantic annotation consists of five main steps: (i) segmentation of the text
+in sentences and lexical items; (ii) syntactic parsing with Combinatory
+Categorial Grammar; (iii) universal semantic tagging; (iv) symbolization; and
+(v) compositional semantic analysis based on Discourse Representation Theory.
+These steps are performed using statistical models trained in a semi-supervised
+manner. The employed annotation models are all language-neutral. Our first
+results are promising.

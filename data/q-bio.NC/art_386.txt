@@ -1,0 +1,27 @@
+A unified view on weakly correlated recurrent networks
+The diversity of neuron models used in contemporary theoretical neuroscience
+to investigate specific properties of covariances raises the question how these
+models relate to each other. In particular it is hard to distinguish between
+generic properties and peculiarities due to the abstracted model. Here we
+present a unified view on pairwise covariances in recurrent networks in the
+irregular regime. We consider the binary neuron model, the leaky
+integrate-and-fire model, and the Hawkes process. We show that linear
+approximation maps each of these models to either of two classes of linear rate
+models, including the Ornstein-Uhlenbeck process as a special case. The classes
+differ in the location of additive noise in the rate dynamics, which is on the
+output side for spiking models and on the input side for the binary model. Both
+classes allow closed form solutions for the covariance. For output noise it
+separates into an echo term and a term due to correlated input. The unified
+framework enables us to transfer results between models. For example, we
+generalize the binary model and the Hawkes process to the presence of
+conduction delays and simplify derivations for established results. Our
+approach is applicable to general network structures and suitable for
+population averages. The derived averages are exact for fixed out-degree
+network architectures and approximate for fixed in-degree. We demonstrate how
+taking into account fluctuations in the linearization procedure increases the
+accuracy of the effective theory and we explain the class dependent differences
+between covariances in the time and the frequency domain. Finally we show that
+the oscillatory instability emerging in networks of integrate-and-fire models
+with delayed inhibitory feedback is a model-invariant feature: the same
+structure of poles in the complex frequency plane determines the population
+power spectra.

@@ -1,0 +1,19 @@
+Modeling Basal Ganglia for understanding Parkinsonian Reaching Movements
+We present a computational model that highlights the role of basal ganglia
+(BG) in generating simple reaching movements. The model is cast within the
+reinforcement learning (RL) framework with the correspondence between RL
+components and neuroanatomy as follows: dopamine signal of substantia nigra
+pars compacta as the Temporal Difference error, striatum as the substrate for
+the Critic, and the motor cortex as the Actor. A key feature of this
+neurobiological interpretation is our hypothesis that the indirect pathway is
+the Explorer. Chaotic activity, originating from the indirect pathway part of
+the model, drives the wandering, exploratory movements of the arm. Thus the
+direct pathway subserves exploitation while the indirect pathway subserves
+exploration. The motor cortex becomes more and more independent of the
+corrective influence of BG, as training progresses. Reaching trajectories show
+diminishing variability with training. Reaching movements associated with
+Parkinson's disease (PD) are simulated by (a) reducing dopamine and (b)
+degrading the complexity of indirect pathway dynamics by switching it from
+chaotic to periodic behavior. Under the simulated PD conditions, the arm
+exhibits PD motor symptoms like tremor, bradykinesia and undershoot. The model
+echoes the notion that PD is a dynamical disease.

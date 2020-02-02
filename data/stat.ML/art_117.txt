@@ -1,0 +1,14 @@
+Estimating Subagging by cross-validation
+In this article, we derive concentration inequalities for the
+cross-validation estimate of the generalization error for subagged estimators,
+both for classification and regressor. General loss functions and class of
+predictors with both finite and infinite VC-dimension are considered. We
+slightly generalize the formalism introduced by \cite{DUD03} to cover a large
+variety of cross-validation procedures including leave-one-out
+cross-validation, $k$-fold cross-validation, hold-out cross-validation (or
+split sample), and the leave-$\upsilon$-out cross-validation.
+  \bigskip
+  \noindent An interesting consequence is that the probability upper bound is
+bounded by the minimum of a Hoeffding-type bound and a Vapnik-type bounds, and
+thus is smaller than 1 even for small learning set. Finally, we give a simple
+rule on how to subbag the predictor. \bigskip

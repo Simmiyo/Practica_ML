@@ -1,0 +1,27 @@
+Combined MEG and fMRI Exponential Random Graph Modeling for inferring
+  functional Brain Connectivity
+Estimated connectomes by the means of neuroimaging techniques have enriched
+our knowledge of the organizational properties of the brain leading to the
+development of network-based clinical diagnostics. Unfortunately, to date, many
+of those network-based clinical diagnostics tools, based on the mere
+description of isolated instances of observed connectomes are noisy estimates
+of the true connectivity network. Modeling brain connectivity networks is
+therefore important to better explain the functional organization of the brain
+and allow inference of specific brain properties. In this report, we present
+pilot results on the modeling of combined MEG and fMRI neuroimaging data
+acquired during an n-back memory task experiment. We adopted a pooled
+Exponential Random Graph Model (ERGM) as a network statistical model to capture
+the underlying process in functional brain networks of 9 subjects MEG and fMRI
+data out of 32 during a 0-back vs 2-back memory task experiment. Our results
+suggested strong evidence that all the functional connectomes of the 9 subjects
+have small world properties. A group level comparison using comparing the
+conditions pairwise showed no significant difference in the functional
+connectomes across the subjects. Our pooled ERGMs successfully reproduced
+important brain properties such as functional segregation and functional
+integration. However, the ERGMs reproducing the functional segregation of the
+brain networks discriminated between the 0-back and 2-back conditions while the
+models reproducing both properties failed to successfully discriminate between
+both conditions. Our results are promising and would improve in robustness with
+a larger sample size. Nevertheless, our pilot results tend to support previous
+findings that functional segregation and integration are sufficient to
+statistically reproduce the main properties of brain network.

@@ -1,0 +1,26 @@
+An Efficient Post-Selection Inference on High-Order Interaction Models
+Finding statistically significant high-order interaction features in
+predictive modeling is important but challenging task. The difficulty lies in
+the fact that, for a recent applications with high-dimensional covariates, the
+number of possible high-order interaction features would be extremely large.
+Identifying statistically significant features from such a huge pool of
+candidates would be highly challenging both in computational and statistical
+senses. To work with this problem, we consider a two stage algorithm where we
+first select a set of high-order interaction features by marginal screening,
+and then make statistical inferences on the regression model fitted only with
+the selected features. Such statistical inferences are called post-selection
+inference (PSI), and receiving an increasing attention in the literature. One
+of the seminal recent advancements in PSI literature is the works by Lee et al.
+where the authors presented an algorithmic framework for computing exact
+sampling distributions in PSI. A main challenge when applying their approach to
+our high-order interaction models is to cope with the fact that PSI in general
+depends not only on the selected features but also on the unselected features,
+making it hard to apply to our extremely high-dimensional high-order
+interaction models. The goal of this paper is to overcome this difficulty by
+introducing a novel efficient method for PSI. Our key idea is to exploit the
+underlying tree structure among high-order interaction features, and to develop
+a pruning method of the tree which enables us to quickly identify a group of
+unselected features that are guaranteed to have no influence on PSI. The
+experimental results indicate that the proposed method allows us to reliably
+identify statistically significant high-order interaction features with
+reasonable computational cost.

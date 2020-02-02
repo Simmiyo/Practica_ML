@@ -1,0 +1,10 @@
+Markov models for ocular fixation locations in the presence and absence
+  of colour
+We propose to model the fixation locations of the human eye when observing a
+still image by a Markovian point process in R 2 . Our approach is data driven
+using k-means clustering of the fixation locations to identify distinct salient
+regions of the image, which in turn correspond to the states of our Markov
+chain. Bayes factors are computed as model selection criterion to determine the
+number of clusters. Furthermore, we demonstrate that the behaviour of the human
+eye differs from this model when colour information is removed from the given
+image.

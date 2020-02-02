@@ -1,0 +1,17 @@
+Exploiting Convolutional Neural Network for Risk Prediction with Medical
+  Feature Embedding
+The widespread availability of electronic health records (EHRs) promises to
+usher in the era of personalized medicine. However, the problem of extracting
+useful clinical representations from longitudinal EHR data remains challenging.
+In this paper, we explore deep neural network models with learned medical
+feature embedding to deal with the problems of high dimensionality and
+temporality. Specifically, we use a multi-layer convolutional neural network
+(CNN) to parameterize the model and is thus able to capture complex non-linear
+longitudinal evolution of EHRs. Our model can effectively capture local/short
+temporal dependency in EHRs, which is beneficial for risk prediction. To
+account for high dimensionality, we use the embedding medical features in the
+CNN model which hold the natural medical concepts. Our initial experiments
+produce promising results and demonstrate the effectiveness of both the medical
+feature embedding and the proposed convolutional neural network in risk
+prediction on cohorts of congestive heart failure and diabetes patients
+compared with several strong baselines.

@@ -1,0 +1,17 @@
+A Novel ILP Framework for Summarizing Content with High Lexical Variety
+Summarizing content contributed by individuals can be challenging, because
+people make different lexical choices even when describing the same events.
+However, there remains a significant need to summarize such content. Examples
+include the student responses to post-class reflective questions, product
+reviews, and news articles published by different news agencies related to the
+same events. High lexical diversity of these documents hinders the system's
+ability to effectively identify salient content and reduce summary redundancy.
+In this paper, we overcome this issue by introducing an integer linear
+programming-based summarization framework. It incorporates a low-rank
+approximation to the sentence-word co-occurrence matrix to intrinsically group
+semantically-similar lexical items. We conduct extensive experiments on
+datasets of student responses, product reviews, and news documents. Our
+approach compares favorably to a number of extractive baselines as well as a
+neural abstractive summarization system. The paper finally sheds light on when
+and why the proposed framework is effective at summarizing content with high
+lexical variety.

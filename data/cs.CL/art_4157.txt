@@ -1,0 +1,22 @@
+An empirical study on the names of points of interest and their changes
+  with geographic distance
+While Points Of Interest (POIs), such as restaurants, hotels, and barber
+shops, are part of urban areas irrespective of their specific locations, the
+names of these POIs often reveal valuable information related to local culture,
+landmarks, influential families, figures, events, and so on. Place names have
+long been studied by geographers, e.g., to understand their origins and
+relations to family names. However, there is a lack of large-scale empirical
+studies that examine the localness of place names and their changes with
+geographic distance. In addition to enhancing our understanding of the
+coherence of geographic regions, such empirical studies are also significant
+for geographic information retrieval where they can inform computational models
+and improve the accuracy of place name disambiguation. In this work, we conduct
+an empirical study based on 112,071 POIs in seven US metropolitan areas
+extracted from an open Yelp dataset. We propose to adopt term frequency and
+inverse document frequency in geographic contexts to identify local terms used
+in POI names and to analyze their usages across different POI types. Our
+results show an uneven usage of local terms across POI types, which is highly
+consistent among different geographic regions. We also examine the decaying
+effect of POI name similarity with the increase of distance among POIs. While
+our analysis focuses on urban POI names, the presented methods can be
+generalized to other place types as well, such as mountain peaks and streets.

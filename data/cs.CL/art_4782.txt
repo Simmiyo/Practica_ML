@@ -1,0 +1,16 @@
+Non-native children speech recognition through transfer learning
+This work deals with non-native children's speech and investigates both
+multi-task and transfer learning approaches to adapt a multi-language Deep
+Neural Network (DNN) to speakers, specifically children, learning a foreign
+language. The application scenario is characterized by young students learning
+English and German and reading sentences in these second-languages, as well as
+in their mother language. The paper analyzes and discusses techniques for
+training effective DNN-based acoustic models starting from children native
+speech and performing adaptation with limited non-native audio material. A
+multi-lingual model is adopted as baseline, where a common phonetic lexicon,
+defined in terms of the units of the International Phonetic Alphabet (IPA), is
+shared across the three languages at hand (Italian, German and English); DNN
+adaptation methods based on transfer learning are evaluated on significant
+non-native evaluation sets. Results show that the resulting non-native models
+allow a significant improvement with respect to a mono-lingual system adapted
+to speakers of the target language.

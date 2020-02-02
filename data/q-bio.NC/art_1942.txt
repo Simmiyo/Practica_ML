@@ -1,0 +1,16 @@
+Discovering Patterns in Multi-neuronal Spike Trains using the Frequent
+  Episode Method
+Discovering the 'Neural Code' from multi-neuronal spike trains is an
+important task in neuroscience. For such an analysis, it is important to
+unearth interesting regularities in the spiking patterns. In this report, we
+present an efficient method for automatically discovering synchrony, synfire
+chains, and more general sequences of neuronal firings. We use the Frequent
+Episode Discovery framework of Laxman, Sastry, and Unnikrishnan (2005), in
+which the episodes are represented and recognized using finite-state automata.
+Many aspects of functional connectivity between neuronal populations can be
+inferred from the episodes. We demonstrate these using simulated multi-neuronal
+data from a Poisson model. We also present a method to assess the statistical
+significance of the discovered episodes. Since the Temporal Data Mining (TDM)
+methods used in this report can analyze data from hundreds and potentially
+thousands of neurons, we argue that this framework is appropriate for
+discovering the `Neural Code'.

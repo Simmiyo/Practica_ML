@@ -1,0 +1,11 @@
+Interpreting Tree Ensembles with inTrees
+Tree ensembles such as random forests and boosted trees are accurate but
+difficult to understand, debug and deploy. In this work, we provide the inTrees
+(interpretable trees) framework that extracts, measures, prunes and selects
+rules from a tree ensemble, and calculates frequent variable interactions. An
+rule-based learner, referred to as the simplified tree ensemble learner (STEL),
+can also be formed and used for future prediction. The inTrees framework can
+applied to both classification and regression problems, and is applicable to
+many types of tree ensembles, e.g., random forests, regularized random forests,
+and boosted trees. We implemented the inTrees algorithms in the "inTrees" R
+package.

@@ -1,0 +1,16 @@
+Neural activity classification with machine learning models trained on
+  interspike interval series data
+The flow of information through the brain is reflected by the activity
+patterns of neural cells. Indeed, these firing patterns are widely used as
+input data to predictive models that relate stimuli and animal behavior to the
+activity of a population of neurons. However, relatively little attention was
+paid to single neuron spike trains as predictors of cell or network properties
+in the brain. In this work, we introduce an approach to neuronal spike train
+data mining which enables effective classification and clustering of neuron
+types and network activity states based on single-cell spiking patterns. This
+approach is centered around applying state-of-the-art time series
+classification/clustering methods to sequences of interspike intervals recorded
+from single neurons. We demonstrate good performance of these methods in tasks
+involving classification of neuron type (e.g. excitatory vs. inhibitory cells)
+and/or neural circuit activity state (e.g. awake vs. REM sleep vs. nonREM sleep
+states) on an open-access cortical spiking activity dataset.

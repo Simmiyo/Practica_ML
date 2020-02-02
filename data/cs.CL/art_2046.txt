@@ -1,0 +1,17 @@
+DNN-based Speech Synthesis for Indian Languages from ASCII text
+Text-to-Speech synthesis in Indian languages has a seen lot of progress over
+the decade partly due to the annual Blizzard challenges. These systems assume
+the text to be written in Devanagari or Dravidian scripts which are nearly
+phonemic orthography scripts. However, the most common form of computer
+interaction among Indians is ASCII written transliterated text. Such text is
+generally noisy with many variations in spelling for the same word. In this
+paper we evaluate three approaches to synthesize speech from such noisy ASCII
+text: a naive Uni-Grapheme approach, a Multi-Grapheme approach, and a
+supervised Grapheme-to-Phoneme (G2P) approach. These methods first convert the
+ASCII text to a phonetic script, and then learn a Deep Neural Network to
+synthesize speech from that. We train and test our models on Blizzard Challenge
+datasets that were transliterated to ASCII using crowdsourcing. Our experiments
+on Hindi, Tamil and Telugu demonstrate that our models generate speech of
+competetive quality from ASCII text compared to the speech synthesized from the
+native scripts. All the accompanying transliterated datasets are released for
+public access.

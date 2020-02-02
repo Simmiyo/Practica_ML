@@ -1,0 +1,20 @@
+TIGRESS: Trustful Inference of Gene REgulation using Stability Selection
+Inferring the structure of gene regulatory networks (GRN) from gene
+expression data has many applications, from the elucidation of complex
+biological processes to the identification of potential drug targets. It is
+however a notoriously difficult problem, for which the many existing methods
+reach limited accuracy. In this paper, we formulate GRN inference as a sparse
+regression problem and investigate the performance of a popular feature
+selection method, least angle regression (LARS) combined with stability
+selection. We introduce a novel, robust and accurate scoring technique for
+stability selection, which improves the performance of feature selection with
+LARS. The resulting method, which we call TIGRESS (Trustful Inference of Gene
+REgulation using Stability Selection), was ranked among the top methods in the
+DREAM5 gene network reconstruction challenge. We investigate in depth the
+influence of the various parameters of the method and show that a fine
+parameter tuning can lead to significant improvements and state-of-the-art
+performance for GRN inference. TIGRESS reaches state-of-the-art performance on
+benchmark data. This study confirms the potential of feature selection
+techniques for GRN inference. Code and data are available on
+http://cbio.ensmp.fr/~ahaury. Running TIGRESS online is possible on
+GenePattern: http://www.broadinstitute.org/cancer/software/genepattern/.

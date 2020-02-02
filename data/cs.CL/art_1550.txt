@@ -1,0 +1,16 @@
+Convolutional Neural Network with Word Embeddings for Chinese Word
+  Segmentation
+Character-based sequence labeling framework is flexible and efficient for
+Chinese word segmentation (CWS). Recently, many character-based neural models
+have been applied to CWS. While they obtain good performance, they have two
+obvious weaknesses. The first is that they heavily rely on manually designed
+bigram feature, i.e. they are not good at capturing n-gram features
+automatically. The second is that they make no use of full word information.
+For the first weakness, we propose a convolutional neural model, which is able
+to capture rich n-gram features without any feature engineering. For the second
+one, we propose an effective approach to integrate the proposed model with word
+embeddings. We evaluate the model on two benchmark datasets: PKU and MSR.
+Without any feature engineering, the model obtains competitive performance --
+95.7% on PKU and 97.3% on MSR. Armed with word embeddings, the model achieves
+state-of-the-art performance on both datasets -- 96.5% on PKU and 98.0% on MSR,
+without using any external labeled resource.

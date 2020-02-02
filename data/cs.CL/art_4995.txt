@@ -1,0 +1,13 @@
+Towards Coherent and Cohesive Long-form Text Generation
+Generating coherent and cohesive long-form texts is a challenging task.
+Previous works relied on large amounts of human-generated texts to train neural
+language models. However, few attempted to explicitly improve neural language
+models from the perspectives of coherence and cohesion. In this work, we
+propose a new neural language model that is equipped with two neural
+discriminators which provide feedback signals at the levels of sentence
+(cohesion) and paragraph (coherence). Our model is trained using a simple yet
+efficient variant of policy gradient, called negative-critical sequence
+training, which is proposed to eliminate the need of training a separate critic
+for estimating baseline. Results demonstrate the effectiveness of our approach,
+showing improvements over the strong baseline -- recurrent attention-based
+bidirectional MLE-trained neural language model.

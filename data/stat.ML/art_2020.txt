@@ -1,0 +1,13 @@
+Bounds on the Bethe Free Energy for Gaussian Networks
+We address the problem of computing approximate marginals in Gaussian
+probabilistic models by using mean field and fractional Bethe approximations.
+As an extension of Welling and Teh (2001), we define the Gaussian fractional
+Bethe free energy in terms of the moment parameters of the approximate
+marginals and derive an upper and lower bound for it. We give necessary
+conditions for the Gaussian fractional Bethe free energies to be bounded from
+below. It turns out that the bounding condition is the same as the pairwise
+normalizability condition derived by Malioutov et al. (2006) as a sufficient
+condition for the convergence of the message passing algorithm. By giving a
+counterexample, we disprove the conjecture in Welling and Teh (2001): even when
+the Bethe free energy is not bounded from below, it can possess a local minimum
+to which the minimization algorithms can converge.

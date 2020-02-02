@@ -1,0 +1,11 @@
+Statistical Consistency of Finite-dimensional Unregularized Linear
+  Classification
+This manuscript studies statistical properties of linear classifiers obtained
+through minimization of an unregularized convex risk over a finite sample.
+Although the results are explicitly finite-dimensional, inputs may be passed
+through feature maps; in this way, in addition to treating the consistency of
+logistic regression, this analysis also handles boosting over a finite weak
+learning class with, for instance, the exponential, logistic, and hinge losses.
+In this finite-dimensional setting, it is still possible to fit arbitrary
+decision boundaries: scaling the complexity of the weak learning class with the
+sample size leads to the optimal classification risk almost surely.

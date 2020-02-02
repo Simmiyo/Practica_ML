@@ -1,0 +1,12 @@
+Performance Improvements of Probabilistic Transcript-adapted ASR with
+  Recurrent Neural Network and Language-specific Constraints
+Mismatched transcriptions have been proposed as a mean to acquire
+probabilistic transcriptions from non-native speakers of a language.Prior work
+has demonstrated the value of these transcriptions by successfully adapting
+cross-lingual ASR systems for different tar-get languages. In this work, we
+describe two techniques to refine these probabilistic transcriptions: a
+noisy-channel model of non-native phone misperception is trained using a
+recurrent neural net-work, and decoded using minimally-resourced
+language-dependent pronunciation constraints. Both innovations improve quality
+of the transcript, and both innovations reduce phone error rate of a
+trainedASR, by 7% and 9% respectively

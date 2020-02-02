@@ -1,0 +1,25 @@
+Detecting single-trial EEG evoked potential using a wavelet domain
+  linear mixed model: application to error potentials classification
+Objective. The main goal of this work is to develop a model for multi-sensor
+signals such as MEG or EEG signals, that accounts for the inter-trial
+variability, suitable for corresponding binary classification problems. An
+important constraint is that the model be simple enough to handle small size
+and unbalanced datasets, as often encountered in BCI type experiments.
+Approach. The method involves linear mixed effects statistical model, wavelet
+transform and spatial filtering, and aims at the characterization of localized
+discriminant features in multi-sensor signals. After discrete wavelet transform
+and spatial filtering, a projection onto the relevant wavelet and spatial
+channels subspaces is used for dimension reduction. The projected signals are
+then decomposed as the sum of a signal of interest (i.e. discriminant) and
+background noise, using a very simple Gaussian linear mixed model. Main
+results. Thanks to the simplicity of the model, the corresponding parameter
+estimation problem is simplified. Robust estimates of class-covariance matrices
+are obtained from small sample sizes and an effective Bayes plug-in classifier
+is derived. The approach is applied to the detection of error potentials in
+multichannel EEG data, in a very unbalanced situation (detection of rare
+events). Classification results prove the relevance of the proposed approach in
+such a context. Significance. The combination of linear mixed model, wavelet
+transform and spatial filtering for EEG classification is, to the best of our
+knowledge, an original approach, which is proven to be effective. This paper
+improves on earlier results on similar problems, and the three main ingredients
+all play an important role.

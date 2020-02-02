@@ -1,0 +1,20 @@
+A Scale Mixture Perspective of Multiplicative Noise in Neural Networks
+Corrupting the input and hidden layers of deep neural networks (DNNs) with
+multiplicative noise, often drawn from the Bernoulli distribution (or
+'dropout'), provides regularization that has significantly contributed to deep
+learning's success. However, understanding how multiplicative corruptions
+prevent overfitting has been difficult due to the complexity of a DNN's
+functional form. In this paper, we show that when a Gaussian prior is placed on
+a DNN's weights, applying multiplicative noise induces a Gaussian scale
+mixture, which can be reparameterized to circumvent the problematic likelihood
+function. Analysis can then proceed by using a type-II maximum likelihood
+procedure to derive a closed-form expression revealing how regularization
+evolves as a function of the network's weights. Results show that
+multiplicative noise forces weights to become either sparse or invariant to
+rescaling. We find our analysis has implications for model compression as it
+naturally reveals a weight pruning rule that starkly contrasts with the
+commonly used signal-to-noise ratio (SNR). While the SNR prunes weights with
+large variances, seeing them as noisy, our approach recognizes their robustness
+and retains them. We empirically demonstrate our approach has a strong
+advantage over the SNR heuristic and is competitive to retraining with soft
+targets produced from a teacher model.

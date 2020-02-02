@@ -1,0 +1,19 @@
+Importance weighting without importance weights: An efficient algorithm
+  for combinatorial semi-bandits
+We propose a sample-efficient alternative for importance weighting for
+situations where one only has sample access to the probability distribution
+that generates the observations. Our new method, called Geometric Resampling
+(GR), is described and analyzed in the context of online combinatorial
+optimization under semi-bandit feedback, where a learner sequentially selects
+its actions from a combinatorial decision set so as to minimize its cumulative
+loss. In particular, we show that the well-known Follow-the-Perturbed-Leader
+(FPL) prediction method coupled with Geometric Resampling yields the first
+computationally efficient reduction from offline to online optimization in this
+setting. We provide a thorough theoretical analysis for the resulting
+algorithm, showing that its performance is on par with previous, inefficient
+solutions. Our main contribution is showing that, despite the relatively large
+variance induced by the GR procedure, our performance guarantees hold with high
+probability rather than only in expectation. As a side result, we also improve
+the best known regret bounds for FPL in online combinatorial optimization with
+full feedback, closing the perceived performance gap between FPL and
+exponential weights in this setting.

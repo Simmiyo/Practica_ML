@@ -1,0 +1,16 @@
+Hyper-sparse optimal aggregation
+In this paper, we consider the problem of "hyper-sparse aggregation". Namely,
+given a dictionary $F = \{f_1, ..., f_M \}$ of functions, we look for an
+optimal aggregation algorithm that writes $\tilde f = \sum_{j=1}^M \theta_j
+f_j$ with as many zero coefficients $\theta_j$ as possible. This problem is of
+particular interest when $F$ contains many irrelevant functions that should not
+appear in $\tilde{f}$. We provide an exact oracle inequality for $\tilde f$,
+where only two coefficients are non-zero, that entails $\tilde f$ to be an
+optimal aggregation algorithm. Since selectors are suboptimal aggregation
+procedures, this proves that 2 is the minimal number of elements of $F$
+required for the construction of an optimal aggregation procedures in every
+situations. A simulated example of this algorithm is proposed on a dictionary
+obtained using LARS, for the problem of selection of the regularization
+parameter of the LASSO. We also give an example of use of aggregation to
+achieve minimax adaptation over anisotropic Besov spaces, which was not
+previously known in minimax theory (in regression on a random design).

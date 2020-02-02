@@ -1,0 +1,16 @@
+Group Symmetry and non-Gaussian Covariance Estimation
+We consider robust covariance estimation with group symmetry constraints.
+Non-Gaussian covariance estimation, e.g., Tyler scatter estimator and
+Multivariate Generalized Gaussian distribution methods, usually involve
+non-convex minimization problems. Recently, it was shown that the underlying
+principle behind their success is an extended form of convexity over the
+geodesics in the manifold of positive definite matrices. A modern approach to
+improve estimation accuracy is to exploit prior knowledge via additional
+constraints, e.g., restricting the attention to specific classes of covariances
+which adhere to prior symmetry structures. In this paper, we prove that such
+group symmetry constraints are also geodesically convex and can therefore be
+incorporated into various non-Gaussian covariance estimators. Practical
+examples of such sets include: circulant, persymmetric and complex/quaternion
+proper structures. We provide a simple numerical technique for finding maximum
+likelihood estimates under such constraints, and demonstrate their performance
+advantage using synthetic experiments.

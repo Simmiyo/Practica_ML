@@ -1,0 +1,13 @@
+SeerNet at SemEval-2018 Task 1: Domain Adaptation for Affect in Tweets
+The paper describes the best performing system for the SemEval-2018 Affect in
+Tweets (English) sub-tasks. The system focuses on the ordinal classification
+and regression sub-tasks for valence and emotion. For ordinal classification
+valence is classified into 7 different classes ranging from -3 to 3 whereas
+emotion is classified into 4 different classes 0 to 3 separately for each
+emotion namely anger, fear, joy and sadness. The regression sub-tasks estimate
+the intensity of valence and each emotion. The system performs domain
+adaptation of 4 different models and creates an ensemble to give the final
+prediction. The proposed system achieved 1st position out of 75 teams which
+participated in the fore-mentioned sub-tasks. We outperform the baseline model
+by margins ranging from 49.2% to 76.4%, thus, pushing the state-of-the-art
+significantly.

@@ -1,0 +1,11 @@
+Model Selection in Bayesian Neural Networks via Horseshoe Priors
+Bayesian Neural Networks (BNNs) have recently received increasing attention
+for their ability to provide well-calibrated posterior uncertainties. However,
+model selection---even choosing the number of nodes---remains an open question.
+In this work, we apply a horseshoe prior over node pre-activations of a
+Bayesian neural network, which effectively turns off nodes that do not help
+explain the data. We demonstrate that our prior prevents the BNN from
+under-fitting even when the number of nodes required is grossly over-estimated.
+Moreover, this model selection over the number of nodes doesn't come at the
+expense of predictive or computational performance; in fact, we learn smaller
+networks with comparable predictive performance to current approaches.

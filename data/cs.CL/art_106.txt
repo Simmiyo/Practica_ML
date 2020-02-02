@@ -1,0 +1,10 @@
+Comparing two trainable grammatical relations finders
+Grammatical relationships (GRs) form an important level of natural language
+processing, but different sets of GRs are useful for different purposes.
+Therefore, one may often only have time to obtain a small training corpus with
+the desired GR annotations. On such a small training corpus, we compare two
+systems. They use different learning techniques, but we find that this
+difference by itself only has a minor effect. A larger factor is that in
+English, a different GR length measure appears better suited for finding simple
+argument GRs than for finding modifier GRs. We also find that partitioning the
+data may help memory-based learning.

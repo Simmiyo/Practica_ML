@@ -1,0 +1,15 @@
+Characterizing predictable classes of processes
+The problem is sequence prediction in the following setting. A sequence
+x1,..., xn,... of discrete-valued observations is generated according to some
+unknown probabilistic law (measure) mu. After observing each outcome, it is
+required to give the conditional probabilities of the next observation. The
+measure mu belongs to an arbitrary class C of stochastic processes. We are
+interested in predictors ? whose conditional probabilities converge to the
+'true' mu-conditional probabilities if any mu { C is chosen to generate the
+data. We show that if such a predictor exists, then a predictor can also be
+obtained as a convex combination of a countably many elements of C. In other
+words, it can be obtained as a Bayesian predictor whose prior is concentrated
+on a countable set. This result is established for two very different measures
+of performance of prediction, one of which is very strong, namely, total
+variation, and the other is very weak, namely, prediction in expected average
+Kullback-Leibler divergence.

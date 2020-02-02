@@ -1,0 +1,23 @@
+Sentiment Classification with Word Attention based on Weakly Supervised
+  Learning with a Convolutional Neural Network
+In order to maximize the applicability of sentiment analysis results, it is
+necessary to not only classify the overall sentiment (positive/negative) of a
+given document but also to identify the main words that contribute to the
+classification. However, most datasets for sentiment analysis only have the
+sentiment label for each document or sentence. In other words, there is no
+information about which words play an important role in sentiment
+classification. In this paper, we propose a method for identifying key words
+discriminating positive and negative sentences by using a weakly supervised
+learning method based on a convolutional neural network (CNN). In our model,
+each word is represented as a continuous-valued vector and each sentence is
+represented as a matrix whose rows correspond to the word vector used in the
+sentence. Then, the CNN model is trained using these sentence matrices as
+inputs and the sentiment labels as the output. Once the CNN model is trained,
+we implement the word attention mechanism that identifies high-contributing
+words to classification results with a class activation map, using the weights
+from the fully connected layer at the end of the learned CNN model. In order to
+verify the proposed methodology, we evaluated the classification accuracy and
+inclusion rate of polarity words using two movie review datasets. Experimental
+result show that the proposed model can not only correctly classify the
+sentence polarity but also successfully identify the corresponding words with
+high polarity scores.

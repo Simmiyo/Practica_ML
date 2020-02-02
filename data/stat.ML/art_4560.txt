@@ -1,0 +1,27 @@
+Dimensionality-Dependent Generalization Bounds for $k$-Dimensional
+  Coding Schemes
+The $k$-dimensional coding schemes refer to a collection of methods that
+attempt to represent data using a set of representative $k$-dimensional
+vectors, and include non-negative matrix factorization, dictionary learning,
+sparse coding, $k$-means clustering and vector quantization as special cases.
+Previous generalization bounds for the reconstruction error of the
+$k$-dimensional coding schemes are mainly dimensionality independent. A major
+advantage of these bounds is that they can be used to analyze the
+generalization error when data is mapped into an infinite- or high-dimensional
+feature space. However, many applications use finite-dimensional data features.
+Can we obtain dimensionality-dependent generalization bounds for
+$k$-dimensional coding schemes that are tighter than dimensionality-independent
+bounds when data is in a finite-dimensional feature space? The answer is
+positive. In this paper, we address this problem and derive a
+dimensionality-dependent generalization bound for $k$-dimensional coding
+schemes by bounding the covering number of the loss function class induced by
+the reconstruction error. The bound is of order
+$\mathcal{O}\left(\left(mk\ln(mkn)/n\right)^{\lambda_n}\right)$, where $m$ is
+the dimension of features, $k$ is the number of the columns in the linear
+implementation of coding schemes, $n$ is the size of sample, $\lambda_n>0.5$
+when $n$ is finite and $\lambda_n=0.5$ when $n$ is infinite. We show that our
+bound can be tighter than previous results, because it avoids inducing the
+worst-case upper bound on $k$ of the loss function and converges faster. The
+proposed generalization bound is also applied to some specific coding schemes
+to demonstrate that the dimensionality-dependent bound is an indispensable
+complement to these dimensionality-independent generalization bounds.

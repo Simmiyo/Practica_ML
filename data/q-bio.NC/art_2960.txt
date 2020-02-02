@@ -1,0 +1,17 @@
+Multistep Model for Predicting Upper-Limb 3D Isometric Force Application
+  from Pre-Movement Electrocorticographic Features
+Neural correlates of movement planning onset and direction may be present in
+human electrocorticography in the signal dynamics of both motor and non-motor
+cortical regions. We use a three-stage model of jPCA reduced-rank hidden Markov
+model (jPCA-RR-HMM), regularized shrunken-centroid discriminant analysis (RDA),
+and LASSO regression to extract direction-sensitive planning information and
+movement onset in an upper-limb 3D isometric force task in a human subject.
+This mode achieves a relatively high true positive force-onset prediction rate
+of 60% within 250ms, and an above-chance 36% accuracy (17% chance) in
+predicting one of six planned 3D directions of isometric force using
+pre-movement signals. We also find direction-distinguishing information up to
+400ms before force onset in the pre-movement signals, captured by electrodes
+placed over the limb-ipsilateral dorsal premotor regions. This approach can
+contribute to more accurate decoding of higher-level movement goals, at earlier
+timescales, and inform sensor placement. Our results also contribute to further
+understanding of the spatiotemporal features of human motor planning.

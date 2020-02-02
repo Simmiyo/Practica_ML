@@ -1,0 +1,23 @@
+Prediction of severity and treatment outcome for ASD from fMRI
+Autism spectrum disorder (ASD) is a complex neurodevelopmental syndrome.
+Early diagnosis and precise treatment are essential for ASD patients. Although
+researchers have built many analytical models, there has been limited progress
+in accurate predictive models for early diagnosis. In this project, we aim to
+build an accurate model to predict treatment outcome and ASD severity from
+early stage functional magnetic resonance imaging (fMRI) scans. The difficulty
+in building large databases of patients who have received specific treatments
+and the high dimensionality of medical image analysis problems are challenges
+in this work. We propose a generic and accurate two-level approach for
+high-dimensional regression problems in medical image analysis. First, we
+perform region-level feature selection using a predefined brain parcellation.
+Based on the assumption that voxels within one region in the brain have similar
+values, for each region we use the bootstrapped mean of voxels within it as a
+feature. In this way, the dimension of data is reduced from number of voxels to
+number of regions. Then we detect predictive regions by various feature
+selection methods. Second, we extract voxels within selected regions, and
+perform voxel-level feature selection. To use this model in both linear and
+non-linear cases with limited training examples, we apply two-level elastic net
+regression and random forest (RF) models respectively. To validate accuracy and
+robustness of this approach, we perform experiments on both task-fMRI and
+resting state fMRI datasets. Furthermore, we visualize the influence of each
+region, and show that the results match well with other findings.

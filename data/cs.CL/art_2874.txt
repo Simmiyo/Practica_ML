@@ -1,0 +1,21 @@
+Unified Neural Architecture for Drug, Disease and Clinical Entity
+  Recognition
+Most existing methods for biomedical entity recognition task rely on explicit
+feature engineering where many features either are specific to a particular
+task or depends on output of other existing NLP tools. Neural architectures
+have been shown across various domains that efforts for explicit feature design
+can be reduced. In this work we propose an unified framework using
+bi-directional long short term memory network (BLSTM) for named entity
+recognition (NER) tasks in biomedical and clinical domains. Three important
+characteristics of the framework are as follows - (1) model learns contextual
+as well as morphological features using two different BLSTM in hierarchy, (2)
+model uses first order linear conditional random field (CRF) in its output
+layer in cascade of BLSTM to infer label or tag sequence, (3) model does not
+use any domain specific features or dictionary, i.e., in another words, same
+set of features are used in the three NER tasks, namely, disease name
+recognition (Disease NER), drug name recognition (Drug NER) and clinical entity
+recognition (Clinical NER). We compare performance of the proposed model with
+existing state-of-the-art models on the standard benchmark datasets of the
+three tasks. We show empirically that the proposed framework outperforms all
+existing models. Further our analysis of CRF layer and word-embedding obtained
+using character based embedding show their importance.

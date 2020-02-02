@@ -1,0 +1,20 @@
+Classification in biological networks with hypergraphlet kernels
+Biological and cellular systems are often modeled as graphs in which vertices
+represent objects of interest (genes, proteins, drugs) and edges represent
+relational ties among these objects (binds-to, interacts-with, regulates). This
+approach has been highly successful owing to the theory, methodology and
+software that support analysis and learning on graphs. Graphs, however, often
+suffer from information loss when modeling physical systems due to their
+inability to accurately represent multiobject relationships. Hypergraphs, a
+generalization of graphs, provide a framework to mitigate information loss and
+unify disparate graph-based methodologies. In this paper, we present a
+hypergraph-based approach for modeling physical systems and formulate vertex
+classification, edge classification and link prediction problems on
+(hyper)graphs as instances of vertex classification on (extended, dual)
+hypergraphs in a semi-supervised setting. We introduce a novel kernel method on
+vertex- and edge-labeled (colored) hypergraphs for analysis and learning. The
+method is based on exact and inexact (via hypergraph edit distances)
+enumeration of small simple hypergraphs, referred to as hypergraphlets, rooted
+at a vertex of interest. We extensively evaluate this method and show its
+potential use in a positive-unlabeled setting to estimate the number of missing
+and false positive links in protein-protein interaction networks.

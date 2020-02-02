@@ -1,0 +1,17 @@
+A debiased distributed estimation for sparse partially linear models in
+  diverging dimensions
+We consider a distributed estimation of the double-penalized least squares
+approach for high dimensional partial linear models, where the sample with a
+total of $N$ data points is randomly distributed among $m$ machines and the
+parameters of interest are calculated by merging their $m$ individual
+estimators. This paper primarily focuses on the investigation of the high
+dimensional linear components in partial linear models, which is often of more
+interest. We propose a new debiased averaging estimator of parametric
+coefficients on the basis of each individual estimator, and establish new
+non-asymptotic oracle results in high dimensional and distributed settings,
+provided that $m\leq \sqrt{N/\log p}$ and other mild conditions are satisfied,
+where $p$ is the linear coefficient dimension. We also provide an experimental
+evaluation of the proposed method, indicating the numerical effectiveness on
+simulated data. Even under the classical non-distributed setting, we give the
+optimal rates of the parametric estimator with a looser tuning parameter
+limitation, which is required for our error analysis.

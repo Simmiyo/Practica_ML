@@ -1,0 +1,12 @@
+F-Score Driven Max Margin Neural Network for Named Entity Recognition in
+  Chinese Social Media
+We focus on named entity recognition (NER) for Chinese social media. With
+massive unlabeled text and quite limited labelled corpus, we propose a
+semi-supervised learning model based on B-LSTM neural network. To take
+advantage of traditional methods in NER such as CRF, we combine transition
+probability with deep learning in our model. To bridge the gap between label
+accuracy and F-score of NER, we construct a model which can be directly trained
+on F-score. When considering the instability of F-score driven method and
+meaningful information provided by label accuracy, we propose an integrated
+method to train on both F-score and label accuracy. Our integrated model yields
+7.44\% improvement over previous state-of-the-art result.

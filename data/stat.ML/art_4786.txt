@@ -1,0 +1,11 @@
+ACDC: $α$-Carving Decision Chain for Risk Stratification
+In many healthcare settings, intuitive decision rules for risk stratification
+can help effective hospital resource allocation. This paper introduces a novel
+variant of decision tree algorithms that produces a chain of decisions, not a
+general tree. Our algorithm, $\alpha$-Carving Decision Chain (ACDC),
+sequentially carves out "pure" subsets of the majority class examples. The
+resulting chain of decision rules yields a pure subset of the minority class
+examples. Our approach is particularly effective in exploring large and
+class-imbalanced health datasets. Moreover, ACDC provides an interactive
+interpretation in conjunction with visual performance metrics such as Receiver
+Operating Characteristics curve and Lift chart.

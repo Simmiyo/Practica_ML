@@ -1,0 +1,20 @@
+Empirical Similarity for Absent Data Generation in Imbalanced
+  Classification
+When the training data in a two-class classification problem is overwhelmed
+by one class, most classification techniques fail to correctly identify the
+data points belonging to the underrepresented class. We propose
+Similarity-based Imbalanced Classification (SBIC) that learns patterns in the
+training data based on an empirical similarity function. To take the imbalanced
+structure of the training data into account, SBIC utilizes the concept of
+absent data, i.e. data from the minority class which can help better find the
+boundary between the two classes. SBIC simultaneously optimizes the weights of
+the empirical similarity function and finds the locations of absent data
+points. As such, SBIC uses an embedded mechanism for synthetic data generation
+which does not modify the training dataset, but alters the algorithm to suit
+imbalanced datasets. Therefore, SBIC uses the ideas of both major schools of
+thoughts in imbalanced classification: Like cost-sensitive approaches SBIC
+operates on an algorithm level to handle imbalanced structures; and similar to
+synthetic data generation approaches, it utilizes the properties of unobserved
+data points from the minority class. The application of SBIC to imbalanced
+datasets suggests it is comparable to, and in some cases outperforms, other
+commonly used classification techniques for imbalanced datasets.

@@ -1,0 +1,18 @@
+Parsimonious Online Learning with Kernels via Sparse Projections in
+  Function Space
+Despite their attractiveness, popular perception is that techniques for
+nonparametric function approximation do not scale to streaming data due to an
+intractable growth in the amount of storage they require. To solve this problem
+in a memory-affordable way, we propose an online technique based on functional
+stochastic gradient descent in tandem with supervised sparsification based on
+greedy function subspace projections. The method, called parsimonious online
+learning with kernels (POLK), provides a controllable tradeoff? between its
+solution accuracy and the amount of memory it requires. We derive conditions
+under which the generated function sequence converges almost surely to the
+optimal function, and we establish that the memory requirement remains finite.
+We evaluate POLK for kernel multi-class logistic regression and kernel
+hinge-loss classification on three canonical data sets: a synthetic Gaussian
+mixture model, the MNIST hand-written digits, and the Brodatz texture database.
+On all three tasks, we observe a favorable tradeoff of objective function
+evaluation, classification performance, and complexity of the nonparametric
+regressor extracted the proposed method.

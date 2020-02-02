@@ -1,0 +1,15 @@
+Capturing Ambiguity in Crowdsourcing Frame Disambiguation
+FrameNet is a computational linguistics resource composed of semantic frames,
+high-level concepts that represent the meanings of words. In this paper, we
+present an approach to gather frame disambiguation annotations in sentences
+using a crowdsourcing approach with multiple workers per sentence to capture
+inter-annotator disagreement. We perform an experiment over a set of 433
+sentences annotated with frames from the FrameNet corpus, and show that the
+aggregated crowd annotations achieve an F1 score greater than 0.67 as compared
+to expert linguists. We highlight cases where the crowd annotation was correct
+even though the expert is in disagreement, arguing for the need to have
+multiple annotators per sentence. Most importantly, we examine cases in which
+crowd workers could not agree, and demonstrate that these cases exhibit
+ambiguity, either in the sentence, frame, or the task itself, and argue that
+collapsing such cases to a single, discrete truth value (i.e. correct or
+incorrect) is inappropriate, creating arbitrary targets for machine learning.

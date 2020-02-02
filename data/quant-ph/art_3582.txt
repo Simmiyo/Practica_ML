@@ -1,0 +1,18 @@
+A method of enciphering quantum states
+In this paper, we propose a method of enciphering quantum states of two-state
+systems (qubits) for sending them in secrecy without entangled qubits shared by
+two legitimate users (Alice and Bob). This method has the following two
+properties. First, even if an eavesdropper (Eve) steals qubits, she can extract
+information from them with certain probability at most. Second, Alice and Bob
+can confirm that the qubits are transmitted between them correctly by measuring
+a signature. If Eve measures m qubits one by one from n enciphered qubits and
+sends alternative ones (the Intercept/Resend attack), a probability that Alice
+and Bob do not notice Eve's action is equal to (3/4)^m or less. Passwords for
+decryption and the signature are given by classical binary strings and they are
+disclosed through a public channel. Enciphering classical information by this
+method is equivalent to the one-time pad method with distributing a classical
+key (random binary string) by the BB84 protocol. If Eve takes away qubits,
+Alice and Bob lose the original quantum information. If we apply our method to
+a state in iteration, Eve's success probability decreases exponentially. We
+cannot examine security against the case that Eve makes an attack with using
+entanglement. This remains to be solved in the future.

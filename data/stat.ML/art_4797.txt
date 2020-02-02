@@ -1,0 +1,16 @@
+Clustering with a Reject Option: Interactive Clustering as Bayesian
+  Prior Elicitation
+A good clustering can help a data analyst to explore and understand a data
+set, but what constitutes a good clustering may depend on domain-specific and
+application-specific criteria. These criteria can be difficult to formalize,
+even when it is easy for an analyst to know a good clustering when they see
+one. We present a new approach to interactive clustering for data exploration
+called TINDER, based on a particularly simple feedback mechanism, in which an
+analyst can reject a given clustering and request a new one, which is chosen to
+be different from the previous clustering while fitting the data well. We
+formalize this interaction in a Bayesian framework as a method for prior
+elicitation, in which each different clustering is produced by a prior
+distribution that is modified to discourage previously rejected clusterings. We
+show that TINDER successfully produces a diverse set of clusterings, each of
+equivalent quality, that are much more diverse than would be obtained by
+randomized restarts.

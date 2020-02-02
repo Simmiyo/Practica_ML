@@ -1,0 +1,16 @@
+Parallelizing Word2Vec in Multi-Core and Many-Core Architectures
+Word2vec is a widely used algorithm for extracting low-dimensional vector
+representations of words. State-of-the-art algorithms including those by
+Mikolov et al. have been parallelized for multi-core CPU architectures, but are
+based on vector-vector operations with "Hogwild" updates that are
+memory-bandwidth intensive and do not efficiently use computational resources.
+In this paper, we propose "HogBatch" by improving reuse of various data
+structures in the algorithm through the use of minibatching and negative sample
+sharing, hence allowing us to express the problem using matrix multiply
+operations. We also explore different techniques to distribute word2vec
+computation across nodes in a compute cluster, and demonstrate good strong
+scalability up to 32 nodes. The new algorithm is particularly suitable for
+modern multi-core/many-core architectures, especially Intel's latest Knights
+Landing processors, and allows us to scale up the computation near linearly
+across cores and nodes, and process hundreds of millions of words per second,
+which is the fastest word2vec implementation to the best of our knowledge.

@@ -1,0 +1,19 @@
+Intracranial Error Detection via Deep Learning
+Deep learning techniques have revolutionized the field of machine learning
+and were recently successfully applied to various classification problems in
+noninvasive electroencephalography (EEG). However, these methods were so far
+only rarely evaluated for use in intracranial EEG. We employed convolutional
+neural networks (CNNs) to classify and characterize the error-related brain
+response as measured in 24 intracranial EEG recordings. Decoding accuracies of
+CNNs were significantly higher than those of a regularized linear discriminant
+analysis. Using time-resolved deep decoding, it was possible to classify errors
+in various regions in the human brain, and further to decode errors over 200 ms
+before the actual erroneous button press, e.g., in the precentral gyrus.
+Moreover, deeper networks performed better than shallower networks in
+distinguishing correct from error trials in all-channel decoding. In single
+recordings, up to 100 % decoding accuracy was achieved. Visualization of the
+networks' learned features indicated that multivariate decoding on an ensemble
+of channels yields related, albeit non-redundant information compared to
+single-channel decoding. In summary, here we show the usefulness of deep
+learning for both intracranial error decoding and mapping of the
+spatio-temporal structure of the human error processing network.

@@ -1,0 +1,24 @@
+Automated Phrase Mining from Massive Text Corpora
+As one of the fundamental tasks in text analysis, phrase mining aims at
+extracting quality phrases from a text corpus. Phrase mining is important in
+various tasks such as information extraction/retrieval, taxonomy construction,
+and topic modeling. Most existing methods rely on complex, trained linguistic
+analyzers, and thus likely have unsatisfactory performance on text corpora of
+new domains and genres without extra but expensive adaption. Recently, a few
+data-driven methods have been developed successfully for extraction of phrases
+from massive domain-specific text. However, none of the state-of-the-art models
+is fully automated because they require human experts for designing rules or
+labeling phrases.
+  Since one can easily obtain many quality phrases from public knowledge bases
+to a scale that is much larger than that produced by human experts, in this
+paper, we propose a novel framework for automated phrase mining, AutoPhrase,
+which leverages this large amount of high-quality phrases in an effective way
+and achieves better performance compared to limited human labeled phrases. In
+addition, we develop a POS-guided phrasal segmentation model, which
+incorporates the shallow syntactic information in part-of-speech (POS) tags to
+further enhance the performance, when a POS tagger is available. Note that,
+AutoPhrase can support any language as long as a general knowledge base (e.g.,
+Wikipedia) in that language is available, while benefiting from, but not
+requiring, a POS tagger. Compared to the state-of-the-art methods, the new
+method has shown significant improvements in effectiveness on five real-world
+datasets across different domains and languages.

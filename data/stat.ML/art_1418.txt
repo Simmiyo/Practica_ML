@@ -1,0 +1,12 @@
+An Expectation Conditional Maximization approach for Gaussian graphical
+  models
+Bayesian graphical models are a useful tool for understanding dependence
+relationships among many variables, particularly in situations with external
+prior information. In high-dimensional settings, the space of possible graphs
+becomes enormous, rendering even state-of-the-art Bayesian stochastic search
+computationally infeasible. We propose a deterministic alternative to estimate
+Gaussian and Gaussian copula graphical models using an Expectation Conditional
+Maximization (ECM) algorithm, extending the EM approach from Bayesian variable
+selection to graphical model estimation. We show that the ECM approach enables
+fast posterior exploration under a sequence of mixture priors, and can
+incorporate multiple sources of information.

@@ -1,0 +1,11 @@
+Learning a Driving Simulator
+Comma.ai's approach to Artificial Intelligence for self-driving cars is based
+on an agent that learns to clone driver behaviors and plans maneuvers by
+simulating future events in the road. This paper illustrates one of our
+research approaches for driving simulation. One where we learn to simulate.
+Here we investigate variational autoencoders with classical and learned cost
+functions using generative adversarial networks for embedding road frames.
+Afterwards, we learn a transition model in the embedded space using action
+conditioned Recurrent Neural Networks. We show that our approach can keep
+predicting realistic looking video for several frames despite the transition
+model being optimized without a cost function in the pixel space.

@@ -1,0 +1,20 @@
+Stepwise regression for unsupervised learning
+I consider unsupervised extensions of the fast stepwise linear regression
+algorithm \cite{efroymson1960multiple}. These extensions allow one to
+efficiently identify highly-representative feature variable subsets within a
+given set of jointly distributed variables. This in turn allows for the
+efficient dimensional reduction of large data sets via the removal of redundant
+features. Fast search is effected here through the avoidance of repeat
+computations across trial fits, allowing for a full representative-importance
+ranking of a set of feature variables to be carried out in $O(n^2 m)$ time,
+where $n$ is the number of variables and $m$ is the number of data samples
+available. This runtime complexity matches that needed to carry out a single
+regression and is $O(n^2)$ faster than that of naive implementations. I present
+pseudocode suitable for efficient forward, reverse, and forward-reverse
+unsupervised feature selection. To illustrate the algorithm's application, I
+apply it to the problem of identifying representative stocks within a given
+financial market index -- a challenge relevant to the design of Exchange Traded
+Funds (ETFs). I also characterize the growth of numerical error with iteration
+step in these algorithms, and finally demonstrate and rationalize the
+observation that the forward and reverse algorithms return exactly inverted
+feature orderings in the weakly-correlated feature set regime.

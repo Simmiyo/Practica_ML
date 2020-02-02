@@ -1,0 +1,19 @@
+xSense: Learning Sense-Separated Sparse Representations and Textual
+  Definitions for Explainable Word Sense Networks
+Despite the success achieved on various natural language processing tasks,
+word embeddings are difficult to interpret due to the dense vector
+representations. This paper focuses on interpreting the embeddings for various
+aspects, including sense separation in the vector dimensions and definition
+generation. Specifically, given a context together with a target word, our
+algorithm first projects the target word embedding to a high-dimensional sparse
+vector and picks the specific dimensions that can best explain the semantic
+meaning of the target word by the encoded contextual information, where the
+sense of the target word can be indirectly inferred. Finally, our algorithm
+applies an RNN to generate the textual definition of the target word in the
+human readable form, which enables direct interpretation of the corresponding
+word embedding. This paper also introduces a large and high-quality
+context-definition dataset that consists of sense definitions together with
+multiple example sentences per polysemous word, which is a valuable resource
+for definition modeling and word sense disambiguation. The conducted
+experiments show the superior performance in BLEU score and the human
+evaluation test.

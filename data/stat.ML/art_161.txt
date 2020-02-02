@@ -1,0 +1,19 @@
+Sparse Estimation using Bayesian Hierarchical Prior Modeling for Real
+  and Complex Linear Models
+In sparse Bayesian learning (SBL), Gaussian scale mixtures (GSMs) have been
+used to model sparsity-inducing priors that realize a class of concave penalty
+functions for the regression task in real-valued signal models. Motivated by
+the relative scarcity of formal tools for SBL in complex-valued models, this
+paper proposes a GSM model - the Bessel K model - that induces concave penalty
+functions for the estimation of complex sparse signals. The properties of the
+Bessel K model are analyzed when it is applied to Type I and Type II
+estimation. This analysis reveals that, by tuning the parameters of the mixing
+pdf different penalty functions are invoked depending on the estimation type
+used, the value of the noise variance, and whether real or complex signals are
+estimated. Using the Bessel K model, we derive a sparse estimator based on a
+modification of the expectation-maximization algorithm formulated for Type II
+estimation. The estimator includes as a special instance the algorithms
+proposed by Tipping and Faul [1] and by Babacan et al. [2]. Numerical results
+show the superiority of the proposed estimator over these state-of-the-art
+estimators in terms of convergence speed, sparseness, reconstruction error, and
+robustness in low and medium signal-to-noise ratio regimes.

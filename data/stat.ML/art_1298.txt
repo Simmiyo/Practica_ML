@@ -1,0 +1,15 @@
+ShortFuse: Biomedical Time Series Representations in the Presence of
+  Structured Information
+In healthcare applications, temporal variables that encode movement, health
+status and longitudinal patient evolution are often accompanied by rich
+structured information such as demographics, diagnostics and medical exam data.
+However, current methods do not jointly optimize over structured covariates and
+time series in the feature extraction process. We present ShortFuse, a method
+that boosts the accuracy of deep learning models for time series by explicitly
+modeling temporal interactions and dependencies with structured covariates.
+ShortFuse introduces hybrid convolutional and LSTM cells that incorporate the
+covariates via weights that are shared across the temporal domain. ShortFuse
+outperforms competing models by 3% on two biomedical applications, forecasting
+osteoarthritis-related cartilage degeneration and predicting surgical outcomes
+for cerebral palsy patients, matching or exceeding the accuracy of models that
+use features engineered by domain experts.

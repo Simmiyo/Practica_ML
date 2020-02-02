@@ -1,0 +1,12 @@
+Active Information Acquisition
+We propose a general framework for sequential and dynamic acquisition of
+useful information in order to solve a particular task. While our goal could in
+principle be tackled by general reinforcement learning, our particular setting
+is constrained enough to allow more efficient algorithms. In this paper, we
+work under the Learning to Search framework and show how to formulate the goal
+of finding a dynamic information acquisition policy in that framework. We apply
+our formulation on two tasks, sentiment analysis and image recognition, and
+show that the learned policies exhibit good statistical performance. As an
+emergent byproduct, the learned policies show a tendency to focus on the most
+prominent parts of each instance and give harder instances more attention
+without explicitly being trained to do so.

@@ -1,0 +1,12 @@
+Scaling up the Automatic Statistician: Scalable Structure Discovery
+  using Gaussian Processes
+Automating statistical modelling is a challenging problem in artificial
+intelligence. The Automatic Statistician takes a first step in this direction,
+by employing a kernel search algorithm with Gaussian Processes (GP) to provide
+interpretable statistical models for regression problems. However this does not
+scale due to its $O(N^3)$ running time for the model selection. We propose
+Scalable Kernel Composition (SKC), a scalable kernel search algorithm that
+extends the Automatic Statistician to bigger data sets. In doing so, we derive
+a cheap upper bound on the GP marginal likelihood that sandwiches the marginal
+likelihood with the variational lower bound . We show that the upper bound is
+significantly tighter than the lower bound and thus useful for model selection.

@@ -1,0 +1,12 @@
+A new approach for physiological time series
+We developed a new approach for the analysis of physiological time series. An
+iterative convolution filter is used to decompose the time series into various
+components. Statistics of these components are extracted as features to
+characterize the mechanisms underlying the time series. Motivated by the
+studies that show many normal physiological systems involve irregularity while
+the decrease of irregularity usually implies the abnormality, the statistics
+for "outliers" in the components are used as features measuring irregularity.
+Support vector machines are used to select the most relevant features that are
+able to differentiate the time series from normal and abnormal systems. This
+new approach is successfully used in the study of congestive heart failure by
+heart beat interval time series.

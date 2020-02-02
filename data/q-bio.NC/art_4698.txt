@@ -1,0 +1,16 @@
+HNCcorr: A Novel Combinatorial Approach for Cell Identification in
+  Calcium-Imaging Movies
+Calcium imaging has emerged as a workhorse method in neuroscience to
+investigate patterns of neuronal activity. Instrumentation to acquire calcium
+imaging movies has rapidly progressed and has become standard across labs.
+Still, algorithms to automatically detect and extract activity signals from
+calcium imaging movies are highly variable from~lab~to~lab and more advanced
+algorithms are continuously being developed. Here we present HNCcorr, a novel
+algorithm for cell identification in calcium imaging movies based on
+combinatorial optimization. The algorithm identifies cells by finding distinct
+groups of highly similar pixels in correlation space, where a pixel is
+represented by the vector of correlations to a set of other pixels. The HNCcorr
+algorithm achieves the best known results for the cell identification benchmark
+of Neurofinder, and guarantees an optimal solution to the underlying
+deterministic optimization model resulting in a transparent mapping from input
+data to outcome.

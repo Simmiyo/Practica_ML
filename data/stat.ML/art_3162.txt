@@ -1,0 +1,14 @@
+Gaussian Process Pseudo-Likelihood Models for Sequence Labeling
+Several machine learning problems arising in natural language processing can
+be modeled as a sequence labeling problem. We provide Gaussian process models
+based on pseudo-likelihood approximation to perform sequence labeling. Gaussian
+processes (GPs) provide a Bayesian approach to learning in a kernel based
+framework. The pseudo-likelihood model enables one to capture long range
+dependencies among the output components of the sequence without becoming
+computationally intractable. We use an efficient variational Gaussian
+approximation method to perform inference in the proposed model. We also
+provide an iterative algorithm which can effectively make use of the
+information from the neighboring labels to perform prediction. The ability to
+capture long range dependencies makes the proposed approach useful for a wide
+range of sequence labeling problems. Numerical experiments on some sequence
+labeling data sets demonstrate the usefulness of the proposed approach.

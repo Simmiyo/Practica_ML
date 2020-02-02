@@ -1,0 +1,12 @@
+Incorporating Consistency Verification into Neural Data-to-Document
+  Generation
+Recent neural models for data-to-document generation have achieved remarkable
+progress in producing fluent and informative texts. However, large proportions
+of generated texts do not actually conform to the input data. To address this
+issue, we propose a new training framework which attempts to verify the
+consistency between the generated texts and the input data to guide the
+training process. To measure the consistency, a relation extraction model is
+applied to check information overlaps between the input data and the generated
+texts. The non-differentiable consistency signal is optimized via reinforcement
+learning. Experimental results on a recently released challenging dataset
+ROTOWIRE show improvements from our framework in various metrics.

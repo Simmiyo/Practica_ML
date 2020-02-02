@@ -1,0 +1,28 @@
+Diffuse interstellar band at 8620 Å in RAVE: A new method for
+  detecting the diffuse interstellar band in spectra of cool stars
+Diffuse interstellar bands are usually observed in spectra of hot stars,
+where interstellar lines are rarely blended with stellar ones. The need for hot
+stars is a strong limitation in the number of sightlines we can observe and the
+distribution of sightlines in the Galaxy, as hot stars are rare and
+concentrated in the Galactic plane. We are introducing a new method, where
+interstellar lines can be observed in spectra of cool stars in large
+spectroscopic surveys. The method is completely automated and does not require
+prior knowledge of the stellar parameters. If known, the stellar parameters
+only reduce the computational time and are not involved in the extraction of
+the interstellar spectrum. The main step in extracting interstellar lines is a
+construction of the stellar spectrum, which is in our method done by finding
+other observed spectra that lack interstellar features and are otherwise very
+similar to the spectrum in question. Such spectra are then combined into a
+single stellar spectrum template, which matches the stellar component in an
+observed spectrum. We demonstrate the performance of this new method on a
+sample of 482,430 spectra observed in RAVE survey. However, many spectra have
+to be combined (48 on average) in order to achieve a S/N ratio high enough to
+measure the DIB's profile, hence limiting the spatial information about the
+ISM. Only one strong interstellar line is included in the RAVE spectral range,
+a diffuse interstellar band at 8620 \AA. We compare its equivalent width with
+extinction maps and with Bayesian reddening, calculated for individual stars,
+and provide a linear relation between the equivalent width and reddening.
+Separately from the introduced method, we calculate equivalent widths of the
+diffuse interstellar band in spectra of hot stars with known extinction and
+compare all three linear relations with each other and with relations from the
+literature.

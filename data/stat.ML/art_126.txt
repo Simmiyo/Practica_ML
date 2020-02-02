@@ -1,0 +1,19 @@
+Predictive Active Set Selection Methods for Gaussian Processes
+We propose an active set selection framework for Gaussian process
+classification for cases when the dataset is large enough to render its
+inference prohibitive. Our scheme consists of a two step alternating procedure
+of active set update rules and hyperparameter optimization based upon marginal
+likelihood maximization. The active set update rules rely on the ability of the
+predictive distributions of a Gaussian process classifier to estimate the
+relative contribution of a datapoint when being either included or removed from
+the model. This means that we can use it to include points with potentially
+high impact to the classifier decision process while removing those that are
+less relevant. We introduce two active set rules based on different criteria,
+the first one prefers a model with interpretable active set parameters whereas
+the second puts computational complexity first, thus a model with active set
+parameters that directly control its complexity. We also provide both
+theoretical and empirical support for our active set selection strategy being a
+good approximation of a full Gaussian process classifier. Our extensive
+experiments show that our approach can compete with state-of-the-art
+classification techniques with reasonable time complexity. Source code publicly
+available at http://cogsys.imm.dtu.dk/passgp.

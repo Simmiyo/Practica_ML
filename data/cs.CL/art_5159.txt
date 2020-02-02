@@ -1,0 +1,11 @@
+A System for Automated Image Editing from Natural Language Commands
+This work presents the task of modifying images in an image editing program
+using natural language written commands. We utilize a corpus of over 6000 image
+edit text requests to alter real world images collected via crowdsourcing. A
+novel framework composed of actions and entities to map a user's natural
+language request to executable commands in an image editing program is
+described. We resolve previously labeled annotator disagreement through a
+voting process and complete annotation of the corpus. We experimented with
+different machine learning models and found that the LSTM, the SVM, and the
+bidirectional LSTM-CRF joint models are the best to detect image editing
+actions and associated entities in a given utterance.

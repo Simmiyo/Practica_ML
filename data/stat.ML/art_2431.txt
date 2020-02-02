@@ -1,0 +1,14 @@
+Bayesian Consensus Clustering
+The task of clustering a set of objects based on multiple sources of data
+arises in several modern applications. We propose an integrative statistical
+model that permits a separate clustering of the objects for each data source.
+These separate clusterings adhere loosely to an overall consensus clustering,
+and hence they are not independent. We describe a computationally scalable
+Bayesian framework for simultaneous estimation of both the consensus clustering
+and the source-specific clusterings. We demonstrate that this flexible approach
+is more robust than joint clustering of all data sources, and is more powerful
+than clustering each data source separately. This work is motivated by the
+integrated analysis of heterogeneous biomedical data, and we present an
+application to subtype identification of breast cancer tumor samples using
+publicly available data from The Cancer Genome Atlas. Software is available at
+http://people.duke.edu/~el113/software.html.

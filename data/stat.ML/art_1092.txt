@@ -1,0 +1,13 @@
+Effects of Additional Data on Bayesian Clustering
+Hierarchical probabilistic models, such as mixture models, are used for
+cluster analysis. These models have two types of variables: observable and
+latent. In cluster analysis, the latent variable is estimated, and it is
+expected that additional information will improve the accuracy of the
+estimation of the latent variable. Many proposed learning methods are able to
+use additional data; these include semi-supervised learning and transfer
+learning. However, from a statistical point of view, a complex probabilistic
+model that encompasses both the initial and additional data might be less
+accurate due to having a higher-dimensional parameter. The present paper
+presents a theoretical analysis of the accuracy of such a model and clarifies
+which factor has the greatest effect on its accuracy, the advantages of
+obtaining additional data, and the disadvantages of increasing the complexity.

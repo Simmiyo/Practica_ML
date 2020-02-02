@@ -1,0 +1,13 @@
+Learning to Decode for Future Success
+We introduce a simple, general strategy to manipulate the behavior of a
+neural decoder that enables it to generate outputs that have specific
+properties of interest (e.g., sequences of a pre-specified length). The model
+can be thought of as a simple version of the actor-critic model that uses an
+interpolation of the actor (the MLE-based token generation policy) and the
+critic (a value function that estimates the future values of the desired
+property) for decision making. We demonstrate that the approach is able to
+incorporate a variety of properties that cannot be handled by standard neural
+sequence decoders, such as sequence length and backward probability
+(probability of sources given targets), in addition to yielding consistent
+improvements in abstractive summarization and machine translation when the
+property to be optimized is BLEU or ROUGE scores.

@@ -1,0 +1,9 @@
+Support vector comparison machines
+In ranking problems, the goal is to learn a ranking function from labeled
+pairs of input points. In this paper, we consider the related comparison
+problem, where the label indicates which element of the pair is better, or if
+there is no significant difference. We cast the learning problem as a margin
+maximization, and show that it can be solved by converting it to a standard
+SVM. We use simulated nonlinear patterns, a real learning to rank sushi data
+set, and a chess data set to show that our proposed SVMcompare algorithm
+outperforms SVMrank when there are equality pairs.

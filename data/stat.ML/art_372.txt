@@ -1,0 +1,18 @@
+Detection of Anomalous Crowd Behavior Using Spatio-Temporal
+  Multiresolution Model and Kronecker Sum Decompositions
+In this work we consider the problem of detecting anomalous spatio-temporal
+behavior in videos. Our approach is to learn the normative multiframe pixel
+joint distribution and detect deviations from it using a likelihood based
+approach. Due to the extreme lack of available training samples relative to the
+dimension of the distribution, we use a mean and covariance approach and
+consider methods of learning the spatio-temporal covariance in the low-sample
+regime. Our approach is to estimate the covariance using parameter reduction
+and sparse models. The first method considered is the representation of the
+covariance as a sum of Kronecker products as in (Greenewald et al 2013), which
+is found to be an accurate approximation in this setting. We propose learning
+algorithms relevant to our problem. We then consider the sparse multiresolution
+model of (Choi et al 2010) and apply the Kronecker product methods to it for
+further parameter reduction, as well as introducing modifications for enhanced
+efficiency and greater applicability to spatio-temporal covariance matrices. We
+apply our methods to the detection of crowd behavior anomalies in the
+University of Minnesota crowd anomaly dataset, and achieve competitive results.

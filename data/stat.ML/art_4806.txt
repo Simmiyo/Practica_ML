@@ -1,0 +1,14 @@
+Visualizing Dynamics: from t-SNE to SEMI-MDPs
+Deep Reinforcement Learning (DRL) is a trending field of research, showing
+great promise in many challenging problems such as playing Atari, solving Go
+and controlling robots. While DRL agents perform well in practice we are still
+missing the tools to analayze their performance and visualize the temporal
+abstractions that they learn. In this paper, we present a novel method that
+automatically discovers an internal Semi Markov Decision Process (SMDP) model
+in the Deep Q Network's (DQN) learned representation. We suggest a novel
+visualization method that represents the SMDP model by a directed graph and
+visualize it above a t-SNE map. We show how can we interpret the agent's policy
+and give evidence for the hierarchical state aggregation that DQNs are learning
+automatically. Our algorithm is fully automatic, does not require any domain
+specific knowledge and is evaluated by a novel likelihood based evaluation
+criteria.

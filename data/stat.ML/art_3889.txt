@@ -1,0 +1,12 @@
+A Stratified Analysis of Bayesian Optimization Methods
+Empirical analysis serves as an important complement to theoretical analysis
+for studying practical Bayesian optimization. Often empirical insights expose
+strengths and weaknesses inaccessible to theoretical analysis. We define two
+metrics for comparing the performance of Bayesian optimization methods and
+propose a ranking mechanism for summarizing performance within various genres
+or strata of test functions. These test functions serve to mimic the complexity
+of hyperparameter optimization problems, the most prominent application of
+Bayesian optimization, but with a closed form which allows for rapid evaluation
+and more predictable behavior. This offers a flexible and efficient way to
+investigate functions with specific properties of interest, such as oscillatory
+behavior or an optimum on the domain boundary.

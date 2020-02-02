@@ -1,0 +1,18 @@
+On a toy network of neurons interacting through their dendrites
+Consider a large number $n$ of neurons, each being connected to approximately
+$N$ other ones, chosen at random. When a neuron spikes, which occurs randomly
+at some rate depending on its electric potential, its potential is set to a
+minimum value $v_{min}$, and this initiates, after a small delay, two fronts on
+the (linear) dendrites of all the neurons to which it is connected. Fronts move
+at constant speed. When two fronts (on the dendrite of the same neuron)
+collide, they annihilate. When a front hits the soma of a neuron, its potential
+is increased by a small value $w_n$. Between jumps, the potentials of the
+neurons are assumed to drift in $[v_{min},\infty)$, according to some
+well-posed ODE. We prove the existence and uniqueness of a heuristically
+derived mean-field limit of the system when $n,N \to \infty$ with $w_n \simeq
+N^{-1/2}$. We make use of some recent versions of the results of Deuschel and
+Zeitouni \cite{dz} concerning the size of the longest increasing subsequence of
+an i.i.d. collection of points in the plan. We also study, in a very particular
+case, a slightly different model where the neurons spike when their potential
+reach some maximum value $v_{max}$, and find an explicit formula for the
+(heuristic) mean-field limit.

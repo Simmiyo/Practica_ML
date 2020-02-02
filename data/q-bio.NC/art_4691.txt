@@ -1,0 +1,17 @@
+Predicting non-linear dynamics by stable local learning in a recurrent
+  spiking neural network
+Brains need to predict how the body reacts to motor commands. It is an open
+question how networks of spiking neurons can learn to reproduce the non-linear
+body dynamics caused by motor commands, using local, online and stable learning
+rules. Here, we present a supervised learning scheme for the feedforward and
+recurrent connections in a network of heterogeneous spiking neurons. The error
+in the output is fed back through fixed random connections with a negative
+gain, causing the network to follow the desired dynamics, while an online and
+local rule changes the weights. The rule for Feedback-based Online Local
+Learning Of Weights (FOLLOW) is local in the sense that weight changes depend
+on the presynaptic activity and the error signal projected onto the
+postsynaptic neuron. We provide examples of learning linear, non-linear and
+chaotic dynamics, as well as the dynamics of a two-link arm. Using the Lyapunov
+method, and under reasonable assumptions and approximations, we show that
+FOLLOW learning is stable uniformly, with the error going to zero
+asymptotically.

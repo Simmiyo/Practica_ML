@@ -1,0 +1,17 @@
+On the choice of metric in gradient-based theories of brain function
+The idea that the brain functions so as to minimize certain costs pervades
+theoretical neuroscience. Since a cost function by itself does not predict how
+the brain finds its minima, additional assumptions about the optimization
+method need to be made to predict the dynamics of physiological quantities. In
+this context, steepest descent (also called gradient descent) is often
+suggested as an algorithmic principle of optimization potentially implemented
+by the brain. In practice, researchers often consider the vector of partial
+derivatives as the gradient. However, the definition of the gradient and the
+notion of a steepest direction depend on the choice of a metric. Since the
+choice of the metric involves a large number of degrees of freedom, the
+predictive power of models that are based on gradient descent must be called
+into question, unless there are strong constraints on the choice of the metric.
+Here we provide a didactic review of the mathematics of gradient descent,
+illustrate common pitfalls of using gradient descent as a principle of brain
+function with examples from the literature and propose ways forward to
+constrain the metric.

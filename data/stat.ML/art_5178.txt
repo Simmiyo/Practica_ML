@@ -1,0 +1,26 @@
+Tunable GMM Kernels
+The recently proposed "generalized min-max" (GMM) kernel can be efficiently
+linearized, with direct applications in large-scale statistical learning and
+fast near neighbor search. The linearized GMM kernel was extensively compared
+in with linearized radial basis function (RBF) kernel. On a large number of
+classification tasks, the tuning-free GMM kernel performs (surprisingly) well
+compared to the best-tuned RBF kernel. Nevertheless, one would naturally expect
+that the GMM kernel ought to be further improved if we introduce tuning
+parameters.
+  In this paper, we study three simple constructions of tunable GMM kernels:
+(i) the exponentiated-GMM (or eGMM) kernel, (ii) the powered-GMM (or pGMM)
+kernel, and (iii) the exponentiated-powered-GMM (epGMM) kernel. The pGMM kernel
+can still be efficiently linearized by modifying the original hashing procedure
+for the GMM kernel. On about 60 publicly available classification datasets, we
+verify that the proposed tunable GMM kernels typically improve over the
+original GMM kernel. On some datasets, the improvements can be astonishingly
+significant.
+  For example, on 11 popular datasets which were used for testing deep learning
+algorithms and tree methods, our experiments show that the proposed tunable GMM
+kernels are strong competitors to trees and deep nets. The previous studies
+developed tree methods including "abc-robust-logitboost" and demonstrated the
+excellent performance on those 11 datasets (and other datasets), by
+establishing the second-order tree-split formula and new derivatives for
+multi-class logistic loss. Compared to tree methods like
+"abc-robust-logitboost" (which are slow and need substantial model sizes), the
+tunable GMM kernels produce largely comparable results.

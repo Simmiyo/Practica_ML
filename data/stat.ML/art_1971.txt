@@ -1,0 +1,15 @@
+A Generalized Kernel Approach to Structured Output Learning
+We study the problem of structured output learning from a regression
+perspective. We first provide a general formulation of the kernel dependency
+estimation (KDE) problem using operator-valued kernels. We show that some of
+the existing formulations of this problem are special cases of our framework.
+We then propose a covariance-based operator-valued kernel that allows us to
+take into account the structure of the kernel feature space. This kernel
+operates on the output space and encodes the interactions between the outputs
+without any reference to the input space. To address this issue, we introduce a
+variant of our KDE method based on the conditional covariance operator that in
+addition to the correlation between the outputs takes into account the effects
+of the input variables. Finally, we evaluate the performance of our KDE
+approach using both covariance and conditional covariance kernels on two
+structured output problems, and compare it to the state-of-the-art kernel-based
+structured output regression methods.

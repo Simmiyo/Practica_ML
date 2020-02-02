@@ -1,0 +1,15 @@
+Bayesian Inference of Whole-Brain Networks
+In structural brain networks the connections of interest consist of
+white-matter fibre bundles between spatially segregated brain regions. The
+presence, location and orientation of these white matter tracts can be derived
+using diffusion MRI in combination with probabilistic tractography.
+Unfortunately, as of yet no approaches have been suggested that provide an
+undisputed way of inferring brain networks from tractography. In this paper, we
+provide a computational framework which we refer to as Bayesian connectomics.
+Rather than applying an arbitrary threshold to obtain a single network, we
+consider the posterior distribution of networks that are supported by the data,
+combined with an exponential random graph (ERGM) prior that captures a priori
+knowledge concerning the graph-theoretical properties of whole-brain networks.
+We show that, on simulated probabilistic tractography data, our approach is
+able to reconstruct whole-brain networks. In addition, our approach directly
+supports multi-model data fusion and group-level network inference.

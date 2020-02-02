@@ -1,0 +1,17 @@
+An Iterative Algorithm for Fitting Nonconvex Penalized Generalized
+  Linear Models with Grouped Predictors
+High-dimensional data pose challenges in statistical learning and modeling.
+Sometimes the predictors can be naturally grouped where pursuing the
+between-group sparsity is desired. Collinearity may occur in real-world
+high-dimensional applications where the popular $l_1$ technique suffers from
+both selection inconsistency and prediction inaccuracy. Moreover, the problems
+of interest often go beyond Gaussian models. To meet these challenges,
+nonconvex penalized generalized linear models with grouped predictors are
+investigated and a simple-to-implement algorithm is proposed for computation. A
+rigorous theoretical result guarantees its convergence and provides tight
+preliminary scaling. This framework allows for grouped predictors and nonconvex
+penalties, including the discrete $l_0$ and the `$l_0+l_2$' type penalties.
+Penalty design and parameter tuning for nonconvex penalties are examined.
+Applications of super-resolution spectrum estimation in signal processing and
+cancer classification with joint gene selection in bioinformatics show the
+performance improvement by nonconvex penalized estimation.

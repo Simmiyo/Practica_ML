@@ -1,0 +1,16 @@
+Morphological Constraints for Phrase Pivot Statistical Machine
+  Translation
+The lack of parallel data for many language pairs is an important challenge
+to statistical machine translation (SMT). One common solution is to pivot
+through a third language for which there exist parallel corpora with the source
+and target languages. Although pivoting is a robust technique, it introduces
+some low quality translations especially when a poor morphology language is
+used as the pivot between rich morphology languages. In this paper, we examine
+the use of synchronous morphology constraint features to improve the quality of
+phrase pivot SMT. We compare hand-crafted constraints to those learned from
+limited parallel data between source and target languages. The learned
+morphology constraints are based on projected align- ments between the source
+and target phrases in the pivot phrase table. We show positive results on
+Hebrew-Arabic SMT (pivoting on English). We get 1.5 BLEU points over a phrase
+pivot baseline and 0.8 BLEU points over a system combination baseline with a
+direct model built from parallel data.

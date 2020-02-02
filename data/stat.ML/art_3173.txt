@@ -1,0 +1,22 @@
+Efficient Blind Compressed Sensing Using Sparsifying Transforms with
+  Convergence Guarantees and Application to MRI
+Natural signals and images are well-known to be approximately sparse in
+transform domains such as Wavelets and DCT. This property has been heavily
+exploited in various applications in image processing and medical imaging.
+Compressed sensing exploits the sparsity of images or image patches in a
+transform domain or synthesis dictionary to reconstruct images from
+undersampled measurements. In this work, we focus on blind compressed sensing,
+where the underlying sparsifying transform is a priori unknown, and propose a
+framework to simultaneously reconstruct the underlying image as well as the
+sparsifying transform from highly undersampled measurements. The proposed block
+coordinate descent type algorithms involve highly efficient optimal updates.
+Importantly, we prove that although the proposed blind compressed sensing
+formulations are highly nonconvex, our algorithms are globally convergent
+(i.e., they converge from any initialization) to the set of critical points of
+the objectives defining the formulations. These critical points are guaranteed
+to be at least partial global and partial local minimizers. The exact point(s)
+of convergence may depend on initialization. We illustrate the usefulness of
+the proposed framework for magnetic resonance image reconstruction from highly
+undersampled k-space measurements. As compared to previous methods involving
+the synthesis dictionary model, our approach is much faster, while also
+providing promising reconstruction quality.

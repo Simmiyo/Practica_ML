@@ -1,0 +1,13 @@
+An Algorithm for Aligning Sentences in Bilingual Corpora Using Lexical
+  Information
+In this paper we describe an algorithm for aligning sentences with their
+translations in a bilingual corpus using lexical information of the languages.
+Existing efficient algorithms ignore word identities and consider only the
+sentence lengths (Brown, 1991; Gale and Church, 1993). For a sentence in the
+source language text, the proposed algorithm picks the most likely translation
+from the target language text using lexical information and certain heuristics.
+It does not do statistical analysis using sentence lengths. The algorithm is
+language independent. It also aids in detecting addition and deletion of text
+in translations. The algorithm gives comparable results with the existing
+algorithms in most of the cases while it does better in cases where statistical
+algorithms do not give good results.

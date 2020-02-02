@@ -1,0 +1,11 @@
+Attenuating Bias in Word Vectors
+Word vector representations are well developed tools for various NLP and
+Machine Learning tasks and are known to retain significant semantic and
+syntactic structure of languages. But they are prone to carrying and amplifying
+bias which can perpetrate discrimination in various applications. In this work,
+we explore new simple ways to detect the most stereotypically gendered words in
+an embedding and remove the bias from them. We verify how names are masked
+carriers of gender bias and then use that as a tool to attenuate bias in
+embeddings. Further, we extend this property of names to show how names can be
+used to detect other types of bias in the embeddings such as bias based on
+race, ethnicity, and age.

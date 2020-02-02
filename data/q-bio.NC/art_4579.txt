@@ -1,0 +1,29 @@
+Automatic recognition of element classes and boundaries in the birdsong
+  with variable sequences
+Researches on sequential vocalization often require analysis of vocalizations
+in long continuous sounds. In such studies as developmental ones or studies
+across generations in which days or months of vocalizations must be analyzed,
+methods for automatic recognition would be strongly desired. Although methods
+for automatic speech recognition for application purposes have been intensively
+studied, blindly applying them for biological purposes may not be an optimal
+solution. This is because, unlike human speech recognition, analysis of
+sequential vocalizations often requires accurate extraction of timing
+information. In the present study we propose automated systems suitable for
+recognizing birdsong, one of the most intensively investigated sequential
+vocalizations, focusing on the three properties of the birdsong. First, a song
+is a sequence of vocal elements, called notes, which can be grouped into
+categories. Second, temporal structure of birdsong is precisely controlled,
+meaning that temporal information is important in song analysis. Finally, notes
+are produced according to certain probabilistic rules, which may facilitate the
+accurate song recognition. We divided the procedure of song recognition into
+three sub-steps: local classification, boundary detection, and global
+sequencing, each of which corresponds to each of the three properties of
+birdsong. We compared the performances of several different ways to arrange
+these three steps. As results, we demonstrated a hybrid model of a deep neural
+network and a hidden Markov model is effective in recognizing birdsong with
+variable note sequences. We propose suitable arrangements of methods according
+to whether accurate boundary detection is needed. Also we designed the new
+measure to jointly evaluate the accuracy of note classification and boundary
+detection. Our methods should be applicable, with small modification and
+tuning, to the songs in other species that hold the three properties of the
+sequential vocalization.

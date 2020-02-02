@@ -1,0 +1,17 @@
+Analysis of Crowdsourced Sampling Strategies for HodgeRank with Sparse
+  Random Graphs
+Crowdsourcing platforms are now extensively used for conducting subjective
+pairwise comparison studies. In this setting, a pairwise comparison dataset is
+typically gathered via random sampling, either \emph{with} or \emph{without}
+replacement. In this paper, we use tools from random graph theory to analyze
+these two random sampling methods for the HodgeRank estimator. Using the
+Fiedler value of the graph as a measurement for estimator stability
+(informativeness), we provide a new estimate of the Fiedler value for these two
+random graph models. In the asymptotic limit as the number of vertices tends to
+infinity, we prove the validity of the estimate. Based on our findings, for a
+small number of items to be compared, we recommend a two-stage sampling
+strategy where a greedy sampling method is used initially and random sampling
+\emph{without} replacement is used in the second stage. When a large number of
+items is to be compared, we recommend random sampling with replacement as this
+is computationally inexpensive and trivially parallelizable. Experiments on
+synthetic and real-world datasets support our analysis.

@@ -1,0 +1,14 @@
+Urdu Word Segmentation using Conditional Random Fields (CRFs)
+State-of-the-art Natural Language Processing algorithms rely heavily on
+efficient word segmentation. Urdu is amongst languages for which word
+segmentation is a complex task as it exhibits space omission as well as space
+insertion issues. This is partly due to the Arabic script which although
+cursive in nature, consists of characters that have inherent joining and
+non-joining attributes regardless of word boundary. This paper presents a word
+segmentation system for Urdu which uses a Conditional Random Field sequence
+modeler with orthographic, linguistic and morphological features. Our proposed
+model automatically learns to predict white space as word boundary as well as
+Zero Width Non-Joiner (ZWNJ) as sub-word boundary. Using a manually annotated
+corpus, our model achieves F1 score of 0.97 for word boundary identification
+and 0.85 for sub-word boundary identification tasks. We have made our code and
+corpus publicly available to make our results reproducible.

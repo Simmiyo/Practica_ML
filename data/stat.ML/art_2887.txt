@@ -1,0 +1,12 @@
+An Incremental Reseeding Strategy for Clustering
+In this work we propose a simple and easily parallelizable algorithm for
+multiway graph partitioning. The algorithm alternates between three basic
+components: diffusing seed vertices over the graph, thresholding the diffused
+seeds, and then randomly reseeding the thresholded clusters. We demonstrate
+experimentally that the proper combination of these ingredients leads to an
+algorithm that achieves state-of-the-art performance in terms of cluster purity
+on standard benchmarks datasets. Moreover, the algorithm runs an order of
+magnitude faster than the other algorithms that achieve comparable results in
+terms of accuracy. We also describe a coarsen, cluster and refine approach
+similar to GRACLUS and METIS that removes an additional order of magnitude from
+the runtime of our algorithm while still maintaining competitive accuracy.

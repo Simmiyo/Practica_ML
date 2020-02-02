@@ -1,0 +1,25 @@
+Greedy expansions in convex optimization
+This paper is a follow up to the previous author's paper on convex
+optimization. In that paper we began the process of adjusting greedy-type
+algorithms from nonlinear approximation for finding sparse solutions of convex
+optimization problems. We modified there three the most popular in nonlinear
+approximation in Banach spaces greedy algorithms -- Weak Chebyshev Greedy
+Algorithm, Weak Greedy Algorithm with Free Relaxation and Weak Relaxed Greedy
+Algorithm -- for solving convex optimization problems. We continue to study
+sparse approximate solutions to convex optimization problems. It is known that
+in many engineering applications researchers are interested in an approximate
+solution of an optimization problem as a linear combination of elements from a
+given system of elements. There is an increasing interest in building such
+sparse approximate solutions using different greedy-type algorithms. In this
+paper we concentrate on greedy algorithms that provide expansions, which means
+that the approximant at the $m$th iteration is equal to the sum of the
+approximant from the previous iteration ($(m-1)$th iteration) and one element
+from the dictionary with an appropriate coefficient. The problem of greedy
+expansions of elements of a Banach space is well studied in nonlinear
+approximation theory. At a first glance the setting of a problem of expansion
+of a given element and the setting of the problem of expansion in an
+optimization problem are very different. However, it turns out that the same
+technique can be used for solving both problems. We show how the technique
+developed in nonlinear approximation theory, in particular, the greedy
+expansions technique can be adjusted for finding a sparse solution of an
+optimization problem given by an expansion with respect to a given dictionary.

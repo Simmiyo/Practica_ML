@@ -1,0 +1,14 @@
+Improving Hypernymy Extraction with Distributional Semantic Classes
+In this paper, we show how distributionally-induced semantic classes can be
+helpful for extracting hypernyms. We present methods for inducing sense-aware
+semantic classes using distributional semantics and using these induced
+semantic classes for filtering noisy hypernymy relations. Denoising of
+hypernyms is performed by labeling each semantic class with its hypernyms. On
+the one hand, this allows us to filter out wrong extractions using the global
+structure of distributionally similar senses. On the other hand, we infer
+missing hypernyms via label propagation to cluster terms. We conduct a
+large-scale crowdsourcing study showing that processing of automatically
+extracted hypernyms using our approach improves the quality of the hypernymy
+extraction in terms of both precision and recall. Furthermore, we show the
+utility of our method in the domain taxonomy induction task, achieving the
+state-of-the-art results on a SemEval'16 task on taxonomy induction.

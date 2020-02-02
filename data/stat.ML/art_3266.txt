@@ -1,0 +1,23 @@
+An Adaptive Online HDP-HMM for Segmentation and Classification of
+  Sequential Data
+In the recent years, the desire and need to understand sequential data has
+been increasing, with particular interest in sequential contexts such as
+patient monitoring, understanding daily activities, video surveillance, stock
+market and the like. Along with the constant flow of data, it is critical to
+classify and segment the observations on-the-fly, without being limited to a
+rigid number of classes. In addition, the model needs to be capable of updating
+its parameters to comply with possible evolutions. This interesting problem,
+however, is not adequately addressed in the literature since many studies focus
+on offline classification over a pre-defined class set. In this paper, we
+propose a principled solution to this gap by introducing an adaptive online
+system based on Markov switching models with hierarchical Dirichlet process
+priors. This infinite adaptive online approach is capable of segmenting and
+classifying the sequential data over unlimited number of classes, while meeting
+the memory and delay constraints of streaming contexts. The model is further
+enhanced by introducing a learning rate, responsible for balancing the extent
+to which the model sustains its previous learning (parameters) or adapts to the
+new streaming observations. Experimental results on several variants of
+stationary and evolving synthetic data and two video datasets, TUM Assistive
+Kitchen and collatedWeizmann, show remarkable performance in segmentation and
+classification, particularly for evolutionary sequences with changing
+distributions and/or containing new, unseen classes.

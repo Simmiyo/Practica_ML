@@ -1,0 +1,22 @@
+Approximate Inference for Time-varying Interactions and Macroscopic
+  Dynamics of Neural Populations
+The models in statistical physics such as an Ising model offer a convenient
+way to characterize stationary activity of neural populations. Such stationary
+activity of neurons may be expected for recordings from in vitro slices or
+anesthetized animals. However, modeling activity of cortical circuitries of
+awake animals has been more challenging because both spike-rates and
+interactions can change according to sensory stimulation, behavior, or an
+internal state of the brain. Previous approaches modeling the dynamics of
+neural interactions suffer from computational cost; therefore, its application
+was limited to only a dozen neurons. Here by introducing multiple analytic
+approximation methods to a state-space model of neural population activity, we
+make it possible to estimate dynamic pairwise interactions of up to 60 neurons.
+More specifically, we applied the pseudolikelihood approximation to the
+state-space model, and combined it with the Bethe or TAP mean-field
+approximation to make the sequential Bayesian estimation of the model
+parameters possible. The large-scale analysis allows us to investigate dynamics
+of macroscopic properties of neural circuitries underlying stimulus processing
+and behavior. We show that the model accurately estimates dynamics of network
+properties such as sparseness, entropy, and heat capacity by simulated data,
+and demonstrate utilities of these measures by analyzing activity of monkey V4
+neurons as well as a simulated balanced network of spiking neurons.

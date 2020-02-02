@@ -1,0 +1,11 @@
+Regret Bounds for Lifelong Learning
+We consider the problem of transfer learning in an online setting. Different
+tasks are presented sequentially and processed by a within-task algorithm. We
+propose a lifelong learning strategy which refines the underlying data
+representation used by the within-task algorithm, thereby transferring
+information from one task to the next. We show that when the within-task
+algorithm comes with some regret bound, our strategy inherits this good
+property. Our bounds are in expectation for a general loss function, and
+uniform for a convex loss. We discuss applications to dictionary learning and
+finite set of predictors. In the latter case, we improve previous
+$O(1/\sqrt{m})$ bounds to $O(1/m)$ where $m$ is the per task sample size.

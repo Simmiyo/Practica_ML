@@ -1,0 +1,13 @@
+Reusing Neural Speech Representations for Auditory Emotion Recognition
+Acoustic emotion recognition aims to categorize the affective state of the
+speaker and is still a difficult task for machine learning models. The
+difficulties come from the scarcity of training data, general subjectivity in
+emotion perception resulting in low annotator agreement, and the uncertainty
+about which features are the most relevant and robust ones for classification.
+In this paper, we will tackle the latter problem. Inspired by the recent
+success of transfer learning methods we propose a set of architectures which
+utilize neural representations inferred by training on large speech databases
+for the acoustic emotion recognition task. Our experiments on the IEMOCAP
+dataset show ~10% relative improvements in the accuracy and F1-score over the
+baseline recurrent neural network which is trained end-to-end for emotion
+recognition.

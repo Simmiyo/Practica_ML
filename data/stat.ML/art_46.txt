@@ -1,0 +1,15 @@
+The Feature Importance Ranking Measure
+Most accurate predictions are typically obtained by learning machines with
+complex feature spaces (as e.g. induced by kernels). Unfortunately, such
+decision rules are hardly accessible to humans and cannot easily be used to
+gain insights about the application domain. Therefore, one often resorts to
+linear models in combination with variable selection, thereby sacrificing some
+predictive power for presumptive interpretability. Here, we introduce the
+Feature Importance Ranking Measure (FIRM), which by retrospective analysis of
+arbitrary learning machines allows to achieve both excellent predictive
+performance and superior interpretation. In contrast to standard raw feature
+weighting, FIRM takes the underlying correlation structure of the features into
+account. Thereby, it is able to discover the most relevant features, even if
+their appearance in the training data is entirely prevented by noise. The
+desirable properties of FIRM are investigated analytically and illustrated in
+simulations.

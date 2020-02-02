@@ -1,0 +1,15 @@
+Cell-type-specific microarray data and the Allen atlas: quantitative
+  analysis of brain-wide patterns of correlation and density
+The Allen Atlas of the adult mouse brain is used to estimate the
+region-specificity of 64 cell types whose transcriptional profile in the mouse
+brain has been measured in microarray experiments. We systematically analyze
+the preliminary results presented in [arXiv:1111.6217], using the techniques
+implemented in the Brain Gene Expression Analysis toolbox. In particular, for
+each cell-type-specific sample in the study, we compute a brain-wide
+correlation profile to the Allen Atlas, and estimate a brain-wide density
+profile by solving a quadratic optimization problem at each voxel in the mouse
+brain. We characterize the neuroanatomical properties of the correlation and
+density profiles by ranking the regions of the left hemisphere delineated in
+the Allen Reference Atlas. We compare these rankings to prior biological
+knowledge of the brain region from which the cell-type-specific sample was
+extracted.

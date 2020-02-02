@@ -1,0 +1,17 @@
+Bayesian Model Selection Methods for Mutual and Symmetric $k$-Nearest
+  Neighbor Classification
+The $k$-nearest neighbor classification method ($k$-NNC) is one of the
+simplest nonparametric classification methods. The mutual $k$-NN classification
+method (M$k$NNC) is a variant of $k$-NNC based on mutual neighborship. We
+propose another variant of $k$-NNC, the symmetric $k$-NN classification method
+(S$k$NNC) based on both mutual neighborship and one-sided neighborship. The
+performance of M$k$NNC and S$k$NNC depends on the parameter $k$ as the one of
+$k$-NNC does. We propose the ways how M$k$NN and S$k$NN classification can be
+performed based on Bayesian mutual and symmetric $k$-NN regression methods with
+the selection schemes for the parameter $k$. Bayesian mutual and symmetric
+$k$-NN regression methods are based on Gaussian process models, and it turns
+out that they can do M$k$NN and S$k$NN classification with new encodings of
+target values (class labels). The simulation results show that the proposed
+methods are better than or comparable to $k$-NNC, M$k$NNC and S$k$NNC with the
+parameter $k$ selected by the leave-one-out cross validation method not only
+for an artificial data set but also for real world data sets.

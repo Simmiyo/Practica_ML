@@ -1,0 +1,14 @@
+Cell-type-specific computational neuroanatomy, simulations from the
+  sagittal and coronal Allen Brain Atlas
+The Allen Atlas of the adult mouse brain is a brain-wide, genome-wide data
+set that has been made available online, triggering a renaissance in
+neuroanatomy. In particular, it has been used to define brain regions in a
+computational, data-driven way, and to estimate the region-specificity of cell
+types characterized independently by their transcriptional activity. However,
+these results were based on one series of co-registered (coronal) ISH image
+series per gene, whereas the online ABA contains several image series per
+genes, including sagittal ones. Since the sagittal series cover mostly the left
+hemisphere, we can simulate the variability of results by repeatedly drawing a
+random image series for each gene and restricting the computation to the left
+hemisphere. This gives rise to an estimate of error bars on the results of
+computational neuroanatomy.

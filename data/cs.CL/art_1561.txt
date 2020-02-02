@@ -1,0 +1,11 @@
+Unsupervised patient representations from clinical notes with
+  interpretable classification decisions
+We have two main contributions in this work: 1. We explore the usage of a
+stacked denoising autoencoder, and a paragraph vector model to learn
+task-independent dense patient representations directly from clinical notes. We
+evaluate these representations by using them as features in multiple supervised
+setups, and compare their performance with those of sparse representations. 2.
+To understand and interpret the representations, we explore the best encoded
+features within the patient representations obtained from the autoencoder
+model. Further, we calculate the significance of the input features of the
+trained classifiers when we use these pretrained representations as input.

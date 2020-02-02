@@ -1,0 +1,23 @@
+Minimizing inter-subject variability in fNIRS based Brain Computer
+  Interfaces via multiple-kernel support vector learning
+Brain signal variability in the measurements obtained from different subjects
+during different sessions significantly deteriorates the accuracy of most
+brain-computer interface (BCI) systems. Moreover these variabilities, also
+known as inter-subject or inter-session variabilities, require lengthy
+calibration sessions before the BCI system can be used. Furthermore, the
+calibration session has to be repeated for each subject independently and
+before use of the BCI due to the inter-session variability. In this study, we
+present an algorithm in order to minimize the above-mentioned variabilities and
+to overcome the time-consuming and usually error-prone calibration time. Our
+algorithm is based on linear programming support-vector machines and their
+extensions to a multiple kernel learning framework. We tackle the inter-subject
+or -session variability in the feature spaces of the classifiers. This is done
+by incorporating each subject- or session-specific feature spaces into much
+richer feature spaces with a set of optimal decision boundaries. Each decision
+boundary represents the subject- or a session specific spatio-temporal
+variabilities of neural signals. Consequently, a single classifier with
+multiple feature spaces will generalize well to new unseen test patterns even
+without the calibration steps. We demonstrate that classifiers maintain good
+performances even under the presence of a large degree of BCI variability. The
+present study analyzes BCI variability related to oxy-hemoglobin neural signals
+measured using a functional near-infrared spectroscopy.

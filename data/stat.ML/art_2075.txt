@@ -1,0 +1,24 @@
+Shift-Invariance Sparse Coding for Audio Classification
+Sparse coding is an unsupervised learning algorithm that learns a succinct
+high-level representation of the inputs given only unlabeled data; it
+represents each input as a sparse linear combination of a set of basis
+functions. Originally applied to modeling the human visual cortex, sparse
+coding has also been shown to be useful for self-taught learning, in which the
+goal is to solve a supervised classification task given access to additional
+unlabeled data drawn from different classes than that in the supervised
+learning problem. Shift-invariant sparse coding (SISC) is an extension of
+sparse coding which reconstructs a (usually time-series) input using all of the
+basis functions in all possible shifts. In this paper, we present an efficient
+algorithm for learning SISC bases. Our method is based on iteratively solving
+two large convex optimization problems: The first, which computes the linear
+coefficients, is an L1-regularized linear least squares problem with
+potentially hundreds of thousands of variables. Existing methods typically use
+a heuristic to select a small subset of the variables to optimize, but we
+present a way to efficiently compute the exact solution. The second, which
+solves for bases, is a constrained linear least squares problem. By optimizing
+over complex-valued variables in the Fourier domain, we reduce the coupling
+between the different variables, allowing the problem to be solved efficiently.
+We show that SISC's learned high-level representations of speech and music
+provide useful features for classification tasks within those domains. When
+applied to classification, under certain conditions the learned features
+outperform state of the art spectral and cepstral features.

@@ -1,0 +1,16 @@
+Improved training for online end-to-end speech recognition systems
+Achieving high accuracy with end-to-end speech recognizers requires careful
+parameter initialization prior to training. Otherwise, the networks may fail to
+find a good local optimum. This is particularly true for online networks, such
+as unidirectional LSTMs. Currently, the best strategy to train such systems is
+to bootstrap the training from a tied-triphone system. However, this is time
+consuming, and more importantly, is impossible for languages without a
+high-quality pronunciation lexicon. In this work, we propose an initialization
+strategy that uses teacher-student learning to transfer knowledge from a large,
+well-trained, offline end-to-end speech recognition model to an online
+end-to-end model, eliminating the need for a lexicon or any other linguistic
+resources. We also explore curriculum learning and label smoothing and show how
+they can be combined with the proposed teacher-student learning for further
+improvements. We evaluate our methods on a Microsoft Cortana personal assistant
+task and show that the proposed method results in a 19 % relative improvement
+in word error rate compared to a randomly-initialized baseline system.

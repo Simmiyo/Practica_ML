@@ -1,0 +1,19 @@
+An artificial neural network to find correlation patterns in an
+  arbitrary number of variables
+Methods to find correlation among variables are of interest to many
+disciplines, including statistics, machine learning, (big) data mining and
+neurosciences. Parameters that measure correlation between two variables are of
+limited utility when used with multiple variables. In this work, I propose a
+simple criterion to measure correlation among an arbitrary number of variables,
+based on a data set. The central idea is to i) design a function of the
+variables that can take different forms depending on a set of parameters, ii)
+calculate the difference between a statistics associated to the function
+computed on the data set and the same statistics computed on a randomised
+version of the data set, called "scrambled" data set, and iii) optimise the
+parameters to maximise this difference. Many such functions can be organised in
+layers, which can in turn be stacked one on top of the other, forming a neural
+network. The function parameters are searched with an enhanced genetic
+algortihm called POET and the resulting method is tested on a cancer gene data
+set. The method may have potential implications for some issues that affect the
+field of neural networks, such as overfitting, the need to process huge amounts
+of data for training and the presence of "adversarial examples".

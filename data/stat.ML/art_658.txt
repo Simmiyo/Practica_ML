@@ -1,0 +1,15 @@
+Stochastic gradient variational Bayes for gamma approximating
+  distributions
+While stochastic variational inference is relatively well known for scaling
+inference in Bayesian probabilistic models, related methods also offer ways to
+circumnavigate the approximation of analytically intractable expectations. The
+key challenge in either setting is controlling the variance of gradient
+estimates: recent work has shown that for continuous latent variables,
+particularly multivariate Gaussians, this can be achieved by using the gradient
+of the log posterior. In this paper we apply the same idea to gamma distributed
+latent variables given gamma variational distributions, enabling
+straightforward "black box" variational inference in models where sparsity and
+non-negativity are appropriate. We demonstrate the method on a recently
+proposed gamma process model for network data, as well as a novel sparse factor
+analysis. We outperform generic sampling algorithms and the approach of using
+Gaussian variational distributions on transformed variables.

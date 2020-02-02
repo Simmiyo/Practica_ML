@@ -1,0 +1,25 @@
+Nonlinear Structural Vector Autoregressive Models for Inferring
+  Effective Brain Network Connectivity
+Structural equation models (SEMs) and vector autoregressive models (VARMs)
+are two broad families of approaches that have been shown useful in effective
+brain connectivity studies. While VARMs postulate that a given region of
+interest in the brain is directionally connected to another one by virtue of
+time-lagged influences, SEMs assert that causal dependencies arise due to
+contemporaneous effects, and may even be adopted when nodal measurements are
+not necessarily multivariate time series. To unify these complementary
+perspectives, linear structural vector autoregressive models (SVARMs) that
+leverage both contemporaneous and time-lagged nodal data have recently been put
+forth. Albeit simple and tractable, linear SVARMs are quite limited since they
+are incapable of modeling nonlinear dependencies between neuronal time series.
+To this end, the overarching goal of the present paper is to considerably
+broaden the span of linear SVARMs by capturing nonlinearities through kernels,
+which have recently emerged as a powerful nonlinear modeling framework in
+canonical machine learning tasks, e.g., regression, classification, and
+dimensionality reduction. The merits of kernel-based methods are extended here
+to the task of learning the effective brain connectivity, and an efficient
+regularized estimator is put forth to leverage the edge sparsity inherent to
+real-world complex networks. Judicious kernel choice from a preselected
+dictionary of kernels is also addressed using a data-driven approach. Extensive
+numerical tests on ECoG data captured through a study on epileptic seizures
+demonstrate that it is possible to unveil previously unknown causal links
+between brain regions of interest.

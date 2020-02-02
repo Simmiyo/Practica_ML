@@ -1,0 +1,14 @@
+Learning the Structure for Structured Sparsity
+Structured sparsity has recently emerged in statistics, machine learning and
+signal processing as a promising paradigm for learning in high-dimensional
+settings. All existing methods for learning under the assumption of structured
+sparsity rely on prior knowledge on how to weight (or how to penalize)
+individual subsets of variables during the subset selection process, which is
+not available in general. Inferring group weights from data is a key open
+research problem in structured sparsity.In this paper, we propose a Bayesian
+approach to the problem of group weight learning. We model the group weights as
+hyperparameters of heavy-tailed priors on groups of variables and derive an
+approximate inference scheme to infer these hyperparameters. We empirically
+show that we are able to recover the model hyperparameters when the data are
+generated from the model, and we demonstrate the utility of learning weights in
+synthetic and real denoising problems.

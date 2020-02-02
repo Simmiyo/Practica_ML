@@ -1,0 +1,17 @@
+On the Equivalence of Factorized Information Criterion Regularization
+  and the Chinese Restaurant Process Prior
+Factorized Information Criterion (FIC) is a recently developed information
+criterion, based on which a novel model selection methodology, namely
+Factorized Asymptotic Bayesian (FAB) Inference, has been developed and
+successfully applied to various hierarchical Bayesian models. The Dirichlet
+Process (DP) prior, and one of its well known representations, the Chinese
+Restaurant Process (CRP), derive another line of model selection methods. FIC
+can be viewed as a prior distribution over the latent variable configurations.
+Under this view, we prove that when the parameter dimensionality $D_{c}=2$, FIC
+is equivalent to CRP. We argue that when $D_{c}>2$, FIC avoids an inherent
+problem of DP/CRP, i.e. the data likelihood will dominate the impact of the
+prior, and thus the model selection capability will weaken as $D_{c}$
+increases. However, FIC overestimates the data likelihood. As a result, FIC may
+be overly biased towards models with less components. We propose a natural
+generalization of FIC, which finds a middle ground between CRP and FIC, and may
+yield more accurate model selection results than FIC.

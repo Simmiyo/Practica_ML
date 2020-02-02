@@ -1,0 +1,13 @@
+Learning to Write Notes in Electronic Health Records
+Clinicians spend a significant amount of time inputting free-form textual
+notes into Electronic Health Records (EHR) systems. Much of this documentation
+work is seen as a burden, reducing time spent with patients and contributing to
+clinician burnout. With the aspiration of AI-assisted note-writing, we propose
+a new language modeling task predicting the content of notes conditioned on
+past data from a patient's medical record, including patient demographics,
+labs, medications, and past notes. We train generative models using the public,
+de-identified MIMIC-III dataset and compare generated notes with those in the
+dataset on multiple measures. We find that much of the content can be
+predicted, and that many common templates found in notes can be learned. We
+discuss how such models can be useful in supporting assistive note-writing
+features such as error-detection and auto-complete.

@@ -1,0 +1,16 @@
+Beta diffusion trees and hierarchical feature allocations
+We define the beta diffusion tree, a random tree structure with a set of
+leaves that defines a collection of overlapping subsets of objects, known as a
+feature allocation. A generative process for the tree structure is defined in
+terms of particles (representing the objects) diffusing in some continuous
+space, analogously to the Dirichlet diffusion tree (Neal, 2003), which defines
+a tree structure over partitions (i.e., non-overlapping subsets) of the
+objects. Unlike in the Dirichlet diffusion tree, multiple copies of a particle
+may exist and diffuse along multiple branches in the beta diffusion tree, and
+an object may therefore belong to multiple subsets of particles. We demonstrate
+how to build a hierarchically-clustered factor analysis model with the beta
+diffusion tree and how to perform inference over the random tree structures
+with a Markov chain Monte Carlo algorithm. We conclude with several numerical
+experiments on missing data problems with data sets of gene expression
+microarrays, international development statistics, and intranational
+socioeconomic measurements.

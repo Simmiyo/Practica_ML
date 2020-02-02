@@ -1,0 +1,11 @@
+Injecting Relational Structural Representation in Neural Networks for
+  Question Similarity
+Effectively using full syntactic parsing information in Neural Networks (NNs)
+to solve relational tasks, e.g., question similarity, is still an open problem.
+In this paper, we propose to inject structural representations in NNs by (i)
+learning an SVM model using Tree Kernels (TKs) on relatively few pairs of
+questions (few thousands) as gold standard (GS) training data is typically
+scarce, (ii) predicting labels on a very large corpus of question pairs, and
+(iii) pre-training NNs on such large corpus. The results on Quora and SemEval
+question similarity datasets show that NNs trained with our approach can learn
+more accurate models, especially after fine tuning on GS.

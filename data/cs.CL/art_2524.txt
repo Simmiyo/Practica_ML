@@ -1,0 +1,10 @@
+Improving Context Aware Language Models
+Increased adaptability of RNN language models leads to improved predictions
+that benefit many applications. However, current methods do not take full
+advantage of the RNN structure. We show that the most widely-used approach to
+adaptation (concatenating the context with the word embedding at the input to
+the recurrent layer) is outperformed by a model that has some low-cost
+improvements: adaptation of both the hidden and output layers. and a feature
+hashing bias term to capture context idiosyncrasies. Experiments on language
+modeling and classification tasks using three different corpora demonstrate the
+advantages of the proposed techniques.

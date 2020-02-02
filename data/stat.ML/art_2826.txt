@@ -1,0 +1,13 @@
+The Potential Benefits of Filtering Versus Hyper-Parameter Optimization
+The quality of an induced model by a learning algorithm is dependent on the
+quality of the training data and the hyper-parameters supplied to the learning
+algorithm. Prior work has shown that improving the quality of the training data
+(i.e., by removing low quality instances) or tuning the learning algorithm
+hyper-parameters can significantly improve the quality of an induced model. A
+comparison of the two methods is lacking though. In this paper, we estimate and
+compare the potential benefits of filtering and hyper-parameter optimization.
+Estimating the potential benefit gives an overly optimistic estimate but also
+empirically demonstrates an approximation of the maximum potential benefit of
+each method. We find that, while both significantly improve the induced model,
+improving the quality of the training set has a greater potential effect than
+hyper-parameter optimization.

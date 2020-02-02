@@ -1,0 +1,9 @@
+Extractive Text Summarization using Neural Networks
+Text Summarization has been an extensively studied problem. Traditional
+approaches to text summarization rely heavily on feature engineering. In
+contrast to this, we propose a fully data-driven approach using feedforward
+neural networks for single document summarization. We train and evaluate the
+model on standard DUC 2002 dataset which shows results comparable to the state
+of the art models. The proposed model is scalable and is able to produce the
+summary of arbitrarily sized documents by breaking the original document into
+fixed sized parts and then feeding it recursively to the network.

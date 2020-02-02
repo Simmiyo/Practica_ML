@@ -1,0 +1,22 @@
+Studying the Effects of Deep Brain Stimulation and Medication on the
+  Dynamics of STN-LFP Signals for Human Behavior Analysis
+This paper presents the results of our recent work on studying the effects of
+deep brain stimulation (DBS) and medication on the dynamics of brain local
+field potential (LFP) signals used for behavior analysis of patients with
+Parkinson s disease (PD). DBS is a technique used to alleviate the severe
+symptoms of PD when pharmacotherapy is not very effective. Behavior recognition
+from the LFP signals recorded from the subthalamic nucleus (STN) has
+application in developing closed-loop DBS systems, where the stimulation pulse
+is adaptively generated according to subjects performing behavior. Most of the
+existing studies on behavior recognition that use STN-LFPs are based on the DBS
+being off. This paper discovers how the performance and accuracy of automated
+behavior recognition from the LFP signals are affected under different
+paradigms of stimulation on/off. We first study the notion of beta power
+suppression in LFP signals under different scenarios (stimulation on/off and
+medication on/off). Afterward, we explore the accuracy of support vector
+machines in predicting human actions (button press and reach) using the
+spectrogram of STN-LFP signals. Our experiments on the recorded LFP signals of
+three subjects confirm that the beta power is suppressed significantly when the
+patients take medication (p-value<0.002) or stimulation (p-value<0.0003). The
+results also show that we can classify different behaviors with a reasonable
+accuracy of 85% even when the high-amplitude stimulation is applied.

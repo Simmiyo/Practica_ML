@@ -1,0 +1,21 @@
+Predictive support recovery with TV-Elastic Net penalty and logistic
+  regression: an application to structural MRI
+The use of machine-learning in neuroimaging offers new perspectives in early
+diagnosis and prognosis of brain diseases. Although such multivariate methods
+can capture complex relationships in the data, traditional approaches provide
+irregular (l2 penalty) or scattered (l1 penalty) predictive pattern with a very
+limited relevance. A penalty like Total Variation (TV) that exploits the
+natural 3D structure of the images can increase the spatial coherence of the
+weight map. However, TV penalization leads to non-smooth optimization problems
+that are hard to minimize. We propose an optimization framework that minimizes
+any combination of l1, l2, and TV penalties while preserving the exact l1
+penalty. This algorithm uses Nesterov's smoothing technique to approximate the
+TV penalty with a smooth function such that the loss and the penalties are
+minimized with an exact accelerated proximal gradient algorithm. We propose an
+original continuation algorithm that uses successively smaller values of the
+smoothing parameter to reach a prescribed precision while achieving the best
+possible convergence rate. This algorithm can be used with other losses or
+penalties. The algorithm is applied on a classification problem on the ADNI
+dataset. We observe that the TV penalty does not necessarily improve the
+prediction but provides a major breakthrough in terms of support recovery of
+the predictive brain regions.

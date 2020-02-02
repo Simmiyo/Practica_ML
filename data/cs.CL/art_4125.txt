@@ -1,0 +1,19 @@
+Gender Prediction in English-Hindi Code-Mixed Social Media Content :
+  Corpus and Baseline System
+The rapid expansion in the usage of social media networking sites leads to a
+huge amount of unprocessed user generated data which can be used for text
+mining. Author profiling is the problem of automatically determining profiling
+aspects like the author's gender and age group through a text is gaining much
+popularity in computational linguistics. Most of the past research in author
+profiling is concentrated on English texts \cite{1,2}. However many users often
+change the language while posting on social media which is called code-mixing,
+and it develops some challenges in the field of text classification and author
+profiling like variations in spelling, non-grammatical structure and
+transliteration \cite{3}. There are very few English-Hindi code-mixed annotated
+datasets of social media content present online \cite{4}. In this paper, we
+analyze the task of author's gender prediction in code-mixed content and
+present a corpus of English-Hindi texts collected from Twitter which is
+annotated with author's gender. We also explore language identification of
+every word in this corpus. We present a supervised classification baseline
+system which uses various machine learning algorithms to identify the gender of
+an author using a text, based on character and word level features.

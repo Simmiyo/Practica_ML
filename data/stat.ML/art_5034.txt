@@ -1,0 +1,14 @@
+Theoretical Evaluation of Feature Selection Methods based on Mutual
+  Information
+Feature selection methods are usually evaluated by wrapping specific
+classifiers and datasets in the evaluation process, resulting very often in
+unfair comparisons between methods. In this work, we develop a theoretical
+framework that allows obtaining the true feature ordering of two-dimensional
+sequential forward feature selection methods based on mutual information, which
+is independent of entropy or mutual information estimation methods,
+classifiers, or datasets, and leads to an undoubtful comparison of the methods.
+Moreover, the theoretical framework unveils problems intrinsic to some methods
+that are otherwise difficult to detect, namely inconsistencies in the
+construction of the objective function used to select the candidate features,
+due to various types of indeterminations and to the possibility of the entropy
+of continuous random variables taking null and negative values.

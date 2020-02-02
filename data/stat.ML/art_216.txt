@@ -1,0 +1,19 @@
+Nested Expectation Propagation for Gaussian Process Classification with
+  a Multinomial Probit Likelihood
+We consider probabilistic multinomial probit classification using Gaussian
+process (GP) priors. The challenges with the multiclass GP classification are
+the integration over the non-Gaussian posterior distribution, and the increase
+of the number of unknown latent variables as the number of target classes
+grows. Expectation propagation (EP) has proven to be a very accurate method for
+approximate inference but the existing EP approaches for the multinomial probit
+GP classification rely on numerical quadratures or independence assumptions
+between the latent values from different classes to facilitate the
+computations. In this paper, we propose a novel nested EP approach which does
+not require numerical quadratures, and approximates accurately all
+between-class posterior dependencies of the latent values, but still scales
+linearly in the number of classes. The predictive accuracy of the nested EP
+approach is compared to Laplace, variational Bayes, and Markov chain Monte
+Carlo (MCMC) approximations with various benchmark data sets. In the
+experiments nested EP was the most consistent method with respect to MCMC
+sampling, but the differences between the compared methods were small if only
+the classification accuracy is concerned.

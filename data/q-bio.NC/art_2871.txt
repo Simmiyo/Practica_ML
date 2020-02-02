@@ -1,0 +1,24 @@
+Testing of information condensation in a model reverberating spiking
+  neural network
+Information about external world is delivered to the brain in the form of
+structured in time spike trains. During further processing in higher areas,
+information is subjected to a certain condensation process, which results in
+formation of abstract conceptual images of external world, apparently,
+represented as certain uniform spiking activity partially independent on the
+input spike trains details. Possible physical mechanism of condensation at the
+level of individual neuron was discussed recently. In a reverberating spiking
+neural network, due to this mechanism the dynamics should settle down to the
+same uniform/periodic activity in response to a set of various inputs. Since
+the same periodic activity may correspond to different input spike trains, we
+interpret this as possible candidate for information condensation mechanism in
+a network. Our purpose is to test this possibility in a network model
+consisting of five fully connected neurons, particularly, the influence of
+geometric size of the network, on its ability to condense information. Dynamics
+of 20 spiking neural networks of different geometric sizes are modelled by
+means of computer simulation. Each network was propelled into reverberating
+dynamics by applying various initial input spike trains. We run the dynamics
+until it becomes periodic. The Shannon's formula is used to calculate the
+amount of information in any input spike train and in any periodic state found.
+As a result, we obtain explicit estimate of the degree of information
+condensation in the networks, and conclude that it depends strongly on the
+net's geometric size.

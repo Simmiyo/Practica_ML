@@ -1,0 +1,17 @@
+Complex-valued Gaussian Process Regression for Time Series Analysis
+The construction of synthetic complex-valued signals from real-valued
+observations is an important step in many time series analysis techniques. The
+most widely used approach is based on the Hilbert transform, which maps the
+real-valued signal into its quadrature component. In this paper, we define a
+probabilistic generalization of this approach. We model the observable
+real-valued signal as the real part of a latent complex-valued Gaussian
+process. In order to obtain the appropriate statistical relationship between
+its real and imaginary parts, we define two new classes of complex-valued
+covariance functions. Through an analysis of simulated chirplets and stochastic
+oscillations, we show that the resulting Gaussian process complex-valued signal
+provides a better estimate of the instantaneous amplitude and frequency than
+the established approaches. Furthermore, the complex-valued Gaussian process
+regression allows to incorporate prior information about the structure in
+signal and noise and thereby to tailor the analysis to the features of the
+signal. As a example, we analyze the non-stationary dynamics of brain
+oscillations in the alpha band, as measured using magneto-encephalography.

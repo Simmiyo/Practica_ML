@@ -1,0 +1,11 @@
+Split Bregman Method for Sparse Inverse Covariance Estimation with
+  Matrix Iteration Acceleration
+We consider the problem of estimating the inverse covariance matrix by
+maximizing the likelihood function with a penalty added to encourage the
+sparsity of the resulting matrix. We propose a new approach based on the split
+Bregman method to solve the regularized maximum likelihood estimation problem.
+We show that our method is significantly faster than the widely used graphical
+lasso method, which is based on blockwise coordinate descent, on both
+artificial and real-world data. More importantly, different from the graphical
+lasso, the split Bregman based method is much more general, and can be applied
+to a class of regularization terms other than the $\ell_1$ norm

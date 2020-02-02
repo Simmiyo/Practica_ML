@@ -1,0 +1,17 @@
+Neyman-Pearson Classification under High-Dimensional Settings
+Most existing binary classification methods target on the optimization of the
+overall classification risk and may fail to serve some real-world applications
+such as cancer diagnosis, where users are more concerned with the risk of
+misclassifying one specific class than the other. Neyman-Pearson (NP) paradigm
+was introduced in this context as a novel statistical framework for handling
+asymmetric type I/II error priorities. It seeks classifiers with a minimal type
+II error and a constrained type I error under a user specified level. This
+article is the first attempt to construct classifiers with guaranteed
+theoretical performance under the NP paradigm in high-dimensional settings.
+Based on the fundamental Neyman-Pearson Lemma, we used a plug-in approach to
+construct NP-type classifiers for Naive Bayes models. The proposed classifiers
+satisfy the NP oracle inequalities, which are natural NP paradigm counterparts
+of the oracle inequalities in classical binary classification. Besides their
+desirable theoretical properties, we also demonstrated their numerical
+advantages in prioritized error control via both simulation and real data
+studies.

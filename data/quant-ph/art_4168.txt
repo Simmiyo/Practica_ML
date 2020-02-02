@@ -1,0 +1,12 @@
+A Quantum Search Algorithm for a Specified Number of Targets
+The quantum search algorithm of Chen and Diao, which finds with certainty a
+single target item in an unsorted database, is modified so as to be capable of
+searching for an arbitrary specified number of target items. If the number of
+targets, nu_0, is a power of four, the new algorithm will with certainty find
+one of the targets in a database of n items using
+(1/2)(3(N/nu_0)^{log_base_4(3)}-1) \approx (1/2)(3(N/nu_0)^{0.7925}-1) oracle
+calls, where N is the smallest power of four greater than or equal to n. If
+nu_0 is not a power of four, the algorithm will, with a probability of at least
+one-half, find one of the targets using no more than
+(1/2)(9(N/nu)^{log_base_4(3)}-1) calls, where nu is the smallest power of four
+greater than or equal to nu_0.

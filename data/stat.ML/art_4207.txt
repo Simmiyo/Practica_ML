@@ -1,0 +1,19 @@
+Data-Efficient Reinforcement Learning with Probabilistic Model
+  Predictive Control
+Trial-and-error based reinforcement learning (RL) has seen rapid advancements
+in recent times, especially with the advent of deep neural networks. However,
+the majority of autonomous RL algorithms require a large number of interactions
+with the environment. A large number of interactions may be impractical in many
+real-world applications, such as robotics, and many practical systems have to
+obey limitations in the form of state space or control constraints. To reduce
+the number of system interactions while simultaneously handling constraints, we
+propose a model-based RL framework based on probabilistic Model Predictive
+Control (MPC). In particular, we propose to learn a probabilistic transition
+model using Gaussian Processes (GPs) to incorporate model uncertainty into
+long-term predictions, thereby, reducing the impact of model errors. We then
+use MPC to find a control sequence that minimises the expected long-term cost.
+We provide theoretical guarantees for first-order optimality in the GP-based
+transition models with deterministic approximate inference for long-term
+planning. We demonstrate that our approach does not only achieve
+state-of-the-art data efficiency, but also is a principled way for RL in
+constrained environments.

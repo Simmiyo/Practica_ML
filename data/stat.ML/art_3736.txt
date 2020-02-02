@@ -1,0 +1,21 @@
+Spectrum Estimation from Samples
+We consider the problem of approximating the set of eigenvalues of the
+covariance matrix of a multivariate distribution (equivalently, the problem of
+approximating the "population spectrum"), given access to samples drawn from
+the distribution. The eigenvalues of the covariance of a distribution contain
+basic information about the distribution, including the presence or lack of
+structure in the distribution, the effective dimensionality of the
+distribution, and the applicability of higher-level machine learning and
+multivariate statistical tools. We consider this fundamental recovery problem
+in the regime where the number of samples is comparable, or even sublinear in
+the dimensionality of the distribution in question. First, we propose a
+theoretically optimal and computationally efficient algorithm for recovering
+the moments of the eigenvalues of the population covariance matrix. We then
+leverage this accurate moment recovery, via a Wasserstein distance argument, to
+show that the vector of eigenvalues can be accurately recovered. We provide
+finite--sample bounds on the expected error of the recovered eigenvalues, which
+imply that our estimator is asymptotically consistent as the dimensionality of
+the distribution and sample size tend towards infinity, even in the sublinear
+sample regime where the ratio of the sample size to the dimensionality tends to
+zero. In addition to our theoretical results, we show that our approach
+performs well in practice for a broad range of distributions and sample sizes.

@@ -1,0 +1,10 @@
+Distributed Processing of Biosignal-Database for Emotion Recognition
+  with Mahout
+This paper investigates the use of distributed processing on the problem of
+emotion recognition from physiological sensors using a popular machine learning
+library on distributed mode. Specifically, we run a random forests classifier
+on the biosignal-data, which have been pre-processed to form exclusive groups
+in an unsupervised fashion, on a Cloudera cluster using Mahout. The use of
+distributed processing significantly reduces the time required for the offline
+training of the classifier, enabling processing of large physiological datasets
+through many iterations.

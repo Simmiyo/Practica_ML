@@ -1,0 +1,17 @@
+How shoud prey animals respond to uncertain threats?
+A prey animal surveying its environment must decide whether there is a
+dangerous predator present or not. If there is, it may flee. Flight has an
+associated cost, so the animal should not flee if there is no danger. However,
+the prey animal cannot know the state of its environment with certainty, and is
+thus bound to make some errors. We formulate a probabilistic automaton model of
+a prey animal's life and use it to compute the optimal escape decision
+strategy, subject to the animal's uncertainty. The uncertainty is a major
+factor in determining the decision strategy: only in the presence of
+uncertainty do economic factors (like mating opportunities lost due to flight)
+influence the decision. We performed computer simulations and found that
+\emph{in silico} populations of animals subject to predation evolve to display
+the strategies predicted by our model, confirming our choice of objective
+function for our analytic calculations. To the best of our knowledge, this is
+the first theoretical study of escape decisions to incorporate the effects of
+uncertainty, and to demonstrate the correctness of the objective function used
+in the model.

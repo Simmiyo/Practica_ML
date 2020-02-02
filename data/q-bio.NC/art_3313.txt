@@ -1,0 +1,23 @@
+Deep learning as a tool for neural data analysis: speech classification
+  and cross-frequency coupling in human sensorimotor cortex
+A fundamental challenge in neuroscience is to understand what structure in
+the world is represented in spatially distributed patterns of neural activity
+from multiple single-trial measurements. This is often accomplished by learning
+a simple, linear transformations between neural features and features of the
+sensory stimuli or motor task. While successful in some early sensory
+processing areas, linear mappings are unlikely to be ideal tools for
+elucidating nonlinear, hierarchical representations of higher-order brain areas
+during complex tasks, such as the production of speech by humans. Here, we
+apply deep networks to predict produced speech syllables from cortical surface
+electric potentials recorded from human sensorimotor cortex. We found that deep
+networks had higher decoding prediction accuracy compared to baseline models,
+and also exhibited greater improvements in accuracy with increasing dataset
+size. We further demonstrate that deep network's confusions revealed
+hierarchical latent structure in the neural data, which recapitulated the
+underlying articulatory nature of speech motor control. Finally, we used deep
+networks to compare task-relevant information in different neural frequency
+bands, and found that the high-gamma band contains the vast majority of
+information relevant for the speech prediction task, with little-to-no
+additional contribution from lower-frequencies. Together, these results
+demonstrate the utility of deep networks as a data analysis tool for
+neuroscience.

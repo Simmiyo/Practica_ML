@@ -1,0 +1,12 @@
+Transition-Based Generation from Abstract Meaning Representations
+This work addresses the task of generating English sentences from Abstract
+Meaning Representation (AMR) graphs. To cope with this task, we transform each
+input AMR graph into a structure similar to a dependency tree and annotate it
+with syntactic information by applying various predefined actions to it.
+Subsequently, a sentence is obtained from this tree structure by visiting its
+nodes in a specific order. We train maximum entropy models to estimate the
+probability of each individual action and devise an algorithm that efficiently
+approximates the best sequence of actions to be applied. Using a substandard
+language model, our generator achieves a Bleu score of 27.4 on the LDC2014T12
+test set, the best result reported so far without using silver standard
+annotations from another corpus as additional training data.

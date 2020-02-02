@@ -1,0 +1,15 @@
+Translation Quality Estimation using Recurrent Neural Network
+This paper describes our submission to the shared task on word/phrase level
+Quality Estimation (QE) in the First Conference on Statistical Machine
+Translation (WMT16). The objective of the shared task was to predict if the
+given word/phrase is a correct/incorrect (OK/BAD) translation in the given
+sentence. In this paper, we propose a novel approach for word level Quality
+Estimation using Recurrent Neural Network Language Model (RNN-LM) architecture.
+RNN-LMs have been found very effective in different Natural Language Processing
+(NLP) applications. RNN-LM is mainly used for vector space language modeling
+for different NLP problems. For this task, we modify the architecture of
+RNN-LM. The modified system predicts a label (OK/BAD) in the slot rather than
+predicting the word. The input to the system is a word sequence, similar to the
+standard RNN-LM. The approach is language independent and requires only the
+translated text for QE. To estimate the phrase level quality, we use the output
+of the word level QE system.

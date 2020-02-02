@@ -1,0 +1,23 @@
+Towards a realistic NNLIF model: Analysis and numerical solver for
+  excitatory-inhibitory networks with delay and refractory periods
+The Network of Noisy Leaky Integrate and Fire (NNLIF) model describes the
+behavior of a neural network at mesoscopic level. It is one of the simplest
+self-contained mean-field models considered for that purpose. Even so, to study
+the mathematical properties of the model some simplifications were necessary
+C\'aceres-Carrillo-Perthame(2011), C\'aceres-Perthame(2014),
+C\'aceres-Schneider(2017), which disregard crucial phenomena. In this work we
+deal with the general NNLIF model without simplifications. It involves a
+network with two populations (excitatory and inhibitory), with transmission
+delays between the neurons and where the neurons remain in a refractory state
+for a certain time. We have studied the number of steady states in terms of the
+model parameters, the long time behaviour via the entropy method and
+Poincar\'e's inequality, blow-up phenomena, and the importance of transmission
+delays between excitatory neurons to prevent blow-up and to give rise to
+synchronous solutions. Besides analytical results, we have presented a
+numerical resolutor for this model, based on high order flux-splitting WENO
+schemes and an explicit third order TVD Runge-Kutta method, in order to
+describe the wide range of phenomena exhibited by the network: blow-up,
+asynchronous/synchronous solutions and instability/stability of the steady
+states; the solver also allows us to observe the time evolution of the firing
+rates, refractory states and the probability distributions of the excitatory
+and inhibitory populations.

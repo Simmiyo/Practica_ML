@@ -1,0 +1,12 @@
+Entity Tracking Improves Cloze-style Reading Comprehension
+Reading comprehension tasks test the ability of models to process long-term
+context and remember salient information. Recent work has shown that relatively
+simple neural methods such as the Attention Sum-Reader can perform well on
+these tasks; however, these systems still significantly trail human
+performance. Analysis suggests that many of the remaining hard instances are
+related to the inability to track entity-references throughout documents. This
+work focuses on these hard entity tracking cases with two extensions: (1)
+additional entity features, and (2) training with a multi-task tracking
+objective. We show that these simple modifications improve performance both
+independently and in combination, and we outperform the previous state of the
+art on the LAMBADA dataset, particularly on difficult entity examples.

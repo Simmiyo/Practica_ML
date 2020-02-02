@@ -1,0 +1,11 @@
+Variational Inference with Hamiltonian Monte Carlo
+Variational inference lies at the core of many state-of-the-art algorithms.
+To improve the approximation of the posterior beyond parametric families, it
+was proposed to include MCMC steps into the variational lower bound. In this
+work we explore this idea using steps of the Hamiltonian Monte Carlo (HMC)
+algorithm, an efficient MCMC method. In particular, we incorporate the
+acceptance step of the HMC algorithm, guaranteeing asymptotic convergence to
+the true posterior. Additionally, we introduce some extensions to the HMC
+algorithm geared towards faster convergence. The theoretical advantages of
+these modifications are reflected by performance improvements in our
+experimental results.

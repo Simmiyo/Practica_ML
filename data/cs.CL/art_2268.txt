@@ -1,0 +1,11 @@
+Adversarial Evaluation of Dialogue Models
+The recent application of RNN encoder-decoder models has resulted in
+substantial progress in fully data-driven dialogue systems, but evaluation
+remains a challenge. An adversarial loss could be a way to directly evaluate
+the extent to which generated dialogue responses sound like they came from a
+human. This could reduce the need for human evaluation, while more directly
+evaluating on a generative task. In this work, we investigate this idea by
+training an RNN to discriminate a dialogue model's samples from human-generated
+samples. Although we find some evidence this setup could be viable, we also
+note that many issues remain in its practical application. We discuss both
+aspects and conclude that future work is warranted.

@@ -1,0 +1,17 @@
+Long-Term Online Smoothing Prediction Using Expert Advice
+For the prediction with experts' advice setting, we construct forecasting
+algorithms that suffer loss not much more than any expert in the pool. In
+contrast to the standard approach, we investigate the case of long-term
+forecasting of time series and consider two scenarios. In the first one, at
+each step $t$ the learner has to combine the point forecasts of the experts
+issued for the time interval $[t+1, t+d]$ ahead. Our approach implies that at
+each time step experts issue point forecasts for arbitrary many steps ahead and
+then the learner (algorithm) combines these forecasts and the forecasts made
+earlier into one vector forecast for steps $[t+1,t+d]$. By combining past and
+the current long-term forecasts we obtain a smoothing mechanism that protects
+our algorithm from temporary trend changes, noise and outliers. In the second
+scenario, at each step $t$ experts issue a prediction function, and the learner
+has to combine these functions into the single one, which will be used for
+long-term time-series prediction. For each scenario, we develop an algorithm
+for combining experts forecasts and prove $O(\ln T)$ adversarial regret upper
+bound for both algorithms.

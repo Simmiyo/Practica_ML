@@ -1,0 +1,21 @@
+Efficient Learning and Planning with Compressed Predictive States
+Predictive state representations (PSRs) offer an expressive framework for
+modelling partially observable systems. By compactly representing systems as
+functions of observable quantities, the PSR learning approach avoids using
+local-minima prone expectation-maximization and instead employs a globally
+optimal moment-based algorithm. Moreover, since PSRs do not require a
+predetermined latent state structure as an input, they offer an attractive
+framework for model-based reinforcement learning when agents must plan without
+a priori access to a system model. Unfortunately, the expressiveness of PSRs
+comes with significant computational cost, and this cost is a major factor
+inhibiting the use of PSRs in applications. In order to alleviate this
+shortcoming, we introduce the notion of compressed PSRs (CPSRs). The CPSR
+learning approach combines recent advancements in dimensionality reduction,
+incremental matrix decomposition, and compressed sensing. We show how this
+approach provides a principled avenue for learning accurate approximations of
+PSRs, drastically reducing the computational costs associated with learning
+while also providing effective regularization. Going further, we propose a
+planning framework which exploits these learned models. And we show that this
+approach facilitates model-learning and planning in large complex partially
+observable domains, a task that is infeasible without the principled use of
+compression.

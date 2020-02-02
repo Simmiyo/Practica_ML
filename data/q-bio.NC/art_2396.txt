@@ -1,0 +1,14 @@
+Solving Hodgkin-Huxley equations using the compact difference scheme -
+  somadendrite
+Dendrites have voltage-gated ion channels which aid in production of action
+potentials. Thus dendrites are not just passive conductors of information, but
+actively act on the incoming input. Here we assume Hodgkin-Huxley formulations
+of voltage-gated ion channels on the dendrite. These equations are normally
+solved by some form of central difference scheme or the spectral methods. We
+use a compact finite-difference scheme to solve these equations. This scheme
+gives spectral-like spatial resolution while being easier to solve than
+spectral methods. The scheme has shown to be able to reproduce the results from
+spectral methods. In this paper cylindrical dendrites are described. It may
+also be noted that the compact difference scheme can be used to solve any other
+PDE both in biological as well as non biological systems. It is increasingly
+used in studying turbulence in airflow.

@@ -1,0 +1,25 @@
+An exponential random graph modeling approach to creating group-based
+  representative whole-brain connectivity networks
+Group-based brain connectivity networks have great appeal for researchers
+interested in gaining further insight into complex brain function and how it
+changes across different mental states and disease conditions. Accurately
+constructing these networks presents a daunting challenge given the
+difficulties associated with accounting for inter-subject topological
+variability. Viable approaches to this task must engender networks that capture
+the constitutive topological properties of the group of subjects' networks that
+it is aiming to represent. The conventional approach has been to use a mean or
+median correlation network (Achard et al., 2006; Song et al., 2009) to embody a
+group of networks. However, the degree to which their topological properties
+conform with those of the groups that they are purported to represent has yet
+to be explored. Here we investigate the performance of these mean and median
+correlation networks. We also propose an alternative approach based on an
+exponential random graph modeling framework and compare its performance to that
+of the aforementioned conventional approach. Simpson et al. (2010) illustrated
+the utility of exponential random graph models (ERGMs) for creating brain
+networks that capture the topological characteristics of a single subject's
+brain network. However, their advantageousness in the context of producing a
+brain network that "represents" a group of brain networks has yet to be
+examined. Here we show that our proposed ERGM approach outperforms the
+conventional mean and median correlation based approaches and provides an
+accurate and flexible method for constructing group-based representative brain
+networks.

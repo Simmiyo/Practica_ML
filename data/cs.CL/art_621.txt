@@ -1,0 +1,14 @@
+Recurrent Convolutional Neural Networks for Discourse Compositionality
+The compositionality of meaning extends beyond the single sentence. Just as
+words combine to form the meaning of sentences, so do sentences combine to form
+the meaning of paragraphs, dialogues and general discourse. We introduce both a
+sentence model and a discourse model corresponding to the two levels of
+compositionality. The sentence model adopts convolution as the central
+operation for composing semantic vectors and is based on a novel hierarchical
+convolutional neural network. The discourse model extends the sentence model
+and is based on a recurrent neural network that is conditioned in a novel way
+both on the current sentence and on the current speaker. The discourse model is
+able to capture both the sequentiality of sentences and the interaction between
+different speakers. Without feature engineering or pretraining and with simple
+greedy decoding, the discourse model coupled to the sentence model obtains
+state of the art performance on a dialogue act classification experiment.

@@ -1,0 +1,19 @@
+Nonlinear decoding of a complex movie from the mammalian retina
+Retinal circuitry transforms spatiotemporal patterns of light into spiking
+activity of ganglion cells, which provide the sole visual input to the brain.
+Recent advances have led to a detailed characterization of retinal activity and
+stimulus encoding by large neural populations. The inverse problem of decoding,
+where the stimulus is reconstructed from spikes, has received less attention,
+in particular for complex input movies that should be reconstructed
+"pixel-by-pixel". We recorded around a hundred neurons from a dense patch in a
+rat retina and decoded movies of multiple small discs executing
+mutually-avoiding random motions. We constructed nonlinear (kernelized)
+decoders that improved significantly over linear decoding results, mostly due
+to their ability to reliably separate between neural responses driven by
+locally fluctuating light signals, and responses at locally constant light
+driven by spontaneous or network activity. This improvement crucially depended
+on the precise, non-Poisson temporal structure of individual spike trains,
+which originated in the spike-history dependence of neural responses. Our
+results suggest a general paradigm in which downstream neural circuitry could
+discriminate between spontaneous and stimulus-driven activity on the basis of
+higher-order statistical structure intrinsic to the incoming spike trains.

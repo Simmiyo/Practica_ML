@@ -1,0 +1,24 @@
+Pre-Synaptic Pool Modification (PSPM): A Supervised Learning Procedure
+  for Spiking Neural Networks
+A central question in neuroscience is how to develop realistic models that
+predict output firing behavior based on provided external stimulus. Given a set
+of external inputs and a set of output spike trains, the objective is to
+discover a network structure which can accomplish the transformation as
+accurately as possible. Due to the difficulty of this problem in its most
+general form, approximations have been made in previous work. Past
+approximations have sacrificed network size, recurrence, allowed spiked count,
+or have imposed layered network structure. Here we present a learning rule
+without these sacrifices, which produces a weight matrix of a leaky
+integrate-and-fire (LIF) network to match the output activity of both
+deterministic LIF networks as well as probabilistic integrate-and-fire (PIF)
+networks. Inspired by synaptic scaling, our pre-synaptic pool modification
+(PSPM) algorithm outputs deterministic, fully recurrent spiking neural networks
+that can provide a novel generative model for given spike trains. Similarity in
+output spike trains is evaluated with a variety of metrics including a
+van-Rossum like measure and a numerical comparison of inter-spike interval
+distributions. Application of our algorithm to randomly generated networks
+improves similarity to the reference spike trains on both of these stated
+measures. In addition, we generated LIF networks that operate near criticality
+when trained on critical PIF outputs. Our results establish that learning rules
+based on synaptic homeostasis can be used to represent input-output
+relationships in fully recurrent spiking neural networks.

@@ -1,0 +1,19 @@
+A note on the lack of symmetry in the graphical lasso
+The graphical lasso (glasso) is a widely-used fast algorithm for estimating
+sparse inverse covariance matrices. The glasso solves an L1 penalized maximum
+likelihood problem and is available as an R library on CRAN. The output from
+the glasso, a regularized covariance matrix estimate a sparse inverse
+covariance matrix estimate, not only identify a graphical model but can also
+serve as intermediate inputs into multivariate procedures such as PCA, LDA,
+MANOVA, and others. The glasso indeed produces a covariance matrix estimate
+which solves the L1 penalized optimization problem in a dual sense; however,
+the method for producing the inverse covariance matrix estimator after this
+optimization is inexact and may produce asymmetric estimates. This problem is
+exacerbated when the amount of L1 regularization that is applied is small,
+which in turn is more likely to occur if the true underlying inverse covariance
+matrix is not sparse. The lack of symmetry can potentially have consequences.
+First, it implies that the covariance and inverse covariance estimates are not
+numerical inverses of one another, and second, asymmetry can possibly lead to
+negative or complex eigenvalues,rendering many multivariate procedures which
+may depend on the inverse covariance estimator unusable. We demonstrate this
+problem, explain its causes, and propose possible remedies.

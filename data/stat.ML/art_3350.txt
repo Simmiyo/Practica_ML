@@ -1,0 +1,15 @@
+Training generative neural networks via Maximum Mean Discrepancy
+  optimization
+We consider training a deep neural network to generate samples from an
+unknown distribution given i.i.d. data. We frame learning as an optimization
+minimizing a two-sample test statistic---informally speaking, a good generator
+network produces samples that cause a two-sample test to fail to reject the
+null hypothesis. As our two-sample test statistic, we use an unbiased estimate
+of the maximum mean discrepancy, which is the centerpiece of the nonparametric
+kernel two-sample test proposed by Gretton et al. (2012). We compare to the
+adversarial nets framework introduced by Goodfellow et al. (2014), in which
+learning is a two-player game between a generator network and an adversarial
+discriminator network, both trained to outwit the other. From this perspective,
+the MMD statistic plays the role of the discriminator. In addition to empirical
+comparisons, we prove bounds on the generalization error incurred by optimizing
+the empirical MMD.

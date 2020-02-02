@@ -1,0 +1,28 @@
+Supervised Learning in Spiking Neural Networks for Precise Temporal
+  Encoding
+Precise spike timing as a means to encode information in neural networks is
+biologically supported, and is advantageous over frequency-based codes by
+processing input features on a much shorter time-scale. For these reasons, much
+recent attention has been focused on the development of supervised learning
+rules for spiking neural networks that utilise a temporal coding scheme.
+However, despite significant progress in this area, there still lack rules that
+have a theoretical basis, and yet can be considered biologically relevant. Here
+we examine the general conditions under which synaptic plasticity most
+effectively takes place to support the supervised learning of a precise
+temporal code. As part of our analysis we examine two spike-based learning
+methods: one of which relies on an instantaneous error signal to modify
+synaptic weights in a network (INST rule), and the other one on a filtered
+error signal for smoother synaptic weight modifications (FILT rule). We test
+the accuracy of the solutions provided by each rule with respect to their
+temporal encoding precision, and then measure the maximum number of input
+patterns they can learn to memorise using the precise timings of individual
+spikes as an indication of their storage capacity. Our results demonstrate the
+high performance of FILT in most cases, underpinned by the rule's
+error-filtering mechanism, which is predicted to provide smooth convergence
+towards a desired solution during learning. We also find FILT to be most
+efficient at performing input pattern memorisations, and most noticeably when
+patterns are identified using spikes with sub-millisecond temporal precision.
+In comparison with existing work, we determine the performance of FILT to be
+consistent with that of the highly efficient E-learning Chronotron, but with
+the distinct advantage that FILT is also implementable as an online method for
+increased biological realism.

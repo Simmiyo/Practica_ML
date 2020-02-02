@@ -1,0 +1,11 @@
+Recursive Bias Estimation and $L_2$ Boosting
+This paper presents a general iterative bias correction procedure for
+regression smoothers. This bias reduction schema is shown to correspond
+operationally to the $L_2$ Boosting algorithm and provides a new statistical
+interpretation for $L_2$ Boosting. We analyze the behavior of the Boosting
+algorithm applied to common smoothers $S$ which we show depend on the spectrum
+of $I-S$. We present examples of common smoother for which Boosting generates a
+divergent sequence. The statistical interpretation suggest combining algorithm
+with an appropriate stopping rule for the iterative procedure. Finally we
+illustrate the practical finite sample performances of the iterative smoother
+via a simulation study. simulations.

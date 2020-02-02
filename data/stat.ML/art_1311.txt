@@ -1,0 +1,12 @@
+Data-driven Optimal Cost Selection for Distributionally Robust
+  Optimization
+Recently, (Blanchet, Kang, and Murhy 2016, and Blanchet, and Kang 2017)
+showed that several machine learning algorithms, such as square-root Lasso,
+Support Vector Machines, and regularized logistic regression, among many
+others, can be represented exactly as distributionally robust optimization
+(DRO) problems. The distributional uncertainty is defined as a neighborhood
+centered at the empirical distribution. We propose a methodology which learns
+such neighborhood in a natural data-driven way. We show rigorously that our
+framework encompasses adaptive regularization as a particular case. Moreover,
+we demonstrate empirically that our proposed methodology is able to improve
+upon a wide range of popular machine learning estimators.

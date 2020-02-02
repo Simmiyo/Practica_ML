@@ -1,0 +1,28 @@
+Sharp Computational-Statistical Phase Transitions via Oracle
+  Computational Model
+We study the fundamental tradeoffs between computational tractability and
+statistical accuracy for a general family of hypothesis testing problems with
+combinatorial structures. Based upon an oracle model of computation, which
+captures the interactions between algorithms and data, we establish a general
+lower bound that explicitly connects the minimum testing risk under
+computational budget constraints with the intrinsic probabilistic and
+combinatorial structures of statistical problems. This lower bound mirrors the
+classical statistical lower bound by Le Cam (1986) and allows us to quantify
+the optimal statistical performance achievable given limited computational
+budgets in a systematic fashion. Under this unified framework, we sharply
+characterize the statistical-computational phase transition for two testing
+problems, namely, normal mean detection and sparse principal component
+detection. For normal mean detection, we consider two combinatorial structures,
+namely, sparse set and perfect matching. For these problems we identify
+significant gaps between the optimal statistical accuracy that is achievable
+under computational tractability constraints and the classical statistical
+lower bounds. Compared with existing works on computational lower bounds for
+statistical problems, which consider general polynomial-time algorithms on
+Turing machines, and rely on computational hardness hypotheses on problems like
+planted clique detection, we focus on the oracle computational model, which
+covers a broad range of popular algorithms, and do not rely on unproven
+hypotheses. Moreover, our result provides an intuitive and concrete
+interpretation for the intrinsic computational intractability of
+high-dimensional statistical problems. One byproduct of our result is a lower
+bound for a strict generalization of the matrix permanent problem, which is of
+independent interest.

@@ -1,0 +1,14 @@
+Learning Word Embeddings from Speech
+In this paper, we propose a novel deep neural network architecture,
+Sequence-to-Sequence Audio2Vec, for unsupervised learning of fixed-length
+vector representations of audio segments excised from a speech corpus, where
+the vectors contain semantic information pertaining to the segments, and are
+close to other vectors in the embedding space if their corresponding segments
+are semantically similar. The design of the proposed model is based on the RNN
+Encoder-Decoder framework, and borrows the methodology of continuous skip-grams
+for training. The learned vector representations are evaluated on 13 widely
+used word similarity benchmarks, and achieved competitive results to that of
+GloVe. The biggest advantage of the proposed model is its capability of
+extracting semantic information of audio segments taken directly from raw
+speech, without relying on any other modalities such as text or images, which
+are challenging and expensive to collect and annotate.

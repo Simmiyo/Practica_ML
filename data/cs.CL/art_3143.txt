@@ -1,0 +1,13 @@
+Learning Phrase Embeddings from Paraphrases with GRUs
+Learning phrase representations has been widely explored in many Natural
+Language Processing (NLP) tasks (e.g., Sentiment Analysis, Machine Translation)
+and has shown promising improvements. Previous studies either learn
+non-compositional phrase representations with general word embedding learning
+techniques or learn compositional phrase representations based on syntactic
+structures, which either require huge amounts of human annotations or cannot be
+easily generalized to all phrases. In this work, we propose to take advantage
+of large-scaled paraphrase database and present a pair-wise gated recurrent
+units (pairwise-GRU) framework to generate compositional phrase
+representations. Our framework can be re-used to generate representations for
+any phrases. Experimental results show that our framework achieves
+state-of-the-art results on several phrase similarity tasks.

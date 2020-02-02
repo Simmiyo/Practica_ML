@@ -1,0 +1,24 @@
+PWLS-ULTRA: An Efficient Clustering and Learning-Based Approach for
+  Low-Dose 3D CT Image Reconstruction
+The development of computed tomography (CT) image reconstruction methods that
+significantly reduce patient radiation exposure while maintaining high image
+quality is an important area of research in low-dose CT (LDCT) imaging. We
+propose a new penalized weighted least squares (PWLS) reconstruction method
+that exploits regularization based on an efficient Union of Learned TRAnsforms
+(PWLS-ULTRA). The union of square transforms is pre-learned from numerous image
+patches extracted from a dataset of CT images or volumes. The proposed
+PWLS-based cost function is optimized by alternating between a CT image
+reconstruction step, and a sparse coding and clustering step. The CT image
+reconstruction step is accelerated by a relaxed linearized augmented Lagrangian
+method with ordered-subsets that reduces the number of forward and back
+projections. Simulations with 2-D and 3-D axial CT scans of the extended
+cardiac-torso phantom and 3D helical chest and abdomen scans show that for both
+normal-dose and low-dose levels, the proposed method significantly improves the
+quality of reconstructed images compared to PWLS reconstruction with a
+nonadaptive edge-preserving regularizer (PWLS-EP). PWLS with regularization
+based on a union of learned transforms leads to better image reconstructions
+than using a single learned square transform. We also incorporate patch-based
+weights in PWLS-ULTRA that enhance image quality and help improve image
+resolution uniformity. The proposed approach achieves comparable or better
+image quality compared to learned overcomplete synthesis dictionaries, but
+importantly, is much faster (computationally more efficient).

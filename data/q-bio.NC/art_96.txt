@@ -1,0 +1,15 @@
+Calculating event-triggered average synaptic conductances from the
+  membrane potential
+The optimal patterns of synaptic conductances for spike generation in central
+neurons is a subject of considerable interest. Ideally, such conductance time
+courses should be extracted from membrane potential (Vm) activity, but this is
+difficult because the nonlinear contribution of conductances to the Vm renders
+their estimation from the membrane equation extremely sensitive. We outline
+here a solution to this problem based on a discretization of the time axis.
+This procedure can extract the time course of excitatory and inhibitory
+conductances solely from the analysis of Vm activity. We test this method by
+calculating spike-triggered averages of synaptic conductances using numerical
+simulations of the integrate-and-fire model subject to colored conductance
+noise. The procedure was also tested successfully in biological cortical
+neurons using conductance noise injected with dynamic-clamp. This method should
+allow the extraction of synaptic conductances from Vm recordings in vivo.

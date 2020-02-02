@@ -1,0 +1,16 @@
+High Dimensional Multi-Level Covariance Estimation and Kriging
+With the advent of big data sets much of the computational science and
+engineering communities have been moving toward data-driven approaches to
+regression and classification. However, they present a significant challenge
+due to the increasing size, complexity and dimensionality of the problems. In
+this paper a multi-level kriging method that scales well with dimensions is
+developed. A multi-level basis is constructed that is adapted to a random
+projection tree (or kD-tree) partitioning of the observations and a sparse grid
+approximation. This approach identifies the high dimensional underlying
+phenomena from the noise in an accurate and numerically stable manner.
+Furthermore, numerically unstable covariance matrices are transformed into well
+conditioned multi-level matrices without compromising accuracy. A-posteriori
+error estimates are derived, such as the sub-exponential decay of the
+coefficients of the multi-level covariance matrix. The multi-level method is
+tested on numerically unstable problems of up to 50 dimensions. Accurate
+solutions with feasible computational cost are obtained.

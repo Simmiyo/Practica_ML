@@ -1,0 +1,23 @@
+CARE-rCortex: a Matlab toolbox for the analysis of
+  CArdio-REspiratory-related activity in the Cortex
+Background: Although cardio-respiratory (CR) system is generally controlled
+by the autonomic nervous system, interactions between the cortex and these
+primary functions are receiving an increasing interest in neurosciences. New
+method: In general, the timing of such internally paced events (e.g. heartbeats
+or respiratory cycles) may display a large variability. For the analysis of
+such CR event-related EEG potentials, a baseline must be correctly associated
+to each cycle of detected events. The open-source toolbox CARE-rCortex provides
+an easy-to-use interface to detect CR events, define baselines, and analyse in
+time-frequency (TF) domain the CR-based EEG potentials. Results: CARE-rCortex
+provides some practical tools to detect and validate these CR events. Users can
+define baselines time-locked to a phase of respiratory or heart cycle. A
+statistical test has also been integrated to highlight significant points of
+the TF maps with respect to the baseline. We illustrate the use of CARE-rCortex
+with the analysis of two real cardio-respiratory datasets. Comparison with
+existing methods: Compared to other open-source toolboxes, CARE-rCortex allows
+users to automatically detect CR events, to define and check baselines for each
+detected event. Different baseline normalizations can be used in the TF
+analysis of EEG epochs. Conclusions: The analysis of CR-related EEG activities
+could provide valuable information about cognitive or pathological brain
+states. CARE-rCortex runs in Matlab as a plug-in of the EEGLAB software, and it
+is publicly available at https://github.com/FannyGrosselin/CARE-rCortex.

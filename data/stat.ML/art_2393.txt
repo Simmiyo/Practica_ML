@@ -1,0 +1,10 @@
+A note on selection stability: combining stability and prediction
+Recently, many regularized procedures have been proposed for variable
+selection in linear regression, but their performance depends on the tuning
+parameter selection. Here a criterion for the tuning parameter selection is
+proposed, which combines the strength of both stability selection and
+cross-validation and therefore is referred as the prediction and stability
+selection (PASS). The selection consistency is established assuming the data
+generating model is a subset of the full model, and the small sample
+performance is demonstrated through some simulation studies where the
+assumption is either held or violated.

@@ -1,0 +1,15 @@
+Catalyst Acceleration for Gradient-Based Non-Convex Optimization
+We introduce a generic scheme to solve nonconvex optimization problems using
+gradient-based algorithms originally designed for minimizing convex functions.
+Even though these methods may originally require convexity to operate, the
+proposed approach allows one to use them on weakly convex objectives, which
+covers a large class of non-convex functions typically appearing in machine
+learning and signal processing. In general, the scheme is guaranteed to produce
+a stationary point with a worst-case efficiency typical of first-order methods,
+and when the objective turns out to be convex, it automatically accelerates in
+the sense of Nesterov and achieves near-optimal convergence rate in function
+values. These properties are achieved without assuming any knowledge about the
+convexity of the objective, by automatically adapting to the unknown weak
+convexity constant. We conclude the paper by showing promising experimental
+results obtained by applying our approach to incremental algorithms such as
+SVRG and SAGA for sparse matrix factorization and for learning neural networks.

@@ -1,0 +1,22 @@
+Kelvin-Helmholtz instabilities in Smoothed Particle Hydrodynamics
+In this paper we investigate whether Smoothed Particle Hydrodynamics (SPH),
+equipped with artificial conductivity, is able to capture the physics of
+density/energy discontinuities in the case of the so-called shearing layers
+test, a test for examining Kelvin-Helmholtz (KH) instabilities. We can trace
+back each failure of SPH to show KH rolls to two causes: i) shock waves
+travelling in the simulation box and ii) particle clumping, or more generally,
+particle noise. The probable cause of shock waves is the Local Mixing
+Instability (LMI), previously identified in the literature. Particle noise on
+the other hand is a problem because it introduces a large error in the SPH
+momentum equation.
+  We also investigate the role of artificial conductivity (AC). Including AC is
+necessary for the long-term behavior of the simulation (e.g. to get
+$\lambda=1/2, 1$ KH rolls). In sensitive hydrodynamical simulations great care
+is however needed in selecting the AC signal velocity, with the default
+formulation leading to too much energy diffusion. We present new signal
+velocities that lead to less diffusion.
+  The effects of the shock waves and of particle disorder become less important
+as the time-scale of the physical problem (for the shearing layers problem:
+lower density contrast and higher Mach numbers) decreases. At the resolution of
+current galaxy formation simulations mixing is probably not important. However,
+mixing could become crucial for next-generation simulations.

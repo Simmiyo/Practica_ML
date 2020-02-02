@@ -1,0 +1,13 @@
+ICA based on Split Generalized Gaussian
+Independent Component Analysis (ICA) - one of the basic tools in data
+analysis - aims to find a coordinate system in which the components of the data
+are independent. Most popular ICA methods use kurtosis as a metric of
+non-Gaussianity to maximize, such as FastICA and JADE. However, their
+assumption of fourth-order moment (kurtosis) may not always be satisfied in
+practice. One of the possible solution is to use third-order moment (skewness)
+instead of kurtosis, which was applied in $ICA_{SG}$ and EcoICA.
+  In this paper we present a competitive approach to ICA based on the Split
+Generalized Gaussian distribution (SGGD), which is well adapted to heavy-tailed
+as well as asymmetric data. Consequently, we obtain a method which works better
+than the classical approaches, in both cases: heavy tails and non-symmetric
+data. \end{abstract}

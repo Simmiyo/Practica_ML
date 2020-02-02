@@ -1,0 +1,20 @@
+Ensemble Inhibition and Excitation in the Human Cortex: an Ising Model
+  Analysis with Uncertainties
+The pairwise maximum entropy model, also known as the Ising model, has been
+widely used to analyze the collective activity of neurons. However, controversy
+persists in the literature about seemingly inconsistent findings, whose
+significance is unclear due to lack of reliable error estimates. We therefore
+develop a method for accurately estimating parameter uncertainty based on
+random walks in parameter space using adaptive Markov Chain Monte Carlo after
+the convergence of the main optimization algorithm. We apply our method to the
+spiking patterns of excitatory and inhibitory neurons recorded with
+multielectrode arrays in the human temporal cortex during the wake-sleep cycle.
+Our analysis shows that the Ising model captures neuronal collective behavior
+much better than the independent model during wakefulness, light sleep, and
+deep sleep when both excitatory (E) and inhibitory (I) neurons are modeled;
+ignoring the inhibitory effects of I-neurons dramatically overestimates
+synchrony among E-neurons. Furthermore, information-theoretic measures reveal
+that the Ising model explains about 80%-95% of the correlations, depending on
+sleep state and neuron type. Thermodynamic measures show signatures of
+criticality, although we take this with a grain of salt as it may be merely a
+reflection of long-range neural correlations.

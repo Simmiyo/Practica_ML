@@ -1,0 +1,11 @@
+Density Estimation via Discrepancy
+Given i.i.d samples from some unknown continuous density on hyper-rectangle
+$[0, 1]^d$, we attempt to learn a piecewise constant function that approximates
+this underlying density non-parametrically. Our density estimate is defined on
+a binary split of $[0, 1]^d$ and built up sequentially according to discrepancy
+criteria; the key ingredient is to control the discrepancy adaptively in each
+sub-rectangle to achieve overall bound. We prove that the estimate, even though
+simple as it appears, preserves most of the estimation power. By exploiting its
+structure, it can be directly applied to some important pattern recognition
+tasks such as mode seeking and density landscape exploration. We demonstrate
+its applicability through simulations and examples.

@@ -1,0 +1,14 @@
+Hemodynamically informed parcellation of cerebral FMRI data
+Standard detection of evoked brain activity in functional MRI (fMRI) relies
+on a fixed and known shape of the impulse response of the neurovascular
+coupling, namely the hemodynamic response function (HRF). To cope with this
+issue, the joint detection-estimation (JDE) framework has been proposed. This
+formalism enables to estimate a HRF per region but for doing so, it assumes a
+prior brain partition (or parcellation) regarding hemodynamic territories. This
+partition has to be accurate enough to recover accurate HRF shapes but has also
+to overcome the detection-estimation issue: the lack of hemodynamics
+information in the non-active positions. An hemodynamically-based parcellation
+method is proposed, consisting first of a feature extraction step, followed by
+a Gaussian Mixture-based parcellation, which considers the injection of the
+activation levels in the parcellation process, in order to overcome the
+detection-estimation issue and find the underlying hemodynamics.

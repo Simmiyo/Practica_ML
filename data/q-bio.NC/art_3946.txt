@@ -1,0 +1,21 @@
+On the simulation of nonlinear bidimensional spiking neuron models
+Bidimensional spiking models currently gather a lot of attention for their
+simplicity and their ability to reproduce various spiking patterns of cortical
+neurons, and are particularly used for large network simulations. These models
+describe the dynamics of the membrane potential by a nonlinear differential
+equation that blows up in finite time, coupled to a second equation for
+adaptation. Spikes are emitted when the membrane potential blows up or reaches
+a cutoff value. The precise simulation of the spike times and of the adaptation
+variable is critical for it governs the spike pattern produced, and is hard to
+compute accurately because of the exploding nature of the system at the spike
+times. We thoroughly study the precision of fixed time-step integration schemes
+for this type of models and demonstrate that these methods produce systematic
+errors that are unbounded, as the cutoff value is increased, in the evaluation
+of the two crucial quantities: the spike time and the value of the adaptation
+variable at this time. Precise evaluation of these quantities therefore involve
+very small time steps and long simulation times. In order to achieve a fixed
+absolute precision in a reasonable computational time, we propose here a new
+algorithm to simulate these systems based on a variable integration step method
+that either integrates the original ordinary differential equation or the
+equation of the orbits in the phase plane, and compare this algorithm with
+fixed time-step Euler scheme and other more accurate simulation algorithms.

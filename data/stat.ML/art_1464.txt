@@ -1,0 +1,13 @@
+On denoising modulo 1 samples of a function
+Consider an unknown smooth function $f: [0,1] \rightarrow \mathbb{R}$, and
+say we are given $n$ noisy$\mod 1$ samples of $f$, i.e., $y_i = (f(x_i) +
+\eta_i)\mod 1$ for $x_i \in [0,1]$, where $\eta_i$ denotes noise. Given the
+samples $(x_i,y_i)_{i=1}^{n}$ our goal is to recover smooth, robust estimates
+of the clean samples $f(x_i) \bmod 1$. We formulate a natural approach for
+solving this problem which works with representations of mod 1 values over the
+unit circle. This amounts to solving a quadratically constrained quadratic
+program (QCQP) with non-convex constraints involving points lying on the unit
+circle. Our proposed approach is based on solving its relaxation which is a
+trust-region sub-problem, and hence solvable efficiently. We demonstrate its
+robustness to noise % of our approach via extensive simulations on several
+synthetic examples, and provide a detailed theoretical analysis.

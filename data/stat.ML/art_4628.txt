@@ -1,0 +1,24 @@
+Approximation Vector Machines for Large-scale Online Learning
+One of the most challenging problems in kernel online learning is to bound
+the model size and to promote the model sparsity. Sparse models not only
+improve computation and memory usage, but also enhance the generalization
+capacity, a principle that concurs with the law of parsimony. However,
+inappropriate sparsity modeling may also significantly degrade the performance.
+In this paper, we propose Approximation Vector Machine (AVM), a model that can
+simultaneously encourage the sparsity and safeguard its risk in compromising
+the performance. When an incoming instance arrives, we approximate this
+instance by one of its neighbors whose distance to it is less than a predefined
+threshold. Our key intuition is that since the newly seen instance is expressed
+by its nearby neighbor the optimal performance can be analytically formulated
+and maintained. We develop theoretical foundations to support this intuition
+and further establish an analysis to characterize the gap between the
+approximation and optimal solutions. This gap crucially depends on the
+frequency of approximation and the predefined threshold. We perform the
+convergence analysis for a wide spectrum of loss functions including Hinge,
+smooth Hinge, and Logistic for classification task, and $l_1$, $l_2$, and
+$\epsilon$-insensitive for regression task. We conducted extensive experiments
+for classification task in batch and online modes, and regression task in
+online mode over several benchmark datasets. The results show that our proposed
+AVM achieved a comparable predictive performance with current state-of-the-art
+methods while simultaneously achieving significant computational speed-up due
+to the ability of the proposed AVM in maintaining the model size.

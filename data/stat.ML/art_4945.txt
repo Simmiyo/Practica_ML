@@ -1,0 +1,18 @@
+Scalable Learning of Non-Decomposable Objectives
+Modern retrieval systems are often driven by an underlying machine learning
+model. The goal of such systems is to identify and possibly rank the few most
+relevant items for a given query or context. Thus, such systems are typically
+evaluated using a ranking-based performance metric such as the area under the
+precision-recall curve, the $F_\beta$ score, precision at fixed recall, etc.
+Obviously, it is desirable to train such systems to optimize the metric of
+interest.
+  In practice, due to the scalability limitations of existing approaches for
+optimizing such objectives, large-scale retrieval systems are instead trained
+to maximize classification accuracy, in the hope that performance as measured
+via the true objective will also be favorable. In this work we present a
+unified framework that, using straightforward building block bounds, allows for
+highly scalable optimization of a wide range of ranking-based objectives. We
+demonstrate the advantage of our approach on several real-life retrieval
+problems that are significantly larger than those considered in the literature,
+while achieving substantial improvement in performance over the
+accuracy-objective baseline.

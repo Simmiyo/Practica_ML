@@ -1,0 +1,8 @@
+GLEU Without Tuning
+The GLEU metric was proposed for evaluating grammatical error corrections
+using n-gram overlap with a set of reference sentences, as opposed to
+precision/recall of specific annotated errors (Napoles et al., 2015). This
+paper describes improvements made to the GLEU metric that address problems that
+arise when using an increasing number of reference sets. Unlike the originally
+presented metric, the modified metric does not require tuning. We recommend
+that this version be used instead of the original version.

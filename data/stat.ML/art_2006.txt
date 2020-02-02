@@ -1,0 +1,23 @@
+Binary hidden Markov models and varieties
+The technological applications of hidden Markov models have been extremely
+diverse and successful, including natural language processing, gesture
+recognition, gene sequencing, and Kalman filtering of physical measurements.
+HMMs are highly non-linear statistical models, and just as linear models are
+amenable to linear algebraic techniques, non-linear models are amenable to
+commutative algebra and algebraic geometry.
+  This paper closely examines HMMs in which all the hidden random variables are
+binary. Its main contributions are (1) a birational parametrization for every
+such HMM, with an explicit inverse for recovering the hidden parameters in
+terms of observables, (2) a semialgebraic model membership test for every such
+HMM, and (3) minimal defining equations for the 4-node fully binary model,
+comprising 21 quadrics and 29 cubics, which were computed using Grobner bases
+in the cumulant coordinates of Sturmfels and Zwiernik. The new model parameters
+in (1) are rationally identifiable in the sense of Sullivant, Garcia-Puente,
+and Spielvogel, and each model's Zariski closure is therefore a rational
+projective variety of dimension 5. Grobner basis computations for the model and
+its graph are found to be considerably faster using these parameters. In the
+case of two hidden states, item (2) supersedes a previous algorithm of
+Schonhuth which is only generically defined, and the defining equations (3)
+yield new invariants for HMMs of all lengths $\geq 4$. Such invariants have
+been used successfully in model selection problems in phylogenetics, and one
+can hope for similar applications in the case of HMMs.

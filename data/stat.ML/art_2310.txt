@@ -1,0 +1,16 @@
+Learning Continuous Time Bayesian Networks
+Continuous time Bayesian networks (CTBNs) describe structured stochastic
+processes with finitely many states that evolve over continuous time. A CTBN is
+a directed (possibly cyclic) dependency graph over a set of variables, each of
+which represents a finite state continuous time Markov process whose transition
+model is a function of its parents. We address the problem of learning
+parameters and structure of a CTBN from fully observed data. We define a
+conjugate prior for CTBNs, and show how it can be used both for Bayesian
+parameter estimation and as the basis of a Bayesian score for structure
+learning. Because acyclicity is not a constraint in CTBNs, we can show that the
+structure learning problem is significantly easier, both in theory and in
+practice, than structure learning for dynamic Bayesian networks (DBNs).
+Furthermore, as CTBNs can tailor the parameters and dependency structure to the
+different time granularities of the evolution of different variables, they can
+provide a better fit to continuous-time processes than DBNs with a fixed time
+granularity.

@@ -1,0 +1,14 @@
+A Neurodynamical System for finding a Minimal VC Dimension Classifier
+The recently proposed Minimal Complexity Machine (MCM) finds a hyperplane
+classifier by minimizing an exact bound on the Vapnik-Chervonenkis (VC)
+dimension. The VC dimension measures the capacity of a learning machine, and a
+smaller VC dimension leads to improved generalization. On many benchmark
+datasets, the MCM generalizes better than SVMs and uses far fewer support
+vectors than the number used by SVMs. In this paper, we describe a neural
+network based on a linear dynamical system, that converges to the MCM solution.
+The proposed MCM dynamical system is conducive to an analogue circuit
+implementation on a chip or simulation using Ordinary Differential Equation
+(ODE) solvers. Numerical experiments on benchmark datasets from the UCI
+repository show that the proposed approach is scalable and accurate, as we
+obtain improved accuracies and fewer number of support vectors (upto 74.3%
+reduction) with the MCM dynamical system.

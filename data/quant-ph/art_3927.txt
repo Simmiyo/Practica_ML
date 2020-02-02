@@ -1,0 +1,11 @@
+Quantum Factor Graphs
+The natural Hilbert Space of quantum particles can implement
+maximum-likelihood (ML) decoding of classical information. The 'Quantum Product
+Algorithm' (QPA) is computed on a Factor Graph, where function nodes are
+unitary matrix operations followed by appropriate quantum measurement. QPA is
+like the Sum-Product Algorithm (SPA), but without summary, giving optimal
+decode with exponentially finer detail than achievable using SPA. Graph cycles
+have no effect on QPA performance. QPA must be repeated a number of times
+before successful and the ML codeword is obtained only after repeated quantum
+'experiments'. ML amplification improves decoding accuracy, and Distributed QPA
+facilitates successful evolution.

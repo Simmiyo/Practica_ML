@@ -1,0 +1,18 @@
+Practical Approximation Method for Firing Rate Models of Coupled Neural
+  Networks with Correlated Inputs
+Rapid experimental advances now enable simultaneous electrophysiological
+recording of neural activity at single-cell resolution across large regions of
+the nervous system. Models of this neural network activity will necessarily
+increase in size and complexity, thus increasing the computational cost of
+simulating them and the challenge of analyzing them. Here we present a novel
+method to approximate the activity and firing statistics of a general firing
+rate network model (of Wilson-Cowan type) subject to noisy correlated
+background inputs. The method requires solving a system of transcendental
+equations and is fast compared to Monte Carlo simulations of coupled stochastic
+differential equations. We implement the method with several examples of
+coupled neural networks and show that the results are quantitatively accurate
+even with moderate coupling strengths and an appreciable amount of
+heterogeneity in many parameters. This work should be useful for investigating
+how various neural attributes qualitatively effect the spiking statistics of
+coupled neural networks. Matlab code implementing the method is freely
+available at GitHub (\url{http://github.com/chengly70/FiringRateModReduction}).

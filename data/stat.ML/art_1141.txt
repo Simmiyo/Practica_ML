@@ -1,0 +1,14 @@
+Smoothing Effects of Bagging: Von Mises Expansions of Bagged Statistical
+  Functionals
+Bagging is a device intended for reducing the prediction error of learning
+algorithms. In its simplest form, bagging draws bootstrap samples from the
+training sample, applies the learning algorithm to each bootstrap sample, and
+then averages the resulting prediction rules.
+  We extend the definition of bagging from statistics to statistical
+functionals and study the von Mises expansion of bagged statistical
+functionals. We show that the expansion is related to the Efron-Stein ANOVA
+expansion of the raw (unbagged) functional. The basic observation is that a
+bagged functional is always smooth in the sense that the von Mises expansion
+exists and is finite of length 1 + resample size $M$. This holds even if the
+raw functional is rough or unstable. The resample size $M$ acts as a smoothing
+parameter, where a smaller $M$ means more smoothing.

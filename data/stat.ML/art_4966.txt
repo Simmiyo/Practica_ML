@@ -1,0 +1,22 @@
+A Boundary Tilting Persepective on the Phenomenon of Adversarial
+  Examples
+Deep neural networks have been shown to suffer from a surprising weakness:
+their classification outputs can be changed by small, non-random perturbations
+of their inputs. This adversarial example phenomenon has been explained as
+originating from deep networks being "too linear" (Goodfellow et al., 2014). We
+show here that the linear explanation of adversarial examples presents a number
+of limitations: the formal argument is not convincing, linear classifiers do
+not always suffer from the phenomenon, and when they do their adversarial
+examples are different from the ones affecting deep networks.
+  We propose a new perspective on the phenomenon. We argue that adversarial
+examples exist when the classification boundary lies close to the submanifold
+of sampled data, and present a mathematical analysis of this new perspective in
+the linear case. We define the notion of adversarial strength and show that it
+can be reduced to the deviation angle between the classifier considered and the
+nearest centroid classifier. Then, we show that the adversarial strength can be
+made arbitrarily high independently of the classification performance due to a
+mechanism that we call boundary tilting. This result leads us to defining a new
+taxonomy of adversarial examples. Finally, we show that the adversarial
+strength observed in practice is directly dependent on the level of
+regularisation used and the strongest adversarial examples, symptomatic of
+overfitting, can be avoided by using a proper level of regularisation.

@@ -1,0 +1,11 @@
+Anomaly Detection Based on Aggregation of Indicators
+Automatic anomaly detection is a major issue in various areas. Beyond mere
+detection, the identification of the origin of the problem that produced the
+anomaly is also essential. This paper introduces a general methodology that can
+assist human operators who aim at classifying monitoring signals. The main idea
+is to leverage expert knowledge by generating a very large number of
+indicators. A feature selection method is used to keep only the most
+discriminant indicators which are used as inputs of a Naive Bayes classifier.
+The parameters of the classifier have been optimized indirectly by the
+selection process. Simulated data designed to reproduce some of the anomaly
+types observed in real world engines.

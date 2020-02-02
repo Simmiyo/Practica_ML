@@ -1,0 +1,24 @@
+Alleviating Overfitting for Polysemous Words for Word Representation
+  Estimation Using Lexicons
+Though there are some works on improving distributed word representations
+using lexicons, the improper overfitting of the words that have multiple
+meanings is a remaining issue deteriorating the learning when lexicons are
+used, which needs to be solved. An alternative method is to allocate a vector
+per sense instead of a vector per word. However, the word representations
+estimated in the former way are not as easy to use as the latter one. Our
+previous work uses a probabilistic method to alleviate the overfitting, but it
+is not robust with a small corpus. In this paper, we propose a new neural
+network to estimate distributed word representations using a lexicon and a
+corpus. We add a lexicon layer in the continuous bag-of-words model and a
+threshold node after the output of the lexicon layer. The threshold rejects the
+unreliable outputs of the lexicon layer that are less likely to be the same
+with their inputs. In this way, it alleviates the overfitting of the polysemous
+words. The proposed neural network can be trained using negative sampling,
+which maximizing the log probabilities of target words given the context words,
+by distinguishing the target words from random noises. We compare the proposed
+neural network with the continuous bag-of-words model, the other works
+improving it, and the previous works estimating distributed word
+representations using both a lexicon and a corpus. The experimental results
+show that the proposed neural network is more efficient and balanced for both
+semantic tasks and syntactic tasks than the previous works, and robust to the
+size of the corpus.

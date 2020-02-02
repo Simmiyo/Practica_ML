@@ -1,0 +1,12 @@
+Modelling Sentence Pairs with Tree-structured Attentive Encoder
+We describe an attentive encoder that combines tree-structured recursive
+neural networks and sequential recurrent neural networks for modelling sentence
+pairs. Since existing attentive models exert attention on the sequential
+structure, we propose a way to incorporate attention into the tree topology.
+Specially, given a pair of sentences, our attentive encoder uses the
+representation of one sentence, which generated via an RNN, to guide the
+structural encoding of the other sentence on the dependency parse tree. We
+evaluate the proposed attentive encoder on three tasks: semantic similarity,
+paraphrase identification and true-false question selection. Experimental
+results show that our encoder outperforms all baselines and achieves
+state-of-the-art results on two tasks.

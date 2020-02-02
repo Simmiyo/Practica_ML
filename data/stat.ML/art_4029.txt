@@ -1,0 +1,21 @@
+Diverse Neural Network Learns True Target Functions
+Neural networks are a powerful class of functions that can be trained with
+simple gradient descent to achieve state-of-the-art performance on a variety of
+applications. Despite their practical success, there is a paucity of results
+that provide theoretical guarantees on why they are so effective. Lying in the
+center of the problem is the difficulty of analyzing the non-convex loss
+function with potentially numerous local minima and saddle points. Can neural
+networks corresponding to the stationary points of the loss function learn the
+true target function? If yes, what are the key factors contributing to such
+nice optimization properties?
+  In this paper, we answer these questions by analyzing one-hidden-layer neural
+networks with ReLU activation, and show that despite the non-convexity, neural
+networks with diverse units have no spurious local minima. We bypass the
+non-convexity issue by directly analyzing the first order optimality condition,
+and show that the loss can be made arbitrarily small if the minimum singular
+value of the "extended feature matrix" is large enough. We make novel use of
+techniques from kernel methods and geometric discrepancy, and identify a new
+relation linking the smallest singular value to the spectrum of a kernel
+function associated with the activation function and to the diversity of the
+units. Our results also suggest a novel regularization function to promote unit
+diversity for potentially better generalization.

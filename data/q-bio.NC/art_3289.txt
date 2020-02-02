@@ -1,0 +1,16 @@
+Finding informative neurons in the brain using Multi-Scale Relevance
+We propose a metric - called Multi-Scale Relevance (MSR) - to score neurons
+for their prominence in encoding for the animal's behaviour that is being
+observed in a multi-electrode array recording experiment. The MSR assumes that
+relevant neurons exhibit a wide variability in their dynamical state, in
+response to the external stimulus, across different time scales. It is a
+non-parametric, fully featureless indicator, in that it uses only the time
+stamps of the firing activity, without resorting to any a priori covariate or
+invoking any specific tuning curve for neural activity. We test the method on
+data from freely moving rodents, where we found that neurons having low MSR
+tend to have low mutual information and low firing sparsity across the
+correlates that are believed to be encoded by the region of the brain where the
+recordings were made. In addition, neurons with high MSR contain significant
+information on spatial navigation and allow to decode spatial position or head
+direction as efficiently as those neurons whose firing activity has high mutual
+information with the covariate to be decoded.

@@ -1,0 +1,13 @@
+Thermostat-assisted continuously-tempered Hamiltonian Monte Carlo for
+  Bayesian learning
+We propose a new sampling method, the thermostat-assisted
+continuously-tempered Hamiltonian Monte Carlo, for Bayesian learning on large
+datasets and multimodal distributions. It simulates the Nos\'e-Hoover dynamics
+of a continuously-tempered Hamiltonian system built on the distribution of
+interest. A significant advantage of this method is that it is not only able to
+efficiently draw representative i.i.d. samples when the distribution contains
+multiple isolated modes, but capable of adaptively neutralising the noise
+arising from mini-batches and maintaining accurate sampling. While the
+properties of this method have been studied using synthetic distributions,
+experiments on three real datasets also demonstrated the gain of performance
+over several strong baselines with various types of neural networks plunged in.

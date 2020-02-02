@@ -1,0 +1,13 @@
+Tensor-on-tensor regression
+We propose a framework for the linear prediction of a multi-way array (i.e.,
+a tensor) from another multi-way array of arbitrary dimension, using the
+contracted tensor product. This framework generalizes several existing
+approaches, including methods to predict a scalar outcome from a tensor, a
+matrix from a matrix, or a tensor from a scalar. We describe an approach that
+exploits the multiway structure of both the predictors and the outcomes by
+restricting the coefficients to have reduced CP-rank. We propose a general and
+efficient algorithm for penalized least-squares estimation, which allows for a
+ridge (L_2) penalty on the coefficients. The objective is shown to give the
+mode of a Bayesian posterior, which motivates a Gibbs sampling algorithm for
+inference. We illustrate the approach with an application to facial image data.
+An R package is available at https://github.com/lockEF/MultiwayRegression .

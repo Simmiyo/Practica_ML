@@ -1,0 +1,11 @@
+Graph-Based Decoding for Event Sequencing and Coreference Resolution
+Events in text documents are interrelated in complex ways. In this paper, we
+study two types of relation: Event Coreference and Event Sequencing. We show
+that the popular tree-like decoding structure for automated Event Coreference
+is not suitable for Event Sequencing. To this end, we propose a graph-based
+decoding algorithm that is applicable to both tasks. The new decoding algorithm
+supports flexible feature sets for both tasks. Empirically, our event
+coreference system has achieved state-of-the-art performance on the TAC-KBP
+2015 event coreference task and our event sequencing system beats a strong
+temporal-based, oracle-informed baseline. We discuss the challenges of studying
+these event relations.

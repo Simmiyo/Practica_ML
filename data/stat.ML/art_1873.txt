@@ -1,0 +1,14 @@
+Active Semi-Supervised Learning using Submodular Functions
+We consider active, semi-supervised learning in an offline transductive
+setting. We show that a previously proposed error bound for active learning on
+undirected weighted graphs can be generalized by replacing graph cut with an
+arbitrary symmetric submodular function. Arbitrary non-symmetric submodular
+functions can be used via symmetrization. Different choices of submodular
+functions give different versions of the error bound that are appropriate for
+different kinds of problems. Moreover, the bound is deterministic and holds for
+adversarially chosen labels. We show exactly minimizing this error bound is
+NP-complete. However, we also introduce for any submodular function an
+associated active semi-supervised learning method that approximately minimizes
+the corresponding error bound. We show that the error bound is tight in the
+sense that there is no other bound of the same form which is better. Our
+theoretical results are supported by experiments on real data.

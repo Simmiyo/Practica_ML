@@ -1,0 +1,19 @@
+The Matrix Generalized Inverse Gaussian Distribution: Properties and
+  Applications
+While the Matrix Generalized Inverse Gaussian ($\mathcal{MGIG}$) distribution
+arises naturally in some settings as a distribution over symmetric positive
+semi-definite matrices, certain key properties of the distribution and
+effective ways of sampling from the distribution have not been carefully
+studied. In this paper, we show that the $\mathcal{MGIG}$ is unimodal, and the
+mode can be obtained by solving an Algebraic Riccati Equation (ARE) equation
+[7]. Based on the property, we propose an importance sampling method for the
+$\mathcal{MGIG}$ where the mode of the proposal distribution matches that of
+the target. The proposed sampling method is more efficient than existing
+approaches [32, 33], which use proposal distributions that may have the mode
+far from the $\mathcal{MGIG}$'s mode. Further, we illustrate that the the
+posterior distribution in latent factor models, such as probabilistic matrix
+factorization (PMF) [25], when marginalized over one latent factor has the
+$\mathcal{MGIG}$ distribution. The characterization leads to a novel Collapsed
+Monte Carlo (CMC) inference algorithm for such latent factor models. We
+illustrate that CMC has a lower log loss or perplexity than MCMC, and needs
+fewer samples.

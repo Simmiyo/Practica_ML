@@ -1,0 +1,16 @@
+A network of spiking neurons for computing sparse representations in an
+  energy efficient way
+Computing sparse redundant representations is an important problem both in
+applied mathematics and neuroscience. In many applications, this problem must
+be solved in an energy efficient way. Here, we propose a hybrid distributed
+algorithm (HDA), which solves this problem on a network of simple nodes
+communicating via low-bandwidth channels. HDA nodes perform both
+gradient-descent-like steps on analog internal variables and
+coordinate-descent-like steps via quantized external variables communicated to
+each other. Interestingly, such operation is equivalent to a network of
+integrate-and-fire neurons, suggesting that HDA may serve as a model of neural
+computation. We show that the numerical performance of HDA is on par with
+existing algorithms. In the asymptotic regime the representation error of HDA
+decays with time, t, as 1/t. HDA is stable against time-varying noise,
+specifically, the representation error decays as 1/sqrt(t) for Gaussian white
+noise.

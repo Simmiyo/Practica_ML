@@ -1,0 +1,11 @@
+Improving Visually Grounded Sentence Representations with Self-Attention
+Sentence representation models trained only on language could potentially
+suffer from the grounding problem. Recent work has shown promising results in
+improving the qualities of sentence representations by jointly training them
+with associated image features. However, the grounding capability is limited
+due to distant connection between input sentences and image features by the
+design of the architecture. In order to further close the gap, we propose
+applying self-attention mechanism to the sentence encoder to deepen the
+grounding effect. Our results on transfer tasks show that self-attentive
+encoders are better for visual grounding, as they exploit specific words with
+strong visual associations.

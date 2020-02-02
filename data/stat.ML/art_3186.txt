@@ -1,0 +1,10 @@
+Output-Sensitive Adaptive Metropolis-Hastings for Probabilistic Programs
+We introduce an adaptive output-sensitive Metropolis-Hastings algorithm for
+probabilistic models expressed as programs, Adaptive Lightweight
+Metropolis-Hastings (AdLMH). The algorithm extends Lightweight
+Metropolis-Hastings (LMH) by adjusting the probabilities of proposing random
+variables for modification to improve convergence of the program output. We
+show that AdLMH converges to the correct equilibrium distribution and compare
+convergence of AdLMH to that of LMH on several test problems to highlight
+different aspects of the adaptation scheme. We observe consistent improvement
+in convergence on the test problems.

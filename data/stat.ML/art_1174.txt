@@ -1,0 +1,11 @@
+Boosted nonparametric hazards with time-dependent covariates
+Given functional data samples from a survival process with time-dependent
+covariates, we propose a functional gradient boosting procedure for estimating
+its hazard function nonparametrically. The estimator is consistent if the model
+is correctly specified; alternatively an oracle inequality can be demonstrated
+for tree-based models. To avoid overfitting, boosting employs several
+regularization devices. One of them is step-size restriction, but the rationale
+for this is somewhat mysterious from the viewpoint of consistency. Our
+convergence bounds bring some clarity to this issue by revealing that step-size
+restriction is a mechanism for preventing the curvature of the risk from
+derailing convergence.

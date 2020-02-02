@@ -1,0 +1,21 @@
+Cerebellar-Inspired Learning Rule for Gain Adaptation of Feedback
+  Controllers
+How does our nervous system successfully acquire feedback control strategies
+in spite of a wide spectrum of response dynamics from different
+musculo-skeletal systems? The cerebellum is a crucial brain structure in
+enabling precise motor control in animals. Recent advances suggest that
+synaptic plasticity of cerebellar Purkinje cells involves molecular mechanisms
+that mimic the dynamics of the efferent motor system that they control allowing
+them to match the timing of their learning rule to behavior. Counter-Factual
+Predictive Control (CFPC) is a cerebellum-based feed-forward control scheme
+that exploits that principle for acquiring anticipatory actions. CFPC extends
+the classical Widrow-Hoff/Least Mean Squares by inserting a forward model of
+the downstream closed-loop system in its learning rule. Here we apply that same
+insight to the problem of learning the gains of a feedback controller. To that
+end, we frame a Model-Reference Adaptive Control (MRAC) problem and derive an
+adaptive control scheme treating the gains of a feedback controller as if they
+were the weights of an adaptive linear unit. Our results demonstrate that
+rather than being exclusively confined to cerebellar learning, the approach of
+controlling plasticity with a forward model of the subsystem controlled, an
+approach that we term as Model-Enhanced Least Mean Squares (ME-LMS), can
+provide a solution to wide set of adaptive control problems.

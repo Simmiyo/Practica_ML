@@ -1,0 +1,19 @@
+Double Path Networks for Sequence to Sequence Learning
+Encoder-decoder based Sequence to Sequence learning (S2S) has made remarkable
+progress in recent years. Different network architectures have been used in the
+encoder/decoder. Among them, Convolutional Neural Networks (CNN) and Self
+Attention Networks (SAN) are the prominent ones. The two architectures achieve
+similar performances but use very different ways to encode and decode context:
+CNN use convolutional layers to focus on the local connectivity of the
+sequence, while SAN uses self-attention layers to focus on global semantics. In
+this work we propose Double Path Networks for Sequence to Sequence learning
+(DPN-S2S), which leverage the advantages of both models by using double path
+information fusion. During the encoding step, we develop a double path
+architecture to maintain the information coming from different paths with
+convolutional layers and self-attention layers separately. To effectively use
+the encoded context, we develop a cross attention module with gating and use it
+to automatically pick up the information needed during the decoding step. By
+deeply integrating the two paths with cross attention, both types of
+information are combined and well exploited. Experiments show that our proposed
+method can significantly improve the performance of sequence to sequence
+learning over state-of-the-art systems.

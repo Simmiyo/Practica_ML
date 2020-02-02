@@ -1,0 +1,15 @@
+Sparse Inverse Covariance Matrix Estimation Using Quadratic
+  Approximation
+The L1-regularized Gaussian maximum likelihood estimator (MLE) has been shown
+to have strong statistical guarantees in recovering a sparse inverse covariance
+matrix, or alternatively the underlying graph structure of a Gaussian Markov
+Random Field, from very limited samples. We propose a novel algorithm for
+solving the resulting optimization problem which is a regularized
+log-determinant program. In contrast to recent state-of-the-art methods that
+largely use first order gradient information, our algorithm is based on
+Newton's method and employs a quadratic approximation, but with some
+modifications that leverage the structure of the sparse Gaussian MLE problem.
+We show that our method is superlinearly convergent, and present experimental
+results using synthetic and real-world application data that demonstrate the
+considerable improvements in performance of our method when compared to other
+state-of-the-art methods.

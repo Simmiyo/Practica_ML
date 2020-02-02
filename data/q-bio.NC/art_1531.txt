@@ -1,0 +1,28 @@
+The unified maximum a posteriori (MAP) framework for neuronal system
+  identification
+The functional relationship between an input and a sensory neuron's response
+can be described by the neuron's stimulus-response mapping function. A general
+approach for characterizing the stimulus-response mapping function is called
+system identification. Many different names have been used for the
+stimulus-response mapping function: kernel or transfer function, transducer,
+spatiotemporal receptive field. Many algorithms have been developed to estimate
+a neuron's mapping function from an ensemble of stimulus-response pairs. These
+include the spike-triggered average, normalized reverse correlation, linearized
+reverse correlation, ridge regression, local spectral reverse correlation,
+spike-triggered covariance, artificial neural networks, maximally informative
+dimensions, kernel regression, boosting, and models based on leaky
+integrate-and-fire neurons. Because many of these system identification
+algorithms were developed in other disciplines, they seem very different
+superficially and bear little relationship with each other. Each algorithm
+makes different assumptions about the neuron and how the data is generated.
+Without a unified framework it is difficult to select the most suitable
+algorithm for estimating the neuron's mapping function. In this review, we
+present a unified framework for describing these algorithms called maximum a
+posteriori estimation (MAP). In the MAP framework, the implicit assumptions
+built into any system identification algorithm are made explicit in three MAP
+constituents: model class, noise distributions, and priors. Understanding the
+interplay between these three MAP constituents will simplify the task of
+selecting the most appropriate algorithms for a given data set. The MAP
+framework can also facilitate the development of novel system identification
+algorithms by incorporating biophysically plausible assumptions and mechanisms
+into the MAP constituents.

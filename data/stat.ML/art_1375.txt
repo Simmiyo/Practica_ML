@@ -1,0 +1,16 @@
+Transfer Learning with Label Noise
+Transfer learning aims to improve learning in target domain by borrowing
+knowledge from a related but different source domain. To reduce the
+distribution shift between source and target domains, recent methods have
+focused on exploring invariant representations that have similar distributions
+across domains. However, when learning this invariant knowledge, existing
+methods assume that the labels in source domain are uncontaminated, while in
+reality, we often have access to source data with noisy labels. In this paper,
+we first show how label noise adversely affect the learning of invariant
+representations and the correcting of label shift in various transfer learning
+scenarios. To reduce the adverse effects, we propose a novel Denoising
+Conditional Invariant Component (DCIC) framework, which provably ensures (1)
+extracting invariant representations given examples with noisy labels in source
+domain and unlabeled examples in target domain; (2) estimating the label
+distribution in target domain with no bias. Experimental results on both
+synthetic and real-world data verify the effectiveness of the proposed method.

@@ -1,0 +1,14 @@
+The geometry of Tempotronlike problems
+In the discrete Tempotron learning problem a neuron receives time varying
+inputs and for a set of such input sequences ($\mathcal S_-$ set) the neuron
+must be sub-threshold for all times while for some other sequences ($\mathcal
+S_+$ set) the neuron must be super threshold for at least one time. Here we
+present a graphical treatment of a slight reformulation of the tempotron
+problem. We show that the problem's general form is equivalent to the question
+if a polytope, specified by a set of inequalities, is contained in the union of
+a set of equally defined polytopes. Using recent results from computational
+geometry, we show that the problem is W[1]-hard. This phrasing gives some new
+insights into the nature of gradient based learning algorithms. A sampling
+based approach can, under certain circumstances provide an approximation in
+polynomial time. Other problems, related to hierarchical neural networks may
+share some topological structure.

@@ -1,0 +1,12 @@
+Learning Word Embeddings for Hyponymy with Entailment-Based
+  Distributional Semantics
+Lexical entailment, such as hyponymy, is a fundamental issue in the semantics
+of natural language. This paper proposes distributional semantic models which
+efficiently learn word embeddings for entailment, using a recently-proposed
+framework for modelling entailment in a vector-space. These models postulate a
+latent vector for a pseudo-phrase containing two neighbouring word vectors. We
+investigate both modelling words as the evidence they contribute about this
+phrase vector, or as the posterior distribution of a one-word phrase vector,
+and find that the posterior vectors perform better. The resulting word
+embeddings outperform the best previous results on predicting hyponymy between
+words, in unsupervised and semi-supervised experiments.

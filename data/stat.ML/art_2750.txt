@@ -1,0 +1,15 @@
+Binary Classifier Calibration: Bayesian Non-Parametric Approach
+A set of probabilistic predictions is well calibrated if the events that are
+predicted to occur with probability p do in fact occur about p fraction of the
+time. Well calibrated predictions are particularly important when machine
+learning models are used in decision analysis. This paper presents two new
+non-parametric methods for calibrating outputs of binary classification models:
+a method based on the Bayes optimal selection and a method based on the
+Bayesian model averaging. The advantage of these methods is that they are
+independent of the algorithm used to learn a predictive model, and they can be
+applied in a post-processing step, after the model is learned. This makes them
+applicable to a wide variety of machine learning models and methods. These
+calibration methods, as well as other methods, are tested on a variety of
+datasets in terms of both discrimination and calibration performance. The
+results show the methods either outperform or are comparable in performance to
+the state-of-the-art calibration methods.

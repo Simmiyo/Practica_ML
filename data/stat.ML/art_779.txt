@@ -1,0 +1,22 @@
+Bayesian Learning of Kernel Embeddings
+Kernel methods are one of the mainstays of machine learning, but the problem
+of kernel learning remains challenging, with only a few heuristics and very
+little theory. This is of particular importance in methods based on estimation
+of kernel mean embeddings of probability measures. For characteristic kernels,
+which include most commonly used ones, the kernel mean embedding uniquely
+determines its probability measure, so it can be used to design a powerful
+statistical testing framework, which includes nonparametric two-sample and
+independence tests. In practice, however, the performance of these tests can be
+very sensitive to the choice of kernel and its lengthscale parameters. To
+address this central issue, we propose a new probabilistic model for kernel
+mean embeddings, the Bayesian Kernel Embedding model, combining a Gaussian
+process prior over the Reproducing Kernel Hilbert Space containing the mean
+embedding with a conjugate likelihood function, thus yielding a closed form
+posterior over the mean embedding. The posterior mean of our model is closely
+related to recently proposed shrinkage estimators for kernel mean embeddings,
+while the posterior uncertainty is a new, interesting feature with various
+possible applications. Critically for the purposes of kernel learning, our
+model gives a simple, closed form marginal pseudolikelihood of the observed
+data given the kernel hyperparameters. This marginal pseudolikelihood can
+either be optimized to inform the hyperparameter choice or fully Bayesian
+inference can be used.

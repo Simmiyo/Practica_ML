@@ -1,0 +1,24 @@
+Designing Optimal Mortality Risk Prediction Scores that Preserve
+  Clinical Knowledge
+Many in-hospital mortality risk prediction scores dichotomize predictive
+variables to simplify the score calculation. However, hard thresholding in
+these additive stepwise scores of the form "add x points if variable v is
+above/below threshold t" may lead to critical failures. In this paper, we seek
+to develop risk prediction scores that preserve clinical knowledge embedded in
+features and structure of the existing additive stepwise scores while
+addressing limitations caused by variable dichotomization. To this end, we
+propose a novel score structure that relies on a transformation of predictive
+variables by means of nonlinear logistic functions facilitating smooth
+differentiation between critical and normal values of the variables. We develop
+an optimization framework for inferring parameters of the logistic functions
+for a given patient population via cyclic block coordinate descent. The
+parameters may readily be updated as the patient population and standards of
+care evolve. We tested the proposed methodology on two populations: (1) brain
+trauma patients admitted to the intensive care unit of the Dell Children's
+Medical Center of Central Texas between 2007 and 2012, and (2) adult ICU
+patient data from the MIMIC II database. The results are compared with those
+obtained by the widely used PRISM III and SOFA scores. The prediction power of
+a score is evaluated using area under ROC curve, Youden's index, and
+precision-recall balance in a cross-validation study. The results demonstrate
+that the new framework enables significant performance improvements over PRISM
+III and SOFA in terms of all three criteria.

@@ -1,0 +1,14 @@
+Data-Driven Learning of the Number of States in Multi-State
+  Autoregressive Models
+In this work, we consider the class of multi-state autoregressive processes
+that can be used to model non-stationary time-series of interest. In order to
+capture different autoregressive (AR) states underlying an observed time
+series, it is crucial to select the appropriate number of states. We propose a
+new model selection technique based on the Gap statistics, which uses a null
+reference distribution on the stable AR filters to check whether adding a new
+AR state significantly improves the performance of the model. To that end, we
+define a new distance measure between AR filters based on mean squared
+prediction error (MSPE), and propose an efficient method to generate random
+stable filters that are uniformly distributed in the coefficient space.
+Numerical results are provided to evaluate the performance of the proposed
+approach.

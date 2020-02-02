@@ -1,0 +1,17 @@
+Online Prediction of Dyadic Data with Heterogeneous Matrix Factorization
+Dyadic Data Prediction (DDP) is an important problem in many research areas.
+This paper develops a novel fully Bayesian nonparametric framework which
+integrates two popular and complementary approaches, discrete mixed membership
+modeling and continuous latent factor modeling into a unified Heterogeneous
+Matrix Factorization~(HeMF) model, which can predict the unobserved dyadics
+accurately. The HeMF can determine the number of communities automatically and
+exploit the latent linear structure for each bicluster efficiently. We propose
+a Variational Bayesian method to estimate the parameters and missing data. We
+further develop a novel online learning approach for Variational inference and
+use it for the online learning of HeMF, which can efficiently cope with the
+important large-scale DDP problem. We evaluate the performance of our method on
+the EachMoive, MovieLens and Netflix Prize collaborative filtering datasets.
+The experiment shows that, our model outperforms state-of-the-art methods on
+all benchmarks. Compared with Stochastic Gradient Method (SGD), our online
+learning approach achieves significant improvement on the estimation accuracy
+and robustness.

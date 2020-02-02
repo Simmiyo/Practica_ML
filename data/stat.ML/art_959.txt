@@ -1,0 +1,21 @@
+Security Analysis of Online Centroid Anomaly Detection
+Security issues are crucial in a number of machine learning applications,
+especially in scenarios dealing with human activity rather than natural
+phenomena (e.g., information ranking, spam detection, malware detection, etc.).
+It is to be expected in such cases that learning algorithms will have to deal
+with manipulated data aimed at hampering decision making. Although some
+previous work addressed the handling of malicious data in the context of
+supervised learning, very little is known about the behavior of anomaly
+detection methods in such scenarios. In this contribution we analyze the
+performance of a particular method -- online centroid anomaly detection -- in
+the presence of adversarial noise. Our analysis addresses the following
+security-related issues: formalization of learning and attack processes,
+derivation of an optimal attack, analysis of its efficiency and constraints. We
+derive bounds on the effectiveness of a poisoning attack against centroid
+anomaly under different conditions: bounded and unbounded percentage of
+traffic, and bounded false positive rate. Our bounds show that whereas a
+poisoning attack can be effectively staged in the unconstrained case, it can be
+made arbitrarily difficult (a strict upper bound on the attacker's gain) if
+external constraints are properly used. Our experimental evaluation carried out
+on real HTTP and exploit traces confirms the tightness of our theoretical
+bounds and practicality of our protection mechanisms.

@@ -1,0 +1,14 @@
+Sparse seismic imaging using variable projection
+We consider an important class of signal processing problems where the signal
+of interest is known to be sparse, and can be recovered from data given
+auxiliary information about how the data was generated. For example, a sparse
+Green's function may be recovered from seismic experimental data using sparsity
+optimization when the source signature is known. Unfortunately, in practice
+this information is often missing, and must be recovered from data along with
+the signal using deconvolution techniques.
+  In this paper, we present a novel methodology to simultaneously solve for the
+sparse signal and auxiliary parameters using a recently proposed variable
+projection technique. Our main contribution is to combine variable projection
+with sparsity promoting optimization, obtaining an efficient algorithm for
+large-scale sparse deconvolution problems. We demonstrate the algorithm on a
+seismic imaging example.

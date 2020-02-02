@@ -1,0 +1,16 @@
+On the Convergence of Bound Optimization Algorithms
+Many practitioners who use the EM algorithm complain that it is sometimes
+slow. When does this happen, and what can be done about it? In this paper, we
+study the general class of bound optimization algorithms - including
+Expectation-Maximization, Iterative Scaling and CCCP - and their relationship
+to direct optimization algorithms such as gradient-based methods for parameter
+learning. We derive a general relationship between the updates performed by
+bound optimization methods and those of gradient and second-order methods and
+identify analytic conditions under which bound optimization algorithms exhibit
+quasi-Newton behavior, and conditions under which they possess poor,
+first-order convergence. Based on this analysis, we consider several specific
+algorithms, interpret and analyze their convergence properties and provide some
+recipes for preprocessing input to these algorithms to yield faster convergence
+behavior. We report empirical results supporting our analysis and showing that
+simple data preprocessing can result in dramatically improved performance of
+bound optimizers in practice.

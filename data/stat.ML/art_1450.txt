@@ -1,0 +1,24 @@
+Fair Kernel Learning
+New social and economic activities massively exploit big data and machine
+learning algorithms to do inference on people's lives. Applications include
+automatic curricula evaluation, wage determination, and risk assessment for
+credits and loans. Recently, many governments and institutions have raised
+concerns about the lack of fairness, equity and ethics in machine learning to
+treat these problems. It has been shown that not including sensitive features
+that bias fairness, such as gender or race, is not enough to mitigate the
+discrimination when other related features are included. Instead, including
+fairness in the objective function has been shown to be more efficient.
+  We present novel fair regression and dimensionality reduction methods built
+on a previously proposed fair classification framework. Both methods rely on
+using the Hilbert Schmidt independence criterion as the fairness term. Unlike
+previous approaches, this allows us to simplify the problem and to use multiple
+sensitive variables simultaneously. Replacing the linear formulation by kernel
+functions allows the methods to deal with nonlinear problems. For both linear
+and nonlinear formulations the solution reduces to solving simple matrix
+inversions or generalized eigenvalue problems. This simplifies the evaluation
+of the solutions for different trade-off values between the predictive error
+and fairness terms. We illustrate the usefulness of the proposed methods in toy
+examples, and evaluate their performance on real world datasets to predict
+income using gender and/or race discrimination as sensitive variables, and
+contraceptive method prediction under demographic and socio-economic sensitive
+descriptors.

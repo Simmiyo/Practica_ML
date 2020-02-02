@@ -1,0 +1,17 @@
+Alpha-Divergences in Variational Dropout
+We investigate the use of alternative divergences to Kullback-Leibler (KL) in
+variational inference(VI), based on the Variational Dropout \cite{kingma2015}.
+Stochastic gradient variational Bayes (SGVB) \cite{aevb} is a general framework
+for estimating the evidence lower bound (ELBO) in Variational Bayes. In this
+work, we extend the SGVB estimator with using Alpha-Divergences, which are
+alternative to divergences to VI' KL objective. The Gaussian dropout can be
+seen as a local reparametrization trick of the SGVB objective. We extend the
+Variational Dropout to use alpha divergences for variational inference. Our
+results compare $\alpha$-divergence variational dropout with standard
+variational dropout with correlated and uncorrelated weight noise. We show that
+the $\alpha$-divergence with $\alpha \rightarrow 1$ (or KL divergence) is still
+a good measure for use in variational inference, in spite of the efficient use
+of Alpha-divergences for Dropout VI \cite{Li17}. $\alpha \rightarrow 1$ can
+yield the lowest training error, and optimizes a good lower bound for the
+evidence lower bound (ELBO) among all values of the parameter $\alpha \in
+[0,\infty)$.

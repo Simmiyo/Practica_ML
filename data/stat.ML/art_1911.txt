@@ -1,0 +1,23 @@
+Approximate Computation and Implicit Regularization for Very Large-scale
+  Data Analysis
+Database theory and database practice are typically the domain of computer
+scientists who adopt what may be termed an algorithmic perspective on their
+data. This perspective is very different than the more statistical perspective
+adopted by statisticians, scientific computers, machine learners, and other who
+work on what may be broadly termed statistical data analysis. In this article,
+I will address fundamental aspects of this algorithmic-statistical disconnect,
+with an eye to bridging the gap between these two very different approaches. A
+concept that lies at the heart of this disconnect is that of statistical
+regularization, a notion that has to do with how robust is the output of an
+algorithm to the noise properties of the input data. Although it is nearly
+completely absent from computer science, which historically has taken the input
+data as given and modeled algorithms discretely, regularization in one form or
+another is central to nearly every application domain that applies algorithms
+to noisy data. By using several case studies, I will illustrate, both
+theoretically and empirically, the nonobvious fact that approximate
+computation, in and of itself, can implicitly lead to statistical
+regularization. This and other recent work suggests that, by exploiting in a
+more principled way the statistical properties implicit in worst-case
+algorithms, one can in many cases satisfy the bicriteria of having algorithms
+that are scalable to very large-scale databases and that also have good
+inferential or predictive properties.

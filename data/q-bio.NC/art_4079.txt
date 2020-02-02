@@ -1,0 +1,15 @@
+The simplest maximum entropy model for collective behavior in a neural
+  network
+Recent work emphasizes that the maximum entropy principle provides a bridge
+between statistical mechanics models for collective behavior in neural networks
+and experiments on networks of real neurons. Most of this work has focused on
+capturing the measured correlations among pairs of neurons. Here we suggest an
+alternative, constructing models that are consistent with the distribution of
+global network activity, i.e. the probability that K out of N cells in the
+network generate action potentials in the same small time bin. The inverse
+problem that we need to solve in constructing the model is analytically
+tractable, and provides a natural "thermodynamics" for the network in the limit
+of large N. We analyze the responses of neurons in a small patch of the retina
+to naturalistic stimuli, and find that the implied thermodynamics is very close
+to an unusual critical point, in which the entropy (in proper units) is exactly
+equal to the energy.

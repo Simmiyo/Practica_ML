@@ -1,0 +1,15 @@
+Predictive Interval Models for Non-parametric Regression
+Having a regression model, we are interested in finding two-sided intervals
+that are guaranteed to contain at least a desired proportion of the conditional
+distribution of the response variable given a specific combination of
+predictors. We name such intervals predictive intervals. This work presents a
+new method to find two-sided predictive intervals for non-parametric least
+squares regression without the homoscedasticity assumption. Our predictive
+intervals are built by using tolerance intervals on prediction errors in the
+query point's neighborhood. We proposed a predictive interval model test and we
+also used it as a constraint in our hyper-parameter tuning algorithm. This
+gives an algorithm that finds the smallest reliable predictive intervals for a
+given dataset. We also introduce a measure for comparing different interval
+prediction methods yielding intervals having different size and coverage. These
+experiments show that our methods are more reliable, effective and precise than
+other interval prediction methods.

@@ -1,0 +1,16 @@
+Dynamic Hierarchical Dirichlet Process for Abnormal Behaviour Detection
+  in Video
+This paper proposes a novel dynamic Hierarchical Dirichlet Process topic
+model that considers the dependence between successive observations.
+Conventional posterior inference algorithms for this kind of models require
+processing of the whole data through several passes. It is computationally
+intractable for massive or sequential data. We design the batch and online
+inference algorithms, based on the Gibbs sampling, for the proposed model. It
+allows to process sequential data, incrementally updating the model by a new
+observation. The model is applied to abnormal behaviour detection in video
+sequences. A new abnormality measure is proposed for decision making. The
+proposed method is compared with the method based on the non- dynamic
+Hierarchical Dirichlet Process, for which we also derive the online Gibbs
+sampler and the abnormality measure. The results with synthetic and real data
+show that the consideration of the dynamics in a topic model improves the
+classification performance for abnormal behaviour detection.

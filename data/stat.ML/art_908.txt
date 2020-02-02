@@ -1,0 +1,19 @@
+Synth-Validation: Selecting the Best Causal Inference Method for a Given
+  Dataset
+Many decisions in healthcare, business, and other policy domains are made
+without the support of rigorous evidence due to the cost and complexity of
+performing randomized experiments. Using observational data to answer causal
+questions is risky: subjects who receive different treatments also differ in
+other ways that affect outcomes. Many causal inference methods have been
+developed to mitigate these biases. However, there is no way to know which
+method might produce the best estimate of a treatment effect in a given study.
+In analogy to cross-validation, which estimates the prediction error of
+predictive models applied to a given dataset, we propose synth-validation, a
+procedure that estimates the estimation error of causal inference methods
+applied to a given dataset. In synth-validation, we use the observed data to
+estimate generative distributions with known treatment effects. We apply each
+causal inference method to datasets sampled from these distributions and
+compare the effect estimates with the known effects to estimate error. Using
+simulations, we show that using synth-validation to select a causal inference
+method for each study lowers the expected estimation error relative to
+consistently using any single method.

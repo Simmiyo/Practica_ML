@@ -1,0 +1,16 @@
+Cyberbullying Detection -- Technical Report 2/2018, Department of
+  Computer Science AGH, University of Science and Technology
+The research described in this paper concerns automatic cyberbullying
+detection in social media. There are two goals to achieve: building a gold
+standard cyberbullying detection dataset and measuring the performance of the
+Samurai cyberbullying detection system. The Formspring dataset provided in a
+Kaggle competition was re-annotated as a part of the research. The annotation
+procedure is described in detail and, unlike many other recent data annotation
+initiatives, does not use Mechanical Turk for finding people willing to perform
+the annotation. The new annotation compared to the old one seems to be more
+coherent since all tested cyberbullying detection system performed better on
+the former. The performance of the Samurai system is compared with 5 commercial
+systems and one well-known machine learning algorithm, used for classifying
+textual content, namely Fasttext. It turns out that Samurai scores the best in
+all measures (accuracy, precision and recall), while Fasttext is the
+second-best performing algorithm.

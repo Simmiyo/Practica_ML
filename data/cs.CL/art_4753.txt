@@ -1,0 +1,12 @@
+Rapid Customization for Event Extraction
+We present a system for rapidly customizing event extraction capability to
+find new event types and their arguments. The system allows a user to find,
+expand and filter event triggers for a new event type by exploring an
+unannotated corpus. The system will then automatically generate mention-level
+event annotation automatically, and train a Neural Network model for finding
+the corresponding event. Additionally, the system uses the ACE corpus to train
+an argument model for extracting Actor, Place, and Time arguments for any event
+types, including ones not seen in its training data. Experiments show that with
+less than 10 minutes of human effort per event type, the system achieves good
+performance for 67 novel event types. The code, documentation, and a
+demonstration video will be released as open source on github.com.

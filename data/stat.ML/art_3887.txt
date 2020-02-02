@@ -1,0 +1,13 @@
+Degrees of Freedom in Deep Neural Networks
+In this paper, we explore degrees of freedom in deep sigmoidal neural
+networks. We show that the degrees of freedom in these models is related to the
+expected optimism, which is the expected difference between test error and
+training error. We provide an efficient Monte-Carlo method to estimate the
+degrees of freedom for multi-class classification methods. We show degrees of
+freedom are lower than the parameter count in a simple XOR network. We extend
+these results to neural nets trained on synthetic and real data, and
+investigate impact of network's architecture and different regularization
+choices. The degrees of freedom in deep networks are dramatically smaller than
+the number of parameters, in some real datasets several orders of magnitude.
+Further, we observe that for fixed number of parameters, deeper networks have
+less degrees of freedom exhibiting a regularization-by-depth.

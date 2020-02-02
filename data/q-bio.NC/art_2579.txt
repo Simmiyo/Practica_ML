@@ -1,0 +1,17 @@
+A Nonparametric Bayesian Approach to Uncovering Rat Hippocampal
+  Population Codes During Spatial Navigation
+Rodent hippocampal population codes represent important spatial information
+about the environment during navigation. Several computational methods have
+been developed to uncover the neural representation of spatial topology
+embedded in rodent hippocampal ensemble spike activity. Here we extend our
+previous work and propose a nonparametric Bayesian approach to infer rat
+hippocampal population codes during spatial navigation. To tackle the model
+selection problem, we leverage a nonparametric Bayesian model. Specifically, to
+analyze rat hippocampal ensemble spiking activity, we apply a hierarchical
+Dirichlet process-hidden Markov model (HDP-HMM) using two Bayesian inference
+methods, one based on Markov chain Monte Carlo (MCMC) and the other based on
+variational Bayes (VB). We demonstrate the effectiveness of our Bayesian
+approaches on recordings from a freely-behaving rat navigating in an open field
+environment. We find that MCMC-based inference with Hamiltonian Monte Carlo
+(HMC) hyperparameter sampling is flexible and efficient, and outperforms VB and
+MCMC approaches with hyperparameters set by empirical Bayes.

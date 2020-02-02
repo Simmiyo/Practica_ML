@@ -1,0 +1,15 @@
+Thematically Reinforced Explicit Semantic Analysis
+We present an extended, thematically reinforced version of Gabrilovich and
+Markovitch's Explicit Semantic Analysis (ESA), where we obtain thematic
+information through the category structure of Wikipedia. For this we first
+define a notion of categorical tfidf which measures the relevance of terms in
+categories. Using this measure as a weight we calculate a maximal spanning tree
+of the Wikipedia corpus considered as a directed graph of pages and categories.
+This tree provides us with a unique path of "most related categories" between
+each page and the top of the hierarchy. We reinforce tfidf of words in a page
+by aggregating it with categorical tfidfs of the nodes of these paths, and
+define a thematically reinforced ESA semantic relatedness measure which is more
+robust than standard ESA and less sensitive to noise caused by out-of-context
+words. We apply our method to the French Wikipedia corpus, evaluate it through
+a text classification on a 37.5 MB corpus of 20 French newsgroups and obtain a
+precision increase of 9-10% compared with standard ESA.

@@ -1,0 +1,14 @@
+OneNet: Joint Domain, Intent, Slot Prediction for Spoken Language
+  Understanding
+In practice, most spoken language understanding systems process user input in
+a pipelined manner; first domain is predicted, then intent and semantic slots
+are inferred according to the semantic frames of the predicted domain. The
+pipeline approach, however, has some disadvantages: error propagation and lack
+of information sharing. To address these issues, we present a unified neural
+network that jointly performs domain, intent, and slot predictions. Our
+approach adopts a principled architecture for multitask learning to fold in the
+state-of-the-art models for each task. With a few more ingredients, e.g.
+orthography-sensitive input encoding and curriculum training, our model
+delivered significant improvements in all three tasks across all domains over
+strong baselines, including one using oracle prediction for domain detection,
+on real user data of a commercial personal assistant.

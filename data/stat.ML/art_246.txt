@@ -1,0 +1,10 @@
+Spectral Clustering Based on Local PCA
+We propose a spectral clustering method based on local principal components
+analysis (PCA). After performing local PCA in selected neighborhoods, the
+algorithm builds a nearest neighbor graph weighted according to a discrepancy
+between the principal subspaces in the neighborhoods, and then applies spectral
+clustering. As opposed to standard spectral methods based solely on pairwise
+distances between points, our algorithm is able to resolve intersections. We
+establish theoretical guarantees for simpler variants within a prototypical
+mathematical framework for multi-manifold clustering, and evaluate our
+algorithm on various simulated data sets.

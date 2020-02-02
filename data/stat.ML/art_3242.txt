@@ -1,0 +1,24 @@
+Minimum message length estimation of mixtures of multivariate Gaussian
+  and von Mises-Fisher distributions
+Mixture modelling involves explaining some observed evidence using a
+combination of probability distributions. The crux of the problem is the
+inference of an optimal number of mixture components and their corresponding
+parameters. This paper discusses unsupervised learning of mixture models using
+the Bayesian Minimum Message Length (MML) criterion. To demonstrate the
+effectiveness of search and inference of mixture parameters using the proposed
+approach, we select two key probability distributions, each handling
+fundamentally different types of data: the multivariate Gaussian distribution
+to address mixture modelling of data distributed in Euclidean space, and the
+multivariate von Mises-Fisher (vMF) distribution to address mixture modelling
+of directional data distributed on a unit hypersphere. The key contributions of
+this paper, in addition to the general search and inference methodology,
+include the derivation of MML expressions for encoding the data using
+multivariate Gaussian and von Mises-Fisher distributions, and the analytical
+derivation of the MML estimates of the parameters of the two distributions. Our
+approach is tested on simulated and real world data sets. For instance, we
+infer vMF mixtures that concisely explain experimentally determined
+three-dimensional protein conformations, providing an effective null model
+description of protein structures that is central to many inference problems in
+structural bioinformatics. The experimental results demonstrate that the
+performance of our proposed search and inference method along with the encoding
+schemes improve on the state of the art mixture modelling techniques.

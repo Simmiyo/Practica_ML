@@ -1,0 +1,24 @@
+The Robustness and the Doubly-Preferential Attachment Simulation of the
+  Consensus Connectome Dynamics of the Human Brain
+The increasing quantity and quality of the publicly available human cerebral
+diffusion MRI data make possible the study of the brain as it was unimaginable
+before. The Consensus Connectome Dynamics (CCD) is a remarkable phenomenon that
+was discovered by continuously decreasing the minimum confidence-parameter at
+the graphical interface of the Budapest Reference Connectome Server
+(\url{http://connectome.pitgroup.org}). The Budapest Reference Connectome
+Server depicts the cerebral connections of $n=418$ subjects with a
+frequency-parameter $k$: For any $k=1,2,...,n$ one can view the graph of the
+edges that are present in at least $k$ connectomes. If parameter $k$ is
+decreased one-by-one from $k=n$ through $k=1$ then more and more edges appear
+in the graph, since the inclusion condition is relaxed. The surprising
+observation is that the appearance of the edges is far from random: it
+resembles a growing, complex structure, like a tree or a shrub (visualized on
+\url{https://www.youtube.com/watch?v=yxlyudPaVUE}). Here we examine the
+robustness of the CCD phenomenon, and we show that it is almost independent of
+the particular choice of the set of underlying individual connectomes, yielding
+the CCD phenomenon. This result shows that the CCD phenomenon is very likely a
+biological property of the human brain and not just a property of the data sets
+examined. We also present a simulation that well-describes the growth of the
+CCD structure: in our random graph model a doubly-preferential attachment
+distribution is found to mimic the CCD: a new edge appear with a probability
+proportional to the sum of the degrees of the endpoints of the new edge.

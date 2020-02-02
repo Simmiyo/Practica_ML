@@ -1,0 +1,15 @@
+Borel Isomorphic Dimensionality Reduction of Data and Supervised
+  Learning
+In this project we further investigate the idea of reducing the
+dimensionality of datasets using a Borel isomorphism with the purpose of
+subsequently applying supervised learning algorithms, as originally suggested
+by my supervisor V. Pestov (in 2011 Dagstuhl preprint). Any consistent learning
+algorithm, for example kNN, retains universal consistency after a Borel
+isomorphism is applied. A series of concrete examples of Borel isomorphisms
+that reduce the number of dimensions in a dataset is provided, based on
+multiplying the data by orthogonal matrices before the dimensionality reducing
+Borel isomorphism is applied. We test the accuracy of the resulting classifier
+in a lower dimensional space with various data sets. Working with a phoneme
+voice recognition dataset, of dimension 256 with 5 classes (phonemes), we show
+that a Borel isomorphic reduction to dimension 16 leads to a minimal drop in
+accuracy. In conclusion, we discuss further prospects of the method.

@@ -1,0 +1,10 @@
+Unsupervised Training for Large Vocabulary Translation Using Sparse
+  Lexicon and Word Classes
+We address for the first time unsupervised training for a translation task
+with hundreds of thousands of vocabulary words. We scale up the
+expectation-maximization (EM) algorithm to learn a large translation table
+without any parallel text or seed lexicon. First, we solve the memory
+bottleneck and enforce the sparsity with a simple thresholding scheme for the
+lexicon. Second, we initialize the lexicon training with word classes, which
+efficiently boosts the performance. Our methods produced promising results on
+two large-scale unsupervised translation tasks.

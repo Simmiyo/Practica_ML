@@ -1,0 +1,14 @@
+Learning with precise spike times: A new decoding algorithm for liquid
+  state machines
+There is extensive evidence that biological neural networks encode
+information in the precise timing of the spikes generated and transmitted by
+neurons, which offers several advantages over rate-based codes. Here we adopt a
+vector space formulation of spike train sequences and introduce a new liquid
+state machine (LSM) network architecture and a new forward orthogonal
+regression algorithm to learn an input-output signal mapping or to decode the
+brain activity. The proposed algorithm uses precise spike timing to select the
+presynaptic neurons relevant to each learning task. We show that using precise
+spike timing to train the LSM and selecting the readout neurons leads to a
+significant increase in performance on binary classification tasks as well as
+in decoding neural activity from multielectrode array recordings, compared with
+what is achieved using the standard architecture and training method.

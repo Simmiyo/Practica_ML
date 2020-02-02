@@ -1,0 +1,19 @@
+Designing Complex Networks
+We suggest a new perspective of research towards understanding the relations
+between structure and dynamics of a complex network: Can we design a network,
+e.g. by modifying the features of units or interactions, such that it exhibits
+a desired dynamics? Here we present a case study where we positively answer
+this question analytically for networks of spiking neural oscillators. First,
+we present a method of finding the set of all networks (defined by all mutual
+coupling strengths) that exhibit an arbitrary given periodic pattern of spikes
+as an invariant solution. In such a pattern all the spike times of all the
+neurons are exactly predefined. The method is very general as it covers
+networks of different types of neurons, excitatory and inhibitory couplings,
+interaction delays that may be heterogeneously distributed, and arbitrary
+network connectivities. Second, we show how to design networks if further
+restrictions are imposed, for instance by predefining the detailed network
+connectivity. We illustrate the applicability of the method by examples of
+Erd\"{o}s-R\'{e}nyi and power-law random networks. Third, the method can be
+used to design networks that optimize network properties. To illustrate this
+idea, we design networks that exhibit a predefined pattern dynamics while at
+the same time minimizing the networks' wiring costs.

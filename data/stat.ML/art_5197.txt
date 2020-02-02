@@ -1,0 +1,18 @@
+Learning Traffic as Images: A Deep Convolutional Neural Network for
+  Large-Scale Transportation Network Speed Prediction
+This paper proposes a convolutional neural network (CNN)-based method that
+learns traffic as images and predicts large-scale, network-wide traffic speed
+with a high accuracy. Spatiotemporal traffic dynamics are converted to images
+describing the time and space relations of traffic flow via a two-dimensional
+time-space matrix. A CNN is applied to the image following two consecutive
+steps: abstract traffic feature extraction and network-wide traffic speed
+prediction. The effectiveness of the proposed method is evaluated by taking two
+real-world transportation networks, the second ring road and north-east
+transportation network in Beijing, as examples, and comparing the method with
+four prevailing algorithms, namely, ordinary least squares, k-nearest
+neighbors, artificial neural network, and random forest, and three deep
+learning architectures, namely, stacked autoencoder, recurrent neural network,
+and long-short-term memory network. The results show that the proposed method
+outperforms other algorithms by an average accuracy improvement of 42.91%
+within an acceptable execution time. The CNN can train the model in a
+reasonable time and, thus, is suitable for large-scale transportation networks.

@@ -1,0 +1,19 @@
+Predicting Discharge Medications at Admission Time Based on Deep
+  Learning
+Predicting discharge medications right after a patient being admitted is an
+important clinical decision, which provides physicians with guidance on what
+type of medication regimen to plan for and what possible changes on initial
+medication may occur during an inpatient stay. It also facilitates medication
+reconciliation process with easy detection of medication discrepancy at
+discharge time to improve patient safety. However, since the information
+available upon admission is limited and patients' condition may evolve during
+an inpatient stay, these predictions could be a difficult decision for
+physicians to make. In this work, we investigate how to leverage deep learning
+technologies to assist physicians in predicting discharge medications based on
+information documented in the admission note. We build a convolutional neural
+network which takes an admission note as input and predicts the medications
+placed on the patient at discharge time. Our method is able to distill semantic
+patterns from unstructured and noisy texts, and is capable of capturing the
+pharmacological correlations among medications. We evaluate our method on 25K
+patient visits and compare with 4 strong baselines. Our methods demonstrate a
+20% increase in macro-averaged F1 score than the best baseline.

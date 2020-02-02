@@ -1,0 +1,14 @@
+A Summary Of The Kernel Matrix, And How To Learn It Effectively Using
+  Semidefinite Programming
+Kernel-based learning algorithms are widely used in machine learning for
+problems that make use of the similarity between object pairs. Such algorithms
+first embed all data points into an alternative space, where the inner product
+between object pairs specifies their distance in the embedding space. Applying
+kernel methods to partially labeled datasets is a classical challenge in this
+regard, requiring that the distances between unlabeled pairs must somehow be
+learnt using the labeled data. In this independent study, I will summarize the
+work of G. Lanckriet et al.'s work on "Learning the Kernel Matrix with
+Semidefinite Programming" used in support vector machines (SVM) algorithms for
+the transduction problem. Throughout the report, I have provide alternative
+explanations / derivations / analysis related to this work which is designed to
+ease the understanding of the original article.

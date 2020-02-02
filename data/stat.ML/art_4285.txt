@@ -1,0 +1,10 @@
+Randomized Nonnegative Matrix Factorization
+Nonnegative matrix factorization (NMF) is a powerful tool for data mining.
+However, the emergence of `big data' has severely challenged our ability to
+compute this fundamental decomposition using deterministic algorithms. This
+paper presents a randomized hierarchical alternating least squares (HALS)
+algorithm to compute the NMF. By deriving a smaller matrix from the nonnegative
+input data, a more efficient nonnegative decomposition can be computed. Our
+algorithm scales to big data applications while attaining a near-optimal
+factorization. The proposed algorithm is evaluated using synthetic and real
+world data and shows substantial speedups compared to deterministic HALS.

@@ -1,0 +1,15 @@
+Minimum Message Length Clustering Using Gibbs Sampling
+The K-Mean and EM algorithms are popular in clustering and mixture modeling,
+due to their simplicity and ease of implementation. However, they have several
+significant limitations. Both coverage to a local optimum of their respective
+objective functions (ignoring the uncertainty in the model space), require the
+apriori specification of the number of classes/clsuters, and are inconsistent.
+In this work we overcome these limitations by using the Minimum Message Length
+(MML) principle and a variation to the K-Means/EM observation assignment and
+parameter calculation scheme. We maintain the simplicity of these approaches
+while constructing a Bayesian mixture modeling tool that samples/searches the
+model space using a Markov Chain Monte Carlo (MCMC) sampler known as a Gibbs
+sampler. Gibbs sampling allows us to visit each model according to its
+posterior probability. Therefore, if the model space is multi-modal we will
+visit all models and not get stuck in local optima. We call our approach
+multiple chains at equilibrium (MCE) MML sampling.

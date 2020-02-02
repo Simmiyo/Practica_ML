@@ -1,0 +1,19 @@
+Constrained Approximate Maximum Entropy Learning of Markov Random Fields
+Parameter estimation in Markov random fields (MRFs) is a difficult task, in
+which inference over the network is run in the inner loop of a gradient descent
+procedure. Replacing exact inference with approximate methods such as loopy
+belief propagation (LBP) can suffer from poor convergence. In this paper, we
+provide a different approach for combining MRF learning and Bethe
+approximation. We consider the dual of maximum likelihood Markov network
+learning - maximizing entropy with moment matching constraints - and then
+approximate both the objective and the constraints in the resulting
+optimization problem. Unlike previous work along these lines (Teh & Welling,
+2003), our formulation allows parameter sharing between features in a general
+log-linear model, parameter regularization and conditional training. We show
+that piecewise training (Sutton & McCallum, 2005) is a very restricted special
+case of this formulation. We study two optimization strategies: one based on a
+single convex approximation and one that uses repeated convex approximations.
+We show results on several real-world networks that demonstrate that these
+algorithms can significantly outperform learning with loopy and piecewise. Our
+results also provide a framework for analyzing the trade-offs of different
+relaxations of the entropy objective and of the constraints.

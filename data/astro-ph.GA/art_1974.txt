@@ -1,0 +1,28 @@
+Simple Models of Metal-Line Absorption and Emission from Cool Gas
+  Outflows
+We analyze the absorption and emission-line profiles produced by a set of
+simple, cool gas wind models motivated by galactic-scale outflow observations.
+We implement monte carlo radiative transfer techniques that track the
+propagation of scattered and fluorescent photons to generate 1D spectra and 2D
+spectral images. We focus on the MgII 2796,28303 doublet and FeII UV1 multiplet
+at ~2600A, but the results are applicable to other transitions that trace
+outflows (e.g. NaI, Lya, SiII). By design, the resonance transitions show
+blue-shifted absorption but one also predicts strong resonance and
+fine-structure line-emission at roughly the systemic velocity. This
+line-emission `fills-in' the absorption reducing the equivalent width by up to
+50%, shift the absorption-lin centroid by tens of km/s, and reduce the
+effective opacity near systemic. Analysis of cool gas outflows that ignores
+this line-emission may incorrectly infer that the gas is partially covered,
+measure asignificantly lower peak optical depth, and/or conclude that gas at
+systemic velocity is absent. Because the FeII lines are connected by
+optically-thin transitions to fine-structure levels, their profiles more
+closely reproduce the intrinsic opacity of the wind. Together these results
+naturally explain the absorption and emission-line characteristics observed for
+star-forming galaxies at z<1. We also study a scenario promoted to describe the
+outflows of z~3 Lyman break galaxies and find prfiles inconsistent with the
+observations due to scattered photon emission. Although line-emission
+complicates the analysis of absorption-line profiles, the surface brightness
+profiles offer a unique means of assessing the morphology and size of
+galactic-scale winds. Furthermore, the kinematics and line-ratios offer
+powerful diagnostics of outflows, motivating deep, spatially-extended
+spectroscopic observations.

@@ -1,0 +1,20 @@
+Convex Calibration Dimension for Multiclass Loss Matrices
+We study consistency properties of surrogate loss functions for general
+multiclass learning problems, defined by a general multiclass loss matrix. We
+extend the notion of classification calibration, which has been studied for
+binary and multiclass 0-1 classification problems (and for certain other
+specific learning problems), to the general multiclass setting, and derive
+necessary and sufficient conditions for a surrogate loss to be calibrated with
+respect to a loss matrix in this setting. We then introduce the notion of
+convex calibration dimension of a multiclass loss matrix, which measures the
+smallest `size' of a prediction space in which it is possible to design a
+convex surrogate that is calibrated with respect to the loss matrix. We derive
+both upper and lower bounds on this quantity, and use these results to analyze
+various loss matrices. In particular, we apply our framework to study various
+subset ranking losses, and use the convex calibration dimension as a tool to
+show both the existence and non-existence of various types of convex calibrated
+surrogates for these losses. Our results strengthen recent results of Duchi et
+al. (2010) and Calauzenes et al. (2012) on the non-existence of certain types
+of convex calibrated surrogates in subset ranking. We anticipate the convex
+calibration dimension may prove to be a useful tool in the study and design of
+surrogate losses for general multiclass learning problems.

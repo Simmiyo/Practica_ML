@@ -1,0 +1,11 @@
+A Quantum Computational Learning Algorithm
+An interesting classical result due to Jackson allows polynomial-time
+learning of the function class DNF using membership queries. Since in most
+practical learning situations access to a membership oracle is unrealistic,
+this paper explores the possibility that quantum computation might allow a
+learning algorithm for DNF that relies only on example queries. A natural
+extension of Fourier-based learning into the quantum domain is presented. The
+algorithm requires only an example oracle, and it runs in O(sqrt(2^n)) time, a
+result that appears to be classically impossible. The algorithm is unique among
+quantum algorithms in that it does not assume a priori knowledge of a function
+and does not operate on a superposition that includes all possible states.

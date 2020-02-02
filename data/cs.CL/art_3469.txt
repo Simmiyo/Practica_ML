@@ -1,0 +1,9 @@
+Translating Questions into Answers using DBPedia n-triples
+In this paper we present a question answering system using a neural network
+to interpret questions learned from the DBpedia repository. We train a
+sequence-to-sequence neural network model with n-triples extracted from the
+DBpedia Infobox Properties. Since these properties do not represent the natural
+language, we further used question-answer dialogues from movie subtitles.
+Although the automatic evaluation shows a low overlap of the generated answers
+compared to the gold standard set, a manual inspection of the showed promising
+outcomes from the experiment for further work.

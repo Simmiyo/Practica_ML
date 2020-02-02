@@ -1,0 +1,13 @@
+Graph-Based Active Learning: A New Look at Expected Error Minimization
+In graph-based active learning, algorithms based on expected error
+minimization (EEM) have been popular and yield good empirical performance. The
+exact computation of EEM optimally balances exploration and exploitation. In
+practice, however, EEM-based algorithms employ various approximations due to
+the computational hardness of exact EEM. This can result in a lack of either
+exploration or exploitation, which can negatively impact the effectiveness of
+active learning. We propose a new algorithm TSA (Two-Step Approximation) that
+balances between exploration and exploitation efficiently while enjoying the
+same computational complexity as existing approximations. Finally, we
+empirically show the value of balancing between exploration and exploitation in
+both toy and real-world datasets where our method outperforms several
+state-of-the-art methods.

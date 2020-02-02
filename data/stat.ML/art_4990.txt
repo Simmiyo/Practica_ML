@@ -1,0 +1,10 @@
+Chaining Bounds for Empirical Risk Minimization
+This paper extends the standard chaining technique to prove excess risk upper
+bounds for empirical risk minimization with random design settings even if the
+magnitude of the noise and the estimates is unbounded. The bound applies to
+many loss functions besides the squared loss, and scales only with the
+sub-Gaussian or subexponential parameters without further statistical
+assumptions such as the bounded kurtosis condition over the hypothesis class. A
+detailed analysis is provided for slope constrained and penalized linear least
+squares regression with a sub-Gaussian setting, which often proves tight sample
+complexity bounds up to logartihmic factors.

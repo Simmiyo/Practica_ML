@@ -1,0 +1,10 @@
+Faster ICA under orthogonal constraint
+Independent Component Analysis (ICA) is a technique for unsupervised
+exploration of multi-channel data widely used in observational sciences. In its
+classical form, ICA relies on modeling the data as a linear mixture of
+non-Gaussian independent sources. The problem can be seen as a likelihood
+maximization problem. We introduce Picard-O, a preconditioned L-BFGS strategy
+over the set of orthogonal matrices, which can quickly separate both super- and
+sub-Gaussian signals. It returns the same set of sources as the widely used
+FastICA algorithm. Through numerical experiments, we show that our method is
+faster and more robust than FastICA on real data.

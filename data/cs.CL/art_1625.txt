@@ -1,0 +1,14 @@
+Multimodal Attribute Extraction
+The broad goal of information extraction is to derive structured information
+from unstructured data. However, most existing methods focus solely on text,
+ignoring other types of unstructured data such as images, video and audio which
+comprise an increasing portion of the information on the web. To address this
+shortcoming, we propose the task of multimodal attribute extraction. Given a
+collection of unstructured and semi-structured contextual information about an
+entity (such as a textual description, or visual depictions) the task is to
+extract the entity's underlying attributes. In this paper, we provide a dataset
+containing mixed-media data for over 2 million product items along with 7
+million attribute-value pairs describing the items which can be used to train
+attribute extractors in a weakly supervised manner. We provide a variety of
+baselines which demonstrate the relative effectiveness of the individual modes
+of information towards solving the task, as well as study human performance.

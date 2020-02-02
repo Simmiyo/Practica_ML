@@ -1,0 +1,19 @@
+Deep Recurrent Gaussian Process with Variational Sparse Spectrum
+  Approximation
+Modeling sequential data has become more and more important in practice. Some
+applications are autonomous driving, virtual sensors and weather forecasting.
+To model such systems so called recurrent models are used. In this article we
+introduce two new Deep Recurrent Gaussian Process (DRGP) models based on the
+Sparse Spectrum Gaussian Process (SSGP) and the improved variational version
+called Variational Sparse Spectrum Gaussian Process (VSSGP). We follow the
+recurrent structure given by an existing DRGP based on a specific sparse
+Nystr\"om approximation. Therefore, we also variationally integrate out the
+input-space and hence can propagate uncertainty through the layers. We can show
+that for the resulting lower bound an optimal variational distribution exists.
+Training is realized through optimizing the variational lower bound. Using
+Distributed Variational Inference (DVI), we can reduce the computational
+complexity. We improve over current state of the art methods in prediction
+accuracy for experimental data-sets used for their evaluation and introduce a
+new data-set for engine control, named Emission. Furthermore, our method can
+easily be adapted for unsupervised learning, e.g. the latent variable model and
+its deep version.

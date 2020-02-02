@@ -1,0 +1,24 @@
+Classification with Asymmetric Label Noise: Consistency and Maximal
+  Denoising
+In many real-world classification problems, the labels of training examples
+are randomly corrupted. Most previous theoretical work on classification with
+label noise assumes that the two classes are separable, that the label noise is
+independent of the true class label, or that the noise proportions for each
+class are known. In this work, we give conditions that are necessary and
+sufficient for the true class-conditional distributions to be identifiable.
+These conditions are weaker than those analyzed previously, and allow for the
+classes to be nonseparable and the noise levels to be asymmetric and unknown.
+The conditions essentially state that a majority of the observed labels are
+correct and that the true class-conditional distributions are "mutually
+irreducible," a concept we introduce that limits the similarity of the two
+distributions. For any label noise problem, there is a unique pair of true
+class-conditional distributions satisfying the proposed conditions, and we
+argue that this pair corresponds in a certain sense to maximal denoising of the
+observed distributions.
+  Our results are facilitated by a connection to "mixture proportion
+estimation," which is the problem of estimating the maximal proportion of one
+distribution that is present in another. We establish a novel rate of
+convergence result for mixture proportion estimation, and apply this to obtain
+consistency of a discrimination rule based on surrogate loss minimization.
+Experimental results on benchmark data and a nuclear particle classification
+problem demonstrate the efficacy of our approach.

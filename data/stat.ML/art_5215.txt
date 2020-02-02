@@ -1,0 +1,12 @@
+Bayesian Network Learning via Topological Order
+We propose a mixed integer programming (MIP) model and iterative algorithms
+based on topological orders to solve optimization problems with acyclic
+constraints on a directed graph. The proposed MIP model has a significantly
+lower number of constraints compared to popular MIP models based on cycle
+elimination constraints and triangular inequalities. The proposed iterative
+algorithms use gradient descent and iterative reordering approaches,
+respectively, for searching topological orders. A computational experiment is
+presented for the Gaussian Bayesian network learning problem, an optimization
+problem minimizing the sum of squared errors of regression models with L1
+penalty over a feature network with application of gene network inference in
+bioinformatics.

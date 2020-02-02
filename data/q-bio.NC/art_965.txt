@@ -1,0 +1,26 @@
+Computational model of axon guidance
+Axon guidance (AG) towards their target during embryogenesis or after injury
+is an important issue in the development of neuronal networks. During their
+growth, axons often face complex decisions that are difficult to understand
+when observing just a small part of the problem. In this work we propose a
+computational model of AG based on activity-independent mechanisms that takes
+into account the most important aspects of AG.
+  The model includes the main elements (neurons, with soma, axon and growth
+cone; glial cells acting as guideposts) and mechanisms (attraction/repulsion
+guidance cues, growth cone adaptation, tissue-gradient intersections, axonal
+transport, changes in the growth cone complexity and a range of responses for
+each receptor). The growth cone guidance is defined as a function that maps the
+receptor activation by ligands into a repulsive or attractive force. This force
+is then converted into a turn- ing angle using spherical coordinates. A
+regulatory network between the receptors and the intracellular proteins is
+considered, leading to more complex and realistic behaviors. The ligand
+diffusion through the extracellular environment is modeled with linear or
+exponential functions. Concerning experimentation, it was developed the first
+computational model and a new theoretical model of the midline crossing of
+Drosophila axons that focus all the decision points. The computational model
+created allows describing to a great extent the behaviors that have been
+reported in the literature, for three different pathfinding scenarios: (i)
+normal, (ii) comm mutant and (iii) robo mutant. Moreover, this model suggests
+new hypotheses, being the most relevant the existence of an inhibitory link
+between the DCC receptor and the Comm protein that is Netrin-mediated or
+mediated by a third unknown signal.

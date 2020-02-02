@@ -1,0 +1,13 @@
+Unsupervised Word Mapping Using Structural Similarities in Monolingual
+  Embeddings
+Most existing methods for automatic bilingual dictionary induction rely on
+prior alignments between the source and target languages, such as parallel
+corpora or seed dictionaries. For many language pairs, such supervised
+alignments are not readily available. We propose an unsupervised approach for
+learning a bilingual dictionary for a pair of languages given their
+independently-learned monolingual word embeddings. The proposed method exploits
+local and global structures in monolingual vector spaces to align them such
+that similar words are mapped to each other. We show empirically that the
+performance of bilingual correspondents learned using our proposed unsupervised
+method is comparable to that of using supervised bilingual correspondents from
+a seed dictionary.

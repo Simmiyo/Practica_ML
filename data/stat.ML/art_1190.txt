@@ -1,0 +1,10 @@
+SAGA and Restricted Strong Convexity
+SAGA is a fast incremental gradient method on the finite sum problem and its
+effectiveness has been tested on a vast of applications. In this paper, we
+analyze SAGA on a class of non-strongly convex and non-convex statistical
+problem such as Lasso, group Lasso, Logistic regression with $\ell_1$
+regularization, linear regression with SCAD regularization and Correct Lasso.
+We prove that SAGA enjoys the linear convergence rate up to the statistical
+estimation accuracy, under the assumption of restricted strong convexity (RSC).
+It significantly extends the applicability of SAGA in convex and non-convex
+optimization.

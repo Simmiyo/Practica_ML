@@ -1,0 +1,14 @@
+Comparing a statistical and a rule-based tagger for German
+In this paper we present the results of comparing a statistical tagger for
+German based on decision trees and a rule-based Brill-Tagger for German. We
+used the same training corpus (and therefore the same tag-set) to train both
+taggers. We then applied the taggers to the same test corpus and compared their
+respective behavior and in particular their error rates. Both taggers perform
+similarly with an error rate of around 5%. From the detailed error analysis it
+can be seen that the rule-based tagger has more problems with unknown words
+than the statistical tagger. But the results are opposite for tokens that are
+many-ways ambiguous. If the unknown words are fed into the taggers with the
+help of an external lexicon (such as the Gertwol system) the error rate of the
+rule-based tagger drops to 4.7%, and the respective rate of the statistical
+taggers drops to around 3.7%. Combining the taggers by using the output of one
+tagger to help the other did not lead to any further improvement.

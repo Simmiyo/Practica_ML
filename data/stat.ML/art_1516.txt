@@ -1,0 +1,27 @@
+Comparison of computer systems and ranking criteria for automatic
+  melanoma detection in dermoscopic images
+Melanoma is the deadliest form of skin cancer. Computer systems can assist in
+melanoma detection, but are not widespread in clinical practice. In 2016, an
+open challenge in classification of dermoscopic images of skin lesions was
+announced. A training set of 900 images with corresponding class labels and
+semi-automatic/manual segmentation masks was released for the challenge. An
+independent test set of 379 images was used to rank the participants. This
+article demonstrates the impact of ranking criteria, segmentation method and
+classifier, and highlights the clinical perspective. We compare five different
+measures for diagnostic accuracy by analysing the resulting ranking of the
+computer systems in the challenge. Choice of performance measure had great
+impact on the ranking. Systems that were ranked among the top three for one
+measure, dropped to the bottom half when changing performance measure. Nevus
+Doctor, a computer system previously developed by the authors, was used to
+investigate the impact of segmentation and classifier. The unexpected small
+impact of automatic versus semi-automatic/manual segmentation suggests that
+improvements of the automatic segmentation method w.r.t. resemblance to
+semi-automatic/manual segmentation will not improve diagnostic accuracy
+substantially. A small set of similar classification algorithms are used to
+investigate the impact of classifier on the diagnostic accuracy. The
+variability in diagnostic accuracy for different classifier algorithms was
+larger than the variability for segmentation methods, and suggests a focus for
+future investigations. From a clinical perspective, the misclassification of a
+melanoma as benign has far greater cost than the misclassification of a benign
+lesion. For computer systems to have clinical impact, their performance should
+be ranked by a high-sensitivity measure.

@@ -1,0 +1,11 @@
+Supervised Topic Models
+We introduce supervised latent Dirichlet allocation (sLDA), a statistical
+model of labelled documents. The model accommodates a variety of response
+types. We derive an approximate maximum-likelihood procedure for parameter
+estimation, which relies on variational methods to handle intractable posterior
+expectations. Prediction problems motivate this research: we use the fitted
+model to predict response values for new documents. We test sLDA on two
+real-world problems: movie ratings predicted from reviews, and the political
+tone of amendments in the U.S. Senate based on the amendment text. We
+illustrate the benefits of sLDA versus modern regularized regression, as well
+as versus an unsupervised LDA analysis followed by a separate regression.

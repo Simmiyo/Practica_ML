@@ -1,0 +1,19 @@
+Observability and Synchronization of Neuron Models
+Observability is the property that enables to distinguish two different
+locations in $n$-dimensional state space from a reduced number of measured
+variables, usually just one. In high-dimensional systems it is therefore
+important to make sure that the variable recorded to perform the analysis
+conveys good observability of the system dynamics. In the case of networks
+composed of neuron models, the observability of the network depends
+nontrivially on the observability of the node dynamics and on the topology of
+the network. The aim of this paper is twofold. First, a study of observability
+is conducted using four well-known neuron models by computing three different
+observability coefficients. This not only clarifies observability properties of
+the models but also shows the limitations of applicability of each type of
+coefficients in the context of such models. Second, a multivariate singular
+spectrum analysis (M-SSA) is performed to detect phase synchronization in
+networks composed by neuron models. This tool, to the best of the authors'
+knowledge has not been used in the context of networks of neuron models. It is
+shown that it is possible to detect phase synchronization i)~without having to
+measure all the state variables, but only one from each node, and ii)~without
+having to estimate the phase.

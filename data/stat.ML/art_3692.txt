@@ -1,0 +1,10 @@
+Mean-Field Inference in Gaussian Restricted Boltzmann Machine
+A Gaussian restricted Boltzmann machine (GRBM) is a Boltzmann machine defined
+on a bipartite graph and is an extension of usual restricted Boltzmann
+machines. A GRBM consists of two different layers: a visible layer composed of
+continuous visible variables and a hidden layer composed of discrete hidden
+variables. In this paper, we derive two different inference algorithms for
+GRBMs based on the naive mean-field approximation (NMFA). One is an inference
+algorithm for whole variables in a GRBM, and the other is an inference
+algorithm for partial variables in a GBRBM. We compare the two methods
+analytically and numerically and show that the latter method is better.

@@ -1,0 +1,13 @@
+Causal Inference through the Method of Direct Estimation
+The intersection of causal inference and machine learning is a rapidly
+advancing field. We propose a new approach, the method of direct estimation,
+that draws on both traditions in order to obtain nonparametric estimates of
+treatment effects. The approach focuses on estimating the effect of
+fluctuations in a treatment variable on an outcome. A tensor-spline
+implementation enables rich interactions between functional bases allowing for
+the approach to capture treatment/covariate interactions. We show how new
+innovations in Bayesian sparse modeling readily handle the proposed framework,
+and then document its performance in simulation and applied examples.
+Furthermore we show how the method of direct estimation can easily extend to
+structural estimators commonly used in a variety of disciplines, like
+instrumental variables, mediation analysis, and sequential g-estimation.

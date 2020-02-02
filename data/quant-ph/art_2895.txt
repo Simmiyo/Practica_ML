@@ -1,0 +1,11 @@
+The query complexity of order-finding
+We consider the problem where P is an unknown permutation on {0,1,...,2^n -
+1}, y is an element of {0,1,...,2^n - 1}, and the goal is to determine the
+minimum r > 0 such that P^r(y) = y (where P^r is P composed with itself r
+times). Information about P is available only via queries that yield P^x(y)
+from any x in {0,1,...,2^m - 1} and y in {0,1,...,2^n - 1} (where m is
+polynomial in n). The main resource under consideration is the number of these
+queries. We show that the number of queries necessary to solve the problem in
+the classical probabilistic bounded-error model is exponential in n. This
+contrasts sharply with the quantum bounded-error model, where a constant number
+of queries suffices.

@@ -1,0 +1,15 @@
+The Kernel Two-Sample Test for Brain Networks
+In clinical and neuroscientific studies, systematic differences between two
+populations of brain networks are investigated in order to characterize mental
+diseases or processes. Those networks are usually represented as graphs built
+from neuroimaging data and studied by means of graph analysis methods. The
+typical machine learning approach to study these brain graphs creates a
+classifier and tests its ability to discriminate the two populations. In
+contrast to this approach, in this work we propose to directly test whether two
+populations of graphs are different or not, by using the kernel two-sample test
+(KTST), without creating the intermediate classifier. We claim that, in
+general, the two approaches provides similar results and that the KTST requires
+much less computation. Additionally, in the regime of low sample size, we claim
+that the KTST has lower frequency of Type II error than the classification
+approach. Besides providing algorithmic considerations to support these claims,
+we show strong evidence through experiments and one simulation.

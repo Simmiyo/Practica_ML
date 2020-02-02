@@ -1,0 +1,12 @@
+Quantum shadow enumerators
+In a recent paper [quant-ph/9610040], Shor and Laflamme define two ``weight
+enumerators'' for quantum error correcting codes, connected by a MacWilliams
+transform, and use them to give a linear-programming bound for quantum codes.
+We extend their work by introducing another enumerator, based on the classical
+theory of shadow codes, that tightens their bounds significantly. In
+particular, nearly all of the codes known to be optimal among additive quantum
+codes (codes derived from orthogonal geometry ([quant-ph/9608006])) can be
+shown to be optimal among all quantum codes. We also use the shadow machinery
+to extend a bound on additive codes (E. M. Rains, manuscript in preparation) to
+general codes, obtaining as a consequence that any code of length n can correct
+at most floor((n+1)/6) errors.

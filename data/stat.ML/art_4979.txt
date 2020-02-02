@@ -1,0 +1,21 @@
+Towards Competitive Classifiers for Unbalanced Classification Problems:
+  A Study on the Performance Scores
+Although a great methodological effort has been invested in proposing
+competitive solutions to the class-imbalance problem, little effort has been
+made in pursuing a theoretical understanding of this matter.
+  In order to shed some light on this topic, we perform, through a novel
+framework, an exhaustive analysis of the adequateness of the most commonly used
+performance scores to assess this complex scenario. We conclude that using
+unweighted H\"older means with exponent $p \leq 1$ to average the recalls of
+all the classes produces adequate scores which are capable of determining
+whether a classifier is competitive.
+  Then, we review the major solutions presented in the class-imbalance
+literature. Since any learning task can be defined as an optimisation problem
+where a loss function, usually connected to a particular score, is minimised,
+our goal, here, is to find whether the learning tasks found in the literature
+are also oriented to maximise the previously detected adequate scores. We
+conclude that they usually maximise the unweighted H\"older mean with $p = 1$
+(a-mean).
+  Finally, we provide bounds on the values of the studied performance scores
+which guarantee a classifier with a higher recall than the random classifier in
+each and every class.

@@ -1,0 +1,27 @@
+Noisy network attractor models for transitions between EEG microstates
+The brain is intrinsically organized into large-scale networks that
+constantly re-organize on multiple timescales, even when the brain is at rest.
+The timing of these dynamics is crucial for sensation, perception, cognition
+and ultimately consciousness, but the underlying dynamics governing the
+constant reorganization and switching between networks are not yet well
+understood. Functional magnetic resonance imaging (fMRI) and
+electroencephalography (EEG) provide anatomical and temporal information about
+the resting-state networks (RSNs), respectively. EEG microstates are brief
+periods of stable scalp topography, and four distinct configurations with
+characteristic switching patterns between them are reliably identified at rest.
+Microstates have been identified as the electrophysiological correlate of
+fMRI-defined RSNs, this link could be established because EEG microstate
+sequences are scale-free and have long-range temporal correlations. This
+property is crucial for any approach to model EEG microstates. This paper
+proposes a novel modeling approach for microstates: we consider nonlinear
+stochastic differential equations (SDEs) that exhibit a noisy network attractor
+between nodes that represent the microstates. Using a single layer network
+between four states, we can reproduce the transition probabilities between
+microstates but not the heavy tailed residence time distributions. Introducing
+a two layer network with a hidden layer gives the flexibility to capture these
+heavy tails and their long-range temporal correlations. We fit these models to
+capture the statistical properties of microstate sequences from EEG data
+recorded inside and outside the MRI scanner and show that the processing
+required to separate the EEG signal from the fMRI machine noise results in a
+loss of information which is reflected in differences in the long tail of the
+dwell-time distributions.

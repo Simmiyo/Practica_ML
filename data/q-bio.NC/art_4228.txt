@@ -1,0 +1,19 @@
+Sparse, complex-valued representations of natural sounds learned with
+  phase and amplitude continuity priors
+Complex-valued sparse coding is a data representation which employs a
+dictionary of two-dimensional subspaces, while imposing a sparse, factorial
+prior on complex amplitudes. When trained on a dataset of natural image
+patches, it learns phase invariant features which closely resemble receptive
+fields of complex cells in the visual cortex. Features trained on natural
+sounds however, rarely reveal phase invariance and capture other aspects of the
+data. This observation is a starting point of the present work. As its first
+contribution, it provides an analysis of natural sound statistics by means of
+learning sparse, complex representations of short speech intervals. Secondly,
+it proposes priors over the basis function set, which bias them towards
+phase-invariant solutions. In this way, a dictionary of complex basis functions
+can be learned from the data statistics, while preserving the phase invariance
+property. Finally, representations trained on speech sounds with and without
+priors are compared. Prior-based basis functions reveal performance comparable
+to unconstrained sparse coding, while explicitely representing phase as a
+temporal shift. Such representations can find applications in many perceptual
+and machine learning tasks.

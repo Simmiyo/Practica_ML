@@ -1,0 +1,23 @@
+Galaxia: a code to generate a synthetic survey of the Milky Way
+We present here a fast code for creating a synthetic survey of the Milky Way.
+Given one or more color-magnitude bounds, a survey size and geometry, the code
+returns a catalog of stars in accordance with a given model of the Milky Way.
+The model can be specified by a set of density distributions or as an N-body
+realization. We provide fast and efficient algorithms for sampling both types
+of models. As compared to earlier sampling schemes which generate stars at
+specified locations along a line of sight, our scheme can generate a continuous
+and smooth distribution of stars over any given volume. The code is quite
+general and flexible and can accept input in the form of a star formation rate,
+age metallicity relation, age velocity dispersion relation and analytic density
+distribution functions. Theoretical isochrones are then used to generate a
+catalog of stars and support is available for a wide range of photometric
+bands. As a concrete example we implement the Besancon Milky Way model for the
+disc. For the stellar halo we employ the simulated stellar halo N-body models
+of Bullock & Johnston (2005). In order to sample N-body models, we present a
+scheme that disperses the stars spawned by an N-body particle, in such a way
+that the phase space density of the spawned stars is consistent with that of
+the N-body particles. The code is ideally suited to generating synthetic data
+sets that mimic near future wide area surveys such as GAIA, LSST and HERMES. As
+an application we study the prospect of identifying structures in the stellar
+halo with a simulated GAIA survey. We plan to make the code publicly available
+at http://galaxia.sourceforge.net.

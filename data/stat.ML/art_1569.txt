@@ -1,0 +1,14 @@
+Structural Agnostic Modeling: Adversarial Learning of Causal Graphs
+A new causal discovery method, Structural Agnostic Modeling (SAM), is
+presented in this paper. Leveraging both conditional independencies and
+distributional asymmetries in the data, SAM aims at recovering full causal
+models from continuous observational data along a multivariate non-parametric
+setting. The approach is based on a game between $d$ players estimating each
+variable distribution conditionally to the others as a neural net, and an
+adversary aimed at discriminating the overall joint conditional distribution,
+and that of the original data. An original learning criterion combining
+distribution estimation, sparsity and acyclicity constraints is used to enforce
+the end-to-end optimization of the graph structure and parameters through
+stochastic gradient descent. Besides the theoretical analysis of the approach
+in the large sample limit, SAM is extensively experimentally validated on
+synthetic and real data.

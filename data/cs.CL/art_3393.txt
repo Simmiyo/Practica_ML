@@ -1,0 +1,14 @@
+Distributional Term Set Expansion
+This paper is a short empirical study of the performance of centrality and
+classification based iterative term set expansion methods for distributional
+semantic models. Iterative term set expansion is an interactive process using
+distributional semantics models where a user labels terms as belonging to some
+sought after term set, and a system uses this labeling to supply the user with
+new, candidate, terms to label, trying to maximize the number of positive
+examples found. While centrality based methods have a long history in term set
+expansion, we compare them to classification methods based on the the Simple
+Margin method, an Active Learning approach to classification using Support
+Vector Machines. Examining the performance of various centrality and
+classification based methods for a variety of distributional models over five
+different term sets, we can show that active learning based methods
+consistently outperform centrality based methods.

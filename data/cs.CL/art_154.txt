@@ -1,0 +1,13 @@
+A Machine-Learning Approach to Estimating the Referential Properties of
+  Japanese Noun Phrases
+The referential properties of noun phrases in the Japanese language, which
+has no articles, are useful for article generation in Japanese-English machine
+translation and for anaphora resolution in Japanese noun phrases. They are
+generally classified as generic noun phrases, definite noun phrases, and
+indefinite noun phrases. In the previous work, referential properties were
+estimated by developing rules that used clue words. If two or more rules were
+in conflict with each other, the category having the maximum total score given
+by the rules was selected as the desired category. The score given by each rule
+was established by hand, so the manpower cost was high. In this work, we
+automatically adjusted these scores by using a machine-learning method and
+succeeded in reducing the amount of manpower needed to adjust these scores.

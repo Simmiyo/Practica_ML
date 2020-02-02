@@ -1,0 +1,24 @@
+Regression Trees for Longitudinal Data
+While studying response trajectory, often the population of interest may be
+diverse enough to exist distinct subgroups within it and the longitudinal
+change in response may not be uniform in these subgroups. That is, the
+timeslope and/or influence of covariates in longitudinal profile may vary among
+these different subgroups. For example, Raudenbush (2001) used depression as an
+example to argue that it is incorrect to assume that all the people in a given
+population would be experiencing either increasing or decreasing levels of
+depression. In such cases, traditional linear mixed effects model (assuming
+common parametric form for covariates and time) is not directly applicable for
+the entire population as a group-averaged trajectory can mask important
+subgroup differences. Our aim is to identify and characterize longitudinally
+homogeneous subgroups based on the combination of baseline covariates in the
+most parsimonious way. This goal can be achieved via constructing regression
+tree for longitudinal data using baseline covariates as partitioning variables.
+We have proposed LongCART algorithm to construct regression tree for the
+longitudinal data. In each node, the proposed LongCART algorithm determines the
+need for further splitting (i.e. whether parameter(s) of longitudinal profile
+is influenced by any baseline attributes) via parameter instability tests and
+thus the decision of further splitting is type-I error controlled. We have
+obtained the asymptotic results for the proposed instability test and examined
+finite sample behavior of the whole algorithm through simulation studies.
+Finally, we have applied the LongCART algorithm to study the longitudinal
+changes in choline level among HIV patients.

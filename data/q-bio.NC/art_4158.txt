@@ -1,0 +1,14 @@
+Autonomous search for a diffusive source in an unknown environment
+The paper presents an approach to olfactory search for a diffusive emitting
+source of tracer (e.g. aerosol, gas) in an environment with unknown map of
+randomly placed and shaped obstacles.
+  The measurements of tracer concentration are sporadic, noisy and without
+directional information. The search domain is discretised and modelled by a
+finite two-dimensional lattice. The links is the lattice represent the
+traversable paths for emitted particles and for the searcher. A missing link in
+the lattice indicates a blocked paths, due to the walls or obstacles. The
+searcher must simultaneously estimate the source parameters, the map of the
+search domain and its own location within the map. The solution is formulated
+in the sequential Bayesian framework and implemented as a Rao-Blackwellised
+particle filter with information-driven motion control. The numerical results
+demonstrate the concept and its performance.

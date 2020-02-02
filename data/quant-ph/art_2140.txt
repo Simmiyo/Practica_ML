@@ -1,0 +1,12 @@
+Quantum Circuits: Fanout, Parity, and Counting
+We propose definitions of QAC^0, the quantum analog of the classical class
+AC^0 of constant-depth circuits with AND and OR gates of arbitrary fan-in, and
+QACC^0[q], where n-ary Mod-q gates are also allowed. We show that it is
+possible to make a `cat' state on n qubits in constant depth if and only if we
+can construct a parity or Mod-2 gate in constant depth; therefore, any circuit
+class that can fan out a qubit to n copies in constant depth also includes
+QACC^0[2]. In addition, we prove the somewhat surprising result that parity or
+fanout allows us to construct Mod-q gates in constant depth for any q, so
+QACC^0[2] = QACC^0. Since ACC^0[p] != ACC^0[q] whenever p and q are mutually
+prime, QACC^0[2] is strictly more powerful than its classical counterpart, as
+is QAC^0 when fanout is allowed.

@@ -1,0 +1,14 @@
+Local Expectation Gradients for Doubly Stochastic Variational Inference
+We introduce local expectation gradients which is a general purpose
+stochastic variational inference algorithm for constructing stochastic
+gradients through sampling from the variational distribution. This algorithm
+divides the problem of estimating the stochastic gradients over multiple
+variational parameters into smaller sub-tasks so that each sub-task exploits
+intelligently the information coming from the most relevant part of the
+variational distribution. This is achieved by performing an exact expectation
+over the single random variable that mostly correlates with the variational
+parameter of interest resulting in a Rao-Blackwellized estimate that has low
+variance and can work efficiently for both continuous and discrete random
+variables. Furthermore, the proposed algorithm has interesting similarities
+with Gibbs sampling but at the same time, unlike Gibbs sampling, it can be
+trivially parallelized.

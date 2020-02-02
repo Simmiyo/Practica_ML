@@ -1,0 +1,10 @@
+Feature Selection via L1-Penalized Squared-Loss Mutual Information
+Feature selection is a technique to screen out less important features. Many
+existing supervised feature selection algorithms use redundancy and relevancy
+as the main criteria to select features. However, feature interaction,
+potentially a key characteristic in real-world problems, has not received much
+attention. As an attempt to take feature interaction into account, we propose
+L1-LSMI, an L1-regularization based algorithm that maximizes a squared-loss
+variant of mutual information between selected features and outputs. Numerical
+results show that L1-LSMI performs well in handling redundancy, detecting
+non-linear dependency, and considering feature interaction.

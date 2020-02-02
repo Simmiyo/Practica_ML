@@ -1,0 +1,13 @@
+Iterative Bayesian Learning for Crowdsourced Regression
+Crowdsourcing platforms emerged as popular venues for purchasing human
+intelligence at low cost for large volume of tasks. As many low-paid workers
+are prone to give noisy answers, a common practice is to add redundancy by
+assigning multiple workers to each task and then simply average out these
+answers. However, to fully harness the wisdom of the crowd, one needs to learn
+the heterogeneous quality of each worker. We resolve this fundamental challenge
+in crowdsourced regression tasks, i.e., the answer takes continuous labels,
+where identifying good or bad workers becomes much more non-trivial compared to
+a classification setting of discrete labels. In particular, we introduce a
+Bayesian iterative scheme and show that it provably achieves the optimal mean
+squared error. Our evaluations on synthetic and real-world datasets support our
+theoretical results and show the superiority of the proposed scheme.

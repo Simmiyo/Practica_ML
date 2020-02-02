@@ -1,0 +1,20 @@
+Clustering and Inference From Pairwise Comparisons
+Given a set of pairwise comparisons, the classical ranking problem computes a
+single ranking that best represents the preferences of all users. In this
+paper, we study the problem of inferring individual preferences, arising in the
+context of making personalized recommendations. In particular, we assume that
+there are $n$ users of $r$ types; users of the same type provide similar
+pairwise comparisons for $m$ items according to the Bradley-Terry model. We
+propose an efficient algorithm that accurately estimates the individual
+preferences for almost all users, if there are $r \max \{m, n\}\log m \log^2 n$
+pairwise comparisons per type, which is near optimal in sample complexity when
+$r$ only grows logarithmically with $m$ or $n$. Our algorithm has three steps:
+first, for each user, compute the \emph{net-win} vector which is a projection
+of its $\binom{m}{2}$-dimensional vector of pairwise comparisons onto an
+$m$-dimensional linear subspace; second, cluster the users based on the net-win
+vectors; third, estimate a single preference for each cluster separately. The
+net-win vectors are much less noisy than the high dimensional vectors of
+pairwise comparisons and clustering is more accurate after the projection as
+confirmed by numerical experiments. Moreover, we show that, when a cluster is
+only approximately correct, the maximum likelihood estimation for the
+Bradley-Terry model is still close to the true preference.

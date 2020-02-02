@@ -1,0 +1,20 @@
+Exclusive Sparsity Norm Minimization with Random Groups via Cone
+  Projection
+Many practical applications such as gene expression analysis, multi-task
+learning, image recognition, signal processing, and medical data analysis
+pursue a sparse solution for the feature selection purpose and particularly
+favor the nonzeros \emph{evenly} distributed in different groups. The exclusive
+sparsity norm has been widely used to serve to this purpose. However, it still
+lacks systematical studies for exclusive sparsity norm optimization. This paper
+offers two main contributions from the optimization perspective: 1) We provide
+several efficient algorithms to solve exclusive sparsity norm minimization with
+either smooth loss or hinge loss (non-smooth loss). All algorithms achieve the
+optimal convergence rate $O(1/k^2)$ ($k$ is the iteration number). To the best
+of our knowledge, this is the first time to guarantee such convergence rate for
+the general exclusive sparsity norm minimization; 2) When the group information
+is unavailable to define the exclusive sparsity norm, we propose to use the
+random grouping scheme to construct groups and prove that if the number of
+groups is appropriately chosen, the nonzeros (true features) would be grouped
+in the ideal way with high probability. Empirical studies validate the
+efficiency of proposed algorithms, and the effectiveness of random grouping
+scheme on the proposed exclusive SVM formulation.

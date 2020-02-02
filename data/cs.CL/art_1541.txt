@@ -1,0 +1,15 @@
+Neural Skill Transfer from Supervised Language Tasks to Reading
+  Comprehension
+Reading comprehension is a challenging task in natural language processing
+and requires a set of skills to be solved. While current approaches focus on
+solving the task as a whole, in this paper, we propose to use a neural network
+`skill' transfer approach. We transfer knowledge from several lower-level
+language tasks (skills) including textual entailment, named entity recognition,
+paraphrase detection and question type classification into the reading
+comprehension model.
+  We conduct an empirical evaluation and show that transferring language skill
+knowledge leads to significant improvements for the task with much fewer steps
+compared to the baseline model. We also show that the skill transfer approach
+is effective even with small amounts of training data. Another finding of this
+work is that using token-wise deep label supervision for text classification
+improves the performance of transfer learning.

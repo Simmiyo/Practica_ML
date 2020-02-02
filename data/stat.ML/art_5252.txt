@@ -1,0 +1,25 @@
+Learning of state-space models with highly informative observations: a
+  tempered Sequential Monte Carlo solution
+Probabilistic (or Bayesian) modeling and learning offers interesting
+possibilities for systematic representation of uncertainty using probability
+theory. However, probabilistic learning often leads to computationally
+challenging problems. Some problems of this type that were previously
+intractable can now be solved on standard personal computers thanks to recent
+advances in Monte Carlo methods. In particular, for learning of unknown
+parameters in nonlinear state-space models, methods based on the particle
+filter (a Monte Carlo method) have proven very useful. A notoriously
+challenging problem, however, still occurs when the observations in the
+state-space model are highly informative, i.e. when there is very little or no
+measurement noise present, relative to the amount of process noise. The
+particle filter will then struggle in estimating one of the basic components
+for probabilistic learning, namely the likelihood $p($data$|$parameters$)$. To
+this end we suggest an algorithm which initially assumes that there is
+substantial amount of artificial measurement noise present. The variance of
+this noise is sequentially decreased in an adaptive fashion such that we, in
+the end, recover the original problem or possibly a very close approximation of
+it. The main component in our algorithm is a sequential Monte Carlo (SMC)
+sampler, which gives our proposed method a clear resemblance to the SMC^2
+method. Another natural link is also made to the ideas underlying the
+approximate Bayesian computation (ABC). We illustrate it with numerical
+examples, and in particular show promising results for a challenging
+Wiener-Hammerstein benchmark problem.

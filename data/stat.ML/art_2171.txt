@@ -1,0 +1,12 @@
+The DLR Hierarchy of Approximate Inference
+We propose a hierarchy for approximate inference based on the Dobrushin,
+Lanford, Ruelle (DLR) equations. This hierarchy includes existing algorithms,
+such as belief propagation, and also motivates novel algorithms such as
+factorized neighbors (FN) algorithms and variants of mean field (MF)
+algorithms. In particular, we show that extrema of the Bethe free energy
+correspond to approximate solutions of the DLR equations. In addition, we
+demonstrate a close connection between these approximate algorithms and Gibbs
+sampling. Finally, we compare and contrast various of the algorithms in the DLR
+hierarchy on spin-glass problems. The experiments show that algorithms higher
+up in the hierarchy give more accurate results when they converge but tend to
+be less stable.

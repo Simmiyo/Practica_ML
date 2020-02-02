@@ -1,0 +1,13 @@
+L0 Sparse Inverse Covariance Estimation
+Recently, there has been focus on penalized log-likelihood covariance
+estimation for sparse inverse covariance (precision) matrices. The penalty is
+responsible for inducing sparsity, and a very common choice is the convex $l_1$
+norm. However, the best estimator performance is not always achieved with this
+penalty. The most natural sparsity promoting "norm" is the non-convex $l_0$
+penalty but its lack of convexity has deterred its use in sparse maximum
+likelihood estimation. In this paper we consider non-convex $l_0$ penalized
+log-likelihood inverse covariance estimation and present a novel cyclic descent
+algorithm for its optimization. Convergence to a local minimizer is proved,
+which is highly non-trivial, and we demonstrate via simulations the reduced
+bias and superior quality of the $l_0$ penalty as compared to the $l_1$
+penalty.

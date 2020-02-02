@@ -1,0 +1,18 @@
+Spiking Neural Networks modelled as Timed Automata with parameter
+  learning
+In this paper we present a novel approach to automatically infer parameters
+of spiking neural networks. Neurons are modelled as timed automata waiting for
+inputs on a number of different channels (synapses), for a given amount of time
+(the accumulation period). When this period is over, the current potential
+value is computed considering current and past inputs. If this potential
+overcomes a given threshold, the automaton emits a broadcast signal over its
+output channel , otherwise it restarts another accumulation period. After each
+emission, the automaton remains inactive for a fixed refractory period. Spiking
+neural networks are formalised as sets of automata, one for each neuron,
+running in parallel and sharing channels according to the network structure.
+Such a model is formally validated against some crucial properties defined via
+proper temporal logic formulae. The model is then exploited to find an
+assignment for the synaptical weights of neural networks such that they can
+reproduce a given behaviour. The core of this approach consists in identifying
+some correcting actions adjusting synaptical weights and back-propagating them
+until the expected behaviour is displayed. A concrete case study is discussed.

@@ -1,0 +1,18 @@
+Learning may need only a few bits of synaptic precision
+Learning in neural networks poses peculiar challenges when using discretized
+rather then continuous synaptic states. The choice of discrete synapses is
+motivated by biological reasoning and experiments, and possibly by hardware
+implementation considerations as well. In this paper we extend a previous large
+deviations analysis which unveiled the existence of peculiar dense regions in
+the space of synaptic states which accounts for the possibility of learning
+efficiently in networks with binary synapses. We extend the analysis to
+synapses with multiple states and generally more plausible biological features.
+The results clearly indicate that the overall qualitative picture is unchanged
+with respect to the binary case, and very robust to variation of the details of
+the model. We also provide quantitative results which suggest that the
+advantages of increasing the synaptic precision (i.e.~the number of internal
+synaptic states) rapidly vanish after the first few bits, and therefore that,
+for practical applications, only few bits may be needed for near-optimal
+performance, consistently with recent biological findings. Finally, we
+demonstrate how the theoretical analysis can be exploited to design efficient
+algorithmic search strategies.

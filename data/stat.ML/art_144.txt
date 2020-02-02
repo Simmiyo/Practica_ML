@@ -1,0 +1,17 @@
+Independent screening for single-index hazard rate models with
+  ultra-high dimensional features
+In data sets with many more features than observations, independent screening
+based on all univariate regression models leads to a computationally convenient
+variable selection method. Recent efforts have shown that in the case of
+generalized linear models, independent screening may suffice to capture all
+relevant features with high probability, even in ultra-high dimension. It is
+unclear whether this formal sure screening property is attainable when the
+response is a right-censored survival time. We propose a computationally very
+efficient independent screening method for survival data which can be viewed as
+the natural survival equivalent of correlation screening. We state conditions
+under which the method admits the sure screening property within a general
+class of single-index hazard rate models with ultra-high dimensional features.
+An iterative variant is also described which combines screening with penalized
+regression in order to handle more complex feature covariance structures. The
+methods are evaluated through simulation studies and through application to a
+real gene expression dataset.

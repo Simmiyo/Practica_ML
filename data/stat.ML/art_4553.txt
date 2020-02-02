@@ -1,0 +1,20 @@
+Generalized Uniformly Optimal Methods for Nonlinear Programming
+In this paper, we present a generic framework to extend existing uniformly
+optimal convex programming algorithms to solve more general nonlinear, possibly
+nonconvex, optimization problems. The basic idea is to incorporate a local
+search step (gradient descent or Quasi-Newton iteration) into these uniformly
+optimal convex programming methods, and then enforce a monotone decreasing
+property of the function values computed along the trajectory. Algorithms of
+these types will then achieve the best known complexity for nonconvex problems,
+and the optimal complexity for convex ones without requiring any problem
+parameters. As a consequence, we can have a unified treatment for a general
+class of nonlinear programming problems regardless of their convexity and
+smoothness level. In particular, we show that the accelerated gradient and
+level methods, both originally designed for solving convex optimization
+problems only, can be used for solving both convex and nonconvex problems
+uniformly. In a similar vein, we show that some well-studied techniques for
+nonlinear programming, e.g., Quasi-Newton iteration, can be embedded into
+optimal convex optimization algorithms to possibly further enhance their
+numerical performance. Our theoretical and algorithmic developments are
+complemented by some promising numerical results obtained for solving a few
+important nonconvex and nonlinear data analysis problems in the literature.

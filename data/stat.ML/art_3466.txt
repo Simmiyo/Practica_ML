@@ -1,0 +1,10 @@
+Ridge Regression, Hubness, and Zero-Shot Learning
+This paper discusses the effect of hubness in zero-shot learning, when ridge
+regression is used to find a mapping between the example space to the label
+space. Contrary to the existing approach, which attempts to find a mapping from
+the example space to the label space, we show that mapping labels into the
+example space is desirable to suppress the emergence of hubs in the subsequent
+nearest neighbor search step. Assuming a simple data model, we prove that the
+proposed approach indeed reduces hubness. This was verified empirically on the
+tasks of bilingual lexicon extraction and image labeling: hubness was reduced
+with both of these tasks and the accuracy was improved accordingly.

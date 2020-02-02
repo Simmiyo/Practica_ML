@@ -1,0 +1,12 @@
+Co-Clustering for Multitask Learning
+This paper presents a new multitask learning framework that learns a shared
+representation among the tasks, incorporating both task and feature clusters.
+The jointly-induced clusters yield a shared latent subspace where task
+relationships are learned more effectively and more generally than in
+state-of-the-art multitask learning methods. The proposed general framework
+enables the derivation of more specific or restricted state-of-the-art
+multitask methods. The paper also proposes a highly-scalable multitask learning
+algorithm, based on the new framework, using conjugate gradient descent and
+generalized \textit{Sylvester equations}. Experimental results on synthetic and
+benchmark datasets show that the proposed method systematically outperforms
+several state-of-the-art multitask learning methods.

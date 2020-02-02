@@ -1,0 +1,15 @@
+Detecting Adversarial Samples from Artifacts
+Deep neural networks (DNNs) are powerful nonlinear architectures that are
+known to be robust to random perturbations of the input. However, these models
+are vulnerable to adversarial perturbations--small input changes crafted
+explicitly to fool the model. In this paper, we ask whether a DNN can
+distinguish adversarial samples from their normal and noisy counterparts. We
+investigate model confidence on adversarial samples by looking at Bayesian
+uncertainty estimates, available in dropout neural networks, and by performing
+density estimation in the subspace of deep features learned by the model. The
+result is a method for implicit adversarial detection that is oblivious to the
+attack algorithm. We evaluate this method on a variety of standard datasets
+including MNIST and CIFAR-10 and show that it generalizes well across different
+architectures and attacks. Our findings report that 85-93% ROC-AUC can be
+achieved on a number of standard classification tasks with a negative class
+that consists of both normal and noisy samples.

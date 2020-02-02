@@ -1,0 +1,14 @@
+Sequential testing over multiple stages and performance analysis of data
+  fusion
+We describe a methodology for modeling the performance of decision-level data
+fusion between different sensor configurations, implemented as part of the
+JIEDDO Analytic Decision Engine (JADE). We first discuss a Bayesian network
+formulation of classical probabilistic data fusion, which allows elementary
+fusion structures to be stacked and analyzed efficiently. We then present an
+extension of the Wald sequential test for combining the outputs of the Bayesian
+network over time. We discuss an algorithm to compute its performance
+statistics and illustrate the approach on some examples. This variant of the
+sequential test involves multiple, distinct stages, where the evidence
+accumulated from each stage is carried over into the next one, and is motivated
+by a need to keep certain sensors in the network inactive unless triggered by
+other sensors.

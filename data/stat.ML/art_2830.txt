@@ -1,0 +1,14 @@
+A Proximal Stochastic Gradient Method with Progressive Variance
+  Reduction
+We consider the problem of minimizing the sum of two convex functions: one is
+the average of a large number of smooth component functions, and the other is a
+general convex function that admits a simple proximal mapping. We assume the
+whole objective function is strongly convex. Such problems often arise in
+machine learning, known as regularized empirical risk minimization. We propose
+and analyze a new proximal stochastic gradient method, which uses a multi-stage
+scheme to progressively reduce the variance of the stochastic gradient. While
+each iteration of this algorithm has similar cost as the classical stochastic
+gradient method (or incremental gradient method), we show that the expected
+objective value converges to the optimum at a geometric rate. The overall
+complexity of this method is much lower than both the proximal full gradient
+method and the standard proximal stochastic gradient method.

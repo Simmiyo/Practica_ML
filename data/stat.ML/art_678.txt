@@ -1,0 +1,19 @@
+Bayesian Estimation of Multidimensional Latent Variables and Its
+  Asymptotic Accuracy
+Hierarchical learning models, such as mixture models and Bayesian networks,
+are widely employed for unsupervised learning tasks, such as clustering
+analysis. They consist of observable and hidden variables, which represent the
+given data and their hidden generation process, respectively. It has been
+pointed out that conventional statistical analysis is not applicable to these
+models, because redundancy of the latent variable produces singularities in the
+parameter space. In recent years, a method based on algebraic geometry has
+allowed us to analyze the accuracy of predicting observable variables when
+using Bayesian estimation. However, how to analyze latent variables has not
+been sufficiently studied, even though one of the main issues in unsupervised
+learning is to determine how accurately the latent variable is estimated. A
+previous study proposed a method that can be used when the range of the latent
+variable is redundant compared with the model generating data. The present
+paper extends that method to the situation in which the latent variables have
+redundant dimensions. We formulate new error functions and derive their
+asymptotic forms. Calculation of the error functions is demonstrated in
+two-layered Bayesian networks.

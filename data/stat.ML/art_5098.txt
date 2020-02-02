@@ -1,0 +1,16 @@
+Environmental Modeling Framework using Stacked Gaussian Processes
+A network of independently trained Gaussian processes (StackedGP) is
+introduced to obtain predictions of quantities of interest with quantified
+uncertainties. The main applications of the StackedGP framework are to
+integrate different datasets through model composition, enhance predictions of
+quantities of interest through a cascade of intermediate predictions, and to
+propagate uncertainties through emulated dynamical systems driven by uncertain
+forcing variables. By using analytical first and second-order moments of a
+Gaussian process with uncertain inputs using squared exponential and polynomial
+kernels, approximated expectations of quantities of interests that require an
+arbitrary composition of functions can be obtained. The StackedGP model is
+extended to any number of layers and nodes per layer, and it provides
+flexibility in kernel selection for the input nodes. The proposed nonparametric
+stacked model is validated using synthetic datasets, and its performance in
+model composition and cascading predictions is measured in two applications
+using real data.

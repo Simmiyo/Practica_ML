@@ -1,0 +1,13 @@
+Distance Dependent Chinese Restaurant Processes
+We develop the distance dependent Chinese restaurant process (CRP), a
+flexible class of distributions over partitions that allows for
+non-exchangeability. This class can be used to model many kinds of dependencies
+between data in infinite clustering models, including dependencies across time
+or space. We examine the properties of the distance dependent CRP, discuss its
+connections to Bayesian nonparametric mixture models, and derive a Gibbs
+sampler for both observed and mixture settings. We study its performance with
+three text corpora. We show that relaxing the assumption of exchangeability
+with distance dependent CRPs can provide a better fit to sequential data. We
+also show its alternative formulation of the traditional CRP leads to a
+faster-mixing Gibbs sampling algorithm than the one based on the original
+formulation.

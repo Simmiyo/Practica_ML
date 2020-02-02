@@ -1,0 +1,19 @@
+Fast mixing for Latent Dirichlet allocation
+Markov chain Monte Carlo (MCMC) algorithms are ubiquitous in probability
+theory in general and in machine learning in particular. A Markov chain is
+devised so that its stationary distribution is some probability distribution of
+interest. Then one samples from the given distribution by running the Markov
+chain for a "long time" until it appears to be stationary and then collects the
+sample. However these chains are often very complex and there are no
+theoretical guarantees that stationarity is actually reached. In this paper we
+study the Gibbs sampler of the posterior distribution of a very simple case of
+Latent Dirichlet Allocation, the arguably most well known Bayesian unsupervised
+learning model for text generation and text classification. It is shown that
+when the corpus consists of two long documents of equal length $m$ and the
+vocabulary consists of only two different words, the mixing time is at most of
+order $m^2\log m$ (which corresponds to $m\log m$ rounds over the corpus). It
+will be apparent from our analysis that it seems very likely that the mixing
+time is not much worse in the more relevant case when the number of documents
+and the size of the vocabulary are also large as long as each word is
+represented a large number in each document, even though the computations
+involved may be intractable.

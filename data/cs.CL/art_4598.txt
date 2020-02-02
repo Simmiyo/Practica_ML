@@ -1,0 +1,16 @@
+Neural Character-based Composition Models for Abuse Detection
+The advent of social media in recent years has fed into some highly
+undesirable phenomena such as proliferation of offensive language, hate speech,
+sexist remarks, etc. on the Internet. In light of this, there have been several
+efforts to automate the detection and moderation of such abusive content.
+However, deliberate obfuscation of words by users to evade detection poses a
+serious challenge to the effectiveness of these efforts. The current state of
+the art approaches to abusive language detection, based on recurrent neural
+networks, do not explicitly address this problem and resort to a generic OOV
+(out of vocabulary) embedding for unseen words. However, in using a single
+embedding for all unseen words we lose the ability to distinguish between
+obfuscated and non-obfuscated or rare words. In this paper, we address this
+problem by designing a model that can compose embeddings for unseen words. We
+experimentally demonstrate that our approach significantly advances the current
+state of the art in abuse detection on datasets from two different domains,
+namely Twitter and Wikipedia talk page.

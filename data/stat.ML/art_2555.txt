@@ -1,0 +1,19 @@
+Bridging Information Criteria and Parameter Shrinkage for Model
+  Selection
+Model selection based on classical information criteria, such as BIC, is
+generally computationally demanding, but its properties are well studied. On
+the other hand, model selection based on parameter shrinkage by $\ell_1$-type
+penalties is computationally efficient. In this paper we make an attempt to
+combine their strengths, and propose a simple approach that penalizes the
+likelihood with data-dependent $\ell_1$ penalties as in adaptive Lasso and
+exploits a fixed penalization parameter. Even for finite samples, its model
+selection results approximately coincide with those based on information
+criteria; in particular, we show that in some special cases, this approach and
+the corresponding information criterion produce exactly the same model. One can
+also consider this approach as a way to directly determine the penalization
+parameter in adaptive Lasso to achieve information criteria-like model
+selection. As extensions, we apply this idea to complex models including
+Gaussian mixture model and mixture of factor analyzers, whose model selection
+is traditionally difficult to do; by adopting suitable penalties, we provide
+continuous approximators to the corresponding information criteria, which are
+easy to optimize and enable efficient model selection.

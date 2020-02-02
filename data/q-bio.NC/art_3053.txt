@@ -1,0 +1,18 @@
+Bayesian Nonparametric Models for Synchronous Brain-Computer Interfaces
+A brain-computer interface (BCI) is a system that aims for establishing a
+non-muscular communication path for subjects who had suffer from a
+neurodegenerative disease. Many BCI systems make use of the phenomena of
+event-related synchronization and de-synchronization of brain waves as a main
+feature for classification of different cognitive tasks. However, the temporal
+dynamics of the electroencephalographic (EEG) signals contain additional
+information that can be incorporated into the inference engine in order to
+improve the performance of the BCIs. This information about the dynamics of the
+signals have been exploited previously in BCIs by means of generative and
+discriminative methods. In particular, hidden Markov models (HMMs) have been
+used in previous works. These methods have the disadvantage that the model
+parameters such as the number of hidden states and the number of Gaussian
+mixtures need to be fix "a priori". In this work, we propose a Bayesian
+nonparametric model for brain signal classification that does not require "a
+priori" selection of the number of hidden states and the number of Gaussian
+mixtures of a HMM. The results show that the proposed model outperform other
+methods based on HMM as well as the winner algorithm of the BCI competition IV.

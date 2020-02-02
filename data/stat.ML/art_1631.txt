@@ -1,0 +1,17 @@
+Online EM Algorithm for Hidden Markov Models
+Online (also called "recursive" or "adaptive") estimation of fixed model
+parameters in hidden Markov models is a topic of much interest in times series
+modelling. In this work, we propose an online parameter estimation algorithm
+that combines two key ideas. The first one, which is deeply rooted in the
+Expectation-Maximization (EM) methodology consists in reparameterizing the
+problem using complete-data sufficient statistics. The second ingredient
+consists in exploiting a purely recursive form of smoothing in HMMs based on an
+auxiliary recursion. Although the proposed online EM algorithm resembles a
+classical stochastic approximation (or Robbins-Monro) algorithm, it is
+sufficiently different to resist conventional analysis of convergence. We thus
+provide limited results which identify the potential limiting points of the
+recursion as well as the large-sample behavior of the quantities involved in
+the algorithm. The performance of the proposed algorithm is numerically
+evaluated through simulations in the case of a noisily observed Markov chain.
+In this case, the algorithm reaches estimation results that are comparable to
+that of the maximum likelihood estimator for large sample sizes.

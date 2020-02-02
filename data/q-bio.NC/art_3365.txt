@@ -1,0 +1,23 @@
+The importance of the whole: topological data analysis for the network
+  neuroscientist
+The application of network techniques to the analysis of neural data has
+greatly improved our ability to quantify and describe these rich interacting
+systems. Among many important contributions, networks have proven useful in
+identifying sets of node pairs that are densely connected and that collectively
+support brain function. Yet the restriction to pairwise interactions prevents
+us from realizing intrinsic topological features such as cavities within the
+interconnection structure that may be just as crucial for proper function. To
+detect and quantify these topological features we must turn to methods from
+algebraic topology that encode data as a simplicial complex built of sets of
+interacting nodes called simplices. On this substrate, we can then use the
+relations between simplices and higher-order connectivity to expose cavities
+within the complex, thereby summarizing its topological nature. Here we provide
+an introduction to persistent homology, a fundamental method from applied
+topology that builds a global descriptor of system structure by chronicling the
+evolution of cavities as we move through a combinatorial object such as a
+weighted network. We detail the underlying mathematics and perform
+demonstrative calculations on the mouse structural connectome, electrical and
+chemical synapses in \textit{C. elegans}, and genomic interaction data. Finally
+we suggest avenues for future work and highlight new advances in mathematics
+that appear ready for use in revealing the architecture and function of neural
+systems.

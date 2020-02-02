@@ -1,0 +1,18 @@
+L2 Regularization for Learning Kernels
+The choice of the kernel is critical to the success of many learning
+algorithms but it is typically left to the user. Instead, the training data can
+be used to learn the kernel by selecting it out of a given family, such as that
+of non-negative linear combinations of p base kernels, constrained by a trace
+or L1 regularization. This paper studies the problem of learning kernels with
+the same family of kernels but with an L2 regularization instead, and for
+regression problems. We analyze the problem of learning kernels with ridge
+regression. We derive the form of the solution of the optimization problem and
+give an efficient iterative algorithm for computing that solution. We present a
+novel theoretical analysis of the problem based on stability and give learning
+bounds for orthogonal kernels that contain only an additive term O(pp/m) when
+compared to the standard kernel ridge regression stability bound. We also
+report the results of experiments indicating that L1 regularization can lead to
+modest improvements for a small number of kernels, but to performance
+degradations in larger-scale cases. In contrast, L2 regularization never
+degrades performance and in fact achieves significant improvements with a large
+number of kernels.

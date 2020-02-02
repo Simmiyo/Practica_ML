@@ -1,0 +1,16 @@
+Sequence-to-Sequence Neural Net Models for Grapheme-to-Phoneme
+  Conversion
+Sequence-to-sequence translation methods based on generation with a
+side-conditioned language model have recently shown promising results in
+several tasks. In machine translation, models conditioned on source side words
+have been used to produce target-language text, and in image captioning, models
+conditioned images have been used to generate caption text. Past work with this
+approach has focused on large vocabulary tasks, and measured quality in terms
+of BLEU. In this paper, we explore the applicability of such models to the
+qualitatively different grapheme-to-phoneme task. Here, the input and output
+side vocabularies are small, plain n-gram models do well, and credit is only
+given when the output is exactly correct. We find that the simple
+side-conditioned generation approach is able to rival the state-of-the-art, and
+we are able to significantly advance the stat-of-the-art with bi-directional
+long short-term memory (LSTM) neural networks that use the same alignment
+information that is used in conventional approaches.

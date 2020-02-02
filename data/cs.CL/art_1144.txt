@@ -1,0 +1,16 @@
+Cross-Language Domain Adaptation for Classifying Crisis-Related Short
+  Messages
+Rapid crisis response requires real-time analysis of messages. After a
+disaster happens, volunteers attempt to classify tweets to determine needs,
+e.g., supplies, infrastructure damage, etc. Given labeled data, supervised
+machine learning can help classify these messages. Scarcity of labeled data
+causes poor performance in machine training. Can we reuse old tweets to train
+classifiers? How can we choose labeled tweets for training? Specifically, we
+study the usefulness of labeled data of past events. Do labeled tweets in
+different language help? We observe the performance of our classifiers trained
+using different combinations of training sets obtained from past disasters. We
+perform extensive experimentation on real crisis datasets and show that the
+past labels are useful when both source and target events are of the same type
+(e.g. both earthquakes). For similar languages (e.g., Italian and Spanish),
+cross-language domain adaptation was useful, however, when for different
+languages (e.g., Italian and English), the performance decreased.

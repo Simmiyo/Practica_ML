@@ -1,0 +1,18 @@
+Bayesian Active Distance Metric Learning
+Distance metric learning is an important component for many tasks, such as
+statistical classification and content-based image retrieval. Existing
+approaches for learning distance metrics from pairwise constraints typically
+suffer from two major problems. First, most algorithms only offer point
+estimation of the distance metric and can therefore be unreliable when the
+number of training examples is small. Second, since these algorithms generally
+select their training examples at random, they can be inefficient if labeling
+effort is limited. This paper presents a Bayesian framework for distance metric
+learning that estimates a posterior distribution for the distance metric from
+labeled pairwise constraints. We describe an efficient algorithm based on the
+variational method for the proposed Bayesian approach. Furthermore, we apply
+the proposed Bayesian framework to active distance metric learning by selecting
+those unlabeled example pairs with the greatest uncertainty in relative
+distance. Experiments in classification demonstrate that the proposed framework
+achieves higher classification accuracy and identifies more informative
+training examples than the non-Bayesian approach and state-of-the-art distance
+metric learning algorithms.

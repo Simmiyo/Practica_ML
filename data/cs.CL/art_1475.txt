@@ -1,0 +1,17 @@
+Comparison of Modified Kneser-Ney and Witten-Bell Smoothing Techniques
+  in Statistical Language Model of Bahasa Indonesia
+Smoothing is one technique to overcome data sparsity in statistical language
+model. Although in its mathematical definition there is no explicit dependency
+upon specific natural language, different natures of natural languages result
+in different effects of smoothing techniques. This is true for Russian language
+as shown by Whittaker (1998). In this paper, We compared Modified Kneser-Ney
+and Witten-Bell smoothing techniques in statistical language model of Bahasa
+Indonesia. We used train sets of totally 22M words that we extracted from
+Indonesian version of Wikipedia. As far as we know, this is the largest train
+set used to build statistical language model for Bahasa Indonesia. The
+experiments with 3-gram, 5-gram, and 7-gram showed that Modified Kneser-Ney
+consistently outperforms Witten-Bell smoothing technique in term of perplexity
+values. It is interesting to note that our experiments showed 5-gram model for
+Modified Kneser-Ney smoothing technique outperforms that of 7-gram. Meanwhile,
+Witten-Bell smoothing is consistently improving over the increase of n-gram
+order.

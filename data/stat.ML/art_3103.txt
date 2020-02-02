@@ -1,0 +1,18 @@
+Robust EM kernel-based methods for linear system identification
+Recent developments in system identification have brought attention to
+regularized kernel-based methods. This type of approach has been proven to
+compare favorably with classic parametric methods. However, current
+formulations are not robust with respect to outliers. In this paper, we
+introduce a novel method to robustify kernel-based system identification
+methods. To this end, we model the output measurement noise using random
+variables with heavy-tailed probability density functions (pdfs), focusing on
+the Laplacian and the Student's t distributions. Exploiting the representation
+of these pdfs as scale mixtures of Gaussians, we cast our system identification
+problem into a Gaussian process regression framework, which requires estimating
+a number of hyperparameters of the data size order. To overcome this
+difficulty, we design a new maximum a posteriori (MAP) estimator of the
+hyperparameters, and solve the related optimization problem with a novel
+iterative scheme based on the Expectation-Maximization (EM) method. In presence
+of outliers, tests on simulated data and on a real system show a substantial
+performance improvement compared to currently used kernel-based methods for
+linear system identification.

@@ -1,0 +1,13 @@
+Fast optimization of Multithreshold Entropy Linear Classifier
+Multithreshold Entropy Linear Classifier (MELC) is a density based model
+which searches for a linear projection maximizing the Cauchy-Schwarz Divergence
+of dataset kernel density estimation. Despite its good empirical results, one
+of its drawbacks is the optimization speed. In this paper we analyze how one
+can speed it up through solving an approximate problem. We analyze two methods,
+both similar to the approximate solutions of the Kernel Density Estimation
+querying and provide adaptive schemes for selecting a crucial parameters based
+on user-specified acceptable error. Furthermore we show how one can exploit
+well known conjugate gradients and L-BFGS optimizers despite the fact that the
+original optimization problem should be solved on the sphere. All above methods
+and modifications are tested on 10 real life datasets from UCI repository to
+confirm their practical usability.

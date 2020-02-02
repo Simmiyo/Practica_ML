@@ -1,0 +1,15 @@
+Accelerated Inference for Latent Variable Models
+Inference of latent feature models in the Bayesian nonparametric setting is
+generally difficult, especially in high dimensional settings, because it
+usually requires proposing features from some prior distribution. In special
+cases, where the integration is tractable, we could sample new feature
+assignments according to a predictive likelihood. However, this still may not
+be efficient in high dimensions. We present a novel method to accelerate the
+mixing of latent variable model inference by proposing feature locations from
+the data, as opposed to the prior. First, we introduce our accelerated feature
+proposal mechanism that we will show is a valid Bayesian inference algorithm
+and next we propose an approximate inference strategy to perform accelerated
+inference in parallel. This sampling method is efficient for proper mixing of
+the Markov chain Monte Carlo sampler, computationally attractive, and is
+theoretically guaranteed to converge to the posterior distribution as its
+limiting distribution.

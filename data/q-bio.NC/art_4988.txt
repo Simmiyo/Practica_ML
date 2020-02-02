@@ -1,0 +1,20 @@
+WheelCon: A wheel control-based gaming platform for studying human
+  sensorimotor control
+Feedback control theory has been extensively implemented to theoretically
+model human sensorimotor control. However, experimental platforms capable of
+manipulating important components of multiple feedback loops lack development.
+This paper describes the WheelCon, which is an open source platform aimed at
+resolving such insufficiencies. WheelCon enables safely simulation of the
+canonical sensorimotor task such as riding a mountain bike down a steep,
+twisting, bumpy trail etc., with provided only a computer, standard display,
+and an inexpensive gaming steering wheel with a force feedback motor. The
+platform provides flexibility, as will be demonstrated in the demos provided,
+so that researchers may manipulate the disturbances, delay, and quantization
+(data rate) in the layered feedback loops, including a high-level advanced plan
+layer and a low-level delayed reflex layer. In this paper, we illustrate
+WheelCon's graphical user interface (GUI), the input and output of existing
+demos, and how to design new games. In addition, we present the basic feedback
+model, and we show the testing results from our demo games which align well
+with prediction from the model. In short, the platform is featured as cheap,
+simple to use, and flexible to program for effective sensorimotor neuroscience
+research and control engineering education.

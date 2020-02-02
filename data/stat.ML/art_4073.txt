@@ -1,0 +1,20 @@
+Determining the Veracity of Rumours on Twitter
+While social networks can provide an ideal platform for up-to-date
+information from individuals across the world, it has also proved to be a place
+where rumours fester and accidental or deliberate misinformation often emerges.
+In this article, we aim to support the task of making sense from social media
+data, and specifically, seek to build an autonomous message-classifier that
+filters relevant and trustworthy information from Twitter. For our work, we
+collected about 100 million public tweets, including users' past tweets, from
+which we identified 72 rumours (41 true, 31 false). We considered over 80
+trustworthiness measures including the authors' profile and past behaviour, the
+social network connections (graphs), and the content of tweets themselves. We
+ran modern machine-learning classifiers over those measures to produce
+trustworthiness scores at various time windows from the outbreak of the rumour.
+Such time-windows were key as they allowed useful insight into the progression
+of the rumours. From our findings, we identified that our model was
+significantly more accurate than similar studies in the literature. We also
+identified critical attributes of the data that give rise to the
+trustworthiness scores assigned. Finally we developed a software demonstration
+that provides a visual user interface to allow the user to examine the
+analysis.

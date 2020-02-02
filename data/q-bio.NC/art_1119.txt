@@ -1,0 +1,26 @@
+Bayesian Population Receptive Field Modelling
+We introduce a probabilistic (Bayesian) framework and associated software
+toolbox for mapping population receptive fields (pRFs) based on fMRI data. This
+generic approach is intended to work with stimuli of any dimension and is
+demonstrated and validated in the context of 2D retinotopic mapping. The
+framework enables the experimenter to specify generative (encoding) models of
+fMRI timeseries, in which experimental manipulations enter a pRF model of
+neural activity, which in turns drives a nonlinear model of neurovascular
+coupling and Blood Oxygenation Level Dependent (BOLD) response. The neuronal
+and haemodynamic parameters are estimated together on a voxel-by-voxel or
+region-of-interest basis using a Bayesian estimation algorithm (variational
+Laplace). This offers several novel contributions to receptive field modelling.
+The variance / covariance of parameters are estimated, enabling receptive
+fields to be plotted while properly representing uncertainty about pRF size and
+location. Variability in the haemodynamic response across the brain is
+accounted for. Furthermore, the framework introduces formal hypothesis testing
+to pRF analysis, enabling competing models to be evaluated based on their model
+evidence (approximated by the variational free energy), which represents the
+optimal tradeoff between accuracy and complexity. Using simulations and
+empirical data, we found that parameters typically used to represent pRF size
+and neuronal scaling are strongly correlated, which should be taken into
+account when making inferences. We used the framework to compare the evidence
+for six variants of pRF model using 7T functional MRI data and we found a
+circular Difference of Gaussians (DoG) model to be the best explanation for our
+data overall. We hope this framework will prove useful for mapping stimulus
+spaces with any number of dimensions onto the anatomy of the brain.

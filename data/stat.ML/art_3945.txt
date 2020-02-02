@@ -1,0 +1,18 @@
+Reparameterization Gradients through Acceptance-Rejection Sampling
+  Algorithms
+Variational inference using the reparameterization trick has enabled
+large-scale approximate Bayesian inference in complex probabilistic models,
+leveraging stochastic optimization to sidestep intractable expectations. The
+reparameterization trick is applicable when we can simulate a random variable
+by applying a differentiable deterministic function on an auxiliary random
+variable whose distribution is fixed. For many distributions of interest (such
+as the gamma or Dirichlet), simulation of random variables relies on
+acceptance-rejection sampling. The discontinuity introduced by the
+accept-reject step means that standard reparameterization tricks are not
+applicable. We propose a new method that lets us leverage reparameterization
+gradients even when variables are outputs of a acceptance-rejection sampling
+algorithm. Our approach enables reparameterization on a larger class of
+variational distributions. In several studies of real and synthetic data, we
+show that the variance of the estimator of the gradient is significantly lower
+than other state-of-the-art methods. This leads to faster convergence of
+stochastic gradient variational inference.

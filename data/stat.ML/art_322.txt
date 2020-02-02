@@ -1,0 +1,16 @@
+Distance-weighted Support Vector Machine
+A novel linear classification method that possesses the merits of both the
+Support Vector Machine (SVM) and the Distance-weighted Discrimination (DWD) is
+proposed in this article. The proposed Distance-weighted Support Vector Machine
+method can be viewed as a hybrid of SVM and DWD that finds the classification
+direction by minimizing mainly the DWD loss, and determines the intercept term
+in the SVM manner. We show that our method inheres the merit of DWD, and hence,
+overcomes the data-piling and overfitting issue of SVM. On the other hand, the
+new method is not subject to imbalanced data issue which was a main advantage
+of SVM over DWD. It uses an unusual loss which combines the Hinge loss (of SVM)
+and the DWD loss through a trick of axillary hyperplane. Several theoretical
+properties, including Fisher consistency and asymptotic normality of the DWSVM
+solution are developed. We use some simulated examples to show that the new
+method can compete DWD and SVM on both classification performance and
+interpretability. A real data application further establishes the usefulness of
+our approach.

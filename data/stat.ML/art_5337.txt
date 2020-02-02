@@ -1,0 +1,13 @@
+Active Learning Using Uncertainty Information
+Many active learning methods belong to the retraining-based approaches, which
+select one unlabeled instance, add it to the training set with its possible
+labels, retrain the classification model, and evaluate the criteria that we
+base our selection on. However, since the true label of the selected instance
+is unknown, these methods resort to calculating the average-case or worse-case
+performance with respect to the unknown label. In this paper, we propose a
+different method to solve this problem. In particular, our method aims to make
+use of the uncertainty information to enhance the performance of
+retraining-based models. We apply our method to two state-of-the-art algorithms
+and carry out extensive experiments on a wide variety of real-world datasets.
+The results clearly demonstrate the effectiveness of the proposed method and
+indicate it can reduce human labeling efforts in many real-life applications.

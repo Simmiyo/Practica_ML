@@ -1,0 +1,15 @@
+Empirical Bayes Estimation for the Stochastic Blockmodel
+Inference for the stochastic blockmodel is currently of burgeoning interest
+in the statistical community, as well as in various application domains as
+diverse as social networks, citation networks, brain connectivity networks
+(connectomics), etc. Recent theoretical developments have shown that spectral
+embedding of graphs yields tractable distributional results; in particular, a
+random dot product latent position graph formulation of the stochastic
+blockmodel informs a mixture of normal distributions for the adjacency spectral
+embedding. We employ this new theory to provide an empirical Bayes methodology
+for estimation of block memberships of vertices in a random graph drawn from
+the stochastic blockmodel, and demonstrate its practical utility. The posterior
+inference is conducted using a Metropolis-within-Gibbs algorithm. The theory
+and methods are illustrated through Monte Carlo simulation studies, both within
+the stochastic blockmodel and beyond, and experimental results on a Wikipedia
+data set are presented.

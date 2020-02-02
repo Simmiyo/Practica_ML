@@ -1,0 +1,26 @@
+Deep Distributed Random Samplings for Supervised Learning: An
+  Alternative to Random Forests?
+In (\cite{zhang2014nonlinear,zhang2014nonlinear2}), we have viewed machine
+learning as a coding and dimensionality reduction problem, and further proposed
+a simple unsupervised dimensionality reduction method, entitled deep
+distributed random samplings (DDRS). In this paper, we further extend it to
+supervised learning incrementally. The key idea here is to incorporate label
+information into the coding process by reformulating that each center in DDRS
+has multiple output units indicating which class the center belongs to. The
+supervised learning method seems somewhat similar with random forests
+(\cite{breiman2001random}), here we emphasize their differences as follows. (i)
+Each layer of our method considers the relationship between part of the data
+points in training data with all training data points, while random forests
+focus on building each decision tree on only part of training data points
+independently. (ii) Our method builds gradually-narrowed network by sampling
+less and less data points, while random forests builds gradually-narrowed
+network by merging subclasses. (iii) Our method is trained more straightforward
+from bottom layer to top layer, while random forests build each tree from top
+layer to bottom layer by splitting. (iv) Our method encodes output targets
+implicitly in sparse codes, while random forests encode output targets by
+remembering the class attributes of the activated nodes. Therefore, our method
+is a simpler, more straightforward, and maybe a better alternative choice,
+though both methods use two very basic elements---randomization and nearest
+neighbor optimization---as the core. This preprint is used to protect the
+incremental idea from (\cite{zhang2014nonlinear,zhang2014nonlinear2}). Full
+empirical evaluation will be announced carefully later.

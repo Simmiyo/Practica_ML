@@ -1,0 +1,19 @@
+Tissue segmentation with deep 3D networks and spatial priors
+Conventional automated segmentation of the human head distinguishes different
+tissues based on image intensities in an MRI volume and prior tissue
+probability maps (TPM). This works well for normal head anatomies, but fails in
+the presence of unexpected lesions. Deep convolutional neural networks leverage
+instead volumetric spatial patterns and can be trained to segment lesions, but
+have thus far not integrated prior probabilities. Here we add to a
+three-dimensional convolutional network spatial priors with a TPM,
+morphological priors with conditional random fields, and context with a wider
+field-of-view at lower resolution. The new architecture, which we call
+MultiPrior, was designed to be a fully-trainable, three-dimensional
+convolutional network. Thus, the resulting architecture represents a neural
+network with learnable spatial memories. When trained on a set of stroke
+patients and healthy subjects, MultiPrior outperforms the state-of-the-art
+segmentation tools such as DeepMedic and SPM segmentation. The approach is
+further demonstrated on patients with disorders of consciousness, where we find
+that cognitive state correlates positively with gray-matter volumes and
+negatively with the extent of ventricles. We make the code and trained networks
+freely available to support future clinical research projects.

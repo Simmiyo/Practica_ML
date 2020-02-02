@@ -1,0 +1,24 @@
+Sharing deep generative representation for perceived image
+  reconstruction from human brain activity
+Decoding human brain activities via functional magnetic resonance imaging
+(fMRI) has gained increasing attention in recent years. While encouraging
+results have been reported in brain states classification tasks, reconstructing
+the details of human visual experience still remains difficult. Two main
+challenges that hinder the development of effective models are the perplexing
+fMRI measurement noise and the high dimensionality of limited data instances.
+Existing methods generally suffer from one or both of these issues and yield
+dissatisfactory results. In this paper, we tackle this problem by casting the
+reconstruction of visual stimulus as the Bayesian inference of missing view in
+a multiview latent variable model. Sharing a common latent representation, our
+joint generative model of external stimulus and brain response is not only
+"deep" in extracting nonlinear features from visual images, but also powerful
+in capturing correlations among voxel activities of fMRI recordings. The
+nonlinearity and deep structure endow our model with strong representation
+ability, while the correlations of voxel activities are critical for
+suppressing noise and improving prediction. We devise an efficient variational
+Bayesian method to infer the latent variables and the model parameters. To
+further improve the reconstruction accuracy, the latent representations of
+testing instances are enforced to be close to that of their neighbours from the
+training set via posterior regularization. Experiments on three fMRI recording
+datasets demonstrate that our approach can more accurately reconstruct visual
+stimuli.

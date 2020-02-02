@@ -1,0 +1,17 @@
+Spectral Resolution Clustering for Brain Parcellation
+We take an image science perspective on the problem of determining brain
+network connectivity given functional activity. But adapting the concept of
+image resolution to this problem, we provide a new perspective on network
+partitioning for individual brain parcellation. The typical goal here is to
+determine densely-interconnected subnetworks within a larger network by
+choosing the best edges to cut. We instead define these subnetworks as
+resolution cells, where highly-correlated activity within the cells makes edge
+weights difficult to determine from the data. Subdividing the resolution
+estimates into disjoint resolution cells via clustering yields a new variation,
+and new perspective, on spectral clustering. This provides insight and
+strategies for open questions such as the selection of model order and the
+optimal choice of preprocessing steps for functional imaging data. The approach
+is demonstrated using functional imaging data, where we find the proposed
+approach produces parcellations which are more predictive across multiple scans
+versus conventional methods, as well as versus alternative forms of spectral
+clustering.

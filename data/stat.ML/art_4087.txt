@@ -1,0 +1,12 @@
+Tree Space Prototypes: Another Look at Making Tree Ensembles
+  Interpretable
+Ensembles of decision trees have good prediction accuracy but suffer from a
+lack of interpretability. We propose a new approach for interpreting tree
+ensembles by finding prototypes in tree space, utilizing the naturally-learned
+similarity measure from the tree ensemble. Demonstrating the method on random
+forests, we show that the method benefits from unique aspects of tree ensembles
+by leveraging tree structure to sequentially find prototypes. The method
+provides good prediction accuracy when found prototypes are used in
+nearest-prototype classifiers, while using fewer prototypes than competitor
+methods. We are investigating the sensitivity of the method to different
+prototype-finding procedures and demonstrating it on higher-dimensional data.

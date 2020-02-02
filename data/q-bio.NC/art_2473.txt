@@ -1,0 +1,24 @@
+Cell-type-specific transcriptomes and the Allen Atlas (II): discussion
+  of the linear model of brain-wide densities of cell types
+The voxelized Allen Atlas of the adult mouse brain (at a resolution of 200
+microns) has been used in [arXiv:1303.0013] to estimate the region-specificity
+of 64 cell types whose transcriptional profile in the mouse brain has been
+measured in microarray experiments. In particular, the model yields estimates
+for the brain-wide density of each of these cell types. We conduct numerical
+experiments to estimate the errors in the estimated density profiles. First of
+all, we check that a simulated thalamic profile based on 200 well-chosen genes
+can transfer signal from cerebellar Purkinje cells to the thalamus. This
+inspires us to sub-sample the atlas of genes by repeatedly drawing random sets
+of 200 genes and refitting the model. This results in a random distribution of
+density profiles, that can be compared to the predictions of the model. This
+results in a ranking of cell types by the overlap between the original and
+sub-sampled density profiles. Cell types with high rank include medium spiny
+neurons, several samples of cortical pyramidal neurons, hippocampal pyramidal
+neurons, granule cells and cholinergic neurons from the brain stem. In some
+cases with lower rank, the average sub-sample can have better contrast
+properties than the original model (this is the case for amygdalar neurons and
+dopaminergic neurons from the ventral midbrain). Finally, we add some noise to
+the cell-type-specific transcriptomes by mixing them using a scalar parameter
+weighing a random matrix. After refitting the model, we observe than a mixing
+parameter of $5\%$ leads to modifications of density profiles that span the
+same interval as the ones resulting from sub-sampling.

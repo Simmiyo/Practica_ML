@@ -1,0 +1,21 @@
+Sequential Bayesian Detection of Spike Activities from Fluorescence
+  Observations
+Extracting and detecting spike activities from the fluorescence observations
+is an important step in understanding how neuron systems work. The main
+challenge lies in that the combination of the ambient noise with dynamic
+baseline fluctuation, often contaminates the observations, thereby
+deteriorating the reliability of spike detection. This may be even worse in the
+face of the nonlinear biological process, the coupling interactions between
+spikes and baseline, and the unknown critical parameters of an underlying
+physiological model, in which erroneous estimations of parameters will affect
+the detection of spikes causing further error propagation. In this paper, we
+propose a random finite set (RFS) based Bayesian approach. The dynamic
+behaviors of spike sequence, fluctuated baseline and unknown parameters are
+formulated as one RFS. This RFS state is capable of distinguishing the hidden
+active/silent states induced by spike and non-spike activities respectively,
+thereby \emph{negating the interaction role} played by spikes and other
+factors. Then, premised on the RFS states, a Bayesian inference scheme is
+designed to simultaneously estimate the model parameters, baseline, and crucial
+spike activities. Our results demonstrate that the proposed scheme can gain an
+extra $12\%$ detection accuracy in comparison with the state-of-the-art MLSpike
+method.

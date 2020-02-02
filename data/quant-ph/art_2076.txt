@@ -1,0 +1,12 @@
+A Grover-based quantum search of optimal order for an unknown number of
+  marked elements
+We want to find a marked element out of a black box containing N elements.
+When the number of marked elements is known this can be done elegantly with
+Grover's algorithm, a variant of which even gives a correct result with
+certainty. On the other hand, when the number of marked elements is not known
+the problem becomes more difficult. For every prescribed success probability I
+give an algorithm consisting of several runs of Grover's algorithm that matches
+a recent bound by Buhrman and de Wolf on the order of the number of queries to
+the black box. The improvement in the order over a previously known algorithm
+is small and the number of queries can clearly still be reduced by a constant
+factor.

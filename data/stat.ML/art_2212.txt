@@ -1,0 +1,18 @@
+Asymptotic Generalization Bound of Fisher's Linear Discriminant Analysis
+Fisher's linear discriminant analysis (FLDA) is an important dimension
+reduction method in statistical pattern recognition. It has been shown that
+FLDA is asymptotically Bayes optimal under the homoscedastic Gaussian
+assumption. However, this classical result has the following two major
+limitations: 1) it holds only for a fixed dimensionality $D$, and thus does not
+apply when $D$ and the training sample size $N$ are proportionally large; 2) it
+does not provide a quantitative description on how the generalization ability
+of FLDA is affected by $D$ and $N$. In this paper, we present an asymptotic
+generalization analysis of FLDA based on random matrix theory, in a setting
+where both $D$ and $N$ increase and $D/N\longrightarrow\gamma\in[0,1)$. The
+obtained lower bound of the generalization discrimination power overcomes both
+limitations of the classical result, i.e., it is applicable when $D$ and $N$
+are proportionally large and provides a quantitative description of the
+generalization ability of FLDA in terms of the ratio $\gamma=D/N$ and the
+population discrimination power. Besides, the discrimination power bound also
+leads to an upper bound on the generalization error of binary-classification
+with FLDA.

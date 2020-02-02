@@ -1,0 +1,23 @@
+Incomplete Pivoted QR-based Dimensionality Reduction
+High-dimensional big data appears in many research fields such as image
+recognition, biology and collaborative filtering. Often, the exploration of
+such data by classic algorithms is encountered with difficulties due to `curse
+of dimensionality' phenomenon. Therefore, dimensionality reduction methods are
+applied to the data prior to its analysis. Many of these methods are based on
+principal components analysis, which is statistically driven, namely they map
+the data into a low-dimension subspace that preserves significant statistical
+properties of the high-dimensional data. As a consequence, such methods do not
+directly address the geometry of the data, reflected by the mutual distances
+between multidimensional data point. Thus, operations such as classification,
+anomaly detection or other machine learning tasks may be affected.
+  This work provides a dictionary-based framework for geometrically driven data
+analysis that includes dimensionality reduction, out-of-sample extension and
+anomaly detection. It embeds high-dimensional data in a low-dimensional
+subspace. This embedding preserves the original high-dimensional geometry of
+the data up to a user-defined distortion rate. In addition, it identifies a
+subset of landmark data points that constitute a dictionary for the analyzed
+dataset. The dictionary enables to have a natural extension of the
+low-dimensional embedding to out-of-sample data points, which gives rise to a
+distortion-based criterion for anomaly detection. The suggested method is
+demonstrated on synthetic and real-world datasets and achieves good results for
+classification, anomaly detection and out-of-sample tasks.

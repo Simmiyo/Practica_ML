@@ -1,0 +1,10 @@
+Statistical Sign Language Machine Translation: from English written text
+  to American Sign Language Gloss
+This works aims to design a statistical machine translation from English text
+to American Sign Language (ASL). The system is based on Moses tool with some
+modifications and the results are synthesized through a 3D avatar for
+interpretation. First, we translate the input text to gloss, a written form of
+ASL. Second, we pass the output to the WebSign Plug-in to play the sign.
+Contributions of this work are the use of a new couple of language English/ASL
+and an improvement of statistical machine translation based on string matching
+thanks to Jaro-distance.

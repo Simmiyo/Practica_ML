@@ -1,0 +1,13 @@
+Learning Pairwise Graphical Models with Nonlinear Sufficient Statistics
+We investigate a generic problem of learning pairwise exponential family
+graphical models with pairwise sufficient statistics defined by a global
+mapping function, e.g., Mercer kernels. This subclass of pairwise graphical
+models allow us to flexibly capture complex interactions among variables beyond
+pairwise product. We propose two $\ell_1$-norm penalized maximum likelihood
+estimators to learn the model parameters from i.i.d. samples. The first one is
+a joint estimator which estimates all the parameters simultaneously. The second
+one is a node-wise conditional estimator which estimates the parameters
+individually for each node. For both estimators, we show that under proper
+conditions the extra flexibility gained in our model comes at almost no cost of
+statistical and computational efficiency. We demonstrate the advantages of our
+model over state-of-the-art methods on synthetic and real datasets.

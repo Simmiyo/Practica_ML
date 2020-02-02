@@ -1,0 +1,13 @@
+CORL: A Continuous-state Offset-dynamics Reinforcement Learner
+Continuous state spaces and stochastic, switching dynamics characterize a
+number of rich, realworld domains, such as robot navigation across varying
+terrain. We describe a reinforcementlearning algorithm for learning in these
+domains and prove for certain environments the algorithm is probably
+approximately correct with a sample complexity that scales polynomially with
+the state-space dimension. Unfortunately, no optimal planning techniques exist
+in general for such problems; instead we use fitted value iteration to solve
+the learned MDP, and include the error due to approximate planning in our
+bounds. Finally, we report an experiment using a robotic car driving over
+varying terrain to demonstrate that these dynamics representations adequately
+capture real-world dynamics and that our algorithm can be used to efficiently
+solve such problems.

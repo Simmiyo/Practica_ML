@@ -1,0 +1,25 @@
+The effect of ionic diffusion on extracellular potentials in neural
+  tissue
+In computational neuroscience, it is common to use the simplifying assumption
+that diffusive currents are negligible compared to Ohmic currents. However,
+endured periods of intense neural signaling may cause local ion concentration
+changes in the millimolar range. Theoretical studies have identified scenarios
+where steep concentration gradients give rise to diffusive currents that are of
+comparable magnitude with Ohmic currents, and where the simplifying assumption
+that diffusion can be neglected does not hold. We here propose a novel
+formalism for computing (1) the ion concentration dynamics and (2) the
+electrical potential in the extracellular space surrounding multi-compartmental
+neuron models or networks of such (e.g., the Blue-Brain simulator). We use this
+formalism to explore the effects that diffusive currents can have on the
+extracellular (ECS) potential surrounding a small population of active cortical
+neurons. Our key findings are: (i) Sustained periods of neuronal output
+(simulations were run for 84 s) could change local ECS ion concentrations by
+several mM, as observed experimentally. (ii) For large, but realistic,
+concentration gradients, diffusive currents in the ECS were of the same
+magnitude as Ohmic currents. (iii) Neuronal current sources could induce local
+changes in the ECS potential by a few mV, whereas diffusive currents could
+could induce local changes in the ECS potential by a few tens of a mV.
+Diffusive currents could thus have a quite significant impact on ECS
+potentials. (v) Potential variations caused by diffusive currents were quite
+slow, but could influence the comparable to those induced by Ohmic currents up
+to frequencies as high as 7Hz.

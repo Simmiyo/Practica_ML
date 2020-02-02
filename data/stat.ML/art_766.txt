@@ -1,0 +1,21 @@
+Robust Kernel (Cross-) Covariance Operators in Reproducing Kernel
+  Hilbert Space toward Kernel Methods
+To the best of our knowledge, there are no general well-founded robust
+methods for statistical unsupervised learning. Most of the unsupervised methods
+explicitly or implicitly depend on the kernel covariance operator (kernel CO)
+or kernel cross-covariance operator (kernel CCO). They are sensitive to
+contaminated data, even when using bounded positive definite kernels. First, we
+propose robust kernel covariance operator (robust kernel CO) and robust kernel
+crosscovariance operator (robust kernel CCO) based on a generalized loss
+function instead of the quadratic loss function. Second, we propose influence
+function of classical kernel canonical correlation analysis (classical kernel
+CCA). Third, using this influence function, we propose a visualization method
+to detect influential observations from two sets of data. Finally, we propose a
+method based on robust kernel CO and robust kernel CCO, called robust kernel
+CCA, which is designed for contaminated data and less sensitive to noise than
+classical kernel CCA. The principles we describe also apply to many kernel
+methods which must deal with the issue of kernel CO or kernel CCO. Experiments
+on synthesized and imaging genetics analysis demonstrate that the proposed
+visualization and robust kernel CCA can be applied effectively to both ideal
+data and contaminated data. The robust methods show the superior performance
+over the state-of-the-art methods.

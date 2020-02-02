@@ -1,0 +1,20 @@
+Optimal Decision-Theoretic Classification Using Non-Decomposable
+  Performance Metrics
+We provide a general theoretical analysis of expected out-of-sample utility,
+also referred to as decision-theoretic classification, for non-decomposable
+binary classification metrics such as F-measure and Jaccard coefficient. Our
+key result is that the expected out-of-sample utility for many performance
+metrics is provably optimized by a classifier which is equivalent to a signed
+thresholding of the conditional probability of the positive class. Our analysis
+bridges a gap in the literature on binary classification, revealed in light of
+recent results for non-decomposable metrics in population utility maximization
+style classification. Our results identify checkable properties of a
+performance metric which are sufficient to guarantee a probability ranking
+principle. We propose consistent estimators for optimal expected out-of-sample
+classification. As a consequence of the probability ranking principle,
+computational requirements can be reduced from exponential to cubic complexity
+in the general case, and further reduced to quadratic complexity in special
+cases. We provide empirical results on simulated and benchmark datasets
+evaluating the performance of the proposed algorithms for decision-theoretic
+classification and comparing them to baseline and state-of-the-art methods in
+population utility maximization for non-decomposable metrics.

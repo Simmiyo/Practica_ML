@@ -1,0 +1,11 @@
+An algorithm for detecting oscillatory behavior in discretized data: the
+  damped-oscillator oscillator detector
+We present a simple algorithm for detecting oscillatory behavior in discrete
+data. The data is used as an input driving force acting on a set of simulated
+damped oscillators. By monitoring the energy of the simulated oscillators, we
+can detect oscillatory behavior in data. In application to in vivo deep brain
+basal ganglia recordings, we found sharp peaks in the spectrum at 20 and 70 Hz.
+The algorithm is also compared to the conventional fast Fourier transform and
+circular statistics techniques using computer generated model data, and is
+found to be comparable to or better than fast Fourier transform in test cases.
+Circular statistics performed poorly in our tests.

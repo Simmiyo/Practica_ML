@@ -1,0 +1,13 @@
+Student-t Process Quadratures for Filtering of Non-Linear Systems with
+  Heavy-Tailed Noise
+The aim of this article is to design a moment transformation for Student- t
+distributed random variables, which is able to account for the error in the
+numerically computed mean. We employ Student-t process quadrature, an instance
+of Bayesian quadrature, which allows us to treat the integral itself as a
+random variable whose variance provides information about the incurred
+integration error. Advantage of the Student- t process quadrature over the
+traditional Gaussian process quadrature, is that the integral variance depends
+also on the function values, allowing for a more robust modelling of the
+integration error. The moment transform is applied in nonlinear sigma-point
+filtering and evaluated on two numerical examples, where it is shown to
+outperform the state-of-the-art moment transforms.

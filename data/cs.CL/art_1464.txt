@@ -1,0 +1,12 @@
+Improving text classification with vectors of reduced precision
+This paper presents the analysis of the impact of a floating-point number
+precision reduction on the quality of text classification. The precision
+reduction of the vectors representing the data (e.g. TF-IDF representation in
+our case) allows for a decrease of computing time and memory footprint on
+dedicated hardware platforms. The impact of precision reduction on the
+classification quality was performed on 5 corpora, using 4 different
+classifiers. Also, dimensionality reduction was taken into account. Results
+indicate that the precision reduction improves classification accuracy for most
+cases (up to 25% of error reduction). In general, the reduction from 64 to 4
+bits gives the best scores and ensures that the results will not be worse than
+with the full floating-point representation.

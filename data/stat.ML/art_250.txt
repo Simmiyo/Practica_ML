@@ -1,0 +1,20 @@
+An Impossibility Result for High Dimensional Supervised Learning
+We study high-dimensional asymptotic performance limits of binary supervised
+classification problems where the class conditional densities are Gaussian with
+unknown means and covariances and the number of signal dimensions scales faster
+than the number of labeled training samples. We show that the Bayes error,
+namely the minimum attainable error probability with complete distributional
+knowledge and equally likely classes, can be arbitrarily close to zero and yet
+the limiting minimax error probability of every supervised learning algorithm
+is no better than a random coin toss. In contrast to related studies where the
+classification difficulty (Bayes error) is made to vanish, we hold it constant
+when taking high-dimensional limits. In contrast to VC-dimension based minimax
+lower bounds that consider the worst case error probability over all
+distributions that have a fixed Bayes error, our worst case is over the family
+of Gaussian distributions with constant Bayes error. We also show that a
+nontrivial asymptotic minimax error probability can only be attained for
+parametric subsets of zero measure (in a suitable measure space). These results
+expose the fundamental importance of prior knowledge and suggest that unless we
+impose strong structural constraints, such as sparsity, on the parametric
+space, supervised learning may be ineffective in high dimensional small sample
+settings.

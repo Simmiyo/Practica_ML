@@ -1,0 +1,19 @@
+Distributed Algorithms for Learning and Cognitive Medium Access with
+  Logarithmic Regret
+The problem of distributed learning and channel access is considered in a
+cognitive network with multiple secondary users. The availability statistics of
+the channels are initially unknown to the secondary users and are estimated
+using sensing decisions. There is no explicit information exchange or prior
+agreement among the secondary users. We propose policies for distributed
+learning and access which achieve order-optimal cognitive system throughput
+(number of successful secondary transmissions) under self play, i.e., when
+implemented at all the secondary users. Equivalently, our policies minimize the
+regret in distributed learning and access. We first consider the scenario when
+the number of secondary users is known to the policy, and prove that the total
+regret is logarithmic in the number of transmission slots. Our distributed
+learning and access policy achieves order-optimal regret by comparing to an
+asymptotic lower bound for regret under any uniformly-good learning and access
+policy. We then consider the case when the number of secondary users is fixed
+but unknown, and is estimated through feedback. We propose a policy in this
+scenario whose asymptotic sum regret which grows slightly faster than
+logarithmic in the number of transmission slots.

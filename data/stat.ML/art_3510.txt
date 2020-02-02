@@ -1,0 +1,20 @@
+A DEEP analysis of the META-DES framework for dynamic selection of
+  ensemble of classifiers
+Dynamic ensemble selection (DES) techniques work by estimating the level of
+competence of each classifier from a pool of classifiers. Only the most
+competent ones are selected to classify a given test sample. Hence, the key
+issue in DES is the criterion used to estimate the level of competence of the
+classifiers in predicting the label of a given test sample. In order to perform
+a more robust ensemble selection, we proposed the META-DES framework using
+meta-learning, where multiple criteria are encoded as meta-features and are
+passed down to a meta-classifier that is trained to estimate the competence
+level of a given classifier. In this technical report, we present a
+step-by-step analysis of each phase of the framework during training and test.
+We show how each set of meta-features is extracted as well as their impact on
+the estimation of the competence level of the base classifier. Moreover, an
+analysis of the impact of several factors in the system performance, such as
+the number of classifiers in the pool, the use of different linear base
+classifiers, as well as the size of the validation data. We show that using the
+dynamic selection of linear classifiers through the META-DES framework, we can
+solve complex non-linear classification problems where other combination
+techniques such as AdaBoost cannot.

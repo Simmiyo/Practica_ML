@@ -1,0 +1,21 @@
+Models of Disease Spectra
+Case vs control comparisons have been the classical approach to the study of
+neurological diseases. However, most patients will not fall cleanly into either
+group. Instead, clinicians will typically find patients that cannot be
+classified as having clearly progressed into the disease state. For those
+subjects, very little can be said about their brain function on the basis of
+analyses of group differences. To describe the intermediate brain function
+requires models that interpolate between the disease states. We have chosen
+Gaussian Processes (GP) regression to obtain a continuous spectrum of brain
+activation and to extract the unknown disease progression profile. Our models
+incorporate spatial distribution of measures of activation, e.g. the
+correlation of an fMRI trace with an input stimulus, and so constitute
+ultra-high multi-variate GP regressors. We applied GPs to model fMRI image
+phenotypes across Alzheimer's Disease (AD) behavioural measures, e.g. MMSE, ACE
+etc. scores, and obtained predictions at non-observed MMSE/ACE values. The
+overall model confirmed the known reduction in the spatial extent of activity
+in response to reading versus false-font stimulation. The predictive
+uncertainty indicated the worsening confidence intervals at behavioural scores
+distance from those used for GP training. Thus, the model indicated the type of
+patient (what behavioural score) that would need to included in the training
+data to improve models predictions.

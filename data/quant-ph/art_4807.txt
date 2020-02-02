@@ -1,0 +1,11 @@
+Structured quantum search in NP-complete problems using the cumulative
+  density of states
+In the multitarget Grover algorithm, we are given an unstructured N-element
+list of objects S_i containing a T-element subset tau and function f, called an
+oracle, such that f(S_i)=1 if S_i is in tau, otherwise f(S_i) = 0. By using
+quantum parallelism, an element of tau can be retrieved in O(sqrt(N/T)) steps,
+compared to O(N/T) for any classical algorithm. It is shown here that in
+combinatorial optimization problems with N=4^M, the density of states can be
+used in conjunction with the multitarget Grover algorithm to construct a
+sequence of oracles that structure the search so that the optimum state is
+obtained with certainty in O(log(N)) steps.

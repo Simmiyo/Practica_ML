@@ -1,0 +1,23 @@
+Piecewise Parabolic Method on a Local Stencil for Magnetized Supersonic
+  Turbulence Simulation
+Stable, accurate, divergence-free simulation of magnetized supersonic
+turbulence is a severe test of numerical MHD schemes and has been surprisingly
+difficult to achieve due to the range of flow conditions present. Here we
+present a new, higher order-accurate, low dissipation numerical method which
+requires no additional dissipation or local "fixes" for stable execution. We
+describe PPML, a local stencil variant of the popular PPM algorithm for solving
+the equations of compressible ideal magnetohydrodynamics. The principal
+difference between PPML and PPM is that cell interface states are evolved
+rather that reconstructed at every timestep, resulting in a compact stencil.
+Interface states are evolved using Riemann invariants containing all transverse
+derivative information. The conservation laws are updated in an unsplit
+fashion, making the scheme fully multidimensional. Divergence-free evolution of
+the magnetic field is maintained using the higher order-accurate constrained
+transport technique of Gardiner and Stone. The accuracy and stability of the
+scheme is documented against a bank of standard test problems drawn from the
+literature. The method is applied to numerical simulation of supersonic MHD
+turbulence, which is important for many problems in astrophysics, including
+star formation in dark molecular clouds. PPML accurately reproduces in
+three-dimensions a transition to turbulence in highly compressible isothermal
+gas in a molecular cloud model. The low dissipation and wide spectral bandwidth
+of this method make it an ideal candidate for direct turbulence simulations.

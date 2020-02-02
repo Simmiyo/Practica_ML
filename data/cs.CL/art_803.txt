@@ -1,0 +1,21 @@
+SimLex-999: Evaluating Semantic Models with (Genuine) Similarity
+  Estimation
+We present SimLex-999, a gold standard resource for evaluating distributional
+semantic models that improves on existing resources in several important ways.
+First, in contrast to gold standards such as WordSim-353 and MEN, it explicitly
+quantifies similarity rather than association or relatedness, so that pairs of
+entities that are associated but not actually similar [Freud, psychology] have
+a low rating. We show that, via this focus on similarity, SimLex-999
+incentivizes the development of models with a different, and arguably wider
+range of applications than those which reflect conceptual association. Second,
+SimLex-999 contains a range of concrete and abstract adjective, noun and verb
+pairs, together with an independent rating of concreteness and (free)
+association strength for each pair. This diversity enables fine-grained
+analyses of the performance of models on concepts of different types, and
+consequently greater insight into how architectures can be improved. Further,
+unlike existing gold standard evaluations, for which automatic approaches have
+reached or surpassed the inter-annotator agreement ceiling, state-of-the-art
+models perform well below this ceiling on SimLex-999. There is therefore plenty
+of scope for SimLex-999 to quantify future improvements to distributional
+semantic models, guiding the development of the next generation of
+representation-learning architectures.

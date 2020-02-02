@@ -1,0 +1,16 @@
+Evidence accumulation and change rate inference in dynamic environments
+In a constantly changing world, animals must account for environmental
+volatility when making decisions. To appropriately discount older, irrelevant
+information, they need to learn the rate at which the environment changes. We
+develop an ideal observer model capable of inferring the present state of the
+environment along with its rate of change. Key to this computation is an update
+of the posterior probability of all possible changepoint counts. This
+computation can be challenging, as the number of possibilities grows rapidly
+with time. However, we show how the computations can be simplified in the
+continuum limit by a moment closure approximation. The resulting
+low-dimensional system can be used to infer the environmental state and change
+rate with accuracy comparable to the ideal observer. The approximate
+computations can be performed by a neural network model via a rate-correlation
+based plasticity rule. We thus show how optimal observers accumulate evidence
+in changing environments, and map this computation to reduced models which
+perform inference using plausible neural mechanisms.

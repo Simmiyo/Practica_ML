@@ -1,0 +1,17 @@
+The BIDS Toolbox: A web service to manage brain imaging datasets
+Data sharing is a key factor for ensuring reproducibility and transparency of
+scientific experiments, and neuroimaging is no exception. The vast
+heterogeneity of data formats and imaging modalities utilised in the field
+makes it a very challenging problem. In this context, the Brain Imaging Data
+Structure (BIDS) appears as a solution for organising and describing
+neuroimaging datasets. Since its publication in 2015, BIDS has gained
+widespread attention in the field, as it provides a common way to arrange and
+share multimodal brain images. Although the evident benefits it presents, BIDS
+has not been widely adopted in the field of MRI yet and we believe that this is
+due to the lack of a go-to tool to create and managed BIDS datasets. Motivated
+by this, we present the BIDS Toolbox, a web service to manage brain imaging
+datasets in BIDS format. Different from other tools, the BIDS Toolbox allows
+the creation and modification of BIDS-compliant datasets based on MRI data. It
+provides both a web interface and REST endpoints for its use. In this paper we
+describe its design and early prototype, and provide a link to the public
+source code repository.

@@ -1,0 +1,10 @@
+Indirect Gaussian Graph Learning beyond Gaussianity
+This paper studies how to capture dependency graph structures from real data
+which may not be multivariate Gaussian. Starting from marginal loss functions
+not necessarily derived from probability distributions, we utilize an additive
+over-parametrization with shrinkage to incorporate variable dependencies into
+the criterion. An iterative Gaussian graph learning algorithm is proposed with
+ease in implementation. Statistical analysis shows that the estimators achieve
+satisfactory accuracy with the error measured in terms of a proper Bregman
+divergence. Real-life examples in different settings are given to demonstrate
+the efficacy of the proposed methodology.

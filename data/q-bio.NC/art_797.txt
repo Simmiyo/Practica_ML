@@ -1,0 +1,23 @@
+On stabilizing the variance of dynamic functional brain connectivity
+  time series
+Assessment of dynamic functional brain connectivity (dFC) based on fMRI data
+is an increasingly popular strategy to investigate temporal dynamics of the
+brain's large-scale network architecture. Current practice when deriving
+connectivity estimates over time is to use the Fisher transform which aims to
+stabilize the variance of correlation values that fluctuate around varying true
+correlation values. It is however unclear how well the stabilization of signal
+variance performed by the Fisher transform works for each connectivity time
+series, when the true correlation is assumed to be fluctuating. This is of
+importance because many subsequent analyses either assume or perform better
+when the time series have stable variance or adheres to an approximate Gaussian
+distribution. In this paper, using simulations and analysis of resting-state
+fMRI data, we analyze the effect of applying different variance stabilization
+strategies on connectivity time-series. We here focus our investigation on the
+Fisher transform, the Box Cox transform and an approach that combines both
+transforms. Our results show that, if the intention of stabilizing the variance
+is to use metrics on the time series where stable variance or a Gaussian
+distribution is desired (e.g. clustering), the Fisher transform is not optimal
+and may even skew connectivity time series away from being Gaussian. Further,
+we show that the suboptimal performance of the Fisher transform can be
+substantially improved by including an additional Box-Cox transformation after
+the dFC time series has been Fisher transformed.

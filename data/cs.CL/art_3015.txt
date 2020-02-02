@@ -1,0 +1,19 @@
+Transcribing Against Time
+We investigate the problem of manually correcting errors from an automatic
+speech transcript in a cost-sensitive fashion. This is done by specifying a
+fixed time budget, and then automatically choosing location and size of
+segments for correction such that the number of corrected errors is maximized.
+The core components, as suggested by previous research [1], are a utility model
+that estimates the number of errors in a particular segment, and a cost model
+that estimates annotation effort for the segment. In this work we propose a
+dynamic updating framework that allows for the training of cost models during
+the ongoing transcription process. This removes the need for transcriber
+enrollment prior to the actual transcription, and improves correction
+efficiency by allowing highly transcriber-adaptive cost modeling. We first
+confirm and analyze the improvements afforded by this method in a simulated
+study. We then conduct a realistic user study, observing efficiency
+improvements of 15% relative on average, and 42% for the participants who
+deviated most strongly from our initial, transcriber-agnostic cost model.
+Moreover, we find that our updating framework can capture dynamically changing
+factors, such as transcriber fatigue and topic familiarity, which we observe to
+have a large influence on the transcriber's working behavior.

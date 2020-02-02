@@ -1,0 +1,20 @@
+Observable dictionary learning for high-dimensional statistical
+  inference
+This paper introduces a method for efficiently inferring a high-dimensional
+distributed quantity from a few observations. The quantity of interest (QoI) is
+approximated in a basis (dictionary) learned from a training set. The
+coefficients associated with the approximation of the QoI in the basis are
+determined by minimizing the misfit with the observations. To obtain a
+probabilistic estimate of the quantity of interest, a Bayesian approach is
+employed. The QoI is treated as a random field endowed with a hierarchical
+prior distribution so that closed-form expressions can be obtained for the
+posterior distribution. The main contribution of the present work lies in the
+derivation of \emph{a representation basis consistent with the observation
+chain} used to infer the associated coefficients. The resulting dictionary is
+then tailored to be both observable by the sensors and accurate in
+approximating the posterior mean. An algorithm for deriving such an observable
+dictionary is presented. The method is illustrated with the estimation of the
+velocity field of an open cavity flow from a handful of wall-mounted point
+sensors. Comparison with standard estimation approaches relying on Principal
+Component Analysis and K-SVD dictionaries is provided and illustrates the
+superior performance of the present approach.

@@ -1,0 +1,14 @@
+Linear Transformations for Cross-lingual Semantic Textual Similarity
+Cross-lingual semantic textual similarity systems estimate the degree of the
+meaning similarity between two sentences, each in a different language.
+State-of-the-art algorithms usually employ machine translation and combine vast
+amount of features, making the approach strongly supervised, resource rich, and
+difficult to use for poorly-resourced languages.
+  In this paper, we study linear transformations, which project monolingual
+semantic spaces into a shared space using bilingual dictionaries. We propose a
+novel transformation, which builds on the best ideas from prior works. We
+experiment with unsupervised techniques for sentence similarity based only on
+semantic spaces and we show they can be significantly improved by the word
+weighting. Our transformation outperforms other methods and together with word
+weighting leads to very promising results on several datasets in different
+languages.

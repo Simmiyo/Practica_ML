@@ -1,0 +1,10 @@
+Detecting Epileptic Seizures from EEG Data using Neural Networks
+We explore the use of neural networks trained with dropout in predicting
+epileptic seizures from electroencephalographic data (scalp EEG). The input to
+the neural network is a 126 feature vector containing 9 features for each of
+the 14 EEG channels obtained over 1-second, non-overlapping windows. The models
+in our experiments achieved high sensitivity and specificity on patient records
+not used in the training process. This is demonstrated using
+leave-one-out-cross-validation across patient records, where we hold out one
+patient's record as the test set and use all other patients' records for
+training; repeating this procedure for all patients in the database.

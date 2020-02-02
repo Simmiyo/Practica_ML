@@ -1,0 +1,14 @@
+Frequency estimation in three-phase power systems with harmonic
+  contamination: A multistage quaternion Kalman filtering approach
+Motivated by the need for accurate frequency information, a novel algorithm
+for estimating the fundamental frequency and its rate of change in three-phase
+power systems is developed. This is achieved through two stages of Kalman
+filtering. In the first stage a quaternion extended Kalman filter, which
+provides a unified framework for joint modeling of voltage measurements from
+all the phases, is used to estimate the instantaneous phase increment of the
+three-phase voltages. The phase increment estimates are then used as
+observations of the extended Kalman filter in the second stage that accounts
+for the dynamic behavior of the system frequency and simultaneously estimates
+the fundamental frequency and its rate of change. The framework is then
+extended to account for the presence of harmonics. Finally, the concept is
+validated through simulation on both synthetic and real-world data.

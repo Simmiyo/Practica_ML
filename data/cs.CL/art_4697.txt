@@ -1,0 +1,21 @@
+Knowledge-Aware Conversational Semantic Parsing Over Web Tables
+Conversational semantic parsing over tables requires knowledge acquiring and
+reasoning abilities, which have not been well explored by current
+state-of-the-art approaches. Motivated by this fact, we propose a
+knowledge-aware semantic parser to improve parsing performance by integrating
+various types of knowledge. In this paper, we consider three types of
+knowledge, including grammar knowledge, expert knowledge, and external resource
+knowledge. First, grammar knowledge empowers the model to effectively replicate
+previously generated logical form, which effectively handles the co-reference
+and ellipsis phenomena in conversation Second, based on expert knowledge, we
+propose a decomposable model, which is more controllable compared with
+traditional end-to-end models that put all the burdens of learning on
+trial-and-error in an end-to-end way. Third, external resource knowledge, i.e.,
+provided by a pre-trained language model or an entity typing model, is used to
+improve the representation of question and table for a better semantic
+understanding. We conduct experiments on the SequentialQA dataset. Results show
+that our knowledge-aware model outperforms the state-of-the-art approaches.
+Incremental experimental results also prove the usefulness of various
+knowledge. Further analysis shows that our approach has the ability to derive
+the meaning representation of a context-dependent utterance by leveraging
+previously generated outcomes.

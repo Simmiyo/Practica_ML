@@ -1,0 +1,21 @@
+Square Deal: Lower Bounds and Improved Relaxations for Tensor Recovery
+Recovering a low-rank tensor from incomplete information is a recurring
+problem in signal processing and machine learning. The most popular convex
+relaxation of this problem minimizes the sum of the nuclear norms of the
+unfoldings of the tensor. We show that this approach can be substantially
+suboptimal: reliably recovering a $K$-way tensor of length $n$ and Tucker rank
+$r$ from Gaussian measurements requires $\Omega(r n^{K-1})$ observations. In
+contrast, a certain (intractable) nonconvex formulation needs only $O(r^K +
+nrK)$ observations. We introduce a very simple, new convex relaxation, which
+partially bridges this gap. Our new formulation succeeds with $O(r^{\lfloor K/2
+\rfloor}n^{\lceil K/2 \rceil})$ observations. While these results pertain to
+Gaussian measurements, simulations strongly suggest that the new norm also
+outperforms the sum of nuclear norms for tensor completion from a random subset
+of entries.
+  Our lower bound for the sum-of-nuclear-norms model follows from a new result
+on recovering signals with multiple sparse structures (e.g. sparse, low rank),
+which perhaps surprisingly demonstrates the significant suboptimality of the
+commonly used recovery approach via minimizing the sum of individual sparsity
+inducing norms (e.g. $l_1$, nuclear norm). Our new formulation for low-rank
+tensor recovery however opens the possibility in reducing the sample complexity
+by exploiting several structures jointly.

@@ -1,0 +1,13 @@
+full-FORCE: A Target-Based Method for Training Recurrent Networks
+Trained recurrent networks are powerful tools for modeling dynamic neural
+computations. We present a target-based method for modifying the full
+connectivity matrix of a recurrent network to train it to perform tasks
+involving temporally complex input/output transformations. The method
+introduces a second network during training to provide suitable "target"
+dynamics useful for performing the task. Because it exploits the full recurrent
+connectivity, the method produces networks that perform tasks with fewer
+neurons and greater noise robustness than traditional least-squares (FORCE)
+approaches. In addition, we show how introducing additional input signals into
+the target-generating network, which act as task hints, greatly extends the
+range of tasks that can be learned and provides control over the complexity and
+nature of the dynamics of the trained, task-performing network.

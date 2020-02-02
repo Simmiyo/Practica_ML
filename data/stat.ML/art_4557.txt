@@ -1,0 +1,18 @@
+Wald-Kernel: Learning to Aggregate Information for Sequential Inference
+Sequential hypothesis testing is a desirable decision making strategy in any
+time sensitive scenario. Compared with fixed sample-size testing, sequential
+testing is capable of achieving identical probability of error requirements
+using less samples in average. For a binary detection problem, it is well known
+that for known density functions accumulating the likelihood ratio statistics
+is time optimal under a fixed error rate constraint. This paper considers the
+problem of learning a binary sequential detector from training samples when
+density functions are unavailable. We formulate the problem as a constrained
+likelihood ratio estimation which can be solved efficiently through convex
+optimization by imposing Reproducing Kernel Hilbert Space (RKHS) structure on
+the log-likelihood ratio function. In addition, we provide a computationally
+efficient approximated solution for large scale data set. The proposed
+algorithm, namely Wald-Kernel, is tested on a synthetic data set and two real
+world data sets, together with previous approaches for likelihood ratio
+estimation. Our empirical results show that the classifier trained through the
+proposed technique achieves smaller average sampling cost than previous
+approaches proposed in the literature for the same error rate.

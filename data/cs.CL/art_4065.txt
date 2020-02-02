@@ -1,0 +1,11 @@
+Adaptations of ROUGE and BLEU to Better Evaluate Machine Reading
+  Comprehension Task
+Current evaluation metrics to question answering based machine reading
+comprehension (MRC) systems generally focus on the lexical overlap between the
+candidate and reference answers, such as ROUGE and BLEU. However, bias may
+appear when these metrics are used for specific question types, especially
+questions inquiring yes-no opinions and entity lists. In this paper, we make
+adaptations on the metrics to better correlate n-gram overlap with the human
+judgment for answers to these two question types. Statistical analysis proves
+the effectiveness of our approach. Our adaptations may provide positive
+guidance for the development of real-scene MRC systems.

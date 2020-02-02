@@ -1,0 +1,23 @@
+Learning the kernel matrix via predictive low-rank approximations
+Efficient and accurate low-rank approximations of multiple data sources are
+essential in the era of big data. The scaling of kernel-based learning
+algorithms to large datasets is limited by the O(n^2) computation and storage
+complexity of the full kernel matrix, which is required by most of the recent
+kernel learning algorithms.
+  We present the Mklaren algorithm to approximate multiple kernel matrices
+learn a regression model, which is entirely based on geometrical concepts. The
+algorithm does not require access to full kernel matrices yet it accounts for
+the correlations between all kernels. It uses Incomplete Cholesky
+decomposition, where pivot selection is based on least-angle regression in the
+combined, low-dimensional feature space. The algorithm has linear complexity in
+the number of data points and kernels. When explicit feature space induced by
+the kernel can be constructed, a mapping from the dual to the primal Ridge
+regression weights is used for model interpretation.
+  The Mklaren algorithm was tested on eight standard regression datasets. It
+outperforms contemporary kernel matrix approximation approaches when learning
+with multiple kernels. It identifies relevant kernels, achieving highest
+explained variance than other multiple kernel learning methods for the same
+number of iterations. Test accuracy, equivalent to the one using full kernel
+matrices, was achieved with at significantly lower approximation ranks. A
+difference in run times of two orders of magnitude was observed when either the
+number of samples or kernels exceeds 3000.

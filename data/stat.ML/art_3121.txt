@@ -1,0 +1,12 @@
+Quantile universal threshold: model selection at the detection edge for
+  high-dimensional linear regression
+To estimate a sparse linear model from data with Gaussian noise, consilience
+from lasso and compressed sensing literatures is that thresholding estimators
+like lasso and the Dantzig selector have the ability in some situations to
+identify with high probability part of the significant covariates
+asymptotically, and are numerically tractable thanks to convexity.
+  Yet, the selection of a threshold parameter $\lambda$ remains crucial in
+practice. To that aim we propose Quantile Universal Thresholding, a selection
+of $\lambda$ at the detection edge. We show with extensive simulations and real
+data that an excellent compromise between high true positive rate and low false
+discovery rate is achieved, leading also to good predictive risk.

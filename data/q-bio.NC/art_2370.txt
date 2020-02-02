@@ -1,0 +1,16 @@
+A generative spike train model with time-structured higher order
+  correlations
+Emerging technologies are revealing the spiking activity in ever larger
+neural ensembles. Frequently, this spiking is far from independent, with
+correlations in the spike times of different cells. Understanding how such
+correlations impact the dynamics and function of neural ensembles remains an
+important open problem. Here we describe a new, generative model for correlated
+spike trains that can exhibit many of the features observed in data. Extending
+prior work in mathematical finance, this generalized thinning and shift (GTaS)
+model creates marginally Poisson spike trains with diverse temporal correlation
+structures. We give several examples which highlight the model's flexibility
+and utility. For instance, we use it to examine how a neural network responds
+to highly structured patterns of inputs. We then show that the GTaS model is
+analytically tractable, and derive cumulant densities of all orders in terms of
+model parameters. The GTaS framework can therefore be an important tool in the
+experimental and theoretical exploration of neural dynamics.

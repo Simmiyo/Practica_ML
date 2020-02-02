@@ -1,0 +1,13 @@
+Embedding Grammars
+Classic grammars and regular expressions can be used for a variety of
+purposes, including parsing, intent detection, and matching. However, the
+comparisons are performed at a structural level, with constituent elements
+(words or characters) matched exactly. Recent advances in word embeddings show
+that semantically related words share common features in a vector-space
+representation, suggesting the possibility of a hybrid grammar and word
+embedding. In this paper, we blend the structure of standard context-free
+grammars with the semantic generalization capabilities of word embeddings to
+create hybrid semantic grammars. These semantic grammars generalize the
+specific terminals used by the programmer to other words and phrases with
+related meanings, allowing the construction of compact grammars that match an
+entire region of the vector space rather than matching specific elements.

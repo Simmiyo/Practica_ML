@@ -1,0 +1,18 @@
+Alternating Direction Methods for Latent Variable Gaussian Graphical
+  Model Selection
+Chandrasekaran, Parrilo and Willsky (2010) proposed a convex optimization
+problem to characterize graphical model selection in the presence of unobserved
+variables. This convex optimization problem aims to estimate an inverse
+covariance matrix that can be decomposed into a sparse matrix minus a low-rank
+matrix from sample data. Solving this convex optimization problem is very
+challenging, especially for large problems. In this paper, we propose two
+alternating direction methods for solving this problem. The first method is to
+apply the classical alternating direction method of multipliers to solve the
+problem as a consensus problem. The second method is a proximal gradient based
+alternating direction method of multipliers. Our methods exploit and take
+advantage of the special structure of the problem and thus can solve large
+problems very efficiently. Global convergence result is established for the
+proposed methods. Numerical results on both synthetic data and gene expression
+data show that our methods usually solve problems with one million variables in
+one to two minutes, and are usually five to thirty five times faster than a
+state-of-the-art Newton-CG proximal point algorithm.

@@ -1,0 +1,19 @@
+Selecting the best system and multi-armed bandits
+Consider the problem of finding a population or a probability distribution
+amongst many with the largest mean when these means are unknown but population
+samples can be simulated or otherwise generated. Typically, by selecting
+largest sample mean population, it can be shown that false selection
+probability decays at an exponential rate. Lately, researchers have sought
+algorithms that guarantee that this probability is restricted to a small
+$\delta$ in order $\log(1/\delta)$ computational time by estimating the
+associated large deviations rate function via simulation. We show that such
+guarantees are misleading when populations have unbounded support even when
+these may be light-tailed. Specifically, we show that any policy that
+identifies the correct population with probability at least $1-\delta$ for each
+problem instance requires infinite number of samples in expectation in making
+such a determination in any problem instance. This suggests that some
+restrictions are essential on populations to devise $O(\log(1/\delta))$
+algorithms with $1 - \delta$ correctness guarantees. We note that under
+restriction on population moments, such methods are easily designed, and that
+sequential methods from stochastic multi-armed bandit literature can be adapted
+to devise such algorithms.

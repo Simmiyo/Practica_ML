@@ -1,0 +1,13 @@
+Structural Return Maximization for Reinforcement Learning
+Batch Reinforcement Learning (RL) algorithms attempt to choose a policy from
+a designer-provided class of policies given a fixed set of training data.
+Choosing the policy which maximizes an estimate of return often leads to
+over-fitting when only limited data is available, due to the size of the policy
+class in relation to the amount of data available. In this work, we focus on
+learning policy classes that are appropriately sized to the amount of data
+available. We accomplish this by using the principle of Structural Risk
+Minimization, from Statistical Learning Theory, which uses Rademacher
+complexity to identify a policy class that maximizes a bound on the return of
+the best policy in the chosen policy class, given the available data. Unlike
+similar batch RL approaches, our bound on return requires only extremely weak
+assumptions on the true system.

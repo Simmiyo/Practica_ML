@@ -1,0 +1,22 @@
+Deep learning with asymmetric connections and Hebbian updates
+We show that deep networks can be trained using Hebbian updates yielding
+similar performance to ordinary back-propagation on challenging image datasets.
+To overcome the unrealistic symmetry in connections between layers, implicit in
+back-propagation, the feedback weights are separate from the feedforward
+weights. The feedback weights are also updated with a local rule, the same as
+the feedforward weights - a weight is updated solely based on the product of
+activity of the units it connects. With fixed feedback weights as proposed in
+Lillicrap et. al (2016) performance degrades quickly as the depth of the
+network increases. If the feedforward and feedback weights are initialized with
+the same values, as proposed in Zipser and Rumelhart (1990), they remain the
+same throughout training thus precisely implementing back-propagation. We show
+that even when the weights are initialized differently and at random, and the
+algorithm is no longer performing back-propagation, performance is comparable
+on challenging datasets. We also propose a cost function whose derivative can
+be represented as a local Hebbian update on the last layer. Convolutional
+layers are updated with tied weights across space, which is not biologically
+plausible. We show that similar performance is achieved with untied layers,
+also known as locally connected layers, corresponding to the connectivity
+implied by the convolutional layers, but where weights are untied and updated
+separately. In the linear case we show theoretically that the convergence of
+the error to zero is accelerated by the update of the feedback weights.

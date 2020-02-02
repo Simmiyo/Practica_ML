@@ -1,0 +1,17 @@
+A Deterministic Global Optimization Method for Variational Inference
+Variational inference methods for latent variable statistical models have
+gained popularity because they are relatively fast, can handle large data sets,
+and have deterministic convergence guarantees. However, in practice it is
+unclear whether the fixed point identified by the variational inference
+algorithm is a local or a global optimum. Here, we propose a method for
+constructing iterative optimization algorithms for variational inference
+problems that are guaranteed to converge to the $\epsilon$-global variational
+lower bound on the log-likelihood. We derive inference algorithms for two
+variational approximations to a standard Bayesian Gaussian mixture model
+(BGMM). We present a minimal data set for empirically testing convergence and
+show that a variational inference algorithm frequently converges to a local
+optimum while our algorithm always converges to the globally optimal
+variational lower bound. We characterize the loss incurred by choosing a
+non-optimal variational approximation distribution suggesting that selection of
+the approximating variational distribution deserves as much attention as the
+selection of the original statistical model for a given data set.

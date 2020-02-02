@@ -1,0 +1,10 @@
+A Factorized Model for Transitive Verbs in Compositional Distributional
+  Semantics
+We present a factorized compositional distributional semantics model for the
+representation of transitive verb constructions. Our model first produces
+(subject, verb) and (verb, object) vector representations based on the
+similarity of the nouns in the construction to each of the nouns in the
+vocabulary and the tendency of these nouns to take the subject and object roles
+of the verb. These vectors are then combined into a final (subject,verb,object)
+representation through simple vector operations. On two established tasks for
+the transitive verb construction our model outperforms recent previous work.

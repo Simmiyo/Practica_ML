@@ -1,0 +1,14 @@
+Variational Bayes for Merging Noisy Databases
+Bayesian entity resolution merges together multiple, noisy databases and
+returns the minimal collection of unique individuals represented, together with
+their true, latent record values. Bayesian methods allow flexible generative
+models that share power across databases as well as principled quantification
+of uncertainty for queries of the final, resolved database. However, existing
+Bayesian methods for entity resolution use Markov monte Carlo method (MCMC)
+approximations and are too slow to run on modern databases containing millions
+or billions of records. Instead, we propose applying variational approximations
+to allow scalable Bayesian inference in these models. We derive a
+coordinate-ascent approximation for mean-field variational Bayes, qualitatively
+compare our algorithm to existing methods, note unique challenges for inference
+that arise from the expected distribution of cluster sizes in entity
+resolution, and discuss directions for future work in this domain.

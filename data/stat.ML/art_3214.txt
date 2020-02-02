@@ -1,0 +1,17 @@
+K2-ABC: Approximate Bayesian Computation with Kernel Embeddings
+Complicated generative models often result in a situation where computing the
+likelihood of observed data is intractable, while simulating from the
+conditional density given a parameter value is relatively easy. Approximate
+Bayesian Computation (ABC) is a paradigm that enables simulation-based
+posterior inference in such cases by measuring the similarity between simulated
+and observed data in terms of a chosen set of summary statistics. However,
+there is no general rule to construct sufficient summary statistics for complex
+models. Insufficient summary statistics will "leak" information, which leads to
+ABC algorithms yielding samples from an incorrect (partial) posterior. In this
+paper, we propose a fully nonparametric ABC paradigm which circumvents the need
+for manually selecting summary statistics. Our approach, K2-ABC, uses maximum
+mean discrepancy (MMD) as a dissimilarity measure between the distributions
+over observed and simulated data. MMD is easily estimated as the squared
+difference between their empirical kernel embeddings. Experiments on a
+simulated scenario and a real-world biological problem illustrate the
+effectiveness of the proposed algorithm.

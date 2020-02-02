@@ -1,0 +1,21 @@
+Sarcasm Analysis using Conversation Context
+Computational models for sarcasm detection have often relied on the content
+of utterances in isolation. However, the speaker's sarcastic intent is not
+always apparent without additional context. Focusing on social media
+discussions, we investigate three issues: (1) does modeling conversation
+context help in sarcasm detection; (2) can we identify what part of
+conversation context triggered the sarcastic reply; and (3) given a sarcastic
+post that contains multiple sentences, can we identify the specific sentence
+that is sarcastic. To address the first issue, we investigate several types of
+Long Short-Term Memory (LSTM) networks that can model both the conversation
+context and the current turn. We show that LSTM networks with sentence-level
+attention on context and current turn, as well as the conditional LSTM network
+(Rocktaschel et al. 2016), outperform the LSTM model that reads only the
+current turn. As conversation context, we consider the prior turn, the
+succeeding turn or both. Our computational models are tested on two types of
+social media platforms: Twitter and discussion forums. We discuss several
+differences between these datasets ranging from their size to the nature of the
+gold-label annotations. To address the last two issues, we present a
+qualitative analysis of attention weights produced by the LSTM models (with
+attention) and discuss the results compared with human performance on the two
+tasks.

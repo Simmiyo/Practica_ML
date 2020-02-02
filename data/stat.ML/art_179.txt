@@ -1,0 +1,21 @@
+On l_1 Mean and Variance Filtering
+This paper addresses the problem of segmenting a time-series with respect to
+changes in the mean value or in the variance. The first case is when the time
+data is modeled as a sequence of independent and normal distributed random
+variables with unknown, possibly changing, mean value but fixed variance. The
+main assumption is that the mean value is piecewise constant in time, and the
+task is to estimate the change times and the mean values within the segments.
+The second case is when the mean value is constant, but the variance can
+change. The assumption is that the variance is piecewise constant in time, and
+we want to estimate change times and the variance values within the segments.
+To find solutions to these problems, we will study an l_1 regularized maximum
+likelihood method, related to the fused lasso method and l_1 trend filtering,
+where the parameters to be estimated are free to vary at each sample. To
+penalize variations in the estimated parameters, the l_1-norm of the time
+difference of the parameters is used as a regularization term. This idea is
+closely related to total variation denoising. The main contribution is that a
+convex formulation of this variance estimation problem, where the
+parametrization is based on the inverse of the variance, can be formulated as a
+certain l_1 mean estimation problem. This implies that results and methods for
+mean estimation can be applied to the challenging problem of variance
+segmentation/estimation.

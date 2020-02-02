@@ -1,0 +1,11 @@
+Induction of Selective Bayesian Classifiers
+In this paper, we examine previous work on the naive Bayesian classifier and
+review its limitations, which include a sensitivity to correlated features. We
+respond to this problem by embedding the naive Bayesian induction scheme within
+an algorithm that c arries out a greedy search through the space of features.
+We hypothesize that this approach will improve asymptotic accuracy in domains
+that involve correlated features without reducing the rate of learning in ones
+that do not. We report experimental results on six natural domains, including
+comparisons with decision-tree induction, that support these hypotheses. In
+closing, we discuss other approaches to extending naive Bayesian classifiers
+and outline some directions for future research.

@@ -1,0 +1,16 @@
+PAC-Bayesian Analysis of Martingales and Multiarmed Bandits
+We present two alternative ways to apply PAC-Bayesian analysis to sequences
+of dependent random variables. The first is based on a new lemma that enables
+to bound expectations of convex functions of certain dependent random variables
+by expectations of the same functions of independent Bernoulli random
+variables. This lemma provides an alternative tool to Hoeffding-Azuma
+inequality to bound concentration of martingale values. Our second approach is
+based on integration of Hoeffding-Azuma inequality with PAC-Bayesian analysis.
+We also introduce a way to apply PAC-Bayesian analysis in situation of limited
+feedback. We combine the new tools to derive PAC-Bayesian generalization and
+regret bounds for the multiarmed bandit problem. Although our regret bound is
+not yet as tight as state-of-the-art regret bounds based on other
+well-established techniques, our results significantly expand the range of
+potential applications of PAC-Bayesian analysis and introduce a new analysis
+tool to reinforcement learning and many other fields, where martingales and
+limited feedback are encountered.

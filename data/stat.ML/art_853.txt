@@ -1,0 +1,15 @@
+A Bayesian optimization approach to find Nash equilibria
+Game theory finds nowadays a broad range of applications in engineering and
+machine learning. However, in a derivative-free, expensive black-box context,
+very few algorithmic solutions are available to find game equilibria. Here, we
+propose a novel Gaussian-process based approach for solving games in this
+context. We follow a classical Bayesian optimization framework, with sequential
+sampling decisions based on acquisition functions. Two strategies are proposed,
+based either on the probability of achieving equilibrium or on the Stepwise
+Uncertainty Reduction paradigm. Practical and numerical aspects are discussed
+in order to enhance the scalability and reduce computation time. Our approach
+is evaluated on several synthetic game problems with varying number of players
+and decision space dimensions. We show that equilibria can be found reliably
+for a fraction of the cost (in terms of black-box evaluations) compared to
+classical, derivative-based algorithms. The method is available in the R
+package GPGame available on CRAN at https://cran.r-project.org/package=GPGame.

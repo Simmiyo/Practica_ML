@@ -1,0 +1,18 @@
+Toward Computation and Memory Efficient Neural Network Acoustic Models
+  with Binary Weights and Activations
+Neural network acoustic models have significantly advanced state of the art
+speech recognition over the past few years. However, they are usually
+computationally expensive due to the large number of matrix-vector
+multiplications and nonlinearity operations. Neural network models also require
+significant amounts of memory for inference because of the large model size.
+For these two reasons, it is challenging to deploy neural network based speech
+recognizers on resource-constrained platforms such as embedded devices. This
+paper investigates the use of binary weights and activations for computation
+and memory efficient neural network acoustic models. Compared to real-valued
+weight matrices, binary weights require much fewer bits for storage, thereby
+cutting down the memory footprint. Furthermore, with binary weights or
+activations, the matrix-vector multiplications are turned into addition and
+subtraction operations, which are computationally much faster and more energy
+efficient for hardware platforms. In this paper, we study the applications of
+binary weights and activations for neural network acoustic modeling, reporting
+encouraging results on the WSJ and AMI corpora.

@@ -1,0 +1,14 @@
+Learning to Draw Samples: With Application to Amortized MLE for
+  Generative Adversarial Learning
+We propose a simple algorithm to train stochastic neural networks to draw
+samples from given target distributions for probabilistic inference. Our method
+is based on iteratively adjusting the neural network parameters so that the
+output changes along a Stein variational gradient that maximumly decreases the
+KL divergence with the target distribution. Our method works for any target
+distribution specified by their unnormalized density function, and can train
+any black-box architectures that are differentiable in terms of the parameters
+we want to adapt. As an application of our method, we propose an amortized MLE
+algorithm for training deep energy model, where a neural sampler is adaptively
+trained to approximate the likelihood function. Our method mimics an
+adversarial game between the deep energy model and the neural sampler, and
+obtains realistic-looking images competitive with the state-of-the-art results.

@@ -1,0 +1,12 @@
+Understanding Deep Learning Performance through an Examination of Test
+  Set Difficulty: A Psychometric Case Study
+Interpreting the performance of deep learning models beyond test set accuracy
+is challenging. Characteristics of individual data points are often not
+considered during evaluation, and each data point is treated equally. We
+examine the impact of a test set question's difficulty to determine if there is
+a relationship between difficulty and performance. We model difficulty using
+well-studied psychometric methods on human response patterns. Experiments on
+Natural Language Inference (NLI) and Sentiment Analysis (SA) show that the
+likelihood of answering a question correctly is impacted by the question's
+difficulty. As DNNs are trained with more data, easy examples are learned more
+quickly than hard examples.

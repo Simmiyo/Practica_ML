@@ -1,0 +1,14 @@
+Modeling Task Effects in Human Reading with Neural Attention
+Humans read by making a sequence of fixations and saccades. They often skip
+words, without apparent detriment to understanding. We offer a novel
+explanation for skipping: readers optimize a tradeoff between performing a
+language-related task and fixating as few words as possible. We propose a
+neural architecture that combines an attention module (deciding whether to skip
+words) and a task module (memorizing the input). We show that our model
+predicts human skipping behavior, while also modeling reading times well, even
+though it skips 40% of the input. A key prediction of our model is that
+different reading tasks should result in different skipping behaviors. We
+confirm this prediction in an eye-tracking experiment in which participants
+answers questions about a text. We are able to capture these experimental
+results using the our model, replacing the memorization module with a task
+module that performs neural question answering.

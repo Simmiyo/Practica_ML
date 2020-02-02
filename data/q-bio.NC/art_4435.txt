@@ -1,0 +1,19 @@
+Identifying Seizure Onset Zone from the Causal Connectivity Inferred
+  Using Directed Information
+In this paper, we developed a model-based and a data-driven estimator for
+directed information (DI) to infer the causal connectivity graph between
+electrocorticographic (ECoG) signals recorded from brain and to identify the
+seizure onset zone (SOZ) in epileptic patients. Directed information, an
+information theoretic quantity, is a general metric to infer causal
+connectivity between time-series and is not restricted to a particular class of
+models unlike the popular metrics based on Granger causality or transfer
+entropy. The proposed estimators are shown to be almost surely convergent.
+Causal connectivity between ECoG electrodes in five epileptic patients is
+inferred using the proposed DI estimators, after validating their performance
+on simulated data. We then proposed a model-based and a data-driven SOZ
+identification algorithm to identify SOZ from the causal connectivity inferred
+using model-based and data-driven DI estimators respectively. The data-driven
+SOZ identification outperforms the model-based SOZ identification algorithm
+when benchmarked against visual analysis by neurologist, the current clinical
+gold standard. The causal connectivity analysis presented here is the first
+step towards developing novel non-surgical treatments for epilepsy.

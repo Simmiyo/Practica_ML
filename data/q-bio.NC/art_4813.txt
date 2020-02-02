@@ -1,0 +1,19 @@
+Deep Architectures for Automated Seizure Detection in Scalp EEGs
+Automated seizure detection using clinical electroencephalograms is a
+challenging machine learning problem because the multichannel signal often has
+an extremely low signal to noise ratio. Events of interest such as seizures are
+easily confused with signal artifacts (e.g, eye movements) or benign variants
+(e.g., slowing). Commercially available systems suffer from unacceptably high
+false alarm rates. Deep learning algorithms that employ high dimensional models
+have not previously been effective due to the lack of big data resources. In
+this paper, we use the TUH EEG Seizure Corpus to evaluate a variety of hybrid
+deep structures including Convolutional Neural Networks and Long Short-Term
+Memory Networks. We introduce a novel recurrent convolutional architecture that
+delivers 30% sensitivity at 7 false alarms per 24 hours. We have also evaluated
+our system on a held-out evaluation set based on the Duke University Seizure
+Corpus and demonstrate that performance trends are similar to the TUH EEG
+Seizure Corpus. This is a significant finding because the Duke corpus was
+collected with different instrumentation and at different hospitals. Our work
+shows that deep learning architectures that integrate spatial and temporal
+contexts are critical to achieving state of the art performance and will enable
+a new generation of clinically-acceptable technology.

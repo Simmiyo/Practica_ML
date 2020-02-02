@@ -1,0 +1,19 @@
+Dense Distributions from Sparse Samples: Improved Gibbs Sampling
+  Parameter Estimators for LDA
+We introduce a novel approach for estimating Latent Dirichlet Allocation
+(LDA) parameters from collapsed Gibbs samples (CGS), by leveraging the full
+conditional distributions over the latent variable assignments to efficiently
+average over multiple samples, for little more computational cost than drawing
+a single additional collapsed Gibbs sample. Our approach can be understood as
+adapting the soft clustering methodology of Collapsed Variational Bayes (CVB0)
+to CGS parameter estimation, in order to get the best of both techniques. Our
+estimators can straightforwardly be applied to the output of any existing
+implementation of CGS, including modern accelerated variants. We perform
+extensive empirical comparisons of our estimators with those of standard
+collapsed inference algorithms on real-world data for both unsupervised LDA and
+Prior-LDA, a supervised variant of LDA for multi-label classification. Our
+results show a consistent advantage of our approach over traditional CGS under
+all experimental conditions, and over CVB0 inference in the majority of
+conditions. More broadly, our results highlight the importance of averaging
+over multiple samples in LDA parameter estimation, and the use of efficient
+computational techniques to do so.

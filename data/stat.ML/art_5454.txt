@@ -1,0 +1,23 @@
+Uncertainty quantification in graph-based classification of high
+  dimensional data
+Classification of high dimensional data finds wide-ranging applications. In
+many of these applications equipping the resulting classification with a
+measure of uncertainty may be as important as the classification itself. In
+this paper we introduce, develop algorithms for, and investigate the properties
+of, a variety of Bayesian models for the task of binary classification; via the
+posterior distribution on the classification labels, these methods
+automatically give measures of uncertainty. The methods are all based around
+the graph formulation of semi-supervised learning.
+  We provide a unified framework which brings together a variety of methods
+which have been introduced in different communities within the mathematical
+sciences. We study probit classification in the graph-based setting, generalize
+the level-set method for Bayesian inverse problems to the classification
+setting, and generalize the Ginzburg-Landau optimization-based classifier to a
+Bayesian setting; we also show that the probit and level set approaches are
+natural relaxations of the harmonic function approach introduced in [Zhu et al
+2003].
+  We introduce efficient numerical methods, suited to large data-sets, for both
+MCMC-based sampling as well as gradient-based MAP estimation. Through numerical
+experiments we study classification accuracy and uncertainty quantification for
+our models; these experiments showcase a suite of datasets commonly used to
+evaluate graph-based semi-supervised learning algorithms.

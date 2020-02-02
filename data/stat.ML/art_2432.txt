@@ -1,0 +1,17 @@
+Second-Order Non-Stationary Online Learning for Regression
+The goal of a learner, in standard online learning, is to have the cumulative
+loss not much larger compared with the best-performing function from some fixed
+class. Numerous algorithms were shown to have this gap arbitrarily close to
+zero, compared with the best function that is chosen off-line. Nevertheless,
+many real-world applications, such as adaptive filtering, are non-stationary in
+nature, and the best prediction function may drift over time. We introduce two
+novel algorithms for online regression, designed to work well in non-stationary
+environment. Our first algorithm performs adaptive resets to forget the
+history, while the second is last-step min-max optimal in context of a drift.
+We analyze both algorithms in the worst-case regret framework and show that
+they maintain an average loss close to that of the best slowly changing
+sequence of linear functions, as long as the cumulative drift is sublinear. In
+addition, in the stationary case, when no drift occurs, our algorithms suffer
+logarithmic regret, as for previous algorithms. Our bounds improve over the
+existing ones, and simulations demonstrate the usefulness of these algorithms
+compared with other state-of-the-art approaches.

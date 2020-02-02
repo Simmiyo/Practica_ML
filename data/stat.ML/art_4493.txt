@@ -1,0 +1,20 @@
+Perceptron-like Algorithms and Generalization Bounds for Learning to
+  Rank
+Learning to rank is a supervised learning problem where the output space is
+the space of rankings but the supervision space is the space of relevance
+scores. We make theoretical contributions to the learning to rank problem both
+in the online and batch settings. First, we propose a perceptron-like algorithm
+for learning a ranking function in an online setting. Our algorithm is an
+extension of the classic perceptron algorithm for the classification problem.
+Second, in the setting of batch learning, we introduce a sufficient condition
+for convex ranking surrogates to ensure a generalization bound that is
+independent of number of objects per query. Our bound holds when linear ranking
+functions are used: a common practice in many learning to rank algorithms. En
+route to developing the online algorithm and generalization bound, we propose a
+novel family of listwise large margin ranking surrogates. Our novel surrogate
+family is obtained by modifying a well-known pairwise large margin ranking
+surrogate and is distinct from the listwise large margin surrogates developed
+using the structured prediction framework. Using the proposed family, we
+provide a guaranteed upper bound on the cumulative NDCG (or MAP) induced loss
+under the perceptron-like algorithm. We also show that the novel surrogates
+satisfy the generalization bound condition.

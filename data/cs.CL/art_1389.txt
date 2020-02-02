@@ -1,0 +1,13 @@
+A Simple, Fast Diverse Decoding Algorithm for Neural Generation
+In this paper, we propose a simple, fast decoding algorithm that fosters
+diversity in neural generation. The algorithm modifies the standard beam search
+algorithm by adding an inter-sibling ranking penalty, favoring choosing
+hypotheses from diverse parents. We evaluate the proposed model on the tasks of
+dialogue response generation, abstractive summarization and machine
+translation. We find that diverse decoding helps across all tasks, especially
+those for which reranking is needed.
+  We further propose a variation that is capable of automatically adjusting its
+diversity decoding rates for different inputs using reinforcement learning
+(RL). We observe a further performance boost from this RL technique. This paper
+includes material from the unpublished script "Mutual Information and Diverse
+Decoding Improve Neural Machine Translation" (Li and Jurafsky, 2016).

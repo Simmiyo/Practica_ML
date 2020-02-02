@@ -1,0 +1,19 @@
+Kernel convolution model for decoding sounds from time-varying neural
+  responses
+In this study we present a kernel based convolution model to characterize
+neural responses to natural sounds by decoding their time-varying acoustic
+features. The model allows to decode natural sounds from high-dimensional
+neural recordings, such as magnetoencephalography (MEG), that track timing and
+location of human cortical signalling noninvasively across multiple channels.
+We used the MEG responses recorded from subjects listening to acoustically
+different environmental sounds. By decoding the stimulus frequencies from the
+responses, our model was able to accurately distinguish between two different
+sounds that it had never encountered before with 70% accuracy. Convolution
+models typically decode frequencies that appear at a certain time point in the
+sound signal by using neural responses from that time point until a certain
+fixed duration of the response. Using our model, we evaluated several fixed
+durations (time-lags) of the neural responses and observed auditory MEG
+responses to be most sensitive to spectral content of the sounds at time-lags
+of 250 ms to 500 ms. The proposed model should be useful for determining what
+aspects of natural sounds are represented by high-dimensional neural responses
+and may reveal novel properties of neural signals.

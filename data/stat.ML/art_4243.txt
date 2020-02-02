@@ -1,0 +1,17 @@
+Deep learning bank distress from news and numerical financial data
+In this paper we focus our attention on the exploitation of the information
+contained in financial news to enhance the performance of a classifier of bank
+distress. Such information should be analyzed and inserted into the predictive
+model in the most efficient way and this task deals with all the issues related
+to text analysis and specifically analysis of news media. Among the different
+models proposed for such purpose, we investigate one of the possible deep
+learning approaches, based on a doc2vec representation of the textual data, a
+kind of neural network able to map the sequential and symbolic text input onto
+a reduced latent semantic space. Afterwards, a second supervised neural network
+is trained combining news data with standard financial figures to classify
+banks whether in distressed or tranquil states, based on a small set of known
+distress events. Then the final aim is not only the improvement of the
+predictive performance of the classifier but also to assess the importance of
+news data in the classification process. Does news data really bring more
+useful information not contained in standard financial variables? Our results
+seem to confirm such hypothesis.

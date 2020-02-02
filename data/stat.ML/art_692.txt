@@ -1,0 +1,15 @@
+Inventory Control Involving Unknown Demand of Discrete Nonperishable
+  Items - Analysis of a Newsvendor-based Policy
+Inventory control with unknown demand distribution is considered, with
+emphasis placed on the case involving discrete nonperishable items. We focus on
+an adaptive policy which in every period uses, as much as possible, the optimal
+newsvendor ordering quantity for the empirical distribution learned up to that
+period. The policy is assessed using the regret criterion, which measures the
+price paid for ambiguity on demand distribution over $T$ periods. When there
+are guarantees on the latter's separation from the critical newsvendor
+parameter $\beta=b/(h+b)$, a constant upper bound on regret can be found.
+Without any prior information on the demand distribution, we show that the
+regret does not grow faster than the rate $T^{1/2+\epsilon}$ for any
+$\epsilon>0$. In view of a known lower bound, this is almost the best one could
+hope for. Simulation studies involving this along with other policies are also
+conducted.

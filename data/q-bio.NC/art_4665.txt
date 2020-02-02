@@ -1,0 +1,27 @@
+A State Space Approach for Piecewise-Linear Recurrent Neural Networks
+  for Reconstructing Nonlinear Dynamics from Neural Measurements
+The computational properties of neural systems are often thought to be
+implemented in terms of their network dynamics. Hence, recovering the system
+dynamics from experimentally observed neuronal time series, like multiple
+single-unit (MSU) recordings or neuroimaging data, is an important step toward
+understanding its computations. Ideally, one would not only seek a state space
+representation of the dynamics, but would wish to have access to its governing
+equations for in-depth analysis. Recurrent neural networks (RNNs) are a
+computationally powerful and dynamically universal formal framework which has
+been extensively studied from both the computational and the dynamical systems
+perspective. Here we develop a semi-analytical maximum-likelihood estimation
+scheme for piecewise-linear RNNs (PLRNNs) within the statistical framework of
+state space models, which accounts for noise in both the underlying latent
+dynamics and the observation process. The Expectation-Maximization algorithm is
+used to infer the latent state distribution, through a global Laplace
+approximation, and the PLRNN parameters iteratively. After validating the
+procedure on toy examples, the approach is applied to MSU recordings from the
+rodent anterior cingulate cortex obtained during performance of a classical
+working memory task, delayed alternation. A model with 5 states turned out to
+be sufficient to capture the essential computational dynamics underlying task
+performance, including stimulus-selective delay activity. The estimated models
+were rarely multi-stable, but rather were tuned to exhibit slow dynamics in the
+vicinity of a bifurcation point. In summary, the present work advances a
+semi-analytical (thus reasonably fast) maximum-likelihood estimation framework
+for PLRNNs that may enable to recover the relevant dynamics underlying observed
+neuronal time series, and directly link them to computational properties.

@@ -1,0 +1,11 @@
+Arbor -- a morphologically-detailed neural network simulation library
+  for contemporary high-performance computing architectures
+We introduce Arbor, a performance portable library for simulation of large
+networks of multi-compartment neurons on HPC systems. Arbor is open source
+software, developed under the auspices of the HBP. The performance portability
+is by virtue of back-end specific optimizations for x86 multicore, Intel KNL,
+and NVIDIA GPUs. When coupled with low memory overheads, these optimizations
+make Arbor an order of magnitude faster than the most widely-used comparable
+simulation software. The single-node performance can be scaled out to run very
+large models at extreme scale with efficient weak scaling.
+  HPC, GPU, neuroscience, neuron, software

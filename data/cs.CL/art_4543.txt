@@ -1,0 +1,14 @@
+Review Helpfulness Prediction with Embedding-Gated CNN
+Product reviews, in the form of texts dominantly, significantly help
+consumers finalize their purchasing decisions. Thus, it is important for
+e-commerce companies to predict review helpfulness to present and recommend
+reviews in a more informative manner. In this work, we introduce a
+convolutional neural network model that is able to extract abstract features
+from multi-granularity representations. Inspired by the fact that different
+words contribute to the meaning of a sentence differently, we consider to learn
+word-level embedding-gates for all the representations. Furthermore, as it is
+common that some product domains/categories have rich user reviews, other
+domains not. To help domains with less sufficient data, we integrate our model
+into a cross-domain relationship learning framework for effectively
+transferring knowledge from other domains. Extensive experiments show that our
+model yields better performance than the existing methods.

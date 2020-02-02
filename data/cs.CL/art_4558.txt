@@ -1,0 +1,13 @@
+Acquiring Annotated Data with Cross-lingual Explicitation for Implicit
+  Discourse Relation Classification
+Implicit discourse relation classification is one of the most challenging and
+important tasks in discourse parsing, due to the lack of connective as strong
+linguistic cues. A principle bottleneck to further improvement is the shortage
+of training data (ca.~16k instances in the PDTB). Shi et al. (2017) proposed to
+acquire additional data by exploiting connectives in translation: human
+translators mark discourse relations which are implicit in the source language
+explicitly in the translation. Using back-translations of such explicitated
+connectives improves discourse relation parsing performance. This paper
+addresses the open question of whether the choice of the translation language
+matters, and whether multiple translations into different languages can be
+effectively used to improve the quality of the additional data.

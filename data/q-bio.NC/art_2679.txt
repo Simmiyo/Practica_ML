@@ -1,0 +1,27 @@
+Effect of Inter-Modular Connection on Fast Sparse Synchronization in
+  Clustered Small-World Neural Networks
+We consider a clustered network with small-world sub-networks of inhibitory
+fast spiking interneurons, and investigate the effect of inter-modular
+connection on emergence of fast sparsely synchronized rhythms by varying both
+the inter-modular coupling strength $J_{inter}$ and the average number of
+inter-modular links per interneuron $M_{syn}^{(inter)}$. In contrast to the
+case of non-clustered networks, two kinds of sparsely synchronized states such
+as modular and global synchronization are found. For the case of modular sparse
+synchronization, the population behavior reveals the modular structure, because
+the intra-modular dynamics of sub-networks make some mismatching. On the other
+hand, in the case of global sparse synchronization, the population behavior is
+globally identical, independently of the cluster structure, because the
+intra-modular dynamics of sub-networks make perfect matching. We introduce a
+realistic cross-correlation modularity measure, representing the
+matching-degree between the instantaneous sub-population spike rates of the
+sub-networks, and examine whether the sparse synchronization is global or
+modular. Furthermore, we characterize the modular and global sparse
+synchronization by employing the realistic sub- and whole-population order
+parameters and statistical-mechanical measures. The roles of $J_{inter}$ and
+$M_{syn}^{(inter)}$ are thus found as follows. For large $J_{inter}$, due to
+strong inhibition it plays a destructive role to "spoil" the pacing between
+spikes, while for small $J_{inter}$ it plays a constructive role to "favor" the
+pacing between spikes. In contrast, $M_{syn}^{(inter)}$ seems to play a role
+just to favor the pacing between spikes. With increasing $M_{syn}^{(inter)}$,
+the pacing degree between spikes increases monotonically thanks to the increase
+in the degree of effectiveness of global communication between spikes.

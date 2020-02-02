@@ -1,0 +1,21 @@
+Spatial Mapping with Gaussian Processes and Nonstationary Fourier
+  Features
+The use of covariance kernels is ubiquitous in the field of spatial
+statistics. Kernels allow data to be mapped into high-dimensional feature
+spaces and can thus extend simple linear additive methods to nonlinear methods
+with higher order interactions. However, until recently, there has been a
+strong reliance on a limited class of stationary kernels such as the Matern or
+squared exponential, limiting the expressiveness of these modelling approaches.
+Recent machine learning research has focused on spectral representations to
+model arbitrary stationary kernels and introduced more general representations
+that include classes of nonstationary kernels. In this paper, we exploit the
+connections between Fourier feature representations, Gaussian processes and
+neural networks to generalise previous approaches and develop a simple and
+efficient framework to learn arbitrarily complex nonstationary kernel functions
+directly from the data, while taking care to avoid overfitting using
+state-of-the-art methods from deep learning. We highlight the very broad array
+of kernel classes that could be created within this framework. We apply this to
+a time series dataset and a remote sensing problem involving land surface
+temperature in Eastern Africa. We show that without increasing the
+computational or storage complexity, nonstationary kernels can be used to
+improve generalisation performance and provide more interpretable results.

@@ -1,0 +1,24 @@
+Readouts for Echo-state Networks Built using Locally Regularized
+  Orthogonal Forward Regression
+Echo state network (ESN) is viewed as a temporal non-orthogonal expansion
+with pseudo-random parameters. Such expansions naturally give rise to
+regressors of various relevance to a teacher output. We illustrate that often
+only a certain amount of the generated echo-regressors effectively explain the
+variance of the teacher output and also that sole local regularization is not
+able to provide in-depth information concerning the importance of the generated
+regressors. The importance is therefore determined by a joint calculation of
+the individual variance contributions and Bayesian relevance using locally
+regularized orthogonal forward regression (LROFR) algorithm. This information
+can be advantageously used in a variety of ways for an in-depth analysis of an
+ESN structure and its state-space parameters in relation to the unknown
+dynamics of the underlying problem. We present locally regularized linear
+readout built using LROFR. The readout may have a different dimensionality than
+an ESN model itself, and besides improving robustness and accuracy of an ESN it
+relates the echo-regressors to different features of the training data and may
+determine what type of an additional readout is suitable for a task at hand.
+Moreover, as flexibility of the linear readout has limitations and might
+sometimes be insufficient for certain tasks, we also present a radial basis
+function (RBF) readout built using LROFR. It is a flexible and parsimonious
+readout with excellent generalization abilities and is a viable alternative to
+readouts based on a feed-forward neural network (FFNN) or an RBF net built
+using relevance vector machine (RVM).

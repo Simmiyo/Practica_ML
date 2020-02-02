@@ -1,0 +1,11 @@
+Artificial Orbitals and a Solution to Grover's Problem
+By allowing measurements of observables other than the state of the qubits in
+a quantum computer, one can find eigenvectors very quickly. If a unitary
+operation U is implemented as a time-independent Hamiltonian, for instance, one
+can collapse the state of the computer to a nearby eigenvector of U with a
+measurement of the energy. We examine some recent proposals for quantum
+computation using time-independent Hamiltonians and show how to convert them
+into ``artificial orbitals'' whose energy eigenstates match those of U. This
+system can be used to find eigenvectors and eigenvalues with a single
+measurement. We apply this technique to Grover's algorithm and the continuous
+variant proposed by Farhi and Gutmann.

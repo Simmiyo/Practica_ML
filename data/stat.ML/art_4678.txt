@@ -1,0 +1,26 @@
+Support Vector Algorithms for Optimizing the Partial Area Under the ROC
+  Curve
+The area under the ROC curve (AUC) is a widely used performance measure in
+machine learning. Increasingly, however, in several applications, ranging from
+ranking to biometric screening to medicine, performance is measured not in
+terms of the full area under the ROC curve, but in terms of the \emph{partial}
+area under the ROC curve between two false positive rates. In this paper, we
+develop support vector algorithms for directly optimizing the partial AUC
+between any two false positive rates. Our methods are based on minimizing a
+suitable proxy or surrogate objective for the partial AUC error. In the case of
+the full AUC, one can readily construct and optimize convex surrogates by
+expressing the performance measure as a summation of pairwise terms. The
+partial AUC, on the other hand, does not admit such a simple decomposable
+structure, making it more challenging to design and optimize (tight) convex
+surrogates for this measure.
+  Our approach builds on the structural SVM framework of Joachims (2005) to
+design convex surrogates for partial AUC, and solves the resulting optimization
+problem using a cutting plane solver. Unlike the full AUC, where the
+combinatorial optimization needed in each iteration of the cutting plane solver
+can be decomposed and solved efficiently, the corresponding problem for the
+partial AUC is harder to decompose. One of our main contributions is a
+polynomial time algorithm for solving the combinatorial optimization problem
+associated with partial AUC. We also develop an approach for optimizing a
+tighter non-convex hinge loss based surrogate for the partial AUC using
+difference-of-convex programming. Our experiments on a variety of real-world
+and benchmark tasks confirm the efficacy of the proposed methods.

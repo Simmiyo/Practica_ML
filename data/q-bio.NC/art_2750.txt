@@ -1,0 +1,29 @@
+Training of spiking neural networks based on information theoretic costs
+Spiking neural network is a type of artificial neural network in which
+neurons communicate between each other with spikes. Spikes are identical
+Boolean events characterized by the time of their arrival. A spiking neuron has
+internal dynamics and responds to the history of inputs as opposed to the
+current inputs only. Because of such properties a spiking neural network has
+rich intrinsic capabilities to process spatiotemporal data. However, because
+the spikes are discontinuous 'yes or no' events, it is not trivial to apply
+traditional training procedures such as gradient descend to the spiking
+neurons. In this thesis we propose to use stochastic spiking neuron models in
+which probability of a spiking output is a continuous function of parameters.
+We formulate several learning tasks as minimization of certain
+information-theoretic cost functions that use spiking output probability
+distributions. We develop a generalized description of the stochastic spiking
+neuron and a new spiking neuron model that allows to flexibly process rich
+spatiotemporal data. We formulate and derive learning rules for the following
+tasks:
+  - a supervised learning task of detecting a spatiotemporal pattern as a
+minimization of the negative log-likelihood (the surprisal) of the neuron's
+output
+  - an unsupervised learning task of increasing the stability of neurons output
+as a minimization of the entropy
+  - a reinforcement learning task of controlling an agent as a modulated
+optimization of filtered surprisal of the neuron's output.
+  We test the derived learning rules in several experiments such as
+spatiotemporal pattern detection, spatiotemporal data storing and recall with
+autoassociative memory, combination of supervised and unsupervised learning to
+speed up the learning process, adaptive control of simple virtual agents in
+changing environments.

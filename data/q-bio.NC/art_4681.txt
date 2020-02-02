@@ -1,0 +1,28 @@
+Learning from Label Proportions in Brain-Computer Interfaces: Online
+  Unsupervised Learning with Guarantees
+Objective: Using traditional approaches, a Brain-Computer Interface (BCI)
+requires the collection of calibration data for new subjects prior to online
+use. Calibration time can be reduced or eliminated e.g.~by transfer of a
+pre-trained classifier or unsupervised adaptive classification methods which
+learn from scratch and adapt over time. While such heuristics work well in
+practice, none of them can provide theoretical guarantees. Our objective is to
+modify an event-related potential (ERP) paradigm to work in unison with the
+machine learning decoder to achieve a reliable calibration-less decoding with a
+guarantee to recover the true class means.
+  Method: We introduce learning from label proportions (LLP) to the BCI
+community as a new unsupervised, and easy-to-implement classification approach
+for ERP-based BCIs. The LLP estimates the mean target and non-target responses
+based on known proportions of these two classes in different groups of the
+data. We modified a visual ERP speller to meet the requirements of the LLP. For
+evaluation, we ran simulations on artificially created data sets and conducted
+an online BCI study with N=13 subjects performing a copy-spelling task.
+  Results: Theoretical considerations show that LLP is guaranteed to minimize
+the loss function similarly to a corresponding supervised classifier. It
+performed well in simulations and in the online application, where 84.5% of
+characters were spelled correctly on average without prior calibration.
+  Significance: The continuously adapting LLP classifier is the first
+unsupervised decoder for ERP BCIs guaranteed to find the true class means. This
+makes it an ideal solution to avoid a tedious calibration and to tackle
+non-stationarities in the data. Additionally, LLP works on complementary
+principles compared to existing unsupervised methods, allowing for their
+further enhancement when combined with LLP.

@@ -1,0 +1,13 @@
+Tensor Decompositions via Two-Mode Higher-Order SVD (HOSVD)
+Tensor decompositions have rich applications in statistics and machine
+learning, and developing efficient, accurate algorithms for the problem has
+received much attention recently. Here, we present a new method built on
+Kruskal's uniqueness theorem to decompose symmetric, nearly orthogonally
+decomposable tensors. Unlike the classical higher-order singular value
+decomposition which unfolds a tensor along a single mode, we consider
+unfoldings along two modes and use rank-1 constraints to characterize the
+underlying components. This tensor decomposition method provably handles a
+greater level of noise compared to previous methods and achieves a high
+estimation accuracy. Numerical results demonstrate that our algorithm is robust
+to various noise distributions and that it performs especially favorably as the
+order increases.

@@ -1,0 +1,12 @@
+Estimation of matrix trace using machine learning
+We present a new trace estimator of the matrix whose explicit form is not
+given but its matrix multiplication to a vector is available. The form of the
+estimator is similar to the Hutchison stochastic trace estimator, but instead
+of the random noise vectors in Hutchison estimator, we use small number of
+probing vectors determined by machine learning. Evaluation of the quality of
+estimates and bias correction are discussed. An unbiased estimator is proposed
+for the calculation of the expectation value of a function of traces. In the
+numerical experiments with random matrices, it is shown that the precision of
+trace estimates with $\mathcal{O}(10)$ probing vectors determined by the
+machine learning is similar to that with $\mathcal{O}(10000)$ random noise
+vectors.

@@ -1,0 +1,15 @@
+Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit
+  Problems
+Multi-armed bandit problems are the most basic examples of sequential
+decision problems with an exploration-exploitation trade-off. This is the
+balance between staying with the option that gave highest payoffs in the past
+and exploring new options that might give higher payoffs in the future.
+Although the study of bandit problems dates back to the Thirties,
+exploration-exploitation trade-offs arise in several modern applications, such
+as ad placement, website optimization, and packet routing. Mathematically, a
+multi-armed bandit is defined by the payoff process associated with each
+option. In this survey, we focus on two extreme cases in which the analysis of
+regret is particularly simple and elegant: i.i.d. payoffs and adversarial
+payoffs. Besides the basic setting of finitely many actions, we also analyze
+some of the most important variants and extensions, such as the contextual
+bandit model.

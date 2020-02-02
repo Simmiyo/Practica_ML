@@ -1,0 +1,9 @@
+A Double Parametric Bootstrap Test for Topic Models
+Non-negative matrix factorization (NMF) is a technique for finding latent
+representations of data. The method has been applied to corpora to construct
+topic models. However, NMF has likelihood assumptions which are often violated
+by real document corpora. We present a double parametric bootstrap test for
+evaluating the fit of an NMF-based topic model based on the duality of the KL
+divergence and Poisson maximum likelihood estimation. The test correctly
+identifies whether a topic model based on an NMF approach yields reliable
+results in simulated and real data.

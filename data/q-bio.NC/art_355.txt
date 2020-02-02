@@ -1,0 +1,16 @@
+Higher Order Correlations within Cortical Layers Dominate Functional
+  Connectivity in Microcolumns
+We report on simultaneous recordings from cells in all layers of visual
+cortex and models developed to capture the higher order structure of population
+spiking activity. Specifically, we use Ising, Restricted Boltzmann Machine
+(RBM) and semi-Restricted Boltzmann Machine (sRBM) models to reveal laminar
+patterns of activity. While the Ising model describes only pairwise couplings,
+the RBM and sRBM capture higher-order dependencies using hidden units. Applied
+to 32- channel polytrode data recorded from cat visual cortex, the higher-order
+mod- els discover functional connectivity preferentially linking groups of
+cells within a cortical layer. Both RBM and sRBM models outperform Ising models
+in log- likelihood. Additionally, we train all three models on spatiotemporal
+sequences of states, exposing temporal structure and allowing us to predict
+spiking from network history. This demonstrates the importance of modeling
+higher order in- teractions across space and time when characterizing activity
+in cortical networks.

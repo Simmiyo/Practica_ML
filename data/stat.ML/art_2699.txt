@@ -1,0 +1,9 @@
+A Blockwise Descent Algorithm for Group-penalized Multiresponse and
+  Multinomial Regression
+In this paper we purpose a blockwise descent algorithm for group-penalized
+multiresponse regression. Using a quasi-newton framework we extend this to
+group-penalized multinomial regression. We give a publicly available
+implementation for these in R, and compare the speed of this algorithm to a
+competing algorithm --- we show that our implementation is an order of
+magnitude faster than its competitor, and can solve gene-expression-sized
+problems in real time.

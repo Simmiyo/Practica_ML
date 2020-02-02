@@ -1,0 +1,14 @@
+AWE-CM Vectors: Augmenting Word Embeddings with a Clinical Metathesaurus
+In recent years, word embeddings have been surprisingly effective at
+capturing intuitive characteristics of the words they represent. These vectors
+achieve the best results when training corpora are extremely large, sometimes
+billions of words. Clinical natural language processing datasets, however, tend
+to be much smaller. Even the largest publicly-available dataset of medical
+notes is three orders of magnitude smaller than the dataset of the oft-used
+"Google News" word vectors. In order to make up for limited training data
+sizes, we encode expert domain knowledge into our embeddings. Building on a
+previous extension of word2vec, we show that generalizing the notion of a
+word's "context" to include arbitrary features creates an avenue for encoding
+domain knowledge into word embeddings. We show that the word vectors produced
+by this method outperform their text-only counterparts across the board in
+correlation with clinical experts.

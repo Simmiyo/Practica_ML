@@ -1,0 +1,17 @@
+Scoup-SMT: Scalable Coupled Sparse Matrix-Tensor Factorization
+How can we correlate neural activity in the human brain as it responds to
+words, with behavioral data expressed as answers to questions about these same
+words? In short, we want to find latent variables, that explain both the brain
+activity, as well as the behavioral responses. We show that this is an instance
+of the Coupled Matrix-Tensor Factorization (CMTF) problem. We propose
+Scoup-SMT, a novel, fast, and parallel algorithm that solves the CMTF problem
+and produces a sparse latent low-rank subspace of the data. In our experiments,
+we find that Scoup-SMT is 50-100 times faster than a state-of-the-art algorithm
+for CMTF, along with a 5 fold increase in sparsity. Moreover, we extend
+Scoup-SMT to handle missing data without degradation of performance. We apply
+Scoup-SMT to BrainQ, a dataset consisting of a (nouns, brain voxels, human
+subjects) tensor and a (nouns, properties) matrix, with coupling along the
+nouns dimension. Scoup-SMT is able to find meaningful latent variables, as well
+as to predict brain activity with competitive accuracy. Finally, we demonstrate
+the generality of Scoup-SMT, by applying it on a Facebook dataset (users,
+friends, wall-postings); there, Scoup-SMT spots spammer-like anomalies.

@@ -1,0 +1,13 @@
+Analysis of Approximate Stochastic Gradient Using Quadratic Constraints
+  and Sequential Semidefinite Programs
+We present convergence rate analysis for the approximate stochastic gradient
+method, where individual gradient updates are corrupted by computation errors.
+We develop stochastic quadratic constraints to formulate a small linear matrix
+inequality (LMI) whose feasible set characterizes convergence properties of the
+approximate stochastic gradient. Based on this LMI condition, we develop a
+sequential minimization approach to analyze the intricate trade-offs that
+couple stepsize selection, convergence rate, optimization accuracy, and
+robustness to gradient inaccuracy. We also analytically solve this LMI
+condition and obtain theoretical formulas that quantify the convergence
+properties of the approximate stochastic gradient under various assumptions on
+the loss functions.

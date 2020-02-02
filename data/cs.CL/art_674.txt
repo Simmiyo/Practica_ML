@@ -1,0 +1,12 @@
+Local Feature or Mel Frequency Cepstral Coefficients - Which One is
+  Better for MLN-Based Bangla Speech Recognition?
+This paper discusses the dominancy of local features (LFs), as input to the
+multilayer neural network (MLN), extracted from a Bangla input speech over mel
+frequency cepstral coefficients (MFCCs). Here, LF-based method comprises three
+stages: (i) LF extraction from input speech, (ii) phoneme probabilities
+extraction using MLN from LF and (iii) the hidden Markov model (HMM) based
+classifier to obtain more accurate phoneme strings. In the experiments on
+Bangla speech corpus prepared by us, it is observed that the LFbased automatic
+speech recognition (ASR) system provides higher phoneme correct rate than the
+MFCC-based system. Moreover, the proposed system requires fewer mixture
+components in the HMMs.

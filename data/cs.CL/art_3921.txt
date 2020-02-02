@@ -1,0 +1,15 @@
+Improving Aspect Term Extraction with Bidirectional Dependency Tree
+  Representation
+Aspect term extraction is one of the important subtasks in aspect-based
+sentiment analysis. Previous studies have shown that using dependency tree
+structure representation is promising for this task. However, most dependency
+tree structures involve only one directional propagation on the dependency
+tree. In this paper, we first propose a novel bidirectional dependency tree
+network to extract dependency structure features from the given sentences. The
+key idea is to explicitly incorporate both representations gained separately
+from the bottom-up and top-down propagation on the given dependency syntactic
+tree. An end-to-end framework is then developed to integrate the embedded
+representations and BiLSTM plus CRF to learn both tree-structured and
+sequential features to solve the aspect term extraction problem. Experimental
+results demonstrate that the proposed model outperforms state-of-the-art
+baseline models on four benchmark SemEval datasets.

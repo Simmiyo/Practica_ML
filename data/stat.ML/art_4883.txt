@@ -1,0 +1,25 @@
+Distributed Supervised Learning using Neural Networks
+Distributed learning is the problem of inferring a function in the case where
+training data is distributed among multiple geographically separated sources.
+Particularly, the focus is on designing learning strategies with low
+computational requirements, in which communication is restricted only to
+neighboring agents, with no reliance on a centralized authority. In this
+thesis, we analyze multiple distributed protocols for a large number of neural
+network architectures. The first part of the thesis is devoted to a definition
+of the problem, followed by an extensive overview of the state-of-the-art.
+Next, we introduce different strategies for a relatively simple class of single
+layer neural networks, where a linear output layer is preceded by a nonlinear
+layer, whose weights are stochastically assigned in the beginning of the
+learning process. We consider both batch and sequential learning, with
+horizontally and vertically partitioned data. In the third part, we consider
+instead the more complex problem of semi-supervised distributed learning, where
+each agent is provided with an additional set of unlabeled training samples. We
+propose two different algorithms based on diffusion processes for linear
+support vector machines and kernel ridge regression. Subsequently, the fourth
+part extends the discussion to learning with time-varying data (e.g.
+time-series) using recurrent neural networks. We consider two different
+families of networks, namely echo state networks (extending the algorithms
+introduced in the second part), and spline adaptive filters. Overall, the
+algorithms presented throughout the thesis cover a wide range of possible
+practical applications, and lead the way to numerous future extensions, which
+are briefly summarized in the conclusive chapter.

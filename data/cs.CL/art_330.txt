@@ -1,0 +1,18 @@
+Morphological annotation of Korean with Directly Maintainable Resources
+This article describes an exclusively resource-based method of morphological
+annotation of written Korean text. Korean is an agglutinative language. Our
+annotator is designed to process text before the operation of a syntactic
+parser. In its present state, it annotates one-stem words only. The output is a
+graph of morphemes annotated with accurate linguistic information. The
+granularity of the tagset is 3 to 5 times higher than usual tagsets. A
+comparison with a reference annotated corpus showed that it achieves 89% recall
+without any corpus training. The language resources used by the system are
+lexicons of stems, transducers of suffixes and transducers of generation of
+allomorphs. All can be easily updated, which allows users to control the
+evolution of the performances of the system. It has been claimed that
+morphological annotation of Korean text could only be performed by a
+morphological analysis module accessing a lexicon of morphemes. We show that it
+can also be performed directly with a lexicon of words and without applying
+morphological rules at annotation time, which speeds up annotation to 1,210
+word/s. The lexicon of words is obtained from the maintainable language
+resources through a fully automated compilation process.

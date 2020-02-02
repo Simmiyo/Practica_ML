@@ -1,0 +1,24 @@
+Scalable Algorithms for Generating and Analyzing Structural Brain
+  Networks with a Varying Number of Nodes
+Diffusion Magnetic Resonance Imaging (MRI) exploits the anisotropic diffusion
+of water molecules in the brain to enable the estimation of the brain's
+anatomical fiber tracts at a relatively high resolution. In particular,
+tractographic methods can be used to generate whole-brain anatomical
+connectivity matrix where each element provides an estimate of the connectivity
+strength between the corresponding voxels. Structural brain networks are built
+using the connectivity information and a predefined brain parcellation, where
+the nodes of the network represent the brain regions and the edge weights
+capture the connectivity strengths between the corresponding brain regions.
+This paper introduces a number of novel scalable methods to generate and
+analyze structural brain networks with a varying number of nodes. In
+particular, we introduce a new parallel algorithm to quickly generate large
+scale connectivity-based parcellations for which voxels in a region possess
+highly similar connectivity patterns to the rest of the regions. We show that
+the corresponding regional structural consistency is always superior to
+randomly generated parcellations over a wide range of parcellation sizes.
+Corresponding brain networks with a varying number of nodes are analyzed using
+standard graph-theorectic measures, as well as, new measures derived from
+spectral graph theory. Our results indicate increasingly more statistical power
+of brain networks with larger numbers of nodes and the relatively unique shape
+of the spectral profile of large brain networks relative to other well-known
+networks.

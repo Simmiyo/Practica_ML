@@ -1,0 +1,16 @@
+Optimization for L1-Norm Error Fitting via Data Aggregation
+We propose a data aggregation-based algorithm with monotonic convergence to a
+global optimum for a generalized version of the L1-norm error fitting model
+with an assumption of the fitting function. The proposed algorithm generalizes
+the recent algorithm in the literature, aggregate and iterative disaggregate
+(AID), which selectively solves three specific L1-norm error fitting problems.
+With the proposed algorithm, any L1-norm error fitting model can be solved
+optimally if it follows the form of the L1-norm error fitting problem and if
+the fitting function satisfies the assumption. The proposed algorithm can also
+solve multi-dimensional fitting problems with arbitrary constraints on the
+fitting coefficients matrix. The generalized problem includes popular models
+such as regression and the orthogonal Procrustes problem. The results of the
+computational experiment show that the proposed algorithms are faster than the
+state-of-the-art benchmarks for L1-norm regression subset selection and L1-norm
+regression over a sphere. Further, the relative performance of the proposed
+algorithm improves as data size increases.

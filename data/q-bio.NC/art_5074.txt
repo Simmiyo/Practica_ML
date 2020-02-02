@@ -1,0 +1,15 @@
+On functions computed on trees
+Any function can be constructed using a hierarchy of simpler functions
+through compositions. Such a hierarchy can be characterized by a binary rooted
+tree. Each node of this tree is associated with a function which takes as
+inputs two numbers from its children and produces one output. Since thinking
+about functions in terms of computation graphs is getting popular we may want
+to know which functions can be implemented on a given tree. Here, we describe a
+set of necessary constraints in the form of a system of non-linear partial
+differential equations that must be satisfied. Moreover, we prove that these
+conditions are sufficient in both contexts of analytic and bit-valued
+functions. In the latter case, we explicitly enumerate discrete functions and
+observe that there are relatively few. Our point of view allows us to compare
+different neural network architectures in regard to their function spaces. Our
+work connects the structure of computation graphs with the functions they can
+implement and has potential applications to neuroscience and computer science.

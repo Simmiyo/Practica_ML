@@ -1,0 +1,23 @@
+Constrained Maximum Correntropy Adaptive Filtering
+Constrained adaptive filtering algorithms inculding constrained least mean
+square (CLMS), constrained affine projection (CAP) and constrained recursive
+least squares (CRLS) have been extensively studied in many applications. Most
+existing constrained adaptive filtering algorithms are developed under mean
+square error (MSE) criterion, which is an ideal optimality criterion under
+Gaussian noises. This assumption however fails to model the behavior of
+non-Gaussian noises found in practice. Motivated by the robustness and
+simplicity of maximum correntropy criterion (MCC) in non-Gaussian impulsive
+noises, this paper proposes a new adaptive filtering algorithm called
+constrained maximum correntropy criterion (CMCC). Specifically, CMCC
+incorporates a linear constraint into a MCC filter to solve a constrained
+optimization problem explicitly. The proposed adaptive filtering algorithm is
+easy to implement and has low computational complexity, and in terms of
+convergence accuracy (say lower mean square deviation) and stability, can
+significantly outperform those MSE based constrained adaptive algorithms in
+presence of heavy-tailed impulsive noises. Additionally, the mean square
+convergence behaviors are studied under energy conservation relation, and a
+sufficient condition to ensure the mean square convergence and the steady-state
+mean square deviation (MSD) of the proposed algorithm are obtained. Simulation
+results confirm the theoretical predictions under both Gaussian and non-
+Gaussian noises, and demonstrate the excellent performance of the novel
+algorithm by comparing it with other conventional methods.

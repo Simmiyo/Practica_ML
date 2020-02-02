@@ -1,0 +1,12 @@
+Low-Rank Dynamic Mode Decomposition: Optimal Solution in Polynomial-Time
+This work studies the linear approximation of high-dimensional dynamical
+systems using low-rank dynamic mode decomposition (DMD). Searching this
+approximation in a data-driven approach can be formalised as attempting to
+solve a low-rank constrained optimisation problem. This problem is non-convex
+and state-of-the-art algorithms are all sub-optimal. This paper shows that
+there exists a closed-form solution, which can be computed in polynomial-time,
+and characterises the $\ell_2$-norm of the optimal approximation error. The
+theoretical results serve to design low-complexity algorithms building reduced
+models from the optimal solution, based on singular value decomposition or
+low-rank DMD. The algorithms are evaluated by numerical simulations using
+synthetic and physical data benchmarks.

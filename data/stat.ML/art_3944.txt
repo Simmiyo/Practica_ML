@@ -1,0 +1,13 @@
+Markov Chain Truncation for Doubly-Intractable Inference
+Computing partition functions, the normalizing constants of probability
+distributions, is often hard. Variants of importance sampling give unbiased
+estimates of a normalizer Z, however, unbiased estimates of the reciprocal 1/Z
+are harder to obtain. Unbiased estimates of 1/Z allow Markov chain Monte Carlo
+sampling of "doubly-intractable" distributions, such as the parameter posterior
+for Markov Random Fields or Exponential Random Graphs. We demonstrate how to
+construct unbiased estimates for 1/Z given access to black-box importance
+sampling estimators for Z. We adapt recent work on random series truncation and
+Markov chain coupling, producing estimators with lower variance and a higher
+percentage of positive estimates than before. Our debiasing algorithms are
+simple to implement, and have some theoretical and empirical advantages over
+existing methods.

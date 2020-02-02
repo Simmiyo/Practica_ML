@@ -1,0 +1,11 @@
+Identifying Higher-order Combinations of Binary Features
+Finding statistically significant interactions between binary variables is
+computationally and statistically challenging in high-dimensional settings, due
+to the combinatorial explosion in the number of hypotheses. Terada et al.
+recently showed how to elegantly address this multiple testing problem by
+excluding non-testable hypotheses. Still, it remains unclear how their approach
+scales to large datasets.
+  We here proposed strategies to speed up the approach by Terada et al. and
+evaluate them thoroughly in 11 real-world benchmark datasets. We observe that
+one approach, incremental search with early stopping, is orders of magnitude
+faster than the current state-of-the-art approach.

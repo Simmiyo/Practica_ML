@@ -1,0 +1,17 @@
+A Greedy, Flexible Algorithm to Learn an Optimal Bayesian Network
+  Structure
+In this report paper we first present a report of the Advanced Machine
+Learning Course Project on the provided data set and then present a novel
+heuristic algorithm for exact Bayesian network (BN) structure discovery that
+uses decomposable scoring functions. Our algorithm follows a different approach
+to solve the problem of BN structure discovery than the previously used methods
+such as Dynamic Programming (DP) and Branch and Bound to reduce the search
+space and find the global optima space for the problem. The algorithm we
+propose has some degree of flexibility that can make it more or less greedy.
+The more the algorithm is set to be greedy, the more the speed of the algorithm
+will be, and the less optimal the final structure. Our algorithm runs in a much
+less time than the previously known methods and guarantees to have an
+optimality of close to 99%. Therefore, it sacrifices less than one percent of
+score of an optimal structure in order to gain a much lower running time and
+make the algorithm feasible for large data sets (we may note that we never used
+any toolbox except for result validation)

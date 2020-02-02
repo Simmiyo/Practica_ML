@@ -1,0 +1,20 @@
+Accuracy of Latent-Variable Estimation in Bayesian Semi-Supervised
+  Learning
+Hierarchical probabilistic models, such as Gaussian mixture models, are
+widely used for unsupervised learning tasks. These models consist of observable
+and latent variables, which represent the observable data and the underlying
+data-generation process, respectively. Unsupervised learning tasks, such as
+cluster analysis, are regarded as estimations of latent variables based on the
+observable ones. The estimation of latent variables in semi-supervised
+learning, where some labels are observed, will be more precise than that in
+unsupervised, and one of the concerns is to clarify the effect of the labeled
+data. However, there has not been sufficient theoretical analysis of the
+accuracy of the estimation of latent variables. In a previous study, a
+distribution-based error function was formulated, and its asymptotic form was
+calculated for unsupervised learning with generative models. It has been shown
+that, for the estimation of latent variables, the Bayes method is more accurate
+than the maximum-likelihood method. The present paper reveals the asymptotic
+forms of the error function in Bayesian semi-supervised learning for both
+discriminative and generative models. The results show that the generative
+model, which uses all of the given data, performs better when the model is well
+specified.

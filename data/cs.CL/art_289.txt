@@ -1,0 +1,10 @@
+Inside-Outside Estimation Meets Dynamic EM
+We briefly review the inside-outside and EM algorithm for probabilistic
+context-free grammars. As a result, we formally prove that inside-outside
+estimation is a dynamic-programming variant of EM. This is interesting in its
+own right, but even more when considered in a theoretical context since the
+well-known convergence behavior of inside-outside estimation has been confirmed
+by many experiments but apparently has never been formally proved. However,
+being a version of EM, inside-outside estimation also inherits the good
+convergence behavior of EM. Therefore, the as yet imperfect line of
+argumentation can be transformed into a coherent proof.

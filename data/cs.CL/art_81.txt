@@ -1,0 +1,16 @@
+On the Scalability of the Answer Extraction System "ExtrAns"
+This paper reports on the scalability of the answer extraction system
+ExtrAns. An answer extraction system locates the exact phrases in the documents
+that contain the explicit answers to the user queries. Answer extraction
+systems are therefore more convenient than document retrieval systems in
+situations where the user wants to find specific information in limited time.
+  ExtrAns performs answer extraction over UNIX manpages. It has been
+constructed by combining available linguistic resources and implementing only a
+few modules from scratch. A resolution procedure between the minimal logical
+form of the user query and the minimal logical forms of the manpage sentences
+finds the answers to the queries. These answers are displayed to the user,
+together with pointers to the respective manpages, and the exact phrases that
+contribute to the answer are highlighted.
+  This paper shows that the increase in response times is not a big issue when
+scaling the system up from 30 to 500 documents, and that the response times for
+500 documents are still acceptable for a real-time answer extraction system.

@@ -1,0 +1,11 @@
+Reducing Bias in Production Speech Models
+Replacing hand-engineered pipelines with end-to-end deep learning systems has
+enabled strong results in applications like speech and object recognition.
+However, the causality and latency constraints of production systems put
+end-to-end speech models back into the underfitting regime and expose biases in
+the model that we show cannot be overcome by "scaling up", i.e., training
+bigger models on more data. In this work we systematically identify and address
+sources of bias, reducing error rates by up to 20% while remaining practical
+for deployment. We achieve this by utilizing improved neural architectures for
+streaming inference, solving optimization issues, and employing strategies that
+increase audio and label modelling versatility.

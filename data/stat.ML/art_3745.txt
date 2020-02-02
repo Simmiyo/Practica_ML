@@ -1,0 +1,19 @@
+DeepCare: A Deep Dynamic Memory Model for Predictive Medicine
+Personalized predictive medicine necessitates the modeling of patient illness
+and care processes, which inherently have long-term temporal dependencies.
+Healthcare observations, recorded in electronic medical records, are episodic
+and irregular in time. We introduce DeepCare, an end-to-end deep dynamic neural
+network that reads medical records, stores previous illness history, infers
+current illness states and predicts future medical outcomes. At the data level,
+DeepCare represents care episodes as vectors in space, models patient health
+state trajectories through explicit memory of historical records. Built on Long
+Short-Term Memory (LSTM), DeepCare introduces time parameterizations to handle
+irregular timed events by moderating the forgetting and consolidation of memory
+cells. DeepCare also incorporates medical interventions that change the course
+of illness and shape future medical risk. Moving up to the health state level,
+historical and present health states are then aggregated through multiscale
+temporal pooling, before passing through a neural network that estimates future
+outcomes. We demonstrate the efficacy of DeepCare for disease progression
+modeling, intervention recommendation, and future risk prediction. On two
+important cohorts with heavy social and economic burden -- diabetes and mental
+health -- the results show improved modeling and risk prediction accuracy.

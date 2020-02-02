@@ -1,0 +1,27 @@
+A self-organizing state-space-model approach for parameter estimation in
+  Hodgkin-Huxley-type models of single neurons
+Traditionally, parameter estimation in biophysical neuron and neural network
+models usually adopts a global search algorithm, often combined with a local
+search method in order to minimize the value of a cost function, which measures
+the discrepancy between various features of the available experimental data and
+model output. In this study, we approach the problem of parameter estimation in
+conductance-based models of single neurons from a different perspective. By
+adopting a hidden-dynamical-systems formalism, we expressed parameter
+estimation as an inference problem in these systems, which can then be tackled
+using well-established statistical inference methods. The particular method we
+used was Kitagawa's self-organizing state-space model, which was applied on a
+number of Hodgkin-Huxley models using simulated or actual electrophysiological
+data. We showed that the algorithm can be used to estimate a large number of
+parameters, including maximal conductances, reversal potentials, kinetics of
+ionic currents and measurement noise, based on low-dimensional experimental
+data and sufficiently informative priors in the form of pre-defined constraints
+imposed on model parameters. The algorithm remained operational even when very
+noisy experimental data were used. Importantly, by combining the
+self-organizing state-space model with an adaptive sampling algorithm akin to
+the Covariance Matrix Adaptation Evolution Strategy we achieved a significant
+reduction in the variance of parameter estimates. The algorithm did not require
+the explicit formulation of a cost function and it was straightforward to apply
+on compartmental models and multiple data sets. Overall, the proposed
+methodology is particularly suitable for resolving high-dimensional inference
+problems based on noisy electrophysiological data and, therefore, a potentially
+useful tool in the construction of biophysical neuron models.

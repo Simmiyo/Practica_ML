@@ -1,0 +1,14 @@
+A Finite State and Rule-based Akshara to Prosodeme (A2P) Converter in
+  Hindi
+This article describes a software module called Akshara to Prosodeme (A2P)
+converter in Hindi. It converts an input grapheme into prosedeme (sequence of
+phonemes with the specification of syllable boundaries and prosodic labels).
+The software is based on two proposed finite state machines\textemdash one for
+the syllabification and another for the syllable labeling. In addition to that,
+it also uses a set of nonlinear phonological rules proposed for foot formation
+in Hindi, which encompass solutions to schwa-deletion in simple, compound,
+derived and inflected words. The nonlinear phonological rules are based on
+metrical phonology with the provision of recursive foot structure. A software
+module is implemented in Python. The testing of the software for
+syllabification, syllable labeling, schwa deletion and prosodic labeling yield
+an accuracy of more than 99% on a lexicon of size 28664 words.

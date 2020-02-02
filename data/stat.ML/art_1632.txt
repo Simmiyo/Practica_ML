@@ -1,0 +1,12 @@
+Sparse Canonical Correlation Analysis
+We present a novel method for solving Canonical Correlation Analysis (CCA) in
+a sparse convex framework using a least squares approach. The presented method
+focuses on the scenario when one is interested in (or limited to) a primal
+representation for the first view while having a dual representation for the
+second view. Sparse CCA (SCCA) minimises the number of features used in both
+the primal and dual projections while maximising the correlation between the
+two views. The method is demonstrated on two paired corpuses of English-French
+and English-Spanish for mate-retrieval. We are able to observe, in the
+mate-retreival, that when the number of the original features is large SCCA
+outperforms Kernel CCA (KCCA), learning the common semantic space from a sparse
+set of features.

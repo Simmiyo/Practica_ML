@@ -1,0 +1,10 @@
+Categorizing Comparative Sentences
+We tackle the tasks of automatically identifying comparative sentences and
+categorizing the intended preference (e.g., "Python has better NLP libraries
+than MATLAB" => (Python, better, MATLAB). To this end, we manually annotate
+7,199 sentences for 217 distinct target item pairs from several domains (27% of
+the sentences contain an oriented comparison in the sense of "better" or
+"worse"). A gradient boosting model based on pre-trained sentence embeddings
+reaches an F1 score of 85% in our experimental evaluation. The model can be
+used to extract comparative sentences for pro/con argumentation in comparative
+/ argument search engines or debating technologies.

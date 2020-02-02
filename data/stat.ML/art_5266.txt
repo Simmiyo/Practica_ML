@@ -1,0 +1,14 @@
+Generative Mixture of Networks
+A generative model based on training deep architectures is proposed. The
+model consists of K networks that are trained together to learn the underlying
+distribution of a given data set. The process starts with dividing the input
+data into K clusters and feeding each of them into a separate network. After
+few iterations of training networks separately, we use an EM-like algorithm to
+train the networks together and update the clusters of the data. We call this
+model Mixture of Networks. The provided model is a platform that can be used
+for any deep structure and be trained by any conventional objective function
+for distribution modeling. As the components of the model are neural networks,
+it has high capability in characterizing complicated data distributions as well
+as clustering data. We apply the algorithm on MNIST hand-written digits and
+Yale face datasets. We also demonstrate the clustering ability of the model
+using some real-world and toy examples.

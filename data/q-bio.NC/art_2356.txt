@@ -1,0 +1,21 @@
+Large-Scale Automatic Reconstruction of Neuronal Processes from Electron
+  Microscopy Images
+Automated sample preparation and electron microscopy enables acquisition of
+very large image data sets. These technical advances are of special importance
+to the field of neuroanatomy, as 3D reconstructions of neuronal processes at
+the nm scale can provide new insight into the fine grained structure of the
+brain. Segmentation of large-scale electron microscopy data is the main
+bottleneck in the analysis of these data sets. In this paper we present a
+pipeline that provides state-of-the art reconstruction performance while
+scaling to data sets in the GB-TB range. First, we train a random forest
+classifier on interactive sparse user annotations. The classifier output is
+combined with an anisotropic smoothing prior in a Conditional Random Field
+framework to generate multiple segmentation hypotheses per image. These
+segmentations are then combined into geometrically consistent 3D objects by
+segmentation fusion. We provide qualitative and quantitative evaluation of the
+automatic segmentation and demonstrate large-scale 3D reconstructions of
+neuronal processes from a $\mathbf{27,000}$ $\mathbf{\mu m^3}$ volume of brain
+tissue over a cube of $\mathbf{30 \; \mu m}$ in each dimension corresponding to
+1000 consecutive image sections. We also introduce Mojo, a proofreading tool
+including semi-automated correction of merge errors based on sparse user
+scribbles.

@@ -1,0 +1,27 @@
+Pairwise maximum-entropy models and their Glauber dynamics: bimodality,
+  bistability, non-ergodicity problems, and their elimination via inhibition
+Pairwise maximum-entropy models have been used in recent neuroscientific
+literature to predict the activity of neuronal populations, given only the
+time-averaged correlations of the neuron activities. This paper provides
+evidence that the pairwise model, applied to experimental recordings, predicts
+a bimodal distribution for the population-averaged activity, and for some
+population sizes the second mode peaks at high activities, with 90% of the
+neuron population active within time-windows of few milliseconds. This
+bimodality has several undesirable consequences: 1. The presence of two modes
+is unrealistic in view of observed neuronal activity. 2. The prediction of a
+high-activity mode is unrealistic on neurobiological grounds. 3. Boltzmann
+learning becomes non-ergodic, hence the pairwise model found by this method is
+not the maximum entropy distribution; similarly, solving the inverse problem by
+common variants of mean-field approximations has the same problem. 4. The
+Glauber dynamics associated with the model is either unrealistically bistable,
+or does not reflect the distribution of the pairwise model. This bimodality is
+first demonstrated for an experimental dataset comprising 159 neuron activities
+recorded from the motor cortex of macaque monkey. Using a reduced
+maximum-entropy model, evidence is then provided that this bimodality affects
+typical neural recordings of population sizes of a couple of hundreds or more
+neurons. As a way to eliminate the bimodality and its ensuing problems, a
+modified pairwise model is presented, which -- most important -- has an
+associated pairwise Glauber dynamics. This model avoids bimodality thanks to a
+minimal asymmetric inhibition. It can be interpreted as a
+minimum-relative-entropy model with a particular prior, or as a maximum-entropy
+model with an additional constraint.

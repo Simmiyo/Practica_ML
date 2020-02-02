@@ -1,0 +1,12 @@
+MorphNet: A sequence-to-sequence model that combines morphological
+  analysis and disambiguation
+We introduce MorphNet, a single model that combines morphological analysis
+and disambiguation. Traditionally, analysis of morphologically complex
+languages has been performed in two stages: (i) A morphological analyzer based
+on finite-state transducers produces all possible morphological analyses of a
+word, (ii) A statistical disambiguation model picks the correct analysis based
+on the context for each word. MorphNet uses a sequence-to-sequence recurrent
+neural network to combine analysis and disambiguation. We show that when
+trained with text labeled with correct morphological analyses, MorphNet obtains
+state-of-the art or comparable results for nine different datasets in seven
+different languages.

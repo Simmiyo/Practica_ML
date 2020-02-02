@@ -1,0 +1,10 @@
+Probabilistic implementation of universal quantum processors
+We present a probabilistic quantum processor for qudits. The processor itself
+is represented by a fixed array of gates. The input of the processor consists
+of two registers. In the program register the set of instructions (program) is
+encoded. This program is applied to the data register. The processor can
+perform any operation on a single qudit of the dimension N with a certain
+probability. If the operation is unitary, the probability is in general 1/N^2,
+but for more restricted sets of operators the probability can be higher. In
+fact, this probability can be independent of the dimension of the qudit Hilbert
+space of the qudit under some conditions.

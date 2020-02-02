@@ -1,0 +1,17 @@
+What causes a neuron to spike?
+The computation performed by a neuron can be formulated as a combination of
+dimensional reduction in stimulus space and the nonlinearity inherent in a
+spiking output. White noise stimulus and reverse correlation (the
+spike-triggered average and spike-triggered covariance) are often used in
+experimental neuroscience to `ask' neurons which dimensions in stimulus space
+they are sensitive to, and to characterize the nonlinearity of the response. In
+this paper, we apply reverse correlation to the simplest model neuron with
+temporal dynamics--the leaky integrate-and-fire model--and find that even for
+this simple case standard techniques do not recover the known neural
+computation. To overcome this, we develop novel reverse correlation techniques
+by selectively analyzing only `isolated' spikes, and taking explicit account of
+the extended silences that precede these isolated spikes. We discuss the
+implications of our methods to the characterization of neural adaptation.
+Although these methods are developed in the context of the leaky
+integrate-and-fire model, our findings are relevant for the analysis of spike
+trains from real neurons.

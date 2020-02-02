@@ -1,0 +1,21 @@
+A computational theory for the classification of natural biosonar
+  targets based on a spike code
+A computational theory for classification of natural biosonar targets is
+developed based on the properties of an example stimulus ensemble. An extensive
+set of echoes (84 800) from four different foliages was transcribed into a
+spike code using a parsimonious model (linear filtering, half-wave
+rectification, thresholding). The spike code is assumed to consist of time
+differences (interspike intervals) between threshold crossings. Among the
+elementary interspike intervals flanked by exceedances of adjacent thresholds,
+a few intervals triggered by disjoint half-cycles of the carrier oscillation
+stand out in terms of resolvability, visibility across resolution scales and a
+simple stochastic structure (uncorrelatedness). They are therefore argued to be
+a stochastic analogue to edges in vision. A three-dimensional feature vector
+representing these interspike intervals sustained a reliable target
+classification performance (0.06% classification error) in a sequential
+probability ratio test, which models sequential processing of echo trains by
+biological sonar systems. The dimensions of the representation are the first
+moments of duration and amplitude location of these interspike intervals as
+well as their number. All three quantities are readily reconciled with known
+principles of neural signal representation, since they correspond to the center
+of gravity of excitation on a neural map and the total amount of excitation.

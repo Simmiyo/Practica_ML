@@ -1,0 +1,16 @@
+Contrastive Entropy: A new evaluation metric for unnormalized language
+  models
+Perplexity (per word) is the most widely used metric for evaluating language
+models. Despite this, there has been no dearth of criticism for this metric.
+Most of these criticisms center around lack of correlation with extrinsic
+metrics like word error rate (WER), dependence upon shared vocabulary for model
+comparison and unsuitability for unnormalized language model evaluation. In
+this paper, we address the last problem and propose a new discriminative
+entropy based intrinsic metric that works for both traditional word level
+models and unnormalized language models like sentence level models. We also
+propose a discriminatively trained sentence level interpretation of recurrent
+neural network based language model (RNN) as an example of unnormalized
+sentence level model. We demonstrate that for word level models, contrastive
+entropy shows a strong correlation with perplexity. We also observe that when
+trained at lower distortion levels, sentence level RNN considerably outperforms
+traditional RNNs on this new metric.

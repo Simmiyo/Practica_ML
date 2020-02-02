@@ -1,0 +1,19 @@
+The 2015 Sheffield System for Transcription of Multi-Genre Broadcast
+  Media
+We describe the University of Sheffield system for participation in the 2015
+Multi-Genre Broadcast (MGB) challenge task of transcribing multi-genre
+broadcast shows. Transcription was one of four tasks proposed in the MGB
+challenge, with the aim of advancing the state of the art of automatic speech
+recognition, speaker diarisation and automatic alignment of subtitles for
+broadcast media. Four topics are investigated in this work: Data selection
+techniques for training with unreliable data, automatic speech segmentation of
+broadcast media shows, acoustic modelling and adaptation in highly variable
+environments, and language modelling of multi-genre shows. The final system
+operates in multiple passes, using an initial unadapted decoding stage to
+refine segmentation, followed by three adapted passes: a hybrid DNN pass with
+input features normalised by speaker-based cepstral normalisation, another
+hybrid stage with input features normalised by speaker feature-MLLR
+transformations, and finally a bottleneck-based tandem stage with noise and
+speaker factorisation. The combination of these three system outputs provides a
+final error rate of 27.5% on the official development set, consisting of 47
+multi-genre shows.

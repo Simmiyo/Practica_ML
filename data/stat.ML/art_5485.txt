@@ -1,0 +1,10 @@
+Learning Approximately Objective Priors
+Informative Bayesian priors are often difficult to elicit, and when this is
+the case, modelers usually turn to noninformative or objective priors. However,
+objective priors such as the Jeffreys and reference priors are not tractable to
+derive for many models of interest. We address this issue by proposing
+techniques for learning reference prior approximations: we select a parametric
+family and optimize a black-box lower bound on the reference prior objective to
+find the member of the family that serves as a good approximation. We
+experimentally demonstrate the method's effectiveness by recovering Jeffreys
+priors and learning the Variational Autoencoder's reference prior.

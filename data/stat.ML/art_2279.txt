@@ -1,0 +1,23 @@
+Latent Composite Likelihood Learning for the Structured Canonical
+  Correlation Model
+Latent variable models are used to estimate variables of interest quantities
+which are observable only up to some measurement error. In many studies, such
+variables are known but not precisely quantifiable (such as "job satisfaction"
+in social sciences and marketing, "analytical ability" in educational testing,
+or "inflation" in economics). This leads to the development of measurement
+instruments to record noisy indirect evidence for such unobserved variables
+such as surveys, tests and price indexes. In such problems, there are
+postulated latent variables and a given measurement model. At the same time,
+other unantecipated latent variables can add further unmeasured confounding to
+the observed variables. The problem is how to deal with unantecipated latents
+variables. In this paper, we provide a method loosely inspired by canonical
+correlation that makes use of background information concerning the "known"
+latent variables. Given a partially specified structure, it provides a
+structure learning approach to detect "unknown unknowns," the confounding
+effect of potentially infinitely many other latent variables. This is done
+without explicitly modeling such extra latent factors. Because of the special
+structure of the problem, we are able to exploit a new variation of composite
+likelihood fitting to efficiently learn this structure. Validation is provided
+with experiments in synthetic data and the analysis of a large survey done with
+a sample of over 100,000 staff members of the National Health Service of the
+United Kingdom.

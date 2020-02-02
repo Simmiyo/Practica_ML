@@ -1,0 +1,19 @@
+On Learning from Label Proportions
+Learning from Label Proportions (LLP) is a learning setting, where the
+training data is provided in groups, or "bags", and only the proportion of each
+class in each bag is known. The task is to learn a model to predict the class
+labels of the individual instances. LLP has broad applications in political
+science, marketing, healthcare, and computer vision. This work answers the
+fundamental question, when and why LLP is possible, by introducing a general
+framework, Empirical Proportion Risk Minimization (EPRM). EPRM learns an
+instance label classifier to match the given label proportions on the training
+data. Our result is based on a two-step analysis. First, we provide a VC bound
+on the generalization error of the bag proportions. We show that the bag sample
+complexity is only mildly sensitive to the bag size. Second, we show that under
+some mild assumptions, good bag proportion prediction guarantees good instance
+label prediction. The results together provide a formal guarantee that the
+individual labels can indeed be learned in the LLP setting. We discuss
+applications of the analysis, including justification of LLP algorithms,
+learning with population proportions, and a paradigm for learning algorithms
+with privacy guarantees. We also demonstrate the feasibility of LLP based on a
+case study in real-world setting: predicting income based on census data.

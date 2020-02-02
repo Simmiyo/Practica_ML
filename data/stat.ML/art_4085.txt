@@ -1,0 +1,13 @@
+Structured Prediction by Conditional Risk Minimization
+We propose a general approach for supervised learning with structured output
+spaces, such as combinatorial and polyhedral sets, that is based on minimizing
+estimated conditional risk functions. Given a loss function defined over pairs
+of output labels, we first estimate the conditional risk function by solving a
+(possibly infinite) collection of regularized least squares problems. A
+prediction is made by solving an inference problem that minimizes the estimated
+conditional risk function over the output space. We show that this approach
+enables, in some cases, efficient training and inference without explicitly
+introducing a convex surrogate for the original loss function, even when it is
+discontinuous. Empirical evaluations on real-world and synthetic data sets
+demonstrate the effectiveness of our method in adapting to a variety of loss
+functions.

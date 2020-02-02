@@ -1,0 +1,19 @@
+A structured matrix factorization framework for large scale calcium
+  imaging data analysis
+We present a structured matrix factorization approach to analyzing calcium
+imaging recordings of large neuronal ensembles. Our goal is to simultaneously
+identify the locations of the neurons, demix spatially overlapping components,
+and denoise and deconvolve the spiking activity of each neuron from the slow
+dynamics of the calcium indicator. The matrix factorization approach relies on
+the observation that the spatiotemporal fluorescence activity can be expressed
+as a product of two matrices: a spatial matrix that encodes the location of
+each neuron in the optical field and a temporal matrix that characterizes the
+calcium concentration of each neuron over time. We present a simple approach
+for estimating the dynamics of the calcium indicator as well as the observation
+noise statistics from the observed data. These parameters are then used to set
+up the matrix factorization problem in a constrained form that requires no
+further parameter tuning. We discuss initialization and post-processing
+techniques that enhance the performance of our method, along with efficient and
+largely parallelizable algorithms. We apply our method to {\it in vivo} large
+scale multi-neuronal imaging data and also demonstrate how similar methods can
+be used for the analysis of {\it in vivo} dendritic imaging data.

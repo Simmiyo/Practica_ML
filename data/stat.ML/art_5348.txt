@@ -1,0 +1,18 @@
+Lipschitz Optimisation for Lipschitz Interpolation
+Techniques known as Nonlinear Set Membership prediction, Kinky Inference or
+Lipschitz Interpolation are fast and numerically robust approaches to
+nonparametric machine learning that have been proposed to be utilised in the
+context of system identification and learning-based control. They utilise
+presupposed Lipschitz properties in order to compute inferences over unobserved
+function values. Unfortunately, most of these approaches rely on exact
+knowledge about the input space metric as well as about the Lipschitz constant.
+Furthermore, existing techniques to estimate the Lipschitz constants from the
+data are not robust to noise or seem to be ad-hoc and typically are decoupled
+from the ultimate learning and prediction task. To overcome these limitations,
+we propose an approach for optimising parameters of the presupposed metrics by
+minimising validation set prediction errors. To avoid poor performance due to
+local minima, we propose to utilise Lipschitz properties of the optimisation
+objective to ensure global optimisation success. The resulting approach is a
+new flexible method for nonparametric black-box learning. We provide
+experimental evidence of the competitiveness of our approach on artificial as
+well as on real data.

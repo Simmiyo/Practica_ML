@@ -1,0 +1,11 @@
+Local Nonstationarity for Efficient Bayesian Optimization
+Bayesian optimization has shown to be a fundamental global optimization
+algorithm in many applications: ranging from automatic machine learning,
+robotics, reinforcement learning, experimental design, simulations, etc. The
+most popular and effective Bayesian optimization relies on a surrogate model in
+the form of a Gaussian process due to its flexibility to represent a prior over
+function. However, many algorithms and setups relies on the stationarity
+assumption of the Gaussian process. In this paper, we present a novel
+nonstationary strategy for Bayesian optimization that is able to outperform the
+state of the art in Bayesian optimization both in stationary and nonstationary
+problems.

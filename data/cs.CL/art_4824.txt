@@ -1,0 +1,20 @@
+Phonology-Augmented Statistical Framework for Machine Transliteration
+  using Limited Linguistic Resources
+Transliteration converts words in a source language (e.g., English) into
+words in a target language (e.g., Vietnamese). This conversion considers the
+phonological structure of the target language, as the transliterated output
+needs to be pronounceable in the target language. For example, a word in
+Vietnamese that begins with a consonant cluster is phonologically invalid and
+thus would be an incorrect output of a transliteration system. Most statistical
+transliteration approaches, albeit being widely adopted, do not explicitly
+model the target language's phonology, which often results in invalid outputs.
+The problem is compounded by the limited linguistic resources available when
+converting foreign words to transliterated words in the target language. In
+this work, we present a phonology-augmented statistical framework suitable for
+transliteration, especially when only limited linguistic resources are
+available. We propose the concept of pseudo-syllables as structures
+representing how segments of a foreign word are organized according to the
+syllables of the target language's phonology. We performed transliteration
+experiments on Vietnamese and Cantonese. We show that the proposed framework
+outperforms the statistical baseline by up to 44.68% relative, when there are
+limited training examples (587 entries).

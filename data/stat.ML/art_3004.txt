@@ -1,0 +1,16 @@
+Multivariate Comparison of Classification Algorithms
+Statistical tests that compare classification algorithms are univariate and
+use a single performance measure, e.g., misclassification error, $F$ measure,
+AUC, and so on. In multivariate tests, comparison is done using multiple
+measures simultaneously. For example, error is the sum of false positives and
+false negatives and a univariate test on error cannot make a distinction
+between these two sources, but a 2-variate test can. Similarly, instead of
+combining precision and recall in $F$ measure, we can have a 2-variate test on
+(precision, recall). We use Hotelling's multivariate $T^2$ test for comparing
+two algorithms, and when we have three or more algorithms we use the
+multivariate analysis of variance (MANOVA) followed by pairwise post hoc tests.
+In our experiments, we see that multivariate tests have higher power than
+univariate tests, that is, they can detect differences that univariate tests
+cannot. We also discuss how multivariate analysis allows us to automatically
+extract performance measures that best distinguish the behavior of multiple
+algorithms.

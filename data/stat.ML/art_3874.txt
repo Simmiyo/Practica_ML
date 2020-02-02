@@ -1,0 +1,15 @@
+Joint Stochastic Approximation learning of Helmholtz Machines
+Though with progress, model learning and performing posterior inference still
+remains a common challenge for using deep generative models, especially for
+handling discrete hidden variables. This paper is mainly concerned with
+algorithms for learning Helmholz machines, which is characterized by pairing
+the generative model with an auxiliary inference model. A common drawback of
+previous learning algorithms is that they indirectly optimize some bounds of
+the targeted marginal log-likelihood. In contrast, we successfully develop a
+new class of algorithms, based on stochastic approximation (SA) theory of the
+Robbins-Monro type, to directly optimize the marginal log-likelihood and
+simultaneously minimize the inclusive KL-divergence. The resulting learning
+algorithm is thus called joint SA (JSA). Moreover, we construct an effective
+MCMC operator for JSA. Our results on the MNIST datasets demonstrate that the
+JSA's performance is consistently superior to that of competing algorithms like
+RWS, for learning a range of difficult models.

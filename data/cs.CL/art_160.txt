@@ -1,0 +1,22 @@
+Microplanning with Communicative Intentions: The SPUD System
+The process of microplanning encompasses a range of problems in Natural
+Language Generation (NLG), such as referring expression generation, lexical
+choice, and aggregation, problems in which a generator must bridge underlying
+domain-specific representations and general linguistic representations. In this
+paper, we describe a uniform approach to microplanning based on declarative
+representations of a generator's communicative intent. These representations
+describe the results of NLG: communicative intent associates the concrete
+linguistic structure planned by the generator with inferences that show how the
+meaning of that structure communicates needed information about some
+application domain in the current discourse context. Our approach, implemented
+in the SPUD (sentence planning using description) microplanner, uses the
+lexicalized tree-adjoining grammar formalism (LTAG) to connect structure to
+meaning and uses modal logic programming to connect meaning to context. At the
+same time, communicative intent representations provide a resource for the
+process of NLG. Using representations of communicative intent, a generator can
+augment the syntax, semantics and pragmatics of an incomplete sentence
+simultaneously, and can assess its progress on the various problems of
+microplanning incrementally. The declarative formulation of communicative
+intent translates into a well-defined methodology for designing grammatical and
+conceptual resources which the generator can use to achieve desired
+microplanning behavior in a specified domain.

@@ -1,0 +1,26 @@
+StimDust: A mm-scale implantable wireless precision neural stimulator
+  with ultrasonic power and communication
+Neural stimulation is a powerful technique for modulating physiological
+functions and for writing information into the nervous system as part of
+brain-machine interfaces. Current clinically approved neural stimulators
+require batteries and are many cubic centimeters in size -- typically much
+larger than their intended targets. We present a complete wireless neural
+stimulation system consisting of a 1.7 mm^3 wireless, batteryless, leadless
+implantable stimulator (the "mote"), an ultrasonic wireless link for power and
+bi-directional communication, and a hand-held external transceiver. The mote
+consists of a piezoceramic transducer, an energy storage capacitor, and a
+stimulator integrated circuit (IC). The IC harvests ultrasonic power with high
+efficiency, decodes stimulation parameter downlink data, and generates
+current-controlled stimulation pulses. Stimulation parameters are time-encoded
+on the fly through the wireless link rather than being programmed and stored on
+the mote, reducing power consumption and on-chip memory requirements and
+enabling complex stimulation protocols with high-temporal resolution and
+low-latency feedback for use in closed-loop stimulation. Uplink data indicates
+whether the mote is currently stimulating; it is encoded by the mote via
+backscatter modulation and is demodulated at the external transceiver. We show
+that the mote operates at an acoustic intensity that is 7.8% of the FDA limit
+for diagnostic ultrasound and characterize the acoustic wireless link's
+robustness to expected real-world misalignment. We investigate the performance
+of the system with motes acutely implanted with a cuff on the sciatic nerve of
+anesthetized rats and show highly repeatable stimulation across a wide range of
+physiological responses.

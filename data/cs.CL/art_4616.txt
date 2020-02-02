@@ -1,0 +1,19 @@
+IEST: WASSA-2018 Implicit Emotions Shared Task
+Past shared tasks on emotions use data with both overt expressions of
+emotions (I am so happy to see you!) as well as subtle expressions where the
+emotions have to be inferred, for instance from event descriptions. Further,
+most datasets do not focus on the cause or the stimulus of the emotion. Here,
+for the first time, we propose a shared task where systems have to predict the
+emotions in a large automatically labeled dataset of tweets without access to
+words denoting emotions. Based on this intention, we call this the Implicit
+Emotion Shared Task (IEST) because the systems have to infer the emotion mostly
+from the context. Every tweet has an occurrence of an explicit emotion word
+that is masked. The tweets are collected in a manner such that they are likely
+to include a description of the cause of the emotion - the stimulus.
+Altogether, 30 teams submitted results which range from macro F1 scores of 21 %
+to 71 %. The baseline (MaxEnt bag of words and bigrams) obtains an F1 score of
+60 % which was available to the participants during the development phase. A
+study with human annotators suggests that automatic methods outperform human
+predictions, possibly by honing into subtle textual clues not used by humans.
+Corpora, resources, and results are available at the shared task website at
+http://implicitemotions.wassa2018.com.

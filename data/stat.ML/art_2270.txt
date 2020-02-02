@@ -1,0 +1,11 @@
+Sample-efficient Nonstationary Policy Evaluation for Contextual Bandits
+We present and prove properties of a new offline policy evaluator for an
+exploration learning setting which is superior to previous evaluators. In
+particular, it simultaneously and correctly incorporates techniques from
+importance weighting, doubly robust evaluation, and nonstationary policy
+evaluation approaches. In addition, our approach allows generating longer
+histories by careful control of a bias-variance tradeoff, and further decreases
+variance by incorporating information about randomness of the target policy.
+Empirical evidence from synthetic and realworld exploration learning problems
+shows the new evaluator successfully unifies previous approaches and uses
+information an order of magnitude more efficiently.

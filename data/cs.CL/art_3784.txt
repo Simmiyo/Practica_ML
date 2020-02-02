@@ -1,0 +1,10 @@
+Binarizer at SemEval-2018 Task 3: Parsing dependency and deep learning
+  for irony detection
+In this paper, we describe the system submitted for the SemEval 2018 Task 3
+(Irony detection in English tweets) Subtask A by the team Binarizer. Irony
+detection is a key task for many natural language processing works. Our method
+treats ironical tweets to consist of smaller parts containing different
+emotions. We break down tweets into separate phrases using a dependency parser.
+We then embed those phrases using an LSTM-based neural network model which is
+pre-trained to predict emoticons for tweets. Finally, we train a
+fully-connected network to achieve classification.

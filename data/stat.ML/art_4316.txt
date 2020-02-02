@@ -1,0 +1,22 @@
+Dynamic Analysis of Executables to Detect and Characterize Malware
+It is needed to ensure the integrity of systems that process sensitive
+information and control many aspects of everyday life. We examine the use of
+machine learning algorithms to detect malware using the system calls generated
+by executables-alleviating attempts at obfuscation as the behavior is monitored
+rather than the bytes of an executable. We examine several machine learning
+techniques for detecting malware including random forests, deep learning
+techniques, and liquid state machines. The experiments examine the effects of
+concept drift on each algorithm to understand how well the algorithms
+generalize to novel malware samples by testing them on data that was collected
+after the training data. The results suggest that each of the examined machine
+learning algorithms is a viable solution to detect malware-achieving between
+90% and 95% class-averaged accuracy (CAA). In real-world scenarios, the
+performance evaluation on an operational network may not match the performance
+achieved in training. Namely, the CAA may be about the same, but the values for
+precision and recall over the malware can change significantly. We structure
+experiments to highlight these caveats and offer insights into expected
+performance in operational environments. In addition, we use the induced models
+to gain a better understanding about what differentiates the malware samples
+from the goodware, which can further be used as a forensics tool to understand
+what the malware (or goodware) was doing to provide directions for
+investigation and remediation.

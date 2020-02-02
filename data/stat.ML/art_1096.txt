@@ -1,0 +1,15 @@
+Nested Kriging predictions for datasets with large number of
+  observations
+This work falls within the context of predicting the value of a real function
+at some input locations given a limited number of observations of this
+function. The Kriging interpolation technique (or Gaussian process regression)
+is often considered to tackle such a problem but the method suffers from its
+computational burden when the number of observation points is large. We
+introduce in this article nested Kriging predictors which are constructed by
+aggregating sub-models based on subsets of observation points. This approach is
+proven to have better theoretical properties than other aggregation methods
+that can be found in the literature. Contrarily to some other methods it can be
+shown that the proposed aggregation method is consistent. Finally, the
+practical interest of the proposed method is illustrated on simulated datasets
+and on an industrial test case with $10^4$ observations in a 6-dimensional
+space.

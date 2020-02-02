@@ -1,0 +1,11 @@
+Adaptive Gaussian process approximation for Bayesian inference with
+  expensive likelihood functions
+We consider Bayesian inference problems with computationally intensive
+likelihood functions. We propose a Gaussian process (GP) based method to
+approximate the joint distribution of the unknown parameters and the data. In
+particular, we write the joint density approximately as a product of an
+approximate posterior density and an exponentiated GP surrogate. We then
+provide an adaptive algorithm to construct such an approximation, where an
+active learning method is used to choose the design points. With numerical
+examples, we illustrate that the proposed method has competitive performance
+against existing approaches for Bayesian computation.

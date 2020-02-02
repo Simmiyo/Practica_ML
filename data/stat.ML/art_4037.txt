@@ -1,0 +1,13 @@
+Understanding the 2016 US Presidential Election using ecological
+  inference and distribution regression with census microdata
+We combine fine-grained spatially referenced census data with the vote
+outcomes from the 2016 US presidential election. Using this dataset, we perform
+ecological inference using distribution regression (Flaxman et al, KDD 2015)
+with a multinomial-logit regression so as to model the vote outcome Trump,
+Clinton, Other / Didn't vote as a function of demographic and socioeconomic
+features. Ecological inference allows us to estimate "exit poll" style results
+like what was Trump's support among white women, but for entirely novel
+categories. We also perform exploratory data analysis to understand which
+census variables are predictive of voting for Trump, voting for Clinton, or not
+voting for either. All of our methods are implemented in python and R and are
+available online for replication.

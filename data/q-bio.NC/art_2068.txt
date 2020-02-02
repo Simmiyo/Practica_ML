@@ -1,0 +1,19 @@
+A comparative study of different integrate-and-fire neurons: spontaneous
+  activity, dynamical response, and stimulus-induced correlation
+Stochastic integrate-and-fire (IF) neuron models have found widespread
+applications in computational neuroscience. Here we present results on the
+white-noise-driven perfect, leaky, and quadratic IF models, focusing on the
+spectral statistics (power spectra, cross spectra, and coherence functions) in
+different dynamical regimes (noise-induced and tonic firing regimes with low or
+moderate noise). We make the models comparable by tuning parameters such that
+the mean value and the coefficient of variation of the interspike interval
+match for all of them. We find that, under these conditions, the power spectrum
+under white-noise stimulation is often very similar while the response
+characteristics, described by the cross spectrum between a fraction of the
+input noise and the output spike train, can differ drastically. We also
+investigate how the spike trains of two neurons of the same kind (e.g. two
+leaky IF neurons) correlate if they share a common noise input. We show that,
+depending on the dynamical regime, either two quadratic IF models or two leaky
+IFs are more strongly correlated. Our results suggest that, when choosing among
+simple IF models for network simulations, the details of the model have a
+strong effect on correlation and regularity of the output.

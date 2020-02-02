@@ -1,0 +1,18 @@
+Context-specific independence in graphical log-linear models
+Log-linear models are the popular workhorses of analyzing contingency tables.
+A log-linear parameterization of an interaction model can be more expressive
+than a direct parameterization based on probabilities, leading to a powerful
+way of defining restrictions derived from marginal, conditional and
+context-specific independence. However, parameter estimation is often simpler
+under a direct parameterization, provided that the model enjoys certain
+decomposability properties. Here we introduce a cyclical projection algorithm
+for obtaining maximum likelihood estimates of log-linear parameters under an
+arbitrary context-specific graphical log-linear model, which needs not satisfy
+criteria of decomposability. We illustrate that lifting the restriction of
+decomposability makes the models more expressive, such that additional
+context-specific independencies embedded in real data can be identified. It is
+also shown how a context-specific graphical model can correspond to a
+non-hierarchical log-linear parameterization with a concise interpretation.
+This observation can pave way to further development of non-hierarchical
+log-linear models, which have been largely neglected due to their believed lack
+of interpretability.

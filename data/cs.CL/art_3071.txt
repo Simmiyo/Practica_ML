@@ -1,0 +1,14 @@
+A Deep Neural Network Approach To Parallel Sentence Extraction
+Parallel sentence extraction is a task addressing the data sparsity problem
+found in multilingual natural language processing applications. We propose an
+end-to-end deep neural network approach to detect translational equivalence
+between sentences in two different languages. In contrast to previous
+approaches, which typically rely on multiples models and various word alignment
+features, by leveraging continuous vector representation of sentences we remove
+the need of any domain specific feature engineering. Using a siamese
+bidirectional recurrent neural networks, our results against a strong baseline
+based on a state-of-the-art parallel sentence extraction system show a
+significant improvement in both the quality of the extracted parallel sentences
+and the translation performance of statistical machine translation systems. We
+believe this study is the first one to investigate deep learning for the
+parallel sentence extraction task.

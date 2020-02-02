@@ -1,0 +1,17 @@
+Marginal and simultaneous predictive classification using stratified
+  graphical models
+An inductive probabilistic classification rule must generally obey the
+principles of Bayesian predictive inference, such that all observed and
+unobserved stochastic quantities are jointly modeled and the parameter
+uncertainty is fully acknowledged through the posterior predictive
+distribution. Several such rules have been recently considered and their
+asymptotic behavior has been characterized under the assumption that the
+observed features or variables used for building a classifier are conditionally
+independent given a simultaneous labeling of both the training samples and
+those from an unknown origin. Here we extend the theoretical results to
+predictive classifiers acknowledging feature dependencies either through
+graphical models or sparser alternatives defined as stratified graphical
+models. We also show through experimentation with both synthetic and real data
+that the predictive classifiers based on stratified graphical models have
+consistently best accuracy compared with the predictive classifiers based on
+either conditionally independent features or on ordinary graphical models.

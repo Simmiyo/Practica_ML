@@ -1,0 +1,15 @@
+Streaming Small-Footprint Keyword Spotting using Sequence-to-Sequence
+  Models
+We develop streaming keyword spotting systems using a recurrent neural
+network transducer (RNN-T) model: an all-neural, end-to-end trained,
+sequence-to-sequence model which jointly learns acoustic and language model
+components. Our models are trained to predict either phonemes or graphemes as
+subword units, thus allowing us to detect arbitrary keyword phrases, without
+any out-of-vocabulary words. In order to adapt the models to the requirements
+of keyword spotting, we propose a novel technique which biases the RNN-T system
+towards a specific keyword of interest.
+  Our systems are compared against a strong sequence-trained, connectionist
+temporal classification (CTC) based "keyword-filler" baseline, which is
+augmented with a separate phoneme language model. Overall, our RNN-T system
+with the proposed biasing technique significantly improves performance over the
+baseline system.

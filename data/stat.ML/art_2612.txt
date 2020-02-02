@@ -1,0 +1,14 @@
+Sample Complexity of Multi-task Reinforcement Learning
+Transferring knowledge across a sequence of reinforcement-learning tasks is
+challenging, and has a number of important applications. Though there is
+encouraging empirical evidence that transfer can improve performance in
+subsequent reinforcement-learning tasks, there has been very little theoretical
+analysis. In this paper, we introduce a new multi-task algorithm for a sequence
+of reinforcement-learning tasks when each task is sampled independently from
+(an unknown) distribution over a finite set of Markov decision processes whose
+parameters are initially unknown. For this setting, we prove under certain
+assumptions that the per-task sample complexity of exploration is reduced
+significantly due to transfer compared to standard single-task algorithms. Our
+multi-task algorithm also has the desired characteristic that it is guaranteed
+not to exhibit negative transfer: in the worst case its per-task sample
+complexity is comparable to the corresponding single-task algorithm.

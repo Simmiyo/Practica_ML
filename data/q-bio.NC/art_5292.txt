@@ -1,0 +1,28 @@
+The high-conductance state enables neural sampling in networks of LIF
+  neurons
+The apparent stochasticity of in-vivo neural circuits has long been
+hypothesized to represent a signature of ongoing stochastic inference in the
+brain. More recently, a theoretical framework for neural sampling has been
+proposed, which explains how sample-based inference can be performed by
+networks of spiking neurons. One particular requirement of this approach is
+that the neural response function closely follows a logistic curve.
+  Analytical approaches to calculating neural response functions have been the
+subject of many theoretical studies. In order to make the problem tractable,
+particular assumptions regarding the neural or synaptic parameters are usually
+made. However, biologically significant activity regimes exist which are not
+covered by these approaches: Under strong synaptic bombardment, as is often the
+case in cortex, the neuron is shifted into a high-conductance state (HCS)
+characterized by a small membrane time constant. In this regime, synaptic time
+constants and refractory periods dominate membrane dynamics.
+  The core idea of our approach is to separately consider two different "modes"
+of spiking dynamics: burst spiking and transient quiescence, in which the
+neuron does not spike for longer periods. We treat the former by propagating
+the PDF of the effective membrane potential from spike to spike within a burst,
+while using a diffusion approximation for the latter. We find that our
+prediction of the neural response function closely matches simulation data.
+Moreover, in the HCS scenario, we show that the neural response function
+becomes symmetric and can be well approximated by a logistic function, thereby
+providing the correct dynamics in order to perform neural sampling. We hereby
+provide not only a normative framework for Bayesian inference in cortex, but
+also powerful applications of low-power, accelerated neuromorphic systems to
+relevant machine learning tasks.

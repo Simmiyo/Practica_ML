@@ -1,0 +1,11 @@
+Efficient Scheme for Initializing a Quantum Register with an Arbitrary
+  Superposed State
+Preparation of a quantum register is an important step in quantum computation
+and quantum information processing. It is straightforward to build a simple
+quantum state such as $|i_1 i_2 ... i_n\ket$ with $i_j$ being either 0 or 1,
+but is a non-trivial task to construct an {\it arbitrary} superposed quantum
+state. In this Paper, we present a scheme that can most generally initialize a
+quantum register with an arbitrary superposition of basis states.
+Implementation of this scheme requires $O(Nn^2)$ standard 1- and 2-bit gate
+operations, {\it without introducing additional quantum bits}. Application of
+the scheme in some special cases is discussed.

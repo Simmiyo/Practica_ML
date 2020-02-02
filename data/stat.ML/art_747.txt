@@ -1,0 +1,17 @@
+Error Bounds for Compressed Sensing Algorithms With Group Sparsity: A
+  Unified Approach
+In compressed sensing, in order to recover a sparse or nearly sparse vector
+from possibly noisy measurements, the most popular approach is $\ell_1$-norm
+minimization. Upper bounds for the $\ell_2$- norm of the error between the true
+and estimated vectors are given in [1] and reviewed in [2], while bounds for
+the $\ell_1$-norm are given in [3]. When the unknown vector is not
+conventionally sparse but is "group sparse" instead, a variety of alternatives
+to the $\ell_1$-norm have been proposed in the literature, including the group
+LASSO, sparse group LASSO, and group LASSO with tree structured overlapping
+groups. However, no error bounds are available for any of these modified
+objective functions. In the present paper, a unified approach is presented for
+deriving upper bounds on the error between the true vector and its
+approximation, based on the notion of decomposable and $\gamma$-decomposable
+norms. The bounds presented cover all of the norms mentioned above, and also
+provide a guideline for choosing norms in future to accommodate alternate forms
+of sparsity.

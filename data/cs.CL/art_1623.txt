@@ -1,0 +1,16 @@
+Identifying Patterns of Associated-Conditions through Topic Models of
+  Electronic Medical Records
+Multiple adverse health conditions co-occurring in a patient are typically
+associated with poor prognosis and increased office or hospital visits.
+Developing methods to identify patterns of co-occurring conditions can assist
+in diagnosis. Thus identifying patterns of associations among co-occurring
+conditions is of growing interest. In this paper, we report preliminary results
+from a data-driven study, in which we apply a machine learning method, namely,
+topic modeling, to electronic medical records, aiming to identify patterns of
+associated conditions. Specifically, we use the well established latent
+dirichlet allocation, a method based on the idea that documents can be modeled
+as a mixture of latent topics, where each topic is a distribution over words.
+In our study, we adapt the LDA model to identify latent topics in patients'
+EMRs. We evaluate the performance of our method both qualitatively, and show
+that the obtained topics indeed align well with distinct medical phenomena
+characterized by co-occurring conditions.

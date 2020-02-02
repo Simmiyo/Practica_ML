@@ -1,0 +1,12 @@
+Kernel induced random survival forests
+Kernel Induced Random Survival Forests (KIRSF) is a statistical learning
+algorithm which aims to improve prediction accuracy for survival data. As in
+Random Survival Forests (RSF), Cumulative Hazard Function is predicted for each
+individual in the test set. Prediction error is estimated using Harrell's
+concordance index (C index) [Harrell et al. (1982)]. The C-index can be
+interpreted as a misclassification probability and does not depend on a single
+fixed time for evaluation. The C-index also specifically accounts for
+censoring. By utilizing kernel functions, KIRSF achieves better results than
+RSF in many situations. In this report, we show how to incorporate kernel
+functions into RSF. We test the performance of KIRSF and compare our method to
+RSF. We find that the KIRSF's performance is better than RSF in many occasions.

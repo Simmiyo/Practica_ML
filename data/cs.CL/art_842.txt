@@ -1,0 +1,22 @@
+Distributed Representations for Compositional Semantics
+The mathematical representation of semantics is a key issue for Natural
+Language Processing (NLP). A lot of research has been devoted to finding ways
+of representing the semantics of individual words in vector spaces.
+Distributional approaches --- meaning distributed representations that exploit
+co-occurrence statistics of large corpora --- have proved popular and
+successful across a number of tasks. However, natural language usually comes in
+structures beyond the word level, with meaning arising not only from the
+individual words but also the structure they are contained in at the phrasal or
+sentential level. Modelling the compositional process by which the meaning of
+an utterance arises from the meaning of its parts is an equally fundamental
+task of NLP.
+  This dissertation explores methods for learning distributed semantic
+representations and models for composing these into representations for larger
+linguistic units. Our underlying hypothesis is that neural models are a
+suitable vehicle for learning semantically rich representations and that such
+representations in turn are suitable vehicles for solving important tasks in
+natural language processing. The contribution of this thesis is a thorough
+evaluation of our hypothesis, as part of which we introduce several new
+approaches to representation learning and compositional semantics, as well as
+multiple state-of-the-art models which apply distributed semantic
+representations to various tasks in NLP.

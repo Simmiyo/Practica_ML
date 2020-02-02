@@ -1,0 +1,19 @@
+Streamed Learning: One-Pass SVMs
+We present a streaming model for large-scale classification (in the context
+of $\ell_2$-SVM) by leveraging connections between learning and computational
+geometry. The streaming model imposes the constraint that only a single pass
+over the data is allowed. The $\ell_2$-SVM is known to have an equivalent
+formulation in terms of the minimum enclosing ball (MEB) problem, and an
+efficient algorithm based on the idea of \emph{core sets} exists (Core Vector
+Machine, CVM). CVM learns a $(1+\varepsilon)$-approximate MEB for a set of
+points and yields an approximate solution to corresponding SVM instance.
+However CVM works in batch mode requiring multiple passes over the data. This
+paper presents a single-pass SVM which is based on the minimum enclosing ball
+of streaming data. We show that the MEB updates for the streaming case can be
+easily adapted to learn the SVM weight vector in a way similar to using online
+stochastic gradient updates. Our algorithm performs polylogarithmic computation
+at each example, and requires very small and constant storage. Experimental
+results show that, even in such restrictive settings, we can learn efficiently
+in just one pass and get accuracies comparable to other state-of-the-art SVM
+solvers (batch and online). We also give an analysis of the algorithm, and
+discuss some open issues and possible extensions.

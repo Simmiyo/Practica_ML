@@ -1,0 +1,22 @@
+Multilabel Consensus Classification
+In the era of big data, a large amount of noisy and incomplete data can be
+collected from multiple sources for prediction tasks. Combining multiple models
+or data sources helps to counteract the effects of low data quality and the
+bias of any single model or data source, and thus can improve the robustness
+and the performance of predictive models. Out of privacy, storage and bandwidth
+considerations, in certain circumstances one has to combine the predictions
+from multiple models or data sources to obtain the final predictions without
+accessing the raw data. Consensus-based prediction combination algorithms are
+effective for such situations. However, current research on prediction
+combination focuses on the single label setting, where an instance can have one
+and only one label. Nonetheless, data nowadays are usually multilabeled, such
+that more than one label have to be predicted at the same time. Direct
+applications of existing prediction combination methods to multilabel settings
+can lead to degenerated performance. In this paper, we address the challenges
+of combining predictions from multiple multilabel classifiers and propose two
+novel algorithms, MLCM-r (MultiLabel Consensus Maximization for ranking) and
+MLCM-a (MLCM for microAUC). These algorithms can capture label correlations
+that are common in multilabel classifications, and optimize corresponding
+performance metrics. Experimental results on popular multilabel classification
+tasks verify the theoretical analysis and effectiveness of the proposed
+methods.

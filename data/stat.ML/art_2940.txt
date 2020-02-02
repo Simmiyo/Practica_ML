@@ -1,0 +1,13 @@
+Sure Screening for Gaussian Graphical Models
+We propose {graphical sure screening}, or GRASS, a very simple and
+computationally-efficient screening procedure for recovering the structure of a
+Gaussian graphical model in the high-dimensional setting. The GRASS estimate of
+the conditional dependence graph is obtained by thresholding the elements of
+the sample covariance matrix. The proposed approach possesses the sure
+screening property: with very high probability, the GRASS estimated edge set
+contains the true edge set. Furthermore, with high probability, the size of the
+estimated edge set is controlled. We provide a choice of threshold for GRASS
+that can control the expected false positive rate. We illustrate the
+performance of GRASS in a simulation study and on a gene expression data set,
+and show that in practice it performs quite competitively with more complex and
+computationally-demanding techniques for graph estimation.

@@ -1,0 +1,25 @@
+Sequential Dirichlet Process Mixtures of Multivariate Skew
+  t-distributions for Model-based Clustering of Flow Cytometry Data
+Flow cytometry is a high-throughput technology used to quantify multiple
+surface and intracellular markers at the level of a single cell. This enables
+to identify cell sub-types, and to determine their relative proportions.
+Improvements of this technology allow to describe millions of individual cells
+from a blood sample using multiple markers. This results in high-dimensional
+datasets, whose manual analysis is highly time-consuming and poorly
+reproducible. While several methods have been developed to perform automatic
+recognition of cell populations, most of them treat and analyze each sample
+independently. However, in practice, individual samples are rarely independent
+(e.g. longitudinal studies). Here, we propose to use a Bayesian nonparametric
+approach with Dirichlet process mixture (DPM) of multivariate skew
+$t$-distributions to perform model based clustering of flow-cytometry data. DPM
+models directly estimate the number of cell populations from the data, avoiding
+model selection issues, and skew $t$-distributions provides robustness to
+outliers and non-elliptical shape of cell populations. To accommodate repeated
+measurements, we propose a sequential strategy relying on a parametric
+approximation of the posterior. We illustrate the good performance of our
+method on simulated data, on an experimental benchmark dataset, and on new
+longitudinal data from the DALIA-1 trial which evaluates a therapeutic vaccine
+against HIV. On the benchmark dataset, the sequential strategy outperforms all
+other methods evaluated, and similarly, leads to improved performance on the
+DALIA-1 data. We have made the method available for the community in the R
+package NPflow.

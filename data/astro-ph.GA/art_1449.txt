@@ -1,0 +1,24 @@
+MASSCLEANage -- Stellar Cluster Ages from Integrated Colors --
+We present the recently updated and expanded MASSCLEANcolors, a database of
+70 million Monte Carlo models selected to match the properties (metallicity,
+ages and masses) of stellar clusters found in the Large Magellanic Cloud (LMC).
+This database shows the rather extreme and non-Guassian distribution of
+integrated colors and magnitudes expected with different cluster age and mass
+and the enormous age degeneracy of integrated colors when mass is unknown. This
+degeneracy could lead to catastrophic failures in estimating age with standard
+SSP models, particularly if most of the clusters are of intermediate or low
+mass, like in the LMC. Utilizing the MASSCLEANcolors database, we have
+developed MASSCLEANage, a statistical inference package which assigns the most
+likely age and mass (solved simultaneously) to a cluster based only on its
+integrated broad-band photometric properties. Finally, we use MASSCLEANage to
+derive the age and mass of LMC clusters based on integrated photometry alone.
+First we compare our cluster ages against those obtained for the same seven
+clusters using more accurate integrated spectroscopy. We find improved
+agreement with the integrated spectroscopy ages over the original photometric
+ages. A close examination of our results demonstrate the necessity of solving
+simultaneously for mass and age to reduce degeneracies in the cluster ages
+derived via integrated colors. We then selected an additional subset of 30
+photometric clusters with previously well constrained ages and independently
+derive their age using the MASSCLEANage with the same photometry with very good
+agreement. The MASSCLEANage program is freely available under GNU General
+Public License.

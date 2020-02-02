@@ -1,0 +1,19 @@
+Online Pairwise Learning Algorithms with Kernels
+Pairwise learning usually refers to a learning task which involves a loss
+function depending on pairs of examples, among which most notable ones include
+ranking, metric learning and AUC maximization. In this paper, we study an
+online algorithm for pairwise learning with a least-square loss function in an
+unconstrained setting of a reproducing kernel Hilbert space (RKHS), which we
+refer to as the Online Pairwise lEaRning Algorithm (OPERA). In contrast to
+existing works \cite{Kar,Wang} which require that the iterates are restricted
+to a bounded domain or the loss function is strongly-convex, OPERA is
+associated with a non-strongly convex objective function and learns the target
+function in an unconstrained RKHS. Specifically, we establish a general theorem
+which guarantees the almost surely convergence for the last iterate of OPERA
+without any assumptions on the underlying distribution. Explicit convergence
+rates are derived under the condition of polynomially decaying step sizes. We
+also establish an interesting property for a family of widely-used kernels in
+the setting of pairwise learning and illustrate the above convergence results
+using such kernels. Our methodology mainly depends on the characterization of
+RKHSs using its associated integral operators and probability inequalities for
+random variables with values in a Hilbert space.

@@ -1,0 +1,26 @@
+Action-space clustering of tidal streams to infer the Galactic potential
+We present a new method for constraining the Milky Way halo gravitational
+potential by simultaneously fitting multiple tidal streams. This method
+requires full three-dimensional positions and velocities for all stars to be
+fit, but does not require identification of any specific stream or
+determination of stream membership for any star. We exploit the principle that
+the action distribution of stream stars is most clustered when the potential
+used to calculate the actions is closest to the true potential. Clustering is
+quantified with the Kullback-Leibler Divergence (KLD), which also provides
+conditional uncertainties for our parameter estimates. We show, for toy
+Gaia-like data in a spherical isochrone potential, that maximizing the KLD of
+the action distribution relative to a smoother distribution recovers the true
+values of the potential parameters. The precision depends on the observational
+errors and the number of streams in the sample; using KIII giants as tracers,
+we measure the enclosed mass at the average radius of the sample stars accurate
+to 3% and precise to 20-40%. Recovery of the scale radius is precise to 25%,
+and is biased 50% high by the small galactocentric distance range of stars in
+our mock sample (1-25 kpc, or about three scale radii, with mean 6.5 kpc).
+About 15 streams, with at least 100 stars per stream, are needed to obtain
+upper and lower bounds on the enclosed mass and scale radius when observational
+errors are taken into account; 20-25 streams are required to stabilize the size
+of the confidence interval. If radial velocities are provided for stars out to
+100 kpc (10 scale radii), all parameters can be determined with 10% accuracy
+and 20% precision (1.3% accuracy in the case of the enclosed mass), underlining
+the need for ground-based spectroscopic follow-up to complete the radial
+velocity catalog for faint halo stars observed by Gaia.

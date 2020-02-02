@@ -1,0 +1,13 @@
+Modeling Industrial ADMET Data with Multitask Networks
+Deep learning methods such as multitask neural networks have recently been
+applied to ligand-based virtual screening and other drug discovery
+applications. Using a set of industrial ADMET datasets, we compare neural
+networks to standard baseline models and analyze multitask learning effects
+with both random cross-validation and a more relevant temporal validation
+scheme. We confirm that multitask learning can provide modest benefits over
+single-task models and show that smaller datasets tend to benefit more than
+larger datasets from multitask learning. Additionally, we find that adding
+massive amounts of side information is not guaranteed to improve performance
+relative to simpler multitask learning. Our results emphasize that multitask
+effects are highly dataset-dependent, suggesting the use of dataset-specific
+models to maximize overall performance.

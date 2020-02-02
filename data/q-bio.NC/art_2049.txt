@@ -1,0 +1,12 @@
+A Fast $\mathcal{L}_p$ Spike Alignment Metric
+The metrization of the space of neural responses is an ongoing research
+program seeking to find natural ways to describe, in geometrical terms, the
+sets of possible activities in the brain. One component of this program are the
+{\em spike metrics}, notions of distance between two spike trains recorded from
+a neuron. Alignment spike metrics work by identifying "equivalent" spikes in
+one train and the other. We present an alignment spike metric having
+$\mathcal{L}_p$ underlying geometrical structure; the $\mathcal{L}_2$ version
+is Euclidean and is suitable for further embedding in Euclidean spaces by
+Multidimensional Scaling methods or related procedures. We show how to
+implement a fast algorithm for the computation of this metric based on
+bipartite graph matching theory.

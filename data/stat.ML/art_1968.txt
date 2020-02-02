@@ -1,0 +1,15 @@
+Graph-based Learning with Unbalanced Clusters
+Graph construction is a crucial step in spectral clustering (SC) and
+graph-based semi-supervised learning (SSL). Spectral methods applied on
+standard graphs such as full-RBF, $\epsilon$-graphs and $k$-NN graphs can lead
+to poor performance in the presence of proximal and unbalanced data. This is
+because spectral methods based on minimizing RatioCut or normalized cut on
+these graphs tend to put more importance on balancing cluster sizes over
+reducing cut values. We propose a novel graph construction technique and show
+that the RatioCut solution on this new graph is able to handle proximal and
+unbalanced data. Our method is based on adaptively modulating the neighborhood
+degrees in a $k$-NN graph, which tends to sparsify neighborhoods in low density
+regions. Our method adapts to data with varying levels of unbalancedness and
+can be naturally used for small cluster detection. We justify our ideas through
+limit cut analysis. Unsupervised and semi-supervised experiments on synthetic
+and real data sets demonstrate the superiority of our method.

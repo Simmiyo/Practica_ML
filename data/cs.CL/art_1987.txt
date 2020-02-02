@@ -1,0 +1,19 @@
+Opinion Mining in Online Reviews About Distance Education Programs
+The popularity of distance education programs is increasing at a fast pace.
+En par with this development, online communication in fora, social media and
+reviewing platforms between students is increasing as well. Exploiting this
+information to support fellow students or institutions requires to extract the
+relevant opinions in order to automatically generate reports providing an
+overview of pros and cons of different distance education programs. We report
+on an experiment involving distance education experts with the goal to develop
+a dataset of reviews annotated with relevant categories and aspects in each
+category discussed in the specific review together with an indication of the
+sentiment.
+  Based on this experiment, we present an approach to extract general
+categories and specific aspects under discussion in a review together with
+their sentiment. We frame this task as a multi-label hierarchical text
+classification problem and empirically investigate the performance of different
+classification architectures to couple the prediction of a category with the
+prediction of particular aspects in this category. We evaluate different
+architectures and show that a hierarchical approach leads to superior results
+in comparison to a flat model which makes decisions independently.

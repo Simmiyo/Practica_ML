@@ -1,0 +1,19 @@
+Tractography and machine learning: Current state and open challenges
+Supervised machine learning (ML) algorithms have recently been proposed as an
+alternative to traditional tractography methods in order to address some of
+their weaknesses. They can be path-based and local-model-free, and easily
+incorporate anatomical priors to make contextual and non-local decisions that
+should help the tracking process. ML-based techniques have thus shown promising
+reconstructions of larger spatial extent of existing white matter bundles,
+promising reconstructions of less false positives, and promising robustness to
+known position and shape biases of current tractography techniques. But as of
+today, none of these ML-based methods have shown conclusive performances or
+have been adopted as a de facto solution to tractography. One reason for this
+might be the lack of well-defined and extensive frameworks to train, evaluate,
+and compare these methods.
+  In this paper, we describe several datasets and evaluation tools that contain
+useful features for ML algorithms, along with the various methods proposed in
+the recent years. We then discuss the strategies that are used to evaluate and
+compare those methods, as well as their shortcomings. Finally, we describe the
+particular needs of ML tractography methods and discuss tangible solutions for
+future works.

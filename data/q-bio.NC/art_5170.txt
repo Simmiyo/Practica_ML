@@ -1,0 +1,22 @@
+Enhancing performance of subject-specific models via subject-independent
+  information for SSVEP-based BCIs
+Recently, steady-state visual evoked potential (SSVEP)-based brain-computer
+interface (BCI) has attracted much attention due to its high information
+transfer rate (ITR) and increasing number of targets. However, the performance
+of SSVEP-based methods in terms of accuracy and time length required for target
+detection can be improved. We propose a new canonical correlation analysis
+(CCA)-based method to integrate subject-specific models and subject-independent
+information and enhance BCI performance. To optimize hyperparameters for
+CCA-based model of a specific subject, we propose to use training data of other
+subjects. An ensemble version of the proposed method is also developed and used
+for a fair comparison with ensemble task-related component analysis (TRCA). A
+publicly available 35-subject SSVEP benchmark dataset is used to evaluate
+different methods. The proposed method is compared with TRCA and extended CCA
+methods as reference methods. The performance of the methods is evaluated using
+classification accuracy and ITR. Offline analysis results show that the
+proposed method reaches highest ITR compared with TRCA and extended CCA. Also,
+the proposed method significantly improves performance of extended CCA in all
+conditions and TRCA for time windows greater than 0.3 s. In addition, the
+proposed method outperforms TRCA for low number of training blocks and
+electrodes. This study illustrates that adding subject-independent information
+to subject-specific models can improve the performance of SSVEP-based BCIs.

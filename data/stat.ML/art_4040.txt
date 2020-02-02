@@ -1,0 +1,11 @@
+Low Latency Anomaly Detection and Bayesian Network Prediction of Anomaly
+  Likelihood
+We develop a supervised machine learning model that detects anomalies in
+systems in real time. Our model processes unbounded streams of data into time
+series which then form the basis of a low-latency anomaly detection model.
+Moreover, we extend our preliminary goal of just anomaly detection to
+simultaneous anomaly prediction. We approach this very challenging problem by
+developing a Bayesian Network framework that captures the information about the
+parameters of the lagged regressors calibrated in the first part of our
+approach and use this structure to learn local conditional probability
+distributions.

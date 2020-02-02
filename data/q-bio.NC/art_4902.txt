@@ -1,0 +1,23 @@
+Deep Semantic Architecture with discriminative feature visualization for
+  neuroimage analysis
+Neuroimaging data analysis often involves \emph{a-priori} selection of data
+features to study the underlying neural activity. Since this could lead to
+sub-optimal feature selection and thereby prevent the detection of subtle
+patterns in neural activity, data-driven methods have recently gained
+popularity for optimizing neuroimaging data analysis pipelines and thereby,
+improving our understanding of neural mechanisms. In this context, we developed
+a deep convolutional architecture that can identify discriminating patterns in
+neuroimaging data and applied it to electroencephalography (EEG) recordings
+collected from 25 subjects performing a hand motor task before and after a rest
+period or a bout of exercise. The deep network was trained to classify subjects
+into exercise and control groups based on differences in their EEG signals.
+Subsequently, we developed a novel method termed the cue-combination for Class
+Activation Map (ccCAM), which enabled us to identify discriminating
+spatio-temporal features within definite frequency bands (23--33 Hz) and assess
+the effects of exercise on the brain. Additionally, the proposed architecture
+allowed the visualization of the differences in the propagation of underlying
+neural activity across the cortex between the two groups, for the first time in
+our knowledge. Our results demonstrate the feasibility of using deep network
+architectures for neuroimaging analysis in different contexts such as, for the
+identification of robust brain biomarkers to better characterize and
+potentially treat neurological disorders.

@@ -1,0 +1,25 @@
+Auxiliary gradient-based sampling algorithms
+We introduce a new family of MCMC samplers that combine auxiliary variables,
+Gibbs sampling and Taylor expansions of the target density. Our approach
+permits the marginalisation over the auxiliary variables yielding marginal
+samplers, or the augmentation of the auxiliary variables, yielding auxiliary
+samplers. The well-known Metropolis-adjusted Langevin algorithm (MALA) and
+preconditioned Crank-Nicolson Langevin (pCNL) algorithm are shown to be special
+cases. We prove that marginal samplers are superior in terms of asymptotic
+variance and demonstrate cases where they are slower in computing time compared
+to auxiliary samplers. In the context of latent Gaussian models we propose new
+auxiliary and marginal samplers whose implementation requires a single tuning
+parameter, which can be found automatically during the transient phase.
+Extensive experimentation shows that the increase in efficiency (measured as
+effective sample size per unit of computing time) relative to (optimised
+implementations of) pCNL, elliptical slice sampling and MALA ranges from
+10-fold in binary classification problems to 25-fold in log-Gaussian Cox
+processes to 100-fold in Gaussian process regression, and it is on par with
+Riemann manifold Hamiltonian Monte Carlo in an example where the latter has the
+same complexity as the aforementioned algorithms. We explain this remarkable
+improvement in terms of the way alternative samplers try to approximate the
+eigenvalues of the target. We introduce a novel MCMC sampling scheme for
+hyperparameter learning that builds upon the auxiliary samplers. The MATLAB
+code for reproducing the experiments in the article is publicly available and a
+Supplement to this article contains additional experiments and implementation
+details.

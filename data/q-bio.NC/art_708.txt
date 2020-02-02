@@ -1,0 +1,23 @@
+Sensory feedback in a bump attractor model of path integration
+The mammalian spatial navigation system makes use of several different
+sensory information channels. This information is then converted into a neural
+code that represents the animal's current position in space by engaging place
+cell, grid cell, and head direction cell networks. In particular, sensory
+landmark (allothetic) cues can be utilized in concert with an animal's
+knowledge of its own velocity (idiothetic) cues to generate a more accurate
+representation of position than (idiothetic) path integration provides on its
+own (Battaglia et al, 2004). We develop a computational model that merges path
+integration with information from external sensory cues that provide a reliable
+representation of spatial position along an annular track. Starting with a
+continuous bump attractor model, we allow for the possibility of synaptic
+spatial heterogeneity that would break the translation symmetry of space. We
+use asymptotic analysis to reduce the bump attractor model to a single scalar
+equation whose potential represents the impact of heterogeneity. Such
+heterogeneity causes errors to build up when the network performs path
+integration, but these errors can be corrected by an external control signal
+representing the effects of sensory cues. We demonstrate that there is an
+optimal strength and decay rate of the control signal when cues are placed both
+periodically and randomly. A similar analysis is performed when errors in path
+integration arise from dynamic noise fluctuations. Again, there is an optimal
+strength and decay of discrete control that minimizes the path integration
+error.

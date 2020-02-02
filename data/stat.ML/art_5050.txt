@@ -1,0 +1,14 @@
+Exact and Inexact Subsampled Newton Methods for Optimization
+The paper studies the solution of stochastic optimization problems in which
+approximations to the gradient and Hessian are obtained through subsampling. We
+first consider Newton-like methods that employ these approximations and discuss
+how to coordinate the accuracy in the gradient and Hessian to yield a
+superlinear rate of convergence in expectation. The second part of the paper
+analyzes an inexact Newton method that solves linear systems approximately
+using the conjugate gradient (CG) method, and that samples the Hessian and not
+the gradient (the gradient is assumed to be exact). We provide a complexity
+analysis for this method based on the properties of the CG iteration and the
+quality of the Hessian approximation, and compare it with a method that employs
+a stochastic gradient iteration instead of the CG method. We report preliminary
+numerical results that illustrate the performance of inexact subsampled Newton
+methods on machine learning applications based on logistic regression.

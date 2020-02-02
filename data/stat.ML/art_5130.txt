@@ -1,0 +1,14 @@
+Randomized Clustered Nystrom for Large-Scale Kernel Machines
+The Nystrom method has been popular for generating the low-rank approximation
+of kernel matrices that arise in many machine learning problems. The
+approximation quality of the Nystrom method depends crucially on the number of
+selected landmark points and the selection procedure. In this paper, we present
+a novel algorithm to compute the optimal Nystrom low-approximation when the
+number of landmark points exceed the target rank. Moreover, we introduce a
+randomized algorithm for generating landmark points that is scalable to
+large-scale data sets. The proposed method performs K-means clustering on
+low-dimensional random projections of a data set and, thus, leads to
+significant savings for high-dimensional data sets. Our theoretical results
+characterize the tradeoffs between the accuracy and efficiency of our proposed
+method. Extensive experiments demonstrate the competitive performance as well
+as the efficiency of our proposed method.

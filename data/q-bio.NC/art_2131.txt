@@ -1,0 +1,21 @@
+Hebbian learning of recurrent connections: a geometrical perspective
+We show how a Hopfield network with modifiable recurrent connections
+undergoing slow Hebbian learning can extract the underlying geometry of an
+input space. First, we use a slow/fast analysis to derive an averaged system
+whose dynamics derives from an energy function and therefore always converges
+to equilibrium points. The equilibria reflect the correlation structure of the
+inputs, a global object extracted through local recurrent interactions only.
+Second, we use numerical methods to illustrate how learning extracts the hidden
+geometrical structure of the inputs. Indeed, multidimensional scaling methods
+make it possible to project the final connectivity matrix on to a distance
+matrix in a high-dimensional space, with the neurons labelled by spatial
+position within this space. The resulting network structure turns out to be
+roughly convolutional. The residual of the projection defines the
+non-convolutional part of the connectivity which is minimized in the process.
+Finally, we show how restricting the dimension of the space where the neurons
+live gives rise to patterns similar to cortical maps. We motivate this using an
+energy efficiency argument based on wire length minimization. Finally, we show
+how this approach leads to the emergence of ocular dominance or orientation
+columns in primary visual cortex. In addition, we establish that the
+non-convolutional (or long-range) connectivity is patchy, and is co-aligned in
+the case of orientation learning.

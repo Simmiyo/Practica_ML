@@ -1,0 +1,21 @@
+Evolution and Analysis of Embodied Spiking Neural Networks Reveals
+  Task-Specific Clusters of Effective Networks
+Elucidating principles that underlie computation in neural networks is
+currently a major research topic of interest in neuroscience. Transfer Entropy
+(TE) is increasingly used as a tool to bridge the gap between network
+structure, function, and behavior in fMRI studies. Computational models allow
+us to bridge the gap even further by directly associating individual neuron
+activity with behavior. However, most computational models that have analyzed
+embodied behaviors have employed non-spiking neurons. On the other hand,
+computational models that employ spiking neural networks tend to be restricted
+to disembodied tasks. We show for the first time the artificial evolution and
+TE-analysis of embodied spiking neural networks to perform a
+cognitively-interesting behavior. Specifically, we evolved an agent controlled
+by an Izhikevich neural network to perform a visual categorization task. The
+smallest networks capable of performing the task were found by repeating
+evolutionary runs with different network sizes. Informational analysis of the
+best solution revealed task-specific TE-network clusters, suggesting that
+within-task homogeneity and across-task heterogeneity were key to behavioral
+success. Moreover, analysis of the ensemble of solutions revealed that
+task-specificity of TE-network clusters correlated with fitness. This provides
+an empirically testable hypothesis that links network structure to behavior.

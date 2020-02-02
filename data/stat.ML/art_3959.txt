@@ -1,0 +1,22 @@
+A Framework for Parallel and Distributed Training of Neural Networks
+The aim of this paper is to develop a general framework for training neural
+networks (NNs) in a distributed environment, where training data is partitioned
+over a set of agents that communicate with each other through a sparse,
+possibly time-varying, connectivity pattern. In such distributed scenario, the
+training problem can be formulated as the (regularized) optimization of a
+non-convex social cost function, given by the sum of local (non-convex) costs,
+where each agent contributes with a single error term defined with respect to
+its local dataset. To devise a flexible and efficient solution, we customize a
+recently proposed framework for non-convex optimization over networks, which
+hinges on a (primal) convexification-decomposition technique to handle
+non-convexity, and a dynamic consensus procedure to diffuse information among
+the agents. Several typical choices for the training criterion (e.g., squared
+loss, cross entropy, etc.) and regularization (e.g., $\ell_2$ norm, sparsity
+inducing penalties, etc.) are included in the framework and explored along the
+paper. Convergence to a stationary solution of the social non-convex problem is
+guaranteed under mild assumptions. Additionally, we show a principled way
+allowing each agent to exploit a possible multi-core architecture (e.g., a
+local cloud) in order to parallelize its local optimization step, resulting in
+strategies that are both distributed (across the agents) and parallel (inside
+each agent) in nature. A comprehensive set of experimental results validate the
+proposed approach.

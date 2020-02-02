@@ -1,0 +1,20 @@
+The Wreath Process: A totally generative model of geometric shape based
+  on nested symmetries
+We consider the problem of modelling noisy but highly symmetric shapes that
+can be viewed as hierarchies of whole-part relationships in which higher level
+objects are composed of transformed collections of lower level objects. To this
+end, we propose the stochastic wreath process, a fully generative probabilistic
+model of drawings. Following Leyton's "Generative Theory of Shape", we
+represent shapes as sequences of transformation groups composed through a
+wreath product.
+  This representation emphasizes the maximization of transfer --- the idea that
+the most compact and meaningful representation of a given shape is achieved by
+maximizing the re-use of existing building blocks or parts.
+  The proposed stochastic wreath process extends Leyton's theory by defining a
+probability distribution over geometric shapes in terms of noise processes that
+are aligned with the generative group structure of the shape. We propose an
+inference scheme for recovering the generative history of given images in terms
+of the wreath process using reversible jump Markov chain Monte Carlo methods
+and Approximate Bayesian Computation. In the context of sketching we
+demonstrate the feasibility and limitations of this approach on model-generated
+and real data.

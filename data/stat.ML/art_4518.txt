@@ -1,0 +1,12 @@
+Futility Analysis in the Cross-Validation of Machine Learning Models
+Many machine learning models have important structural tuning parameters that
+cannot be directly estimated from the data. The common tactic for setting these
+parameters is to use resampling methods, such as cross--validation or the
+bootstrap, to evaluate a candidate set of values and choose the best based on
+some pre--defined criterion. Unfortunately, this process can be time consuming.
+However, the model tuning process can be streamlined by adaptively resampling
+candidate values so that settings that are clearly sub-optimal can be
+discarded. The notion of futility analysis is introduced in this context. An
+example is shown that illustrates how adaptive resampling can be used to reduce
+training time. Simulation studies are used to understand how the potential
+speed--up is affected by parallel processing techniques.

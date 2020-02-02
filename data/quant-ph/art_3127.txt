@@ -1,0 +1,19 @@
+On the Complexity of Quantum ACC
+For any $q > 1$, let $\MOD_q$ be a quantum gate that determines if the number
+of 1's in the input is divisible by $q$. We show that for any $q,t > 1$,
+$\MOD_q$ is equivalent to $\MOD_t$ (up to constant depth). Based on the case
+$q=2$, Moore \cite{moore99} has shown that quantum analogs of AC$^{(0)}$,
+ACC$[q]$, and ACC, denoted QAC$^{(0)}_{wf}$, QACC$[2]$, QACC respectively,
+define the same class of operators, leaving $q > 2$ as an open question. Our
+result resolves this question, proving that QAC$^{(0)}_{wf} =$ QACC$[q] = $
+QACC for all $q$. We also develop techniques for proving upper bounds for QACC
+in terms of related language classes. We define classes of languages EQACC,
+NQACC and BQACC$_{\rats}$. We define a notion $\log$-planar QACC operators and
+show the appropriately restricted versions of EQACC and NQACC are contained in
+P/poly. We also define a notion of $\log$-gate restricted QACC operators and
+show the appropriately restricted versions of EQACC and NQACC are contained in
+TC$^{(0)}$. To do this last proof, we show that TC$^{(0)}$ can perform iterated
+addition and multiplication in certain field extensions. We also introduce the
+notion of a polynomial-size tensor graph and show that families of such graphs
+can encode the amplitudes resulting from apply an arbitrary QACC operator to an
+initial state.

@@ -1,0 +1,21 @@
+A no-go theorem for one-layer feedforward networks
+It is often hypothesized that a crucial role for recurrent connections in the
+brain is to constrain the set of possible response patterns, thereby shaping
+the neural code. This implies the existence of neural codes that cannot arise
+solely from feedforward processing. We set out to find such codes in the
+context of one-layer feedforward networks, and identified a large class of
+combinatorial codes that indeed cannot be shaped by the feedforward
+architecture alone. However, these codes are difficult to distinguish from
+codes that share the same sets of maximal activity patterns in the presence of
+noise. When we coarsened the notion of combinatorial neural code to keep track
+only of maximal patterns, we found the surprising result that all such codes
+can in fact be realized by one-layer feedforward networks. This suggests that
+recurrent or many-layer feedforward architectures are not necessary for shaping
+the (coarse) combinatorial features of neural codes. In particular, it is not
+possible to infer a computational role for recurrent connections from the
+combinatorics of neural response patterns alone.
+  Our proofs use mathematical tools from classical combinatorial topology, such
+as the nerve lemma and the existence of an inverse nerve. An unexpected
+corollary of our main result is that any prescribed (finite) homotopy type can
+be realized by removing a polyhedron from the positive orthant of some
+Euclidean space.

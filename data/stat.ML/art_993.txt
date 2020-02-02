@@ -1,0 +1,18 @@
+Joint Estimation of Precision Matrices in Heterogeneous Populations
+We introduce a general framework for estimation of inverse covariance, or
+precision, matrices from heterogeneous populations. The proposed framework uses
+a Laplacian shrinkage penalty to encourage similarity among estimates from
+disparate, but related, subpopulations, while allowing for differences among
+matrices. We propose an efficient alternating direction method of multipliers
+(ADMM) algorithm for parameter estimation, as well as its extension for faster
+computation in high dimensions by thresholding the empirical covariance matrix
+to identify the joint block diagonal structure in the estimated precision
+matrices. We establish both variable selection and norm consistency of the
+proposed estimator for distributions with exponential or polynomial tails.
+Further, to extend the applicability of the method to the settings with unknown
+populations structure, we propose a Laplacian penalty based on hierarchical
+clustering, and discuss conditions under which this data-driven choice results
+in consistent estimation of precision matrices in heterogenous populations.
+Extensive numerical studies and applications to gene expression data from
+subtypes of cancer with distinct clinical outcomes indicate the potential
+advantages of the proposed method over existing approaches.

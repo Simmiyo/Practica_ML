@@ -1,0 +1,11 @@
+InfiniteBoost: building infinite ensembles with gradient descent
+In machine learning ensemble methods have demonstrated high accuracy for the
+variety of problems in different areas. Two notable ensemble methods widely
+used in practice are gradient boosting and random forests. In this paper we
+present InfiniteBoost - a novel algorithm, which combines important properties
+of these two approaches. The algorithm constructs the ensemble of trees for
+which two properties hold: trees of the ensemble incorporate the mistakes done
+by others; at the same time the ensemble could contain the infinite number of
+trees without the over-fitting effect. The proposed algorithm is evaluated on
+the regression, classification, and ranking tasks using large scale, publicly
+available datasets.

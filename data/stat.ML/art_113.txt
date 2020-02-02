@@ -1,0 +1,21 @@
+Concentration inequalities of the cross-validation estimator for
+  Empirical Risk Minimiser
+In this article, we derive concentration inequalities for the
+cross-validation estimate of the generalization error for empirical risk
+minimizers. In the general setting, we prove sanity-check bounds in the spirit
+of \cite{KR99} \textquotedblleft\textit{bounds showing that the worst-case
+error of this estimate is not much worse that of training error estimate}
+\textquotedblright . General loss functions and class of predictors with finite
+VC-dimension are considered. We closely follow the formalism introduced by
+\cite{DUD03} to cover a large variety of cross-validation procedures including
+leave-one-out cross-validation, $k$% -fold cross-validation, hold-out
+cross-validation (or split sample), and the leave-$\upsilon$-out
+cross-validation.
+  In particular, we focus on proving the consistency of the various
+cross-validation procedures. We point out the interest of each cross-validation
+procedure in terms of rate of convergence. An estimation curve with transition
+phases depending on the cross-validation procedure and not only on the
+percentage of observations in the test sample gives a simple rule on how to
+choose the cross-validation. An interesting consequence is that the size of the
+test sample is not required to grow to infinity for the consistency of the
+cross-validation procedure.

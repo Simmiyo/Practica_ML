@@ -1,0 +1,16 @@
+Motif Statistics and Spike Correlations in Neuronal Networks
+Motifs are patterns of subgraphs of complex networks. We studied the impact
+of such patterns of connectivity on the level of correlated, or synchronized,
+spiking activity among pairs of cells in a recurrent network model of integrate
+and fire neurons. For a range of network architectures, we find that the
+pairwise correlation coefficients, averaged across the network, can be closely
+approximated using only three statistics of network connectivity. These are the
+overall network connection probability and the frequencies of two second-order
+motifs: diverging motifs, in which one cell provides input to two others, and
+chain motifs, in which two cells are connected via a third intermediary cell.
+Specifically, the prevalence of diverging and chain motifs tends to increase
+correlation. Our method is based on linear response theory, which enables us to
+express spiking statistics using linear algebra, and a resumming technique,
+which extrapolates from second order motifs to predict the overall effect of
+coupling on network correlation. Our motif-based results seek to isolate the
+effect of network architecture perturbatively from a known network state.

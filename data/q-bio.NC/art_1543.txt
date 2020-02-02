@@ -1,0 +1,22 @@
+Coding with transient trajectories in recurrent neural networks
+Following a stimulus, the neural response typically strongly varies in time
+and across neurons before settling to a steady-state. While classical
+population coding theory disregards the temporal dimension, recent works have
+argued that trajectories of transient activity can be particularly informative
+about stimulus identity and may form the basis of computations through
+dynamics. Yet the dynamical mechanisms needed to generate a population code
+based on transient trajectories have not been fully elucidated. Here we examine
+transient coding in a broad class of high-dimensional linear networks of
+recurrently connected units. We start by reviewing a well-known result that
+leads to a distinction between two classes of networks: networks in which all
+inputs lead to weak, decaying transients, and networks in which specific inputs
+elicit strongly amplified transient responses and are mapped onto orthogonal
+output states during the dynamics. Theses two classes are simply distinguished
+based on the spectrum of the symmetric part of the connectivity matrix. For the
+second class of networks, which is a sub-class of non-normal networks, we
+provide a procedure to identify transiently amplified inputs and the
+corresponding readouts. We first apply these results to standard
+randomly-connected and two-population networks. We then build minimal, low-rank
+networks that robustly implement trajectories mapping a specific input onto a
+specific output state. Finally, we demonstrate that the capacity of the
+obtained networks increases proportionally with their size.

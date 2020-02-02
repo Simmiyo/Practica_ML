@@ -1,0 +1,17 @@
+A Greedy Homotopy Method for Regression with Nonconvex Constraints
+Constrained least squares regression is an essential tool for
+high-dimensional data analysis. Given a partition $\mathcal{G}$ of input
+variables, this paper considers a particular class of nonconvex constraint
+functions that encourage the linear model to select a small number of variables
+from a small number of groups in $\mathcal{G}$. Such constraints are relevant
+in many practical applications, such as Genome-Wide Association Studies (GWAS).
+Motivated by the efficiency of the Lasso homotopy method, we present RepLasso,
+a greedy homotopy algorithm that tries to solve the induced sequence of
+nonconvex problems by solving a sequence of suitably adapted convex surrogate
+problems. We prove that in some situations RepLasso recovers the global minima
+of the nonconvex problem. Moreover, even if it does not recover global minima,
+we prove that in relevant cases it will still do no worse than the Lasso in
+terms of support and signed support recovery, while in practice outperforming
+it. We show empirically that the strategy can also be used to improve over
+other Lasso-style algorithms. Finally, a GWAS of ankylosing spondylitis
+highlights our method's practical utility.

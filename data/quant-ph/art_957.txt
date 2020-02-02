@@ -1,0 +1,17 @@
+Space, time, parallelism and noise requirements for reliable quantum
+  computing
+Quantum error correction methods use processing power to combat noise. The
+noise level which can be tolerated in a fault-tolerant method is therefore a
+function of the computational resources available, especially the size of
+computer and degree of parallelism. I present an analysis of error correction
+with block codes, made fault-tolerant through the use of prepared ancilla
+blocks. The preparation and verification of the ancillas is described in
+detail. It is shown that the ancillas need only be verified against a small set
+of errors. This, combined with previously known advantages, makes this `ancilla
+factory' the best method to apply error correction, whether in concatenated or
+block coding. I then consider the resources required to achieve $2 \times
+10^{10}$ computational steps reliably in a computer of 2150 logical qubits,
+finding that the simplest $[[n,1,d]]$ block codes can tolerate more noise with
+smaller overheads than the $7^L$-bit concatenated code. The scaling is such
+that block codes remain the better choice for all computations one is likely to
+contemplate.

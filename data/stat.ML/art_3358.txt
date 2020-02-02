@@ -1,0 +1,16 @@
+Variable subset selection via GA and information complexity in mixtures
+  of Poisson and negative binomial regression models
+Count data, for example the number of observed cases of a disease in a city,
+often arise in the fields of healthcare analytics and epidemiology. In this
+paper, we consider performing regression on multivariate data in which our
+outcome is a count. Specifically, we derive log-likelihood functions for finite
+mixtures of regression models involving counts that come from a Poisson
+distribution, as well as a negative binomial distribution when the counts are
+significantly overdispersed. Within our proposed modeling framework, we carry
+out optimal component selection using the information criteria scores AIC, BIC,
+CAIC, and ICOMP. We demonstrate applications of our approach on simulated data,
+as well as on a real data set of HIV cases in Tennessee counties from the year
+2010. Finally, using a genetic algorithm within our framework, we perform
+variable subset selection to determine the covariates that are most responsible
+for categorizing Tennessee counties. This leads to some interesting insights
+into the traits of counties that have high HIV counts.

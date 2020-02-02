@@ -1,0 +1,20 @@
+An Approximate Bayesian Approach to Surprise-Based Learning
+Surprise-based learning allows agents to adapt quickly in non-stationary
+stochastic environments. Most existing approaches to surprise-based learning
+and change point detection assume either implicitly or explicitly a simple,
+hierarchical generative model of observation sequences that are characterized
+by stationary periods separated by sudden changes. In this work we show that
+exact Bayesian inference gives naturally rise to a surprise-modulated trade-off
+between forgetting and integrating the new observations with the current
+belief. We demonstrate that many existing approximate Bayesian approaches also
+show surprise-based modulation of learning rates, and we derive novel particle
+filters and variational filters with update rules that exhibit surprise-based
+modulation. Our derived filters have a constant scaling in observation sequence
+length and particularly simple update dynamics for any distribution in the
+exponential family. Empirical results show that these filters estimate
+parameters better than alternative approximate approaches and reach comparative
+levels of performance to computationally more expensive algorithms. The
+theoretical insight of casting various approaches under the same interpretation
+of surprise-based learning, as well as the proposed filters, may find useful
+applications in reinforcement learning in non-stationary environments and in
+the analysis of animal and human behavior.

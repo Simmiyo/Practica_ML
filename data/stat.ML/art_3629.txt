@@ -1,0 +1,11 @@
+Anchored Discrete Factor Analysis
+We present a semi-supervised learning algorithm for learning discrete factor
+analysis models with arbitrary structure on the latent variables. Our algorithm
+assumes that every latent variable has an "anchor", an observed variable with
+only that latent variable as its parent. Given such anchors, we show that it is
+possible to consistently recover moments of the latent variables and use these
+moments to learn complete models. We also introduce a new technique for
+improving the robustness of method-of-moment algorithms by optimizing over the
+marginal polytope or its relaxations. We evaluate our algorithm using two
+real-world tasks, tag prediction on questions from the Stack Overflow website
+and medical diagnosis in an emergency department.

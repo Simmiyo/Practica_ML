@@ -1,0 +1,14 @@
+An Attentive Sequence Model for Adverse Drug Event Extraction from
+  Biomedical Text
+Adverse reaction caused by drugs is a potentially dangerous problem which may
+lead to mortality and morbidity in patients. Adverse Drug Event (ADE)
+extraction is a significant problem in biomedical research. We model ADE
+extraction as a Question-Answering problem and take inspiration from Machine
+Reading Comprehension (MRC) literature, to design our model. Our objective in
+designing such a model, is to exploit the local linguistic context in clinical
+text and enable intra-sequence interaction, in order to jointly learn to
+classify drug and disease entities, and to extract adverse reactions caused by
+a given drug. Our model makes use of a self-attention mechanism to facilitate
+intra-sequence interaction in a text sequence. This enables us to visualize and
+understand how the network makes use of the local and wider context for
+classification.

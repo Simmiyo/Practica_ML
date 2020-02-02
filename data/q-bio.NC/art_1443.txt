@@ -1,0 +1,21 @@
+Evidence accumulation in a Laplace domain decision space
+Evidence accumulation models of simple decision-making have long assumed that
+the brain estimates a scalar decision variable corresponding to the
+log-likelihood ratio of the two alternatives. Typical neural implementations of
+this algorithmic cognitive model assume that large numbers of neurons are each
+noisy exemplars of the scalar decision variable. Here we propose a neural
+implementation of the diffusion model in which many neurons construct and
+maintain the Laplace transform of the distance to each of the decision bounds.
+As in classic findings from brain regions including LIP, the firing rate of
+neurons coding for the Laplace transform of net accumulated evidence grows to a
+bound during random dot motion tasks. However, rather than noisy exemplars of a
+single mean value, this approach makes the novel prediction that firing rates
+grow to the bound exponentially, across neurons there should be a distribution
+of different rates. A second set of neurons records an approximate inversion of
+the Laplace transform, these neurons directly estimate net accumulated
+evidence. In analogy to time cells and place cells observed in the hippocampus
+and other brain regions, the neurons in this second set have receptive fields
+along a "decision axis." This finding is consistent with recent findings from
+rodent recordings. This theoretical approach places simple evidence
+accumulation models in the same mathematical language as recent proposals for
+representing time and space in cognitive models for memory.

@@ -1,0 +1,11 @@
+Saddle-free Hessian-free Optimization
+Nonconvex optimization problems such as the ones in training deep neural
+networks suffer from a phenomenon called saddle point proliferation. This means
+that there are a vast number of high error saddle points present in the loss
+function. Second order methods have been tremendously successful and widely
+adopted in the convex optimization community, while their usefulness in deep
+learning remains limited. This is due to two problems: computational complexity
+and the methods being driven towards the high error saddle points. We introduce
+a novel algorithm specially designed to solve these two issues, providing a
+crucial first step to take the widely known advantages of Newton's method to
+the nonconvex optimization community, especially in high dimensional settings.

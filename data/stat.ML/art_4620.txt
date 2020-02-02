@@ -1,0 +1,17 @@
+Gaussian Copula Variational Autoencoders for Mixed Data
+The variational autoencoder (VAE) is a generative model with continuous
+latent variables where a pair of probabilistic encoder (bottom-up) and decoder
+(top-down) is jointly learned by stochastic gradient variational Bayes. We
+first elaborate Gaussian VAE, approximating the local covariance matrix of the
+decoder as an outer product of the principal direction at a position determined
+by a sample drawn from Gaussian distribution. We show that this model, referred
+to as VAE-ROC, better captures the data manifold, compared to the standard
+Gaussian VAE where independent multivariate Gaussian was used to model the
+decoder. Then we extend the VAE-ROC to handle mixed categorical and continuous
+data. To this end, we employ Gaussian copula to model the local dependency in
+mixed categorical and continuous data, leading to {\em Gaussian copula
+variational autoencoder} (GCVAE). As in VAE-ROC, we use the rank-one
+approximation for the covariance in the Gaussian copula, to capture the local
+dependency structure in the mixed data. Experiments on various datasets
+demonstrate the useful behaviour of VAE-ROC and GCVAE, compared to the standard
+VAE.

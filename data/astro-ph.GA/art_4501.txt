@@ -1,0 +1,19 @@
+M2M modelling of the Galactic disc via PRIMAL: Fitting to Gaia Error
+  Added Data
+We have adapted our made-to-measure (M2M) algorithm PRIMAL to use mock Milky
+Way like data constructed from an N-body barred galaxy with a boxy bulge in a
+known dark matter potential. We use M0 giant stars as tracers, with the
+expected error of the ESA space astrometry mission Gaia. We demonstrate the
+process of constructing mock Gaia data from an N-body model, including the
+conversion of a galactocentric Cartesian coordinate N-body model into
+equatorial coordinates and how to add error to it for a single stellar type. We
+then describe the modifications made to PRIMAL to work with observational
+error. This paper demonstrates that PRIMAL can recover the radial profiles of
+the surface density, radial velocity dispersion, vertical velocity dispersion
+and mean rotational velocity of the target disc, along with the pattern speed
+of the bar, to a reasonable degree of accuracy despite the lack of accurate
+target data. We also construct mock data which take into account dust
+extinction and show that PRIMAL recovers the structure and kinematics of the
+disc reasonably well. In other words, the expected accuracy of the Gaia data is
+good enough for PRIMAL to recover these global properties of the disc, at least
+in a simplified condition, as used in this paper.

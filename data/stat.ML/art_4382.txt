@@ -1,0 +1,24 @@
+Compression-Based Regularization with an Application to Multi-Task
+  Learning
+This paper investigates, from information theoretic grounds, a learning
+problem based on the principle that any regularity in a given dataset can be
+exploited to extract compact features from data, i.e., using fewer bits than
+needed to fully describe the data itself, in order to build meaningful
+representations of a relevant content (multiple labels). We begin by
+introducing the noisy lossy source coding paradigm with the log-loss fidelity
+criterion which provides the fundamental tradeoffs between the
+\emph{cross-entropy loss} (average risk) and the information rate of the
+features (model complexity). Our approach allows an information theoretic
+formulation of the \emph{multi-task learning} (MTL) problem which is a
+supervised learning framework in which the prediction models for several
+related tasks are learned jointly from common representations to achieve better
+generalization performance. Then, we present an iterative algorithm for
+computing the optimal tradeoffs and its global convergence is proven provided
+that some conditions hold. An important property of this algorithm is that it
+provides a natural safeguard against overfitting, because it minimizes the
+average risk taking into account a penalization induced by the model
+complexity. Remarkably, empirical results illustrate that there exists an
+optimal information rate minimizing the \emph{excess risk} which depends on the
+nature and the amount of available training data. An application to
+hierarchical text categorization is also investigated, extending previous
+works.

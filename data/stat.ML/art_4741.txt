@@ -1,0 +1,15 @@
+Gaussian Processes for Music Audio Modelling and Content Analysis
+Real music signals are highly variable, yet they have strong statistical
+structure. Prior information about the underlying physical mechanisms by which
+sounds are generated and rules by which complex sound structure is constructed
+(notes, chords, a complete musical score), can be naturally unified using
+Bayesian modelling techniques. Typically algorithms for Automatic Music
+Transcription independently carry out individual tasks such as multiple-F0
+detection and beat tracking. The challenge remains to perform joint estimation
+of all parameters. We present a Bayesian approach for modelling music audio,
+and content analysis. The proposed methodology based on Gaussian processes
+seeks joint estimation of multiple music concepts by incorporating into the
+kernel prior information about non-stationary behaviour, dynamics, and rich
+spectral content present in the modelled music signal. We illustrate the
+benefits of this approach via two tasks: pitch estimation, and inferring
+missing segments in a polyphonic audio recording.

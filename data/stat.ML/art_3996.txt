@@ -1,0 +1,19 @@
+Optimization for Large-Scale Machine Learning with Distributed Features
+  and Observations
+As the size of modern data sets exceeds the disk and memory capacities of a
+single computer, machine learning practitioners have resorted to parallel and
+distributed computing. Given that optimization is one of the pillars of machine
+learning and predictive modeling, distributed optimization methods have
+recently garnered ample attention in the literature. Although previous research
+has mostly focused on settings where either the observations, or features of
+the problem at hand are stored in distributed fashion, the situation where both
+are partitioned across the nodes of a computer cluster (doubly distributed) has
+barely been studied. In this work we propose two doubly distributed
+optimization algorithms. The first one falls under the umbrella of distributed
+dual coordinate ascent methods, while the second one belongs to the class of
+stochastic gradient/coordinate descent hybrid methods. We conduct numerical
+experiments in Spark using real-world and simulated data sets and study the
+scaling properties of our methods. Our empirical evaluation of the proposed
+algorithms demonstrates the out-performance of a block distributed ADMM method,
+which, to the best of our knowledge is the only other existing doubly
+distributed optimization algorithm.

@@ -1,0 +1,12 @@
+Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec
+Distributed dense word vectors have been shown to be effective at capturing
+token-level semantic and syntactic regularities in language, while topic models
+can form interpretable representations over documents. In this work, we
+describe lda2vec, a model that learns dense word vectors jointly with
+Dirichlet-distributed latent document-level mixtures of topic vectors. In
+contrast to continuous dense document representations, this formulation
+produces sparse, interpretable document mixtures through a non-negative simplex
+constraint. Our method is simple to incorporate into existing automatic
+differentiation frameworks and allows for unsupervised document representations
+geared for use by scientists while simultaneously learning word vectors and the
+linear relationships between them.

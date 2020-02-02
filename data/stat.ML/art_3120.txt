@@ -1,0 +1,17 @@
+Iterative Subsampling in Solution Path Clustering of Noisy Big Data
+We develop an iterative subsampling approach to improve the computational
+efficiency of our previous work on solution path clustering (SPC). The SPC
+method achieves clustering by concave regularization on the pairwise distances
+between cluster centers. This clustering method has the important capability to
+recognize noise and to provide a short path of clustering solutions; however,
+it is not sufficiently fast for big datasets. Thus, we propose a method that
+iterates between clustering a small subsample of the full data and sequentially
+assigning the other data points to attain orders of magnitude of computational
+savings. The new method preserves the ability to isolate noise, includes a
+solution selection mechanism that ultimately provides one clustering solution
+with an estimated number of clusters, and is shown to be able to extract small
+tight clusters from noisy data. The method's relatively minor losses in
+accuracy are demonstrated through simulation studies, and its ability to handle
+large datasets is illustrated through applications to gene expression datasets.
+An R package, SPClustering, for the SPC method with iterative subsampling is
+available at http://www.stat.ucla.edu/~zhou/Software.html.

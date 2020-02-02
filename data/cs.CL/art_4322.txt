@@ -1,0 +1,20 @@
+Instantiation
+In computational linguistics, a large body of work exists on distributed
+modeling of lexical relations, focussing largely on lexical relations such as
+hypernymy (scientist -- person) that hold between two categories, as expressed
+by common nouns. In contrast, computational linguistics has paid little
+attention to entities denoted by proper nouns (Marie Curie, Mumbai, ...). These
+have investigated in detail by the Knowledge Representation and Semantic Web
+communities, but generally not with regard to their linguistic properties.
+  Our paper closes this gap by investigating and modeling the lexical relation
+of instantiation, which holds between an entity-denoting and a
+category-denoting expression (Marie Curie -- scientist or Mumbai -- city). We
+present a new, principled dataset for the task of instantiation detection as
+well as experiments and analyses on this dataset. We obtain the following
+results: (a), entities belonging to one category form a region in
+distributional space, but the embedding for the category word is typically
+located outside this subspace; (b) it is easy to learn to distinguish entities
+from categories from distributional evidence, but due to (a), instantiation
+proper is much harder to learn when using common nouns as representations of
+categories; (c) this problem can be alleviated by using category
+representations based on entity rather than category word embeddings.

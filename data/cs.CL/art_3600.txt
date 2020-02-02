@@ -1,0 +1,10 @@
+English Out-of-Vocabulary Lexical Evaluation Task
+Unlike previous unknown nouns tagging task, this is the first attempt to
+focus on out-of-vocabulary (OOV) lexical evaluation tasks that do not require
+any prior knowledge. The OOV words are words that only appear in test samples.
+The goal of tasks is to provide solutions for OOV lexical classification and
+prediction. The tasks require annotators to conclude the attributes of the OOV
+words based on their related contexts. Then, we utilize unsupervised word
+embedding methods such as Word2Vec and Word2GM to perform the baseline
+experiments on the categorical classification task and OOV words attribute
+prediction tasks.

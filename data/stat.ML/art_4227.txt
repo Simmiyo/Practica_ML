@@ -1,0 +1,18 @@
+Top-down Transformation Choice
+Simple models are preferred over complex models, but over-simplistic models
+could lead to erroneous interpretations. The classical approach is to start
+with a simple model, whose shortcomings are assessed in residual-based model
+diagnostics. Eventually, one increases the complexity of this initial overly
+simple model and obtains a better-fitting model. I illustrate how
+transformation analysis can be used as an alternative approach to model choice.
+Instead of adding complexity to simple models, step-wise complexity reduction
+is used to help identify simpler and better-interpretable models. As an
+example, body mass index distributions in Switzerland are modelled by means of
+transformation models to understand the impact of sex, age, smoking and other
+lifestyle factors on a person's body mass index. In this process, I searched
+for a compromise between model fit and model interpretability. Special emphasis
+is given to the understanding of the connections between transformation models
+of increasing complexity. The models used in this analysis ranged from
+evergreens, such as the normal linear regression model with constant variance,
+to novel models with extremely flexible conditional distribution functions,
+such as transformation trees and transformation forests.

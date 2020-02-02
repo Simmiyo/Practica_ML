@@ -1,0 +1,24 @@
+Learning Mid-Level Auditory Codes from Natural Sound Statistics
+Interaction with the world requires an organism to transform sensory signals
+into representations in which behaviorally meaningful properties of the
+environment are made explicit. These representations are derived through
+cascades of neuronal processing stages in which neurons at each stage recode
+the output of preceding stages. Explanations of sensory coding may thus involve
+understanding how low-level patterns are combined into more complex structures.
+Although models exist in the visual domain to explain how mid-level features
+such as junctions and curves might be derived from oriented filters in early
+visual cortex, little is known about analogous grouping principles for
+mid-level auditory representations. We propose a hierarchical generative model
+of natural sounds that learns combinations of spectrotemporal features from
+natural stimulus statistics. In the first layer the model forms a sparse
+convolutional code of spectrograms using a dictionary of learned
+spectrotemporal kernels. To generalize from specific kernel activation
+patterns, the second layer encodes patterns of time-varying magnitude of
+multiple first layer coefficients. Because second-layer features are sensitive
+to combinations of spectrotemporal features, the representation they support
+encodes more complex acoustic patterns than the first layer. When trained on
+corpora of speech and environmental sounds, some second-layer units learned to
+group spectrotemporal features that occur together in natural sounds. Others
+instantiate opponency between dissimilar sets of spectrotemporal features. Such
+groupings might be instantiated by neurons in the auditory cortex, providing a
+hypothesis for mid-level neuronal computation.

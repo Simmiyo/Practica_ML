@@ -1,0 +1,12 @@
+Improving Spectral Clustering using the Asymptotic Value of the
+  Normalised Cut
+Spectral clustering is a popular and versatile clustering method based on a
+relaxation of the normalised graph cut objective. Despite its popularity,
+however, there is no single agreed upon method for tuning the important scaling
+parameter, nor for determining automatically the number of clusters to extract.
+Popular heuristics exist, but corresponding theoretical results are scarce. In
+this paper we investigate the asymptotic value of the normalised cut for an
+increasing sample assumed to arise from an underlying probability distribution,
+and based on this result provide recommendations for improving spectral
+clustering methodology. A corresponding algorithm is proposed with strong
+empirical performance.

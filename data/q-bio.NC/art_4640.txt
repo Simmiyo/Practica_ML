@@ -1,0 +1,12 @@
+LFADS - Latent Factor Analysis via Dynamical Systems
+Neuroscience is experiencing a data revolution in which many hundreds or
+thousands of neurons are recorded simultaneously. Currently, there is little
+consensus on how such data should be analyzed. Here we introduce LFADS (Latent
+Factor Analysis via Dynamical Systems), a method to infer latent dynamics from
+simultaneously recorded, single-trial, high-dimensional neural spiking data.
+LFADS is a sequential model based on a variational auto-encoder. By making a
+dynamical systems hypothesis regarding the generation of the observed data,
+LFADS reduces observed spiking to a set of low-dimensional temporal factors,
+per-trial initial conditions, and inferred inputs. We compare LFADS to existing
+methods on synthetic data and show that it significantly out-performs them in
+inferring neural firing rates and latent dynamics.

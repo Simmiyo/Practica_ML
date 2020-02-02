@@ -1,0 +1,17 @@
+Greedy Learning of Markov Network Structure
+We propose a new yet natural algorithm for learning the graph structure of
+general discrete graphical models (a.k.a. Markov random fields) from samples.
+Our algorithm finds the neighborhood of a node by sequentially adding nodes
+that produce the largest reduction in empirical conditional entropy; it is
+greedy in the sense that the choice of addition is based only on the reduction
+achieved at that iteration. Its sequential nature gives it a lower
+computational complexity as compared to other existing comparison-based
+techniques, all of which involve exhaustive searches over every node set of a
+certain size. Our main result characterizes the sample complexity of this
+procedure, as a function of node degrees, graph size and girth in factor-graph
+representation. We subsequently specialize this result to the case of Ising
+models, where we provide a simple transparent characterization of sample
+complexity as a function of model and graph parameters.
+  For tree graphs, our algorithm is the same as the classical Chow-Liu
+algorithm, and in that sense can be considered the extension of the same to
+graphs with cycles.

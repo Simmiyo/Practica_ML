@@ -1,0 +1,15 @@
+Spatio-temporal spike trains analysis for large scale networks using
+  maximum entropy principle and Monte-Carlo method
+Understanding the dynamics of neural networks is a major challenge in
+experimental neuroscience. For that purpose, a modelling of the recorded
+activity that reproduces the main statistics of the data is required. In a
+first part, we present a review on recent results dealing with spike train
+statistics analysis using maximum entropy models (MaxEnt). Most of these
+studies have been focusing on modelling synchronous spike patterns, leaving
+aside the temporal dynamics of the neural activity. However, the maximum
+entropy principle can be generalized to the temporal case, leading to Markovian
+models where memory effects and time correlations in the dynamics are properly
+taken into account. In a second part, we present a new method based on
+Monte-Carlo sampling which is suited for the fitting of large-scale
+spatio-temporal MaxEnt models. The formalism and the tools presented here will
+be essential to fit MaxEnt spatio-temporal models to large neural ensembles.

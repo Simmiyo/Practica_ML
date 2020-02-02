@@ -1,0 +1,14 @@
+Tyler's Covariance Matrix Estimator in Elliptical Models with Convex
+  Structure
+We address structured covariance estimation in elliptical distributions by
+assuming that the covariance is a priori known to belong to a given convex set,
+e.g., the set of Toeplitz or banded matrices. We consider the General Method of
+Moments (GMM) optimization applied to robust Tyler's scatter M-estimator
+subject to these convex constraints. Unfortunately, GMM turns out to be
+non-convex due to the objective. Instead, we propose a new COCA estimator - a
+convex relaxation which can be efficiently solved. We prove that the relaxation
+is tight in the unconstrained case for a finite number of samples, and in the
+constrained case asymptotically. We then illustrate the advantages of COCA in
+synthetic simulations with structured compound Gaussian distributions. In these
+examples, COCA outperforms competing methods such as Tyler's estimator and its
+projection onto the structure set.

@@ -1,0 +1,22 @@
+A constructive mean field analysis of multi population neural networks
+  with random synaptic weights and stochastic inputs
+We deal with the problem of bridging the gap between two scales in neuronal
+modeling. At the first (microscopic) scale, neurons are considered individually
+and their behavior described by stochastic differential equations that govern
+the time variations of their membrane potentials. They are coupled by synaptic
+connections acting on their resulting activity, a nonlinear function of their
+membrane potential. At the second (mesoscopic) scale, interacting populations
+of neurons are described individually by similar equations. The equations
+describing the dynamical and the stationary mean field behaviors are considered
+as functional equations on a set of stochastic processes. Using this new point
+of view allows us to prove that these equations are well-posed on any finite
+time interval and to provide a constructive method for effectively computing
+their unique solution. This method is proved to converge to the unique solution
+and we characterize its complexity and convergence rate. We also provide
+partial results for the stationary problem on infinite time intervals. These
+results shed some new light on such neural mass models as the one of Jansen and
+Rit \cite{jansen-rit:95}: their dynamics appears as a coarse approximation of
+the much richer dynamics that emerges from our analysis. Our numerical
+experiments confirm that the framework we propose and the numerical methods we
+derive from it provide a new and powerful tool for the exploration of neural
+behaviors at different scales.

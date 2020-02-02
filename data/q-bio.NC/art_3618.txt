@@ -1,0 +1,22 @@
+Automatic Detection of Cortical Arousals in Sleep and their Contribution
+  to Daytime Sleepiness
+Cortical arousals are transient events of disturbed sleep that occur
+spontaneously or in response to stimuli such as apneic events. The gold
+standard for arousal detection in human polysomnographic recordings (PSGs) is
+manual annotation by expert human scorers, a method with significant
+interscorer variability. In this study, we developed an automated method, the
+Multimodal Arousal Detector (MAD), to detect arousals using deep learning
+methods. The MAD was trained on 2,889 PSGs to detect both cortical arousals and
+wakefulness in 1 second intervals. Furthermore, the relationship between
+MAD-predicted labels on PSGs and next day mean sleep latency (MSL) on a
+multiple sleep latency test (MSLT), a reflection of daytime sleepiness, was
+analyzed in 1447 MSLT instances in 873 subjects. In a dataset of 1,026 PSGs,
+the MAD achieved a F1 score of 0.76 for arousal detection, while wakefulness
+was predicted with an accuracy of 0.95. In 60 PSGs scored by multiple human
+expert technicians, the MAD significantly outperformed the average human scorer
+for arousal detection with a difference in F1 score of 0.09. After controlling
+for other known covariates, a doubling of the arousal index was associated with
+an average decrease in MSL of 40 seconds ($\beta$ = -0.67, p = 0.0075). The MAD
+outperformed the average human expert and the MAD-predicted arousals were shown
+to be significant predictors of MSL, which demonstrate clinical validity the
+MAD.

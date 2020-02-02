@@ -1,0 +1,8 @@
+Fast Convergent Algorithms for Expectation Propagation Approximate
+  Bayesian Inference
+We propose a novel algorithm to solve the expectation propagation relaxation
+of Bayesian inference for continuous-variable graphical models. In contrast to
+most previous algorithms, our method is provably convergent. By marrying
+convergent EP ideas from (Opper&Winther 05) with covariance decoupling
+techniques (Wipf&Nagarajan 08, Nickisch&Seeger 09), it runs at least an order
+of magnitude faster than the most commonly used EP solver.

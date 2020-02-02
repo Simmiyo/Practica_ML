@@ -1,0 +1,22 @@
+Fastfood: Approximate Kernel Expansions in Loglinear Time
+Despite their successes, what makes kernel methods difficult to use in many
+large scale problems is the fact that storing and computing the decision
+function is typically expensive, especially at prediction time. In this paper,
+we overcome this difficulty by proposing Fastfood, an approximation that
+accelerates such computation significantly. Key to Fastfood is the observation
+that Hadamard matrices, when combined with diagonal Gaussian matrices, exhibit
+properties similar to dense Gaussian random matrices. Yet unlike the latter,
+Hadamard and diagonal matrices are inexpensive to multiply and store. These two
+matrices can be used in lieu of Gaussian matrices in Random Kitchen Sinks
+proposed by Rahimi and Recht (2009) and thereby speeding up the computation for
+a large range of kernel functions. Specifically, Fastfood requires O(n log d)
+time and O(n) storage to compute n non-linear basis functions in d dimensions,
+a significant improvement from O(nd) computation and storage, without
+sacrificing accuracy.
+  Our method applies to any translation invariant and any dot-product kernel,
+such as the popular RBF kernels and polynomial kernels. We prove that the
+approximation is unbiased and has low variance. Experiments show that we
+achieve similar accuracy to full kernel expansions and Random Kitchen Sinks
+while being 100x faster and using 1000x less memory. These improvements,
+especially in terms of memory usage, make kernel methods more practical for
+applications that have large training sets and/or require real-time prediction.

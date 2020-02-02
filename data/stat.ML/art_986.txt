@@ -1,0 +1,16 @@
+Bayesian Dropout
+Dropout has recently emerged as a powerful and simple method for training
+neural networks preventing co-adaptation by stochastically omitting neurons.
+Dropout is currently not grounded in explicit modelling assumptions which so
+far has precluded its adoption in Bayesian modelling. Using Bayesian entropic
+reasoning we show that dropout can be interpreted as optimal inference under
+constraints. We demonstrate this on an analytically tractable regression model
+providing a Bayesian interpretation of its mechanism for regularizing and
+preventing co-adaptation as well as its connection to other Bayesian
+techniques. We also discuss two general approximate techniques for applying
+Bayesian dropout for general models, one based on an analytical approximation
+and the other on stochastic variational techniques. These techniques are then
+applied to a Baysian logistic regression problem and are shown to improve
+performance as the model become more misspecified. Our framework roots dropout
+as a theoretically justified and practical tool for statistical modelling
+allowing Bayesians to tap into the benefits of dropout training.

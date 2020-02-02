@@ -1,0 +1,24 @@
+Velocity integration in a multilayer neural field model of spatial
+  working memory
+We analyze a multilayer neural field model of spatial working memory,
+focusing on the impact of interlaminar connectivity, spatial heterogeneity, and
+velocity inputs. Models of spatial working memory typically employ networks
+that generate persistent activity via a combination of local excitation and
+lateral inhibition. Our model is comprised of a multilayer set of equations
+that describes connectivity between neurons in the same and different layers
+using an integral term. The kernel of this integral term then captures the
+impact of different interlaminar connection strengths, spatial heterogeneity,
+and velocity input. We begin our analysis by focusing on how interlaminar
+connectivity shapes the form and stability of (persistent) bump attractor
+solutions to the model. Subsequently, we derive a low-dimensional approximation
+that describes how spatial heterogeneity, velocity input, and noise combine to
+determine the position of bump solutions. The main impact of spatial
+heterogeneity is to break the translation symmetry of the network, so bumps
+prefer to reside at one of a finite number of local attractors in the domain.
+With the reduced model in hand, we can then approximate the dynamics of the
+bump position using a continuous time Markov chain model that describes bump
+motion between local attractors. While heterogeneity reduces the effective
+diffusion of the bumps, it also disrupts the processing of velocity inputs by
+slowing the velocity-induced propagation of bumps. However, we demonstrate that
+noise can play a constructive role by promoting bump motion transitions,
+restoring a mean bump velocity that is close to the input velocity.

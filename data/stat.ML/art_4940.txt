@@ -1,0 +1,12 @@
+A novel transfer learning method based on common space mapping and
+  weighted domain matching
+In this paper, we propose a novel learning framework for the problem of
+domain transfer learning. We map the data of two domains to one single common
+space, and learn a classifier in this common space. Then we adapt the common
+classifier to the two domains by adding two adaptive functions to it
+respectively. In the common space, the target domain data points are weighted
+and matched to the target domain in term of distributions. The weighting terms
+of source domain data points and the target domain classification responses are
+also regularized by the local reconstruction coefficients. The novel transfer
+learning framework is evaluated over some benchmark cross-domain data sets, and
+it outperforms the existing state-of-the-art transfer learning methods.

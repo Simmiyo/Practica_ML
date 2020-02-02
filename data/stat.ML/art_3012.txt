@@ -1,0 +1,17 @@
+Distributed Robust Learning
+We propose a framework for distributed robust statistical learning on {\em
+big contaminated data}. The Distributed Robust Learning (DRL) framework can
+reduce the computational time of traditional robust learning methods by several
+orders of magnitude. We analyze the robustness property of DRL, showing that
+DRL not only preserves the robustness of the base robust learning method, but
+also tolerates contaminations on a constant fraction of results from computing
+nodes (node failures). More precisely, even in presence of the most adversarial
+outlier distribution over computing nodes, DRL still achieves a breakdown point
+of at least $ \lambda^*/2 $, where $ \lambda^* $ is the break down point of
+corresponding centralized algorithm. This is in stark contrast with naive
+division-and-averaging implementation, which may reduce the breakdown point by
+a factor of $ k $ when $ k $ computing nodes are used. We then specialize the
+DRL framework for two concrete cases: distributed robust principal component
+analysis and distributed robust regression. We demonstrate the efficiency and
+the robustness advantages of DRL through comprehensive simulations and
+predicting image tags on a large-scale image set.

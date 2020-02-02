@@ -1,0 +1,25 @@
+Automated identification of neurons and their locations
+Individual locations of many neuronal cell bodies (>10^4) are needed to
+enable statistically significant measurements of spatial organization within
+the brain such as nearest-neighbor and microcolumnarity measurements. In this
+paper, we introduce an Automated Neuron Recognition Algorithm (ANRA) which
+obtains the (x,y) location of individual neurons within digitized images of
+Nissl-stained, 30 micron thick, frozen sections of the cerebral cortex of the
+Rhesus monkey. Identification of neurons within such Nissl-stained sections is
+inherently difficult due to the variability in neuron staining, the overlap of
+neurons, the presence of partial or damaged neurons at tissue surfaces, and the
+presence of non-neuron objects, such as glial cells, blood vessels, and random
+artifacts. To overcome these challenges and identify neurons, ANRA applies a
+combination of image segmentation and machine learning. The steps involve
+active contour segmentation to find outlines of potential neuron cell bodies
+followed by artificial neural network training using the segmentation
+properties (size, optical density, gyration, etc.) to distinguish between
+neuron and non-neuron segmentations. ANRA positively identifies 86[5]% neurons
+with 15[8]% error (mean[st.dev.]) on a wide range of Nissl-stained images,
+whereas semi-automatic methods obtain 80[7]%/17[12]%. A further advantage of
+ANRA is that it affords an unlimited increase in speed from semi-automatic
+methods, and is computationally efficient, with the ability to recognize ~100
+neurons per minute using a standard personal computer. ANRA is amenable to
+analysis of huge photo-montages of Nissl-stained tissue, thereby opening the
+door to fast, efficient and quantitative analysis of vast stores of archival
+material that exist in laboratories and research collections around the world.

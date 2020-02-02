@@ -1,0 +1,11 @@
+From Word Segmentation to POS Tagging for Vietnamese
+This paper presents an empirical comparison of two strategies for Vietnamese
+Part-of-Speech (POS) tagging from unsegmented text: (i) a pipeline strategy
+where we consider the output of a word segmenter as the input of a POS tagger,
+and (ii) a joint strategy where we predict a combined segmentation and POS tag
+for each syllable. We also make a comparison between state-of-the-art (SOTA)
+feature-based and neural network-based models. On the benchmark Vietnamese
+treebank (Nguyen et al., 2009), experimental results show that the pipeline
+strategy produces better scores of POS tagging from unsegmented text than the
+joint strategy, and the highest accuracy is obtained by using a feature-based
+model.

@@ -1,0 +1,17 @@
+Investigating the Working of Text Classifiers
+Text classification is one of the most widely studied tasks in natural
+language processing. Motivated by the principle of compositionality, large
+multilayer neural network models have been employed for this task in an attempt
+to effectively utilize the constituent expressions. Almost all of the reported
+work train large networks using discriminative approaches, which come with a
+caveat of no proper capacity control, as they tend to latch on to any signal
+that may not generalize. Using various recent state-of-the-art approaches for
+text classification, we explore whether these models actually learn to compose
+the meaning of the sentences or still just focus on some keywords or lexicons
+for classifying the document. To test our hypothesis, we carefully construct
+datasets where the training and test splits have no direct overlap of such
+lexicons, but overall language structure would be similar. We study various
+text classifiers and observe that there is a big performance drop on these
+datasets. Finally, we show that even simple models with our proposed
+regularization techniques, which disincentivize focusing on key lexicons, can
+substantially improve classification accuracy.

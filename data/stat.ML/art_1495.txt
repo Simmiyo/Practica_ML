@@ -1,0 +1,21 @@
+A graph-embedded deep feedforward network for disease outcome
+  classification and feature selection using gene expression data
+Gene expression data represents a unique challenge in predictive model
+building, because of the small number of samples $(n)$ compared to the huge
+amount of features $(p)$. This "$n<<p$" property has hampered application of
+deep learning techniques for disease outcome classification. Sparse learning by
+incorporating external gene network information could be a potential solution
+to this issue. Still, the problem is very challenging because (1) there are
+tens of thousands of features and only hundreds of training samples, (2) the
+scale-free structure of the gene network is unfriendly to the setup of
+convolutional neural networks. To address these issues and build a robust
+classification model, we propose the Graph-Embedded Deep Feedforward Networks
+(GEDFN), to integrate external relational information of features into the deep
+neural network architecture. The method is able to achieve sparse connection
+between network layers to prevent overfitting. To validate the method's
+capability, we conducted both simulation experiments and a real data analysis
+using a breast cancer RNA-seq dataset from The Cancer Genome Atlas (TCGA). The
+resulting high classification accuracy and easily interpretable feature
+selection results suggest the method is a useful addition to the current
+classification models and feature selection procedures. The method is available
+at https://github.com/yunchuankong/NetworkNeuralNetwork.

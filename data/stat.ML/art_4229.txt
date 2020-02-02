@@ -1,0 +1,16 @@
+Cognitive Subscore Trajectory Prediction in Alzheimer's Disease
+Accurate diagnosis of Alzheimer's Disease (AD) entails clinical evaluation of
+multiple cognition metrics and biomarkers. Metrics such as the Alzheimer's
+Disease Assessment Scale - Cognitive test (ADAS-cog) comprise multiple
+subscores that quantify different aspects of a patient's cognitive state such
+as learning, memory, and language production/comprehension. Although
+computer-aided diagnostic techniques for classification of a patient's current
+disease state exist, they provide little insight into the relationship between
+changes in brain structure and different aspects of a patient's cognitive state
+that occur over time in AD. We have developed a Convolutional Neural Network
+architecture that can concurrently predict the trajectories of the 13 subscores
+comprised by a subject's ADAS-cog examination results from a current minimally
+preprocessed structural MRI scan up to 36 months from image acquisition time
+without resorting to manual feature extraction. Mean performance metrics are
+within range of those of existing techniques that require manual feature
+selection and are limited to predicting aggregate scores.

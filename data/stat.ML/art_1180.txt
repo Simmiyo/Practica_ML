@@ -1,0 +1,25 @@
+Hierarchical Symbolic Dynamic Filtering of Streaming Non-stationary Time
+  Series Data
+This paper proposes a hierarchical feature extractor for non-stationary
+streaming time series based on the concept of switching observable Markov chain
+models. The slow time-scale non-stationary behaviors are considered to be a
+mixture of quasi-stationary fast time-scale segments that are exhibited by
+complex dynamical systems. The idea is to model each unique stationary
+characteristic without a priori knowledge (e.g., number of possible unique
+characteristics) at a lower logical level, and capture the transitions from one
+low-level model to another at a higher level. In this context, the concepts in
+the recently developed Symbolic Dynamic Filtering (SDF) is extended, to build
+an online algorithm suited for handling quasi-stationary data at a lower level
+and a non-stationary behavior at a higher level without a priori knowledge. A
+key observation made in this study is that the rate of change of data
+likelihood seems to be a better indicator of change in data characteristics
+compared to the traditional methods that mostly consider data likelihood for
+change detection. The algorithm minimizes model complexity and captures data
+likelihood. Efficacy demonstration and comparative evaluation of the proposed
+algorithm are performed using time series data simulated from systems that
+exhibit nonlinear dynamics. We discuss results that show that the proposed
+hierarchical SDF algorithm can identify underlying features with significantly
+high degree of accuracy, even under very noisy conditions. Algorithm is
+demonstrated to perform better than the baseline Hierarchical Dirichlet
+Process-Hidden Markov Models (HDP-HMM). The low computational complexity of
+algorithm makes it suitable for on-board, real time operations.

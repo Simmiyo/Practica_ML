@@ -1,0 +1,21 @@
+Robust Nonparametric Regression via Sparsity Control with Application to
+  Load Curve Data Cleansing
+Nonparametric methods are widely applicable to statistical inference
+problems, since they rely on a few modeling assumptions. In this context, the
+fresh look advocated here permeates benefits from variable selection and
+compressive sampling, to robustify nonparametric regression against outliers -
+that is, data markedly deviating from the postulated models. A variational
+counterpart to least-trimmed squares regression is shown closely related to an
+L0-(pseudo)norm-regularized estimator, that encourages sparsity in a vector
+explicitly modeling the outliers. This connection suggests efficient solvers
+based on convex relaxation, which lead naturally to a variational M-type
+estimator equivalent to the least-absolute shrinkage and selection operator
+(Lasso). Outliers are identified by judiciously tuning regularization
+parameters, which amounts to controlling the sparsity of the outlier vector
+along the whole robustification path of Lasso solutions. Reduced bias and
+enhanced generalization capability are attractive features of an improved
+estimator obtained after replacing the L0-(pseudo)norm with a nonconvex
+surrogate. The novel robust spline-based smoother is adopted to cleanse load
+curve data, a key task aiding operational decisions in the envisioned smart
+grid system. Computer simulations and tests on real load curve data corroborate
+the effectiveness of the novel sparsity-controlling robust estimators.

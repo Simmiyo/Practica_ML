@@ -1,0 +1,17 @@
+Consistency Analysis of an Empirical Minimum Error Entropy Algorithm
+In this paper we study the consistency of an empirical minimum error entropy
+(MEE) algorithm in a regression setting. We introduce two types of consistency.
+The error entropy consistency, which requires the error entropy of the learned
+function to approximate the minimum error entropy, is shown to be always true
+if the bandwidth parameter tends to 0 at an appropriate rate. The regression
+consistency, which requires the learned function to approximate the regression
+function, however, is a complicated issue. We prove that the error entropy
+consistency implies the regression consistency for homoskedastic models where
+the noise is independent of the input variable. But for heteroskedastic models,
+a counterexample is used to show that the two types of consistency do not
+coincide. A surprising result is that the regression consistency is always
+true, provided that the bandwidth parameter tends to infinity at an appropriate
+rate. Regression consistency of two classes of special models is shown to hold
+with fixed bandwidth parameter, which further illustrates the complexity of
+regression consistency of MEE. Fourier transform plays crucial roles in our
+analysis.

@@ -1,0 +1,14 @@
+Multi-turn Inference Matching Network for Natural Language Inference
+Natural Language Inference (NLI) is a fundamental and challenging task in
+Natural Language Processing (NLP). Most existing methods only apply one-pass
+inference process on a mixed matching feature, which is a concatenation of
+different matching features between a premise and a hypothesis. In this paper,
+we propose a new model called Multi-turn Inference Matching Network (MIMN) to
+perform multi-turn inference on different matching features. In each turn, the
+model focuses on one particular matching feature instead of the mixed matching
+feature. To enhance the interaction between different matching features, a
+memory component is employed to store the history inference information. The
+inference of each turn is performed on the current matching feature and the
+memory. We conduct experiments on three different NLI datasets. The
+experimental results show that our model outperforms or achieves the
+state-of-the-art performance on all the three datasets.

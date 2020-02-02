@@ -1,0 +1,17 @@
+Learning Gaussian Graphical Models With Fractional Marginal
+  Pseudo-likelihood
+We propose a Bayesian approximate inference method for learning the
+dependence structure of a Gaussian graphical model. Using pseudo-likelihood, we
+derive an analytical expression to approximate the marginal likelihood for an
+arbitrary graph structure without invoking any assumptions about
+decomposability. The majority of the existing methods for learning Gaussian
+graphical models are either restricted to decomposable graphs or require
+specification of a tuning parameter that may have a substantial impact on
+learned structures. By combining a simple sparsity inducing prior for the graph
+structures with a default reference prior for the model parameters, we obtain a
+fast and easily applicable scoring function that works well for even
+high-dimensional data. We demonstrate the favourable performance of our
+approach by large-scale comparisons against the leading methods for learning
+non-decomposable Gaussian graphical models. A theoretical justification for our
+method is provided by showing that it yields a consistent estimator of the
+graph structure.

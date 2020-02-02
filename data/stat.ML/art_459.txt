@@ -1,0 +1,10 @@
+Raiders of the Lost Architecture: Kernels for Bayesian Optimization in
+  Conditional Parameter Spaces
+In practical Bayesian optimization, we must often search over structures with
+differing numbers of parameters. For instance, we may wish to search over
+neural network architectures with an unknown number of layers. To relate
+performance data gathered for different architectures, we define a new kernel
+for conditional parameter spaces that explicitly includes information about
+which parameters are relevant in a given structure. We show that this kernel
+improves model quality and Bayesian optimization results over several simpler
+baseline kernels.

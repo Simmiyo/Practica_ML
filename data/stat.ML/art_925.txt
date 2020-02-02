@@ -1,0 +1,15 @@
+Fast and reliable inference algorithm for hierarchical stochastic block
+  models
+Network clustering reveals the organization of a network or corresponding
+complex system with elements represented as vertices and interactions as edges
+in a (directed, weighted) graph. Although the notion of clustering can be
+somewhat loose, network clusters or groups are generally considered as nodes
+with enriched interactions and edges sharing common patterns. Statistical
+inference often treats groups as latent variables, with observed networks
+generated from latent group structure, termed a stochastic block model.
+Regardless of the definitions, statistical inference can be either translated
+to modularity maximization, which is provably an NP-complete problem.
+  Here we present scalable and reliable algorithms that recover hierarchical
+stochastic block models fast and accurately. Our algorithm scales almost
+linearly in number of edges, and inferred models were more accurate that other
+scalable methods.

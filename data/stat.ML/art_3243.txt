@@ -1,0 +1,14 @@
+Non-stochastic Best Arm Identification and Hyperparameter Optimization
+Motivated by the task of hyperparameter optimization, we introduce the
+non-stochastic best-arm identification problem. Within the multi-armed bandit
+literature, the cumulative regret objective enjoys algorithms and analyses for
+both the non-stochastic and stochastic settings while to the best of our
+knowledge, the best-arm identification framework has only been considered in
+the stochastic setting. We introduce the non-stochastic setting under this
+framework, identify a known algorithm that is well-suited for this setting, and
+analyze its behavior. Next, by leveraging the iterative nature of standard
+machine learning algorithms, we cast hyperparameter optimization as an instance
+of non-stochastic best-arm identification, and empirically evaluate our
+proposed algorithm on this task. Our empirical results show that, by allocating
+more resources to promising hyperparameter settings, we typically achieve
+comparable test accuracies an order of magnitude faster than baseline methods.

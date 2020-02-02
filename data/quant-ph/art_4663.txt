@@ -1,0 +1,11 @@
+Quantum algorithm for finding periodicities in the spectrum of a
+  black-box Hamiltonian or unitary transformation
+Estimating the eigenvalues of a unitary transformation U by standard phase
+estimation requires the implementation of controlled-U-gates which are not
+available if U is only given as a black box.
+  We show that a simple trick allows to measure eigenvalues of U\otimes
+U^\dagger even in this case. Running the algorithm several times allows
+therefore to estimate the autocorrelation function of the density of
+eigenstates of U. This can be applied to find periodicities in the energy
+spectrum of a quantum system with unknown Hamiltonian if it can be coupled to a
+quantum computer.

@@ -1,0 +1,27 @@
+The effect of heterogeneity on decorrelation mechanisms in spiking
+  neural networks: a neuromorphic-hardware study
+High-level brain function such as memory, classification or reasoning can be
+realized by means of recurrent networks of simplified model neurons. Analog
+neuromorphic hardware constitutes a fast and energy efficient substrate for the
+implementation of such neural computing architectures in technical applications
+and neuroscientific research. The functional performance of neural networks is
+often critically dependent on the level of correlations in the neural activity.
+In finite networks, correlations are typically inevitable due to shared
+presynaptic input. Recent theoretical studies have shown that inhibitory
+feedback, abundant in biological neural networks, can actively suppress these
+shared-input correlations and thereby enable neurons to fire nearly
+independently. For networks of spiking neurons, the decorrelating effect of
+inhibitory feedback has so far been explicitly demonstrated only for
+homogeneous networks of neurons with linear sub-threshold dynamics. Theory,
+however, suggests that the effect is a general phenomenon, present in any
+system with sufficient inhibitory feedback, irrespective of the details of the
+network structure or the neuronal and synaptic properties. Here, we investigate
+the effect of network heterogeneity on correlations in sparse, random networks
+of inhibitory neurons with non-linear, conductance-based synapses. Emulations
+of these networks on the analog neuromorphic hardware system Spikey allow us to
+test the efficiency of decorrelation by inhibitory feedback in the presence of
+hardware-specific heterogeneities. The configurability of the hardware
+substrate enables us to modulate the extent of heterogeneity in a systematic
+manner. We selectively study the effects of shared input and recurrent
+connections on correlations in membrane potentials and spike trains. Our
+results confirm ...

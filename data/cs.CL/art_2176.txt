@@ -1,0 +1,19 @@
+Mining Compatible/Incompatible Entities from Question and Answering via
+  Yes/No Answer Classification using Distant Label Expansion
+Product Community Question Answering (PCQA) provides useful information about
+products and their features (aspects) that may not be well addressed by product
+descriptions and reviews. We observe that a product's compatibility issues with
+other products are frequently discussed in PCQA and such issues are more
+frequently addressed in accessories, i.e., via a yes/no question "Does this
+mouse work with windows 10?". In this paper, we address the problem of
+extracting compatible and incompatible products from yes/no questions in PCQA.
+This problem can naturally have a two-stage framework: first, we perform
+Complementary Entity (product) Recognition (CER) on yes/no questions; second,
+we identify the polarities of yes/no answers to assign the complementary
+entities a compatibility label (compatible, incompatible or unknown). We
+leverage an existing unsupervised method for the first stage and a 3-class
+classifier by combining a distant PU-learning method (learning from positive
+and unlabeled examples) together with a binary classifier for the second stage.
+The benefit of using distant PU-learning is that it can help to expand more
+implicit yes/no answers without using any human annotated data. We conduct
+experiments on 4 products to show that the proposed method is effective.

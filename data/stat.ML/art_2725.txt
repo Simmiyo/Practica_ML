@@ -1,0 +1,19 @@
+Learning rates of $l^q$ coefficient regularization learning with
+  Gaussian kernel
+Regularization is a well recognized powerful strategy to improve the
+performance of a learning machine and $l^q$ regularization schemes with
+$0<q<\infty$ are central in use. It is known that different $q$ leads to
+different properties of the deduced estimators, say, $l^2$ regularization leads
+to smooth estimators while $l^1$ regularization leads to sparse estimators.
+Then, how does the generalization capabilities of $l^q$ regularization learning
+vary with $q$? In this paper, we study this problem in the framework of
+statistical learning theory and show that implementing $l^q$ coefficient
+regularization schemes in the sample dependent hypothesis space associated with
+Gaussian kernel can attain the same almost optimal learning rates for all
+$0<q<\infty$. That is, the upper and lower bounds of learning rates for $l^q$
+regularization learning are asymptotically identical for all $0<q<\infty$. Our
+finding tentatively reveals that, in some modeling contexts, the choice of $q$
+might not have a strong impact with respect to the generalization capability.
+From this perspective, $q$ can be arbitrarily specified, or specified merely by
+other no generalization criteria like smoothness, computational complexity,
+sparsity, etc..

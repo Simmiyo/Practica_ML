@@ -1,0 +1,12 @@
+Cognate-aware morphological segmentation for multilingual neural
+  translation
+This article describes the Aalto University entry to the WMT18 News
+Translation Shared Task. We participate in the multilingual subtrack with a
+system trained under the constrained condition to translate from English to
+both Finnish and Estonian. The system is based on the Transformer model. We
+focus on improving the consistency of morphological segmentation for words that
+are similar orthographically, semantically, and distributionally; such words
+include etymological cognates, loan words, and proper names. For this, we
+introduce Cognate Morfessor, a multilingual variant of the Morfessor method. We
+show that our approach improves the translation quality particularly for
+Estonian, which has less resources for training the translation model.

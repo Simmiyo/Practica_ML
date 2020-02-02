@@ -1,0 +1,13 @@
+Graph-Based Manifold Frequency Analysis for Denoising
+We propose a new framework for manifold denoising based on processing in the
+graph Fourier frequency domain, derived from the spectral decomposition of the
+discrete graph Laplacian. Our approach uses the Spectral Graph Wavelet
+transform in order to per- form non-iterative denoising directly in the graph
+frequency domain, an approach inspired by conventional wavelet-based signal
+denoising methods. We theoretically justify our approach, based on the fact
+that for smooth manifolds the coordinate information energy is localized in the
+low spectral graph wavelet sub-bands, while the noise affects all frequency
+bands in a similar way. Experimental results show that our proposed manifold
+frequency denoising (MFD) approach significantly outperforms the state of the
+art denoising meth- ods, and is robust to a wide range of parameter selections,
+e.g., the choice of k nearest neighbor connectivity of the graph.

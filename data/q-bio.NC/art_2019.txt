@@ -1,0 +1,25 @@
+Sensitivity to the cutoff value in the quadratic adaptive
+  integrate-and-fire model
+The quadratic adaptive integrate-and-fire model (Izhikecih 2003, 2007) is
+recognized as very interesting for its computational efficiency and its ability
+to reproduce many behaviors observed in cortical neurons. For this reason it is
+currently widely used, in particular for large scale simulations of neural
+networks. This model emulates the dynamics of the membrane potential of a
+neuron together with an adaptation variable. The subthreshold dynamics is
+governed by a two-parameter differential equation, and a spike is emitted when
+the membrane potential variable reaches a given cutoff value. Subsequently the
+membrane potential is reset, and the adaptation variable is added a fixed value
+called the spike-triggered adaptation parameter. We show in this note that when
+the system does not converge to an equilibrium point, both variables of the
+subthreshold dynamical system blow up in finite time whatever the parameters of
+the dynamics. The cutoff is therefore essential for the model to be well
+defined and simulated. The divergence of the adaptation variable makes the
+system very sensitive to the cutoff: changing this parameter dramatically
+changes the spike patterns produced. Furthermore from a computational
+viewpoint, the fact that the adaptation variable blows up and the very sharp
+slope it has when the spike is emitted implies that the time step of the
+numerical simulation needs to be very small (or adaptive) in order to catch an
+accurate value of the adaptation at the time of the spike. It is not the case
+for the similar quartic (Touboul 2008) and exponential (Brette and Gerstner
+2005) models whose adaptation variable does not blow up in finite time, and
+which are therefore very robust to changes in the cutoff value.

@@ -1,0 +1,14 @@
+Variational zero-inflated Gaussian processes with sparse kernels
+Zero-inflated datasets, which have an excess of zero outputs, are commonly
+encountered in problems such as climate or rare event modelling. Conventional
+machine learning approaches tend to overestimate the non-zeros leading to poor
+performance. We propose a novel model family of zero-inflated Gaussian
+processes (ZiGP) for such zero-inflated datasets, produced by sparse kernels
+through learning a latent probit Gaussian process that can zero out kernel rows
+and columns whenever the signal is absent. The ZiGPs are particularly useful
+for making the powerful Gaussian process networks more interpretable. We
+introduce sparse GP networks where variable-order latent modelling is achieved
+through sparse mixing signals. We derive the non-trivial stochastic variational
+inference tractably for scalable learning of the sparse kernels in both models.
+The novel output-sparse approach improves both prediction of zero-inflated data
+and interpretability of latent mixing models.

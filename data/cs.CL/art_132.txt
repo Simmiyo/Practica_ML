@@ -1,0 +1,10 @@
+Parsing with the Shortest Derivation
+Common wisdom has it that the bias of stochastic grammars in favor of shorter
+derivations of a sentence is harmful and should be redressed. We show that the
+common wisdom is wrong for stochastic grammars that use elementary trees
+instead of context-free rules, such as Stochastic Tree-Substitution Grammars
+used by Data-Oriented Parsing models. For such grammars a non-probabilistic
+metric based on the shortest derivation outperforms a probabilistic metric on
+the ATIS and OVIS corpora, while it obtains very competitive results on the
+Wall Street Journal corpus. This paper also contains the first published
+experiments with DOP on the Wall Street Journal.

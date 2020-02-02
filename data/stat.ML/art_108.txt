@@ -1,0 +1,16 @@
+A bagging SVM to learn from positive and unlabeled examples
+We consider the problem of learning a binary classifier from a training set
+of positive and unlabeled examples, both in the inductive and in the
+transductive setting. This problem, often referred to as \emph{PU learning},
+differs from the standard supervised classification problem by the lack of
+negative examples in the training set. It corresponds to an ubiquitous
+situation in many applications such as information retrieval or gene ranking,
+when we have identified a set of data of interest sharing a particular
+property, and we wish to automatically retrieve additional data sharing the
+same property among a large and easily available pool of unlabeled data. We
+propose a conceptually simple method, akin to bagging, to approach both
+inductive and transductive PU learning problems, by converting them into series
+of supervised binary classification problems discriminating the known positive
+examples from random subsamples of the unlabeled set. We empirically
+demonstrate the relevance of the method on simulated and real data, where it
+performs at least as well as existing methods while being faster.

@@ -1,0 +1,17 @@
+YellowFin and the Art of Momentum Tuning
+Hyperparameter tuning is one of the most time-consuming workloads in deep
+learning. State-of-the-art optimizers, such as AdaGrad, RMSProp and Adam,
+reduce this labor by adaptively tuning an individual learning rate for each
+variable. Recently researchers have shown renewed interest in simpler methods
+like momentum SGD as they may yield better test metrics. Motivated by this
+trend, we ask: can simple adaptive methods based on SGD perform as well or
+better? We revisit the momentum SGD algorithm and show that hand-tuning a
+single learning rate and momentum makes it competitive with Adam. We then
+analyze its robustness to learning rate misspecification and objective
+curvature variation. Based on these insights, we design YellowFin, an automatic
+tuner for momentum and learning rate in SGD. YellowFin optionally uses a
+negative-feedback loop to compensate for the momentum dynamics in asynchronous
+settings on the fly. We empirically show that YellowFin can converge in fewer
+iterations than Adam on ResNets and LSTMs for image recognition, language
+modeling and constituency parsing, with a speedup of up to 3.28x in synchronous
+and up to 2.69x in asynchronous settings.

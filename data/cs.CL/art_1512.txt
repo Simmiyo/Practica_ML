@@ -1,0 +1,13 @@
+Dual Language Models for Code Switched Speech Recognition
+In this work, we present a simple and elegant approach to language modeling
+for bilingual code-switched text. Since code-switching is a blend of two or
+more different languages, a standard bilingual language model can be improved
+upon by using structures of the monolingual language models. We propose a novel
+technique called dual language models, which involves building two
+complementary monolingual language models and combining them using a
+probabilistic model for switching between the two. We evaluate the efficacy of
+our approach using a conversational Mandarin-English speech corpus. We prove
+the robustness of our model by showing significant improvements in perplexity
+measures over the standard bilingual language model without the use of any
+external information. Similar consistent improvements are also reflected in
+automatic speech recognition error rates.

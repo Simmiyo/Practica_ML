@@ -1,0 +1,10 @@
+Paraphrase Detection on Noisy Subtitles in Six Languages
+We perform automatic paraphrase detection on subtitle data from the
+Opusparcus corpus comprising six European languages: German, English, Finnish,
+French, Russian, and Swedish. We train two types of supervised sentence
+embedding models: a word-averaging (WA) model and a gated recurrent averaging
+network (GRAN) model. We find out that GRAN outperforms WA and is more robust
+to noisy training data. Better results are obtained with more and noisier data
+than less and cleaner data. Additionally, we experiment on other datasets,
+without reaching the same level of performance, because of domain mismatch
+between training and test data.

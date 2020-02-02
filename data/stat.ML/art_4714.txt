@@ -1,0 +1,15 @@
+Local Region Sparse Learning for Image-on-Scalar Regression
+Identification of regions of interest (ROI) associated with certain disease
+has a great impact on public health. Imposing sparsity of pixel values and
+extracting active regions simultaneously greatly complicate the image analysis.
+We address these challenges by introducing a novel region-selection penalty in
+the framework of image-on-scalar regression. Our penalty combines the Smoothly
+Clipped Absolute Deviation (SCAD) regularization, enforcing sparsity, and the
+SCAD of total variation (TV) regularization, enforcing spatial contiguity, into
+one group, which segments contiguous spatial regions against zero-valued
+background. Efficient algorithm is based on the alternative direction method of
+multipliers (ADMM) which decomposes the non-convex problem into two iterative
+optimization problems with explicit solutions. Another virtue of the proposed
+method is that a divide and conquer learning algorithm is developed, thereby
+allowing scaling to large images. Several examples are presented and the
+experimental results are compared with other state-of-the-art approaches.

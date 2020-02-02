@@ -1,0 +1,13 @@
+Tuning parameter selection for penalized likelihood estimation of
+  inverse covariance matrix
+In a Gaussian graphical model, the conditional independence between two
+variables are characterized by the corresponding zero entries in the inverse
+covariance matrix. Maximum likelihood method using the smoothly clipped
+absolute deviation (SCAD) penalty (Fan and Li, 2001) and the adaptive LASSO
+penalty (Zou, 2006) have been proposed in literature. In this article, we
+establish the result that using Bayesian information criterion (BIC) to select
+the tuning parameter in penalized likelihood estimation with both types of
+penalties can lead to consistent graphical model selection. We compare the
+empirical performance of BIC with cross validation method and demonstrate the
+advantageous performance of BIC criterion for tuning parameter selection
+through simulation studies.

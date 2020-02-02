@@ -1,0 +1,24 @@
+Direct Estimation of the Derivative of Quadratic Mutual Information with
+  Application in Supervised Dimension Reduction
+A typical goal of supervised dimension reduction is to find a low-dimensional
+subspace of the input space such that the projected input variables preserve
+maximal information about the output variables. The dependence maximization
+approach solves the supervised dimension reduction problem through maximizing a
+statistical dependence between projected input variables and output variables.
+A well-known statistical dependence measure is mutual information (MI) which is
+based on the Kullback-Leibler (KL) divergence. However, it is known that the KL
+divergence is sensitive to outliers. On the other hand, quadratic MI (QMI) is a
+variant of MI based on the $L_2$ distance which is more robust against outliers
+than the KL divergence, and a computationally efficient method to estimate QMI
+from data, called least-squares QMI (LSQMI), has been proposed recently. For
+these reasons, developing a supervised dimension reduction method based on
+LSQMI seems promising. However, not QMI itself, but the derivative of QMI is
+needed for subspace search in supervised dimension reduction, and the
+derivative of an accurate QMI estimator is not necessarily a good estimator of
+the derivative of QMI. In this paper, we propose to directly estimate the
+derivative of QMI without estimating QMI itself. We show that the direct
+estimation of the derivative of QMI is more accurate than the derivative of the
+estimated QMI. Finally, we develop a supervised dimension reduction algorithm
+which efficiently uses the proposed derivative estimator, and demonstrate
+through experiments that the proposed method is more robust against outliers
+than existing methods.

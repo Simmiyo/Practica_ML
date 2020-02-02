@@ -1,0 +1,17 @@
+WERd: Using Social Text Spelling Variants for Evaluating Dialectal
+  Speech Recognition
+We study the problem of evaluating automatic speech recognition (ASR) systems
+that target dialectal speech input. A major challenge in this case is that the
+orthography of dialects is typically not standardized. From an ASR evaluation
+perspective, this means that there is no clear gold standard for the expected
+output, and several possible outputs could be considered correct according to
+different human annotators, which makes standard word error rate (WER)
+inadequate as an evaluation metric. Such a situation is typical for machine
+translation (MT), and thus we borrow ideas from an MT evaluation metric, namely
+TERp, an extension of translation error rate which is closely-related to WER.
+In particular, in the process of comparing a hypothesis to a reference, we make
+use of spelling variants for words and phrases, which we mine from Twitter in
+an unsupervised fashion. Our experiments with evaluating ASR output for
+Egyptian Arabic, and further manual analysis, show that the resulting WERd
+(i.e., WER for dialects) metric, a variant of TERp, is more adequate than WER
+for evaluating dialectal ASR.

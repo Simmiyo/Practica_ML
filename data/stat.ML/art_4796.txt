@@ -1,0 +1,10 @@
+Building an Interpretable Recommender via Loss-Preserving Transformation
+We propose a method for building an interpretable recommender system for
+personalizing online content and promotions. Historical data available for the
+system consists of customer features, provided content (promotions), and user
+responses. Unlike in a standard multi-class classification setting,
+misclassification costs depend on both recommended actions and customers. Our
+method transforms such a data set to a new set which can be used with standard
+interpretable multi-class classification algorithms. The transformation has the
+desirable property that minimizing the standard misclassification penalty in
+this new space is equivalent to minimizing the custom cost function.

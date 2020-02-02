@@ -1,0 +1,24 @@
+Estimating regional cerebral blood flow using resting-state functional
+  MRI via machine learning
+Perfusion MRI is an important modality in many brain imaging protocols, since
+it probes cerebrovascular changes in aging and many diseases; however, it may
+not be always available. Here we introduce a method that seeks to estimate
+regional perfusion properties using spectral information of resting-state
+functional MRI (rsfMRI) via machine learning. We used pairs of rsfMRI and
+arterial spin labeling (ASL) images from the same elderly individuals with
+normal cognition (NC; n = 45) and mild cognitive impairment (MCI; n = 26), and
+built support vector machine models aiming to estimate regional cerebral blood
+flow (CBF) from the rsfMRI signal alone. This method demonstrated higher
+associations between the estimated CBF and actual CBF (ASL-CBF) at the total
+lobar gray matter (r = 0.40; FDR-p = 1.9e-03), parietal lobe (r = 0.46, FDR-p =
+8e-04), and occipital lobe (r = 0.35; FDR-p = 0.01) using rsfMRI signals of
+frequencies [0.01-0.15] Hertz compared to frequencies [0.01-0.10] Hertz and
+[0.01-0.20] Hertz, respectively. We further observed significant associations
+between the estimated CBF and actual CBF in 24 regions of interest (p < 0.05),
+with the highest association observed in the superior parietal lobule (r =
+0.50, FDR-p = 0.002). Moreover, the estimated CBF at superior parietal lobule
+showed significant correlation with the mini-mental state exam (MMSE) score (r
+= 0.27; FDR-p = 0.04) and decreased in MCI with lower MMSE score compared to NC
+group (FDR-p = 0.04). Overall, these results suggest that the proposed
+framework can obtain estimates of regional perfusion from rsfMRI, which can
+serve as surrogate perfusion measures in the absence of ASL.

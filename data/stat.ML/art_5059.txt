@@ -1,0 +1,14 @@
+Max-plus statistical leverage scores
+The statistical leverage scores of a complex matrix $A\in\mathbb{C}^{n\times
+d}$ record the degree of alignment between col$(A)$ and the coordinate axes in
+$\mathbb{C}^n$. These score are used in random sampling algorithms for solving
+certain numerical linear algebra problems. In this paper we present a max-plus
+algebraic analogue for statistical leverage scores. We show that max-plus
+statistical leverage scores can be used to calculate the exact asymptotic
+behavior of the conventional statistical leverage scores of a generic matrices
+of Puiseux series and also provide a novel way to approximate the conventional
+statistical leverage scores of a fixed or complex matrix. The advantage of
+approximating a complex matrices scores with max-plus scores is that the
+max-plus scores can be computed very quickly. This approximation is typically
+accurate to within an order or magnitude and should be useful in practical
+problems where the true scores are known to vary widely.

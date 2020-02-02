@@ -1,0 +1,19 @@
+On the blind source separation of human electroencephalogram by
+  approximate joint diagonalization of second order statistics
+Over the last ten years blind source separation (BSS) has become a prominent
+processing tool in the study of human electroencephalography (EEG). Without
+relying on head modeling BSS aims at estimating both the waveform and the scalp
+spatial pattern of the intracranial dipolar current responsible of the observed
+EEG. In this review we begin by placing the BSS linear instantaneous model of
+EEG within the framework of brain volume conduction theory. We then review the
+concept and current practice of BSS based on second-order statistics (SOS) and
+on higher-order statistics (HOS), the latter better known as independent
+component analysis (ICA). Using neurophysiological knowledge we consider the
+fitness of SOS-based and HOS-based methods for the extraction of spontaneous
+and induced EEG and their separation from extra-cranial artifacts. We then
+illustrate a general BSS scheme operating in the time-frequency domain using
+SOS only. The scheme readily extends to further data expansions in order to
+capture experimental source of variations as well. A simple and efficient
+implementation based on the approximate joint diagonalization of Fourier
+cospectral matrices is described (AJDC). We conclude discussing useful aspects
+of BSS analysis of EEG, including its assumptions and limitations.

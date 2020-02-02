@@ -1,0 +1,21 @@
+Exact Spike Train Inference Via $\ell_0$ Optimization
+In recent years, new technologies in neuroscience have made it possible to
+measure the activities of large numbers of neurons simultaneously in behaving
+animals. For each neuron, a fluorescence trace is measured; this can be seen as
+a first-order approximation of the neuron's activity over time. Determining the
+exact time at which a neuron spikes on the basis of its fluorescence trace is
+an important open problem in the field of computational neuroscience.
+  Recently, a convex optimization problem involving an $\ell_1$ penalty was
+proposed for this task. In this paper, we slightly modify that recent proposal
+by replacing the $\ell_1$ penalty with an $\ell_0$ penalty. In stark contrast
+to the conventional wisdom that $\ell_0$ optimization problems are
+computationally intractable, we show that the resulting optimization problem
+can be efficiently solved for the global optimum using an extremely simple and
+efficient dynamic programming algorithm. Our R-language implementation of the
+proposed algorithm runs in a few minutes on fluorescence traces of $100,000$
+timesteps. Furthermore, our proposal leads to substantial improvements over the
+previous $\ell_1$ proposal, in simulations as well as on two calcium imaging
+data sets.
+  R-language software for our proposal is available on CRAN in the package
+LZeroSpikeInference. Instructions for running this software in python can be
+found at https://github.com/jewellsean/LZeroSpikeInference.

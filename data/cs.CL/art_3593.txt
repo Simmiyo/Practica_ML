@@ -1,0 +1,24 @@
+Who framed Roger Reindeer? De-censorship of Facebook posts by snippet
+  classification
+This paper considers online news censorship and it concentrates on censorship
+of identities. Obfuscating identities may occur for disparate reasons, from
+military to judiciary ones. In the majority of cases, this happens to protect
+individuals from being identified and persecuted by hostile people. However,
+being the collaborative web characterised by a redundancy of information, it is
+not unusual that the same fact is reported by multiple sources, which may not
+apply the same restriction policies in terms of censorship. Also, the proven
+aptitude of social network users to disclose personal information leads to the
+phenomenon that comments to news can reveal the data withheld in the news
+itself. This gives us a mean to figure out who the subject of the censored news
+is. We propose an adaptation of a text analysis approach to unveil censored
+identities. The approach is tested on a synthesised scenario, which however
+resembles a real use case. Leveraging a text analysis based on a context
+classifier trained over snippets from posts and comments of Facebook pages, we
+achieve promising results. Despite the quite constrained settings in which we
+operate -- such as considering only snippets of very short length -- our system
+successfully detects the censored name, choosing among 10 different candidate
+names, in more than 50\% of the investigated cases. This outperforms the
+results of two reference baselines. The findings reported in this paper, other
+than being supported by a thorough experimental methodology and interesting on
+their own, also pave the way for further investigation on the insidious issues
+of censorship on the web.

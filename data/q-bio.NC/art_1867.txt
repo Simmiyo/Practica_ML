@@ -1,0 +1,16 @@
+Identifying Biomagnetic Sources in the Brain by the Maximum Entropy
+  Approach
+Magnetoencephalographic (MEG) measurements record magnetic fields generated
+from neurons while information is being processed in the brain. The inverse
+problem of identifying sources of biomagnetic fields and deducing their
+intensities from MEG measurements is ill-posed when the number of field
+detectors is far less than the number of sources. This problem is less severe
+if there is already a reasonable prior knowledge in the form of a distribution
+in the intensity of source activation. In this case the problem of identifying
+and deducing source intensities may be transformed to one of using the MEG data
+to update a prior distribution to a posterior distribution. Here we report on
+some work done using the maximum entropy method (ME) as an updating tool.
+Specifically, we propose an implementation of the ME method in cases when the
+prior contain almost no knowledge of source activation. Two examples are
+studied, in which part of motor cortex is activated with uniform and varying
+intensities, respectively.

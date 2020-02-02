@@ -1,0 +1,13 @@
+Quantum Kolmogorov Complexity
+In this paper we give a definition for quantum Kolmogorov complexity. In the
+classical setting, the Kolmogorov complexity of a string is the length of the
+shortest program that can produce this string as its output. It is a measure of
+the amount of innate randomness (or information) contained in the string.
+  We define the quantum Kolmogorov complexity of a qubit string as the length
+of the shortest quantum input to a universal quantum Turing machine that
+produces the initial qubit string with high fidelity. The definition of Vitanyi
+(Proceedings of the 15th IEEE Annual Conference on Computational Complexity,
+2000) measures the amount of classical information, whereas we consider the
+amount of quantum information in a qubit string. We argue that our definition
+is natural and is an accurate representation of the amount of quantum
+information contained in a quantum state.

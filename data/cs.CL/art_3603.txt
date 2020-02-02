@@ -1,0 +1,20 @@
+Incorporating Dictionaries into Deep Neural Networks for the Chinese
+  Clinical Named Entity Recognition
+Clinical Named Entity Recognition (CNER) aims to identify and classify
+clinical terms such as diseases, symptoms, treatments, exams, and body parts in
+electronic health records, which is a fundamental and crucial task for clinical
+and translational research. In recent years, deep neural networks have achieved
+significant success in named entity recognition and many other Natural Language
+Processing (NLP) tasks. Most of these algorithms are trained end to end, and
+can automatically learn features from large scale labeled datasets. However,
+these data-driven methods typically lack the capability of processing rare or
+unseen entities. Previous statistical methods and feature engineering practice
+have demonstrated that human knowledge can provide valuable information for
+handling rare and unseen cases. In this paper, we address the problem by
+incorporating dictionaries into deep neural networks for the Chinese CNER task.
+Two different architectures that extend the Bi-directional Long Short-Term
+Memory (Bi-LSTM) neural network and five different feature representation
+schemes are proposed to handle the task. Computational results on the CCKS-2017
+Task 2 benchmark dataset show that the proposed method achieves the highly
+competitive performance compared with the state-of-the-art deep learning
+methods.

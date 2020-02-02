@@ -1,0 +1,16 @@
+Selective Sampling for Example-based Word Sense Disambiguation
+This paper proposes an efficient example sampling method for example-based
+word sense disambiguation systems. To construct a database of practical size, a
+considerable overhead for manual sense disambiguation (overhead for
+supervision) is required. In addition, the time complexity of searching a
+large-sized database poses a considerable problem (overhead for search). To
+counter these problems, our method selectively samples a smaller-sized
+effective subset from a given example set for use in word sense disambiguation.
+Our method is characterized by the reliance on the notion of training utility:
+the degree to which each example is informative for future example sampling
+when used for the training of the system. The system progressively collects
+examples by selecting those with greatest utility. The paper reports the
+effectiveness of our method through experiments on about one thousand
+sentences. Compared to experiments with other example sampling methods, our
+method reduced both the overhead for supervision and the overhead for search,
+without the degeneration of the performance of the system.

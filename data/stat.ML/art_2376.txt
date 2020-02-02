@@ -1,0 +1,19 @@
+Supervised Classification Using Sparse Fisher's LDA
+It is well known that in a supervised classification setting when the number
+of features is smaller than the number of observations, Fisher's linear
+discriminant rule is asymptotically Bayes. However, there are numerous modern
+applications where classification is needed in the high-dimensional setting.
+Naive implementation of Fisher's rule in this case fails to provide good
+results because the sample covariance matrix is singular. Moreover, by
+constructing a classifier that relies on all features the interpretation of the
+results is challenging. Our goal is to provide robust classification that
+relies only on a small subset of important features and accounts for the
+underlying correlation structure. We apply a lasso-type penalty to the
+discriminant vector to ensure sparsity of the solution and use a shrinkage type
+estimator for the covariance matrix. The resulting optimization problem is
+solved using an iterative coordinate ascent algorithm. Furthermore, we analyze
+the effect of nonconvexity on the sparsity level of the solution and highlight
+the difference between the penalized and the constrained versions of the
+problem. The simulation results show that the proposed method performs
+favorably in comparison to alternatives. The method is used to classify
+leukemia patients based on DNA methylation features.

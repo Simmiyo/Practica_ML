@@ -1,0 +1,22 @@
+Spike propagation for spatially correlated inputs through noisy
+  multilayer networks
+Spike propagation for spatially correlated inputs in layered neural networks
+has been investigated with the use of a semi-analytical dynamical mean-field
+approximation (DMA) theory recently proposed by the author [H. Hasegawa, Phys.
+Rev. E {\bf 67}, 041903 (2003)]. Each layer of the network is assumed to
+consist of FitzHugh-Nagumo neurons which are coupled by feedforward couplings.
+Applying single spikes to the network with input-time jitters whose
+root-mean-square (RMS) value and the spatial correlation are $\sigma_I$ and
+$s_I$, respectively, we have calculated the RMS value ($\sigma_{Om}$) and the
+correlation ($s_{Om}$) of jitters in output-firing times on each layer $m$. For
+all-to-all feedforward couplings, $s_{Om}$ gradually grows to a fairly large
+value as spikes propagate through the layer, even for inputs without the
+correlation. This shows that for the correlation to be in the range of observed
+value of 01-0.3, we have to take into account noises and more realistic
+feedforward couplings. Model calculations including local feedforward
+connection besides all-to-all feedforward couplings in multilayers subject to
+white noises, have shown that in a long multilayer, $\sigma_{Om}$ and $s_{Om}$
+converge to fixed-point values which are determined by model parameters
+characterizing the multilayer architecture. Results of DMA calculations are in
+fairly good agreement with those of direct simulations although the
+computational time of the former is much smaller than that of the latter.

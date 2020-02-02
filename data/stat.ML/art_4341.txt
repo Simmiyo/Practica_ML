@@ -1,0 +1,12 @@
+TripletGAN: Training Generative Model with Triplet Loss
+As an effective way of metric learning, triplet loss has been widely used in
+many deep learning tasks, including face recognition and person-ReID, leading
+to many states of the arts. The main innovation of triplet loss is using
+feature map to replace softmax in the classification task. Inspired by this
+concept, we propose here a new adversarial modeling method by substituting the
+classification loss of discriminator with triplet loss. Theoretical proof based
+on IPM (Integral probability metric) demonstrates that such setting will help
+the generator converge to the given distribution theoretically under some
+conditions. Moreover, since triplet loss requires the generator to maximize
+distance within a class, we justify tripletGAN is also helpful to prevent mode
+collapse through both theory and experiment.

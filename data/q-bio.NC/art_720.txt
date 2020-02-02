@@ -1,0 +1,24 @@
+Training recurrent neural networks with sparse, delayed rewards for
+  flexible decision tasks
+Recurrent neural networks in the chaotic regime exhibit complex dynamics
+reminiscent of high-level cortical activity during behavioral tasks. However,
+existing training methods for such networks are either biologically
+implausible, or require a real-time continuous error signal to guide the
+learning process. This is in contrast with most behavioral tasks, which only
+provide time-sparse, delayed rewards. Here we show that a biologically
+plausible reward-modulated Hebbian learning algorithm, previously used in
+feedforward models of birdsong learning, can train recurrent networks based
+solely on delayed, phasic reward signals at the end of each trial. The method
+requires no dedicated feedback or readout networks: the whole network
+connectivity is subject to learning, and the network output is read from one
+arbitrarily chosen network cell. We use this method to successfully train a
+network on a delayed nonmatch to sample task (which requires memory, flexible
+associations, and non-linear mixed selectivities). Using decoding techniques,
+we show that the resulting networks exhibit dynamic coding of task-relevant
+information, with neural encodings of various task features fluctuating widely
+over the course of a trial. Furthermore, network activity moves from a
+stimulus-specific representation to a response-specific representation during
+response time, in accordance with neural recordings in behaving animals for
+similar tasks. We conclude that recurrent neural networks, trained with
+reward-modulated Hebbian learning, offer a plausible model of cortical dynamics
+during learning and performance of flexible association.

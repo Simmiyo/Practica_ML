@@ -1,0 +1,24 @@
+Fast methods for denoising matrix completion formulations, with
+  applications to robust seismic data interpolation
+Recent SVD-free matrix factorization formulations have enabled rank
+minimization for systems with millions of rows and columns, paving the way for
+matrix completion in extremely large-scale applications, such as seismic data
+interpolation.
+  In this paper, we consider matrix completion formulations designed to hit a
+target data-fitting error level provided by the user, and propose an algorithm
+called LR-BPDN that is able to exploit factorized formulations to solve the
+corresponding optimization problem. Since practitioners typically have strong
+prior knowledge about target error level, this innovation makes it easy to
+apply the algorithm in practice, leaving only the factor rank to be determined.
+  Within the established framework, we propose two extensions that are highly
+relevant to solving practical challenges of data interpolation. First, we
+propose a weighted extension that allows known subspace information to improve
+the results of matrix completion formulations. We show how this weighting can
+be used in the context of frequency continuation, an essential aspect to
+seismic data interpolation. Second, we propose matrix completion formulations
+that are robust to large measurement errors in the available data.
+  We illustrate the advantages of LR-BPDN on the collaborative filtering
+problem using the MovieLens 1M, 10M, and Netflix 100M datasets. Then, we use
+the new method, along with its robust and subspace re-weighted extensions, to
+obtain high-quality reconstructions for large scale seismic interpolation
+problems with real data, even in the presence of data contamination.

@@ -1,0 +1,26 @@
+The Same Analysis Approach: Practical protection against the pitfalls of
+  novel neuroimaging analysis methods
+Standard neuroimaging data analysis based on traditional principles of
+experimental design, modelling, and statistical inference is increasingly
+complemented by novel analysis methods, driven e.g. by machine learning
+methods. While these novel approaches provide new insights into neuroimaging
+data, they often have unexpected properties, generating a growing literature on
+possible pitfalls. We propose to meet this challenge by adopting a habit of
+systematic testing of experimental design, analysis procedures, and statistical
+inference. Specifically, we suggest to apply the analysis method used for
+experimental data also to aspects of the experimental design, simulated
+confounds, simulated null data, and control data. We stress the importance of
+keeping the analysis method the same in main and test analyses, because only
+this way possible confounds and unexpected properties can be reliably detected
+and avoided. We describe and discuss this Same Analysis Approach in detail, and
+demonstrate it in two worked examples using multivariate decoding. With these
+examples, we reveal two sources of error: A mismatch between counterbalancing
+(crossover designs) and cross-validation which leads to systematic below-chance
+accuracies, and linear decoding of a nonlinear effect, a difference in
+variance.
+  Highlights: 1. Traditional design principles can be unsuitable when combined
+with cross-validation; 2. This can explain both inflated accuracies and
+below-chance accuracies; 3. We propose the novel "same analysis approach" (SAA)
+for checking analysis pipelines; 4. The principle of SAA is to perform
+additional analyses using the same analysis; 5. SAA analysis should be
+performed on design variables, control data, and simulations

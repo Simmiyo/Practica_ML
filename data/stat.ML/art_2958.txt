@@ -1,0 +1,13 @@
+Gaussian Process Structural Equation Models with Latent Variables
+In a variety of disciplines such as social sciences, psychology, medicine and
+economics, the recorded data are considered to be noisy measurements of latent
+variables connected by some causal structure. This corresponds to a family of
+graphical models known as the structural equation model with latent variables.
+While linear non-Gaussian variants have been well-studied, inference in
+nonparametric structural equation models is still underdeveloped. We introduce
+a sparse Gaussian process parameterization that defines a non-linear structure
+connecting latent variables, unlike common formulations of Gaussian process
+latent variable models. The sparse parameterization is given a full Bayesian
+treatment without compromising Markov chain Monte Carlo efficiency. We compare
+the stability of the sampling procedure and the predictive ability of the model
+against the current practice.

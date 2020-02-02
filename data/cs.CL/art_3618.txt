@@ -1,0 +1,14 @@
+Arabic Named Entity Recognition using Word Representations
+Recent work has shown the effectiveness of the word representations features
+in significantly improving supervised NER for the English language. In this
+study we investigate whether word representations can also boost supervised NER
+in Arabic. We use word representations as additional features in a Conditional
+Random Field (CRF) model and we systematically compare three popular neural
+word embedding algorithms (SKIP-gram, CBOW and GloVe) and six different
+approaches for integrating word representations into NER system. Experimental
+results show that Brown Clustering achieves the best performance among the six
+approaches. Concerning the word embedding features, the clustering embedding
+features outperform other embedding features and the distributional prototypes
+produce the second best result. Moreover, the combination of Brown clusters and
+word embedding features provides additional improvement of nearly 10% in
+F1-score over the baseline.

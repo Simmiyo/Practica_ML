@@ -1,0 +1,16 @@
+Relativistic Monte Carlo
+Hamiltonian Monte Carlo (HMC) is a popular Markov chain Monte Carlo (MCMC)
+algorithm that generates proposals for a Metropolis-Hastings algorithm by
+simulating the dynamics of a Hamiltonian system. However, HMC is sensitive to
+large time discretizations and performs poorly if there is a mismatch between
+the spatial geometry of the target distribution and the scales of the momentum
+distribution. In particular the mass matrix of HMC is hard to tune well. In
+order to alleviate these problems we propose relativistic Hamiltonian Monte
+Carlo, a version of HMC based on relativistic dynamics that introduce a maximum
+velocity on particles. We also derive stochastic gradient versions of the
+algorithm and show that the resulting algorithms bear interesting relationships
+to gradient clipping, RMSprop, Adagrad and Adam, popular optimisation methods
+in deep learning. Based on this, we develop relativistic stochastic gradient
+descent by taking the zero-temperature limit of relativistic stochastic
+gradient Hamiltonian Monte Carlo. In experiments we show that the relativistic
+algorithms perform better than classical Newtonian variants and Adam.

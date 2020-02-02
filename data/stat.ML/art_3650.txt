@@ -1,0 +1,18 @@
+Local entropy as a measure for sampling solutions in Constraint
+  Satisfaction Problems
+We introduce a novel Entropy-driven Monte Carlo (EdMC) strategy to
+efficiently sample solutions of random Constraint Satisfaction Problems (CSPs).
+First, we extend a recent result that, using a large-deviation analysis, shows
+that the geometry of the space of solutions of the Binary Perceptron Learning
+Problem (a prototypical CSP), contains regions of very high-density of
+solutions. Despite being sub-dominant, these regions can be found by optimizing
+a local entropy measure. Building on these results, we construct a fast solver
+that relies exclusively on a local entropy estimate, and can be applied to
+general CSPs. We describe its performance not only for the Perceptron Learning
+Problem but also for the random $K$-Satisfiabilty Problem (another prototypical
+CSP with a radically different structure), and show numerically that a simple
+zero-temperature Metropolis search in the smooth local entropy landscape can
+reach sub-dominant clusters of optimal solutions in a small number of steps,
+while standard Simulated Annealing either requires extremely long cooling
+procedures or just fails. We also discuss how the EdMC can heuristically be
+made even more efficient for the cases we studied.

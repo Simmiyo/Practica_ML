@@ -1,0 +1,17 @@
+Risk Bounds for the Majority Vote: From a PAC-Bayesian Analysis to a
+  Learning Algorithm
+We propose an extensive analysis of the behavior of majority votes in binary
+classification. In particular, we introduce a risk bound for majority votes,
+called the C-bound, that takes into account the average quality of the voters
+and their average disagreement. We also propose an extensive PAC-Bayesian
+analysis that shows how the C-bound can be estimated from various observations
+contained in the training data. The analysis intends to be self-contained and
+can be used as introductory material to PAC-Bayesian statistical learning
+theory. It starts from a general PAC-Bayesian perspective and ends with
+uncommon PAC-Bayesian bounds. Some of these bounds contain no Kullback-Leibler
+divergence and others allow kernel functions to be used as voters (via the
+sample compression setting). Finally, out of the analysis, we propose the MinCq
+learning algorithm that basically minimizes the C-bound. MinCq reduces to a
+simple quadratic program. Aside from being theoretically grounded, MinCq
+achieves state-of-the-art performance, as shown in our extensive empirical
+comparison with both AdaBoost and the Support Vector Machine.

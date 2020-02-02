@@ -1,0 +1,21 @@
+Black box variational inference for state space models
+Latent variable time-series models are among the most heavily used tools from
+machine learning and applied statistics. These models have the advantage of
+learning latent structure both from noisy observations and from the temporal
+ordering in the data, where it is assumed that meaningful correlation structure
+exists across time. A few highly-structured models, such as the linear
+dynamical system with linear-Gaussian observations, have closed-form inference
+procedures (e.g. the Kalman Filter), but this case is an exception to the
+general rule that exact posterior inference in more complex generative models
+is intractable. Consequently, much work in time-series modeling focuses on
+approximate inference procedures for one particular class of models. Here, we
+extend recent developments in stochastic variational inference to develop a
+`black-box' approximate inference technique for latent variable models with
+latent dynamical structure. We propose a structured Gaussian variational
+approximate posterior that carries the same intuition as the standard Kalman
+filter-smoother but, importantly, permits us to use the same inference approach
+to approximate the posterior of much more general, nonlinear latent variable
+generative models. We show that our approach recovers accurate estimates in the
+case of basic models with closed-form posteriors, and more interestingly
+performs well in comparison to variational approaches that were designed in a
+bespoke fashion for specific non-conjugate models.

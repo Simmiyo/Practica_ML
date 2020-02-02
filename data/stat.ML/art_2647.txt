@@ -1,0 +1,9 @@
+Deep Multiple Kernel Learning
+Deep learning methods have predominantly been applied to large artificial
+neural networks. Despite their state-of-the-art performance, these large
+networks typically do not generalize well to datasets with limited sample
+sizes. In this paper, we take a different approach by learning multiple layers
+of kernels. We combine kernels at each layer and then optimize over an estimate
+of the support vector machine leave-one-out error rather than the dual
+objective function. Our experiments on a variety of datasets show that each
+layer successively increases performance with only a few base kernels.

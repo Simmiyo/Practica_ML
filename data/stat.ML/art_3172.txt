@@ -1,0 +1,18 @@
+$\ell_0$ Sparsifying Transform Learning with Efficient Optimal Updates
+  and Convergence Guarantees
+Many applications in signal processing benefit from the sparsity of signals
+in a certain transform domain or dictionary. Synthesis sparsifying dictionaries
+that are directly adapted to data have been popular in applications such as
+image denoising, inpainting, and medical image reconstruction. In this work, we
+focus instead on the sparsifying transform model, and study the learning of
+well-conditioned square sparsifying transforms. The proposed algorithms
+alternate between a $\ell_0$ "norm"-based sparse coding step, and a non-convex
+transform update step. We derive the exact analytical solution for each of
+these steps. The proposed solution for the transform update step achieves the
+global minimum in that step, and also provides speedups over iterative
+solutions involving conjugate gradients. We establish that our alternating
+algorithms are globally convergent to the set of local minimizers of the
+non-convex transform learning problems. In practice, the algorithms are
+insensitive to initialization. We present results illustrating the promising
+performance and significant speed-ups of transform learning over synthesis
+K-SVD in image denoising.

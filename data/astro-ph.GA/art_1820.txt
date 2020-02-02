@@ -1,0 +1,21 @@
+Source extraction and photometry for the far-infrared and sub-millimeter
+  continuum in the presence of complex backgrounds
+(Abridged) We present a new method for detecting and measuring compact
+sources in conditions of intense, and highly variable, fore/background. While
+all most commonly used packages carry out the source detection over the signal
+image, our proposed method builds from the measured image a "curvature" image
+by double-differentiation in four different directions. In this way point-like
+as well as resolved, yet relatively compact, objects are easily revealed while
+the slower varying fore/background is greatly diminished. Candidate sources are
+then identified by looking for pixels where the curvature exceeds, in absolute
+terms, a given threshold; the methodology easily allows us to pinpoint
+breakpoints in the source brightness profile and then derive reliable guesses
+for the sources extent. Identified peaks are fit with 2D elliptical Gaussians
+plus an underlying planar inclined plateau, with mild constraints on size and
+orientation. Mutually contaminating sources are fit with multiple Gaussians
+simultaneously using flexible constraints. We ran our method on simulated
+large-scale fields with 1000 sources of different peak flux overlaid on a
+realistic realization of diffuse background. We find detection rates in excess
+of 90% for sources with peak fluxes above the 3-sigma signal noise limit; for
+about 80% of the sources the recovered peak fluxes are within 30% of their
+input values.

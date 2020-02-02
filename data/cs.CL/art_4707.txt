@@ -1,0 +1,19 @@
+Unsupervised Machine Commenting with Neural Variational Topic Model
+Article comments can provide supplementary opinions and facts for readers,
+thereby increase the attraction and engagement of articles. Therefore,
+automatically commenting is helpful in improving the activeness of the
+community, such as online forums and news websites. Previous work shows that
+training an automatic commenting system requires large parallel corpora.
+Although part of articles are naturally paired with the comments on some
+websites, most articles and comments are unpaired on the Internet. To fully
+exploit the unpaired data, we completely remove the need for parallel data and
+propose a novel unsupervised approach to train an automatic article commenting
+model, relying on nothing but unpaired articles and comments. Our model is
+based on a retrieval-based commenting framework, which uses news to retrieve
+comments based on the similarity of their topics. The topic representation is
+obtained from a neural variational topic model, which is trained in an
+unsupervised manner. We evaluate our model on a news comment dataset.
+Experiments show that our proposed topic-based approach significantly
+outperforms previous lexicon-based models. The model also profits from paired
+corpora and achieves state-of-the-art performance under semi-supervised
+scenarios.

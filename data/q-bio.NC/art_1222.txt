@@ -1,0 +1,19 @@
+The brain as an efficient and robust adaptive learner
+Understanding how the brain learns to compute functions reliably, efficiently
+and robustly with noisy spiking activity is a fundamental challenge in
+neuroscience. Most sensory and motor tasks can be described as dynamical
+systems and could presumably be learned by adjusting connection weights in a
+recurrent biological neural network. However, this is greatly complicated by
+the credit assignment problem for learning in recurrent network, e.g. the
+contribution of each connection to the global output error cannot be determined
+based only on locally accessible quantities to the synapse. Combining tools
+from adaptive control theory and efficient coding theories, we propose that
+neural circuits can indeed learn complex dynamic tasks with local synaptic
+plasticity rules as long as they associate two experimentally established
+neural mechanisms. First, they should receive top-down feedbacks driving both
+their activity and their synaptic plasticity. Second, inhibitory interneurons
+should maintain a tight balance between excitation and inhibition in the
+circuit. The resulting networks could learn arbitrary dynamical systems and
+produce irregular spike trains as variable as those observed experimentally.
+Yet, this variability in single neurons may hide an extremely efficient and
+robust computation at the population level.

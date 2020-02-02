@@ -1,0 +1,15 @@
+Sparsification and feature selection by compressive linear regression
+The Minimum Description Length (MDL) principle states that the optimal model
+for a given data set is that which compresses it best. Due to practial
+limitations the model can be restricted to a class such as linear regression
+models, which we address in this study. As in other formulations such as the
+LASSO and forward step-wise regression we are interested in sparsifying the
+feature set while preserving generalization ability. We derive a
+well-principled set of codes for both parameters and error residuals along with
+smooth approximations to lengths of these codes as to allow gradient descent
+optimization of description length, and go on to show that sparsification and
+feature selection using our approach is faster than the LASSO on several
+datasets from the UCI and StatLib repositories, with favorable generalization
+accuracy, while being fully automatic, requiring neither cross-validation nor
+tuning of regularization hyper-parameters, allowing even for a nonlinear
+expansion of the feature set followed by sparsification.

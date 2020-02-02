@@ -1,0 +1,22 @@
+Bayesian Semi-nonnegative Tri-matrix Factorization to Identify Pathways
+  Associated with Cancer Types
+Identifying altered pathways that are associated with specific cancer types
+can potentially bring a significant impact on cancer patient treatment.
+Accurate identification of such key altered pathways information can be used to
+develop novel therapeutic agents as well as to understand the molecular
+mechanisms of various types of cancers better. Tri-matrix factorization is an
+efficient tool to learn associations between two different entities (e.g.,
+cancer types and pathways in our case) from data. To successfully apply
+tri-matrix factorization methods to biomedical problems, biological prior
+knowledge such as pathway databases or protein-protein interaction (PPI)
+networks, should be taken into account in the factorization model. However, it
+is not straightforward in the Bayesian setting even though Bayesian methods are
+more appealing than point estimate methods, such as a maximum likelihood or a
+maximum posterior method, in the sense that they calculate distributions over
+variables and are robust against overfitting. We propose a Bayesian
+(semi-)nonnegative matrix factorization model for human cancer genomic data,
+where the biological prior knowledge represented by a pathway database and a
+PPI network is taken into account in the factorization model through a finite
+dependent Beta-Bernoulli prior. We tested our method on The Cancer Genome Atlas
+(TCGA) dataset and found that the pathways identified by our method can be used
+as a prognostic biomarkers for patient subgroup identification.

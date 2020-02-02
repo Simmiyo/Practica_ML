@@ -1,0 +1,18 @@
+Error AMP Chain Graphs
+Any regular Gaussian probability distribution that can be represented by an
+AMP chain graph (CG) can be expressed as a system of linear equations with
+correlated errors whose structure depends on the CG. However, the CG represents
+the errors implicitly, as no nodes in the CG correspond to the errors. We
+propose in this paper to add some deterministic nodes to the CG in order to
+represent the errors explicitly. We call the result an EAMP CG. We will show
+that, as desired, every AMP CG is Markov equivalent to its corresponding EAMP
+CG under marginalization of the error nodes. We will also show that every EAMP
+CG under marginalization of the error nodes is Markov equivalent to some LWF CG
+under marginalization of the error nodes, and that the latter is Markov
+equivalent to some directed and acyclic graph (DAG) under marginalization of
+the error nodes and conditioning on some selection nodes. This is important
+because it implies that the independence model represented by an AMP CG can be
+accounted for by some data generating process that is partially observed and
+has selection bias. Finally, we will show that EAMP CGs are closed under
+marginalization. This is a desirable feature because it guarantees parsimonious
+models under marginalization.

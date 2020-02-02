@@ -1,0 +1,24 @@
+ggRandomForests: Visually Exploring a Random Forest for Regression
+Random Forests [Breiman:2001] (RF) are a fully non-parametric statistical
+method requiring no distributional assumptions on covariate relation to the
+response. RF are a robust, nonlinear technique that optimizes predictive
+accuracy by fitting an ensemble of trees to stabilize model estimates. The
+randomForestSRC package (http://cran.r-project.org/package=randomForestSRC) is
+a unified treatment of Breiman's random forests for survival, regression and
+classification problems. Predictive accuracy make RF an attractive alternative
+to parametric models, though complexity and interpretability of the forest
+hinder wider application of the method. We introduce the ggRandomForests
+package (http://cran.r-project.org/package=ggRandomForests), for visually
+understand random forest models grown in R with the randomForestSRC package.
+  The vignette is a tutorial for using the ggRandomForests package with the
+randomForestSRC package for building and post-processing a regression random
+forest. In this tutorial, we explore a random forest model for the Boston
+Housing Data, available in the MASS package. We grow a random forest for
+regression and demonstrate how ggRandomForests can be used when determining
+variable associations, interactions and how the response depends on predictive
+variables within the model. The tutorial demonstrates the design and usage of
+many of ggRandomForests functions and features how to modify and customize the
+resulting ggplot2 graphic objects along the way.
+  A development version of the ggRandomForests package is available on Github.
+We invite comments, feature requests and bug reports for this package at
+(https://github.com/ehrlinger/ggRandomForests).

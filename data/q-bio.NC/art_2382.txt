@@ -1,0 +1,22 @@
+A Semiparametric Bayesian Model for Detecting Synchrony Among Multiple
+  Neurons
+We propose a scalable semiparametric Bayesian model to capture dependencies
+among multiple neurons by detecting their co-firing (possibly with some lag
+time) patterns over time. After discretizing time so there is at most one spike
+at each interval, the resulting sequence of 1's (spike) and 0's (silence) for
+each neuron is modeled using the logistic function of a continuous latent
+variable with a Gaussian process prior. For multiple neurons, the corresponding
+marginal distributions are coupled to their joint probability distribution
+using a parametric copula model. The advantages of our approach are as follows:
+the nonparametric component (i.e., the Gaussian process model) provides a
+flexible framework for modeling the underlying firing rates; the parametric
+component (i.e., the copula model) allows us to make inference regarding both
+contemporaneous and lagged relationships among neurons; using the copula model,
+we construct multivariate probabilistic models by separating the modeling of
+univariate marginal distributions from the modeling of dependence structure
+among variables; our method is easy to implement using a computationally
+efficient sampling algorithm that can be easily extended to high dimensional
+problems. Using simulated data, we show that our approach could correctly
+capture temporal dependencies in firing rates and identify synchronous neurons.
+We also apply our model to spike train data obtained from prefrontal cortical
+areas in rat's brain.

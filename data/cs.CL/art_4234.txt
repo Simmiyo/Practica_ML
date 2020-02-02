@@ -1,0 +1,13 @@
+Revisiting the Hierarchical Multiscale LSTM
+Hierarchical Multiscale LSTM (Chung et al., 2016a) is a state-of-the-art
+language model that learns interpretable structure from character-level input.
+Such models can provide fertile ground for (cognitive) computational
+linguistics studies. However, the high complexity of the architecture, training
+procedure and implementations might hinder its applicability. We provide a
+detailed reproduction and ablation study of the architecture, shedding light on
+some of the potential caveats of re-purposing complex deep-learning
+architectures. We further show that simplifying certain aspects of the
+architecture can in fact improve its performance. We also investigate the
+linguistic units (segments) learned by various levels of the model, and argue
+that their quality does not correlate with the overall performance of the model
+on language modeling.

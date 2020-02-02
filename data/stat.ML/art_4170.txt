@@ -1,0 +1,19 @@
+Random Forests, Decision Trees, and Categorical Predictors: The "Absent
+  Levels" Problem
+One advantage of decision tree based methods like random forests is their
+ability to natively handle categorical predictors without having to first
+transform them (e.g., by using feature engineering techniques). However, in
+this paper, we show how this capability can lead to an inherent "absent levels"
+problem for decision tree based methods that has never been thoroughly
+discussed, and whose consequences have never been carefully explored. This
+problem occurs whenever there is an indeterminacy over how to handle an
+observation that has reached a categorical split which was determined when the
+observation in question's level was absent during training. Although these
+incidents may appear to be innocuous, by using Leo Breiman and Adele Cutler's
+random forests FORTRAN code and the randomForest R package (Liaw and Wiener,
+2002) as motivating case studies, we examine how overlooking the absent levels
+problem can systematically bias a model. Furthermore, by using three real data
+examples, we illustrate how absent levels can dramatically alter a model's
+performance in practice, and we empirically demonstrate how some simple
+heuristics can be used to help mitigate the effects of the absent levels
+problem until a more robust theoretical solution is found.

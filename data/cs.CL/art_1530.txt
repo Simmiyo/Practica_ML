@@ -1,0 +1,19 @@
+Structure Regularized Bidirectional Recurrent Convolutional Neural
+  Network for Relation Classification
+Relation classification is an important semantic processing task in the field
+of natural language processing (NLP). In this paper, we present a novel model,
+Structure Regularized Bidirectional Recurrent Convolutional Neural
+Network(SR-BRCNN), to classify the relation of two entities in a sentence, and
+the new dataset of Chinese Sanwen for named entity recognition and relation
+classification. Some state-of-the-art systems concentrate on modeling the
+shortest dependency path (SDP) between two entities leveraging convolutional or
+recurrent neural networks. We further explore how to make full use of the
+dependency relations information in the SDP and how to improve the model by the
+method of structure regularization. We propose a structure regularized model to
+learn relation representations along the SDP extracted from the forest formed
+by the structure regularized dependency tree, which benefits reducing the
+complexity of the whole model and helps improve the $F_{1}$ score by 10.3.
+Experimental results show that our method outperforms the state-of-the-art
+approaches on the Chinese Sanwen task and performs as well on the SemEval-2010
+Task 8 dataset\footnote{The Chinese Sanwen corpus this paper developed and used
+will be released in the further.

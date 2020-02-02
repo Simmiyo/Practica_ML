@@ -1,0 +1,11 @@
+Truncated Power Method for Sparse Eigenvalue Problems
+This paper considers the sparse eigenvalue problem, which is to extract
+dominant (largest) sparse eigenvectors with at most $k$ non-zero components. We
+propose a simple yet effective solution called truncated power method that can
+approximately solve the underlying nonconvex optimization problem. A strong
+sparse recovery result is proved for the truncated power method, and this
+theory is our key motivation for developing the new algorithm. The proposed
+method is tested on applications such as sparse principal component analysis
+and the densest $k$-subgraph problem. Extensive experiments on several
+synthetic and real-world large scale datasets demonstrate the competitive
+empirical performance of our method.

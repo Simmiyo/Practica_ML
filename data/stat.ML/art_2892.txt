@@ -1,0 +1,13 @@
+Distributed Stochastic Optimization of the Regularized Risk
+Many machine learning algorithms minimize a regularized risk, and stochastic
+optimization is widely used for this task. When working with massive data, it
+is desirable to perform stochastic optimization in parallel. Unfortunately,
+many existing stochastic optimization algorithms cannot be parallelized
+efficiently. In this paper we show that one can rewrite the regularized risk
+minimization problem as an equivalent saddle-point problem, and propose an
+efficient distributed stochastic optimization (DSO) algorithm. We prove the
+algorithm's rate of convergence; remarkably, our analysis shows that the
+algorithm scales almost linearly with the number of processors. We also verify
+with empirical evaluations that the proposed algorithm is competitive with
+other parallel, general purpose stochastic and batch optimization algorithms
+for regularized risk minimization.

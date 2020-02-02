@@ -1,0 +1,15 @@
+Kernel Least Mean Square with Adaptive Kernel Size
+Kernel adaptive filters (KAF) are a class of powerful nonlinear filters
+developed in Reproducing Kernel Hilbert Space (RKHS). The Gaussian kernel is
+usually the default kernel in KAF algorithms, but selecting the proper kernel
+size (bandwidth) is still an open important issue especially for learning with
+small sample sizes. In previous research, the kernel size was set manually or
+estimated in advance by Silvermans rule based on the sample distribution. This
+study aims to develop an online technique for optimizing the kernel size of the
+kernel least mean square (KLMS) algorithm. A sequential optimization strategy
+is proposed, and a new algorithm is developed, in which the filter weights and
+the kernel size are both sequentially updated by stochastic gradient algorithms
+that minimize the mean square error (MSE). Theoretical results on convergence
+are also presented. The excellent performance of the new algorithm is confirmed
+by simulations on static function estimation and short term chaotic time series
+prediction.

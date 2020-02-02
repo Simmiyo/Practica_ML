@@ -1,0 +1,17 @@
+Discriminative Segmental Cascades for Feature-Rich Phone Recognition
+Discriminative segmental models, such as segmental conditional random fields
+(SCRFs) and segmental structured support vector machines (SSVMs), have had
+success in speech recognition via both lattice rescoring and first-pass
+decoding. However, such models suffer from slow decoding, hampering the use of
+computationally expensive features, such as segment neural networks or other
+high-order features. A typical solution is to use approximate decoding, either
+by beam pruning in a single pass or by beam pruning to generate a lattice
+followed by a second pass. In this work, we study discriminative segmental
+models trained with a hinge loss (i.e., segmental structured SVMs). We show
+that beam search is not suitable for learning rescoring models in this
+approach, though it gives good approximate decoding performance when the model
+is already well-trained. Instead, we consider an approach inspired by
+structured prediction cascades, which use max-marginal pruning to generate
+lattices. We obtain a high-accuracy phonetic recognition system with several
+expensive feature types: a segment neural network, a second-order language
+model, and second-order phone boundary features.

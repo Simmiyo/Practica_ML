@@ -1,0 +1,16 @@
+A MAP approach for $\ell_q$-norm regularized sparse parameter estimation
+  using the EM algorithm
+In this paper, Bayesian parameter estimation through the consideration of the
+Maximum A Posteriori (MAP) criterion is revisited under the prism of the
+Expectation-Maximization (EM) algorithm. By incorporating a sparsity-promoting
+penalty term in the cost function of the estimation problem through the use of
+an appropriate prior distribution, we show how the EM algorithm can be used to
+efficiently solve the corresponding optimization problem. To this end, we rely
+on variance-mean Gaussian mixtures (VMGM) to describe the prior distribution,
+while we incorporate many nice features of these mixtures to our estimation
+problem. The corresponding MAP estimation problem is completely expressed in
+terms of the EM algorithm, which allows for handling nonlinearities and hidden
+variables that cannot be easily handled with traditional methods. For
+comparison purposes, we also develop a Coordinate Descent algorithm for the
+$\ell_q$-norm penalized problem and present the performance results via
+simulations.

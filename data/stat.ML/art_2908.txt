@@ -1,0 +1,21 @@
+Convex Analysis of Mixtures for Separating Non-negative Well-grounded
+  Sources
+Blind Source Separation (BSS) has proven to be a powerful tool for the
+analysis of composite patterns in engineering and science. We introduce Convex
+Analysis of Mixtures (CAM) for separating non-negative well-grounded sources,
+which learns the mixing matrix by identifying the lateral edges of the convex
+data scatter plot. We prove a sufficient and necessary condition for
+identifying the mixing matrix through edge detection, which also serves as the
+foundation for CAM to be applied not only to the exact-determined and
+over-determined cases, but also to the under-determined case. We show the
+optimality of the edge detection strategy, even for cases where source
+well-groundedness is not strictly satisfied. The CAM algorithm integrates
+plug-in noise filtering using sector-based clustering, an efficient geometric
+convex analysis scheme, and stability-based model order selection. We
+demonstrate the principle of CAM on simulated data and numerically mixed
+natural images. The superior performance of CAM against a panel of benchmark
+BSS techniques is demonstrated on numerically mixed gene expression data. We
+then apply CAM to dissect dynamic contrast-enhanced magnetic resonance imaging
+data taken from breast tumors and time-course microarray gene expression data
+derived from in-vivo muscle regeneration in mice, both producing biologically
+plausible decomposition results.

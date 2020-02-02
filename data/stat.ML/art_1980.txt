@@ -1,0 +1,17 @@
+Group Sparse Priors for Covariance Estimation
+Recently it has become popular to learn sparse Gaussian graphical models
+(GGMs) by imposing l1 or group l1,2 penalties on the elements of the precision
+matrix. Thispenalized likelihood approach results in a tractable convex
+optimization problem. In this paper, we reinterpret these results as performing
+MAP estimation under a novel prior which we call the group l1 and l1,2
+positivedefinite matrix distributions. This enables us to build a hierarchical
+model in which the l1 regularization terms vary depending on which group the
+entries are assigned to, which in turn allows us to learn block structured
+sparse GGMs with unknown group assignments. Exact inference in this
+hierarchical model is intractable, due to the need to compute the normalization
+constant of these matrix distributions. However, we derive upper bounds on the
+partition functions, which lets us use fast variational inference (optimizing a
+lower bound on the joint posterior). We show that on two real world data sets
+(motion capture and financial data), our method which infers the block
+structure outperforms a method that uses a fixed block structure, which in turn
+outperforms baseline methods that ignore block structure.

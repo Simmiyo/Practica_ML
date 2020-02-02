@@ -1,0 +1,19 @@
+Approximations of Shannon Mutual Information for Discrete Variables with
+  Applications to Neural Population Coding
+Although Shannon mutual information has been widely used, its effective
+calculation is often difficult for many practical problems, including those in
+neural population coding. Asymptotic formulas based on Fisher information
+sometimes provide accurate approximations to the mutual information but this
+approach is restricted to continuous variables because the calculation of
+Fisher information requires derivatives with respect to the encoded variables.
+In this paper, we consider information-theoretic bounds and approximations of
+the mutual information based on Kullback--Leibler divergence and R\'{e}nyi
+divergence. We propose several information metrics to approximate Shannon
+mutual information in the context of neural population coding. While our
+asymptotic formulas all work for discrete variables, one of them has consistent
+performance and high accuracy regardless of whether the encoded variables are
+discrete or continuous. We performed numerical simulations and confirmed that
+our approximation formulas were highly accurate for approximating the mutual
+information between the stimuli and the responses of a large neural population.
+These approximation formulas may potentially bring convenience to the
+applications of information theory to many practical and theoretical problems.

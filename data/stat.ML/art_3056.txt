@@ -1,0 +1,13 @@
+Screening Rules for Overlapping Group Lasso
+Recently, to solve large-scale lasso and group lasso problems, screening
+rules have been developed, the goal of which is to reduce the problem size by
+efficiently discarding zero coefficients using simple rules independently of
+the others. However, screening for overlapping group lasso remains an open
+challenge because the overlaps between groups make it infeasible to test each
+group independently. In this paper, we develop screening rules for overlapping
+group lasso. To address the challenge arising from groups with overlaps, we
+take into account overlapping groups only if they are inclusive of the group
+being tested, and then we derive screening rules, adopting the dual polytope
+projection approach. This strategy allows us to screen each group independently
+of each other. In our experiments, we demonstrate the efficiency of our
+screening rules on various datasets.

@@ -1,0 +1,16 @@
+$k$-means: Fighting against Degeneracy in Sequential Monte Carlo with an
+  Application to Tracking
+For regular particle filter algorithm or Sequential Monte Carlo (SMC)
+methods, the initial weights are traditionally dependent on the proposed
+distribution, the posterior distribution at the current timestamp in the
+sampled sequence, and the target is the posterior distribution of the previous
+timestamp. This is technically correct, but leads to algorithms which usually
+have practical issues with degeneracy, where all particles eventually collapse
+onto a single particle. In this paper, we propose and evaluate using $k$ means
+clustering to attack and even take advantage of this degeneracy. Specifically,
+we propose a Stochastic SMC algorithm which initializes the set of $k$ means,
+providing the initial centers chosen from the collapsed particles. To fight
+against degeneracy, we adjust the regular SMC weights, mediated by cluster
+proportions, and then correct them to retain the same expectation as before. We
+experimentally demonstrate that our approach has better performance than
+vanilla algorithms.

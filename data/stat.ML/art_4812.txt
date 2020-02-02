@@ -1,0 +1,10 @@
+Parallel SGD: When does averaging help?
+Consider a number of workers running SGD independently on the same pool of
+data and averaging the models every once in a while -- a common but not well
+understood practice. We study model averaging as a variance-reducing mechanism
+and describe two ways in which the frequency of averaging affects convergence.
+For convex objectives, we show the benefit of frequent averaging depends on the
+gradient variance envelope. For non-convex objectives, we illustrate that this
+benefit depends on the presence of multiple globally optimal points. We
+complement our findings with multicore experiments on both synthetic and real
+data.

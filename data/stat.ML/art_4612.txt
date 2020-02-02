@@ -1,0 +1,21 @@
+Algorithms for stochastic optimization with functional or expectation
+  constraints
+This paper considers the problem of minimizing an expectation function over a
+closed convex set, coupled with a {\color{black} functional or expectation}
+constraint on either decision variables or problem parameters. We first present
+a new stochastic approximation (SA) type algorithm, namely the cooperative SA
+(CSA), to handle problems with the constraint on devision variables. We show
+that this algorithm exhibits the optimal ${\cal O}(1/\epsilon^2)$ rate of
+convergence, in terms of both optimality gap and constraint violation, when the
+objective and constraint functions are generally convex, where $\epsilon$
+denotes the optimality gap and infeasibility. Moreover, we show that this rate
+of convergence can be improved to ${\cal O}(1/\epsilon)$ if the objective and
+constraint functions are strongly convex. We then present a variant of CSA,
+namely the cooperative stochastic parameter approximation (CSPA) algorithm, to
+deal with the situation when the constraint is defined over problem parameters
+and show that it exhibits similar optimal rate of convergence to CSA. It is
+worth noting that CSA and CSPA are primal methods which do not require the
+iterations on the dual space and/or the estimation on the size of the dual
+variables. To the best of our knowledge, this is the first time that such
+optimal SA methods for solving functional or expectation constrained stochastic
+optimization are presented in the literature.

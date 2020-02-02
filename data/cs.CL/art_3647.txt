@@ -1,0 +1,11 @@
+Aspect Level Sentiment Classification with Attention-over-Attention
+  Neural Networks
+Aspect-level sentiment classification aims to identify the sentiment
+expressed towards some aspects given context sentences. In this paper, we
+introduce an attention-over-attention (AOA) neural network for aspect level
+sentiment classification. Our approach models aspects and sentences in a joint
+way and explicitly captures the interaction between aspects and context
+sentences. With the AOA module, our model jointly learns the representations
+for aspects and sentences, and automatically focuses on the important parts in
+sentences. Our experiments on laptop and restaurant datasets demonstrate our
+approach outperforms previous LSTM-based architectures.

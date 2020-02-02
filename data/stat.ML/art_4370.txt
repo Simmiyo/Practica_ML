@@ -1,0 +1,11 @@
+MinimalRNN: Toward More Interpretable and Trainable Recurrent Neural
+  Networks
+We introduce MinimalRNN, a new recurrent neural network architecture that
+achieves comparable performance as the popular gated RNNs with a simplified
+structure. It employs minimal updates within RNN, which not only leads to
+efficient learning and testing but more importantly better interpretability and
+trainability. We demonstrate that by endorsing the more restrictive update
+rule, MinimalRNN learns disentangled RNN states. We further examine the
+learning dynamics of different RNN structures using input-output Jacobians, and
+show that MinimalRNN is able to capture longer range dependencies than existing
+RNN architectures.

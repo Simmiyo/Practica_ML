@@ -1,0 +1,15 @@
+Dissimilarity learning via Siamese network predicts brain imaging data
+The advent of deep learning has a profound effect on visual neuroscience. It
+paved the way for new models to predict neural data. Although deep
+convolutional neural networks are explicitly trained for categorization, they
+learn a representation similar to a biological visual system. But
+categorization is not the only goal of the human visual system. Hence, the
+representation of a classification algorithm may not completely explain the
+visual processing stages. Here, I modified the traditional Siamese network loss
+function (Contrastive loss) to train them directly on neural dissimilarity.
+This network takes image pair as input and predicts the correlation distance
+between their output features. For Algonauts challenge, using dissimilarity
+learning, I fine-tuned the initial layers of Alexnet to predict MEG early
+response/EVC data and all the layers of VGG-16 to predict MEG late response/IT
+data. This approach is ideal for datasets with high SNR. Therefore, my model
+achieved state-of-the-art performance on MEG dataset but not fMRI.

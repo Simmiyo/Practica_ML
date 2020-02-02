@@ -1,0 +1,14 @@
+Alternating direction method of multipliers for regularized multiclass
+  support vector machines
+The support vector machine (SVM) was originally designed for binary
+classifications. A lot of effort has been put to generalize the binary SVM to
+multiclass SVM (MSVM) which are more complex problems. Initially, MSVMs were
+solved by considering their dual formulations which are quadratic programs and
+can be solved by standard second-order methods. However, the duals of MSVMs
+with regularizers are usually more difficult to formulate and computationally
+very expensive to solve. This paper focuses on several regularized MSVMs and
+extends the alternating direction method of multiplier (ADMM) to these MSVMs.
+Using a splitting technique, all considered MSVMs are written as two-block
+convex programs, for which the ADMM has global convergence guarantees.
+Numerical experiments on synthetic and real data demonstrate the high
+efficiency and accuracy of our algorithms.

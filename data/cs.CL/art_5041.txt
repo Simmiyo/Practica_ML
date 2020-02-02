@@ -1,0 +1,11 @@
+Fast Neural Chinese Word Segmentation for Long Sentences
+Rapidly developed neural models have achieved competitive performance in
+Chinese word segmentation (CWS) as their traditional counterparts. However,
+most of methods encounter the computational inefficiency especially for long
+sentences because of the increasing model complexity and slower decoders. This
+paper presents a simple neural segmenter which directly labels the gap
+existence between adjacent characters to alleviate the existing drawback. Our
+segmenter is fully end-to-end and capable of performing segmentation very fast.
+We also show a performance difference with different tag sets. The experiments
+show that our segmenter can provide comparable performance with
+state-of-the-art.

@@ -1,0 +1,15 @@
+Reduced-Set Kernel Principal Components Analysis for Improving the
+  Training and Execution Speed of Kernel Machines
+This paper presents a practical, and theoretically well-founded, approach to
+improve the speed of kernel manifold learning algorithms relying on spectral
+decomposition. Utilizing recent insights in kernel smoothing and learning with
+integral operators, we propose Reduced Set KPCA (RSKPCA), which also suggests
+an easy-to-implement method to remove or replace samples with minimal effect on
+the empirical operator. A simple data point selection procedure is given to
+generate a substitute density for the data, with accuracy that is governed by a
+user-tunable parameter . The effect of the approximation on the quality of the
+KPCA solution, in terms of spectral and operator errors, can be shown directly
+in terms of the density estimate error and as a function of the parameter . We
+show in experiments that RSKPCA can improve both training and evaluation time
+of KPCA by up to an order of magnitude, and compares favorably to the
+widely-used Nystrom and density-weighted Nystrom methods.

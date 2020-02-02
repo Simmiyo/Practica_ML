@@ -1,0 +1,17 @@
+Finding Dominant User Utterances And System Responses in Conversations
+There are several dialog frameworks which allow manual specification of
+intents and rule based dialog flow. The rule based framework provides good
+control to dialog designers at the expense of being more time consuming and
+laborious. The job of a dialog designer can be reduced if we could identify
+pairs of user intents and corresponding responses automatically from prior
+conversations between users and agents. In this paper we propose an approach to
+find these frequent user utterances (which serve as examples for intents) and
+corresponding agent responses. We propose a novel SimCluster algorithm that
+extends standard K-means algorithm to simultaneously cluster user utterances
+and agent utterances by taking their adjacency information into account. The
+method also aligns these clusters to provide pairs of intents and response
+groups. We compare our results with those produced by using simple Kmeans
+clustering on a real dataset and observe upto 10% absolute improvement in
+F1-scores. Through our experiments on synthetic dataset, we show that our
+algorithm gains more advantage over K-means algorithm when the data has large
+variance.

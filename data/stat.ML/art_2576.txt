@@ -1,0 +1,15 @@
+Multi-view Laplacian Support Vector Machines
+We propose a new approach, multi-view Laplacian support vector machines
+(SVMs), for semi-supervised learning under the multi-view scenario. It
+integrates manifold regularization and multi-view regularization into the usual
+formulation of SVMs and is a natural extension of SVMs from supervised learning
+to multi-view semi-supervised learning. The function optimization problem in a
+reproducing kernel Hilbert space is converted to an optimization in a
+finite-dimensional Euclidean space. After providing a theoretical bound for the
+generalization performance of the proposed method, we further give a
+formulation of the empirical Rademacher complexity which affects the bound
+significantly. From this bound and the empirical Rademacher complexity, we can
+gain insights into the roles played by different regularization terms to the
+generalization performance. Experimental results on synthetic and real-world
+data sets are presented, which validate the effectiveness of the proposed
+multi-view Laplacian SVMs approach.

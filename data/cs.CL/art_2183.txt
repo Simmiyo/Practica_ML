@@ -1,0 +1,17 @@
+Transition-based Parsing with Context Enhancement and Future Reward
+  Reranking
+This paper presents a novel reranking model, future reward reranking, to
+re-score the actions in a transition-based parser by using a global scorer.
+Different to conventional reranking parsing, the model searches for the best
+dependency tree in all feasible trees constraining by a sequence of actions to
+get the future reward of the sequence. The scorer is based on a first-order
+graph-based parser with bidirectional LSTM, which catches different parsing
+view compared with the transition-based parser. Besides, since context
+enhancement has shown substantial improvement in the arc-stand transition-based
+parsing over the parsing accuracy, we implement context enhancement on an
+arc-eager transition-base parser with stack LSTMs, the dynamic oracle and
+dropout supporting and achieve further improvement. With the global scorer and
+context enhancement, the results show that UAS of the parser increases as much
+as 1.20% for English and 1.66% for Chinese, and LAS increases as much as 1.32%
+for English and 1.63% for Chinese. Moreover, we get state-of-the-art LASs,
+achieving 87.58% for Chinese and 93.37% for English.

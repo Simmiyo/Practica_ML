@@ -1,0 +1,14 @@
+Sparse quadratic classification rules via linear dimension reduction
+We consider the problem of high-dimensional classification between the two
+groups with unequal covariance matrices. Rather than estimating the full
+quadratic discriminant rule, we propose to perform simultaneous variable
+selection and linear dimension reduction on original data, with the subsequent
+application of quadratic discriminant analysis on the reduced space. In
+contrast to quadratic discriminant analysis, the proposed framework doesn't
+require estimation of precision matrices and scales linearly with the number of
+measurements, making it especially attractive for the use on high-dimensional
+datasets. We support the methodology with theoretical guarantees on variable
+selection consistency, and empirical comparison with competing approaches. We
+apply the method to gene expression data of breast cancer patients, and confirm
+the crucial importance of ESR1 gene in differentiating estrogen receptor
+status.

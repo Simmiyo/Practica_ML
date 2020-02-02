@@ -1,0 +1,26 @@
+CCG Parsing and Multiword Expressions
+This thesis presents a study about the integration of information about
+Multiword Expressions (MWEs) into parsing with Combinatory Categorial Grammar
+(CCG). We build on previous work which has shown the benefit of adding
+information about MWEs to syntactic parsing by implementing a similar pipeline
+with CCG parsing. More specifically, we collapse MWEs to one token in training
+and test data in CCGbank, a corpus which contains sentences annotated with CCG
+derivations. Our collapsing algorithm however can only deal with MWEs when they
+form a constituent in the data which is one of the limitations of our approach.
+  We study the effect of collapsing training and test data. A parsing effect
+can be obtained if collapsed data help the parser in its decisions and a
+training effect can be obtained if training on the collapsed data improves
+results. We also collapse the gold standard and show that our model
+significantly outperforms the baseline model on our gold standard, which
+indicates that there is a training effect. We show that the baseline model
+performs significantly better on our gold standard when the data are collapsed
+before parsing than when the data are collapsed after parsing which indicates
+that there is a parsing effect. We show that these results can lead to improved
+performance on the non-collapsed standard benchmark although we fail to show
+that it does so significantly. We conclude that despite the limited settings,
+there are noticeable improvements from using MWEs in parsing. We discuss ways
+in which the incorporation of MWEs into parsing can be improved and hypothesize
+that this will lead to more substantial results.
+  We finally show that turning the MWE recognition part of the pipeline into an
+experimental part is a useful thing to do as we obtain different results with
+different recognizers.

@@ -1,0 +1,27 @@
+Parsing spatiotemporal dynamical stability in ECoG during seizure onset,
+  propagation, and termination
+Understanding brain dynamics in epilepsy is critical for establishing
+rigorous control objectives that enable new therapeutic methods to mitigate
+seizure occurrence. In multichannel electrocorticography (ECoG) recordings
+acquired in 21 subjects during a total of 94 seizures, we apply dynamical
+systems stability analysis to assess the balance versus imbalance of seizure
+dynamics across different timescales and brain regions. Specifically, we
+consider a sliding time window multivariate autoregressive linear approximation
+of the data captured by the ECoG channels, where eigendecomposition of the
+estimated matrix of coefficients describes the contribution of different
+regions to the spatiotemporal process (eigenvectors) associated with a
+particular timescale (eigenvalues). Interestingly, we observe a pattern of
+eigenvalue evolution and slowly changing (or approximately time-invariant)
+eigenvectors across both seizures and subjects. The seizure-onset is marked by
+an increase in high frequency spatial information to which a few regions
+contribute for a long period. By contrast, the seizure termination is
+characterized by a sudden, small time period change in dynamics to which many
+regions contribute. As the seizure terminates, the relatively stable ictal
+dynamics rapidly transition into the post-ictal regime, marked by relatively
+fast-damping oscillations. Our methodology offers a subject-specific
+characterization of the spatiotemporal behavior of the seizure, providing new
+insights into the dynamic patterns and functional interactions between brain
+regions that occur over different timescales. More generally, our approach
+informs the development of engineering objectives that can be used to deploy
+new control strategies to prevent seizure evolution or to hasten seizure
+termination.

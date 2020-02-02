@@ -1,0 +1,11 @@
+Active Learning of Halfspaces under a Margin Assumption
+We derive and analyze a new, efficient, pool-based active learning algorithm
+for halfspaces, called ALuMA. Most previous algorithms show exponential
+improvement in the label complexity assuming that the distribution over the
+instance space is close to uniform. This assumption rarely holds in practical
+applications. Instead, we study the label complexity under a large-margin
+assumption -- a much more realistic condition, as evident by the success of
+margin-based algorithms such as SVM. Our algorithm is computationally efficient
+and comes with formal guarantees on its label complexity. It also naturally
+extends to the non-separable case and to non-linear kernels. Experiments
+illustrate the clear advantage of ALuMA over other active learning algorithms.

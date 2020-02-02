@@ -1,0 +1,11 @@
+The Universality of the Quantum Fourier Transform in Forming the Basis
+  of Quantum Computing Algorithms
+The quantum Fourier transform (QFT) is a powerful tool in quantum computing.
+The main ingredients of QFT are formed by the Walsh-Hadamard transform H and
+phase shifts P(.), both of which are 2x2 unitary matrices as operators on the
+two-dimensional 1-qubit space. In this paper, we show that H and P(.) suffice
+to generate the unitary group U(2) and, consequently, through controlled-U
+operations and their concatenations, the entire unitary group U(2^n) on
+n-qubits can be generated. Since any quantum computing algorithm in an n-qubit
+quantum computer is based on operations by matrices in U(2^n), in this sense we
+have the universality of the QFT.

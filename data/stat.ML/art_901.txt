@@ -1,0 +1,12 @@
+Fast Algorithms for Learning Latent Variables in Graphical Models
+We study the problem of learning latent variables in Gaussian graphical
+models. Existing methods for this problem assume that the precision matrix of
+the observed variables is the superposition of a sparse and a low-rank
+component. In this paper, we focus on the estimation of the low-rank component,
+which encodes the effect of marginalization over the latent variables. We
+introduce fast, proper learning algorithms for this problem. In contrast with
+existing approaches, our algorithms are manifestly non-convex. We support their
+efficacy via a rigorous theoretical analysis, and show that our algorithms
+match the best possible in terms of sample complexity, while achieving
+computational speed-ups over existing methods. We complement our theory with
+several numerical experiments.

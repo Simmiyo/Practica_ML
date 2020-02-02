@@ -1,0 +1,16 @@
+Concept Drift Detection for Streaming Data
+Common statistical prediction models often require and assume stationarity in
+the data. However, in many practical applications, changes in the relationship
+of the response and predictor variables are regularly observed over time,
+resulting in the deterioration of the predictive performance of these models.
+This paper presents Linear Four Rates (LFR), a framework for detecting these
+concept drifts and subsequently identifying the data points that belong to the
+new concept (for relearning the model). Unlike conventional concept drift
+detection approaches, LFR can be applied to both batch and stream data; is not
+limited by the distribution properties of the response variable (e.g., datasets
+with imbalanced labels); is independent of the underlying statistical-model;
+and uses user-specified parameters that are intuitively comprehensible. The
+performance of LFR is compared to benchmark approaches using both simulated and
+commonly used public datasets that span the gamut of concept drift types. The
+results show LFR significantly outperforms benchmark approaches in terms of
+recall, accuracy and delay in detection of concept drifts across datasets.

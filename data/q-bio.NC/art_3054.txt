@@ -1,0 +1,15 @@
+An FFT-based Synchronization Approach to Recognize Human Behaviors using
+  STN-LFP Signal
+Classification of human behavior is key to developing closed-loop Deep Brain
+Stimulation (DBS) systems, which may be able to decrease the power consumption
+and side effects of the existing systems. Recent studies have shown that the
+Local Field Potential (LFP) signals from both Subthalamic Nuclei (STN) of the
+brain can be used to recognize human behavior. Since the DBS leads implanted in
+each STN can collect three bipolar signals, the selection of a suitable pair of
+LFPs that achieves optimal recognition performance is still an open problem to
+address. Considering the presence of synchronized aggregate activity in the
+basal ganglia, this paper presents an FFT-based synchronization approach to
+automatically select a relevant pair of LFPs and use the pair together with an
+SVM-based MKL classifier for behavior recognition purposes. Our experiments on
+five subjects show the superiority of the proposed approach compared to other
+methods used for behavior classification.

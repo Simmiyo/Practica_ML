@@ -1,0 +1,13 @@
+l1-norm Penalized Orthogonal Forward Regression
+A l1-norm penalized orthogonal forward regression (l1-POFR) algorithm is
+proposed based on the concept of leaveone- out mean square error (LOOMSE).
+Firstly, a new l1-norm penalized cost function is defined in the constructed
+orthogonal space, and each orthogonal basis is associated with an individually
+tunable regularization parameter. Secondly, due to orthogonal computation, the
+LOOMSE can be analytically computed without actually splitting the data set,
+and moreover a closed form of the optimal regularization parameter in terms of
+minimal LOOMSE is derived. Thirdly, a lower bound for regularization parameters
+is proposed, which can be used for robust LOOMSE estimation by adaptively
+detecting and removing regressors to an inactive set so that the computational
+cost of the algorithm is significantly reduced. Illustrative examples are
+included to demonstrate the effectiveness of this new l1-POFR approach.

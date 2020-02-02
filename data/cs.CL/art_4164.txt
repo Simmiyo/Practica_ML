@@ -1,0 +1,17 @@
+Character-Level Feature Extraction with Densely Connected Networks
+Generating character-level features is an important step for achieving good
+results in various natural language processing tasks. To alleviate the need for
+human labor in generating hand-crafted features, methods that utilize neural
+architectures such as Convolutional Neural Network (CNN) or Recurrent Neural
+Network (RNN) to automatically extract such features have been proposed and
+have shown great results. However, CNN generates position-independent features,
+and RNN is slow since it needs to process the characters sequentially. In this
+paper, we propose a novel method of using a densely connected network to
+automatically extract character-level features. The proposed method does not
+require any language or task specific assumptions, and shows robustness and
+effectiveness while being faster than CNN- or RNN-based methods. Evaluating
+this method on three sequence labeling tasks - slot tagging, Part-of-Speech
+(POS) tagging, and Named-Entity Recognition (NER) - we obtain state-of-the-art
+performance with a 96.62 F1-score and 97.73% accuracy on slot tagging and POS
+tagging, respectively, and comparable performance to the state-of-the-art 91.13
+F1-score on NER.

@@ -1,0 +1,20 @@
+Entropy-based parametric estimation of spike train statistics
+We consider the evolution of a network of neurons, focusing on the asymptotic
+behavior of spikes dynamics instead of membrane potential dynamics. The spike
+response is not sought as a deterministic response in this context, but as a
+conditional probability : "Reading out the code" consists of inferring such a
+probability. This probability is computed from empirical raster plots, by using
+the framework of thermodynamic formalism in ergodic theory. This gives us a
+parametric statistical model where the probability has the form of a Gibbs
+distribution. In this respect, this approach generalizes the seminal and
+profound work of Schneidman and collaborators. A minimal presentation of the
+formalism is reviewed here, while a general algorithmic estimation method is
+proposed yielding fast convergent implementations. It is also made explicit how
+several spike observables (entropy, rate, synchronizations, correlations) are
+given in closed-form from the parametric estimation. This paradigm does not
+only allow us to estimate the spike statistics, given a design choice, but also
+to compare different models, thus answering comparative questions about the
+neural code such as : "are correlations (or time synchrony or a given set of
+spike patterns, ..) significant with respect to rate coding only ?" A numerical
+validation of the method is proposed and the perspectives regarding spike-train
+code analysis are also discussed.

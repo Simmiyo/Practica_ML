@@ -1,0 +1,14 @@
+Neural field model of memory-guided search
+Many organisms can remember locations they have previously visited during a
+search. Visual search experiments have shown exploration is guided away from
+these locations, reducing the overlap of the search path before finding a
+hidden target. We develop and analyze a two-layer neural field model that
+encodes positional information during a search task. A position-encoding layer
+sustains a bump attractor corresponding to the searching agent's current
+location, and search is modeled by velocity input that propagates the bump. A
+memory layer sustains persistent activity bounded by a wave front, whose edges
+expand in response to excitatory input from the position layer. Search can then
+be biased in response to remembered locations, influencing velocity inputs to
+the position layer. Asymptotic techniques are used to reduce the dynamics of
+our model to a low-dimensional system of equations that track the bump position
+and front boundary. Performance is compared for different target-finding tasks.

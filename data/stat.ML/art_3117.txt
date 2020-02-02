@@ -1,0 +1,17 @@
+New insights and perspectives on the natural gradient method
+Natural gradient descent is an optimization method traditionally motivated
+from the perspective of information geometry, and works well for many
+applications as an alternative to stochastic gradient descent. In this paper we
+critically analyze this method and its properties, and show how it can be
+viewed as a type of approximate 2nd-order optimization method, where the Fisher
+information matrix can be viewed as an approximation of the Hessian. This
+perspective turns out to have significant implications for how to design a
+practical and robust version of the method. Additionally, we make the following
+contributions to the understanding of natural gradient and 2nd-order methods: a
+thorough analysis of the convergence speed of stochastic natural gradient
+descent (and more general stochastic 2nd-order methods) as applied to convex
+quadratics, a critical examination of the oft-used "empirical" approximation of
+the Fisher matrix, and an analysis of the (approximate) parameterization
+invariance property possessed by natural gradient methods, which we show still
+holds for certain choices of the curvature matrix other than the Fisher, but
+notably not the Hessian.

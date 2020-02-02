@@ -1,0 +1,11 @@
+Partial Membership Latent Dirichlet Allocation
+Topic models (e.g., pLSA, LDA, SLDA) have been widely used for segmenting
+imagery. These models are confined to crisp segmentation. Yet, there are many
+images in which some regions cannot be assigned a crisp label (e.g., transition
+regions between a foggy sky and the ground or between sand and water at a
+beach). In these cases, a visual word is best represented with partial
+memberships across multiple topics. To address this, we present a partial
+membership latent Dirichlet allocation (PM-LDA) model and associated parameter
+estimation algorithms. Experimental results on two natural image datasets and
+one SONAR image dataset show that PM-LDA can produce both crisp and soft
+semantic image segmentations; a capability existing methods do not have.

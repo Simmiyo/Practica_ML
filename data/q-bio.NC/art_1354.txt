@@ -1,0 +1,22 @@
+Decoding and mapping task states of the human brain via deep learning
+Multivariate pattern analysis (MVPA) has delivered promising performance in
+decoding specific task states based on functional magnetic resonance imaging
+(fMRI) of the human brain. However, the number of dimensions of fMRI signals
+are too large (hundreds of thousands of voxels in one volume) to be efficiently
+learnt by the MVPA. Researchers thus need to reduce the features to tens or
+hundreds of dimensions through feature selection/extraction that requires
+expert knowledge and may lead to a selection bias. In this study, we propose a
+deep neural network (DNN) for directly decoding multiple brain task states from
+fMRI signals of the brain without any burden for feature handcrafts. We trained
+and tested the DNN classifier using task fMRI data from the Human Connectome
+Project's S1200 dataset (N=1034). In tests to verify its performance, the
+proposed classification method identified seven tasks with an average accuracy
+of 93.7%. We also showed the general applicability of the DNN for transfer
+learning to small datasets (N=43), a situation encountered in typical
+neuroscience research. The proposed method achieved an average accuracy of 89%
+and 94.7% on a working memory task and a motor classification task,
+respectively, higher than the accuracy of 69.2% and 68.6% obtained by the MVPA.
+A visualization analysis showed that the DNN automatically detected features
+from areas of the brain related to each task. Without incurring the burden of
+handcrafting the features, the proposed deep decoding method can classify brain
+task states highly accurately, and is a powerful tool for fMRI researchers.

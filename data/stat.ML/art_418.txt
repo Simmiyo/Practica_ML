@@ -1,0 +1,25 @@
+Linear Dimensionality Reduction: Survey, Insights, and Generalizations
+Linear dimensionality reduction methods are a cornerstone of analyzing high
+dimensional data, due to their simple geometric interpretations and typically
+attractive computational properties. These methods capture many data features
+of interest, such as covariance, dynamical structure, correlation between data
+sets, input-output relationships, and margin between data classes. Methods have
+been developed with a variety of names and motivations in many fields, and
+perhaps as a result the connections between all these methods have not been
+highlighted. Here we survey methods from this disparate literature as
+optimization programs over matrix manifolds. We discuss principal component
+analysis, factor analysis, linear multidimensional scaling, Fisher's linear
+discriminant analysis, canonical correlations analysis, maximum autocorrelation
+factors, slow feature analysis, sufficient dimensionality reduction,
+undercomplete independent component analysis, linear regression, distance
+metric learning, and more. This optimization framework gives insight to some
+rarely discussed shortcomings of well-known methods, such as the suboptimality
+of certain eigenvector solutions. Modern techniques for optimization over
+matrix manifolds enable a generic linear dimensionality reduction solver, which
+accepts as input data and an objective to be optimized, and returns, as output,
+an optimal low-dimensional projection of the data. This simple optimization
+framework further allows straightforward generalizations and novel variants of
+classical methods, which we demonstrate here by creating an
+orthogonal-projection canonical correlations analysis. More broadly, this
+survey and generic solver suggest that linear dimensionality reduction can move
+toward becoming a blackbox, objective-agnostic numerical technology.

@@ -1,0 +1,11 @@
+Learning from Sparse Data by Exploiting Monotonicity Constraints
+When training data is sparse, more domain knowledge must be incorporated into
+the learning algorithm in order to reduce the effective size of the hypothesis
+space. This paper builds on previous work in which knowledge about qualitative
+monotonicities was formally represented and incorporated into learning
+algorithms (e.g., Clark & Matwin's work with the CN2 rule learning algorithm).
+We show how to interpret knowledge of qualitative influences, and in particular
+of monotonicities, as constraints on probability distributions, and to
+incorporate this knowledge into Bayesian network learning algorithms. We show
+that this yields improved accuracy, particularly with very small training sets
+(e.g. less than 10 examples).

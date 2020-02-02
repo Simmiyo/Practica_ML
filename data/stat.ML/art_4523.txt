@@ -1,0 +1,21 @@
+Episodic Multi-armed Bandits
+We introduce a new class of reinforcement learning methods referred to as
+{\em episodic multi-armed bandits} (eMAB). In eMAB the learner proceeds in {\em
+episodes}, each composed of several {\em steps}, in which it chooses an action
+and observes a feedback signal. Moreover, in each step, it can take a special
+action, called the $stop$ action, that ends the current episode. After the
+$stop$ action is taken, the learner collects a terminal reward, and observes
+the costs and terminal rewards associated with each step of the episode. The
+goal of the learner is to maximize its cumulative gain (i.e., the terminal
+reward minus costs) over all episodes by learning to choose the best sequence
+of actions based on the feedback. First, we define an {\em oracle} benchmark,
+which sequentially selects the actions that maximize the expected immediate
+gain. Then, we propose our online learning algorithm, named {\em FeedBack
+Adaptive Learning} (FeedBAL), and prove that its regret with respect to the
+benchmark is bounded with high probability and increases logarithmically in
+expectation. Moreover, the regret only has polynomial dependence on the number
+of steps, actions and states. eMAB can be used to model applications that
+involve humans in the loop, ranging from personalized medical screening to
+personalized web-based education, where sequences of actions are taken in each
+episode, and optimal behavior requires adapting the chosen actions based on the
+feedback.

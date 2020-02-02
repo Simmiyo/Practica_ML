@@ -1,0 +1,14 @@
+Data-driven Summarization of Scientific Articles
+Data-driven approaches to sequence-to-sequence modelling have been
+successfully applied to short text summarization of news articles. Such models
+are typically trained on input-summary pairs consisting of only a single or a
+few sentences, partially due to limited availability of multi-sentence training
+data. Here, we propose to use scientific articles as a new milestone for text
+summarization: large-scale training data come almost for free with two types of
+high-quality summaries at different levels - the title and the abstract. We
+generate two novel multi-sentence summarization datasets from scientific
+articles and test the suitability of a wide range of existing extractive and
+abstractive neural network-based summarization approaches. Our analysis
+demonstrates that scientific papers are suitable for data-driven text
+summarization. Our results could serve as valuable benchmarks for scaling
+sequence-to-sequence models to very long sequences.

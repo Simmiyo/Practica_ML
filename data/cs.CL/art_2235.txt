@@ -1,0 +1,10 @@
+Bidirectional American Sign Language to English Translation
+We outline a bidirectional translation system that converts sentences from
+American Sign Language (ASL) to English, and vice versa. To perform machine
+translation between ASL and English, we utilize a generative approach.
+Specifically, we employ an adjustment to the IBM word-alignment model 1 (IBM
+WAM1), where we define language models for English and ASL, as well as a
+translation model, and attempt to generate a translation that maximizes the
+posterior distribution defined by these models. Then, using these models, we
+are able to quantify the concepts of fluency and faithfulness of a translation
+between languages.

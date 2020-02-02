@@ -1,0 +1,28 @@
+Piece-wise quadratic approximations of arbitrary error functions for
+  fast and robust machine learning
+Most of machine learning approaches have stemmed from the application of
+minimizing the mean squared distance principle, based on the computationally
+efficient quadratic optimization methods. However, when faced with
+high-dimensional and noisy data, the quadratic error functionals demonstrated
+many weaknesses including high sensitivity to contaminating factors and
+dimensionality curse. Therefore, a lot of recent applications in machine
+learning exploited properties of non-quadratic error functionals based on $L_1$
+norm or even sub-linear potentials corresponding to quasinorms $L_p$ ($0<p<1$).
+The back side of these approaches is increase in computational cost for
+optimization. Till so far, no approaches have been suggested to deal with {\it
+arbitrary} error functionals, in a flexible and computationally efficient
+framework. In this paper, we develop a theory and basic universal data
+approximation algorithms ($k$-means, principal components, principal manifolds
+and graphs, regularized and sparse regression), based on piece-wise quadratic
+error potentials of subquadratic growth (PQSQ potentials). We develop a new and
+universal framework to minimize {\it arbitrary sub-quadratic error potentials}
+using an algorithm with guaranteed fast convergence to the local or global
+error minimum. The theory of PQSQ potentials is based on the notion of the cone
+of minorant functions, and represents a natural approximation formalism based
+on the application of min-plus algebra. The approach can be applied in most of
+existing machine learning methods, including methods of data approximation and
+regularized and sparse regression, leading to the improvement in the
+computational cost/accuracy trade-off. We demonstrate that on synthetic and
+real-life datasets PQSQ-based machine learning methods achieve orders of
+magnitude faster computational performance than the corresponding
+state-of-the-art methods.

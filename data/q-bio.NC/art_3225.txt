@@ -1,0 +1,28 @@
+A New Framework for Determination of Excitatory and Inhibitory
+  Conductances Using Somatic Clamp
+The interaction between excitation and inhibition is crucial for brain
+computation. To understand synaptic mechanisms underlying brain function, it is
+important to separate excitatory and inhibitory inputs to a target neuron. In
+the traditional method, after applying somatic current or voltage clamp, the
+excitatory and inhibitory conductances are determined from the synaptic
+current-voltage (I-V) relation --- the slope corresponds to the total
+conductance and the intercept corresponds to the reversal current. Because of
+the space clamp effect, the measured conductance in general deviates
+substantially from the local conductance on the dendrite. Therefore, the
+interpretation of the conductance measured by the traditional method remains to
+be clarified. In this work, based on the investigation of an idealized
+ball-and-stick neuron model and a biologically realistic pyramidal neuron
+model, we first demonstrate both analytically and numerically that the
+conductance determined by the traditional method has no clear biological
+interpretation due to the neglect of a nonlinear interaction between the clamp
+current and the synaptic current across the spatial dendrites. As a
+consequence, the traditional method can induce an arbitrarily large error of
+conductance measurement, sometimes even leads to unphysically negative
+conductance. To circumvent the difficulty of elucidating synaptic impact on
+neuronal computation using the traditional method, we then propose a framework
+to determine the effective conductance that reflects directly the functional
+impact of synaptic inputs on action potential initiation and thereby neuronal
+information processing. Our framework has been further verified in realistic
+neuron simulations, thus greatly improves upon the traditional approach by
+providing a reliable and accurate assessment of the role of synaptic activity
+in neuronal computation.

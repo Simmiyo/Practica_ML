@@ -1,0 +1,19 @@
+Concentration inequalities of the cross-validation estimate for stable
+  predictors
+In this article, we derive concentration inequalities for the
+cross-validation estimate of the generalization error for stable predictors in
+the context of risk assessment. The notion of stability has been first
+introduced by \cite{DEWA79} and extended by \cite{KEA95}, \cite{BE01} and
+\cite{KUNIY02} to characterize class of predictors with infinite VC dimension.
+In particular, this covers $k$-nearest neighbors rules, bayesian algorithm
+(\cite{KEA95}), boosting,... General loss functions and class of predictors are
+considered. We use the formalism introduced by \cite{DUD03} to cover a large
+variety of cross-validation procedures including leave-one-out
+cross-validation, $k$-fold cross-validation, hold-out cross-validation (or
+split sample), and the leave-$\upsilon$-out cross-validation.
+  In particular, we give a simple rule on how to choose the cross-validation,
+depending on the stability of the class of predictors. In the special case of
+uniform stability, an interesting consequence is that the number of elements in
+the test set is not required to grow to infinity for the consistency of the
+cross-validation procedure. In this special case, the particular interest of
+leave-one-out cross-validation is emphasized.

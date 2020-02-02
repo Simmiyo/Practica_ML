@@ -1,0 +1,19 @@
+Large-scale Collaborative Imaging Genetics Studies of Risk Genetic
+  Factors for Alzheimer's Disease Across Multiple Institutions
+Genome-wide association studies (GWAS) offer new opportunities to identify
+genetic risk factors for Alzheimer's disease (AD). Recently, collaborative
+efforts across different institutions emerged that enhance the power of many
+existing techniques on individual institution data. However, a major barrier to
+collaborative studies of GWAS is that many institutions need to preserve
+individual data privacy. To address this challenge, we propose a novel
+distributed framework, termed Local Query Model (LQM) to detect risk SNPs for
+AD across multiple research institutions. To accelerate the learning process,
+we propose a Distributed Enhanced Dual Polytope Projection (D-EDPP) screening
+rule to identify irrelevant features and remove them from the optimization. To
+the best of our knowledge, this is the first successful run of the
+computationally intensive model selection procedure to learn a consistent model
+across different institutions without compromising their privacy while ranking
+the SNPs that may collectively affect AD. Empirical studies are conducted on
+809 subjects with 5.9 million SNP features which are distributed across three
+individual institutions. D-EDPP achieved a 66-fold speed-up by effectively
+identifying irrelevant features.

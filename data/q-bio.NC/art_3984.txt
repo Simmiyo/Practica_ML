@@ -1,0 +1,17 @@
+Event-driven simulations of a plastic, spiking neural network
+We consider a fully-connected network of leaky integrate-and-fire neurons
+with spike-timing-dependent plasticity. The plasticity is controlled by a
+parameter representing the expected weight of a synapse between neurons that
+are firing randomly with the same mean frequency. For low values of the
+plasticity parameter, the activities of the system are dominated by noise,
+while large values of the plasticity parameter lead to self-sustaining activity
+in the network. We perform event-driven simulations on finite-size networks
+with up to 128 neurons to find the stationary synaptic weight conformations for
+different values of the plasticity parameter. In both the low and high activity
+regimes, the synaptic weights are narrowly distributed around the plasticity
+parameter value consistent with the predictions of mean-field theory. However,
+the distribution broadens in the transition region between the two regimes,
+representing emergent network structures. Using a pseudophysical approach for
+visualization, we show that the emergent structures are of "path" or "hub"
+type, observed at different values of the plasticity parameter in the
+transition region.

@@ -1,0 +1,11 @@
+Learning Dictionaries for Named Entity Recognition using Minimal
+  Supervision
+This paper describes an approach for automatic construction of dictionaries
+for Named Entity Recognition (NER) using large amounts of unlabeled data and a
+few seed examples. We use Canonical Correlation Analysis (CCA) to obtain lower
+dimensional embeddings (representations) for candidate phrases and classify
+these phrases using a small number of labeled examples. Our method achieves
+16.5% and 11.3% F-1 score improvement over co-training on disease and virus NER
+respectively. We also show that by adding candidate phrase embeddings as
+features in a sequence tagger gives better performance compared to using word
+embeddings.

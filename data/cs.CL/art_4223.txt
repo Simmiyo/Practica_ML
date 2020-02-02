@@ -1,0 +1,14 @@
+Universal Word Segmentation: Implementation and Interpretation
+Word segmentation is a low-level NLP task that is non-trivial for a
+considerable number of languages. In this paper, we present a sequence tagging
+framework and apply it to word segmentation for a wide range of languages with
+different writing systems and typological characteristics. Additionally, we
+investigate the correlations between various typological factors and word
+segmentation accuracy. The experimental results indicate that segmentation
+accuracy is positively related to word boundary markers and negatively to the
+number of unique non-segmental terms. Based on the analysis, we design a small
+set of language-specific settings and extensively evaluate the segmentation
+system on the Universal Dependencies datasets. Our model obtains
+state-of-the-art accuracies on all the UD languages. It performs substantially
+better on languages that are non-trivial to segment, such as Chinese, Japanese,
+Arabic and Hebrew, when compared to previous work.

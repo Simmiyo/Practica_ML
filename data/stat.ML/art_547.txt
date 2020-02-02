@@ -1,0 +1,16 @@
+Fast and Memory-Efficient Significant Pattern Mining via Permutation
+  Testing
+We present a novel algorithm, Westfall-Young light, for detecting patterns,
+such as itemsets and subgraphs, which are statistically significantly enriched
+in one of two classes. Our method corrects rigorously for multiple hypothesis
+testing and correlations between patterns through the Westfall-Young
+permutation procedure, which empirically estimates the null distribution of
+pattern frequencies in each class via permutations. In our experiments,
+Westfall-Young light dramatically outperforms the current state-of-the-art
+approach in terms of both runtime and memory efficiency on popular real-world
+benchmark datasets for pattern mining. The key to this efficiency is that
+unlike all existing methods, our algorithm neither needs to solve the
+underlying frequent itemset mining problem anew for each permutation nor needs
+to store the occurrence list of all frequent patterns. Westfall-Young light
+opens the door to significant pattern mining on large datasets that previously
+led to prohibitive runtime or memory costs.

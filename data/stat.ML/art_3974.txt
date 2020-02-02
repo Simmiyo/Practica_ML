@@ -1,0 +1,17 @@
+Causal Network Learning from Multiple Interventions of Unknown
+  Manipulated Targets
+In this paper, we discuss structure learning of causal networks from multiple
+data sets obtained by external intervention experiments where we do not know
+what variables are manipulated. For example, the conditions in these
+experiments are changed by changing temperature or using drugs, but we do not
+know what target variables are manipulated by the external interventions. From
+such data sets, the structure learning becomes more difficult. For this case,
+we first discuss the identifiability of causal structures. Next we present a
+graph-merging method for learning causal networks for the case that the sample
+sizes are large for these interventions. Then for the case that the sample
+sizes of these interventions are relatively small, we propose a data-pooling
+method for learning causal networks in which we pool all data sets of these
+interventions together for the learning. Further we propose a re-sampling
+approach to evaluate the edges of the causal network learned by the
+data-pooling method. Finally we illustrate the proposed learning methods by
+simulations.

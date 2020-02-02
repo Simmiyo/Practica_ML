@@ -1,0 +1,14 @@
+An ADMM Algorithm for a Class of Total Variation Regularized Estimation
+  Problems
+We present an alternating augmented Lagrangian method for convex optimization
+problems where the cost function is the sum of two terms, one that is separable
+in the variable blocks, and a second that is separable in the difference
+between consecutive variable blocks. Examples of such problems include Fused
+Lasso estimation, total variation denoising, and multi-period portfolio
+optimization with transaction costs. In each iteration of our method, the first
+step involves separately optimizing over each variable block, which can be
+carried out in parallel. The second step is not separable in the variables, but
+can be carried out very efficiently. We apply the algorithm to segmentation of
+data based on changes inmean (l_1 mean filtering) or changes in variance (l_1
+variance filtering). In a numerical example, we show that our implementation is
+around 10000 times faster compared with the generic optimization solver SDPT3.

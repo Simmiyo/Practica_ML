@@ -1,0 +1,18 @@
+Language Acquisition in Computers
+This project explores the nature of language acquisition in computers, guided
+by techniques similar to those used in children. While existing natural
+language processing methods are limited in scope and understanding, our system
+aims to gain an understanding of language from first principles and hence
+minimal initial input. The first portion of our system was implemented in Java
+and is focused on understanding the morphology of language using bigrams. We
+use frequency distributions and differences between them to define and
+distinguish languages. English and French texts were analyzed to determine a
+difference threshold of 55 before the texts are considered to be in different
+languages, and this threshold was verified using Spanish texts. The second
+portion of our system focuses on gaining an understanding of the syntax of a
+language using a recursive method. The program uses one of two possible methods
+to analyze given sentences based on either sentence patterns or surrounding
+words. Both methods have been implemented in C++. The program is able to
+understand the structure of simple sentences and learn new words. In addition,
+we have provided some suggestions regarding future work and potential
+extensions of the existing program.

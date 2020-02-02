@@ -1,0 +1,20 @@
+Probabilistic Reduced-Order Modeling for Stochastic Partial Differential
+  Equations
+We discuss a Bayesian formulation to coarse-graining (CG) of PDEs where the
+coefficients (e.g. material parameters) exhibit random, fine scale variability.
+The direct solution to such problems requires grids that are small enough to
+resolve this fine scale variability which unavoidably requires the repeated
+solution of very large systems of algebraic equations. We establish a
+physically inspired, data-driven coarse-grained model which learns a low-
+dimensional set of microstructural features that are predictive of the
+fine-grained model (FG) response. Once learned, those features provide a sharp
+distribution over the coarse scale effec- tive coefficients of the PDE that are
+most suitable for prediction of the fine scale model output. This ultimately
+allows to replace the computationally expensive FG by a generative proba-
+bilistic model based on evaluating the much cheaper CG several times. Sparsity
+enforcing pri- ors further increase predictive efficiency and reveal
+microstructural features that are important in predicting the FG response.
+Moreover, the model yields probabilistic rather than single-point predictions,
+which enables the quantification of the unavoidable epistemic uncertainty that
+is present due to the information loss that occurs during the coarse-graining
+process.

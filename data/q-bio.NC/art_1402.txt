@@ -1,0 +1,27 @@
+Particle-filtering approaches for nonlinear Bayesian decoding of
+  neuronal spike trains
+The number of neurons that can be simultaneously recorded doubles every seven
+years. This ever increasing number of recorded neurons opens up the possibility
+to address new questions and extract higher dimensional stimuli from the
+recordings. Modeling neural spike trains as point processes, this task of
+extracting dynamical signals from spike trains is commonly set in the context
+of nonlinear filtering theory. Particle filter methods relying on importance
+weights are generic algorithms that solve the filtering task numerically, but
+exhibit a serious drawback when the problem dimensionality is high: they are
+known to suffer from the 'curse of dimensionality' (COD), i.e. the number of
+particles required for a certain performance scales exponentially with the
+observable dimensions. Here, we first briefly review the theory on filtering
+with point process observations in continuous time. Based on this theory, we
+investigate both analytically and numerically the reason for the COD of
+weighted particle filtering approaches: Similarly to particle filtering with
+continuous-time observations, the COD with point-process observations is due to
+the decay of effective number of particles, an effect that is stronger when the
+number of observable dimensions increases. Given the success of unweighted
+particle filtering approaches in overcoming the COD for continuous- time
+observations, we introduce an unweighted particle filter for point-process
+observations, the spike-based Neural Particle Filter (sNPF), and show that it
+exhibits a similar favorable scaling as the number of dimensions grows.
+Further, we derive rules for the parameters of the sNPF from a maximum
+likelihood approach learning. We finally employ a simple decoding task to
+illustrate the capabilities of the sNPF and to highlight one possible future
+application of our inference and learning algorithm.

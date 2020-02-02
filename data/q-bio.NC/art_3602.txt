@@ -1,0 +1,18 @@
+Correntropy Based Robust Decomposition of Neuromodulations
+Neuromodulations as observed in the extracellular electrical potential
+recordings obtained from Electroencephalograms (EEG) manifest as organized,
+transient patterns that differ statistically from their featureless noisy
+background. Leveraging on this statistical dissimilarity, we propose a
+noniterative robust classification algorithm to isolate, in time, these
+neuromodulations from the temporally disorganized but structured background
+activity while simultaneously incorporating temporal sparsity of the events.
+Specifically, we exploit the ability of correntropy to asses higher - order
+moments as well as imply the degree of similarity between two random variables
+in the joint space regulated by the kernel bandwidth. We test our algorithm on
+DREAMS Sleep Spindle Database and further elaborate on the hyperparameters
+introduced. Finally, we compare the performance of the algorithm with two
+algorithms designed on similar ideas; one of which is a quick, simple norm
+based technique while the other parallels the state-of-the-art Robust Principal
+Component Analysis (RPCA) to achieve classification. The algorithm is able to
+match the performance of the state-of-the-art techniques while saving
+tremendously on computation time and complexity.

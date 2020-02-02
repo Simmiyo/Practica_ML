@@ -1,0 +1,23 @@
+A Novel Statistical Method Based on Dynamic Models for Classification
+Realizations of stochastic process are often observed temporal data or
+functional data. There are growing interests in classification of dynamic or
+functional data. The basic feature of functional data is that the functional
+data have infinite dimensions and are highly correlated. An essential issue for
+classifying dynamic and functional data is how to effectively reduce their
+dimension and explore dynamic feature. However, few statistical methods for
+dynamic data classification have directly used rich dynamic features of the
+data. We propose to use second order ordinary differential equation (ODE) to
+model dynamic process and principal differential analysis to estimate constant
+or time-varying parameters in the ODE. We examine differential dynamic
+properties of the dynamic system across different conditions including
+stability and transient-response, which determine how the dynamic systems
+maintain their functions and performance under a broad range of random internal
+and external perturbations. We use the parameters in the ODE as features for
+classifiers. As a proof of principle, the proposed methods are applied to
+classifying normal and abnormal QRS complexes in the electrocardiogram (ECG)
+data analysis, which is of great clinical values in diagnosis of cardiovascular
+diseases. We show that the ODE-based classification methods in QRS complex
+classification outperform the currently widely used neural networks with
+Fourier expansion coefficients of the functional data as their features. We
+expect that the dynamic model-based classification methods may open a new
+avenue for functional data classification.

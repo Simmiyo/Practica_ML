@@ -1,0 +1,11 @@
+On the Quantum Black-Box Complexity of Majority
+We describe a quantum black-box network computing the majority of N bits with
+zero-sided error eps using only 2N/3 + O(sqrt{N (log log N + log 1/eps)})
+queries: the algorithm returns the correct answer with probability at least 1 -
+eps, and "I don't know" otherwise. Our algorithm is given as a randomized "XOR
+decision tree" for which the number of queries on any input is strongly
+concentrated around a value of at most 2N/3. We provide a nearly matching lower
+bound of 2N/3 - O(sqrt(N)) on the expected number of queries on a worst-case
+input in the randomized XOR decision tree model with zero-sided error o(1). Any
+classical randomized decision tree computing the majority on N bits with
+zero-sided error 1/2 has cost N.

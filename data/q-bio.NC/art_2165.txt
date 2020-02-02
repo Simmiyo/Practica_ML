@@ -1,0 +1,12 @@
+When can dictionary learning uniquely recover sparse data from
+  subsamples?
+Sparse coding or sparse dictionary learning has been widely used to recover
+underlying structure in many kinds of natural data. Here, we provide conditions
+guaranteeing when this recovery is universal; that is, when sparse codes and
+dictionaries are unique (up to natural symmetries). Our main tool is a useful
+lemma in combinatorial matrix theory that allows us to derive bounds on the
+sample sizes guaranteeing such uniqueness under various assumptions for how
+training data are generated. Whenever the conditions to one of our theorems are
+met, any sparsity-constrained learning algorithm that succeeds in
+reconstructing the data recovers the original sparse codes and dictionary. We
+also discuss potential applications to neuroscience and data analysis.

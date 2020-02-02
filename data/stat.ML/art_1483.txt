@@ -1,0 +1,20 @@
+A Mathematical Programming Approach for Integrated Multiple Linear
+  Regression Subset Selection and Validation
+Subset selection for multiple linear regression aims to construct a
+regression model that minimizes errors by selecting a small number of
+explanatory variables. Once a model is built, various statistical tests and
+diagnostics are conducted to validate the model and to determine whether
+regression assumptions are met. Most traditional approaches require human
+decisions at this step, for example, the user adding or removing a variable
+until a satisfactory model is obtained. However, this trial-and-error strategy
+cannot guarantee that a subset that minimizes the errors while satisfying all
+regression assumptions will be found. In this paper, we propose a fully
+automated model building procedure for multiple linear regression subset
+selection that integrates model building and validation based on mathematical
+programming. The proposed model minimizes mean squared errors while ensuring
+that the majority of the important regression assumptions are met. When no
+subset satisfies all of the considered regression assumptions, our model
+provides an alternative subset that satisfies most of these assumptions.
+Computational results show that our model yields better solutions (i.e.,
+satisfying more regression assumptions) compared to benchmark models while
+maintaining similar explanatory power.

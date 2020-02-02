@@ -1,0 +1,16 @@
+Multiple Instance Learning with Bag Dissimilarities
+Multiple instance learning (MIL) is concerned with learning from sets (bags)
+of objects (instances), where the individual instance labels are ambiguous. In
+this setting, supervised learning cannot be applied directly. Often,
+specialized MIL methods learn by making additional assumptions about the
+relationship of the bag labels and instance labels. Such assumptions may fit a
+particular dataset, but do not generalize to the whole range of MIL problems.
+Other MIL methods shift the focus of assumptions from the labels to the overall
+(dis)similarity of bags, and therefore learn from bags directly. We propose to
+represent each bag by a vector of its dissimilarities to other bags in the
+training set, and treat these dissimilarities as a feature representation. We
+show several alternatives to define a dissimilarity between bags and discuss
+which definitions are more suitable for particular MIL problems. The
+experimental results show that the proposed approach is computationally
+inexpensive, yet very competitive with state-of-the-art algorithms on a wide
+range of MIL datasets.

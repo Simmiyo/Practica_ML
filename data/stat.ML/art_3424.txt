@@ -1,0 +1,14 @@
+Adaptive Stochastic Primal-Dual Coordinate Descent for Separable Saddle
+  Point Problems
+We consider a generic convex-concave saddle point problem with separable
+structure, a form that covers a wide-ranged machine learning applications.
+Under this problem structure, we follow the framework of primal-dual updates
+for saddle point problems, and incorporate stochastic block coordinate descent
+with adaptive stepsize into this framework. We theoretically show that our
+proposal of adaptive stepsize potentially achieves a sharper linear convergence
+rate compared with the existing methods. Additionally, since we can select
+"mini-batch" of block coordinates to update, our method is also amenable to
+parallel processing for large-scale data. We apply the proposed method to
+regularized empirical risk minimization and show that it performs comparably
+or, more often, better than state-of-the-art methods on both synthetic and
+real-world data sets.

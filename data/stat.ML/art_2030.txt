@@ -1,0 +1,18 @@
+Small Sample Inference for Generalization Error in Classification Using
+  the CUD Bound
+Confidence measures for the generalization error are crucial when small
+training samples are used to construct classifiers. A common approach is to
+estimate the generalization error by resampling and then assume the resampled
+estimator follows a known distribution to form a confidence set [Kohavi 1995,
+Martin 1996,Yang 2006]. Alternatively, one might bootstrap the resampled
+estimator of the generalization error to form a confidence set. Unfortunately,
+these methods do not reliably provide sets of the desired confidence. The poor
+performance appears to be due to the lack of smoothness of the generalization
+error as a function of the learned classifier. This results in a non-normal
+distribution of the estimated generalization error. We construct a confidence
+set for the generalization error by use of a smooth upper bound on the
+deviation between the resampled estimate and generalization error. The
+confidence set is formed by bootstrapping this upper bound. In cases in which
+the approximation class for the classifier can be represented as a parametric
+additive model, we provide a computationally efficient algorithm. This method
+exhibits superior performance across a series of test and simulated data sets.

@@ -1,0 +1,19 @@
+Identification of Unmodeled Objects from Symbolic Descriptions
+Successful human-robot cooperation hinges on each agent's ability to process
+and exchange information about the shared environment and the task at hand.
+Human communication is primarily based on symbolic abstractions of object
+properties, rather than precise quantitative measures. A comprehensive robotic
+framework thus requires an integrated communication module which is able to
+establish a link and convert between perceptual and abstract information.
+  The ability to interpret composite symbolic descriptions enables an
+autonomous agent to a) operate in unstructured and cluttered environments, in
+tasks which involve unmodeled or never seen before objects; and b) exploit the
+aggregation of multiple symbolic properties as an instance of ensemble
+learning, to improve identification performance even when the individual
+predicates encode generic information or are imprecisely grounded.
+  We propose a discriminative probabilistic model which interprets symbolic
+descriptions to identify the referent object contextually w.r.t.\ the structure
+of the environment and other objects. The model is trained using a collected
+dataset of identifications, and its performance is evaluated by quantitative
+measures and a live demo developed on the PR2 robot platform, which integrates
+elements of perception, object extraction, object identification and grasping.

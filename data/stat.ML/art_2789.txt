@@ -1,0 +1,16 @@
+Sparse Estimation From Noisy Observations of an Overdetermined Linear
+  System
+This note studies a method for the efficient estimation of a finite number of
+unknown parameters from linear equations, which are perturbed by Gaussian
+noise.
+  In case the unknown parameters have only few nonzero entries, the proposed
+estimator performs more efficiently than a traditional approach.
+  The method consists of three steps:
+  (1) a classical Least Squares Estimate (LSE),
+  (2) the support is recovered through a Linear Programming (LP) optimization
+problem which can be computed using a soft-thresholding step,
+  (3) a de-biasing step using a LSE on the estimated support set.
+  The main contribution of this note is a formal derivation of an associated
+ORACLE property of the final estimate.
+  That is, when the number of samples is large enough, the estimate is shown to
+equal the LSE based on the support of the {\em true} parameters.

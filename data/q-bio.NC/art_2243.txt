@@ -1,0 +1,20 @@
+On the Relation between Encoding and Decoding of Neuronal Spikes
+Neural coding is a field of study that concerns how sensory information is
+represented in the brain by networks of neurons. The link between external
+stimulus and neural response can be studied from two parallel points of view.
+The first, neural encoding refers to the mapping from stimulus to response, and
+primarily focuses on understanding how neurons respond to a wide variety of
+stimuli, and on constructing models that accurately describe the
+stimulus-response relationship. Neural decoding, on the other hand, refers to
+the reverse mapping, from response to stimulus, where the challenge is to
+reconstruct a stimulus from the spikes it evokes. Since neuronal response is
+stochastic, a one-to-one mapping of stimuli into neural responses does not
+exist, causing a mismatch between the two viewpoints of neural coding. Here, we
+use these two perspectives to investigate the question of what rate coding is,
+in the simple setting of a single stationary stimulus parameter and a single
+stationary spike train represented by a renewal process. We show that when rate
+codes are defined in terms of encoding, i.e., the stimulus parameter is mapped
+onto the mean firing rate, the rate decoder given by spike counts or the sample
+mean, does not always efficiently decode the rate codes, but can improve
+efficiency in reading certain rate codes, when correlations within a spike
+train are taken into account.

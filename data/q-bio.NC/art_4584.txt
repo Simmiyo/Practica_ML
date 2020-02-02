@@ -1,0 +1,18 @@
+Mapping Tractography Across Subjects
+Diffusion magnetic resonance imaging (dMRI) and tractography provide means to
+study the anatomical structures within the white matter of the brain. When
+studying tractography data across subjects, it is usually necessary to align,
+i.e. to register, tractographies together. This registration step is most often
+performed by applying the transformation resulting from the registration of
+other volumetric images (T1, FA). In contrast with registration methods that
+"transform" tractographies, in this work, we try to find which streamline in
+one tractography correspond to which streamline in the other tractography,
+without any transformation. In other words, we try to find a "mapping" between
+the tractographies. We propose a graph-based solution for the tractography
+mapping problem and we explain similarities and differences with the related
+well-known graph matching problem. Specifically, we define a loss function
+based on the pairwise streamline distance and reformulate the mapping problem
+as combinatorial optimization of that loss function. We show preliminary
+promising results where we compare the proposed method, implemented with
+simulated annealing, against a standard registration techniques in a task of
+segmentation of the corticospinal tract.

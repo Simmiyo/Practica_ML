@@ -1,0 +1,23 @@
+Fitting a recurrent dynamical neural network to neural spiking data:
+  Tackling with the sigmoidal gain function issues
+This is a continuation of a recent study on the modeling of the information
+coding in sensory system in the brain. The data from a sensory neurons are
+available as discrete spike timings with no amplitude information. In the
+simulations, these are generated from a data generator model which has certain
+differences from the model being estimated. The model under consideration is
+simpler than the one used as a data generator as it has no sigmoidal gain
+function parameters. This choice is based on a suggestion from a recent study
+which states that inclusion of gain functions to the estimation algorithm
+increases issues such as parameter confounding which leads to performance
+degradation issues like increased or unpredictable variance changes with
+different stimuli configurations. To resolve this issue we consider a more
+generic model that has no sigmoidal gain functions to be estimated. Like that
+of the first research, we applied a Fourier series stimulus to both data
+generator and the estimated network. In order to test the performance of the
+proposed scheme, we have repeated the simulations with different sample sizes,
+stimulus component counts, amplitude and base frequencies. Mean values of
+estimation are presented as tables and the statistical analysis results are
+presented in graphical forms. In addition, since we do not have any true
+parameter data (for the estimated model) we compare the firing rate responses
+of both data generator and estimated models to different stimuli. It appeared
+that the responses of both models are almost the same.

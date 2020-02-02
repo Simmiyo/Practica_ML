@@ -1,0 +1,16 @@
+Optimization theory of Hebbian/anti-Hebbian networks for PCA and
+  whitening
+In analyzing information streamed by sensory organs, our brains face
+challenges similar to those solved in statistical signal processing. This
+suggests that biologically plausible implementations of online signal
+processing algorithms may model neural computation. Here, we focus on such
+workhorses of signal processing as Principal Component Analysis (PCA) and
+whitening which maximize information transmission in the presence of noise. We
+adopt the similarity matching framework, recently developed for principal
+subspace extraction, but modify the existing objective functions by adding a
+decorrelating term. From the modified objective functions, we derive online PCA
+and whitening algorithms which are implementable by neural networks with local
+learning rules, i.e. synaptic weight updates that depend on the activity of
+only pre- and postsynaptic neurons. Our theory offers a principled model of
+neural computations and makes testable predictions such as the dropout of
+underutilized neurons.

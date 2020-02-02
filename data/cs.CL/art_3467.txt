@@ -1,0 +1,15 @@
+An End-to-End Goal-Oriented Dialog System with a Generative Natural
+  Language Response Generation
+Recently advancements in deep learning allowed the development of end-to-end
+trained goal-oriented dialog systems. Although these systems already achieve
+good performance, some simplifications limit their usage in real-life
+scenarios.
+  In this work, we address two of these limitations: ignoring positional
+information and a fixed number of possible response candidates. We propose to
+use positional encodings in the input to model the word order of the user
+utterances. Furthermore, by using a feedforward neural network, we are able to
+generate the output word by word and are no longer restricted to a fixed number
+of possible response candidates. Using the positional encoding, we were able to
+achieve better accuracies in the Dialog bAbI Tasks and using the feedforward
+neural network for generating the response, we were able to save computation
+time and space consumption.

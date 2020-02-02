@@ -1,0 +1,10 @@
+Dirichlet-vMF Mixture Model
+This document is about the multi-document Von-Mises-Fisher mixture model with
+a Dirichlet prior, referred to as VMFMix. VMFMix is analogous to Latent
+Dirichlet Allocation (LDA) in that they can capture the co-occurrence patterns
+acorss multiple documents. The difference is that in VMFMix, the topic-word
+distribution is defined on a continuous n-dimensional hypersphere. Hence VMFMix
+is used to derive topic embeddings, i.e., representative vectors, from multiple
+sets of embedding vectors. An efficient Variational Expectation-Maximization
+inference algorithm is derived. The performance of VMFMix on two document
+classification tasks is reported, with some preliminary analysis.

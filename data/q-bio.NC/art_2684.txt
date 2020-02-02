@@ -1,0 +1,20 @@
+Converting Static Image Datasets to Spiking Neuromorphic Datasets Using
+  Saccades
+Creating datasets for Neuromorphic Vision is a challenging task. A lack of
+available recordings from Neuromorphic Vision sensors means that data must
+typically be recorded specifically for dataset creation rather than collecting
+and labelling existing data. The task is further complicated by a desire to
+simultaneously provide traditional frame-based recordings to allow for direct
+comparison with traditional Computer Vision algorithms. Here we propose a
+method for converting existing Computer Vision static image datasets into
+Neuromorphic Vision datasets using an actuated pan-tilt camera platform. Moving
+the sensor rather than the scene or image is a more biologically realistic
+approach to sensing and eliminates timing artifacts introduced by monitor
+updates when simulating motion on a computer monitor. We present conversion of
+two popular image datasets (MNIST and Caltech101) which have played important
+roles in the development of Computer Vision, and we provide performance metrics
+on these datasets using spike-based recognition algorithms. This work
+contributes datasets for future use in the field, as well as results from
+spike-based algorithms against which future works can compare. Furthermore, by
+converting datasets already popular in Computer Vision, we enable more direct
+comparison with frame-based approaches.

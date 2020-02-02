@@ -1,0 +1,14 @@
+Sparse Hopfield network reconstruction with $\ell_{1}$ regularization
+We propose an efficient strategy to infer sparse Hopfield network based on
+magnetizations and pairwise correlations measured through Glauber samplings.
+This strategy incorporates the $\ell_{1}$ regularization into the Bethe
+approximation by a quadratic approximation to the log-likelihood, and is able
+to further reduce the inference error of the Bethe approximation without the
+regularization. The optimal regularization parameter is observed to be of the
+order of $M^{-\nu}$ where $M$ is the number of independent samples. The value
+of the scaling exponent depends on the performance measure. $\nu\simeq0.5001$
+for root mean squared error measure while $\nu\simeq0.2743$ for
+misclassification rate measure. The efficiency of this strategy is demonstrated
+for the sparse Hopfield model, but the method is generally applicable to other
+diluted mean field models. In particular, it is simple in implementation
+without heavy computational cost.

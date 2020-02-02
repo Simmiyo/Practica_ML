@@ -1,0 +1,23 @@
+Spoken Language Translation for Polish
+Spoken language translation (SLT) is becoming more important in the
+increasingly globalized world, both from a social and economic point of view.
+It is one of the major challenges for automatic speech recognition (ASR) and
+machine translation (MT), driving intense research activities in these areas.
+While past research in SLT, due to technology limitations, dealt mostly with
+speech recorded under controlled conditions, today's major challenge is the
+translation of spoken language as it can be found in real life. Considered
+application scenarios range from portable translators for tourists, lectures
+and presentations translation, to broadcast news and shows with live
+captioning. We would like to present PJIIT's experiences in the SLT gained from
+the Eu-Bridge 7th framework project and the U-Star consortium activities for
+the Polish/English language pair. Presented research concentrates on ASR
+adaptation for Polish (state-of-the-art acoustic models: DBN-BLSTM training,
+Kaldi: LDA+MLLT+SAT+MMI), language modeling for ASR & MT (text normalization,
+RNN-based LMs, n-gram model domain interpolation) and statistical translation
+techniques (hierarchical models, factored translation models, automatic casing
+and punctuation, comparable and bilingual corpora preparation). While results
+for the well-defined domains (phrases for travelers, parliament speeches,
+medical documentation, movie subtitling) are very encouraging, less defined
+domains (presentation, lectures) still form a challenge. Our progress in the
+IWSLT TED task (MT only) will be presented, as well as current progress in the
+Polish ASR.

@@ -1,0 +1,15 @@
+Detecting Hate Speech and Offensive Language on Twitter using Machine
+  Learning: An N-gram and TFIDF based Approach
+Toxic online content has become a major issue in today's world due to an
+exponential increase in the use of internet by people of different cultures and
+educational background. Differentiating hate speech and offensive language is a
+key challenge in automatic detection of toxic text content. In this paper, we
+propose an approach to automatically classify tweets on Twitter into three
+classes: hateful, offensive and clean. Using Twitter dataset, we perform
+experiments considering n-grams as features and passing their term
+frequency-inverse document frequency (TFIDF) values to multiple machine
+learning models. We perform comparative analysis of the models considering
+several values of n in n-grams and TFIDF normalization methods. After tuning
+the model giving the best results, we achieve 95.6% accuracy upon evaluating it
+on test data. We also create a module which serves as an intermediate between
+user and Twitter.

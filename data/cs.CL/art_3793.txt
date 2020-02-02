@@ -1,0 +1,12 @@
+Various Approaches to Aspect-based Sentiment Analysis
+The problem of aspect-based sentiment analysis deals with classifying
+sentiments (negative, neutral, positive) for a given aspect in a sentence. A
+traditional sentiment classification task involves treating the entire sentence
+as a text document and classifying sentiments based on all the words. Let us
+assume, we have a sentence such as "the acceleration of this car is fast, but
+the reliability is horrible". This can be a difficult sentence because it has
+two aspects with conflicting sentiments about the same entity. Considering
+machine learning techniques (or deep learning), how do we encode the
+information that we are interested in one aspect and its sentiment but not the
+other? Let us explore various pre-processing steps, features, and methods used
+to facilitate in solving this task.

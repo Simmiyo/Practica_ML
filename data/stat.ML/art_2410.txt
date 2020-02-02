@@ -1,0 +1,21 @@
+Covariance Estimation in High Dimensions via Kronecker Product
+  Expansions
+This paper presents a new method for estimating high dimensional covariance
+matrices. The method, permuted rank-penalized least-squares (PRLS), is based on
+a Kronecker product series expansion of the true covariance matrix. Assuming an
+i.i.d. Gaussian random sample, we establish high dimensional rates of
+convergence to the true covariance as both the number of samples and the number
+of variables go to infinity. For covariance matrices of low separation rank,
+our results establish that PRLS has significantly faster convergence than the
+standard sample covariance matrix (SCM) estimator. The convergence rate
+captures a fundamental tradeoff between estimation error and approximation
+error, thus providing a scalable covariance estimation framework in terms of
+separation rank, similar to low rank approximation of covariance matrices. The
+MSE convergence rates generalize the high dimensional rates recently obtained
+for the ML Flip-flop algorithm for Kronecker product covariance estimation. We
+show that a class of block Toeplitz covariance matrices is approximatable by
+low separation rank and give bounds on the minimal separation rank $r$ that
+ensures a given level of bias. Simulations are presented to validate the
+theoretical bounds. As a real world application, we illustrate the utility of
+the proposed Kronecker covariance estimator for spatio-temporal linear least
+squares prediction of multivariate wind speed measurements.

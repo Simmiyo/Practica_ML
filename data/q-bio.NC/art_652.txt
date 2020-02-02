@@ -1,0 +1,19 @@
+Closed Form Jitter Analysis of Neuronal Spike Trains
+Interval jitter and spike resampling methods are used to analyze the time
+scale on which temporal correlations occur. They allow the computation of
+jitter corrected cross correlograms and the performance of an associated
+statistically robust hypothesis test to decide whether observed correlations at
+a given time scale are significant. Currently used Monte Carlo methods
+approximate the probability distribution of coincidences. They require
+generating $N_{\rm MC}$ simulated spike trains of length $T$ and calculating
+their correlation with another spike train up to lag $\tau_{\max}$. This is
+computationally costly $O(N_{\rm MC} \times T \times \tau_{\max})$ and it
+introduces errors in estimating the $p$ value. Instead, we propose to compute
+the distribution in closed form, with a complexity of $O(C_{\max}
+\log(C_{\max}) \tau_{\max})$, where $C_{\max}$ is the maximum possible number
+of coincidences. All results are then exact rather than approximate, and as a
+consequence, the $p$-values obtained are the theoretically best possible for
+the available data and test statistic. In addition, simulations with realistic
+parameters predict a speed increase over Monte Carlo methods of two orders of
+magnitude for hypothesis testing, and four orders of magnitude for computing
+the full jitter-corrected cross correlogram.

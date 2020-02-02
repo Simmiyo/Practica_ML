@@ -1,0 +1,13 @@
+A Classification Framework for Partially Observed Dynamical Systems
+We present a general framework for classifying partially observed dynamical
+systems based on the idea of learning in the model space. In contrast to the
+existing approaches using model point estimates to represent individual data
+items, we employ posterior distributions over models, thus taking into account
+in a principled manner the uncertainty due to both the generative
+(observational and/or dynamic noise) and observation (sampling in time)
+processes. We evaluate the framework on two testbeds - a biological pathway
+model and a stochastic double-well system. Crucially, we show that the
+classifier performance is not impaired when the model class used for inferring
+posterior distributions is much more simple than the observation-generating
+model class, provided the reduced complexity inferential model class captures
+the essential characteristics needed for the given classification task.

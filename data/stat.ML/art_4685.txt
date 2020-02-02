@@ -1,0 +1,19 @@
+Fixed Points of Belief Propagation -- An Analysis via Polynomial
+  Homotopy Continuation
+Belief propagation (BP) is an iterative method to perform approximate
+inference on arbitrary graphical models. Whether BP converges and if the
+solution is a unique fixed point depends on both the structure and the
+parametrization of the model. To understand this dependence it is interesting
+to find \emph{all} fixed points. In this work, we formulate a set of polynomial
+equations, the solutions of which correspond to BP fixed points. To solve such
+a nonlinear system we present the numerical polynomial-homotopy-continuation
+(NPHC) method. Experiments on binary Ising models and on error-correcting codes
+show how our method is capable of obtaining all BP fixed points. On Ising
+models with fixed parameters we show how the structure influences both the
+number of fixed points and the convergence properties. We further asses the
+accuracy of the marginals and weighted combinations thereof. Weighting
+marginals with their respective partition function increases the accuracy in
+all experiments. Contrary to the conjecture that uniqueness of BP fixed points
+implies convergence, we find graphs for which BP fails to converge, even though
+a unique fixed point exists. Moreover, we show that this fixed point gives a
+good approximation, and the NPHC method is able to obtain this fixed point.

@@ -1,0 +1,17 @@
+Parallel Gaussian Process Optimization with Upper Confidence Bound and
+  Pure Exploration
+In this paper, we consider the challenge of maximizing an unknown function f
+for which evaluations are noisy and are acquired with high cost. An iterative
+procedure uses the previous measures to actively select the next estimation of
+f which is predicted to be the most useful. We focus on the case where the
+function can be evaluated in parallel with batches of fixed size and analyze
+the benefit compared to the purely sequential procedure in terms of cumulative
+regret. We introduce the Gaussian Process Upper Confidence Bound and Pure
+Exploration algorithm (GP-UCB-PE) which combines the UCB strategy and Pure
+Exploration in the same batch of evaluations along the parallel iterations. We
+prove theoretical upper bounds on the regret with batches of size K for this
+procedure which show the improvement of the order of sqrt{K} for fixed
+iteration cost over purely sequential versions. Moreover, the multiplicative
+constants involved have the property of being dimension-free. We also confirm
+empirically the efficiency of GP-UCB-PE on real and synthetic problems compared
+to state-of-the-art competitors.

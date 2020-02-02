@@ -1,0 +1,13 @@
+A Split-Merge MCMC Algorithm for the Hierarchical Dirichlet Process
+The hierarchical Dirichlet process (HDP) has become an important Bayesian
+nonparametric model for grouped data, such as document collections. The HDP is
+used to construct a flexible mixed-membership model where the number of
+components is determined by the data. As for most Bayesian nonparametric
+models, exact posterior inference is intractable---practitioners use Markov
+chain Monte Carlo (MCMC) or variational inference. Inspired by the split-merge
+MCMC algorithm for the Dirichlet process (DP) mixture model, we describe a
+novel split-merge MCMC sampling algorithm for posterior inference in the HDP.
+We study its properties on both synthetic data and text corpora. We find that
+split-merge MCMC for the HDP can provide significant improvements over
+traditional Gibbs sampling, and we give some understanding of the data
+properties that give rise to larger improvements.

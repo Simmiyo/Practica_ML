@@ -1,0 +1,15 @@
+What the odor is not: Estimation by elimination
+The olfactory system uses responses of a small number of broadly sensitive
+receptors to combinatorially encode a vast number of odors. Here, we propose a
+method for decoding such a distributed representation. Our main idea is that a
+receptor that does not respond to an odor carries more information than a
+receptor that does, because a typical receptor binds to many odorants. So a
+response below threshold signals absence of all such odorants. As a result, it
+is easier to identify what the odor is not, rather than what the odor is. We
+demonstrate that, for biologically realistic numbers of receptors, response
+functions, and odor mixture complexity, this remarkably simple method of
+elimination turns an underdetermined decoding problem into an overdetermined
+one, allowing accurate determination of odorants in a mixture and their
+concentrations. We give a simple neural network realization of our algorithm
+resembling the circuit architecture in piriform cortex, and propose
+experimental tests.

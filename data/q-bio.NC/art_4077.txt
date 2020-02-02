@@ -1,0 +1,22 @@
+A Point-process Response Model for Spike Trains from Single Neurons in
+  Neural Circuits under Optogenetic Stimulation
+Optogenetics is a new tool to study neuronal circuits that have been
+genetically modified to allow stimulation by flashes of light. We study
+recordings from single neurons within neural circuits under optogenetic
+stimulation. The data from these experiments present a statistical challenge of
+modeling a high frequency point process (neuronal spikes) while the input is
+another high frequency point process (light flashes). We further develop a
+generalized linear model approach to model the relationships between two point
+processes, employing additive point-process response functions. The resulting
+model, Point-process Responses for Optogenetics (PRO), provides explicit
+nonlinear transformations to link the input point process with the output one.
+Such response functions may provide important and interpretable scientific
+insights into the properties of the biophysical process that governs neural
+spiking in response to optogenetic stimulation. We validate and compare the PRO
+model using a real dataset and simulations, and our model yields a superior
+area-under-the- curve value as high as 93% for predicting every future spike.
+For our experiment on the recurrent layer V circuit in the prefrontal cortex,
+the PRO model provides evidence that neurons integrate their inputs in a
+sophisticated manner. Another use of the model is that it enables understanding
+how neural circuits are altered under various disease conditions and/or
+experimental conditions by comparing the PRO parameters.

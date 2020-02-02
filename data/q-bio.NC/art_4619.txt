@@ -1,0 +1,29 @@
+Decoding the Encoding of Functional Brain Networks: an fMRI
+  Classification Comparison of Non-negative Matrix Factorization (NMF),
+  Independent Component Analysis (ICA), and Sparse Coding Algorithms
+Brain networks in fMRI are typically identified using spatial independent
+component analysis (ICA), yet mathematical constraints such as sparse coding
+and positivity both provide alternate biologically-plausible frameworks for
+generating brain networks. Non-negative Matrix Factorization (NMF) would
+suppress negative BOLD signal by enforcing positivity. Spatial sparse coding
+algorithms ($L1$ Regularized Learning and K-SVD) would impose local
+specialization and a discouragement of multitasking, where the total observed
+activity in a single voxel originates from a restricted number of possible
+brain networks.
+  The assumptions of independence, positivity, and sparsity to encode
+task-related brain networks are compared; the resulting brain networks for
+different constraints are used as basis functions to encode the observed
+functional activity at a given time point. These encodings are decoded using
+machine learning to compare both the algorithms and their assumptions, using
+the time series weights to predict whether a subject is viewing a video,
+listening to an audio cue, or at rest, in 304 fMRI scans from 51 subjects.
+  For classifying cognitive activity, the sparse coding algorithm of $L1$
+Regularized Learning consistently outperformed 4 variations of ICA across
+different numbers of networks and noise levels (p$<$0.001). The NMF algorithms,
+which suppressed negative BOLD signal, had the poorest accuracy. Within each
+algorithm, encodings using sparser spatial networks (containing more
+zero-valued voxels) had higher classification accuracy (p$<$0.001). The success
+of sparse coding algorithms may suggest that algorithms which enforce sparse
+coding, discourage multitasking, and promote local specialization may capture
+better the underlying source processes than those which allow inexhaustible
+local processes such as ICA.

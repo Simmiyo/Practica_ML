@@ -1,0 +1,19 @@
+Modelling of directional data using Kent distributions
+The modelling of data on a spherical surface requires the consideration of
+directional probability distributions. To model asymmetrically distributed data
+on a three-dimensional sphere, Kent distributions are often used. The moment
+estimates of the parameters are typically used in modelling tasks involving
+Kent distributions. However, these lack a rigorous statistical treatment. The
+focus of the paper is to introduce a Bayesian estimation of the parameters of
+the Kent distribution which has not been carried out in the literature, partly
+because of its complex mathematical form. We employ the Bayesian
+information-theoretic paradigm of Minimum Message Length (MML) to bridge this
+gap and derive reliable estimators. The inferred parameters are subsequently
+used in mixture modelling of Kent distributions. The problem of inferring the
+suitable number of mixture components is also addressed using the MML
+criterion. We demonstrate the superior performance of the derived MML-based
+parameter estimates against the traditional estimators. We apply the MML
+principle to infer mixtures of Kent distributions to model empirical data
+corresponding to protein conformations. We demonstrate the effectiveness of
+Kent models to act as improved descriptors of protein structural data as
+compared to commonly used von Mises-Fisher distributions.

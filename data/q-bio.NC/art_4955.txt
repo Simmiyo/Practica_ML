@@ -1,0 +1,10 @@
+Automatic Electrodes Detection during simultaneous EEG/fMRI acquisition
+Simultaneous EEG/fMRI acquisition allows to measure brain activity at high
+spatial-temporal resolution. The localisation of EEG sources depends on several
+parameters including the position of the electrodes on the scalp. The position
+of the MR electrodes during its acquisitions is obtained with the use of the
+UTE sequence allowing their visualisation. The retrieval of the electrodes
+consists in obtaining the volume where the electrodes are located by applying a
+sphere detection algorithm. We detect around 90% of electrodes for each
+subject, and our UTE-based electrode detection showed an average position error
+of 3.7mm for all subjects.

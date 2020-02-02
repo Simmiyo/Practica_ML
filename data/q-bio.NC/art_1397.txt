@@ -1,0 +1,25 @@
+Appropriate kernels for Divisive Normalization explained by Wilson-Cowan
+  equations
+The interaction between wavelet-like sensors in Divisive Normalization is
+classically described through Gaussian kernels that decay with spatial
+distance, angular distance and frequency distance. However, simultaneous
+explanation of (a) distortion perception in natural image databases and (b)
+contrast perception of artificial stimuli requires very specific modifications
+in classical Divisive Normalization. First, the wavelet response has to be
+high-pass filtered before the Gaussian interaction is applied. Then, distinct
+weights per subband are also required after the Gaussian interaction. In
+summary, the classical Gaussian kernel has to be left- and right-multiplied by
+two extra diagonal matrices.
+  In this paper we provide a lower-level justification for this specific
+empirical modification required in the Gaussian kernel of Divisive
+Normalization. Here we assume that the psychophysical behavior described by
+Divisive Normalization comes from neural interactions following the
+Wilson-Cowan equations. In particular, we identify the Divisive Normalization
+response with the stationary regime of a Wilson-Cowan model. From this
+identification we derive an expression for the Divisive Normalization kernel in
+terms of the interaction kernel of the Wilson-Cowan equations. It turns out
+that the Wilson-Cowan kernel is left- and-right multiplied by diagonal matrices
+with high-pass structure. In conclusion, symmetric Gaussian inhibitory
+relations between wavelet-like sensors wired in the lower-level Wilson-Cowan
+model lead to the appropriate non-symmetric kernel that has to be empirically
+included in Divisive Normalization to explain a wider range of phenomena.

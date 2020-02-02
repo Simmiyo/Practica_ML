@@ -1,0 +1,19 @@
+Structured Prediction Cascades
+Structured prediction tasks pose a fundamental trade-off between the need for
+model complexity to increase predictive power and the limited computational
+resources for inference in the exponentially-sized output spaces such models
+require. We formulate and develop the Structured Prediction Cascade
+architecture: a sequence of increasingly complex models that progressively
+filter the space of possible outputs. The key principle of our approach is that
+each model in the cascade is optimized to accurately filter and refine the
+structured output state space of the next model, speeding up both learning and
+inference in the next layer of the cascade. We learn cascades by optimizing a
+novel convex loss function that controls the trade-off between the filtering
+efficiency and the accuracy of the cascade, and provide generalization bounds
+for both accuracy and efficiency. We also extend our approach to intractable
+models using tree-decomposition ensembles, and provide algorithms and theory
+for this setting. We evaluate our approach on several large-scale problems,
+achieving state-of-the-art performance in handwriting recognition and human
+pose recognition. We find that structured prediction cascades allow tremendous
+speedups and the use of previously intractable features and models in both
+settings.

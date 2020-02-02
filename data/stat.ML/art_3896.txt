@@ -1,0 +1,19 @@
+The Search Problem in Mixture Models
+We consider the task of learning the parameters of a {\em single} component
+of a mixture model, for the case when we are given {\em side information} about
+that component, we call this the "search problem" in mixture models. We would
+like to solve this with computational and sample complexity lower than solving
+the overall original problem, where one learns parameters of all components.
+  Our main contributions are the development of a simple but general model for
+the notion of side information, and a corresponding simple matrix-based
+algorithm for solving the search problem in this general setting. We then
+specialize this model and algorithm to four common scenarios: Gaussian mixture
+models, LDA topic models, subspace clustering, and mixed linear regression. For
+each one of these we show that if (and only if) the side information is
+informative, we obtain parameter estimates with greater accuracy, and also
+improved computation complexity than existing moment based mixture model
+algorithms (e.g. tensor methods). We also illustrate several natural ways one
+can obtain such side information, for specific problem instances. Our
+experiments on real data sets (NY Times, Yelp, BSDS500) further demonstrate the
+practicality of our algorithms showing significant improvement in runtime and
+accuracy.

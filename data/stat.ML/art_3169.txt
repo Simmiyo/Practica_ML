@@ -1,0 +1,10 @@
+Passing Expectation Propagation Messages with Kernel Methods
+We propose to learn a kernel-based message operator which takes as input all
+expectation propagation (EP) incoming messages to a factor node and produces an
+outgoing message. In ordinary EP, computing an outgoing message involves
+estimating a multivariate integral which may not have an analytic expression.
+Learning such an operator allows one to bypass the expensive computation of the
+integral during inference by directly mapping all incoming messages into an
+outgoing message. The operator can be learned from training data (examples of
+input and output messages) which allows automated inference to be made on any
+kind of factor that can be sampled.

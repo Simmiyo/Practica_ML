@@ -1,0 +1,9 @@
+Learning Nonlinear Functions Using Regularized Greedy Forest
+We consider the problem of learning a forest of nonlinear decision rules with
+general loss functions. The standard methods employ boosted decision trees such
+as Adaboost for exponential loss and Friedman's gradient boosting for general
+loss. In contrast to these traditional boosting algorithms that treat a tree
+learner as a black box, the method we propose directly learns decision forests
+via fully-corrective regularized greedy search using the underlying forest
+structure. Our method achieves higher accuracy and smaller models than gradient
+boosting (and Adaboost with exponential loss) on many datasets.

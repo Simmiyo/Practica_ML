@@ -1,0 +1,14 @@
+Named entity recognition using conditional random fields with non-local
+  relational constraints
+We begin by introducing the Computer Science branch of Natural Language
+Processing, then narrowing the attention on its subbranch of Information
+Extraction and particularly on Named Entity Recognition, discussing briefly its
+main methodological approaches. It follows an introduction to state-of-the-art
+Conditional Random Fields under the form of linear chains. Subsequently, the
+idea of constrained inference as a way to model long-distance relationships in
+a text is presented, based on an Integer Linear Programming representation of
+the problem. Adding such relationships to the problem as automatically inferred
+logical formulas, translatable into linear conditions, we propose to solve the
+resulting more complex problem with the aid of Lagrangian relaxation, of which
+some technical details are explained. Lastly, we give some experimental
+results.

@@ -1,0 +1,18 @@
+NonSTOP: A NonSTationary Online Prediction Method for Time Series
+We present online prediction methods for time series that let us explicitly
+handle nonstationary artifacts (e.g. trend and seasonality) present in most
+real time series. Specifically, we show that applying appropriate
+transformations to such time series before prediction can lead to improved
+theoretical and empirical prediction performance. Moreover, since these
+transformations are usually unknown, we employ the learning with experts
+setting to develop a fully online method (NonSTOP-NonSTationary Online
+Prediction) for predicting nonstationary time series. This framework allows for
+seasonality and/or other trends in univariate time series and cointegration in
+multivariate time series. Our algorithms and regret analysis subsume recent
+related work while significantly expanding the applicability of such methods.
+For all the methods, we provide sub-linear regret bounds using relaxed
+assumptions. The theoretical guarantees do not fully capture the benefits of
+the transformations, thus we provide a data-dependent analysis of the
+follow-the-leader algorithm that provides insight into the success of using
+such transformations. We support all of our results with experiments on
+simulated and real data.

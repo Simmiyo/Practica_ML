@@ -1,0 +1,16 @@
+ProDiGe: PRioritization Of Disease Genes with multitask machine learning
+  from positive and unlabeled examples
+Elucidating the genetic basis of human diseases is a central goal of genetics
+and molecular biology. While traditional linkage analysis and modern
+high-throughput techniques often provide long lists of tens or hundreds of
+disease gene candidates, the identification of disease genes among the
+candidates remains time-consuming and expensive. Efficient computational
+methods are therefore needed to prioritize genes within the list of candidates,
+by exploiting the wealth of information available about the genes in various
+databases. Here we propose ProDiGe, a novel algorithm for Prioritization of
+Disease Genes. ProDiGe implements a novel machine learning strategy based on
+learning from positive and unlabeled examples, which allows to integrate
+various sources of information about the genes, to share information about
+known disease genes across diseases, and to perform genome-wide searches for
+new disease genes. Experiments on real data show that ProDiGe outperforms
+state-of-the-art methods for the prioritization of genes in human diseases.

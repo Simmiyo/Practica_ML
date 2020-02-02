@@ -1,0 +1,18 @@
+Polynomial Simulations of Decohered Quantum Computers
+We define formally decohered quantum computers (using density matrices), and
+present a simulation of them by a probabalistic classical Turing Machine. We
+study the slowdown of the simulation for two cases: (1) sequential quantum
+computers, or quantum Turing machines(QTM), and (2) parallel quantum computers,
+or quantum circuits. This paper shows that the computational power of decohered
+quantum computers depends strongly on the amount of parallelism in the
+computation.
+  The expected slowdown of the simulation of a QTM is polynomial in time and
+space of the quantum computation, for any non zero decoherence rate. This means
+that a QTM subjected to any amount of noise is worthless. For decohered quantum
+circuits, the situation is more subtle and depends on the decoherence rate,
+eta. We find that our simulation is efficient for circuits with decoherence
+rate higher than some constant, but exponential for general circuits with
+decoherence rate lower than some other constant. Using computer experiments, we
+show that the transition from exponential cost to polynomial cost happens in a
+short range of decoherence rates, and exhibit the phase transitions in various
+quantum circuits.

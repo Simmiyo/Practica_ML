@@ -1,0 +1,12 @@
+Bayesian multitask inverse reinforcement learning
+We generalise the problem of inverse reinforcement learning to multiple
+tasks, from multiple demonstrations. Each one may represent one expert trying
+to solve a different task, or as different experts trying to solve the same
+task. Our main contribution is to formalise the problem as statistical
+preference elicitation, via a number of structured priors, whose form captures
+our biases about the relatedness of different tasks or expert policies. In
+doing so, we introduce a prior on policy optimality, which is more natural to
+specify. We show that our framework allows us not only to learn to efficiently
+from multiple experts but to also effectively differentiate between the goals
+of each. Possible applications include analysing the intrinsic motivations of
+subjects in behavioural experiments and learning from multiple teachers.

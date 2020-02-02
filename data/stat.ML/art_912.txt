@@ -1,0 +1,26 @@
+Correcting Nuisance Variation using Wasserstein Distance
+Profiling cellular phenotypes from microscopic imaging can provide meaningful
+biological information resulting from various factors affecting the cells. One
+motivating application is drug development: morphological cell features can be
+captured from images, from which similarities between different drug compounds
+applied at different doses can be quantified. The general approach is to find a
+function mapping the images to an embedding space of manageable dimensionality
+whose geometry captures relevant features of the input images. An important
+known issue for such methods is separating relevant biological signal from
+nuisance variation. For example, the embedding vectors tend to be more
+correlated for cells that were cultured and imaged during the same week than
+for those from different weeks, despite having identical drug compounds applied
+in both cases. In this case, the particular batch in which a set of experiments
+were conducted constitutes the domain of the data; an ideal set of image
+embeddings should contain only the relevant biological information (e.g. drug
+effects). We develop a general framework for adjusting the image embeddings in
+order to `forget' domain-specific information while preserving relevant
+biological information. To achieve this, we minimize a loss function based on
+distances between marginal distributions (such as the Wasserstein distance) of
+embeddings across domains for each replicated treatment. For the dataset we
+present results with, the only replicated treatment happens to be the negative
+control treatment, for which we do not expect any treatment-induced cell
+morphology changes. We find that for our transformed embeddings (i) the
+underlying geometric structure is not only preserved but the embeddings also
+carry improved biological signal; and (ii) less domain-specific information is
+present.

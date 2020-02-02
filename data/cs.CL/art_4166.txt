@@ -1,0 +1,15 @@
+Subword-augmented Embedding for Cloze Reading Comprehension
+Representation learning is the foundation of machine reading comprehension.
+In state-of-the-art models, deep learning methods broadly use word and
+character level representations. However, character is not naturally the
+minimal linguistic unit. In addition, with a simple concatenation of character
+and word embedding, previous models actually give suboptimal solution. In this
+paper, we propose to use subword rather than character for word embedding
+enhancement. We also empirically explore different augmentation strategies on
+subword-augmented embedding to enhance the cloze-style reading comprehension
+model reader. In detail, we present a reader that uses subword-level
+representation to augment word embedding with a short list to handle rare words
+effectively. A thorough examination is conducted to evaluate the comprehensive
+performance and generalization ability of the proposed reader. Experimental
+results show that the proposed approach helps the reader significantly
+outperform the state-of-the-art baselines on various public datasets.

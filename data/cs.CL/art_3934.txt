@@ -1,0 +1,9 @@
+Learning sentence embeddings using Recursive Networks
+Learning sentence vectors that generalise well is a challenging task. In this
+paper we compare three methods of learning phrase embeddings: 1) Using LSTMs,
+2) using recursive nets, 3) A variant of the method 2 using the POS information
+of the phrase. We train our models on dictionary definitions of words to obtain
+a reverse dictionary application similar to Felix et al. [1]. To see if our
+embeddings can be transferred to a new task we also train and test on the
+rotten tomatoes dataset [2]. We train keeping the sentence embeddings fixed as
+well as with fine tuning.

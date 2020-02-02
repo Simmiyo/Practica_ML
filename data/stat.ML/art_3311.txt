@@ -1,0 +1,18 @@
+Mini-Batch Semi-Stochastic Gradient Descent in the Proximal Setting
+We propose mS2GD: a method incorporating a mini-batching scheme for improving
+the theoretical complexity and practical performance of semi-stochastic
+gradient descent (S2GD). We consider the problem of minimizing a strongly
+convex function represented as the sum of an average of a large number of
+smooth convex functions, and a simple nonsmooth convex regularizer. Our method
+first performs a deterministic step (computation of the gradient of the
+objective function at the starting point), followed by a large number of
+stochastic steps. The process is repeated a few times with the last iterate
+becoming the new starting point. The novelty of our method is in introduction
+of mini-batching into the computation of stochastic steps. In each step,
+instead of choosing a single function, we sample $b$ functions, compute their
+gradients, and compute the direction based on this. We analyze the complexity
+of the method and show that it benefits from two speedup effects. First, we
+prove that as long as $b$ is below a certain threshold, we can reach any
+predefined accuracy with less overall work than without mini-batching. Second,
+our mini-batching scheme admits a simple parallel implementation, and hence is
+suitable for further acceleration by parallelization.

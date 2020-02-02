@@ -1,0 +1,15 @@
+Modeling and interpolation of the ambient magnetic field by Gaussian
+  processes
+Anomalies in the ambient magnetic field can be used as features in indoor
+positioning and navigation. By using Maxwell's equations, we derive and present
+a Bayesian non-parametric probabilistic modeling approach for interpolation and
+extrapolation of the magnetic field. We model the magnetic field components
+jointly by imposing a Gaussian process (GP) prior on the latent scalar
+potential of the magnetic field. By rewriting the GP model in terms of a
+Hilbert space representation, we circumvent the computational pitfalls
+associated with GP modeling and provide a computationally efficient and
+physically justified modeling tool for the ambient magnetic field. The model
+allows for sequential updating of the estimate and time-dependent changes in
+the magnetic field. The model is shown to work well in practice in different
+applications: we demonstrate mapping of the magnetic field both with an
+inexpensive Raspberry Pi powered robot and on foot using a standard smartphone.

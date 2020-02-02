@@ -1,0 +1,10 @@
+Learning Determinantal Point Processes in Sublinear Time
+We propose a new class of determinantal point processes (DPPs) which can be
+manipulated for inference and parameter learning in potentially sublinear time
+in the number of items. This class, based on a specific low-rank factorization
+of the marginal kernel, is particularly suited to a subclass of continuous DPPs
+and DPPs defined on exponentially many items. We apply this new class to
+modelling text documents as sampling a DPP of sentences, and propose a
+conditional maximum likelihood formulation to model topic proportions, which is
+made possible with no approximation for our class of DPPs. We present an
+application to document summarization with a DPP on $2^{500}$ items.

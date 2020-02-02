@@ -1,0 +1,19 @@
+Extractive Multi-document Summarization Using Multilayer Networks
+Huge volumes of textual information has been produced every single day. In
+order to organize and understand such large datasets, in recent years,
+summarization techniques have become popular. These techniques aims at finding
+relevant, concise and non-redundant content from such a big data. While network
+methods have been adopted to model texts in some scenarios, a systematic
+evaluation of multilayer network models in the multi-document summarization
+task has been limited to a few studies. Here, we evaluate the performance of a
+multilayer-based method to select the most relevant sentences in the context of
+an extractive multi document summarization (MDS) task. In the adopted model,
+nodes represent sentences and edges are created based on the number of shared
+words between sentences. Differently from previous studies in multi-document
+summarization, we make a distinction between edges linking sentences from
+different documents (inter-layer) and those connecting sentences from the same
+document (intra-layer). As a proof of principle, our results reveal that such a
+discrimination between intra- and inter-layer in a multilayered representation
+is able to improve the quality of the generated summaries. This piece of
+information could be used to improve current statistical methods and related
+textual models.

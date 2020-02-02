@@ -1,0 +1,14 @@
+Random Forests of Interaction Trees for Estimating Individualized
+  Treatment Effects in Randomized Trials
+Assessing heterogeneous treatment effects has become a growing interest in
+advancing precision medicine. Individualized treatment effects (ITE) play a
+critical role in such an endeavor. Concerning experimental data collected from
+randomized trials, we put forward a method, termed random forests of
+interaction trees (RFIT), for estimating ITE on the basis of interaction trees
+(Su et al., 2009). To this end, we first propose a smooth sigmoid surrogate
+(SSS) method, as an alternative to greedy search, to speed up tree
+construction. RFIT outperforms the traditional `separate regression' approach
+in estimating ITE. Furthermore, standard errors for the estimated ITE via RFIT
+can be obtained with the infinitesimal jackknife method. We assess and
+illustrate the use of RFIT via both simulation and the analysis of data from an
+acupuncture headache trial.

@@ -1,0 +1,21 @@
+CFGs-2-NLU: Sequence-to-Sequence Learning for Mapping Utterances to
+  Semantics and Pragmatics
+In this paper, we present a novel approach to natural language understanding
+that utilizes context-free grammars (CFGs) in conjunction with
+sequence-to-sequence (seq2seq) deep learning. Specifically, we take a CFG
+authored to generate dialogue for our target application for NLU, a videogame,
+and train a long short-term memory (LSTM) recurrent neural network (RNN) to map
+the surface utterances that it produces to traces of the grammatical expansions
+that yielded them. Critically, this CFG was authored using a tool we have
+developed that supports arbitrary annotation of the nonterminal symbols in the
+grammar. Because we already annotated the symbols in this grammar for the
+semantic and pragmatic considerations that our game's dialogue manager operates
+over, we can use the grammatical trace associated with any surface utterance to
+infer such information. During gameplay, we translate player utterances into
+grammatical traces (using our RNN), collect the mark-up attributed to the
+symbols included in that trace, and pass this information to the dialogue
+manager, which updates the conversation state accordingly. From an offline
+evaluation task, we demonstrate that our trained RNN translates surface
+utterances to grammatical traces with great accuracy. To our knowledge, this is
+the first usage of seq2seq learning for conversational agents (our game's
+characters) who explicitly reason over semantic and pragmatic considerations.

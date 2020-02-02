@@ -1,0 +1,15 @@
+Blind Normalization of Speech From Different Channels
+We show how to construct a channel-independent representation of speech that
+has propagated through a noisy reverberant channel. This is done by blindly
+rescaling the cepstral time series by a non-linear function, with the form of
+this scale function being determined by previously encountered cepstra from
+that channel. The rescaled form of the time series is an invariant property of
+it in the following sense: it is unaffected if the time series is transformed
+by any time-independent invertible distortion. Because a linear channel with
+stationary noise and impulse response transforms cepstra in this way, the new
+technique can be used to remove the channel dependence of a cepstral time
+series. In experiments, the method achieved greater channel-independence than
+cepstral mean normalization, and it was comparable to the combination of
+cepstral mean normalization and spectral subtraction, despite the fact that no
+measurements of channel noise or reverberations were required (unlike spectral
+subtraction).

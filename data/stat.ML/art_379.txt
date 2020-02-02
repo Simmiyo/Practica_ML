@@ -1,0 +1,6 @@
+The EM algorithm and the Laplace Approximation
+The Laplace approximation calls for the computation of second derivatives at
+the likelihood maximum. When the maximum is found by the EM-algorithm, there is
+a convenient way to compute these derivatives. The likelihood gradient can be
+obtained from the EM-auxiliary, while the Hessian can be obtained from this
+gradient with the Pearlmutter trick.

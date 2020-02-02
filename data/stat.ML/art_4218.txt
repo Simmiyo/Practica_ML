@@ -1,0 +1,18 @@
+A Variance Maximization Criterion for Active Learning
+Active learning aims to train a classifier as fast as possible with as few
+labels as possible. The core element in virtually any active learning strategy
+is the criterion that measures the usefulness of the unlabeled data based on
+which new points to be labeled are picked. We propose a novel approach which we
+refer to as maximizing variance for active learning or MVAL for short. MVAL
+measures the value of unlabeled instances by evaluating the rate of change of
+output variables caused by changes in the next sample to be queried and its
+potential labelling. In a sense, this criterion measures how unstable the
+classifier's output is for the unlabeled data points under perturbations of the
+training data. MVAL maintains, what we refer to as, retraining information
+matrices to keep track of these output scores and exploits two kinds of
+variance to measure the informativeness and representativeness, respectively.
+By fusing these variances, MVAL is able to select the instances which are both
+informative and representative. We employ our technique both in combination
+with logistic regression and support vector machines and demonstrate that MVAL
+achieves state-of-the-art performance in experiments on a large number of
+standard benchmark datasets.

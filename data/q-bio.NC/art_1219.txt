@@ -1,0 +1,13 @@
+Using Branch Predictors to Monitor Brain Activity
+A key problem with neuroprostheses and brain monitoring interfaces is that
+they need extreme energy efficiency. One way of lowering energy is to use the
+low power modes avail- able on the processors embedded in these devices. We
+present a technique to predict when neuronal activity of interest is likely to
+occur, so that the processor can run at nominal operating frequency at those
+times, and be placed in low power modes otherwise. To achieve this, we discover
+that branch predictors can also predict brain activity. By performing brain
+surgeries on awake and anesthetized mice, we evaluate several branch predictors
+and find that perceptron branch predictors can predict cerebellar activity with
+accuracies as high as 85%. Consequently, we co-opt branch predictors to dictate
+when to transition between low power and normal operating modes, saving as much
+as 59% of processor energy.

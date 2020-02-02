@@ -1,0 +1,22 @@
+Malaria Likelihood Prediction By Effectively Surveying Households Using
+  Deep Reinforcement Learning
+We build a deep reinforcement learning (RL) agent that can predict the
+likelihood of an individual testing positive for malaria by asking questions
+about their household. The RL agent learns to determine which survey question
+to ask next and when to stop to make a prediction about their likelihood of
+malaria based on their responses hitherto. The agent incurs a small penalty for
+each question asked, and a large reward/penalty for making the correct/wrong
+prediction; it thus has to learn to balance the length of the survey with the
+accuracy of its final predictions. Our RL agent is a Deep Q-network that learns
+a policy directly from the responses to the questions, with an action defined
+for each possible survey question and for each possible prediction class. We
+focus on Kenya, where malaria is a massive health burden, and train the RL
+agent on a dataset of 6481 households from the Kenya Malaria Indicator Survey
+2015. To investigate the importance of having survey questions be adaptive to
+responses, we compare our RL agent to a supervised learning (SL) baseline that
+fixes its set of survey questions a priori. We evaluate on prediction accuracy
+and on the number of survey questions asked on a holdout set and find that the
+RL agent is able to predict with 80% accuracy, using only 2.5 questions on
+average. In addition, the RL agent learns to survey adaptively to responses and
+is able to match the SL baseline in prediction accuracy while significantly
+reducing survey length.

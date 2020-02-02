@@ -1,0 +1,13 @@
+Security Aspects of Practical Quantum Cryptography
+The use of quantum bits (qubits) in cryptography holds the promise of secure
+cryptographic quantum key distribution schemes. Unfortunately, the implemented
+schemes can be totally insecure. We provide a thorough investigation of
+security issues for practical quantum key distribution, taking into account
+channel losses, a realistic detection process, and modifications of the
+``qubits'' sent from the sender to the receiver. We first show that even
+quantum key distribution with perfect qubits cannot be achieved over long
+distances when fixed channel losses and fixed dark count errors are taken into
+account. Then we show that existing experimental schemes (based on
+``weak-pulse'') are usually totally insecure. Finally we show that parametric
+downconversion offers enhanced performance compared to its weak coherent pulse
+counterpart.

@@ -1,0 +1,17 @@
+On The Sample Complexity of Sparse Dictionary Learning
+In the synthesis model signals are represented as a sparse combinations of
+atoms from a dictionary. Dictionary learning describes the acquisition process
+of the underlying dictionary for a given set of training samples. While ideally
+this would be achieved by optimizing the expectation of the factors over the
+underlying distribution of the training data, in practice the necessary
+information about the distribution is not available. Therefore, in real world
+applications it is achieved by minimizing an empirical average over the
+available samples. The main goal of this paper is to provide a sample
+complexity estimate that controls to what extent the empirical average deviates
+from the cost function. This estimate then provides a suitable estimate to the
+accuracy of the representation of the learned dictionary. The presented
+approach exemplifies the general results proposed by the authors in Sample
+Complexity of Dictionary Learning and other Matrix Factorizations, Gribonval et
+al. and gives more concrete bounds of the sample complexity of dictionary
+learning. We cover a variety of sparsity measures employed in the learning
+procedure.

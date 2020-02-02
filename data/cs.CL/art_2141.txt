@@ -1,0 +1,17 @@
+Inducing Multilingual Text Analysis Tools Using Bidirectional Recurrent
+  Neural Networks
+This work focuses on the rapid development of linguistic annotation tools for
+resource-poor languages. We experiment several cross-lingual annotation
+projection methods using Recurrent Neural Networks (RNN) models. The
+distinctive feature of our approach is that our multilingual word
+representation requires only a parallel corpus between the source and target
+language. More precisely, our method has the following characteristics: (a) it
+does not use word alignment information, (b) it does not assume any knowledge
+about foreign languages, which makes it applicable to a wide range of
+resource-poor languages, (c) it provides truly multilingual taggers. We
+investigate both uni- and bi-directional RNN models and propose a method to
+include external information (for instance low level information from POS) in
+the RNN to train higher level taggers (for instance, super sense taggers). We
+demonstrate the validity and genericity of our model by using parallel corpora
+(obtained by manual or automatic translation). Our experiments are conducted to
+induce cross-lingual POS and super sense taggers.

@@ -1,0 +1,18 @@
+Bayesian Inference in Cumulative Distribution Fields
+One approach for constructing copula functions is by multiplication. Given
+that products of cumulative distribution functions (CDFs) are also CDFs, an
+adjustment to this multiplication will result in a copula model, as discussed
+by Liebscher (J Mult Analysis, 2008). Parameterizing models via products of
+CDFs has some advantages, both from the copula perspective (e.g., it is
+well-defined for any dimensionality) and from general multivariate analysis
+(e.g., it provides models where small dimensional marginal distributions can be
+easily read-off from the parameters). Independently, Huang and Frey (J Mach
+Learn Res, 2011) showed the connection between certain sparse graphical models
+and products of CDFs, as well as message-passing (dynamic programming) schemes
+for computing the likelihood function of such models. Such schemes allows
+models to be estimated with likelihood-based methods. We discuss and
+demonstrate MCMC approaches for estimating such models in a Bayesian context,
+their application in copula modeling, and how message-passing can be strongly
+simplified. Importantly, our view of message-passing opens up possibilities to
+scaling up such methods, given that even dynamic programming is not a scalable
+solution for calculating likelihood functions in many models.

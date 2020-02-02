@@ -1,0 +1,18 @@
+Bayesian Multi Plate High Throughput Screening of Compounds
+High throughput screening of compounds (chemicals) is an essential part of
+drug discovery [7], involving thousands to millions of compounds, with the
+purpose of identifying candidate hits. Most statistical tools, including the
+industry standard B-score method, work on individual compound plates and do not
+exploit cross-plate correlation or statistical strength among plates. We
+present a new statistical framework for high throughput screening of compounds
+based on Bayesian nonparametric modeling. The proposed approach is able to
+identify candidate hits from multiple plates simultaneously, sharing
+statistical strength among plates and providing more robust estimates of
+compound activity. It can flexibly accommodate arbitrary distributions of
+compound activities and is applicable to any plate geometry. The algorithm
+provides a principled statistical approach for hit identification and false
+discovery rate control. Experiments demonstrate significant improvements in hit
+identification sensitivity and specificity over the B-score method, which is
+highly sensitive to threshold choice. The framework is implemented as an
+efficient R extension package BHTSpack and is suitable for large scale data
+sets.

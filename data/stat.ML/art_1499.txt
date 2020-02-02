@@ -1,0 +1,23 @@
+A Distributed Framework for the Construction of Transport Maps
+The need to reason about uncertainty in large, complex, and multi-modal
+datasets has become increasingly common across modern scientific environments.
+The ability to transform samples from one distribution $P$ to another
+distribution $Q$ enables the solution to many problems in machine learning
+(e.g. Bayesian inference, generative modeling) and has been actively pursued
+from theoretical, computational, and application perspectives across the fields
+of information theory, computer science, and biology. Performing such
+transformations, in general, still leads to computational difficulties,
+especially in high dimensions. Here, we consider the problem of computing such
+"measure transport maps" with efficient and parallelizable methods. Under the
+mild assumptions that $P$ need not be known but can be sampled from, and that
+the density of $Q$ is known up to a proportionality constant, and that $Q$ is
+log-concave, we provide in this work a convex optimization problem pertaining
+to relative entropy minimization. We show how an empirical minimization
+formulation and polynomial chaos map parameterization can allow for learning a
+transport map between $P$ and $Q$ with distributed and scalable methods. We
+also leverage findings from nonequilibrium thermodynamics to represent the
+transport map as a composition of simpler maps, each of which is learned
+sequentially with a transport cost regularized version of the aforementioned
+problem formulation. We provide examples of our framework within the context of
+Bayesian inference for the Boston housing dataset and generative modeling for
+handwritten digit images from the MNIST dataset.

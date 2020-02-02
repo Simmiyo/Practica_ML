@@ -1,0 +1,22 @@
+Automatic Analysis of EEGs Using Big Data and Hybrid Deep Learning
+  Architectures
+Objective: A clinical decision support tool that automatically interprets
+EEGs can reduce time to diagnosis and enhance real-time applications such as
+ICU monitoring. Clinicians have indicated that a sensitivity of 95% with a
+specificity below 5% was the minimum requirement for clinical acceptance. We
+propose a highperformance classification system based on principles of big data
+and machine learning. Methods: A hybrid machine learning system that uses
+hidden Markov models (HMM) for sequential decoding and deep learning networks
+for postprocessing is proposed. These algorithms were trained and evaluated
+using the TUH EEG Corpus, which is the world's largest publicly available
+database of clinical EEG data. Results: Our approach delivers a sensitivity
+above 90% while maintaining a specificity below 5%. This system detects three
+events of clinical interest: (1) spike and/or sharp waves, (2) periodic
+lateralized epileptiform discharges, (3) generalized periodic epileptiform
+discharges. It also detects three events used to model background noise: (1)
+artifacts, (2) eye movement (3) background. Conclusions: A hybrid HMM/deep
+learning system can deliver a low false alarm rate on EEG event detection,
+making automated analysis a viable option for clinicians. Significance: The TUH
+EEG Corpus enables application of highly data consumptive machine learning
+algorithms to EEG analysis. Performance is approaching clinical acceptance for
+real-time applications.

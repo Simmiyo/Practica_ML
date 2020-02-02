@@ -1,0 +1,17 @@
+Properties and Bayesian fitting of restricted Boltzmann machines
+A restricted Boltzmann machine (RBM) is an undirected graphical model
+constructed for discrete or continuous random variables, with two layers, one
+hidden and one visible, and no conditional dependency within a layer. In recent
+years, RBMs have risen to prominence due to their connection to deep learning.
+By treating a hidden layer of one RBM as the visible layer in a second RBM, a
+deep architecture can be created. RBMs are thought to thereby have the ability
+to encode very complex and rich structures in data, making them attractive for
+supervised learning. However, the generative behavior of RBMs is largely
+unexplored and typical fitting methodology does not easily allow for
+uncertainty quantification in addition to point estimates. In this paper, we
+discuss the relationship between RBM parameter specification in the binary case
+and model properties such as degeneracy, instability and uninterpretability. We
+also describe the associated difficulties that can arise with likelihood-based
+inference and further discuss the potential Bayes fitting of such (highly
+flexible) models, especially as Gibbs sampling (quasi-Bayes) methods are often
+advocated for the RBM model structure.

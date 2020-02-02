@@ -1,0 +1,11 @@
+Tagger Evaluation Given Hierarchical Tag Sets
+We present methods for evaluating human and automatic taggers that extend
+current practice in three ways. First, we show how to evaluate taggers that
+assign multiple tags to each test instance, even if they do not assign
+probabilities. Second, we show how to accommodate a common property of manually
+constructed ``gold standards'' that are typically used for objective
+evaluation, namely that there is often more than one correct answer. Third, we
+show how to measure performance when the set of possible tags is
+tree-structured in an IS-A hierarchy. To illustrate how our methods can be used
+to measure inter-annotator agreement, we show how to compute the kappa
+coefficient over hierarchical tag sets.

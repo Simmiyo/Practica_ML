@@ -1,0 +1,18 @@
+A Unifying Framework in Vector-valued Reproducing Kernel Hilbert Spaces
+  for Manifold Regularization and Co-Regularized Multi-view Learning
+This paper presents a general vector-valued reproducing kernel Hilbert spaces
+(RKHS) framework for the problem of learning an unknown functional dependency
+between a structured input space and a structured output space. Our formulation
+encompasses both Vector-valued Manifold Regularization and Co-regularized
+Multi-view Learning, providing in particular a unifying framework linking these
+two important learning approaches. In the case of the least square loss
+function, we provide a closed form solution, which is obtained by solving a
+system of linear equations. In the case of Support Vector Machine (SVM)
+classification, our formulation generalizes in particular both the binary
+Laplacian SVM to the multi-class, multi-view settings and the multi-class
+Simplex Cone SVM to the semi-supervised, multi-view settings. The solution is
+obtained by solving a single quadratic optimization problem, as in standard
+SVM, via the Sequential Minimal Optimization (SMO) approach. Empirical results
+obtained on the task of object recognition, using several challenging datasets,
+demonstrate the competitiveness of our algorithms compared with other
+state-of-the-art methods.

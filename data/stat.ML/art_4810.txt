@@ -1,0 +1,16 @@
+Multiclass feature learning for hyperspectral image classification:
+  sparse and hierarchical solutions
+In this paper, we tackle the question of discovering an effective set of
+spatial filters to solve hyperspectral classification problems. Instead of
+fixing a priori the filters and their parameters using expert knowledge, we let
+the model find them within random draws in the (possibly infinite) space of
+possible filters. We define an active set feature learner that includes in the
+model only features that improve the classifier. To this end, we consider a
+fast and linear classifier, multiclass logistic classification, and show that
+with a good representation (the filters discovered), such a simple classifier
+can reach at least state of the art performances. We apply the proposed active
+set learner in four hyperspectral image classification problems, including
+agricultural and urban classification at different resolutions, as well as
+multimodal data. We also propose a hierarchical setting, which allows to
+generate more complex banks of features that can better describe the
+nonlinearities present in the data.

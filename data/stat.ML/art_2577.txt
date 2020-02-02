@@ -1,0 +1,11 @@
+Infinite Mixtures of Multivariate Gaussian Processes
+This paper presents a new model called infinite mixtures of multivariate
+Gaussian processes, which can be used to learn vector-valued functions and
+applied to multitask learning. As an extension of the single multivariate
+Gaussian process, the mixture model has the advantages of modeling multimodal
+data and alleviating the computationally cubic complexity of the multivariate
+Gaussian process. A Dirichlet process prior is adopted to allow the (possibly
+infinite) number of mixture components to be automatically inferred from
+training data, and Markov chain Monte Carlo sampling techniques are used for
+parameter and latent variable inference. Preliminary experimental results on
+multivariate regression show the feasibility of the proposed model.

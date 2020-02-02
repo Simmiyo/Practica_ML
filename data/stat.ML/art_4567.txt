@@ -1,0 +1,15 @@
+Learning Kernels for Structured Prediction using Polynomial Kernel
+  Transformations
+Learning the kernel functions used in kernel methods has been a vastly
+explored area in machine learning. It is now widely accepted that to obtain
+'good' performance, learning a kernel function is the key challenge. In this
+work we focus on learning kernel representations for structured regression. We
+propose use of polynomials expansion of kernels, referred to as Schoenberg
+transforms and Gegenbaur transforms, which arise from the seminal result of
+Schoenberg (1938). These kernels can be thought of as polynomial combination of
+input features in a high dimensional reproducing kernel Hilbert space (RKHS).
+We learn kernels over input and output for structured data, such that,
+dependency between kernel features is maximized. We use Hilbert-Schmidt
+Independence Criterion (HSIC) to measure this. We also give an efficient,
+matrix decomposition-based algorithm to learn these kernel transformations, and
+demonstrate state-of-the-art results on several real-world datasets.

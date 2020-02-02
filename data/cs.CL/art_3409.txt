@@ -1,0 +1,12 @@
+Bayesian Models for Unit Discovery on a Very Low Resource Language
+Developing speech technologies for low-resource languages has become a very
+active research field over the last decade. Among others, Bayesian models have
+shown some promising results on artificial examples but still lack of in situ
+experiments. Our work applies state-of-the-art Bayesian models to unsupervised
+Acoustic Unit Discovery (AUD) in a real low-resource language scenario. We also
+show that Bayesian models can naturally integrate information from other
+resourceful languages by means of informative prior leading to more consistent
+discovered units. Finally, discovered acoustic units are used, either as the
+1-best sequence or as a lattice, to perform word segmentation. Word
+segmentation results show that this Bayesian approach clearly outperforms a
+Segmental-DTW baseline on the same corpus.

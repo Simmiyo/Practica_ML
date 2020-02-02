@@ -1,0 +1,11 @@
+A Comparison of Feature-Based and Neural Scansion of Poetry
+Automatic analysis of poetic rhythm is a challenging task that involves
+linguistics, literature, and computer science. When the language to be analyzed
+is known, rule-based systems or data-driven methods can be used. In this paper,
+we analyze poetic rhythm in English and Spanish. We show that the
+representations of data learned from character-based neural models are more
+informative than the ones from hand-crafted features, and that a
+Bi-LSTM+CRF-model produces state-of-the art accuracy on scansion of poetry in
+two languages. Results also show that the information about whole word
+structure, and not just independent syllables, is highly informative for
+performing scansion.

@@ -1,0 +1,11 @@
+Multi-View Learning in the Presence of View Disagreement
+Traditional multi-view learning approaches suffer in the presence of view
+disagreement,i.e., when samples in each view do not belong to the same class
+due to view corruption, occlusion or other noise processes. In this paper we
+present a multi-view learning approach that uses a conditional entropy
+criterion to detect view disagreement. Once detected, samples with view
+disagreement are filtered and standard multi-view learning methods can be
+successfully applied to the remaining samples. Experimental evaluation on
+synthetic and audio-visual databases demonstrates that the detection and
+filtering of view disagreement considerably increases the performance of
+traditional multi-view learning approaches.

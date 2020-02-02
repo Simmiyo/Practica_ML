@@ -1,0 +1,18 @@
+Hybrid Model For Word Prediction Using Naive Bayes and Latent
+  Information
+Historically, the Natural Language Processing area has been given too much
+attention by many researchers. One of the main motivation beyond this interest
+is related to the word prediction problem, which states that given a set words
+in a sentence, one can recommend the next word. In literature, this problem is
+solved by methods based on syntactic or semantic analysis. Solely, each of
+these analysis cannot achieve practical results for end-user applications. For
+instance, the Latent Semantic Analysis can handle semantic features of text,
+but cannot suggest words considering syntactical rules. On the other hand,
+there are models that treat both methods together and achieve state-of-the-art
+results, e.g. Deep Learning. These models can demand high computational effort,
+which can make the model infeasible for certain types of applications. With the
+advance of the technology and mathematical models, it is possible to develop
+faster systems with more accuracy. This work proposes a hybrid word suggestion
+model, based on Naive Bayes and Latent Semantic Analysis, considering
+neighbouring words around unfilled gaps. Results show that this model could
+achieve 44.2% of accuracy in the MSR Sentence Completion Challenge.

@@ -1,0 +1,24 @@
+A Framework for Fast Image Deconvolution with Incomplete Observations
+In image deconvolution problems, the diagonalization of the underlying
+operators by means of the FFT usually yields very large speedups. When there
+are incomplete observations (e.g., in the case of unknown boundaries), standard
+deconvolution techniques normally involve non-diagonalizable operators,
+resulting in rather slow methods, or, otherwise, use inexact convolution
+models, resulting in the occurrence of artifacts in the enhanced images. In
+this paper, we propose a new deconvolution framework for images with incomplete
+observations that allows us to work with diagonalized convolution operators,
+and therefore is very fast. We iteratively alternate the estimation of the
+unknown pixels and of the deconvolved image, using, e.g., an FFT-based
+deconvolution method. This framework is an efficient, high-quality alternative
+to existing methods of dealing with the image boundaries, such as edge
+tapering. It can be used with any fast deconvolution method. We give an example
+in which a state-of-the-art method that assumes periodic boundary conditions is
+extended, through the use of this framework, to unknown boundary conditions.
+Furthermore, we propose a specific implementation of this framework, based on
+the alternating direction method of multipliers (ADMM). We provide a proof of
+convergence for the resulting algorithm, which can be seen as a "partial" ADMM,
+in which not all variables are dualized. We report experimental comparisons
+with other primal-dual methods, where the proposed one performed at the level
+of the state of the art. Four different kinds of applications were tested in
+the experiments: deconvolution, deconvolution with inpainting, superresolution,
+and demosaicing, all with unknown boundaries.

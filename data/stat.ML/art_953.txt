@@ -1,0 +1,13 @@
+A Multi-Horizon Quantile Recurrent Forecaster
+We propose a framework for general probabilistic multi-step time series
+regression. Specifically, we exploit the expressiveness and temporal nature of
+Sequence-to-Sequence Neural Networks (e.g. recurrent and convolutional
+structures), the nonparametric nature of Quantile Regression and the efficiency
+of Direct Multi-Horizon Forecasting. A new training scheme,
+*forking-sequences*, is designed for sequential nets to boost stability and
+performance. We show that the approach accommodates both temporal and static
+covariates, learning across multiple related series, shifting seasonality,
+future planned event spikes and cold-starts in real life large-scale
+forecasting. The performance of the framework is demonstrated in an application
+to predict the future demand of items sold on Amazon.com, and in a public
+probabilistic forecasting competition to predict electricity price and load.

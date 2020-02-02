@@ -1,0 +1,18 @@
+PEYMA: A Tagged Corpus for Persian Named Entities
+The goal in the NER task is to classify proper nouns of a text into classes
+such as person, location, and organization. This is an important preprocessing
+step in many NLP tasks such as question-answering and summarization. Although
+many research studies have been conducted in this area in English and the
+state-of-the-art NER systems have reached performances of higher than 90
+percent in terms of F1 measure, there are very few research studies for this
+task in Persian. One of the main important causes of this may be the lack of a
+standard Persian NER dataset to train and test NER systems. In this research we
+create a standard, big-enough tagged Persian NER dataset which will be
+distributed for free for research purposes. In order to construct such a
+standard dataset, we studied standard NER datasets which are constructed for
+English researches and found out that almost all of these datasets are
+constructed using news texts. So we collected documents from ten news websites.
+Later, in order to provide annotators with some guidelines to tag these
+documents, after studying guidelines used for constructing CoNLL and MUC
+standard English datasets, we set our own guidelines considering the Persian
+linguistic rules.

@@ -1,0 +1,14 @@
+Sequential Local Learning for Latent Graphical Models
+Learning parameters of latent graphical models (GM) is inherently much harder
+than that of no-latent ones since the latent variables make the corresponding
+log-likelihood non-concave. Nevertheless, expectation-maximization schemes are
+popularly used in practice, but they are typically stuck in local optima. In
+the recent years, the method of moments have provided a refreshing angle for
+resolving the non-convex issue, but it is applicable to a quite limited class
+of latent GMs. In this paper, we aim for enhancing its power via enlarging such
+a class of latent GMs. To this end, we introduce two novel concepts, coined
+marginalization and conditioning, which can reduce the problem of learning a
+larger GM to that of a smaller one. More importantly, they lead to a sequential
+learning framework that repeatedly increases the learning portion of given
+latent GM, and thus covers a significantly broader and more complicated class
+of loopy latent GMs which include convolutional and random regular models.

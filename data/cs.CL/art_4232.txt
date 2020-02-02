@@ -1,0 +1,15 @@
+Multi-D Kneser-Ney Smoothing Preserving the Original Marginal
+  Distributions
+Smoothing is an essential tool in many NLP tasks, therefore numerous
+techniques have been developed for this purpose in the past. One of the most
+widely used smoothing methods are the Kneser-Ney smoothing (KNS) and its
+variants, including the Modified Kneser-Ney smoothing (MKNS), which are widely
+considered to be among the best smoothing methods available. Although when
+creating the original KNS the intention of the authors was to develop such a
+smoothing method that preserves the marginal distributions of the original
+model, this property was not maintained when developing the MKNS.
+  In this article I would like to overcome this and propose such a refined
+version of the MKNS that preserves these marginal distributions while keeping
+the advantages of both previous versions. Beside its advantageous properties,
+this novel smoothing method is shown to achieve about the same results as the
+MKNS in a standard language modelling task.

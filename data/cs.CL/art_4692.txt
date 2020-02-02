@@ -1,0 +1,9 @@
+Limitations in learning an interpreted language with recurrent models
+In this submission I report work in progress on learning simplified
+interpreted languages by means of recurrent models. The data is constructed to
+reflect core properties of natural language as modeled in formal syntax and
+semantics: recursive syntactic structure and compositionality. Preliminary
+results suggest that LSTM networks do generalise to compositional
+interpretation, albeit only in the most favorable learning setting, with a
+well-paced curriculum, extensive training data, and left-to-right (but not
+right-to-left) composition.

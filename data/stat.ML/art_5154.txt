@@ -1,0 +1,16 @@
+A Basic Recurrent Neural Network Model
+We present a model of a basic recurrent neural network (or bRNN) that
+includes a separate linear term with a slightly "stable" fixed matrix to
+guarantee bounded solutions and fast dynamic response. We formulate a state
+space viewpoint and adapt the constrained optimization Lagrange Multiplier
+(CLM) technique and the vector Calculus of Variations (CoV) to derive the
+(stochastic) gradient descent. In this process, one avoids the commonly used
+re-application of the circular chain-rule and identifies the error
+back-propagation with the co-state backward dynamic equations. We assert that
+this bRNN can successfully perform regression tracking of time-series.
+Moreover, the "vanishing and exploding" gradients are explicitly quantified and
+explained through the co-state dynamics and the update laws. The adapted CoV
+framework, in addition, can correctly and principally integrate new loss
+functions in the network on any variable and for varied goals, e.g., for
+supervised learning on the outputs and unsupervised learning on the internal
+(hidden) states.

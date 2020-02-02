@@ -1,0 +1,12 @@
+Extraction of domain-specific bilingual lexicon from comparable corpora:
+  compositional translation and ranking
+This paper proposes a method for extracting translations of morphologically
+constructed terms from comparable corpora. The method is based on compositional
+translation and exploits translation equivalences at the morpheme-level, which
+allows for the generation of "fertile" translations (translation pairs in which
+the target term has more words than the source term). Ranking methods relying
+on corpus-based and translation-based features are used to select the best
+candidate translation. We obtain an average precision of 91% on the Top1
+candidate translation. The method was tested on two language pairs
+(English-French and English-German) and with a small specialized comparable
+corpora (400k words per language).

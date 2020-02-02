@@ -1,0 +1,15 @@
+Multiple Testing for Neuroimaging via Hidden Markov Random Field
+Traditional voxel-level multiple testing procedures in neuroimaging, mostly
+$p$-value based, often ignore the spatial correlations among neighboring voxels
+and thus suffer from substantial loss of power. We extend the
+local-significance-index based procedure originally developed for the hidden
+Markov chain models, which aims to minimize the false nondiscovery rate subject
+to a constraint on the false discovery rate, to three-dimensional neuroimaging
+data using a hidden Markov random field model. A generalized
+expectation-maximization algorithm for maximizing the penalized likelihood is
+proposed for estimating the model parameters. Extensive simulations show that
+the proposed approach is more powerful than conventional false discovery rate
+procedures. We apply the method to the comparison between mild cognitive
+impairment, a disease status with increased risk of developing Alzheimer's or
+another dementia, and normal controls in the FDG-PET imaging study of the
+Alzheimer's Disease Neuroimaging Initiative.

@@ -1,0 +1,14 @@
+Developing a concept-level knowledge base for sentiment analysis in
+  Singlish
+In this paper, we present Singlish sentiment lexicon, a concept-level
+knowledge base for sentiment analysis that associates multiword expressions to
+a set of emotion labels and a polarity value. Unlike many other sentiment
+analysis resources, this lexicon is not built by manually labeling pieces of
+knowledge coming from general NLP resources such as WordNet or DBPedia.
+Instead, it is automatically constructed by applying graph-mining and
+multi-dimensional scaling techniques on the affective common-sense knowledge
+collected from three different sources. This knowledge is represented
+redundantly at three levels: semantic network, matrix, and vector space.
+Subsequently, the concepts are labeled by emotions and polarity through the
+ensemble application of spreading activation, neural networks and an emotion
+categorization model.

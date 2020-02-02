@@ -1,0 +1,14 @@
+Rehabilitation of Count-based Models for Word Vector Representations
+Recent works on word representations mostly rely on predictive models.
+Distributed word representations (aka word embeddings) are trained to optimally
+predict the contexts in which the corresponding words tend to appear. Such
+models have succeeded in capturing word similarties as well as semantic and
+syntactic regularities. Instead, we aim at reviving interest in a model based
+on counts. We present a systematic study of the use of the Hellinger distance
+to extract semantic representations from the word co-occurence statistics of
+large text corpora. We show that this distance gives good performance on word
+similarity and analogy tasks, with a proper type and size of context, and a
+dimensionality reduction based on a stochastic low-rank approximation. Besides
+being both simple and intuitive, this method also provides an encoding function
+which can be used to infer unseen words or phrases. This becomes a clear
+advantage compared to predictive models which must train these new words.

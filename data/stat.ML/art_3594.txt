@@ -1,0 +1,18 @@
+Dimensionality Reduction for Binary Data through the Projection of
+  Natural Parameters
+Principal component analysis (PCA) for binary data, known as logistic PCA,
+has become a popular alternative to dimensionality reduction of binary data. It
+is motivated as an extension of ordinary PCA by means of a matrix
+factorization, akin to the singular value decomposition, that maximizes the
+Bernoulli log-likelihood. We propose a new formulation of logistic PCA which
+extends Pearson's formulation of a low dimensional data representation with
+minimum error to binary data. Our formulation does not require a matrix
+factorization, as previous methods do, but instead looks for projections of the
+natural parameters from the saturated model. Due to this difference, the number
+of parameters does not grow with the number of observations and the principal
+component scores on new data can be computed with simple matrix multiplication.
+We derive explicit solutions for data matrices of special structure and provide
+computationally efficient algorithms for solving for the principal component
+loadings. Through simulation experiments and an analysis of medical diagnoses
+data, we compare our formulation of logistic PCA to the previous formulation as
+well as ordinary PCA to demonstrate its benefits.

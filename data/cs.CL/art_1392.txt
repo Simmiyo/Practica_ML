@@ -1,0 +1,12 @@
+Fill it up: Exploiting partial dependency annotations in a minimum
+  spanning tree parser
+Unsupervised models of dependency parsing typically require large amounts of
+clean, unlabeled data plus gold-standard part-of-speech tags. Adding indirect
+supervision (e.g. language universals and rules) can help, but we show that
+obtaining small amounts of direct supervision - here, partial dependency
+annotations - provides a strong balance between zero and full supervision. We
+adapt the unsupervised ConvexMST dependency parser to learn from partial
+dependencies expressed in the Graph Fragment Language. With less than 24 hours
+of total annotation, we obtain 7% and 17% absolute improvement in unlabeled
+dependency scores for English and Spanish, respectively, compared to the same
+parser using only universal grammar constraints.

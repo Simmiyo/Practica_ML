@@ -1,0 +1,16 @@
+Learning to Rank With Bregman Divergences and Monotone Retargeting
+This paper introduces a novel approach for learning to rank (LETOR) based on
+the notion of monotone retargeting. It involves minimizing a divergence between
+all monotonic increasing transformations of the training scores and a
+parameterized prediction function. The minimization is both over the
+transformations as well as over the parameters. It is applied to Bregman
+divergences, a large class of "distance like" functions that were recently
+shown to be the unique class that is statistically consistent with the
+normalized discounted gain (NDCG) criterion [19]. The algorithm uses
+alternating projection style updates, in which one set of simultaneous
+projections can be computed independent of the Bregman divergence and the other
+reduces to parameter estimation of a generalized linear model. This results in
+easily implemented, efficiently parallelizable algorithm for the LETOR task
+that enjoys global optimum guarantees under mild conditions. We present
+empirical results on benchmark datasets showing that this approach can
+outperform the state of the art NDCG consistent techniques.

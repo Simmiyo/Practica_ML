@@ -1,0 +1,10 @@
+Dynamic Partition Models
+We present a new approach for learning compact and intuitive distributed
+representations with binary encoding. Rather than summing up expert votes as in
+products of experts, we employ for each variable the opinion of the most
+reliable expert. Data points are hence explained through a partitioning of the
+variables into expert supports. The partitions are dynamically adapted based on
+which experts are active. During the learning phase we adopt a smoothed version
+of this model that uses separate mixtures for each data dimension. In our
+experiments we achieve accurate reconstructions of high-dimensional data points
+with at most a dozen experts.

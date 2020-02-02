@@ -1,0 +1,12 @@
+Quantum Computing and Phase Transitions in Combinatorial Search
+We introduce an algorithm for combinatorial search on quantum computers that
+is capable of significantly concentrating amplitude into solutions for some NP
+search problems, on average. This is done by exploiting the same aspects of
+problem structure as used by classical backtrack methods to avoid unproductive
+search choices. This quantum algorithm is much more likely to find solutions
+than the simple direct use of quantum parallelism. Furthermore, empirical
+evaluation on small problems shows this quantum algorithm displays the same
+phase transition behavior, and at the same location, as seen in many previously
+studied classical search methods. Specifically, difficult problem instances are
+concentrated near the abrupt change from underconstrained to overconstrained
+problems.

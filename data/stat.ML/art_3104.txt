@@ -1,0 +1,16 @@
+Mutual Information-Based Unsupervised Feature Transformation for
+  Heterogeneous Feature Subset Selection
+Conventional mutual information (MI) based feature selection (FS) methods are
+unable to handle heterogeneous feature subset selection properly because of
+data format differences or estimation methods of MI between feature subset and
+class label. A way to solve this problem is feature transformation (FT). In
+this study, a novel unsupervised feature transformation (UFT) which can
+transform non-numerical features into numerical features is developed and
+tested. The UFT process is MI-based and independent of class label. MI-based FS
+algorithms, such as Parzen window feature selector (PWFS), minimum redundancy
+maximum relevance feature selection (mRMR), and normalized MI feature selection
+(NMIFS), can all adopt UFT for pre-processing of non-numerical features. Unlike
+traditional FT methods, the proposed UFT is unbiased while PWFS is utilized to
+its full advantage. Simulations and analyses of large-scale datasets showed
+that feature subset selected by the integrated method, UFT-PWFS, outperformed
+other FT-FS integrated methods in classification accuracy.

@@ -1,0 +1,12 @@
+A Layered Grammar Model: Using Tree-Adjoining Grammars to Build a Common
+  Syntactic Kernel for Related Dialects
+This article describes the design of a common syntactic description for the
+core grammar of a group of related dialects. The common description does not
+rely on an abstract sub-linguistic structure like a metagrammar: it consists in
+a single FS-LTAG where the actual specific language is included as one of the
+attributes in the set of attribute types defined for the features. When the
+lang attribute is instantiated, the selected subset of the grammar is
+equivalent to the grammar of one dialect. When it is not, we have a model of a
+hybrid multidialectal linguistic system. This principle is used for a group of
+creole languages of the West-Atlantic area, namely the French-based Creoles of
+Haiti, Guadeloupe, Martinique and French Guiana.

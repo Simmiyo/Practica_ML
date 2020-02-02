@@ -1,0 +1,14 @@
+The Hierarchical Dirichlet Process Hidden Semi-Markov Model
+There is much interest in the Hierarchical Dirichlet Process Hidden Markov
+Model (HDP-HMM) as a natural Bayesian nonparametric extension of the
+traditional HMM. However, in many settings the HDP-HMM's strict Markovian
+constraints are undesirable, particularly if we wish to learn or encode
+non-geometric state durations. We can extend the HDP-HMM to capture such
+structure by drawing upon explicit-duration semi-Markovianity, which has been
+developed in the parametric setting to allow construction of highly
+interpretable models that admit natural prior information on state durations.
+In this paper we introduce the explicitduration HDP-HSMM and develop posterior
+sampling algorithms for efficient inference in both the direct-assignment and
+weak-limit approximation settings. We demonstrate the utility of the model and
+our inference methods on synthetic data as well as experiments on a speaker
+diarization problem and an example of learning the patterns in Morse code.

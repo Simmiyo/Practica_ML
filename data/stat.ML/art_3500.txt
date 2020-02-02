@@ -1,0 +1,14 @@
+Implicitly Constrained Semi-Supervised Least Squares Classification
+We introduce a novel semi-supervised version of the least squares classifier.
+This implicitly constrained least squares (ICLS) classifier minimizes the
+squared loss on the labeled data among the set of parameters implied by all
+possible labelings of the unlabeled data. Unlike other discriminative
+semi-supervised methods, our approach does not introduce explicit additional
+assumptions into the objective function, but leverages implicit assumptions
+already present in the choice of the supervised least squares classifier. We
+show this approach can be formulated as a quadratic programming problem and its
+solution can be found using a simple gradient descent procedure. We prove that,
+in a certain way, our method never leads to performance worse than the
+supervised classifier. Experimental results corroborate this theoretical result
+in the multidimensional case on benchmark datasets, also in terms of the error
+rate.

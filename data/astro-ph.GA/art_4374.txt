@@ -1,0 +1,22 @@
+KROME - a package to embed chemistry in astrophysical simulations
+Chemistry plays a key role in many astrophysical situations regulating the
+cooling and the thermal properties of the gas, which are relevant during
+gravitational collapse, the evolution of disks and the fragmentation process.
+  In order to simplify the usage of chemical networks in large numerical
+simulations, we present the chemistry package KROME, consisting of a Python
+pre-processor which generates a subroutine for the solution of chemical
+networks which can be embedded in any numerical code. For the solution of the
+rate equations, we make use of the high-order solver DLSODES, which was shown
+to be both accurate and efficient for sparse networks, which are typical in
+astrophysical applications. KROME also provides a large set of physical
+processes connected to chemistry, including photochemistry, cooling, heating,
+dust treatment, and reverse kinetics.
+  The package presented here already contains a network for primordial
+chemistry, a small metal network appropriate for the modelling of low
+metallicities environments, a detailed network for the modelling of molecular
+clouds, a network for planetary atmospheres, as well as a framework for the
+modelling of the dust grain population. In this paper, we present an extended
+test suite ranging from one-zone and 1D-models to first applications including
+cosmological simulations with ENZO and RAMSES and 3D collapse simulations with
+the FLASH code. The package presented here is publicly available at
+http://kromepackage.org/ and https://bitbucket.org/krome/krome_stable

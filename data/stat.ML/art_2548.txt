@@ -1,0 +1,19 @@
+Distributed Online Big Data Classification Using Context Information
+Distributed, online data mining systems have emerged as a result of
+applications requiring analysis of large amounts of correlated and
+high-dimensional data produced by multiple distributed data sources. We propose
+a distributed online data classification framework where data is gathered by
+distributed data sources and processed by a heterogeneous set of distributed
+learners which learn online, at run-time, how to classify the different data
+streams either by using their locally available classification functions or by
+helping each other by classifying each other's data. Importantly, since the
+data is gathered at different locations, sending the data to another learner to
+process incurs additional costs such as delays, and hence this will be only
+beneficial if the benefits obtained from a better classification will exceed
+the costs. We model the problem of joint classification by the distributed and
+heterogeneous learners from multiple data sources as a distributed contextual
+bandit problem where each data is characterized by a specific context. We
+develop a distributed online learning algorithm for which we can prove
+sublinear regret. Compared to prior work in distributed online data mining, our
+work is the first to provide analytic regret results characterizing the
+performance of the proposed algorithm.

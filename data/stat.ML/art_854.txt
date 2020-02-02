@@ -1,0 +1,19 @@
+Estimating Dynamic Treatment Regimes in Mobile Health Using V-learning
+The vision for precision medicine is to use individual patient
+characteristics to inform a personalized treatment plan that leads to the best
+healthcare possible for each patient. Mobile technologies have an important
+role to play in this vision as they offer a means to monitor a patient's health
+status in real-time and subsequently to deliver interventions if, when, and in
+the dose that they are needed. Dynamic treatment regimes formalize
+individualized treatment plans as sequences of decision rules, one per stage of
+clinical intervention, that map current patient information to a recommended
+treatment. However, existing methods for estimating optimal dynamic treatment
+regimes are designed for a small number of fixed decision points occurring on a
+coarse time-scale. We propose a new reinforcement learning method for
+estimating an optimal treatment regime that is applicable to data collected
+using mobile technologies in an outpatient setting. The proposed method
+accommodates an indefinite time horizon and minute-by-minute decision making
+that are common in mobile health applications. We show the proposed estimators
+are consistent and asymptotically normal under mild conditions. The proposed
+methods are applied to estimate an optimal dynamic treatment regime for
+controlling blood glucose levels in patients with type 1 diabetes.

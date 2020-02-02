@@ -1,0 +1,18 @@
+Noisy threshold in neuronal models: connections with the noisy leaky
+  integrate-and-fire model
+Providing an analytical treatment to the stochastic feature of neurons'
+dynamics is one of the current biggest challenges in mathematical biology. The
+noisy leaky integrate-and-fire model and its associated Fokker-Planck equation
+are probably the most popular way to deal with neural variability. Another
+well-known formalism is the escape-rate model: a model giving the probability
+that a neuron fires at a certain time knowing the time elapsed since its last
+action potential. This model leads to a so-called age-structured system, a
+partial differential equation with non-local boundary condition famous in the
+field of population dynamics, where the {\it age} of a neuron is the amount of
+time passed by since its previous spike. In this theoretical paper, we
+investigate the mathematical connection between the two formalisms. We shall
+derive an integral transform of the solution to the age-structured model into
+the solution of the Fokker-Planck equation. This integral transform highlights
+the link between the two stochastic processes. As far as we know, an explicit
+mathematical correspondence between the two solutions has not been introduced
+until now.

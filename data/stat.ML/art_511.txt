@@ -1,0 +1,25 @@
+Approximate Subspace-Sparse Recovery with Corrupted Data via Constrained
+  $\ell_1$-Minimization
+High-dimensional data often lie in low-dimensional subspaces corresponding to
+different classes they belong to. Finding sparse representations of data points
+in a dictionary built using the collection of data helps to uncover
+low-dimensional subspaces and address problems such as clustering,
+classification, subset selection and more. In this paper, we address the
+problem of recovering sparse representations for noisy data points in a
+dictionary whose columns correspond to corrupted data lying close to a union of
+subspaces. We consider a constrained $\ell_1$-minimization and study conditions
+under which the solution of the proposed optimization satisfies the approximate
+subspace-sparse recovery condition. More specifically, we show that each noisy
+data point, perturbed from a subspace by a noise of the magnitude of
+$\varepsilon$, will be reconstructed using data points from the same subspace
+with a small error of the order of $O(\varepsilon)$ and that the coefficients
+corresponding to data points in other subspaces will be sufficiently small,
+\ie, of the order of $O(\varepsilon)$. We do not impose any randomness
+assumption on the arrangement of subspaces or distribution of data points in
+each subspace. Our framework is based on a novel generalization of the
+null-space property to the setting where data lie in multiple subspaces, the
+number of data points in each subspace exceeds the dimension of the subspace,
+and all data points are corrupted by noise. Moreover, assuming a random
+distribution for data points, we further show that coefficients from the
+desired support not only reconstruct a given point with high accuracy, but also
+have sufficiently large values, \ie, of the order of $O(1)$.

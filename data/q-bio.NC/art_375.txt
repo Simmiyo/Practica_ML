@@ -1,0 +1,26 @@
+Reward-based learning under hardware constraints - Using a RISC
+  processor embedded in a neuromorphic substrate
+In this study, we propose and analyze in simulations a new, highly flexible
+method of implementing synaptic plasticity in a wafer-scale, accelerated
+neuromorphic hardware system. The study focuses on globally modulated STDP, as
+a special use-case of this method. Flexibility is achieved by embedding a
+general-purpose processor dedicated to plasticity into the wafer. To evaluate
+the suitability of the proposed system, we use a reward modulated STDP rule in
+a spike train learning task. A single layer of neurons is trained to fire at
+specific points in time with only the reward as feedback. This model is
+simulated to measure its performance, i.e. the increase in received reward
+after learning. Using this performance as baseline, we then simulate the model
+with various constraints imposed by the proposed implementation and compare the
+performance. The simulated constraints include discretized synaptic weights, a
+restricted interface between analog synapses and embedded processor, and
+mismatch of analog circuits. We find that probabilistic updates can increase
+the performance of low-resolution weights, a simple interface between analog
+synapses and processor is sufficient for learning, and performance is
+insensitive to mismatch. Further, we consider communication latency between
+wafer and the conventional control computer system that is simulating the
+environment. This latency increases the delay, with which the reward is sent to
+the embedded processor. Because of the time continuous operation of the analog
+synapses, delay can cause a deviation of the updates as compared to the not
+delayed situation. We find that for highly accelerated systems latency has to
+be kept to a minimum. This study demonstrates the suitability of the proposed
+implementation to emulate the selected reward modulated STDP learning rule.

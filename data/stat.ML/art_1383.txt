@@ -1,0 +1,28 @@
+KNN Ensembles for Tweedie Regression: The Power of Multiscale
+  Neighborhoods
+Very few K-nearest-neighbor (KNN) ensembles exist, despite the efficacy of
+this approach in regression, classification, and outlier detection. Those that
+do exist focus on bagging features, rather than varying k or bagging
+observations; it is unknown whether varying k or bagging observations can
+improve prediction. Given recent studies from topological data analysis,
+varying k may function like multiscale topological methods, providing stability
+and better prediction, as well as increased ensemble diversity.
+  This paper explores 7 KNN ensemble algorithms combining bagged features,
+bagged observations, and varied k to understand how each of these contribute to
+model fit. Specifically, these algorithms are tested on Tweedie regression
+problems through simulations and 6 real datasets; results are compared to
+state-of-the-art machine learning models including extreme learning machines,
+random forest, boosted regression, and Morse-Smale regression.
+  Results on simulations suggest gains from varying k above and beyond bagging
+features or samples, as well as the robustness of KNN ensembles to the curse of
+dimensionality. KNN regression ensembles perform favorably against
+state-of-the-art algorithms and dramatically improve performance over KNN
+regression. Further, real dataset results suggest varying k is a good strategy
+in general (particularly for difficult Tweedie regression problems) and that
+KNN regression ensembles often outperform state-of-the-art methods.
+  These results for k-varying ensembles echo recent theoretical results in
+topological data analysis, where multidimensional filter functions and
+multiscale coverings provide stability and performance gains over
+single-dimensional filters and single-scale covering. This opens up the
+possibility of leveraging multiscale neighborhoods and multiple measures of
+local geometry in ensemble methods.

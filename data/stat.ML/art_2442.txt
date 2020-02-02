@@ -1,0 +1,16 @@
+Large-Margin Metric Learning for Partitioning Problems
+In this paper, we consider unsupervised partitioning problems, such as
+clustering, image segmentation, video segmentation and other change-point
+detection problems. We focus on partitioning problems based explicitly or
+implicitly on the minimization of Euclidean distortions, which include
+mean-based change-point detection, K-means, spectral clustering and normalized
+cuts. Our main goal is to learn a Mahalanobis metric for these unsupervised
+problems, leading to feature weighting and/or selection. This is done in a
+supervised way by assuming the availability of several potentially partially
+labelled datasets that share the same metric. We cast the metric learning
+problem as a large-margin structured prediction problem, with proper definition
+of regularizers and losses, leading to a convex optimization problem which can
+be solved efficiently with iterative techniques. We provide experiments where
+we show how learning the metric may significantly improve the partitioning
+performance in synthetic examples, bioinformatics, video segmentation and image
+segmentation problems.

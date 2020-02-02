@@ -1,0 +1,16 @@
+Positive definite matrices and the S-divergence
+Positive definite matrices abound in a dazzling variety of applications. This
+ubiquity can be in part attributed to their rich geometric structure: positive
+definite matrices form a self-dual convex cone whose strict interior is a
+Riemannian manifold. The manifold view is endowed with a "natural" distance
+function while the conic view is not. Nevertheless, drawing motivation from the
+conic view, we introduce the S-Divergence as a "natural" distance-like function
+on the open cone of positive definite matrices. We motivate the S-divergence
+via a sequence of results that connect it to the Riemannian distance. In
+particular, we show that (a) this divergence is the square of a distance; and
+(b) that it has several geometric properties similar to those of the Riemannian
+distance, though without being computationally as demanding. The S-divergence
+is even more intriguing: although nonconvex, we can still compute matrix means
+and medians using it to global optimality. We complement our results with some
+numerical experiments illustrating our theorems and our optimization algorithm
+for computing matrix medians.

@@ -1,0 +1,16 @@
+Block modelling in dynamic networks with non-homogeneous Poisson
+  processes and exact ICL
+We develop a model in which interactions between nodes of a dynamic network
+are counted by non homogeneous Poisson processes. In a block modelling
+perspective, nodes belong to hidden clusters (whose number is unknown) and the
+intensity functions of the counting processes only depend on the clusters of
+nodes. In order to make inference tractable we move to discrete time by
+partitioning the entire time horizon in which interactions are observed in
+fixed-length time sub-intervals. First, we derive an exact integrated
+classification likelihood criterion and maximize it relying on a greedy search
+approach. This allows to estimate the memberships to clusters and the number of
+clusters simultaneously. Then a maximum-likelihood estimator is developed to
+estimate non parametrically the integrated intensities. We discuss the
+over-fitting problems of the model and propose a regularized version solving
+these issues. Experiments on real and simulated data are carried out in order
+to assess the proposed methodology.

@@ -1,0 +1,13 @@
+Semi-supervised Learning based on Distributionally Robust Optimization
+We propose a novel method for semi-supervised learning (SSL) based on
+data-driven distributionally robust optimization (DRO) using optimal transport
+metrics. Our proposed method enhances generalization error by using the
+unlabeled data to restrict the support of the worst case distribution in our
+DRO formulation. We enable the implementation of our DRO formulation by
+proposing a stochastic gradient descent algorithm which allows to easily
+implement the training procedure. We demonstrate that our Semi-supervised DRO
+method is able to improve the generalization error over natural supervised
+procedures and state-of-the-art SSL estimators. Finally, we include a
+discussion on the large sample behavior of the optimal uncertainty region in
+the DRO formulation. Our discussion exposes important aspects such as the role
+of dimension reduction in SSL.

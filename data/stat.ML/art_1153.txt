@@ -1,0 +1,17 @@
+Double Coupled Canonical Polyadic Decomposition for Joint Blind Source
+  Separation
+Joint blind source separation (J-BSS) is an emerging data-driven technique
+for multi-set data-fusion. In this paper, J-BSS is addressed from a tensorial
+perspective. We show how, by using second-order multi-set statistics in J-BSS,
+a specific double coupled canonical polyadic decomposition (DC-CPD) problem can
+be formulated. We propose an algebraic DC-CPD algorithm based on a coupled
+rank-1 detection mapping. This algorithm converts a possibly underdetermined
+DC-CPD to a set of overdetermined CPDs. The latter can be solved algebraically
+via a generalized eigenvalue decomposition based scheme. Therefore, this
+algorithm is deterministic and returns the exact solution in the noiseless
+case. In the noisy case, it can be used to effectively initialize optimization
+based DC-CPD algorithms. In addition, we obtain the determini- stic and generic
+uniqueness conditions for DC-CPD, which are shown to be more relaxed than their
+CPD counterpart. Experiment results are given to illustrate the superiority of
+DC-CPD over standard CPD based BSS methods and several existing J-BSS methods,
+with regards to uniqueness and accuracy.

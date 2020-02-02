@@ -1,0 +1,13 @@
+PAC-Bayesian Analysis for a two-step Hierarchical Multiview Learning
+  Approach
+We study a two-level multiview learning with more than two views under the
+PAC-Bayesian framework. This approach, sometimes referred as late fusion,
+consists in learning sequentially multiple view-specific classifiers at the
+first level, and then combining these view-specific classifiers at the second
+level. Our main theoretical result is a generalization bound on the risk of the
+majority vote which exhibits a term of diversity in the predictions of the
+view-specific classifiers. From this result it comes out that controlling the
+trade-off between diversity and accuracy is a key element for multiview
+learning, which complements other results in multiview learning. Finally, we
+experiment our principle on multiview datasets extracted from the Reuters
+RCV1/RCV2 collection.

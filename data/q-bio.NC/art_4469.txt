@@ -1,0 +1,12 @@
+A Continuous Model of Cortical Connectivity
+We present a continuous model for structural brain connectivity based on the
+Poisson point process. The model treats each streamline curve in a tractography
+as an observed event in connectome space, here a product space of cortical
+white matter boundaries. We approximate the model parameter via kernel density
+estimation. To deal with the heavy computational burden, we develop a fast
+parameter estimation method by pre-computing associated Legendre products of
+the data, leveraging properties of the spherical heat kernel. We show how our
+approach can be used to assess the quality of cortical parcellations with
+respect to connectivty. We further present empirical results that suggest the
+discrete connectomes derived from our model have substantially higher
+test-retest reliability compared to standard methods.

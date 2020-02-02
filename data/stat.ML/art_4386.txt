@@ -1,0 +1,12 @@
+Relaxed Oracles for Semi-Supervised Clustering
+Pairwise "same-cluster" queries are one of the most widely used forms of
+supervision in semi-supervised clustering. However, it is impractical to ask
+human oracles to answer every query correctly. In this paper, we study the
+influence of allowing "not-sure" answers from a weak oracle and propose an
+effective algorithm to handle such uncertainties in query responses. Two
+realistic weak oracle models are considered where ambiguity in answering
+depends on the distance between two points. We show that a small query
+complexity is adequate for effective clustering with high probability by
+providing better pairs to the weak oracle. Experimental results on synthetic
+and real data show the effectiveness of our approach in overcoming supervision
+uncertainties and yielding high quality clusters.

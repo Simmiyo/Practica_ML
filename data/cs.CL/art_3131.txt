@@ -1,0 +1,12 @@
+Confidence through Attention
+Attention distributions of the generated translations are a useful bi-product
+of attention-based recurrent neural network translation models and can be
+treated as soft alignments between the input and output tokens. In this work,
+we use attention distributions as a confidence metric for output translations.
+We present two strategies of using the attention distributions: filtering out
+bad translations from a large back-translated corpus, and selecting the best
+translation in a hybrid setup of two different translation systems. While
+manual evaluation indicated only a weak correlation between our confidence
+score and human judgments, the use-cases showed improvements of up to 2.22 BLEU
+points for filtering and 0.99 points for hybrid translation, tested on
+English<->German and English<->Latvian translation.

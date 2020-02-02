@@ -1,0 +1,16 @@
+Value Function Approximation in Noisy Environments Using Locally
+  Smoothed Regularized Approximate Linear Programs
+Recently, Petrik et al. demonstrated that L1Regularized Approximate Linear
+Programming (RALP) could produce value functions and policies which compared
+favorably to established linear value function approximation techniques like
+LSPI. RALP's success primarily stems from the ability to solve the feature
+selection and value function approximation steps simultaneously. RALP's
+performance guarantees become looser if sampled next states are used. For very
+noisy domains, RALP requires an accurate model rather than samples, which can
+be unrealistic in some practical scenarios. In this paper, we demonstrate this
+weakness, and then introduce Locally Smoothed L1-Regularized Approximate Linear
+Programming (LS-RALP). We demonstrate that LS-RALP mitigates inaccuracies
+stemming from noise even without an accurate model. We show that, given some
+smoothness assumptions, as the number of samples increases, error from noise
+approaches zero, and provide experimental examples of LS-RALP's success on
+common reinforcement learning benchmark problems.

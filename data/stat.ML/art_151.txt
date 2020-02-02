@@ -1,0 +1,11 @@
+Pitman-Yor Diffusion Trees
+We introduce the Pitman Yor Diffusion Tree (PYDT) for hierarchical
+clustering, a generalization of the Dirichlet Diffusion Tree (Neal, 2001) which
+removes the restriction to binary branching structure. The generative process
+is described and shown to result in an exchangeable distribution over data
+points. We prove some theoretical properties of the model and then present two
+inference methods: a collapsed MCMC sampler which allows us to model
+uncertainty over tree structures, and a computationally efficient greedy
+Bayesian EM search algorithm. Both algorithms use message passing on the tree
+structure. The utility of the model and algorithms is demonstrated on synthetic
+and real world data, both continuous and binary.

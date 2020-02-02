@@ -1,0 +1,17 @@
+Reparameterizing the Birkhoff Polytope for Variational Permutation
+  Inference
+Many matching, tracking, sorting, and ranking problems require probabilistic
+reasoning about possible permutations, a set that grows factorially with
+dimension. Combinatorial optimization algorithms may enable efficient point
+estimation, but fully Bayesian inference poses a severe challenge in this
+high-dimensional, discrete space. To surmount this challenge, we start with the
+usual step of relaxing a discrete set (here, of permutation matrices) to its
+convex hull, which here is the Birkhoff polytope: the set of all
+doubly-stochastic matrices. We then introduce two novel transformations: first,
+an invertible and differentiable stick-breaking procedure that maps
+unconstrained space to the Birkhoff polytope; second, a map that rounds points
+toward the vertices of the polytope. Both transformations include a temperature
+parameter that, in the limit, concentrates the densities on permutation
+matrices. We then exploit these transformations and reparameterization
+gradients to introduce variational inference over permutation matrices, and we
+demonstrate its utility in a series of experiments.

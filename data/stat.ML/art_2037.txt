@@ -1,0 +1,15 @@
+Dependence Maximizing Temporal Alignment via Squared-Loss Mutual
+  Information
+The goal of temporal alignment is to establish time correspondence between
+two sequences, which has many applications in a variety of areas such as speech
+processing, bioinformatics, computer vision, and computer graphics. In this
+paper, we propose a novel temporal alignment method called least-squares
+dynamic time warping (LSDTW). LSDTW finds an alignment that maximizes
+statistical dependency between sequences, measured by a squared-loss variant of
+mutual information. The benefit of this novel information-theoretic formulation
+is that LSDTW can align sequences with different lengths, different
+dimensionality, high non-linearity, and non-Gaussianity in a computationally
+efficient manner. In addition, model parameters such as an initial alignment
+matrix can be systematically optimized by cross-validation. We demonstrate the
+usefulness of LSDTW through experiments on synthetic and real-world Kinect
+action recognition datasets.

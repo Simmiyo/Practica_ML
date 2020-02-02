@@ -1,0 +1,13 @@
+Agreement-based Joint Training for Bidirectional Attention-based Neural
+  Machine Translation
+The attentional mechanism has proven to be effective in improving end-to-end
+neural machine translation. However, due to the intricate structural divergence
+between natural languages, unidirectional attention-based models might only
+capture partial aspects of attentional regularities. We propose agreement-based
+joint training for bidirectional attention-based end-to-end neural machine
+translation. Instead of training source-to-target and target-to-source
+translation models independently,our approach encourages the two complementary
+models to agree on word alignment matrices on the same training data.
+Experiments on Chinese-English and English-French translation tasks show that
+agreement-based joint training significantly improves both alignment and
+translation quality over independent training.

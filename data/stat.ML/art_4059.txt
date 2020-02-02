@@ -1,0 +1,16 @@
+Spectral Convolution Networks
+Previous research has shown that computation of convolution in the frequency
+domain provides a significant speedup versus traditional convolution network
+implementations. However, this performance increase comes at the expense of
+repeatedly computing the transform and its inverse in order to apply other
+network operations such as activation, pooling, and dropout. We show,
+mathematically, how convolution and activation can both be implemented in the
+frequency domain using either the Fourier or Laplace transformation. The main
+contributions are a description of spectral activation under the Fourier
+transform and a further description of an efficient algorithm for computing
+both convolution and activation under the Laplace transform. By computing both
+the convolution and activation functions in the frequency domain, we can reduce
+the number of transforms required, as well as reducing overall complexity. Our
+description of a spectral activation function, together with existing spectral
+analogs of other network functions may then be used to compose a fully spectral
+implementation of a convolution network.

@@ -1,0 +1,15 @@
+Source Separation and Higher-Order Causal Analysis of MEG and EEG
+Separation of the sources and analysis of their connectivity have been an
+important topic in EEG/MEG analysis. To solve this problem in an automatic
+manner, we propose a two-layer model, in which the sources are conditionally
+uncorrelated from each other, but not independent; the dependence is caused by
+the causality in their time-varying variances (envelopes). The model is
+identified in two steps. We first propose a new source separation technique
+which takes into account the autocorrelations (which may be time-varying) and
+time-varying variances of the sources. The causality in the envelopes is then
+discovered by exploiting a special kind of multivariate GARCH (generalized
+autoregressive conditional heteroscedasticity) model. The resulting causal
+diagram gives the effective connectivity between the separated sources; in our
+experimental results on MEG data, sources with similar functions are grouped
+together, with negative influences between groups, and the groups are connected
+via some interesting sources.

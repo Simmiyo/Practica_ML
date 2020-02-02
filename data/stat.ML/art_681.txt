@@ -1,0 +1,14 @@
+p-Markov Gaussian Processes for Scalable and Expressive Online Bayesian
+  Nonparametric Time Series Forecasting
+In this paper we introduce a novel online time series forecasting model we
+refer to as the pM-GP filter. We show that our model is equivalent to Gaussian
+process regression, with the advantage that both online forecasting and online
+learning of the hyper-parameters have a constant (rather than cubic) time
+complexity and a constant (rather than squared) memory requirement in the
+number of observations, without resorting to approximations. Moreover, the
+proposed model is expressive in that the family of covariance functions of the
+implied latent process, namely the spectral Matern kernels, have recently been
+proven to be capable of approximating arbitrarily well any
+translation-invariant covariance function. The benefit of our approach compared
+to competing models is demonstrated using experiments on several real-life
+datasets.

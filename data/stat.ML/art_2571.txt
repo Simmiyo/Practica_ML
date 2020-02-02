@@ -1,0 +1,11 @@
+Generative, Fully Bayesian, Gaussian, Openset Pattern Classifier
+This report works out the details of a closed-form, fully Bayesian,
+multiclass, openset, generative pattern classifier using multivariate Gaussian
+likelihoods, with conjugate priors. The generative model has a common
+within-class covariance, which is proportional to the between-class covariance
+in the conjugate prior. The scalar proportionality constant is the only plugin
+parameter. All other model parameters are intergated out in closed form. An
+expression is given for the model evidence, which can be used to make plugin
+estimates for the proportionality constant. Pattern recognition is done via the
+predictive likeihoods of classes for which training data is available, as well
+as a predicitve likelihood for any as yet unseen class.

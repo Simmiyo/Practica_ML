@@ -1,0 +1,16 @@
+Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural
+  Machine Translation
+Tying the weights of the target word embeddings with the target word
+classifiers of neural machine translation models leads to faster training and
+often to better translation quality. Given the success of this parameter
+sharing, we investigate other forms of sharing in between no sharing and hard
+equality of parameters. In particular, we propose a structure-aware output
+layer which captures the semantic structure of the output space of words within
+a joint input-output embedding. The model is a generalized form of weight tying
+which shares parameters but allows learning a more flexible relationship with
+input word embeddings and allows the effective capacity of the output layer to
+be controlled. In addition, the model shares weights across output classifiers
+and translation contexts which allows it to better leverage prior knowledge
+about them. Our evaluation on English-to-Finnish and English-to-German datasets
+shows the effectiveness of the method against strong encoder-decoder baselines
+trained with or without weight tying.

@@ -1,0 +1,11 @@
+Simplified Gating in Long Short-term Memory (LSTM) Recurrent Neural
+  Networks
+The standard LSTM recurrent neural networks while very powerful in long-range
+dependency sequence applications have highly complex structure and relatively
+large (adaptive) parameters. In this work, we present empirical comparison
+between the standard LSTM recurrent neural network architecture and three new
+parameter-reduced variants obtained by eliminating combinations of the input
+signal, bias, and hidden unit signals from individual gating signals. The
+experiments on two sequence datasets show that the three new variants, called
+simply as LSTM1, LSTM2, and LSTM3, can achieve comparable performance to the
+standard LSTM model with less (adaptive) parameters.

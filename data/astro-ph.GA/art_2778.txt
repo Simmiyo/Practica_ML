@@ -1,0 +1,25 @@
+Simulating protostellar evolution and radiative feedback in the cluster
+  environment
+Radiative feedback is among the most important consequences of clustered star
+formation inside molecular clouds. At the onset of star formation, radiation
+from massive stars heats the surrounding gas, which suppresses the formation of
+many low-mass stars. When simulating pre-main-sequence stars, their stellar
+properties must be defined by a prestellar model. Different approaches to
+prestellar modeling may yield quantitatively different results. In this paper,
+we compare two existing prestellar models under identical initial conditions to
+gauge whether the choice of model has any significant effects on the final
+population of stars. The first model treats stellar radii and luminosities with
+a ZAMS model, while separately estimating the accretion luminosity by
+interpolating to published prestellar tracks. The second, more accurate
+prestellar model self-consistently evolves the radius and luminosity of each
+star under highly variable accretion conditions. Each is coupled to a
+raytracing-based radiative feedback code that also treats ionization. The
+impact of the self-consistent model is less ionizing radiation and less heating
+during the early stages of star formation. This may affect final mass
+distributions. We noted a peak stellar mass reduced by 8% from 47.3 Msun to
+43.5 Msun in the evolutionary model, relative to the track-fit model. Also, the
+difference in mass between the two largest stars in each case is reduced from
+14 Msun to 7.5 Msun. The HII regions produced by these massive stars were also
+seen to flicker on timescales down to the limit imposed by our timestep (< 560
+years), rapidly changing in size and shape, confirming previous cluster
+simulations using ZAMS-based estimates for prestellar ionizing flux.

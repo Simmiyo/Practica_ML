@@ -1,0 +1,17 @@
+Mixed Graphical Models for Causal Analysis of Multi-modal Variables
+Graphical causal models are an important tool for knowledge discovery because
+they can represent both the causal relations between variables and the
+multivariate probability distributions over the data. Once learned, causal
+graphs can be used for classification, feature selection and hypothesis
+generation, while revealing the underlying causal network structure and thus
+allowing for arbitrary likelihood queries over the data. However, current
+algorithms for learning sparse directed graphs are generally designed to handle
+only one type of data (continuous-only or discrete-only), which limits their
+applicability to a large class of multi-modal biological datasets that include
+mixed type variables. To address this issue, we developed new methods that
+modify and combine existing methods for finding undirected graphs with methods
+for finding directed graphs. These hybrid methods are not only faster, but also
+perform better than the directed graph estimation methods alone for a variety
+of parameter settings and data set sizes. Here, we describe a new conditional
+independence test for learning directed graphs over mixed data types and we
+compare performances of different graph learning strategies on synthetic data.

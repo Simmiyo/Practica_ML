@@ -1,0 +1,12 @@
+Error correction and symmetrization in quantum computers
+Errors in quantum computers are of two kinds: sudden perturbations to
+isolated qubits, and slow random drifts of all the qubits. The latter may be
+reduced, but not eliminated, by means of symmetrization, namely by using many
+replicas of the computer, and forcing their joint quantum state to be
+completely symmetric. On the other hand, isolated errors can be corrected by
+quantum codewords that represent a logical qubit in a redundant way, by several
+physical qubits. If one of the physical qubits is perturbed, for example if it
+gets entangled with an unknown environment, there still is enough information
+encoded in the other physical qubits to restore the logical qubit, and
+disentangle it from the environment. The recovery procedure may consist of
+unitary operations, without the need of actually identifying the error.

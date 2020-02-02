@@ -1,0 +1,12 @@
+Shape Parameter Estimation
+Performance of machine learning approaches depends strongly on the choice of
+misfit penalty, and correct choice of penalty parameters, such as the threshold
+of the Huber function. These parameters are typically chosen using expert
+knowledge, cross-validation, or black-box optimization, which are time
+consuming for large-scale applications. We present a principled, data-driven
+approach to simultaneously learn the model pa- rameters and the misfit penalty
+parameters. We discuss theoretical properties of these joint inference
+problems, and develop algorithms for their solution. We show synthetic examples
+of automatic parameter tuning for piecewise linear-quadratic (PLQ) penalties,
+and use the approach to develop a self-tuning robust PCA formulation for
+background separation.

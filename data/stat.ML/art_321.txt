@@ -1,0 +1,14 @@
+Mean Field Bayes Backpropagation: scalable training of multilayer neural
+  networks with binary weights
+Significant success has been reported recently using deep neural networks for
+classification. Such large networks can be computationally intensive, even
+after training is over. Implementing these trained networks in hardware chips
+with a limited precision of synaptic weights may improve their speed and energy
+efficiency by several orders of magnitude, thus enabling their integration into
+small and low-power electronic devices. With this motivation, we develop a
+computationally efficient learning algorithm for multilayer neural networks
+with binary weights, assuming all the hidden neurons have a fan-out of one.
+This algorithm, derived within a Bayesian probabilistic online setting, is
+shown to work well for both synthetic and real-world problems, performing
+comparably to algorithms with real-valued weights, while retaining
+computational tractability.

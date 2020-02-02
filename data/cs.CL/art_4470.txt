@@ -1,0 +1,12 @@
+IIIDYT at IEST 2018: Implicit Emotion Classification With Deep
+  Contextualized Word Representations
+In this paper we describe our system designed for the WASSA 2018 Implicit
+Emotion Shared Task (IEST), which obtained 2$^{\text{nd}}$ place out of 26
+teams with a test macro F1 score of $0.710$. The system is composed of a single
+pre-trained ELMo layer for encoding words, a Bidirectional Long-Short Memory
+Network BiLSTM for enriching word representations with context, a max-pooling
+operation for creating sentence representations from said word vectors, and a
+Dense Layer for projecting the sentence representations into label space. Our
+official submission was obtained by ensembling 6 of these models initialized
+with different random seeds. The code for replicating this paper is available
+at https://github.com/jabalazs/implicit_emotion.

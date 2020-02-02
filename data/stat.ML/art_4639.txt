@@ -1,0 +1,14 @@
+Streaming View Learning
+An underlying assumption in conventional multi-view learning algorithms is
+that all views can be simultaneously accessed. However, due to various factors
+when collecting and pre-processing data from different views, the streaming
+view setting, in which views arrive in a streaming manner, is becoming more
+common. By assuming that the subspaces of a multi-view model trained over past
+views are stable, here we fine tune their combination weights such that the
+well-trained multi-view model is compatible with new views. This largely
+overcomes the burden of learning new view functions and updating past view
+functions. We theoretically examine convergence issues and the influence of
+streaming views in the proposed algorithm. Experimental results on real-world
+datasets suggest that studying the streaming views problem in multi-view
+learning is significant and that the proposed algorithm can effectively handle
+streaming views in different applications.

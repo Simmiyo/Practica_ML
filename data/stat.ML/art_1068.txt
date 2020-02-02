@@ -1,0 +1,21 @@
+Tight Performance Bounds for Compressed Sensing With Conventional and
+  Group Sparsity
+In this paper, we study the problem of recovering a group sparse vector from
+a small number of linear measurements. In the past the common approach has been
+to use various "group sparsity-inducing" norms such as the Group LASSO norm for
+this purpose. By using the theory of convex relaxations, we show that it is
+also possible to use $\ell_1$-norm minimization for group sparse recovery. We
+introduce a new concept called group robust null space property (GRNSP), and
+show that, under suitable conditions, a group version of the restricted
+isometry property (GRIP) implies the GRNSP, and thus leads to group sparse
+recovery. When all groups are of equal size, our bounds are less conservative
+than known bounds. Moreover, our results apply even to situations where where
+the groups have different sizes. When specialized to conventional sparsity, our
+bounds reduce to one of the well-known "best possible" conditions for sparse
+recovery. This relationship between GRNSP and GRIP is new even for conventional
+sparsity, and substantially streamlines the proofs of some known results. Using
+this relationship, we derive bounds on the $\ell_p$-norm of the residual error
+vector for all $p \in [1,2]$, and not just when $p = 2$. When the measurement
+matrix consists of random samples of a sub-Gaussian random variable, we present
+bounds on the number of measurements, which are less conservative than
+currently known bounds.

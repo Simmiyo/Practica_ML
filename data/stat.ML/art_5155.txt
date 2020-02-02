@@ -1,0 +1,21 @@
+Selecting Bases in Spectral learning of Predictive State Representations
+  via Model Entropy
+Predictive State Representations (PSRs) are powerful techniques for modelling
+dynamical systems, which represent a state as a vector of predictions about
+future observable events (tests). In PSRs, one of the fundamental problems is
+the learning of the PSR model of the underlying system. Recently, spectral
+methods have been successfully used to address this issue by treating the
+learning problem as the task of computing an singular value decomposition (SVD)
+over a submatrix of a special type of matrix called the Hankel matrix. Under
+the assumptions that the rows and columns of the submatrix of the Hankel Matrix
+are sufficient~(which usually means a very large number of rows and columns,
+and almost fails in practice) and the entries of the matrix can be estimated
+accurately, it has been proven that the spectral approach for learning PSRs is
+statistically consistent and the learned parameters can converge to the true
+parameters. However, in practice, due to the limit of the computation ability,
+only a finite set of rows or columns can be chosen to be used for the spectral
+learning. While different sets of columns usually lead to variant accuracy of
+the learned model, in this paper, we propose an approach for selecting the set
+of columns, namely basis selection, by adopting a concept of model entropy to
+measure the accuracy of the learned model. Experimental results are shown to
+demonstrate the effectiveness of the proposed approach.

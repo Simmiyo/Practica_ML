@@ -1,0 +1,12 @@
+Automatic Relevance Determination For Deep Generative Models
+A recurring problem when building probabilistic latent variable models is
+regularization and model selection, for instance, the choice of the
+dimensionality of the latent space. In the context of belief networks with
+latent variables, this problem has been adressed with Automatic Relevance
+Determination (ARD) employing Monte Carlo inference. We present a variational
+inference approach to ARD for Deep Generative Models using doubly stochastic
+variational inference to provide fast and scalable learning. We show empirical
+results on a standard dataset illustrating the effects of contracting the
+latent space automatically. We show that the resulting latent representations
+are significantly more compact without loss of expressive power of the learned
+models.

@@ -1,0 +1,15 @@
+ALEVS: Active Learning by Statistical Leverage Sampling
+Active learning aims to obtain a classifier of high accuracy by using fewer
+label requests in comparison to passive learning by selecting effective
+queries. Many active learning methods have been developed in the past two
+decades, which sample queries based on informativeness or representativeness of
+unlabeled data points. In this work, we explore a novel querying criterion
+based on statistical leverage scores. The statistical leverage scores of a row
+in a matrix are the squared row-norms of the matrix containing its (top) left
+singular vectors and is a measure of influence of the row on the matrix.
+Leverage scores have been used for detecting high influential points in
+regression diagnostics and have been recently shown to be useful for data
+analysis and randomized low-rank matrix approximation algorithms. We explore
+how sampling data instances with high statistical leverage scores perform in
+active learning. Our empirical comparison on several binary classification
+datasets indicate that querying high leverage points is an effective strategy.

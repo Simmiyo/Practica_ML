@@ -1,0 +1,12 @@
+Infinite Mixture Model of Markov Chains
+We propose a Bayesian nonparametric mixture model for prediction- and
+information extraction tasks with an efficient inference scheme. It models
+categorical-valued time series that exhibit dynamics from multiple underlying
+patterns (e.g. user behavior traces). We simplify the idea of capturing these
+patterns by hierarchical hidden Markov models (HHMMs) - and extend the existing
+approaches by the additional representation of structural information. Our
+empirical results are based on both synthetic- and real world data. They
+indicate that the results are easily interpretable, and that the model excels
+at segmentation and prediction performance: it successfully identifies the
+generating patterns and can be used for effective prediction of future
+observations.

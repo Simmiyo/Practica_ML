@@ -1,0 +1,20 @@
+QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures
+We present QuickNet, a fast and accurate network architecture that is both
+faster and significantly more accurate than other fast deep architectures like
+SqueezeNet. Furthermore, it uses less parameters than previous networks, making
+it more memory efficient. We do this by making two major modifications to the
+reference Darknet model (Redmon et al, 2015): 1) The use of depthwise separable
+convolutions and 2) The use of parametric rectified linear units. We make the
+observation that parametric rectified linear units are computationally
+equivalent to leaky rectified linear units at test time and the observation
+that separable convolutions can be interpreted as a compressed Inception
+network (Chollet, 2016). Using these observations, we derive a network
+architecture, which we call QuickNet, that is both faster and more accurate
+than previous models. Our architecture provides at least four major advantages:
+(1) A smaller model size, which is more tenable on memory constrained systems;
+(2) A significantly faster network which is more tenable on computationally
+constrained systems; (3) A high accuracy of 95.7 percent on the CIFAR-10
+Dataset which outperforms all but one result published so far, although we note
+that our works are orthogonal approaches and can be combined (4) Orthogonality
+to previous model compression approaches allowing for further speed gains to be
+realized.

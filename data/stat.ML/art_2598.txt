@@ -1,0 +1,21 @@
+Enhancements of Multi-class Support Vector Machine Construction from
+  Binary Learners using Generalization Performance
+We propose several novel methods for enhancing the multi-class SVMs by
+applying the generalization performance of binary classifiers as the core idea.
+This concept will be applied on the existing algorithms, i.e., the Decision
+Directed Acyclic Graph (DDAG), the Adaptive Directed Acyclic Graphs (ADAG), and
+Max Wins. Although in the previous approaches there have been many attempts to
+use some information such as the margin size and the number of support vectors
+as performance estimators for binary SVMs, they may not accurately reflect the
+actual performance of the binary SVMs. We show that the generalization ability
+evaluated via a cross-validation mechanism is more suitable to directly extract
+the actual performance of binary SVMs. Our methods are built around this
+performance measure, and each of them is crafted to overcome the weakness of
+the previous algorithm. The proposed methods include the Reordering Adaptive
+Directed Acyclic Graph (RADAG), Strong Elimination of the classifiers (SE),
+Weak Elimination of the classifiers (WE), and Voting based Candidate Filtering
+(VCF). Experimental results demonstrate that our methods give significantly
+higher accuracy than all of the traditional ones. Especially, WE provides
+significantly superior results compared to Max Wins which is recognized as the
+state of the art algorithm in terms of both accuracy and classification speed
+with two times faster in average.

@@ -1,0 +1,17 @@
+Learning Cost-Effective and Interpretable Regimes for Treatment
+  Recommendation
+Decision makers, such as doctors and judges, make crucial decisions such as
+recommending treatments to patients, and granting bails to defendants on a
+daily basis. Such decisions typically involve weighting the potential benefits
+of taking an action against the costs involved. In this work, we aim to
+automate this task of learning {cost-effective, interpretable and actionable
+treatment regimes. We formulate this as a problem of learning a decision list
+-- a sequence of if-then-else rules -- which maps characteristics of subjects
+(eg., diagnostic test results of patients) to treatments. We propose a novel
+objective to construct a decision list which maximizes outcomes for the
+population, and minimizes overall costs. We model the problem of learning such
+a list as a Markov Decision Process (MDP) and employ a variant of the Upper
+Confidence Bound for Trees (UCT) strategy which leverages customized checks for
+pruning the search space effectively. Experimental results on real world
+observational data capturing treatment recommendations for asthma patients
+demonstrate the effectiveness of our approach.

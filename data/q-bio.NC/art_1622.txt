@@ -1,0 +1,28 @@
+NeuroPath2Path: Classification and elastic morphing between neuronal
+  arbors using path-wise similarity
+The shape and connectivity of a neuron determine its function. Modern imaging
+methods have proven successful at extracting such information. However, in
+order to analyze this type of data, neuronal morphology needs to be encoded in
+a graph-theoretic method. This encoding enables the use of high throughput
+informatic methods to extract and infer brain function. The application of
+graph-theoretic methods to neuronal morphological representation comes with
+certain difficulties. Here we report a novel, effective method to accomplish
+this task.
+  The morphology of a neuron, which consists of its overall size, global shape,
+local branch patterns, and cell-specific biophysical properties, can vary
+significantly with the cell's identity, location, as well as developmental and
+physiological state. Various algorithms have been developed to customize shape
+based statistical and graph related features for quantitative analysis of
+neuromorphology, followed by the classification of neuron cell types using the
+features. Unlike the classical feature extraction based methods from imaged or
+3D reconstructed neurons, we propose a model based on the rooted path
+decomposition from the soma to the dendrites of a neuron and extract
+morphological features on each path. We hypothesize that measuring the distance
+between two neurons can be realized by minimizing the cost of continuously
+morphing the set of all rooted paths of one neuron to another. To validate this
+claim, we first establish the correspondence of paths between two neurons using
+a modified Munkres algorithm. Next, an elastic deformation framework that
+employs the square root velocity function is established to perform the
+continuous morphing, which, in addition, provides an effective visualization
+tool. We experimentally show the efficacy of NeuroPath2Path, NeuroP2P, over the
+state of the art.

@@ -1,0 +1,16 @@
+Information-theoretic neuro-correlates boost evolution of cognitive
+  systems
+Genetic Algorithms (GA) are a powerful set of tools for search and
+optimization that mimic the process of natural selection, and have been used
+successfully in a wide variety of problems, including evolving neural networks
+to solve cognitive tasks. Despite their success, GAs sometimes fail to locate
+the highest peaks of the fitness landscape, in particular if the landscape is
+rugged and contains multiple peaks. Reaching distant and higher peaks is
+difficult because valleys need to be crossed, in a process that (at least
+temporarily) runs against the fitness maximization objective. Here we propose
+and test a number of information-theoretic (as well as network-based) measures
+that can be used in conjunction with a fitness maximization objective
+(so-called ``neuro-correlates") to evolve neural controllers for two widely
+different tasks: a behavioral task that requires information integration, and a
+cognitive task that requires memory and logic. We find that judiciously chosen
+neuro-correlates can significantly aid GAs to find the highest peaks.

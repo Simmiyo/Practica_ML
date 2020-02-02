@@ -1,0 +1,14 @@
+Deep Nonparametric Estimation of Discrete Conditional Distributions via
+  Smoothed Dyadic Partitioning
+We present an approach to deep estimation of discrete conditional probability
+distributions. Such models have several applications, including generative
+modeling of audio, image, and video data. Our approach combines two main
+techniques: dyadic partitioning and graph-based smoothing of the discrete
+space. By recursively decomposing each dimension into a series of binary splits
+and smoothing over the resulting distribution using graph-based trend
+filtering, we impose a strict structure to the model and achieve much higher
+sample efficiency. We demonstrate the advantages of our model through a series
+of benchmarks on both synthetic and real-world datasets, in some cases reducing
+the error by nearly half in comparison to other popular methods in the
+literature. All of our models are implemented in Tensorflow and publicly
+available at https://github.com/tansey/sdp .

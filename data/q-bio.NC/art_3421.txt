@@ -1,0 +1,26 @@
+Foraging as an evidence accumulation process
+A canonical foraging task is the patch-leaving problem, in which a forager
+must decide to leave a current resource in search for another. Theoretical work
+has derived optimal strategies for when to leave a patch, and experiments have
+tested for conditions where animals do or do not follow an optimal strategy.
+Nevertheless, models of patch-leaving decisions do not consider the imperfect
+and noisy sampling process through which an animal gathers information, and how
+this process is constrained by neurobiological mechanisms. In this theoretical
+study, we formulate an evidence accumulation model of patch-leaving decisions
+where the animal averages over noisy measurements to estimate the state of the
+current patch and the overall environment. Evidence accumulation models belong
+to the class of drift diffusion processes and have been used to model decision
+making in different contexts. We solve the model for conditions where foraging
+decisions are optimal and equivalent to the marginal value theorem, and perform
+simulations to analyze deviations from optimal when these conditions are not
+met. By adjusting the drift rate and decision threshold, the model can
+represent different strategies, for example an increment-decrement or counting
+strategy. These strategies yield identical decisions in the limiting case but
+differ in how patch residence times adapt when the foraging environment is
+uncertain. To account for sub-optimal decisions, we introduce an
+energy-dependent utility function that predicts longer than optimal patch
+residence times when food is plentiful. Our model provides a quantitative
+connection between ecological models of foraging behavior and evidence
+accumulation models of decision making. Moreover, it provides a theoretical
+framework for potential experiments which seek to identify neural circuits
+underlying patch leaving decisions.

@@ -1,0 +1,14 @@
+Coordinate Descent with Online Adaptation of Coordinate Frequencies
+Coordinate descent (CD) algorithms have become the method of choice for
+solving a number of optimization problems in machine learning. They are
+particularly popular for training linear models, including linear support
+vector machine classification, LASSO regression, and logistic regression.
+  We consider general CD with non-uniform selection of coordinates. Instead of
+fixing selection frequencies beforehand we propose an online adaptation
+mechanism for this important parameter, called the adaptive coordinate
+frequencies (ACF) method. This mechanism removes the need to estimate optimal
+coordinate frequencies beforehand, and it automatically reacts to changing
+requirements during an optimization run.
+  We demonstrate the usefulness of our ACF-CD approach for a variety of
+optimization problems arising in machine learning contexts. Our algorithm
+offers significant speed-ups over state-of-the-art training methods.

@@ -1,0 +1,16 @@
+Robust Metric Learning by Smooth Optimization
+Most existing distance metric learning methods assume perfect side
+information that is usually given in pairwise or triplet constraints. Instead,
+in many real-world applications, the constraints are derived from side
+information, such as users' implicit feedbacks and citations among articles. As
+a result, these constraints are usually noisy and contain many mistakes. In
+this work, we aim to learn a distance metric from noisy constraints by robust
+optimization in a worst-case scenario, to which we refer as robust metric
+learning. We formulate the learning task initially as a combinatorial
+optimization problem, and show that it can be elegantly transformed to a convex
+programming problem. We present an efficient learning algorithm based on smooth
+optimization [7]. It has a worst-case convergence rate of
+O(1/{\surd}{\varepsilon}) for smooth optimization problems, where {\varepsilon}
+is the desired error of the approximate solution. Finally, our empirical study
+with UCI data sets demonstrate the effectiveness of the proposed method in
+comparison to state-of-the-art methods.

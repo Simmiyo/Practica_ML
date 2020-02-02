@@ -1,0 +1,17 @@
+Particle Optimization in Stochastic Gradient MCMC
+Stochastic gradient Markov chain Monte Carlo (SG-MCMC) has been increasingly
+popular in Bayesian learning due to its ability to deal with large data. A
+standard SG-MCMC algorithm simulates samples from a discretized-time Markov
+chain to approximate a target distribution. However, the samples are typically
+highly correlated due to the sequential generation process, an undesired
+property in SG-MCMC. In contrary, Stein variational gradient descent (SVGD)
+directly optimizes a set of particles, and it is able to approximate a target
+distribution with much fewer samples. In this paper, we propose a novel method
+to directly optimize particles (or samples) in SG-MCMC from scratch.
+Specifically, we propose efficient methods to solve the corresponding
+Fokker-Planck equation on the space of probability distributions, whose
+solution (i.e., a distribution) is approximated by particles. Through our
+framework, we are able to show connections of SG-MCMC to SVGD, as well as the
+seemly unrelated generative-adversarial-net framework. Under certain
+relaxations, particle optimization in SG-MCMC can be interpreted as an
+extension of standard SVGD with momentum.

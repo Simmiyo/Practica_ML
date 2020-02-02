@@ -1,0 +1,12 @@
+Properties of the Least Squares Temporal Difference learning algorithm
+This paper presents four different ways of looking at the well-known Least
+Squares Temporal Differences (LSTD) algorithm for computing the value function
+of a Markov Reward Process, each of them leading to different insights: the
+operator-theory approach via the Galerkin method, the statistical approach via
+instrumental variables, the linear dynamical system view as well as the limit
+of the TD iteration. We also give a geometric view of the algorithm as an
+oblique projection. Furthermore, there is an extensive comparison of the
+optimization problem solved by LSTD as compared to Bellman Residual
+Minimization (BRM). We then review several schemes for the regularization of
+the LSTD solution. We then proceed to treat the modification of LSTD for the
+case of episodic Markov Reward Processes.

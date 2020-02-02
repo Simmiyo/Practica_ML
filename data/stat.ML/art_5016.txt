@@ -1,0 +1,17 @@
+Mixture model modal clustering
+The two most extended density-based approaches to clustering are surely
+mixture model clustering and modal clustering. In the mixture model approach,
+the density is represented as a mixture and clusters are associated to the
+different mixture components. In modal clustering, clusters are understood as
+regions of high density separated from each other by zones of lower density, so
+that they are closely related to certain regions around the density modes. If
+the true density is indeed in the assumed class of mixture densities, then
+mixture model clustering allows to scrutinize more subtle situations than modal
+clustering. However, when mixture modeling is used in a nonparametric way,
+taking advantage of the denseness of the sieve of mixture densities to
+approximate any density, then the correspondence between clusters and mixture
+components may become questionable. In this paper we introduce two methods to
+adopt a modal clustering point of view after a mixture model fit. Numerous
+examples are provided to illustrate that mixture modeling can also be used for
+clustering in a nonparametric sense, as long as clusters are understood as the
+domains of attraction of the density modes.

@@ -1,0 +1,15 @@
+Exploration on Generating Traditional Chinese Medicine Prescription from
+  Symptoms with an End-to-End method
+Traditional Chinese Medicine (TCM) is an influential form of medical
+treatment in China and surrounding areas. In this paper, we propose a TCM
+prescription generation task that aims to automatically generate a herbal
+medicine prescription based on textual symptom descriptions.
+Sequence-to-sequence (seq2seq) model has been successful in dealing with
+sequence generation tasks. We explore a potential end-to-end solution to the
+TCM prescription generation task using seq2seq models. However, experiments
+show that directly applying seq2seq model leads to unfruitful results due to
+the repetition problem. To solve the problem, we propose a novel decoder with
+coverage mechanism and a novel soft loss function. The experimental results
+demonstrate the effectiveness of the proposed approach. Judged by professors
+who excel in TCM, the generated prescriptions are rated 7.3 out of 10. It shows
+that the model can indeed help with the prescribing procedure in real life.

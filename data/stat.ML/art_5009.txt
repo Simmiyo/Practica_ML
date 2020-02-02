@@ -1,0 +1,15 @@
+Private Topic Modeling
+We develop a privatised stochastic variational inference method for Latent
+Dirichlet Allocation (LDA). The iterative nature of stochastic variational
+inference presents challenges: multiple iterations are required to obtain
+accurate posterior distributions, yet each iteration increases the amount of
+noise that must be added to achieve a reasonable degree of privacy. We propose
+a practical algorithm that overcomes this challenge by combining: (1) an
+improved composition method for differential privacy, called the moments
+accountant, which provides a tight bound on the privacy cost of multiple
+variational inference iterations and thus significantly decreases the amount of
+additive noise; and (2) privacy amplification resulting from subsampling of
+large-scale data. Focusing on conjugate exponential family models, in our
+private variational inference, all the posterior distributions will be
+privatised by simply perturbing expected sufficient statistics. Using Wikipedia
+data, we illustrate the effectiveness of our algorithm for large-scale data.

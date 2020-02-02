@@ -1,0 +1,17 @@
+mlrMBO: A Modular Framework for Model-Based Optimization of Expensive
+  Black-Box Functions
+We present mlrMBO, a flexible and comprehensive R toolbox for model-based
+optimization (MBO), also known as Bayesian optimization, which addresses the
+problem of expensive black-box optimization by approximating the given
+objective function through a surrogate regression model. It is designed for
+both single- and multi-objective optimization with mixed continuous,
+categorical and conditional parameters. Additional features include multi-point
+batch proposal, parallelization, visualization, logging and error-handling.
+mlrMBO is implemented in a modular fashion, such that single components can be
+easily replaced or adapted by the user for specific use cases, e.g., any
+regression learner from the mlr toolbox for machine learning can be used, and
+infill criteria and infill optimizers are easily exchangeable. We empirically
+demonstrate that mlrMBO provides state-of-the-art performance by comparing it
+on different benchmark scenarios against a wide range of other optimizers,
+including DiceOptim, rBayesianOptimization, SPOT, SMAC, Spearmint, and
+Hyperopt.

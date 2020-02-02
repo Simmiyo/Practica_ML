@@ -1,0 +1,14 @@
+Forecasting and Granger Modelling with Non-linear Dynamical Dependencies
+Traditional linear methods for forecasting multivariate time series are not
+able to satisfactorily model the non-linear dependencies that may exist in
+non-Gaussian series. We build on the theory of learning vector-valued functions
+in the reproducing kernel Hilbert space and develop a method for learning
+prediction functions that accommodate such non-linearities. The method not only
+learns the predictive function but also the matrix-valued kernel underlying the
+function search space directly from the data. Our approach is based on learning
+multiple matrix-valued kernels, each of those composed of a set of input
+kernels and a set of output kernels learned in the cone of positive
+semi-definite matrices. In addition to superior predictive performance in the
+presence of strong non-linearities, our method also recovers the hidden dynamic
+relationships between the series and thus is a new alternative to existing
+graphical Granger techniques.

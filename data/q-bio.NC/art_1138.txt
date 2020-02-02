@@ -1,0 +1,24 @@
+How nonlinear-type time-frequency analysis can help in sensing
+  instantaneous heart rate and instantaneous respiratory rate from
+  photoplethysmography in a reliable way
+Despite the population of the noninvasive, economic, comfortable, and
+easy-to-install photoplethysmography (PPG), it is still lacking a
+mathematically rigorous and stable algorithm which is able to simultaneously
+extract from a single-channel PPG signal the instantaneous heart rate (IHR) and
+the instantaneous respiratory rate (IRR). In this paper, a novel algorithm
+called deppG is provided to tackle this challenge. deppG is composed of two
+theoretically solid nonlinear-type time-frequency analyses techniques, the
+de-shape short time Fourier transform and the synchrosqueezing transform, which
+allows us to extract the instantaneous physiological information from the PPG
+signal in a reliable way. To test its performance, in addition to validating
+the algorithm by a simulated signal and discussing the meaning of
+"instantaneous", the algorithm is applied to two publicly available batch
+databases, the Capnobase and the ICASSP 2015 signal processing cup. The former
+contains PPG signals relative to spontaneous or controlled breathing in static
+patients, and the latter is made up of PPG signals collected from subjects
+doing intense physical activities. The accuracies of the estimated IHR and IRR
+are compared with the ones obtained by other methods, and represent the
+state-of-the-art in this field of research. The results suggest the potential
+of deppG to extract instantaneous physiological information from a signal
+acquired from widely available wearable devices, even when a subject carries
+out intense physical activities.

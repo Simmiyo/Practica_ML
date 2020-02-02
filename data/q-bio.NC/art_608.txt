@@ -1,0 +1,24 @@
+The hippocampal-striatal circuit for goal-directed and habitual choice
+It is now widely accepted that one of the roles of the hippocampus is to
+maintain episodic spatial representations, while parallel striatal pathways
+contribute to both declarative and procedural value computations by encoding
+different input-specific outcome predictions. In this paper we investigate the
+use of these brain mechanisms for action selection, linking them to model-based
+and model-free controllers for decision making. To this aim we propose a
+biologically inspired computational model that embodies these theories and
+explains the functioning of the hippocampal-striatal circuit in a rat
+navigation task. Its main characteristic is to allow the cooperation of
+habitual and goal-directed behaviors, with the hippocampus primarily involved
+in encoding spatial information and simulating possible navigation paths, and
+the ventral and dorsal striatum involved in learning stimulus-response
+behaviors and evaluating the reward expectancies associated to predicted
+locations and sensed stimuli, respectively. The architecture we present employs
+an unsupervised reinforcement learning rule for the hippocampal-striatal
+network that is able to build a representation of the environment in which
+rewarding sites and informative landmarks produce value gradients that are used
+for planning and decision making. Additionally, it utilizes an arbitration
+mechanism that balances between exploitation, i.e. stimulus-response behaviors,
+and mental exploration, i.e. motor imagery processes, based on the intensity
+and the variability of the responses of striatal neurons. We interpret these
+results in light of recent experimental data that show anticipatory activations
+in hippocampal and striatal areas.

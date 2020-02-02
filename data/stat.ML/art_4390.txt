@@ -1,0 +1,20 @@
+Sparse-Input Neural Networks for High-dimensional Nonparametric
+  Regression and Classification
+Neural networks are usually not the tool of choice for nonparametric
+high-dimensional problems where the number of input features is much larger
+than the number of observations. Though neural networks can approximate complex
+multivariate functions, they generally require a large number of training
+observations to obtain reasonable fits, unless one can learn the appropriate
+network structure. In this manuscript, we show that neural networks can be
+applied successfully to high-dimensional settings if the true function falls in
+a low dimensional subspace, and proper regularization is used. We propose
+fitting a neural network with a sparse group lasso penalty on the first-layer
+input weights. This results in a neural net that only uses a small subset of
+the original features. In addition, we characterize the statistical convergence
+of the penalized empirical risk minimizer to the optimal neural network: we
+show that the excess risk of this penalized estimator only grows with the
+logarithm of the number of input features; and we show that the weights of
+irrelevant features converge to zero. Via simulation studies and data analyses,
+we show that these sparse-input neural networks outperform existing
+nonparametric high-dimensional estimation methods when the data has complex
+higher-order interactions.

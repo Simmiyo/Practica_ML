@@ -1,0 +1,16 @@
+Learning an Executable Neural Semantic Parser
+This paper describes a neural semantic parser that maps natural language
+utterances onto logical forms which can be executed against a task-specific
+environment, such as a knowledge base or a database, to produce a response. The
+parser generates tree-structured logical forms with a transition-based approach
+which combines a generic tree-generation algorithm with domain-general
+operations defined by the logical language. The generation process is modeled
+by structured recurrent neural networks, which provide a rich encoding of the
+sentential context and generation history for making predictions. To tackle
+mismatches between natural language and logical form tokens, various attention
+mechanisms are explored. Finally, we consider different training settings for
+the neural semantic parser, including a fully supervised training where
+annotated logical forms are given, weakly-supervised training where denotations
+are provided, and distant supervision where only unlabeled sentences and a
+knowledge base are available. Experiments across a wide range of datasets
+demonstrate the effectiveness of our parser.

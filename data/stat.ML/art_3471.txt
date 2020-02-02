@@ -1,0 +1,13 @@
+Wasserstein Training of Boltzmann Machines
+The Boltzmann machine provides a useful framework to learn highly complex,
+multimodal and multiscale data distributions that occur in the real world. The
+default method to learn its parameters consists of minimizing the
+Kullback-Leibler (KL) divergence from training samples to the Boltzmann model.
+We propose in this work a novel approach for Boltzmann training which assumes
+that a meaningful metric between observations is given. This metric can be
+represented by the Wasserstein distance between distributions, for which we
+derive a gradient with respect to the model parameters. Minimization of this
+new Wasserstein objective leads to generative models that are better when
+considering the metric and that have a cluster-like structure. We demonstrate
+the practical potential of these models for data completion and denoising, for
+which the metric between observations plays a crucial role.

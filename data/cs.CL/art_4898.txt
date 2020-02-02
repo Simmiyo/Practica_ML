@@ -1,0 +1,18 @@
+Collective Learning From Diverse Datasets for Entity Typing in the Wild
+Entity typing (ET) is the problem of assigning labels to given entity
+mentions in a sentence. Existing works for ET require knowledge about the
+domain and target label set for a given test instance. ET in the absence of
+such knowledge is a novel problem that we address as ET in the wild. We
+hypothesize that the solution to this problem is to build supervised models
+that generalize better on the ET task as a whole, rather than a specific
+dataset. In this direction, we propose a Collective Learning Framework (CLF),
+which enables learning from diverse datasets in a unified way. The CLF first
+creates a unified hierarchical label set (UHLS) and a label mapping by
+aggregating label information from all available datasets. Then it builds a
+single neural network classifier using UHLS, label mapping, and a partial loss
+function. The single classifier predicts the finest possible label across all
+available domains even though these labels may not be present in any
+domain-specific dataset. We also propose a set of evaluation schemes and
+metrics to evaluate the performance of models in this novel problem. Extensive
+experimentation on seven diverse real-world datasets demonstrates the efficacy
+of our CLF.

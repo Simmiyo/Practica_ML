@@ -1,0 +1,14 @@
+Building Bridges: Viewing Active Learning from the Multi-Armed Bandit
+  Lens
+In this paper we propose a multi-armed bandit inspired, pool based active
+learning algorithm for the problem of binary classification. By carefully
+constructing an analogy between active learning and multi-armed bandits, we
+utilize ideas such as lower confidence bounds, and self-concordant
+regularization from the multi-armed bandit literature to design our proposed
+algorithm. Our algorithm is a sequential algorithm, which in each round assigns
+a sampling distribution on the pool, samples one point from this distribution,
+and queries the oracle for the label of this sampled point. The design of this
+sampling distribution is also inspired by the analogy between active learning
+and multi-armed bandits. We show how to derive lower confidence bounds required
+by our algorithm. Experimental comparisons to previously proposed active
+learning algorithms show superior performance on some standard UCI datasets.

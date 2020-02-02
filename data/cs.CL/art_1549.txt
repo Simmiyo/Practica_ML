@@ -1,0 +1,10 @@
+Fast Reading Comprehension with ConvNets
+State-of-the-art deep reading comprehension models are dominated by recurrent
+neural nets. Their sequential nature is a natural fit for language, but it also
+precludes parallelization within an instances and often becomes the bottleneck
+for deploying such models to latency critical scenarios. This is particularly
+problematic for longer texts. Here we present a convolutional architecture as
+an alternative to these recurrent architectures. Using simple dilated
+convolutional units in place of recurrent ones, we achieve results comparable
+to the state of the art on two question answering tasks, while at the same time
+achieving up to two orders of magnitude speedups for question answering.

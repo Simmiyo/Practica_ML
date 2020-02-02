@@ -1,0 +1,26 @@
+Sparse Multi-Output Gaussian Processes for Medical Time Series
+  Prediction
+In the scenario of real-time monitoring of hospital patients, high-quality
+inference of patients' health status using all information available from
+clinical covariates and lab tests is essential to enable successful medical
+interventions and improve patient outcomes. Developing a computational
+framework that can learn from observational large-scale electronic health
+records (EHRs) and make accurate real-time predictions is a critical step. In
+this work, we develop and explore a Bayesian nonparametric model based on
+Gaussian process (GP) regression for hospital patient monitoring. We propose
+MedGP, a statistical framework that incorporates 24 clinical and lab covariates
+and supports a rich reference data set from which relationships between
+observed covariates may be inferred and exploited for high-quality inference of
+patient state over time. To do this, we develop a highly structured sparse GP
+kernel to enable tractable computation over tens of thousands of time points
+while estimating correlations among clinical covariates, patients, and
+periodicity in patient observations. MedGP has a number of benefits over
+current methods, including (i) not requiring an alignment of the time series
+data, (ii) quantifying confidence regions in the predictions, (iii) exploiting
+a vast and rich database of patients, and (iv) inferring interpretable
+relationships among clinical covariates. We evaluate and compare results from
+MedGP on the task of online prediction for three patient subgroups from two
+medical data sets across 8,043 patients. We found MedGP improves online
+prediction over baseline methods for nearly all covariates across different
+disease subgroups and studies. The publicly available code is at
+https://github.com/bee-hive/MedGP.

@@ -1,0 +1,24 @@
+Applying Supervised Learning Algorithms and a New Feature Selection
+  Method to Predict Coronary Artery Disease
+From a fresh data science perspective, this thesis discusses the prediction
+of coronary artery disease based on genetic variations at the DNA base pair
+level, called Single-Nucleotide Polymorphisms (SNPs), collected from the
+Ontario Heart Genomics Study (OHGS).
+  First, the thesis explains two commonly used supervised learning algorithms,
+the k-Nearest Neighbour (k-NN) and Random Forest classifiers, and includes a
+complete proof that the k-NN classifier is universally consistent in any finite
+dimensional normed vector space. Second, the thesis introduces two
+dimensionality reduction steps, Random Projections, a known feature extraction
+technique based on the Johnson-Lindenstrauss lemma, and a new method termed
+Mass Transportation Distance (MTD) Feature Selection for discrete domains.
+Then, this thesis compares the performance of Random Projections with the k-NN
+classifier against MTD Feature Selection and Random Forest, for predicting
+artery disease based on accuracy, the F-Measure, and area under the Receiver
+Operating Characteristic (ROC) curve.
+  The comparative results demonstrate that MTD Feature Selection with Random
+Forest is vastly superior to Random Projections and k-NN. The Random Forest
+classifier is able to obtain an accuracy of 0.6660 and an area under the ROC
+curve of 0.8562 on the OHGS genetic dataset, when 3335 SNPs are selected by MTD
+Feature Selection for classification. This area is considerably better than the
+previous high score of 0.608 obtained by Davies et al. in 2010 on the same
+dataset.

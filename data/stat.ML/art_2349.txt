@@ -1,0 +1,11 @@
+A proximal Newton framework for composite minimization: Graph learning
+  without Cholesky decompositions and matrix inversions
+We propose an algorithmic framework for convex minimization problems of a
+composite function with two terms: a self-concordant function and a possibly
+nonsmooth regularization term. Our method is a new proximal Newton algorithm
+that features a local quadratic convergence rate. As a specific instance of our
+framework, we consider the sparse inverse covariance matrix estimation in graph
+learning problems. Via a careful dual formulation and a novel analytic
+step-size selection procedure, our approach for graph learning avoids Cholesky
+decompositions and matrix inversions in its iteration making it attractive for
+parallel and distributed implementations.

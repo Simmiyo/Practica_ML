@@ -1,0 +1,15 @@
+Learning Neural Word Salience Scores
+Measuring the salience of a word is an essential step in numerous NLP tasks.
+Heuristic approaches such as tfidf have been used so far to estimate the
+salience of words. We propose \emph{Neural Word Salience} (NWS) scores, unlike
+heuristics, are learnt from a corpus. Specifically, we learn word salience
+scores such that, using pre-trained word embeddings as the input, can
+accurately predict the words that appear in a sentence, given the words that
+appear in the sentences preceding or succeeding that sentence. Experimental
+results on sentence similarity prediction show that the learnt word salience
+scores perform comparably or better than some of the state-of-the-art
+approaches for representing sentences on benchmark datasets for sentence
+similarity, while using only a fraction of the training and prediction times
+required by prior methods. Moreover, our NWS scores positively correlate with
+psycholinguistic measures such as concreteness, and imageability implying a
+close connection to the salience as perceived by humans.

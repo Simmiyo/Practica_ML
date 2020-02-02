@@ -1,0 +1,15 @@
+Scalable Matrix-valued Kernel Learning for High-dimensional Nonlinear
+  Multivariate Regression and Granger Causality
+We propose a general matrix-valued multiple kernel learning framework for
+high-dimensional nonlinear multivariate regression problems. This framework
+allows a broad class of mixed norm regularizers, including those that induce
+sparsity, to be imposed on a dictionary of vector-valued Reproducing Kernel
+Hilbert Spaces. We develop a highly scalable and eigendecomposition-free
+algorithm that orchestrates two inexact solvers for simultaneously learning
+both the input and output components of separable matrix-valued kernels. As a
+key application enabled by our framework, we show how high-dimensional causal
+inference tasks can be naturally cast as sparse function estimation problems,
+leading to novel nonlinear extensions of a class of Graphical Granger Causality
+techniques. Our algorithmic developments and extensive empirical studies are
+complemented by theoretical analyses in terms of Rademacher generalization
+bounds.

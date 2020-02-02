@@ -1,0 +1,21 @@
+How behavior of systems with sparse spectrum can be predicted on a
+  quantum computer
+Call a spectrum of Hamiltonian sparse if each eigenvalue can be quickly
+restored with accuracy $\epsilon$ from its rough approximation in within
+$\epsilon_1$ by means of some classical algorithm. It is shown how a behavior
+of system with sparse spectrum up to time $T=\frac{1-\rho}{14\epsilon}$ can be
+predicted with fidelity $\rho$ on quantum computer in time
+$t=\frac{4}{(1-\rho)\epsilon_1}$ plus the time of classical algorithm. The
+quantum knowledge of Hamiltonian $H$ eigenvalues is considered as a wizard
+Hamiltonian $W_H$ which action on any eigenvector of $H$ gives the
+corresponding eigenvalue. Speedup of evolution for systems with sparse spectrum
+is possible because for such systems wizard Hamiltonians can be quickly
+simulated on a quantum computer. This simulation, generalizing Shor trick, is a
+part of presented algorithm.
+  In general case the action of wizard Hamiltonian cannot be simulated in time
+smaller than the dimension of main space which is exponential of the size of
+quantum system. For an arbitrary system (even for classical) its behavior
+cannot be predicted on quantum computer even for one step ahead. This method
+can be used also for restoration of a state of an arbitrary primary system in
+time instant $-T$ in the past with the same fidelity which requires the same
+time.

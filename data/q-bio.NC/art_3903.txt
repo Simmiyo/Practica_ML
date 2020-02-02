@@ -1,0 +1,21 @@
+A Markovian event-based framework for stochastic spiking neural networks
+In spiking neural networks, the information is conveyed by the spike times,
+that depend on the intrinsic dynamics of each neuron, the input they receive
+and on the connections between neurons. In this article we study the Markovian
+nature of the sequence of spike times in stochastic neural networks, and in
+particular the ability to deduce from a spike train the next spike time, and
+therefore produce a description of the network activity only based on the spike
+times regardless of the membrane potential process.
+  To study this question in a rigorous manner, we introduce and study an
+event-based description of networks of noisy integrate-and-fire neurons, i.e.
+that is based on the computation of the spike times. We show that the firing
+times of the neurons in the networks constitute a Markov chain, whose
+transition probability is related to the probability distribution of the
+interspike interval of the neurons in the network. In the cases where the
+Markovian model can be developed, the transition probability is explicitly
+derived in such classical cases of neural networks as the linear
+integrate-and-fire neuron models with excitatory and inhibitory interactions,
+for different types of synapses, possibly featuring noisy synaptic integration,
+transmission delays and absolute and relative refractory period. This covers
+most of the cases that have been investigated in the event-based description of
+spiking deterministic neural networks.

@@ -1,0 +1,11 @@
+A Multitaper, Causal Decomposition for Stochastic, Multivariate Time
+  Series: Application to High-Frequency Calcium Imaging Data
+Neural data analysis has increasingly incorporated causal information to
+study circuit connectivity. Dimensional reduction forms the basis of most
+analyses of large multivariate time series. Here, we present a new,
+multitaper-based decomposition for stochastic, multivariate time series that
+acts on the covariance of the time series at all lags, $C(\tau)$, as opposed to
+standard methods that decompose the time series, $\mathbf{X}(t)$, using only
+information at zero-lag. In both simulated and neural imaging examples, we
+demonstrate that methods that neglect the full causal structure may be
+discarding important dynamical information in a time series.

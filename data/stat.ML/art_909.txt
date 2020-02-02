@@ -1,0 +1,18 @@
+A Large Dimensional Study of Regularized Discriminant Analysis
+  Classifiers
+This article carries out a large dimensional analysis of standard regularized
+discriminant analysis classifiers designed on the assumption that data arise
+from a Gaussian mixture model with different means and covariances. The
+analysis relies on fundamental results from random matrix theory (RMT) when
+both the number of features and the cardinality of the training data within
+each class grow large at the same pace. Under mild assumptions, we show that
+the asymptotic classification error approaches a deterministic quantity that
+depends only on the means and covariances associated with each class as well as
+the problem dimensions. Such a result permits a better understanding of the
+performance of regularized discriminant analsysis, in practical large but
+finite dimensions, and can be used to determine and pre-estimate the optimal
+regularization parameter that minimizes the misclassification error
+probability. Despite being theoretically valid only for Gaussian data, our
+findings are shown to yield a high accuracy in predicting the performances
+achieved with real data sets drawn from the popular USPS data base, thereby
+making an interesting connection between theory and practice.

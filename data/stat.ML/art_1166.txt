@@ -1,0 +1,17 @@
+Random Forest Missing Data Algorithms
+Random forest (RF) missing data algorithms are an attractive approach for
+dealing with missing data. They have the desirable properties of being able to
+handle mixed types of missing data, they are adaptive to interactions and
+nonlinearity, and they have the potential to scale to big data settings.
+Currently there are many different RF imputation algorithms but relatively
+little guidance about their efficacy, which motivated us to study their
+performance. Using a large, diverse collection of data sets, performance of
+various RF algorithms was assessed under different missing data mechanisms.
+Algorithms included proximity imputation, on the fly imputation, and imputation
+utilizing multivariate unsupervised and supervised splitting---the latter class
+representing a generalization of a new promising imputation algorithm called
+missForest. Performance of algorithms was assessed by ability to impute data
+accurately. Our findings reveal RF imputation to be generally robust with
+performance improving with increasing correlation. Performance was good under
+moderate to high missingness, and even (in certain cases) when data was missing
+not at random.

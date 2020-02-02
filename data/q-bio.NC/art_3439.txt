@@ -1,0 +1,24 @@
+Neural Connectivity with Hidden Gaussian Graphical State-Model
+The noninvasive procedures for neural connectivity are under questioning.
+Theoretical models sustain that the electromagnetic field registered at
+external sensors is elicited by currents at neural space. Nevertheless, what we
+observe at the sensor space is a superposition of projected fields, from the
+whole gray-matter. This is the reason for a major pitfall of noninvasive
+Electrophysiology methods: distorted reconstruction of neural activity and its
+connectivity or leakage. It has been proven that current methods produce
+incorrect connectomes. Somewhat related to the incorrect connectivity
+modelling, they disregard either Systems Theory and Bayesian Information
+Theory. We introduce a new formalism that attains for it, Hidden Gaussian
+Graphical State-Model (HIGGS). A neural Gaussian Graphical Model (GGM) hidden
+by the observation equation of Magneto-encephalographic (MEEG) signals. HIGGS
+is equivalent to a frequency domain Linear State Space Model (LSSM) but with
+sparse connectivity prior. The mathematical contribution here is the theory for
+high-dimensional and frequency-domain HIGGS solvers. We demonstrate that HIGGS
+can attenuate the leakage effect in the most critical case: the distortion EEG
+signal due to head volume conduction heterogeneities. Its application in EEG is
+illustrated with retrieved connectivity patterns from human Steady State Visual
+Evoked Potentials (SSVEP). We provide for the first time confirmatory evidence
+for noninvasive procedures of neural connectivity: concurrent EEG and
+Electrocorticography (ECoG) recordings on monkey. Open source packages are
+freely available online, to reproduce the results presented in this paper and
+to analyze external MEEG databases.

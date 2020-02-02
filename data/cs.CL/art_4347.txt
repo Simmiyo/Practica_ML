@@ -1,0 +1,14 @@
+Hierarchical Attention: What Really Counts in Various NLP Tasks
+Attention mechanisms in sequence to sequence models have shown great ability
+and wonderful performance in various natural language processing (NLP) tasks,
+such as sentence embedding, text generation, machine translation, machine
+reading comprehension, etc. Unfortunately, existing attention mechanisms only
+learn either high-level or low-level features. In this paper, we think that the
+lack of hierarchical mechanisms is a bottleneck in improving the performance of
+the attention mechanisms, and propose a novel Hierarchical Attention Mechanism
+(Ham) based on the weighted sum of different layers of a multi-level attention.
+Ham achieves a state-of-the-art BLEU score of 0.26 on Chinese poem generation
+task and a nearly 6.5% averaged improvement compared with the existing machine
+reading comprehension models such as BIDAF and Match-LSTM. Furthermore, our
+experiments and theorems reveal that Ham has greater generalization and
+representation ability than existing attention mechanisms.

@@ -1,0 +1,12 @@
+Iterative proportional scaling revisited: a modern optimization
+  perspective
+This paper revisits the classic iterative proportional scaling (IPS) from a
+modern optimization perspective. In contrast to the criticisms made in the
+literature, we show that based on a coordinate descent characterization, IPS
+can be slightly modified to deliver coefficient estimates, and from a
+majorization-minimization standpoint, IPS can be extended to handle log-affine
+models with features not necessarily binary-valued or nonnegative. Furthermore,
+some state-of-the-art optimization techniques such as block-wise computation,
+randomization and momentum-based acceleration can be employed to provide more
+scalable IPS algorithms, as well as some regularized variants of IPS for
+concurrent feature selection.

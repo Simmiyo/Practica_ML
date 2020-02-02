@@ -1,0 +1,12 @@
+Mixtures of Sparse Autoregressive Networks
+We consider high-dimensional distribution estimation through autoregressive
+networks. By combining the concepts of sparsity, mixtures and parameter sharing
+we obtain a simple model which is fast to train and which achieves
+state-of-the-art or better results on several standard benchmark datasets.
+Specifically, we use an L1-penalty to regularize the conditional distributions
+and introduce a procedure for automatic parameter sharing between mixture
+components. Moreover, we propose a simple distributed representation which
+permits exact likelihood evaluations since the latent variables are interleaved
+with the observable variables and can be easily integrated out. Our model
+achieves excellent generalization performance and scales well to extremely high
+dimensions.

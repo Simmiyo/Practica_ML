@@ -1,0 +1,25 @@
+A New Statistical Model of Electroencephalogram Noise Spectra for
+  Real-time Brain-Computer Interfaces
+$Objective$: A characteristic of neurological signal processing is high
+levels of noise from sub-cellular ion channels up to whole-brain processes. In
+this paper, we propose a new model of electroencephalogram (EEG) background
+periodograms, based on a family of functions which we call generalized van der
+Ziel--McWhorter (GVZM) power spectral densities (PSDs). To the best of our
+knowledge, the GVZM PSD function is the only EEG noise model which has
+relatively few parameters, matches recorded EEG PSD's with high accuracy from 0
+Hz to over 30 Hz, and has approximately $1/f^\theta$ behavior in the
+mid-frequencies without infinities. $Methods$: We validate this model using
+three approaches. First, we show how GVZM PSDs can arise in population of ion
+channels in maximum entropy equilibrium. Second, we present a class of mixed
+autoregressive models, which simulate brain background noise and whose
+periodograms are asymptotic to the GVZM PSD. Third, we present two real-time
+estimation algorithms for steady-state visual evoked potential (SSVEP)
+frequencies, and analyze their performance statistically. $Results$: In
+pairwise comparisons, the GVZM-based algorithms showed statistically
+significant accuracy improvement over two well-known and widely-used SSVEP
+estimators. $Conclusion$: The GVZM noise model can be a useful and reliable
+technique for EEG signal processing. $Significance$: Understanding EEG noise is
+essential for EEG-based neurology and applications such as real-time
+brain-computer interfaces (BCIs), which must make accurate control decisions
+from very short data epochs. The GVZM approach represents a successful new
+paradigm for understanding and managing this neurological noise.

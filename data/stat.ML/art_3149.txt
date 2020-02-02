@@ -1,0 +1,14 @@
+Cauchy Principal Component Analysis
+Principal Component Analysis (PCA) has wide applications in machine learning,
+text mining and computer vision. Classical PCA based on a Gaussian noise model
+is fragile to noise of large magnitude. Laplace noise assumption based PCA
+methods cannot deal with dense noise effectively. In this paper, we propose
+Cauchy Principal Component Analysis (Cauchy PCA), a very simple yet effective
+PCA method which is robust to various types of noise. We utilize Cauchy
+distribution to model noise and derive Cauchy PCA under the maximum likelihood
+estimation (MLE) framework with low rank constraint. Our method can robustly
+estimate the low rank matrix regardless of whether noise is large or small,
+dense or sparse. We analyze the robustness of Cauchy PCA from a robust
+statistics view and present an efficient singular value projection optimization
+method. Experimental results on both simulated data and real applications
+demonstrate the robustness of Cauchy PCA to various noise patterns.

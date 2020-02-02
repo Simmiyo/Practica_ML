@@ -1,0 +1,13 @@
+NICT's Neural and Statistical Machine Translation Systems for the WMT18
+  News Translation Task
+This paper presents the NICT's participation to the WMT18 shared news
+translation task. We participated in the eight translation directions of four
+language pairs: Estonian-English, Finnish-English, Turkish-English and
+Chinese-English. For each translation direction, we prepared state-of-the-art
+statistical (SMT) and neural (NMT) machine translation systems. Our NMT systems
+were trained with the transformer architecture using the provided parallel data
+enlarged with a large quantity of back-translated monolingual data that we
+generated with a new incremental training framework. Our primary submissions to
+the task are the result of a simple combination of our SMT and NMT systems. Our
+systems are ranked first for the Estonian-English and Finnish-English language
+pairs (constraint) according to BLEU-cased.

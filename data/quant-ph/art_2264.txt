@@ -1,0 +1,17 @@
+Lower bounds of quantum black-box complexity and degree of approximation
+  polynomials by influence of Boolean variables
+We prove that, to compute a Boolean function $f$ on $N$ variables with error
+probability $\epsilon$, any quantum black-box algorithm has to query at least
+$\frac{1 - 2\sqrt{\epsilon}}{2} \rho_f N = \frac{1 - 2\sqrt{\epsilon}}{2}
+\bar{S}_f$ times, where $\rho_f$ is the average influence of variables in $f$,
+and $\bar{S}_f$ is the average sensitivity. It's interesting to contrast this
+result with the known lower bound of $\Omega (\sqrt{S_f})$, where $S_f$ is the
+sensitivity of $f$. This lower bound is tight for some functions. We also show
+for any polynomial $\tilde{f}$ that approximates $f$ with error probability
+$\epsilon$, $deg(\tilde{f}) \ge 1/4 (1 - \frac{3 \epsilon}{1 + \epsilon})^2
+\rho_f N$. This bound can be better than previous known lower bound of
+$\Omega(\sqrt{BS_f})$ for some functions. Our technique may be of intest
+itself: we apply Fourier analysis to functions mapping $\{0, 1\}^N$ to unit
+vectors in a Hilbert space. From this viewpoint, the state of the quantum
+computer at step $t$ can be written as $\sum_{s\in \{0, 1\}^N, |s| \le t}
+\hat{\phi}_s (-1)^ {s \cdot x}$, which is handy for lower bound analysis.

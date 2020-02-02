@@ -1,0 +1,18 @@
+A Bootstrap Approach to Automatically Generating Lexical Transfer Rules
+We describe a method for automatically generating Lexical Transfer Rules
+(LTRs) from word equivalences using transfer rule templates. Templates are
+skeletal LTRs, unspecified for words. New LTRs are created by instantiating a
+template with words, provided that the words belong to the appropriate lexical
+categories required by the template. We define two methods for creating an
+inventory of templates and using them to generate new LTRs. A simpler method
+consists of extracting a finite set of templates from a sample of hand coded
+LTRs and directly using them in the generation process. A further method
+consists of abstracting over the initial finite set of templates to define
+higher level templates, where bilingual equivalences are defined in terms of
+correspondences involving phrasal categories. Phrasal templates are then mapped
+onto sets of lexical templates with the aid of grammars. In this way an
+infinite set of lexical templates is recursively defined. New LTRs are created
+by parsing input words, matching a template at the phrasal level and using the
+corresponding lexical categories to instantiate the lexical template. The
+definition of an infinite set of templates enables the automatic creation of
+LTRs for multi-word, non-compositional word equivalences of any cardinality.

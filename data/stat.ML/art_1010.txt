@@ -1,0 +1,26 @@
+Estimating parameters of nonlinear systems using the elitist particle
+  filter based on evolutionary strategies
+In this article, we present the elitist particle filter based on evolutionary
+strategies (EPFES) as an efficient approach for nonlinear system
+identification. The EPFES is derived from the frequently-employed state-space
+model, where the relevant information of the nonlinear system is captured by an
+unknown state vector. Similar to classical particle filtering, the EPFES
+consists of a set of particles and respective weights which represent different
+realizations of the latent state vector and their likelihood of being the
+solution of the optimization problem. As main innovation, the EPFES includes an
+evolutionary elitist-particle selection which combines long-term information
+with instantaneous sampling from an approximated continuous posterior
+distribution. In this article, we propose two advancements of the
+previously-published elitist-particle selection process. Further, the EPFES is
+shown to be a generalization of the widely-used Gaussian particle filter and
+thus evaluated with respect to the latter for two completely different
+scenarios: First, we consider the so-called univariate nonstationary growth
+model with time-variant latent state variable, where the evolutionary selection
+of elitist particles is evaluated for non-recursively calculated particle
+weights. Second, the problem of nonlinear acoustic echo cancellation is
+addressed in a simulated scenario with speech as input signal: By using
+long-term fitness measures, we highlight the efficacy of the well-generalizing
+EPFES in estimating the nonlinear system even for large search spaces. Finally,
+we illustrate similarities between the EPFES and evolutionary algorithms to
+outline future improvements by fusing the achievements of both fields of
+research.

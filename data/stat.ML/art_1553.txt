@@ -1,0 +1,17 @@
+Conditionally Independent Multiresolution Gaussian Processes
+The multiresolution Gaussian process (GP) has gained increasing attention as
+a viable approach towards improving the quality of approximations in GPs that
+scale well to large-scale data. Most of the current constructions assume full
+independence across resolutions. This assumption simplifies the inference, but
+it underestimates the uncertainties in transitioning from one resolution to
+another. This in turn results in models which are prone to overfitting in the
+sense of excessive sensitivity to the chosen resolution, and predictions which
+are non-smooth at the boundaries. Our contribution is a new construction which
+instead assumes conditional independence among GPs across resolutions. We show
+that relaxing the full independence assumption enables robustness against
+overfitting, and that it delivers predictions that are smooth at the
+boundaries. Our new model is compared against current state of the art on 2
+synthetic and 9 real-world datasets. In most cases, our new conditionally
+independent construction performed favorably when compared against models based
+on the full independence assumption. In particular, it exhibits little to no
+signs of overfitting.

@@ -1,0 +1,26 @@
+Variational Mixture Models with Gamma or inverse-Gamma components
+Mixture models with Gamma and or inverse-Gamma distributed mixture components
+are useful for medical image tissue segmentation or as post-hoc models for
+regression coefficients obtained from linear regression within a Generalised
+Linear Modeling framework (GLM), used in this case to separate stochastic
+(Gaussian) noise from some kind of positive or negative "activation" (modeled
+as Gamma or inverse-Gamma distributed). To date, the most common choice in this
+context it is Gaussian/Gamma mixture models learned through a maximum
+likelihood (ML) approach; we recently extended such algorithm for mixture
+models with inverse-Gamma components. Here, we introduce a fully analytical
+Variational Bayes (VB) learning framework for both Gamma and/or inverse-Gamma
+components. We use synthetic and resting state fMRI data to compare the
+performance of the ML and VB algorithms in terms of area under the curve and
+computational cost. We observed that the ML Gaussian/Gamma model is very
+expensive specially when considering high resolution images; furthermore, these
+solutions are highly variable and they occasionally can overestimate the
+activations severely. The Bayesian Gauss-Gamma is in general the fastest
+algorithm but provides too dense solutions. The maximum likelihood
+Gaussian/inverse-Gamma is also very fast but provides in general very sparse
+solutions. The variational Gaussian/inverse-Gamma mixture model is the most
+robust and its cost is acceptable even for high resolution images. Further, the
+presented methodology represents an essential building block that can be
+directly used in more complex inference tasks, specially designed to analyse
+MRI-fMRI data; such models include for example analytical variational mixture
+models with adaptive spatial regularization or better source models for new
+spatial blind source separation approaches.

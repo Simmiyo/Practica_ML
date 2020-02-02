@@ -1,0 +1,21 @@
+Perfect spike detection via time reversal
+Spiking neuronal networks are usually simulated with three main simulation
+schemes: the classical time-driven and event-driven schemes, and the more
+recent hybrid scheme. All three schemes evolve the state of a neuron through a
+series of checkpoints: equally spaced in the first scheme and determined
+neuron-wise by spike events in the latter two. The time-driven and the hybrid
+scheme determine whether the membrane potential of a neuron crosses a threshold
+at the end of of the time interval between consecutive checkpoints. Threshold
+crossing can, however, occur within the interval even if this test is negative.
+Spikes can therefore be missed. The present work derives, implements, and
+benchmarks a method for perfect retrospective spike detection. This method can
+be applied to neuron models with affine or linear subthreshold dynamics. The
+idea behind the method is to propagate the threshold with a time-inverted
+dynamics, testing whether the threshold crosses the neuron state to be evolved,
+rather than vice versa. Algebraically this translates into a set of
+inequalities necessary and sufficient for threshold crossing. This test is
+slower than the imperfect one, but faster than an alternative perfect tests
+based on bisection or root-finding methods. Comparison confirms earlier results
+that the imperfect test rarely misses spikes (less than a fraction $1/10^8$ of
+missed spikes) in biologically relevant settings. This study offers an
+alternative geometric point of view on neuronal dynamics.

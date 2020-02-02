@@ -1,0 +1,15 @@
+Guaranteed Model Order Estimation and Sample Complexity Bounds for LDA
+The question of how to determine the number of independent latent factors
+(topics) in mixture models such as Latent Dirichlet Allocation (LDA) is of
+great practical importance. In most applications, the exact number of topics is
+unknown, and depends on the application and the size of the data set. Bayesian
+nonparametric methods can avoid the problem of topic number selection, but they
+can be impracticably slow for large sample sizes and are subject to local
+optima. We develop a guaranteed procedure for topic number recovery that does
+not necessitate learning the model's latent parameters beforehand. Our
+procedure relies on adapting results from random matrix theory. Performance of
+our topic number recovery procedure is superior to hLDA, a nonparametric
+method. We also discuss some implications of our results on the sample
+complexity and accuracy of popular spectral learning algorithms for LDA. Our
+results and procedure can be extended to spectral learning algorithms for other
+exchangeable mixture models as well as Hidden Markov Models.

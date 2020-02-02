@@ -1,0 +1,20 @@
+Learning in the Presence of Corruption
+In supervised learning one wishes to identify a pattern present in a joint
+distribution $P$, of instances, label pairs, by providing a function $f$ from
+instances to labels that has low risk $\mathbb{E}_{P}\ell(y,f(x))$. To do so,
+the learner is given access to $n$ iid samples drawn from $P$. In many real
+world problems clean samples are not available. Rather, the learner is given
+access to samples from a corrupted distribution $\tilde{P}$ from which to
+learn, while the goal of predicting the clean pattern remains. There are many
+different types of corruption one can consider, and as of yet there is no
+general means to compare the relative ease of learning under these different
+corruption processes. In this paper we develop a general framework for tackling
+such problems as well as introducing upper and lower bounds on the risk for
+learning in the presence of corruption. Our ultimate goal is to be able to make
+informed economic decisions in regards to the acquisition of data sets. For a
+certain subclass of corruption processes (those that are
+\emph{reconstructible}) we achieve this goal in a particular sense. Our lower
+bounds are in terms of the coefficient of ergodicity, a simple to calculate
+property of stochastic matrices. Our upper bounds proceed via a generalization
+of the method of unbiased estimators appearing in recent work of Natarajan et
+al and implicit in the earlier work of Kearns.

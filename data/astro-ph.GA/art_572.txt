@@ -1,0 +1,23 @@
+Towards a library of synthetic galaxy spectra and preliminary results of
+  classification and parametrization of unresolved galaxies for Gaia - II
+This paper is the second in a series, implementing a classification system
+for Gaia observations of unresolved galaxies. Our goals are to determine
+spectral classes and estimate intrinsic astrophysical parameters via synthetic
+templates. Here we describe (1) a new extended library of synthetic galaxy
+spectra, (2) its comparison with various observations, and (3) first results of
+classification and parametrization experiments using simulated Gaia
+spectrophotometry of this library. Using the PEGASE.2 code, based on galaxy
+evolution models that take account of metallicity evolution, extinction
+correction, and emission lines (with stellar spectra based on the BaSeL
+library), we improved our first library and extended it to cover the domain of
+most of the SDSS catalogue. We produce an extended library of 28885 synthetic
+galaxy spectra at zero redshift covering four general Hubble types of galaxies,
+over the wavelength range between 250 and 1050 nm at a sampling of 1 nm or
+less. The library is also produced for 4 random values of redshift in the range
+of 0-0.2. It is computed on a random grid of four key astrophysical parameters
+(infall timescale and 3 parameters defining the SFR) and, depending on the
+galaxy type, on two values of the age of the galaxy. The synthetic library was
+compared and found to be in good agreement with various observations. The first
+results from the SVM classifiers and parametrizers are promising, indicating
+that Hubble types can be reliably predicted and several parameters estimated
+with low bias and variance.

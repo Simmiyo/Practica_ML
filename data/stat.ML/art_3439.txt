@@ -1,0 +1,14 @@
+Representation Learning for Clustering: A Statistical Framework
+We address the problem of communicating domain knowledge from a user to the
+designer of a clustering algorithm. We propose a protocol in which the user
+provides a clustering of a relatively small random sample of a data set. The
+algorithm designer then uses that sample to come up with a data representation
+under which $k$-means clustering results in a clustering (of the full data set)
+that is aligned with the user's clustering. We provide a formal statistical
+model for analyzing the sample complexity of learning a clustering
+representation with this paradigm. We then introduce a notion of capacity of a
+class of possible representations, in the spirit of the VC-dimension, showing
+that classes of representations that have finite such dimension can be
+successfully learned with sample size error bounds, and end our discussion with
+an analysis of that dimension for classes of representations induced by linear
+embeddings.

@@ -1,0 +1,22 @@
+Boundary Crossing Probabilities for General Exponential Families
+We consider parametric exponential families of dimension $K$ on the real
+line. We study a variant of \textit{boundary crossing probabilities} coming
+from the multi-armed bandit literature, in the case when the real-valued
+distributions form an exponential family of dimension $K$. Formally, our result
+is a concentration inequality that bounds the probability that
+$\mathcal{B}^\psi(\hat \theta_n,\theta^\star)\geq f(t/n)/n$, where
+$\theta^\star$ is the parameter of an unknown target distribution, $\hat
+\theta_n$ is the empirical parameter estimate built from $n$ observations,
+$\psi$ is the log-partition function of the exponential family and
+$\mathcal{B}^\psi$ is the corresponding Bregman divergence. From the
+perspective of stochastic multi-armed bandits, we pay special attention to the
+case when the boundary function $f$ is logarithmic, as it is enables to analyze
+the regret of the state-of-the-art \KLUCB\ and \KLUCBp\ strategies, whose
+analysis was left open in such generality. Indeed, previous results only hold
+for the case when $K=1$, while we provide results for arbitrary finite
+dimension $K$, thus considerably extending the existing results. Perhaps
+surprisingly, we highlight that the proof techniques to achieve these strong
+results already existed three decades ago in the work of T.L. Lai, and were
+apparently forgotten in the bandit community. We provide a modern rewriting of
+these beautiful techniques that we believe are useful beyond the application to
+stochastic multi-armed bandits.

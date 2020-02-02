@@ -1,0 +1,11 @@
+A Deep Learning Approach to Structured Signal Recovery
+In this paper, we develop a new framework for sensing and recovering
+structured signals. In contrast to compressive sensing (CS) systems that employ
+linear measurements, sparse representations, and computationally complex
+convex/greedy algorithms, we introduce a deep learning framework that supports
+both linear and mildly nonlinear measurements, that learns a structured
+representation from training data, and that efficiently computes a signal
+estimate. In particular, we apply a stacked denoising autoencoder (SDA), as an
+unsupervised feature learner. SDA enables us to capture statistical
+dependencies between the different elements of certain signals and improve
+signal recovery performance as compared to the CS approach.

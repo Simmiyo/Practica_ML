@@ -1,0 +1,12 @@
+NTUA-SLP at SemEval-2018 Task 2: Predicting Emojis using RNNs with
+  Context-aware Attention
+In this paper we present a deep-learning model that competed at SemEval-2018
+Task 2 "Multilingual Emoji Prediction". We participated in subtask A, in which
+we are called to predict the most likely associated emoji in English tweets.
+The proposed architecture relies on a Long Short-Term Memory network, augmented
+with an attention mechanism, that conditions the weight of each word, on a
+"context vector" which is taken as the aggregation of a tweet's meaning.
+Moreover, we initialize the embedding layer of our model, with word2vec word
+embeddings, pretrained on a dataset of 550 million English tweets. Finally, our
+model does not rely on hand-crafted features or lexicons and is trained
+end-to-end with back-propagation. We ranked 2nd out of 48 teams.

@@ -1,0 +1,15 @@
+Analyzing Learned Representations of a Deep ASR Performance Prediction
+  Model
+This paper addresses a relatively new task: prediction of ASR performance on
+unseen broadcast programs. In a previous paper, we presented an ASR performance
+prediction system using CNNs that encode both text (ASR transcript) and speech,
+in order to predict word error rate. This work is dedicated to the analysis of
+speech signal embeddings and text embeddings learnt by the CNN while training
+our prediction model. We try to better understand which information is captured
+by the deep model and its relation with different conditioning factors. It is
+shown that hidden layers convey a clear signal about speech style, accent and
+broadcast type. We then try to leverage these 3 types of information at
+training time through multi-task learning. Our experiments show that this
+allows to train slightly more efficient ASR performance prediction systems that
+- in addition - simultaneously tag the analyzed utterances according to their
+speech style, accent and broadcast program origin.

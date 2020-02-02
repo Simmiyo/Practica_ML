@@ -1,0 +1,25 @@
+Causality on Cross-Sectional Data: Stable Specification Search in
+  Constrained Structural Equation Modeling
+Causal modeling has long been an attractive topic for many researchers and in
+recent decades there has seen a surge in theoretical development and discovery
+algorithms. Generally discovery algorithms can be divided into two approaches:
+constraint-based and score-based. The constraint-based approach is able to
+detect common causes of the observed variables but the use of independence
+tests makes it less reliable. The score-based approach produces a result that
+is easier to interpret as it also measures the reliability of the inferred
+causal relationships, but it is unable to detect common confounders of the
+observed variables. A drawback of both score-based and constrained-based
+approaches is the inherent instability in structure estimation. With finite
+samples small changes in the data can lead to completely different optimal
+structures. The present work introduces a new hypothesis-free score-based
+causal discovery algorithm, called stable specification search, that is robust
+for finite samples based on recent advances in stability selection using
+subsampling and selection algorithms. Structure search is performed over
+Structural Equation Models. Our approach uses exploratory search but allows
+incorporation of prior background knowledge. We validated our approach on one
+simulated data set, which we compare to the known ground truth, and two
+real-world data sets for Chronic Fatigue Syndrome and Attention Deficit
+Hyperactivity Disorder, which we compare to earlier medical studies. The
+results on the simulated data set show significant improvement over alternative
+approaches and the results on the real-word data sets show consistency with the
+hypothesis driven models constructed by medical experts.

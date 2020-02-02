@@ -1,0 +1,18 @@
+Are the input parameters of white-noise-driven integrate-and-fire
+  neurons uniquely determined by rate and CV?
+Integrate-and-fire (IF) neurons have found widespread applications in
+computational neuroscience. Particularly important are stochastic versions of
+these models where the driving consists of a synaptic input modeled as white
+Gaussian noise with mean $\mu$ and noise intensity $D$. Different IF models
+have been proposed, the firing statistics of which depends nontrivially on the
+input parameters $\mu$ and $D$. In order to compare these models among each
+other, one must first specify the correspondence between their parameters. This
+can be done by determining which set of parameters ($\mu$, $D$) of each model
+is associated to a given set of basic firing statistics as, for instance, the
+firing rate and the coefficient of variation (CV) of the interspike interval
+(ISI). However, it is not clear {\em a priori} whether for a given firing rate
+and CV there is only one unique choice of input parameters for each model. Here
+we review the dependence of rate and CV on input parameters for the perfect,
+leaky, and quadratic IF neuron models and show analytically that indeed in
+these three models the firing rate and the CV uniquely determine the input
+parameters.

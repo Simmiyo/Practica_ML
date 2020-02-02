@@ -1,0 +1,17 @@
+Fast Inference of Interactions in Assemblies of Stochastic
+  Integrate-and-Fire Neurons from Spike Recordings
+We present two Bayesian procedures to infer the interactions and external
+currents in an assembly of stochastic integrate-and-fire neurons from the
+recording of their spiking activity. The first procedure is based on the exact
+calculation of the most likely time courses of the neuron membrane potentials
+conditioned by the recorded spikes, and is exact for a vanishing noise variance
+and for an instantaneous synaptic integration. The second procedure takes into
+account the presence of fluctuations around the most likely time courses of the
+potentials, and can deal with moderate noise levels. The running time of both
+procedures is proportional to the number S of spikes multiplied by the squared
+number N of neurons. The algorithms are validated on synthetic data generated
+by networks with known couplings and currents. We also reanalyze previously
+published recordings of the activity of the salamander retina (including from
+32 to 40 neurons, and from 65,000 to 170,000 spikes). We study the dependence
+of the inferred interactions on the membrane leaking time; the differences and
+similarities with the classical cross-correlation analysis are discussed.

@@ -1,0 +1,15 @@
+Tunability: Importance of Hyperparameters of Machine Learning Algorithms
+Modern supervised machine learning algorithms involve hyperparameters that
+have to be set before running them. Options for setting hyperparameters are
+default values from the software package, manual configuration by the user or
+configuring them for optimal predictive performance by a tuning procedure. The
+goal of this paper is two-fold. Firstly, we formalize the problem of tuning
+from a statistical point of view, define data-based defaults and suggest
+general measures quantifying the tunability of hyperparameters of algorithms.
+Secondly, we conduct a large-scale benchmarking study based on 38 datasets from
+the OpenML platform and six common machine learning algorithms. We apply our
+measures to assess the tunability of their parameters. Our results yield
+default values for hyperparameters and enable users to decide whether it is
+worth conducting a possibly time consuming tuning strategy, to focus on the
+most important hyperparameters and to chose adequate hyperparameter spaces for
+tuning.

@@ -1,0 +1,16 @@
+Flexibly Mining Better Subgroups
+In subgroup discovery, also known as supervised pattern mining, discovering
+high quality one-dimensional subgroups and refinements of these is a crucial
+task. For nominal attributes, this is relatively straightforward, as we can
+consider individual attribute values as binary features. For numerical
+attributes, the task is more challenging as individual numeric values are not
+reliable statistics. Instead, we can consider combinations of adjacent values,
+i.e. bins. Existing binning strategies, however, are not tailored for subgroup
+discovery. That is, they do not directly optimize for the quality of subgroups,
+therewith potentially degrading the mining result.
+  To address this issue, we propose FLEXI. In short, with FLEXI we propose to
+use optimal binning to find high quality binary features for both numeric and
+ordinal attributes. We instantiate FLEXI with various quality measures and show
+how to achieve efficiency accordingly. Experiments on both synthetic and
+real-world data sets show that FLEXI outperforms state of the art with up to 25
+times improvement in subgroup quality.

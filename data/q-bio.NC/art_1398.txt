@@ -1,0 +1,27 @@
+The Effect of Signaling Latencies and Node Refractory States on the
+  Dynamics of Networks
+We describe the construction and theoretical analysis of a framework derived
+from canonical neurophysiological principles that model the competing dynamics
+of incident signals into nodes along directed edges in a network. The framework
+describes the dynamics between the offset in the latencies of propagating
+signals, which reflect the geometry of the edges and conduction velocities, and
+the internal refractory dynamics and processing times of the downstream node
+receiving the signals. This framework naturally extends to the construction of
+a perceptron model that takes into account such dynamic geometric
+considerations. We first describe the model in detail, culminating with the
+model of a geometric dynamic perceptron. We then derive upper and lower bounds
+for a notion of optimal efficient signaling between vertex pairs based on the
+structure of the framework. Efficient signaling in the context of the framework
+we develop here means that there needs to be a temporal match between the
+arrival time of the signals relative to how quickly nodes can internally
+process signals. These bounds reflect numerical constraints on the compensation
+of the timing of signaling events of upstream nodes attempting to activate
+downstream nodes they connect into that preserve this notion of efficiency.
+When a mismatch between signal arrival times and the internal states of
+activated nodes occurs, it can cause a break down in the signaling dynamics of
+the network. In contrast to essentially all the current state of the art in
+machine learning, this work provides a theoretical foundation for machine
+learning and intelligence architectures based on the timing of node activations
+and their abilities to respond, rather than necessary changes in synaptic
+weights. At the same time, this work is guiding the discovery of experimentally
+testable new structure-function principles in the biological brain.

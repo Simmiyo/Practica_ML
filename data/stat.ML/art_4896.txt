@@ -1,0 +1,19 @@
+Convolutional Neural Networks Analyzed via Convolutional Sparse Coding
+Convolutional neural networks (CNN) have led to many state-of-the-art results
+spanning through various fields. However, a clear and profound theoretical
+understanding of the forward pass, the core algorithm of CNN, is still lacking.
+In parallel, within the wide field of sparse approximation, Convolutional
+Sparse Coding (CSC) has gained increasing attention in recent years. A
+theoretical study of this model was recently conducted, establishing it as a
+reliable and stable alternative to the commonly practiced patch-based
+processing. Herein, we propose a novel multi-layer model, ML-CSC, in which
+signals are assumed to emerge from a cascade of CSC layers. This is shown to be
+tightly connected to CNN, so much so that the forward pass of the CNN is in
+fact the thresholding pursuit serving the ML-CSC model. This connection brings
+a fresh view to CNN, as we are able to attribute to this architecture
+theoretical claims such as uniqueness of the representations throughout the
+network, and their stable estimation, all guaranteed under simple local
+sparsity conditions. Lastly, identifying the weaknesses in the above pursuit
+scheme, we propose an alternative to the forward pass, which is connected to
+deconvolutional, recurrent and residual networks, and has better theoretical
+guarantees.

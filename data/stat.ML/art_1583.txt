@@ -1,0 +1,11 @@
+Separating populations with wide data: A spectral analysis
+In this paper, we consider the problem of partitioning a small data sample
+drawn from a mixture of $k$ product distributions. We are interested in the
+case that individual features are of low average quality $\gamma$, and we want
+to use as few of them as possible to correctly partition the sample. We analyze
+a spectral technique that is able to approximately optimize the total data
+size--the product of number of data points $n$ and the number of features
+$K$--needed to correctly perform this partitioning as a function of $1/\gamma$
+for $K>n$. Our goal is motivated by an application in clustering individuals
+according to their population of origin using markers, when the divergence
+between any two of the populations is small.

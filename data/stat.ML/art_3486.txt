@@ -1,0 +1,17 @@
+The Role of Principal Angles in Subspace Classification
+Subspace models play an important role in a wide range of signal processing
+tasks, and this paper explores how the pairwise geometry of subspaces
+influences the probability of misclassification. When the mismatch between the
+signal and the model is vanishingly small, the probability of misclassification
+is determined by the product of the sines of the principal angles between
+subspaces. When the mismatch is more significant, the probability of
+misclassification is determined by the sum of the squares of the sines of the
+principal angles. Reliability of classification is derived in terms of the
+distribution of signal energy across principal vectors. Larger principal angles
+lead to smaller classification error, motivating a linear transform that
+optimizes principal angles. The transform presented here (TRAIT) preserves some
+specific characteristic of each individual class, and this approach is shown to
+be complementary to a previously developed transform (LRT) that enlarges
+inter-class distance while suppressing intra-class dispersion. Theoretical
+results are supported by demonstration of superior classification accuracy on
+synthetic and measured data even in the presence of significant model mismatch.

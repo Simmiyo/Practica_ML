@@ -1,0 +1,19 @@
+Simulating Spiking Neural P systems without delays using GPUs
+We present in this paper our work regarding simulating a type of P system
+known as a spiking neural P system (SNP system) using graphics processing units
+(GPUs). GPUs, because of their architectural optimization for parallel
+computations, are well-suited for highly parallelizable problems. Due to the
+advent of general purpose GPU computing in recent years, GPUs are not limited
+to graphics and video processing alone, but include computationally intensive
+scientific and mathematical applications as well. Moreover P systems, including
+SNP systems, are inherently and maximally parallel computing models whose
+inspirations are taken from the functioning and dynamics of a living cell. In
+particular, SNP systems try to give a modest but formal representation of a
+special type of cell known as the neuron and their interactions with one
+another. The nature of SNP systems allowed their representation as matrices,
+which is a crucial step in simulating them on highly parallel devices such as
+GPUs. The highly parallel nature of SNP systems necessitate the use of hardware
+intended for parallel computations. The simulation algorithms, design
+considerations, and implementation are presented. Finally, simulation results,
+observations, and analyses using an SNP system that generates all numbers in
+$\mathbb N$ - {1} are discussed, as well as recommendations for future work.

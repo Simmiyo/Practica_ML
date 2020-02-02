@@ -1,0 +1,10 @@
+Bayesian Optimization for Dynamic Problems
+We propose practical extensions to Bayesian optimization for solving dynamic
+problems. We model dynamic objective functions using spatiotemporal Gaussian
+process priors which capture all the instances of the functions over time. Our
+extensions to Bayesian optimization use the information learnt from this model
+to guide the tracking of a temporally evolving minimum. By exploiting temporal
+correlations, the proposed method also determines when to make evaluations, how
+fast to make those evaluations, and it induces an appropriate budget of steps
+based on the available information. Lastly, we evaluate our technique on
+synthetic and real-world problems.

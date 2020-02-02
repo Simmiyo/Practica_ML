@@ -1,0 +1,10 @@
+Parallel Chromatic MCMC with Spatial Partitioning
+We introduce a novel approach for parallelizing MCMC inference in models with
+spatially determined conditional independence relationships, for which existing
+techniques exploiting graphical model structure are not applicable. Our
+approach is motivated by a model of seismic events and signals, where events
+detected in distant regions are approximately independent given those in
+intermediate regions. We perform parallel inference by coloring a factor graph
+defined over regions of latent space, rather than individual model variables.
+Evaluating on a model of seismic event detection, we achieve significant
+speedups over serial MCMC with no degradation in inference quality.

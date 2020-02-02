@@ -1,0 +1,26 @@
+A Cell-Level Mechanism of Contrast Gain Control
+The gain of neurons' responses in the auditory cortex is sensitive to
+contrast changes in the stimulus within a spectrotemporal range similar to
+their receptive fields, which can be interpreted to represent the tuning of the
+input to a neuron. This indicates a local mechanism of contrast gain control,
+which we explore with a minimal mechanistic model here. Gain control through
+noisy input has been observed in vitro and in a range of computational models.
+We investigate the behaviour of the simplest of such models to showcase gain
+control, a stochastic leaky integrate-and-fire (sLIF) neuron, which exhibits
+gain control through divisive normalisation of the input both with and without
+accompanying subtractive shift of the input-response curve, depending on
+whether input noise is proportional to or independent of its mean. To get a
+more direct understanding of how the input statistics change the response, we
+construct an analytic approximation to the firing rate of a sLIF neuron
+constituted of the expression for the deterministic case and a weighted average
+over the derived approximate steady-state distribution of conductance due to
+poissonian synaptic inputs. This analytic approximation qualitatively produces
+the same behaviour as simulations and could be extended by spectrotemporally
+tuned inputs to give a simple, physiological and local mechanism of contrast
+gain control in auditory sensing, building on recent experimental work that has
+hitherto only been described by phenomenological models. By comparing our
+weighted average firing rate curve with the commonly used sigmoidal
+input-response function, we demonstrate a nearly linear relationship between
+both the horizontal shift (or stimulus inflection point) and the inverse gain
+of the sigmoid and statistics derived from the sLIF model parameters, thus
+providing a structural constraint on the sigmoid parameter choice.

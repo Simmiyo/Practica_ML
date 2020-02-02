@@ -1,0 +1,22 @@
+Large-scale directed network inference with multivariate transfer
+  entropy and hierarchical statistical testing
+Network inference algorithms are valuable tools for the study of large-scale
+neuroimaging datasets. Multivariate transfer entropy is well suited for this
+task, being a model-free measure that captures nonlinear and lagged
+dependencies between time series to infer a minimal directed network model.
+Greedy algorithms have been proposed to efficiently deal with high-dimensional
+datasets while avoiding redundant inferences and capturing synergistic effects.
+However, multiple statistical comparisons may inflate the false positive rate
+and are computationally demanding, which limited the size of previous
+validation studies. The algorithm we present---as implemented in the IDTxl
+open-source software---addresses these challenges by employing hierarchical
+statistical tests to control the family-wise error rate and to allow for
+efficient parallelisation. The method was validated on synthetic datasets
+involving random networks of increasing size (up to 100 nodes), for both linear
+and nonlinear dynamics. The performance increased with the length of the time
+series, reaching consistently high precision, recall, and specificity (>98% on
+average) for 10000 time samples. Varying the statistical significance threshold
+showed a more favourable precision-recall trade-off for longer time series.
+Both the network size and the sample size are one order of magnitude larger
+than previously demonstrated, showing feasibility for typical EEG and MEG
+experiments.

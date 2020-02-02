@@ -1,0 +1,13 @@
+Polarity and Intensity: the Two Aspects of Sentiment Analysis
+Current multimodal sentiment analysis frames sentiment score prediction as a
+general Machine Learning task. However, what the sentiment score actually
+represents has often been overlooked. As a measurement of opinions and
+affective states, a sentiment score generally consists of two aspects: polarity
+and intensity. We decompose sentiment scores into these two aspects and study
+how they are conveyed through individual modalities and combined multimodal
+models in a naturalistic monologue setting. In particular, we build unimodal
+and multimodal multi-task learning models with sentiment score prediction as
+the main task and polarity and/or intensity classification as the auxiliary
+tasks. Our experiments show that sentiment analysis benefits from multi-task
+learning, and individual modalities differ when conveying the polarity and
+intensity aspects of sentiment.

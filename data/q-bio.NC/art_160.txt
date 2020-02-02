@@ -1,0 +1,22 @@
+Sparse Spike Coding : applications of Neuroscience to the processing of
+  natural images
+If modern computers are sometimes superior to humans in some specialized
+tasks such as playing chess or browsing a large database, they can't beat the
+efficiency of biological vision for such simple tasks as recognizing and
+following an object in a complex cluttered background. We present in this paper
+our attempt at outlining the dynamical, parallel and event-based representation
+for vision in the architecture of the central nervous system. We will
+illustrate this on static natural images by showing that in a signal matching
+framework, a L/LN (linear/non-linear) cascade may efficiently transform a
+sensory signal into a neural spiking signal and we will apply this framework to
+a model retina. However, this code gets redundant when using an over-complete
+basis as is necessary for modeling the primary visual cortex: we therefore
+optimize the efficiency cost by increasing the sparseness of the code. This is
+implemented by propagating and canceling redundant information using lateral
+interactions. We compare the efficiency of this representation in terms of
+compression as the reconstruction quality as a function of the coding length.
+This will correspond to a modification of the Matching Pursuit algorithm where
+the ArgMax function is optimized for competition, or Competition Optimized
+Matching Pursuit (COMP). We will in particular focus on bridging neuroscience
+and image processing and on the advantages of such an interdisciplinary
+approach.

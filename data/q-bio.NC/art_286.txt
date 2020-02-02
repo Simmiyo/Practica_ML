@@ -1,0 +1,23 @@
+Neural integrators for decision making: A favorable tradeoff between
+  robustness and sensitivity
+A key step in many perceptual decision tasks is the integration of sensory
+inputs over time, but fundamental questions remain about how this is
+accomplished in neural circuits. One possibility is to balance decay modes of
+membranes and synapses with recurrent excitation. To allow integration over
+long timescales, however, this balance must be precise; this is known as the
+fine tuning problem. The need for fine tuning can be overcome via a
+ratchet-like mechanism, in which momentary inputs must be above a preset limit
+to be registered by the circuit. The degree of this ratcheting embodies a
+tradeoff between sensitivity to the input stream and robustness against
+parameter mistuning.
+  The goal of our study is to analyze the consequences of this tradeoff for
+decision making performance. For concreteness, we focus on the well-studied
+random dot motion discrimination task. For stimulus parameters constrained by
+experimental data, we find that loss of sensitivity to inputs has surprisingly
+little cost for decision performance. This leads robust integrators to
+performance gains when feedback becomes mistuned. Moreover, we find that
+substantially robust and mistuned integrator models remain consistent with
+chronometric and accuracy functions found in experiments. We explain our
+findings via sequential analysis of the momentary and integrated signals, and
+discuss their implication: robust integrators may be surprisingly well-suited
+to subserve the basic function of evidence integration in many cognitive tasks.

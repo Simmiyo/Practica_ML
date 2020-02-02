@@ -1,0 +1,12 @@
+Domain Adaptation of Recurrent Neural Networks for Natural Language
+  Understanding
+The goal of this paper is to use multi-task learning to efficiently scale
+slot filling models for natural language understanding to handle multiple
+target tasks or domains. The key to scalability is reducing the amount of
+training data needed to learn a model for a new task. The proposed multi-task
+model delivers better performance with less data by leveraging patterns that it
+learns from the other tasks. The approach supports an open vocabulary, which
+allows the models to generalize to unseen words, which is particularly
+important when very little training data is used. A newly collected
+crowd-sourced data set, covering four different domains, is used to demonstrate
+the effectiveness of the domain adaptation and open vocabulary techniques.

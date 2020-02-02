@@ -1,0 +1,12 @@
+Blind and fully constrained unmixing of hyperspectral images
+This paper addresses the problem of blind and fully constrained unmixing of
+hyperspectral images. Unmixing is performed without the use of any dictionary,
+and assumes that the number of constituent materials in the scene and their
+spectral signatures are unknown. The estimated abundances satisfy the desired
+sum-to-one and nonnegativity constraints. Two models with increasing complexity
+are developed to achieve this challenging task, depending on how noise
+interacts with hyperspectral data. The first one leads to a convex optimization
+problem, and is solved with the Alternating Direction Method of Multipliers.
+The second one accounts for signal-dependent noise, and is addressed with a
+Reweighted Least Squares algorithm. Experiments on synthetic and real data
+demonstrate the effectiveness of our approach.

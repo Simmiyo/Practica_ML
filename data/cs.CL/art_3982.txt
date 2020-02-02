@@ -1,0 +1,13 @@
+Resolving Event Coreference with Supervised Representation Learning and
+  Clustering-Oriented Regularization
+We present an approach to event coreference resolution by developing a
+general framework for clustering that uses supervised representation learning.
+We propose a neural network architecture with novel Clustering-Oriented
+Regularization (CORE) terms in the objective function. These terms encourage
+the model to create embeddings of event mentions that are amenable to
+clustering. We then use agglomerative clustering on these embeddings to build
+event coreference chains. For both within- and cross-document coreference on
+the ECB+ corpus, our model obtains better results than models that require
+significantly more pre-annotated information. This work provides insight and
+motivating results for a new general approach to solving coreference and
+clustering problems with representation learning.

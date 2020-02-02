@@ -1,0 +1,13 @@
+Targetable Named Entity Recognition in Social Media
+We present a novel approach for recognizing what we call targetable named
+entities; that is, named entities in a targeted set (e.g, movies, books, TV
+shows). Unlike many other NER systems that need to retrain their statistical
+models as new entities arrive, our approach does not require such retraining,
+which makes it more adaptable for types of entities that are frequently
+updated. For this preliminary study, we focus on one entity type, movie title,
+using data collected from Twitter. Our system is tested on two evaluation sets,
+one including only entities corresponding to movies in our training set, and
+the other excluding any of those entities. Our final model shows F1-scores of
+76.19% and 78.70% on these evaluation sets, which gives strong evidence that
+our approach is completely unbiased to any par- ticular set of entities found
+during training.

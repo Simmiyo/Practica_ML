@@ -1,0 +1,28 @@
+Disease Prediction based on Functional Connectomes using a Scalable and
+  Spatially-Informed Support Vector Machine
+Substantial evidence indicates that major psychiatric disorders are
+associated with distributed neural dysconnectivity, leading to strong interest
+in using neuroimaging methods to accurately predict disorder status. In this
+work, we are specifically interested in a multivariate approach that uses
+features derived from whole-brain resting state functional connectomes.
+However, functional connectomes reside in a high dimensional space, which
+complicates model interpretation and introduces numerous statistical and
+computational challenges. Traditional feature selection techniques are used to
+reduce data dimensionality, but are blind to the spatial structure of the
+connectomes. We propose a regularization framework where the 6-D structure of
+the functional connectome is explicitly taken into account via the fused Lasso
+or the GraphNet regularizer. Our method only restricts the loss function to be
+convex and margin-based, allowing non-differentiable loss functions such as the
+hinge-loss to be used. Using the fused Lasso or GraphNet regularizer with the
+hinge-loss leads to a structured sparse support vector machine (SVM) with
+embedded feature selection. We introduce a novel efficient optimization
+algorithm based on the augmented Lagrangian and the classical alternating
+direction method, which can solve both fused Lasso and GraphNet regularized SVM
+with very little modification. We also demonstrate that the inner subproblems
+of the algorithm can be solved efficiently in analytic form by coupling the
+variable splitting strategy with a data augmentation scheme. Experiments on
+simulated data and resting state scans from a large schizophrenia dataset show
+that our proposed approach can identify predictive regions that are spatially
+contiguous in the 6-D "connectome space," offering an additional layer of
+interpretability that could provide new insights about various disease
+processes.

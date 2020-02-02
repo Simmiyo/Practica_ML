@@ -1,0 +1,9 @@
+Maximum a Posteriori Estimation by Search in Probabilistic Programs
+We introduce an approximate search algorithm for fast maximum a posteriori
+probability estimation in probabilistic programs, which we call Bayesian ascent
+Monte Carlo (BaMC). Probabilistic programs represent probabilistic models with
+varying number of mutually dependent finite, countable, and continuous random
+variables. BaMC is an anytime MAP search algorithm applicable to any
+combination of random variables and dependencies. We compare BaMC to other MAP
+estimation algorithms and show that BaMC is faster and more robust on a range
+of probabilistic models.

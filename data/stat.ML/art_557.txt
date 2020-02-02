@@ -1,0 +1,17 @@
+Sparse Multivariate Factor Regression
+We consider the problem of multivariate regression in a setting where the
+relevant predictors could be shared among different responses. We propose an
+algorithm which decomposes the coefficient matrix into the product of a long
+matrix and a wide matrix, with an elastic net penalty on the former and an
+$\ell_1$ penalty on the latter. The first matrix linearly transforms the
+predictors to a set of latent factors, and the second one regresses the
+responses on these factors. Our algorithm simultaneously performs dimension
+reduction and coefficient estimation and automatically estimates the number of
+latent factors from the data. Our formulation results in a non-convex
+optimization problem, which despite its flexibility to impose effective
+low-dimensional structure, is difficult, or even impossible, to solve exactly
+in a reasonable time. We specify an optimization algorithm based on alternating
+minimization with three different sets of updates to solve this non-convex
+problem and provide theoretical results on its convergence and optimality.
+Finally, we demonstrate the effectiveness of our algorithm via experiments on
+simulated and real data.

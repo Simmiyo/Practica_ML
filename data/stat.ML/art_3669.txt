@@ -1,0 +1,18 @@
+An Information Retrieval Approach to Finding Dependent Subspaces of
+  Multiple Views
+Finding relationships between multiple views of data is essential both for
+exploratory analysis and as pre-processing for predictive tasks. A prominent
+approach is to apply variants of Canonical Correlation Analysis (CCA), a
+classical method seeking correlated components between views. The basic CCA is
+restricted to maximizing a simple dependency criterion, correlation, measured
+directly between data coordinates. We introduce a new method that finds
+dependent subspaces of views directly optimized for the data analysis task of
+\textit{neighbor retrieval between multiple views}. We optimize mappings for
+each view such as linear transformations to maximize cross-view similarity
+between neighborhoods of data samples. The criterion arises directly from the
+well-defined retrieval task, detects nonlinear and local similarities, is able
+to measure dependency of data relationships rather than only individual data
+coordinates, and is related to well understood measures of information
+retrieval quality. In experiments we show the proposed method outperforms
+alternatives in preserving cross-view neighborhood similarities, and yields
+insights into local dependencies between multiple views.

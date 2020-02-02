@@ -1,0 +1,20 @@
+Multimodal Sparse Classifier for Adolescent Brain Age Prediction
+The study of healthy brain development helps to better understand the brain
+transformation and brain connectivity patterns which happen during childhood to
+adulthood. This study presents a sparse machine learning solution across
+whole-brain functional connectivity (FC) measures of three sets of data,
+derived from resting state functional magnetic resonance imaging (rs-fMRI) and
+task fMRI data, including a working memory n-back task (nb-fMRI) and an emotion
+identification task (em-fMRI). These multi-modal image data are collected on a
+sample of adolescents from the Philadelphia Neurodevelopmental Cohort (PNC) for
+the prediction of brain ages. Due to extremely large variable-to-instance ratio
+of PNC data, a high dimensional matrix with several irrelevant and highly
+correlated features is generated and hence a pattern learning approach is
+necessary to extract significant features. We propose a sparse learner based on
+the residual errors along the estimation of an inverse problem for the extreme
+learning machine (ELM) neural network. The purpose of the approach is to
+overcome the overlearning problem through pruning of several redundant features
+and their corresponding output weights. The proposed multimodal sparse ELM
+classifier based on residual errors (RES-ELM) is highly competitive in terms of
+the classification accuracy compared to its counterparts such as conventional
+ELM, and sparse Bayesian learning ELM.

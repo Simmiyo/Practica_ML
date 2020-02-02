@@ -1,0 +1,26 @@
+Statistical inference on errorfully observed graphs
+Statistical inference on graphs is a burgeoning field in the applied and
+theoretical statistics communities, as well as throughout the wider world of
+science, engineering, business, etc. In many applications, we are faced with
+the reality of errorfully observed graphs. That is, the existence of an edge
+between two vertices is based on some imperfect assessment. In this paper, we
+consider a graph $G = (V,E)$. We wish to perform an inference task -- the
+inference task considered here is "vertex classification". However, we do not
+observe $G$; rather, for each potential edge $uv \in {{V}\choose{2}}$ we
+observe an "edge-feature" which we use to classify $uv$ as edge/not-edge. Thus
+we errorfully observe $G$ when we observe the graph $\widetilde{G} =
+(V,\widetilde{E})$ as the edges in $\widetilde{E}$ arise from the
+classifications of the "edge-features", and are expected to be errorful.
+Moreover, we face a quantity/quality trade-off regarding the edge-features we
+observe -- more informative edge-features are more expensive, and hence the
+number of potential edges that can be assessed decreases with the quality of
+the edge-features. We studied this problem by formulating a quantity/quality
+tradeoff for a simple class of random graphs model, namely the stochastic
+blockmodel. We then consider a simple but optimal vertex classifier for
+classifying $v$ and we derive the optimal quantity/quality operating point for
+subsequent graph inference in the face of this trade-off. The optimal operating
+points for the quantity/quality trade-off are surprising and illustrate the
+issue that methods for intermediate tasks should be chosen to maximize
+performance for the ultimate inference task. Finally, we investigate the
+quantity/quality tradeoff for errorful obesrvations of the {\it C.\ elegans}
+connectome graph.

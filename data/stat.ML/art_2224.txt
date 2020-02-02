@@ -1,0 +1,11 @@
+Efficient EM Training of Gaussian Mixtures with Missing Data
+In data-mining applications, we are frequently faced with a large fraction of
+missing entries in the data matrix, which is problematic for most discriminant
+machine learning algorithms. A solution that we explore in this paper is the
+use of a generative model (a mixture of Gaussians) to compute the conditional
+expectation of the missing variables given the observed variables. Since
+training a Gaussian mixture with many different patterns of missing values can
+be computationally very expensive, we introduce a spanning-tree based algorithm
+that significantly speeds up training in these conditions. We also observe that
+good results can be obtained by using the generative model to fill-in the
+missing values for a separate discriminant learning algorithm.

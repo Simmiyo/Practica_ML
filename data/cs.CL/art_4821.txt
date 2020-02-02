@@ -1,0 +1,15 @@
+Scalable Micro-planned Generation of Discourse from Structured Data
+We present a framework for generating natural language description from
+structured data such as tables. Motivated by the need to approach this problem
+in a manner that is scalable and easily adaptable to newer domains, unlike
+existing related systems, our system does not require parallel data; it rather
+relies on monolingual corpora and basic NLP tools which are easily accessible.
+The system employs a 3-staged pipeline that: (i) converts entries in the
+structured data to canonical form, (ii) generates simple sentences for each
+atomic entry in the canonicalized representation, and (iii) combines the
+sentences to produce a coherent, fluent and adequate paragraph description
+through sentence compounding and co-reference replacement modules. Experiments
+on a benchmark mixed-domain dataset curated for paragraph description from
+tables reveals the superiority of our system over existing data-to-text
+approaches. We also demonstrate the robustness of our system in accepting other
+data types such as Knowledge-Graphs and Key-Value dictionaries.

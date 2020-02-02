@@ -1,0 +1,15 @@
+Towards Speech Emotion Recognition "in the wild" using Aggregated
+  Corpora and Deep Multi-Task Learning
+One of the challenges in Speech Emotion Recognition (SER) "in the wild" is
+the large mismatch between training and test data (e.g. speakers and tasks). In
+order to improve the generalisation capabilities of the emotion models, we
+propose to use Multi-Task Learning (MTL) and use gender and naturalness as
+auxiliary tasks in deep neural networks. This method was evaluated in
+within-corpus and various cross-corpus classification experiments that simulate
+conditions "in the wild". In comparison to Single-Task Learning (STL) based
+state of the art methods, we found that our MTL method proposed improved
+performance significantly. Particularly, models using both gender and
+naturalness achieved more gains than those using either gender or naturalness
+separately. This benefit was also found in the high-level representations of
+the feature space, obtained from our method proposed, where discriminative
+emotional clusters could be observed.

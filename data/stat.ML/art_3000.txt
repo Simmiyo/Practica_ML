@@ -1,0 +1,14 @@
+Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk
+  Minimization
+We consider a generic convex optimization problem associated with regularized
+empirical risk minimization of linear predictors. The problem structure allows
+us to reformulate it as a convex-concave saddle point problem. We propose a
+stochastic primal-dual coordinate (SPDC) method, which alternates between
+maximizing over a randomly chosen dual variable and minimizing over the primal
+variable. An extrapolation step on the primal variable is performed to obtain
+accelerated convergence rate. We also develop a mini-batch version of the SPDC
+method which facilitates parallel computing, and an extension with weighted
+sampling probabilities on the dual variables, which has a better complexity
+than uniform sampling on unnormalized data. Both theoretically and empirically,
+we show that the SPDC method has comparable or better performance than several
+state-of-the-art optimization methods.

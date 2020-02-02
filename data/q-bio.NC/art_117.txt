@@ -1,0 +1,14 @@
+Stochastic dynamics of a finite-size spiking neural network
+We present a simple Markov model of spiking neural dynamics that can be
+analytically solved to characterize the stochastic dynamics of a finite-size
+spiking neural network. We give closed-form estimates for the equilibrium
+distribution, mean rate, variance and autocorrelation function of the network
+activity. The model is applicable to any network where the probability of
+firing of a neuron in the network only depends on the number of neurons that
+fired in a previous temporal epoch. Networks with statistically homogeneous
+connectivity and membrane and synaptic time constants that are not excessively
+long could satisfy these conditions. Our model completely accounts for the size
+of the network and correlations in the firing activity. It also allows us to
+examine how the network dynamics can deviate from mean-field theory. We show
+that the model and solutions are applicable to spiking neural networks in
+biophysically plausible parameter regimes.

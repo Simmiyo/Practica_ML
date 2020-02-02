@@ -1,0 +1,21 @@
+On Supervised Selection of Bayesian Networks
+Given a set of possible models (e.g., Bayesian network structures) and a data
+sample, in the unsupervised model selection problem the task is to choose the
+most accurate model with respect to the domain joint probability distribution.
+In contrast to this, in supervised model selection it is a priori known that
+the chosen model will be used in the future for prediction tasks involving more
+``focused' predictive distributions. Although focused predictive distributions
+can be produced from the joint probability distribution by marginalization, in
+practice the best model in the unsupervised sense does not necessarily perform
+well in supervised domains. In particular, the standard marginal likelihood
+score is a criterion for the unsupervised task, and, although frequently used
+for supervised model selection also, does not perform well in such tasks. In
+this paper we study the performance of the marginal likelihood score
+empirically in supervised Bayesian network selection tasks by using a large
+number of publicly available classification data sets, and compare the results
+to those obtained by alternative model selection criteria, including empirical
+crossvalidation methods, an approximation of a supervised marginal likelihood
+measure, and a supervised version of Dawids prequential(predictive sequential)
+principle.The results demonstrate that the marginal likelihood score does NOT
+perform well FOR supervised model selection, WHILE the best results are
+obtained BY using Dawids prequential r napproach.

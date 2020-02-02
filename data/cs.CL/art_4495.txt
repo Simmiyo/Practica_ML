@@ -1,0 +1,15 @@
+All You Need is "Love": Evading Hate-speech Detection
+With the spread of social networks and their unfortunate use for hate speech,
+automatic detection of the latter has become a pressing problem. In this paper,
+we reproduce seven state-of-the-art hate speech detection models from prior
+work, and show that they perform well only when tested on the same type of data
+they were trained on. Based on these results, we argue that for successful hate
+speech detection, model architecture is less important than the type of data
+and labeling criteria. We further show that all proposed detection techniques
+are brittle against adversaries who can (automatically) insert typos, change
+word boundaries or add innocuous words to the original hate speech. A
+combination of these methods is also effective against Google Perspective -- a
+cutting-edge solution from industry. Our experiments demonstrate that
+adversarial training does not completely mitigate the attacks, and using
+character-level features makes the models systematically more attack-resistant
+than using word-level features.

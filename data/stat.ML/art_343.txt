@@ -1,0 +1,22 @@
+The Infinite Degree Corrected Stochastic Block Model
+In Stochastic blockmodels, which are among the most prominent statistical
+models for cluster analysis of complex networks, clusters are defined as groups
+of nodes with statistically similar link probabilities within and between
+groups. A recent extension by Karrer and Newman incorporates a node degree
+correction to model degree heterogeneity within each group. Although this
+demonstrably leads to better performance on several networks it is not obvious
+whether modelling node degree is always appropriate or necessary. We formulate
+the degree corrected stochastic blockmodel as a non-parametric Bayesian model,
+incorporating a parameter to control the amount of degree correction which can
+then be inferred from data. Additionally, our formulation yields principled
+ways of inferring the number of groups as well as predicting missing links in
+the network which can be used to quantify the model's predictive performance.
+On synthetic data we demonstrate that including the degree correction yields
+better performance both on recovering the true group structure and predicting
+missing links when degree heterogeneity is present, whereas performance is on
+par for data with no degree heterogeneity within clusters. On seven real
+networks (with no ground truth group structure available) we show that
+predictive performance is about equal whether or not degree correction is
+included; however, for some networks significantly fewer clusters are
+discovered when correcting for degree indicating that the data can be more
+compactly explained by clusters of heterogenous degree nodes.

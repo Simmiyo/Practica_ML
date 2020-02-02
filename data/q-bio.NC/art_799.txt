@@ -1,0 +1,22 @@
+BluePyOpt: Leveraging open source software and cloud infrastructure to
+  optimise model parameters in neuroscience
+At many scales in neuroscience, appropriate mathematical models take the form
+of complex dynamical systems. Parametrising such models to conform to the
+multitude of available experimental constraints is a global nonlinear
+optimisation problem with a complex fitness landscape, requiring numerical
+techniques to find suitable approximate solutions. Stochastic optimisation
+approaches, such as evolutionary algorithms, have been shown to be effective,
+but often the setting up of such optimisations and the choice of a specific
+search algorithm and its parameters is non-trivial, requiring domain-specific
+expertise. Here we describe BluePyOpt, a Python package targeted at the broad
+neuroscience community to simplify this task. BluePyOpt is an extensible
+framework for data-driven model parameter optimisation that wraps and
+standardises several existing open-source tools. It simplifies the task of
+creating and sharing these optimisations, and the associated techniques and
+knowledge. This is achieved by abstracting the optimisation and evaluation
+tasks into various reusable and flexible discrete elements according to
+established best-practices. Further, BluePyOpt provides methods for setting up
+both small- and large-scale optimisations on a variety of platforms, ranging
+from laptops to Linux clusters and cloud-based compute infrastructures. The
+versatility of the BluePyOpt framework is demonstrated by working through three
+representative neuroscience specific use cases.

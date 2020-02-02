@@ -1,0 +1,17 @@
+Automatic Relevance Determination in Nonnegative Matrix Factorization
+  with the β-Divergence
+This paper addresses the estimation of the latent dimensionality in
+nonnegative matrix factorization (NMF) with the \beta-divergence. The
+\beta-divergence is a family of cost functions that includes the squared
+Euclidean distance, Kullback-Leibler and Itakura-Saito divergences as special
+cases. Learning the model order is important as it is necessary to strike the
+right balance between data fidelity and overfitting. We propose a Bayesian
+model based on automatic relevance determination in which the columns of the
+dictionary matrix and the rows of the activation matrix are tied together
+through a common scale parameter in their prior. A family of
+majorization-minimization algorithms is proposed for maximum a posteriori (MAP)
+estimation. A subset of scale parameters is driven to a small lower bound in
+the course of inference, with the effect of pruning the corresponding spurious
+components. We demonstrate the efficacy and robustness of our algorithms by
+performing extensive experiments on synthetic data, the swimmer dataset, a
+music decomposition example and a stock price prediction task.

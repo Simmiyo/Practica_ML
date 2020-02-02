@@ -1,0 +1,15 @@
+Simple 1-D Convolutional Networks for Resting-State fMRI Based
+  Classification in Autism
+Deep learning methods are increasingly being used with neuroimaging data like
+structural and function magnetic resonance imaging (MRI) to predict the
+diagnosis of neuropsychiatric and neurological disorders. For psychiatric
+disorders in particular, it is believed that one of the most promising modality
+is the resting-state functional MRI (rsfMRI), which captures the intrinsic
+connectivity between regions in the brain. Because rsfMRI data points are
+inherently high-dimensional (~1M), it is impossible to process the entire input
+in its raw form. In this paper, we propose a very simple transformation of the
+rsfMRI images that captures all of the temporal dynamics of the signal but
+sub-samples its spatial extent. As a result, we use a very simple 1-D
+convolutional network which is fast to train, requires minimal preprocessing
+and performs at par with the state-of-the-art on the classification of Autism
+spectrum disorders.

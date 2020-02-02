@@ -1,0 +1,15 @@
+Fast Multilevel Support Vector Machines
+Solving different types of optimization models (including parameters fitting)
+for support vector machines on large-scale training data is often an expensive
+computational task. This paper proposes a multilevel algorithmic framework that
+scales efficiently to very large data sets. Instead of solving the whole
+training set in one optimization process, the support vectors are obtained and
+gradually refined at multiple levels of coarseness of the data. The proposed
+framework includes: (a) construction of hierarchy of large-scale data coarse
+representations, and (b) a local processing of updating the hyperplane
+throughout this hierarchy. Our multilevel framework substantially improves the
+computational time without loosing the quality of classifiers. The algorithms
+are demonstrated for both regular and weighted support vector machines.
+Experimental results are presented for balanced and imbalanced classification
+problems. Quality improvement on several imbalanced data sets has been
+observed.

@@ -1,0 +1,14 @@
+Predicting Adolescent Suicide Attempts with Neural Networks
+Though suicide is a major public health problem in the US, machine learning
+methods are not commonly used to predict an individual's risk of
+attempting/committing suicide. In the present work, starting with an anonymized
+collection of electronic health records for 522,056 unique, California-resident
+adolescents, we develop neural network models to predict suicide attempts. We
+frame the problem as a binary classification problem in which we use a
+patient's data from 2006-2009 to predict either the presence (1) or absence (0)
+of a suicide attempt in 2010. After addressing issues such as severely
+imbalanced classes and the variable length of a patient's history, we build
+neural networks with depths varying from two to eight hidden layers. For test
+set observations where we have at least five ED/hospital visits' worth of data
+on a patient, our depth-4 model achieves a sensitivity of 0.703, specificity of
+0.980, and AUC of 0.958.

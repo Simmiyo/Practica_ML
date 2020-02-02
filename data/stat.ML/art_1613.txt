@@ -1,0 +1,15 @@
+Model-Consistent Sparse Estimation through the Bootstrap
+We consider the least-square linear regression problem with regularization by
+the $\ell^1$-norm, a problem usually referred to as the Lasso. In this paper,
+we first present a detailed asymptotic analysis of model consistency of the
+Lasso in low-dimensional settings. For various decays of the regularization
+parameter, we compute asymptotic equivalents of the probability of correct
+model selection. For a specific rate decay, we show that the Lasso selects all
+the variables that should enter the model with probability tending to one
+exponentially fast, while it selects all other variables with strictly positive
+probability. We show that this property implies that if we run the Lasso for
+several bootstrapped replications of a given sample, then intersecting the
+supports of the Lasso bootstrap estimates leads to consistent model selection.
+This novel variable selection procedure, referred to as the Bolasso, is
+extended to high-dimensional settings by a provably consistent two-step
+procedure.

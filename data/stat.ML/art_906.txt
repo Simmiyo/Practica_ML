@@ -1,0 +1,21 @@
+Towards Bursting Filter Bubble via Contextual Risks and Uncertainties
+A rising topic in computational journalism is how to enhance the diversity in
+news served to subscribers to foster exploration behavior in news reading.
+Despite the success of preference learning in personalized news recommendation,
+their over-exploitation causes filter bubble that isolates readers from
+opposing viewpoints and hurts long-term user experiences with lack of
+serendipity. Since news providers can recommend neither opposite nor
+diversified opinions if unpopularity of these articles is surely predicted,
+they can only bet on the articles whose forecasts of click-through rate involve
+high variability (risks) or high estimation errors (uncertainties). We propose
+a novel Bayesian model of uncertainty-aware scoring and ranking for news
+articles. The Bayesian binary classifier models probability of success (defined
+as a news click) as a Beta-distributed random variable conditional on a vector
+of the context (user features, article features, and other contextual
+features). The posterior of the contextual coefficients can be computed
+efficiently using a low-rank version of Laplace's method via thin Singular
+Value Decomposition. Efficiencies in personalized targeting of exceptional
+articles, which are chosen by each subscriber in test period, are evaluated on
+real-world news datasets. The proposed estimator slightly outperformed existing
+training and scoring algorithms, in terms of efficiency in identifying
+successful outliers.

@@ -1,0 +1,15 @@
+Computing p-values of LiNGAM outputs via Multiscale Bootstrap
+Structural equation models and Bayesian networks have been widely used to
+study causal relationships between continuous variables. Recently, a
+non-Gaussian method called LiNGAM was proposed to discover such causal models
+and has been extended in various directions. An important problem with LiNGAM
+is that the results are affected by the random sampling of the data as with any
+statistical method. Thus, some analysis of the statistical reliability or
+confidence level should be conducted. A common method to evaluate a confidence
+level is a bootstrap method. However, a confidence level computed by ordinary
+bootstrap method is known to be biased as a probability-value ($p$-value) of
+hypothesis testing. In this paper, we propose a new procedure to apply an
+advanced bootstrap method called multiscale bootstrap to compute confidence
+levels, i.e., p-values, of LiNGAM outputs. The multiscale bootstrap method
+gives unbiased $p$-values with asymptotic much higher accuracy. Experiments on
+artificial data demonstrate the utility of our approach.

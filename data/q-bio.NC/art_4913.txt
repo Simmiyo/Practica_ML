@@ -1,0 +1,22 @@
+fMRI Semantic Category Decoding using Linguistic Encoding of Word
+  Embeddings
+The dispute of how the human brain represents conceptual knowledge has been
+argued in many scientific fields. Brain imaging studies have shown that the
+spatial patterns of neural activation in the brain are correlated with thinking
+about different semantic categories of words (for example, tools, animals, and
+buildings) or when viewing the related pictures. In this paper, we present a
+computational model that learns to predict the neural activation captured in
+functional magnetic resonance imaging (fMRI) data of test words. Unlike the
+models with hand-crafted features that have been used in the literature, in
+this paper we propose a novel approach wherein decoding models are built with
+features extracted from popular linguistic encodings of Word2Vec, GloVe,
+Meta-Embeddings in conjunction with the empirical fMRI data associated with
+viewing several dozen concrete nouns. We compared these models with several
+other models that use word features extracted from FastText, Randomly-generated
+features, Mitchell's 25 features [1]. The experimental results show that the
+predicted fMRI images using Meta-Embeddings meet the state-of-the-art
+performance. Although models with features from GloVe and Word2Vec predict fMRI
+images similar to the state-of-the-art model, model with features from
+Meta-Embeddings predicts significantly better. The proposed scheme that uses
+popular linguistic encoding offers a simple and easy approach for semantic
+decoding from fMRI experiments.

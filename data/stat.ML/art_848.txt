@@ -1,0 +1,12 @@
+Cross-validation based Nonlinear Shrinkage
+Many machine learning algorithms require precise estimates of covariance
+matrices. The sample covariance matrix performs poorly in high-dimensional
+settings, which has stimulated the development of alternative methods, the
+majority based on factor models and shrinkage. Recent work of Ledoit and Wolf
+has extended the shrinkage framework to Nonlinear Shrinkage (NLS), a more
+powerful covariance estimator based on Random Matrix Theory.
+  Our contribution shows that, contrary to claims in the literature,
+cross-validation based covariance matrix estimation (CVC) yields comparable
+performance at strongly reduced complexity and runtime. On two real world data
+sets, we show that the CVC estimator yields superior results than competing
+shrinkage and factor based methods.

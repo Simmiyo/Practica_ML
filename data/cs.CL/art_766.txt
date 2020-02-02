@@ -1,0 +1,12 @@
+Radical-Enhanced Chinese Character Embedding
+We present a method to leverage radical for learning Chinese character
+embedding. Radical is a semantic and phonetic component of Chinese character.
+It plays an important role as characters with the same radical usually have
+similar semantic meaning and grammatical usage. However, existing Chinese
+processing algorithms typically regard word or character as the basic unit but
+ignore the crucial radical information. In this paper, we fill this gap by
+leveraging radical for learning continuous representation of Chinese character.
+We develop a dedicated neural architecture to effectively learn character
+embedding and apply it on Chinese character similarity judgement and Chinese
+word segmentation. Experiment results show that our radical-enhanced method
+outperforms existing embedding learning algorithms on both tasks.

@@ -1,0 +1,23 @@
+A mean-field model for conductance-based networks of adaptive
+  exponential integrate-and-fire neurons
+Voltage-sensitive dye imaging (VSDi) has revealed fundamental properties of
+neocortical processing at mesoscopic scales. Since VSDi signals report the
+average membrane potential, it seems natural to use a mean-field formalism to
+model such signals. Here, we investigate a mean-field model of networks of
+Adaptive Exponential (AdEx) integrate-and-fire neurons, with conductance-based
+synaptic interactions. The AdEx model can capture the spiking response of
+different cell types, such as regular-spiking (RS) excitatory neurons and
+fast-spiking (FS) inhibitory neurons. We use a Master Equation formalism,
+together with a semi-analytic approach to the transfer function of AdEx
+neurons. We compare the predictions of this mean-field model to simulated
+networks of RS-FS cells, first at the level of the spontaneous activity of the
+network, which is well predicted by the mean-field model. Second, we
+investigate the response of the network to time-varying external input, and
+show that the mean-field model accurately predicts the response time course of
+the population. One notable exception was that the "tail" of the response at
+long times was not well predicted, because the mean-field does not include
+adaptation mechanisms. We conclude that the Master Equation formalism can yield
+mean-field models that predict well the behavior of nonlinear networks with
+conductance-based interactions and various electrophysiolgical properties, and
+should be a good candidate to model VSDi signals where both excitatory and
+inhibitory neurons contribute.

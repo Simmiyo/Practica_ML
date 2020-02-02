@@ -1,0 +1,23 @@
+Critical comments on EEG sensor space dynamical connectivity analysis
+Many different analysis techniques have been developed and applied to EEG
+recordings that allow one to investigate how different brain areas interact.
+One particular class of methods, based on the linear parametric representation
+of multiple interacting time series, is widely used to study causal
+connectivity in the brain. However, the results obtained by these methods
+should be interpreted with great care. The goal of this paper is to show, both
+theoretically and using simulations, that results obtained by applying causal
+connectivity measures on the sensor (scalp) time series do not allow
+interpretation in terms of interacting brain sources. This is because 1) the
+channel locations cannot be seen as an approximation of a source's anatomical
+location and 2) spurious connectivity can occur between sensors. Although many
+measures of causal connectivity derived from EEG sensor time series are
+affected by the latter, here we will focus on the well-known time domain index
+of Granger causality (GC) and on the frequency domain directed transfer
+function (DTF). Using the state-space framework and designing two simulation
+studies we show that mixing effects caused by volume conduction can lead to
+spurious connections, detected either by time domain GC or by DTF. Therefore,
+GC/DTF causal connectivity measures should be computed at the source level, or
+derived within analysis frameworks that model the effects of volume conduction.
+Since mixing effects can also occur in the source space, it is advised to
+combine source space analysis with connectivity measures that are robust to
+mixing.

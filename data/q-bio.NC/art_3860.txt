@@ -1,0 +1,17 @@
+Introducing numerical bounds to improve event-based neural network
+  simulation
+Although the spike-trains in neural networks are mainly constrained by the
+neural dynamics itself, global temporal constraints (refractoriness, time
+precision, propagation delays, ..) are also to be taken into account. These
+constraints are revisited in this paper in order to use them in event-based
+simulation paradigms.
+  We first review these constraints, and discuss their consequences at the
+simulation level, showing how event-based simulation of time-constrained
+networks can be simplified in this context: the underlying data-structures are
+strongly simplified, while event-based and clock-based mechanisms can be easily
+mixed. These ideas are applied to punctual conductance-based generalized
+integrate-and-fire neural networks simulation, while spike-response model
+simulations are also revisited within this framework.
+  As an outcome, a fast minimal complementary alternative with respect to
+existing simulation event-based methods, with the possibility to simulate
+interesting neuron models is implemented and experimented.

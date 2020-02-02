@@ -1,0 +1,14 @@
+Non-Stationary Gaussian Process Regression with Hamiltonian Monte Carlo
+We present a novel approach for fully non-stationary Gaussian process
+regression (GPR), where all three key parameters -- noise variance, signal
+variance and lengthscale -- can be simultaneously input-dependent. We develop
+gradient-based inference methods to learn the unknown function and the
+non-stationary model parameters, without requiring any model approximations. We
+propose to infer full parameter posterior with Hamiltonian Monte Carlo (HMC),
+which conveniently extends the analytical gradient-based GPR learning by
+guiding the sampling with model gradients. We also learn the MAP solution from
+the posterior by gradient ascent. In experiments on several synthetic datasets
+and in modelling of temporal gene expression, the nonstationary GPR is shown to
+be necessary for modeling realistic input-dependent dynamics, while it performs
+comparably to conventional stationary or previous non-stationary GPR models
+otherwise.

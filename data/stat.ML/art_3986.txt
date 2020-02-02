@@ -1,0 +1,17 @@
+Adaptive regularization for Lasso models in the context of
+  non-stationary data streams
+Large scale, streaming datasets are ubiquitous in modern machine learning.
+Streaming algorithms must be scalable, amenable to incremental training and
+robust to the presence of non-stationarity. In this work consider the problem
+of learning $\ell_1$ regularized linear models in the context of streaming
+data. In particular, the focus of this work revolves around how to select the
+regularization parameter when data arrives sequentially and the underlying
+distribution is non-stationary (implying the choice of optimal regularization
+parameter is itself time-varying). We propose a framework through which to
+infer an adaptive regularization parameter. Our approach employs an $\ell_1$
+penalty constraint where the corresponding sparsity parameter is iteratively
+updated via stochastic gradient descent. This serves to reformulate the choice
+of regularization parameter in a principled framework for online learning. The
+proposed method is derived for linear regression and subsequently extended to
+generalized linear models. We validate our approach using simulated and real
+datasets and present an application to a neuroimaging dataset.

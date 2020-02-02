@@ -1,0 +1,25 @@
+Reliability-based design optimization using kriging surrogates and
+  subset simulation
+The aim of the present paper is to develop a strategy for solving
+reliability-based design optimization (RBDO) problems that remains applicable
+when the performance models are expensive to evaluate. Starting with the
+premise that simulation-based approaches are not affordable for such problems,
+and that the most-probable-failure-point-based approaches do not permit to
+quantify the error on the estimation of the failure probability, an approach
+based on both metamodels and advanced simulation techniques is explored. The
+kriging metamodeling technique is chosen in order to surrogate the performance
+functions because it allows one to genuinely quantify the surrogate error. The
+surrogate error onto the limit-state surfaces is propagated to the failure
+probabilities estimates in order to provide an empirical error measure. This
+error is then sequentially reduced by means of a population-based adaptive
+refinement technique until the kriging surrogates are accurate enough for
+reliability analysis. This original refinement strategy makes it possible to
+add several observations in the design of experiments at the same time.
+Reliability and reliability sensitivity analyses are performed by means of the
+subset simulation technique for the sake of numerical efficiency. The adaptive
+surrogate-based strategy for reliability estimation is finally involved into a
+classical gradient-based optimization algorithm in order to solve the RBDO
+problem. The kriging surrogates are built in a so-called augmented reliability
+space thus making them reusable from one nested RBDO iteration to the other.
+The strategy is compared to other approaches available in the literature on
+three academic examples in the field of structural mechanics.

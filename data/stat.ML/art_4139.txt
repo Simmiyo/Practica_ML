@@ -1,0 +1,22 @@
+Robust Online Multi-Task Learning with Correlative and Personalized
+  Structures
+Multi-Task Learning (MTL) can enhance a classifier's generalization
+performance by learning multiple related tasks simultaneously. Conventional MTL
+works under the offline or batch setting, and suffers from expensive training
+cost and poor scalability. To address such inefficiency issues, online learning
+techniques have been applied to solve MTL problems. However, most existing
+algorithms of online MTL constrain task relatedness into a presumed structure
+via a single weight matrix, which is a strict restriction that does not always
+hold in practice. In this paper, we propose a robust online MTL framework that
+overcomes this restriction by decomposing the weight matrix into two
+components: the first one captures the low-rank common structure among tasks
+via a nuclear norm and the second one identifies the personalized patterns of
+outlier tasks via a group lasso. Theoretical analysis shows the proposed
+algorithm can achieve a sub-linear regret with respect to the best linear model
+in hindsight. Even though the above framework achieves good performance, the
+nuclear norm that simply adds all nonzero singular values together may not be a
+good low-rank approximation. To improve the results, we use a log-determinant
+function as a non-convex rank approximation. The gradient scheme is applied to
+optimize log-determinant function and can obtain a closed-form solution for
+this refined problem. Experimental results on a number of real-world
+applications verify the efficacy of our method.

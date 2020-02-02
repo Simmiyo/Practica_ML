@@ -1,0 +1,19 @@
+Ensembles of phalanxes across assessment metrics for robust ranking of
+  homologous proteins
+Two proteins are homologous if they have a common evolutionary origin, and
+the binary classification problem is to identify proteins in a candidate set
+that are homologous to a particular native protein. The feature (explanatory)
+variables available for classification are various measures of similarity of
+proteins. There are multiple classification problems of this type for different
+native proteins and their respective candidate sets. Homologous proteins are
+rare in a single candidate set, giving a highly unbalanced two-class problem.
+The goal is to rank proteins in a candidate set according to the probability of
+being homologous to the set's native protein. An ideal classifier will place
+all the homologous proteins at the head of such a list. Our approach uses an
+ensemble of models in a classifier and an ensemble of assessment metrics. For a
+given metric a classifier combines models, each based on a subset of the
+available feature variables which we call phalanxes. The proposed ensemble of
+phalanxes identifies strong and diverse subsets of feature variables. A second
+phase of ensembling aggregates classifiers based on diverse evaluation metrics.
+The overall result is called an ensemble of phalanxes and metrics. It provide
+robustness against both close and distant homologues.

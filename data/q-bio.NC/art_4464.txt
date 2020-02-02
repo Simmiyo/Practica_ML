@@ -1,0 +1,29 @@
+Computational Tradeoffs in Biological Neural Networks: Self-Stabilizing
+  Winner-Take-All Networks
+We initiate a line of investigation into biological neural networks from an
+algorithmic perspective. We develop a simplified but biologically plausible
+model for distributed computation in stochastic spiking neural networks and
+study tradeoffs between computation time and network complexity in this model.
+Our aim is to abstract real neural networks in a way that, while not capturing
+all interesting features, preserves high-level behavior and allows us to make
+biologically relevant conclusions.
+  In this paper, we focus on the important `winner-take-all' (WTA) problem,
+which is analogous to a neural leader election unit: a network consisting of
+$n$ input neurons and $n$ corresponding output neurons must converge to a state
+in which a single output corresponding to a firing input (the `winner') fires,
+while all other outputs remain silent. Neural circuits for WTA rely on
+inhibitory neurons, which suppress the activity of competing outputs and drive
+the network towards a converged state with a single firing winner. We attempt
+to understand how the number of inhibitors used affects network convergence
+time.
+  We show that it is possible to significantly outperform naive WTA
+constructions through a more refined use of inhibition, solving the problem in
+$O(\theta)$ rounds in expectation with just $O(\log^{1/\theta} n)$ inhibitors
+for any $\theta$. An alternative construction gives convergence in
+$O(\log^{1/\theta} n)$ rounds with $O(\theta)$ inhibitors. We compliment these
+upper bounds with our main technical contribution, a nearly matching lower
+bound for networks using $\ge \log\log n$ inhibitors. Our lower bound uses
+familiar indistinguishability and locality arguments from distributed computing
+theory. It lets us derive a number of interesting conclusions about the
+structure of any network solving WTA with good probability, and the use of
+randomness and inhibition within such a network.

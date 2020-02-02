@@ -1,0 +1,13 @@
+Positivity and Transportation
+We prove in this paper that the weighted volume of the set of integral
+transportation matrices between two integral histograms r and c of equal sum is
+a positive definite kernel of r and c when the set of considered weights forms
+a positive definite matrix. The computation of this quantity, despite being the
+subject of a significant research effort in algebraic statistics, remains an
+intractable challenge for histograms of even modest dimensions. We propose an
+alternative kernel which, rather than considering all matrices of the
+transportation polytope, only focuses on a sub-sample of its vertices known as
+its Northwestern corner solutions. The resulting kernel is positive definite
+and can be computed with a number of operations O(R^2d) that grows linearly in
+the complexity of the dimension d, where R^2, the total amount of sampled
+vertices, is a parameter that controls the complexity of the kernel.

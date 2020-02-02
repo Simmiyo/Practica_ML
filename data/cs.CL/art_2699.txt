@@ -1,0 +1,11 @@
+Single-Queue Decoding for Neural Machine Translation
+Neural machine translation models rely on the beam search algorithm for
+decoding. In practice, we found that the quality of hypotheses in the search
+space is negatively affected owing to the fixed beam size. To mitigate this
+problem, we store all hypotheses in a single priority queue and use a universal
+score function for hypothesis selection. The proposed algorithm is more
+flexible as the discarded hypotheses can be revisited in a later step. We
+further design a penalty function to punish the hypotheses that tend to produce
+a final translation that is much longer or shorter than expected. Despite its
+simplicity, we show that the proposed decoding algorithm is able to select
+hypotheses with better qualities and improve the translation performance.

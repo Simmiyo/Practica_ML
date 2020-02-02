@@ -1,0 +1,13 @@
+A Variational Bayes Approach to Decoding in a Phase-Uncertain Digital
+  Receiver
+This paper presents a Bayesian approach to symbol and phase inference in a
+phase-unsynchronized digital receiver. It primarily extends [Quinn 2011] to the
+multi-symbol case, using the variational Bayes (VB) approximation to deal with
+the combinatorial complexity of the phase inference in this case. The work
+provides a fully Bayesian extension of the EM-based framework underlying
+current turbo-synchronization methods, since it induces a von Mises prior on
+the time-invariant phase parmeter. As a result, we achieve tractable iterative
+algorithms with improved robustness in low SNR regimes, compared to the current
+EM-based approaches. As a corollary to our analysis we also discover the
+importance of prior regularization in elegantly tackling the significant
+problem of phase ambiguity.

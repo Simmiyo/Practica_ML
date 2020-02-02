@@ -1,0 +1,17 @@
+Efficient sampling of Gaussian graphical models using conditional Bayes
+  factors
+Bayesian estimation of Gaussian graphical models has proven to be challenging
+because the conjugate prior distribution on the Gaussian precision matrix, the
+G-Wishart distribution, has a doubly intractable partition function. Recent
+developments provide a direct way to sample from the G-Wishart distribution,
+which allows for more efficient algorithms for model selection than previously
+possible. Still, estimating Gaussian graphical models with more than a handful
+of variables remains a nearly infeasible task. Here, we propose two novel
+algorithms that use the direct sampler to more efficiently approximate the
+posterior distribution of the Gaussian graphical model. The first algorithm
+uses conditional Bayes factors to compare models in a Metropolis-Hastings
+framework. The second algorithm is based on a continuous time Markov process.
+We show that both algorithms are substantially faster than state-of-the-art
+alternatives. Finally, we show how the algorithms may be used to simultaneously
+estimate both structural and functional connectivity between subcortical brain
+regions using resting-state fMRI.

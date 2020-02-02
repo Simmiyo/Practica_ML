@@ -1,0 +1,11 @@
+Bandits with heavy tail
+The stochastic multi-armed bandit problem is well understood when the reward
+distributions are sub-Gaussian. In this paper we examine the bandit problem
+under the weaker assumption that the distributions have moments of order
+1+\epsilon, for some $\epsilon \in (0,1]$. Surprisingly, moments of order 2
+(i.e., finite variance) are sufficient to obtain regret bounds of the same
+order as under sub-Gaussian reward distributions. In order to achieve such
+regret, we define sampling strategies based on refined estimators of the mean
+such as the truncated empirical mean, Catoni's M-estimator, and the
+median-of-means estimator. We also derive matching lower bounds that also show
+that the best achievable regret deteriorates when \epsilon <1.

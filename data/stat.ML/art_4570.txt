@@ -1,0 +1,19 @@
+Nonparametric semi-supervised learning of class proportions
+The problem of developing binary classifiers from positive and unlabeled data
+is often encountered in machine learning. A common requirement in this setting
+is to approximate posterior probabilities of positive and negative classes for
+a previously unseen data point. This problem can be decomposed into two steps:
+(i) the development of accurate predictors that discriminate between positive
+and unlabeled data, and (ii) the accurate estimation of the prior probabilities
+of positive and negative examples. In this work we primarily focus on the
+latter subproblem. We study nonparametric class prior estimation and formulate
+this problem as an estimation of mixing proportions in two-component mixture
+models, given a sample from one of the components and another sample from the
+mixture itself. We show that estimation of mixing proportions is generally
+ill-defined and propose a canonical form to obtain identifiability while
+maintaining the flexibility to model any distribution. We use insights from
+this theory to elucidate the optimization surface of the class priors and
+propose an algorithm for estimating them. To address the problems of
+high-dimensional density estimation, we provide practical transformations to
+low-dimensional spaces that preserve class priors. Finally, we demonstrate the
+efficacy of our method on univariate and multivariate data.

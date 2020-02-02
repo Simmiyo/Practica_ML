@@ -1,0 +1,17 @@
+Backpropagating through Structured Argmax using a SPIGOT
+We introduce the structured projection of intermediate gradients optimization
+technique (SPIGOT), a new method for backpropagating through neural networks
+that include hard-decision structured predictions (e.g., parsing) in
+intermediate layers. SPIGOT requires no marginal inference, unlike structured
+attention networks (Kim et al., 2017) and some reinforcement learning-inspired
+solutions (Yogatama et al., 2017). Like so-called straight-through estimators
+(Hinton, 2012), SPIGOT defines gradient-like quantities associated with
+intermediate nondifferentiable operations, allowing backpropagation before and
+after them; SPIGOT's proxy aims to ensure that, after a parameter update, the
+intermediate structure will remain well-formed.
+  We experiment on two structured NLP pipelines: syntactic-then-semantic
+dependency parsing, and semantic parsing followed by sentiment classification.
+We show that training with SPIGOT leads to a larger improvement on the
+downstream task than a modularly-trained pipeline, the straight-through
+estimator, and structured attention, reaching a new state of the art on
+semantic dependency parsing.

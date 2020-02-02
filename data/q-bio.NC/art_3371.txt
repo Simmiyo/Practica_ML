@@ -1,0 +1,24 @@
+Cross-paradigm pretraining of convolutional networks improves
+  intracranial EEG decoding
+When it comes to the classification of brain signals in real-life
+applications, the training and the prediction data are often described by
+different distributions. Furthermore, diverse data sets, e.g., recorded from
+various subjects or tasks, can even exhibit distinct feature spaces. The fact
+that data that have to be classified are often only available in small amounts
+reinforces the need for techniques to generalize learned information, as
+performances of brain-computer interfaces (BCIs) are enhanced by increasing
+quantity of available data. In this paper, we apply transfer learning to a
+framework based on deep convolutional neural networks (deep ConvNets) to prove
+the transferability of learned patterns in error-related brain signals across
+different tasks. The experiments described in this paper demonstrate the
+usefulness of transfer learning, especially improving performances when only
+little data can be used to distinguish between erroneous and correct
+realization of a task. This effect could be delimited from a transfer of merely
+general brain signal characteristics, underlining the transfer of
+error-specific information. Furthermore, we could extract similar patterns in
+time-frequency analyses in identical channels, leading to selective high signal
+correlations between the two different paradigms. Classification on the
+intracranial data yields in median accuracies up to $(81.50 \pm 9.49)\,\%$.
+Decoding on only $10\%$ of the data without pre-training reaches performances
+of $(54.76 \pm 3.56)\,\%$, compared to $(64.95 \pm 0.79)\,\%$ with
+pre-training.

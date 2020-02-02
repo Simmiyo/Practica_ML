@@ -1,0 +1,22 @@
+Duality in Graphical Models
+Graphical models have proven to be powerful tools for representing
+high-dimensional systems of random variables. One example of such a model is
+the undirected graph, in which lack of an edge represents conditional
+independence between two random variables given the rest. Another example is
+the bidirected graph, in which absence of edges encodes pairwise marginal
+independence. Both of these classes of graphical models have been extensively
+studied, and while they are considered to be dual to one another, except in a
+few instances this duality has not been thoroughly investigated. In this paper,
+we demonstrate how duality between undirected and bidirected models can be used
+to transport results for one class of graphical models to the dual model in a
+transparent manner. We proceed to apply this technique to extend previously
+existing results as well as to prove new ones, in three important domains.
+First, we discuss the pairwise and global Markov properties for undirected and
+bidirected models, using the pseudographoid and reverse-pseudographoid rules
+which are weaker conditions than the typically used intersection and
+composition rules. Second, we investigate these pseudographoid and reverse
+pseudographoid rules in the context of probability distributions, using the
+concept of duality in the process. Duality allows us to quickly relate them to
+the more familiar intersection and composition properties. Third and finally,
+we apply the dualization method to understand the implications of faithfulness,
+which in turn leads to a more general form of an existing result.

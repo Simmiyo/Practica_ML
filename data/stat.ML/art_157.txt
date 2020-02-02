@@ -1,0 +1,11 @@
+Robustness of Anytime Bandit Policies
+This paper studies the deviations of the regret in a stochastic multi-armed
+bandit problem. When the total number of plays n is known beforehand by the
+agent, Audibert et al. (2009) exhibit a policy such that with probability at
+least 1-1/n, the regret of the policy is of order log(n). They have also shown
+that such a property is not shared by the popular ucb1 policy of Auer et al.
+(2002). This work first answers an open question: it extends this negative
+result to any anytime policy. The second contribution of this paper is to
+design anytime robust policies for specific multi-armed bandit problems in
+which some restrictions are put on the set of possible distributions of the
+different arms.

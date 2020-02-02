@@ -1,0 +1,19 @@
+How to evaluate word embeddings? On importance of data efficiency and
+  simple supervised tasks
+Maybe the single most important goal of representation learning is making
+subsequent learning faster. Surprisingly, this fact is not well reflected in
+the way embeddings are evaluated. In addition, recent practice in word
+embeddings points towards importance of learning specialized representations.
+We argue that focus of word representation evaluation should reflect those
+trends and shift towards evaluating what useful information is easily
+accessible. Specifically, we propose that evaluation should focus on data
+efficiency and simple supervised tasks, where the amount of available data is
+varied and scores of a supervised model are reported for each subset (as
+commonly done in transfer learning).
+  In order to illustrate significance of such analysis, a comprehensive
+evaluation of selected word embeddings is presented. Proposed approach yields a
+more complete picture and brings new insight into performance characteristics,
+for instance information about word similarity or analogy tends to be
+non--linearly encoded in the embedding space, which questions the cosine-based,
+unsupervised, evaluation methods. All results and analysis scripts are
+available online.

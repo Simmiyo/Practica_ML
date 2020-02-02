@@ -1,0 +1,10 @@
+liquidSVM: A Fast and Versatile SVM package
+liquidSVM is a package written in C++ that provides SVM-type solvers for
+various classification and regression tasks. Because of a fully integrated
+hyper-parameter selection, very carefully implemented solvers, multi-threading
+and GPU support, and several built-in data decomposition strategies it provides
+unprecedented speed for small training sizes as well as for data sets of tens
+of millions of samples. Besides the C++ API and a command line interface,
+bindings to R, MATLAB, Java, Python, and Spark are available. We present a
+brief description of the package and report experimental comparisons to other
+SVM packages.

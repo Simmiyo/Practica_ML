@@ -1,0 +1,23 @@
+Reconstructing Faces from fMRI Patterns using Deep Generative Neural
+  Networks
+While objects from different categories can be reliably decoded from fMRI
+brain response patterns, it has proved more difficult to distinguish visually
+similar inputs, such as different instances of the same category. Here, we
+apply a recently developed deep learning system to the reconstruction of face
+images from human fMRI patterns. We trained a variational auto-encoder (VAE)
+neural network using a GAN (Generative Adversarial Network) unsupervised
+training procedure over a large dataset of celebrity faces. The auto-encoder
+latent space provides a meaningful, topologically organized 1024-dimensional
+description of each image. We then presented several thousand face images to
+human subjects, and learned a simple linear mapping between the multi-voxel
+fMRI activation patterns and the 1024 latent dimensions. Finally, we applied
+this mapping to novel test images, turning the obtained fMRI patterns into VAE
+latent codes, and ultimately the codes into face reconstructions. Qualitative
+and quantitative evaluation of the reconstructions revealed robust pairwise
+decoding (>95% correct), and a strong improvement relative to a baseline model
+(PCA decomposition). Furthermore, this brain decoding model can readily be
+recycled to probe human face perception along many dimensions of interest; for
+example, the technique allowed for accurate gender classification, and even to
+decode which face was imagined, rather than seen by the subject. We hypothesize
+that the latent space of modern deep learning generative models could serve as
+a valid approximation for human brain representations.

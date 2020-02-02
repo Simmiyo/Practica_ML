@@ -1,0 +1,17 @@
+Fast and Accurate Multiclass Inference for MI-BCIs Using Large
+  Multiscale Temporal and Spectral Features
+Accurate, fast, and reliable multiclass classification of
+electroencephalography (EEG) signals is a challenging task towards the
+development of motor imagery brain-computer interface (MI-BCI) systems. We
+propose enhancements to different feature extractors, along with a support
+vector machine (SVM) classifier, to simultaneously improve classification
+accuracy and execution time during training and testing. We focus on the
+well-known common spatial pattern (CSP) and Riemannian covariance methods, and
+significantly extend these two feature extractors to multiscale temporal and
+spectral cases. The multiscale CSP features achieve 73.70$\pm$15.90% (mean$\pm$
+standard deviation across 9 subjects) classification accuracy that surpasses
+the state-of-the-art method [1], 70.6$\pm$14.70%, on the 4-class BCI
+competition IV-2a dataset. The Riemannian covariance features outperform the
+CSP by achieving 74.27$\pm$15.5% accuracy and executing 9x faster in training
+and 4x faster in testing. Using more temporal windows for Riemannian features
+results in 75.47$\pm$12.8% accuracy with 1.6x faster testing than CSP.

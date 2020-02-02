@@ -1,0 +1,21 @@
+Comparison of feature extraction and dimensionality reduction methods
+  for single channel extracellular spike sorting
+Spikes in the membrane electrical potentials of neurons play a major role in
+the functioning of nervous systems of animals. Obtaining the spikes from
+different neurons has been a challenging problem for decades. Several schemes
+have been proposed for spike sorting to isolate the spikes of individual
+neurons from electrical recordings in extracellular media. However, there is
+much scope for improvement in the accuracies obtained using the prevailing
+methods of spike sorting. To determine more effective spike sorting strategies
+using well known methods, we compared different types of signal features and
+techniques for dimensionality reduction in feature space. We tried to determine
+an optimum or near optimum feature extraction and dimensionality reduction
+methods and an optimum or near optimum number of features for spike sorting. We
+assessed relative performance of well known methods on simulated recordings
+specially designed for development and benchmarking of spike sorting schemes,
+with varying number of spike classes and the well established method of
+$k$-means clustering of selected features. We found that almost all well known
+methods performed quite well. Nevertheless, from spike waveforms of 64 samples,
+sampled at 24 kHz, using principal component analysis (PCA) to select around 46
+to 55 features led to the better spike sorting performance than most other
+methods (Wilcoxon signed rank sum test, $p < 0.001$).

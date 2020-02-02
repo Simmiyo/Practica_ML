@@ -1,0 +1,12 @@
+Dropout Rademacher Complexity of Deep Neural Networks
+Great successes of deep neural networks have been witnessed in various real
+applications. Many algorithmic and implementation techniques have been
+developed, however, theoretical understanding of many aspects of deep neural
+networks is far from clear. A particular interesting issue is the usefulness of
+dropout, which was motivated from the intuition of preventing complex
+co-adaptation of feature detectors. In this paper, we study the Rademacher
+complexity of different types of dropout, and our theoretical results disclose
+that for shallow neural networks (with one or none hidden layer) dropout is
+able to reduce the Rademacher complexity in polynomial, whereas for deep neural
+networks it can amazingly lead to an exponential reduction of the Rademacher
+complexity.

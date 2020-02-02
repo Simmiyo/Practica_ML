@@ -1,0 +1,15 @@
+Cascading Bandits for Large-Scale Recommendation Problems
+Most recommender systems recommend a list of items. The user examines the
+list, from the first item to the last, and often chooses the first attractive
+item and does not examine the rest. This type of user behavior can be modeled
+by the cascade model. In this work, we study cascading bandits, an online
+learning variant of the cascade model where the goal is to recommend $K$ most
+attractive items from a large set of $L$ candidate items. We propose two
+algorithms for solving this problem, which are based on the idea of linear
+generalization. The key idea in our solutions is that we learn a predictor of
+the attraction probabilities of items from their features, as opposing to
+learning the attraction probability of each item independently as in the
+existing work. This results in practical learning algorithms whose regret does
+not depend on the number of items $L$. We bound the regret of one algorithm and
+comprehensively evaluate the other on a range of recommendation problems. The
+algorithm performs well and outperforms all baselines.

@@ -1,0 +1,20 @@
+Brain Biomarker Interpretation in ASD Using Deep Learning and fMRI
+Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder.
+Finding the biomarkers associated with ASD is extremely helpful to understand
+the underlying roots of the disorder and can lead to earlier diagnosis and more
+targeted treatment. Although Deep Neural Networks (DNNs) have been applied in
+functional magnetic resonance imaging (fMRI) to identify ASD, understanding the
+data-driven computational decision making procedure has not been previously
+explored. Therefore, in this work, we address the problem of interpreting
+reliable biomarkers associated with identifying ASD; specifically, we propose a
+2-stage method that classifies ASD and control subjects using fMRI images and
+interprets the saliency features activated by the classifier. First, we trained
+an accurate DNN classifier. Then, for detecting the biomarkers, different from
+the DNN visualization works in computer vision, we take advantage of the
+anatomical structure of brain fMRI and develop a frequency-normalized sampling
+method to corrupt images. Furthermore, in the ASD vs. control subjects
+classification scenario, we provide a new approach to detect and characterize
+important brain features into three categories. The biomarkers we found by the
+proposed method are robust and consistent with previous findings in the
+literature. We also validate the detected biomarkers by neurological function
+decoding and comparing with the DNN activation maps.

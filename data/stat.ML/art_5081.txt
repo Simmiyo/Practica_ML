@@ -1,0 +1,21 @@
+Semi-Supervised Learning via Sparse Label Propagation
+This work proposes a novel method for semi-supervised learning from partially
+labeled massive network-structured datasets, i.e., big data over networks. We
+model the underlying hypothesis, which relates data points to labels, as a
+graph signal, defined over some graph (network) structure intrinsic to the
+dataset. Following the key principle of supervised learning, i.e., similar
+inputs yield similar outputs, we require the graph signals induced by labels to
+have small total variation. Accordingly, we formulate the problem of learning
+the labels of data points as a non-smooth convex optimization problem which
+amounts to balancing between the empirical loss, i.e., the discrepancy with
+some partially available label information, and the smoothness quantified by
+the total variation of the learned graph signal. We solve this optimization
+problem by appealing to a recently proposed preconditioned variant of the
+popular primal-dual method by Pock and Chambolle, which results in a sparse
+label propagation algorithm. This learning algorithm allows for a highly
+scalable implementation as message passing over the underlying data graph. By
+applying concepts of compressed sensing to the learning problem, we are also
+able to provide a transparent sufficient condition on the underlying network
+structure such that accurate learning of the labels is possible. We also
+present an implementation of the message passing formulation allows for a
+highly scalable implementation in big data frameworks.

@@ -1,0 +1,15 @@
+Concatenated Quantum Codes
+One of the main problems for the future of practical quantum computing is to
+stabilize the computation against unwanted interactions with the environment
+and imperfections in the applied operations. Existing proposals for quantum
+memories and quantum channels require gates with asymptotically zero error to
+store or transmit an input quantum state for arbitrarily long times or
+distances with fixed error. In this report a method is given which has the
+property that to store or transmit a qubit with maximum error $\epsilon$
+requires gates with error at most $c\epsilon$ and storage or channel elements
+with error at most $\epsilon$, independent of how long we wish to store the
+state or how far we wish to transmit it. The method relies on using
+concatenated quantum codes with hierarchically implemented recovery operations.
+The overhead of the method is polynomial in the time of storage or the distance
+of the transmission. Rigorous and heuristic lower bounds for the constant $c$
+are given.

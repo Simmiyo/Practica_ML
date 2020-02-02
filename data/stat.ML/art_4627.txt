@@ -1,0 +1,16 @@
+Stabilized Sparse Online Learning for Sparse Data
+Stochastic gradient descent (SGD) is commonly used for optimization in
+large-scale machine learning problems. Langford et al. (2009) introduce a
+sparse online learning method to induce sparsity via truncated gradient. With
+high-dimensional sparse data, however, the method suffers from slow convergence
+and high variance due to the heterogeneity in feature sparsity. To mitigate
+this issue, we introduce a stabilized truncated stochastic gradient descent
+algorithm. We employ a soft-thresholding scheme on the weight vector where the
+imposed shrinkage is adaptive to the amount of information available in each
+feature. The variability in the resulted sparse weight vector is further
+controlled by stability selection integrated with the informative truncation.
+To facilitate better convergence, we adopt an annealing strategy on the
+truncation rate, which leads to a balanced trade-off between exploration and
+exploitation in learning a sparse weight vector. Numerical experiments show
+that our algorithm compares favorably with the original algorithm in terms of
+prediction accuracy, achieved sparsity and stability.

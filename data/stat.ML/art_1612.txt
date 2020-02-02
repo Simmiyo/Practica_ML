@@ -1,0 +1,13 @@
+Matrix Completion from a Few Entries
+Let M be a random (alpha n) x n matrix of rank r<<n, and assume that a
+uniformly random subset E of its entries is observed. We describe an efficient
+algorithm that reconstructs M from |E| = O(rn) observed entries with relative
+root mean square error RMSE <= C(rn/|E|)^0.5 . Further, if r=O(1), M can be
+reconstructed exactly from |E| = O(n log(n)) entries. These results apply
+beyond random matrices to general low-rank incoherent matrices.
+  This settles (in the case of bounded rank) a question left open by Candes and
+Recht and improves over the guarantees for their reconstruction algorithm. The
+complexity of our algorithm is O(|E|r log(n)), which opens the way to its use
+for massive data sets. In the process of proving these statements, we obtain a
+generalization of a celebrated result by Friedman-Kahn-Szemeredi and Feige-Ofek
+on the spectrum of sparse random matrices.

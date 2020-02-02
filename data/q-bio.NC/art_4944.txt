@@ -1,0 +1,23 @@
+Towards Asynchronous Motor Imagery-Based Brain-Computer Interfaces: a
+  joint training scheme using deep learning
+In this paper, the deep learning (DL) approach is applied to a joint training
+scheme for asynchronous motor imagery-based Brain-Computer Interface (BCI). The
+proposed DL approach is a cascade of one-dimensional convolutional neural
+networks and fully-connected neural networks (CNN-FC). The focus is mainly on
+three types of brain responses: non-imagery EEG (\textit{background EEG}),
+(\textit{pure imagery}) EEG, and EEG during the transitional period between
+background EEG and pure imagery (\textit{transitional imagery}). The study of
+transitional imagery signals should provide greater insight into real-world
+scenarios. It may be inferred that pure imagery and transitional EEG are high
+and low power EEG imagery, respectively. Moreover, the results from the CNN-FC
+are compared to the conventional approach for motor imagery-BCI, namely the
+common spatial pattern (CSP) for feature extraction and support vector machine
+(SVM) for classification (CSP-SVM). Under a joint training scheme, pure and
+transitional imagery are treated as the same class, while background EEG is
+another class. Ten-fold cross-validation is used to evaluate whether the joint
+training scheme significantly improves the performance task of classifying pure
+and transitional imagery signals from background EEG. Using sparse of just a
+few electrode channels ($C_{z}$, $C_{3}$ and $C_{4}$), mean accuracy reaches
+71.52 % and 70.27 % for CNN-FC and CSP-SVM, respectively. On the other hand,
+mean accuracy without the joint training scheme achieve only 62.68 % and 52.41
+% for CNN-FC and CSP-SVM, respectively.

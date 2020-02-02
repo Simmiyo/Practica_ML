@@ -1,0 +1,27 @@
+Online Algorithms For Parameter Mean And Variance Estimation In Dynamic
+  Regression Models
+We study the problem of estimating the parameters of a regression model from
+a set of observations, each consisting of a response and a predictor. The
+response is assumed to be related to the predictor via a regression model of
+unknown parameters. Often, in such models the parameters to be estimated are
+assumed to be constant. Here we consider the more general scenario where the
+parameters are allowed to evolve over time, a more natural assumption for many
+applications. We model these dynamics via a linear update equation with
+additive noise that is often used in a wide range of engineering applications,
+particularly in the well-known and widely used Kalman filter (where the system
+state it seeks to estimate maps to the parameter values here). We derive an
+approximate algorithm to estimate both the mean and the variance of the
+parameter estimates in an online fashion for a generic regression model. This
+algorithm turns out to be equivalent to the extended Kalman filter. We
+specialize our algorithm to the multivariate exponential family distribution to
+obtain a generalization of the generalized linear model (GLM). Because the
+common regression models encountered in practice such as logistic, exponential
+and multinomial all have observations modeled through an exponential family
+distribution, our results are used to easily obtain algorithms for online mean
+and variance parameter estimation for all these regression models in the
+context of time-dependent parameters. Lastly, we propose to use these
+algorithms in the contextual multi-armed bandit scenario, where so far model
+parameters are assumed static and observations univariate and Gaussian or
+Bernoulli. Both of these restrictions can be relaxed using the algorithms
+described here, which we combine with Thompson sampling to show the resulting
+performance on a simulation.

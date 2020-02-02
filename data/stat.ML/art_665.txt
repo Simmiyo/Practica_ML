@@ -1,0 +1,16 @@
+Sélection de variables par le GLM-Lasso pour la prédiction du risque
+  palustre
+In this study, we propose an automatic learning method for variables
+selection based on Lasso in epidemiology context. One of the aim of this
+approach is to overcome the pretreatment of experts in medicine and
+epidemiology on collected data. These pretreatment consist in recoding some
+variables and to choose some interactions based on expertise. The approach
+proposed uses all available explanatory variables without treatment and
+generate automatically all interactions between them. This lead to high
+dimension. We use Lasso, one of the robust methods of variable selection in
+high dimension. To avoid over fitting a two levels cross-validation is used.
+Because the target variable is account variable and the lasso estimators are
+biased, variables selected by lasso are debiased by a GLM and used to predict
+the distribution of the main vector of malaria which is Anopheles. Results show
+that only few climatic and environmental variables are the mains factors
+associated to the malaria risk exposure.

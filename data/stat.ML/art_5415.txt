@@ -1,0 +1,16 @@
+Classification of COPD with Multiple Instance Learning
+Chronic obstructive pulmonary disease (COPD) is a lung disease where early
+detection benefits the survival rate. COPD can be quantified by classifying
+patches of computed tomography images, and combining patch labels into an
+overall diagnosis for the image. As labeled patches are often not available,
+image labels are propagated to the patches, incorrectly labeling healthy
+patches in COPD patients as being affected by the disease. We approach
+quantification of COPD from lung images as a multiple instance learning (MIL)
+problem, which is more suitable for such weakly labeled data. We investigate
+various MIL assumptions in the context of COPD and show that although a concept
+region with COPD-related disease patterns is present, considering the whole
+distribution of lung tissue patches improves the performance. The best method
+is based on averaging instances and obtains an AUC of 0.742, which is higher
+than the previously reported best of 0.713 on the same dataset. Using the full
+training set further increases performance to 0.776, which is significantly
+higher (DeLong test) than previous results.

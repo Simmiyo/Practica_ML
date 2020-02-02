@@ -1,0 +1,18 @@
+A Tutorial on Online Supervised Learning with Applications to Node
+  Classification in Social Networks
+We revisit the elegant observation of T. Cover '65 which, perhaps, is not as
+well-known to the broader community as it should be. The first goal of the
+tutorial is to explain---through the prism of this elementary result---how to
+solve certain sequence prediction problems by modeling sets of solutions rather
+than the unknown data-generating mechanism. We extend Cover's observation in
+several directions and focus on computational aspects of the proposed
+algorithms. The applicability of the methods is illustrated on several
+examples, including node classification in a network.
+  The second aim of this tutorial is to demonstrate the following phenomenon:
+it is possible to predict as well as a combinatorial "benchmark" for which we
+have a certain multiplicative approximation algorithm, even if the exact
+computation of the benchmark given all the data is NP-hard. The proposed
+prediction methods, therefore, circumvent some of the computational
+difficulties associated with finding the best model given the data. These
+difficulties arise rather quickly when one attempts to develop a probabilistic
+model for graph-based or other problems with a combinatorial structure.

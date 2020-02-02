@@ -1,0 +1,17 @@
+A Probabilistic Adaptive Search System for Exploring the Face Space
+Face recall is a basic human cognitive process performed routinely, e.g.,
+when meeting someone and determining if we have met that person before.
+Assisting a subject during face recall by suggesting candidate faces can be
+challenging. One of the reasons is that the search space - the face space - is
+quite large and lacks structure. A commercial application of face recall is
+facial composite systems - such as Identikit, PhotoFIT, and CD-FIT - where a
+witness searches for an image of a face that resembles his memory of a
+particular offender. The inherent uncertainty and cost in the evaluation of the
+objective function, the large size and lack of structure of the search space,
+and the unavailability of the gradient concept makes this problem inappropriate
+for traditional optimization methods. In this paper we propose a novel
+evolutionary approach for searching the face space that can be used as a facial
+composite system. The approach is inspired by methods of Bayesian optimization
+and differs from other applications in the use of the skew-normal distribution
+as its acquisition function. This choice of acquisition function provides
+greater granularity, with regularized, conservative, and realistic results.

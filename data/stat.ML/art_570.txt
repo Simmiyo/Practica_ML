@@ -1,0 +1,20 @@
+A Parzen-based distance between probability measures as an alternative
+  of summary statistics in Approximate Bayesian Computation
+Approximate Bayesian Computation (ABC) are likelihood-free Monte Carlo
+methods. ABC methods use a comparison between simulated data, using different
+parameters drew from a prior distribution, and observed data. This comparison
+process is based on computing a distance between the summary statistics from
+the simulated data and the observed data. For complex models, it is usually
+difficult to define a methodology for choosing or constructing the summary
+statistics. Recently, a nonparametric ABC has been proposed, that uses a
+dissimilarity measure between discrete distributions based on empirical kernel
+embeddings as an alternative for summary statistics. The nonparametric ABC
+outperforms other methods including ABC, kernel ABC or synthetic likelihood
+ABC. However, it assumes that the probability distributions are discrete, and
+it is not robust when dealing with few observations. In this paper, we propose
+to apply kernel embeddings using an smoother density estimator or Parzen
+estimator for comparing the empirical data distributions, and computing the ABC
+posterior. Synthetic data and real data were used to test the Bayesian
+inference of our method. We compare our method with respect to state-of-the-art
+methods, and demonstrate that our method is a robust estimator of the posterior
+distribution in terms of the number of observations.

@@ -1,0 +1,13 @@
+High Dimensional Multivariate Regression and Precision Matrix Estimation
+  via Nonconvex Optimization
+We propose a nonconvex estimator for joint multivariate regression and
+precision matrix estimation in the high dimensional regime, under sparsity
+constraints. A gradient descent algorithm with hard thresholding is developed
+to solve the nonconvex estimator, and it attains a linear rate of convergence
+to the true regression coefficients and precision matrix simultaneously, up to
+the statistical error. Compared with existing methods along this line of
+research, which have little theoretical guarantee, the proposed algorithm not
+only is computationally much more efficient with provable convergence
+guarantee, but also attains the optimal finite sample statistical rate up to a
+logarithmic factor. Thorough experiments on both synthetic and real datasets
+back up our theory.

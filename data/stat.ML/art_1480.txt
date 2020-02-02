@@ -1,0 +1,8 @@
+Variational Inference over Non-differentiable Cardiac Simulators using
+  Bayesian Optimization
+Performing inference over simulators is generally intractable as their
+runtime means we cannot compute a marginal likelihood. We develop a
+likelihood-free inference method to infer parameters for a cardiac simulator,
+which replicates electrical flow through the heart to the body surface. We
+improve the fit of a state-of-the-art simulator to an electrocardiogram (ECG)
+recorded from a real patient.

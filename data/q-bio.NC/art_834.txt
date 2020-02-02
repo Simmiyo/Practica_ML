@@ -1,0 +1,27 @@
+A Rich Source of Labels for Deep Network Models of the Primate Dorsal
+  Visual Stream
+Deep convolutional neural networks (CNNs) have structures that are loosely
+related to that of the primate visual cortex. Surprisingly, when these networks
+are trained for object classification, the activity of their early,
+intermediate, and later layers becomes closely related to activity patterns in
+corresponding parts of the primate ventral visual stream. The activity
+statistics are far from identical, but perhaps remaining differences can be
+minimized in order to produce artificial networks with highly brain-like
+activity and performance, which would provide a rich source of insight into
+primate vision. One way to align CNN activity more closely with neural activity
+is to add cost functions that directly drive deep layers to approximate neural
+recordings. However, suitably large datasets are particularly difficult to
+obtain for deep structures, such as the primate middle temporal area (MT). To
+work around this barrier, we have developed a rich empirical model of activity
+in MT. The model is pixel-computable, so it can provide an arbitrarily large
+(but approximate) set of labels to better guide learning in the corresponding
+layers of deep networks. Our model approximates a number of MT phenomena more
+closely than previous models. Furthermore, our model approximates population
+statistics in detail through fourteen parameter distributions that we estimated
+from the electrophysiology literature. In general, deep networks with internal
+representations that closely approximate those of the brain may help to clarify
+the mechanisms that produce these representations, and the roles of various
+properties of these representations in performance of vision tasks. Although
+our empirical model inevitably differs from real neural activity, it allows
+tuning properties to be modulated independently, which may allow very detailed
+exploration of the origins and functional roles of these properties.

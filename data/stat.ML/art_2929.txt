@@ -1,0 +1,22 @@
+On the Complexity of Best Arm Identification in Multi-Armed Bandit
+  Models
+The stochastic multi-armed bandit model is a simple abstraction that has
+proven useful in many different contexts in statistics and machine learning.
+Whereas the achievable limit in terms of regret minimization is now well known,
+our aim is to contribute to a better understanding of the performance in terms
+of identifying the m best arms. We introduce generic notions of complexity for
+the two dominant frameworks considered in the literature: fixed-budget and
+fixed-confidence settings. In the fixed-confidence setting, we provide the
+first known distribution-dependent lower bound on the complexity that involves
+information-theoretic quantities and holds when m is larger than 1 under
+general assumptions. In the specific case of two armed-bandits, we derive
+refined lower bounds in both the fixed-confidence and fixed-budget settings,
+along with matching algorithms for Gaussian and Bernoulli bandit models. These
+results show in particular that the complexity of the fixed-budget setting may
+be smaller than the complexity of the fixed-confidence setting, contradicting
+the familiar behavior observed when testing fully specified alternatives. In
+addition, we also provide improved sequential stopping rules that have
+guaranteed error probabilities and shorter average running times. The proofs
+rely on two technical results that are of independent interest : a deviation
+lemma for self-normalized sums (Lemma 19) and a novel change of measure
+inequality for bandit models (Lemma 1).

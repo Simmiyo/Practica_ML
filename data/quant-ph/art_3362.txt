@@ -1,0 +1,14 @@
+On rounds in quantum communication
+We investigate the power of interaction in two player quantum communication
+protocols. Our main result is a rounds-communication hierarchy for the pointer
+jumping function $f_k$. We show that $f_k$ needs quantum communication
+$\Omega(n)$ if Bob starts the communication and the number of rounds is limited
+to $k$ (for any constant $k$). Trivially, if Alice starts, $O(k\log n)$
+communication in $k$ rounds suffices. The lower bound employs a result relating
+the relative von Neumann entropy between density matrices to their trace
+distance and uses a new measure of information. We also describe a classical
+probabilistic $k$ round protocol with communication
+$O(n/k\cdot(\log^{(k/2)}n+\log k)+k\log n)$ in which Bob starts the
+communication. Furthermore as a consequence of the lower bound for pointer
+jumping we show that any $k$ round quantum protocol for the disjointness
+problem needs communication $\Omega(n^{1/k})$ for $k=O(1)$.

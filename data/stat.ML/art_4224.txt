@@ -1,0 +1,22 @@
+A Unified Analysis of Stochastic Optimization Methods Using Jump System
+  Theory and Quadratic Constraints
+We develop a simple routine unifying the analysis of several important
+recently-developed stochastic optimization methods including SAGA, Finito, and
+stochastic dual coordinate ascent (SDCA). First, we show an intrinsic
+connection between stochastic optimization methods and dynamic jump systems,
+and propose a general jump system model for stochastic optimization methods.
+Our proposed model recovers SAGA, SDCA, Finito, and SAG as special cases. Then
+we combine jump system theory with several simple quadratic inequalities to
+derive sufficient conditions for convergence rate certifications of the
+proposed jump system model under various assumptions (with or without
+individual convexity, etc). The derived conditions are linear matrix
+inequalities (LMIs) whose sizes roughly scale with the size of the training
+set. We make use of the symmetry in the stochastic optimization methods and
+reduce these LMIs to some equivalent small LMIs whose sizes are at most 3 by 3.
+We solve these small LMIs to provide analytical proofs of new convergence rates
+for SAGA, Finito and SDCA (with or without individual convexity). We also
+explain why our proposed LMI fails in analyzing SAG. We reveal a key difference
+between SAG and other methods, and briefly discuss how to extend our LMI
+analysis for SAG. An advantage of our approach is that the proposed analysis
+can be automated for a large class of stochastic methods under various
+assumptions (with or without individual convexity, etc).

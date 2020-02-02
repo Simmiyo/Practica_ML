@@ -1,0 +1,10 @@
+Avoiding Echo-Responses in a Retrieval-Based Conversation System
+Retrieval-based conversation systems generally tend to highly rank responses
+that are semantically similar or even identical to the given conversation
+context. While the system's goal is to find the most appropriate response,
+rather than the most semantically similar one, this tendency results in
+low-quality responses. We refer to this challenge as the echoing problem. To
+mitigate this problem, we utilize a hard negative mining approach at the
+training stage. The evaluation shows that the resulting model reduces echoing
+and achieves better results in terms of Average Precision and Recall@N metrics,
+compared to the models trained without the proposed approach.

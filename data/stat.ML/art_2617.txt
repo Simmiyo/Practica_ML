@@ -1,0 +1,14 @@
+Unsupervised Learning of Noisy-Or Bayesian Networks
+This paper considers the problem of learning the parameters in Bayesian
+networks of discrete variables with known structure and hidden variables.
+Previous approaches in these settings typically use expectation maximization;
+when the network has high treewidth, the required expectations might be
+approximated using Monte Carlo or variational methods. We show how to avoid
+inference altogether during learning by giving a polynomial-time algorithm
+based on the method-of-moments, building upon recent work on learning
+discrete-valued mixture models. In particular, we show how to learn the
+parameters for a family of bipartite noisy-or Bayesian networks. In our
+experimental results, we demonstrate an application of our algorithm to
+learning QMR-DT, a large Bayesian network used for medical diagnosis. We show
+that it is possible to fully learn the parameters of QMR-DT even when only the
+findings are observed in the training data (ground truth diseases unknown).

@@ -1,0 +1,23 @@
+UnibucKernel Reloaded: First Place in Arabic Dialect Identification for
+  the Second Year in a Row
+We present a machine learning approach that ranked on the first place in the
+Arabic Dialect Identification (ADI) Closed Shared Tasks of the 2018 VarDial
+Evaluation Campaign. The proposed approach combines several kernels using
+multiple kernel learning. While most of our kernels are based on character
+p-grams (also known as n-grams) extracted from speech or phonetic transcripts,
+we also use a kernel based on dialectal embeddings generated from audio
+recordings by the organizers. In the learning stage, we independently employ
+Kernel Discriminant Analysis (KDA) and Kernel Ridge Regression (KRR).
+Preliminary experiments indicate that KRR provides better classification
+results. Our approach is shallow and simple, but the empirical results obtained
+in the 2018 ADI Closed Shared Task prove that it achieves the best performance.
+Furthermore, our top macro-F1 score (58.92%) is significantly better than the
+second best score (57.59%) in the 2018 ADI Shared Task, according to the
+statistical significance test performed by the organizers. Nevertheless, we
+obtain even better post-competition results (a macro-F1 score of 62.28%) using
+the audio embeddings released by the organizers after the competition. With a
+very similar approach (that did not include phonetic features), we also ranked
+first in the ADI Closed Shared Tasks of the 2017 VarDial Evaluation Campaign,
+surpassing the second best method by 4.62%. We therefore conclude that our
+multiple kernel learning method is the best approach to date for Arabic dialect
+identification.

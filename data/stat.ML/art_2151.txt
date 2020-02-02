@@ -1,0 +1,24 @@
+Discriminative Learning via Semidefinite Probabilistic Models
+Discriminative linear models are a popular tool in machine learning. These
+can be generally divided into two types: The first is linear classifiers, such
+as support vector machines, which are well studied and provide state-of-the-art
+results. One shortcoming of these models is that their output (known as the
+'margin') is not calibrated, and cannot be translated naturally into a
+distribution over the labels. Thus, it is difficult to incorporate such models
+as components of larger systems, unlike probabilistic based approaches. The
+second type of approach constructs class conditional distributions using a
+nonlinearity (e.g. log-linear models), but is occasionally worse in terms of
+classification error. We propose a supervised learning method which combines
+the best of both approaches. Specifically, our method provides a distribution
+over the labels, which is a linear function of the model parameters. As a
+consequence, differences between probabilities are linear functions, a property
+which most probabilistic models (e.g. log-linear) do not have.
+  Our model assumes that classes correspond to linear subspaces (rather than to
+half spaces). Using a relaxed projection operator, we construct a measure which
+evaluates the degree to which a given vector 'belongs' to a subspace, resulting
+in a distribution over labels. Interestingly, this view is closely related to
+similar concepts in quantum detection theory. The resulting models can be
+trained either to maximize the margin or to optimize average likelihood
+measures. The corresponding optimization problems are semidefinite programs
+which can be solved efficiently. We illustrate the performance of our algorithm
+on real world datasets, and show that it outperforms 2nd order kernel methods.

@@ -1,0 +1,24 @@
+A Multi-Modal Graph-Based Semi-Supervised Pipeline for Predicting Cancer
+  Survival
+Cancer survival prediction is an active area of research that can help
+prevent unnecessary therapies and improve patient's quality of life. Gene
+expression profiling is being widely used in cancer studies to discover
+informative biomarkers that aid predict different clinical endpoint prediction.
+We use multiple modalities of data derived from RNA deep-sequencing (RNA-seq)
+to predict survival of cancer patients. Despite the wealth of information
+available in expression profiles of cancer tumors, fulfilling the
+aforementioned objective remains a big challenge, for the most part, due to the
+paucity of data samples compared to the high dimension of the expression
+profiles. As such, analysis of transcriptomic data modalities calls for
+state-of-the-art big-data analytics techniques that can maximally use all the
+available data to discover the relevant information hidden within a significant
+amount of noise. In this paper, we propose a pipeline that predicts cancer
+patients' survival by exploiting the structure of the input (manifold learning)
+and by leveraging the unlabeled samples using Laplacian support vector
+machines, a graph-based semi supervised learning (GSSL) paradigm. We show that
+under certain circumstances, no single modality per se will result in the best
+accuracy and by fusing different models together via a stacked generalization
+strategy, we may boost the accuracy synergistically. We apply our approach to
+two cancer datasets and present promising results. We maintain that a similar
+pipeline can be used for predictive tasks where labeled samples are expensive
+to acquire.

@@ -1,0 +1,15 @@
+A General Family of Trimmed Estimators for Robust High-dimensional Data
+  Analysis
+We consider the problem of robustifying high-dimensional structured
+estimation. Robust techniques are key in real-world applications which often
+involve outliers and data corruption. We focus on trimmed versions of
+structurally regularized M-estimators in the high-dimensional setting,
+including the popular Least Trimmed Squares estimator, as well as analogous
+estimators for generalized linear models and graphical models, using possibly
+non-convex loss functions. We present a general analysis of their statistical
+convergence rates and consistency, and then take a closer look at the trimmed
+versions of the Lasso and Graphical Lasso estimators as special cases. On the
+optimization side, we show how to extend algorithms for M-estimators to fit
+trimmed variants and provide guarantees on their numerical convergence. The
+generality and competitive performance of high-dimensional trimmed estimators
+are illustrated numerically on both simulated and real-world genomics data.

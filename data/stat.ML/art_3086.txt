@@ -1,0 +1,7 @@
+A Randomized Algorithm for CCA
+We present RandomizedCCA, a randomized algorithm for computing canonical
+analysis, suitable for large datasets stored either out of core or on a
+distributed file system. Accurate results can be obtained in as few as two data
+passes, which is relevant for distributed processing frameworks in which
+iteration is expensive (e.g., Hadoop). The strategy also provides an excellent
+initializer for standard iterative solutions.

@@ -1,0 +1,27 @@
+Signal detection in extracellular neural ensemble recordings using
+  higher criticism
+Information processing in the brain is conducted by a concerted action of
+multiple neural populations. Gaining insights in the organization and dynamics
+of such populations can best be studied with broadband intracranial recordings
+of so-called extracellular field potential, reflecting neuronal spiking as well
+as mesoscopic activities, such as waves, oscillations, intrinsic large
+deflections, and multiunit spiking activity. Such signals are critical for our
+understanding of how neuronal ensembles encode sensory information and how such
+information is integrated in the large networks underlying cognition. The
+aforementioned principles are now well accepted, yet the efficacy of extracting
+information out of the complex neural data, and their employment for improving
+our understanding of neural networks, critically depends on the mathematical
+processing steps ranging from simple detection of action potentials in noisy
+traces - to fitting advanced mathematical models to distinct patterns of the
+neural signal potentially underlying intra-processing of information, e.g.
+interneuronal interactions. Here, we present a robust strategy for detecting
+signals in broadband and noisy time series such as spikes, sharp waves and
+multi-unit activity data that is solely based on the intrinsic statistical
+distribution of the recorded data. By using so-called higher criticism - a
+second-level significance testing procedure comparing the fraction of observed
+significances to an expected fraction under the global null - we are able to
+detect small signals in correlated noisy time-series without prior filtering,
+denoising or data regression. Results demonstrate the efficiency and
+reliability of the method and versatility over a wide range of experimental
+conditions and suggest the appropriateness of higher criticism to characterize
+neuronal dynamics without prior manipulation of the data.

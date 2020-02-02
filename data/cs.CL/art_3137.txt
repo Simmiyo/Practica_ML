@@ -1,0 +1,10 @@
+Using Context Events in Neural Network Models for Event Temporal Status
+  Identification
+Focusing on the task of identifying event temporal status, we find that
+events directly or indirectly governing the target event in a dependency tree
+are most important contexts. Therefore, we extract dependency chains containing
+context events and use them as input in neural network models, which
+consistently outperform previous models using local context words as input.
+Visualization verifies that the dependency chain representation can effectively
+capture the context events which are closely related to the target event and
+play key roles in predicting event temporal status.

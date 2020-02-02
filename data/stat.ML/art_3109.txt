@@ -1,0 +1,15 @@
+A note relating ridge regression and OLS p-values to preconditioned
+  sparse penalized regression
+When the design matrix has orthonormal columns, "soft thresholding" the
+ordinary least squares (OLS) solution produces the Lasso solution [Tibshirani,
+1996]. If one uses the Puffer preconditioned Lasso [Jia and Rohe, 2012], then
+this result generalizes from orthonormal designs to full rank designs (Theorem
+1). Theorem 2 refines the Puffer preconditioner to make the Lasso select the
+same model as removing the elements of the OLS solution with the largest
+p-values. Using a generalized Puffer preconditioner, Theorem 3 relates ridge
+regression to the preconditioned Lasso; this result is for the high dimensional
+setting, p > n. Where the standard Lasso is akin to forward selection [Efron et
+al., 2004], Theorems 1, 2, and 3 suggest that the preconditioned Lasso is more
+akin to backward elimination. These results hold for sparse penalties beyond
+l1; for a broad class of sparse and non-convex techniques (e.g. SCAD and MC+),
+the results hold for all local minima.

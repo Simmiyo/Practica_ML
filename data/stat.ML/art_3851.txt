@@ -1,0 +1,22 @@
+Optimized Kernel Entropy Components
+This work addresses two main issues of the standard Kernel Entropy Component
+Analysis (KECA) algorithm: the optimization of the kernel decomposition and the
+optimization of the Gaussian kernel parameter. KECA roughly reduces to a
+sorting of the importance of kernel eigenvectors by entropy instead of by
+variance as in Kernel Principal Components Analysis. In this work, we propose
+an extension of the KECA method, named Optimized KECA (OKECA), that directly
+extracts the optimal features retaining most of the data entropy by means of
+compacting the information in very few features (often in just one or two). The
+proposed method produces features which have higher expressive power. In
+particular, it is based on the Independent Component Analysis (ICA) framework,
+and introduces an extra rotation to the eigen-decomposition, which is optimized
+via gradient ascent search. This maximum entropy preservation suggests that
+OKECA features are more efficient than KECA features for density estimation. In
+addition, a critical issue in both methods is the selection of the kernel
+parameter since it critically affects the resulting performance. Here we
+analyze the most common kernel length-scale selection criteria. Results of both
+methods are illustrated in different synthetic and real problems. Results show
+that 1) OKECA returns projections with more expressive power than KECA, 2) the
+most successful rule for estimating the kernel parameter is based on maximum
+likelihood, and 3) OKECA is more robust to the selection of the length-scale
+parameter in kernel density estimation.

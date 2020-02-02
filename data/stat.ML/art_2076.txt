@@ -1,0 +1,12 @@
+Convergent Propagation Algorithms via Oriented Trees
+Inference problems in graphical models are often approximated by casting them
+as constrained optimization problems. Message passing algorithms, such as
+belief propagation, have previously been suggested as methods for solving these
+optimization problems. However, there are few convergence guarantees for such
+algorithms, and the algorithms are therefore not guaranteed to solve the
+corresponding optimization problem. Here we present an oriented tree
+decomposition algorithm that is guaranteed to converge to the global optimum of
+the Tree-Reweighted (TRW) variational problem. Our algorithm performs local
+updates in the convex dual of the TRW problem - an unconstrained generalized
+geometric program. Primal updates, also local, correspond to oriented
+reparametrization operations that leave the distribution intact.

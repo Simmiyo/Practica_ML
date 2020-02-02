@@ -1,0 +1,27 @@
+From Correlation to Causation: Estimation of Effective Connectivity from
+  Continuous Brain Signals based on Zero-Lag Covariance
+Knowing brain connectivity is of great importance both in basic research and
+for clinical applications. We are proposing a method to infer directed
+connectivity from zero-lag covariances of neuronal activity recorded at
+multiple sites. This allows us to identify causal relations that are reflected
+in neuronal population activity. To derive our strategy, we assume a generic
+linear model of interacting continuous variables, the components of which
+represent the activity of local neuronal populations. The suggested method for
+inferring connectivity from recorded signals exploits the fact that the
+covariance matrix derived from the observed activity contains information about
+the existence, the direction and the sign of connections. Assuming a sparsely
+coupled network, we disambiguate the underlying causal structure via
+$L^1$-minimization. In general, this method is suited to infer effective
+connectivity from resting state data of various types. We show that our method
+is applicable over a broad range of structural parameters regarding network
+size and connection probability of the network. We also explored parameters
+affecting its activity dynamics, like the eigenvalue spectrum. Also, based on
+the simulation of suitable Ornstein-Uhlenbeck processes to model BOLD dynamics,
+we show that with our method it is possible to estimate directed connectivity
+from zero-lag covariances derived from such signals. In this study, we consider
+measurement noise and unobserved nodes as additional confounding factors.
+Furthermore, we investigate the amount of data required for a reliable
+estimate. Additionally, we apply the proposed method on a fMRI dataset. The
+resulting network exhibits a tendency for close-by areas being connected as
+well as inter-hemispheric connections between corresponding areas. Also, we
+found that a large fraction of identified connections were inhibitory.

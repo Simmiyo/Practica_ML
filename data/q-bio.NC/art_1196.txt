@@ -1,0 +1,27 @@
+Analysis of pacemaker activity in a two-component model of some
+  brainstem neurons
+Serotonergic, noradrenergic and dopaminergic brainstem (including midbrain)
+neurons, often exhibit spontaneous and fairly regular spiking with frequencies
+of order a few Hz, though dopaminergic and noradrenergic neurons only exhibit
+such pacemaker-type activity in vitro or in vivo under special conditions.
+  A large number of ion channel types contribute to such spiking so that
+detailed modeling of spike generation leads to the requirement of solving very
+large systems of differential equations. It is useful to have simplified
+mathematical models of spiking in such neurons so that, for example, features
+of inputs and output spike trains can be incorporated including stochastic
+effects for possible use in network models.
+  In this article we investigate a simple two-component conductance-based model
+of the Hodgkin-Huxley type. Solutions are computed numerically and with
+suitably chosen parameters mimic features of pacemaker-type spiking in the
+above types of neurons. The effects of varying parameters is investigated in
+detail, it being found that there is extreme sensitivity to eight of them.
+Transitions from non-spiking to spiking are examined for two of these, the
+half-activation potential for an activation variable and the added
+(depolarizing) current and contrasted with the behavior of the classical
+Hodgkin-Huxley system. The plateaux levels between spikes can be adjusted, by
+changing a set of voltage parameters, to agree with experimental observations.
+Experiment has shown that in, in vivo, dopaminergic and noradrenergic neurons'
+pacemaker activity can be induced by the removal of excitatory inputs or the
+introduction of inhibitory ones. These properties are confirmed by mimicking
+opposite such changes in the model, which resulted in a change from pacemaker
+activity to bursting-type phenomena.

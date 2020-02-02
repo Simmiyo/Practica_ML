@@ -1,0 +1,12 @@
+Learning to Represent Words in Context with Multilingual Supervision
+We present a neural network architecture based on bidirectional LSTMs to
+compute representations of words in the sentential contexts. These
+context-sensitive word representations are suitable for, e.g., distinguishing
+different word senses and other context-modulated variations in meaning. To
+learn the parameters of our model, we use cross-lingual supervision,
+hypothesizing that a good representation of a word in context will be one that
+is sufficient for selecting the correct translation into a second language. We
+evaluate the quality of our representations as features in three downstream
+tasks: prediction of semantic supersenses (which assign nouns and verbs into a
+few dozen semantic classes), low resource machine translation, and a lexical
+substitution task, and obtain state-of-the-art results on all of these.

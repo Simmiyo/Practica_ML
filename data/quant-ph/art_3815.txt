@@ -1,0 +1,12 @@
+Bounds on quantum ordered searching
+We prove that any exact quantum algorithm searching an ordered list of N
+elements requires more than \frac{1}{\pi}(\ln(N)-1) queries to the list. This
+improves upon the previously best known lower bound of {1/12}\log_2(N) - O(1).
+  Our proof is based on a weighted all-pairs inner product argument, and it
+generalizes to bounded-error quantum algorithms.
+  The currently best known upper bound for exact searching is roughly 0.526
+\log_2(N).
+  We give an exact quantum algorithm that uses \log_3(N) + O(1) queries, which
+is roughly 0.631 \log_2(N). The main principles in our algorithm are an quantum
+parallel use of the classical binary search algorithm and a method that allows
+basis states in superpositions to communicate.

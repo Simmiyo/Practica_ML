@@ -1,0 +1,16 @@
+Learning the Conditional Independence Structure of Stationary Time
+  Series: A Multitask Learning Approach
+We propose a method for inferring the conditional independence graph (CIG) of
+a high-dimensional Gaussian vector time series (discrete-time process) from a
+finite-length observation. By contrast to existing approaches, we do not rely
+on a parametric process model (such as, e.g., an autoregressive model) for the
+observed random process. Instead, we only require certain smoothness properties
+(in the Fourier domain) of the process. The proposed inference scheme works
+even for sample sizes much smaller than the number of scalar process components
+if the true underlying CIG is sufficiently sparse. A theoretical performance
+analysis provides conditions which guarantee that the probability of the
+proposed inference method to deliver a wrong CIG is below a prescribed value.
+These conditions imply lower bounds on the sample size such that the new method
+is consistent asymptotically. Some numerical experiments validate our
+theoretical performance analysis and demonstrate superior performance of our
+scheme compared to an existing (parametric) approach in case of model mismatch.

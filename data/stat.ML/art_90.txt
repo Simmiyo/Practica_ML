@@ -1,0 +1,12 @@
+Gaussian Mixture Modeling with Gaussian Process Latent Variable Models
+Density modeling is notoriously difficult for high dimensional data. One
+approach to the problem is to search for a lower dimensional manifold which
+captures the main characteristics of the data. Recently, the Gaussian Process
+Latent Variable Model (GPLVM) has successfully been used to find low
+dimensional manifolds in a variety of complex data. The GPLVM consists of a set
+of points in a low dimensional latent space, and a stochastic map to the
+observed space. We show how it can be interpreted as a density model in the
+observed space. However, the GPLVM is not trained as a density model and
+therefore yields bad density estimates. We propose a new training strategy and
+obtain improved generalisation performance and better density estimates in
+comparative evaluations on several benchmark data sets.

@@ -1,0 +1,13 @@
+Review on Parameter Estimation in HMRF
+This is a technical report which explores the estimation methodologies on
+hyper-parameters in Markov Random Field and Gaussian Hidden Markov Random
+Field. In first section, we briefly investigate a theoretical framework on
+Metropolis-Hastings algorithm. Next, by using MH algorithm, we simulate the
+data from Ising model, and study on how hyper-parameter estimation in Ising
+model is enabled through MCMC algorithm using pseudo-likelihood approximation.
+Following section deals with an issue on parameters estimation process of
+Gaussian Hidden Markov Random Field using MAP estimation and EM algorithm, and
+also discusses problems, found through several experiments. In following
+section, we expand this idea on estimating parameters in Gaussian Hidden Markov
+Spatial-Temporal Random Field, and display results on two performed
+experiments.

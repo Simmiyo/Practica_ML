@@ -1,0 +1,20 @@
+Changepoint detection for high-dimensional time series with missing data
+This paper describes a novel approach to change-point detection when the
+observed high-dimensional data may have missing elements. The performance of
+classical methods for change-point detection typically scales poorly with the
+dimensionality of the data, so that a large number of observations are
+collected after the true change-point before it can be reliably detected.
+Furthermore, missing components in the observed data handicap conventional
+approaches. The proposed method addresses these challenges by modeling the
+dynamic distribution underlying the data as lying close to a time-varying
+low-dimensional submanifold embedded within the ambient observation space.
+Specifically, streaming data is used to track a submanifold approximation,
+measure deviations from this approximation, and calculate a series of
+statistics of the deviations for detecting when the underlying manifold has
+changed in a sharp or unexpected manner. The approach described in this paper
+leverages several recent results in the field of high-dimensional data
+analysis, including subspace tracking with missing data, multiscale analysis
+techniques for point clouds, online optimization, and change-point detection
+performance analysis. Simulations and experiments highlight the robustness and
+efficacy of the proposed approach in detecting an abrupt change in an otherwise
+slowly varying low-dimensional manifold.

@@ -1,0 +1,24 @@
+Reconstructing Neural Parameters and Synapses of arbitrary
+  interconnected Neurons from their Simulated Spiking Activity
+To understand the behavior of a neural circuit it is a presupposition that we
+have a model of the dynamical system describing this circuit. This model is
+determined by several parameters, including not only the synaptic weights, but
+also the parameters of each neuron. Existing works mainly concentrate on either
+the synaptic weights or the neural parameters. In this paper we present an
+algorithm to reconstruct all parameters including the synaptic weights of a
+spiking neuron model. The model based on works of Eugene M. Izhikevich
+(Izhikevich 2007) consists of two differential equations and covers different
+types of cortical neurons. It combines the dynamical properties of
+Hodgkin-Huxley-type dynamics with a high computational efficiency. The
+presented algorithm uses the recordings of the corresponding membrane
+potentials of the model for the reconstruction and consists of two main
+components. The first component is a rank based Genetic Algorithm (GA) which is
+used to find the neural parameters of the model. The second one is a Least Mean
+Squares approach which computes the synaptic weights of all interconnected
+neurons by minimizing the squared error between the calculated and the measured
+membrane potentials for each time step. In preparation for the reconstruction
+of the neural parameters and of the synaptic weights from real measured
+membrane potentials, promising results based on simulated data generated with a
+randomly parametrized Izhikevich model are presented. The reconstruction does
+not only converge to a global minimum of neural parameters, but also
+approximates the synaptic weights with high precision.

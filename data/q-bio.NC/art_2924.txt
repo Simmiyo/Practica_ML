@@ -1,0 +1,27 @@
+Riemannian geometry applied to detection of respiratory states from EEG
+  signals: the basis for a brain-ventilator interface
+During mechanical ventilation, patient-ventilator disharmony is frequently
+observed and may result in increased breathing effort, compromising the
+patient's comfort and recovery. This circumstance requires clinical
+intervention and becomes challenging when verbal communication is difficult. In
+this work, we propose a brain computer interface (BCI) to automatically and
+non-invasively detect patient-ventilator disharmony from
+electroencephalographic (EEG) signals: a brain-ventilator interface (BVI). Our
+framework exploits the cortical activation provoked by the inspiratory
+compensation when the subject and the ventilator are desynchronized. Use of a
+one-class approach and Riemannian geometry of EEG covariance matrices allows
+effective classification of respiratory states. The BVI is validated on nine
+healthy subjects that performed different respiratory tasks that mimic a
+patient-ventilator disharmony. Classification performances, in terms of areas
+under ROC curves, are significantly improved using EEG signals compared to
+detection based on air flow. Reduction in the number of electrodes that can
+achieve discrimination can often be desirable (e.g. for portable BCI systems).
+By using an iterative channel selection technique, the Common Highest Order
+Ranking (CHOrRa), we find that a reduced set of electrodes (n=6) can slightly
+improve for an intra-subject configuration, and it still provides fairly good
+performances for a general inter-subject setting. Results support the
+discriminant capacity of our approach to identify anomalous respiratory states,
+by learning from a training set containing only normal respiratory epochs. The
+proposed framework opens the door to brain-ventilator interfaces for monitoring
+patient's breathing comfort and adapting ventilator parameters to patient
+respiratory needs.

@@ -1,0 +1,10 @@
+Deep Residual Learning for Small-Footprint Keyword Spotting
+We explore the application of deep residual learning and dilated convolutions
+to the keyword spotting task, using the recently-released Google Speech
+Commands Dataset as our benchmark. Our best residual network (ResNet)
+implementation significantly outperforms Google's previous convolutional neural
+networks in terms of accuracy. By varying model depth and width, we can achieve
+compact models that also outperform previous small-footprint variants. To our
+knowledge, we are the first to examine these approaches for keyword spotting,
+and our results establish an open-source state-of-the-art reference to support
+the development of future speech-based interfaces.

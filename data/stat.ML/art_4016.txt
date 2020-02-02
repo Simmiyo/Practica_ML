@@ -1,0 +1,13 @@
+Linear Convergence of SVRG in Statistical Estimation
+SVRG and its variants are among the state of art optimization algorithms for
+large scale machine learning problems. It is well known that SVRG converges
+linearly when the objective function is strongly convex. However this setup can
+be restrictive, and does not include several important formulations such as
+Lasso, group Lasso, logistic regression, and some non-convex models including
+corrected Lasso and SCAD. In this paper, we prove that, for a class of
+statistical M-estimators covering examples mentioned above, SVRG solves the
+formulation with {\em a linear convergence rate} without strong convexity or
+even convexity. Our analysis makes use of {\em restricted strong convexity},
+under which we show that SVRG converges linearly to the fundamental statistical
+precision of the model, i.e., the difference between true unknown parameter
+$\theta^*$ and the optimal solution $\hat{\theta}$ of the model.

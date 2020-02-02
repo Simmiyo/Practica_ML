@@ -1,0 +1,16 @@
+PCA-Initialized Deep Neural Networks Applied To Document Image Analysis
+In this paper, we present a novel approach for initializing deep neural
+networks, i.e., by turning PCA into neural layers. Usually, the initialization
+of the weights of a deep neural network is done in one of the three following
+ways: 1) with random values, 2) layer-wise, usually as Deep Belief Network or
+as auto-encoder, and 3) re-use of layers from another network (transfer
+learning). Therefore, typically, many training epochs are needed before
+meaningful weights are learned, or a rather similar dataset is required for
+seeding a fine-tuning of transfer learning. In this paper, we describe how to
+turn a PCA into an auto-encoder, by generating an encoder layer of the PCA
+parameters and furthermore adding a decoding layer. We analyze the
+initialization technique on real documents. First, we show that a PCA-based
+initialization is quick and leads to a very stable initialization. Furthermore,
+for the task of layout analysis we investigate the effectiveness of PCA-based
+initialization and show that it outperforms state-of-the-art random weight
+initialization methods.

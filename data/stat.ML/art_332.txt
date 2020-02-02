@@ -1,0 +1,14 @@
+Multiple Kernel Learning for Brain-Computer Interfacing
+Combining information from different sources is a common way to improve
+classification accuracy in Brain-Computer Interfacing (BCI). For instance, in
+small sample settings it is useful to integrate data from other subjects or
+sessions in order to improve the estimation quality of the spatial filters or
+the classifier. Since data from different subjects may show large variability,
+it is crucial to weight the contributions according to importance. Many
+multi-subject learning algorithms determine the optimal weighting in a separate
+step by using heuristics, however, without ensuring that the selected weights
+are optimal with respect to classification. In this work we apply Multiple
+Kernel Learning (MKL) to this problem. MKL has been widely used for feature
+fusion in computer vision and allows to simultaneously learn the classifier and
+the optimal weighting. We compare the MKL method to two baseline approaches and
+investigate the reasons for performance improvement.

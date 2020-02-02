@@ -1,0 +1,11 @@
+Speedup of iterated quantum search by parallel performance
+Given a sequence $f_1 (x_1), f_2 (x_1, x_2), ..., f_k (x_1, ..., x_k)$ of
+Boolean functions, each of which $f_i$ takes the value 1 in a single point of
+the form $x_1^0, x_2^0, ..., x_i^0, i=1,2,..., k$. A length of all $x_i^0$ is
+$n, N=2^n$. It is shown how to find $x_k^0 (k\geq 2)$ using
+\frac{k\pi\sqrt{N}}{4\sqrt{2}}$ simultaneous evaluations of functions of the
+form $f_i, f_{i+1}$ with an error probability of order $k/\sqrt{N}$ which is
+$\sqrt{2}$ times as fast as by the $k$ sequential applications of Grover
+algorithm for the quantum search. Evolutions of amplitudes in parallel quantum
+computations are approximated by systems of linear differential equations. Some
+advantage of simultaneous evaluations of all $f_1 ,... f_k$ are discussed.

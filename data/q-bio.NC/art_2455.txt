@@ -1,0 +1,18 @@
+Phase Diagram of Spiking Neural Networks
+In computer simulations of spiking neural networks, often it is assumed that
+every two neurons of the network are connected by a probability of 2\%, 20\% of
+neurons are inhibitory and 80\% are excitatory. These common values are based
+on experiments, observations, and trials and errors, but here, I take a
+different perspective, inspired by evolution, I systematically simulate many
+networks, each with a different set of parameters, and then I try to figure out
+what makes the common values desirable. I stimulate networks with pulses and
+then measure their: dynamic range, dominant frequency of population activities,
+total duration of activities, maximum rate of population and the occurrence
+time of maximum rate. The results are organized in phase diagram. This phase
+diagram gives an insight into the space of parameters -- excitatory to
+inhibitory ratio, sparseness of connections and synaptic weights. This phase
+diagram can be used to decide the parameters of a model. The phase diagrams
+show that networks which are configured according to the common values, have a
+good dynamic range in response to an impulse and their dynamic range is robust
+in respect to synaptic weights, and for some synaptic weights they oscillate in
+$\alpha$ or $\beta$ frequencies, even in absence of external stimuli.

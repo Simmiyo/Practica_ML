@@ -1,0 +1,24 @@
+Combining Multiple Clusterings via Crowd Agreement Estimation and
+  Multi-Granularity Link Analysis
+The clustering ensemble technique aims to combine multiple clusterings into a
+probably better and more robust clustering and has been receiving an increasing
+attention in recent years. There are mainly two aspects of limitations in the
+existing clustering ensemble approaches. Firstly, many approaches lack the
+ability to weight the base clusterings without access to the original data and
+can be affected significantly by the low-quality, or even ill clusterings.
+Secondly, they generally focus on the instance level or cluster level in the
+ensemble system and fail to integrate multi-granularity cues into a unified
+model. To address these two limitations, this paper proposes to solve the
+clustering ensemble problem via crowd agreement estimation and
+multi-granularity link analysis. We present the normalized crowd agreement
+index (NCAI) to evaluate the quality of base clusterings in an unsupervised
+manner and thus weight the base clusterings in accordance with their clustering
+validity. To explore the relationship between clusters, the source aware
+connected triple (SACT) similarity is introduced with regard to their common
+neighbors and the source reliability. Based on NCAI and multi-granularity
+information collected among base clusterings, clusters, and data instances, we
+further propose two novel consensus functions, termed weighted evidence
+accumulation clustering (WEAC) and graph partitioning with multi-granularity
+link analysis (GP-MGLA) respectively. The experiments are conducted on eight
+real-world datasets. The experimental results demonstrate the effectiveness and
+robustness of the proposed methods.

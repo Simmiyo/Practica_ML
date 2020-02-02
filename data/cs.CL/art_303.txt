@@ -1,0 +1,12 @@
+Improving Term Extraction with Terminological Resources
+Studies of different term extractors on a corpus of the biomedical domain
+revealed decreasing performances when applied to highly technical texts. The
+difficulty or impossibility of customising them to new domains is an additional
+limitation. In this paper, we propose to use external terminologies to
+influence generic linguistic data in order to augment the quality of the
+extraction. The tool we implemented exploits testified terms at different steps
+of the process: chunking, parsing and extraction of term candidates.
+Experiments reported here show that, using this method, more term candidates
+can be acquired with a higher level of reliability. We further describe the
+extraction process involving endogenous disambiguation implemented in the term
+extractor YaTeA.

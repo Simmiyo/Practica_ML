@@ -1,0 +1,9 @@
+Using Sentence Plausibility to Learn the Semantics of Transitive Verbs
+The functional approach to compositional distributional semantics considers
+transitive verbs to be linear maps that transform the distributional vectors
+representing nouns into a vector representing a sentence. We conduct an initial
+investigation that uses a matrix consisting of the parameters of a logistic
+regression classifier trained on a plausibility task as a transitive verb
+function. We compare our method to a commonly used corpus-based method for
+constructing a verb matrix and find that the plausibility training may be more
+effective for disambiguation tasks.

@@ -1,0 +1,12 @@
+Online Coordinate Boosting
+We present a new online boosting algorithm for adapting the weights of a
+boosted classifier, which yields a closer approximation to Freund and
+Schapire's AdaBoost algorithm than previous online boosting algorithms. We also
+contribute a new way of deriving the online algorithm that ties together
+previous online boosting work. We assume that the weak hypotheses were selected
+beforehand, and only their weights are updated during online boosting. The
+update rule is derived by minimizing AdaBoost's loss when viewed in an
+incremental form. The equations show that optimization is computationally
+expensive. However, a fast online approximation is possible. We compare
+approximation error to batch AdaBoost on synthetic datasets and generalization
+error on face datasets and the MNIST dataset.

@@ -1,0 +1,17 @@
+Layered Logic Classifiers: Exploring the `And' and `Or' Relations
+Designing effective and efficient classifier for pattern analysis is a key
+problem in machine learning and computer vision. Many the solutions to the
+problem require to perform logic operations such as `and', `or', and `not'.
+Classification and regression tree (CART) include these operations explicitly.
+Other methods such as neural networks, SVM, and boosting learn/compute a
+weighted sum on features (weak classifiers), which weakly perform the 'and' and
+'or' operations. However, it is hard for these classifiers to deal with the
+'xor' pattern directly. In this paper, we propose layered logic classifiers for
+patterns of complicated distributions by combining the `and', `or', and `not'
+operations. The proposed algorithm is very general and easy to implement. We
+test the classifiers on several typical datasets from the Irvine repository and
+two challenging vision applications, object segmentation and pedestrian
+detection. We observe significant improvements on all the datasets over the
+widely used decision stump based AdaBoost algorithm. The resulting classifiers
+have much less training complexity than decision tree based AdaBoost, and can
+be applied in a wide range of domains.

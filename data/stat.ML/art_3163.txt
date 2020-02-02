@@ -1,0 +1,14 @@
+Adjusting Leverage Scores by Row Weighting: A Practical Approach to
+  Coherent Matrix Completion
+Low-rank matrix completion is an important problem with extensive real-world
+applications. When observations are uniformly sampled from the underlying
+matrix entries, existing methods all require the matrix to be incoherent. This
+paper provides the first working method for coherent matrix completion under
+the standard uniform sampling model. Our approach is based on the weighted
+nuclear norm minimization idea proposed in several recent work, and our key
+contribution is a practical method to compute the weighting matrices so that
+the leverage scores become more uniform after weighting. Under suitable
+conditions, we are able to derive theoretical results, showing the
+effectiveness of our approach. Experiments on synthetic data show that our
+approach recovers highly coherent matrices with high precision, whereas the
+standard unweighted method fails even on noise-free data.

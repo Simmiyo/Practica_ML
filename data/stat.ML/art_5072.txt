@@ -1,0 +1,10 @@
+A simple squared-error reformulation for ordinal classification
+In this paper, we explore ordinal classification (in the context of deep
+neural networks) through a simple modification of the squared error loss which
+not only allows it to not only be sensitive to class ordering, but also allows
+the possibility of having a discrete probability distribution over the classes.
+Our formulation is based on the use of a softmax hidden layer, which has
+received relatively little attention in the literature. We empirically evaluate
+its performance on the Kaggle diabetic retinopathy dataset, an ordinal and
+high-resolution dataset and show that it outperforms all of the baselines
+employed.

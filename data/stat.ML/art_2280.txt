@@ -1,0 +1,17 @@
+Active Learning with Distributional Estimates
+Active Learning (AL) is increasingly important in a broad range of
+applications. Two main AL principles to obtain accurate classification with few
+labeled data are refinement of the current decision boundary and exploration of
+poorly sampled regions. In this paper we derive a novel AL scheme that balances
+these two principles in a natural way. In contrast to many AL strategies, which
+are based on an estimated class conditional probability ^p(y|x), a key
+component of our approach is to view this quantity as a random variable, hence
+explicitly considering the uncertainty in its estimated value. Our main
+contribution is a novel mathematical framework for uncertainty-based AL, and a
+corresponding AL scheme, where the uncertainty in ^p(y|x) is modeled by a
+second-order distribution. On the practical side, we show how to approximate
+such second-order distributions for kernel density classification. Finally, we
+find that over a large number of UCI, USPS and Caltech4 datasets, our AL scheme
+achieves significantly better learning curves than popular AL methods such as
+uncertainty sampling and error reduction sampling, when all use the same kernel
+density classifier.

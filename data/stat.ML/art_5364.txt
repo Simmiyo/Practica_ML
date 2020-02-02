@@ -1,0 +1,18 @@
+A Unifying View of Explicit and Implicit Feature Maps of Graph Kernels
+Non-linear kernel methods can be approximated by fast linear ones using
+suitable explicit feature maps allowing their application to large scale
+problems. We investigate how convolution kernels for structured data are
+composed from base kernels and construct corresponding feature maps. On this
+basis we propose exact and approximative feature maps for widely used graph
+kernels based on the kernel trick. We analyze for which kernels and graph
+properties computation by explicit feature maps is feasible and actually more
+efficient. In particular, we derive approximative, explicit feature maps for
+state-of-the-art kernels supporting real-valued attributes including the
+GraphHopper and graph invariant kernels. In extensive experiments we show that
+our approaches often achieve a classification accuracy close to the exact
+methods based on the kernel trick, but require only a fraction of their running
+time. Moreover, we propose and analyze algorithms for computing random walk,
+shortest-path and subgraph matching kernels by explicit and implicit feature
+maps. Our theoretical results are confirmed experimentally by observing a phase
+transition when comparing running time with respect to label diversity, walk
+lengths and subgraph size, respectively.

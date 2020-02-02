@@ -1,0 +1,11 @@
+Planar Cycle Covering Graphs
+We describe a new variational lower-bound on the minimum energy configuration
+of a planar binary Markov Random Field (MRF). Our method is based on adding
+auxiliary nodes to every face of a planar embedding of the graph in order to
+capture the effect of unary potentials. A ground state of the resulting
+approximation can be computed efficiently by reduction to minimum-weight
+perfect matching. We show that optimization of variational parameters achieves
+the same lower-bound as dual-decomposition into the set of all cycles of the
+original graph. We demonstrate that our variational optimization converges
+quickly and provides high-quality solutions to hard combinatorial problems
+10-100x faster than competing algorithms that optimize the same bound.

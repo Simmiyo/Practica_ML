@@ -1,0 +1,16 @@
+Generalized Probabilistic Bisection for Stochastic Root-Finding
+We consider numerical schemes for root finding of noisy responses through
+generalizing the Probabilistic Bisection Algorithm (PBA) to the more practical
+context where the sampling distribution is unknown and location-dependent. As
+in standard PBA, we rely on a knowledge state for the approximate posterior of
+the root location. To implement the corresponding Bayesian updating, we also
+carry out inference of oracle accuracy, namely learning the probability of
+correct response. To this end we utilize batched querying in combination with a
+variety of frequentist and Bayesian estimators based on majority vote, as well
+as the underlying functional responses, if available. For guiding sampling
+selection we investigate both Information Directed sampling, as well as
+Quantile sampling. Our numerical experiments show that these strategies perform
+quite differently; in particular we demonstrate the efficiency of randomized
+quantile sampling which is reminiscent of Thompson sampling. Our work is
+motivated by the root-finding sub-routine in pricing of Bermudan financial
+derivatives, illustrated in the last section of the paper.

@@ -1,0 +1,15 @@
+Estimating Networks With Jumps
+We study the problem of estimating a temporally varying coefficient and
+varying structure (VCVS) graphical model underlying nonstationary time series
+data, such as social states of interacting individuals or microarray expression
+profiles of gene networks, as opposed to i.i.d. data from an invariant model
+widely considered in current literature of structural estimation. In
+particular, we consider the scenario in which the model evolves in a piece-wise
+constant fashion. We propose a procedure that minimizes the so-called TESLA
+loss (i.e., temporally smoothed L1 regularized regression), which allows
+jointly estimating the partition boundaries of the VCVS model and the
+coefficient of the sparse precision matrix on each block of the partition. A
+highly scalable proximal gradient method is proposed to solve the resultant
+convex optimization problem; and the conditions for sparsistent estimation and
+the convergence rate of both the partition boundaries and the network structure
+are established for the first time for such estimators.

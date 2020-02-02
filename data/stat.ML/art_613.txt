@@ -1,0 +1,11 @@
+Generalized Additive Model Selection
+We introduce GAMSEL (Generalized Additive Model Selection), a penalized
+likelihood approach for fitting sparse generalized additive models in high
+dimension. Our method interpolates between null, linear and additive models by
+allowing the effect of each variable to be estimated as being either zero,
+linear, or a low-complexity curve, as determined by the data. We present a
+blockwise coordinate descent procedure for efficiently optimizing the penalized
+likelihood objective over a dense grid of the tuning parameter, producing a
+regularization path of additive models. We demonstrate the performance of our
+method on both real and simulated data examples, and compare it with existing
+techniques for additive model selection.

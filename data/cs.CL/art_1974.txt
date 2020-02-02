@@ -1,0 +1,18 @@
+The Benefits of Word Embeddings Features for Active Learning in Clinical
+  Information Extraction
+This study investigates the use of unsupervised word embeddings and sequence
+features for sample representation in an active learning framework built to
+extract clinical concepts from clinical free text. The objective is to further
+reduce the manual annotation effort while achieving higher effectiveness
+compared to a set of baseline features. Unsupervised features are derived from
+skip-gram word embeddings and a sequence representation approach. The
+comparative performance of unsupervised features and baseline hand-crafted
+features in an active learning framework are investigated using a wide range of
+selection criteria including least confidence, information diversity,
+information density and diversity, and domain knowledge informativeness. Two
+clinical datasets are used for evaluation: the i2b2/VA 2010 NLP challenge and
+the ShARe/CLEF 2013 eHealth Evaluation Lab. Our results demonstrate significant
+improvements in terms of effectiveness as well as annotation effort savings
+across both datasets. Using unsupervised features along with baseline features
+for sample representation lead to further savings of up to 9% and 10% of the
+token and concept annotation rates, respectively.

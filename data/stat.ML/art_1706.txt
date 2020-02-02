@@ -1,0 +1,19 @@
+Minimum mean square distance estimation of a subspace
+We consider the problem of subspace estimation in a Bayesian setting. Since
+we are operating in the Grassmann manifold, the usual approach which consists
+of minimizing the mean square error (MSE) between the true subspace $U$ and its
+estimate $\hat{U}$ may not be adequate as the MSE is not the natural metric in
+the Grassmann manifold. As an alternative, we propose to carry out subspace
+estimation by minimizing the mean square distance (MSD) between $U$ and its
+estimate, where the considered distance is a natural metric in the Grassmann
+manifold, viz. the distance between the projection matrices. We show that the
+resulting estimator is no longer the posterior mean of $U$ but entails
+computing the principal eigenvectors of the posterior mean of $U U^{T}$.
+Derivation of the MMSD estimator is carried out in a few illustrative examples
+including a linear Gaussian model for the data and a Bingham or von Mises
+Fisher prior distribution for $U$. In all scenarios, posterior distributions
+are derived and the MMSD estimator is obtained either analytically or
+implemented via a Markov chain Monte Carlo simulation method. The method is
+shown to provide accurate estimates even when the number of samples is lower
+than the dimension of $U$. An application to hyperspectral imagery is finally
+investigated.

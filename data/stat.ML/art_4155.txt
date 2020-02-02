@@ -1,0 +1,17 @@
+Nuclear Discrepancy for Active Learning
+Active learning algorithms propose which unlabeled objects should be queried
+for their labels to improve a predictive model the most. We study active
+learners that minimize generalization bounds and uncover relationships between
+these bounds that lead to an improved approach to active learning. In
+particular we show the relation between the bound of the state-of-the-art
+Maximum Mean Discrepancy (MMD) active learner, the bound of the Discrepancy,
+and a new and looser bound that we refer to as the Nuclear Discrepancy bound.
+We motivate this bound by a probabilistic argument: we show it considers
+situations which are more likely to occur. Our experiments indicate that active
+learning using the tightest Discrepancy bound performs the worst in terms of
+the squared loss. Overall, our proposed loosest Nuclear Discrepancy
+generalization bound performs the best. We confirm our probabilistic argument
+empirically: the other bounds focus on more pessimistic scenarios that are
+rarer in practice. We conclude that tightness of bounds is not always of main
+importance and that active learning methods should concentrate on realistic
+scenarios in order to improve performance.

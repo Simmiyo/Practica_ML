@@ -1,0 +1,27 @@
+Resolution and Scale Independent Function Matching Using a String Energy
+  Penalized Spline Prior
+The extension of the classical Bayesian penalized spline method to inference
+on vector-valued functions is considered, with an emphasis on characterizing
+the suitability of the method for general application.We show that the standard
+quadratic penalty is exactly analogous to the energy of a stretched string,
+with the penalty parameter corresponding to its tension. This physical analogy
+motivates a discussion of resolution independence, which we define as the
+convergence of a computational function estimate to arbitrary accuracy with
+increasing resolution.The multidimensional context makes direct application of
+standard procedures for choosing the penalty parameter difficult, and a new
+method is proposed and compared to the established generalized cross-validation
+(GCV) and Akaike information criterion (AIC) functions.Our Bayesian method for
+choosing this parameter is derived by introducing a scal e independence
+criterion to ensure that simultaneously scaling the function samples and their
+variances does not significantly change the posterior parameter distribution.
+Due to the possibility of an exact polynomial fit, numerical issues prevent the
+use of this prior, and a solution is presented based on adding a st ring
+zero-point energy. This makes more complicated approaches recently propose d in
+the literature unnecessary, and eliminates the requirement for sensitivity
+analysis when the function deviates from the above mentioned polynomial. An
+important class of problems which can be analyzed by this method are stochastic
+numerical integrators, which are considered as an example problem. This work
+represents the first extension of penalized spline methods to inference on
+multidimensional numerical integrators reported in the literature. Several
+numerical calculations illustrate the above points and address practical
+application issues.

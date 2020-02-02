@@ -1,0 +1,10 @@
+Neural Machine Translation with Supervised Attention
+The attention mechanisim is appealing for neural machine translation, since
+it is able to dynam- ically encode a source sentence by generating a alignment
+between a target word and source words. Unfortunately, it has been proved to be
+worse than conventional alignment models in aligment accuracy. In this paper,
+we analyze and explain this issue from the point view of re- ordering, and
+propose a supervised attention which is learned with guidance from conventional
+alignment models. Experiments on two Chinese-to-English translation tasks show
+that the super- vised attention mechanism yields better alignments leading to
+substantial gains over the standard attention based NMT.

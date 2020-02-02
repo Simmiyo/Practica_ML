@@ -1,0 +1,21 @@
+A First Step in Combining Cognitive Event Features and Natural Language
+  Representations to Predict Emotions
+We explore the representational space of emotions by combining methods from
+different academic fields. Cognitive science has proposed appraisal theory as a
+view on human emotion with previous research showing how human-rated abstract
+event features can predict fine-grained emotions and capture the similarity
+space of neural patterns in mentalizing brain regions. At the same time,
+natural language processing (NLP) has demonstrated how transfer and multitask
+learning can be used to cope with scarcity of annotated data for text modeling.
+  The contribution of this work is to show that appraisal theory can be
+combined with NLP for mutual benefit. First, fine-grained emotion prediction
+can be improved to human-level performance by using NLP representations in
+addition to appraisal features. Second, using the appraisal features as
+auxiliary targets during training can improve predictions even when only text
+is available as input. Third, we obtain a representation with a similarity
+matrix that better correlates with the neural activity across regions. Best
+results are achieved when the model is trained to simultaneously predict
+appraisals, emotions and emojis using a shared representation.
+  While these results are preliminary, the integration of cognitive
+neuroscience and NLP techniques opens up an interesting direction for future
+research.

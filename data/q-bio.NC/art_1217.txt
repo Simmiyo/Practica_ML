@@ -1,0 +1,21 @@
+Optimized brute-force algorithms for the bifurcation analysis of a
+  spin-glass-like neural network model
+Bifurcation theory is a powerful tool for studying how the dynamics of a
+neural network model depends on its underlying neurophysiological parameters.
+However, bifurcation theory has been developed mostly for smooth dynamical
+systems and for continuous-time non-smooth models, which prevents us from
+understanding the changes of dynamics in some widely used classes of artificial
+neural network models. This article is an attempt to fill this gap, through the
+introduction of algorithms that perform a semi-analytical bifurcation analysis
+of a spin-glass-like neural network model with binary firing rates and
+discrete-time evolution. Our approach is based on a numerical brute-force
+search of the stationary and oscillatory solutions of the spin-glass model,
+from which we derive analytical expressions of its bifurcation structure by
+means of the state-to-state transition probability matrix. The algorithms
+determine how the network parameters affect the degree of multistability, the
+emergence and the period of the neural oscillations, and the formation of
+symmetry-breaking in the neural populations. While this technique can be
+applied to networks with arbitrary (generally asymmetric) connectivity
+matrices, in particular we introduce a highly efficient algorithm for the
+bifurcation analysis of sparse networks. We also provide some examples of the
+obtained bifurcation diagrams and a Python implementation of the algorithms.

@@ -1,0 +1,15 @@
+Bayesian structure learning using dynamic programming and MCMC
+MCMC methods for sampling from the space of DAGs can mix poorly due to the
+local nature of the proposals that are commonly used. It has been shown that
+sampling from the space of node orders yields better results [FK03, EW06].
+Recently, Koivisto and Sood showed how one can analytically marginalize over
+orders using dynamic programming (DP) [KS04, Koi06]. Their method computes the
+exact marginal posterior edge probabilities, thus avoiding the need for MCMC.
+Unfortunately, there are four drawbacks to the DP technique: it can only use
+modular priors, it can only compute posteriors over modular features, it is
+difficult to compute a predictive density, and it takes exponential time and
+space. We show how to overcome the first three of these problems by using the
+DP algorithm as a proposal distribution for MCMC in DAG space. We show that
+this hybrid technique converges to the posterior faster than other methods,
+resulting in more accurate structure learning and higher predictive likelihoods
+on test data.

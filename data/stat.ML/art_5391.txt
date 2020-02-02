@@ -1,0 +1,11 @@
+Online Multilinear Dictionary Learning
+A method for online tensor dictionary learning is proposed. With the
+assumption of separable dictionaries, tensor contraction is used to diminish a
+$N$-way model of $\mathcal{O}\left(L^N\right)$ into a simple matrix equation of
+$\mathcal{O}\left(NL^2\right)$ with a real-time capability. To avoid numerical
+instability due to inversion of sparse matrix, a class of stochastic gradient
+with memory is formulated via a least-square solution to guarantee convergence
+and robustness. Both gradient descent with exact line search and Newton's
+method are discussed and realized. Extensions onto how to deal with bad
+initialization and outliers are also explained in detail. Experiments on two
+synthetic signals confirms an impressive performance of our proposed method.

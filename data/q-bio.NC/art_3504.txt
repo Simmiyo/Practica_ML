@@ -1,0 +1,18 @@
+Unsupervised learning by a nonlinear network with Hebbian excitatory and
+  anti-Hebbian inhibitory neurons
+This paper introduces a rate-based nonlinear neural network in which
+excitatory (E) neurons receive feedforward excitation from sensory (S) neurons,
+and inhibit each other through disynaptic pathways mediated by inhibitory (I)
+interneurons. Correlation-based plasticity of disynaptic inhibition serves to
+incompletely decorrelate E neuron activity, pushing the E neurons to learn
+distinct sensory features. The plasticity equations additionally contain
+"extra" terms fostering competition between excitatory synapses converging onto
+the same postsynaptic neuron and inhibitory synapses diverging from the same
+presynaptic neuron. The parameters of competition between S$\to$E connections
+can be adjusted to make learned features look more like "parts" or "wholes."
+The parameters of competition between I-E connections can be adjusted to set
+the typical decorrelatedness and sparsity of E neuron activity. Numerical
+simulations of unsupervised learning show that relatively few I neurons can be
+sufficient for achieving good decorrelation, and increasing the number of I
+neurons makes decorrelation more complete. Excitatory and inhibitory inputs to
+active E neurons are approximately balanced as a result of learning.

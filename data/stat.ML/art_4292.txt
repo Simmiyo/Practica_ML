@@ -1,0 +1,17 @@
+Online Learning for Changing Environments using Coin Betting
+A key challenge in online learning is that classical algorithms can be slow
+to adapt to changing environments. Recent studies have proposed "meta"
+algorithms that convert any online learning algorithm to one that is adaptive
+to changing environments, where the adaptivity is analyzed in a quantity called
+the strongly-adaptive regret. This paper describes a new meta algorithm that
+has a strongly-adaptive regret bound that is a factor of $\sqrt{\log(T)}$
+better than other algorithms with the same time complexity, where $T$ is the
+time horizon. We also extend our algorithm to achieve a first-order (i.e.,
+dependent on the observed losses) strongly-adaptive regret bound for the first
+time, to our knowledge. At its heart is a new parameter-free algorithm for the
+learning with expert advice (LEA) problem in which experts sometimes do not
+output advice for consecutive time steps (i.e., \emph{sleeping} experts). This
+algorithm is derived by a reduction from optimal algorithms for the so-called
+coin betting problem. Empirical results show that our algorithm outperforms
+state-of-the-art methods in both learning with expert advice and metric
+learning scenarios.

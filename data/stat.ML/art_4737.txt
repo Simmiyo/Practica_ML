@@ -1,0 +1,21 @@
+Sequential Principal Curves Analysis
+This work includes all the technical details of the Sequential Principal
+Curves Analysis (SPCA) in a single document. SPCA is an unsupervised nonlinear
+and invertible feature extraction technique. The identified curvilinear
+features can be interpreted as a set of nonlinear sensors: the response of each
+sensor is the projection onto the corresponding feature. Moreover, it can be
+easily tuned for different optimization criteria; e.g. infomax, error
+minimization, decorrelation; by choosing the right way to measure distances
+along each curvilinear feature. Even though proposed in [Laparra et al. Neural
+Comp. 12] and shown to work in multiple modalities in [Laparra and Malo
+Frontiers Hum. Neuro. 15], the SPCA framework has its original roots in the
+nonlinear ICA algorithm in [Malo and Gutierrez Network 06]. Later on, the SPCA
+philosophy for nonlinear generalization of PCA originated substantially faster
+alternatives at the cost of introducing different constraints in the model.
+Namely, the Principal Polynomial Analysis (PPA) [Laparra et al. IJNS 14], and
+the Dimensionality Reduction via Regression (DRR) [Laparra et al. IEEE TGRS
+15]. This report illustrates the reasons why we developed such family and is
+the appropriate technical companion for the missing details in [Laparra et al.,
+NeCo 12, Laparra and Malo, Front.Hum.Neuro. 15]. See also the data, code and
+examples in the dedicated sites http://isp.uv.es/spca.html and
+http://isp.uv.es/after effects.html

@@ -1,0 +1,19 @@
+Balancing, Regression, Difference-In-Differences and Synthetic Control
+  Methods: A Synthesis
+In a seminal paper Abadie, Diamond, and Hainmueller [2010] (ADH), see also
+Abadie and Gardeazabal [2003], Abadie et al. [2014], develop the synthetic
+control procedure for estimating the effect of a treatment, in the presence of
+a single treated unit and a number of control units, with pre-treatment
+outcomes observed for all units. The method constructs a set of weights such
+that selected covariates and pre-treatment outcomes of the treated unit are
+approximately matched by a weighted average of control units (the synthetic
+control). The weights are restricted to be nonnegative and sum to one, which is
+important because it allows the procedure to obtain unique weights even when
+the number of lagged outcomes is modest relative to the number of control
+units, a common setting in applications. In the current paper we propose a
+generalization that allows the weights to be negative, and their sum to differ
+from one, and that allows for a permanent additive difference between the
+treated unit and the controls, similar to difference-in-difference procedures.
+The weights directly minimize the distance between the lagged outcomes for the
+treated and the control units, using regularization methods to deal with a
+potentially large number of possible control units.

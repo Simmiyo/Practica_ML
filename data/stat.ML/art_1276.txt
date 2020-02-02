@@ -1,0 +1,17 @@
+Boosting with Structural Sparsity: A Differential Inclusion Approach
+Boosting as gradient descent algorithms is one popular method in machine
+learning. In this paper a novel Boosting-type algorithm is proposed based on
+restricted gradient descent with structural sparsity control whose underlying
+dynamics are governed by differential inclusions. In particular, we present an
+iterative regularization path with structural sparsity where the parameter is
+sparse under some linear transforms, based on variable splitting and the
+Linearized Bregman Iteration. Hence it is called \emph{Split LBI}. Despite its
+simplicity, Split LBI outperforms the popular generalized Lasso in both theory
+and experiments. A theory of path consistency is presented that equipped with a
+proper early stopping, Split LBI may achieve model selection consistency under
+a family of Irrepresentable Conditions which can be weaker than the necessary
+and sufficient condition for generalized Lasso. Furthermore, some $\ell_2$
+error bounds are also given at the minimax optimal rates. The utility and
+benefit of the algorithm are illustrated by several applications including
+image denoising, partial order ranking of sport teams, and world university
+grouping with crowdsourced ranking data.

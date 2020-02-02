@@ -1,0 +1,12 @@
+Likelihood-ratio calibration using prior-weighted proper scoring rules
+Prior-weighted logistic regression has become a standard tool for calibration
+in speaker recognition. Logistic regression is the optimization of the expected
+value of the logarithmic scoring rule. We generalize this via a parametric
+family of proper scoring rules. Our theoretical analysis shows how different
+members of this family induce different relative weightings over a spectrum of
+applications of which the decision thresholds range from low to high. Special
+attention is given to the interaction between prior weighting and proper
+scoring rule parameters. Experiments on NIST SRE'12 suggest that for
+applications with low false-alarm rate requirements, scoring rules tailored to
+emphasize higher score thresholds may give better accuracy than logistic
+regression.

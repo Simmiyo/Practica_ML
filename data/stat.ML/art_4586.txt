@@ -1,0 +1,20 @@
+Rectified Gaussian Scale Mixtures and the Sparse Non-Negative Least
+  Squares Problem
+In this paper, we develop a Bayesian evidence maximization framework to solve
+the sparse non-negative least squares (S-NNLS) problem. We introduce a family
+of probability densities referred to as the Rectified Gaussian Scale Mixture
+(R- GSM) to model the sparsity enforcing prior distribution for the solution.
+The R-GSM prior encompasses a variety of heavy-tailed densities such as the
+rectified Laplacian and rectified Student- t distributions with a proper choice
+of the mixing density. We utilize the hierarchical representation induced by
+the R-GSM prior and develop an evidence maximization framework based on the
+Expectation-Maximization (EM) algorithm. Using the EM based method, we estimate
+the hyper-parameters and obtain a point estimate for the solution. We refer to
+the proposed method as rectified sparse Bayesian learning (R-SBL). We provide
+four R- SBL variants that offer a range of options for computational complexity
+and the quality of the E-step computation. These methods include the Markov
+chain Monte Carlo EM, linear minimum mean-square-error estimation, approximate
+message passing and a diagonal approximation. Using numerical experiments, we
+show that the proposed R-SBL method outperforms existing S-NNLS solvers in
+terms of both signal and support recovery performance, and is also very robust
+against the structure of the design matrix.

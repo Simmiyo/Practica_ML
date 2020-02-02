@@ -1,0 +1,27 @@
+VIOLA - A multi-purpose and web-based visualization tool for
+  neuronal-network simulation output
+Neuronal network models and corresponding computer simulations are invaluable
+tools to aid the interpretation of the relationship between neuron properties,
+connectivity and measured activity in cortical tissue. Spatiotemporal patterns
+of activity propagating across the cortical surface as observed experimentally
+can for example be described by neuronal network models with layered geometry
+and distance-dependent connectivity. The interpretation of the resulting stream
+of multi-modal and multi-dimensional simulation data calls for integrating
+interactive visualization steps into existing simulation-analysis workflows.
+Here, we present a set of interactive visualization concepts called views for
+the visual analysis of activity data in topological network models, and a
+corresponding reference implementation VIOLA (VIsualization Of Layer Activity).
+The software is a lightweight, open-source, web-based and platform-independent
+application combining and adapting modern interactive visualization paradigms,
+such as coordinated multiple views, for massively parallel neurophysiological
+data. For a use-case demonstration we consider spiking activity data of a
+two-population, layered point-neuron network model subject to a spatially
+confined excitation originating from an external population. With the multiple
+coordinated views, an explorative and qualitative assessment of the
+spatiotemporal features of neuronal activity can be performed upfront of a
+detailed quantitative data analysis of specific aspects of the data.
+Furthermore, ongoing efforts including the European Human Brain Project aim at
+providing online user portals for integrated model development, simulation,
+analysis and provenance tracking, wherein interactive visual analysis tools are
+one component. Browser-compatible, web-technology based solutions are therefore
+required. Within this scope, with VIOLA we provide a first prototype.

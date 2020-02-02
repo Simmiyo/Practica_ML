@@ -1,0 +1,12 @@
+A Neural Architecture Mimicking Humans End-to-End for Natural Language
+  Inference
+In this work we use the recent advances in representation learning to propose
+a neural architecture for the problem of natural language inference. Our
+approach is aligned to mimic how a human does the natural language inference
+process given two statements. The model uses variants of Long Short Term Memory
+(LSTM), attention mechanism and composable neural networks, to carry out the
+task. Each part of our model can be mapped to a clear functionality humans do
+for carrying out the overall task of natural language inference. The model is
+end-to-end differentiable enabling training by stochastic gradient descent. On
+Stanford Natural Language Inference(SNLI) dataset, the proposed model achieves
+better accuracy numbers than all published models in literature.

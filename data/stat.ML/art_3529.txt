@@ -1,0 +1,15 @@
+Maximum Correntropy Kalman Filter
+Traditional Kalman filter (KF) is derived under the well-known minimum mean
+square error (MMSE) criterion, which is optimal under Gaussian assumption.
+However, when the signals are non-Gaussian, especially when the system is
+disturbed by some heavy-tailed impulsive noises, the performance of KF will
+deteriorate seriously. To improve the robustness of KF against impulsive
+noises, we propose in this work a new Kalman filter, called the maximum
+correntropy Kalman filter (MCKF), which adopts the robust maximum correntropy
+criterion (MCC) as the optimality criterion, instead of using the MMSE. Similar
+to the traditional KF, the state mean and covariance matrix propagation
+equations are used to give prior estimations of the state and covariance matrix
+in MCKF. A novel fixed-point algorithm is then used to update the posterior
+estimations. A sufficient condition that guarantees the convergence of the
+fixed-point algorithm is given. Illustration examples are presented to
+demonstrate the effectiveness and robustness of the new algorithm.

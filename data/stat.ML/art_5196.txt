@@ -1,0 +1,15 @@
+Marked Temporal Dynamics Modeling based on Recurrent Neural Network
+We are now witnessing the increasing availability of event stream data, i.e.,
+a sequence of events with each event typically being denoted by the time it
+occurs and its mark information (e.g., event type). A fundamental problem is to
+model and predict such kind of marked temporal dynamics, i.e., when the next
+event will take place and what its mark will be. Existing methods either
+predict only the mark or the time of the next event, or predict both of them,
+yet separately. Indeed, in marked temporal dynamics, the time and the mark of
+the next event are highly dependent on each other, requiring a method that
+could simultaneously predict both of them. To tackle this problem, in this
+paper, we propose to model marked temporal dynamics by using a mark-specific
+intensity function to explicitly capture the dependency between the mark and
+the time of the next event. Extensive experiments on two datasets demonstrate
+that the proposed method outperforms state-of-the-art methods at predicting
+marked temporal dynamics.

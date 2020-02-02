@@ -1,0 +1,16 @@
+Linear Regression with Shuffled Labels
+Is it possible to perform linear regression on datasets whose labels are
+shuffled with respect to the inputs? We explore this question by proposing
+several estimators that recover the weights of a noisy linear model from labels
+that are shuffled by an unknown permutation. We show that the analog of the
+classical least-squares estimator produces inconsistent estimates in this
+setting, and introduce an estimator based on the self-moments of the input
+features and labels. We study the regimes in which each estimator excels, and
+generalize the estimators to the setting where partial ordering information is
+available in the form of experiments replicated independently. The result is a
+framework that enables robust inference, as we demonstrate by experiments on
+both synthetic and standard datasets, where we are able to recover approximate
+weights using only shuffled labels. Our work demonstrates that linear
+regression in the absence of complete ordering information is possible and can
+be of practical interest, particularly in experiments that characterize
+populations of particles, such as flow cytometry.

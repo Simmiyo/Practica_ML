@@ -1,0 +1,13 @@
+Thompson Sampling for Linear-Quadratic Control Problems
+We consider the exploration-exploitation tradeoff in linear quadratic (LQ)
+control problems, where the state dynamics is linear and the cost function is
+quadratic in states and controls. We analyze the regret of Thompson sampling
+(TS) (a.k.a. posterior-sampling for reinforcement learning) in the frequentist
+setting, i.e., when the parameters characterizing the LQ dynamics are fixed.
+Despite the empirical and theoretical success in a wide range of problems from
+multi-armed bandit to linear bandit, we show that when studying the frequentist
+regret TS in control problems, we need to trade-off the frequency of sampling
+optimistic parameters and the frequency of switches in the control policy. This
+results in an overall regret of $O(T^{2/3})$, which is significantly worse than
+the regret $O(\sqrt{T})$ achieved by the optimism-in-face-of-uncertainty
+algorithm in LQ control problems.

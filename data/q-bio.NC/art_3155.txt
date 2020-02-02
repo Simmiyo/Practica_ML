@@ -1,0 +1,26 @@
+Exponential Capacity in an Autoencoder Neural Network with a Hidden
+  Layer
+A fundamental aspect of limitations in learning any computation in neural
+architectures is characterizing their optimal capacities.
+  An important, widely-used neural architecture is known as autoencoders where
+the network reconstructs the input at the output layer via a representation at
+a hidden layer.
+  Even though capacities of several neural architectures have been addressed
+using statistical physics methods, the capacity of autoencoder neural networks
+is not well-explored.
+  Here, we analytically show that an autoencoder network of binary neurons with
+a hidden layer can achieve a capacity that grows exponentially with network
+size.
+  The network has fixed random weights encoding a set of dense input patterns
+into a dense, expanded (or \emph{overcomplete}) hidden layer representation. A
+set of learnable weights decodes the input patters at the output layer. We
+perform a mean-field approximation of the model to reduce the model to a
+perceptron problem with an input-output dependency. Carrying out Gardner's
+\emph{replica} calculation, we show that as the expansion ratio, defined as the
+number of hidden units over the number of input units, increases, the
+autoencoding capacity grows exponentially even when the sparseness or the
+coding level of the hidden layer representation is changed. The
+replica-symmetric solution is locally stable and is in good agreement with
+simulation results obtained using a local learning rule. In addition, the
+degree of symmetry between the encoding and decoding weights monotonically
+increases with the expansion ratio.

@@ -1,0 +1,23 @@
+Functional connectivity patterns of autism spectrum disorder identified
+  by deep feature learning
+Autism spectrum disorder (ASD) is regarded as a brain disease with globally
+disrupted neuronal networks. Even though fMRI studies have revealed abnormal
+functional connectivity in ASD, they have not reached a consensus of the
+disrupted patterns. Here, a deep learning-based feature extraction method
+identifies multivariate and nonlinear functional connectivity patterns of ASD.
+Resting-state fMRI data of 972 subjects (465 ASD 507 normal controls) acquired
+from the Autism Brain Imaging Data Exchange were used. A functional
+connectivity matrix of each subject was generated using 90 predefined brain
+regions. As a data-driven feature extraction method without prior knowledge
+such as subjects diagnosis, variational autoencoder (VAE) summarized the
+functional connectivity matrix into 2 features. Those feature values of ASD
+patients were statistically compared with those of controls. A feature was
+significantly different between ASD and normal controls. The extracted features
+were visualized by VAE-based generator which can produce virtual functional
+connectivity matrices. The ASD-related feature was associated with
+frontoparietal connections, interconnections of the dorsal medial frontal
+cortex and corticostriatal connections. It also showed a trend of negative
+correlation with full-scale IQ. A data-driven feature extraction based on deep
+learning could identify complex patterns of functional connectivity of ASD.
+This approach will help discover complex patterns of abnormalities in brain
+connectivity in various brain disorders.

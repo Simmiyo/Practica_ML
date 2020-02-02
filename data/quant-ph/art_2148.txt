@@ -1,0 +1,9 @@
+Higher Order Methods for Simulations on Quantum Computers
+To efficiently implement many-qubit gates for use in quantum simulations on
+quantum computers we develop and present methods reexpressing exp[-i (H_1 + H_2
++ ...) \Delta t] as a product of factors exp[-i H_1 \Delta t], exp[-i H_2
+\Delta t], ... which is accurate to 3rd or 4th order in \Delta t. The methods
+we derive are an extended form of symplectic method and can also be used for
+the integration of classical Hamiltonians on classical computers. We derive
+both integral and irrational methods, and find the most efficient methods in
+both cases.

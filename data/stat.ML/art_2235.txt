@@ -1,0 +1,17 @@
+Fused Multiple Graphical Lasso
+In this paper, we consider the problem of estimating multiple graphical
+models simultaneously using the fused lasso penalty, which encourages adjacent
+graphs to share similar structures. A motivating example is the analysis of
+brain networks of Alzheimer's disease using neuroimaging data. Specifically, we
+may wish to estimate a brain network for the normal controls (NC), a brain
+network for the patients with mild cognitive impairment (MCI), and a brain
+network for Alzheimer's patients (AD). We expect the two brain networks for NC
+and MCI to share common structures but not to be identical to each other;
+similarly for the two brain networks for MCI and AD. The proposed formulation
+can be solved using a second-order method. Our key technical contribution is to
+establish the necessary and sufficient condition for the graphs to be
+decomposable. Based on this key property, a simple screening rule is presented,
+which decomposes the large graphs into small subgraphs and allows an efficient
+estimation of multiple independent (small) subgraphs, dramatically reducing the
+computational cost. We perform experiments on both synthetic and real data; our
+results demonstrate the effectiveness and efficiency of the proposed approach.

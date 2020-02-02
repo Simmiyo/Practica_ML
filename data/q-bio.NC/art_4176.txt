@@ -1,0 +1,15 @@
+The operad of temporal wiring diagrams: formalizing a graphical language
+  for discrete-time processes
+We investigate the hierarchical structure of processes using the mathematical
+theory of operads. Information or material enters a given process as a stream
+of inputs, and the process converts it to a stream of outputs. Output streams
+can then be supplied to other processes in an organized manner, and the
+resulting system of interconnected processes can itself be considered a macro
+process. To model the inherent structure in this kind of system, we define an
+operad $\mathcal{W}$ of black boxes and directed wiring diagrams, and we define
+a $\mathcal{W}$-algebra $\mathcal{P}$ of processes (which we call propagators,
+after Radul and Sussman). Previous operadic models of wiring diagrams use
+undirected wires without length, useful for modeling static systems of
+constraints, whereas we use directed wires with length, useful for modeling
+dynamic flows of information. We give multiple examples throughout to ground
+the ideas.

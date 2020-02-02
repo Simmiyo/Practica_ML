@@ -1,0 +1,17 @@
+Contextual and Position-Aware Factorization Machines for Sentiment
+  Classification
+While existing machine learning models have achieved great success for
+sentiment classification, they typically do not explicitly capture
+sentiment-oriented word interaction, which can lead to poor results for
+fine-grained analysis at the snippet level (a phrase or sentence).
+Factorization Machine provides a possible approach to learning element-wise
+interaction for recommender systems, but they are not directly applicable to
+our task due to the inability to model contexts and word sequences. In this
+work, we develop two Position-aware Factorization Machines which consider word
+interaction, context and position information. Such information is jointly
+encoded in a set of sentiment-oriented word interaction vectors. Compared to
+traditional word embeddings, SWI vectors explicitly capture sentiment-oriented
+word interaction and simplify the parameter learning. Experimental results show
+that while they have comparable performance with state-of-the-art methods for
+document-level classification, they benefit the snippet/sentence-level
+sentiment analysis.

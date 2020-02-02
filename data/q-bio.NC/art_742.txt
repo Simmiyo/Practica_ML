@@ -1,0 +1,24 @@
+Graded, Dynamically Routable Information Processing with Synfire-Gated
+  Synfire Chains
+Coherent neural spiking and local field potentials are believed to be
+signatures of the binding and transfer of information in the brain. Coherent
+activity has now been measured experimentally in many regions of mammalian
+cortex. Synfire chains are one of the main theoretical constructs that have
+been appealed to to describe coherent spiking phenomena. However, for some
+time, it has been known that synchronous activity in feedforward networks
+asymptotically either approaches an attractor with fixed waveform and
+amplitude, or fails to propagate. This has limited their ability to explain
+graded neuronal responses. Recently, we have shown that pulse-gated synfire
+chains are capable of propagating graded information coded in mean population
+current or firing rate amplitudes. In particular, we showed that it is possible
+to use one synfire chain to provide gating pulses and a second, pulse-gated
+synfire chain to propagate graded information. We called these circuits
+synfire-gated synfire chains (SGSCs). Here, we present SGSCs in which graded
+information can rapidly cascade through a neural circuit, and show a
+correspondence between this type of transfer and a mean-field model in which
+gating pulses overlap in time. We show that SGSCs are robust in the presence of
+variability in population size, pulse timing and synaptic strength. Finally, we
+demonstrate the computational capabilities of SGSC-based information coding by
+implementing a self-contained, spike-based, modular neural circuit that is
+triggered by, then reads in streaming input, processes the input, then makes a
+decision based on the processed information and shuts itself down.

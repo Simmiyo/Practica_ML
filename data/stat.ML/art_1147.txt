@@ -1,0 +1,13 @@
+Causal Learning via Manifold Regularization
+This paper frames causal structure estimation as a machine learning task. The
+idea is to treat indicators of causal relationships between variables as
+`labels' and to exploit available data on the variables of interest to provide
+features for the labelling task. Background scientific knowledge or any
+available interventional data provide labels on some causal relationships and
+the remainder are treated as unlabelled. To illustrate the key ideas, we
+develop a distance-based approach (based on bivariate histograms) within a
+manifold regularization framework. We present empirical results on three
+different biological data sets (including examples where causal effects can be
+verified by experimental intervention), that together demonstrate the efficacy
+and general nature of the approach as well as its simplicity from a user's
+point of view.

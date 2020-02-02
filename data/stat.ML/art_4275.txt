@@ -1,0 +1,19 @@
+Metrics for Deep Generative Models
+Neural samplers such as variational autoencoders (VAEs) or generative
+adversarial networks (GANs) approximate distributions by transforming samples
+from a simple random source---the latent space---to samples from a more complex
+distribution represented by a dataset. While the manifold hypothesis implies
+that the density induced by a dataset contains large regions of low density,
+the training criterions of VAEs and GANs will make the latent space densely
+covered. Consequently points that are separated by low-density regions in
+observation space will be pushed together in latent space, making stationary
+distances poor proxies for similarity. We transfer ideas from Riemannian
+geometry to this setting, letting the distance between two points be the
+shortest path on a Riemannian manifold induced by the transformation. The
+method yields a principled distance measure, provides a tool for visual
+inspection of deep generative models, and an alternative to linear
+interpolation in latent space. In addition, it can be applied for robot
+movement generalization using previously learned skills. The method is
+evaluated on a synthetic dataset with known ground truth; on a simulated robot
+arm dataset; on human motion capture data; and on a generative model of
+handwritten digits.

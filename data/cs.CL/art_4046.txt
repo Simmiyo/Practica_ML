@@ -1,0 +1,13 @@
+Contextual Slot Carryover for Disparate Schemas
+In the slot-filling paradigm, where a user can refer back to slots in the
+context during a conversation, the goal of the contextual understanding system
+is to resolve the referring expressions to the appropriate slots in the
+context. In large-scale multi-domain systems, this presents two challenges -
+scaling to a very large and potentially unbounded set of slot values, and
+dealing with diverse schemas. We present a neural network architecture that
+addresses the slot value scalability challenge by reformulating the contextual
+interpretation as a decision to carryover a slot from a set of possible
+candidates. To deal with heterogenous schemas, we introduce a simple
+data-driven method for trans- forming the candidate slots. Our experiments show
+that our approach can scale to multiple domains and provides competitive
+results over a strong baseline.

@@ -1,0 +1,19 @@
+Emotions are Universal: Learning Sentiment Based Representations of
+  Resource-Poor Languages using Siamese Networks
+Machine learning approaches in sentiment analysis principally rely on the
+abundance of resources. To limit this dependence, we propose a novel method
+called Siamese Network Architecture for Sentiment Analysis (SNASA) to learn
+representations of resource-poor languages by jointly training them with
+resource-rich languages using a siamese network.
+  SNASA model consists of twin Bi-directional Long Short-Term Memory Recurrent
+Neural Networks (Bi-LSTM RNN) with shared parameters joined by a contrastive
+loss function, based on a similarity metric. The model learns the sentence
+representations of resource-poor and resource-rich language in a common
+sentiment space by using a similarity metric based on their individual
+sentiments. The model, hence, projects sentences with similar sentiment closer
+to each other and the sentences with different sentiment farther from each
+other. Experiments on large-scale datasets of resource-rich languages - English
+and Spanish and resource-poor languages - Hindi and Telugu reveal that SNASA
+outperforms the state-of-the-art sentiment analysis approaches based on
+distributional semantics, semantic rules, lexicon lists and deep neural network
+representations without sh

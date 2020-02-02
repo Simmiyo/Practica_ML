@@ -1,0 +1,10 @@
+Frame-Semantic Parsing with Softmax-Margin Segmental RNNs and a
+  Syntactic Scaffold
+We present a new, efficient frame-semantic parser that labels semantic
+arguments to FrameNet predicates. Built using an extension to the segmental RNN
+that emphasizes recall, our basic system achieves competitive performance
+without any calls to a syntactic parser. We then introduce a method that uses
+phrase-syntactic annotations from the Penn Treebank during training only,
+through a multitask objective; no parsing is required at training or test time.
+This "syntactic scaffold" offers a cheaper alternative to traditional syntactic
+pipelining, and achieves state-of-the-art performance.

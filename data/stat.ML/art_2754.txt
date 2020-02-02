@@ -1,0 +1,23 @@
+Monte Carlo Simulation for Lasso-Type Problems by Estimator Augmentation
+Regularized linear regression under the $\ell_1$ penalty, such as the Lasso,
+has been shown to be effective in variable selection and sparse modeling. The
+sampling distribution of an $\ell_1$-penalized estimator $\hat{\beta}$ is hard
+to determine as the estimator is defined by an optimization problem that in
+general can only be solved numerically and many of its components may be
+exactly zero. Let $S$ be the subgradient of the $\ell_1$ norm of the
+coefficient vector $\beta$ evaluated at $\hat{\beta}$. We find that the joint
+sampling distribution of $\hat{\beta}$ and $S$, together called an augmented
+estimator, is much more tractable and has a closed-form density under a normal
+error distribution in both low-dimensional ($p\leq n$) and high-dimensional
+($p>n$) settings. Given $\beta$ and the error variance $\sigma^2$, one may
+employ standard Monte Carlo methods, such as Markov chain Monte Carlo and
+importance sampling, to draw samples from the distribution of the augmented
+estimator and calculate expectations with respect to the sampling distribution
+of $\hat{\beta}$. We develop a few concrete Monte Carlo algorithms and
+demonstrate with numerical examples that our approach may offer huge advantages
+and great flexibility in studying sampling distributions in $\ell_1$-penalized
+linear regression. We also establish nonasymptotic bounds on the difference
+between the true sampling distribution of $\hat{\beta}$ and its estimator
+obtained by plugging in estimated parameters, which justifies the validity of
+Monte Carlo simulation from an estimated sampling distribution even when $p\gg
+n\to \infty$.

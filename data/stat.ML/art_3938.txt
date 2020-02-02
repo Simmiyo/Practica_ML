@@ -1,0 +1,19 @@
+Probabilistic Dimensionality Reduction via Structure Learning
+We propose a novel probabilistic dimensionality reduction framework that can
+naturally integrate the generative model and the locality information of data.
+Based on this framework, we present a new model, which is able to learn a
+smooth skeleton of embedding points in a low-dimensional space from
+high-dimensional noisy data. The formulation of the new model can be
+equivalently interpreted as two coupled learning problem, i.e., structure
+learning and the learning of projection matrix. This interpretation motivates
+the learning of the embedding points that can directly form an explicit graph
+structure. We develop a new method to learn the embedding points that form a
+spanning tree, which is further extended to obtain a discriminative and compact
+feature representation for clustering problems. Unlike traditional clustering
+methods, we assume that centers of clusters should be close to each other if
+they are connected in a learned graph, and other cluster centers should be
+distant. This can greatly facilitate data visualization and scientific
+discovery in downstream analysis. Extensive experiments are performed that
+demonstrate that the proposed framework is able to obtain discriminative
+feature representations, and correctly recover the intrinsic structures of
+various real-world datasets.

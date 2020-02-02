@@ -1,0 +1,18 @@
+Softplus Regressions and Convex Polytopes
+To construct flexible nonlinear predictive distributions, the paper
+introduces a family of softplus function based regression models that convolve,
+stack, or combine both operations by convolving countably infinite stacked
+gamma distributions, whose scales depend on the covariates. Generalizing
+logistic regression that uses a single hyperplane to partition the covariate
+space into two halves, softplus regressions employ multiple hyperplanes to
+construct a confined space, related to a single convex polytope defined by the
+intersection of multiple half-spaces or a union of multiple convex polytopes,
+to separate one class from the other. The gamma process is introduced to
+support the convolution of countably infinite (stacked) covariate-dependent
+gamma distributions. For Bayesian inference, Gibbs sampling derived via novel
+data augmentation and marginalization techniques is used to deconvolve and/or
+demix the highly complex nonlinear predictive distribution. Example results
+demonstrate that softplus regressions provide flexible nonlinear decision
+boundaries, achieving classification accuracies comparable to that of kernel
+support vector machine while requiring significant less computation for
+out-of-sample prediction.

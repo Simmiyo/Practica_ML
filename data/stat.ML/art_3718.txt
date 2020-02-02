@@ -1,0 +1,17 @@
+Feature-Level Domain Adaptation
+Domain adaptation is the supervised learning setting in which the training
+and test data are sampled from different distributions: training data is
+sampled from a source domain, whilst test data is sampled from a target domain.
+This paper proposes and studies an approach, called feature-level domain
+adaptation (FLDA), that models the dependence between the two domains by means
+of a feature-level transfer model that is trained to describe the transfer from
+source to target domain. Subsequently, we train a domain-adapted classifier by
+minimizing the expected loss under the resulting transfer model. For linear
+classifiers and a large family of loss functions and transfer models, this
+expected loss can be computed or approximated analytically, and minimized
+efficiently. Our empirical evaluation of FLDA focuses on problems comprising
+binary and count data in which the transfer can be naturally modeled via a
+dropout distribution, which allows the classifier to adapt to differences in
+the marginal probability of features in the source and the target domain. Our
+experiments on several real-world problems show that FLDA performs on par with
+state-of-the-art domain-adaptation techniques.

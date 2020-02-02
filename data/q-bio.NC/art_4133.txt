@@ -1,0 +1,15 @@
+Bayesian Learning of Loglinear Models for Neural Connectivity
+This paper presents a Bayesian approach to learning the connectivity
+structure of a group of neurons from data on configuration frequencies. A major
+objective of the research is to provide statistical tools for detecting changes
+in firing patterns with changing stimuli. Our framework is not restricted to
+the well-understood case of pair interactions, but generalizes the Boltzmann
+machine model to allow for higher order interactions. The paper applies a
+Markov Chain Monte Carlo Model Composition (MC3) algorithm to search over
+connectivity structures and uses Laplace's method to approximate posterior
+probabilities of structures. Performance of the methods was tested on synthetic
+data. The models were also applied to data obtained by Vaadia on multi-unit
+recordings of several neurons in the visual cortex of a rhesus monkey in two
+different attentional states. Results confirmed the experimenters' conjecture
+that different attentional states were associated with different interaction
+structures.

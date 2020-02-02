@@ -1,0 +1,26 @@
+The p-filter: multi-layer FDR control for grouped hypotheses
+In many practical applications of multiple hypothesis testing using the False
+Discovery Rate (FDR), the given hypotheses can be naturally partitioned into
+groups, and one may not only want to control the number of false discoveries
+(wrongly rejected null hypotheses), but also the number of falsely discovered
+groups of hypotheses (we say a group is falsely discovered if at least one
+hypothesis within that group is rejected, when in reality the group contains
+only nulls). In this paper, we introduce the p-filter, a procedure which
+unifies and generalizes the standard FDR procedure by Benjamini and Hochberg
+and global null testing procedure by Simes. We first prove that our proposed
+method can simultaneously control the overall FDR at the finest level
+(individual hypotheses treated separately) and the group FDR at coarser levels
+(when such groups are user-specified). We then generalize the p-filter
+procedure even further to handle multiple partitions of hypotheses, since that
+might be natural in many applications. For example, in neuroscience
+experiments, we may have a hypothesis for every (discretized) location in the
+brain, and at every (discretized) timepoint: does the stimulus correlate with
+activity in location x at time t after the stimulus was presented? In this
+setting, one might want to group hypotheses by location and by time.
+Importantly, our procedure can handle multiple partitions which are
+nonhierarchical (i.e. one partition may arrange p-values by voxel, and another
+partition arranges them by time point; neither one is nested inside the other).
+We prove that our procedure controls FDR simultaneously across these multiple
+lay- ers, under assumptions that are standard in the literature: we do not need
+the hypotheses to be independent, but require a nonnegative dependence
+condition known as PRDS.

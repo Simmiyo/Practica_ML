@@ -1,0 +1,28 @@
+The Energy Landscape Underpinning Module Dynamics in the Human Brain
+  Connectome
+Human brain dynamics can be profitably viewed through the lens of statistical
+mechanics, where neurophysiological activity evolves around and between local
+attractors representing preferred mental states. Many physically-inspired
+models of these dynamics define the state of the brain based on instantaneous
+measurements of regional activity. Yet, recent work in network neuroscience has
+provided initial evidence that the brain might also be well-characterized by
+time-varying states composed of locally coherent activity or functional
+modules. Here we study this network-based notion of brain state to understand
+how functional modules dynamically interact with one another to perform
+cognitive functions. We estimate the functional relationships between regions
+of interest (ROIs) by fitting a pair-wise maximum entropy model to each ROI's
+pattern of allegiance to functional modules. Local minima in this model
+represent attractor states characterized by specific patterns of modular
+structure. The clustering of local minima highlights three classes of ROIs with
+similar patterns of allegiance to community states. Visual, attention,
+sensorimotor, and subcortical ROIs tend to form a single functional community.
+The remaining ROIs tend to form a putative executive control community or a
+putative default mode and salience community. We simulate the brain's dynamic
+transitions between these community states using a Markov Chain Monte Carlo
+random walk. We observe that simulated transition probabilities between basins
+resemble empirically observed transitions between community allegiance states
+in resting state fMRI data. These results collectively offer a view of the
+brain as a dynamical system that transitions between basins of attraction
+characterized by coherent activity in small groups of brain regions, and that
+the strength of these attractors depends on the cognitive computations being
+performed.

@@ -1,0 +1,12 @@
+A Hierarchical Multi-Output Nearest Neighbor Model for Multi-Output
+  Dependence Learning
+Multi-Output Dependence (MOD) learning is a generalization of standard
+classification problems that allows for multiple outputs that are dependent on
+each other. A primary issue that arises in the context of MOD learning is that
+for any given input pattern there can be multiple correct output patterns. This
+changes the learning task from function approximation to relation
+approximation. Previous algorithms do not consider this problem, and thus
+cannot be readily applied to MOD problems. To perform MOD learning, we
+introduce the Hierarchical Multi-Output Nearest Neighbor model (HMONN) that
+employs a basic learning model for each output and a modified nearest neighbor
+approach to refine the initial results.

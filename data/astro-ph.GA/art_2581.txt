@@ -1,0 +1,27 @@
+Testing the accuracy of radiative cooling approximations in SPH
+  simulations
+Hydrodynamical simulations of star formation have stimulated a need to
+develop fast and robust algorithms for evaluating radiative cooling. Here we
+undertake a critical evaluation of what is currently a popular method for
+prescribing cooling in SPH simulations, i.e. the polytropic cooling due
+originally to Stamatellos et al. This method uses the local density and
+potential to estimate the column density and optical depth to each particle and
+then uses these quantities to evaluate an approximate expression for the net
+radiative cooling. We evaluate the algorithm by considering both spherical and
+disc-like systems with analytic density and temperature structures. In
+spherical systems, the total cooling rate computed by the method is within
+around 20 for the astrophysically relevant case of opacity dominated by ice
+grains and is correct to within a factor of order unity for a range of opacity
+laws. In disc geometry, however, the method systematically under-estimates the
+cooling by a large factor at all heights in the disc. For the self-gravitating
+disc studied, we find that the method under-estimates the total cooling rate by
+a factor of 200. This discrepancy may be readily traced to the method's
+systematic over-estimate of the disc column density and optical depth, since
+(being based only on the local density and potential) it does not take into
+account the low column density route for photon escape normal to the disc
+plane. These results raise an obvious caution about the method's use in disc
+geometry whenever an accurate cooling rate is required, although we note that
+there are situations where the discrepancies highlighted above may not
+significantly affect the global outcome of simulations. Finally, we draw
+attention to our introduction of an analytic self-gravitating disc structure
+that may be of use in the calibration of future cooling algorithms.

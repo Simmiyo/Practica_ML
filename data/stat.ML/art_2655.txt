@@ -1,0 +1,10 @@
+A Theoretical and Experimental Comparison of the EM and SEM Algorithm
+In this paper we provide a new analysis of the SEM algorithm. Unlike previous
+work, we focus on the analysis of a single run of the algorithm. First, we
+discuss the algorithm for general mixture distributions. Second, we consider
+Gaussian mixture models and show that with high probability the update
+equations of the EM algorithm and its stochastic variant are almost the same,
+given that the input set is sufficiently large. Our experiments confirm that
+this still holds for a large number of successive update steps. In particular,
+for Gaussian mixture models, we show that the stochastic variant runs nearly
+twice as fast.

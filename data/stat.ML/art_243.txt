@@ -1,0 +1,24 @@
+Efficient Eigen-updating for Spectral Graph Clustering
+Partitioning a graph into groups of vertices such that those within each
+group are more densely connected than vertices assigned to different groups,
+known as graph clustering, is often used to gain insight into the organisation
+of large scale networks and for visualisation purposes. Whereas a large number
+of dedicated techniques have been recently proposed for static graphs, the
+design of on-line graph clustering methods tailored for evolving networks is a
+challenging problem, and much less documented in the literature. Motivated by
+the broad variety of applications concerned, ranging from the study of
+biological networks to the analysis of networks of scientific references
+through the exploration of communications networks such as the World Wide Web,
+it is the main purpose of this paper to introduce a novel, computationally
+efficient, approach to graph clustering in the evolutionary context. Namely,
+the method promoted in this article can be viewed as an incremental eigenvalue
+solution for the spectral clustering method described by Ng. et al. (2001). The
+incremental eigenvalue solution is a general technique for finding the
+approximate eigenvectors of a symmetric matrix given a change. As well as
+outlining the approach in detail, we present a theoretical bound on the quality
+of the approximate eigenvectors using perturbation theory. We then derive a
+novel spectral clustering algorithm called Incremental Approximate Spectral
+Clustering (IASC). The IASC algorithm is simple to implement and its efficacy
+is demonstrated on both synthetic and real datasets modelling the evolution of
+a HIV epidemic, a citation network and the purchase history graph of an
+e-commerce website.

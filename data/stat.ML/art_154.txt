@@ -1,0 +1,13 @@
+Sparse Inverse Covariance Estimation via an Adaptive Gradient-Based
+  Method
+We study the problem of estimating from data, a sparse approximation to the
+inverse covariance matrix. Estimating a sparsity constrained inverse covariance
+matrix is a key component in Gaussian graphical model learning, but one that is
+numerically very challenging. We address this challenge by developing a new
+adaptive gradient-based method that carefully combines gradient information
+with an adaptive step-scaling strategy, which results in a scalable, highly
+competitive method. Our algorithm, like its predecessors, maximizes an
+$\ell_1$-norm penalized log-likelihood and has the same per iteration
+arithmetic complexity as the best methods in its class. Our experiments reveal
+that our approach outperforms state-of-the-art competitors, often significantly
+so, for large problems.

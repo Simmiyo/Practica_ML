@@ -1,0 +1,19 @@
+A compact statistical model of the song syntax in Bengalese finch
+Songs of many songbird species consist of variable sequences of a finite
+number of syllables. A common approach for characterizing the syntax of these
+complex syllable sequences is to use transition probabilities between the
+syllables. This is equivalent to the Markov model, in which each syllable is
+associated with one state, and the transition probabilities between the states
+do not depend on the state transition history. Here we analyze the song syntax
+in a Bengalese finch. We show that the Markov model fails to capture the
+statistical properties of the syllable sequences. Instead, a state transition
+model that accurately describes the statistics of the syllable sequences
+includes adaptation of the self-transition probabilities when states are
+repeatedly revisited, and allows associations of more than one state to the
+same syllable. Such a model does not increase the model complexity
+significantly. Mathematically, the model is a partially observable Markov model
+with adaptation (POMMA). The success of the POMMA supports the branching chain
+network hypothesis of how syntax is controlled within the premotor song nucleus
+HVC, and suggests that adaptation and many-to-one mapping from neural
+substrates to syllables are important features of the neural control of complex
+song syntax.

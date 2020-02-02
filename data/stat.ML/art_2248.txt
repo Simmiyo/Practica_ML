@@ -1,0 +1,16 @@
+Optimal Weighting of Multi-View Data with Low Dimensional Hidden States
+In Natural Language Processing (NLP) tasks, data often has the following two
+properties: First, data can be chopped into multi-views which has been
+successfully used for dimension reduction purposes. For example, in topic
+classification, every paper can be chopped into the title, the main text and
+the references. However, it is common that some of the views are less noisier
+than other views for supervised learning problems. Second, unlabeled data are
+easy to obtain while labeled data are relatively rare. For example, articles
+occurred on New York Times in recent 10 years are easy to grab but having them
+classified as 'Politics', 'Finance' or 'Sports' need human labor. Hence less
+noisy features are preferred before running supervised learning methods. In
+this paper we propose an unsupervised algorithm which optimally weights
+features from different views when these views are generated from a low
+dimensional hidden state, which occurs in widely used models like Mixture
+Gaussian Model, Hidden Markov Model (HMM) and Latent Dirichlet Allocation
+(LDA).

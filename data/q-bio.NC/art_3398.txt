@@ -1,0 +1,27 @@
+Error Forward-Propagation: Reusing Feedforward Connections to Propagate
+  Errors in Deep Learning
+We introduce Error Forward-Propagation, a biologically plausible mechanism to
+propagate error feedback forward through the network. Architectural constraints
+on connectivity are virtually eliminated for error feedback in the brain;
+systematic backward connectivity is not used or needed to deliver error
+feedback. Feedback as a means of assigning credit to neurons earlier in the
+forward pathway for their contribution to the final output is thought to be
+used in learning in the brain. How the brain solves the credit assignment
+problem is unclear. In machine learning, error backpropagation is a highly
+successful mechanism for credit assignment in deep multilayered networks.
+Backpropagation requires symmetric reciprocal connectivity for every neuron.
+From a biological perspective, there is no evidence of such an architectural
+constraint, which makes backpropagation implausible for learning in the brain.
+This architectural constraint is reduced with the use of random feedback
+weights. Models using random feedback weights require backward connectivity
+patterns for every neuron, but avoid symmetric weights and reciprocal
+connections. In this paper, we practically remove this architectural
+constraint, requiring only a backward loop connection for effective error
+feedback. We propose reusing the forward connections to deliver the error
+feedback by feeding the outputs into the input receiving layer. This mechanism,
+Error Forward-Propagation, is a plausible basis for how error feedback occurs
+deep in the brain independent of and yet in support of the functionality
+underlying intricate network architectures. We show experimentally that
+recurrent neural networks with two and three hidden layers can be trained using
+Error Forward-Propagation on the MNIST and Fashion MNIST datasets, achieving
+$1.90\%$ and $11\%$ generalization errors respectively.

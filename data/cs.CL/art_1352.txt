@@ -1,0 +1,15 @@
+Linguistically Regularized LSTMs for Sentiment Classification
+Sentiment understanding has been a long-term goal of AI in the past decades.
+This paper deals with sentence-level sentiment classification. Though a variety
+of neural network models have been proposed very recently, however, previous
+models either depend on expensive phrase-level annotation, whose performance
+drops substantially when trained with only sentence-level annotation; or do not
+fully employ linguistic resources (e.g., sentiment lexicons, negation words,
+intensity words), thus not being able to produce linguistically coherent
+representations. In this paper, we propose simple models trained with
+sentence-level annotation, but also attempt to generating linguistically
+coherent representations by employing regularizers that model the linguistic
+role of sentiment lexicons, negation words, and intensity words. Results show
+that our models are effective to capture the sentiment shifting effect of
+sentiment, negation, and intensity words, while still obtain competitive
+results without sacrificing the models' simplicity.

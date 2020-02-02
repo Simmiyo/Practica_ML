@@ -1,0 +1,9 @@
+Data Augmentation for Neural Online Chat Response Selection
+Data augmentation seeks to manipulate the available data for training to
+improve the generalization ability of models. We investigate two data
+augmentation proxies, permutation and flipping, for neural dialog response
+selection task on various models over multiple datasets, including both Chinese
+and English languages. Different from standard data augmentation techniques,
+our method combines the original and synthesized data for prediction. Empirical
+results show that our approach can gain 1 to 3 recall-at-1 points over baseline
+models in both full-scale and small-scale settings.

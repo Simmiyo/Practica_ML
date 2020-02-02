@@ -1,0 +1,28 @@
+Analysis of BOLD fMRI Signal Preprocessing Pipeline on Different
+  Datasets while Reducing False Positive Rates
+The technology of functional Magnetic Resonance Imaging (fMRI) based on Blood
+Oxygen Level Dependent (BOLD) signal has been widely used in clinical
+treatments and brain function researches. The BOLD signal has to be
+preprocessed before being analyzed using either functional connectivity
+measurements or statistical methods. Current researches show that data
+preprocessing steps may influence the results of analysis, yet there is no
+consensus on preprocessing method. In this paper, an evaluation method is
+proposed for analyzing the preprocessing pipeline of resting state BOLD fMRI
+(rs-BOLD fMRI) data under putative task experiment designs to cast some lights
+on the preprocessing stage, covering both first and second level analysis. The
+choices of preprocessing parameters and steps are altered to investigate
+preprocessing pipelines while observing statistical analysis results, trying to
+reduce false positives as reported by Eklund et al. in their 2016 PNAS paper.
+All of the experiment data are separated into 7 datasets, consisting of 220
+healthy control samples and 136 patient data that are from 38 incomplete Spinal
+Cord Injury (SCI) patients and 16 Cerebral Stroke (CS) patients, including
+multiple scans of some patients at different time. These data were acquired
+from two different MRI scanners, which may cause difference in analysis
+results. The evaluation result shows that it has little effect to change
+parameters in each steps of the classical preprocessing pipeline, which
+consists head motion correction, normalization and smoothing. Removing time
+points and the following detrend step can reduce false positives. However,
+covariates regression and filtering has complicated effects on the data. Note
+that for single subject analysis, false positives declined consistently after
+filtering. The result of patient data and healthy controls data which are
+scanned under the same machine with ...

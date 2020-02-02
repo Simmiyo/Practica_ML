@@ -1,0 +1,16 @@
+Online computation of sparse representations of time varying stimuli
+  using a biologically motivated neural network
+Natural stimuli are highly redundant, possessing significant spatial and
+temporal correlations. While sparse coding has been proposed as an efficient
+strategy employed by neural systems to encode sensory stimuli, the underlying
+mechanisms are still not well understood. Most previous approaches model the
+neural dynamics by the sparse representation dictionary itself and compute the
+representation coefficients offline. In reality, faced with the challenge of
+constantly changing stimuli, neurons must compute the sparse representations
+dynamically in an online fashion. Here, we describe a leaky linearized Bregman
+iteration (LLBI) algorithm which computes the time varying sparse
+representations using a biologically motivated network of leaky rectifying
+neurons. Compared to previous attempt of dynamic sparse coding, LLBI exploits
+the temporal correlation of stimuli and demonstrate better performance both in
+representation error and the smoothness of temporal evolution of sparse
+coefficients.

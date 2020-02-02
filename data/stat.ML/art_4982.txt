@@ -1,0 +1,13 @@
+Neural Network Architecture Optimization through Submodularity and
+  Supermodularity
+Deep learning models' architectures, including depth and width, are key
+factors influencing models' performance, such as test accuracy and computation
+time. This paper solves two problems: given computation time budget, choose an
+architecture to maximize accuracy, and given accuracy requirement, choose an
+architecture to minimize computation time. We convert this architecture
+optimization into a subset selection problem. With accuracy's submodularity and
+computation time's supermodularity, we propose efficient greedy optimization
+algorithms. The experiments demonstrate our algorithm's ability to find more
+accurate models or faster models. By analyzing architecture evolution with
+growing time budget, we discuss relationships among accuracy, time and
+architecture, and give suggestions on neural network architecture design.

@@ -1,0 +1,16 @@
+PLUTO: Penalized Unbiased Logistic Regression Trees
+We propose a new algorithm called PLUTO for building logistic regression
+trees to binary response data. PLUTO can capture the nonlinear and interaction
+patterns in messy data by recursively partitioning the sample space. It fits a
+simple or a multiple linear logistic regression model in each partition. PLUTO
+employs the cyclical coordinate descent method for estimation of multiple
+linear logistic regression models with elastic net penalties, which allows it
+to deal with high-dimensional data efficiently. The tree structure comprises a
+graphical description of the data. Together with the logistic regression
+models, it provides an accurate classifier as well as a piecewise smooth
+estimate of the probability of "success". PLUTO controls selection bias by: (1)
+separating split variable selection from split point selection; (2) applying an
+adjusted chi-squared test to find the split variable instead of exhaustive
+search. A bootstrap calibration technique is employed to further correct
+selection bias. Comparison on real datasets shows that on average, the multiple
+linear PLUTO models predict more accurately than other algorithms.

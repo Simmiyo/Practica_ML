@@ -1,0 +1,26 @@
+Finding Good Representations of Emotions for Text Classification
+It is important for machines to interpret human emotions properly for better
+human-machine communications, as emotion is an essential part of human-to-human
+communications. One aspect of emotion is reflected in the language we use. How
+to represent emotions in texts is a challenge in natural language processing
+(NLP). Although continuous vector representations like word2vec have become the
+new norm for NLP problems, their limitations are that they do not take emotions
+into consideration and can unintentionally contain bias toward certain
+identities like different genders.
+  This thesis focuses on improving existing representations in both word and
+sentence levels by explicitly taking emotions inside text and model bias into
+account in their training process. Our improved representations can help to
+build more robust machine learning models for affect-related text
+classification like sentiment/emotion analysis and abusive language detection.
+  We first propose representations called emotional word vectors (EVEC), which
+is learned from a convolutional neural network model with an emotion-labeled
+corpus, which is constructed using hashtags. Secondly, we extend to learning
+sentence-level representations with a huge corpus of texts with the pseudo task
+of recognizing emojis. Our results show that, with the representations trained
+from millions of tweets with weakly supervised labels such as hashtags and
+emojis, we can solve sentiment/emotion analysis tasks more effectively.
+  Lastly, as examples of model bias in representations of existing approaches,
+we explore a specific problem of automatic detection of abusive language. We
+address the issue of gender bias in various neural network models by conducting
+experiments to measure and reduce those biases in the representations in order
+to build more robust classification models.

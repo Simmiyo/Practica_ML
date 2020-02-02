@@ -1,0 +1,19 @@
+Multi-task Feature Selection based Anomaly Detection
+Network anomaly detection is still a vibrant research area. As the fast
+growth of network bandwidth and the tremendous traffic on the network, there
+arises an extremely challengeable question: How to efficiently and accurately
+detect the anomaly on multiple traffic? In multi-task learning, the traffic
+consisting of flows at different time periods is considered as a task. Multiple
+tasks at different time periods performed simultaneously to detect anomalies.
+In this paper, we apply the multi-task feature selection in network anomaly
+detection area which provides a powerful method to gather information from
+multiple traffic and detect anomalies on it simultaneously. In particular, the
+multi-task feature selection includes the well-known l1-norm based feature
+selection as a special case given only one task. Moreover, we show that the
+multi-task feature selection is more accurate by utilizing more information
+simultaneously than the l1-norm based method. At the evaluation stage, we
+preprocess the raw data trace from trans-Pacific backbone link between Japan
+and the United States, label with anomaly communities, and generate a
+248-feature dataset. We show empirically that the multi-task feature selection
+outperforms independent l1-norm based feature selection on real traffic
+dataset.

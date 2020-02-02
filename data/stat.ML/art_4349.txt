@@ -1,0 +1,16 @@
+A Convex Parametrization of a New Class of Universal Kernel Functions
+  for use in Kernel Learning
+We propose a new class of universal kernel functions which admit a linear
+parametrization using positive semidefinite matrices. These kernels are
+generalizations of the Sobolev kernel and are defined by piecewise-polynomial
+functions. The class of kernels is termed "tessellated" as the resulting
+discriminant is defined piecewise with hyper-rectangular domains whose corners
+are determined by the training data. The kernels have scalable complexity, but
+each instance is universal in the sense that its hypothesis space is dense in
+$L_2$. Using numerical testing, we show that for the soft margin SVM, this
+class can eliminate the need for Gaussian kernels. Furthermore, we demonstrate
+that when the ratio of the number of training data to features is high, this
+method will significantly outperform other kernel learning algorithms. Finally,
+to reduce the complexity associated with SDP-based kernel learning methods, we
+use a randomized basis for the positive matrices to integrate with existing
+multiple kernel learning algorithms such as SimpleMKL.

@@ -1,0 +1,16 @@
+Machine vs Machine: Minimax-Optimal Defense Against Adversarial Examples
+Recently, researchers have discovered that the state-of-the-art object
+classifiers can be fooled easily by small perturbations in the input
+unnoticeable to human eyes. It is also known that an attacker can generate
+strong adversarial examples if she knows the classifier parameters. Conversely,
+a defender can robustify the classifier by retraining if she has access to the
+adversarial examples. We explain and formulate this adversarial example problem
+as a two-player continuous zero-sum game, and demonstrate the fallacy of
+evaluating a defense or an attack as a static problem. To find the best
+worst-case defense against whitebox attacks, we propose a continuous minimax
+optimization algorithm. We demonstrate the minimax defense with two types of
+attack classes -- gradient-based and neural network-based attacks. Experiments
+with the MNIST and the CIFAR-10 datasets demonstrate that the defense found by
+numerical minimax optimization is indeed more robust than non-minimax defenses.
+We discuss directions for improving the result toward achieving robustness
+against multiple types of attack classes.

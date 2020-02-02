@@ -1,0 +1,24 @@
+Distributed rank-1 dictionary learning: Towards fast and scalable
+  solutions for fMRI big data analytics
+The use of functional brain imaging for research and diagnosis has benefitted
+greatly from the recent advancements in neuroimaging technologies, as well as
+the explosive growth in size and availability of fMRI data. While it has been
+shown in literature that using multiple and large scale fMRI datasets can
+improve reproducibility and lead to new discoveries, the computational and
+informatics systems supporting the analysis and visualization of such fMRI big
+data are extremely limited and largely under-discussed. We propose to address
+these shortcomings in this work, based on previous success in using dictionary
+learning method for functional network decomposition studies on fMRI data. We
+presented a distributed dictionary learning framework based on rank-1 matrix
+decomposition with sparseness constraint (D-r1DL framework). The framework was
+implemented using the Spark distributed computing engine and deployed on three
+different processing units: an in-house server, in-house high performance
+clusters, and the Amazon Elastic Compute Cloud (EC2) service. The whole
+analysis pipeline was integrated with our neuroinformatics system for data
+management, user input/output, and real-time visualization. Performance and
+accuracy of D-r1DL on both individual and group-wise fMRI Human Connectome
+Project (HCP) dataset shows that the proposed framework is highly scalable. The
+resulting group-wise functional network decompositions are highly accurate, and
+the fast processing time confirm this claim. In addition, D-r1DL can provide
+real-time user feedback and results visualization which are vital for
+large-scale data analysis.

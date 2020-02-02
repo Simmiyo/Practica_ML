@@ -1,0 +1,9 @@
+A comparison of bandwidth selectors for mean shift clustering
+We explore the performance of several automatic bandwidth selectors,
+originally designed for density gradient estimation, as data-based procedures
+for nonparametric, modal clustering. The key tool to obtain a clustering from
+density gradient estimators is the mean shift algorithm, which allows to obtain
+a partition not only of the data sample, but also of the whole space. The
+results of our simulation study suggest that most of the methods considered
+here, like cross validation and plug in bandwidth selectors, are useful for
+cluster analysis via the mean shift algorithm.

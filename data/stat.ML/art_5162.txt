@@ -1,0 +1,13 @@
+Outlier Robust Online Learning
+We consider the problem of learning from noisy data in practical settings
+where the size of data is too large to store on a single machine. More
+challenging, the data coming from the wild may contain malicious outliers. To
+address the scalability and robustness issues, we present an online robust
+learning (ORL) approach. ORL is simple to implement and has provable robustness
+guarantee -- in stark contrast to existing online learning approaches that are
+generally fragile to outliers. We specialize the ORL approach for two concrete
+cases: online robust principal component analysis and online linear regression.
+We demonstrate the efficiency and robustness advantages of ORL through
+comprehensive simulations and predicting image tags on a large-scale data set.
+We also discuss extension of the ORL to distributed learning and provide
+experimental evaluations.

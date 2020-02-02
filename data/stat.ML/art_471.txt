@@ -1,0 +1,12 @@
+Learning without Concentration for General Loss Functions
+We study prediction and estimation problems using empirical risk
+minimization, relative to a general convex loss function. We obtain sharp error
+rates even when concentration is false or is very restricted, for example, in
+heavy-tailed scenarios. Our results show that the error rate depends on two
+parameters: one captures the intrinsic complexity of the class, and essentially
+leads to the error rate in a noise-free (or realizable) problem; the other
+measures interactions between class members the target and the loss, and is
+dominant when the problem is far from realizable. We also explain how one may
+deal with outliers by choosing the loss in a way that is calibrated to the
+intrinsic complexity of the class and to the noise-level of the problem (the
+latter is measured by the distance between the target and the class).

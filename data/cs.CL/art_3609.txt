@@ -1,0 +1,17 @@
+Predicting Cyber Events by Leveraging Hacker Sentiment
+Recent high-profile cyber attacks exemplify why organizations need better
+cyber defenses. Cyber threats are hard to accurately predict because attackers
+usually try to mask their traces. However, they often discuss exploits and
+techniques on hacking forums. The community behavior of the hackers may provide
+insights into groups' collective malicious activity. We propose a novel
+approach to predict cyber events using sentiment analysis. We test our approach
+using cyber attack data from 2 major business organizations. We consider 3
+types of events: malicious software installation, malicious destination visits,
+and malicious emails that surpassed the target organizations' defenses. We
+construct predictive signals by applying sentiment analysis on hacker forum
+posts to better understand hacker behavior. We analyze over 400K posts
+generated between January 2016 and January 2018 on over 100 hacking forums both
+on surface and Dark Web. We find that some forums have significantly more
+predictive power than others. Sentiment-based models that leverage specific
+forums can outperform state-of-the-art deep learning and time-series models on
+forecasting cyber attacks weeks ahead of the events.

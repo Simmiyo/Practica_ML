@@ -1,0 +1,21 @@
+On Constrained Spectral Clustering and Its Applications
+Constrained clustering has been well-studied for algorithms such as $K$-means
+and hierarchical clustering. However, how to satisfy many constraints in these
+algorithmic settings has been shown to be intractable. One alternative to
+encode many constraints is to use spectral clustering, which remains a
+developing area. In this paper, we propose a flexible framework for constrained
+spectral clustering. In contrast to some previous efforts that implicitly
+encode Must-Link and Cannot-Link constraints by modifying the graph Laplacian
+or constraining the underlying eigenspace, we present a more natural and
+principled formulation, which explicitly encodes the constraints as part of a
+constrained optimization problem. Our method offers several practical
+advantages: it can encode the degree of belief in Must-Link and Cannot-Link
+constraints; it guarantees to lower-bound how well the given constraints are
+satisfied using a user-specified threshold; it can be solved deterministically
+in polynomial time through generalized eigendecomposition. Furthermore, by
+inheriting the objective function from spectral clustering and encoding the
+constraints explicitly, much of the existing analysis of unconstrained spectral
+clustering techniques remains valid for our formulation. We validate the
+effectiveness of our approach by empirical results on both artificial and real
+datasets. We also demonstrate an innovative use of encoding large number of
+constraints: transfer learning via constraints.

@@ -1,0 +1,13 @@
+Towards end-to-end spoken language understanding
+Spoken language understanding system is traditionally designed as a pipeline
+of a number of components. First, the audio signal is processed by an automatic
+speech recognizer for transcription or n-best hypotheses. With the recognition
+results, a natural language understanding system classifies the text to
+structured data as domain, intent and slots for down-streaming consumers, such
+as dialog system, hands-free applications. These components are usually
+developed and optimized independently. In this paper, we present our study on
+an end-to-end learning system for spoken language understanding. With this
+unified approach, we can infer the semantic meaning directly from audio
+features without the intermediate text representation. This study showed that
+the trained model can achieve reasonable good result and demonstrated that the
+model can capture the semantic attention directly from the audio features.

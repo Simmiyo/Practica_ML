@@ -1,0 +1,22 @@
+Convolutional neural networks with extra-classical receptive fields
+Convolutional neural networks (CNNs) have had great success in many
+real-world applications and have also been used to model visual processing in
+the brain. However, these networks are quite brittle - small changes in the
+input image can dramatically change a network's output prediction. In contrast
+to what is known from biology, these networks largely rely on feedforward
+connections, ignoring the influence of recurrent connections. They also focus
+on supervised rather than unsupervised learning. To address these issues, we
+combine traditional supervised learning via backpropagation with a specialized
+unsupervised learning rule to learn lateral connections between neurons within
+a convolutional neural network. These connections have been shown to optimally
+integrate information from the surround, generating extra-classical receptive
+fields for the neurons in our new proposed model (CNNEx). Models with optimal
+lateral connections are more robust to noise and achieve better performance on
+noisy versions of the MNIST and CIFAR-10 datasets. Resistance to noise can be
+further improved by combining our model with additional regularization
+techniques such as dropout and weight decay. Although the image statistics of
+MNIST and CIFAR-10 differ greatly, the same unsupervised learning rule
+generalized to both datasets. Our results demonstrate the potential usefulness
+of combining supervised and unsupervised learning techniques and suggest that
+the integration of lateral connections into convolutional neural networks is an
+important area of future research.

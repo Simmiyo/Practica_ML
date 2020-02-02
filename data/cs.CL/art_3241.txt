@@ -1,0 +1,15 @@
+Tracing a Loose Wordhood for Chinese Input Method Engine
+Chinese input methods are used to convert pinyin sequence or other Latin
+encoding systems into Chinese character sentences. For more effective
+pinyin-to-character conversion, typical Input Method Engines (IMEs) rely on a
+predefined vocabulary that demands manually maintenance on schedule. For the
+purpose of removing the inconvenient vocabulary setting, this work focuses on
+automatic wordhood acquisition by fully considering that Chinese inputting is a
+free human-computer interaction procedure. Instead of strictly defining words,
+a loose word likelihood is introduced for measuring how likely a character
+sequence can be a user-recognized word with respect to using IME. Then an
+online algorithm is proposed to adjust the word likelihood or generate new
+words by comparing user true choice for inputting and the algorithm prediction.
+The experimental results show that the proposed solution can agilely adapt to
+diverse typings and demonstrate performance approaching highly-optimized IME
+with fixed vocabulary.

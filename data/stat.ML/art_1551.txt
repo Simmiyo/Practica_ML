@@ -1,0 +1,16 @@
+Exact Sampling of Determinantal Point Processes without
+  Eigendecomposition
+Determinantal point processes (DPPs) enable the modeling of repulsion: they
+provide diverse sets of points. The repulsion is encoded in a kernel $K$ that
+can be seen as a matrix storing the similarity between points. The diversity
+comes from the fact that the inclusion probability of a subset is equal to the
+determinant of a submatrice of $K$. The exact algorithm to sample DPPs uses the
+spectral decomposition of $K$, a computation that becomes costly when dealing
+with a high number of points. Here, we present an alternative exact algorithm
+in the discrete setting that avoids the eigenvalues and the eigenvectors
+computation. Instead, it relies on Cholesky decompositions. This is a two steps
+strategy: first, it samples a Bernoulli point process with an appropriate
+distribution, then it samples the target DPP distribution through a thinning
+procedure. Not only is the method used here innovative, but this algorithm can
+be competitive with the original algorithm or even faster for some applications
+specified below.

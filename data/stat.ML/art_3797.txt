@@ -1,0 +1,23 @@
+Identifiability Assumptions and Algorithm for Directed Graphical Models
+  with Feedback
+Directed graphical models provide a useful framework for modeling causal or
+directional relationships for multivariate data. Prior work has largely focused
+on identifiability and search algorithms for directed acyclic graphical (DAG)
+models. In many applications, feedback naturally arises and directed graphical
+models that permit cycles occur. In this paper we address the issue of
+identifiability for general directed cyclic graphical (DCG) models satisfying
+the Markov assumption. In particular, in addition to the faithfulness
+assumption which has already been introduced for cyclic models, we introduce
+two new identifiability assumptions, one based on selecting the model with the
+fewest edges and the other based on selecting the DCG model that entails the
+maximum number of d-separation rules. We provide theoretical results comparing
+these assumptions which show that: (1) selecting models with the largest number
+of d-separation rules is strictly weaker than the faithfulness assumption; (2)
+unlike for DAG models, selecting models with the fewest edges does not
+necessarily result in a milder assumption than the faithfulness assumption. We
+also provide connections between our two new principles and minimality
+assumptions. We use our identifiability assumptions to develop search
+algorithms for small-scale DCG models. Our simulation study supports our
+theoretical results, showing that the algorithms based on our two new
+principles generally out-perform algorithms based on the faithfulness
+assumption in terms of selecting the true skeleton for DCG models.

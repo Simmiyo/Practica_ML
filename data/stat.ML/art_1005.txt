@@ -1,0 +1,20 @@
+A Unified Framework for Sparse Non-Negative Least Squares using
+  Multiplicative Updates and the Non-Negative Matrix Factorization Problem
+We study the sparse non-negative least squares (S-NNLS) problem. S-NNLS
+occurs naturally in a wide variety of applications where an unknown,
+non-negative quantity must be recovered from linear measurements. We present a
+unified framework for S-NNLS based on a rectified power exponential scale
+mixture prior on the sparse codes. We show that the proposed framework
+encompasses a large class of S-NNLS algorithms and provide a computationally
+efficient inference procedure based on multiplicative update rules. Such update
+rules are convenient for solving large sets of S-NNLS problems simultaneously,
+which is required in contexts like sparse non-negative matrix factorization
+(S-NMF). We provide theoretical justification for the proposed approach by
+showing that the local minima of the objective function being optimized are
+sparse and the S-NNLS algorithms presented are guaranteed to converge to a set
+of stationary points of the objective function. We then extend our framework to
+S-NMF, showing that our framework leads to many well known S-NMF algorithms
+under specific choices of prior and providing a guarantee that a popular
+subclass of the proposed algorithms converges to a set of stationary points of
+the objective function. Finally, we study the performance of the proposed
+approaches on synthetic and real-world data.

@@ -1,0 +1,14 @@
+Clustering Time Series with Nonlinear Dynamics: A Bayesian
+  Non-Parametric and Particle-Based Approach
+We propose a general statistical framework for clustering multiple time
+series that exhibit nonlinear dynamics into an a-priori-unknown number of
+sub-groups. Our motivation comes from neuroscience, where an important problem
+is to identify, within a large assembly of neurons, subsets that respond
+similarly to a stimulus or contingency. Upon modeling the multiple time series
+as the output of a Dirichlet process mixture of nonlinear state-space models,
+we derive a Metropolis-within-Gibbs algorithm for full Bayesian inference that
+alternates between sampling cluster assignments and sampling parameter values
+that form the basis of the clustering. The Metropolis step employs recent
+innovations in particle-based methods. We apply the framework to clustering
+time series acquired from the prefrontal cortex of mice in an experiment
+designed to characterize the neural underpinnings of fear.

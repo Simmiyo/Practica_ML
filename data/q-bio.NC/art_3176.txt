@@ -1,0 +1,15 @@
+Fast, Simple Calcium Imaging Segmentation with Fully Convolutional
+  Networks
+Calcium imaging is a technique for observing neuron activity as a series of
+images showing indicator fluorescence over time. Manually segmenting neurons is
+time-consuming, leading to research on automated calcium imaging segmentation
+(ACIS). We evaluated several deep learning models for ACIS on the Neurofinder
+competition datasets and report our best model: U-Net2DS, a fully convolutional
+network that operates on 2D mean summary images. U-Net2DS requires minimal
+domain-specific pre/post-processing and parameter adjustment, and predictions
+are made on full $512\times512$ images at $\approx$9K images per minute. It
+ranks third in the Neurofinder competition ($F_1=0.569$) and is the best model
+to exclusively use deep learning. We also demonstrate useful segmentations on
+data from outside the competition. The model's simplicity, speed, and quality
+results make it a practical choice for ACIS and a strong baseline for more
+complex models in the future.

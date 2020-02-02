@@ -1,0 +1,20 @@
+Efficient methods for sampling spike trains in networks of coupled
+  neurons
+Monte Carlo approaches have recently been proposed to quantify connectivity
+in neuronal networks. The key problem is to sample from the conditional
+distribution of a single neuronal spike train, given the activity of the other
+neurons in the network. Dependencies between neurons are usually relatively
+weak; however, temporal dependencies within the spike train of a single neuron
+are typically strong. In this paper we develop several specialized
+Metropolis--Hastings samplers which take advantage of this dependency
+structure. These samplers are based on two ideas: (1) an adaptation of fast
+forward--backward algorithms from the theory of hidden Markov models to take
+advantage of the local dependencies inherent in spike trains, and (2) a
+first-order expansion of the conditional likelihood which allows for efficient
+exact sampling in the limit of weak coupling between neurons. We also
+demonstrate that these samplers can effectively incorporate side information,
+in particular, noisy fluorescence observations in the context of
+calcium-sensitive imaging experiments. We quantify the efficiency of these
+samplers in a variety of simulated experiments in which the network parameters
+are closely matched to data measured in real cortical networks, and also
+demonstrate the sampler applied to real calcium imaging data.

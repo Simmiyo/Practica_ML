@@ -1,0 +1,24 @@
+LSBN: A Large-Scale Bayesian Structure Learning Framework for Model
+  Averaging
+The motivation for this paper is to apply Bayesian structure learning using
+Model Averaging in large-scale networks. Currently, Bayesian model averaging
+algorithm is applicable to networks with only tens of variables, restrained by
+its super-exponential complexity. We present a novel framework, called
+LSBN(Large-Scale Bayesian Network), making it possible to handle networks with
+infinite size by following the principle of divide-and-conquer. The method of
+LSBN comprises three steps. In general, LSBN first performs the partition by
+using a second-order partition strategy, which achieves more robust results.
+LSBN conducts sampling and structure learning within each overlapping community
+after the community is isolated from other variables by Markov Blanket. Finally
+LSBN employs an efficient algorithm, to merge structures of overlapping
+communities into a whole. In comparison with other four state-of-art
+large-scale network structure learning algorithms such as ARACNE, PC, Greedy
+Search and MMHC, LSBN shows comparable results in five common benchmark
+datasets, evaluated by precision, recall and f-score. What's more, LSBN makes
+it possible to learn large-scale Bayesian structure by Model Averaging which
+used to be intractable. In summary, LSBN provides an scalable and parallel
+framework for the reconstruction of network structures. Besides, the complete
+information of overlapping communities serves as the byproduct, which could be
+used to mine meaningful clusters in biological networks, such as
+protein-protein-interaction network or gene regulatory network, as well as in
+social network.

@@ -1,0 +1,12 @@
+An Average Classification Algorithm
+Many classification algorithms produce a classifier that is a weighted
+average of kernel evaluations. When working with a high or infinite dimensional
+kernel, it is imperative for speed of evaluation and storage issues that as few
+training samples as possible are used in the kernel expansion. Popular existing
+approaches focus on altering standard learning algorithms, such as the Support
+Vector Machine, to induce sparsity, as well as post-hoc procedures for sparse
+approximations. Here we adopt the latter approach. We begin with a very simple
+classifier, given by the kernel mean $$ f(x) = \frac{1}{n}
+\sum\limits_{i=i}^{n} y_i K(x_i,x) $$ We then find a sparse approximation to
+this kernel mean via herding. The result is an accurate, easily parallelized
+algorithm for learning classifiers.

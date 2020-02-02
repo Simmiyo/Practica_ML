@@ -1,0 +1,12 @@
+Efficient and optimal binary Hopfield associative memory storage using
+  minimum probability flow
+We present an algorithm to store binary memories in a Hopfield neural network
+using minimum probability flow, a recent technique to fit parameters in
+energy-based probabilistic models. In the case of memories without noise, our
+algorithm provably achieves optimal pattern storage (which we show is at least
+one pattern per neuron) and outperforms classical methods both in speed and
+memory recovery. Moreover, when trained on noisy or corrupted versions of a
+fixed set of binary patterns, our algorithm finds networks which correctly
+store the originals. We also demonstrate this finding visually with the
+unsupervised storage and clean-up of large binary fingerprint images from
+significantly corrupted samples.

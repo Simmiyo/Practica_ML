@@ -1,0 +1,16 @@
+Stochasticity and Robustness in Spiking Neural Networks
+Artificial neural networks normally require precise weights to operate,
+despite their origins in biological systems, which can be highly variable and
+noisy. When implementing artificial networks which utilize analog 'synaptic'
+devices to encode weights, however, inherent limits are placed on the accuracy
+and precision with which these values can be encoded. In this work, we
+investigate the effects that inaccurate synapses have on spiking neurons and
+spiking neural networks. Starting with a mathematical analysis of
+integrate-and-fire (IF) neurons, including different non-idealities (such as
+leakage and channel noise), we demonstrate that noise can be used to make the
+behavior of IF neurons more robust to synaptic inaccuracy. We then train
+spiking networks which utilize IF neurons with and without noise and leakage,
+and experimentally confirm that the noisy networks are more robust. Lastly, we
+show that a noisy network can tolerate the inaccuracy expected when
+hafnium-oxide based resistive random-access memory is used to encode synaptic
+weights.

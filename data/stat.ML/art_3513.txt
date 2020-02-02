@@ -1,0 +1,21 @@
+An On-line Variational Bayesian Model for Multi-Person Tracking from
+  Cluttered Scenes
+Object tracking is an ubiquitous problem that appears in many applications
+such as remote sensing, audio processing, computer vision, human-machine
+interfaces, human-robot interaction, etc. Although thoroughly investigated in
+computer vision, tracking a time-varying number of persons remains a
+challenging open problem. In this paper, we propose an on-line variational
+Bayesian model for multi-person tracking from cluttered visual observations
+provided by person detectors. The contributions of this paper are the
+followings. First, we propose a variational Bayesian framework for tracking an
+unknown and varying number of persons. Second, our model results in a
+variational expectation-maximization (VEM) algorithm with closed-form
+expressions for the posterior distributions of the latent variables and for the
+estimation of the model parameters. Third, the proposed model exploits
+observations from multiple detectors, and it is therefore multimodal by nature.
+Finally, we propose to embed both object-birth and object-visibility processes
+in an effort to robustly handle person appearances and disappearances over
+time. Evaluated on classical multiple person tracking datasets, our method
+shows competitive results with respect to state-of-the-art multiple-object
+tracking models, such as the probability hypothesis density (PHD) filter among
+others.

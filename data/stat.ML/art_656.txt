@@ -1,0 +1,21 @@
+String and Membrane Gaussian Processes
+In this paper we introduce a novel framework for making exact nonparametric
+Bayesian inference on latent functions, that is particularly suitable for Big
+Data tasks. Firstly, we introduce a class of stochastic processes we refer to
+as string Gaussian processes (string GPs), which are not to be mistaken for
+Gaussian processes operating on text. We construct string GPs so that their
+finite-dimensional marginals exhibit suitable local conditional independence
+structures, which allow for scalable, distributed, and flexible nonparametric
+Bayesian inference, without resorting to approximations, and while ensuring
+some mild global regularity constraints. Furthermore, string GP priors
+naturally cope with heterogeneous input data, and the gradient of the learned
+latent function is readily available for explanatory analysis. Secondly, we
+provide some theoretical results relating our approach to the standard GP
+paradigm. In particular, we prove that some string GPs are Gaussian processes,
+which provides a complementary global perspective on our framework. Finally, we
+derive a scalable and distributed MCMC scheme for supervised learning tasks
+under string GP priors. The proposed MCMC scheme has computational time
+complexity $\mathcal{O}(N)$ and memory requirement $\mathcal{O}(dN)$, where $N$
+is the data size and $d$ the dimension of the input space. We illustrate the
+efficacy of the proposed approach on several synthetic and real-world datasets,
+including a dataset with $6$ millions input points and $8$ attributes.

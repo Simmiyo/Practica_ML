@@ -1,0 +1,14 @@
+Approches d'analyse distributionnelle pour améliorer la
+  désambiguïsation sémantique
+Word sense disambiguation (WSD) improves many Natural Language Processing
+(NLP) applications such as Information Retrieval, Machine Translation or
+Lexical Simplification. WSD is the ability of determining a word sense among
+different ones within a polysemic lexical unit taking into account the context.
+The most straightforward approach uses a semantic proximity measure between the
+word sense candidates of the target word and those of its context. Such a
+method very easily entails a combinatorial explosion. In this paper, we propose
+two methods based on distributional analysis which enable to reduce the
+exponential complexity without losing the coherence. We present a comparison
+between the selection of distributional neighbors and the linearly nearest
+neighbors. The figures obtained show that selecting distributional neighbors
+leads to better results.

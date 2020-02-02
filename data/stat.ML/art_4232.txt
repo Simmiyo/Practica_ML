@@ -1,0 +1,13 @@
+Learning Local Feature Aggregation Functions with Backpropagation
+This paper introduces a family of local feature aggregation functions and a
+novel method to estimate their parameters, such that they generate optimal
+representations for classification (or any task that can be expressed as a cost
+function minimization problem). To achieve that, we compose the local feature
+aggregation function with the classifier cost function and we backpropagate the
+gradient of this cost function in order to update the local feature aggregation
+function parameters. Experiments on synthetic datasets indicate that our method
+discovers parameters that model the class-relevant information in addition to
+the local feature space. Further experiments on a variety of motion and visual
+descriptors, both on image and video datasets, show that our method outperforms
+other state-of-the-art local feature aggregation functions, such as Bag of
+Words, Fisher Vectors and VLAD, by a large margin.

@@ -1,0 +1,20 @@
+Exploiting Diversity for Natural Language Parsing
+The popularity of applying machine learning methods to computational
+linguistics problems has produced a large supply of trainable natural language
+processing systems. Most problems of interest have an array of off-the-shelf
+products or downloadable code implementing solutions using various techniques.
+Where these solutions are developed independently, it is observed that their
+errors tend to be independently distributed. This thesis is concerned with
+approaches for capitalizing on this situation in a sample problem domain, Penn
+Treebank-style parsing.
+  The machine learning community provides techniques for combining outputs of
+classifiers, but parser output is more structured and interdependent than
+classifications. To address this discrepancy, two novel strategies for
+combining parsers are used: learning to control a switch between parsers and
+constructing a hybrid parse from multiple parsers' outputs.
+  Off-the-shelf parsers are not developed with an intention to perform well in
+a collaborative ensemble. Two techniques are presented for producing an
+ensemble of parsers that collaborate. All of the ensemble members are created
+using the same underlying parser induction algorithm, and the method for
+producing complementary parsers is only loosely constrained by that chosen
+algorithm.

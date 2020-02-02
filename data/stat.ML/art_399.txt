@@ -1,0 +1,16 @@
+Sparse Learning over Infinite Subgraph Features
+We present a supervised-learning algorithm from graph data (a set of graphs)
+for arbitrary twice-differentiable loss functions and sparse linear models over
+all possible subgraph features. To date, it has been shown that under all
+possible subgraph features, several types of sparse learning, such as Adaboost,
+LPBoost, LARS/LASSO, and sparse PLS regression, can be performed. Particularly
+emphasis is placed on simultaneous learning of relevant features from an
+infinite set of candidates. We first generalize techniques used in all these
+preceding studies to derive an unifying bounding technique for arbitrary
+separable functions. We then carefully use this bounding to make block
+coordinate gradient descent feasible over infinite subgraph features, resulting
+in a fast converging algorithm that can solve a wider class of sparse learning
+problems over graph data. We also empirically study the differences from the
+existing approaches in convergence property, selected subgraph features, and
+search-space sizes. We further discuss several unnoticed issues in sparse
+learning over all possible subgraph features.

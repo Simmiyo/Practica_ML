@@ -1,0 +1,15 @@
+Robust PCA and subspace tracking from incomplete observations using
+  L0-surrogates
+Many applications in data analysis rely on the decomposition of a data matrix
+into a low-rank and a sparse component. Existing methods that tackle this task
+use the nuclear norm and L1-cost functions as convex relaxations of the rank
+constraint and the sparsity measure, respectively, or employ thresholding
+techniques. We propose a method that allows for reconstructing and tracking a
+subspace of upper-bounded dimension from incomplete and corrupted observations.
+It does not require any a priori information about the number of outliers. The
+core of our algorithm is an intrinsic Conjugate Gradient method on the set of
+orthogonal projection matrices, the so-called Grassmannian. Non-convex sparsity
+measures are used for outlier detection, which leads to improved performance in
+terms of robustly recovering and tracking the low-rank matrix. In particular,
+our approach can cope with more outliers and with an underlying matrix of
+higher rank than other state-of-the-art methods.

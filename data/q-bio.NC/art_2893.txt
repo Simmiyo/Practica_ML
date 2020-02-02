@@ -1,0 +1,19 @@
+Distributed classifier based on genetically engineered bacterial cell
+  cultures
+We describe a conceptual design of a distributed classifier formed by a
+population of genetically engineered microbial cells. The central idea is to
+create a complex classifier from a population of weak or simple classifiers. We
+create a master population of cells with randomized synthetic biosensor
+circuits that have a broad range of sensitivities towards chemical signals of
+interest that form the input vectors subject to classification. The randomized
+sensitivities are achieved by constructing a library of synthetic gene circuits
+with randomized control sequences (e.g. ribosome-binding sites) in the front
+element. The training procedure consists in re-shaping of the master population
+in such a way that it collectively responds to the "positive" patterns of input
+signals by producing above-threshold output (e.g. fluorescent signal), and
+below-threshold output in case of the "negative" patterns. The population
+re-shaping is achieved by presenting sequential examples and pruning the
+population using either graded selection/counterselection or by
+fluorescence-activated cell sorting (FACS). We demonstrate the feasibility of
+experimental implementation of such system computationally using a realistic
+model of the synthetic sensing gene circuits.

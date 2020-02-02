@@ -1,0 +1,27 @@
+Adaptive probabilistic neural coding from deterministic spiking neurons:
+  analysis from first principles
+A neuron transforms its input into output spikes, and this transformation is
+the basic unit of computation in the nervous system. The spiking response of
+the neuron to a complex, time-varying input can be predicted from the detailed
+biophysical properties of the neuron, modeled as a deterministic nonlinear
+dynamical system. In the tradition of neural coding, however, a neuron or
+neural system is treated as a black box and statistical techniques are used to
+identify functional models of its encoding properties. The goal of this work is
+to connect the mechanistic, biophysical approach to neuronal function to a
+description in terms of a coding model. Building from preceding work at the
+single neuron level, we develop from first principles a mathematical theory
+mapping the relationships between two simple but powerful classes of models:
+deterministic integrate-and-fire dynamical models and linear-nonlinear coding
+models. To do so, we develop an approach for studying a nonlinear dynamical
+system by conditioning on an observed linear estimator. We derive asymptotic
+closed-form expressions for the linear filter and estimates for the nonlinear
+decision function of the linear/nonlinear model. We analytically derive the
+dependence of the linear filter on the input statistics and we show how
+deterministic nonlinear dynamics can be used to modulate the properties of a
+probabilistic code. We demonstrate that integrate-and-fire models without any
+additional currents can perform perfect contrast gain control, a sophisticated
+adaptive computation, and we identify the general dynamical principles
+responsible. We then design from first principles a nonlinear dynamical model
+that implements gain control. While we focus on the integrate-and-fire models
+for tractability, the framework we propose to relate LN and dynamical models
+generalizes naturally to more complex biophysical models.

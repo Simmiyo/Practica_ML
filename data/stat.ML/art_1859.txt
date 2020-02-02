@@ -1,0 +1,11 @@
+rFerns: An Implementation of the Random Ferns Method for General-Purpose
+  Machine Learning
+In this paper I present an extended implementation of the Random ferns
+algorithm contained in the R package rFerns. It differs from the original by
+the ability of consuming categorical and numerical attributes instead of only
+binary ones. Also, instead of using simple attribute subspace ensemble it
+employs bagging and thus produce error approximation and variable importance
+measure modelled after Random forest algorithm. I also present benchmarks'
+results which show that although Random ferns' accuracy is mostly smaller than
+achieved by Random forest, its speed and good quality of importance measure it
+provides make rFerns a reasonable choice for a specific applications.

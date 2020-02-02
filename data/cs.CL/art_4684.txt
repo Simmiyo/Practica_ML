@@ -1,0 +1,11 @@
+Does it care what you asked? Understanding Importance of Verbs in Deep
+  Learning QA System
+In this paper we present the results of an investigation of the importance of
+verbs in a deep learning QA system trained on SQuAD dataset. We show that main
+verbs in questions carry little influence on the decisions made by the system -
+in over 90% of researched cases swapping verbs for their antonyms did not
+change system decision. We track this phenomenon down to the insides of the
+net, analyzing the mechanism of self-attention and values contained in hidden
+layers of RNN. Finally, we recognize the characteristics of the SQuAD dataset
+as the source of the problem. Our work refers to the recently popular topic of
+adversarial examples in NLP, combined with investigating deep net structure.

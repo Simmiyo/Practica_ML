@@ -1,0 +1,20 @@
+Towards Identification of Relevant Variables in the observed Aerosol
+  Optical Depth Bias between MODIS and AERONET observations
+Measurements made by satellite remote sensing, Moderate Resolution Imaging
+Spectroradiometer (MODIS), and globally distributed Aerosol Robotic Network
+(AERONET) are compared. Comparison of the two datasets measurements for aerosol
+optical depth values show that there are biases between the two data products.
+In this paper, we present a general framework towards identifying relevant set
+of variables responsible for the observed bias. We present a general framework
+to identify the possible factors influencing the bias, which might be
+associated with the measurement conditions such as the solar and sensor zenith
+angles, the solar and sensor azimuth, scattering angles, and surface
+reflectivity at the various measured wavelengths, etc. Specifically, we
+performed analysis for remote sensing Aqua-Land data set, and used machine
+learning technique, neural network in this case, to perform multivariate
+regression between the ground-truth and the training data sets. Finally, we
+used mutual information between the observed and the predicted values as the
+measure of similarity to identify the most relevant set of variables. The
+search is brute force method as we have to consider all possible combinations.
+The computations involves a huge number crunching exercise, and we implemented
+it by writing a job-parallel program.

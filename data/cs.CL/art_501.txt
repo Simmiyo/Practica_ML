@@ -1,0 +1,11 @@
+Recognizing Bangla Grammar using Predictive Parser
+We describe a Context Free Grammar (CFG) for Bangla language and hence we
+propose a Bangla parser based on the grammar. Our approach is very much general
+to apply in Bangla Sentences and the method is well accepted for parsing a
+language of a grammar. The proposed parser is a predictive parser and we
+construct the parse table for recognizing Bangla grammar. Using the parse table
+we recognize syntactical mistakes of Bangla sentences when there is no entry
+for a terminal in the parse table. If a natural language can be successfully
+parsed then grammar checking from this language becomes possible. The proposed
+scheme is based on Top down parsing method and we have avoided the left
+recursion of the CFG using the idea of left factoring.

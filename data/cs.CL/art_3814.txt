@@ -1,0 +1,13 @@
+Character-level Chinese-English Translation through ASCII Encoding
+Character-level Neural Machine Translation (NMT) models have recently
+achieved impressive results on many language pairs. They mainly do well for
+Indo-European language pairs, where the languages share the same writing
+system. However, for translating between Chinese and English, the gap between
+the two different writing systems poses a major challenge because of a lack of
+systematic correspondence between the individual linguistic units. In this
+paper, we enable character-level NMT for Chinese, by breaking down Chinese
+characters into linguistic units similar to that of Indo-European languages. We
+use the Wubi encoding scheme, which preserves the original shape and semantic
+information of the characters, while also being reversible. We show promising
+results from training Wubi-based models on the character- and subword-level
+with recurrent as well as convolutional models.

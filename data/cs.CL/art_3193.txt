@@ -1,0 +1,19 @@
+A Dual Encoder Sequence to Sequence Model for Open-Domain Dialogue
+  Modeling
+Ever since the successful application of sequence to sequence learning for
+neural machine translation systems, interest has surged in its applicability
+towards language generation in other problem domains. Recent work has
+investigated the use of these neural architectures towards modeling open-domain
+conversational dialogue, where it has been found that although these models are
+capable of learning a good distributional language model, dialogue coherence is
+still of concern. Unlike translation, conversation is much more a one-to-many
+mapping from utterance to a response, and it is even more pressing that the
+model be aware of the preceding flow of conversation. In this paper we propose
+to tackle this problem by introducing previous conversational context in terms
+of latent representations of dialogue acts over time. We inject the latent
+context representations into a sequence to sequence neural network in the form
+of dialog acts using a second encoder to enhance the quality and the coherence
+of the conversations generated. The main task of this research work is to show
+that adding latent variables that capture discourse relations does indeed
+result in more coherent responses when compared to conventional sequence to
+sequence models.

@@ -1,0 +1,22 @@
+Topological Data Analysis of Task-Based fMRI Data from Experiments on
+  Schizophrenia
+We use methods from computational algebraic topology to study functional
+brain networks, in which nodes represent brain regions and weighted edges
+represent similarity of fMRI time series from each region. With these tools,
+which allow one to characterize topological invariants such as loops in
+high-dimensional data, we are able to gain understanding into low-dimensional
+structures in networks in a way that complements traditional approaches based
+on pairwise interactions. In the present paper, we analyze networks constructed
+from task-based fMRI data from schizophrenia patients, healthy controls, and
+healthy siblings of schizophrenia patients using persistent homology, which
+allows us to explore the persistence of topological structures such as loops at
+different scales in the networks. We use persistence landscapes, persistence
+images, and Betti curves to create output summaries from our
+persistent-homology calculations, and we study the persistence landscapes and
+images using $k$-means clustering and community detection. Based on our
+analysis of persistence landscapes, we find that the members of the sibling
+cohort have topological features (specifically, their 1-dimensional loops) that
+are distinct from the other two cohorts. From the persistence images, we are
+able to distinguish all three subject groups and to determine the brain regions
+in the loops (with four or more edges) that allow us to make these
+distinctions.

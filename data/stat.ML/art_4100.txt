@@ -1,0 +1,20 @@
+Fast Orthonormal Sparsifying Transforms Based on Householder Reflectors
+Dictionary learning is the task of determining a data-dependent transform
+that yields a sparse representation of some observed data. The dictionary
+learning problem is non-convex, and usually solved via computationally complex
+iterative algorithms. Furthermore, the resulting transforms obtained generally
+lack structure that permits their fast application to data. To address this
+issue, this paper develops a framework for learning orthonormal dictionaries
+which are built from products of a few Householder reflectors. Two algorithms
+are proposed to learn the reflector coefficients: one that considers a
+sequential update of the reflectors and one with a simultaneous update of all
+reflectors that imposes an additional internal orthogonal constraint. The
+proposed methods have low computational complexity and are shown to converge to
+local minimum points which can be described in terms of the spectral properties
+of the matrices involved. The resulting dictionaries balance between the
+computational complexity and the quality of the sparse representations by
+controlling the number of Householder reflectors in their product. Simulations
+of the proposed algorithms are shown in the image processing setting where
+well-known fast transforms are available for comparisons. The proposed
+algorithms have favorable reconstruction error and the advantage of a fast
+implementation relative to the classical, unstructured, dictionaries.

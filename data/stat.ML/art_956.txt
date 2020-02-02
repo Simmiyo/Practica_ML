@@ -1,0 +1,18 @@
+Who wins the Miss Contest for Imputation Methods? Our Vote for Miss
+  BooPF
+Missing data is an expected issue when large amounts of data is collected,
+and several imputation techniques have been proposed to tackle this problem.
+Beneath classical approaches such as MICE, the application of Machine Learning
+techniques is tempting. Here, the recently proposed missForest imputation
+method has shown high imputation accuracy under the Missing (Completely) at
+Random scheme with various missing rates. In its core, it is based on a random
+forest for classification and regression, respectively. In this paper we study
+whether this approach can even be enhanced by other methods such as the
+stochastic gradient tree boosting method, the C5.0 algorithm or modified random
+forest procedures. In particular, other resampling strategies within the random
+forest protocol are suggested. In an extensive simulation study, we analyze
+their performances for continuous, categorical as well as mixed-type data.
+Therein, MissBooPF, a combination of the stochastic gradient tree boosting
+method together with the parametrically bootstrapped random forest method,
+appeared to be promising. Finally, an empirical analysis focusing on credit
+information and Facebook data is conducted.

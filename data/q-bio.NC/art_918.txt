@@ -1,0 +1,22 @@
+Subthreshold signal encoding in coupled FitzHugh-Nagumo neurons
+Despite intensive research, the mechanisms underlying how neurons encode
+external inputs remain poorly understood. Recent work has focused on the
+response of a single neuron to a weak, subthreshold periodic signal. By
+simulating the FitzHugh-Nagumo stochastic model and then using a symbolic
+method to analyze the firing activity of the neuron, preferred and infrequent
+spike patterns (defined by the relative timing of the spikes) were detected,
+whose probabilities encode information about the signal. As not individual
+neurons in isolation but neuronal populations are responsible for the emergence
+of complex behaviors, a relevant question is whether this coding mechanism is
+robust when the neuron is not isolated. We study how a second neuron, which
+does not perceive the subthreshold signal, affects the detection and the
+encoding of the signal, done by the first neuron. Through simulations of two
+coupled FitzHugh-Nagumo neurons we show that the coding mechanism is indeed
+robust, as the neuron that perceives the signal fires a spike train that has
+symbolic patterns whose probabilities depend on the features of the signal.
+Moreover, we show that the second neuron facilitates the detection of the
+signal, by lowering the firing threshold of the first neuron. This in turn
+decreases the internal noise level need to fire the spikes that encode the
+signal. We also show that the probabilities of the symbolic patterns achieve
+maximum or minimum values when the period of the external signal is close to
+(or is half of) the mean firing period of the neuron.

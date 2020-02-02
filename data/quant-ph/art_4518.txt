@@ -1,0 +1,22 @@
+Optimization of coherent attacks in generalizations of the BB84 quantum
+  bit commitment protocol
+It is well known that no quantum bit commitment protocol is unconditionally
+secure. Nonetheless, there can be non-trivial upper bounds on both Bob's
+probability of correctly estimating Alice's commitment and Alice's probability
+of successfully unveiling whatever bit she desires. In this paper, we seek to
+determine these bounds for generalizations of the BB84 bit commitment protocol.
+In such protocols, an honest Alice commits to a bit by randomly choosing a
+state from a specified set and submitting this to Bob, and later unveils the
+bit to Bob by announcing the chosen state, at which point Bob measures the
+projector onto the state. Bob's optimal cheating strategy can be easily deduced
+from well known results in the theory of quantum state estimation. We show how
+to understand Alice's most general cheating strategy, (which involves her
+submitting to Bob one half of an entangled state) in terms of a theorem of
+Hughston, Jozsa and Wootters. We also show how the problem of optimizing
+Alice's cheating strategy for a fixed submitted state can be mapped onto a
+problem of state estimation. Finally, using the Bloch ball representation of
+qubit states, we identify the optimal coherent attack for a class of protocols
+that can be implemented with just a single qubit. These results provide a tight
+upper bound on Alice's probability of successfully unveiling whatever bit she
+desires in the protocol proposed by Aharonov et al., and lead us to identify a
+qubit protocol with even greater security.

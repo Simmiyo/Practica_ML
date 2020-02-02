@@ -1,0 +1,13 @@
+Linear Thompson Sampling Revisited
+We derive an alternative proof for the regret of Thompson sampling (\ts) in
+the stochastic linear bandit setting. While we obtain a regret bound of order
+$\widetilde{O}(d^{3/2}\sqrt{T})$ as in previous results, the proof sheds new
+light on the functioning of the \ts. We leverage on the structure of the
+problem to show how the regret is related to the sensitivity (i.e., the
+gradient) of the objective function and how selecting optimal arms associated
+to \textit{optimistic} parameters does control it. Thus we show that \ts can be
+seen as a generic randomized algorithm where the sampling distribution is
+designed to have a fixed probability of being optimistic, at the cost of an
+additional $\sqrt{d}$ regret factor compared to a UCB-like approach.
+Furthermore, we show that our proof can be readily applied to regularized
+linear optimization and generalized linear model problems.

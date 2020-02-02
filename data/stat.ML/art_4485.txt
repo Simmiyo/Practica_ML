@@ -1,0 +1,13 @@
+A Traveling Salesman Learns Bayesian Networks
+Structure learning of Bayesian networks is an important problem that arises
+in numerous machine learning applications. In this work, we present a novel
+approach for learning the structure of Bayesian networks using the solution of
+an appropriately constructed traveling salesman problem. In our approach, one
+computes an optimal ordering (partially ordered set) of random variables using
+methods for the traveling salesman problem. This ordering significantly reduces
+the search space for the subsequent greedy optimization that computes the final
+structure of the Bayesian network. We demonstrate our approach of learning
+Bayesian networks on real world census and weather datasets. In both cases, we
+demonstrate that the approach very accurately captures dependencies between
+random variables. We check the accuracy of the predictions based on independent
+studies in both application domains.

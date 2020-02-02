@@ -1,0 +1,14 @@
+Text Morphing
+In this paper, we introduce a novel natural language generation task, termed
+as text morphing, which targets at generating the intermediate sentences that
+are fluency and smooth with the two input sentences. We propose the Morphing
+Networks consisting of the editing vector generation networks and the sentence
+editing networks which are trained jointly. Specifically, the editing vectors
+are generated with a recurrent neural networks model from the lexical gap
+between the source sentence and the target sentence. Then the sentence editing
+networks iteratively generate new sentences with the current editing vector and
+the sentence generated in the previous step. We conduct experiments with 10
+million text morphing sequences which are extracted from the Yelp review
+dataset. Experiment results show that the proposed method outperforms baselines
+on the text morphing task. We also discuss directions and opportunities for
+future research of text morphing.

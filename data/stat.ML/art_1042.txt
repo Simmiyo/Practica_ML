@@ -1,0 +1,19 @@
+How priors of initial hyperparameters affect Gaussian process regression
+  models
+The hyperparameters in Gaussian process regression (GPR) model with a
+specified kernel are often estimated from the data via the maximum marginal
+likelihood. Due to the non-convexity of marginal likelihood with respect to the
+hyperparameters, the optimization may not converge to the global maxima. A
+common approach to tackle this issue is to use multiple starting points
+randomly selected from a specific prior distribution. As a result the choice of
+prior distribution may play a vital role in the predictability of this
+approach. However, there exists little research in the literature to study the
+impact of the prior distributions on the hyperparameter estimation and the
+performance of GPR. In this paper, we provide the first empirical study on this
+problem using simulated and real data experiments. We consider different types
+of priors for the initial values of hyperparameters for some commonly used
+kernels and investigate the influence of the priors on the predictability of
+GPR models. The results reveal that, once a kernel is chosen, different priors
+for the initial hyperparameters have no significant impact on the performance
+of GPR prediction, despite that the estimates of the hyperparameters are very
+different to the true values in some cases.

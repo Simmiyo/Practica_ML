@@ -1,0 +1,15 @@
+A Fast Octree-Based Algorithm for Computing Ropelength
+The ropelength of a space curve is usually defined as the quotient of its
+length by its thickness: the radius of the largest embedded tube around the
+knot. This idea was extended to space polygons by Eric Rawdon, who gave a
+definition of ropelength in terms of doubly-critical self-distances (local
+minima of the distance function on pairs of points on the polygon) and a
+function of the exterior angles of the polygon.
+  A naive algorithm for finding the doubly-critical self-distances of an n-edge
+polygon involves comparing each pair of edges, and so takes O(n^2) time. In
+this paper, we describe an improved algorithm, based on the notion of octrees,
+which runs in O(n log n) time. The speed of the ropelength computation controls
+the performance of ropelength-minimizing programs such as Rawdon and Piatek's
+TOROS.
+  An implementation of our algorithm is freely available under the GNU Public
+License.

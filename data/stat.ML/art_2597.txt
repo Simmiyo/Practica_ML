@@ -1,0 +1,26 @@
+Convergence of Nearest Neighbor Pattern Classification with Selective
+  Sampling
+In the panoply of pattern classification techniques, few enjoy the intuitive
+appeal and simplicity of the nearest neighbor rule: given a set of samples in
+some metric domain space whose value under some function is known, we estimate
+the function anywhere in the domain by giving the value of the nearest sample
+per the metric. More generally, one may use the modal value of the m nearest
+samples, where m is a fixed positive integer (although m=1 is known to be
+admissible in the sense that no larger value is asymptotically superior in
+terms of prediction error). The nearest neighbor rule is nonparametric and
+extremely general, requiring in principle only that the domain be a metric
+space. The classic paper on the technique, proving convergence under
+independent, identically-distributed (iid) sampling, is due to Cover and Hart
+(1967). Because taking samples is costly, there has been much research in
+recent years on selective sampling, in which each sample is selected from a
+pool of candidates ranked by a heuristic; the heuristic tries to guess which
+candidate would be the most "informative" sample. Lindenbaum et al. (2004)
+apply selective sampling to the nearest neighbor rule, but their approach
+sacrifices the austere generality of Cover and Hart; furthermore, their
+heuristic algorithm is complex and computationally expensive. Here we report
+recent results that enable selective sampling in the original Cover-Hart
+setting. Our results pose three selection heuristics and prove that their
+nearest neighbor rule predictions converge to the true pattern. Two of the
+algorithms are computationally cheap, with complexity growing linearly in the
+number of samples. We believe that these results constitute an important
+advance in the art.

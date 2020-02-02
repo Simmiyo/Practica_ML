@@ -1,0 +1,17 @@
+Projected Estimators for Robust Semi-supervised Classification
+For semi-supervised techniques to be applied safely in practice we at least
+want methods to outperform their supervised counterparts. We study this
+question for classification using the well-known quadratic surrogate loss
+function. Using a projection of the supervised estimate onto a set of
+constraints imposed by the unlabeled data, we find we can safely improve over
+the supervised solution in terms of this quadratic loss. Unlike other
+approaches to semi-supervised learning, the procedure does not rely on
+assumptions that are not intrinsic to the classifier at hand. It is
+theoretically demonstrated that, measured on the labeled and unlabeled training
+data, this semi-supervised procedure never gives a lower quadratic loss than
+the supervised alternative. To our knowledge this is the first approach that
+offers such strong, albeit conservative, guarantees for improvement over the
+supervised solution. The characteristics of our approach are explicated using
+benchmark datasets to further understand the similarities and differences
+between the quadratic loss criterion used in the theoretical results and the
+classification accuracy often considered in practice.

@@ -1,0 +1,25 @@
+Natural Image Coding in V1: How Much Use is Orientation Selectivity?
+Orientation selectivity is the most striking feature of simple cell coding in
+V1 which has been shown to emerge from the reduction of higher-order
+correlations in natural images in a large variety of statistical image models.
+The most parsimonious one among these models is linear Independent Component
+Analysis (ICA), whereas second-order decorrelation transformations such as
+Principal Component Analysis (PCA) do not yield oriented filters. Because of
+this finding it has been suggested that the emergence of orientation
+selectivity may be explained by higher-order redundancy reduction. In order to
+assess the tenability of this hypothesis, it is an important empirical question
+how much more redundancies can be removed with ICA in comparison to PCA, or
+other second-order decorrelation methods. This question has not yet been
+settled, as over the last ten years contradicting results have been reported
+ranging from less than five to more than hundred percent extra gain for ICA.
+Here, we aim at resolving this conflict by presenting a very careful and
+comprehensive analysis using three evaluation criteria related to redundancy
+reduction: In addition to the multi-information and the average log-loss we
+compute, for the first time, complete rate-distortion curves for ICA in
+comparison with PCA. Without exception, we find that the advantage of the ICA
+filters is surprisingly small. Furthermore, we show that a simple spherically
+symmetric distribution with only two parameters can fit the data even better
+than the probabilistic model underlying ICA. Since spherically symmetric models
+are agnostic with respect to the specific filter shapes, we conlude that
+orientation selectivity is unlikely to play a critical role for redundancy
+reduction.

@@ -1,0 +1,19 @@
+Augmentation Schemes for Particle MCMC
+Particle MCMC involves using a particle filter within an MCMC algorithm. For
+inference of a model which involves an unobserved stochastic process, the
+standard implementation uses the particle filter to propose new values for the
+stochastic process, and MCMC moves to propose new values for the parameters. We
+show how particle MCMC can be generalised beyond this. Our key idea is to
+introduce new latent variables. We then use the MCMC moves to update the latent
+variables, and the particle filter to propose new values for the parameters and
+stochastic process given the latent variables. A generic way of defining these
+latent variables is to model them as pseudo-observations of the parameters or
+of the stochastic process. By choosing the amount of information these latent
+variables have about the parameters and the stochastic process we can often
+improve the mixing of the particle MCMC algorithm by trading off the Monte
+Carlo error of the particle filter and the mixing of the MCMC moves. We show
+that using pseudo-observations within particle MCMC can improve its efficiency
+in certain scenarios: dealing with initialisation problems of the particle
+filter; speeding up the mixing of particle Gibbs when there is strong
+dependence between the parameters and the stochastic process; and enabling
+further MCMC steps to be used within the particle filter.

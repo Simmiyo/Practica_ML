@@ -1,0 +1,19 @@
+Deep Stacking Networks for Low-Resource Chinese Word Segmentation with
+  Transfer Learning
+In recent years, neural networks have proven to be effective in Chinese word
+segmentation. However, this promising performance relies on large-scale
+training data. Neural networks with conventional architectures cannot achieve
+the desired results in low-resource datasets due to the lack of labelled
+training data. In this paper, we propose a deep stacking framework to improve
+the performance on word segmentation tasks with insufficient data by
+integrating datasets from diverse domains. Our framework consists of two parts,
+domain-based models and deep stacking networks. The domain-based models are
+used to learn knowledge from different datasets. The deep stacking networks are
+designed to integrate domain-based models. To reduce model conflicts, we
+innovatively add communication paths among models and design various structures
+of deep stacking networks, including Gaussian-based Stacking Networks,
+Concatenate-based Stacking Networks, Sequence-based Stacking Networks and
+Tree-based Stacking Networks. We conduct experiments on six low-resource
+datasets from various domains. Our proposed framework shows significant
+performance improvements on all datasets compared with several strong
+baselines.

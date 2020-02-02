@@ -1,0 +1,21 @@
+Optimization for Compressed Sensing: the Simplex Method and Kronecker
+  Sparsification
+In this paper we present two new approaches to efficiently solve large-scale
+compressed sensing problems. These two ideas are independent of each other and
+can therefore be used either separately or together. We consider all
+possibilities.
+  For the first approach, we note that the zero vector can be taken as the
+initial basic (infeasible) solution for the linear programming problem and
+therefore, if the true signal is very sparse, some variants of the simplex
+method can be expected to take only a small number of pivots to arrive at a
+solution. We implemented one such variant and demonstrate a dramatic
+improvement in computation time on very sparse signals.
+  The second approach requires a redesigned sensing mechanism in which the
+vector signal is stacked into a matrix. This allows us to exploit the Kronecker
+compressed sensing (KCS) mechanism. We show that the Kronecker sensing requires
+stronger conditions for perfect recovery compared to the original vector
+problem. However, the Kronecker sensing, modeled correctly, is a much sparser
+linear optimization problem. Hence, algorithms that benefit from sparse problem
+representation, such as interior-point methods, can solve the Kronecker sensing
+problems much faster than the corresponding vector problem. In our numerical
+studies, we demonstrate a ten-fold improvement in the computation time.

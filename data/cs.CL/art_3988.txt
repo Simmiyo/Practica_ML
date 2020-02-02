@@ -1,0 +1,18 @@
+Unsupervised detection of diachronic word sense evolution
+Most words have several senses and connotations which evolve in time due to
+semantic shift, so that closely related words may gain different or even
+opposite meanings over the years. This evolution is very relevant to the study
+of language and of cultural changes, but the tools currently available for
+diachronic semantic analysis have significant, inherent limitations and are not
+suitable for real-time analysis. In this article, we demonstrate how the
+linearity of random vectors techniques enables building time series of
+congruent word embeddings (or semantic spaces) which can then be compared and
+combined linearly without loss of precision over any time period to detect
+diachronic semantic shifts. We show how this approach yields time trajectories
+of polysemous words such as amazon or apple, enables following semantic drifts
+and gender bias across time, reveals the shifting instantiations of stable
+concepts such as hurricane or president. This very fast, linear approach can
+easily be distributed over many processors to follow in real time streams of
+social media such as Twitter or Facebook; the resulting, time-dependent
+semantic spaces can then be combined at will by simple additions or
+subtractions.

@@ -1,0 +1,27 @@
+Improvement of Resting-state EEG Analysis Process with Spectrum
+  Weight-Voting based on LES
+EEG is a non-invasive technique for recording brain bioelectric activity,
+which has potential applications in various fields such as human-computer
+interaction and neuroscience. However, there are many difficulties in analyzing
+EEG data, including its complex composition, low amplitude as well as low
+signal-to-noise ratio. Some of the existing methods of analysis are based on
+feature extraction and machine learning to differentiate the phase of
+schizophrenia that samples belong to. However, medical research requires the
+use of machine learning not only to give more accurate classification results,
+but also to give the results that can be applied to pathological studies. The
+main purpose of this study is to obtain the weight values as the representation
+of influence of each frequency band on the classification of schizophrenia
+phases on the basis of a more effective classification method using the LES
+feature extraction, and then the weight values are processed and applied to
+improve the accuracy of machine learning classification. We propose a method
+called weight-voting to obtain the weights of sub-bands features by using
+results of classification for voting to fit the actual categories of EEG data,
+and using weights for reclassification. Through this method, we can first
+obtain the influence of each band in distinguishing three schizophrenia phases,
+and analyze the effect of band features on the risk of schizophrenia
+contributing to the study of psychopathology. Our results show that there is a
+high correlation between the change of weight of low gamma band and the
+difference between HC, CHR and FES. If the features revised according to
+weights are used for reclassification, the accuracy of result will be improved
+compared with the original classifier, which confirms the role of the band
+weight distribution.

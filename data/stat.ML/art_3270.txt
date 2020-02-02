@@ -1,0 +1,6 @@
+Communication-efficient sparse regression: a one-shot approach
+We devise a one-shot approach to distributed sparse regression in the
+high-dimensional setting. The key idea is to average "debiased" or
+"desparsified" lasso estimators. We show the approach converges at the same
+rate as the lasso as long as the dataset is not split across too many machines.
+We also extend the approach to generalized linear models.

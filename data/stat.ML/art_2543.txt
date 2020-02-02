@@ -1,0 +1,13 @@
+Supersparse Linear Integer Models for Interpretable Classification
+Scoring systems are classification models that only require users to add,
+subtract and multiply a few meaningful numbers to make a prediction. These
+models are often used because they are practical and interpretable. In this
+paper, we introduce an off-the-shelf tool to create scoring systems that both
+accurate and interpretable, known as a Supersparse Linear Integer Model (SLIM).
+SLIM is a discrete optimization problem that minimizes the 0-1 loss to
+encourage a high level of accuracy, regularizes the L0-norm to encourage a high
+level of sparsity, and constrains coefficients to a set of interpretable
+values. We illustrate the practical and interpretable nature of SLIM scoring
+systems through applications in medicine and criminology, and show that they
+are are accurate and sparse in comparison to state-of-the-art classification
+models using numerical experiments.

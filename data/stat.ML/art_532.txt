@@ -1,0 +1,16 @@
+Prediction Error Reduction Function as a Variable Importance Score
+This paper introduces and develops a novel variable importance score function
+in the context of ensemble learning and demonstrates its appeal both
+theoretically and empirically. Our proposed score function is simple and more
+straightforward than its counterpart proposed in the context of random forest,
+and by avoiding permutations, it is by design computationally more efficient
+than the random forest variable importance function. Just like the random
+forest variable importance function, our score handles both regression and
+classification seamlessly. One of the distinct advantage of our proposed score
+is the fact that it offers a natural cut off at zero, with all the positive
+scores indicating importance and significance, while the negative scores are
+deemed indications of insignificance. An extra advantage of our proposed score
+lies in the fact it works very well beyond ensemble of trees and can seamlessly
+be used with any base learners in the random subspace learning context. Our
+examples, both simulated and real, demonstrate that our proposed score does
+compete mostly favorably with the random forest score.

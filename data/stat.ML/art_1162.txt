@@ -1,0 +1,11 @@
+What Can I Do Now? Guiding Users in a World of Automated Decisions
+More and more processes governing our lives use in some part an automatic
+decision step, where -- based on a feature vector derived from an applicant --
+an algorithm has the decision power over the final outcome. Here we present a
+simple idea which gives some of the power back to the applicant by providing
+her with alternatives which would make the decision algorithm decide
+differently. It is based on a formalization reminiscent of methods used for
+evasion attacks, and consists in enumerating the subspaces where the
+classifiers decides the desired output. This has been implemented for the
+specific case of decision forests (ensemble methods based on decision trees),
+mapping the problem to an iterative version of enumerating $k$-cliques.

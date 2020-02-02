@@ -1,0 +1,27 @@
+An MRI-Derived Definition of MCI-to-AD Conversion for Long-Term,
+  Automati c Prognosis of MCI Patients
+Alzheimer's disease (AD) and mild cognitive impairment (MCI), continue to be
+widely studied. While there is no consensus on whether MCIs actually "convert"
+to AD, the more important question is not whether MCIs convert, but what is the
+best such definition. We focus on automatic prognostication, nominally using
+only a baseline image brain scan, of whether an MCI individual will convert to
+AD within a multi-year period following the initial clinical visit. This is in
+fact not a traditional supervised learning problem since, in ADNI, there are no
+definitive labeled examples of MCI conversion. Prior works have defined MCI
+subclasses based on whether or not clinical/cognitive scores such as CDR
+significantly change from baseline. There are concerns with these definitions,
+however, since e.g. most MCIs (and ADs) do not change from a baseline CDR=0.5,
+even while physiological changes may be occurring. These works ignore rich
+phenotypical information in an MCI patient's brain scan and labeled AD and
+Control examples, in defining conversion. We propose an innovative conversion
+definition, wherein an MCI patient is declared to be a converter if any of the
+patient's brain scans (at follow-up visits) are classified "AD" by an
+(accurately-designed) Control-AD classifier. This novel definition bootstraps
+the design of a second classifier, specifically trained to predict whether or
+not MCIs will convert. This second classifier thus predicts whether an
+AD-Control classifier will predict that a patient has AD. Our results
+demonstrate this new definition leads not only to much higher prognostic
+accuracy than by-CDR conversion, but also to subpopulations much more
+consistent with known AD brain region biomarkers. We also identify key
+prognostic region biomarkers, essential for accurately discriminating the
+converter and nonconverter groups.

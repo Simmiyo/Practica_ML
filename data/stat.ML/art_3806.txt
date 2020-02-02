@@ -1,0 +1,17 @@
+Convolutional RNN: an Enhanced Model for Extracting Features from
+  Sequential Data
+Traditional convolutional layers extract features from patches of data by
+applying a non-linearity on an affine function of the input. We propose a model
+that enhances this feature extraction process for the case of sequential data,
+by feeding patches of the data into a recurrent neural network and using the
+outputs or hidden states of the recurrent units to compute the extracted
+features. By doing so, we exploit the fact that a window containing a few
+frames of the sequential data is a sequence itself and this additional
+structure might encapsulate valuable information. In addition, we allow for
+more steps of computation in the feature extraction process, which is
+potentially beneficial as an affine function followed by a non-linearity can
+result in too simple features. Using our convolutional recurrent layers we
+obtain an improvement in performance in two audio classification tasks,
+compared to traditional convolutional layers. Tensorflow code for the
+convolutional recurrent layers is publicly available in
+https://github.com/cruvadom/Convolutional-RNN.

@@ -1,0 +1,17 @@
+Sublinear-Time Approximate MCMC Transitions for Probabilistic Programs
+Probabilistic programming languages can simplify the development of machine
+learning techniques, but only if inference is sufficiently scalable.
+Unfortunately, Bayesian parameter estimation for highly coupled models such as
+regressions and state-space models still scales poorly; each MCMC transition
+takes linear time in the number of observations. This paper describes a
+sublinear-time algorithm for making Metropolis-Hastings (MH) updates to latent
+variables in probabilistic programs. The approach generalizes recently
+introduced approximate MH techniques: instead of subsampling data items assumed
+to be independent, it subsamples edges in a dynamically constructed graphical
+model. It thus applies to a broader class of problems and interoperates with
+other general-purpose inference techniques. Empirical results, including
+confirmation of sublinear per-transition scaling, are presented for Bayesian
+logistic regression, nonlinear classification via joint Dirichlet process
+mixtures, and parameter estimation for stochastic volatility models (with state
+estimation via particle MCMC). All three applications use the same
+implementation, and each requires under 20 lines of probabilistic code.

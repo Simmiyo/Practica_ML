@@ -1,0 +1,13 @@
+Temporary Assumptions for Quantum Multiparty Secure Computations
+This paper introduces quantum multiparty protocols which allow the use of
+temporary assumptions. We prove that secure quantum multiparty computations are
+possible if and only if classical multi party computations work. But these
+strict assumptions are necessary only during the execution of the protocol and
+can be loosened after termination of the protocol.
+  We consider two settings:
+  1. A collusion of players tries to learn the secret inputs of honest players
+or tries to modify the result of the computation.
+  2. A collusion of players cheats in the above way or tries to disrupt the
+protocol, i.e., the collusion tries to abort the computation or leaks
+information to honest players. We give bounds on the collusions tolerable after
+a protocol has terminated and we state protocols reaching these bounds.

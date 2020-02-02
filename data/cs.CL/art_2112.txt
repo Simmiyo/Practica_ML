@@ -1,0 +1,10 @@
+Semantic Tagging with Deep Residual Networks
+We propose a novel semantic tagging task, sem-tagging, tailored for the
+purpose of multilingual semantic parsing, and present the first tagger using
+deep residual networks (ResNets). Our tagger uses both word and character
+representations and includes a novel residual bypass architecture. We evaluate
+the tagset both intrinsically on the new task of semantic tagging, as well as
+on Part-of-Speech (POS) tagging. Our system, consisting of a ResNet and an
+auxiliary loss function predicting our semantic tags, significantly outperforms
+prior results on English Universal Dependencies POS tagging (95.71% accuracy on
+UD v1.2 and 95.67% accuracy on UD v1.3).

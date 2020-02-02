@@ -1,0 +1,13 @@
+Speeding up the binary Gaussian process classification
+Gaussian processes (GP) are attractive building blocks for many probabilistic
+models. Their drawbacks, however, are the rapidly increasing inference time and
+memory requirement alongside increasing data. The problem can be alleviated
+with compactly supported (CS) covariance functions, which produce sparse
+covariance matrices that are fast in computations and cheap to store. CS
+functions have previously been used in GP regression but here the focus is in a
+classification problem. This brings new challenges since the posterior
+inference has to be done approximately. We utilize the expectation propagation
+algorithm and show how its standard implementation has to be modified to obtain
+computational benefits from the sparse covariance matrices. We study four CS
+covariance functions and show that they may lead to substantial speed up in the
+inference time compared to globally supported functions.

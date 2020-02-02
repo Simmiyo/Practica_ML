@@ -1,0 +1,15 @@
+Bayesian $l_0$-regularized Least Squares
+Bayesian $l_0$-regularized least squares is a variable selection technique
+for high dimensional predictors. The challenge is optimizing a non-convex
+objective function via search over model space consisting of all possible
+predictor combinations. Spike-and-slab (a.k.a. Bernoulli-Gaussian) priors are
+the gold standard for Bayesian variable selection, with a caveat of
+computational speed and scalability. Single Best Replacement (SBR) provides a
+fast scalable alternative. We provide a link between Bayesian regularization
+and proximal updating, which provides an equivalence between finding a
+posterior mode and a posterior mean with a different regularization prior. This
+allows us to use SBR to find the spike-and-slab estimator. To illustrate our
+methodology, we provide simulation evidence and a real data example on the
+statistical properties and computational efficiency of SBR versus direct
+posterior sampling using spike-and-slab priors. Finally, we conclude with
+directions for future research.

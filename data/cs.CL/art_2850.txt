@@ -1,0 +1,10 @@
+Predicting the Law Area and Decisions of French Supreme Court Cases
+In this paper, we investigate the application of text classification methods
+to predict the law area and the decision of cases judged by the French Supreme
+Court. We also investigate the influence of the time period in which a ruling
+was made over the textual form of the case description and the extent to which
+it is necessary to mask the judge's motivation for a ruling to emulate a
+real-world test scenario. We report results of 96% f1 score in predicting a
+case ruling, 90% f1 score in predicting the law area of a case, and 75.9% f1
+score in estimating the time span when a ruling has been issued using a linear
+Support Vector Machine (SVM) classifier trained on lexical features.

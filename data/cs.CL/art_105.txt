@@ -1,0 +1,13 @@
+Interfacing Constraint-Based Grammars and Generation Algorithms
+Constraint-based grammars can, in principle, serve as the major linguistic
+knowledge source for both parsing and generation. Surface generation starts
+from input semantics representations that may vary across grammars. For many
+declarative grammars, the concept of derivation implicitly built in is that of
+parsing. They may thus not be interpretable by a generation algorithm. We show
+that linguistically plausible semantic analyses can cause severe problems for
+semantic-head-driven approaches for generation (SHDG). We use SeReal, a variant
+of SHDG and the DISCO grammar of German as our source of examples. We propose a
+new, general approach that explicitly accounts for the interface between the
+grammar and the generation algorithm by adding a control-oriented layer to the
+linguistic knowledge base that reorganizes the semantics in a way suitable for
+generation.

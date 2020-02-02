@@ -1,0 +1,14 @@
+Style Obfuscation by Invariance
+The task of obfuscating writing style using sequence models has previously
+been investigated under the framework of obfuscation-by-transfer, where the
+input text is explicitly rewritten in another style. These approaches also
+often lead to major alterations to the semantic content of the input. In this
+work, we propose obfuscation-by-invariance, and investigate to what extent
+models trained to be explicitly style-invariant preserve semantics. We evaluate
+our architectures on parallel and non-parallel corpora, and compare automatic
+and human evaluations on the obfuscated sentences. Our experiments show that
+style classifier performance can be reduced to chance level, whilst the
+automatic evaluation of the output is seemingly equal to models applying
+style-transfer. However, based on human evaluation we demonstrate a trade-off
+between the level of obfuscation and the observed quality of the output in
+terms of meaning preservation and grammaticality.

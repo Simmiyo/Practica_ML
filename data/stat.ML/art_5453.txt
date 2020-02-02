@@ -1,0 +1,23 @@
+Solving SDPs for synchronization and MaxCut problems via the
+  Grothendieck inequality
+A number of statistical estimation problems can be addressed by semidefinite
+programs (SDP). While SDPs are solvable in polynomial time using interior point
+methods, in practice generic SDP solvers do not scale well to high-dimensional
+problems. In order to cope with this problem, Burer and Monteiro proposed a
+non-convex rank-constrained formulation, which has good performance in practice
+but is still poorly understood theoretically.
+  In this paper we study the rank-constrained version of SDPs arising in MaxCut
+and in synchronization problems. We establish a Grothendieck-type inequality
+that proves that all the local maxima and dangerous saddle points are within a
+small multiplicative gap from the global maximum. We use this structural
+information to prove that SDPs can be solved within a known accuracy, by
+applying the Riemannian trust-region method to this non-convex problem, while
+constraining the rank to be of order one. For the MaxCut problem, our
+inequality implies that any local maximizer of the rank-constrained SDP
+provides a $ (1 - 1/(k-1)) \times 0.878$ approximation of the MaxCut, when the
+rank is fixed to $k$.
+  We then apply our results to data matrices generated according to the
+Gaussian ${\mathbb Z}_2$ synchronization problem, and the two-groups stochastic
+block model with large bounded degree. We prove that the error achieved by
+local maximizers undergoes a phase transition at the same threshold as for
+information-theoretically optimal methods.

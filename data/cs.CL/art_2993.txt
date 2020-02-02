@@ -1,0 +1,12 @@
+Small-footprint Keyword Spotting Using Deep Neural Network and
+  Connectionist Temporal Classifier
+Mainly for the sake of solving the lack of keyword-specific data, we propose
+one Keyword Spotting (KWS) system using Deep Neural Network (DNN) and
+Connectionist Temporal Classifier (CTC) on power-constrained small-footprint
+mobile devices, taking full advantage of general corpus from continuous speech
+recognition which is of great amount. DNN is to directly predict the posterior
+of phoneme units of any personally customized key-phrase, and CTC to produce a
+confidence score of the given phoneme sequence as responsive decision-making
+mechanism. The CTC-KWS has competitive performance in comparison with purely
+DNN based keyword specific KWS, but not increasing any computational
+complexity.

@@ -1,0 +1,17 @@
+Landmark Diffusion Maps (L-dMaps): Accelerated manifold learning
+  out-of-sample extension
+Diffusion maps are a nonlinear manifold learning technique based on harmonic
+analysis of a diffusion process over the data. Out-of-sample extensions with
+computational complexity $\mathcal{O}(N)$, where $N$ is the number of points
+comprising the manifold, frustrate applications to online learning applications
+requiring rapid embedding of high-dimensional data streams. We propose landmark
+diffusion maps (L-dMaps) to reduce the complexity to $\mathcal{O}(M)$, where $M
+\ll N$ is the number of landmark points selected using pruned spanning trees or
+k-medoids. Offering $(N/M)$ speedups in out-of-sample extension, L-dMaps
+enables the application of diffusion maps to high-volume and/or high-velocity
+streaming data. We illustrate our approach on three datasets: the Swiss roll,
+molecular simulations of a C$_{24}$H$_{50}$ polymer chain, and biomolecular
+simulations of alanine dipeptide. We demonstrate up to 50-fold speedups in
+out-of-sample extension for the molecular systems with less than 4% errors in
+manifold reconstruction fidelity relative to calculations over the full
+dataset.

@@ -1,0 +1,13 @@
+Efficient Segmental Cascades for Speech Recognition
+Discriminative segmental models offer a way to incorporate flexible feature
+functions into speech recognition. However, their appeal has been limited by
+their computational requirements, due to the large number of possible segments
+to consider. Multi-pass cascades of segmental models introduce features of
+increasing complexity in different passes, where in each pass a segmental model
+rescores lattices produced by a previous (simpler) segmental model. In this
+paper, we explore several ways of making segmental cascades efficient and
+practical: reducing the feature set in the first pass, frame subsampling, and
+various pruning approaches. In experiments on phonetic recognition, we find
+that with a combination of such techniques, it is possible to maintain
+competitive performance while greatly reducing decoding, pruning, and training
+time.

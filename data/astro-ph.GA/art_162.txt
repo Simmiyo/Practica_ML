@@ -1,0 +1,20 @@
+A Field-length based refinement criterion for adaptive mesh simulations
+  of the interstellar medium
+Adequate modelling of the multiphase interstellar medium requires optically
+thin radiative cooling, comprising an inherent thermal instability. The size of
+the occurring condensation and evaporation interfaces is determined by the
+so-called Field-length, which gives the dimension at which the instability is
+significantly damped by thermal conduction. Our aim is to study the relevance
+of conduction scale effects in the numerical modelling of a bistable medium and
+check the applicability of conventional and alternative adaptive mesh
+techniques. The low physical value of the thermal conduction within the ISM
+defines a multiscale problem, hence promoting the use of adaptive meshes. We
+here introduce a new refinement strategy that applies the Field condition by
+Koyama & Inutsuka as a refinement criterion. The described method is very
+similar to the Jeans criterion for gravitational instability by Truelove and
+efficiently allows to trace the unstable gas situated at the thermal
+interfaces. We present test computations that demonstrate the greater accuracy
+of the newly proposed refinement criterion in comparison to refinement based on
+the local density gradient. Apart from its usefulness as a refinement trigger,
+we do not find evidence in favour of the Field criterion as a prerequisite for
+numerical stability.

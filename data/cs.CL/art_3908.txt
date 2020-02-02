@@ -1,0 +1,12 @@
+SNU_IDS at SemEval-2018 Task 12: Sentence Encoder with Contextualized
+  Vectors for Argument Reasoning Comprehension
+We present a novel neural architecture for the Argument Reasoning
+Comprehension task of SemEval 2018. It is a simple neural network consisting of
+three parts, collectively judging whether the logic built on a set of given
+sentences (a claim, reason, and warrant) is plausible or not. The model
+utilizes contextualized word vectors pre-trained on large machine translation
+(MT) datasets as a form of transfer learning, which can help to mitigate the
+lack of training data. Quantitative analysis shows that simply leveraging LSTMs
+trained on MT datasets outperforms several baselines and non-transferred
+models, achieving accuracies of about 70% on the development set and about 60%
+on the test set.

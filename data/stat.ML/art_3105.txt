@@ -1,0 +1,7 @@
+Distributed Coordinate Descent for L1-regularized Logistic Regression
+Solving logistic regression with L1-regularization in distributed settings is
+an important problem. This problem arises when training dataset is very large
+and cannot fit the memory of a single machine. We present d-GLMNET, a new
+algorithm solving logistic regression with L1-regularization in the distributed
+settings. We empirically show that it is superior over distributed online
+learning via truncated gradient.

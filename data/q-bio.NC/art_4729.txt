@@ -1,0 +1,15 @@
+Determining the minimum embedding dimension for state space
+  reconstruction through recurrence networks
+The analysis of observed time series from nonlinear systems is usually done
+by making a time-delay reconstruction to unfold the dynamics on a
+multi-dimensional state space. An important aspect of the analysis is the
+choice of the correct embedding dimension. The conventional procedure used for
+this is either the method of false nearest neighbors or the saturation of some
+invariant measure, such as, correlation dimension. Here we examine this issue
+from a complex network perspective and propose a recurrence network based
+measure to determine the acceptable minimum embedding dimension to be used for
+such analysis. The measure proposed here is based on the well known
+Kullback-Leibler divergence commonly used in information theory. We show that
+the measure is simple and direct to compute and give accurate result for short
+time series. To show the significance of the measure in the analysis of
+practical data, we present the analysis of two EEG signals as examples.

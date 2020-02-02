@@ -1,0 +1,13 @@
+Lossless quantum data compression and variable-length coding
+In order to compress quantum messages without loss of information it is
+necessary to allow the length of the encoded messages to vary. We develop a
+general framework for variable-length quantum messages in close analogy to the
+classical case and show that lossless compression is only possible if the
+message to be compressed is known to the sender. The lossless compression of an
+ensemble of messages is bounded from below by its von-Neumann entropy. We show
+that it is possible to reduce the number of qbits passing through a quantum
+channel even below the von-Neumann entropy by adding a classical side-channel.
+We give an explicit communication protocol that realizes lossless and
+instantaneous quantum data compression and apply it to a simple example. This
+protocol can be used for both online quantum communication and storage of
+quantum data.

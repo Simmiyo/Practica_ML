@@ -1,0 +1,16 @@
+Calibrating Black Box Classification Models through the Thresholding
+  Method
+In high-dimensional classification settings, we wish to seek a balance
+between high power and ensuring control over a desired loss function. In many
+settings, the points most likely to be misclassified are those who lie near the
+decision boundary of the given classification method. Often, these
+uninformative points should not be classified as they are noisy and do not
+exhibit strong signals. In this paper, we introduce the Thresholding Method to
+parameterize the problem of determining which points exhibit strong signals and
+should be classified. We demonstrate the empirical performance of this novel
+calibration method in providing loss function control at a desired level, as
+well as explore how the method assuages the effect of overfitting. We explore
+the benefits of error control through the Thresholding Method in difficult,
+high-dimensional, simulated settings. Finally, we show the flexibility of the
+Thresholding Method through applying the method in a variety of real data
+settings.

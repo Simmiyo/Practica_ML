@@ -1,0 +1,14 @@
+Neural Architectures for Open-Type Relation Argument Extraction
+In this work, we introduce the task of Open-Type Relation Argument Extraction
+(ORAE): Given a corpus, a query entity Q and a knowledge base relation (e.g.,"Q
+authored notable work with title X"), the model has to extract an argument of
+non-standard entity type (entities that cannot be extracted by a standard named
+entity tagger, e.g. X: the title of a book or a work of art) from the corpus. A
+distantly supervised dataset based on WikiData relations is obtained and
+released to address the task.
+  We develop and compare a wide range of neural models for this task yielding
+large improvements over a strong baseline obtained with a neural question
+answering system. The impact of different sentence encoding architectures and
+answer extraction methods is systematically compared. An encoder based on gated
+recurrent units combined with a conditional random fields tagger gives the best
+results.

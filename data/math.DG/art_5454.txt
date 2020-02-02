@@ -1,0 +1,17 @@
+The geometry of barotropic flow
+In this article we write the equations of barotropic compressible fluid
+mechanics as a geodesic equation on an infinite-dimensional manifold. The
+equations are given by \begin{align} u_t + \nabla_uu = -\frac{1}{\rho} \grad p
+\\ \rho_t + \diver{(\rho u)} = 0, \end{align} where the fluid fills up a
+compact manifold $M$, $u$ is a time-dependent velocity field on $M$, and $\rho$
+is the density, a positive function on $M$. The barotropic assumption is that
+the pressure $p$ is some given function of the density, although our methods
+also extend to certain more general isentropic flows. Our infinite-dimensional
+manifold is the product $\mathcal{D}(M)\times C^{\infty}(M,\mathbb{R})$. This
+is a group using the semidirect product (which is sometimes incorporated in
+other treatments), but the Riemannian metric we use is neither left- nor
+right-invariant. Hence our geodesic equation is \emph{not} an Euler-Arnold
+equation. We compute the sectional curvature and show that at least when
+$M=S^1$, the curvature is always nonnegative. We also establish some results on
+the Lagrangian linear stability of solutions of this system, for certain
+nonsteady solutions in one dimension and steady solutions in two dimensions.

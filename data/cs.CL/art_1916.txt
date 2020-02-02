@@ -1,0 +1,23 @@
+Generalizing to Unseen Entities and Entity Pairs with Row-less Universal
+  Schema
+Universal schema predicts the types of entities and relations in a knowledge
+base (KB) by jointly embedding the union of all available schema types---not
+only types from multiple structured databases (such as Freebase or Wikipedia
+infoboxes), but also types expressed as textual patterns from raw text. This
+prediction is typically modeled as a matrix completion problem, with one type
+per column, and either one or two entities per row (in the case of entity types
+or binary relation types, respectively). Factorizing this sparsely observed
+matrix yields a learned vector embedding for each row and each column. In this
+paper we explore the problem of making predictions for entities or entity-pairs
+unseen at training time (and hence without a pre-learned row embedding). We
+propose an approach having no per-row parameters at all; rather we produce a
+row vector on the fly using a learned aggregation function of the vectors of
+the observed columns for that row. We experiment with various aggregation
+functions, including neural network attention models. Our approach can be
+understood as a natural language database, in that questions about KB entities
+are answered by attending to textual or database evidence. In experiments
+predicting both relations and entity types, we demonstrate that despite having
+an order of magnitude fewer parameters than traditional universal schema, we
+can match the accuracy of the traditional model, and more importantly, we can
+now make predictions about unseen rows with nearly the same accuracy as rows
+available at training time.

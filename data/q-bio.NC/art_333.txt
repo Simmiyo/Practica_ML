@@ -1,0 +1,17 @@
+Learning quadratic receptive fields from neural responses to natural
+  stimuli
+Models of neural responses to stimuli with complex spatiotemporal correlation
+structure often assume that neurons are only selective for a small number of
+linear projections of a potentially high-dimensional input. Here we explore
+recent modeling approaches where the neural response depends on the quadratic
+form of the input rather than on its linear projection, that is, the neuron is
+sensitive to the local covariance structure of the signal preceding the spike.
+To infer this quadratic dependence in the presence of arbitrary (e.g.
+naturalistic) stimulus distribution, we review several inference methods,
+focussing in particular on two information-theory-based approaches
+(maximization of stimulus energy or of noise entropy) and a likelihood-based
+approach (Bayesian spike-triggered covariance, extensions of generalized linear
+models). We analyze the formal connection between the likelihood-based and
+information-based approaches to show how they lead to consistent inference. We
+demonstrate the practical feasibility of these procedures by using model
+neurons responding to a flickering variance stimulus.

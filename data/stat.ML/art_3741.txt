@@ -1,0 +1,9 @@
+A Proximal Stochastic Quasi-Newton Algorithm
+In this paper, we discuss the problem of minimizing the sum of two convex
+functions: a smooth function plus a non-smooth function. Further, the smooth
+part can be expressed by the average of a large number of smooth component
+functions, and the non-smooth part is equipped with a simple proximal mapping.
+We propose a proximal stochastic second-order method, which is efficient and
+scalable. It incorporates the Hessian in the smooth part of the function and
+exploits multistage scheme to reduce the variance of the stochastic gradient.
+We prove that our method can achieve linear rate of convergence.

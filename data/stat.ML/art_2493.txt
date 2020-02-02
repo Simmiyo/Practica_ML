@@ -1,0 +1,17 @@
+A Rank Minrelation - Majrelation Coefficient
+Improving the detection of relevant variables using a new bivariate measure
+could importantly impact variable selection and large network inference
+methods. In this paper, we propose a new statistical coefficient that we call
+the rank minrelation coefficient. We define a minrelation of X to Y (or
+equivalently a majrelation of Y to X) as a measure that estimate p(Y > X) when
+X and Y are continuous random variables. The approach is similar to Lin's
+concordance coefficient that rather focuses on estimating p(X = Y). In other
+words, if a variable X exhibits a minrelation to Y then, as X increases, Y is
+likely to increases too. However, on the contrary to concordance or
+correlation, the minrelation is not symmetric. More explicitly, if X decreases,
+little can be said on Y values (except that the uncertainty on Y actually
+increases). In this paper, we formally define this new kind of bivariate
+dependencies and propose a new statistical coefficient in order to detect those
+dependencies. We show through several key examples that this new coefficient
+has many interesting properties in order to select relevant variables, in
+particular when compared to correlation.

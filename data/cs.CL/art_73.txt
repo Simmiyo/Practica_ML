@@ -1,0 +1,9 @@
+A Finite State and Data-Oriented Method for Grapheme to Phoneme
+  Conversion
+A finite-state method, based on leftmost longest-match replacement, is
+presented for segmenting words into graphemes, and for converting graphemes
+into phonemes. A small set of hand-crafted conversion rules for Dutch achieves
+a phoneme accuracy of over 93%. The accuracy of the system is further improved
+by using transformation-based learning. The phoneme accuracy of the best system
+(using a large set of rule templates and a `lazy' variant of Brill's algoritm),
+trained on only 40K words, reaches 99% accuracy.

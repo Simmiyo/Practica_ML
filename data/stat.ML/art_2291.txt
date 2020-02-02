@@ -1,0 +1,18 @@
+Parallel MCMC with Generalized Elliptical Slice Sampling
+Probabilistic models are conceptually powerful tools for finding structure in
+data, but their practical effectiveness is often limited by our ability to
+perform inference in them. Exact inference is frequently intractable, so
+approximate inference is often performed using Markov chain Monte Carlo (MCMC).
+To achieve the best possible results from MCMC, we want to efficiently simulate
+many steps of a rapidly mixing Markov chain which leaves the target
+distribution invariant. Of particular interest in this regard is how to take
+advantage of multi-core computing to speed up MCMC-based inference, both to
+improve mixing and to distribute the computational load. In this paper, we
+present a parallelizable Markov chain Monte Carlo algorithm for efficiently
+sampling from continuous probability distributions that can take advantage of
+hundreds of cores. This method shares information between parallel Markov
+chains to build a scale-mixture of Gaussians approximation to the density
+function of the target distribution. We combine this approximation with a
+recent method known as elliptical slice sampling to create a Markov chain with
+no step-size parameters that can mix rapidly without requiring gradient or
+curvature computations.

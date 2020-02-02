@@ -1,0 +1,20 @@
+Iteration Complexity of Randomized Block-Coordinate Descent Methods for
+  Minimizing a Composite Function
+In this paper we develop a randomized block-coordinate descent method for
+minimizing the sum of a smooth and a simple nonsmooth block-separable convex
+function and prove that it obtains an $\epsilon$-accurate solution with
+probability at least $1-\rho$ in at most $O(\tfrac{n}{\epsilon} \log
+\tfrac{1}{\rho})$ iterations, where $n$ is the number of blocks. For strongly
+convex functions the method converges linearly. This extends recent results of
+Nesterov [Efficiency of coordinate descent methods on huge-scale optimization
+problems, CORE Discussion Paper #2010/2], which cover the smooth case, to
+composite minimization, while at the same time improving the complexity by the
+factor of 4 and removing $\epsilon$ from the logarithmic term. More
+importantly, in contrast with the aforementioned work in which the author
+achieves the results by applying the method to a regularized version of the
+objective function with an unknown scaling factor, we show that this is not
+necessary, thus achieving true iteration complexity bounds. In the smooth case
+we also allow for arbitrary probability vectors and non-Euclidean norms.
+Finally, we demonstrate numerically that the algorithm is able to solve
+huge-scale $\ell_1$-regularized least squares and support vector machine
+problems with a billion variables.

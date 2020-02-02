@@ -1,0 +1,16 @@
+Regret in Online Combinatorial Optimization
+We address online linear optimization problems when the possible actions of
+the decision maker are represented by binary vectors. The regret of the
+decision maker is the difference between her realized loss and the best loss
+she would have achieved by picking, in hindsight, the best possible action. Our
+goal is to understand the magnitude of the best possible (minimax) regret. We
+study the problem under three different assumptions for the feedback the
+decision maker receives: full information, and the partial information models
+of the so-called "semi-bandit" and "bandit" problems. Combining the Mirror
+Descent algorithm and the INF (Implicitely Normalized Forecaster) strategy, we
+are able to prove optimal bounds for the semi-bandit case. We also recover the
+optimal bounds for the full information setting. In the bandit case we discuss
+existing results in light of a new lower bound, and suggest a conjecture on the
+optimal regret in that case. Finally we also prove that the standard
+exponentially weighted average forecaster is provably suboptimal in the setting
+of online combinatorial optimization.

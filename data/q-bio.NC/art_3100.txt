@@ -1,0 +1,14 @@
+Semi-analytical approximations to statistical moments of sigmoid and
+  softmax mappings of normal variables
+This note is concerned with accurate and computationally efficient
+approximations of moments of Gaussian random variables passed through sigmoid
+or softmax mappings. These approximations are semi-analytical (i.e. they
+involve the numerical adjustment of parametric forms) and highly accurate (they
+yield 5% error at most). We also highlight a few niche applications of these
+approximations, which arise in the context of, e.g., drift-diffusion models of
+decision making or non-parametric data clustering approaches. We provide these
+as examples of efficient alternatives to more tedious derivations that would be
+needed if one was to approach the underlying mathematical issues in a more
+formal way. We hope that this technical note will be helpful to modellers
+facing similar mathematical issues, although maybe stemming from different
+academic prospects.

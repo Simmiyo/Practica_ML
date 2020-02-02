@@ -1,0 +1,20 @@
+A comparative study of the robustness of frequency--domain connectivity
+  measures to finite data length
+In this work we use numerical simulation to investigate how the temporal
+length of the data affects the reliability of the estimates of brain
+connectivity from EEG time--series. We assume that the neural sources follow a
+stable MultiVariate AutoRegressive model, and consider three connectivity
+metrics: Imaginary part of Coherency (IC), generalized Partial Directed
+Coherence (gPDC) and frequency--domain Granger Causality (fGC). In order to
+assess the statistical significance of the estimated values, we use the
+surrogate data test by generating phase--randomized and autoregressive
+surrogate data. We first consider the ideal case where we know the source time
+courses exactly. Here we show how, expectedly, even exact knowledge of the
+source time courses is not sufficient to provide reliable estimates of the
+connectivity when the number of samples gets small; however, while gPDC and fGC
+tend to provide a larger number of false positives, the IC becomes less
+sensitive to the presence of connectivity. Then we proceed with more realistic
+simulations, where the source time courses are estimated using eLORETA, and the
+EEG signal is affected by biological noise of increasing intensity. Using the
+ideal case as a reference, we show that the impact of biological noise on IC
+estimates is qualitatively different from the impact on gPDC and fGC.

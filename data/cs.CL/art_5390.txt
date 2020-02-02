@@ -1,0 +1,14 @@
+Unlexicalized Transition-based Discontinuous Constituency Parsing
+Lexicalized parsing models are based on the assumptions that (i) constituents
+are organized around a lexical head (ii) bilexical statistics are crucial to
+solve ambiguities. In this paper, we introduce an unlexicalized
+transition-based parser for discontinuous constituency structures, based on a
+structure-label transition system and a bi-LSTM scoring system. We compare it
+to lexicalized parsing models in order to address the question of
+lexicalization in the context of discontinuous constituency parsing. Our
+experiments show that unlexicalized models systematically achieve higher
+results than lexicalized models, and provide additional empirical evidence that
+lexicalization is not necessary to achieve strong parsing results. Our best
+unlexicalized model sets a new state of the art on English and German
+discontinuous constituency treebanks. We further provide a per-phenomenon
+analysis of its errors on discontinuous constituents.

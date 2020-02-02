@@ -1,0 +1,14 @@
+Inference in topic models: sparsity and trade-off
+Topic models are popular for modeling discrete data (e.g., texts, images,
+videos, links), and provide an efficient way to discover hidden
+structures/semantics in massive data. One of the core problems in this field is
+the posterior inference for individual data instances. This problem is
+particularly important in streaming environments, but is often intractable. In
+this paper, we investigate the use of the Frank-Wolfe algorithm (FW) for
+recovering sparse solutions to posterior inference. From detailed elucidation
+of both theoretical and practical aspects, FW exhibits many interesting
+properties which are beneficial to topic modeling. We then employ FW to design
+fast methods, including ML-FW, for learning latent Dirichlet allocation (LDA)
+at large scales. Extensive experiments show that to reach the same
+predictiveness level, ML-FW can perform tens to thousand times faster than
+existing state-of-the-art methods for learning LDA from massive/streaming data.

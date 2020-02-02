@@ -1,0 +1,17 @@
+Prolongation of SMAP to Spatio-temporally Seamless Coverage of
+  Continental US Using a Deep Learning Neural Network
+The Soil Moisture Active Passive (SMAP) mission has delivered valuable
+sensing of surface soil moisture since 2015. However, it has a short time span
+and irregular revisit schedule. Utilizing a state-of-the-art time-series deep
+learning neural network, Long Short-Term Memory (LSTM), we created a system
+that predicts SMAP level-3 soil moisture data with atmospheric forcing,
+model-simulated moisture, and static physiographic attributes as inputs. The
+system removes most of the bias with model simulations and improves predicted
+moisture climatology, achieving small test root-mean-squared error (<0.035) and
+high correlation coefficient >0.87 for over 75\% of Continental United States,
+including the forested Southeast. As the first application of LSTM in
+hydrology, we show the proposed network avoids overfitting and is robust for
+both temporal and spatial extrapolation tests. LSTM generalizes well across
+regions with distinct climates and physiography. With high fidelity to SMAP,
+LSTM shows great potential for hindcasting, data assimilation, and weather
+forecasting.

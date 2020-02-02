@@ -1,0 +1,14 @@
+Using external sources of bilingual information for on-the-fly word
+  alignment
+In this paper we present a new and simple language-independent method for
+word-alignment based on the use of external sources of bilingual information
+such as machine translation systems. We show that the few parameters of the
+aligner can be trained on a very small corpus, which leads to results
+comparable to those obtained by the state-of-the-art tool GIZA++ in terms of
+precision. Regarding other metrics, such as alignment error rate or F-measure,
+the parametric aligner, when trained on a very small gold-standard (450 pairs
+of sentences), provides results comparable to those produced by GIZA++ when
+trained on an in-domain corpus of around 10,000 pairs of sentences.
+Furthermore, the results obtained indicate that the training is
+domain-independent, which enables the use of the trained aligner 'on the fly'
+on any new pair of sentences.

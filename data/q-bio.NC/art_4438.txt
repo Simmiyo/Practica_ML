@@ -1,0 +1,26 @@
+Exploiting plume structure to decode gas source distance using
+  metal-oxide gas sensors
+Estimating the distance of a gas source is important in many applications of
+chemical sensing, like e.g. environmental monitoring, or chemically-guided
+robot navigation. If an estimation of the gas concentration at the source is
+available, source proximity can be estimated from the time-averaged gas
+concentration at the sensing site. However, in turbulent environments, where
+fast concentration fluctuations dominate, comparably long measurements are
+required to obtain a reliable estimate. A lesser known feature that can be
+exploited for distance estimation in a turbulent environment lies in the
+relationship between source proximity and the temporal variance of the local
+gas concentration - the farther the source, the more intermittent are gas
+encounters. However, exploiting this feature requires measurement of changes in
+gas concentration on a comparably fast time scale, that have up to now only
+been achieved using photo-ionisation detectors. Here, we demonstrate that by
+appropriate signal processing, off-the-shelf metal-oxide sensors are capable of
+extracting rapidly fluctuating features of gas plumes that strongly correlate
+with source distance. We show that with a straightforward analysis method it is
+possible to decode events of large, consistent changes in the measured signal,
+so-called 'bouts'. The frequency of these bouts predicts the distance of a gas
+source in wind-tunnel experiments with good accuracy. In addition, we found
+that the variance of bout counts indicates cross-wind offset to the centreline
+of the gas plume. Our results offer an alternative approach to estimating gas
+source proximity that is largely independent of gas concentration, using
+off-the-shelf metal-oxide sensors. The analysis method we employ demands very
+few computational resources and is suitable for low-power microcontrollers.

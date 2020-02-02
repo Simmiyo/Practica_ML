@@ -1,0 +1,18 @@
+HyperLex: A Large-Scale Evaluation of Graded Lexical Entailment
+We introduce HyperLex - a dataset and evaluation resource that quantifies the
+extent of of the semantic category membership, that is, type-of relation also
+known as hyponymy-hypernymy or lexical entailment (LE) relation between 2,616
+concept pairs. Cognitive psychology research has established that typicality
+and category/class membership are computed in human semantic memory as a
+gradual rather than binary relation. Nevertheless, most NLP research, and
+existing large-scale invetories of concept category membership (WordNet,
+DBPedia, etc.) treat category membership and LE as binary. To address this, we
+asked hundreds of native English speakers to indicate typicality and strength
+of category membership between a diverse range of concept pairs on a
+crowdsourcing platform. Our results confirm that category membership and LE are
+indeed more gradual than binary. We then compare these human judgements with
+the predictions of automatic systems, which reveals a huge gap between human
+performance and state-of-the-art LE, distributional and representation learning
+models, and substantial differences between the models themselves. We discuss a
+pathway for improving semantic models to overcome this discrepancy, and
+indicate future application areas for improved graded LE systems.

@@ -1,0 +1,14 @@
+Abstractive Dialogue Summarization with Sentence-Gated Modeling
+  Optimized by Dialogue Acts
+Neural abstractive summarization has been increasingly studied, where the
+prior work mainly focused on summarizing single-speaker documents (news,
+scientific publications, etc). In dialogues, there are different interactions
+between speakers, which are usually defined as dialogue acts. The interactive
+signals may provide informative cues for better summarizing dialogues. This
+paper proposes to explicitly leverage dialogue acts in a neural summarization
+model, where a sentence-gated mechanism is designed for modeling the
+relationship between dialogue acts and the summary. The experiments show that
+our proposed model significantly improves the abstractive summarization
+performance compared to the state-of-the-art baselines on AMI meeting corpus,
+demonstrating the usefulness of the interactive signal provided by dialogue
+acts.

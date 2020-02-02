@@ -1,0 +1,22 @@
+A Separation Principle for Control in the Age of Deep Learning
+We review the problem of defining and inferring a "state" for a control
+system based on complex, high-dimensional, highly uncertain measurement streams
+such as videos. Such a state, or representation, should contain all and only
+the information needed for control, and discount nuisance variability in the
+data. It should also have finite complexity, ideally modulated depending on
+available resources. This representation is what we want to store in memory in
+lieu of the data, as it "separates" the control task from the measurement
+process. For the trivial case with no dynamics, a representation can be
+inferred by minimizing the Information Bottleneck Lagrangian in a function
+class realized by deep neural networks. The resulting representation has much
+higher dimension than the data, already in the millions, but it is smaller in
+the sense of information content, retaining only what is needed for the task.
+This process also yields representations that are invariant to nuisance factors
+and having maximally independent components. We extend these ideas to the
+dynamic case, where the representation is the posterior density of the task
+variable given the measurements up to the current time, which is in general
+much simpler than the prediction density maintained by the classical Bayesian
+filter. Again this can be finitely-parametrized using a deep neural network,
+and already some applications are beginning to emerge. No explicit assumption
+of Markovianity is needed; instead, complexity trades off approximation of an
+optimal representation, including the degree of Markovianity.

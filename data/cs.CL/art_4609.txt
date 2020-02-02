@@ -1,0 +1,14 @@
+NTUA-SLP at IEST 2018: Ensemble of Neural Transfer Methods for Implicit
+  Emotion Classification
+In this paper we present our approach to tackle the Implicit Emotion Shared
+Task (IEST) organized as part of WASSA 2018 at EMNLP 2018. Given a tweet, from
+which a certain word has been removed, we are asked to predict the emotion of
+the missing word. In this work, we experiment with neural Transfer Learning
+(TL) methods. Our models are based on LSTM networks, augmented with a
+self-attention mechanism. We use the weights of various pretrained models, for
+initializing specific layers of our networks. We leverage a big collection of
+unlabeled Twitter messages, for pretraining word2vec word embeddings and a set
+of diverse language models. Moreover, we utilize a sentiment analysis dataset
+for pretraining a model, which encodes emotion related information. The
+submitted model consists of an ensemble of the aforementioned TL models. Our
+team ranked 3rd out of 30 participants, achieving an F1 score of 0.703.

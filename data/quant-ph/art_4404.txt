@@ -1,0 +1,11 @@
+Grover Algorithm with zero theoretical failure rate
+In standard Grover's algorithm for quantum searching, the probability of
+finding the marked item is not exactly 1. In this Letter we present a modified
+version of Grover's algorithm that searches a marked state with full successful
+rate. The modification is done by replacing the phase inversion by two phase
+rotation through angle $\phi$. The rotation angle is given analytically to be
+$\phi=2 \arcsin(\sin{\pi\over (4J+6)}\over \sin\beta)$, where
+$\sin\beta={1\over \sqrt{N}}$, $N$ the number of items in the database, and $J$
+an integer equal to or greater than the integer part of $({\pi\over
+2}-\beta)/(2\beta)$. Upon measurement at $(J+1)$-th iteration, the marked state
+is obtained with certainty.

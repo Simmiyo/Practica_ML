@@ -1,0 +1,16 @@
+Indowordnets help in Indian Language Machine Translation
+Being less resource languages, Indian-Indian and English-Indian language MT
+system developments faces the difficulty to translate various lexical
+phenomena. In this paper, we present our work on a comparative study of 440
+phrase-based statistical trained models for 110 language pairs across 11 Indian
+languages. We have developed 110 baseline Statistical Machine Translation
+systems. Then we have augmented the training corpus with Indowordnet synset
+word entries of lexical database and further trained 110 models on top of the
+baseline system. We have done a detailed performance comparison using various
+evaluation metrics such as BLEU score, METEOR and TER. We observed significant
+improvement in evaluations of translation quality across all the 440 models
+after using the Indowordnet. These experiments give a detailed insight in two
+ways : (1) usage of lexical database with synset mapping for resource poor
+languages (2) efficient usage of Indowordnet sysnset mapping. More over, synset
+mapped lexical entries helped the SMT system to handle the ambiguity to a great
+extent during the translation.

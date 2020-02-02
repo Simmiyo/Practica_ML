@@ -1,0 +1,20 @@
+Balancing Lifetime and Classification Accuracy of Wireless Sensor
+  Networks
+Wireless sensor networks are composed of distributed sensors that can be used
+for signal detection or classification. The likelihood functions of the
+hypotheses are often not known in advance, and decision rules have to be
+learned via supervised learning. A specific such algorithm is Fisher
+discriminant analysis (FDA), the classification accuracy of which has been
+previously studied in the context of wireless sensor networks. Previous work,
+however, does not take into account the communication protocol or battery
+lifetime of the sensor networks; in this paper we extend the existing studies
+by proposing a model that captures the relationship between battery lifetime
+and classification accuracy. In order to do so we combine the FDA with a model
+that captures the dynamics of the Carrier-Sense Multiple-Access (CSMA)
+algorithm, the random-access algorithm used to regulate communications in
+sensor networks. This allows us to study the interaction between the
+classification accuracy, battery lifetime and effort put towards learning, as
+well as the impact of the back-off rates of CSMA on the accuracy. We
+characterize the tradeoff between the length of the training stage and
+accuracy, and show that accuracy is non-monotone in the back-off rate due to
+changes in the training sample size and overfitting.

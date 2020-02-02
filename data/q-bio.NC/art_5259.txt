@@ -1,0 +1,19 @@
+Monitoring spike train synchrony
+Recently, the SPIKE-distance has been proposed as a parameter-free and
+time-scale independent measure of spike train synchrony. This measure is
+time-resolved since it relies on instantaneous estimates of spike train
+dissimilarity. However, its original definition led to spuriously high
+instantaneous values for event-like firing patterns. Here we present a
+substantial improvement of this measure which eliminates this shortcoming. The
+reliability gained allows us to track changes in instantaneous clustering,
+i.e., time-localized patterns of (dis)similarity among multiple spike trains.
+Additional new features include selective and triggered temporal averaging as
+well as the instantaneous comparison of spike train groups. In a second step, a
+causal SPIKE-distance is defined such that the instantaneous values of
+dissimilarity rely on past information only so that time-resolved spike train
+synchrony can be estimated in real-time. We demonstrate that these methods are
+capable of extracting valuable information from field data by monitoring the
+synchrony between neuronal spike trains during an epileptic seizure. Finally,
+the applicability of both the regular and the real-time SPIKE-distance to
+continuous data is illustrated on model electroencephalographic (EEG)
+recordings.

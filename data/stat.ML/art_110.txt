@@ -1,0 +1,17 @@
+Exact block-wise optimization in group lasso and sparse group lasso for
+  linear regression
+The group lasso is a penalized regression method, used in regression problems
+where the covariates are partitioned into groups to promote sparsity at the
+group level. Existing methods for finding the group lasso estimator either use
+gradient projection methods to update the entire coefficient vector
+simultaneously at each step, or update one group of coefficients at a time
+using an inexact line search to approximate the optimal value for the group of
+coefficients when all other groups' coefficients are fixed. We present a new
+method of computation for the group lasso in the linear regression case, the
+Single Line Search (SLS) algorithm, which operates by computing the exact
+optimal value for each group (when all other coefficients are fixed) with one
+univariate line search. We perform simulations demonstrating that the SLS
+algorithm is often more efficient than existing computational methods. We also
+extend the SLS algorithm to the sparse group lasso problem via the Signed
+Single Line Search (SSLS) algorithm, and give theoretical results to support
+both algorithms.

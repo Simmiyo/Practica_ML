@@ -1,0 +1,16 @@
+PCM and APCM Revisited: An Uncertainty Perspective
+In this paper, we take a new look at the possibilistic c-means (PCM) and
+adaptive PCM (APCM) clustering algorithms from the perspective of uncertainty.
+This new perspective offers us insights into the clustering process, and also
+provides us greater degree of flexibility. We analyze the clustering behavior
+of PCM-based algorithms and introduce parameters $\sigma_v$ and $\alpha$ to
+characterize uncertainty of estimated bandwidth and noise level of the dataset
+respectively. Then uncertainty (fuzziness) of membership values caused by
+uncertainty of the estimated bandwidth parameter is modeled by a conditional
+fuzzy set, which is a new formulation of the type-2 fuzzy set. Experiments show
+that parameters $\sigma_v$ and $\alpha$ make the clustering process more easy
+to control, and main features of PCM and APCM are unified in this new
+clustering framework (UPCM). More specifically, UPCM reduces to PCM when we set
+a small $\alpha$ or a large $\sigma_v$, and UPCM reduces to APCM when clusters
+are confined in their physical clusters and possible cluster elimination are
+ensured. Finally we present further researches of this paper.

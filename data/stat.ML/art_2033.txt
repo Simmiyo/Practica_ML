@@ -1,0 +1,16 @@
+Flexible Priors for Exemplar-based Clustering
+Exemplar-based clustering methods have been shown to produce state-of-the-art
+results on a number of synthetic and real-world clustering problems. They are
+appealing because they offer computational benefits over latent-mean models and
+can handle arbitrary pairwise similarity measures between data points. However,
+when trying to recover underlying structure in clustering problems, tailored
+similarity measures are often not enough; we also desire control over the
+distribution of cluster sizes. Priors such as Dirichlet process priors allow
+the number of clusters to be unspecified while expressing priors over data
+partitions. To our knowledge, they have not been applied to exemplar-based
+models. We show how to incorporate priors, including Dirichlet process priors,
+into the recently introduced affinity propagation algorithm. We develop an
+efficient maxproduct belief propagation algorithm for our new model and
+demonstrate experimentally how the expanded range of clustering priors allows
+us to better recover true clusterings in situations where we have some
+information about the generating process.

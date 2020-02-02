@@ -1,0 +1,22 @@
+A Bayesian approach to constrained single- and multi-objective
+  optimization
+This article addresses the problem of derivative-free (single- or
+multi-objective) optimization subject to multiple inequality constraints. Both
+the objective and constraint functions are assumed to be smooth, non-linear and
+expensive to evaluate. As a consequence, the number of evaluations that can be
+used to carry out the optimization is very limited, as in complex industrial
+design optimization problems. The method we propose to overcome this difficulty
+has its roots in both the Bayesian and the multi-objective optimization
+literatures. More specifically, an extended domination rule is used to handle
+objectives and constraints in a unified way, and a corresponding expected
+hyper-volume improvement sampling criterion is proposed. This new criterion is
+naturally adapted to the search of a feasible point when none is available, and
+reduces to existing Bayesian sampling criteria---the classical Expected
+Improvement (EI) criterion and some of its constrained/multi-objective
+extensions---as soon as at least one feasible point is available. The
+calculation and optimization of the criterion are performed using Sequential
+Monte Carlo techniques. In particular, an algorithm similar to the subset
+simulation method, which is well known in the field of structural reliability,
+is used to estimate the criterion. The method, which we call BMOO (for Bayesian
+Multi-Objective Optimization), is compared to state-of-the-art algorithms for
+single- and multi-objective constrained optimization.

@@ -1,0 +1,16 @@
+Synthesis of neural networks for spatio-temporal spike pattern
+  recognition and processing
+The advent of large scale neural computational platforms has highlighted the
+lack of algorithms for synthesis of neural structures to perform predefined
+cognitive tasks. The Neural Engineering Framework offers one such synthesis,
+but it is most effective for a spike rate representation of neural information,
+and it requires a large number of neurons to implement simple functions. We
+describe a neural network synthesis method that generates synaptic connectivity
+for neurons which process time-encoded neural signals, and which makes very
+sparse use of neurons. The method allows the user to specify, arbitrarily,
+neuronal characteristics such as axonal and dendritic delays, and synaptic
+transfer functions, and then solves for the optimal input-output relationship
+using computed dendritic weights. The method may be used for batch or online
+learning and has an extremely fast optimization process. We demonstrate its use
+in generating a network to recognize speech which is sparsely encoded as spike
+times.

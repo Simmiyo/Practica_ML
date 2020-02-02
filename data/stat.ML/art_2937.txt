@@ -1,0 +1,18 @@
+Dynamic Feature Scaling for Online Learning of Binary Classifiers
+Scaling feature values is an important step in numerous machine learning
+tasks. Different features can have different value ranges and some form of a
+feature scaling is often required in order to learn an accurate classifier.
+However, feature scaling is conducted as a preprocessing task prior to
+learning. This is problematic in an online setting because of two reasons.
+First, it might not be possible to accurately determine the value range of a
+feature at the initial stages of learning when we have observed only a few
+number of training instances. Second, the distribution of data can change over
+the time, which render obsolete any feature scaling that we perform in a
+pre-processing step. We propose a simple but an effective method to dynamically
+scale features at train time, thereby quickly adapting to any changes in the
+data stream. We compare the proposed dynamic feature scaling method against
+more complex methods for estimating scaling parameters using several benchmark
+datasets for binary classification. Our proposed feature scaling method
+consistently outperforms more complex methods on all of the benchmark datasets
+and improves classification accuracy of a state-of-the-art online binary
+classifier algorithm.

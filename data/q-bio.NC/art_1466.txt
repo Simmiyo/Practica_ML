@@ -1,0 +1,22 @@
+Local learning rules to attenuate forgetting in neural networks
+Hebbian synaptic plasticity inevitably leads to interference and forgetting
+when different, overlapping memory patterns are sequentially stored in the same
+network. Recent work on artificial neural networks shows that an
+information-geometric approach can be used to protect important weights to slow
+down forgetting. This strategy however is biologically implausible as it
+requires knowledge of the history of previously learned patterns. In this work,
+we show that a purely local weight consolidation mechanism, based on estimating
+energy landscape curvatures from locally available statistics, prevents pattern
+interference. Exploring a local calculation of energy curvature in the
+sparse-coding limit, we demonstrate that curvature-aware learning rules reduce
+forgetting in the Hopfield network. We further show that this method connects
+information-geometric global learning rules based on the Fisher information to
+local spike-dependent rules accessible to biological neural networks. We
+conjecture that, if combined with other learning procedures, it could provide a
+building-block for content-aware learning strategies that use only quantities
+computable in biological neural networks to attenuate pattern interference and
+catastrophic forgetting. Additionally, this work clarifies how global
+information-geometric structure in a learning problem can be exposed in local
+model statistics, building a deeper theoretical connection between the
+statistics of single units in a network, and the global structure of the
+collective learning space.

@@ -1,0 +1,26 @@
+Disentangling top-down vs. bottom-up and low-level vs. high-level
+  influences on eye movements over time
+Bottom-up and top-down, as well as low-level and high-level factors influence
+where we fixate when viewing natural scenes. However, the importance of each of
+these factors and how they interact remains a matter of debate. Here, we
+disentangle these factors by analysing their influence over time. For this
+purpose we develop a saliency model which is based on the internal
+representation of a recent early spatial vision model to measure the low-level
+bottom-up factor. To measure the influence of high-level bottom-up features, we
+use a recent DNN-based saliency model. To account for top-down influences, we
+evaluate the models on two large datasets with different tasks: first, a
+memorisation task and, second, a search task. Our results lend support to a
+separation of visual scene exploration into three phases: The first saccade, an
+initial guided exploration characterised by a gradual broadening of the
+fixation density, and an steady state which is reached after roughly 10
+fixations. Saccade target selection during the initial exploration and in the
+steady state are related to similar areas of interest, which are better
+predicted when including high-level features. In the search dataset, fixation
+locations are determined predominantly by top-down processes. In contrast, the
+first fixation follows a different fixation density and contains a strong
+central fixation bias. Nonetheless, first fixations are guided strongly by
+image properties and as early as 200 ms after image onset, fixations are better
+predicted by high-level information. We conclude that any low-level bottom-up
+factors are mainly limited to the generation of the first saccade. All saccades
+are better explained when high-level features are considered, and later this
+high-level bottom-up control can be overruled by top-down influences.

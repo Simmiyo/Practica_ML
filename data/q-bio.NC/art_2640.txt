@@ -1,0 +1,16 @@
+PrAGMATiC: a Probabilistic and Generative Model of Areas Tiling the
+  Cortex
+Much of the human cortex seems to be organized into topographic cortical
+maps. Yet few quantitative methods exist for characterizing these maps. To
+address this issue we developed a modeling framework that can reveal
+group-level cortical maps based on neuroimaging data. PrAGMATiC, a
+probabilistic and generative model of areas tiling the cortex, is a
+hierarchical Bayesian generative model of cortical maps. This model assumes
+that the cortical map in each individual subject is a sample from a single
+underlying probability distribution. Learning the parameters of this
+distribution reveals the properties of a cortical map that are common across a
+group of subjects while avoiding the potentially lossy step of co-registering
+each subject into a group anatomical space. In this report we give a
+mathematical description of PrAGMATiC, describe approximations that make it
+practical to use, show preliminary results from its application to a real
+dataset, and describe a number of possible future extensions.

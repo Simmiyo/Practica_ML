@@ -1,0 +1,19 @@
+Predicting Glaucoma Visual Field Loss by Hierarchically Aggregating
+  Clustering-based Predictors
+This study addresses the issue of predicting the glaucomatous visual field
+loss from patient disease datasets. Our goal is to accurately predict the
+progress of the disease in individual patients. As very few measurements are
+available for each patient, it is difficult to produce good predictors for
+individuals. A recently proposed clustering-based method enhances the power of
+prediction using patient data with similar spatiotemporal patterns. Each
+patient is categorized into a cluster of patients, and a predictive model is
+constructed using all of the data in the class. Predictions are highly
+dependent on the quality of clustering, but it is difficult to identify the
+best clustering method. Thus, we propose a method for aggregating cluster-based
+predictors to obtain better prediction accuracy than from a single
+cluster-based prediction. Further, the method shows very high performances by
+hierarchically aggregating experts generated from several cluster-based
+methods. We use real datasets to demonstrate that our method performs
+significantly better than conventional clustering-based and patient-wise
+regression methods, because the hierarchical aggregating strategy has a
+mechanism whereby good predictors in a small community can thrive.

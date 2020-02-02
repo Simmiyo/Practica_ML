@@ -1,0 +1,18 @@
+Statistical physics of pairwise probability models
+Statistical models for describing the probability distribution over the
+states of biological systems are commonly used for dimensional reduction. Among
+these models, pairwise models are very attractive in part because they can be
+fit using a reasonable amount of data: knowledge of the means and correlations
+between pairs of elements in the system is sufficient. Not surprisingly, then,
+using pairwise models for studying neural data has been the focus of many
+studies in recent years. In this paper, we describe how tools from statistical
+physics can be employed for studying and using pairwise models. We build on our
+previous work on the subject and study the relation between different methods
+for fitting these models and evaluating their quality. In particular, using
+data from simulated cortical networks we study how the quality of various
+approximate methods for inferring the parameters in a pairwise model depends on
+the time bin chosen for binning the data. We also study the effect of the size
+of the time bin on the model quality itself, again using simulated data. We
+show that using finer time bins increases the quality of the pairwise model. We
+offer new ways of deriving the expressions reported in our previous work for
+assessing the quality of pairwise models.

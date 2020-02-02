@@ -1,0 +1,25 @@
+Fairness-Aware Learning with Restriction of Universal Dependency using
+  f-Divergences
+Fairness-aware learning is a novel framework for classification tasks. Like
+regular empirical risk minimization (ERM), it aims to learn a classifier with a
+low error rate, and at the same time, for the predictions of the classifier to
+be independent of sensitive features, such as gender, religion, race, and
+ethnicity. Existing methods can achieve low dependencies on given samples, but
+this is not guaranteed on unseen samples. The existing fairness-aware learning
+algorithms employ different dependency measures, and each algorithm is
+specifically designed for a particular one. Such diversity makes it difficult
+to theoretically analyze and compare them. In this paper, we propose a general
+framework for fairness-aware learning that uses f-divergences and that covers
+most of the dependency measures employed in the existing methods. We introduce
+a way to estimate the f-divergences that allows us to give a unified analysis
+for the upper bound of the estimation error; this bound is tighter than that of
+the existing convergence rate analysis of the divergence estimation. With our
+divergence estimate, we propose a fairness-aware learning algorithm, and
+perform a theoretical analysis of its generalization error. Our analysis
+reveals that, under mild assumptions and even with enforcement of fairness, the
+generalization error of our method is $O(\sqrt{1/n})$, which is the same as
+that of the regular ERM. In addition, and more importantly, we show that, for
+any f-divergence, the upper bound of the estimation error of the divergence is
+$O(\sqrt{1/n})$. This indicates that our fairness-aware learning algorithm
+guarantees low dependencies on unseen samples for any dependency measure
+represented by an f-divergence.

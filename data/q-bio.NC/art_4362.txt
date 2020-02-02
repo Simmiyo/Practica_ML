@@ -1,0 +1,17 @@
+Model Checking Tap Withdrawal in C. Elegans
+We present what we believe to be the first formal verification of a
+biologically realistic (nonlinear ODE) model of a neural circuit in a
+multicellular organism: Tap Withdrawal (TW) in \emph{C. Elegans}, the common
+roundworm. TW is a reflexive behavior exhibited by \emph{C. Elegans} in
+response to vibrating the surface on which it is moving; the neural circuit
+underlying this response is the subject of this investigation. Specifically, we
+perform reachability analysis on the TW circuit model of Wicks et al. (1996),
+which enables us to estimate key circuit parameters. Underlying our approach is
+the use of Fan and Mitra's recently developed technique for automatically
+computing local discrepancy (convergence and divergence rates) of general
+nonlinear systems. We show that the results we obtain are in agreement with the
+experimental results of Wicks et al. (1995). As opposed to the fixed parameters
+found in most biological models, which can only produce the predominant
+behavior, our techniques characterize ranges of parameters that produce (and do
+not produce) all three observed behaviors: reversal of movement, acceleration,
+and lack of response.

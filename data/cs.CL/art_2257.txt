@@ -1,0 +1,14 @@
+A Joint Framework for Argumentative Text Analysis Incorporating Domain
+  Knowledge
+For argumentation mining, there are several sub-tasks such as argumentation
+component type classification, relation classification. Existing research tends
+to solve such sub-tasks separately, but ignore the close relation between them.
+In this paper, we present a joint framework incorporating logical relation
+between sub-tasks to improve the performance of argumentation structure
+generation. We design an objective function to combine the predictions from
+individual models for each sub-task and solve the problem with some constraints
+constructed from background knowledge. We evaluate our proposed model on two
+public corpora and the experiment results show that our model can outperform
+the baseline that uses a separate model significantly for each sub-task. Our
+model also shows advantages on component-related sub-tasks compared to a
+state-of-the-art joint model based on the evidence graph.

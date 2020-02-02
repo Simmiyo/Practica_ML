@@ -1,0 +1,15 @@
+Time-series thresholding and the definition of avalanche size
+Avalanches whose sizes and durations are distributed as power laws appear in
+many contexts. Here, we show that there is a hidden peril in thresholding
+continuous times series --either from empirical or synthetic data-- for the
+detection of avalanches. In particular, we consider two possible alternative
+definitions of avalanche size used e.g. in the empirical determination of
+avalanche exponents in the analysis of neural-activity data. By performing
+analytical and computational studies of an Ornstein-Uhlenbeck process (taken as
+a guiding example) we show that if (i) relatively large threshold values are
+employed to determine the beginning and ending of avalanches and if (ii) --as
+sometimes done in the literature-- avalanche sizes are defined as the total
+area (above zero) of the avalanche, then true asymptotic scaling behavior is
+not seen, instead the observations are dominated by transient effects. These
+can induce misinterpretations of the resulting scaling regimes as well as to a
+wrong assignation of universality classes.

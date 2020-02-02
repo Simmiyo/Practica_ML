@@ -1,0 +1,13 @@
+Fully Automated Fact Checking Using External Sources
+Given the constantly growing proliferation of false claims online in recent
+years, there has been also a growing research interest in automatically
+distinguishing false rumors from factually true claims. Here, we propose a
+general-purpose framework for fully-automatic fact checking using external
+sources, tapping the potential of the entire Web as a knowledge source to
+confirm or reject a claim. Our framework uses a deep neural network with LSTM
+text encoding to combine semantic kernels with task-specific embeddings that
+encode a claim together with pieces of potentially-relevant text fragments from
+the Web, taking the source reliability into account. The evaluation results
+show good performance on two different tasks and datasets: (i) rumor detection
+and (ii) fact checking of the answers to a question in community question
+answering forums.

@@ -1,0 +1,12 @@
+A Theory of Output-Side Unsupervised Domain Adaptation
+When learning a mapping from an input space to an output space, the
+assumption that the sample distribution of the training data is the same as
+that of the test data is often violated. Unsupervised domain shift methods
+adapt the learned function in order to correct for this shift. Previous work
+has focused on utilizing unlabeled samples from the target distribution. We
+consider the complementary problem in which the unlabeled samples are given
+post mapping, i.e., we are given the outputs of the mapping of unknown samples
+from the shifted domain. Two other variants are also studied: the two sided
+version, in which unlabeled samples are give from both the input and the output
+spaces, and the Domain Transfer problem, which was recently formalized. In all
+cases, we derive generalization bounds that employ discrepancy terms.

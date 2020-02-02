@@ -1,0 +1,14 @@
+Efficient Hopfield pattern recognition on a scale-free neural network
+Neural networks are supposed to recognise blurred images (or patterns) of $N$
+pixels (bits) each. Application of the network to an initial blurred version of
+one of $P$ pre-assigned patterns should converge to the correct pattern. In the
+"standard" Hopfield model, the $N$ "neurons'' are connected to each other via
+$N^2$ bonds which contain the information on the stored patterns. Thus computer
+time and memory in general grow with $N^2$. The Hebb rule assigns synaptic
+coupling strengths proportional to the overlap of the stored patterns at the
+two coupled neurons. Here we simulate the Hopfield model on the Barabasi-Albert
+scale-free network, in which each newly added neuron is connected to only $m$
+other neurons, and at the end the number of neurons with $q$ neighbours decays
+as $1/q^3$. Although the quality of retrieval decreases for small $m$, we find
+good associative memory for $1 \ll m \ll N$. Hence, these networks gain a
+factor $N/m \gg 1$ in the computer memory and time.

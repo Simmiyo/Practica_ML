@@ -1,0 +1,19 @@
+Stochastic Representations of Ion Channel Kinetics and Exact Stochastic
+  Simulation of Neuronal Dynamics
+In this paper we provide two representations for stochastic ion channel
+kinetics, and compare the performance of exact simulation with a commonly used
+numerical approximation strategy. The first representation we present is a
+random time change representation, popularized by Thomas Kurtz, with the second
+being analogous to a "Gillespie" representation. Exact stochastic algorithms
+are provided for the different representations, which are preferable to either
+(a) fixed time step or (b) piecewise constant propensity algorithms, which
+still appear in the literature. As examples, we provide versions of the exact
+algorithms for the Morris-Lecar conductance based model, and detail the error
+induced, both in a weak and a strong sense, by the use of approximate
+algorithms on this model. We include ready-to-use implementations of the random
+time change algorithm in both XPP and Matlab. Finally, through the
+consideration of parametric sensitivity analysis, we show how the
+representations presented here are useful in the development of further
+computational methods. The general representations and simulation strategies
+provided here are known in other parts of the sciences, but less so in the
+present setting.

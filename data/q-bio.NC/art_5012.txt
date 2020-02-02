@@ -1,0 +1,21 @@
+Real-time cortical simulations: energy and interconnect scaling on
+  distributed systems
+We profile the impact of computation and inter-processor communication on the
+energy consumption and on the scaling of cortical simulations approaching the
+real-time regime on distributed computing platforms. Also, the speed and energy
+consumption of processor architectures typical of standard HPC and embedded
+platforms are compared. We demonstrate the importance of the design of
+low-latency interconnect for speed and energy consumption. The cost of cortical
+simulations is quantified using the Joule per synaptic event metric on both
+architectures. Reaching efficient real-time on large scale cortical simulations
+is of increasing relevance for both future bio-inspired artificial intelligence
+applications and for understanding the cognitive functions of the brain, a
+scientific quest that will require to embed large scale simulations into highly
+complex virtual or real worlds. This work stands at the crossroads between the
+WaveScalES experiment in the Human Brain Project (HBP), which includes the
+objective of large scale thalamo-cortical simulations of brain states and their
+transitions, and the ExaNeSt and EuroExa projects, that investigate the design
+of an ARM-based, low-power High Performance Computing (HPC) architecture with a
+dedicated interconnect scalable to million of cores; simulation of deep sleep
+Slow Wave Activity (SWA) and Asynchronous aWake (AW) regimes expressed by
+thalamo-cortical models are among their benchmarks.

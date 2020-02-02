@@ -1,0 +1,14 @@
+Learning spatiotemporal signals using a recurrent spiking network that
+  discretizes time
+Learning to produce spatiotemporal sequences is a common task the brain has
+to solve. While many sequential behaviours differ superficially, the underlying
+organization of the computation might be similar. The way the brain learns
+these tasks remains unknown as current computational models do not typically
+use realistic biologically-plausible learning. Here, we propose a model where a
+spiking recurrent network drives a read-out layer. Plastic synapses follow
+common Hebbian learning rules. The dynamics of the recurrent network is
+constrained to encode time while the read-out neurons encode space. Space is
+then linked with time through Hebbian learning. Here we demonstrate that the
+model is able to learn spatiotemporal dynamics on a timescale that is
+behaviorally relevant. Learned sequences are robustly replayed during a regime
+of spontaneous activity.

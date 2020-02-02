@@ -1,0 +1,14 @@
+On Smoothing and Inference for Topic Models
+Latent Dirichlet analysis, or topic modeling, is a flexible latent variable
+framework for modeling high-dimensional sparse count data. Various learning
+algorithms have been developed in recent years, including collapsed Gibbs
+sampling, variational inference, and maximum a posteriori estimation, and this
+variety motivates the need for careful empirical comparisons. In this paper, we
+highlight the close connections between these approaches. We find that the main
+differences are attributable to the amount of smoothing applied to the counts.
+When the hyperparameters are optimized, the differences in performance among
+the algorithms diminish significantly. The ability of these algorithms to
+achieve solutions of comparable accuracy gives us the freedom to select
+computationally efficient approaches. Using the insights gained from this
+comparative study, we show how accurate topic models can be learned in several
+seconds on text corpora with thousands of documents.

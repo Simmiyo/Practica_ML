@@ -1,0 +1,22 @@
+A Review of Multivariate Distributions for Count Data Derived from the
+  Poisson Distribution
+The Poisson distribution has been widely studied and used for modeling
+univariate count-valued data. Multivariate generalizations of the Poisson
+distribution that permit dependencies, however, have been far less popular.
+Yet, real-world high-dimensional count-valued data found in word counts,
+genomics, and crime statistics, for example, exhibit rich dependencies, and
+motivate the need for multivariate distributions that can appropriately model
+this data. We review multivariate distributions derived from the univariate
+Poisson, categorizing these models into three main classes: 1) where the
+marginal distributions are Poisson, 2) where the joint distribution is a
+mixture of independent multivariate Poisson distributions, and 3) where the
+node-conditional distributions are derived from the Poisson. We discuss the
+development of multiple instances of these classes and compare the models in
+terms of interpretability and theory. Then, we empirically compare multiple
+models from each class on three real-world datasets that have varying data
+characteristics from different domains, namely traffic accident data,
+biological next generation sequencing data, and text data. These empirical
+experiments develop intuition about the comparative advantages and
+disadvantages of each class of multivariate distribution that was derived from
+the Poisson. Finally, we suggest new research directions as explored in the
+subsequent discussion section.

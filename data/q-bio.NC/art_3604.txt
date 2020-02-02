@@ -1,0 +1,17 @@
+ABCD Neurocognitive Prediction Challenge 2019: Predicting individual
+  residual fluid intelligence scores from cortical grey matter morphology
+We predicted residual fluid intelligence scores from T1-weighted MRI data
+available as part of the ABCD NP Challenge 2019, using morphological similarity
+of grey-matter regions across the cortex. Individual structural covariance
+networks (SCN) were abstracted into graph-theory metrics averaged over nodes
+across the brain and in data-driven communities/modules. Metrics included
+degree, path length, clustering coefficient, centrality, rich club coefficient,
+and small-worldness. These features derived from the training set were used to
+build various regression models for predicting residual fluid intelligence
+scores, with performance evaluated both using cross-validation within the
+training set and using the held-out validation set. Our predictions on the test
+set were generated with a support vector regression model trained on the
+training set. We found minimal improvement over predicting a zero residual
+fluid intelligence score across the sample population, implying that structural
+covariance networks calculated from T1-weighted MR imaging data provide little
+information about residual fluid intelligence.

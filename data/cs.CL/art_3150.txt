@@ -1,0 +1,12 @@
+CASICT Tibetan Word Segmentation System for MLWS2017
+We participated in the MLWS 2017 on Tibetan word segmentation task, our
+system is trained in a unrestricted way, by introducing a baseline system and
+76w tibetan segmented sentences of ours. In the system character sequence is
+processed by the baseline system into word sequence, then a subword unit (BPE
+algorithm) split rare words into subwords with its corresponding features,
+after that a neural network classifier is adopted to token each subword into
+"B,M,E,S" label, in decoding step a simple rule is used to recover a final word
+sequence. The candidate system for submition is selected by evaluating the
+F-score in dev set pre-extracted from the 76w sentences. Experiment shows that
+this method can fix segmentation errors of baseline system and result in a
+significant performance gain.

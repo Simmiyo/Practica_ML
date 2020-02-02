@@ -1,0 +1,16 @@
+algcomparison: Comparing the Performance of Graphical Structure Learning
+  Algorithms with TETRAD
+In this report we describe a tool for comparing the performance of graphical
+causal structure learning algorithms implemented in the TETRAD freeware suite
+of causal analysis methods. Currently the tool is available as package in the
+TETRAD source code (written in Java). Simulations can be done varying the
+number of runs, sample sizes, and data modalities. Performance on this
+simulated data can then be compared for a number of algorithms, with parameters
+varied and with performance statistics as selected, producing a publishable
+report. The order of the algorithms in the output can be adjusted to the user's
+preference using a utility function over the statistics. Data sets from
+simulation can be saved along with their graphs to a file and loaded back in
+for further analysis, or used for analysis by other tools. The package
+presented here may also be used to compare structure learning methods across
+platforms and programming languages, i.e., to compare algorithms implemented in
+TETRAD with those implemented in MATLAB, Python, or R.

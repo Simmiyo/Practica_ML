@@ -1,0 +1,11 @@
+Nonlinear variable selection with continuous outcome: a nonparametric
+  incremental forward stagewise approach
+We present a method of variable selection for the sparse generalized additive
+model. The method doesn't assume any specific functional form, and can select
+from a large number of candidates. It takes the form of incremental forward
+stagewise regression. Given no functional form is assumed, we devised an
+approach termed roughening to adjust the residuals in the iterations. In
+simulations, we show the new method is competitive against popular machine
+learning approaches. We also demonstrate its performance using some real
+datasets. The method is available as a part of the nlnet package on CRAN
+https://cran.r-project.org/package=nlnet.

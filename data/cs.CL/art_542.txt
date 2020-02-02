@@ -1,0 +1,12 @@
+FASTSUBS: An Efficient and Exact Procedure for Finding the Most Likely
+  Lexical Substitutes Based on an N-gram Language Model
+Lexical substitutes have found use in areas such as paraphrasing, text
+simplification, machine translation, word sense disambiguation, and part of
+speech induction. However the computational complexity of accurately
+identifying the most likely substitutes for a word has made large scale
+experiments difficult. In this paper I introduce a new search algorithm,
+FASTSUBS, that is guaranteed to find the K most likely lexical substitutes for
+a given word in a sentence based on an n-gram language model. The computation
+is sub-linear in both K and the vocabulary size V. An implementation of the
+algorithm and a dataset with the top 100 substitutes of each token in the WSJ
+section of the Penn Treebank are available at http://goo.gl/jzKH0.

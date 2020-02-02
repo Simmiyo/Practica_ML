@@ -1,0 +1,9 @@
+Deformable Stacked Structure for Named Entity Recognition
+Neural architecture for named entity recognition has achieved great success
+in the field of natural language processing. Currently, the dominating
+architecture consists of a bi-directional recurrent neural network (RNN) as the
+encoder and a conditional random field (CRF) as the decoder. In this paper, we
+propose a deformable stacked structure for named entity recognition, in which
+the connections between two adjacent layers are dynamically established. We
+evaluate the deformable stacked structure by adapting it to different layers.
+Our model achieves the state-of-the-art performances on the OntoNotes dataset.

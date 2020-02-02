@@ -1,0 +1,13 @@
+Recover Missing Sensor Data with Iterative Imputing Network
+Sensor data has been playing an important role in machine learning tasks,
+complementary to the human-annotated data that is usually rather costly.
+However, due to systematic or accidental mis-operations, sensor data comes very
+often with a variety of missing values, resulting in considerable difficulties
+in the follow-up analysis and visualization. Previous work imputes the missing
+values by interpolating in the observational feature space, without consulting
+any latent (hidden) dynamics. In contrast, our model captures the latent
+complex temporal dynamics by summarizing each observation's context with a
+novel Iterative Imputing Network, thus significantly outperforms previous work
+on the benchmark Beijing air quality and meteorological dataset. Our model also
+yields consistent superiority over other methods in cases of different missing
+rates.

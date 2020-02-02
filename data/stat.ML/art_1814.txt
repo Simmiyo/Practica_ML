@@ -1,0 +1,26 @@
+Efficient Marginal Likelihood Computation for Gaussian Process
+  Regression
+In a Bayesian learning setting, the posterior distribution of a predictive
+model arises from a trade-off between its prior distribution and the
+conditional likelihood of observed data. Such distribution functions usually
+rely on additional hyperparameters which need to be tuned in order to achieve
+optimum predictive performance; this operation can be efficiently performed in
+an Empirical Bayes fashion by maximizing the posterior marginal likelihood of
+the observed data. Since the score function of this optimization problem is in
+general characterized by the presence of local optima, it is necessary to
+resort to global optimization strategies, which require a large number of
+function evaluations. Given that the evaluation is usually computationally
+intensive and badly scaled with respect to the dataset size, the maximum number
+of observations that can be treated simultaneously is quite limited. In this
+paper, we consider the case of hyperparameter tuning in Gaussian process
+regression. A straightforward implementation of the posterior log-likelihood
+for this model requires O(N^3) operations for every iteration of the
+optimization procedure, where N is the number of examples in the input dataset.
+We derive a novel set of identities that allow, after an initial overhead of
+O(N^3), the evaluation of the score function, as well as the Jacobian and
+Hessian matrices, in O(N) operations. We prove how the proposed identities,
+that follow from the eigendecomposition of the kernel matrix, yield a reduction
+of several orders of magnitude in the computation time for the hyperparameter
+optimization problem. Notably, the proposed solution provides computational
+advantages even with respect to state of the art approximations that rely on
+sparse kernel matrices.

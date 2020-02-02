@@ -1,0 +1,20 @@
+1-bit Matrix Completion: PAC-Bayesian Analysis of a Variational
+  Approximation
+Due to challenging applications such as collaborative filtering, the matrix
+completion problem has been widely studied in the past few years. Different
+approaches rely on different structure assumptions on the matrix in hand. Here,
+we focus on the completion of a (possibly) low-rank matrix with binary entries,
+the so-called 1-bit matrix completion problem. Our approach relies on tools
+from machine learning theory: empirical risk minimization and its convex
+relaxations. We propose an algorithm to compute a variational approximation of
+the pseudo-posterior. Thanks to the convex relaxation, the corresponding
+minimization problem is bi-convex, and thus the method behaves well in
+practice. We also study the performance of this variational approximation
+through PAC-Bayesian learning bounds. On the contrary to previous works that
+focused on upper bounds on the estimation error of M with various matrix norms,
+we are able to derive from this analysis a PAC bound on the prediction error of
+our algorithm.
+  We focus essentially on convex relaxation through the hinge loss, for which
+we present the complete analysis, a complete simulation study and a test on the
+MovieLens data set. However, we also discuss a variational approximation to
+deal with the logistic loss.

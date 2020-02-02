@@ -1,0 +1,13 @@
+Turkish PoS Tagging by Reducing Sparsity with Morpheme Tags in Small
+  Datasets
+Sparsity is one of the major problems in natural language processing. The
+problem becomes even more severe in agglutinating languages that are highly
+prone to be inflected. We deal with sparsity in Turkish by adopting
+morphological features for part-of-speech tagging. We learn inflectional and
+derivational morpheme tags in Turkish by using conditional random fields (CRF)
+and we employ the morpheme tags in part-of-speech (PoS) tagging by using hidden
+Markov models (HMMs) to mitigate sparsity. Results show that using morpheme
+tags in PoS tagging helps alleviate the sparsity in emission probabilities. Our
+model outperforms other hidden Markov model based PoS tagging models for small
+training datasets in Turkish. We obtain an accuracy of 94.1% in morpheme
+tagging and 89.2% in PoS tagging on a 5K training dataset.

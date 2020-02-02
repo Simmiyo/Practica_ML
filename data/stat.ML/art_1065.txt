@@ -1,0 +1,10 @@
+Making Tree Ensembles Interpretable
+Tree ensembles, such as random forest and boosted trees, are renowned for
+their high prediction performance, whereas their interpretability is critically
+limited. In this paper, we propose a post processing method that improves the
+model interpretability of tree ensembles. After learning a complex tree
+ensembles in a standard way, we approximate it by a simpler model that is
+interpretable for human. To obtain the simpler model, we derive the EM
+algorithm minimizing the KL divergence from the complex ensemble. A synthetic
+experiment showed that a complicated tree ensemble was approximated reasonably
+as interpretable.

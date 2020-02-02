@@ -1,0 +1,16 @@
+Label Stability in Multiple Instance Learning
+We address the problem of \emph{instance label stability} in multiple
+instance learning (MIL) classifiers. These classifiers are trained only on
+globally annotated images (bags), but often can provide fine-grained
+annotations for image pixels or patches (instances). This is interesting for
+computer aided diagnosis (CAD) and other medical image analysis tasks for which
+only a coarse labeling is provided. Unfortunately, the instance labels may be
+unstable. This means that a slight change in training data could potentially
+lead to abnormalities being detected in different parts of the image, which is
+undesirable from a CAD point of view. Despite MIL gaining popularity in the CAD
+literature, this issue has not yet been addressed. We investigate the stability
+of instance labels provided by several MIL classifiers on 5 different datasets,
+of which 3 are medical image datasets (breast histopathology, diabetic
+retinopathy and computed tomography lung images). We propose an unsupervised
+measure to evaluate instance stability, and demonstrate that a
+performance-stability trade-off can be made when comparing MIL classifiers.

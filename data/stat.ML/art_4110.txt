@@ -1,0 +1,19 @@
+The Emergence of Organizing Structure in Conceptual Representation
+Both scientists and children make important structural discoveries, yet their
+computational underpinnings are not well understood. Structure discovery has
+previously been formalized as probabilistic inference about the right
+structural form --- where form could be a tree, ring, chain, grid, etc. [Kemp &
+Tenenbaum (2008). The discovery of structural form. PNAS, 105(3), 10687-10692].
+While this approach can learn intuitive organizations, including a tree for
+animals and a ring for the color circle, it assumes a strong inductive bias
+that considers only these particular forms, and each form is explicitly
+provided as initial knowledge. Here we introduce a new computational model of
+how organizing structure can be discovered, utilizing a broad hypothesis space
+with a preference for sparse connectivity. Given that the inductive bias is
+more general, the model's initial knowledge shows little qualitative
+resemblance to some of the discoveries it supports. As a consequence, the model
+can also learn complex structures for domains that lack intuitive description,
+as well as predict human property induction judgments without explicit
+structural forms. By allowing form to emerge from sparsity, our approach
+clarifies how both the richness and flexibility of human conceptual
+organization can coexist.

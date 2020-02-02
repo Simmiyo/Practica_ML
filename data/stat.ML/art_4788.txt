@@ -1,0 +1,18 @@
+Model-Agnostic Interpretability of Machine Learning
+Understanding why machine learning models behave the way they do empowers
+both system designers and end-users in many ways: in model selection, feature
+engineering, in order to trust and act upon the predictions, and in more
+intuitive user interfaces. Thus, interpretability has become a vital concern in
+machine learning, and work in the area of interpretable models has found
+renewed interest. In some applications, such models are as accurate as
+non-interpretable ones, and thus are preferred for their transparency. Even
+when they are not accurate, they may still be preferred when interpretability
+is of paramount importance. However, restricting machine learning to
+interpretable models is often a severe limitation. In this paper we argue for
+explaining machine learning predictions using model-agnostic approaches. By
+treating the machine learning models as black-box functions, these approaches
+provide crucial flexibility in the choice of models, explanations, and
+representations, improving debugging, comparison, and interfaces for a variety
+of users and models. We also outline the main challenges for such methods, and
+review a recently-introduced model-agnostic explanation approach (LIME) that
+addresses these challenges.

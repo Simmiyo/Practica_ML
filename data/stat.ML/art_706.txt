@@ -1,0 +1,11 @@
+Stochastic Expectation Propagation for Large Scale Gaussian Process
+  Classification
+A method for large scale Gaussian process classification has been recently
+proposed based on expectation propagation (EP). Such a method allows Gaussian
+process classifiers to be trained on very large datasets that were out of the
+reach of previous deployments of EP and has been shown to be competitive with
+related techniques based on stochastic variational inference. Nevertheless, the
+memory resources required scale linearly with the dataset size, unlike in
+variational methods. This is a severe limitation when the number of instances
+is very large. Here we show that this problem is avoided when stochastic EP is
+used to train the model.

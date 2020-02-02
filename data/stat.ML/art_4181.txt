@@ -1,0 +1,19 @@
+Provable benefits of representation learning
+There is general consensus that learning representations is useful for a
+variety of reasons, e.g. efficient use of labeled data (semi-supervised
+learning), transfer learning and understanding hidden structure of data.
+Popular techniques for representation learning include clustering, manifold
+learning, kernel-learning, autoencoders, Boltzmann machines, etc.
+  To study the relative merits of these techniques, it's essential to formalize
+the definition and goals of representation learning, so that they are all
+become instances of the same definition. This paper introduces such a formal
+framework that also formalizes the utility of learning the representation. It
+is related to previous Bayesian notions, but with some new twists. We show the
+usefulness of our framework by exhibiting simple and natural settings -- linear
+mixture models and loglinear models, where the power of representation learning
+can be formally shown. In these examples, representation learning can be
+performed provably and efficiently under plausible assumptions (despite being
+NP-hard), and furthermore: (i) it greatly reduces the need for labeled data
+(semi-supervised learning) and (ii) it allows solving classification tasks when
+simpler approaches like nearest neighbors require too much data (iii) it is
+more powerful than manifold learning methods.

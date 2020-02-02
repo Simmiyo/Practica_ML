@@ -1,0 +1,12 @@
+Simplifying the Bible and Wikipedia Using Statistical Machine
+  Translation
+I started this work with the hope of generating a text synthesizer (like a
+musical synthesizer) that can imitate certain linguistic styles. Most of the
+report focuses on text simplification using statistical machine translation
+(SMT) techniques. I applied MOSES to a parallel corpus of the Bible (King James
+Version and Easy-to-Read Version) and that of Wikipedia articles (normal and
+simplified). I report the importance of the three main components of
+SMT---phrase translation, language model, and recording---by changing their
+weights and comparing the resulting quality of simplified text in terms of
+METEOR and BLEU. Toward the end of the report will be presented some examples
+of text "synthesized" into the King James style.

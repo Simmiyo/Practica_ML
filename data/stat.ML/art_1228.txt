@@ -1,0 +1,17 @@
+A statistical model for aggregating judgments by incorporating peer
+  predictions
+We propose a probabilistic model to aggregate the answers of respondents
+answering multiple-choice questions. The model does not assume that everyone
+has access to the same information, and so does not assume that the consensus
+answer is correct. Instead, it infers the most probable world state, even if
+only a minority vote for it. Each respondent is modeled as receiving a signal
+contingent on the actual world state, and as using this signal to both
+determine their own answer and predict the answers given by others. By
+incorporating respondent's predictions of others' answers, the model infers
+latent parameters corresponding to the prior over world states and the
+probability of different signals being received in all possible world states,
+including counterfactual ones. Unlike other probabilistic models for
+aggregation, our model applies to both single and multiple questions, in which
+case it estimates each respondent's expertise. The model shows good
+performance, compared to a number of other probabilistic models, on data from
+seven studies covering different types of expertise.

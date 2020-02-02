@@ -1,0 +1,16 @@
+Functional Frank-Wolfe Boosting for General Loss Functions
+Boosting is a generic learning method for classification and regression. Yet,
+as the number of base hypotheses becomes larger, boosting can lead to a
+deterioration of test performance. Overfitting is an important and ubiquitous
+phenomenon, especially in regression settings. To avoid overfitting, we
+consider using $l_1$ regularization. We propose a novel Frank-Wolfe type
+boosting algorithm (FWBoost) applied to general loss functions. By using
+exponential loss, the FWBoost algorithm can be rewritten as a variant of
+AdaBoost for binary classification. FWBoost algorithms have exactly the same
+form as existing boosting methods, in terms of making calls to a base learning
+algorithm with different weights update. This direct connection between
+boosting and Frank-Wolfe yields a new algorithm that is as practical as
+existing boosting methods but with new guarantees and rates of convergence.
+Experimental results show that the test performance of FWBoost is not degraded
+with larger rounds in boosting, which is consistent with the theoretical
+analysis.

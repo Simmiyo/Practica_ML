@@ -1,0 +1,16 @@
+Modeling the Contribution of Central Versus Peripheral Vision in Scene,
+  Object, and Face Recognition
+It is commonly believed that the central visual field is important for
+recognizing objects and faces, and the peripheral region is useful for scene
+recognition. However, the relative importance of central versus peripheral
+information for object, scene, and face recognition is unclear. In a behavioral
+study, Larson and Loschky (2009) investigated this question by measuring the
+scene recognition accuracy as a function of visual angle, and demonstrated that
+peripheral vision was indeed more useful in recognizing scenes than central
+vision. In this work, we modeled and replicated the result of Larson and
+Loschky (2009), using deep convolutional neural networks. Having fit the data
+for scenes, we used the model to predict future data for large-scale scene
+recognition as well as for objects and faces. Our results suggest that the
+relative order of importance of using central visual field information is face
+recognition>object recognition>scene recognition, and vice-versa for peripheral
+information.

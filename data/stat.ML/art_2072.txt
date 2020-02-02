@@ -1,0 +1,12 @@
+Estimating Densities with Non-Parametric Exponential Families
+We propose a novel approach for density estimation with exponential families
+for the case when the true density may not fall within the chosen family. Our
+approach augments the sufficient statistics with features designed to
+accumulate probability mass in the neighborhood of the observed points,
+resulting in a non-parametric model similar to kernel density estimators. We
+show that under mild conditions, the resulting model uses only the sufficient
+statistics if the density is within the chosen exponential family, and
+asymptotically, it approximates densities outside of the chosen exponential
+family. Using the proposed approach, we modify the exponential random graph
+model, commonly used for modeling small-size graph distributions, to address
+the well-known issue of model degeneracy.

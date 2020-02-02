@@ -1,0 +1,28 @@
+Roget's Thesaurus as a Lexical Resource for Natural Language Processing
+WordNet proved that it is possible to construct a large-scale electronic
+lexical database on the principles of lexical semantics. It has been accepted
+and used extensively by computational linguists ever since it was released.
+Inspired by WordNet's success, we propose as an alternative a similar resource,
+based on the 1987 Penguin edition of Roget's Thesaurus of English Words and
+Phrases.
+  Peter Mark Roget published his first Thesaurus over 150 years ago. Countless
+writers, orators and students of the English language have used it.
+Computational linguists have employed Roget's for almost 50 years in Natural
+Language Processing, however hesitated in accepting Roget's Thesaurus because a
+proper machine tractable version was not available.
+  This dissertation presents an implementation of a machine-tractable version
+of the 1987 Penguin edition of Roget's Thesaurus - the first implementation of
+its kind to use an entire current edition. It explains the steps necessary for
+taking a machine-readable file and transforming it into a tractable system.
+This involves converting the lexical material into a format that can be more
+easily exploited, identifying data structures and designing classes to
+computerize the Thesaurus. Roget's organization is studied in detail and
+contrasted with WordNet's.
+  We show two applications of the computerized Thesaurus: computing semantic
+similarity between words and phrases, and building lexical chains in a text.
+The experiments are performed using well-known benchmarks and the results are
+compared to those of other systems that use Roget's, WordNet and statistical
+techniques. Roget's has turned out to be an excellent resource for measuring
+semantic similarity; lexical chains are easily built but more difficult to
+evaluate. We also explain ways in which Roget's Thesaurus and WordNet can be
+combined.

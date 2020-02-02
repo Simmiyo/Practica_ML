@@ -1,0 +1,19 @@
+Exploiting correlation and budget constraints in Bayesian multi-armed
+  bandit optimization
+We address the problem of finding the maximizer of a nonlinear smooth
+function, that can only be evaluated point-wise, subject to constraints on the
+number of permitted function evaluations. This problem is also known as
+fixed-budget best arm identification in the multi-armed bandit literature. We
+introduce a Bayesian approach for this problem and show that it empirically
+outperforms both the existing frequentist counterpart and other Bayesian
+optimization methods. The Bayesian approach places emphasis on detailed
+modelling, including the modelling of correlations among the arms. As a result,
+it can perform well in situations where the number of arms is much larger than
+the number of allowed function evaluation, whereas the frequentist counterpart
+is inapplicable. This feature enables us to develop and deploy practical
+applications, such as automatic machine learning toolboxes. The paper presents
+comprehensive comparisons of the proposed approach, Thompson sampling,
+classical Bayesian optimization techniques, more recent Bayesian bandit
+approaches, and state-of-the-art best arm identification methods. This is the
+first comparison of many of these methods in the literature and allows us to
+examine the relative merits of their different features.

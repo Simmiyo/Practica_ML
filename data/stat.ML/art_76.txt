@@ -1,0 +1,19 @@
+Composite Binary Losses
+We study losses for binary classification and class probability estimation
+and extend the understanding of them from margin losses to general composite
+losses which are the composition of a proper loss with a link function. We
+characterise when margin losses can be proper composite losses, explicitly show
+how to determine a symmetric loss in full from half of one of its partial
+losses, introduce an intrinsic parametrisation of composite binary losses and
+give a complete characterisation of the relationship between proper losses and
+``classification calibrated'' losses. We also consider the question of the
+``best'' surrogate binary loss. We introduce a precise notion of ``best'' and
+show there exist situations where two convex surrogate losses are
+incommensurable. We provide a complete explicit characterisation of the
+convexity of composite binary losses in terms of the link function and the
+weight function associated with the proper loss which make up the composite
+loss. This characterisation suggests new ways of ``surrogate tuning''. Finally,
+in an appendix we present some new algorithm-independent results on the
+relationship between properness, convexity and robustness to misclassification
+noise for binary losses and show that all convex proper losses are non-robust
+to misclassification noise.

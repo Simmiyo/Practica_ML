@@ -1,0 +1,16 @@
+Information Assisted Dictionary Learning for fMRI data analysis
+In this paper, the task-related fMRI problem is treated in its matrix
+factorization formulation, focused on the Dictionary Learning (DL) approach.
+The new method allows the incorporation of a priori knowledge associated both
+with the experimental design as well as with available brain Atlases. Moreover,
+the proposed method can efficiently cope with uncertainties related to the HRF
+modeling. In addition, the proposed method bypasses one of the major drawbacks
+that are associated with DL methods; that is, the selection of the
+sparsity-related regularization parameters. In our formulation, an alternative
+sparsity promoting constraint is employed, that bears a direct relation to the
+number of voxels in the spatial maps. Hence, the related parameters can be
+tuned using information that is available from brain atlases. The proposed
+method is evaluated against several other popular techniques, including GLM.
+The obtained performance gains are reported via a novel realistic synthetic
+fMRI dataset as well as real data that are related to a challenging
+experimental design.

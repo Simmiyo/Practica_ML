@@ -1,0 +1,17 @@
+Regularized Tensor Factorizations and Higher-Order Principal Components
+  Analysis
+High-dimensional tensors or multi-way data are becoming prevalent in areas
+such as biomedical imaging, chemometrics, networking and bibliometrics.
+Traditional approaches to finding lower dimensional representations of tensor
+data include flattening the data and applying matrix factorizations such as
+principal components analysis (PCA) or employing tensor decompositions such as
+the CANDECOMP / PARAFAC (CP) and Tucker decompositions. The former can lose
+important structure in the data, while the latter Higher-Order PCA (HOPCA)
+methods can be problematic in high-dimensions with many irrelevant features. We
+introduce frameworks for sparse tensor factorizations or Sparse HOPCA based on
+heuristic algorithmic approaches and by solving penalized optimization problems
+related to the CP decomposition. Extensions of these approaches lead to methods
+for general regularized tensor factorizations, multi-way Functional HOPCA and
+generalizations of HOPCA for structured data. We illustrate the utility of our
+methods for dimension reduction, feature selection, and signal recovery on
+simulated data and multi-dimensional microarrays and functional MRIs.

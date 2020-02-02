@@ -1,0 +1,23 @@
+On Dynamics of Integrate-and-Fire Neural Networks with Conductance Based
+  Synapses
+We present a mathematical analysis of a networks with Integrate-and-Fire
+neurons and adaptive conductances. Taking into account the realistic fact that
+the spike time is only known within some \textit{finite} precision, we propose
+a model where spikes are effective at times multiple of a characteristic time
+scale $\delta$, where $\delta$ can be \textit{arbitrary} small (in particular,
+well beyond the numerical precision). We make a complete mathematical
+characterization of the model-dynamics and obtain the following results. The
+asymptotic dynamics is composed by finitely many stable periodic orbits, whose
+number and period can be arbitrary large and can diverge in a region of the
+synaptic weights space, traditionally called the "edge of chaos", a notion
+mathematically well defined in the present paper. Furthermore, except at the
+edge of chaos, there is a one-to-one correspondence between the membrane
+potential trajectories and the raster plot. This shows that the neural code is
+entirely "in the spikes" in this case. As a key tool, we introduce an order
+parameter, easy to compute numerically, and closely related to a natural notion
+of entropy, providing a relevant characterization of the computational
+capabilities of the network. This allows us to compare the computational
+capabilities of leaky and Integrate-and-Fire models and conductance based
+models. The present study considers networks with constant input, and without
+time-dependent plasticity, but the framework has been designed for both
+extensions.

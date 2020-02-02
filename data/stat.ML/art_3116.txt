@@ -1,0 +1,17 @@
+Classification with Noisy Labels by Importance Reweighting
+In this paper, we study a classification problem in which sample labels are
+randomly corrupted. In this scenario, there is an unobservable sample with
+noise-free labels. However, before being observed, the true labels are
+independently flipped with a probability $\rho\in[0,0.5)$, and the random label
+noise can be class-conditional. Here, we address two fundamental problems
+raised by this scenario. The first is how to best use the abundant surrogate
+loss functions designed for the traditional classification problem when there
+is label noise. We prove that any surrogate loss function can be used for
+classification with noisy labels by using importance reweighting, with
+consistency assurance that the label noise does not ultimately hinder the
+search for the optimal classifier of the noise-free sample. The other is the
+open problem of how to obtain the noise rate $\rho$. We show that the rate is
+upper bounded by the conditional probability $P(y|x)$ of the noisy sample.
+Consequently, the rate can be estimated, because the upper bound can be easily
+reached in classification problems. Experimental results on synthetic and real
+datasets confirm the efficiency of our methods.

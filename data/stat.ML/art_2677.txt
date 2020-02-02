@@ -1,0 +1,26 @@
+How to Center Binary Deep Boltzmann Machines
+This work analyzes centered binary Restricted Boltzmann Machines (RBMs) and
+binary Deep Boltzmann Machines (DBMs), where centering is done by subtracting
+offset values from visible and hidden variables. We show analytically that (i)
+centering results in a different but equivalent parameterization for artificial
+neural networks in general, (ii) the expected performance of centered binary
+RBMs/DBMs is invariant under simultaneous flip of data and offsets, for any
+offset value in the range of zero to one, (iii) centering can be reformulated
+as a different update rule for normal binary RBMs/DBMs, and (iv) using the
+enhanced gradient is equivalent to setting the offset values to the average
+over model and data mean. Furthermore, numerical simulations suggest that (i)
+optimal generative performance is achieved by subtracting mean values from
+visible as well as hidden variables, (ii) centered RBMs/DBMs reach
+significantly higher log-likelihood values than normal binary RBMs/DBMs, (iii)
+centering variants whose offsets depend on the model mean, like the enhanced
+gradient, suffer from severe divergence problems, (iv) learning is stabilized
+if an exponentially moving average over the batch means is used for the offset
+values instead of the current batch mean, which also prevents the enhanced
+gradient from diverging, (v) centered RBMs/DBMs reach higher LL values than
+normal RBMs/DBMs while having a smaller norm of the weight matrix, (vi)
+centering leads to an update direction that is closer to the natural gradient
+and that the natural gradient is extremly efficient for training RBMs, (vii)
+centering dispense the need for greedy layer-wise pre-training of DBMs, (viii)
+furthermore we show that pre-training often even worsen the results
+independently whether centering is used or not, and (ix) centering is also
+beneficial for auto encoders.

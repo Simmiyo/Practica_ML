@@ -1,0 +1,27 @@
+Feedback Message Passing for Inference in Gaussian Graphical Models
+While loopy belief propagation (LBP) performs reasonably well for inference
+in some Gaussian graphical models with cycles, its performance is
+unsatisfactory for many others. In particular for some models LBP does not
+converge, and in general when it does converge, the computed variances are
+incorrect (except for cycle-free graphs for which belief propagation (BP) is
+non-iterative and exact). In this paper we propose {\em feedback message
+passing} (FMP), a message-passing algorithm that makes use of a special set of
+vertices (called a {\em feedback vertex set} or {\em FVS}) whose removal
+results in a cycle-free graph. In FMP, standard BP is employed several times on
+the cycle-free subgraph excluding the FVS while a special message-passing
+scheme is used for the nodes in the FVS. The computational complexity of exact
+inference is $O(k^2n)$, where $k$ is the number of feedback nodes, and $n$ is
+the total number of nodes. When the size of the FVS is very large, FMP is
+intractable. Hence we propose {\em approximate FMP}, where a pseudo-FVS is used
+instead of an FVS, and where inference in the non-cycle-free graph obtained by
+removing the pseudo-FVS is carried out approximately using LBP. We show that,
+when approximate FMP converges, it yields exact means and variances on the
+pseudo-FVS and exact means throughout the remainder of the graph. We also
+provide theoretical results on the convergence and accuracy of approximate FMP.
+In particular, we prove error bounds on variance computation. Based on these
+theoretical results, we design efficient algorithms to select a pseudo-FVS of
+bounded size. The choice of the pseudo-FVS allows us to explicitly trade off
+between efficiency and accuracy. Experimental results show that using a
+pseudo-FVS of size no larger than $\log(n)$, this procedure converges much more
+often, more quickly, and provides more accurate results than LBP on the entire
+graph.

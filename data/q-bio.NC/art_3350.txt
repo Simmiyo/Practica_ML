@@ -1,0 +1,18 @@
+From statistical inference to a differential learning rule for
+  stochastic neural networks
+Stochastic neural networks are a prototypical computational device able to
+build a probabilistic representation of an ensemble of external stimuli.
+Building on the relationship between inference and learning, we derive a
+synaptic plasticity rule that relies only on delayed activity correlations, and
+that shows a number of remarkable features. Our "delayed-correlations matching"
+(DCM) rule satisfies some basic requirements for biological feasibility: finite
+and noisy afferent signals, Dale's principle and asymmetry of synaptic
+connections, locality of the weight update computations. Nevertheless, the DCM
+rule is capable of storing a large, extensive number of patterns as attractors
+in a stochastic recurrent neural network, under general scenarios without
+requiring any modification: it can deal with correlated patterns, a broad range
+of architectures (with or without hidden neuronal states), one-shot learning
+with the palimpsest property, all the while avoiding the proliferation of
+spurious attractors. When hidden units are present, our learning rule can be
+employed to construct Boltzmann machine-like generative models, exploiting the
+addition of hidden neurons in feature extraction and classification tasks.

@@ -1,0 +1,20 @@
+Collaborative Learning of Stochastic Bandits over a Social Network
+We consider a collaborative online learning paradigm, wherein a group of
+agents connected through a social network are engaged in playing a stochastic
+multi-armed bandit game. Each time an agent takes an action, the corresponding
+reward is instantaneously observed by the agent, as well as its neighbours in
+the social network. We perform a regret analysis of various policies in this
+collaborative learning setting. A key finding of this paper is that natural
+extensions of widely-studied single agent learning policies to the network
+setting need not perform well in terms of regret. In particular, we identify a
+class of non-altruistic and individually consistent policies, and argue by
+deriving regret lower bounds that they are liable to suffer a large regret in
+the networked setting. We also show that the learning performance can be
+substantially improved if the agents exploit the structure of the network, and
+develop a simple learning algorithm based on dominating sets of the network.
+Specifically, we first consider a star network, which is a common motif in
+hierarchical social networks, and show analytically that the hub agent can be
+used as an information sink to expedite learning and improve the overall
+regret. We also derive networkwide regret bounds for the algorithm applied to
+general networks. We conduct numerical experiments on a variety of networks to
+corroborate our analytical results.

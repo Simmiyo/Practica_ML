@@ -1,0 +1,24 @@
+G-AMA: Sparse Gaussian graphical model estimation via alternating
+  minimization
+Several methods have been recently proposed for estimating sparse Gaussian
+graphical models using $\ell_{1}$ regularization on the inverse covariance
+matrix. Despite recent advances, contemporary applications require methods that
+are even faster in order to handle ill-conditioned high dimensional modern day
+datasets. In this paper, we propose a new method, G-AMA, to solve the sparse
+inverse covariance estimation problem using Alternating Minimization Algorithm
+(AMA), that effectively works as a proximal gradient algorithm on the dual
+problem. Our approach has several novel advantages over existing methods.
+First, we demonstrate that G-AMA is faster than the previous best algorithms by
+many orders of magnitude and is thus an ideal approach for modern high
+throughput applications. Second, global linear convergence of G-AMA is
+demonstrated rigorously, underscoring its good theoretical properties. Third,
+the dual algorithm operates on the covariance matrix, and thus easily
+facilitates incorporating additional constraints on pairwise/marginal
+relationships between feature pairs based on domain specific knowledge. Over
+and above estimating a sparse inverse covariance matrix, we also illustrate how
+to (1) incorporate constraints on the (bivariate) correlations and, (2)
+incorporate equality (equisparsity) or linear constraints between individual
+inverse covariance elements. Fourth, we also show that G-AMA is better adept at
+handling extremely ill-conditioned problems, as is often the case with real
+data. The methodology is demonstrated on both simulated and real datasets to
+illustrate its superior performance over recently proposed methods.

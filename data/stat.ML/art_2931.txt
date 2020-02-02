@@ -1,0 +1,19 @@
+Bayesian Nonparametric Crowdsourcing
+Crowdsourcing has been proven to be an effective and efficient tool to
+annotate large datasets. User annotations are often noisy, so methods to
+combine the annotations to produce reliable estimates of the ground truth are
+necessary. We claim that considering the existence of clusters of users in this
+combination step can improve the performance. This is especially important in
+early stages of crowdsourcing implementations, where the number of annotations
+is low. At this stage there is not enough information to accurately estimate
+the bias introduced by each annotator separately, so we have to resort to
+models that consider the statistical links among them. In addition, finding
+these clusters is interesting in itself as knowing the behavior of the pool of
+annotators allows implementing efficient active learning strategies. Based on
+this, we propose in this paper two new fully unsupervised models based on a
+Chinese Restaurant Process (CRP) prior and a hierarchical structure that allows
+inferring these groups jointly with the ground truth and the properties of the
+users. Efficient inference algorithms based on Gibbs sampling with auxiliary
+variables are proposed. Finally, we perform experiments, both on synthetic and
+real databases, to show the advantages of our models over state-of-the-art
+algorithms.

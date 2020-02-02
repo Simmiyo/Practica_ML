@@ -1,0 +1,25 @@
+Estimating Luminosities and Stellar Masses of Galaxies Photometrically
+  without Determining Redshifts
+Large direct-imaging surveys usually use a template-fitting technique to
+estimate photometric redshifts for galaxies, which are then applied to derive
+important galaxy properties such as luminosities and stellar masses. These
+estimates can be noisy and suffer from systematic biases because of the
+possible mis-selection of templates and the propagation of the photometric
+redshift uncertainty. We introduce an algorithm, the Direct Empirical
+Photometric method (DEmP), which can be used to directly estimate these
+quantities using training sets, bypassing photometric redshift determination.
+DEmP also applies two techniques to minimize the effects arising from the
+non-uniform distribution of training-set galaxy redshifts from a flux-limited
+sample. First, for each input galaxy, fitting is performed using a subset of
+the training-set galaxies with photometry and colors closest to those of the
+input galaxy. Second, the training set is artificially resampled to produce a
+flat distribution in redshift, or other properties, e.g., luminosity. To test
+the performance of DEmP, we use a 4-filter-band mock catalog to examine its
+ability to recover redshift, luminosity, stellar mass, and luminosity and
+stellar-mass functions. We also compare the results to those from two publicly
+available template-fitting methods, finding that the DEmP algorithm outperforms
+both. We find resampling the training set to have a uniform redshift
+distribution produces the best results not only in photometric redshift, but
+also in estimating luminosity and stellar mass. The DEmP method is especially
+powerful in estimating quantities such as near-IR luminosities and stellar mass
+using only data from a small number of optical bands.

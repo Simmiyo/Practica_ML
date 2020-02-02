@@ -1,0 +1,12 @@
+Embedding-Based Speaker Adaptive Training of Deep Neural Networks
+An embedding-based speaker adaptive training (SAT) approach is proposed and
+investigated in this paper for deep neural network acoustic modeling. In this
+approach, speaker embedding vectors, which are a constant given a particular
+speaker, are mapped through a control network to layer-dependent element-wise
+affine transformations to canonicalize the internal feature representations at
+the output of hidden layers of a main network. The control network for
+generating the speaker-dependent mappings is jointly estimated with the main
+network for the overall speaker adaptive acoustic modeling. Experiments on
+large vocabulary continuous speech recognition (LVCSR) tasks show that the
+proposed SAT scheme can yield superior performance over the widely-used
+speaker-aware training using i-vectors with speaker-adapted input features.

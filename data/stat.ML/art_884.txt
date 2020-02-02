@@ -1,0 +1,17 @@
+Dealing with Integer-valued Variables in Bayesian Optimization with
+  Gaussian Processes
+Bayesian optimization (BO) methods are useful for optimizing functions that
+are expensive to evaluate, lack an analytical expression and whose evaluations
+can be contaminated by noise. These methods rely on a probabilistic model of
+the objective function, typically a Gaussian process (GP), upon which an
+acquisition function is built. This function guides the optimization process
+and measures the expected utility of performing an evaluation of the objective
+at a new point. GPs assume continous input variables. When this is not the
+case, such as when some of the input variables take integer values, one has to
+introduce extra approximations. A common approach is to round the suggested
+variable value to the closest integer before doing the evaluation of the
+objective. We show that this can lead to problems in the optimization process
+and describe a more principled approach to account for input variables that are
+integer-valued. We illustrate in both synthetic and a real experiments the
+utility of our approach, which significantly improves the results of standard
+BO methods on problems involving integer-valued variables.

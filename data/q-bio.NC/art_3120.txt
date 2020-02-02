@@ -1,0 +1,18 @@
+Estimating effective connectivity in linear brain network models
+Contemporary neuroscience has embraced network science to study the complex
+and self-organized structure of the human brain; one of the main outstanding
+issues is that of inferring from measure data, chiefly functional Magnetic
+Resonance Imaging (fMRI), the so-called effective connectivity in brain
+networks, that is the existing interactions among neuronal populations. This
+inverse problem is complicated by the fact that the BOLD (Blood Oxygenation
+Level Dependent) signal measured by fMRI represent a dynamic and nonlinear
+transformation (the hemodynamic response) of neuronal activity. In this paper,
+we consider resting state (rs) fMRI data; building upon a linear population
+model of the BOLD signal and a stochastic linear DCM model, the model
+parameters are estimated through an EM-type iterative procedure, which
+alternately estimates the neuronal activity by means of the Rauch-Tung-Striebel
+(RTS) smoother, updates the connections among neuronal states and refines the
+parameters of the hemodynamic model; sparsity in the interconnection structure
+is favoured using an iteratively reweighting scheme. Experimental results using
+rs-fMRI data are shown demonstrating the effectiveness of our approach and
+comparison with state of the art routines (SPM12 toolbox) is provided.

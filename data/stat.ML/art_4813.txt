@@ -1,0 +1,14 @@
+NN-grams: Unifying neural network and n-gram language models for Speech
+  Recognition
+We present NN-grams, a novel, hybrid language model integrating n-grams and
+neural networks (NN) for speech recognition. The model takes as input both word
+histories as well as n-gram counts. Thus, it combines the memorization capacity
+and scalability of an n-gram model with the generalization ability of neural
+networks. We report experiments where the model is trained on 26B words.
+NN-grams are efficient at run-time since they do not include an output soft-max
+layer. The model is trained using noise contrastive estimation (NCE), an
+approach that transforms the estimation problem of neural networks into one of
+binary classification between data samples and noise samples. We present
+results with noise samples derived from either an n-gram distribution or from
+speech recognition lattices. NN-grams outperforms an n-gram model on an Italian
+speech recognition dictation task.

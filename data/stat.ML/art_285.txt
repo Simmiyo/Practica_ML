@@ -1,0 +1,15 @@
+Structural Intervention Distance (SID) for Evaluating Causal Graphs
+Causal inference relies on the structure of a graph, often a directed acyclic
+graph (DAG). Different graphs may result in different causal inference
+statements and different intervention distributions. To quantify such
+differences, we propose a (pre-) distance between DAGs, the structural
+intervention distance (SID). The SID is based on a graphical criterion only and
+quantifies the closeness between two DAGs in terms of their corresponding
+causal inference statements. It is therefore well-suited for evaluating graphs
+that are used for computing interventions. Instead of DAGs it is also possible
+to compare CPDAGs, completed partially directed acyclic graphs that represent
+Markov equivalence classes. Since it differs significantly from the popular
+Structural Hamming Distance (SHD), the SID constitutes a valuable additional
+measure. We discuss properties of this distance and provide an efficient
+implementation with software code available on the first author's homepage (an
+R package is under construction).

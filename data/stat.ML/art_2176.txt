@@ -1,0 +1,13 @@
+Improved brain pattern recovery through ranking approaches
+Inferring the functional specificity of brain regions from functional
+Magnetic Resonance Images (fMRI) data is a challenging statistical problem.
+While the General Linear Model (GLM) remains the standard approach for brain
+mapping, supervised learning techniques (a.k.a.} decoding) have proven to be
+useful to capture multivariate statistical effects distributed across voxels
+and brain regions. Up to now, much effort has been made to improve decoding by
+incorporating prior knowledge in the form of a particular regularization term.
+In this paper we demonstrate that further improvement can be made by accounting
+for non-linearities using a ranking approach rather than the commonly used
+least-square regression. Through simulation, we compare the recovery properties
+of our approach to linear models commonly used in fMRI based decoding. We
+demonstrate the superiority of ranking with a real fMRI dataset.

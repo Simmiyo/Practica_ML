@@ -1,0 +1,15 @@
+Delay Learning Architectures for Memory and Classification
+We present a neuromorphic spiking neural network, the DELTRON, that can
+remember and store patterns by changing the delays of every connection as
+opposed to modifying the weights. The advantage of this architecture over
+traditional weight based ones is simpler hardware implementation without
+multipliers or digital-analog converters (DACs) as well as being suited to
+time-based computing. The name is derived due to similarity in the learning
+rule with an earlier architecture called Tempotron. The DELTRON can remember
+more patterns than other delay-based networks by modifying a few delays to
+remember the most 'salient' or synchronous part of every spike pattern. We
+present simulations of memory capacity and classification ability of the
+DELTRON for different random spatio-temporal spike patterns. The memory
+capacity for noisy spike patterns and missing spikes are also shown. Finally,
+we present SPICE simulation results of the core circuits involved in a
+reconfigurable mixed signal implementation of this architecture.

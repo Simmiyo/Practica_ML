@@ -1,0 +1,8 @@
+Binary Bouncy Particle Sampler
+The Bouncy Particle Sampler is a novel rejection-free non-reversible sampler
+for differentiable probability distributions over continuous variables. We
+generalize the algorithm to piecewise differentiable distributions and apply it
+to generic binary distributions using a piecewise differentiable augmentation.
+We illustrate the new algorithm in a binary Markov Random Field example, and
+compare it to binary Hamiltonian Monte Carlo. Our results suggest that binary
+BPS samplers are better for easy to mix distributions.

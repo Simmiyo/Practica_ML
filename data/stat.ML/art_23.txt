@@ -1,0 +1,18 @@
+LLE with low-dimensional neighborhood representation
+The local linear embedding algorithm (LLE) is a non-linear dimension-reducing
+technique, widely used due to its computational simplicity and intuitive
+approach. LLE first linearly reconstructs each input point from its nearest
+neighbors and then preserves these neighborhood relations in the
+low-dimensional embedding. We show that the reconstruction weights computed by
+LLE capture the high-dimensional structure of the neighborhoods, and not the
+low-dimensional manifold structure. Consequently, the weight vectors are highly
+sensitive to noise. Moreover, this causes LLE to converge to a linear
+projection of the input, as opposed to its non-linear embedding goal. To
+overcome both of these problems, we propose to compute the weight vectors using
+a low-dimensional neighborhood representation. We prove theoretically that this
+straightforward and computationally simple modification of LLE reduces LLE's
+sensitivity to noise. This modification also removes the need for
+regularization when the number of neighbors is larger than the dimension of the
+input. We present numerical examples demonstrating both the perturbation and
+linear projection problems, and the improved outputs using the low-dimensional
+neighborhood representation.

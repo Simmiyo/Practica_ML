@@ -1,0 +1,11 @@
+Sample, computation vs storage tradeoffs for classification using tensor
+  subspace models
+In this paper, we exhibit the tradeoffs between the (training) sample,
+computation and storage complexity for the problem of supervised classification
+using signal subspace estimation. Our main tool is the use of tensor subspaces,
+i.e. subspaces with a Kronecker structure, for embedding the data into lower
+dimensions. Among the subspaces with a Kronecker structure, we show that using
+subspaces with a hierarchical structure for representing data leads to improved
+tradeoffs. One of the main reasons for the improvement is that embedding data
+into these hierarchical Kronecker structured subspaces prevents overfitting at
+higher latent dimensions.

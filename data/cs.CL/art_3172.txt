@@ -1,0 +1,13 @@
+How big is big enough? Unsupervised word sense disambiguation using a
+  very large corpus
+In this paper, the problem of disambiguating a target word for Polish is
+approached by searching for related words with known meaning. These relatives
+are used to build a training corpus from unannotated text. This technique is
+improved by proposing new rich sources of replacements that substitute the
+traditional requirement of monosemy with heuristics based on wordnet relations.
+The na\"ive Bayesian classifier has been modified to account for an unknown
+distribution of senses. A corpus of 600 million web documents (594 billion
+tokens), gathered by the NEKST search engine allows us to assess the
+relationship between training set size and disambiguation accuracy. The
+classifier is evaluated using both a wordnet baseline and a corpus with 17,314
+manually annotated occurrences of 54 ambiguous words.

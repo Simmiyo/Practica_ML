@@ -1,0 +1,16 @@
+A Strong Baseline for Learning Cross-Lingual Word Embeddings from
+  Sentence Alignments
+While cross-lingual word embeddings have been studied extensively in recent
+years, the qualitative differences between the different algorithms remain
+vague. We observe that whether or not an algorithm uses a particular feature
+set (sentence IDs) accounts for a significant performance gap among these
+algorithms. This feature set is also used by traditional alignment algorithms,
+such as IBM Model-1, which demonstrate similar performance to state-of-the-art
+embedding algorithms on a variety of benchmarks. Overall, we observe that
+different algorithmic approaches for utilizing the sentence ID feature space
+result in similar performance. This paper draws both empirical and theoretical
+parallels between the embedding and alignment literature, and suggests that
+adding additional sources of information, which go beyond the traditional
+signal of bilingual sentence-aligned corpora, may substantially improve
+cross-lingual word embeddings, and that future baselines should at least take
+such features into account.

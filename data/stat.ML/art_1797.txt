@@ -1,0 +1,12 @@
+Tech Report A Variational HEM Algorithm for Clustering Hidden Markov
+  Models
+The hidden Markov model (HMM) is a generative model that treats sequential
+data under the assumption that each observation is conditioned on the state of
+a discrete hidden variable that evolves in time as a Markov chain. In this
+paper, we derive a novel algorithm to cluster HMMs through their probability
+distributions. We propose a hierarchical EM algorithm that i) clusters a given
+collection of HMMs into groups of HMMs that are similar, in terms of the
+distributions they represent, and ii) characterizes each group by a "cluster
+center", i.e., a novel HMM that is representative for the group. We present
+several empirical studies that illustrate the benefits of the proposed
+algorithm.

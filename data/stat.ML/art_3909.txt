@@ -1,0 +1,27 @@
+A Methodology for Customizing Clinical Tests for Esophageal Cancer based
+  on Patient Preferences
+Tests for Esophageal cancer can be expensive, uncomfortable and can have side
+effects. For many patients, we can predict non-existence of disease with 100%
+certainty, just using demographics, lifestyle, and medical history information.
+Our objective is to devise a general methodology for customizing tests using
+user preferences so that expensive or uncomfortable tests can be avoided. We
+propose to use classifiers trained from electronic health records (EHR) for
+selection of tests. The key idea is to design classifiers with 100% false
+normal rates, possibly at the cost higher false abnormals. We compare Naive
+Bayes classification (NB), Random Forests (RF), Support Vector Machines (SVM)
+and Logistic Regression (LR), and find kernel Logistic regression to be most
+suitable for the task. We propose an algorithm for finding the best probability
+threshold for kernel LR, based on test set accuracy. Using the proposed
+algorithm, we describe schemes for selecting tests, which appear as features in
+the automatic classification algorithm, using preferences on costs and
+discomfort of the users. We test our methodology with EHRs collected for more
+than 3000 patients, as a part of project carried out by a reputed hospital in
+Mumbai, India. Kernel SVM and kernel LR with a polynomial kernel of degree 3,
+yields an accuracy of 99.8% and sensitivity 100%, without the MP features, i.e.
+using only clinical tests. We demonstrate our test selection algorithm using
+two case studies, one using cost of clinical tests, and other using
+"discomfort" values for clinical tests. We compute the test sets corresponding
+to the lowest false abnormals for each criterion described above, using
+exhaustive enumeration of 15 clinical tests. The sets turn out to different,
+substantiating our claim that one can customize test sets based on user
+preferences.

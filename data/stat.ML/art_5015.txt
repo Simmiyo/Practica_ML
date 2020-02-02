@@ -1,0 +1,16 @@
+Learning Schizophrenia Imaging Genetics Data Via Multiple Kernel
+  Canonical Correlation Analysis
+Kernel and Multiple Kernel Canonical Correlation Analysis (CCA) are employed
+to classify schizophrenic and healthy patients based on their SNPs, DNA
+Methylation and fMRI data. Kernel and Multiple Kernel CCA are popular methods
+for finding nonlinear correlations between high-dimensional datasets. Data was
+gathered from 183 patients, 79 with schizophrenia and 104 healthy controls.
+Kernel and Multiple Kernel CCA represent new avenues for studying
+schizophrenia, because, to our knowledge, these methods have not been used on
+these data before. Classification is performed via k-means clustering on the
+kernel matrix outputs of the Kernel and Multiple Kernel CCA algorithm.
+Accuracies of the Kernel and Multiple Kernel CCA classification are compared to
+that of the regularized linear CCA algorithm classification, and are found to
+be significantly more accurate. Both algorithms demonstrate maximal accuracies
+when the combination of DNA methylation and fMRI data are used, and experience
+lower accuracies when the SNP data are incorporated.

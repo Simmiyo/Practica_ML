@@ -1,0 +1,15 @@
+Activation Ensembles for Deep Neural Networks
+Many activation functions have been proposed in the past, but selecting an
+adequate one requires trial and error. We propose a new methodology of
+designing activation functions within a neural network at each layer. We call
+this technique an "activation ensemble" because it allows the use of multiple
+activation functions at each layer. This is done by introducing additional
+variables, $\alpha$, at each activation layer of a network to allow for
+multiple activation functions to be active at each neuron. By design,
+activations with larger $\alpha$ values at a neuron is equivalent to having the
+largest magnitude. Hence, those higher magnitude activations are "chosen" by
+the network. We implement the activation ensembles on a variety of datasets
+using an array of Feed Forward and Convolutional Neural Networks. By using the
+activation ensemble, we achieve superior results compared to traditional
+techniques. In addition, because of the flexibility of this methodology, we
+more deeply explore activation functions and the features that they capture.

@@ -1,0 +1,12 @@
+Bayesian multi-tensor factorization
+We introduce Bayesian multi-tensor factorization, a model that is the first
+Bayesian formulation for joint factorization of multiple matrices and tensors.
+The research problem generalizes the joint matrix-tensor factorization problem
+to arbitrary sets of tensors of any depth, including matrices, can be
+interpreted as unsupervised multi-view learning from multiple data tensors, and
+can be generalized to relax the usual trilinear tensor factorization
+assumptions. The result is a factorization of the set of tensors into factors
+shared by any subsets of the tensors, and factors private to individual
+tensors. We demonstrate the performance against existing baselines in multiple
+tensor factorization tasks in structural toxicogenomics and functional
+neuroimaging.

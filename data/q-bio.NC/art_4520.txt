@@ -1,0 +1,21 @@
+Mutual Information in Frequency and its Application to Measure
+  Cross-Frequency Coupling in Epilepsy
+We define a metric, mutual information in frequency (MI-in-frequency), to
+detect and quantify the statistical dependence between different frequency
+components in the data, referred to as cross-frequency coupling and apply it to
+electrophysiological recordings from the brain to infer cross-frequency
+coupling. The current metrics used to quantify the cross-frequency coupling in
+neuroscience cannot detect if two frequency components in non-Gaussian brain
+recordings are statistically independent or not. Our MI-in-frequency metric,
+based on Shannon's mutual information between the Cramer's representation of
+stochastic processes, overcomes this shortcoming and can detect statistical
+dependence in frequency between non-Gaussian signals. We then describe two
+data-driven estimators of MI-in-frequency: one based on kernel density
+estimation and the other based on the nearest neighbor algorithm and validate
+their performance on simulated data. We then use MI-in-frequency to estimate
+mutual information between two data streams that are dependent across time,
+without making any parametric model assumptions. Finally, we use the MI-in-
+frequency metric to investigate the cross-frequency coupling in seizure onset
+zone from electrocorticographic recordings during seizures. The inferred
+cross-frequency coupling characteristics are essential to optimize the spatial
+and spectral parameters of electrical stimulation based treatments of epilepsy.

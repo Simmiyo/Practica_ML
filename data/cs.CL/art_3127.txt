@@ -1,0 +1,14 @@
+Deep Learning Paradigm with Transformed Monolingual Word Embeddings for
+  Multilingual Sentiment Analysis
+The surge of social media use brings huge demand of multilingual sentiment
+analysis (MSA) for unveiling cultural difference. So far, traditional methods
+resorted to machine translation---translating texts in other languages to
+English, and then adopt the methods once worked in English. However, this
+paradigm is conditioned by the quality of machine translation. In this paper,
+we propose a new deep learning paradigm to assimilate the differences between
+languages for MSA. We first pre-train monolingual word embeddings separately,
+then map word embeddings in different spaces into a shared embedding space, and
+then finally train a parameter-sharing deep neural network for MSA. The
+experimental results show that our paradigm is effective. Especially, our CNN
+model outperforms a state-of-the-art baseline by around 2.1% in terms of
+classification accuracy.

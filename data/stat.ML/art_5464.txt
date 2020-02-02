@@ -1,0 +1,17 @@
+Unifying the Stochastic Spectral Descent for Restricted Boltzmann
+  Machines with Bernoulli or Gaussian Inputs
+Stochastic gradient descent based algorithms are typically used as the
+general optimization tools for most deep learning models. A Restricted
+Boltzmann Machine (RBM) is a probabilistic generative model that can be stacked
+to construct deep architectures. For RBM with Bernoulli inputs, non-Euclidean
+algorithm such as stochastic spectral descent (SSD) has been specifically
+designed to speed up the convergence with improved use of the gradient
+estimation by sampling methods. However, the existing algorithm and
+corresponding theoretical justification depend on the assumption that the
+possible configurations of inputs are finite, like binary variables. The
+purpose of this paper is to generalize SSD for Gaussian RBM being capable of
+mod- eling continuous data, regardless of the previous assumption. We propose
+the gradient descent methods in non-Euclidean space of parameters, via de-
+riving the upper bounds of logarithmic partition function for RBMs based on
+Schatten-infinity norm. We empirically show that the advantage and improvement
+of SSD over stochastic gradient descent (SGD).

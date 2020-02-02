@@ -1,0 +1,18 @@
+Network inference - with confidence - from multivariate time series
+Networks - collections of interacting elements or nodes - abound in the
+natural and manmade worlds. For many networks, complex spatiotemporal dynamics
+stem from patterns of physical interactions unknown to us. To infer these
+interactions, it is common to include edges between those nodes whose time
+series exhibit sufficient functional connectivity, typically defined as a
+measure of coupling exceeding a pre-determined threshold. However, when
+uncertainty exists in the original network measurements, uncertainty in the
+inferred network is likely, and hence a statistical propagation-of-error is
+needed. In this manuscript, we describe a principled and systematic procedure
+for the inference of functional connectivity networks from multivariate time
+series data. Our procedure yields as output both the inferred network and a
+quantification of uncertainty of the most fundamental interest: uncertainty in
+the number of edges. To illustrate this approach, we apply our procedure to
+simulated data and electrocorticogram data recorded from a human subject during
+an epileptic seizure. We demonstrate that the procedure is accurate and robust
+in both the determination of edges and the reporting of uncertainty associated
+with that determination.

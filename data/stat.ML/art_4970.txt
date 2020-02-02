@@ -1,0 +1,13 @@
+Optimizing Recurrent Neural Networks Architectures under Time
+  Constraints
+Recurrent neural network (RNN)'s architecture is a key factor influencing its
+performance. We propose algorithms to optimize hidden sizes under running time
+constraint. We convert the discrete optimization into a subset selection
+problem. By novel transformations, the objective function becomes submodular
+and constraint becomes supermodular. A greedy algorithm with bounds is
+suggested to solve the transformed problem. And we show how transformations
+influence the bounds. To speed up optimization, surrogate functions are
+proposed which balance exploration and exploitation. Experiments show that our
+algorithms can find more accurate models or faster models than manually tuned
+state-of-the-art and random search. We also compare popular RNN architectures
+using our algorithms.

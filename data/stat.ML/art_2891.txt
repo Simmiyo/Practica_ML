@@ -1,0 +1,14 @@
+Lifted Tree-Reweighted Variational Inference
+We analyze variational inference for highly symmetric graphical models such
+as those arising from first-order probabilistic models. We first show that for
+these graphical models, the tree-reweighted variational objective lends itself
+to a compact lifted formulation which can be solved much more efficiently than
+the standard TRW formulation for the ground graphical model. Compared to
+earlier work on lifted belief propagation, our formulation leads to a convex
+optimization problem for lifted marginal inference and provides an upper bound
+on the partition function. We provide two approaches for improving the lifted
+TRW upper bound. The first is a method for efficiently computing maximum
+spanning trees in highly symmetric graphs, which can be used to optimize the
+TRW edge appearance probabilities. The second is a method for tightening the
+relaxation of the marginal polytope using lifted cycle inequalities and novel
+exchangeable cluster consistency constraints.

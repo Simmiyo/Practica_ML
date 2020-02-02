@@ -1,0 +1,23 @@
+Projected Nesterov's Proximal-Gradient Algorithm for Sparse Signal
+  Reconstruction with a Convex Constraint
+We develop a projected Nesterov's proximal-gradient (PNPG) approach for
+sparse signal reconstruction that combines adaptive step size with Nesterov's
+momentum acceleration. The objective function that we wish to minimize is the
+sum of a convex differentiable data-fidelity (negative log-likelihood (NLL))
+term and a convex regularization term. We apply sparse signal regularization
+where the signal belongs to a closed convex set within the closure of the
+domain of the NLL; the convex-set constraint facilitates flexible NLL domains
+and accurate signal recovery. Signal sparsity is imposed using the
+$\ell_1$-norm penalty on the signal's linear transform coefficients or gradient
+map, respectively. The PNPG approach employs projected Nesterov's acceleration
+step with restart and an inner iteration to compute the proximal mapping. We
+propose an adaptive step-size selection scheme to obtain a good local
+majorizing function of the NLL and reduce the time spent backtracking. Thanks
+to step-size adaptation, PNPG does not require Lipschitz continuity of the
+gradient of the NLL. We present an integrated derivation of the momentum
+acceleration and its $\mathcal{O}(k^{-2})$ convergence-rate and iterate
+convergence proofs, which account for adaptive step-size selection, inexactness
+of the iterative proximal mapping, and the convex-set constraint. The tuning of
+PNPG is largely application-independent. Tomographic and compressed-sensing
+reconstruction experiments with Poisson generalized linear and Gaussian linear
+measurement models demonstrate the performance of the proposed approach.

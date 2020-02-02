@@ -1,0 +1,22 @@
+Fault-Tolerant Quantum Computation With Constant Error Rate
+This paper proves the threshold result, which asserts that quantum
+computation can be made robust against errors and inaccuracies, when the error
+rate, $\eta$, is smaller than a constant threshold, $\eta_c$. The result holds
+for a very general, not necessarily probabilistic noise model, for quantum
+particles with any number of states, and is also generalized to one dimensional
+quantum computers with only nearest neighbor interactions. No measurements, or
+classical operations, are required during the quantum computation. The
+proceeding version was very succinct, and here we fill all the missing details,
+and elaborate on many parts of the proof. In particular, we devote a section
+for a discussion of universality issues and proofs that the sets of gates that
+we use are universal. Another section is devoted to a rigorous proof that fault
+tolerance can be achieved in the presence of general non probabilistic noise.
+The systematic structure of the fault tolerant procedures for polynomial codes
+is explained in length. The proof that the concatenation scheme works is
+written in a clearer way. The paper also contains new and significantly simpler
+proofs for most of the known results which we use. For example, we give a
+simple proof that it suffices to correct bit and phase flips, we significantly
+simplify Calderbank and Shor's original proof of the correctness of CSS codes.
+We also give a simple proof of the fact that two-qubit gates are universal. The
+paper thus provides a self contained and complete proof for universal fault
+tolerant quantum computation.

@@ -1,0 +1,14 @@
+Constrained Bayesian Optimization for Automatic Chemical Design
+Automatic Chemical Design is a framework for generating novel molecules with
+optimized properties. The original scheme, featuring Bayesian optimization over
+the latent space of a variational autoencoder, suffers from the pathology that
+it tends to produce invalid molecular structures. First, we demonstrate
+empirically that this pathology arises when the Bayesian optimization scheme
+queries latent points far away from the data on which the variational
+autoencoder has been trained. Secondly, by reformulating the search procedure
+as a constrained Bayesian optimization problem, we show that the effects of
+this pathology can be mitigated, yielding marked improvements in the validity
+of the generated molecules. We posit that constrained Bayesian optimization is
+a good approach for solving this class of training set mismatch in many
+generative tasks involving Bayesian optimization over the latent space of a
+variational autoencoder.

@@ -1,0 +1,20 @@
+A Novel M-Estimator for Robust PCA
+We study the basic problem of robust subspace recovery. That is, we assume a
+data set that some of its points are sampled around a fixed subspace and the
+rest of them are spread in the whole ambient space, and we aim to recover the
+fixed underlying subspace. We first estimate "robust inverse sample covariance"
+by solving a convex minimization procedure; we then recover the subspace by the
+bottom eigenvectors of this matrix (their number correspond to the number of
+eigenvalues close to 0). We guarantee exact subspace recovery under some
+conditions on the underlying data. Furthermore, we propose a fast iterative
+algorithm, which linearly converges to the matrix minimizing the convex
+problem. We also quantify the effect of noise and regularization and discuss
+many other practical and theoretical issues for improving the subspace recovery
+in various settings. When replacing the sum of terms in the convex energy
+function (that we minimize) with the sum of squares of terms, we obtain that
+the new minimizer is a scaled version of the inverse sample covariance (when
+exists). We thus interpret our minimizer and its subspace (spanned by its
+bottom eigenvectors) as robust versions of the empirical inverse covariance and
+the PCA subspace respectively. We compare our method with many other algorithms
+for robust PCA on synthetic and real data sets and demonstrate state-of-the-art
+speed and accuracy.

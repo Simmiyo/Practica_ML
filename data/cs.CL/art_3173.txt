@@ -1,0 +1,22 @@
+Bringing Semantic Structures to User Intent Detection in Online Medical
+  Queries
+The Internet has revolutionized healthcare by offering medical information
+ubiquitously to patients via web search. The healthcare status, complex medical
+information needs of patients are expressed diversely and implicitly in their
+medical text queries. Aiming to better capture a focused picture of user's
+medical-related information search and shed insights on their healthcare
+information access strategies, it is challenging yet rewarding to detect
+structured user intentions from their diversely expressed medical text queries.
+We introduce a graph-based formulation to explore structured concept
+transitions for effective user intent detection in medical queries, where each
+node represents a medical concept mention and each directed edge indicates a
+medical concept transition. A deep model based on multi-task learning is
+introduced to extract structured semantic transitions from user queries, where
+the model extracts word-level medical concept mentions as well as
+sentence-level concept transitions collectively. A customized graph-based
+mutual transfer loss function is designed to impose explicit constraints and
+further exploit the contribution of mentioning a medical concept word to the
+implication of a semantic transition. We observe an 8% relative improvement in
+AUC and 23% relative reduction in coverage error by comparing the proposed
+model with the best baseline model for the concept transition inference task on
+real-world medical text queries.

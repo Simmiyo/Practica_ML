@@ -1,0 +1,15 @@
+Deep Transfer Learning for Error Decoding from Non-Invasive EEG
+We recorded high-density EEG in a flanker task experiment (31 subjects) and
+an online BCI control paradigm (4 subjects). On these datasets, we evaluated
+the use of transfer learning for error decoding with deep convolutional neural
+networks (deep ConvNets). In comparison with a regularized linear discriminant
+analysis (rLDA) classifier, ConvNets were significantly better in both intra-
+and inter-subject decoding, achieving an average accuracy of 84.1 % within
+subject and 81.7 % on unknown subjects (flanker task). Neither method was,
+however, able to generalize reliably between paradigms. Visualization of
+features the ConvNets learned from the data showed plausible patterns of brain
+activity, revealing both similarities and differences between the different
+kinds of errors. Our findings indicate that deep learning techniques are useful
+to infer information about the correctness of action in BCI applications,
+particularly for the transfer of pre-trained classifiers to new recording
+sessions or subjects.

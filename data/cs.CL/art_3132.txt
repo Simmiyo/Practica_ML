@@ -1,0 +1,14 @@
+The Galactic Dependencies Treebanks: Getting More Data by Synthesizing
+  New Languages
+We release Galactic Dependencies 1.0---a large set of synthetic languages not
+found on Earth, but annotated in Universal Dependencies format. This new
+resource aims to provide training and development data for NLP methods that aim
+to adapt to unfamiliar languages. Each synthetic treebank is produced from a
+real treebank by stochastically permuting the dependents of nouns and/or verbs
+to match the word order of other real languages. We discuss the usefulness,
+realism, parsability, perplexity, and diversity of the synthetic languages. As
+a simple demonstration of the use of Galactic Dependencies, we consider
+single-source transfer, which attempts to parse a real target language using a
+parser trained on a "nearby" source language. We find that including synthetic
+source languages somewhat increases the diversity of the source pool, which
+significantly improves results for most target languages.

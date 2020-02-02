@@ -1,0 +1,11 @@
+Highly Accurate Prediction of Jobs Runtime Classes
+Separating the short jobs from the long is a known technique to improve
+scheduling performance. In this paper we describe a method we developed for
+accurately predicting the runtimes classes of the jobs to enable this
+separation. Our method uses the fact that the runtimes can be represented as a
+mixture of overlapping Gaussian distributions, in order to train a CART
+classifier to provide the prediction. The threshold that separates the short
+jobs from the long jobs is determined during the evaluation of the classifier
+to maximize prediction accuracy. Our results indicate overall accuracy of 90%
+for the data set used in our study, with sensitivity and specificity both above
+90%.

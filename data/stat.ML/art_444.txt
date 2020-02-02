@@ -1,0 +1,19 @@
+Automated Machine Learning on Big Data using Stochastic Algorithm Tuning
+We introduce a means of automating machine learning (ML) for big data tasks,
+by performing scalable stochastic Bayesian optimisation of ML algorithm
+parameters and hyper-parameters. More often than not, the critical tuning of ML
+algorithm parameters has relied on domain expertise from experts, along with
+laborious hand-tuning, brute search or lengthy sampling runs. Against this
+background, Bayesian optimisation is finding increasing use in automating
+parameter tuning, making ML algorithms accessible even to non-experts. However,
+the state of the art in Bayesian optimisation is incapable of scaling to the
+large number of evaluations of algorithm performance required to fit realistic
+models to complex, big data. We here describe a stochastic, sparse, Bayesian
+optimisation strategy to solve this problem, using many thousands of noisy
+evaluations of algorithm performance on subsets of data in order to effectively
+train algorithms for big data. We provide a comprehensive benchmarking of
+possible sparsification strategies for Bayesian optimisation, concluding that a
+Nystrom approximation offers the best scaling and performance for real tasks.
+Our proposed algorithm demonstrates substantial improvement over the state of
+the art in tuning the parameters of a Gaussian Process time series prediction
+task on real, big data.

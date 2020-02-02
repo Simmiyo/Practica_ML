@@ -1,0 +1,16 @@
+A Chart-Parsing Algorithm for Efficient Semantic Analysis
+In some contexts, well-formed natural language cannot be expected as input to
+information or communication systems. In these contexts, the use of
+grammar-independent input (sequences of uninflected semantic units like e.g.
+language-independent icons) can be an answer to the users' needs. A semantic
+analysis can be performed, based on lexical semantic knowledge: it is
+equivalent to a dependency analysis with no syntactic or morphological clues.
+However, this requires that an intelligent system should be able to interpret
+this input with reasonable accuracy and in reasonable time. Here we propose a
+method allowing a purely semantic-based analysis of sequences of semantic
+units. It uses an algorithm inspired by the idea of ``chart parsing'' known in
+Natural Language Processing, which stores intermediate parsing results in order
+to bring the calculation time down. In comparison with using declarative logic
+programming - where the calculation time, left to a prolog engine, is
+hyperexponential -, this method brings the calculation time down to a
+polynomial time, where the order depends on the valency of the predicates.

@@ -1,0 +1,21 @@
+Spatial Neural Networks and their Functional Samples: Similarities and
+  Differences
+Models of neural networks have proven their utility in the development of
+learning algorithms in computer science and in the theoretical study of brain
+dynamics in computational neuroscience. We propose in this paper a spatial
+neural network model to analyze the important class of functional networks,
+which are commonly employed in computational studies of clinical brain imaging
+time series. We developed a simulation framework inspired by multichannel brain
+surface recordings (more specifically, EEG -- electroencephalogram) in order to
+link the mesoscopic network dynamics (represented by sampled functional
+networks) and the microscopic network structure (represented by an
+integrate-and-fire neural network located in a 3D space -- hence the term
+spatial neural network). Functional networks are obtained by computing pairwise
+correlations between time-series of mesoscopic electric potential dynamics,
+which allows the construction of a graph where each node represents one
+time-series. The spatial neural network model is central in this study in the
+sense that it allowed us to characterize sampled functional networks in terms
+of what features they are able to reproduce from the underlying spatial
+network. Our modeling approach shows that, in specific conditions of sample
+size and edge density, it is possible to precisely estimate several network
+measurements of spatial networks by just observing functional samples.

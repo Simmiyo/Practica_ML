@@ -1,0 +1,17 @@
+TimeML-strict: clarifying temporal annotation
+TimeML is an XML-based schema for annotating temporal information over
+discourse. The standard has been used to annotate a variety of resources and is
+followed by a number of tools, the creation of which constitute hundreds of
+thousands of man-hours of research work. However, the current state of
+resources is such that many are not valid, or do not produce valid output, or
+contain ambiguous or custom additions and removals. Difficulties arising from
+these variances were highlighted in the TempEval-3 exercise, which included its
+own extra stipulations over conventional TimeML as a response.
+  To unify the state of current resources, and to make progress toward easy
+adoption of its current incarnation ISO-TimeML, this paper introduces
+TimeML-strict: a valid, unambiguous, and easy-to-process subset of TimeML. We
+also introduce three resources -- a schema for TimeML-strict; a validator tool
+for TimeML-strict, so that one may ensure documents are in the correct form;
+and a repair tool that corrects common invalidating errors and adds
+disambiguating markup in order to convert documents from the laxer TimeML
+standard to TimeML-strict.

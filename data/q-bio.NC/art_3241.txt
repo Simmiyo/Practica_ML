@@ -1,0 +1,26 @@
+Tensor-driven extraction of developmental features from varying
+  paediatric EEG datasets
+Objective. Consistently changing physiological properties in developing
+children's brains challenges new data heavy technologies, like brain-computer
+interfaces (BCI). Advancing signal processing methods in such technologies to
+be more sensitive to developmental changes could help improve their function
+and usability in paediatric populations. Taking advantage of the
+multi-dimensional structure of EEG data through tensor analysis offers a
+framework to extract relevant developmental features present in paediatric
+resting-state EEG datasets. Methods. Three paediatric datasets from varying
+developmental states and populations were analyzed using a developed two-step
+constrained Parallel Factor (PARAFAC) tensor decomposition. The datasets
+included the Muir Maxwell Epilepsy Centre, Children's Hospital Boston-MIT and
+the Child Mind Institute, outlining two impaired and one healthy population,
+respectively. Within dataset cross-validation used support vector machines
+(SVM) for classification of out-of-fold data predicting subject age as a proxy
+measure of development. t-distributed Stochastic Neighbour Embedding (t-SNE)
+maps complemented classification analysis through visualization of the
+high-dimensional feature structures. Main Results. Development-sensitive
+features were successfully identified for the developmental conditions of each
+dataset. SVM classification accuracy and misclassification costs were improved
+significantly for both healthy and impaired paediatric populations. t-SNE maps
+revealed suitable tensor factorization was key in extracting developmental
+features. Significance. The described methods are a promising tool for
+incorporating the unique developmental features present throughout childhood
+EEG into new technologies like BCI and its applications.

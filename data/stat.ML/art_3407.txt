@@ -1,0 +1,9 @@
+Accelerated Stochastic Gradient Descent for Minimizing Finite Sums
+We propose an optimization method for minimizing the finite sums of smooth
+convex functions. Our method incorporates an accelerated gradient descent (AGD)
+and a stochastic variance reduction gradient (SVRG) in a mini-batch setting.
+Unlike SVRG, our method can be directly applied to non-strongly and strongly
+convex problems. We show that our method achieves a lower overall complexity
+than the recently proposed methods that supports non-strongly convex problems.
+Moreover, this method has a fast rate of convergence for strongly convex
+problems. Our experiments show the effectiveness of our method.

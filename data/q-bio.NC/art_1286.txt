@@ -1,0 +1,25 @@
+Evaluating performance of neural codes in model neural communication
+  networks
+Information needs to be appropriately encoded to be reliably transmitted over
+physical media. Similarly, neurons have their own codes to convey information
+in the brain. Even though it is well-known that neurons exchange information
+using a pool of several protocols of spatio-temporal encodings, the suitability
+of each code and their performance as a function of network parameters and
+external stimuli is still one of the great mysteries in neuroscience. This
+paper sheds light on this by modeling small-size networks of chemically and
+electrically coupled Hindmarsh-Rose spiking neurons. We focus on a class of
+temporal and firing-rate codes that result from neurons' membrane-potentials
+and phases, and quantify numerically their performance estimating the Mutual
+Information Rate, aka the rate of information exchange. Our results suggest
+that the firing-rate and interspike-intervals codes are more robust to additive
+Gaussian white noise. In a network of four interconnected neurons and in the
+absence of such noise, pairs of neurons that have the largest rate of
+information exchange using the interspike-intervals and firing-rate codes are
+not adjacent in the network, whereas spike-timings and phase codes (temporal)
+promote large rate of information exchange for adjacent neurons. If that result
+would have been possible to extend to larger neural networks, it would suggest
+that small microcircuits would preferably exchange information using temporal
+codes (spike-timings and phase codes), whereas on the macroscopic scale, where
+there would be typically pairs of neurons not directly connected due to the
+brain's sparsity, firing-rate and interspike-intervals codes would be the most
+efficient codes.

@@ -1,0 +1,25 @@
+Moments and Root-Mean-Square Error of the Bayesian MMSE Estimator of
+  Classification Error in the Gaussian Model
+The most important aspect of any classifier is its error rate, because this
+quantifies its predictive capacity. Thus, the accuracy of error estimation is
+critical. Error estimation is problematic in small-sample classifier design
+because the error must be estimated using the same data from which the
+classifier has been designed. Use of prior knowledge, in the form of a prior
+distribution on an uncertainty class of feature-label distributions to which
+the true, but unknown, feature-distribution belongs, can facilitate accurate
+error estimation (in the mean-square sense) in circumstances where accurate
+completely model-free error estimation is impossible. This paper provides
+analytic asymptotically exact finite-sample approximations for various
+performance metrics of the resulting Bayesian Minimum Mean-Square-Error (MMSE)
+error estimator in the case of linear discriminant analysis (LDA) in the
+multivariate Gaussian model. These performance metrics include the first,
+second, and cross moments of the Bayesian MMSE error estimator with the true
+error of LDA, and therefore, the Root-Mean-Square (RMS) error of the estimator.
+We lay down the theoretical groundwork for Kolmogorov double-asymptotics in a
+Bayesian setting, which enables us to derive asymptotic expressions of the
+desired performance metrics. From these we produce analytic finite-sample
+approximations and demonstrate their accuracy via numerical examples. Various
+examples illustrate the behavior of these approximations and their use in
+determining the necessary sample size to achieve a desired RMS. The
+Supplementary Material contains derivations for some equations and added
+figures.

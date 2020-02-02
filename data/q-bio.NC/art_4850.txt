@@ -1,0 +1,18 @@
+Inferring health conditions from fMRI-graph data
+Automated classification methods for disease diagnosis are currently in the
+limelight, especially for imaging data. Classification does not fully meet a
+clinician's needs, however: in order to combine the results of multiple tests
+and decide on a course of treatment, a clinician needs the likelihood of a
+given health condition rather than binary classification yielded by such
+methods. We illustrate how likelihoods can be derived step by step from first
+principles and approximations, and how they can be assessed and selected,
+illustrating our approach using fMRI data from a publicly available data set
+containing schizophrenic and healthy control subjects. We start from the basic
+assumption of partial exchangeability, and then the notion of sufficient
+statistics and the "method of translation" (Edgeworth, 1898) combined with
+conjugate priors. This method can be used to construct a likelihood that can be
+used to compare different data-reduction algorithms. Despite the
+simplifications and possibly unrealistic assumptions used to illustrate the
+method, we obtain classification results comparable to previous, more realistic
+studies about schizophrenia, whilst yielding likelihoods that can naturally be
+combined with the results of other diagnostic tests.

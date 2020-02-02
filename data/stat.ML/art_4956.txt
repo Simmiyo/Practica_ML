@@ -1,0 +1,15 @@
+A Strongly Quasiconvex PAC-Bayesian Bound
+We propose a new PAC-Bayesian bound and a way of constructing a hypothesis
+space, so that the bound is convex in the posterior distribution and also
+convex in a trade-off parameter between empirical performance of the posterior
+distribution and its complexity. The complexity is measured by the
+Kullback-Leibler divergence to a prior. We derive an alternating procedure for
+minimizing the bound. We show that the bound can be rewritten as a
+one-dimensional function of the trade-off parameter and provide sufficient
+conditions under which the function has a single global minimum. When the
+conditions are satisfied the alternating minimization is guaranteed to converge
+to the global minimum of the bound. We provide experimental results
+demonstrating that rigorous minimization of the bound is competitive with
+cross-validation in tuning the trade-off between complexity and empirical
+performance. In all our experiments the trade-off turned to be quasiconvex even
+when the sufficient conditions were violated.

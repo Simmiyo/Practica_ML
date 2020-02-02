@@ -1,0 +1,10 @@
+Dealing with a large number of classes -- Likelihood, Discrimination or
+  Ranking?
+We consider training probabilistic classifiers in the case of a large number
+of classes. The number of classes is assumed too large to perform exact
+normalisation over all classes. To account for this we consider a simple
+approach that directly approximates the likelihood. We show that this simple
+approach works well on toy problems and is competitive with recently introduced
+alternative non-likelihood based approximations. Furthermore, we relate this
+approach to a simple ranking objective. This leads us to suggest a specific
+setting for the optimal threshold in the ranking objective.

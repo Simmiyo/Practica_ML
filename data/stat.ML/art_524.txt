@@ -1,0 +1,17 @@
+Combined modeling of sparse and dense noise for improvement of Relevance
+  Vector Machine
+Using a Bayesian approach, we consider the problem of recovering sparse
+signals under additive sparse and dense noise. Typically, sparse noise models
+outliers, impulse bursts or data loss. To handle sparse noise, existing methods
+simultaneously estimate the sparse signal of interest and the sparse noise of
+no interest. For estimating the sparse signal, without the need of estimating
+the sparse noise, we construct a robust Relevance Vector Machine (RVM). In the
+RVM, sparse noise and ever present dense noise are treated through a combined
+noise model. The precision of combined noise is modeled by a diagonal matrix.
+We show that the new RVM update equations correspond to a non-symmetric
+sparsity inducing cost function. Further, the combined modeling is found to be
+computationally more efficient. We also extend the method to block-sparse
+signals and noise with known and unknown block structures. Through simulations,
+we show the performance and computation efficiency of the new RVM in several
+applications: recovery of sparse and block sparse signals, housing price
+prediction and image denoising.

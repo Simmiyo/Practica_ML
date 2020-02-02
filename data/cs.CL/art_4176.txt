@@ -1,0 +1,17 @@
+Contextual Language Model Adaptation for Conversational Agents
+Statistical language models (LM) play a key role in Automatic Speech
+Recognition (ASR) systems used by conversational agents. These ASR systems
+should provide a high accuracy under a variety of speaking styles, domains,
+vocabulary and argots. In this paper, we present a DNN-based method to adapt
+the LM to each user-agent interaction based on generalized contextual
+information, by predicting an optimal, context-dependent set of LM
+interpolation weights. We show that this framework for contextual adaptation
+provides accuracy improvements under different possible mixture LM partitions
+that are relevant for both (1) Goal-oriented conversational agents where it's
+natural to partition the data by the requested application and for (2) Non-goal
+oriented conversational agents where the data can be partitioned using topic
+labels that come from predictions of a topic classifier. We obtain a relative
+WER improvement of 3% with a 1-pass decoding strategy and 6% in a 2-pass
+decoding framework, over an unadapted model. We also show up to a 15% relative
+improvement in recognizing named entities which is of significant value for
+conversational ASR systems.

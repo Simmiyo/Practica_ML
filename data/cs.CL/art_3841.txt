@@ -1,0 +1,11 @@
+Domain Adapted Word Embeddings for Improved Sentiment Classification
+Generic word embeddings are trained on large-scale generic corpora; Domain
+Specific (DS) word embeddings are trained only on data from a domain of
+interest. This paper proposes a method to combine the breadth of generic
+embeddings with the specificity of domain specific embeddings. The resulting
+embeddings, called Domain Adapted (DA) word embeddings, are formed by aligning
+corresponding word vectors using Canonical Correlation Analysis (CCA) or the
+related nonlinear Kernel CCA. Evaluation results on sentiment classification
+tasks show that the DA embeddings substantially outperform both generic and DS
+embeddings when used as input features to standard or state-of-the-art sentence
+encoding algorithms for classification.

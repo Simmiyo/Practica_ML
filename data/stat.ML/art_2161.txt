@@ -1,0 +1,12 @@
+Robust Dequantized Compressive Sensing
+We consider the reconstruction problem in compressed sensing in which the
+observations are recorded in a finite number of bits. They may thus contain
+quantization errors (from being rounded to the nearest representable value) and
+saturation errors (from being outside the range of representable values). Our
+formulation has an objective of weighted $\ell_2$-$\ell_1$ type, along with
+constraints that account explicitly for quantization and saturation errors, and
+is solved with an augmented Lagrangian method. We prove a consistency result
+for the recovered solution, stronger than those that have appeared to date in
+the literature, showing in particular that asymptotic consistency can be
+obtained without oversampling. We present extensive computational comparisons
+with formulations proposed previously, and variants thereof.

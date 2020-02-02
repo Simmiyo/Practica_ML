@@ -1,0 +1,18 @@
+A binary Hopfield network with $1/\log(n)$ information rate and
+  applications to grid cell decoding
+A Hopfield network is an auto-associative, distributive model of neural
+memory storage and retrieval. A form of error-correcting code, the Hopfield
+network can learn a set of patterns as stable points of the network dynamic,
+and retrieve them from noisy inputs -- thus Hopfield networks are their own
+decoders. Unlike in coding theory, where the information rate of a good code
+(in the Shannon sense) is finite but the cost of decoding does not play a role
+in the rate, the information rate of Hopfield networks trained with
+state-of-the-art learning algorithms is of the order ${\log(n)}/{n}$, a
+quantity that tends to zero asymptotically with $n$, the number of neurons in
+the network. For specially constructed networks, the best information rate
+currently achieved is of order ${1}/{\sqrt{n}}$. In this work, we design simple
+binary Hopfield networks that have asymptotically vanishing error rates at an
+information rate of ${1}/{\log(n)}$. These networks can be added as the
+decoders of any neural code with noisy neurons. As an example, we apply our
+network to a binary neural decoder of the grid cell code to attain information
+rate ${1}/{\log(n)}$.

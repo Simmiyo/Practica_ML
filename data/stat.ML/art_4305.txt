@@ -1,0 +1,11 @@
+Analysis of Dropout in Online Learning
+Deep learning is the state-of-the-art in fields such as visual object
+recognition and speech recognition. This learning uses a large number of layers
+and a huge number of units and connections. Therefore, overfitting is a serious
+problem with it, and the dropout which is a kind of regularization tool is
+used. However, in online learning, the effect of dropout is not well known.
+This paper presents our investigation on the effect of dropout in online
+learning. We analyzed the effect of dropout on convergence speed near the
+singular point. Our results indicated that dropout is effective in online
+learning. Dropout tends to avoid the singular point for convergence speed near
+that point.

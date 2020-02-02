@@ -1,0 +1,17 @@
+Feature Extraction and Automated Classification of Heartbeats by Machine
+  Learning
+We present algorithms for the detection of a class of heart arrhythmias with
+the goal of eventual adoption by practicing cardiologists. In clinical
+practice, detection is based on a small number of meaningful features extracted
+from the heartbeat cycle. However, techniques proposed in the literature use
+high dimensional vectors consisting of morphological, and time based features
+for detection. Using electrocardiogram (ECG) signals, we found smaller subsets
+of features sufficient to detect arrhythmias with high accuracy. The features
+were found by an iterative step-wise feature selection method. We depart from
+common literature in the following aspects: 1. As opposed to a high dimensional
+feature vectors, we use a small set of features with meaningful clinical
+interpretation, 2. we eliminate the necessity of short-duration
+patient-specific ECG data to append to the global training data for
+classification 3. We apply semi-parametric classification procedures (in an
+ensemble framework) for arrhythmia detection, and 4. our approach is based on a
+reduced sampling rate of ~ 115 Hz as opposed to 360 Hz in standard literature.

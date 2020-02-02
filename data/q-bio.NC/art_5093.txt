@@ -1,0 +1,22 @@
+Reconstruction of Natural Visual Scenes from Neural Spikes with Deep
+  Neural Networks
+Neural coding is one of the central questions in systems neuroscience for
+understanding how the brain processes stimulus from the environment, moreover,
+it is also a cornerstone for designing algorithms of brain-machine interface,
+where decoding incoming stimulus is needed for better performance of physical
+devices. Traditionally, the neural signal of interest for decoding visual
+scenes has been focused on fMRI data. However, our visual perception operates
+in a fast time scale of millisecond in terms of an event termed neural spike.
+So far there are few studies of decoding by using spikes. Here we fulfill this
+aim by developing a novel decoding framework based on deep neural networks,
+named spike-image decoder (SID), for reconstructing natural visual scenes,
+including static images and dynamic videos, from experimentally recorded spikes
+of a population of retinal ganglion cells. The SID is an end-to-end decoder
+with one end as neural spikes and the other end as images, which can be trained
+directly such that visual scenes are reconstructed from spikes in a highly
+accurate fashion. In addition, we show that SID can be generalized to arbitrary
+images by using image datasets of MNIST, CIFAR10, and CIFAR100. Furthermore,
+with a pre-trained SID, one can decode any dynamic videos, with the aid of an
+encoder, to achieve real-time encoding and decoding visual scenes by spikes.
+Altogether, our results shed new light on neuromorphic computing for artificial
+visual systems, such as event-based visual cameras and visual neuroprostheses.

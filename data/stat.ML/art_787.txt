@@ -1,0 +1,22 @@
+Convergence of Contrastive Divergence Algorithm in Exponential Family
+The Contrastive Divergence (CD) algorithm has achieved notable success in
+training energy-based models including Restricted Boltzmann Machines and played
+a key role in the emergence of deep learning. The idea of this algorithm is to
+approximate the intractable term in the exact gradient of the log-likelihood
+function by using short Markov chain Monte Carlo (MCMC) runs. The approximate
+gradient is computationally-cheap but biased. Whether and why the CD algorithm
+provides an asymptotically consistent estimate are still open questions. This
+paper studies the asymptotic properties of the CD algorithm in canonical
+exponential families, which are special cases of the energy-based model.
+Suppose the CD algorithm runs $m$ MCMC transition steps at each iteration $t$
+and iteratively generates a sequence of parameter estimates $\{\theta_t\}_{t
+\ge 0}$ given an i.i.d. data sample $\{X_i\}_{i=1}^n \sim p_{\theta_\star}$.
+Under conditions which are commonly obeyed by the CD algorithm in practice, we
+prove the existence of some bounded $m$ such that any limit point of the time
+average $\left. \sum_{s=0}^{t-1} \theta_s \right/ t$ as $t \to \infty$ is a
+consistent estimate for the true parameter $\theta_\star$. Our proof is based
+on the fact that $\{\theta_t\}_{t \ge 0}$ is a homogenous Markov chain
+conditional on the data sample $\{X_i\}_{i=1}^n$. This chain meets the
+Foster-Lyapunov drift criterion and converges to a random walk around the
+Maximum Likelihood Estimate. The range of the random walk shrinks to zero at
+rate $\mathcal{O}(1/\sqrt[3]{n})$ as the sample size $n \to \infty$.

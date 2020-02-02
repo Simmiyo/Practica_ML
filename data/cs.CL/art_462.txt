@@ -1,0 +1,12 @@
+A Semantic Relatedness Measure Based on Combined Encyclopedic,
+  Ontological and Collocational Knowledge
+We describe a new semantic relatedness measure combining the Wikipedia-based
+Explicit Semantic Analysis measure, the WordNet path measure and the mixed
+collocation index. Our measure achieves the currently highest results on the
+WS-353 test: a Spearman rho coefficient of 0.79 (vs. 0.75 in (Gabrilovich and
+Markovitch, 2007)) when applying the measure directly, and a value of 0.87 (vs.
+0.78 in (Agirre et al., 2009)) when using the prediction of a polynomial SVM
+classifier trained on our measure.
+  In the appendix we discuss the adaptation of ESA to 2011 Wikipedia data, as
+well as various unsuccessful attempts to enhance ESA by filtering at word,
+sentence, and section level.

@@ -1,0 +1,17 @@
+Linear State-Space Model with Time-Varying Dynamics
+This paper introduces a linear state-space model with time-varying dynamics.
+The time dependency is obtained by forming the state dynamics matrix as a
+time-varying linear combination of a set of matrices. The time dependency of
+the weights in the linear combination is modelled by another linear Gaussian
+dynamical model allowing the model to learn how the dynamics of the process
+changes. Previous approaches have used switching models which have a small set
+of possible state dynamics matrices and the model selects one of those matrices
+at each time, thus jumping between them. Our model forms the dynamics as a
+linear combination and the changes can be smooth and more continuous. The model
+is motivated by physical processes which are described by linear partial
+differential equations whose parameters vary in time. An example of such a
+process could be a temperature field whose evolution is driven by a varying
+wind direction. The posterior inference is performed using variational Bayesian
+approximation. The experiments on stochastic advection-diffusion processes and
+real-world weather processes show that the model with time-varying dynamics can
+outperform previously introduced approaches.

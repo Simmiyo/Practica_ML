@@ -1,0 +1,24 @@
+Continual One-Shot Learning of Hidden Spike-Patterns with Neural Network
+  Simulation Expansion and STDP Convergence Predictions
+This paper presents a constructive algorithm that achieves successful
+one-shot learning of hidden spike-patterns in a competitive detection task. It
+has previously been shown (Masquelier et al., 2008) that spike-timing-dependent
+plasticity (STDP) and lateral inhibition can result in neurons competitively
+tuned to repeating spike-patterns concealed in high rates of overall
+presynaptic activity. One-shot construction of neurons with synapse weights
+calculated as estimates of converged STDP outcomes results in immediate
+selective detection of hidden spike-patterns. The capability of continual
+learning is demonstrated through the successful one-shot detection of new sets
+of spike-patterns introduced after long intervals in the simulation time.
+Simulation expansion (Lightheart et al., 2013) has been proposed as an approach
+to the development of constructive algorithms that are compatible with
+simulations of biological neural networks. A simulation of a biological neural
+network may have orders of magnitude fewer neurons and connections than the
+related biological neural systems; therefore, simulated neural networks can be
+assumed to be a subset of a larger neural system. The constructive algorithm is
+developed using simulation expansion concepts to perform an operation
+equivalent to the exchange of neurons between the simulation and the larger
+hypothetical neural system. The dynamic selection of neurons to simulate within
+a larger neural system (hypothetical or stored in memory) may be a starting
+point for a wide range of developments and applications in machine learning and
+the simulation of biology.

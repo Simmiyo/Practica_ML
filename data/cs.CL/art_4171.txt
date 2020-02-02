@@ -1,0 +1,13 @@
+A Practical Incremental Learning Framework For Sparse Entity Extraction
+This work addresses challenges arising from extracting entities from textual
+data, including the high cost of data annotation, model accuracy, selecting
+appropriate evaluation criteria, and the overall quality of annotation. We
+present a framework that integrates Entity Set Expansion (ESE) and Active
+Learning (AL) to reduce the annotation cost of sparse data and provide an
+online evaluation method as feedback. This incremental and interactive learning
+framework allows for rapid annotation and subsequent extraction of sparse data
+while maintaining high accuracy.
+  We evaluate our framework on three publicly available datasets and show that
+it drastically reduces the cost of sparse entity annotation by an average of
+85% and 45% to reach 0.9 and 1.0 F-Scores respectively. Moreover, the method
+exhibited robust performance across all datasets.

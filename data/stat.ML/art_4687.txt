@@ -1,0 +1,18 @@
+Learning From Hidden Traits: Joint Factor Analysis and Latent Clustering
+Dimensionality reduction techniques play an essential role in data analytics,
+signal processing and machine learning. Dimensionality reduction is usually
+performed in a preprocessing stage that is separate from subsequent data
+analysis, such as clustering or classification. Finding reduced-dimension
+representations that are well-suited for the intended task is more appealing.
+This paper proposes a joint factor analysis and latent clustering framework,
+which aims at learning cluster-aware low-dimensional representations of matrix
+and tensor data. The proposed approach leverages matrix and tensor
+factorization models that produce essentially unique latent representations of
+the data to unravel latent cluster structure -- which is otherwise obscured
+because of the freedom to apply an oblique transformation in latent space. At
+the same time, latent cluster structure is used as prior information to enhance
+the performance of factorization. Specific contributions include several
+custom-built problem formulations, corresponding algorithms, and discussion of
+associated convergence properties. Besides extensive simulations, real-world
+datasets such as Reuters document data and MNIST image data are also employed
+to showcase the effectiveness of the proposed approaches.

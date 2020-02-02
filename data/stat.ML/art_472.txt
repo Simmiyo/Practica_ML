@@ -1,0 +1,14 @@
+Convex Modeling of Interactions with Strong Heredity
+We consider the task of fitting a regression model involving interactions
+among a potentially large set of covariates, in which we wish to enforce strong
+heredity. We propose FAMILY, a very general framework for this task. Our
+proposal is a generalization of several existing methods, such as VANISH
+[Radchenko and James, 2010], hierNet [Bien et al., 2013], the all-pairs lasso,
+and the lasso using only main effects. It can be formulated as the solution to
+a convex optimization problem, which we solve using an efficient alternating
+directions method of multipliers (ADMM) algorithm. This algorithm has
+guaranteed convergence to the global optimum, can be easily specialized to any
+convex penalty function of interest, and allows for a straightforward extension
+to the setting of generalized linear models. We derive an unbiased estimator of
+the degrees of freedom of FAMILY, and explore its performance in a simulation
+study and on an HIV sequence data set.

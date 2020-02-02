@@ -1,0 +1,21 @@
+Variational Particle Approximations
+Approximate inference in high-dimensional, discrete probabilistic models is a
+central problem in computational statistics and machine learning. This paper
+describes discrete particle variational inference (DPVI), a new approach that
+combines key strengths of Monte Carlo, variational and search-based techniques.
+DPVI is based on a novel family of particle-based variational approximations
+that can be fit using simple, fast, deterministic search techniques. Like Monte
+Carlo, DPVI can handle multiple modes, and yields exact results in a
+well-defined limit. Like unstructured mean-field, DPVI is based on optimizing a
+lower bound on the partition function; when this quantity is not of intrinsic
+interest, it facilitates convergence assessment and debugging. Like both Monte
+Carlo and combinatorial search, DPVI can take advantage of factorization,
+sequential structure, and custom search operators. This paper defines DPVI
+particle-based approximation family and partition function lower bounds, along
+with the sequential DPVI and local DPVI algorithm templates for optimizing
+them. DPVI is illustrated and evaluated via experiments on lattice Markov
+Random Fields, nonparametric Bayesian mixtures and block-models, and parametric
+as well as non-parametric hidden Markov models. Results include applications to
+real-world spike-sorting and relational modeling problems, and show that DPVI
+can offer appealing time/accuracy trade-offs as compared to multiple
+alternatives.

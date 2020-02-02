@@ -1,0 +1,18 @@
+Two-stage frequency recognition method based on correlated component
+  analysis for SSVEP-based BCI
+Canonical correlation analysis (CCA) is a state-of-the-art method for
+frequency recognition in steady-state visual evoked potential (SSVEP)-based
+brain-computer interface (BCI) systems. Various extended methods have been
+developed, and among such methods, a combination method of CCA and
+individual-template-based CCA (IT-CCA) has achieved excellent performance.
+However, CCA requires the canonical vectors to be orthogonal, which may not be
+a reasonable assumption for EEG analysis. In the current study, we propose
+using the correlated component analysis (CORRCA) rather than CCA to implement
+frequency recognition. CORRCA can relax the constraint of canonical vectors in
+CCA, and generate the same projection vector for two multichannel EEG signals.
+Furthermore, we propose a two-stage method based on the basic CORRCA method
+(termed TSCORRCA). Evaluated on a benchmark dataset of thirty-five subjects,
+the experimental results demonstrate that CORRCA significantly outperformed
+CCA, and TSCORRCA obtained the best performance among the compared methods.
+This study demonstrates that CORRCA-based methods have great potential for
+implementing high-performance SSVEP-based BCI systems.

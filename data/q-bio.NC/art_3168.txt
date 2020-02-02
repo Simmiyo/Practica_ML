@@ -1,0 +1,24 @@
+Adaptive Stimulus Selection in ERP-Based Brain-Computer Interfaces by
+  Maximizing Expected Discrimination Gain
+Brain-computer interfaces (BCIs) can provide an alternative means of
+communication for individuals with severe neuromuscular limitations. The
+P300-based BCI speller relies on eliciting and detecting transient
+event-related potentials (ERPs) in electroencephalography (EEG) data, in
+response to a user attending to rarely occurring target stimuli amongst a
+series of non-target stimuli. However, in most P300 speller implementations,
+the stimuli to be presented are randomly selected from a limited set of options
+and stimulus selection and presentation are not optimized based on previous
+user data. In this work, we propose a data-driven method for stimulus selection
+based on the expected discrimination gain metric. The data-driven approach
+selects stimuli based on previously observed stimulus responses, with the aim
+of choosing a set of stimuli that will provide the most information about the
+user's intended target character. Our approach incorporates knowledge of
+physiological and system constraints imposed due to real-time BCI
+implementation. Simulations were performed to compare our stimulus selection
+approach to the row-column paradigm, the conventional stimulus selection method
+for P300 spellers. Results from the simulations demonstrated that our adaptive
+stimulus selection approach has the potential to significantly improve
+performance from the conventional method: up to 34% improvement in accuracy and
+43% reduction in the mean number of stimulus presentations required to spell a
+character in a 72-character grid. In addition, our greedy approach to stimulus
+selection provides the flexibility to accommodate design constraints.

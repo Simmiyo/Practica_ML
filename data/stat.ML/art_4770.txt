@@ -1,0 +1,18 @@
+The Crossover Process: Learnability and Data Protection from Inference
+  Attacks
+It is usual to consider data protection and learnability as conflicting
+objectives. This is not always the case: we show how to jointly control
+inference --- seen as the attack --- and learnability by a noise-free process
+that mixes training examples, the Crossover Process (cp). One key point is that
+the cp~is typically able to alter joint distributions without touching on
+marginals, nor altering the sufficient statistic for the class. In other words,
+it saves (and sometimes improves) generalization for supervised learning, but
+can alter the relationship between covariates --- and therefore fool measures
+of nonlinear independence and causal inference into misleading ad-hoc
+conclusions. For example, a cp~can increase / decrease odds ratios, bring
+fairness or break fairness, tamper with disparate impact, strengthen, weaken or
+reverse causal directions, change observed statistical measures of dependence.
+For each of these, we quantify changes brought by a cp, as well as its
+statistical impact on generalization abilities via a new complexity measure
+that we call the Rademacher cp~complexity. Experiments on a dozen readily
+available domains validate the theory.

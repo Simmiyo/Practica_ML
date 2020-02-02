@@ -1,0 +1,25 @@
+A Generalized Rate Model for Neuronal Ensembles
+There has been a long-standing controversy whether information in neuronal
+networks is carried by the firing rate code or by the firing temporal code. The
+current status of the rivalry between the two codes is briefly reviewed with
+the recent studies such as the brain-machine interface (BMI). Then we have
+proposed a generalized rate model based on the {\it finite} $N$-unit Langevin
+model subjected to additive and/or multiplicative noises, in order to
+understand the firing property of a cluster containing $N$ neurons. The
+stationary property of the rate model has been studied with the use of the
+Fokker-Planck equation (FPE) method. Our rate model is shown to yield various
+kinds of stationary distributions such as the interspike-interval distribution
+expressed by non-Gaussians including gamma, inverse-Gaussian-like and
+log-normal-like distributions.
+  The dynamical property of the generalized rate model has been studied with
+the use of the augmented moment method (AMM) which was developed by the author
+[H. Hasegawa, J. Phys. Soc. Jpn. 75 (2006) 033001]. From the macroscopic point
+of view in the AMM, the property of the $N$-unit neuron cluster is expressed in
+terms of {\it three} quantities; $\mu$, the mean of spiking rates of $R=(1/N)
+\sum_i r_i$ where $r_i$ denotes the firing rate of a neuron $i$ in the cluster:
+$\gamma$, averaged fluctuations in local variables ($r_i$): $\rho$,
+fluctuations in global variable ($R$). We get equations of motions of the three
+quantities, which show $\rho \sim \gamma/N$ for weak couplings. This implies
+that the population rate code is generally more reliable than the single-neuron
+rate code. Our rate model is extended and applied to an ensemble containing
+multiple neuron clusters.

@@ -1,0 +1,18 @@
+Semblance: A Rank-Based Kernel on Probability Spaces for Niche Detection
+In data science, determining proximity between observations is critical to
+many downstream analyses such as clustering, information retrieval and
+classification. However, when the underlying structure of the data probability
+space is unclear, the function used to compute similarity between data points
+is often arbitrarily chosen. Here, we present a novel concept of proximity,
+Semblance, that uses the empirical distribution across all observations to
+inform the similarity between each pair. The advantage of Semblance lies in its
+distribution free formulation and its ability to detect niche features by
+placing greater emphasis on similarity between observation pairs that fall at
+the outskirts of the data distribution, as opposed to those that fall towards
+the center. We prove that Semblance is a valid Mercer kernel, thus allowing its
+principled use in kernel based learning machines. Semblance can be applied to
+any data modality, and we demonstrate its consistently improved performance
+against conventional methods through simulations and three real case studies
+from very different applications, viz. cell type classification using single
+cell RNA sequencing, selecting predictors of positive return on real estate
+investments, and image compression.

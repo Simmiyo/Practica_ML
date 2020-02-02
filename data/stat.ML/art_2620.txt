@@ -1,0 +1,16 @@
+Constrained Bayesian Inference for Low Rank Multitask Learning
+We present a novel approach for constrained Bayesian inference. Unlike
+current methods, our approach does not require convexity of the constraint set.
+We reduce the constrained variational inference to a parametric optimization
+over the feasible set of densities and propose a general recipe for such
+problems. We apply the proposed constrained Bayesian inference approach to
+multitask learning subject to rank constraints on the weight matrix. Further,
+constrained parameter estimation is applied to recover the sparse conditional
+independence structure encoded by prior precision matrices. Our approach is
+motivated by reverse inference for high dimensional functional neuroimaging, a
+domain where the high dimensionality and small number of examples requires the
+use of constraints to ensure meaningful and effective models. For this
+application, we propose a model that jointly learns a weight matrix and the
+prior inverse covariance structure between different tasks. We present
+experimental validation showing that the proposed approach outperforms strong
+baseline models in terms of predictive performance and structure recovery.

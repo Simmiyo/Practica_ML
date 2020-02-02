@@ -1,0 +1,16 @@
+Mitigating Gyral Bias in Cortical Tractography via Asymmetric Fiber
+  Orientation Distributions
+Diffusion tractography in brain connectomics often involves tracing axonal
+trajectories across gray-white matter boundaries in gyral blades of complex
+cortical convolutions. To date, gyral bias is observed in most tractography
+algorithms with streamlines predominantly terminating at gyral crowns instead
+of sulcal banks. This work demonstrates that asymmetric fiber orientation
+distribution functions (AFODFs), computed via a multi-tissue global estimation
+framework, can mitigate the effects of gyral bias, enabling fiber streamlines
+at gyral blades to make sharper turns into the cortical gray matter. We use
+ex-vivo data of an adult rhesus macaque and in-vivo data from the Human
+Connectome Project (HCP) to show that the fiber streamlines given by AFODFs
+bend more naturally into the cortex than the conventional symmetric FODFs in
+typical gyral blades. We demonstrate that AFODF tractography improves
+cortico-cortical connectivity and provides highly consistent outcomes between
+two different field strengths (3T and 7T).

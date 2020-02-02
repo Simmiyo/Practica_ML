@@ -1,0 +1,26 @@
+Estimation of low rank density matrices by Pauli measurements
+Density matrices are positively semi-definite Hermitian matrices with unit
+trace that describe the states of quantum systems. Many quantum systems of
+physical interest can be represented as high-dimensional low rank density
+matrices. A popular problem in {\it quantum state tomography} (QST) is to
+estimate the unknown low rank density matrix of a quantum system by conducting
+Pauli measurements. Our main contribution is twofold. First, we establish the
+minimax lower bounds in Schatten $p$-norms with $1\leq p\leq +\infty$ for low
+rank density matrices estimation by Pauli measurements. In our previous paper,
+these minimax lower bounds are proved under the trace regression model with
+Gaussian noise and the noise is assumed to have common variance. In this paper,
+we prove these bounds under the Binomial observation model which meets the
+actual model in QST.
+  Second, we study the Dantzig estimator (DE) for estimating the unknown low
+rank density matrix under the Binomial observation model by using Pauli
+measurements. In our previous papers, we studied the least squares estimator
+and the projection estimator, where we proved the optimal convergence rates for
+the least squares estimator in Schatten $p$-norms with $1\leq p\leq 2$ and,
+under a stronger condition, the optimal convergence rates for the projection
+estimator in Schatten $p$-norms with $1\leq p\leq +\infty$. In this paper, we
+show that the results of these two distinct estimators can be simultaneously
+obtained by the Dantzig estimator. Moreover, better convergence rates in
+Schatten norm distances can be proved for Dantzig estimator under conditions
+weaker than those needed in previous papers. When the objective function of DE
+is replaced by the negative von Neumann entropy, we obtain sharp convergence
+rate in Kullback-Leibler divergence.

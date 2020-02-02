@@ -1,0 +1,25 @@
+A Generic Approach to Solving Jump Diffusion Equations with Applications
+  to Neural Populations
+Diffusion processes have been applied with great success to model the
+dynamics of large populations throughout science, in particular biology. One
+advantage is that they bridge two different scales: the microscopic and the
+macroscopic one. Diffusion is a mathematical idealisation, however: it assumes
+vanishingly small state changes at the microscopic level. In real biological
+systems this is often not the case. The differential Chapman-Kolmogorov
+equation is more appropriate to model population dynamics that is not well
+described by drift and diffusion alone.
+  Here, the method of characteristics is used to transform deterministic
+dynamics away and find a coordinate frame where this equation reduces to a
+Master equation. There is no longer a drift term, and solution methods there
+are insensitive to density gradients, making the method suitable for jump
+processes with arbitrary jump sizes. Moreover, its solution is universal: it no
+longer depends explicitly on the deterministic system.
+  We demonstrate the technique on simple models of neuronal populations.
+Surprisingly, it is suitable for fast neural dynamics, even though in the new
+coordinate frame state space may expand rapidly towards infinity. We
+demonstrate universality: the method is applicable to any one dimensional
+neural model and show this on populations of leaky- and
+quadratic-integrate-and-fire neurons. In the diffusive limit, excellent
+approximations of Fokker-Planck equations are achieved. Nothing in the approach
+is particular to neuroscience, and the neural models are simple enough to serve
+as an example of dynamical systems that demonstrates the method.

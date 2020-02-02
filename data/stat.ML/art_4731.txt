@@ -1,0 +1,11 @@
+Finding Singular Features
+We present a method for finding high density, low-dimensional structures in
+noisy point clouds. These structures are sets with zero Lebesgue measure with
+respect to the $D$-dimensional ambient space and belong to a $d<D$ dimensional
+space. We call them "singular features." Hunting for singular features
+corresponds to finding unexpected or unknown structures hidden in point clouds
+belonging to $\R^D$. Our method outputs well defined sets of dimensions $d<D$.
+Unlike spectral clustering, the method works well in the presence of noise. We
+show how to find singular features by first finding ridges in the estimated
+density, followed by a filtering step based on the eigenvalues of the Hessian
+of the density.

@@ -1,0 +1,19 @@
+Calibration of One-Class SVM for MV set estimation
+A general approach for anomaly detection or novelty detection consists in
+estimating high density regions or Minimum Volume (MV) sets. The One-Class
+Support Vector Machine (OCSVM) is a state-of-the-art algorithm for estimating
+such regions from high dimensional data. Yet it suffers from practical
+limitations. When applied to a limited number of samples it can lead to poor
+performance even when picking the best hyperparameters. Moreover the solution
+of OCSVM is very sensitive to the selection of hyperparameters which makes it
+hard to optimize in an unsupervised setting. We present a new approach to
+estimate MV sets using the OCSVM with a different choice of the parameter
+controlling the proportion of outliers. The solution function of the OCSVM is
+learnt on a training set and the desired probability mass is obtained by
+adjusting the offset on a test set to prevent overfitting. Models learnt on
+different train/test splits are then aggregated to reduce the variance induced
+by such random splits. Our approach makes it possible to tune the
+hyperparameters automatically and obtain nested set estimates. Experimental
+results show that our approach outperforms the standard OCSVM formulation while
+suffering less from the curse of dimensionality than kernel density estimates.
+Results on actual data sets are also presented.

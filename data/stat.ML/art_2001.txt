@@ -1,0 +1,17 @@
+Learning Dictionaries with Bounded Self-Coherence
+Sparse coding in learned dictionaries has been established as a successful
+approach for signal denoising, source separation and solving inverse problems
+in general. A dictionary learning method adapts an initial dictionary to a
+particular signal class by iteratively computing an approximate factorization
+of a training data matrix into a dictionary and a sparse coding matrix. The
+learned dictionary is characterized by two properties: the coherence of the
+dictionary to observations of the signal class, and the self-coherence of the
+dictionary atoms. A high coherence to the signal class enables the sparse
+coding of signal observations with a small approximation error, while a low
+self-coherence of the atoms guarantees atom recovery and a more rapid residual
+error decay rate for the sparse coding algorithm. The two goals of high signal
+coherence and low self-coherence are typically in conflict, therefore one seeks
+a trade-off between them, depending on the application. We present a dictionary
+learning method with an effective control over the self-coherence of the
+trained dictionary, enabling a trade-off between maximizing the sparsity of
+codings and approximating an equiangular tight frame.

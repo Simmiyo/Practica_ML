@@ -1,0 +1,18 @@
+Unsupervised Learning for Computational Phenotyping
+With large volumes of health care data comes the research area of
+computational phenotyping, making use of techniques such as machine learning to
+describe illnesses and other clinical concepts from the data itself. The
+"traditional" approach of using supervised learning relies on a domain expert,
+and has two main limitations: requiring skilled humans to supply correct labels
+limits its scalability and accuracy, and relying on existing clinical
+descriptions limits the sorts of patterns that can be found. For instance, it
+may fail to acknowledge that a disease treated as a single condition may really
+have several subtypes with different phenotypes, as seems to be the case with
+asthma and heart disease. Some recent papers cite successes instead using
+unsupervised learning. This shows great potential for finding patterns in
+Electronic Health Records that would otherwise be hidden and that can lead to
+greater understanding of conditions and treatments. This work implements a
+method derived strongly from Lasko et al., but implements it in Apache Spark
+and Python and generalizes it to laboratory time-series data in MIMIC-III. It
+is released as an open-source tool for exploration, analysis, and
+visualization, available at https://github.com/Hodapp87/mimic3_phenotyping

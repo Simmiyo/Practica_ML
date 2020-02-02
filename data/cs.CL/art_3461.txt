@@ -1,0 +1,11 @@
+CAESAR: Context Awareness Enabled Summary-Attentive Reader
+Comprehending meaning from natural language is a primary objective of Natural
+Language Processing (NLP), and text comprehension is the cornerstone for
+achieving this objective upon which all other problems like chat bots, language
+translation and others can be achieved. We report a Summary-Attentive Reader we
+designed to better emulate the human reading process, along with a
+dictiontary-based solution regarding out-of-vocabulary (OOV) words in the data,
+to generate answer based on machine comprehension of reading passages and
+question from the SQuAD benchmark. Our implementation of these features with
+two popular models (Match LSTM and Dynamic Coattention) was able to reach close
+to matching the results obtained from humans.

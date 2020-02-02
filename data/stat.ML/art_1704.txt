@@ -1,0 +1,22 @@
+A ROAD to Classification in High Dimensional Space
+For high-dimensional classification, it is well known that naively performing
+the Fisher discriminant rule leads to poor results due to diverging spectra and
+noise accumulation. Therefore, researchers proposed independence rules to
+circumvent the diverse spectra, and sparse independence rules to mitigate the
+issue of noise accumulation. However, in biological applications, there are
+often a group of correlated genes responsible for clinical outcomes, and the
+use of the covariance information can significantly reduce misclassification
+rates. The extent of such error rate reductions is unveiled by comparing the
+misclassification rates of the Fisher discriminant rule and the independence
+rule. To materialize the gain based on finite samples, a Regularized Optimal
+Affine Discriminant (ROAD) is proposed based on a covariance penalty. ROAD
+selects an increasing number of features as the penalization relaxes. Further
+benefits can be achieved when a screening method is employed to narrow the
+feature pool before hitting the ROAD. An efficient Constrained Coordinate
+Descent algorithm (CCD) is also developed to solve the associated optimization
+problems. Sampling properties of oracle type are established. Simulation
+studies and real data analysis support our theoretical results and demonstrate
+the advantages of the new classification procedure under a variety of
+correlation structures. A delicate result on continuous piecewise linear
+solution path for the ROAD optimization problem at the population level
+justifies the linear interpolation of the CCD algorithm.

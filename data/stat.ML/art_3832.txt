@@ -1,0 +1,22 @@
+Shape-aware Surface Reconstruction from Sparse 3D Point-Clouds
+The reconstruction of an object's shape or surface from a set of 3D points
+plays an important role in medical image analysis, e.g. in anatomy
+reconstruction from tomographic measurements or in the process of aligning
+intra-operative navigation and preoperative planning data. In such scenarios,
+one usually has to deal with sparse data, which significantly aggravates the
+problem of reconstruction. However, medical applications often provide
+contextual information about the 3D point data that allow to incorporate prior
+knowledge about the shape that is to be reconstructed. To this end, we propose
+the use of a statistical shape model (SSM) as a prior for surface
+reconstruction. The SSM is represented by a point distribution model (PDM),
+which is associated with a surface mesh. Using the shape distribution that is
+modelled by the PDM, we formulate the problem of surface reconstruction from a
+probabilistic perspective based on a Gaussian Mixture Model (GMM). In order to
+do so, the given points are interpreted as samples of the GMM. By using mixture
+components with anisotropic covariances that are "oriented" according to the
+surface normals at the PDM points, a surface-based fitting is accomplished.
+Estimating the parameters of the GMM in a maximum a posteriori manner yields
+the reconstruction of the surface from the given data points. We compare our
+method to the extensively used Iterative Closest Points method on several
+different anatomical datasets/SSMs (brain, femur, tibia, hip, liver) and
+demonstrate superior accuracy and robustness on sparse data.

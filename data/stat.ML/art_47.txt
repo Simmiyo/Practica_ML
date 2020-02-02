@@ -1,0 +1,16 @@
+KNIFE: Kernel Iterative Feature Extraction
+Selecting important features in non-linear or kernel spaces is a difficult
+challenge in both classification and regression problems. When many of the
+features are irrelevant, kernel methods such as the support vector machine and
+kernel ridge regression can sometimes perform poorly. We propose weighting the
+features within a kernel with a sparse set of weights that are estimated in
+conjunction with the original classification or regression problem. The
+iterative algorithm, KNIFE, alternates between finding the coefficients of the
+original problem and finding the feature weights through kernel linearization.
+In addition, a slight modification of KNIFE yields an efficient algorithm for
+finding feature regularization paths, or the paths of each feature's weight.
+Simulation results demonstrate the utility of KNIFE for both kernel regression
+and support vector machines with a variety of kernels. Feature path
+realizations also reveal important non-linear correlations among features that
+prove useful in determining a subset of significant variables. Results on vowel
+recognition data, Parkinson's disease data, and microarray data are also given.

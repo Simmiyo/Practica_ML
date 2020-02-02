@@ -1,0 +1,14 @@
+Efficient Approximate Solutions to Mutual Information Based Global
+  Feature Selection
+Mutual Information (MI) is often used for feature selection when developing
+classifier models. Estimating the MI for a subset of features is often
+intractable. We demonstrate, that under the assumptions of conditional
+independence, MI between a subset of features can be expressed as the
+Conditional Mutual Information (CMI) between pairs of features. But selecting
+features with the highest CMI turns out to be a hard combinatorial problem. In
+this work, we have applied two unique global methods, Truncated Power Method
+(TPower) and Low Rank Bilinear Approximation (LowRank), to solve the feature
+selection problem. These algorithms provide very good approximations to the
+NP-hard CMI based feature selection problem. We experimentally demonstrate the
+effectiveness of these procedures across multiple datasets and compare them
+with existing MI based global and iterative feature selection procedures.

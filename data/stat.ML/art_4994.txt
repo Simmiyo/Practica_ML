@@ -1,0 +1,25 @@
+DiSMEC - Distributed Sparse Machines for Extreme Multi-label
+  Classification
+Extreme multi-label classification refers to supervised multi-label learning
+involving hundreds of thousands or even millions of labels. Datasets in extreme
+classification exhibit fit to power-law distribution, i.e. a large fraction of
+labels have very few positive instances in the data distribution. Most
+state-of-the-art approaches for extreme multi-label classification attempt to
+capture correlation among labels by embedding the label matrix to a
+low-dimensional linear sub-space. However, in the presence of power-law
+distributed extremely large and diverse label spaces, structural assumptions
+such as low rank can be easily violated.
+  In this work, we present DiSMEC, which is a large-scale distributed framework
+for learning one-versus-rest linear classifiers coupled with explicit capacity
+control to control model size. Unlike most state-of-the-art methods, DiSMEC
+does not make any low rank assumptions on the label matrix. Using double layer
+of parallelization, DiSMEC can learn classifiers for datasets consisting
+hundreds of thousands labels within few hours. The explicit capacity control
+mechanism filters out spurious parameters which keep the model compact in size,
+without losing prediction accuracy. We conduct extensive empirical evaluation
+on publicly available real-world datasets consisting upto 670,000 labels. We
+compare DiSMEC with recent state-of-the-art approaches, including - SLEEC which
+is a leading approach for learning sparse local embeddings, and FastXML which
+is a tree-based approach optimizing ranking based loss function. On some of the
+datasets, DiSMEC can significantly boost prediction accuracies - 10% better
+compared to SLECC and 15% better compared to FastXML, in absolute terms.

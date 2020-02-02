@@ -1,0 +1,11 @@
+Analysis of dropout learning regarded as ensemble learning
+Deep learning is the state-of-the-art in fields such as visual object
+recognition and speech recognition. This learning uses a large number of
+layers, huge number of units, and connections. Therefore, overfitting is a
+serious problem. To avoid this problem, dropout learning is proposed. Dropout
+learning neglects some inputs and hidden units in the learning process with a
+probability, p, and then, the neglected inputs and hidden units are combined
+with the learned network to express the final output. We find that the process
+of combining the neglected hidden units with the learned network can be
+regarded as ensemble learning, so we analyze dropout learning from this point
+of view.

@@ -1,0 +1,20 @@
+How to correctly quantify neuronal phase-response curves from noisy
+  recordings
+At the level of individual neurons, various coding properties can be inferred
+from the input-output relationship of a cell. For small inputs, this relation
+is captured by the phase-response curve (PRC), which measures the effect of a
+small perturbation on the timing of the subsequent spike. Experimentally,
+however, an accurate experimental estimation of PRCs is challenging. Despite
+elaborate measurement efforts, experimental PRC estimates often cannot be
+related to those from modeling studies. In particular, experimental PRCs rarely
+resemble the generic PRC expected close to spike initiation, which is
+indicative of the underlying spike-onset bifurcation. Here, we show for
+conductance-based model neurons that the correspondence between theoretical and
+measured phase-response curve is lost when the stimuli used for the estimation
+are too large. In this case, the derived phase-response curve is distorted
+beyond recognition and takes on a generic shape that reflects the measurement
+protocol, but not the real neuronal dynamics. We discuss how to identify
+appropriate stimulus strengths for perturbation and noise-stimulation methods,
+which permit to estimate PRCs that reliably reflect the spike-onset bifurcation
+-- a task that is particularly difficult if a lower bound for the stimulus
+amplitude is dictated by prominent intrinsic neuronal noise.

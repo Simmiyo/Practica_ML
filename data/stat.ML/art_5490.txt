@@ -1,0 +1,14 @@
+Learning Certifiably Optimal Rule Lists for Categorical Data
+We present the design and implementation of a custom discrete optimization
+technique for building rule lists over a categorical feature space. Our
+algorithm produces rule lists with optimal training performance, according to
+the regularized empirical risk, with a certificate of optimality. By leveraging
+algorithmic bounds, efficient data structures, and computational reuse, we
+achieve several orders of magnitude speedup in time and a massive reduction of
+memory consumption. We demonstrate that our approach produces optimal rule
+lists on practical problems in seconds. Our results indicate that it is
+possible to construct optimal sparse rule lists that are approximately as
+accurate as the COMPAS proprietary risk prediction tool on data from Broward
+County, Florida, but that are completely interpretable. This framework is a
+novel alternative to CART and other decision tree methods for interpretable
+modeling.

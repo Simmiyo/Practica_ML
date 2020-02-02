@@ -1,0 +1,27 @@
+Brain Network Analysis: Separating Cost from Topology using
+  Cost-integration
+A statistically principled way of conducting weighted network analysis is
+still lacking. Comparison of different populations of weighted networks is hard
+because topology is inherently dependent on wiring cost, where cost is defined
+as the number of edges in an unweighted graph. In this paper, we evaluate the
+benefits and limitations associated with using cost-integrated topological
+metrics. Our focus is on comparing populations of weighted undirected graphs
+using global efficiency. We evaluate different approaches to the comparison of
+weighted networks that differ in mean association weight. Our key result shows
+that integrating over cost is equivalent to controlling for any monotonic
+transformation of the weight set of a weighted graph. That is, when integrating
+over cost, we eliminate the differences in topology that may be due to a
+monotonic transformation of the weight set. Our result holds for any unweighted
+topological measure. Cost-integration is therefore helpful in disentangling
+differences in cost from differences in topology. By contrast, we show that the
+use of the weighted version of a topological metric does not constitute a valid
+approach to this problem. Indeed, we prove that, under mild conditions, the use
+of the weighted version of global efficiency is equivalent to simply comparing
+weighted costs. Thus, we recommend the reporting of (i) differences in weighted
+costs and (ii) differences in cost-integrated topological measures. We
+demonstrate the application of these techniques in a re-analysis of an fMRI
+working memory task. Finally, we discuss the limitations of integrating
+topology over cost, which may pose problems when some weights are zero, when
+multiplicities exist in the ranks of the weights, and when one expects subtle
+cost-dependent topological differences, which could be masked by
+cost-integration.

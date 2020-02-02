@@ -1,0 +1,19 @@
+Hypothesis Testing in Speckled Data with Stochastic Distances
+Images obtained with coherent illumination, as is the case of sonar,
+ultrasound-B, laser and Synthetic Aperture Radar -- SAR, are affected by
+speckle noise which reduces the ability to extract information from the data.
+Specialized techniques are required to deal with such imagery, which has been
+modeled by the G0 distribution and under which regions with different degrees
+of roughness and mean brightness can be characterized by two parameters; a
+third parameter, the number of looks, is related to the overall signal-to-noise
+ratio. Assessing distances between samples is an important step in image
+analysis; they provide grounds of the separability and, therefore, of the
+performance of classification procedures. This work derives and compares eight
+stochastic distances and assesses the performance of hypothesis tests that
+employ them and maximum likelihood estimation. We conclude that tests based on
+the triangular distance have the closest empirical size to the theoretical one,
+while those based on the arithmetic-geometric distances have the best power.
+Since the power of tests based on the triangular distance is close to optimum,
+we conclude that the safest choice is using this distance for hypothesis
+testing, even when compared with classical distances as Kullback-Leibler and
+Bhattacharyya.

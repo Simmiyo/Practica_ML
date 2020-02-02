@@ -1,0 +1,19 @@
+Stratified Graphical Models - Context-Specific Independence in Graphical
+  Models
+Theory of graphical models has matured over more than three decades to
+provide the backbone for several classes of models that are used in a myriad of
+applications such as genetic mapping of diseases, credit risk evaluation,
+reliability and computer security, etc. Despite of their generic applicability
+and wide adoptance, the constraints imposed by undirected graphical models and
+Bayesian networks have also been recognized to be unnecessarily stringent under
+certain circumstances. This observation has led to the proposal of several
+generalizations that aim at more relaxed constraints by which the models can
+impose local or context-specific dependence structures. Here we consider an
+additional class of such models, termed as stratified graphical models. We
+develop a method for Bayesian learning of these models by deriving an
+analytical expression for the marginal likelihood of data under a specific
+subclass of decomposable stratified models. A non-reversible Markov chain Monte
+Carlo approach is further used to identify models that are highly supported by
+the posterior distribution over the model space. Our method is illustrated and
+compared with ordinary graphical models through application to several real and
+synthetic datasets.

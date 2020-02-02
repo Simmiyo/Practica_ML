@@ -1,0 +1,18 @@
+Markerless tracking of user-defined features with deep learning
+Quantifying behavior is crucial for many applications in neuroscience.
+Videography provides easy methods for the observation and recording of animal
+behavior in diverse settings, yet extracting particular aspects of a behavior
+for further analysis can be highly time consuming. In motor control studies,
+humans or other animals are often marked with reflective markers to assist with
+computer-based tracking, yet markers are intrusive (especially for smaller
+animals), and the number and location of the markers must be determined a
+priori. Here, we present a highly efficient method for markerless tracking
+based on transfer learning with deep neural networks that achieves excellent
+results with minimal training data. We demonstrate the versatility of this
+framework by tracking various body parts in a broad collection of experimental
+settings: mice odor trail-tracking, egg-laying behavior in drosophila, and
+mouse hand articulation in a skilled forelimb task. For example, during the
+skilled reaching behavior, individual joints can be automatically tracked (and
+a confidence score is reported). Remarkably, even when a small number of frames
+are labeled ($\approx 200$), the algorithm achieves excellent tracking
+performance on test frames that is comparable to human accuracy.

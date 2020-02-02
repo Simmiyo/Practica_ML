@@ -1,0 +1,27 @@
+EEG-assisted Modulation of Sound Sources in the Auditory Scene
+Noninvasive EEG (electroencephalography) based auditory attention detection
+could be useful for improved hearing aids in the future. This work is a novel
+attempt to investigate the feasibility of online modulation of sound sources by
+probabilistic detection of auditory attention, using a noninvasive EEG-based
+brain computer interface. Proposed online system modulates the upcoming sound
+sources through gain adaptation which employs probabilistic decisions (soft
+decisions) from a classifier trained on offline calibration data. In this work,
+calibration EEG data were collected in sessions where the participants listened
+to two sound sources (one attended and one unattended). Cross-correlation
+coefficients between the EEG measurements and the attended and unattended sound
+source envelope (estimates) are used to show differences in sharpness and
+delays of neural responses for attended versus unattended sound source. Salient
+features to distinguish attended sources from the unattended ones in the
+correlation patterns have been identified, and later they have been used to
+train an auditory attention classifier. Compared to the existing results in the
+literature, in this paper we have two main contributions. First, using the
+auditory attention classifier, we have shown high offline detection performance
+with single channel EEG measurements of shorter duration compared to the
+existing approaches in the literature which employ large number of channels
+with longer EEG measurements. Second, using the classifier trained offline in
+the calibration session, we have shown the performance of the online sound
+source modulation system. We observe that online sound source modulation system
+is able to keep the level of attended sound source higher than the unattended
+source.
+  Keywords: auditory BCI, cocktail party problem, auditory attention
+classification

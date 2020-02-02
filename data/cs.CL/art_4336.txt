@@ -1,0 +1,15 @@
+Exploiting Effective Representations for Chinese Sentiment Analysis
+  Using a Multi-Channel Convolutional Neural Network
+Effective representation of a text is critical for various natural language
+processing tasks. For the particular task of Chinese sentiment analysis, it is
+important to understand and choose an effective representation of a text from
+different forms of Chinese representations such as word, character and pinyin.
+This paper presents a systematic study of the effect of these representations
+for Chinese sentiment analysis by proposing a multi-channel convolutional
+neural network (MCCNN), where each channel corresponds to a representation.
+Experimental results show that: (1) Word wins on the dataset of low OOV rate
+while character wins otherwise; (2) Using these representations in combination
+generally improves the performance; (3) The representations based on MCCNN
+outperform conventional ngram features using SVM; (4) The proposed MCCNN model
+achieves the competitive performance against the state-of-the-art model
+fastText for Chinese sentiment analysis.

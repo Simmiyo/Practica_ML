@@ -1,0 +1,8 @@
+On Zeroth-Order Stochastic Convex Optimization via Random Walks
+We propose a method for zeroth order stochastic convex optimization that
+attains the suboptimality rate of $\tilde{\mathcal{O}}(n^{7}T^{-1/2})$ after
+$T$ queries for a convex bounded function $f:{\mathbb R}^n\to{\mathbb R}$. The
+method is based on a random walk (the \emph{Ball Walk}) on the epigraph of the
+function. The randomized approach circumvents the problem of gradient
+estimation, and appears to be less sensitive to noisy function evaluations
+compared to noiseless zeroth order methods.

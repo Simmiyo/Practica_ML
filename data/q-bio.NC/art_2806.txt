@@ -1,0 +1,27 @@
+Deriving reproducible biomarkers from multi-site resting-state data: An
+  Autism-based example
+Resting-state functional Magnetic Resonance Imaging (R-fMRI) holds the
+promise to reveal functional biomarkers of neuropsychiatric disorders. However,
+extracting such biomarkers is challenging for complex multi-faceted
+neuropatholo-gies, such as autism spectrum disorders. Large multi-site datasets
+increase sample sizes to compensate for this complexity, at the cost of
+uncontrolled heterogeneity. This heterogeneity raises new challenges, akin to
+those face in realistic diagnostic applications. Here, we demonstrate the
+feasibility of inter-site classification of neuropsychiatric status, with an
+application to the Autism Brain Imaging Data Exchange (ABIDE) database, a large
+(N=871) multi-site autism dataset. For this purpose, we investigate pipelines
+that extract the most predictive biomarkers from the data. These R-fMRI
+pipelines build participant-specific connectomes from functionally-defined
+brain areas. Connectomes are then compared across participants to learn
+patterns of connectivity that differentiate typical controls from individuals
+with autism. We predict this neuropsychiatric status for participants from the
+same acquisition sites or different, unseen, ones. Good choices of methods for
+the various steps of the pipeline lead to 67% prediction accuracy on the full
+ABIDE data, which is significantly better than previously reported results. We
+perform extensive validation on multiple subsets of the data defined by
+different inclusion criteria. These enables detailed analysis of the factors
+contributing to successful connectome-based prediction. First, prediction
+accuracy improves as we include more subjects, up to the maximum amount of
+subjects available. Second, the definition of functional brain areas is of
+paramount importance for biomarker discovery: brain areas extracted from large
+R-fMRI datasets outperform reference atlases in the classification tasks.

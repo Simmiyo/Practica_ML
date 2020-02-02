@@ -1,0 +1,14 @@
+Stochastic firing rate models
+We review a recent approach to the mean-field limits in neural networks that
+takes into account the stochastic nature of input current and the uncertainty
+in synaptic coupling. This approach was proved to be a rigorous limit of the
+network equations in a general setting, and we express here the results in a
+more customary and simpler framework. We propose a heuristic argument to derive
+these equations providing a more intuitive understanding of their origin. These
+equations are characterized by a strong coupling between the different moments
+of the solutions. We analyse the equations, present an algorithm to simulate
+the solutions of these mean-field equations, and investigate numerically the
+equations. In particular, we build a bridge between these equations and
+Sompolinsky and collaborators approach (1988, 1990), and show how the coupling
+between the mean and the covariance function deviates from customary
+approaches.

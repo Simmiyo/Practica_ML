@@ -1,0 +1,10 @@
+Advances in All-Neural Speech Recognition
+This paper advances the design of CTC-based all-neural (or end-to-end) speech
+recognizers. We propose a novel symbol inventory, and a novel iterated-CTC
+method in which a second system is used to transform a noisy initial output
+into a cleaner version. We present a number of stabilization and initialization
+methods we have found useful in training these networks. We evaluate our system
+on the commonly used NIST 2000 conversational telephony test set, and
+significantly exceed the previously published performance of similar systems,
+both with and without the use of an external language model and decoding
+technology.

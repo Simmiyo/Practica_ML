@@ -1,0 +1,19 @@
+Feed-forward approximations to dynamic recurrent network architectures
+Recurrent neural network architectures can have useful computational
+properties, with complex temporal dynamics and input-sensitive attractor
+states. However, evaluation of recurrent dynamic architectures requires
+solution of systems of differential equations, and the number of evaluations
+required to determine their response to a given input can vary with the input,
+or can be indeterminate altogether in the case of oscillations or instability.
+In feed-forward networks, by contrast, only a single pass through the network
+is needed to determine the response to a given input. Modern machine-learning
+systems are designed to operate efficiently on feed-forward architectures. We
+hypothesised that two-layer feedforward architectures with simple,
+deterministic dynamics could approximate the responses of single-layer
+recurrent network architectures. By identifying the fixed-point responses of a
+given recurrent network, we trained two-layer networks to directly approximate
+the fixed-point response to a given input. These feed-forward networks then
+embodied useful computations, including competitive interactions, information
+transformations and noise rejection. Our approach was able to find useful
+approximations to recurrent networks, which can then be evaluated in linear and
+deterministic time complexity.

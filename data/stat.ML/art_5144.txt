@@ -1,0 +1,20 @@
+Constructing Effective Personalized Policies Using Counterfactual
+  Inference from Biased Data Sets with Many Features
+This paper proposes a novel approach for constructing effective personalized
+policies when the observed data lacks counter-factual information, is biased
+and possesses many features. The approach is applicable in a wide variety of
+settings from healthcare to advertising to education to finance. These settings
+have in common that the decision maker can observe, for each previous instance,
+an array of features of the instance, the action taken in that instance, and
+the reward realized -- but not the rewards of actions that were not taken: the
+counterfactual information. Learning in such settings is made even more
+difficult because the observed data is typically biased by the existing policy
+(that generated the data) and because the array of features that might affect
+the reward in a particular instance -- and hence should be taken into account
+in deciding on an action in each particular instance -- is often vast. The
+approach presented here estimates propensity scores for the observed data,
+infers counterfactuals, identifies a (relatively small) number of features that
+are (most) relevant for each possible action and instance, and prescribes a
+policy to be followed. Comparison of the proposed algorithm against the
+state-of-art algorithm on actual datasets demonstrates that the proposed
+algorithm achieves a significant improvement in performance.

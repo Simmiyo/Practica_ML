@@ -1,0 +1,24 @@
+Efficient Reinforcement Learning via Initial Pure Exploration
+In several realistic situations, an interactive learning agent can practice
+and refine its strategy before going on to be evaluated. For instance, consider
+a student preparing for a series of tests. She would typically take a few
+practice tests to know which areas she needs to improve upon. Based of the
+scores she obtains in these practice tests, she would formulate a strategy for
+maximizing her scores in the actual tests. We treat this scenario in the
+context of an agent exploring a fixed-horizon episodic Markov Decision Process
+(MDP), where the agent can practice on the MDP for some number of episodes (not
+necessarily known in advance) before starting to incur regret for its actions.
+  During practice, the agent's goal must be to maximize the probability of
+following an optimal policy. This is akin to the problem of Pure Exploration
+(PE). We extend the PE problem of Multi Armed Bandits (MAB) to MDPs and propose
+a Bayesian algorithm called Posterior Sampling for Pure Exploration (PSPE),
+which is similar to its bandit counterpart. We show that the Bayesian simple
+regret converges at an optimal exponential rate when using PSPE.
+  When the agent starts being evaluated, its goal would be to minimize the
+cumulative regret incurred. This is akin to the problem of Reinforcement
+Learning (RL). The agent uses the Posterior Sampling for Reinforcement Learning
+algorithm (PSRL) initialized with the posteriors of the practice phase. We
+hypothesize that this PSPE + PSRL combination is an optimal strategy for
+minimizing regret in RL problems with an initial practice phase. We show
+empirical results which prove that having a lower simple regret at the end of
+the practice phase results in having lower cumulative regret during evaluation.

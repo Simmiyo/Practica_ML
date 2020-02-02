@@ -1,0 +1,23 @@
+An Analysis of How Spatiotemporal Dynamic Models of Brain Activity Could
+  Improve MEG/EEG Inverse Solutions
+MEG and EEG are noninvasive functional neuroimaging techniques that provide
+recordings of brain activity with high temporal resolution, and thus provide a
+unique window to study fast time-scale neural dynamics in humans. However, the
+accuracy of brain activity estimates resulting from these data is limited
+mainly because 1) the number of sensors is much smaller than the number of
+sources, and 2) the low sensitivity of the recording device to deep or radially
+oriented sources. These factors limit the number of sources that can be
+recovered and bias estimates to superficial cortical areas, resulting in the
+need to include a priori information about the source activity. The question of
+how to specify this information and how it might lead to improved solutions
+remains a critical open problem. In this paper we show that the incorporation
+of knowledge about the brain's underlying connectivity and spatiotemporal
+dynamics could dramatically improve inverse solutions. To do this, we develop
+the concept of the \textit{dynamic lead field mapping}, which expresses how
+information about source activity at a given time is mapped not only to the
+immediate measurement, but to a time series of measurements. With this mapping
+we show that the number of source parameters that can be recovered could
+increase by up to a factor of ${\sim20}$, and that such improvement is
+primarily represented by deep cortical areas. Our result implies that future
+developments in MEG/EEG analysis that model spatialtemporal dynamics have the
+potential to dramatically increase source resolution.

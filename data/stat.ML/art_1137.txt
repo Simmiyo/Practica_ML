@@ -1,0 +1,16 @@
+Transfer Learning via Latent Factor Modeling to Improve Prediction of
+  Surgical Complications
+We aim to create a framework for transfer learning using latent factor models
+to learn the dependence structure between a larger source dataset and a target
+dataset. The methodology is motivated by our goal of building a risk-assessment
+model for surgery patients, using both institutional and national surgical
+outcomes data. The national surgical outcomes data is collected through NSQIP
+(National Surgery Quality Improvement Program), a database housing almost 4
+million patients from over 700 different hospitals. We build a latent factor
+model with a hierarchical prior on the loadings matrix to appropriately account
+for the different covariance structure in our data. We extend this model to
+handle more complex relationships between the populations by deriving a scale
+mixture formulation using stick-breaking properties. Our model provides a
+transfer learning framework that utilizes all information from both the source
+and target data, while modeling the underlying inherent differences between
+them.

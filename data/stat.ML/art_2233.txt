@@ -1,0 +1,26 @@
+Rank Centrality: Ranking from Pair-wise Comparisons
+The question of aggregating pair-wise comparisons to obtain a global ranking
+over a collection of objects has been of interest for a very long time: be it
+ranking of online gamers (e.g. MSR's TrueSkill system) and chess players,
+aggregating social opinions, or deciding which product to sell based on
+transactions. In most settings, in addition to obtaining a ranking, finding
+`scores' for each object (e.g. player's rating) is of interest for
+understanding the intensity of the preferences.
+  In this paper, we propose Rank Centrality, an iterative rank aggregation
+algorithm for discovering scores for objects (or items) from pair-wise
+comparisons. The algorithm has a natural random walk interpretation over the
+graph of objects with an edge present between a pair of objects if they are
+compared; the score, which we call Rank Centrality, of an object turns out to
+be its stationary probability under this random walk. To study the efficacy of
+the algorithm, we consider the popular Bradley-Terry-Luce (BTL) model
+(equivalent to the Multinomial Logit (MNL) for pair-wise comparisons) in which
+each object has an associated score which determines the probabilistic outcomes
+of pair-wise comparisons between objects. In terms of the pair-wise marginal
+probabilities, which is the main subject of this paper, the MNL model and the
+BTL model are identical. We bound the finite sample error rates between the
+scores assumed by the BTL model and those estimated by our algorithm. In
+particular, the number of samples required to learn the score well with high
+probability depends on the structure of the comparison graph. When the
+Laplacian of the comparison graph has a strictly positive spectral gap, e.g.
+each item is compared to a subset of randomly chosen items, this leads to
+dependence on the number of samples that is nearly order-optimal.

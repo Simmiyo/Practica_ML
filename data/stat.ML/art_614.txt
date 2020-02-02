@@ -1,0 +1,15 @@
+Robust Structured Low-Rank Approximation on the Grassmannian
+Over the past years Robust PCA has been established as a standard tool for
+reliable low-rank approximation of matrices in the presence of outliers.
+Recently, the Robust PCA approach via nuclear norm minimization has been
+extended to matrices with linear structures which appear in applications such
+as system identification and data series analysis. At the same time it has been
+shown how to control the rank of a structured approximation via matrix
+factorization approaches. The drawbacks of these methods either lie in the lack
+of robustness against outliers or in their static nature of repeated
+batch-processing. We present a Robust Structured Low-Rank Approximation method
+on the Grassmannian that on the one hand allows for fast re-initialization in
+an online setting due to subspace identification with manifolds, and that is
+robust against outliers due to a smooth approximation of the $\ell_p$-norm cost
+function on the other hand. The method is evaluated in online time series
+forecasting tasks on simulated and real-world data.

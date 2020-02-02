@@ -1,0 +1,27 @@
+Analytic tractography: A closed-form solution for estimating local white
+  matter connectivity with diffusion MRI
+White matter structures composed of myelinated axons in the living human
+brain are primarily studied by diffusion-weighted MRI (dMRI). These long-range
+projections are typically characterized in a two-step process: dMRI is used to
+estimate the orientation of axons within each voxel, then these local
+orientations are linked together to estimate the spatial extent of putative
+white matter bundles. Tractography, the process of tracing bundles across
+voxels, either requires computationally expensive (probabilistic) simulations
+to model uncertainty in fiber orientation or ignores it completely
+(deterministic). Probabilistic simulation necessarily generates a finite number
+of trajectories, introducing "simulation error" to trajectory estimates. Here
+we introduce a method to analytically (via a closed-form solution) take an
+orientation distribution function (ODF) from each voxel and calculate the
+probabilities that a trajectory projects from a voxel into each directly
+adjacent voxel. We validate our method by demonstrating that probabilistic
+simulations converge to our analytically computed probabilities at the voxel
+level as the number of simulated seeds increases. We show that our method
+accurately calculates the ground-truth transition probabilities from a phantom
+dataset. As a demonstration, we incoroporate our analytic method for voxel
+transition probabilities into the Voxel Graph framework, creating a
+quantitative framework for assessing white matter structure that we call
+"analytic tractography". The long-range connectivity problem is reduced to
+finding paths in a graph whose adjacency structure reflects voxel-to-voxel
+analytic transition probabilities. We demonstrate this approach performs
+comparably to many current probabilistic and deterministic approaches at a
+fraction of the computational cost. Open source software software is provided.

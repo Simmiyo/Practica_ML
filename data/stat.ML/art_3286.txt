@@ -1,0 +1,19 @@
+Active Authentication on Mobile Devices via Stylometry, Application
+  Usage, Web Browsing, and GPS Location
+Active authentication is the problem of continuously verifying the identity
+of a person based on behavioral aspects of their interaction with a computing
+device. In this study, we collect and analyze behavioral biometrics data from
+200subjects, each using their personal Android mobile device for a period of at
+least 30 days. This dataset is novel in the context of active authentication
+due to its size, duration, number of modalities, and absence of restrictions on
+tracked activity. The geographical colocation of the subjects in the study is
+representative of a large closed-world environment such as an organization
+where the unauthorized user of a device is likely to be an insider threat:
+coming from within the organization. We consider four biometric modalities: (1)
+text entered via soft keyboard, (2) applications used, (3) websites visited,
+and (4) physical location of the device as determined from GPS (when outdoors)
+or WiFi (when indoors). We implement and test a classifier for each modality
+and organize the classifiers as a parallel binary decision fusion architecture.
+We are able to characterize the performance of the system with respect to
+intruder detection time and to quantify the contribution of each modality to
+the overall performance.

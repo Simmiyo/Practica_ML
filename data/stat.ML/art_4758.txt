@@ -1,0 +1,15 @@
+A moment-matching Ferguson and Klass algorithm
+Completely random measures (CRM) represent the key building block of a wide
+variety of popular stochastic models and play a pivotal role in modern Bayesian
+Nonparametrics. A popular representation of CRMs as a random series with
+decreasing jumps is due to Ferguson and Klass (1972). This can immediately be
+turned into an algorithm for sampling realizations of CRMs or more elaborate
+models involving transformed CRMs. However, concrete implementation requires to
+truncate the random series at some threshold resulting in an approximation
+error. The goal of this paper is to quantify the quality of the approximation
+by a moment-matching criterion, which consists in evaluating a measure of
+discrepancy between actual moments and moments based on the simulation output.
+Seen as a function of the truncation level, the methodology can be used to
+determine the truncation level needed to reach a certain level of precision.
+The resulting moment-matching \FK algorithm is then implemented and illustrated
+on several popular Bayesian nonparametric models.

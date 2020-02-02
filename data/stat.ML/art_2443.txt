@@ -1,0 +1,23 @@
+K-Nearest Neighbour algorithm coupled with logistic regression in
+  medical case-based reasoning systems. Application to prediction of access to
+  the renal transplant waiting list in Brittany
+Introduction. Case Based Reasoning (CBR) is an emerg- ing decision making
+paradigm in medical research where new cases are solved relying on previously
+solved similar cases. Usually, a database of solved cases is provided, and
+every case is described through a set of attributes (inputs) and a label
+(output). Extracting useful information from this database can help the CBR
+system providing more reliable results on the yet to be solved cases.
+Objective. For that purpose we suggest a general frame- work where a CBR
+system, viz. K-Nearest Neighbor (K-NN) algorithm, is combined with various
+information obtained from a Logistic Regression (LR) model. Methods. LR is
+applied, on the case database, to assign weights to the attributes as well as
+the solved cases. Thus, five possible decision making systems based on K-NN
+and/or LR were identified: a standalone K-NN, a standalone LR and three soft
+K-NN algorithms that rely on the weights based on the results of the LR. The
+evaluation of the described approaches is performed in the field of renal
+transplant access waiting list. Results and conclusion. The results show that
+our suggested approach, where the K-NN algorithm relies on both weighted
+attributes and cases, can efficiently deal with non relevant attributes,
+whereas the four other approaches suffer from this kind of noisy setups. The
+robustness of this approach suggests interesting perspectives for medical
+problem solving tools using CBR methodology.

@@ -1,0 +1,18 @@
+Cost-Sensitive Label Embedding for Multi-Label Classification
+Label embedding (LE) is an important family of multi-label classification
+algorithms that digest the label information jointly for better performance.
+Different real-world applications evaluate performance by different cost
+functions of interest. Current LE algorithms often aim to optimize one specific
+cost function, but they can suffer from bad performance with respect to other
+cost functions. In this paper, we resolve the performance issue by proposing a
+novel cost-sensitive LE algorithm that takes the cost function of interest into
+account. The proposed algorithm, cost-sensitive label embedding with
+multidimensional scaling (CLEMS), approximates the cost information with the
+distances of the embedded vectors by using the classic multidimensional scaling
+approach for manifold learning. CLEMS is able to deal with both symmetric and
+asymmetric cost functions, and effectively makes cost-sensitive decisions by
+nearest-neighbor decoding within the embedded vectors. We derive theoretical
+results that justify how CLEMS achieves the desired cost-sensitivity.
+Furthermore, extensive experimental results demonstrate that CLEMS is
+significantly better than a wide spectrum of existing LE algorithms and
+state-of-the-art cost-sensitive algorithms across different cost functions.

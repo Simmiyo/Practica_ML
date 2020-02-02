@@ -1,0 +1,15 @@
+Multi-physics simulations using a hierarchical interchangeable software
+  interface
+We introduce a general-purpose framework for interconnecting scientific
+simulation programs using a homogeneous, unified software interface. Our
+framework is intrinsically parallel, and conveniently separates all components
+in memory. It performs unit conversion between different modules automatically
+and defines common data structures to communicate across different codes. We
+use the framework to simulate embedded star clusters. For this purpose we
+couple solvers for gravitational dynamics, stellar evolution and hydrodynamics
+to self consistently resolve the dynamical evolution simultaneousy with the
+internal nuclear evolution of the stars and the hydrodynamic response of the
+gas. We find, in contrast to earlier studies, that the survival of a young star
+cluster depends only weakly on the efficiency of star formation. The main
+reason for this weak dependency is the asymmetric expulsion of the embedding
+gas from the cluster.

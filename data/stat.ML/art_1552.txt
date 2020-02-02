@@ -1,0 +1,16 @@
+Learning Weighted Representations for Generalization Across Designs
+Predictive models that generalize well under distributional shift are often
+desirable and sometimes crucial to building robust and reliable machine
+learning applications. We focus on distributional shift that arises in causal
+inference from observational data and in unsupervised domain adaptation. We
+pose both of these problems as prediction under a shift in design. Popular
+methods for overcoming distributional shift make unrealistic assumptions such
+as having a well-specified model or knowing the policy that gave rise to the
+observed data. Other methods are hindered by their need for a pre-specified
+metric for comparing observations, or by poor asymptotic properties. We devise
+a bound on the generalization error under design shift, incorporating both
+representation learning and sample re-weighting. Based on the bound, we propose
+an algorithmic framework that does not require any of the above assumptions and
+which is asymptotically consistent. We empirically study the new framework
+using two synthetic datasets, and demonstrate its effectiveness compared to
+previous methods.

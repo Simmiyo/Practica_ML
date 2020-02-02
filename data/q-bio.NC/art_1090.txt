@@ -1,0 +1,22 @@
+A Neuro-Fuzzy Model of Time-Varying Decision Boundaries
+In a recent study, we reported the results of a new decision making paradigm
+in which the participants were asked to balance between their speed and
+accuracy to maximize the total reward they achieve during the experiment. The
+results of computational modeling provided strong evidence suggesting that the
+participants used time-varying decision boundaries. Previous theoretical
+studies of the optimal speed-accuracy trade-off suggested that the participants
+may learn to use these time-varying boundaries to maximize their average reward
+rate. The results in our experiment, however, showed that the participants used
+such boundaries even at the beginning of the experiment and without any prior
+experience in the task. In this paper, we hypothesize that these boundaries are
+the results of using some heuristic rules to make decisions in the task. To
+formulate decision making by these heuristic rules as a computational
+framework, we use the fuzzy logic theory. Based on this theory, we propose a
+new computational framework for decision making in evidence accumulation tasks.
+In this framework, there is no explicit decision boundary. Instead, the
+subject's desire to stop accumulating evidence and responding at each moment
+within a trial and for a given value of the accumulated evidence, is determined
+by a set of fuzzy "IF-TEHN rules". We then use the back-propagation method to
+derive an algorithm for fitting the fuzzy model to each participant's data. We
+then investigate how the difference in the participants' performance in the
+experiment is reflected in the difference in the parameters of the fitted model

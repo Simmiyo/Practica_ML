@@ -1,0 +1,12 @@
+Advancing Connectionist Temporal Classification With Attention Modeling
+In this study, we propose advancing all-neural speech recognition by directly
+incorporating attention modeling within the Connectionist Temporal
+Classification (CTC) framework. In particular, we derive new context vectors
+using time convolution features to model attention as part of the CTC network.
+To further improve attention modeling, we utilize content information extracted
+from a network representing an implicit language model. Finally, we introduce
+vector based attention weights that are applied on context vectors across both
+time and their individual components. We evaluate our system on a 3400 hours
+Microsoft Cortana voice assistant task and demonstrate that our proposed model
+consistently outperforms the baseline model achieving about 20% relative
+reduction in word error rates.

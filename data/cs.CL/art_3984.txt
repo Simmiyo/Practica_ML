@@ -1,0 +1,13 @@
+Graph-based Filtering of Out-of-Vocabulary Words for Encoder-Decoder
+  Models
+Encoder-decoder models typically only employ words that are frequently used
+in the training corpus to reduce the computational costs and exclude noise.
+However, this vocabulary set may still include words that interfere with
+learning in encoder-decoder models. This paper proposes a method for selecting
+more suitable words for learning encoders by utilizing not only frequency, but
+also co-occurrence information, which we capture using the HITS algorithm. We
+apply our proposed method to two tasks: machine translation and grammatical
+error correction. For Japanese-to-English translation, this method achieves a
+BLEU score that is 0.56 points more than that of a baseline. It also
+outperforms the baseline method for English grammatical error correction, with
+an F0.5-measure that is 1.48 points higher.

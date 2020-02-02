@@ -1,0 +1,19 @@
+Monte Carlo Planning method estimates planning horizons during
+  interactive social exchange
+Reciprocating interactions represent a central feature of all human
+exchanges. They have been the target of various recent experiments, with
+healthy participants and psychiatric populations engaging as dyads in
+multi-round exchanges such as a repeated trust task. Behaviour in such
+exchanges involves complexities related to each agent's preference for equity
+with their partner, beliefs about the partner's appetite for equity, beliefs
+about the partner's model of their partner, and so on. Agents may also plan
+different numbers of steps into the future. Providing a computationally precise
+account of the behaviour is an essential step towards understanding what
+underlies choices. A natural framework for this is that of an interactive
+partially observable Markov decision process (IPOMDP). However, the various
+complexities make IPOMDPs inordinately computationally challenging. Here, we
+show how to approximate the solution for the multi-round trust task using a
+variant of the Monte-Carlo tree search algorithm. We demonstrate that the
+algorithm is efficient and effective, and therefore can be used to invert
+observations of behavioural choices. We use generated behaviour to elucidate
+the richness and sophistication of interactive inference.

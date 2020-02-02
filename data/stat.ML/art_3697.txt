@@ -1,0 +1,15 @@
+Explaining reviews and ratings with PACO: Poisson Additive Co-Clustering
+Understanding a user's motivations provides valuable information beyond the
+ability to recommend items. Quite often this can be accomplished by perusing
+both ratings and review texts, since it is the latter where the reasoning for
+specific preferences is explicitly expressed.
+  Unfortunately matrix factorization approaches to recommendation result in
+large, complex models that are difficult to interpret and give recommendations
+that are hard to clearly explain to users. In contrast, in this paper, we
+attack this problem through succinct additive co-clustering. We devise a novel
+Bayesian technique for summing co-clusterings of Poisson distributions. With
+this novel technique we propose a new Bayesian model for joint collaborative
+filtering of ratings and text reviews through a sum of simple co-clusterings.
+The simple structure of our model yields easily interpretable recommendations.
+Even with a simple, succinct structure, our model outperforms competitors in
+terms of predicting ratings with reviews.

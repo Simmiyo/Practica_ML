@@ -1,0 +1,23 @@
+Effect of dilution in asymmetric recurrent neural networks
+We study with numerical simulation the possible limit behaviors of
+synchronous discrete-time deterministic recurrent neural networks composed of N
+binary neurons as a function of a network's level of dilution and asymmetry.
+The network dilution measures the fraction of neuron couples that are
+connected, and the network asymmetry measures to what extent the underlying
+connectivity matrix is asymmetric. For each given neural network, we study the
+dynamical evolution of all the different initial conditions, thus
+characterizing the full dynamical landscape without imposing any learning rule.
+Because of the deterministic dynamics, each trajectory converges to an
+attractor, that can be either a fixed point or a limit cycle. These attractors
+form the set of all the possible limit behaviors of the neural network. For
+each network, we then determine the convergence times, the limit cycles'
+length, the number of attractors, and the sizes of the attractors' basin. We
+show that there are two network structures that maximize the number of possible
+limit behaviors. The first optimal network structure is fully-connected and
+symmetric. On the contrary, the second optimal network structure is highly
+sparse and asymmetric. The latter optimal is similar to what observed in
+different biological neuronal circuits. These observations lead us to
+hypothesize that independently from any given learning model, an efficient and
+effective biologic network that stores a number of limit behaviors close to its
+maximum capacity tends to develop a connectivity structure similar to one of
+the optimal networks we found.

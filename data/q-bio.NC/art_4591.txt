@@ -1,0 +1,23 @@
+Demonstrating Hybrid Learning in a Flexible Neuromorphic Hardware System
+We present results from a new approach to learning and plasticity in
+neuromorphic hardware systems: to enable flexibility in implementable learning
+mechanisms while keeping high efficiency associated with neuromorphic
+implementations, we combine a general-purpose processor with full-custom analog
+elements.
+  This processor is operating in parallel with a fully parallel neuromorphic
+system consisting of an array of synapses connected to analog, continuous time
+neuron circuits. Novel analog correlation sensor circuits process spike events
+for each synapse in parallel and in real-time.
+  The processor uses this pre-processing to compute new weights possibly using
+additional information following its program.
+  Therefore, learning rules can be defined in software giving a large degree of
+flexibility.
+  Synapses realize correlation detection geared towards Spike-Timing Dependent
+Plasticity (STDP) as central computational primitive in the analog domain.
+  Operating at a speed-up factor of 1000 compared to biological time-scale, we
+measure time-constants from tens to hundreds of micro-seconds.
+  We analyze variability across multiple chips and demonstrate learning using a
+multiplicative STDP rule.
+  We conclude, that the presented approach will enable flexible and efficient
+learning as a platform for neuroscientific research and technological
+applications.

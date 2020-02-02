@@ -1,0 +1,22 @@
+Feature Selection via Binary Simultaneous Perturbation Stochastic
+  Approximation
+Feature selection (FS) has become an indispensable task in dealing with
+today's highly complex pattern recognition problems with massive number of
+features. In this study, we propose a new wrapper approach for FS based on
+binary simultaneous perturbation stochastic approximation (BSPSA). This
+pseudo-gradient descent stochastic algorithm starts with an initial feature
+vector and moves toward the optimal feature vector via successive iterations.
+In each iteration, the current feature vector's individual components are
+perturbed simultaneously by random offsets from a qualified probability
+distribution. We present computational experiments on datasets with numbers of
+features ranging from a few dozens to thousands using three widely-used
+classifiers as wrappers: nearest neighbor, decision tree, and linear support
+vector machine. We compare our methodology against the full set of features as
+well as a binary genetic algorithm and sequential FS methods using
+cross-validated classification error rate and AUC as the performance criteria.
+Our results indicate that features selected by BSPSA compare favorably to
+alternative methods in general and BSPSA can yield superior feature sets for
+datasets with tens of thousands of features by examining an extremely small
+fraction of the solution space. We are not aware of any other wrapper FS
+methods that are computationally feasible with good convergence properties for
+such large datasets.

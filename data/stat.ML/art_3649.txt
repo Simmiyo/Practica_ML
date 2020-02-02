@@ -1,0 +1,20 @@
+Model-based Dashboards for Customer Analytics
+Automating the customer analytics process is crucial for companies that
+manage distinct customer bases. In such data-rich and dynamic environments,
+visualization plays a key role in understanding events of interest. These ideas
+have led to the popularity of analytics dashboards, yet academic research has
+paid scant attention to these managerial needs. We develop a probabilistic,
+nonparametric framework for understanding and predicting individual-level
+spending using Gaussian process priors over latent functions that describe
+customer spending along calendar time, interpurchase time, and customer
+lifetime dimensions. These curves form a dashboard that provides a visual
+model-based representation of purchasing dynamics that is easily
+comprehensible. The model flexibly and automatically captures the form and
+duration of the impact of events that influence spend propensity, even when
+such events are unknown a-priori. We illustrate the use of our Gaussian Process
+Propensity Model (GPPM) on data from two popular mobile games. We show that the
+GPPM generalizes hazard and buy-till-you-die models by incorporating calendar
+time dynamics while simultaneously accounting for recency and lifetime effects.
+It therefore provides insights about spending propensity beyond those available
+from these models. Finally, we show that the GPPM outperforms these benchmarks
+both in fitting and forecasting real and simulated spend data.

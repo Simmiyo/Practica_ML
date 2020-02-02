@@ -1,0 +1,17 @@
+A latent shared-component generative model for real-time disease
+  surveillance using Twitter data
+Exploiting the large amount of available data for addressing relevant social
+problems has been one of the key challenges in data mining. Such efforts have
+been recently named "data science for social good" and attracted the attention
+of several researchers and institutions. We give a contribution in this
+objective in this paper considering a difficult public health problem, the
+timely monitoring of dengue epidemics in small geographical areas. We develop a
+generative simple yet effective model to connect the fluctuations of disease
+cases and disease-related Twitter posts. We considered a hidden Markov process
+driving both, the fluctuations in dengue reported cases and the tweets issued
+in each region. We add a stable but random source of tweets to represent the
+posts when no disease cases are recorded. The model is learned through a Markov
+chain Monte Carlo algorithm that produces the posterior distribution of the
+relevant parameters. Using data from a significant number of large Brazilian
+towns, we demonstrate empirically that our model is able to predict well the
+next weeks of the disease counts using the tweets and disease cases jointly.

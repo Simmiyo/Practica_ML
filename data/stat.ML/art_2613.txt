@@ -1,0 +1,12 @@
+Convex Relaxations of Bregman Divergence Clustering
+Although many convex relaxations of clustering have been proposed in the past
+decade, current formulations remain restricted to spherical Gaussian or
+discriminative models and are susceptible to imbalanced clusters. To address
+these shortcomings, we propose a new class of convex relaxations that can be
+flexibly applied to more general forms of Bregman divergence clustering. By
+basing these new formulations on normalized equivalence relations we retain
+additional control on relaxation quality, which allows improvement in
+clustering quality. We furthermore develop optimization methods that improve
+scalability by exploiting recent implicit matrix norm methods. In practice, we
+find that the new formulations are able to efficiently produce tighter
+clusterings that improve the accuracy of state of the art methods.

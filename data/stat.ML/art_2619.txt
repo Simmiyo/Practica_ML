@@ -1,0 +1,18 @@
+Inverse Covariance Estimation for High-Dimensional Data in Linear Time
+  and Space: Spectral Methods for Riccati and Sparse Models
+We propose maximum likelihood estimation for learning Gaussian graphical
+models with a Gaussian (ell_2^2) prior on the parameters. This is in contrast
+to the commonly used Laplace (ell_1) prior for encouraging sparseness. We show
+that our optimization problem leads to a Riccati matrix equation, which has a
+closed form solution. We propose an efficient algorithm that performs a
+singular value decomposition of the training data. Our algorithm is
+O(NT^2)-time and O(NT)-space for N variables and T samples. Our method is
+tailored to high-dimensional problems (N gg T), in which sparseness promoting
+methods become intractable. Furthermore, instead of obtaining a single solution
+for a specific regularization parameter, our algorithm finds the whole solution
+path. We show that the method has logarithmic sample complexity under the
+spiked covariance model. We also propose sparsification of the dense solution
+with provable performance guarantees. We provide techniques for using our
+learnt models, such as removing unimportant variables, computing likelihoods
+and conditional distributions. Finally, we show promising results in several
+gene expressions datasets.

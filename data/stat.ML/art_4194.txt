@@ -1,0 +1,14 @@
+Local Feature Descriptor Learning with Adaptive Siamese Network
+Although the recent progress in the deep neural network has led to the
+development of learnable local feature descriptors, there is no explicit answer
+for estimation of the necessary size of a neural network. Specifically, the
+local feature is represented in a low dimensional space, so the neural network
+should have more compact structure. The small networks required for local
+feature descriptor learning may be sensitive to initial conditions and learning
+parameters and more likely to become trapped in local minima. In order to
+address the above problem, we introduce an adaptive pruning Siamese
+Architecture based on neuron activation to learn local feature descriptors,
+making the network more computationally efficient with an improved recognition
+rate over more complex networks. Our experiments demonstrate that our learned
+local feature descriptors outperform the state-of-art methods in patch
+matching.

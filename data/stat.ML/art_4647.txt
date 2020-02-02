@@ -1,0 +1,19 @@
+Personalized Risk Scoring for Critical Care Patients using Mixtures of
+  Gaussian Process Experts
+We develop a personalized real time risk scoring algorithm that provides
+timely and granular assessments for the clinical acuity of ward patients based
+on their (temporal) lab tests and vital signs. Heterogeneity of the patients
+population is captured via a hierarchical latent class model. The proposed
+algorithm aims to discover the number of latent classes in the patients
+population, and train a mixture of Gaussian Process (GP) experts, where each
+expert models the physiological data streams associated with a specific class.
+Self-taught transfer learning is used to transfer the knowledge of latent
+classes learned from the domain of clinically stable patients to the domain of
+clinically deteriorating patients. For new patients, the posterior beliefs of
+all GP experts about the patient's clinical status given her physiological data
+stream are computed, and a personalized risk score is evaluated as a weighted
+average of those beliefs, where the weights are learned from the patient's
+hospital admission information. Experiments on a heterogeneous cohort of 6,313
+patients admitted to Ronald Regan UCLA medical center show that our risk score
+outperforms the currently deployed risk scores, such as MEWS and Rothman
+scores.

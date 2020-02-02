@@ -1,0 +1,14 @@
+Multiple Retrieval Models and Regression Models for Prior Art Search
+This paper presents the system called PATATRAS (PATent and Article Tracking,
+Retrieval and AnalysiS) realized for the IP track of CLEF 2009. Our approach
+presents three main characteristics: 1. The usage of multiple retrieval models
+(KL, Okapi) and term index definitions (lemma, phrase, concept) for the three
+languages considered in the present track (English, French, German) producing
+ten different sets of ranked results. 2. The merging of the different results
+based on multiple regression models using an additional validation set created
+from the patent collection. 3. The exploitation of patent metadata and of the
+citation structures for creating restricted initial working sets of patents and
+for producing a final re-ranking regression model. As we exploit specific
+metadata of the patent documents and the citation relations only at the
+creation of initial working sets and during the final post ranking step, our
+architecture remains generic and easy to extend.

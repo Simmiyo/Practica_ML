@@ -1,0 +1,16 @@
+Direct White Matter Bundle Segmentation using Stacked U-Nets
+The state-of-the-art method for automatically segmenting white matter bundles
+in diffusion-weighted MRI is tractography in conjunction with streamline
+cluster selection. This process involves long chains of processing steps which
+are not only computationally expensive but also complex to setup and tedious
+with respect to quality control. Direct bundle segmentation methods treat the
+task as a traditional image segmentation problem. While they so far did not
+deliver competitive results, they can potentially mitigate many of the
+mentioned issues. We present a novel supervised approach for direct tract
+segmentation that shows major performance gains. It builds upon a stacked U-Net
+architecture which is trained on manual bundle segmentations from Human
+Connectome Project subjects. We evaluate our approach \textit{in vivo} as well
+as \textit{in silico} using the ISMRM 2015 Tractography Challenge phantom
+dataset. We achieve human segmentation performance and a major performance gain
+over previous pipelines. We show how the learned spatial priors efficiently
+guide the segmentation even at lower image qualities with little quality loss.

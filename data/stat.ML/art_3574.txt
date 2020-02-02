@@ -1,0 +1,26 @@
+New Optimisation Methods for Machine Learning
+A thesis submitted for the degree of Doctor of Philosophy of The Australian
+National University.
+  In this work we introduce several new optimisation methods for problems in
+machine learning. Our algorithms broadly fall into two categories: optimisation
+of finite sums and of graph structured objectives. The finite sum problem is
+simply the minimisation of objective functions that are naturally expressed as
+a summation over a large number of terms, where each term has a similar or
+identical weight. Such objectives most often appear in machine learning in the
+empirical risk minimisation framework in the non-online learning setting. The
+second category, that of graph structured objectives, consists of objectives
+that result from applying maximum likelihood to Markov random field models.
+Unlike the finite sum case, all the non-linearity is contained within a
+partition function term, which does not readily decompose into a summation.
+  For the finite sum problem, we introduce the Finito and SAGA algorithms, as
+well as variants of each.
+  For graph-structured problems, we take three complementary approaches. We
+look at learning the parameters for a fixed structure, learning the structure
+independently, and learning both simultaneously. Specifically, for the combined
+approach, we introduce a new method for encouraging graph structures with the
+"scale-free" property. For the structure learning problem, we establish
+SHORTCUT, a O(n^{2.5}) expected time approximate structure learning method for
+Gaussian graphical models. For problems where the structure is known but the
+parameters unknown, we introduce an approximate maximum likelihood learning
+algorithm that is capable of learning a useful subclass of Gaussian graphical
+models.

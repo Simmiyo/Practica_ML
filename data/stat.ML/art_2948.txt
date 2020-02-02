@@ -1,0 +1,15 @@
+LARSEN-ELM: Selective Ensemble of Extreme Learning Machines using LARS
+  for Blended Data
+Extreme learning machine (ELM) as a neural network algorithm has shown its
+good performance, such as fast speed, simple structure etc, but also, weak
+robustness is an unavoidable defect in original ELM for blended data. We
+present a new machine learning framework called LARSEN-ELM for overcoming this
+problem. In our paper, we would like to show two key steps in LARSEN-ELM. In
+the first step, preprocessing, we select the input variables highly related to
+the output using least angle regression (LARS). In the second step, training,
+we employ Genetic Algorithm (GA) based selective ensemble and original ELM. In
+the experiments, we apply a sum of two sines and four datasets from UCI
+repository to verify the robustness of our approach. The experimental results
+show that compared with original ELM and other methods such as OP-ELM,
+GASEN-ELM and LSBoost, LARSEN-ELM significantly improve robustness performance
+while keeping a relatively high speed.

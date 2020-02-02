@@ -1,0 +1,10 @@
+Efficient Purely Convolutional Text Encoding
+In this work, we focus on a lightweight convolutional architecture that
+creates fixed-size vector embeddings of sentences. Such representations are
+useful for building NLP systems, including conversational agents. Our work
+derives from a recently proposed recursive convolutional architecture for
+auto-encoding text paragraphs at byte level. We propose alternations that
+significantly reduce training time, the number of parameters, and improve
+auto-encoding accuracy. Finally, we evaluate the representations created by our
+model on tasks from SentEval benchmark suite, and show that it can serve as a
+better, yet fairly low-resource alternative to popular bag-of-words embeddings.

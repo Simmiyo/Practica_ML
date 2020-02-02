@@ -1,0 +1,9 @@
+N-gram and Neural Language Models for Discriminating Similar Languages
+This paper describes our submission (named clac) to the 2016 Discriminating
+Similar Languages (DSL) shared task. We participated in the closed Sub-task 1
+(Set A) with two separate machine learning techniques. The first approach is a
+character based Convolution Neural Network with a bidirectional long short term
+memory (BiLSTM) layer (CLSTM), which achieved an accuracy of 78.45% with
+minimal tuning. The second approach is a character-based n-gram model. This
+last approach achieved an accuracy of 88.45% which is close to the accuracy of
+89.38% achieved by the best submission, and allowed us to rank #7 overall.

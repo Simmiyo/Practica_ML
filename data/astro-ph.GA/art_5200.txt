@@ -1,0 +1,15 @@
+A new method for the determination of action integrals in the study of
+  galactic dynamics
+Action-angle coordinates are an essential tool for understanding the
+properties of the six dimensional phase space involved in orbits of stars in
+galactic potentials. A new method, which does not require specific knowledge of
+a generating function, is described, implemented and tested that calculates the
+actions of an orbit in an arbitrary potential of an integrable Hamiltonian
+given a set of Cartesian phase space points. The method chooses between the
+simple harmonic oscillator and isochrone potentials to fit the data using a
+Levenberg-Marquardt routine. An average is taken over the angle coordinates by
+calculating volumes in phase space using the metric free FiEstAS algorithm. The
+perfect ellipsoidal potential, with actions chosen a priori, is used to test
+the output of the algorithm, giving some results that agree within 1%.
+Minimisation of a sampling error is discussed along with an identification of a
+source of noise in the data.

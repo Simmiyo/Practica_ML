@@ -1,0 +1,18 @@
+Supervised multiway factorization
+We describe a probabilistic PARAFAC/CANDECOMP (CP) factorization for multiway
+(i.e., tensor) data that incorporates auxiliary covariates, SupCP. SupCP
+generalizes the supervised singular value decomposition (SupSVD) for
+vector-valued observations, to allow for observations that have the form of a
+matrix or higher-order array. Such data are increasingly encountered in
+biomedical research and other fields. We describe a likelihood-based latent
+variable representation of the CP factorization, in which the latent variables
+are informed by additional covariates. We give conditions for identifiability,
+and develop an EM algorithm for simultaneous estimation of all model
+parameters. SupCP can be used for dimension reduction, capturing latent
+structures that are more accurate and interpretable due to covariate
+supervision. Moreover, SupCP specifies a full probability distribution for a
+multiway data observation with given covariate values, which can be used for
+predictive modeling. We conduct comprehensive simulations to evaluate the SupCP
+algorithm. We apply it to a facial image database with facial descriptors
+(e.g., smiling / not smiling) as covariates, and to a study of amino acid
+fluorescence. Software is available at https://github.com/lockEF/SupCP .

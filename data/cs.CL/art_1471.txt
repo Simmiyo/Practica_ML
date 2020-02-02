@@ -1,0 +1,22 @@
+Automatic Quality Estimation for ASR System Combination
+Recognizer Output Voting Error Reduction (ROVER) has been widely used for
+system combination in automatic speech recognition (ASR). In order to select
+the most appropriate words to insert at each position in the output
+transcriptions, some ROVER extensions rely on critical information such as
+confidence scores and other ASR decoder features. This information, which is
+not always available, highly depends on the decoding process and sometimes
+tends to over estimate the real quality of the recognized words. In this paper
+we propose a novel variant of ROVER that takes advantage of ASR quality
+estimation (QE) for ranking the transcriptions at "segment level" instead of:
+i) relying on confidence scores, or ii) feeding ROVER with randomly ordered
+hypotheses. We first introduce an effective set of features to compensate for
+the absence of ASR decoder information. Then, we apply QE techniques to perform
+accurate hypothesis ranking at segment-level before starting the fusion
+process. The evaluation is carried out on two different tasks, in which we
+respectively combine hypotheses coming from independent ASR systems and
+multi-microphone recordings. In both tasks, it is assumed that the ASR decoder
+information is not available. The proposed approach significantly outperforms
+standard ROVER and it is competitive with two strong oracles that e xploit
+prior knowledge about the real quality of the hypotheses to be combined.
+Compared to standard ROVER, the abs olute WER improvements in the two
+evaluation scenarios range from 0.5% to 7.3%.

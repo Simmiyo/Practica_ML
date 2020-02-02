@@ -1,0 +1,14 @@
+Coordinated Online Learning With Applications to Learning User
+  Preferences
+We study an online multi-task learning setting, in which instances of related
+tasks arrive sequentially, and are handled by task-specific online learners. We
+consider an algorithmic framework to model the relationship of these tasks via
+a set of convex constraints. To exploit this relationship, we design a novel
+algorithm -- COOL -- for coordinating the individual online learners: Our key
+idea is to coordinate their parameters via weighted projections onto a convex
+set. By adjusting the rate and accuracy of the projection, the COOL algorithm
+allows for a trade-off between the benefit of coordination and the required
+computation/communication. We derive regret bounds for our approach and analyze
+how they are influenced by these trade-off factors. We apply our results on the
+application of learning users' preferences on the Airbnb marketplace with the
+goal of incentivizing users to explore under-reviewed apartments.

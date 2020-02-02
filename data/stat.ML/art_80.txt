@@ -1,0 +1,23 @@
+Probabilistic Recovery of Multiple Subspaces in Point Clouds by
+  Geometric lp Minimization
+We assume data independently sampled from a mixture distribution on the unit
+ball of the D-dimensional Euclidean space with K+1 components: the first
+component is a uniform distribution on that ball representing outliers and the
+other K components are uniform distributions along K d-dimensional linear
+subspaces restricted to that ball. We study both the simultaneous recovery of
+all K underlying subspaces and the recovery of the best l0 subspace (i.e., with
+largest number of points) by minimizing the lp-averaged distances of data
+points from d-dimensional subspaces of the D-dimensional space. Unlike other lp
+minimization problems, this minimization is non-convex for all p>0 and thus
+requires different methods for its analysis. We show that if 0<p <= 1, then
+both all underlying subspaces and the best l0 subspace can be precisely
+recovered by lp minimization with overwhelming probability. This result extends
+to additive homoscedastic uniform noise around the subspaces (i.e., uniform
+distribution in a strip around them) and near recovery with an error
+proportional to the noise level. On the other hand, if K>1 and p>1, then we
+show that both all underlying subspaces and the best l0 subspace cannot be
+recovered and even nearly recovered. Further relaxations are also discussed. We
+use the results of this paper for partially justifying recent effective
+algorithms for modeling data by mixtures of multiple subspaces as well as for
+discussing the effect of using variants of lp minimizations in RANSAC-type
+strategies for single subspace recovery.

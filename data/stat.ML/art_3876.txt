@@ -1,0 +1,25 @@
+A Comparison Study of Nonlinear Kernels
+In this paper, we compare 5 different nonlinear kernels: min-max, RBF, fRBF
+(folded RBF), acos, and acos-$\chi^2$, on a wide range of publicly available
+datasets. The proposed fRBF kernel performs very similarly to the RBF kernel.
+Both RBF and fRBF kernels require an important tuning parameter ($\gamma$).
+Interestingly, for a significant portion of the datasets, the min-max kernel
+outperforms the best-tuned RBF/fRBF kernels. The acos kernel and acos-$\chi^2$
+kernel also perform well in general and in some datasets achieve the best
+accuracies.
+  One crucial issue with the use of nonlinear kernels is the excessive
+computational and memory cost. These days, one increasingly popular strategy is
+to linearize the kernels through various randomization algorithms. In our
+study, the randomization method for the min-max kernel demonstrates excellent
+performance compared to the randomization methods for other types of nonlinear
+kernels, measured in terms of the number of nonzero terms in the transformed
+dataset.
+  Our study provides evidence for supporting the use of the min-max kernel and
+the corresponding randomized linearization method (i.e., the so-called "0-bit
+CWS"). Furthermore, the results motivate at least two directions for future
+research: (i) To develop new (and linearizable) nonlinear kernels for better
+accuracies; and (ii) To develop better linearization algorithms for improving
+the current linearization methods for the RBF kernel, the acos kernel, and the
+acos-$\chi^2$ kernel. One attempt is to combine the min-max kernel with the
+acos kernel or the acos-$\chi^2$ kernel. The advantages of these two new and
+tuning-free nonlinear kernels are demonstrated vias our extensive experiments.

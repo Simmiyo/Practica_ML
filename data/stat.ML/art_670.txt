@@ -1,0 +1,15 @@
+Dirichlet Fragmentation Processes
+Tree structures are ubiquitous in data across many domains, and many datasets
+are naturally modelled by unobserved tree structures. In this paper, first we
+review the theory of random fragmentation processes [Bertoin, 2006], and a
+number of existing methods for modelling trees, including the popular nested
+Chinese restaurant process (nCRP). Then we define a general class of
+probability distributions over trees: the Dirichlet fragmentation process (DFP)
+through a novel combination of the theory of Dirichlet processes and random
+fragmentation processes. This DFP presents a stick-breaking construction, and
+relates to the nCRP in the same way the Dirichlet process relates to the
+Chinese restaurant process. Furthermore, we develop a novel hierarchical
+mixture model with the DFP, and empirically compare the new model to similar
+models in machine learning. Experiments show the DFP mixture model to be
+convincingly better than existing state-of-the-art approaches for hierarchical
+clustering and density modelling.

@@ -1,0 +1,15 @@
+Scenario trees and policy selection for multistage stochastic
+  programming using machine learning
+We propose a hybrid algorithmic strategy for complex stochastic optimization
+problems, which combines the use of scenario trees from multistage stochastic
+programming with machine learning techniques for learning a policy in the form
+of a statistical model, in the context of constrained vector-valued decisions.
+Such a policy allows one to run out-of-sample simulations over a large number
+of independent scenarios, and obtain a signal on the quality of the
+approximation scheme used to solve the multistage stochastic program. We
+propose to apply this fast simulation technique to choose the best tree from a
+set of scenario trees. A solution scheme is introduced, where several scenario
+trees with random branching structure are solved in parallel, and where the
+tree from which the best policy for the true problem could be learned is
+ultimately retained. Numerical tests show that excellent trade-offs can be
+achieved between run times and solution quality.

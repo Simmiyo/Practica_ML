@@ -1,0 +1,20 @@
+Robust Estimation of Structured Covariance Matrix for Heavy-Tailed
+  Elliptical Distributions
+This paper considers the problem of robustly estimating a structured
+covariance matrix with an elliptical underlying distribution with known mean.
+In applications where the covariance matrix naturally possesses a certain
+structure, taking the prior structure information into account in the
+estimation procedure is beneficial to improve the estimation accuracy. We
+propose incorporating the prior structure information into Tyler's M-estimator
+and formulate the problem as minimizing the cost function of Tyler's estimator
+under the prior structural constraint. First, the estimation under a general
+convex structural constraint is introduced with an efficient algorithm for
+finding the estimator derived based on the majorization minimization (MM)
+algorithm framework. Then, the algorithm is tailored to several special
+structures that enjoy a wide range of applications in signal processing related
+fields, namely, sum of rank-one matrices, Toeplitz, and banded Toeplitz
+structure. In addition, two types of non-convex structures, i.e., the Kronecker
+structure and the spiked covariance structure, are also discussed, where it is
+shown that simple algorithms can be derived under the guidelines of MM.
+Numerical results show that the proposed estimator achieves a smaller
+estimation error than the benchmark estimators at a lower computational cost.

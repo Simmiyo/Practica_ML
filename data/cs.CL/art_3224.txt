@@ -1,0 +1,15 @@
+Product Function Need Recognition via Semi-supervised Attention Network
+Functionality is of utmost importance to customers when they purchase
+products. However, it is unclear to customers whether a product can really
+satisfy their needs on functions. Further, missing functions may be
+intentionally hidden by the manufacturers or the sellers. As a result, a
+customer needs to spend a fair amount of time before purchasing or just
+purchase the product on his/her own risk. In this paper, we first identify a
+novel QA corpus that is dense on product functionality information
+\footnote{The annotated corpus can be found at
+\url{https://www.cs.uic.edu/~hxu/}.}. We then design a neural network called
+Semi-supervised Attention Network (SAN) to discover product functions from
+questions. This model leverages unlabeled data as contextual information to
+perform semi-supervised sequence labeling. We conduct experiments to show that
+the extracted function have both high coverage and accuracy, compared with a
+wide spectrum of baselines.

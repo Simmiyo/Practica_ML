@@ -1,0 +1,18 @@
+Asymptotically Optimal Multi-Armed Bandit Policies under a Cost
+  Constraint
+We develop asymptotically optimal policies for the multi armed bandit (MAB),
+problem, under a cost constraint. This model is applicable in situations where
+each sample (or activation) from a population (bandit) incurs a known bandit
+dependent cost. Successive samples from each population are iid random
+variables with unknown distribution. The objective is to design a feasible
+policy for deciding from which population to sample from, so as to maximize the
+expected sum of outcomes of $n$ total samples or equivalently to minimize the
+regret due to lack on information on sample distributions, For this problem we
+consider the class of feasible uniformly fast (f-UF) convergent policies, that
+satisfy the cost constraint sample-path wise. We first establish a necessary
+asymptotic lower bound for the rate of increase of the regret function of f-UF
+policies. Then we construct a class of f-UF policies and provide conditions
+under which they are asymptotically optimal within the class of f-UF policies,
+achieving this asymptotic lower bound. At the end we provide the explicit form
+of such policies for the case in which the unknown distributions are Normal
+with unknown means and known variances.

@@ -1,0 +1,18 @@
+A Fuzzy Clustering Algorithm for the Mode Seeking Framework
+In this paper, we propose a new fuzzy clustering algorithm based on the
+mode-seeking framework. Given a dataset in $\mathbb{R}^d$, we define regions of
+high density that we call cluster cores. We then consider a random walk on a
+neighborhood graph built on top of our data points which is designed to be
+attracted by high density regions. The strength of this attraction is
+controlled by a temperature parameter $\beta > 0$. The membership of a point to
+a given cluster is then the probability for the random walk to hit the
+corresponding cluster core before any other. While many properties of random
+walks (such as hitting times, commute distances, etc\dots) have been shown to
+enventually encode purely local information when the number of data points
+grows, we show that the regularization introduced by the use of cluster cores
+solves this issue. Empirically, we show how the choice of $\beta$ influences
+the behavior of our algorithm: for small values of $\beta$ the result is close
+to hard mode-seeking whereas when $\beta$ is close to $1$ the result is similar
+to the output of a (fuzzy) spectral clustering. Finally, we demonstrate the
+scalability of our approach by providing the fuzzy clustering of a protein
+configuration dataset containing a million data points in $30$ dimensions.

@@ -1,0 +1,17 @@
+The theory and application of penalized methods or Reproducing Kernel
+  Hilbert Spaces made easy
+The popular cubic smoothing spline estimate of a regression function arises
+as the minimizer of the penalized sum of squares $\sum_j(Y_j - {\mu}(t_j))^2 +
+{\lambda}\int_a^b [{\mu}"(t)]^2 dt$, where the data are $t_j,Y_j$, $j=1,...,
+n$. The minimization is taken over an infinite-dimensional function space, the
+space of all functions with square integrable second derivatives. But the
+calculations can be carried out in a finite-dimensional space. The reduction
+from minimizing over an infinite dimensional space to minimizing over a finite
+dimensional space occurs for more general objective functions: the data may be
+related to the function ${\mu}$ in another way, the sum of squares may be
+replaced by a more suitable expression, or the penalty, $\int_a^b [{\mu}"(t)]^2
+dt$, might take a different form. This paper reviews the Reproducing Kernel
+Hilbert Space structure that provides a finite-dimensional solution for a
+general minimization problem. Particular attention is paid to penalties based
+on linear differential operators. In this case, one can sometimes easily
+calculate the minimizer explicitly, using Green's functions.

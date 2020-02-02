@@ -1,0 +1,13 @@
+Let's do it "again": A First Computational Approach to Detecting
+  Adverbial Presupposition Triggers
+We introduce the task of predicting adverbial presupposition triggers such as
+also and again. Solving such a task requires detecting recurring or similar
+events in the discourse context, and has applications in natural language
+generation tasks such as summarization and dialogue systems. We create two new
+datasets for the task, derived from the Penn Treebank and the Annotated English
+Gigaword corpora, as well as a novel attention mechanism tailored to this task.
+Our attention mechanism augments a baseline recurrent neural network without
+the need for additional trainable parameters, minimizing the added
+computational cost of our mechanism. We demonstrate that our model
+statistically outperforms a number of baselines, including an LSTM-based
+language model.

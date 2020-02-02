@@ -1,0 +1,12 @@
+Discriminative Regularization for Generative Models
+We explore the question of whether the representations learned by classifiers
+can be used to enhance the quality of generative models. Our conjecture is that
+labels correspond to characteristics of natural data which are most salient to
+humans: identity in faces, objects in images, and utterances in speech. We
+propose to take advantage of this by using the representations from
+discriminative classifiers to augment the objective function corresponding to a
+generative model. In particular we enhance the objective function of the
+variational autoencoder, a popular generative model, with a discriminative
+regularization term. We show that enhancing the objective function in this way
+leads to samples that are clearer and have higher visual quality than the
+samples from the standard variational autoencoders.

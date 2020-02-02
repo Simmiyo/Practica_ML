@@ -1,0 +1,15 @@
+Dynamic Word Embeddings for Evolving Semantic Discovery
+Word evolution refers to the changing meanings and associations of words
+throughout time, as a byproduct of human language evolution. By studying word
+evolution, we can infer social trends and language constructs over different
+periods of human history. However, traditional techniques such as word
+representation learning do not adequately capture the evolving language
+structure and vocabulary. In this paper, we develop a dynamic statistical model
+to learn time-aware word vector representation. We propose a model that
+simultaneously learns time-aware embeddings and solves the resulting "alignment
+problem". This model is trained on a crawled NYTimes dataset. Additionally, we
+develop multiple intuitive evaluation strategies of temporal word embeddings.
+Our qualitative and quantitative tests indicate that our method not only
+reliably captures this evolution over time, but also consistently outperforms
+state-of-the-art temporal embedding approaches on both semantic accuracy and
+alignment quality.

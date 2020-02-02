@@ -1,0 +1,15 @@
+Baselines and test data for cross-lingual inference
+The recent years have seen a revival of interest in textual entailment,
+sparked by i) the emergence of powerful deep neural network learners for
+natural language processing and ii) the timely development of large-scale
+evaluation datasets such as SNLI. Recast as natural language inference, the
+problem now amounts to detecting the relation between pairs of statements: they
+either contradict or entail one another, or they are mutually neutral. Current
+research in natural language inference is effectively exclusive to English. In
+this paper, we propose to advance the research in SNLI-style natural language
+inference toward multilingual evaluation. To that end, we provide test data for
+four major languages: Arabic, French, Spanish, and Russian. We experiment with
+a set of baselines. Our systems are based on cross-lingual word embeddings and
+machine translation. While our best system scores an average accuracy of just
+over 75%, we focus largely on enabling further research in multilingual
+inference.

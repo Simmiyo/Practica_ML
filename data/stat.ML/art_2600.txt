@@ -1,0 +1,16 @@
+Sparsity Based Poisson Denoising with Dictionary Learning
+The problem of Poisson denoising appears in various imaging applications,
+such as low-light photography, medical imaging and microscopy. In cases of high
+SNR, several transformations exist so as to convert the Poisson noise into an
+additive i.i.d. Gaussian noise, for which many effective algorithms are
+available. However, in a low SNR regime, these transformations are
+significantly less accurate, and a strategy that relies directly on the true
+noise statistics is required. A recent work by Salmon et al. took this route,
+proposing a patch-based exponential image representation model based on GMM
+(Gaussian mixture model), leading to state-of-the-art results. In this paper,
+we propose to harness sparse-representation modeling to the image patches,
+adopting the same exponential idea. Our scheme uses a greedy pursuit with
+boot-strapping based stopping condition and dictionary learning within the
+denoising process. The reconstruction performance of the proposed scheme is
+competitive with leading methods in high SNR, and achieving state-of-the-art
+results in cases of low SNR.

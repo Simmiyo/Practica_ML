@@ -1,0 +1,16 @@
+Guaranteed inference in topic models
+One of the core problems in statistical models is the estimation of a
+posterior distribution. For topic models, the problem of posterior inference
+for individual texts is particularly important, especially when dealing with
+data streams, but is often intractable in the worst case. As a consequence,
+existing methods for posterior inference are approximate and do not have any
+guarantee on neither quality nor convergence rate. In this paper, we introduce
+a provably fast algorithm, namely Online Maximum a Posteriori Estimation (OPE),
+for posterior inference in topic models. OPE has more attractive properties
+than existing inference approaches, including theoretical guarantees on quality
+and fast rate of convergence to a local maximal/stationary point of the
+inference problem. The discussions about OPE are very general and hence can be
+easily employed in a wide range of contexts. Finally, we employ OPE to design
+three methods for learning Latent Dirichlet Allocation from text streams or
+large corpora. Extensive experiments demonstrate some superior behaviors of OPE
+and of our new learning methods.

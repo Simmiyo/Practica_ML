@@ -1,0 +1,15 @@
+Active Learning with Expert Advice
+Conventional learning with expert advice methods assumes a learner is always
+receiving the outcome (e.g., class labels) of every incoming training instance
+at the end of each trial. In real applications, acquiring the outcome from
+oracle can be costly or time consuming. In this paper, we address a new problem
+of active learning with expert advice, where the outcome of an instance is
+disclosed only when it is requested by the online learner. Our goal is to learn
+an accurate prediction model by asking the oracle the number of questions as
+small as possible. To address this challenge, we propose a framework of active
+forecasters for online active learning with expert advice, which attempts to
+extend two regular forecasters, i.e., Exponentially Weighted Average Forecaster
+and Greedy Forecaster, to tackle the task of active learning with expert
+advice. We prove that the proposed algorithms satisfy the Hannan consistency
+under some proper assumptions, and validate the efficacy of our technique by an
+extensive set of experiments.

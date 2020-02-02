@@ -1,0 +1,17 @@
+Penalized Estimation of Directed Acyclic Graphs From Discrete Data
+Bayesian networks, with structure given by a directed acyclic graph (DAG),
+are a popular class of graphical models. However, learning Bayesian networks
+from discrete or categorical data is particularly challenging, due to the large
+parameter space and the difficulty in searching for a sparse structure. In this
+article, we develop a maximum penalized likelihood method to tackle this
+problem. Instead of the commonly used multinomial distribution, we model the
+conditional distribution of a node given its parents by multi-logit regression,
+in which an edge is parameterized by a set of coefficient vectors with dummy
+variables encoding the levels of a node. To obtain a sparse DAG, a group norm
+penalty is employed, and a blockwise coordinate descent algorithm is developed
+to maximize the penalized likelihood subject to the acyclicity constraint of a
+DAG. When interventional data are available, our method constructs a causal
+network, in which a directed edge represents a causal relation. We apply our
+method to various simulated and real data sets. The results show that our
+method is very competitive, compared to many existing methods, in DAG
+estimation from both interventional and high-dimensional observational data.

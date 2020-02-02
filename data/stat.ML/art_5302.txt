@@ -1,0 +1,13 @@
+Sketchy Decisions: Convex Low-Rank Matrix Optimization with Optimal
+  Storage
+This paper concerns a fundamental class of convex matrix optimization
+problems. It presents the first algorithm that uses optimal storage and
+provably computes a low-rank approximation of a solution. In particular, when
+all solutions have low rank, the algorithm converges to a solution. This
+algorithm, SketchyCGM, modifies a standard convex optimization scheme, the
+conditional gradient method, to store only a small randomized sketch of the
+matrix variable. After the optimization terminates, the algorithm extracts a
+low-rank approximation of the solution from the sketch. In contrast to
+nonconvex heuristics, the guarantees for SketchyCGM do not rely on statistical
+models for the problem data. Numerical work demonstrates the benefits of
+SketchyCGM over heuristics.

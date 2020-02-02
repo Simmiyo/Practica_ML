@@ -1,0 +1,19 @@
+Alternating direction method of multipliers for penalized zero-variance
+  discriminant analysis
+We consider the task of classification in the high dimensional setting where
+the number of features of the given data is significantly greater than the
+number of observations. To accomplish this task, we propose a heuristic, called
+sparse zero-variance discriminant analysis (SZVD), for simultaneously
+performing linear discriminant analysis and feature selection on high
+dimensional data. This method combines classical zero-variance discriminant
+analysis, where discriminant vectors are identified in the null space of the
+sample within-class covariance matrix, with penalization applied to induce
+sparse structures in the resulting vectors. To approximately solve the
+resulting nonconvex problem, we develop a simple algorithm based on the
+alternating direction method of multipliers. Further, we show that this
+algorithm is applicable to a larger class of penalized generalized eigenvalue
+problems, including a particular relaxation of the sparse principal component
+analysis problem. Finally, we establish theoretical guarantees for convergence
+of our algorithm to stationary points of the original nonconvex problem, and
+empirically demonstrate the effectiveness of our heuristic for classifying
+simulated data and data drawn from applications in time-series classification.

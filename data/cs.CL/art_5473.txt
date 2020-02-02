@@ -1,0 +1,9 @@
+Overview of the Ugglan Entity Discovery and Linking System
+Ugglan is a system designed to discover named entities and link them to
+unique identifiers in a knowledge base. It is based on a combination of a name
+and nominal dictionary derived from Wikipedia and Wikidata, a named entity
+recognition module (NER) using fixed ordinally-forgetting encoding (FOFE)
+trained on the TAC EDL data from 2014-2016, a candidate generation module from
+the Wikipedia link graph across multiple editions, a PageRank link and
+cooccurrence graph disambiguator, and finally a reranker trained on the TAC EDL
+2015-2016 data.

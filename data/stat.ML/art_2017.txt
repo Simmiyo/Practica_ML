@@ -1,0 +1,16 @@
+Greedy Block Coordinate Descent for Large Scale Gaussian Process
+  Regression
+We propose a variable decomposition algorithm -greedy block coordinate
+descent (GBCD)- in order to make dense Gaussian process regression practical
+for large scale problems. GBCD breaks a large scale optimization into a series
+of small sub-problems. The challenge in variable decomposition algorithms is
+the identification of a subproblem (the active set of variables) that yields
+the largest improvement. We analyze the limitations of existing methods and
+cast the active set selection into a zero-norm constrained optimization problem
+that we solve using greedy methods. By directly estimating the decrease in the
+objective function, we obtain not only efficient approximate solutions for
+GBCD, but we are also able to demonstrate that the method is globally
+convergent. Empirical comparisons against competing dense methods like
+Conjugate Gradient or SMO show that GBCD is an order of magnitude faster.
+Comparisons against sparse GP methods show that GBCD is both accurate and
+capable of handling datasets of 100,000 samples or more.

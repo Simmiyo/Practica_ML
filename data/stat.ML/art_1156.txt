@@ -1,0 +1,13 @@
+Optimal Low-Rank Dynamic Mode Decomposition
+Dynamic Mode Decomposition (DMD) has emerged as a powerful tool for analyzing
+the dynamics of non-linear systems from experimental datasets. Recently,
+several attempts have extended DMD to the context of low-rank approximations.
+This extension is of particular interest for reduced-order modeling in various
+applicative domains, e.g. for climate prediction, to study molecular dynamics
+or micro-electromechanical devices. This low-rank extension takes the form of a
+non-convex optimization problem. To the best of our knowledge, only sub-optimal
+algorithms have been proposed in the literature to compute the solution of this
+problem. In this paper, we prove that there exists a closed-form optimal
+solution to this problem and design an effective algorithm to compute it based
+on Singular Value Decomposition (SVD). A toy-example illustrates the gain in
+performance of the proposed algorithm compared to state-of-the-art techniques.

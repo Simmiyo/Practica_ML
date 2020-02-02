@@ -1,0 +1,9 @@
+Improved generator objectives for GANs
+We present a framework to understand GAN training as alternating density
+ratio estimation and approximate divergence minimization. This provides an
+interpretation for the mismatched GAN generator and discriminator objectives
+often used in practice, and explains the problem of poor sample diversity. We
+also derive a family of generator objectives that target arbitrary
+$f$-divergences without minimizing a lower bound, and use them to train
+generative image models that target either improved sample quality or greater
+sample diversity.

@@ -1,0 +1,13 @@
+Order matters: Distributional properties of speech to young children
+  bootstraps learning of semantic representations
+Some researchers claim that language acquisition is critically dependent on
+experiencing linguistic input in order of increasing complexity. We set out to
+test this hypothesis using a simple recurrent neural network (SRN) trained to
+predict word sequences in CHILDES, a 5-million-word corpus of speech directed
+to children. First, we demonstrated that age-ordered CHILDES exhibits a gradual
+increase in linguistic complexity. Next, we compared the performance of two
+groups of SRNs trained on CHILDES which had either been age-ordered or not.
+Specifically, we assessed learning of grammatical and semantic structure and
+showed that training on age-ordered input facilitates learning of semantic, but
+not of sequential structure. We found that this advantage is eliminated when
+the models were trained on input with utterance boundary information removed.

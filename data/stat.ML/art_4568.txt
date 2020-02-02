@@ -1,0 +1,17 @@
+Fast Kronecker product kernel methods via generalized vec trick
+Kronecker product kernel provides the standard approach in the kernel methods
+literature for learning from graph data, where edges are labeled and both start
+and end vertices have their own feature representations. The methods allow
+generalization to such new edges, whose start and end vertices do not appear in
+the training data, a setting known as zero-shot or zero-data learning. Such a
+setting occurs in numerous applications, including drug-target interaction
+prediction, collaborative filtering and information retrieval. Efficient
+training algorithms based on the so-called vec trick, that makes use of the
+special structure of the Kronecker product, are known for the case where the
+training data is a complete bipartite graph. In this work we generalize these
+results to non-complete training graphs. This allows us to derive a general
+framework for training Kronecker product kernel methods, as specific examples
+we implement Kronecker ridge regression and support vector machine algorithms.
+Experimental results demonstrate that the proposed approach leads to accurate
+models, while allowing order of magnitude improvements in training and
+prediction time.

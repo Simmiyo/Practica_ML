@@ -1,0 +1,15 @@
+Deep learning for plasma tomography using the bolometer system at JET
+Deep learning is having a profound impact in many fields, especially those
+that involve some form of image processing. Deep neural networks excel in
+turning an input image into a set of high-level features. On the other hand,
+tomography deals with the inverse problem of recreating an image from a number
+of projections. In plasma diagnostics, tomography aims at reconstructing the
+cross-section of the plasma from radiation measurements. This reconstruction
+can be computed with neural networks. However, previous attempts have focused
+on learning a parametric model of the plasma profile. In this work, we use a
+deep neural network to produce a full, pixel-by-pixel reconstruction of the
+plasma profile. For this purpose, we use the overview bolometer system at JET,
+and we introduce an up-convolutional network that has been trained and tested
+on a large set of sample tomograms. We show that this network is able to
+reproduce existing reconstructions with a high level of accuracy, as measured
+by several metrics.

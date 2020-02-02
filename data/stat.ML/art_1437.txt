@@ -1,0 +1,19 @@
+Multitask Learning using Task Clustering with Applications to Predictive
+  Modeling and GWAS of Plant Varieties
+Inferring predictive maps between multiple input and multiple output
+variables or tasks has innumerable applications in data science. Multi-task
+learning attempts to learn the maps to several output tasks simultaneously with
+information sharing between them. We propose a novel multi-task learning
+framework for sparse linear regression, where a full task hierarchy is
+automatically inferred from the data, with the assumption that the task
+parameters follow a hierarchical tree structure. The leaves of the tree are the
+parameters for individual tasks, and the root is the global model that
+approximates all the tasks. We apply the proposed approach to develop and
+evaluate: (a) predictive models of plant traits using large-scale and automated
+remote sensing data, and (b) GWAS methodologies mapping such derived phenotypes
+in lieu of hand-measured traits. We demonstrate the superior performance of our
+approach compared to other methods, as well as the usefulness of discovering
+hierarchical groupings between tasks. Our results suggest that richer genetic
+mapping can indeed be obtained from the remote sensing data. In addition, our
+discovered groupings reveal interesting insights from a plant science
+perspective.

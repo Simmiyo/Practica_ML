@@ -1,0 +1,15 @@
+Modern hierarchical, agglomerative clustering algorithms
+This paper presents algorithms for hierarchical, agglomerative clustering
+which perform most efficiently in the general-purpose setup that is given in
+modern standard software. Requirements are: (1) the input data is given by
+pairwise dissimilarities between data points, but extensions to vector data are
+also discussed (2) the output is a "stepwise dendrogram", a data structure
+which is shared by all implementations in current standard software. We present
+algorithms (old and new) which perform clustering in this setting efficiently,
+both in an asymptotic worst-case analysis and from a practical point of view.
+The main contributions of this paper are: (1) We present a new algorithm which
+is suitable for any distance update scheme and performs significantly better
+than the existing algorithms. (2) We prove the correctness of two algorithms by
+Rohlf and Murtagh, which is necessary in each case for different reasons. (3)
+We give well-founded recommendations for the best current algorithms for the
+various agglomerative clustering schemes.

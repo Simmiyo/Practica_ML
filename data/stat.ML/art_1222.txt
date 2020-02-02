@@ -1,0 +1,19 @@
+Parallel Markov Chain Monte Carlo for the Indian Buffet Process
+Indian Buffet Process based models are an elegant way for discovering
+underlying features within a data set, but inference in such models can be
+slow. Inferring underlying features using Markov chain Monte Carlo either
+relies on an uncollapsed representation, which leads to poor mixing, or on a
+collapsed representation, which leads to a quadratic increase in computational
+complexity. Existing attempts at distributing inference have introduced
+additional approximation within the inference procedure. In this paper we
+present a novel algorithm to perform asymptotically exact parallel Markov chain
+Monte Carlo inference for Indian Buffet Process models. We take advantage of
+the fact that the features are conditionally independent under the
+beta-Bernoulli process. Because of this conditional independence, we can
+partition the features into two parts: one part containing only the finitely
+many instantiated features and the other part containing the infinite tail of
+uninstantiated features. For the finite partition, parallel inference is simple
+given the instantiation of features. But for the infinite tail, performing
+uncollapsed MCMC leads to poor mixing and hence we collapse out the features.
+The resulting hybrid sampler, while being parallel, produces samples
+asymptotically from the true posterior.

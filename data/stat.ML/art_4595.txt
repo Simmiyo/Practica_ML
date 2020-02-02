@@ -1,0 +1,18 @@
+A sequential Monte Carlo approach to Thompson sampling for Bayesian
+  optimization
+Bayesian optimization through Gaussian process regression is an effective
+method of optimizing an unknown function for which every measurement is
+expensive. It approximates the objective function and then recommends a new
+measurement point to try out. This recommendation is usually selected by
+optimizing a given acquisition function. After a sufficient number of
+measurements, a recommendation about the maximum is made. However, a key
+realization is that the maximum of a Gaussian process is not a deterministic
+point, but a random variable with a distribution of its own. This distribution
+cannot be calculated analytically. Our main contribution is an algorithm,
+inspired by sequential Monte Carlo samplers, that approximates this maximum
+distribution. Subsequently, by taking samples from this distribution, we enable
+Thompson sampling to be applied to (armed-bandit) optimization problems with a
+continuous input space. All this is done without requiring the optimization of
+a nonlinear acquisition function. Experiments have shown that the resulting
+optimization method has a competitive performance at keeping the cumulative
+regret limited.

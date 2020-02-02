@@ -1,0 +1,15 @@
+Improving Named Entity Recognition by Jointly Learning to Disambiguate
+  Morphological Tags
+Previous studies have shown that linguistic features of a word such as
+possession, genitive or other grammatical cases can be employed in word
+representations of a named entity recognition (NER) tagger to improve the
+performance for morphologically rich languages. However, these taggers require
+external morphological disambiguation (MD) tools to function which are hard to
+obtain or non-existent for many languages. In this work, we propose a model
+which alleviates the need for such disambiguators by jointly learning NER and
+MD taggers in languages for which one can provide a list of candidate
+morphological analyses. We show that this can be done independent of the
+morphological annotation schemes, which differ among languages. Our experiments
+employing three different model architectures that join these two tasks show
+that joint learning improves NER performance. Furthermore, the morphological
+disambiguator's performance is shown to be competitive.

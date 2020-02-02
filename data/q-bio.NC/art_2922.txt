@@ -1,0 +1,20 @@
+Dynamic signal tracking in a simple V1 spiking model
+This work is part of an effort to understand the neural basis for our visual
+system's ability, or failure, to accurately track moving visual signals. We
+consider here a ring model of spiking neurons, intended as a simplified
+computational model of a single hypercolumn of the primary visual cortex.
+Signals that consist of edges with time-varying orientations localized in space
+are considered. Our model is calibrated to produce spontaneous and driven
+firing rates roughly consistent with experiments, and our two main findings,
+for which we offer dynamical explanation on the level of neuronal interactions,
+are the following: (1) We have documented consistent transient overshoots in
+signal perception following signal switches due to emergent interactions of the
+E- and I-populations, and (2) for continuously moving signals, we have found
+that accuracy is considerably lower at reversals of orientation than when
+continuing in the same direction (as when the signal is a rotating bar). To
+measure performance, we use two metrics, called fidelity and reliability, to
+compare signals reconstructed by the system to the ones presented, and to
+assess trial-to-trial variability. We propose that the same population
+mechanisms responsible for orientation selectivity also impose constraints on
+dynamic signal tracking that manifest in perception failures consistent with
+psychophysical observations.

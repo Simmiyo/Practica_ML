@@ -1,0 +1,12 @@
+Invariant Quantum Algorithms for Insertion into an Ordered List
+We consider the problem of inserting one item into a list of N-1 ordered
+items. We previously showed that no quantum algorithm could solve this problem
+in fewer than log N/(2 log log N) queries, for N large. We transform the
+problem into a "translationally invariant" problem and restrict attention to
+invariant algorithms. We construct the "greedy" invariant algorithm and show
+numerically that it outperforms the best classical algorithm for various N. We
+also find invariant algorithms that succeed exactly in fewer queries than is
+classically possible, and iterating one of them shows that the insertion
+problem can be solved in fewer than 0.53 log N quantum queries for large N
+(where log N is the classical lower bound). We don't know whether a o(log N)
+algorithm exists.

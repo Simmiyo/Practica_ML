@@ -1,0 +1,18 @@
+Exact fit of simple finite mixture models
+How to forecast next year's portfolio-wide credit default rate based on last
+year's default observations and the current score distribution? A classical
+approach to this problem consists of fitting a mixture of the conditional score
+distributions observed last year to the current score distribution. This is a
+special (simple) case of a finite mixture model where the mixture components
+are fixed and only the weights of the components are estimated. The optimum
+weights provide a forecast of next year's portfolio-wide default rate. We point
+out that the maximum-likelihood (ML) approach to fitting the mixture
+distribution not only gives an optimum but even an exact fit if we allow the
+mixture components to vary but keep their density ratio fix. From this
+observation we can conclude that the standard default rate forecast based on
+last year's conditional default rates will always be located between last
+year's portfolio-wide default rate and the ML forecast for next year. As an
+application example, then cost quantification is discussed. We also discuss how
+the mixture model based estimation methods can be used to forecast total loss.
+This involves the reinterpretation of an individual classification problem as a
+collective quantification problem.

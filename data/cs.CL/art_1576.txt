@@ -1,0 +1,15 @@
+An Unsupervised Approach for Mapping between Vector Spaces
+We present a language independent, unsupervised approach for transforming
+word embeddings from source language to target language using a transformation
+matrix. Our model handles the problem of data scarcity which is faced by many
+languages in the world and yields improved word embeddings for words in the
+target language by relying on transformed embeddings of words of the source
+language. We initially evaluate our approach via word similarity tasks on a
+similar language pair - Hindi as source and Urdu as the target language, while
+we also evaluate our method on French and German as target languages and
+English as source language. Our approach improves the current state of the art
+results - by 13% for French and 19% for German. For Urdu, we saw an increment
+of 16% over our initial baseline score. We further explore the prospects of our
+approach by applying it on multiple models of the same language and
+transferring words between the two models, thus solving the problem of missing
+words in a model. We evaluate this on word similarity and word analogy tasks.

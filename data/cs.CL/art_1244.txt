@@ -1,0 +1,10 @@
+A Dynamic Window Neural Network for CCG Supertagging
+Combinatory Category Grammar (CCG) supertagging is a task to assign lexical
+categories to each word in a sentence. Almost all previous methods use fixed
+context window sizes as input features. However, it is obvious that different
+tags usually rely on different context window sizes. These motivate us to build
+a supertagger with a dynamic window approach, which can be treated as an
+attention mechanism on the local contexts. Applying dropout on the dynamic
+filters can be seen as drop on words directly, which is superior to the regular
+dropout on word embeddings. We use this approach to demonstrate the
+state-of-the-art CCG supertagging performance on the standard test set.

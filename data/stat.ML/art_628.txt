@@ -1,0 +1,24 @@
+Safe Feature Pruning for Sparse High-Order Interaction Models
+Taking into account high-order interactions among covariates is valuable in
+many practical regression problems. This is, however, computationally
+challenging task because the number of high-order interaction features to be
+considered would be extremely large unless the number of covariates is
+sufficiently small. In this paper, we propose a novel efficient algorithm for
+LASSO-based sparse learning of such high-order interaction models. Our basic
+strategy for reducing the number of features is to employ the idea of recently
+proposed safe feature screening (SFS) rule. An SFS rule has a property that, if
+a feature satisfies the rule, then the feature is guaranteed to be non-active
+in the LASSO solution, meaning that it can be safely screened-out prior to the
+LASSO training process. If a large number of features can be screened-out
+before training the LASSO, the computational cost and the memory requirment can
+be dramatically reduced. However, applying such an SFS rule to each of the
+extremely large number of high-order interaction features would be
+computationally infeasible. Our key idea for solving this computational issue
+is to exploit the underlying tree structure among high-order interaction
+features. Specifically, we introduce a pruning condition called safe feature
+pruning (SFP) rule which has a property that, if the rule is satisfied in a
+certain node of the tree, then all the high-order interaction features
+corresponding to its descendant nodes can be guaranteed to be non-active at the
+optimal solution. Our algorithm is extremely efficient, making it possible to
+work, e.g., with 3rd order interactions of 10,000 original covariates, where
+the number of possible high-order interaction features is greater than 10^{12}.

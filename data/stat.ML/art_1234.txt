@@ -1,0 +1,11 @@
+Practical Coreset Constructions for Machine Learning
+We investigate coresets - succinct, small summaries of large data sets - so
+that solutions found on the summary are provably competitive with solution
+found on the full data set. We provide an overview over the state-of-the-art in
+coreset construction for machine learning. In Section 2, we present both the
+intuition behind and a theoretically sound framework to construct coresets for
+general problems and apply it to $k$-means clustering. In Section 3 we
+summarize existing coreset construction algorithms for a variety of machine
+learning problems such as maximum likelihood estimation of mixture models,
+Bayesian non-parametric models, principal component analysis, regression and
+general empirical risk minimization.

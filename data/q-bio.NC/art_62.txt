@@ -1,0 +1,17 @@
+Temporal correlation based learning in neuron models
+We study a learning rule based upon the temporal correlation (weighted by a
+learning kernel) between incoming spikes and the internal state of the
+postsynaptic neuron, building upon previous studies of spike timing dependent
+synaptic plasticity (\cite{KGvHW,KGvH1,vH}). Our learning rule for the synaptic
+weight $w_{ij}$ is $$ \dot w_{ij}(t)= \epsilon \int_{-\infty}^\infty
+\frac{1}{T_l} \int_{t-T_l}^t \sum_\mu \delta(\tau+s-t_{j,\mu}) u(\tau) d\tau\
+\Gamma(s)ds $$ where the $t_{j,\mu}$ are the arrival times of spikes from the
+presynaptic neuron $j$ and the function $u(t)$ describes the state of the
+postsynaptic neuron $i$. Thus, the spike-triggered average contained in the
+inner integral is weighted by a kernel $\Gamma(s)$, the learning window,
+positive for negative, negative for positive values of the time diffence $s$
+between post- and presynaptic activity. An antisymmetry assumption for the
+learning window enables us to derive analytical expressions for a general class
+of neuron models and to study the changes in input-output relationships
+following from synaptic weight changes. This is a genuinely non-linear effect
+(\cite{SMA}).

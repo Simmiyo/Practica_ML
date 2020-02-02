@@ -1,0 +1,19 @@
+The Kernel Mixture Network: A Nonparametric Method for Conditional
+  Density Estimation of Continuous Random Variables
+This paper introduces the kernel mixture network, a new method for
+nonparametric estimation of conditional probability densities using neural
+networks. We model arbitrarily complex conditional densities as linear
+combinations of a family of kernel functions centered at a subset of training
+points. The weights are determined by the outer layer of a deep neural network,
+trained by minimizing the negative log likelihood. This generalizes the popular
+quantized softmax approach, which can be seen as a kernel mixture network with
+square and non-overlapping kernels. We test the performance of our method on
+two important applications, namely Bayesian filtering and generative modeling.
+In the Bayesian filtering example, we show that the method can be used to
+filter complex nonlinear and non-Gaussian signals defined on manifolds. The
+resulting kernel mixture network filter outperforms both the quantized softmax
+filter and the extended Kalman filter in terms of model likelihood. Finally,
+our experiments on generative models show that, given the same architecture,
+the kernel mixture network leads to higher test set likelihood, less
+overfitting and more diversified and realistic generated samples than the
+quantized softmax approach.

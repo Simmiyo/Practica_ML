@@ -1,0 +1,12 @@
+Optimal Evaluation of Generalized Euler Angles with Applications to
+  Classical and Quantum Control
+Given two linearly independent matrices in $so(3)$, $Z_1$ and $Z_2$, every
+rotation matrix $X_f \in SO(3)$ can be written as the product of alternate
+elements from the one dimensional subgroups corresponding to $Z_1$ and $Z_2$,
+namely $X_f=e^{Z_1 t_1}e^{Z_2 t_2}e^{Z_1t_3} \cdot \cdot \cdot e^{Z_1t_s}$. The
+parameters $t_i$, $i=1,...,s$ are called {\it generalized Euler angles}.
+  In this paper, we evaluate the minimum number of factors required for the
+factorization of $X_f \in SO(3)$, as a function of $X_f$, and provide an
+algorithm to determine the generalized Euler angles explicitly. The results can
+be applied to the bang bang control with minimum number of switches of some
+classical control systems and of two level quantum systems.

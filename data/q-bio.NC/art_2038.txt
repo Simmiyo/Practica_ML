@@ -1,0 +1,11 @@
+Multiplicatively interacting point processes and applications to neural
+  modeling
+We introduce a nonlinear modification of the classical Hawkes process, which
+allows inhibitory couplings between units without restrictions. The resulting
+system of interacting point processes provides a useful mathematical model for
+recurrent networks of spiking neurons with exponential transfer functions. The
+expected rates of all neurons in the network are approximated by a first-order
+differential system. We study the stability of the solutions of this equation,
+and use the new formalism to implement a winner-takes-all network that operates
+robustly for a wide range of parameters. Finally, we discuss relations with the
+generalised linear model that is widely used for the analysis of spike trains.

@@ -1,0 +1,14 @@
+Covariance Function Pre-Training with m-Kernels for Accelerated Bayesian
+  Optimisation
+The paper presents a novel approach to direct covariance function learning
+for Bayesian optimisation, with particular emphasis on experimental design
+problems where an existing corpus of condensed knowledge is present. The method
+presented borrows techniques from reproducing kernel Banach space theory
+(specifically m-kernels) and leverages them to convert (or re-weight) existing
+covariance functions into new, problem-specific covariance functions. The key
+advantage of this approach is that rather than relying on the user to manually
+select (with some hyperparameter tuning and experimentation) an appropriate
+covariance function it constructs the covariance function to specifically match
+the problem at hand. The technique is demonstrated on two real-world problems -
+specifically alloy design and short-polymer fibre manufacturing - as well as a
+selected test function.

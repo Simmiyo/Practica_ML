@@ -1,0 +1,16 @@
+Learning to Compose over Tree Structures via POS Tags
+Recursive Neural Network (RecNN), a type of models which compose words or
+phrases recursively over syntactic tree structures, has been proven to have
+superior ability to obtain sentence representation for a variety of NLP tasks.
+However, RecNN is born with a thorny problem that a shared compositional
+function for each node of trees can't capture the complex semantic
+compositionality so that the expressive power of model is limited. In this
+paper, in order to address this problem, we propose Tag-Guided
+HyperRecNN/TreeLSTM (TG-HRecNN/TreeLSTM), which introduces hypernetwork into
+RecNNs to take as inputs Part-of-Speech (POS) tags of word/phrase and generate
+the semantic composition parameters dynamically. Experimental results on five
+datasets for two typical NLP tasks show proposed models both obtain significant
+improvement compared with RecNN and TreeLSTM consistently. Our TG-HTreeLSTM
+outperforms all existing RecNN-based models and achieves or is competitive with
+state-of-the-art on four sentence classification benchmarks. The effectiveness
+of our models is also demonstrated by qualitative analysis.

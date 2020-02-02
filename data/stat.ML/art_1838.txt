@@ -1,0 +1,14 @@
+Alignment Based Kernel Learning with a Continuous Set of Base Kernels
+The success of kernel-based learning methods depend on the choice of kernel.
+Recently, kernel learning methods have been proposed that use data to select
+the most appropriate kernel, usually by combining a set of base kernels. We
+introduce a new algorithm for kernel learning that combines a {\em continuous
+set of base kernels}, without the common step of discretizing the space of base
+kernels. We demonstrate that our new method achieves state-of-the-art
+performance across a variety of real-world datasets. Furthermore, we explicitly
+demonstrate the importance of combining the right dictionary of kernels, which
+is problematic for methods based on a finite set of base kernels chosen a
+priori. Our method is not the first approach to work with continuously
+parameterized kernels. However, we show that our method requires substantially
+less computation than previous such approaches, and so is more amenable to
+multiple dimensional parameterizations of base kernels, which we demonstrate.

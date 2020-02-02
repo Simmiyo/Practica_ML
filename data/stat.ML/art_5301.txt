@@ -1,0 +1,18 @@
+Adversarial examples for generative models
+We explore methods of producing adversarial examples on deep generative
+models such as the variational autoencoder (VAE) and the VAE-GAN. Deep learning
+architectures are known to be vulnerable to adversarial examples, but previous
+work has focused on the application of adversarial examples to classification
+tasks. Deep generative models have recently become popular due to their ability
+to model input data distributions and generate realistic examples from those
+distributions. We present three classes of attacks on the VAE and VAE-GAN
+architectures and demonstrate them against networks trained on MNIST, SVHN and
+CelebA. Our first attack leverages classification-based adversaries by
+attaching a classifier to the trained encoder of the target generative model,
+which can then be used to indirectly manipulate the latent representation. Our
+second attack directly uses the VAE loss function to generate a target
+reconstruction image from the adversarial example. Our third attack moves
+beyond relying on classification or the standard loss for the gradient and
+directly optimizes against differences in source and target latent
+representations. We also motivate why an attacker might be interested in
+deploying such techniques against a target generative network.

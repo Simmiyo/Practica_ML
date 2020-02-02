@@ -1,0 +1,18 @@
+Stability of Stochastic Approximations with `Controlled Markov' Noise
+  and Temporal Difference Learning
+We are interested in understanding stability (almost sure boundedness) of
+stochastic approximation algorithms (SAs) driven by a `controlled Markov'
+process. Analyzing this class of algorithms is important, since many
+reinforcement learning (RL) algorithms can be cast as SAs driven by a
+`controlled Markov' process. In this paper, we present easily verifiable
+sufficient conditions for stability and convergence of SAs driven by a
+`controlled Markov' process. Many RL applications involve continuous state
+spaces. While our analysis readily ensures stability for such continuous state
+applications, traditional analyses do not. As compared to literature, our
+analysis presents a two-fold generalization (a) the Markov process may evolve
+in a continuous state space and (b) the process need not be ergodic under any
+given stationary policy. Temporal difference learning (TD) is an important
+policy evaluation method in reinforcement learning. The theory developed
+herein, is used to analyze generalized $TD(0)$, an important variant of TD. Our
+theory is also used to analyze a TD formulation of supervised learning for
+forecasting problems.

@@ -1,0 +1,20 @@
+Structural Data Recognition with Graph Model Boosting
+This paper presents a novel method for structural data recognition using a
+large number of graph models. In general, prevalent methods for structural data
+recognition have two shortcomings: 1) Only a single model is used to capture
+structural variation. 2) Naive recognition methods are used, such as the
+nearest neighbor method. In this paper, we propose strengthening the
+recognition performance of these models as well as their ability to capture
+structural variation. The proposed method constructs a large number of graph
+models and trains decision trees using the models. This paper makes two main
+contributions. The first is a novel graph model that can quickly perform
+calculations, which allows us to construct several models in a feasible amount
+of time. The second contribution is a novel approach to structural data
+recognition: graph model boosting. Comprehensive structural variations can be
+captured with a large number of graph models constructed in a boosting
+framework, and a sophisticated classifier can be formed by aggregating the
+decision trees. Consequently, we can carry out structural data recognition with
+powerful recognition capability in the face of comprehensive structural
+variation. The experiments shows that the proposed method achieves impressive
+results and outperforms existing methods on datasets of IAM graph database
+repository.

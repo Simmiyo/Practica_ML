@@ -1,0 +1,22 @@
+Technical Report - Automatic Contour Extraction from 2D Neuron Images
+This work describes a novel methodology for automatic contour extraction from
+2D images of 3D neurons (e.g. camera lucida images and other types of 2D
+microscopy). Most contour-based shape analysis methods can not be used to
+characterize such cells because of overlaps between neuronal processes. The
+proposed framework is specifically aimed at the problem of contour following
+even in presence of multiple overlaps. First, the input image is preprocessed
+in order to obtain an 8-connected skeleton with one-pixel-wide branches, as
+well as a set of critical regions (i.e., bifurcations and crossings). Next, for
+each subtree, the tracking stage iteratively labels all valid pixel of
+branches, up to a critical region, where it determines the suitable direction
+to proceed. Finally, the labeled skeleton segments are followed in order to
+yield the parametric contour of the neuronal shape under analysis. The reported
+system was successfully tested with respect to several images and the results
+from a set of three neuron images are presented here, each pertaining to a
+different class, i.e. alpha, delta and epsilon ganglion cells, containing a
+total of 34 crossings. The algorithms successfully got across all these
+overlaps. The method has also been found to exhibit robustness even for images
+with close parallel segments. The proposed method is robust and may be
+implemented in an efficient manner. The introduction of this approach should
+pave the way for more systematic application of contour-based shape analysis
+methods in neuronal morphology.

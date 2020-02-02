@@ -1,0 +1,12 @@
+Concave losses for robust dictionary learning
+Traditional dictionary learning methods are based on quadratic convex loss
+function and thus are sensitive to outliers. In this paper, we propose a
+generic framework for robust dictionary learning based on concave losses. We
+provide results on composition of concave functions, notably regarding
+super-gradient computations, that are key for developing generic dictionary
+learning algorithms applicable to smooth and non-smooth losses. In order to
+improve identification of outliers, we introduce an initialization heuristic
+based on undercomplete dictionary learning. Experimental results using
+synthetic and real data demonstrate that our method is able to better detect
+outliers, is capable of generating better dictionaries, outperforming
+state-of-the-art methods such as K-SVD and LC-KSVD.

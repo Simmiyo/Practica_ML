@@ -1,0 +1,22 @@
+A Robust Deep Learning Approach for Automatic Classification of Seizures
+  Against Non-seizures
+Identifying epileptic seizures through analysis of the electroencephalography
+(EEG) signal becomes a standard method for the diagnosis of epilepsy. Manual
+seizure identification on EEG by trained neurologists is time-consuming,
+labor-intensive and error-prone, and a reliable automatic seizure/non-seizure
+classification method is needed. One of the challenges in automatic
+seizure/non-seizure classification is that seizure morphologies exhibit
+considerable variabilities. In order to capture essential seizure patterns,
+this paper leverages an attention mechanism and a bidirectional long short-term
+memory (BiLSTM) to exploit both spatial and temporal discriminating features
+and overcome seizure variabilities. The attention mechanism is to capture
+spatial features according to the contributions of different brain regions to
+seizures. The BiLSTM is to extract discriminating temporal features in the
+forward and the backward directions. Cross-validation experiments and
+cross-patient experiments over the noisy data of CHB-MIT are performed to
+evaluate our proposed approach. The obtained average sensitivity of 87.00%,
+specificity of 88.60% and precision of 88.63% in cross-validation experiments
+are higher than using the current state-of-the-art methods, and the standard
+deviations of our approach are lower. The evaluation results of cross-patient
+experiments indicate that, our approach has better performance compared with
+the current state-of-the-art methods and is more robust across patients.

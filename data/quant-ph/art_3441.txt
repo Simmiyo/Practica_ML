@@ -1,0 +1,7 @@
+Quantum algorithm for distributed clock synchronization
+The clock synchronization problem is to determine the time difference
+$\Delta$ between two spatially separated clocks. When message delivery times
+between the two clocks are uncertain, $O(2^{2n})$ classical messages must be
+exchanged between the clocks to determine $n$ digits of $\Delta$. On the other
+hand, as we show, there exists a quantum algorithm to obtain $n$ digits of
+$\Delta$ while communicating only O(n) quantum messages.

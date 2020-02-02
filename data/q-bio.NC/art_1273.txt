@@ -1,0 +1,19 @@
+Deep Active Inference
+This work combines the free energy principle from cognitive neuroscience and
+the ensuing active inference dynamics with recent advances in variational
+inference in deep generative models, and evolution strategies to introduce the
+"deep active inference" agent. This agent minimises a variational free energy
+bound on the average surprise of its sensations, which is motivated by a
+homeostatic argument. It does so by optimising the parameters of a generative
+latent variable model of its sensory inputs, together with a variational
+density approximating the posterior distribution over the latent variables,
+given its observations, and by acting on its environment to actively sample
+input that is likely under this generative model. The internal dynamics of the
+agent are implemented using deep and recurrent neural networks, as used in
+machine learning, making the deep active inference agent a scalable and very
+flexible class of active inference agent. Using the mountain car problem, we
+show how goal directed behaviour can be implemented by defining appropriate
+priors on the latent states in the agent's model. Furthermore, we show that the
+deep active inference agent can learn a generative model of the environment,
+which can be sampled from to understand the agent's beliefs about the
+environment and its interaction therewith.

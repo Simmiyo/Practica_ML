@@ -1,0 +1,10 @@
+SLING: A framework for frame semantic parsing
+We describe SLING, a framework for parsing natural language into semantic
+frames. SLING supports general transition-based, neural-network parsing with
+bidirectional LSTM input encoding and a Transition Based Recurrent Unit (TBRU)
+for output decoding. The parsing model is trained end-to-end using only the
+text tokens as input. The transition system has been designed to output frame
+graphs directly without any intervening symbolic representation. The SLING
+framework includes an efficient and scalable frame store implementation as well
+as a neural network JIT compiler for fast inference during parsing. SLING is
+implemented in C++ and it is available for download on GitHub.

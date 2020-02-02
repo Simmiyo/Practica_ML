@@ -1,0 +1,20 @@
+Systematic Ensemble Learning for Regression
+The motivation of this work is to improve the performance of standard
+stacking approaches or ensembles, which are composed of simple, heterogeneous
+base models, through the integration of the generation and selection stages for
+regression problems. We propose two extensions to the standard stacking
+approach. In the first extension we combine a set of standard stacking
+approaches into an ensemble of ensembles using a two-step ensemble learning in
+the regression setting. The second extension consists of two parts. In the
+initial part a diversity mechanism is injected into the original training data
+set, systematically generating different training subsets or partitions, and
+corresponding ensembles of ensembles. In the final part after measuring the
+quality of the different partitions or ensembles, a max-min rule-based
+selection algorithm is used to select the most appropriate ensemble/partition
+on which to make the final prediction. We show, based on experiments over a
+broad range of data sets, that the second extension performs better than the
+best of the standard stacking approaches, and is as good as the oracle of
+databases, which has the best base model selected by cross-validation for each
+data set. In addition to that, the second extension performs better than two
+state-of-the-art ensemble methods for regression, and it is as good as a third
+state-of-the-art ensemble method.

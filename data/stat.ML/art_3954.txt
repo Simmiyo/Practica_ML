@@ -1,0 +1,13 @@
+Robust training on approximated minimal-entropy set
+In this paper, we propose a general framework to learn a robust large-margin
+binary classifier when corrupt measurements, called anomalies, caused by sensor
+failure might be present in the training set. The goal is to minimize the
+generalization error of the classifier on non-corrupted measurements while
+controlling the false alarm rate associated with anomalous samples. By
+incorporating a non-parametric regularizer based on an empirical entropy
+estimator, we propose a Geometric-Entropy-Minimization regularized Maximum
+Entropy Discrimination (GEM-MED) method to learn to classify and detect
+anomalies in a joint manner. We demonstrate using simulated data and a real
+multimodal data set. Our GEM-MED method can yield improved performance over
+previous robust classification methods in terms of both classification accuracy
+and anomaly detection rate.

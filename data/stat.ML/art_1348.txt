@@ -1,0 +1,23 @@
+Mode-Seeking Clustering and Density Ridge Estimation via Direct
+  Estimation of Density-Derivative-Ratios
+Modes and ridges of the probability density function behind observed data are
+useful geometric features. Mode-seeking clustering assigns cluster labels by
+associating data samples with the nearest modes, and estimation of density
+ridges enables us to find lower-dimensional structures hidden in data. A key
+technical challenge both in mode-seeking clustering and density ridge
+estimation is accurate estimation of the ratios of the first- and second-order
+density derivatives to the density. A naive approach takes a three-step
+approach of first estimating the data density, then computing its derivatives,
+and finally taking their ratios. However, this three-step approach can be
+unreliable because a good density estimator does not necessarily mean a good
+density derivative estimator, and division by the estimated density could
+significantly magnify the estimation error. To cope with these problems, we
+propose a novel estimator for the \emph{density-derivative-ratios}. The
+proposed estimator does not involve density estimation, but rather
+\emph{directly} approximates the ratios of density derivatives of any order.
+Moreover, we establish a convergence rate of the proposed estimator. Based on
+the proposed estimator, novel methods both for mode-seeking clustering and
+density ridge estimation are developed, and the respective convergence rates to
+the mode and ridge of the underlying density are also established. Finally, we
+experimentally demonstrate that the developed methods significantly outperform
+existing methods, particularly for relatively high-dimensional data.

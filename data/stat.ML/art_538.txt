@@ -1,0 +1,12 @@
+Active Function Cross-Entropy Clustering
+Gaussian Mixture Models (GMM) have found many applications in density
+estimation and data clustering. However, the model does not adapt well to
+curved and strongly nonlinear data. Recently there appeared an improvement
+called AcaGMM (Active curve axis Gaussian Mixture Model), which fits Gaussians
+along curves using an EM-like (Expectation Maximization) approach.
+  Using the ideas standing behind AcaGMM, we build an alternative active
+function model of clustering, which has some advantages over AcaGMM. In
+particular it is naturally defined in arbitrary dimensions and enables an easy
+adaptation to clustering of complicated datasets along the predefined family of
+functions. Moreover, it does not need external methods to determine the number
+of clusters as it automatically reduces the number of groups on-line.

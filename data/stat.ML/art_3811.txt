@@ -1,0 +1,20 @@
+Uniform Hypergraph Partitioning: Provable Tensor Methods and Sampling
+  Techniques
+In a series of recent works, we have generalised the consistency results in
+the stochastic block model literature to the case of uniform and non-uniform
+hypergraphs. The present paper continues the same line of study, where we focus
+on partitioning weighted uniform hypergraphs---a problem often encountered in
+computer vision. This work is motivated by two issues that arise when a
+hypergraph partitioning approach is used to tackle computer vision problems:
+(i) The uniform hypergraphs constructed for higher-order learning contain all
+edges, but most have negligible weights. Thus, the adjacency tensor is nearly
+sparse, and yet, not binary. (ii) A more serious concern is that standard
+partitioning algorithms need to compute all edge weights, which is
+computationally expensive for hypergraphs. This is usually resolved in practice
+by merging the clustering algorithm with a tensor sampling strategy---an
+approach that is yet to be analysed rigorously. We build on our earlier work on
+partitioning dense unweighted uniform hypergraphs (Ghoshdastidar and Dukkipati,
+ICML, 2015), and address the aforementioned issues by proposing provable and
+efficient partitioning algorithms. Our analysis justifies the empirical success
+of practical sampling techniques. We also complement our theoretical findings
+by elaborate empirical comparison of various hypergraph partitioning schemes.

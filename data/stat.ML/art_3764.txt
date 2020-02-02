@@ -1,0 +1,10 @@
+Network Inference by Learned Node-Specific Degree Prior
+We propose a novel method for network inference from partially observed edges
+using a node-specific degree prior. The degree prior is derived from observed
+edges in the network to be inferred, and its hyper-parameters are determined by
+cross validation. Then we formulate network inference as a matrix completion
+problem regularized by our degree prior. Our theoretical analysis indicates
+that this prior favors a network following the learned degree distribution, and
+may lead to improved network recovery error bound than previous work.
+Experimental results on both simulated and real biological networks demonstrate
+the superior performance of our method in various settings.

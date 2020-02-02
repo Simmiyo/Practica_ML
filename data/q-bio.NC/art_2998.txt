@@ -1,0 +1,22 @@
+Assessing Functional Neural Connectivity as an Indicator of Cognitive
+  Performance
+Studies in recent years have demonstrated that neural organization and
+structure impact an individual's ability to perform a given task. Specifically,
+individuals with greater neural efficiency have been shown to outperform those
+with less organized functional structure. In this work, we compare the
+predictive ability of properties of neural connectivity on a working memory
+task. We provide two novel approaches for characterizing functional network
+connectivity from electroencephalography (EEG), and compare these features to
+the average power across frequency bands in EEG channels. Our first novel
+approach represents functional connectivity structure through the distribution
+of eigenvalues making up channel coherence matrices in multiple frequency
+bands. Our second approach creates a connectivity network at each frequency
+band, and assesses variability in average path lengths of connected components
+and degree across the network. Failures in digit and sentence recall on single
+trials are detected using a Gaussian classifier for each feature set, at each
+frequency band. The classifier results are then fused across frequency bands,
+with the resulting detection performance summarized using the area under the
+receiver operating characteristic curve (AUC) statistic. Fused AUC results of
+0.63/0.58/0.61 for digit recall failure and 0.58/0.59/0.54 for sentence recall
+failure are obtained from the connectivity structure, graph variability, and
+channel power features respectively.

@@ -1,0 +1,16 @@
+A statistical learning algorithm for word segmentation
+In natural speech, the speaker does not pause between words, yet a human
+listener somehow perceives this continuous stream of phonemes as a series of
+distinct words. The detection of boundaries between spoken words is an instance
+of a general capability of the human neocortex to remember and to recognize
+recurring sequences. This paper describes a computer algorithm that is designed
+to solve the problem of locating word boundaries in blocks of English text from
+which the spaces have been removed. This problem avoids the complexities of
+speech processing but requires similar capabilities for detecting recurring
+sequences. The algorithm relies entirely on statistical relationships between
+letters in the input stream to infer the locations of word boundaries. A
+Viterbi trellis is used to simultaneously evaluate a set of hypothetical
+segmentations of a block of adjacent words. This technique improves accuracy
+but incurs a small latency between the arrival of letters in the input stream
+and the sending of words to the output stream. The source code for a C++
+version of this algorithm is presented in an appendix.

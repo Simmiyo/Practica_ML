@@ -1,0 +1,12 @@
+Discrete Structural Planning for Neural Machine Translation
+Structural planning is important for producing long sentences, which is a
+missing part in current language generation models. In this work, we add a
+planning phase in neural machine translation to control the coarse structure of
+output sentences. The model first generates some planner codes, then predicts
+real output words conditioned on them. The codes are learned to capture the
+coarse structure of the target sentence. In order to obtain the codes, we
+design an end-to-end neural network with a discretization bottleneck, which
+predicts the simplified part-of-speech tags of target sentences. Experiments
+show that the translation performance are generally improved by planning ahead.
+We also find that translations with different structures can be obtained by
+manipulating the planner codes.

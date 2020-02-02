@@ -1,0 +1,15 @@
+Reduce Meaningless Words for Joint Chinese Word Segmentation and
+  Part-of-speech Tagging
+Conventional statistics-based methods for joint Chinese word segmentation and
+part-of-speech tagging (S&T) have generalization ability to recognize new words
+that do not appear in the training data. An undesirable side effect is that a
+number of meaningless words will be incorrectly created. We propose an
+effective and efficient framework for S&T that introduces features to
+significantly reduce meaningless words generation. A general lexicon, Wikepedia
+and a large-scale raw corpus of 200 billion characters are used to generate
+word-based features for the wordhood. The word-lattice based framework consists
+of a character-based model and a word-based model in order to employ our
+word-based features. Experiments on Penn Chinese treebank 5 show that this
+method has a 62.9% reduction of meaningless word generation in comparison with
+the baseline. As a result, the F1 measure for segmentation is increased to
+0.984.

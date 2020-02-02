@@ -1,0 +1,10 @@
+Moment based estimation of stochastic Kronecker graph parameters
+Stochastic Kronecker graphs supply a parsimonious model for large sparse real
+world graphs. They can specify the distribution of a large random graph using
+only three or four parameters. Those parameters have however proved difficult
+to choose in specific applications. This article looks at method of moments
+estimators that are computationally much simpler than maximum likelihood. The
+estimators are fast and in our examples, they typically yield Kronecker
+parameters with expected feature counts closer to a given graph than we get
+from KronFit. The improvement was especially prominent for the number of
+triangles in the graph.

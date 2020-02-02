@@ -1,0 +1,14 @@
+Learning the Number of Autoregressive Mixtures in Time Series Using the
+  Gap Statistics
+Using a proper model to characterize a time series is crucial in making
+accurate predictions. In this work we use time-varying autoregressive process
+(TVAR) to describe non-stationary time series and model it as a mixture of
+multiple stable autoregressive (AR) processes. We introduce a new model
+selection technique based on Gap statistics to learn the appropriate number of
+AR filters needed to model a time series. We define a new distance measure
+between stable AR filters and draw a reference curve that is used to measure
+how much adding a new AR filter improves the performance of the model, and then
+choose the number of AR filters that has the maximum gap with the reference
+curve. To that end, we propose a new method in order to generate uniform random
+stable AR filters in root domain. Numerical results are provided demonstrating
+the performance of the proposed approach.

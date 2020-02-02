@@ -1,0 +1,20 @@
+Representation Learning using Event-based STDP
+Although representation learning methods developed within the framework of
+traditional neural networks are relatively mature, developing a spiking
+representation model remains a challenging problem. This paper proposes an
+event-based method to train a feedforward spiking neural network (SNN) layer
+for extracting visual features. The method introduces a novel
+spike-timing-dependent plasticity (STDP) learning rule and a threshold
+adjustment rule both derived from a vector quantization-like objective function
+subject to a sparsity constraint. The STDP rule is obtained by the gradient of
+a vector quantization criterion that is converted to spike-based,
+spatio-temporally local update rules in a spiking network of leaky,
+integrate-and-fire (LIF) neurons. Independence and sparsity of the model are
+achieved by the threshold adjustment rule and by a softmax function
+implementing inhibition in the representation layer consisting of
+WTA-thresholded spiking neurons. Together, these mechanisms implement a form of
+spike-based, competitive learning. Two sets of experiments are performed on the
+MNIST and natural image datasets. The results demonstrate a sparse spiking
+visual representation model with low reconstruction loss comparable with
+state-of-the-art visual coding approaches, yet our rule is local in both time
+and space, thus biologically plausible and hardware friendly.

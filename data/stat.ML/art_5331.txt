@@ -1,0 +1,11 @@
+Equivariance Through Parameter-Sharing
+We propose to study equivariance in deep neural networks through parameter
+symmetries. In particular, given a group $\mathcal{G}$ that acts discretely on
+the input and output of a standard neural network layer $\phi_{W}: \Re^{M} \to
+\Re^{N}$, we show that $\phi_{W}$ is equivariant with respect to
+$\mathcal{G}$-action iff $\mathcal{G}$ explains the symmetries of the network
+parameters $W$. Inspired by this observation, we then propose two
+parameter-sharing schemes to induce the desirable symmetry on $W$. Our
+procedures for tying the parameters achieve $\mathcal{G}$-equivariance and,
+under some conditions on the action of $\mathcal{G}$, they guarantee
+sensitivity to all other permutation groups outside $\mathcal{G}$.

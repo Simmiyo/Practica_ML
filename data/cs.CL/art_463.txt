@@ -1,0 +1,17 @@
+Design of Arabic Diacritical Marks
+Diacritical marks play a crucial role in meeting the criteria of usability of
+typographic text, such as: homogeneity, clarity and legibility. To change the
+diacritic of a letter in a word could completely change its semantic. The
+situation is very complicated with multilingual text. Indeed, the problem of
+design becomes more difficult by the presence of diacritics that come from
+various scripts; they are used for different purposes, and are controlled by
+various typographic rules. It is quite challenging to adapt rules from one
+script to another. This paper aims to study the placement and sizing of
+diacritical marks in Arabic script, with a comparison with the Latin's case.
+The Arabic script is cursive and runs from right-to-left; its criteria and
+rules are quite distinct from those of the Latin script. In the beginning, we
+compare the difficulty of processing diacritics in both scripts. After, we will
+study the limits of Latin resolution strategies when applied to Arabic. At the
+end, we propose an approach to resolve the problem for positioning and resizing
+diacritics. This strategy includes creating an Arabic font, designed in
+OpenType format, along with suitable justification in TEX.

@@ -1,0 +1,12 @@
+Clustering of functional boxplots for multiple streaming time series
+In this paper we introduce a micro-clustering strategy for Functional
+Boxplots. The aim is to summarize a set of streaming time series splitted in
+non overlapping windows. It is a two step strategy which performs at first, an
+on-line summarization by means of functional data structures, named Functional
+Boxplot micro-clusters; then it reveals the final summarization by processing,
+off-line, the functional data structures. Our main contribute consists in
+providing a new definition of micro-cluster based on Functional Boxplots and,
+in defining a proximity measure which allows to compare and update them. This
+allows to get a finer graphical summarization of the streaming time series by
+five functional basic statistics of data. The obtained synthesis will be able
+to keep track of the dynamic evolution of the multiple streams.

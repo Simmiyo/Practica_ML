@@ -1,0 +1,12 @@
+Simple Large-scale Relation Extraction from Unstructured Text
+Knowledge-based question answering relies on the availability of facts, the
+majority of which cannot be found in structured sources (e.g. Wikipedia
+info-boxes, Wikidata). One of the major components of extracting facts from
+unstructured text is Relation Extraction (RE). In this paper we propose a novel
+method for creating distant (weak) supervision labels for training a
+large-scale RE system. We also provide new evidence about the effectiveness of
+neural network approaches by decoupling the model architecture from the feature
+design of a state-of-the-art neural network system. Surprisingly, a much
+simpler classifier trained on similar features performs on par with the highly
+complex neural network system (at 75x reduction to the training time),
+suggesting that the features are a bigger contributor to the final performance.

@@ -1,0 +1,13 @@
+Event Extraction with Generative Adversarial Imitation Learning
+We propose a new method for event extraction (EE) task based on an imitation
+learning framework, specifically, inverse reinforcement learning (IRL) via
+generative adversarial network (GAN). The GAN estimates proper rewards
+according to the difference between the actions committed by the expert (or
+ground truth) and the agent among complicated states in the environment. EE
+task benefits from these dynamic rewards because instances and labels yield to
+various extents of difficulty and the gains are expected to be diverse -- e.g.,
+an ambiguous but correctly detected trigger or argument should receive high
+gains -- while the traditional RL models usually neglect such differences and
+pay equal attention on all instances. Moreover, our experiments also
+demonstrate that the proposed framework outperforms state-of-the-art methods,
+without explicit feature engineering.

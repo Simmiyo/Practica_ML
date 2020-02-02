@@ -1,0 +1,12 @@
+Probability Series Expansion Classifier that is Interpretable by Design
+This work presents a new classifier that is specifically designed to be fully
+interpretable. This technique determines the probability of a class outcome,
+based directly on probability assignments measured from the training data. The
+accuracy of the predicted probability can be improved by measuring more
+probability estimates from the training data to create a series expansion that
+refines the predicted probability. We use this work to classify four standard
+datasets and achieve accuracies comparable to that of Random Forests. Because
+this technique is interpretable by design, it is capable of determining the
+combinations of features that contribute to a particular classification
+probability for individual cases as well as the weightings of each of
+combination of features.

@@ -1,0 +1,15 @@
+Spin switches for compact implementation of neuron and synapse
+Nanomagnets driven by spin currents provide a natural implementation for a
+neuron and a synapse: currents allow convenient summation of multiple inputs,
+while the magnet provides the threshold function. The objective of this paper
+is to explore the possibility of a hardware neural network (HNN) implementation
+using a spin switch (SS) as its basic building block. SS is a recently proposed
+device based on established technology with a transistor-like gain and
+input-output isolation. This allows neural networks to be constructed with
+purely passive interconnections without intervening clocks or amplifiers. The
+weights for the neural network are conveniently adjusted through analog
+voltages that can be stored in a non-volatile manner in an underlying CMOS
+layer using a floating gate low dropout voltage regulator. The operation of a
+multi-layer SS neural network designed for character recognition is
+demonstrated using a standard simulation model based on coupled
+Landau-Lifshitz-Gilbert (LLG) equations, one for each magnet in the network.

@@ -1,0 +1,13 @@
+An Introduction to Conditional Random Fields
+Often we wish to predict a large number of variables that depend on each
+other as well as on other observed variables. Structured prediction methods are
+essentially a combination of classification and graphical modeling, combining
+the ability of graphical models to compactly model multivariate data with the
+ability of classification methods to perform prediction using large sets of
+input features. This tutorial describes conditional random fields, a popular
+probabilistic method for structured prediction. CRFs have seen wide application
+in natural language processing, computer vision, and bioinformatics. We
+describe methods for inference and parameter estimation for CRFs, including
+practical issues for implementing large scale CRFs. We do not assume previous
+knowledge of graphical modeling, so this tutorial is intended to be useful to
+practitioners in a wide variety of fields.

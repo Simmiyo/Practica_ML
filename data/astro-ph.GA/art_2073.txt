@@ -1,0 +1,27 @@
+A Link to the Past: Using Markov Chain Monte Carlo Fitting to Constrain
+  Fundamental Parameters of High-Redshift Galaxies
+We have a developed a new method for fitting spectral energy distributions
+(SEDs) to identify and constrain the physical properties of high-redshift (4 <
+z < 8) galaxies. Our approach uses an implementation of Bayesian based Markov
+Chain Monte Carlo (PiMC^2) that allows us to compare observations to
+arbitrarily complex models and to compute 95% credible intervals that provide
+robust constraints for the model parameters. The work is presented in 2
+sections. In the first, we test PiMC^2 using simulated SEDs to not only confirm
+the recovery of the known inputs but to assess the limitations of the method
+and identify potential hazards of SED fitting when applied specifically to high
+redshift (z>4) galaxies. Our tests reveal five critical results: 1) the ability
+to confidently constrain metallicity, population ages, and Av all require
+photometric accuracy better than what is currently achievable (i.e. less than a
+few percent); 2) the ability to confidently constrain stellar masses (within a
+factor of two) can be achieved without the need for high-precision photometry;
+3) the addition of IRAC photometry does not guarantee that tighter constraints
+of the stellar masses and ages can be defined; 4) different assumptions about
+the star formation history can lead to significant biases in mass and age
+estimates; and 5) we are able to constrain stellar age and Av of objects that
+are both young and relatively dust free. In the second part of the paper we
+apply PiMC^2 to 17 4<z<8 objects, including the GRAPES Ly alpha sample (4<z<6),
+supplemented by HST/WFC3 near-IR observations, and several broad band selected
+z>6 galaxies. Using PiMC^2, we are able to constrain the stellar mass of these
+objects and in some cases their stellar age and find no evidence that any of
+these sources formed at a redshift much larger than z_f=8, a time when the
+Universe was ~ 0.6 Gyr old.

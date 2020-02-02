@@ -1,0 +1,17 @@
+Path-Based Spectral Clustering: Guarantees, Robustness to Outliers, and
+  Fast Algorithms
+We consider the problem of clustering with the longest-leg path distance
+(LLPD) metric, which is informative for elongated and irregularly shaped
+clusters. We prove finite-sample guarantees on the performance of clustering
+with respect to this metric when random samples are drawn from multiple
+intrinsically low-dimensional clusters in high-dimensional space, in the
+presence of a large number of high-dimensional outliers. By combining these
+results with spectral clustering with respect to LLPD, we provide conditions
+under which the Laplacian eigengap statistic correctly determines the number of
+clusters for a large class of data sets, and prove guarantees on the labeling
+accuracy of the proposed algorithm. Our methods are quite general and provide
+performance guarantees for spectral clustering with any ultrametric. We also
+introduce an efficient, easy to implement approximation algorithm for the LLPD
+based on a multiscale analysis of adjacency graphs, which allows for the
+runtime of LLPD spectral clustering to be quasilinear in the number of data
+points.

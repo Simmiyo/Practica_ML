@@ -1,0 +1,20 @@
+An investigation into machine learning approaches for forecasting
+  spatio-temporal demand in ride-hailing service
+In this paper, we present machine learning approaches for characterizing and
+forecasting the short-term demand for on-demand ride-hailing services. We
+propose the spatio-temporal estimation of the demand that is a function of
+variable effects related to traffic, pricing and weather conditions. With
+respect to the methodology, a single decision tree, bootstrap-aggregated
+(bagged) decision trees, random forest, boosted decision trees, and artificial
+neural network for regression have been adapted and systematically compared
+using various statistics, e.g. R-square, Root Mean Square Error (RMSE), and
+slope. To better assess the quality of the models, they have been tested on a
+real case study using the data of DiDi Chuxing, the main on-demand ride hailing
+service provider in China. In the current study, 199,584 time-slots describing
+the spatio-temporal ride-hailing demand has been extracted with an
+aggregated-time interval of 10 mins. All the methods are trained and validated
+on the basis of two independent samples from this dataset. The results revealed
+that boosted decision trees provide the best prediction accuracy (RMSE=16.41),
+while avoiding the risk of over-fitting, followed by artificial neural network
+(20.09), random forest (23.50), bagged decision trees (24.29) and single
+decision tree (33.55).

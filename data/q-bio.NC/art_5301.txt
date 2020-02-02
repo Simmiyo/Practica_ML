@@ -1,0 +1,22 @@
+Statistical mechanics of unsupervised feature learning in a restricted
+  Boltzmann machine with binary synapses
+Revealing hidden features in unlabeled data is called unsupervised feature
+learning, which plays an important role in pretraining a deep neural network.
+Here we provide a statistical mechanics analysis of the unsupervised learning
+in a restricted Boltzmann machine with binary synapses. A message passing
+equation to infer the hidden feature is derived, and furthermore, variants of
+this equation are analyzed. A statistical analysis by replica theory describes
+the thermodynamic properties of the model. Our analysis confirms an entropy
+crisis preceding the non-convergence of the message passing equation,
+suggesting a discontinuous phase transition as a key characteristic of the
+restricted Boltzmann machine. Continuous phase transition is also confirmed
+depending on the embedded feature strength in the data. The mean-field result
+under the replica symmetric assumption agrees with that obtained by running
+message passing algorithms on single instances of finite sizes. Interestingly,
+in an approximate Hopfield model, the entropy crisis is absent, and a
+continuous phase transition is observed instead. We also develop an iterative
+equation to infer the hyper-parameter (temperature) hidden in the data, which
+in physics corresponds to iteratively imposing Nishimori condition. Our study
+provides insights towards understanding the thermodynamic properties of the
+restricted Boltzmann machine learning, and moreover important theoretical basis
+to build simplified deep networks.

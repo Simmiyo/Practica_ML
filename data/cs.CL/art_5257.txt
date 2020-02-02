@@ -1,0 +1,16 @@
+Towards Using Context-Dependent Symbols in CTC Without State-Tying
+  Decision Trees
+Deep neural acoustic models benefit from context-dependent (CD) modeling of
+output symbols. We consider direct training of CTC networks with CD outputs,
+and identify two issues. The first one is frame-level normalization of
+probabilities in CTC, which induces strong language modeling behavior that
+leads to overfitting and interference with external language models. The second
+one is poor generalization in the presence of numerous lexical units like
+triphones or tri-chars. We mitigate the former with utterance-level
+normalization of probabilities. The latter typically requires reducing the CD
+symbol inventory with state-tying decision trees, which have to be transferred
+from classical GMM-HMM systems. We replace the trees with a CD symbol embedding
+network, which saves parameters and ensures generalization to unseen and
+undersampled CD symbols. The embedding network is trained together with the
+rest of the acoustic model and removes one of the last cases in which neural
+systems have to be bootstrapped from GMM-HMM ones.

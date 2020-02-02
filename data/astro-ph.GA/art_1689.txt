@@ -1,0 +1,26 @@
+Nonlinear Dynamical Friction of a Circular-Orbit Perturber in a Gaseous
+  Medium
+We use three-dimensional hydrodynamic simulations to investigate the
+nonlinear gravitational responses of gas to, and the resulting drag forces on,
+very massive perturbers moving on circular orbits. This work extends our
+previous studies that explored the cases of low-mass perturbers on circular
+orbits and massive perturbers on straight-line trajectories. The background
+medium is assumed to be non-rotating, adiabatic with index 5/3, and uniform
+with density rho0 and sound speed a0. We model the gravitating perturber using
+a Plummer sphere with mass Mp and softening radius rs in a uniform circular
+motion at speed Vp and orbital radius Rp, and run various models with differing
+R=rs/Rp, Mach=Vp/a0, and B=G*Mp/(a0^2*Rp). A quasi-steady density wake of a
+supersonic model consists of a hydrostatic envelope surrounding the perturber,
+an upstream bow shock, and a trailing low-density region. The continuous change
+in the direction of the perturber motion makes the detached shock distance
+reduced compared to the linear-trajectory cases, while the orbit-averaged
+gravity of the perturber gathers the gas toward the center of the orbit,
+modifying the background preshock density to rho1=(1 + 0.46B)*rho0 depending
+weakly on Mach. For sufficiently massive perturbers, the presence of a
+hydrostatic envelope makes the drag force smaller than the prediction of the
+linear perturbation theory, resulting in F = 4*pi*rho1*(G*Mp/Vp)^2 * (0.7/etaB)
+for etaB = B/(Mach^2 -1) > 0.1; the drag force for low-mass perturbers with
+etaB < 0.1 agrees well with the linear prediction. The nonlinear drag force
+becomes independent of R as long as R < etaB/2, which places an upper limit on
+the perturber size for accurate evaluation of the drag force in numerical
+simulations.

@@ -1,0 +1,21 @@
+Neural Population Coding for Effective Temporal Classification
+Neural encoding plays an important role in faithfully describing the
+temporally rich patterns, whose instances include human speech and
+environmental sounds. For tasks that involve classifying such spatio-temporal
+patterns with the Spiking Neural Networks (SNNs), how these patterns are
+encoded directly influence the difficulty of the task. In this paper, we
+compare several existing temporal and population coding schemes and evaluate
+them on both speech (TIDIGITS) and sound (RWCP) datasets. We show that, with
+population neural codings, the encoded patterns are linearly separable using
+the Support Vector Machine (SVM). We note that the population neural codings
+effectively project the temporal information onto the spatial domain, thus
+improving linear separability in the spatial dimension, achieving an accuracy
+of 95\% and 100\% for TIDIGITS and RWCP datasets classified using the SVM,
+respectively. This observation suggests that an effective neural coding scheme
+greatly simplifies the classification problem such that a simple linear
+classifier would suffice. The above datasets are then classified using the
+Tempotron, an SNN-based classifier. SNN classification results agree with the
+SVM findings that population neural codings help to improve classification
+accuracy. Hence, other than the learning algorithm, effective neural encoding
+is just as important as an SNN designed to recognize spatio-temporal patterns.
+It is an often neglected but powerful abstraction that deserves further study.

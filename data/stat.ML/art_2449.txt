@@ -1,0 +1,22 @@
+Ranking and combining multiple predictors without labeled data
+In a broad range of classification and decision making problems, one is given
+the advice or predictions of several classifiers, of unknown reliability, over
+multiple questions or queries. This scenario is different from the standard
+supervised setting, where each classifier accuracy can be assessed using
+available labeled data, and raises two questions: given only the predictions of
+several classifiers over a large set of unlabeled test data, is it possible to
+a) reliably rank them; and b) construct a meta-classifier more accurate than
+most classifiers in the ensemble? Here we present a novel spectral approach to
+address these questions. First, assuming conditional independence between
+classifiers, we show that the off-diagonal entries of their covariance matrix
+correspond to a rank-one matrix. Moreover, the classifiers can be ranked using
+the leading eigenvector of this covariance matrix, as its entries are
+proportional to their balanced accuracies. Second, via a linear approximation
+to the maximum likelihood estimator, we derive the Spectral Meta-Learner (SML),
+a novel ensemble classifier whose weights are equal to this eigenvector
+entries. On both simulated and real data, SML typically achieves a higher
+accuracy than most classifiers in the ensemble and can provide a better
+starting point than majority voting, for estimating the maximum likelihood
+solution. Furthermore, SML is robust to the presence of small malicious groups
+of classifiers designed to veer the ensemble prediction away from the (unknown)
+ground truth.

@@ -1,0 +1,24 @@
+Third Generation MEEG Source Connectivity Analysis Toolbox (BC-VARETA
+  1.0) and Validation Benchmark
+This paper presents a new toolbox for MEEG source activity and connectivity
+estimation: Brain Connectivity Variable Resolution Tomographic Analysis version
+1.0 (BC-VARETA 1.0). It relies on the third generation of nonlinear methods for
+the analysis of resting state MEEG Time Series. Into the state of the art of
+MEEG analysis, the methodology underlying our tool (BC-VARETA) brings out
+several assets. First: Constitutes a Bayesian Identification approach of Linear
+Dynamical Systems in the Frequency Domain, grounded in more consistent models
+(third generation). Second: Achieves Super-Resolution, through the iterative
+solution of a Sparse Hermitian Source Graphical Model. Third: Tackles
+efficiently in High Dimensional and Complex set up the estimation of
+connectivity. Fourth: Incorporates priors at the connectivity level by
+penalizing the groups of variables, corresponding to the Gray Matter anatomical
+segmentation, and including a probability mask of the anatomically plausible
+connections. Along with the implementation of our method, we include in this
+toolbox a benchmark for the validation of MEEG source analysis methods, that
+would serve for the evaluation of sophisticated methodologies (third
+generation). It incorporates two elements. First: A realistic simulation
+framework, for the generation of MEEG synthetic data, given an underlying
+source connectivity structure. Second: Sensitive quality measures that allow
+for a reliable evaluation of the source activity and connectivity
+reconstruction performance, based on the Spatial Dispersion and Earth Movers
+Distance, in both source and connectivity space.

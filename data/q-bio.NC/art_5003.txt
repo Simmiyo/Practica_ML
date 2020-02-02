@@ -1,0 +1,11 @@
+Real-Time Sleep Staging using Deep Learning on a Smartphone for a
+  Wearable EEG
+We present the first real-time sleep staging system that uses deep learning
+without the need for servers in a smartphone application for a wearable EEG. We
+employ real-time adaptation of a single channel Electroencephalography (EEG) to
+infer from a Time-Distributed 1-D Deep Convolutional Neural Network.
+Polysomnography (PSG)-the gold standard for sleep staging, requires a human
+scorer and is both complex and resource-intensive. Our work demonstrates an
+end-to-end on-smartphone pipeline that can infer sleep stages in just single
+30-second epochs, with an overall accuracy of 83.5% on 20-fold cross validation
+for five-class classification of sleep stages using the open Sleep-EDF dataset.

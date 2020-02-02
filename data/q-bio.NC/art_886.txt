@@ -1,0 +1,17 @@
+Differential Covariance: A New Class of Methods to Estimate Sparse
+  Connectivity from Neural Recordings
+With our ability to record more neurons simultaneously, making sense of these
+data is a challenge. Functional connectivity is one popular way to study the
+relationship between multiple neural signals. Correlation-based methods are a
+set of currently well-used techniques for functional connectivity estimation.
+However, due to explaining away and unobserved common inputs (Stevenson et al.,
+2008), they produce spurious connections. The general linear model (GLM), which
+models spikes trains as Poisson processes (Okatan et al., 2005; Truccolo et
+al., 2005; Pillow et al., 2008), avoids these confounds. We develop here a new
+class of methods by using differential signals based on simulated intracellular
+voltage recordings. It is equivalent to a regularized AR(2) model. We also
+expand the method to simulated local field potential (LFP) recordings and
+calcium imaging. In all of our simulated data, the differential
+covariance-based methods achieved better or similar performance to the GLM
+method and required fewer data samples. This new class of methods provides
+alternative ways to analyze neural signals.

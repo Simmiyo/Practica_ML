@@ -1,0 +1,15 @@
+Support Consistency of Direct Sparse-Change Learning in Markov Networks
+We study the problem of learning sparse structure changes between two Markov
+networks $P$ and $Q$. Rather than fitting two Markov networks separately to two
+sets of data and figuring out their differences, a recent work proposed to
+learn changes \emph{directly} via estimating the ratio between two Markov
+network models. In this paper, we give sufficient conditions for
+\emph{successful change detection} with respect to the sample size $n_p, n_q$,
+the dimension of data $m$, and the number of changed edges $d$. When using an
+unbounded density ratio model we prove that the true sparse changes can be
+consistently identified for $n_p = \Omega(d^2 \log \frac{m^2+m}{2})$ and $n_q =
+\Omega({n_p^2})$, with an exponentially decaying upper-bound on learning error.
+Such sample complexity can be improved to $\min(n_p, n_q) = \Omega(d^2 \log
+\frac{m^2+m}{2})$ when the boundedness of the density ratio model is assumed.
+Our theoretical guarantee can be applied to a wide range of discrete/continuous
+Markov networks.

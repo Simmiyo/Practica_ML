@@ -1,0 +1,17 @@
+Using phonetic constraints in acoustic-to-articulatory inversion
+The goal of this work is to recover articulatory information from the speech
+signal by acoustic-to-articulatory inversion. One of the main difficulties with
+inversion is that the problem is underdetermined and inversion methods
+generally offer no guarantee on the phonetical realism of the inverse
+solutions. A way to adress this issue is to use additional phonetic
+constraints. Knowledge of the phonetic caracteristics of French vowels enable
+the derivation of reasonable articulatory domains in the space of Maeda
+parameters: given the formants frequencies (F1,F2,F3) of a speech sample, and
+thus the vowel identity, an "ideal" articulatory domain can be derived. The
+space of formants frequencies is partitioned into vowels, using either
+speaker-specific data or generic information on formants. Then, to each
+articulatory vector can be associated a phonetic score varying with the
+distance to the "ideal domain" associated with the corresponding vowel.
+Inversion experiments were conducted on isolated vowels and vowel-to-vowel
+transitions. Articulatory parameters were compared with those obtained without
+using these constraints and those measured from X-ray data.

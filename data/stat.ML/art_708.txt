@@ -1,0 +1,20 @@
+Automatic Inference of the Quantile Parameter
+Supervised learning is an active research area, with numerous applications in
+diverse fields such as data analytics, computer vision, speech and audio
+processing, and image understanding. In most cases, the loss functions used in
+machine learning assume symmetric noise models, and seek to estimate the
+unknown function parameters. However, loss functions such as quantile and
+quantile Huber generalize the symmetric $\ell_1$ and Huber losses to the
+asymmetric setting, for a fixed quantile parameter. In this paper, we propose
+to jointly infer the quantile parameter and the unknown function parameters,
+for the asymmetric quantile Huber and quantile losses. We explore various
+properties of the quantile Huber loss and implement a convexity certificate
+that can be used to check convexity in the quantile parameter. When the loss if
+convex with respect to the parameter of the function, we prove that it is
+biconvex in both the function and the quantile parameters, and propose an
+algorithm to jointly estimate these. Results with synthetic and real data
+demonstrate that the proposed approach can automatically recover the quantile
+parameter corresponding to the noise and also provide an improved recovery of
+function parameters. To illustrate the potential of the framework, we extend
+the gradient boosting machines with quantile losses to automatically estimate
+the quantile parameter at each iteration.

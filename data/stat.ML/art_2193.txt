@@ -1,0 +1,19 @@
+Factored Latent Analysis for far-field tracking data
+This paper uses Factored Latent Analysis (FLA) to learn a factorized,
+segmental representation for observations of tracked objects over time.
+Factored Latent Analysis is latent class analysis in which the observation
+space is subdivided and each aspect of the original space is represented by a
+separate latent class model. One could simply treat these factors as completely
+independent and ignore their interdependencies or one could concatenate them
+together and attempt to learn latent class structure for the complete
+observation space. Alternatively, FLA allows the interdependencies to be
+exploited in estimating an effective model, which is also capable of
+representing a factored latent state. In this paper, FLA is used to learn a set
+of factored latent classes to represent different modalities of observations of
+tracked objects. Different characteristics of the state of tracked objects are
+each represented by separate latent class models, including normalized size,
+normalized speed, normalized direction, and position. This model also enables
+effective temporal segmentation of these sequences. This method is data-driven,
+unsupervised using only pairwise observation statistics. This data-driven and
+unsupervised activity classi- fication technique exhibits good performance in
+multiple challenging environments.

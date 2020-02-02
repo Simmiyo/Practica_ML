@@ -1,0 +1,18 @@
+Knowledge Distillation for Small-footprint Highway Networks
+Deep learning has significantly advanced state-of-the-art of speech
+recognition in the past few years. However, compared to conventional Gaussian
+mixture acoustic models, neural network models are usually much larger, and are
+therefore not very deployable in embedded devices. Previously, we investigated
+a compact highway deep neural network (HDNN) for acoustic modelling, which is a
+type of depth-gated feedforward neural network. We have shown that HDNN-based
+acoustic models can achieve comparable recognition accuracy with much smaller
+number of model parameters compared to plain deep neural network (DNN) acoustic
+models. In this paper, we push the boundary further by leveraging on the
+knowledge distillation technique that is also known as {\it teacher-student}
+training, i.e., we train the compact HDNN model with the supervision of a high
+accuracy cumbersome model. Furthermore, we also investigate sequence training
+and adaptation in the context of teacher-student training. Our experiments were
+performed on the AMI meeting speech recognition corpus. With this technique, we
+significantly improved the recognition accuracy of the HDNN acoustic model with
+less than 0.8 million parameters, and narrowed the gap between this model and
+the plain DNN with 30 million parameters.

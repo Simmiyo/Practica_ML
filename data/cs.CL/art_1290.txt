@@ -1,0 +1,12 @@
+Sequence Segmentation Using Joint RNN and Structured Prediction Models
+We describe and analyze a simple and effective algorithm for sequence
+segmentation applied to speech processing tasks. We propose a neural
+architecture that is composed of two modules trained jointly: a recurrent
+neural network (RNN) module and a structured prediction model. The RNN outputs
+are considered as feature functions to the structured model. The overall model
+is trained with a structured loss function which can be designed to the given
+segmentation task. We demonstrate the effectiveness of our method by applying
+it to two simple tasks commonly used in phonetic studies: word segmentation and
+voice onset time segmentation. Results sug- gest the proposed model is superior
+to previous methods, ob- taining state-of-the-art results on the tested
+datasets.

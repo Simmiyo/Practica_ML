@@ -1,0 +1,15 @@
+Lasso and equivalent quadratic penalized models
+The least absolute shrinkage and selection operator (lasso) and ridge
+regression produce usually different estimates although input, loss function
+and parameterization of the penalty are identical. In this paper we look for
+ridge and lasso models with identical solution set.
+  It turns out, that the lasso model with shrink vector $\lambda$ and a
+quadratic penalized model with shrink matrix as outer product of $\lambda$ with
+itself are equivalent, in the sense that they have equal solutions. To achieve
+this, we have to restrict the estimates to be positive. This doesn't limit the
+area of application since we can easily decompose every estimate in a positive
+and negative part. The resulting problem can be solved with a non negative
+least square algorithm.
+  Beside this quadratic penalized model, an augmented regression model with
+positive bounded estimates is developed which is also equivalent to the lasso
+model, but is probably faster to solve.

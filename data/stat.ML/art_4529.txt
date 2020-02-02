@@ -1,0 +1,10 @@
+Sublinear Partition Estimation
+The output scores of a neural network classifier are converted to
+probabilities via normalizing over the scores of all competing categories.
+Computing this partition function, $Z$, is then linear in the number of
+categories, which is problematic as real-world problem sets continue to grow in
+categorical types, such as in visual object recognition or discriminative
+language modeling. We propose three approaches for sublinear estimation of the
+partition function, based on approximate nearest neighbor search and kernel
+feature maps and compare the performance of the proposed approaches
+empirically.

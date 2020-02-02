@@ -1,0 +1,23 @@
+Hybrid scheme for modeling local field potentials from point-neuron
+  networks
+Due to rapid advances in multielectrode recording technology, the local field
+potential (LFP) has again become a popular measure of neuronal activity in both
+basic research and clinical applications. Proper understanding of the LFP
+requires detailed mathematical modeling incorporating the anatomical and
+electrophysiological features of neurons near the recording electrode, as well
+as synaptic inputs from the entire network. Here we propose a hybrid modeling
+scheme combining the efficiency of commonly used simplified point-neuron
+network models with the biophysical principles underlying LFP generation by
+real neurons. The scheme can be used with an arbitrary number of point-neuron
+network populations. The LFP predictions rely on populations of
+network-equivalent, anatomically reconstructed multicompartment neuron models
+with layer-specific synaptic connectivity. The present scheme allows for a full
+separation of the network dynamics simulation and LFP generation. For
+illustration, we apply the scheme to a full-scale cortical network model for a
+$\sim$1 mm$^2$ patch of primary visual cortex and predict laminar LFPs for
+different network states, assess the relative LFP contribution from different
+laminar populations, and investigate the role of synaptic input correlations
+and neuron density on the LFP. The generic nature of the hybrid scheme and its
+publicly available implementation in \texttt{hybridLFPy} form the basis for LFP
+predictions from other point-neuron network models, as well as extensions of
+the current application to larger circuitry and additional biological detail.

@@ -1,0 +1,16 @@
+C-mix: a high dimensional mixture model for censored durations, with
+  applications to genetic data
+We introduce a mixture model for censored durations (C-mix), and develop
+maximum likelihood inference for the joint estimation of the time distributions
+and latent regression parameters of the model. We consider a high-dimensional
+setting, with datasets containing a large number of biomedical covariates. We
+therefore penalize the negative log-likelihood by the Elastic-Net, which leads
+to a sparse parameterization of the model. Inference is achieved using an
+efficient Quasi-Newton Expectation Maximization (QNEM) algorithm, for which we
+provide convergence properties. We then propose a score by assessing the
+patients risk of early adverse event. The statistical performance of the method
+is examined on an extensive Monte Carlo simulation study, and finally
+illustrated on three genetic datasets with high-dimensional covariates. We show
+that our approach outperforms the state-of-the-art, namely both the CURE and
+Cox proportional hazards models for this task, both in terms of C-index and
+AUC(t).

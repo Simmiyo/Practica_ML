@@ -1,0 +1,16 @@
+Distributed Estimation of the Operating State of a Single-Bus DC
+  MicroGrid without an External Communication Interface
+We propose a decentralized Maximum Likelihood solution for estimating the
+stochastic renewable power generation and demand in single bus Direct Current
+(DC) MicroGrids (MGs), with high penetration of droop controlled power
+electronic converters. The solution relies on the fact that the primary control
+parameters are set in accordance with the local power generation status of the
+generators. Therefore, the steady state voltage is inherently dependent on the
+generation capacities and the load, through a non-linear parametric model,
+which can be estimated. To have a well conditioned estimation problem, our
+solution avoids the use of an external communication interface and utilizes
+controlled voltage disturbances to perform distributed training. Using this
+tool, we develop an efficient, decentralized Maximum Likelihood Estimator (MLE)
+and formulate the sufficient condition for the existence of the globally
+optimal solution. The numerical results illustrate the promising performance of
+our MLE algorithm.

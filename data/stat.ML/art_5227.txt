@@ -1,0 +1,19 @@
+A Convex Similarity Index for Sparse Recovery of Missing Image Samples
+This paper investigates the problem of recovering missing samples using
+methods based on sparse representation adapted especially for image signals.
+Instead of $l_2$-norm or Mean Square Error (MSE), a new perceptual quality
+measure is used as the similarity criterion between the original and the
+reconstructed images. The proposed criterion called Convex SIMilarity (CSIM)
+index is a modified version of the Structural SIMilarity (SSIM) index, which
+despite its predecessor, is convex and uni-modal. We derive mathematical
+properties for the proposed index and show how to optimally choose the
+parameters of the proposed criterion, investigating the Restricted Isometry
+(RIP) and error-sensitivity properties. We also propose an iterative sparse
+recovery method based on a constrained $l_1$-norm minimization problem,
+incorporating CSIM as the fidelity criterion. The resulting convex optimization
+problem is solved via an algorithm based on Alternating Direction Method of
+Multipliers (ADMM). Taking advantage of the convexity of the CSIM index, we
+also prove the convergence of the algorithm to the globally optimal solution of
+the proposed optimization problem, starting from any arbitrary point.
+Simulation results confirm the performance of the new similarity index as well
+as the proposed algorithm for missing sample recovery of image patch signals.

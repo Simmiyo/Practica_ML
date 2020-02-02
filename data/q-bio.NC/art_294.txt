@@ -1,0 +1,20 @@
+Is a 4-bit synaptic weight resolution enough? - Constraints on enabling
+  spike-timing dependent plasticity in neuromorphic hardware
+Large-scale neuromorphic hardware systems typically bear the trade-off
+between detail level and required chip resources. Especially when implementing
+spike-timing-dependent plasticity, reduction in resources leads to limitations
+as compared to floating point precision. By design, a natural modification that
+saves resources would be reducing synaptic weight resolution. In this study, we
+give an estimate for the impact of synaptic weight discretization on different
+levels, ranging from random walks of individual weights to computer simulations
+of spiking neural networks. The FACETS wafer-scale hardware system offers a
+4-bit resolution of synaptic weights, which is shown to be sufficient within
+the scope of our network benchmark. Our findings indicate that increasing the
+resolution may not even be useful in light of further restrictions of
+customized mixed-signal synapses. In addition, variations due to production
+imperfections are investigated and shown to be uncritical in the context of the
+presented study. Our results represent a general framework for setting up and
+configuring hardware-constrained synapses. We suggest how weight discretization
+could be considered for other backends dedicated to large-scale simulations.
+Thus, our proposition of a good hardware verification practice may rise synergy
+effects between hardware developers and neuroscientists.

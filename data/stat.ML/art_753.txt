@@ -1,0 +1,19 @@
+High-Dimensional Regularized Discriminant Analysis
+Regularized discriminant analysis (RDA), proposed by Friedman (1989), is a
+widely popular classifier that lacks interpretability and is impractical for
+high-dimensional data sets. Here, we present an interpretable and
+computationally efficient classifier called high-dimensional RDA (HDRDA),
+designed for the small-sample, high-dimensional setting. For HDRDA, we show
+that each training observation, regardless of class, contributes to the class
+covariance matrix, resulting in an interpretable estimator that borrows from
+the pooled sample covariance matrix. Moreover, we show that HDRDA is equivalent
+to a classifier in a reduced-feature space with dimension approximately equal
+to the training sample size. As a result, the matrix operations employed by
+HDRDA are computationally linear in the number of features, making the
+classifier well-suited for high-dimensional classification in practice. We
+demonstrate that HDRDA is often superior to several sparse and regularized
+classifiers in terms of classification accuracy with three artificial and six
+real high-dimensional data sets. Also, timing comparisons between our HDRDA
+implementation in the sparsediscrim R package and the standard RDA formulation
+in the klaR R package demonstrate that as the number of features increases, the
+computational runtime of HDRDA is drastically smaller than that of RDA.

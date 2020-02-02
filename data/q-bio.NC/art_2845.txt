@@ -1,0 +1,20 @@
+Data assimilation for estimating electrophysiology simultaneously with
+  connectivity within a biological neuronal network
+A method of data assimilation (DA) is employed to estimate
+electrophysiological parameters of neurons simultaneously with their synaptic
+connectivity in a small model biological network. The DA procedure is cast as
+an optimization, where the cost function consists of both a measurement and a
+model error term. An iterative reweighting of these terms permits a systematic
+method to identify the lowest minimum, within a local region of state space, on
+the surface of a non-convex cost function. Two sets of parameter values are
+associated with two particular functional modes of network activity:
+simultaneous firing of all neurons, and a pattern-generating mode wherein the
+neurons burst in sequence. The DA procedure is able to recover these modes if:
+i) the stimulating electrical currents have chaotic waveforms, and ii) the
+measurements consist of the membrane voltages of all neurons in the circuit.
+Further, this method is able to prune a model of unnecessarily high complexity
+down to a representation that contains the maximum dimensionality required to
+reproduce the available measurements. The utility of DA for exploring the
+functionality of real biological networks is discussed. This paper offers a
+proof-of-concept that DA has the potential to estimate properties in extremely
+small and isolatable functional circuits.

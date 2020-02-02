@@ -1,0 +1,18 @@
+Subspace Clustering with Missing and Corrupted Data
+Given full or partial information about a collection of points that lie close
+to a union of several subspaces, subspace clustering refers to the process of
+clustering the points according to their subspace and identifying the
+subspaces. One popular approach, sparse subspace clustering (SSC), represents
+each sample as a weighted combination of the other samples, with weights of
+minimal $\ell_1$ norm, and then uses those learned weights to cluster the
+samples. SSC is stable in settings where each sample is contaminated by a
+relatively small amount of noise. However, when there is a significant amount
+of additive noise, or a considerable number of entries are missing, theoretical
+guarantees are scarce. In this paper, we study a robust variant of SSC and
+establish clustering guarantees in the presence of corrupted or missing data.
+We give explicit bounds on amount of noise and missing data that the algorithm
+can tolerate, both in deterministic settings and in a random generative model.
+Notably, our approach provides guarantees for higher tolerance to noise and
+missing data than existing analyses for this method. By design, the results
+hold even when we do not know the locations of the missing data; e.g., as in
+presence-only data.

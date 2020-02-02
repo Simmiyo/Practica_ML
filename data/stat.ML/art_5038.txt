@@ -1,0 +1,13 @@
+(Bandit) Convex Optimization with Biased Noisy Gradient Oracles
+Algorithms for bandit convex optimization and online learning often rely on
+constructing noisy gradient estimates, which are then used in appropriately
+adjusted first-order algorithms, replacing actual gradients. Depending on the
+properties of the function to be optimized and the nature of "noise" in the
+bandit feedback, the bias and variance of gradient estimates exhibit various
+tradeoffs. In this paper we propose a novel framework that replaces the
+specific gradient estimation methods with an abstract oracle. With the help of
+the new framework we unify previous works, reproducing their results in a clean
+and concise fashion, while, perhaps more importantly, the framework also allows
+us to formally show that to achieve the optimal root-$n$ rate either the
+algorithms that use existing gradient estimators, or the proof techniques used
+to analyze them have to go beyond what exists today.

@@ -1,0 +1,10 @@
+Word Segmentation as Graph Partition
+We propose a new approach to the Chinese word segmentation problem that
+considers the sentence as an undirected graph, whose nodes are the characters.
+One can use various techniques to compute the edge weights that measure the
+connection strength between characters. Spectral graph partition algorithms are
+used to group the characters and achieve word segmentation. We follow the graph
+partition approach and design several unsupervised algorithms, and we show
+their inspiring segmentation results on two corpora: (1) electronic health
+records in Chinese, and (2) benchmark data from the Second International
+Chinese Word Segmentation Bakeoff.

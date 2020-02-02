@@ -1,0 +1,19 @@
+Nonparametric Hawkes Processes: Online Estimation and Generalization
+  Bounds
+In this paper, we design a nonparametric online algorithm for estimating the
+triggering functions of multivariate Hawkes processes. Unlike parametric
+estimation, where evolutionary dynamics can be exploited for fast computation
+of the gradient, and unlike typical function learning, where representer
+theorem is readily applicable upon proper regularization of the objective
+function, nonparametric estimation faces the challenges of (i) inefficient
+evaluation of the gradient, (ii) lack of representer theorem, and (iii)
+computationally expensive projection necessary to guarantee positivity of the
+triggering functions. In this paper, we offer solutions to the above
+challenges, and design an online estimation algorithm named NPOLE-MHP that
+outputs estimations with a $\mathcal{O}(1/T)$ regret, and a $\mathcal{O}(1/T)$
+stability. Furthermore, we design an algorithm, NPOLE-MMHP, for estimation of
+multivariate marked Hawkes processes. We test the performance of NPOLE-MHP on
+various synthetic and real datasets, and demonstrate, under different
+evaluation metrics, that NPOLE-MHP performs as good as the optimal maximum
+likelihood estimation (MLE), while having a run time as little as parametric
+online algorithms.

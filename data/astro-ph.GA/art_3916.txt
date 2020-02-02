@@ -1,0 +1,25 @@
+The degeneracy between dust colour temperature and spectral index.
+  Comparison of methods for estimating the beta(T) relation
+Sub-millimetre dust emission provides information on the physics of
+interstellar clouds and dust. Noise can produce anticorrelation between the
+colour temperature T_C and the spectral index beta. This must be separated from
+the intrinsic beta(T) relation of dust. We compare methods for the analysis of
+the beta(T) relation. We examine sub-millimetre observations simulated as
+simple modified black body emission or using 3D radiative transfer modelling.
+In addition to chi^2 fitting, we examine the results of the SIMEX method, basic
+Bayesian model, hierarchical models, and one method that explicitly assumes a
+functional form for beta(T). All methods exhibit some bias. Bayesian method
+shows significantly lower bias than direct chi^2 fits. The same is true for
+hierarchical models that also result in a smaller scatter in the temperature
+and spectral index values. However, significant bias was observed in cases with
+high noise levels. Beta and T estimates of the hierarchical model are biased
+towards the relation determined by the data with the highest S/N ratio. This
+can alter the recovered beta(T) function. With the method where we explicitly
+assume a functional form for the beta(T) relation, the bias is similar to the
+Bayesian method. In the case of an actual Herschel field, all methods agree,
+showing some degree of anticorrelation between T and beta.
+  The Bayesian method and the hierarchical models can both reduce the
+noise-induced parameter correlations. However, all methods can exhibit
+non-negligible bias. This is particularly true for hierarchical models and
+observations of varying signal-to-noise ratios and must be taken into account
+when interpreting the results.

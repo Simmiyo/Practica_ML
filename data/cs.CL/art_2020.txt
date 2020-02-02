@@ -1,0 +1,17 @@
+Text authorship identified using the dynamics of word co-occurrence
+  networks
+The identification of authorship in disputed documents still requires human
+expertise, which is now unfeasible for many tasks owing to the large volumes of
+text and authors in practical applications. In this study, we introduce a
+methodology based on the dynamics of word co-occurrence networks representing
+written texts to classify a corpus of 80 texts by 8 authors. The texts were
+divided into sections with equal number of linguistic tokens, from which time
+series were created for 12 topological metrics. The series were proven to be
+stationary (p-value>0.05), which permits to use distribution moments as
+learning attributes. With an optimized supervised learning procedure using a
+Radial Basis Function Network, 68 out of 80 texts were correctly classified,
+i.e. a remarkable 85% author matching success rate. Therefore, fluctuations in
+purely dynamic network metrics were found to characterize authorship, thus
+opening the way for the description of texts in terms of small evolving
+networks. Moreover, the approach introduced allows for comparison of texts with
+diverse characteristics in a simple, fast fashion.

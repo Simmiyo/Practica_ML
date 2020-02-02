@@ -1,0 +1,22 @@
+Understanding the Learned Iterative Soft Thresholding Algorithm with
+  matrix factorization
+Sparse coding is a core building block in many data analysis and machine
+learning pipelines. Typically it is solved by relying on generic optimization
+techniques, such as the Iterative Soft Thresholding Algorithm and its
+accelerated version (ISTA, FISTA). These methods are optimal in the class of
+first-order methods for non-smooth, convex functions. However, they do not
+exploit the particular structure of the problem at hand nor the input data
+distribution. An acceleration using neural networks, coined LISTA, was proposed
+in Gregor and Le Cun (2010), which showed empirically that one could achieve
+high quality estimates with few iterations by modifying the parameters of the
+proximal splitting appropriately.
+  In this paper we study the reasons for such acceleration. Our mathematical
+analysis reveals that it is related to a specific matrix factorization of the
+Gram kernel of the dictionary, which attempts to nearly diagonalise the kernel
+with a basis that produces a small perturbation of the $\ell_1$ ball. When this
+factorization succeeds, we prove that the resulting splitting algorithm enjoys
+an improved convergence bound with respect to the non-adaptive version.
+Moreover, our analysis also shows that conditions for acceleration occur mostly
+at the beginning of the iterative process, consistent with numerical
+experiments. We further validate our analysis by showing that on dictionaries
+where this factorization does not exist, adaptive acceleration fails.

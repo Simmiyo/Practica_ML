@@ -1,0 +1,22 @@
+High-Resolution Directed Human Connectomes and the Consensus Connectome
+  Dynamics
+Here we show a method of directing the edges of the connectomes, prepared
+from diffusion tensor imaging (DTI) datasets from the human brain. Before the
+present work, no high-definition directed braingraphs (or connectomes) were
+published, because the tractography methods in use are not capable of assigning
+directions to the neural tracts discovered. Previous work on the functional
+connectomes applied low-resolution functional MRI-detected statistical
+causality for the assignment of directions of connectomes of typically several
+dozens of vertices. Our method is based on the phenomenon of the "Consensus
+Connectome Dynamics" (CCD), described earlier by our research group. In this
+contribution, we apply the method to the 423 braingraphs, each with 1015
+vertices, computed from the public release of the Human Connectome Project, and
+we also made the directed connectomes publicly available at the site
+\url{http://braingraph.org}. We also show the robustness of our edge directing
+method in four independently chosen connectome datasets: we have found that
+86\% of the edges, which were present in all four datasets, get the very same
+directions in all datasets; therefore the direction method is robust, it does
+not depend on the particular choice of the dataset. We think that our present
+contribution opens up new possibilities in the analysis of the high-definition
+human connectome: from now on we can work with a robust assignment of
+directions of the connections of the human brain.

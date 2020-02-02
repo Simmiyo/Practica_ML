@@ -1,0 +1,18 @@
+The selection of LEGUE disk targets for LAMOST's pilot survey
+We describe the target selection algorithm for the low latitude disk portion
+of the LAMOST Pilot Survey, which aims to test systems in preparation for the
+LAMOST spectroscopic survey. We use the PPMXL (Roeser et al. 2010) astrometric
+catalog, which provides positions, proper motions, B/R/I magnitudes (mostly)
+from USNO-B (Monet et al. 2003) and J/H/Ks from The Two Micron All Sky Survey
+(2MASS, see Skrutskie et al. 2006) as well. We chose 8 plates along the
+Galactic plane, in the region $0^\circ<\alpha<67^\circ$ and
+$42^\circ<\delta<59^\circ$, that cover 22 known open clusters with a range of
+ages. Adjacent plates may have small overlapping. Each plate covers an area
+$2.5^\circ$ in radius,with central star (for Shack-Hartmann guider) brighter
+than $\sim8^{\rm th}$ magnitude. For each plate, we create an input catalog in
+the magnitude range $11.3<Imag<16.3$ and $Bmag$ available from PPMXL. The stars
+are selected to satisfy the requirements of the fiber positioning system and
+have a uniform distribution in the $I$ vs. $B-I$ color-magnitude diagram. Our
+final input catalog consists of 12,000 objects on each of 8 plates that are
+observable during the winter observing season in Xinglong Station of the
+National Astronomical Observatory of China.

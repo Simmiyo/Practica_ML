@@ -1,0 +1,13 @@
+Keystroke dynamics as signal for shallow syntactic parsing
+Keystroke dynamics have been extensively used in psycholinguistic and writing
+research to gain insights into cognitive processing. But do keystroke logs
+contain actual signal that can be used to learn better natural language
+processing models?
+  We postulate that keystroke dynamics contain information about syntactic
+structure that can inform shallow syntactic parsing. To test this hypothesis,
+we explore labels derived from keystroke logs as auxiliary task in a multi-task
+bidirectional Long Short-Term Memory (bi-LSTM). Our results show promising
+results on two shallow syntactic parsing tasks, chunking and CCG supertagging.
+Our model is simple, has the advantage that data can come from distinct
+sources, and produces models that are significantly better than models trained
+on the text annotations alone.

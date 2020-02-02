@@ -1,0 +1,12 @@
+Penalized Orthogonal-Components Regression for Large p Small n Data
+We propose a penalized orthogonal-components regression (POCRE) for large p
+small n data. Orthogonal components are sequentially constructed to maximize,
+upon standardization, their correlation to the response residuals. A new
+penalization framework, implemented via empirical Bayes thresholding, is
+presented to effectively identify sparse predictors of each component. POCRE is
+computationally efficient owing to its sequential construction of leading
+sparse principal components. In addition, such construction offers other
+properties such as grouping highly correlated predictors and allowing for
+collinear or nearly collinear predictors. With multivariate responses, POCRE
+can construct common components and thus build up latent-variable models for
+large p small n data.

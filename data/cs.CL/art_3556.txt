@@ -1,0 +1,14 @@
+Automatically augmenting an emotion dataset improves classification
+  using audio
+In this work, we tackle a problem of speech emotion classification. One of
+the issues in the area of affective computation is that the amount of annotated
+data is very limited. On the other hand, the number of ways that the same
+emotion can be expressed verbally is enormous due to variability between
+speakers. This is one of the factors that limits performance and
+generalization. We propose a simple method that extracts audio samples from
+movies using textual sentiment analysis. As a result, it is possible to
+automatically construct a larger dataset of audio samples with positive,
+negative emotional and neutral speech. We show that pretraining recurrent
+neural network on such a dataset yields better results on the challenging
+EmotiW corpus. This experiment shows a potential benefit of combining textual
+sentiment analysis with vocal information.

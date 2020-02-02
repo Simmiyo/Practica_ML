@@ -1,0 +1,15 @@
+Expanding Abbreviations in a Strongly Inflected Language: Are
+  Morphosyntactic Tags Sufficient?
+In this paper, the problem of recovery of morphological information lost in
+abbreviated forms is addressed with a focus on highly inflected languages.
+Evidence is presented that the correct inflected form of an expanded
+abbreviation can in many cases be deduced solely from the morphosyntactic tags
+of the context. The prediction model is a deep bidirectional LSTM network with
+tag embedding. The training and evaluation data are gathered by finding the
+words which could have been abbreviated and using their corresponding
+morphosyntactic tags as the labels, while the tags of the context words are
+used as the input features for classification. The network is trained on over
+10 million words from the Polish Sejm Corpus and achieves 74.2% prediction
+accuracy on a smaller, but more general National Corpus of Polish. The analysis
+of errors suggests that performance in this task may improve if some prior
+knowledge about the abbreviated word is incorporated into the model.

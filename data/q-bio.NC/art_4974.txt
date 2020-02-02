@@ -1,0 +1,19 @@
+Searching for collective behavior in a small brain
+In large neuronal networks, it is believed that functions emerge through the
+collective behavior of many interconnected neurons. Recently, the development
+of experimental techniques that allow simultaneous recording of calcium
+concentration from a large fraction of all neurons in Caenorhabditis elegans -
+a nematode with 302 neurons - creates the opportunity to ask if such emergence
+is universal, reaching down to even the smallest brains. Here, we measure the
+activity of 50+ neurons in C. elegans, and analyze the data by building the
+maximum entropy model that matches the mean activity and pairwise correlations
+among these neurons. To capture the graded nature of the cells' responses, we
+assign each cell multiple states. These models, which are equivalent to a
+family of Potts glasses, successfully predict higher statistical structure in
+the network. In addition, these models exhibit signatures of collective
+behavior: the state of single cells can be predicted from the state of the rest
+of the network; the network, despite being sparse in a way similar to the
+structural connectome, distributes its response globally when locally
+perturbed; the distribution over network states has multiple local maxima, as
+in models for memory; and the parameters that describe the real network are
+close to a critical surface in this family of models.

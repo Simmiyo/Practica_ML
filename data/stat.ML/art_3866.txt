@@ -1,0 +1,14 @@
+Near-Optimal Stochastic Approximation for Online Principal Component
+  Estimation
+Principal component analysis (PCA) has been a prominent tool for
+high-dimensional data analysis. Online algorithms that estimate the principal
+component by processing streaming data are of tremendous practical and
+theoretical interests. Despite its rich applications, theoretical convergence
+analysis remains largely open. In this paper, we cast online PCA into a
+stochastic nonconvex optimization problem, and we analyze the online PCA
+algorithm as a stochastic approximation iteration. The stochastic approximation
+iteration processes data points incrementally and maintains a running estimate
+of the principal component. We prove for the first time a nearly optimal
+finite-sample error bound for the online PCA algorithm. Under the subgaussian
+assumption, we show that the finite-sample error bound closely matches the
+minimax information lower bound.

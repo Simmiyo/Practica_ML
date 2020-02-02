@@ -1,0 +1,17 @@
+Learning to Understand Phrases by Embedding the Dictionary
+Distributional models that learn rich semantic word representations are a
+success story of recent NLP research. However, developing models that learn
+useful representations of phrases and sentences has proved far harder. We
+propose using the definitions found in everyday dictionaries as a means of
+bridging this gap between lexical and phrasal semantics. Neural language
+embedding models can be effectively trained to map dictionary definitions
+(phrases) to (lexical) representations of the words defined by those
+definitions. We present two applications of these architectures: "reverse
+dictionaries" that return the name of a concept given a definition or
+description and general-knowledge crossword question answerers. On both tasks,
+neural language embedding models trained on definitions from a handful of
+freely-available lexical resources perform as well or better than existing
+commercial systems that rely on significant task-specific engineering. The
+results highlight the effectiveness of both neural embedding architectures and
+definition-based training for developing models that understand phrases and
+sentences.

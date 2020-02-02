@@ -1,0 +1,19 @@
+Sequence Graph Transform (SGT): A Feature Extraction Function for
+  Sequence Data Mining (Extended Version)
+The ubiquitous presence of sequence data across fields such as the web,
+healthcare, bioinformatics, and text mining has made sequence mining a vital
+research area. However, sequence mining is particularly challenging because of
+difficulty in finding (dis)similarity/distance between sequences. This is
+because a distance measure between sequences is not obvious due to their
+unstructuredness---arbitrary strings of arbitrary length. Feature
+representations, such as n-grams, are often used but they either compromise on
+extracting both short- and long-term sequence patterns or have a high
+computation. We propose a new function, Sequence Graph Transform (SGT), that
+extracts the short- and long-term sequence features and embeds them in a
+finite-dimensional feature space. Importantly, SGT has low computation and can
+extract any amount of short- to long-term patterns without any increase in the
+computation, also proved theoretically in this paper. Due to this, SGT yields
+superior result with significantly higher accuracy and lower computation
+compared to the existing methods. We show it via several experimentation and
+SGT's real world application for clustering, classification, search and
+visualization as examples.

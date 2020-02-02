@@ -1,0 +1,15 @@
+Kernel Manifold Alignment
+We introduce a kernel method for manifold alignment (KEMA) and domain
+adaptation that can match an arbitrary number of data sources without needing
+corresponding pairs, just few labeled examples in all domains. KEMA has
+interesting properties: 1) it generalizes other manifold alignment methods, 2)
+it can align manifolds of very different complexities, performing a sort of
+manifold unfolding plus alignment, 3) it can define a domain-specific metric to
+cope with multimodal specificities, 4) it can align data spaces of different
+dimensionality, 5) it is robust to strong nonlinear feature deformations, and
+6) it is closed-form invertible which allows transfer across-domains and data
+synthesis. We also present a reduced-rank version for computational efficiency
+and discuss the generalization performance of KEMA under Rademacher principles
+of stability. KEMA exhibits very good performance over competing methods in
+synthetic examples, visual object recognition and recognition of facial
+expressions tasks.

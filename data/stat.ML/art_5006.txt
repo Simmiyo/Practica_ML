@@ -1,0 +1,12 @@
+A Greedy Algorithm to Cluster Specialists
+Several recent deep neural networks experiments leverage the
+generalist-specialist paradigm for classification. However, no formal study
+compared the performance of different clustering algorithms for class
+assignment. In this paper we perform such a study, suggest slight modifications
+to the clustering procedures, and propose a novel algorithm designed to
+optimize the performance of of the specialist-generalist classification system.
+Our experiments on the CIFAR-10 and CIFAR-100 datasets allow us to investigate
+situations for varying number of classes on similar data. We find that our
+\emph{greedy pairs} clustering algorithm consistently outperforms other
+alternatives, while the choice of the confusion matrix has little impact on the
+final performance.

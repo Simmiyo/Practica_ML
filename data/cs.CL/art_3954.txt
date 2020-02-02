@@ -1,0 +1,10 @@
+Fast Neural Machine Translation Implementation
+This paper describes the submissions to the efficiency track for GPUs at the
+Workshop for Neural Machine Translation and Generation by members of the
+University of Edinburgh, Adam Mickiewicz University, Tilde and University of
+Alicante. We focus on efficient implementation of the recurrent deep-learning
+model as implemented in Amun, the fast inference engine for neural machine
+translation. We improve the performance with an efficient mini-batching
+algorithm, and by fusing the softmax operation with the k-best extraction
+algorithm. Submissions using Amun were first, second and third fastest in the
+GPU efficiency track.

@@ -1,0 +1,11 @@
+Efficient AUC Optimization for Information Ranking Applications
+Adequate evaluation of an information retrieval system to estimate future
+performance is a crucial task. Area under the ROC curve (AUC) is widely used to
+evaluate the generalization of a retrieval system. However, the objective
+function optimized in many retrieval systems is the error rate and not the AUC
+value. This paper provides an efficient and effective non-linear approach to
+optimize AUC using additive regression trees, with a special emphasis on the
+use of multi-class AUC (MAUC) because multiple relevance levels are widely used
+in many ranking applications. Compared to a conventional linear approach, the
+performance of the non-linear approach is comparable on binary-relevance
+benchmark datasets and is better on multi-relevance benchmark datasets.

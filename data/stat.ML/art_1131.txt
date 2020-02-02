@@ -1,0 +1,18 @@
+Estimating Probability Distributions using "Dirac" Kernels (via
+  Rademacher-Walsh Polynomial Basis Functions)
+In many applications (in particular information systems, such as pattern
+recognition, machine learning, cheminformatics, bioinformatics to name but a
+few) the assessment of uncertainty is essential - i.e., the estimation of the
+underlying probability distribution function. More often than not, the form of
+this function is unknown and it becomes necessary to non-parametrically
+construct/estimate it from a given sample. One of the methods of choice to
+non-parametrically estimate the unknown probability distribution function for a
+given random variable (defined on binary space) has been the expansion of the
+estimation function in Rademacher-Walsh Polynomial basis functions. In this
+paper we demonstrate that the expansion of the probability distribution
+function estimation in Rademacher-Walsh Polynomial basis functions is
+equivalent to the expansion of the function estimation in a set of "Dirac
+kernel" functions. The latter approach can ameliorate the computational
+bottleneck and notational awkwardness often associated with the
+Rademacher-Walsh Polynomial basis functions approach, in particular when the
+binary input space is large.

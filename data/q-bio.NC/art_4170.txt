@@ -1,0 +1,26 @@
+Transmodal Analysis of Neural Signals
+Localizing neuronal activity in the brain, both in time and in space, is a
+central challenge to advance the understanding of brain function. Because of
+the inability of any single neuroimaging techniques to cover all aspects at
+once, there is a growing interest to combine signals from multiple modalities
+in order to benefit from the advantages of each acquisition method. Due to the
+complexity and unknown parameterization of any suggested complete model of BOLD
+response in functional magnetic resonance imaging (fMRI), the development of a
+reliable ultimate fusion approach remains difficult. But besides the primary
+goal of superior temporal and spatial resolution, conjoint analysis of data
+from multiple imaging modalities can alternatively be used to segregate neural
+information from physiological and acquisition noise. In this paper we suggest
+a novel methodology which relies on constructing a quantifiable mapping of data
+from one modality (electroencephalography; EEG) into another (fMRI), called
+transmodal analysis of neural signals (TRANSfusion). TRANSfusion attempts to
+map neural data embedded within the EEG signal into its reflection in fMRI
+data. Assessing the mapping performance on unseen data allows to localize brain
+areas where a significant portion of the signal could be reliably
+reconstructed, hence the areas neural activity of which is reflected in both
+EEG and fMRI data. Consecutive analysis of the learnt model allows to localize
+areas associated with specific frequency bands of EEG, or areas functionally
+related (connected or coherent) to any given EEG sensor. We demonstrate the
+performance of TRANSfusion on artificial and real data from an auditory
+experiment. We further speculate on possible alternative uses: cross-modal data
+filtering and EEG-driven interpolation of fMRI signals to obtain arbitrarily
+high temporal sampling of BOLD.

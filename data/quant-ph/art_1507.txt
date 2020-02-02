@@ -1,0 +1,9 @@
+Estimates for practical quantum cryptography
+In this article I present a protocol for quantum cryptography which is secure
+against attacks on individual signals. It is based on the Bennett-Brassard
+protocol of 1984 (BB84). The security proof is complete as far as the use of
+single photons as signal states is concerned. Emphasis is given to the
+practicability of the resulting protocol. For each run of the quantum key
+distribution the security statement gives the probability of a successful key
+generation and the probability for an eavesdropper's knowledge, measured as
+change in Shannon entropy, to be below a specified maximal value.

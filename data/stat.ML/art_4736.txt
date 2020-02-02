@@ -1,0 +1,12 @@
+Differentially Private Gaussian Processes
+A major challenge for machine learning is increasing the availability of data
+while respecting the privacy of individuals. Here we combine the provable
+privacy guarantees of the differential privacy framework with the flexibility
+of Gaussian processes (GPs). We propose a method using GPs to provide
+differentially private (DP) regression. We then improve this method by crafting
+the DP noise covariance structure to efficiently protect the training data,
+while minimising the scale of the added noise. We find that this cloaking
+method achieves the greatest accuracy, while still providing privacy
+guarantees, and offers practical DP for regression over multi-dimensional
+inputs. Together these methods provide a starter toolkit for combining
+differential privacy and GPs.

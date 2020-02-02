@@ -1,0 +1,22 @@
+Cats & Co: Categorical Time Series Coclustering
+We suggest a novel method of clustering and exploratory analysis of temporal
+event sequences data (also known as categorical time series) based on
+three-dimensional data grid models. A data set of temporal event sequences can
+be represented as a data set of three-dimensional points, each point is defined
+by three variables: a sequence identifier, a time value and an event value.
+Instantiating data grid models to the 3D-points turns the problem into
+3D-coclustering.
+  The sequences are partitioned into clusters, the time variable is discretized
+into intervals and the events are partitioned into clusters. The cross-product
+of the univariate partitions forms a multivariate partition of the
+representation space, i.e., a grid of cells and it also represents a
+nonparametric estimator of the joint distribution of the sequences, time and
+events dimensions. Thus, the sequences are grouped together because they have
+similar joint distribution of time and events, i.e., similar distribution of
+events along the time dimension. The best data grid is computed using a
+parameter-free Bayesian model selection approach. We also suggest several
+criteria for exploiting the resulting grid through agglomerative hierarchies,
+for interpreting the clusters of sequences and characterizing their components
+through insightful visualizations. Extensive experiments on both synthetic and
+real-world data sets demonstrate that data grid models are efficient, effective
+and discover meaningful underlying patterns of categorical time series data.

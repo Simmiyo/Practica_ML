@@ -1,0 +1,16 @@
+New probabilistic interest measures for association rules
+Mining association rules is an important technique for discovering meaningful
+patterns in transaction databases. Many different measures of interestingness
+have been proposed for association rules. However, these measures fail to take
+the probabilistic properties of the mined data into account. In this paper, we
+start with presenting a simple probabilistic framework for transaction data
+which can be used to simulate transaction data when no associations are
+present. We use such data and a real-world database from a grocery outlet to
+explore the behavior of confidence and lift, two popular interest measures used
+for rule mining. The results show that confidence is systematically influenced
+by the frequency of the items in the left hand side of rules and that lift
+performs poorly to filter random noise in transaction data. Based on the
+probabilistic framework we develop two new interest measures, hyper-lift and
+hyper-confidence, which can be used to filter or order mined association rules.
+The new measures show significantly better performance than lift for
+applications where spurious rules are problematic.

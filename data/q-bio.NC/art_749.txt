@@ -1,0 +1,27 @@
+Frequency-resolved dynamic functional connectivity and scale-invariant
+  connectivity-state behavior
+Investigating temporal variability of functional connectivity is an emerging
+field in connectomics. Entering dynamic functional connectivity by applying
+sliding window techniques on resting-state fMRI (rs-fMRI) time courses emerged
+from this topic. We introduce frequency-resolved dynamic functional
+connectivity (frdFC) by means of multivariate empirical mode decomposition
+(MEMD) followed up by filter-bank investigations. We develop our method on the
+most canonical form by applying a sliding window approach to the intrinsic mode
+functions (IMFs) resulting from MEMD. We explore two modifications:
+uniform-amplitude frequency scales by normalizing the IMFs by their
+instantaneous amplitude and cumulative scales. By exploiting the well
+established concept of scale-invariance in resting-state parameters, we compare
+our frdFC approaches. In general, we find that MEMD is capable of generating
+time courses to perform frdFC and we discover that the structure of
+connectivity-states is robust over frequency scales and even becomes more
+evident with decreasing frequency. This scale-stability varies with the number
+of extracted clusters when applying k-means. We find a scale-stability drop-off
+from k = 4 to k = 5 extracted connectivity-states, which is corroborated by
+null-models, simulations, theoretical considerations, filter-banks, and
+scale-adjusted windows. Our filter-bank studies show that filter design is more
+delicate in the rs-fMRI than in the simulated case. Besides offering a baseline
+for further frdFC research, we suggest and demonstrate the use of
+scale-stability as a quality criterion for connectivity-state and model
+selection. We present first evidence showing that scale-invariance plays an
+important role in connectivity-state considerations. A data repository of our
+frequency-resolved time-series is provided.

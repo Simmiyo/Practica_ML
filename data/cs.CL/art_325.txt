@@ -1,0 +1,17 @@
+Some Reflections on the Task of Content Determination in the Context of
+  Multi-Document Summarization of Evolving Events
+Despite its importance, the task of summarizing evolving events has received
+small attention by researchers in the field of multi-document summariztion. In
+a previous paper (Afantenos et al. 2007) we have presented a methodology for
+the automatic summarization of documents, emitted by multiple sources, which
+describe the evolution of an event. At the heart of this methodology lies the
+identification of similarities and differences between the various documents,
+in two axes: the synchronic and the diachronic. This is achieved by the
+introduction of the notion of Synchronic and Diachronic Relations. Those
+relations connect the messages that are found in the documents, resulting thus
+in a graph which we call grid. Although the creation of the grid completes the
+Document Planning phase of a typical NLG architecture, it can be the case that
+the number of messages contained in a grid is very large, exceeding thus the
+required compression rate. In this paper we provide some initial thoughts on a
+probabilistic model which can be applied at the Content Determination stage,
+and which tries to alleviate this problem.

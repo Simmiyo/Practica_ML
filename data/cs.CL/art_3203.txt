@@ -1,0 +1,16 @@
+Shallow Discourse Parsing with Maximum Entropy Model
+In recent years, more research has been devoted to studying the subtask of
+the complete shallow discourse parsing, such as indentifying discourse
+connective and arguments of connective. There is a need to design a full
+discourse parser to pull these subtasks together. So we develop a discourse
+parser turning the free text into discourse relations. The parser includes
+connective identifier, arguments identifier, sense classifier and non-explicit
+identifier, which connects with each other in pipeline. Each component applies
+the maximum entropy model with abundant lexical and syntax features extracted
+from the Penn Discourse Tree-bank. The head-based representation of the PDTB is
+adopted in the arguments identifier, which turns the problem of indentifying
+the arguments of discourse connective into finding the head and end of the
+arguments. In the non-explicit identifier, the contextual type features like
+words which have high frequency and can reflect the discourse relation are
+introduced to improve the performance of non-explicit identifier. Compared with
+other methods, experimental results achieve the considerable performance.

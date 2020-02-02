@@ -1,0 +1,14 @@
+Learning Time Series Detection Models from Temporally Imprecise Labels
+In this paper, we consider a new low-quality label learning problem: learning
+time series detection models from temporally imprecise labels. In this problem,
+the data consist of a set of input time series, and supervision is provided by
+a sequence of noisy time stamps corresponding to the occurrence of positive
+class events. Such temporally imprecise labels commonly occur in areas like
+mobile health research where human annotators are tasked with labeling the
+occurrence of very short duration events. We propose a general learning
+framework for this problem that can accommodate different base classifiers and
+noise models. We present results on real mobile health data showing that the
+proposed framework significantly outperforms a number of alternatives including
+assuming that the label time stamps are noise-free, transforming the problem
+into the multiple instance learning framework, and learning on labels that were
+manually re-aligned.

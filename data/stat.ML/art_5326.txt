@@ -1,0 +1,16 @@
+McKernel: Approximate Kernel Expansions in Log-linear Time through
+  Randomization
+McKernel introduces a framework to use kernel approximates in the mini-batch
+setting with Stochastic Gradient Descent (SGD) as an alternative to Deep
+Learning. Based on Random Kitchen Sinks [Rahimi and Recht 2007], we provide a
+C++ library for Large-scale Machine Learning. It contains a CPU optimized
+implementation of the algorithm in [Le et al. 2013], that allows the
+computation of approximated kernel expansions in log-linear time. The algorithm
+requires to compute the product of matrices Walsh Hadamard. A cache friendly
+Fast Walsh Hadamard that achieves compelling speed and outperforms current
+state-of-the-art methods has been developed. McKernel establishes the
+foundation of a new architecture of learning that allows to obtain large-scale
+non-linear classification combining lightning kernel expansions and a linear
+classifier. It travails in the mini-batch setting working analogously to Neural
+Networks. We show the validity of our method through extensive experiments on
+MNIST and FASHION-MNIST [Xiao et al. 2017].

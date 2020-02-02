@@ -1,0 +1,15 @@
+Vietnamese Semantic Role Labelling
+In this paper, we study semantic role labelling (SRL), a subtask of semantic
+parsing of natural language sentences and its application for the Vietnamese
+language. We present our effort in building Vietnamese PropBank, the first
+Vietnamese SRL corpus and a software system for labelling semantic roles of
+Vietnamese texts. In particular, we present a novel constituent extraction
+algorithm in the argument candidate identification step which is more suitable
+and more accurate than the common node-mapping method. In the machine learning
+part, our system integrates distributed word features produced by two recent
+unsupervised learning models in two learned statistical classifiers and makes
+use of integer linear programming inference procedure to improve the accuracy.
+The system is evaluated in a series of experiments and achieves a good result,
+an $F_1$ score of 74.77%. Our system, including corpus and software, is
+available as an open source project for free research and we believe that it is
+a good baseline for the development of future Vietnamese SRL systems.

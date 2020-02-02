@@ -1,0 +1,24 @@
+Indoor Localization Using Visible Light Via Fusion Of Multiple
+  Classifiers
+A multiple classifiers fusion localization technique using received signal
+strengths (RSSs) of visible light is proposed, in which the proposed system
+transmits different intensity modulated sinusoidal signals by LEDs and the
+signals received by a Photo Diode (PD) placed at various grid points. First, we
+obtain some {\emph{approximate}} received signal strengths (RSSs) fingerprints
+by capturing the peaks of power spectral density (PSD) of the received signals
+at each given grid point. Unlike the existing RSSs based algorithms, several
+representative machine learning approaches are adopted to train multiple
+classifiers based on these RSSs fingerprints. The multiple classifiers
+localization estimators outperform the classical RSS-based LED localization
+approaches in accuracy and robustness. To further improve the localization
+performance, two robust fusion localization algorithms, namely, grid
+independent least square (GI-LS) and grid dependent least square (GD-LS), are
+proposed to combine the outputs of these classifiers. We also use a singular
+value decomposition (SVD) based LS (LS-SVD) method to mitigate the numerical
+stability problem when the prediction matrix is singular. Experiments conducted
+on intensity modulated direct detection (IM/DD) systems have demonstrated the
+effectiveness of the proposed algorithms. The experimental results show that
+the probability of having mean square positioning error (MSPE) of less than 5cm
+achieved by GD-LS is improved by 93.03\% and 93.15\%, respectively, as compared
+to those by the RSS ratio (RSSR) and RSS matching methods with the FFT length
+of 2000.

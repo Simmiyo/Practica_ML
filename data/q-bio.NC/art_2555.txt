@@ -1,0 +1,19 @@
+A model for neural activity in the absence of external stimuli
+We study a stochastic process describing the continuous time evolution of the
+membrane potentials of finite system of neurons in the absence of external
+stimuli. The values of the membrane potentials evolve under the effect of {\it
+chemical synapses}, {\it electrical synapses} and a \textit{leak current}. The
+evolution of the process can be informally described as follows. Each neuron
+spikes randomly following a point process with rate depending on its membrane
+potential. When a neuron spikes, its membrane potential is immediately reset to
+a resting value. Simultaneously, the membrane potential of the neurons which
+are influenced by it receive an additional positive value. Furthermore, between
+consecutive spikes, the system follows a deterministic motion due both to
+electrical synapses and the leak current. Electrical synapses push the system
+towards its average potential, while the leak current attracts the membrane
+potential of each neuron to the resting value.
+  We show that in the absence leakage the process converges exponentially fast
+to an unique invariant measure, whenever the initial configuration is non null.
+More interesting, when leakage is present, we proved the system stops spiking
+after a finite amount of time almost surely. This implies that the unique
+invariant measure is supported only by the null configuration.

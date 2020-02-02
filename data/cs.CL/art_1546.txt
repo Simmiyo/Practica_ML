@@ -1,0 +1,14 @@
+Interpretable probabilistic embeddings: bridging the gap between topic
+  models and neural networks
+We consider probabilistic topic models and more recent word embedding
+techniques from a perspective of learning hidden semantic representations.
+Inspired by a striking similarity of the two approaches, we merge them and
+learn probabilistic embeddings with online EM-algorithm on word co-occurrence
+data. The resulting embeddings perform on par with Skip-Gram Negative Sampling
+(SGNS) on word similarity tasks and benefit in the interpretability of the
+components. Next, we learn probabilistic document embeddings that outperform
+paragraph2vec on a document similarity task and require less memory and time
+for training. Finally, we employ multimodal Additive Regularization of Topic
+Models (ARTM) to obtain a high sparsity and learn embeddings for other
+modalities, such as timestamps and categories. We observe further improvement
+of word similarity performance and meaningful inter-modality similarities.

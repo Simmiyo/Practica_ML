@@ -1,0 +1,23 @@
+Measuring the tendency of CNNs to Learn Surface Statistical Regularities
+Deep CNNs are known to exhibit the following peculiarity: on the one hand
+they generalize extremely well to a test set, while on the other hand they are
+extremely sensitive to so-called adversarial perturbations. The extreme
+sensitivity of high performance CNNs to adversarial examples casts serious
+doubt that these networks are learning high level abstractions in the dataset.
+We are concerned with the following question: How can a deep CNN that does not
+learn any high level semantics of the dataset manage to generalize so well? The
+goal of this article is to measure the tendency of CNNs to learn surface
+statistical regularities of the dataset. To this end, we use Fourier filtering
+to construct datasets which share the exact same high level abstractions but
+exhibit qualitatively different surface statistical regularities. For the SVHN
+and CIFAR-10 datasets, we present two Fourier filtered variants: a low
+frequency variant and a randomly filtered variant. Each of the Fourier
+filtering schemes is tuned to preserve the recognizability of the objects. Our
+main finding is that CNNs exhibit a tendency to latch onto the Fourier image
+statistics of the training dataset, sometimes exhibiting up to a 28%
+generalization gap across the various test sets. Moreover, we observe that
+significantly increasing the depth of a network has a very marginal impact on
+closing the aforementioned generalization gap. Thus we provide quantitative
+evidence supporting the hypothesis that deep CNNs tend to learn surface
+statistical regularities in the dataset rather than higher-level abstract
+concepts.

@@ -1,0 +1,15 @@
+Faster Asynchronous SGD
+Asynchronous distributed stochastic gradient descent methods have trouble
+converging because of stale gradients. A gradient update sent to a parameter
+server by a client is stale if the parameters used to calculate that gradient
+have since been updated on the server. Approaches have been proposed to
+circumvent this problem that quantify staleness in terms of the number of
+elapsed updates. In this work, we propose a novel method that quantifies
+staleness in terms of moving averages of gradient statistics. We show that this
+method outperforms previous methods with respect to convergence speed and
+scalability to many clients. We also discuss how an extension to this method
+can be used to dramatically reduce bandwidth costs in a distributed training
+context. In particular, our method allows reduction of total bandwidth usage by
+a factor of 5 with little impact on cost convergence. We also describe (and
+link to) a software library that we have used to simulate these algorithms
+deterministically on a single machine.

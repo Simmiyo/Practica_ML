@@ -1,0 +1,21 @@
+Sparse Bayesian Learning for EEG Source Localization
+Purpose: Localizing the sources of electrical activity from
+electroencephalographic (EEG) data has gained considerable attention over the
+last few years. In this paper, we propose an innovative source localization
+method for EEG, based on Sparse Bayesian Learning (SBL). Methods: To better
+specify the sparsity profile and to ensure efficient source localization, the
+proposed approach considers grouping of the electrical current dipoles inside
+human brain. SBL is used to solve the localization problem in addition with
+imposed constraint that the electric current dipoles associated with the brain
+activity are isotropic. Results: Numerical experiments are conducted on a
+realistic head model that is obtained by segmentation of MRI images of the head
+and includes four major components, namely the scalp, the skull, the
+cerebrospinal fluid (CSF) and the brain, with appropriate relative conductivity
+values. The results demonstrate that the isotropy constraint significantly
+improves the performance of SBL. In a noiseless environment, the proposed
+method was 1 found to accurately (with accuracy of >75%) locate up to 6
+simultaneously active sources, whereas for SBL without the isotropy constraint,
+the accuracy of finding just 3 simultaneously active sources was <75%.
+Conclusions: Compared to the state-of-the-art algorithms, the proposed method
+is potentially more consistent in specifying the sparsity profile of human
+brain activity and is able to produce better source localization for EEG.

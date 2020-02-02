@@ -1,0 +1,20 @@
+Concept Formation and Dynamics of Repeated Inference in Deep Generative
+  Models
+Deep generative models are reported to be useful in broad applications
+including image generation. Repeated inference between data space and latent
+space in these models can denoise cluttered images and improve the quality of
+inferred results. However, previous studies only qualitatively evaluated image
+outputs in data space, and the mechanism behind the inference has not been
+investigated. The purpose of the current study is to numerically analyze
+changes in activity patterns of neurons in the latent space of a deep
+generative model called a "variational auto-encoder" (VAE). What kinds of
+inference dynamics the VAE demonstrates when noise is added to the input data
+are identified. The VAE embeds a dataset with clear cluster structures in the
+latent space and the center of each cluster of multiple correlated data points
+(memories) is referred as the concept. Our study demonstrated that transient
+dynamics of inference first approaches a concept, and then moves close to a
+memory. Moreover, the VAE revealed that the inference dynamics approaches a
+more abstract concept to the extent that the uncertainty of input data
+increases due to noise. It was demonstrated that by increasing the number of
+the latent variables, the trend of the inference dynamics to approach a concept
+can be enhanced, and the generalization ability of the VAE can be improved.

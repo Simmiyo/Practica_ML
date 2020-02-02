@@ -1,0 +1,15 @@
+Predicting Shot Making in Basketball Learnt from Adversarial Multiagent
+  Trajectories
+In this paper, we predict the likelihood of a player making a shot in
+basketball from multiagent trajectories. Previous approaches to similar
+problems center on hand-crafting features to capture domain specific knowledge.
+Although intuitive, recent work in deep learning has shown this approach is
+prone to missing important predictive features. To circumvent this issue, we
+present a convolutional neural network (CNN) approach where we initially
+represent the multiagent behavior as an image. To encode the adversarial nature
+of basketball, we use a multi-channel image which we then feed into a CNN.
+Additionally, to capture the temporal aspect of the trajectories we "fade" the
+player trajectories. We find that this approach is superior to a traditional
+FFN model. By using gradient ascent to create images using an already trained
+CNN, we discover what features the CNN filters learn. Last, we find that a
+combined CNN+FFN is the best performing network with an error rate of 39%.

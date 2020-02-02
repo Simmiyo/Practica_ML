@@ -1,0 +1,13 @@
+The Phylogenetic Indian Buffet Process: A Non-Exchangeable Nonparametric
+  Prior for Latent Features
+Nonparametric Bayesian models are often based on the assumption that the
+objects being modeled are exchangeable. While appropriate in some applications
+(e.g., bag-of-words models for documents), exchangeability is sometimes assumed
+simply for computational reasons; non-exchangeable models might be a better
+choice for applications based on subject matter. Drawing on ideas from
+graphical models and phylogenetics, we describe a non-exchangeable prior for a
+class of nonparametric latent feature models that is nearly as efficient
+computationally as its exchangeable counterpart. Our model is applicable to the
+general setting in which the dependencies between objects can be expressed
+using a tree, where edge lengths indicate the strength of relationships. We
+demonstrate an application to modeling probabilistic choice.

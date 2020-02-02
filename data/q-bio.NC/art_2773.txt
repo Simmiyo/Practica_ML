@@ -1,0 +1,17 @@
+Analytical modelling of temperature effects on synapses
+It was previously reported, that temperature may significantly influence
+neural dynamics on different levels of brain modelling. Due to this fact, while
+creating the model in computational neuroscience we would like to make it
+scalable for wide-range of various brain temperatures. However currently,
+because of a lack of experimental data and an absence of analytical model
+describing temperature influence on synapses, it is not possible to include
+temperature effects on multi-neuron modelling level. In this paper, we propose
+first step to deal with this problem: new analytical model of AMPA-type
+synaptic conductance, which is able to include temperature effects in
+low-frequency stimulations. It was constructed on basis of Markov model
+description of AMPA receptor kinetics and few simplifications motivated both
+experimentally and from Monte Carlo simulation of synaptic transmission. The
+model may be used for efficient and accurate implementation of temperature
+effects on AMPA receptor conductance in large scale neural network simulations.
+This in fact, opens wide-range of new possibilities for researching an
+influence of temperature on brain functioning.

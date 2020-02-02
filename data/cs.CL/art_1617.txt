@@ -1,0 +1,18 @@
+Acoustic-To-Word Model Without OOV
+Recently, the acoustic-to-word model based on the Connectionist Temporal
+Classification (CTC) criterion was shown as a natural end-to-end model directly
+targeting words as output units. However, this type of word-based CTC model
+suffers from the out-of-vocabulary (OOV) issue as it can only model limited
+number of words in the output layer and maps all the remaining words into an
+OOV output node. Therefore, such word-based CTC model can only recognize the
+frequent words modeled by the network output nodes. It also cannot easily
+handle the hot-words which emerge after the model is trained. In this study, we
+improve the acoustic-to-word model with a hybrid CTC model which can predict
+both words and characters at the same time. With a shared-hidden-layer
+structure and modular design, the alignments of words generated from the
+word-based CTC and the character-based CTC are synchronized. Whenever the
+acoustic-to-word model emits an OOV token, we back off that OOV segment to the
+word output generated from the character-based CTC, hence solving the OOV or
+hot-words issue. Evaluated on a Microsoft Cortana voice assistant task, the
+proposed model can reduce the errors introduced by the OOV output token in the
+acoustic-to-word model by 30%.

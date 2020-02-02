@@ -1,0 +1,19 @@
+Fast ASR-free and almost zero-resource keyword spotting using DTW and
+  CNNs for humanitarian monitoring
+We use dynamic time warping (DTW) as supervision for training a convolutional
+neural network (CNN) based keyword spotting system using a small set of spoken
+isolated keywords. The aim is to allow rapid deployment of a keyword spotting
+system in a new language to support urgent United Nations (UN) relief
+programmes in parts of Africa where languages are extremely under-resourced and
+the development of annotated speech resources is infeasible. First, we use 1920
+recorded keywords (40 keyword types, 34 minutes of speech) as exemplars in a
+DTW-based template matching system and apply it to untranscribed broadcast
+speech. Then, we use the resulting DTW scores as targets to train a CNN on the
+same unlabelled speech. In this way we use just 34 minutes of labelled speech,
+but leverage a large amount of unlabelled data for training. While the
+resulting CNN keyword spotter cannot match the performance of the DTW-based
+system, it substantially outperforms a CNN classifier trained only on the
+keywords, improving the area under the ROC curve from 0.54 to 0.64. Because our
+CNN system is several orders of magnitude faster at runtime than the DTW
+system, it represents the most viable keyword spotter on this extremely limited
+dataset.

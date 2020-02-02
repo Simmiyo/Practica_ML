@@ -1,0 +1,18 @@
+Extracting grid characteristics from spatially distributed place cell
+  inputs using non-negative PCA
+Many recent models study the downstream projection from grid cells to place
+cells, while recent data has pointed out the importance of the feedback
+projection. We thus asked how grid cells are affected by the nature of the
+input from the place cells. We propose a two-layered neural network with
+feedforward weights connecting place-like input cells to grid cell outputs.
+Place-to-grid weights were learned via a generalized Hebbian rule. The
+architecture of this network highly resembles neural networks used to perform
+Principal Component Analysis (PCA). Our results indicate that if the components
+of the feedforward neural network were non-negative, the output converged to a
+hexagonal lattice. Without the non-negativity constraint the output converged
+to a square lattice. Consistent with experiments, grid alignment to walls was
+~7{\deg} and grid spacing ratio between consecutive modules was ~1.4. Our
+results express a possible linkage between place-cell to grid-cell interactions
+and PCA, suggesting that grid cells represent a process of constrained
+dimensionality reduction that can be viewed also as a process of variance
+maximization of the information from place-cells.

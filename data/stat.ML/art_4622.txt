@@ -1,0 +1,27 @@
+Finding Common Characteristics Among NBA Playoff and Championship Teams:
+  A Machine Learning Approach
+In this paper, we employ machine learning techniques to analyze seventeen
+seasons (1999-2000 to 2015-2016) of NBA regular season data from every team to
+determine the common characteristics among NBA playoff teams. Each team was
+characterized by 26 predictor variables and one binary response variable taking
+on a value of "TRUE" if a team had made the playoffs, and value of "FALSE" if a
+team had missed the playoffs. After fitting an initial classification tree to
+this problem, this tree was then pruned which decreased the test error rate.
+Further to this, a random forest of classification trees was grown which
+provided a very accurate model from which a variable importance plot was
+generated to determine which predictor variables had the greatest influence on
+the response variable. The result of this work was the conclusion that the most
+important factors in characterizing a team's playoff eligibility are a team's
+opponent number of assists per game, a team's opponent number of made two point
+shots per game, and a team's number of steals per game. This seems to suggest
+that defensive factors as opposed to offensive factors are the most important
+characteristics shared among NBA playoff teams. We then use neural networks to
+classify championship teams based on regular season data. From this, we show
+that the most important factor in a team not winning a championship is that
+team's opponent number of made three-point shots per game. This once again
+implies that defensive characteristics are of great importance in not only
+determining a team's playoff eligibility, but certainly, one can conclude that
+a lack of perimeter defense negatively impacts a team's championship chances in
+a given season. Further, it is shown that made two-point shots and defensive
+rebounding are by far the most important factor in a team's chances at winning
+a championship in a given season.

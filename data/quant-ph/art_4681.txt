@@ -1,0 +1,18 @@
+Optimal simulation of nonlocal Hamiltonians using local operations and
+  classical communication
+Consider a set of $N$ systems and an arbitrary interaction Hamiltonian $H$
+that couples them. We investigate the use of local operations and classical
+communication (LOCC), together with the Hamiltonian $H$, to simulate a unitary
+evolution of the $N$ systems according to some other Hamiltonian $H'$. First,
+we show that the most general simulation using $H$ and LOCC can be also
+achieved, with the same time efficiency, by just interspersing the evolution of
+$H$ with local unitary manipulations of each system and a corresponding local
+ancilla (in a so-called LU+anc protocol). Thus, the ability to make local
+measurements and to communicate classical information does not help in
+non--local Hamiltonian simulation. Second, we show that both for the case of
+two $d$-level systems ($d>2$), or for that of a setting with more than two
+systems ($N>2$), LU+anc protocols are more powerful than LU protocols.
+Therefore local ancillas are a useful resource for non--local Hamiltonian
+simulation. Third, we use results of majorization theory to explicitly solve
+the problem of optimal simulation of two-qubit Hamiltonians using LU
+(equivalently, LU+anc, LO or LOCC).

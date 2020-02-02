@@ -1,0 +1,22 @@
+Generating functionals for computational intelligence: the Fisher
+  information as an objective function for self-limiting Hebbian learning rules
+Generating functionals may guide the evolution of a dynamical system and
+constitute a possible route for handling the complexity of neural networks as
+relevant for computational intelligence. We propose and explore a new objective
+function, which allows to obtain plasticity rules for the afferent synaptic
+weights. The adaption rules are Hebbian, self-limiting, and result from the
+minimization of the Fisher information with respect to the synaptic flux. We
+perform a series of simulations examining the behavior of the new learning
+rules in various circumstances. The vector of synaptic weights aligns with the
+principal direction of input activities, whenever one is present. A linear
+discrimination is performed when there are two or more principal directions;
+directions having bimodal firing-rate distributions, being characterized by a
+negative excess kurtosis, are preferred. We find robust performance and full
+homeostatic adaption of the synaptic weights results as a by-product of the
+synaptic flux minimization. This self-limiting behavior allows for stable
+online learning for arbitrary durations. The neuron acquires new information
+when the statistics of input activities is changed at a certain point of the
+simulation, showing however, a distinct resilience to unlearn previously
+acquired knowledge. Learning is fast when starting with randomly drawn synaptic
+weights and substantially slower when the synaptic weights are already fully
+adapted.

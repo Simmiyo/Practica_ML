@@ -1,0 +1,13 @@
+Building Ensembles of Adaptive Nested Dichotomies with Random-Pair
+  Selection
+A system of nested dichotomies is a method of decomposing a multi-class
+problem into a collection of binary problems. Such a system recursively splits
+the set of classes into two subsets, and trains a binary classifier to
+distinguish between each subset. Even though ensembles of nested dichotomies
+with random structure have been shown to perform well in practice, using a more
+sophisticated class subset selection method can be used to improve
+classification accuracy. We investigate an approach to this problem called
+random-pair selection, and evaluate its effectiveness compared to other
+published methods of subset selection. We show that our method outperforms
+other methods in many cases when forming ensembles of nested dichotomies, and
+is at least on par in all other cases.

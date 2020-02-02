@@ -1,0 +1,13 @@
+On quantum and approximate privacy
+This paper studies privacy and secure function evaluation in communication
+complexity. The focus is on quantum versions of the model and on protocols with
+only approximate privacy against honest players. We show that the privacy loss
+(the minimum divulged information) in computing a function can be decreased
+exponentially by using quantum protocols, while the class of privately
+computable functions (i.e., those with privacy loss 0) is not enlarged by
+quantum protocols. Quantum communication combined with small information
+leakage on the other hand makes certain functions computable (almost) privately
+which are not computable using either quantum communication without leakage or
+classical communication with leakage. We also give an example of an exponential
+reduction of the communication complexity of a function by allowing a privacy
+loss of $o(1)$ instead of privacy loss 0.

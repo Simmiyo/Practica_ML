@@ -1,0 +1,12 @@
+Towards Abstraction from Extraction: Multiple Timescale Gated Recurrent
+  Unit for Summarization
+In this work, we introduce temporal hierarchies to the sequence to sequence
+(seq2seq) model to tackle the problem of abstractive summarization of
+scientific articles. The proposed Multiple Timescale model of the Gated
+Recurrent Unit (MTGRU) is implemented in the encoder-decoder setting to better
+deal with the presence of multiple compositionalities in larger texts. The
+proposed model is compared to the conventional RNN encoder-decoder, and the
+results demonstrate that our model trains faster and shows significant
+performance gains. The results also show that the temporal hierarchies help
+improve the ability of seq2seq models to capture compositionalities better
+without the presence of highly complex architectural hierarchies.

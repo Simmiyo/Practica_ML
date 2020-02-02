@@ -1,0 +1,13 @@
+Variational Joint Filtering
+State space models provide an interpretable framework for complex time series
+by combining an intuitive dynamical system model with a probabilistic
+observation model. We developed a flexible online learning framework for latent
+nonlinear state dynamics and filtered latent states. Our method utilizes the
+stochastic gradient variational Bayes method to jointly optimize the parameters
+of the nonlinear dynamics, observation model, and the black-box recognition
+model. Unlike previous approaches, our framework can incorporate non-trivial
+observation noise models and has potential of inferring in real-time. We test
+our method on point process and Gaussian observations driven by continuous
+attractor dynamics and nonstationary systems, demonstrating its ability to
+recover the phase portrait, filtered trajectory, and produce long-term
+predictions for online machine learning.

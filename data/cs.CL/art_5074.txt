@@ -1,0 +1,13 @@
+Fine-tuning of Language Models with Discriminator
+Cross-entropy loss is a common choice when it comes to multiclass
+classification tasks and language modeling in particular. Minimizing this loss
+results in language models of very good quality. We show that it is possible to
+fine-tune these models and make them perform even better if they are fine-tuned
+with sum of cross-entropy loss and reverse Kullback-Leibler divergence. The
+latter is estimated using discriminator network that we train in advance.
+During fine-tuning probabilities of rare words that are usually underestimated
+by language models become bigger. The novel approach that we propose allows us
+to reach state-of-the-art quality on Penn Treebank: perplexity decreases from
+52.4 to 52.1. Our fine-tuning algorithm is rather fast, scales well to
+different architectures and datasets and requires almost no hyperparameter
+tuning: the only hyperparameter that needs to be tuned is learning rate.

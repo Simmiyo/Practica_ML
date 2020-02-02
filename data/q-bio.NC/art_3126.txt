@@ -1,0 +1,16 @@
+Seeds Cleansing CNMF for Spatiotemporal Neural Signals Extraction of
+  Miniscope Imaging Data
+Miniscope calcium imaging is increasingly being used to monitor large
+populations of neuronal activities in freely behaving animals. However, due to
+the high background and low signal-to-noise ratio of the single-photon based
+imaging used in this technique, extraction of neural signals from the large
+numbers of imaged cells automatically has remained challenging. Here we
+describe a highly accurate framework for automatically identifying activated
+neurons and extracting calcium signals from the miniscope imaging data, seeds
+cleansing Constrained Nonnegative Matrix Factorization (sc-CNMF). This sc-CNMF
+extends the conventional CNMF with two new modules: i) a neural enhancing
+module to overcome miniscope-specific limitations, and ii) a seeds cleansing
+module combining LSTM to rigorously select and cleanse the set of seeds for
+detecting regions-of-interest. Our sc-CNMF yields highly stable and superior
+performance in analyzing miniscope calcium imaging data compared to existing
+methods.

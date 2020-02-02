@@ -1,0 +1,10 @@
+Stochastic Composite Least-Squares Regression with convergence rate
+  O(1/n)
+We consider the minimization of composite objective functions composed of the
+expectation of quadratic functions and an arbitrary convex function. We study
+the stochastic dual averaging algorithm with a constant step-size, showing that
+it leads to a convergence rate of O(1/n) without strong convexity assumptions.
+This thus extends earlier results on least-squares regression with the
+Euclidean geometry to (a) all convex regularizers and constraints, and (b) all
+geome-tries represented by a Bregman divergence. This is achieved by a new
+proof technique that relates stochastic and deterministic recursions.

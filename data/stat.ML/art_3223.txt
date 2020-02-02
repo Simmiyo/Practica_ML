@@ -1,0 +1,13 @@
+Newton-based maximum likelihood estimation in nonlinear state space
+  models
+Maximum likelihood (ML) estimation using Newton's method in nonlinear state
+space models (SSMs) is a challenging problem due to the analytical
+intractability of the log-likelihood and its gradient and Hessian. We estimate
+the gradient and Hessian using Fisher's identity in combination with a
+smoothing algorithm. We explore two approximations of the log-likelihood and of
+the solution of the smoothing problem. The first is a linearization
+approximation which is computationally cheap, but the accuracy typically varies
+between models. The second is a sampling approximation which is asymptotically
+valid for any SSM but is more computationally costly. We demonstrate our
+approach for ML parameter estimation on simulated data from two different SSMs
+with encouraging results.

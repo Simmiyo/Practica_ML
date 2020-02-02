@@ -1,0 +1,17 @@
+Algorithms for Approximate Minimization of the Difference Between
+  Submodular Functions, with Applications
+We extend the work of Narasimhan and Bilmes [30] for minimizing set functions
+representable as a dierence between submodular functions. Similar to [30], our
+new algorithms are guaranteed to monotonically reduce the objective function at
+every step. We empirically and theoretically show that the per-iteration cost
+of our algorithms is much less than [30], and our algorithms can be used to
+efficiently minimize a dierence between submodular functions under various
+combinatorial constraints, a problem not previously addressed. We provide
+computational bounds and a hardness result on the multiplicative
+inapproximability of minimizing the dierence between submodular functions. We
+show, however, that it is possible to give worst-case additive bounds by
+providing a polynomial time computable lower-bound on the minima. Finally we
+show how a number of machine learning problems can be modeled as minimizing the
+dierence between submodular functions. We experimentally show the validity of
+our algorithms by testing them on the problem of feature selection with
+submodular cost features.

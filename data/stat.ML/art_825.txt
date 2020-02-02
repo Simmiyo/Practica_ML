@@ -1,0 +1,19 @@
+Mean-Field Variational Inference for Gradient Matching with Gaussian
+  Processes
+Gradient matching with Gaussian processes is a promising tool for learning
+parameters of ordinary differential equations (ODE's). The essence of gradient
+matching is to model the prior over state variables as a Gaussian process which
+implies that the joint distribution given the ODE's and GP kernels is also
+Gaussian distributed. The state-derivatives are integrated out analytically
+since they are modelled as latent variables. However, the state variables
+themselves are also latent variables because they are contaminated by noise.
+Previous work sampled the state variables since integrating them out is
+\textit{not} analytically tractable. In this paper we use mean-field
+approximation to establish tight variational lower bounds that decouple state
+variables and are therefore, in contrast to the integral over state variables,
+analytically tractable and even concave for a restricted family of ODE's,
+including nonlinear and periodic ODE's. Such variational lower bounds
+facilitate "hill climbing" to determine the maximum a posteriori estimate of
+ODE parameters. An additional advantage of our approach over sampling methods
+is the determination of a proxy to the intractable posterior distribution over
+state variables given observations and the ODE's.

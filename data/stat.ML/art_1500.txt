@@ -1,0 +1,27 @@
+Development of ICA and IVA Algorithms with Application to Medical Image
+  Analysis
+Independent component analysis (ICA) is a widely used BSS method that can
+uniquely achieve source recovery, subject to only scaling and permutation
+ambiguities, through the assumption of statistical independence on the part of
+the latent sources. Independent vector analysis (IVA) extends the applicability
+of ICA by jointly decomposing multiple datasets through the exploitation of the
+dependencies across datasets. Though both ICA and IVA algorithms cast in the
+maximum likelihood (ML) framework enable the use of all available statistical
+information in reality, they often deviate from their theoretical optimality
+properties due to improper estimation of the probability density function
+(PDF). This motivates the development of flexible ICA and IVA algorithms that
+closely adhere to the underlying statistical description of the data. Although
+it is attractive minimize the assumptions, important prior information about
+the data, such as sparsity, is usually available. If incorporated into the ICA
+model, use of this additional information can relax the independence
+assumption, resulting in an improvement in the overall separation performance.
+Therefore, the development of a unified mathematical framework that can take
+into account both statistical independence and sparsity is of great interest.
+In this work, we first introduce a flexible ICA algorithm that uses an
+effective PDF estimator to accurately capture the underlying statistical
+properties of the data. We then discuss several techniques to accurately
+estimate the parameters of the multivariate generalized Gaussian distribution,
+and how to integrate them into the IVA model. Finally, we provide a
+mathematical framework that enables direct control over the influence of
+statistical independence and sparsity, and use this framework to develop an
+effective ICA algorithm that can jointly exploit these two forms of diversity.

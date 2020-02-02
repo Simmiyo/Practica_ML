@@ -1,0 +1,28 @@
+Ranking medical jargon in electronic health record notes by adapted
+  distant supervision
+Objective: Allowing patients to access their own electronic health record
+(EHR) notes through online patient portals has the potential to improve
+patient-centered care. However, medical jargon, which abounds in EHR notes, has
+been shown to be a barrier for patient EHR comprehension. Existing knowledge
+bases that link medical jargon to lay terms or definitions play an important
+role in alleviating this problem but have low coverage of medical jargon in
+EHRs. We developed a data-driven approach that mines EHRs to identify and rank
+medical jargon based on its importance to patients, to support the building of
+EHR-centric lay language resources.
+  Methods: We developed an innovative adapted distant supervision (ADS) model
+based on support vector machines to rank medical jargon from EHRs. For distant
+supervision, we utilized the open-access, collaborative consumer health
+vocabulary, a large, publicly available resource that links lay terms to
+medical jargon. We explored both knowledge-based features from the Unified
+Medical Language System and distributed word representations learned from
+unlabeled large corpora. We evaluated the ADS model using physician-identified
+important medical terms.
+  Results: Our ADS model significantly surpassed two state-of-the-art automatic
+term recognition methods, TF*IDF and C-Value, yielding 0.810 ROC-AUC versus
+0.710 and 0.667, respectively. Our model identified 10K important medical
+jargon terms after ranking over 100K candidate terms mined from over 7,500 EHR
+narratives.
+  Conclusion: Our work is an important step towards enriching lexical resources
+that link medical jargon to lay terms/definitions to support patient EHR
+comprehension. The identified medical jargon terms and their rankings are
+available upon request.

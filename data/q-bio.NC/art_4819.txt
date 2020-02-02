@@ -1,0 +1,20 @@
+Optimizing Channel Selection for Seizure Detection
+Interpretation of electroencephalogram (EEG) signals can be complicated by
+obfuscating artifacts. Artifact detection plays an important role in the
+observation and analysis of EEG signals. Spatial information contained in the
+placement of the electrodes can be exploited to accurately detect artifacts.
+However, when fewer electrodes are used, less spatial information is available,
+making it harder to detect artifacts. In this study, we investigate the
+performance of a deep learning algorithm, CNN-LSTM, on several channel
+configurations. Each configuration was designed to minimize the amount of
+spatial information lost compared to a standard 22-channel EEG. Systems using a
+reduced number of channels ranging from 8 to 20 achieved sensitivities between
+33% and 37% with false alarms in the range of [38, 50] per 24 hours. False
+alarms increased dramatically (e.g., over 300 per 24 hours) when the number of
+channels was further reduced. Baseline performance of a system that used all 22
+channels was 39% sensitivity with 23 false alarms. Since the 22-channel system
+was the only system that included referential channels, the rapid increase in
+the false alarm rate as the number of channels was reduced underscores the
+importance of retaining referential channels for artifact reduction. This
+cautionary result is important because one of the biggest differences between
+various types of EEGs administered is the type of referential channel used.

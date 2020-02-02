@@ -1,0 +1,19 @@
+Tracking Naturalistic Linguistic Predictions with Deep Neural Language
+  Models
+Prediction in language has traditionally been studied using simple designs in
+which neural responses to expected and unexpected words are compared in a
+categorical fashion. However, these designs have been contested as being
+`prediction encouraging', potentially exaggerating the importance of prediction
+in language understanding. A few recent studies have begun to address these
+worries by using model-based approaches to probe the effects of linguistic
+predictability in naturalistic stimuli (e.g. continuous narrative). However,
+these studies so far only looked at very local forms of prediction, using
+models that take no more than the prior two words into account when computing a
+word's predictability. Here, we extend this approach using a state-of-the-art
+neural language model that can take roughly 500 times longer linguistic
+contexts into account. Predictability estimates from the neural network offer a
+much better fit to EEG data from subjects listening to naturalistic narrative
+than simpler models, and reveal strong surprise responses akin to the P200 and
+N400. These results show that predictability effects in language are not a
+side-effect of simple designs, and demonstrate the practical use of recent
+advances in AI for the cognitive neuroscience of language.

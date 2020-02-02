@@ -1,0 +1,14 @@
+Automatic Representation for Lifetime Value Recommender Systems
+Many modern commercial sites employ recommender systems to propose relevant
+content to users. While most systems are focused on maximizing the immediate
+gain (clicks, purchases or ratings), a better notion of success would be the
+lifetime value (LTV) of the user-system interaction. The LTV approach considers
+the future implications of the item recommendation, and seeks to maximize the
+cumulative gain over time. The Reinforcement Learning (RL) framework is the
+standard formulation for optimizing cumulative successes over time. However, RL
+is rarely used in practice due to its associated representation, optimization
+and validation techniques which can be complex. In this paper we propose a new
+architecture for combining RL with recommendation systems which obviates the
+need for hand-tuned features, thus automating the state-space representation
+construction process. We analyze the practical difficulties in this formulation
+and test our solutions on batch off-line real-world recommendation data.

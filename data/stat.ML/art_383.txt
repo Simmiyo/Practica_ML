@@ -1,0 +1,10 @@
+Sparse Bayesian Unsupervised Learning
+This paper is about variable selection, clustering and estimation in an
+unsupervised high-dimensional setting. Our approach is based on fitting
+constrained Gaussian mixture models, where we learn the number of clusters $K$
+and the set of relevant variables $S$ using a generalized Bayesian posterior
+with a sparsity inducing prior. We prove a sparsity oracle inequality which
+shows that this procedure selects the optimal parameters $K$ and $S$. This
+procedure is implemented using a Metropolis-Hastings algorithm, based on a
+clustering-oriented greedy proposal, which makes the convergence to the
+posterior very fast.

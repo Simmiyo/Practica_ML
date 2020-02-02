@@ -1,0 +1,12 @@
+Matrix Completion and Low-Rank SVD via Fast Alternating Least Squares
+The matrix-completion problem has attracted a lot of attention, largely as a
+result of the celebrated Netflix competition. Two popular approaches for
+solving the problem are nuclear-norm-regularized matrix approximation (Candes
+and Tao, 2009, Mazumder, Hastie and Tibshirani, 2010), and maximum-margin
+matrix factorization (Srebro, Rennie and Jaakkola, 2005). These two procedures
+are in some cases solving equivalent problems, but with quite different
+algorithms. In this article we bring the two approaches together, leading to an
+efficient algorithm for large matrix factorization and completion that
+outperforms both of these. We develop a software package "softImpute" in R for
+implementing our approaches, and a distributed version for very large matrices
+using the "Spark" cluster programming environment.

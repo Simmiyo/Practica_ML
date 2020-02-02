@@ -1,0 +1,11 @@
+Hidden Subgroup States are Almost Orthogonal
+It is well known that quantum computers can efficiently find a hidden
+subgroup $H$ of a finite Abelian group $G$. This implies that after only a
+polynomial (in $\log |G|$) number of calls to the oracle function, the states
+corresponding to different candidate subgroups have exponentially small inner
+product. We show that this is true for noncommutative groups also. We present a
+quantum algorithm which identifies a hidden subgroup of an arbitrary finite
+group $G$ in only a linear (in $\log |G|$) number of calls to the oracle
+function. This is exponentially better than the best classical algorithm.
+However our quantum algorithm requires an exponential amount of time, as in the
+classical case.

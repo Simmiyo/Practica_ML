@@ -1,0 +1,24 @@
+Low-rank and Adaptive Sparse Signal (LASSI) Models for Highly
+  Accelerated Dynamic Imaging
+Sparsity-based approaches have been popular in many applications in image
+processing and imaging. Compressed sensing exploits the sparsity of images in a
+transform domain or dictionary to improve image recovery from undersampled
+measurements. In the context of inverse problems in dynamic imaging, recent
+research has demonstrated the promise of sparsity and low-rank techniques. For
+example, the patches of the underlying data are modeled as sparse in an
+adaptive dictionary domain, and the resulting image and dictionary estimation
+from undersampled measurements is called dictionary-blind compressed sensing,
+or the dynamic image sequence is modeled as a sum of low-rank and sparse (in
+some transform domain) components (L+S model) that are estimated from limited
+measurements. In this work, we investigate a data-adaptive extension of the L+S
+model, dubbed LASSI, where the temporal image sequence is decomposed into a
+low-rank component and a component whose spatiotemporal (3D) patches are sparse
+in some adaptive dictionary domain. We investigate various formulations and
+efficient methods for jointly estimating the underlying dynamic signal
+components and the spatiotemporal dictionary from limited measurements. We also
+obtain efficient sparsity penalized dictionary-blind compressed sensing methods
+as special cases of our LASSI approaches. Our numerical experiments demonstrate
+the promising performance of LASSI schemes for dynamic magnetic resonance image
+reconstruction from limited k-t space data compared to recent methods such as
+k-t SLR and L+S, and compared to the proposed dictionary-blind compressed
+sensing method.

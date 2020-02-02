@@ -1,0 +1,13 @@
+Deep Learning of Part-based Representation of Data Using Sparse
+  Autoencoders with Nonnegativity Constraints
+We demonstrate a new deep learning autoencoder network, trained by a
+nonnegativity constraint algorithm (NCAE), that learns features which show
+part-based representation of data. The learning algorithm is based on
+constraining negative weights. The performance of the algorithm is assessed
+based on decomposing data into parts and its prediction performance is tested
+on three standard image data sets and one text dataset. The results indicate
+that the nonnegativity constraint forces the autoencoder to learn features that
+amount to a part-based representation of data, while improving sparsity and
+reconstruction quality in comparison with the traditional sparse autoencoder
+and Nonnegative Matrix Factorization. It is also shown that this newly acquired
+representation improves the prediction performance of a deep neural network.

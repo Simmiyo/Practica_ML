@@ -1,0 +1,11 @@
+How much should you ask? On the question structure in QA systems
+Datasets that boosted state-of-the-art solutions for Question Answering (QA)
+systems prove that it is possible to ask questions in natural language manner.
+However, users are still used to query-like systems where they type in keywords
+to search for answer. In this study we validate which parts of questions are
+essential for obtaining valid answer. In order to conclude that, we take
+advantage of LIME - a framework that explains prediction by local
+approximation. We find that grammar and natural language is disregarded by QA.
+State-of-the-art model can answer properly even if 'asked' only with a few
+words with high coefficients calculated with LIME. According to our knowledge,
+it is the first time that QA model is being explained by LIME.

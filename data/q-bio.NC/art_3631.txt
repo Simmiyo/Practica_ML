@@ -1,0 +1,24 @@
+Bayesian fusion and multimodal DCM for EEG and fMRI
+This paper asks whether integrating multimodal EEG and fMRI data offers a
+better characterisation of functional brain architectures than either modality
+alone. This evaluation rests upon a dynamic causal model that generates both
+EEG and fMRI data from the same neuronal dynamics. We introduce the use of
+Bayesian fusion to provide informative (empirical) neuronal priors - derived
+from dynamic causal modelling (DCM) of EEG data - for subsequent DCM of fMRI
+data. To illustrate this procedure, we generated synthetic EEG and fMRI
+timeseries for a mismatch negativity (or auditory oddball) paradigm, using
+biologically plausible model parameters (i.e., posterior expectations from a
+DCM of empirical, open access, EEG data). Using model inversion, we found that
+Bayesian fusion provided a substantial improvement in marginal likelihood or
+model evidence, indicating a more efficient estimation of model parameters, in
+relation to inverting fMRI data alone. We quantified the benefits of multimodal
+fusion with the information gain pertaining to neuronal and haemodynamic
+parameters - as measured by the Kullback-Leibler divergence between their prior
+and posterior densities. Remarkably, this analysis suggested that EEG data can
+improve estimates of haemodynamic parameters; thereby furnishing
+proof-of-principle that Bayesian fusion of EEG and fMRI is necessary to resolve
+conditional dependencies between neuronal and haemodynamic estimators. These
+results suggest that Bayesian fusion may offer a useful approach that exploits
+the complementary temporal (EEG) and spatial (fMRI) precision of different data
+modalities. We envisage the procedure could be applied to any multimodal
+dataset that can be explained by a DCM with a common neuronal parameterisation.

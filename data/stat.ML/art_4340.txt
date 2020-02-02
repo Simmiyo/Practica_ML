@@ -1,0 +1,23 @@
+Robust Matrix Elastic Net based Canonical Correlation Analysis: An
+  Effective Algorithm for Multi-View Unsupervised Learning
+This paper presents a robust matrix elastic net based canonical correlation
+analysis (RMEN-CCA) for multiple view unsupervised learning problems, which
+emphasizes the combination of CCA and the robust matrix elastic net (RMEN) used
+as coupled feature selection. The RMEN-CCA leverages the strength of the RMEN
+to distill naturally meaningful features without any prior assumption and to
+measure effectively correlations between different 'views'. We can further
+employ directly the kernel trick to extend the RMEN-CCA to the kernel scenario
+with theoretical guarantees, which takes advantage of the kernel trick for
+highly complicated nonlinear feature learning. Rather than simply incorporating
+existing regularization minimization terms into CCA, this paper provides a new
+learning paradigm for CCA and is the first to derive a coupled feature
+selection based CCA algorithm that guarantees convergence. More significantly,
+for CCA, the newly-derived RMEN-CCA bridges the gap between measurement of
+relevance and coupled feature selection. Moreover, it is nontrivial to tackle
+directly the RMEN-CCA by previous optimization approaches derived from its
+sophisticated model architecture. Therefore, this paper further offers a bridge
+between a new optimization problem and an existing efficient iterative
+approach. As a consequence, the RMEN-CCA can overcome the limitation of CCA and
+address large-scale and streaming data problems. Experimental results on four
+popular competing datasets illustrate that the RMEN-CCA performs more
+effectively and efficiently than do state-of-the-art approaches.

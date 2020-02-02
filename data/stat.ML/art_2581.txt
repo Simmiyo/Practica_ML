@@ -1,0 +1,17 @@
+Sharp Threshold for Multivariate Multi-Response Linear Regression via
+  Block Regularized Lasso
+In this paper, we investigate a multivariate multi-response (MVMR) linear
+regression problem, which contains multiple linear regression models with
+differently distributed design matrices, and different regression and output
+vectors. The goal is to recover the support union of all regression vectors
+using $l_1/l_2$-regularized Lasso. We characterize sufficient and necessary
+conditions on sample complexity \emph{as a sharp threshold} to guarantee
+successful recovery of the support union. Namely, if the sample size is above
+the threshold, then $l_1/l_2$-regularized Lasso correctly recovers the support
+union; and if the sample size is below the threshold, $l_1/l_2$-regularized
+Lasso fails to recover the support union. In particular, the threshold
+precisely captures the impact of the sparsity of regression vectors and the
+statistical properties of the design matrices on sample complexity. Therefore,
+the threshold function also captures the advantages of joint support union
+recovery using multi-task Lasso over individual support recovery using
+single-task Lasso.

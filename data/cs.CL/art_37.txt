@@ -1,0 +1,11 @@
+Temporal Meaning Representations in a Natural Language Front-End
+Previous work in the context of natural language querying of temporal
+databases has established a method to map automatically from a large subset of
+English time-related questions to suitable expressions of a temporal logic-like
+language, called TOP. An algorithm to translate from TOP to the TSQL2 temporal
+database language has also been defined. This paper shows how TOP expressions
+could be translated into a simpler logic-like language, called BOT. BOT is very
+close to traditional first-order predicate logic (FOPL), and hence existing
+methods to manipulate FOPL expressions can be exploited to interface to
+time-sensitive applications other than TSQL2 databases, maintaining the
+existing English-to-TOP mapping.

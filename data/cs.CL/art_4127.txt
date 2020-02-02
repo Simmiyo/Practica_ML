@@ -1,0 +1,14 @@
+Abstract Meaning Representation for Multi-Document Summarization
+Generating an abstract from a collection of documents is a desirable
+capability for many real-world applications. However, abstractive approaches to
+multi-document summarization have not been thoroughly investigated. This paper
+studies the feasibility of using Abstract Meaning Representation (AMR), a
+semantic representation of natural language grounded in linguistic theory, as a
+form of content representation. Our approach condenses source documents to a
+set of summary graphs following the AMR formalism. The summary graphs are then
+transformed to a set of summary sentences in a surface realization step. The
+framework is fully data-driven and flexible. Each component can be optimized
+independently using small-scale, in-domain training data. We perform
+experiments on benchmark summarization datasets and report promising results.
+We also describe opportunities and challenges for advancing this line of
+research.

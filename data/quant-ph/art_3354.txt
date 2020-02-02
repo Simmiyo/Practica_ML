@@ -1,0 +1,16 @@
+An intuitive Hamiltonian for quantum search
+We present new intuition behind Grover's quantum search algorithm by means of
+a Hamiltonian. Given a black-box Boolean function f mapping strings of length n
+into {0,1} such that f(w) = 1 for exactly one string w, L. K. Grover describes
+a quantum algorithm that finds w in O(2^{n/2}) time. Farhi & Gutmann show that
+w can also be found in the same amount time by letting the quantum system
+evolve according to a simple Hamiltonian depending only on f. Their system
+evolves along a path far from that taken by Grover's original algorithm,
+however. The current paper presents an equally simple Hamiltonian matching
+Grover's algorithm step for step. The new Hamiltonian is similar in appearance
+from that of Farhi & Gutmann, but has some important differences, and provides
+new intuition for Grover's algorithm itself. This intuition both contrasts with
+and supplements other explanations of Grover's algorithm as a rotation in two
+dimensions, and suggests that the Hamiltonian-based approach to quantum
+algorithms can provide a useful heuristic for discovering new quantum
+algorithms.

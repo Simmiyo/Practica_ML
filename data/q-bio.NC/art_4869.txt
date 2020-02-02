@@ -1,0 +1,19 @@
+Neural codes, decidability, and a new local obstruction to convexity
+Given an intersection pattern of arbitrary sets in Euclidean space, is there
+an arrangement of convex open sets in Euclidean space that exhibits the same
+intersections? This question is combinatorial and topological in nature, but is
+motivated by neuroscience. Specifically, we are interested in a type of neuron
+called a place cell, which fires precisely when an organism is in a certain
+region, usually convex, called a place field. The earlier question, therefore,
+can be rephrased as follows: Which neural codes, that is, patterns of neural
+activity, can arise from a collection of convex open sets? To address this
+question, Giusti and Itskov proved that convex neural codes have no "local
+obstructions," which are defined via the topology of a code's simplicial
+complex. Codes without local obstructions are called locally good, because the
+obstruction precludes the code from encoding the intersections of open sets
+that form a good cover. In other words, every good-cover code is locally good.
+Here we prove the converse: Every locally good code is a good-cover code. We
+also prove that the good-cover decision problem is undecidable. Finally, we
+reveal a stronger type of local obstruction that prevents a code from being
+convex, and prove that the corresponding decision problem is NP-hard. Our
+proofs use combinatorial and topological methods.

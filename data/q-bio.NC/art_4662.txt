@@ -1,0 +1,19 @@
+Modeling cognitive deficits following neurodegenerative diseases and
+  traumatic brain injuries with deep convolutional neural networks
+The accurate diagnosis and assessment of neurodegenerative disease and
+traumatic brain injuries (TBI) remain open challenges. Both cause cognitive and
+functional deficits due to focal axonal swellings (FAS), but it is difficult to
+deliver a prognosis due to our limited ability to assess damaged neurons at a
+cellular level in vivo. We simulate the effects of neurodegenerative disease
+and TBI using convolutional neural networks (CNNs) as our model of cognition.
+We utilize biophysically relevant statistical data on FAS to damage the
+connections in CNNs in a functionally relevant way. We incorporate energy
+constraints on the brain by pruning the CNNs to be less over-engineered.
+Qualitatively, we demonstrate that damage leads to human-like mistakes. Our
+experiments also provide quantitative assessments of how accuracy is affected
+by various types and levels of damage. The deficit resulting from a fixed
+amount of damage greatly depends on which connections are randomly injured,
+providing intuition for why it is difficult to predict impairments. There is a
+large degree of subjectivity when it comes to interpreting cognitive deficits
+from complex systems such as the human brain. However, we provide important
+insight and a quantitative framework for disorders in which FAS are implicated.

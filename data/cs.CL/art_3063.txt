@@ -1,0 +1,18 @@
+Predicting Disease-Gene Associations using Cross-Document Graph-based
+  Features
+In the context of personalized medicine, text mining methods pose an
+interesting option for identifying disease-gene associations, as they can be
+used to generate novel links between diseases and genes which may complement
+knowledge from structured databases. The most straightforward approach to
+extract such links from text is to rely on a simple assumption postulating an
+association between all genes and diseases that co-occur within the same
+document. However, this approach (i) tends to yield a number of spurious
+associations, (ii) does not capture different relevant types of associations,
+and (iii) is incapable of aggregating knowledge that is spread across
+documents. Thus, we propose an approach in which disease-gene co-occurrences
+and gene-gene interactions are represented in an RDF graph. A machine
+learning-based classifier is trained that incorporates features extracted from
+the graph to separate disease-gene pairs into valid disease-gene associations
+and spurious ones. On the manually curated Genetic Testing Registry, our
+approach yields a 30 points increase in F1 score over a plain co-occurrence
+baseline.

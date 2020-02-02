@@ -1,0 +1,22 @@
+A Graph Theoretic Interpretation of Neural Complexity
+One of the central challenges facing modern neuroscience is to explain the
+ability of the nervous system to coherently integrate information across
+distinct functional modules in the absence of a central executive. To this end
+Tononi et al. [Proc. Nat. Acad. Sci. USA 91, 5033 (1994)] proposed a measure of
+neural complexity that purports to capture this property based on mutual
+information between complementary subsets of a system. Neural complexity, so
+defined, is one of a family of information theoretic metrics developed to
+measure the balance between the segregation and integration of a system's
+dynamics. One key question arising for such measures involves understanding how
+they are influenced by network topology. Sporns et al. [Cereb. Cortex 10, 127
+(2000)] employed numerical models in order to determine the dependence of
+neural complexity on the topological features of a network. However, a complete
+picture has yet to be established. While De Lucia et al. [Phys. Rev. E 71,
+016114 (2005)] made the first attempts at an analytical account of this
+relationship, their work utilized a formulation of neural complexity that, we
+argue, did not reflect the intuitions of the original work. In this paper we
+start by describing weighted connection matrices formed by applying a random
+continuous weight distribution to binary adjacency matrices. This allows us to
+derive an approximation for neural complexity in terms of the moments of the
+weight distribution and elementary graph motifs. In particular we explicitly
+establish a dependency of neural complexity on cyclic graph motifs.

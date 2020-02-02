@@ -1,0 +1,21 @@
+The Cluster Graphical Lasso for improved estimation of Gaussian
+  graphical models
+We consider the task of estimating a Gaussian graphical model in the
+high-dimensional setting. The graphical lasso, which involves maximizing the
+Gaussian log likelihood subject to an l1 penalty, is a well-studied approach
+for this task. We begin by introducing a surprising connection between the
+graphical lasso and hierarchical clustering: the graphical lasso in effect
+performs a two-step procedure, in which (1) single linkage hierarchical
+clustering is performed on the variables in order to identify connected
+components, and then (2) an l1-penalized log likelihood is maximized on the
+subset of variables within each connected component. In other words, the
+graphical lasso determines the connected components of the estimated network
+via single linkage clustering. Unfortunately, single linkage clustering is
+known to perform poorly in certain settings. Therefore, we propose the cluster
+graphical lasso, which involves clustering the features using an alternative to
+single linkage clustering, and then performing the graphical lasso on the
+subset of variables within each cluster. We establish model selection
+consistency for this technique, and demonstrate its improved performance
+relative to the graphical lasso in a simulation study, as well as in
+applications to an equities data set, a university webpage data set, and a gene
+expression data set.

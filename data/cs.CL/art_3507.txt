@@ -1,0 +1,14 @@
+Acoustic feature learning using cross-domain articulatory measurements
+Previous work has shown that it is possible to improve speech recognition by
+learning acoustic features from paired acoustic-articulatory data, for example
+by using canonical correlation analysis (CCA) or its deep extensions. One
+limitation of this prior work is that the learned feature models are difficult
+to port to new datasets or domains, and articulatory data is not available for
+most speech corpora. In this work we study the problem of acoustic feature
+learning in the setting where we have access to an external, domain-mismatched
+dataset of paired speech and articulatory measurements, either with or without
+labels. We develop methods for acoustic feature learning in these settings,
+based on deep variational CCA and extensions that use both source and target
+domain data and labels. Using this approach, we improve phonetic recognition
+accuracies on both TIMIT and Wall Street Journal and analyze a number of design
+choices.

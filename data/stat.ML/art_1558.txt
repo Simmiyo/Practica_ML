@@ -1,0 +1,18 @@
+Kernel Embedding Approaches to Orbit Determination of Spacecraft
+  Clusters
+This paper presents a novel formulation and solution of orbit determination
+over finite time horizons as a learning problem. We present an approach to
+orbit determination under very broad conditions that are satisfied for n-body
+problems. These weak conditions allow us to perform orbit determination with
+noisy and highly non-linear observations such as those presented by range-rate
+only (Doppler only) observations. We show that domain generalization and
+distribution regression techniques can learn to estimate orbits of a group of
+satellites and identify individual satellites especially with prior
+understanding of correlations between orbits and provide asymptotic convergence
+conditions. The approach presented requires only visibility and observability
+of the underlying state from observations and is particularly useful for
+autonomous spacecraft operations using low-cost ground stations or sensors. We
+validate the orbit determination approach using observations of two spacecraft
+(GRIFEX and MCubed-2) along with synthetic datasets of multiple spacecraft
+deployments and lunar orbits. We also provide a comparison with the standard
+techniques (EKF) under highly noisy conditions.

@@ -1,0 +1,27 @@
+A Neural Networks Approach to Predicting How Things Might Have Turned
+  Out Had I Mustered the Nerve to Ask Barry Cottonfield to the Junior Prom Back
+  in 1997
+We use a feed-forward artificial neural network with back-propagation through
+a single hidden layer to predict Barry Cottonfield's likely reply to this
+author's invitation to the "Once Upon a Daydream" junior prom at the Conard
+High School gymnasium back in 1997. To examine the network's ability to
+generalize to such a situation beyond specific training scenarios, we use a L2
+regularization term in the cost function and examine performance over a range
+of regularization strengths. In addition, we examine the nonsensical
+decision-making strategies that emerge in Barry at times when he has recently
+engaged in a fight with his annoying kid sister Janice. To simulate Barry's
+inability to learn efficiently from large mistakes (an observation well
+documented by his algebra teacher during sophomore year), we choose a simple
+quadratic form for the cost function, so that the weight update magnitude is
+not necessary correlated with the magnitude of output error.
+  Network performance on test data indicates that this author would have
+received an 87.2 (1)% chance of "Yes" given a particular set of environmental
+input parameters. Most critically, the optimal method of question delivery is
+found to be Secret Note rather than Verbal Speech. There also exists mild
+evidence that wearing a burgundy mini-dress might have helped. The network
+performs comparably for all values of regularization strength, which suggests
+that the nature of noise in a high school hallway during passing time does not
+affect much of anything. We comment on possible biases inherent in the output,
+implications regarding the functionality of a real biological network, and
+future directions. Over-training is also discussed, although the linear algebra
+teacher assures us that in Barry's case this is not possible.

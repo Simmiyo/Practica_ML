@@ -1,0 +1,13 @@
+HPS: a hierarchical Persian stemming method
+In this paper, a novel hierarchical Persian stemming approach based on the
+Part-Of-Speech of the word in a sentence is presented. The implemented stemmer
+includes hash tables and several deterministic finite automata in its different
+levels of hierarchy for removing the prefixes and suffixes of the words. We had
+two intentions in using hash tables in our method. The first one is that the
+DFA don't support some special words, so hash table can partly solve the
+addressed problem. the second goal is to speed up the implemented stemmer with
+omitting the time that deterministic finite automata need. Because of the
+hierarchical organization, this method is fast and flexible enough. Our
+experiments on test sets from Hamshahri collection and security news (istna.ir)
+show that our method has the average accuracy of 95.37% which is even improved
+in using the method on a test set with common topics.

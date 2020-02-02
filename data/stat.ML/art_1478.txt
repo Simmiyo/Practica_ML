@@ -1,0 +1,12 @@
+Multiple Adaptive Bayesian Linear Regression for Scalable Bayesian
+  Optimization with Warm Start
+Bayesian optimization (BO) is a model-based approach for gradient-free
+black-box function optimization. Typically, BO is powered by a Gaussian process
+(GP), whose algorithmic complexity is cubic in the number of evaluations.
+Hence, GP-based BO cannot leverage large amounts of past or related function
+evaluations, for example, to warm start the BO procedure. We develop a multiple
+adaptive Bayesian linear regression model as a scalable alternative whose
+complexity is linear in the number of observations. The multiple Bayesian
+linear regression models are coupled through a shared feedforward neural
+network, which learns a joint representation and transfers knowledge across
+machine learning problems.

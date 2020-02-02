@@ -1,0 +1,11 @@
+Accelerating Cross-Validation in Multinomial Logistic Regression with
+  $\ell_1$-Regularization
+We develop an approximate formula for evaluating a cross-validation estimator
+of predictive likelihood for multinomial logistic regression regularized by an
+$\ell_1$-norm. This allows us to avoid repeated optimizations required for
+literally conducting cross-validation; hence, the computational time can be
+significantly reduced. The formula is derived through a perturbative approach
+employing the largeness of the data size and the model dimensionality. An
+extension to the elastic net regularization is also addressed. The usefulness
+of the approximate formula is demonstrated on simulated data and the ISOLET
+dataset from the UCI machine learning repository.

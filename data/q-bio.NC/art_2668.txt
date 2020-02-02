@@ -1,0 +1,22 @@
+Real time unsupervised learning of visual stimuli in neuromorphic VLSI
+  systems
+Neuromorphic chips embody computational principles operating in the nervous
+system, into microelectronic devices. In this domain it is important to
+identify computational primitives that theory and experiments suggest as
+generic and reusable cognitive elements. One such element is provided by
+attractor dynamics in recurrent networks. Point attractors are equilibrium
+states of the dynamics (up to fluctuations), determined by the synaptic
+structure of the network; a `basin' of attraction comprises all initial states
+leading to a given attractor upon relaxation, hence making attractor dynamics
+suitable to implement robust associative memory. The initial network state is
+dictated by the stimulus, and relaxation to the attractor state implements the
+retrieval of the corresponding memorized prototypical pattern. In a previous
+work we demonstrated that a neuromorphic recurrent network of spiking neurons
+and suitably chosen, fixed synapses supports attractor dynamics. Here we focus
+on learning: activating on-chip synaptic plasticity and using a theory-driven
+strategy for choosing network parameters, we show that autonomous learning,
+following repeated presentation of simple visual stimuli, shapes a synaptic
+connectivity supporting stimulus-selective attractors. Associative memory
+develops on chip as the result of the coupled stimulus-driven neural activity
+and ensuing synaptic dynamics, with no artificial separation between learning
+and retrieval phases.

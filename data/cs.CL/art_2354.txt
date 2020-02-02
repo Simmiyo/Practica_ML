@@ -1,0 +1,11 @@
+Tackling Error Propagation through Reinforcement Learning: A Case of
+  Greedy Dependency Parsing
+Error propagation is a common problem in NLP. Reinforcement learning explores
+erroneous states during training and can therefore be more robust when mistakes
+are made early in a process. In this paper, we apply reinforcement learning to
+greedy dependency parsing which is known to suffer from error propagation.
+Reinforcement learning improves accuracy of both labeled and unlabeled
+dependencies of the Stanford Neural Dependency Parser, a high performance
+greedy parser, while maintaining its efficiency. We investigate the portion of
+errors which are the result of error propagation and confirm that reinforcement
+learning reduces the occurrence of error propagation.

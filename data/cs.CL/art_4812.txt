@@ -1,0 +1,21 @@
+Semi-Supervised Methods for Out-of-Domain Dependency Parsing
+Dependency parsing is one of the important natural language processing tasks
+that assigns syntactic trees to texts. Due to the wider availability of
+dependency corpora and improved parsing and machine learning techniques,
+parsing accuracies of supervised learning-based systems have been significantly
+improved. However, due to the nature of supervised learning, those parsing
+systems highly rely on the manually annotated training corpora. They work
+reasonably good on the in-domain data but the performance drops significantly
+when tested on out-of-domain texts. To bridge the performance gap between
+in-domain and out-of-domain, this thesis investigates three semi-supervised
+techniques for out-of-domain dependency parsing, namely co-training,
+self-training and dependency language models. Our approaches use easily
+obtainable unlabelled data to improve out-of-domain parsing accuracies without
+the need of expensive corpora annotation. The evaluations on several English
+domains and multi-lingual data show quite good improvements on parsing
+accuracy. Overall this work conducted a survey of semi-supervised methods for
+out-of-domain dependency parsing, where I extended and compared a number of
+important semi-supervised methods in a unified framework. The comparison
+between those techniques shows that self-training works equally well as
+co-training on out-of-domain parsing, while dependency language models can
+improve both in- and out-of-domain accuracies.

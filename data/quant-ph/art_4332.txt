@@ -1,0 +1,19 @@
+Strictly contractive quantum channels and physically realizable quantum
+  computers
+We study the robustness of quantum computers under the influence of errors
+modelled by strictly contractive channels. A channel $T$ is defined to be
+strictly contractive if, for any pair of density operators $\rho,\sigma$ in its
+domain, $\| T\rho - T\sigma \|_1 \le k \| \rho-\sigma \|_1$ for some $0 \le k <
+1$ (here $\| \cdot \|_1$ denotes the trace norm). In other words, strictly
+contractive channels render the states of the computer less distinguishable in
+the sense of quantum detection theory. Starting from the premise that all
+experimental procedures can be carried out with finite precision, we argue that
+there exists a physically meaningful connection between strictly contractive
+channels and errors in physically realizable quantum computers. We show that,
+in the absence of error correction, sensitivity of quantum memories and
+computers to strictly contractive errors grows exponentially with storage time
+and computation time respectively, and depends only on the constant $k$ and the
+measurement precision. We prove that strict contractivity rules out the
+possibility of perfect error correction, and give an argument that approximate
+error correction, which covers previous work on fault-tolerant quantum
+computation as a special case, is possible.

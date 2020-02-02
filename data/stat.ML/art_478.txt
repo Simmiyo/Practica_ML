@@ -1,0 +1,24 @@
+Fully Automated Myocardial Infarction Classification using Ordinary
+  Differential Equations
+Portable, Wearable and Wireless electrocardiogram (ECG) Systems have the
+potential to be used as point-of-care for cardiovascular disease diagnostic
+systems. Such wearable and wireless ECG systems require automatic detection of
+cardiovascular disease. Even in the primary care, automation of ECG diagnostic
+systems will improve efficiency of ECG diagnosis and reduce the minimal
+training requirement of local healthcare workers. However, few fully automatic
+myocardial infarction (MI) disease detection algorithms have well been
+developed. This paper presents a novel automatic MI classification algorithm
+using second order ordinary differential equation (ODE) with time varying
+coefficients, which simultaneously captures morphological and dynamic feature
+of highly correlated ECG signals. By effectively estimating the unobserved
+state variables and the parameters of the second order ODE, the accuracy of the
+classification was significantly improved. The estimated time varying
+coefficients of the second order ODE were used as an input to the support
+vector machine (SVM) for the MI classification. The proposed method was applied
+to the PTB diagnostic ECG database within Physionet. The overall sensitivity,
+specificity, and classification accuracy of 12 lead ECGs for MI binary
+classifications were 98.7%, 96.4% and 98.3%, respectively. We also found that
+even using one lead ECG signals, we can reach accuracy as high as 97%.
+Multiclass MI classification is a challenging task but the developed ODE
+approach for 12 lead ECGs coupled with multiclass SVM reached 96.4% accuracy
+for classifying 5 subgroups of MI and healthy controls.

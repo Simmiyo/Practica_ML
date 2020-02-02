@@ -1,0 +1,15 @@
+DISCOMAX: A Proximity-Preserving Distance Correlation Maximization
+  Algorithm
+In a regression setting we propose algorithms that reduce the dimensionality
+of the features while simultaneously maximizing a statistical measure of
+dependence known as distance correlation between the low-dimensional features
+and a response variable. This helps in solving the prediction problem with a
+low-dimensional set of features. Our setting is different from subset-selection
+algorithms where the problem is to choose the best subset of features for
+regression. Instead, we attempt to generate a new set of low-dimensional
+features as in a feature-learning setting. We attempt to keep our proposed
+approach as model-free and our algorithm does not assume the application of any
+specific regression model in conjunction with the low-dimensional features that
+it learns. The algorithm is iterative and is fomulated as a combination of the
+majorization-minimization and concave-convex optimization procedures. We also
+present spectral radius based convergence results for the proposed iterations.

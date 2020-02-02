@@ -1,0 +1,20 @@
+Unsupervised Context-Sensitive Spelling Correction of English and Dutch
+  Clinical Free-Text with Word and Character N-Gram Embeddings
+We present an unsupervised context-sensitive spelling correction method for
+clinical free-text that uses word and character n-gram embeddings. Our method
+generates misspelling replacement candidates and ranks them according to their
+semantic fit, by calculating a weighted cosine similarity between the
+vectorized representation of a candidate and the misspelling context. To tune
+the parameters of this model, we generate self-induced spelling error corpora.
+We perform our experiments for two languages. For English, we greatly
+outperform off-the-shelf spelling correction tools on a manually annotated
+MIMIC-III test set, and counter the frequency bias of a noisy channel model,
+showing that neural embeddings can be successfully exploited to improve upon
+the state-of-the-art. For Dutch, we also outperform an off-the-shelf spelling
+correction tool on manually annotated clinical records from the Antwerp
+University Hospital, but can offer no empirical evidence that our method
+counters the frequency bias of a noisy channel model in this case as well.
+However, both our context-sensitive model and our implementation of the noisy
+channel model obtain high scores on the test set, establishing a
+state-of-the-art for Dutch clinical spelling correction with the noisy channel
+model.

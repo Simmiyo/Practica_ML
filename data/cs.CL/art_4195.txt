@@ -1,0 +1,10 @@
+Transparent, Efficient, and Robust Word Embedding Access with WOMBAT
+We present WOMBAT, a Python tool which supports NLP practitioners in
+accessing word embeddings from code. WOMBAT addresses common research problems,
+including unified access, scaling, and robust and reproducible preprocessing.
+Code that uses WOMBAT for accessing word embeddings is not only cleaner, more
+readable, and easier to reuse, but also much more efficient than code using
+standard in-memory methods: a Python script using WOMBAT for evaluating seven
+large word embedding collections (8.7M embedding vectors in total) on a simple
+SemEval sentence similarity task involving 250 raw sentence pairs completes in
+under ten seconds end-to-end on a standard notebook computer.

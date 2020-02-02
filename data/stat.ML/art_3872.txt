@@ -1,0 +1,17 @@
+L0-norm Sparse Graph-regularized SVD for Biclustering
+Learning the "blocking" structure is a central challenge for high dimensional
+data (e.g., gene expression data). Recently, a sparse singular value
+decomposition (SVD) has been used as a biclustering tool to achieve this goal.
+However, this model ignores the structural information between variables (e.g.,
+gene interaction graph). Although typical graph-regularized norm can
+incorporate such prior graph information to get accurate discovery and better
+interpretability, it fails to consider the opposite effect of variables with
+different signs. Motivated by the development of sparse coding and
+graph-regularized norm, we propose a novel sparse graph-regularized SVD as a
+powerful biclustering tool for analyzing high-dimensional data. The key of this
+method is to impose two penalties including a novel graph-regularized norm
+($|\pmb{u}|\pmb{L}|\pmb{u}|$) and $L_0$-norm ($\|\pmb{u}\|_0$) on singular
+vectors to induce structural sparsity and enhance interpretability. We design
+an efficient Alternating Iterative Sparse Projection (AISP) algorithm to solve
+it. Finally, we apply our method and related ones to simulated and real data to
+show its efficiency in capturing natural blocking structures.

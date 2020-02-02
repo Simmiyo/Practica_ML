@@ -1,0 +1,17 @@
+Practically Perfect
+The property of perfectness plays an important role in the theory of Bayesian
+networks. First, the existence of perfect distributions for arbitrary sets of
+variables and directed acyclic graphs implies that various methods for reading
+independence from the structure of the graph (e.g., Pearl, 1988; Lauritzen,
+Dawid, Larsen & Leimer, 1990) are complete. Second, the asymptotic reliability
+of various search methods is guaranteed under the assumption that the
+generating distribution is perfect (e.g., Spirtes, Glymour & Scheines, 2000;
+Chickering & Meek, 2002). We provide a lower-bound on the probability of
+sampling a non-perfect distribution when using a fixed number of bits to
+represent the parameters of the Bayesian network. This bound approaches zero
+exponentially fast as one increases the number of bits used to represent the
+parameters. This result implies that perfect distributions with fixed-length
+representations exist. We also provide a lower-bound on the number of bits
+needed to guarantee that a distribution sampled from a uniform Dirichlet
+distribution is perfect with probability greater than 1/2. This result is
+useful for constructing randomized reductions for hardness proofs.

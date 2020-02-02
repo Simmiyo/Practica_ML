@@ -1,0 +1,19 @@
+High-Dimensional Probability Estimation with Deep Density Models
+One of the fundamental problems in machine learning is the estimation of a
+probability distribution from data. Many techniques have been proposed to study
+the structure of data, most often building around the assumption that
+observations lie on a lower-dimensional manifold of high probability. It has
+been more difficult, however, to exploit this insight to build explicit,
+tractable density models for high-dimensional data. In this paper, we introduce
+the deep density model (DDM), a new approach to density estimation. We exploit
+insights from deep learning to construct a bijective map to a representation
+space, under which the transformation of the distribution of the data is
+approximately factorized and has identical and known marginal densities. The
+simplicity of the latent distribution under the model allows us to feasibly
+explore it, and the invertibility of the map to characterize contraction of
+measure across it. This enables us to compute normalized densities for
+out-of-sample data. This combination of tractability and flexibility allows us
+to tackle a variety of probabilistic tasks on high-dimensional datasets,
+including: rapid computation of normalized densities at test-time without
+evaluating a partition function; generation of samples without MCMC; and
+characterization of the joint entropy of the data.

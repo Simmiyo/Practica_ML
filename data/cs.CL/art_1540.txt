@@ -1,0 +1,16 @@
+Integrating User and Agent Models: A Deep Task-Oriented Dialogue System
+Task-oriented dialogue systems can efficiently serve a large number of
+customers and relieve people from tedious works. However, existing
+task-oriented dialogue systems depend on handcrafted actions and states or
+extra semantic labels, which sometimes degrades user experience despite the
+intensive human intervention. Moreover, current user simulators have limited
+expressive ability so that deep reinforcement Seq2Seq models have to rely on
+selfplay and only work in some special cases. To address those problems, we
+propose a uSer and Agent Model IntegrAtion (SAMIA) framework inspired by an
+observation that the roles of the user and agent models are asymmetric.
+Firstly, this SAMIA framework model the user model as a Seq2Seq learning
+problem instead of ranking or designing rules. Then the built user model is
+used as a leverage to train the agent model by deep reinforcement learning. In
+the test phase, the output of the agent model is filtered by the user model to
+enhance the stability and robustness. Experiments on a real-world coffee
+ordering dataset verify the effectiveness of the proposed SAMIA framework.

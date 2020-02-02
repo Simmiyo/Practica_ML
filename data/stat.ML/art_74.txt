@@ -1,0 +1,12 @@
+Multi-Way, Multi-View Learning
+We extend multi-way, multivariate ANOVA-type analysis to cases where one
+covariate is the view, with features of each view coming from different,
+high-dimensional domains. The different views are assumed to be connected by
+having paired samples; this is a common setup in recent bioinformatics
+experiments, of which we analyze metabolite profiles in different conditions
+(disease vs. control and treatment vs. untreated) in different tissues (views).
+We introduce a multi-way latent variable model for this new task, by extending
+the generative model of Bayesian canonical correlation analysis (CCA) both to
+take multi-way covariate information into account as population priors, and by
+reducing the dimensionality by an integrated factor analysis that assumes the
+metabolites to come in correlated groups.

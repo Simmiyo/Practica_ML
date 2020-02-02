@@ -1,0 +1,14 @@
+Unwritten Languages Demand Attention Too! Word Discovery with
+  Encoder-Decoder Models
+Word discovery is the task of extracting words from unsegmented text. In this
+paper we examine to what extent neural networks can be applied to this task in
+a realistic unwritten language scenario, where only small corpora and limited
+annotations are available. We investigate two scenarios: one with no
+supervision and another with limited supervision with access to the most
+frequent words. Obtained results show that it is possible to retrieve at least
+27% of the gold standard vocabulary by training an encoder-decoder neural
+machine translation system with only 5,157 sentences. This result is close to
+those obtained with a task-specific Bayesian nonparametric model. Moreover, our
+approach has the advantage of generating translation alignments, which could be
+used to create a bilingual lexicon. As a future perspective, this approach is
+also well suited to work directly from speech.

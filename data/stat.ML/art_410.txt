@@ -1,0 +1,18 @@
+A Naive Bayes machine learning approach to risk prediction using
+  censored, time-to-event data
+Predicting an individual's risk of experiencing a future clinical outcome is
+a statistical task with important consequences for both practicing clinicians
+and public health experts. Modern observational databases such as electronic
+health records (EHRs) provide an alternative to the longitudinal cohort studies
+traditionally used to construct risk models, bringing with them both
+opportunities and challenges. Large sample sizes and detailed covariate
+histories enable the use of sophisticated machine learning techniques to
+uncover complex associations and interactions, but observational databases are
+often ``messy,'' with high levels of missing data and incomplete patient
+follow-up. In this paper, we propose an adaptation of the well-known Naive
+Bayes (NB) machine learning approach for classification to time-to-event
+outcomes subject to censoring. We compare the predictive performance of our
+method to the Cox proportional hazards model which is commonly used for risk
+prediction in healthcare populations, and illustrate its application to
+prediction of cardiovascular risk using an EHR dataset from a large Midwest
+integrated healthcare system.

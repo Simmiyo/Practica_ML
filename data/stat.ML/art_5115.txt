@@ -1,0 +1,16 @@
+Constraint Selection in Metric Learning
+A number of machine learning algorithms are using a metric, or a distance, in
+order to compare individuals. The Euclidean distance is usually employed, but
+it may be more efficient to learn a parametric distance such as Mahalanobis
+metric. Learning such a metric is a hot topic since more than ten years now,
+and a number of methods have been proposed to efficiently learn it. However,
+the nature of the problem makes it quite difficult for large scale data, as
+well as data for which classes overlap. This paper presents a simple way of
+improving accuracy and scalability of any iterative metric learning algorithm,
+where constraints are obtained prior to the algorithm. The proposed approach
+relies on a loss-dependent weighted selection of constraints that are used for
+learning the metric. Using the corresponding dedicated loss function, the
+method clearly allows to obtain better results than state-of-the-art methods,
+both in terms of accuracy and time complexity. Some experimental results on
+real world, and potentially large, datasets are demonstrating the effectiveness
+of our proposition.

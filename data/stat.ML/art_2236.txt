@@ -1,0 +1,13 @@
+Group descent algorithms for nonconvex penalized linear and logistic
+  regression models with grouped predictors
+Penalized regression is an attractive framework for variable selection
+problems. Often, variables possess a grouping structure, and the relevant
+selection problem is that of selecting groups, not individual variables. The
+group lasso has been proposed as a way of extending the ideas of the lasso to
+the problem of group selection. Nonconvex penalties such as SCAD and MCP have
+been proposed and shown to have several advantages over the lasso; these
+penalties may also be extended to the group selection problem, giving rise to
+group SCAD and group MCP methods. Here, we describe algorithms for fitting
+these models stably and efficiently. In addition, we present simulation results
+and real data examples comparing and contrasting the statistical properties of
+these methods.

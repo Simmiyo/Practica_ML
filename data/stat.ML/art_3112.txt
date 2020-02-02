@@ -1,0 +1,7 @@
+Convex Techniques for Model Selection
+We develop a robust convex algorithm to select the regularization parameter
+in model selection. In practice this would be automated in order to save
+practitioners time from having to tune it manually. In particular, we implement
+and test the convex method for $K$-fold cross validation on ridge regression,
+although the same concept extends to more complex models. We then compare its
+performance with standard methods.

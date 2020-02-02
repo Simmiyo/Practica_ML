@@ -1,0 +1,22 @@
+Parallel Spell-Checking Algorithm Based on Yahoo! N-Grams Dataset
+Spell-checking is the process of detecting and sometimes providing
+suggestions for incorrectly spelled words in a text. Basically, the larger the
+dictionary of a spell-checker is, the higher is the error detection rate;
+otherwise, misspellings would pass undetected. Unfortunately, traditional
+dictionaries suffer from out-of-vocabulary and data sparseness problems as they
+do not encompass large vocabulary of words indispensable to cover proper names,
+domain-specific terms, technical jargons, special acronyms, and terminologies.
+As a result, spell-checkers will incur low error detection and correction rate
+and will fail to flag all errors in the text. This paper proposes a new
+parallel shared-memory spell-checking algorithm that uses rich real-world word
+statistics from Yahoo! N-Grams Dataset to correct non-word and real-word errors
+in computer text. Essentially, the proposed algorithm can be divided into three
+sub-algorithms that run in a parallel fashion: The error detection algorithm
+that detects misspellings, the candidates generation algorithm that generates
+correction suggestions, and the error correction algorithm that performs
+contextual error correction. Experiments conducted on a set of text articles
+containing misspellings, showed a remarkable spelling error correction rate
+that resulted in a radical reduction of both non-word and real-word errors in
+electronic text. In a further study, the proposed algorithm is to be optimized
+for message-passing systems so as to become more flexible and less costly to
+scale over distributed machines.

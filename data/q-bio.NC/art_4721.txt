@@ -1,0 +1,10 @@
+Comment on "Biologically inspired protection of deep networks from
+  adversarial attacks"
+A recent paper suggests that Deep Neural Networks can be protected from
+gradient-based adversarial perturbations by driving the network activations
+into a highly saturated regime. Here we analyse such saturated networks and
+show that the attacks fail due to numerical limitations in the gradient
+computations. A simple stabilisation of the gradient estimates enables
+successful and efficient attacks. Thus, it has yet to be shown that the
+robustness observed in highly saturated networks is not simply due to numerical
+limitations.

@@ -1,0 +1,8 @@
+Grammatical Error Correction with Neural Reinforcement Learning
+We propose a neural encoder-decoder model with reinforcement learning (NRL)
+for grammatical error correction (GEC). Unlike conventional maximum likelihood
+estimation (MLE), the model directly optimizes towards an objective that
+considers a sentence-level, task-specific evaluation metric, avoiding the
+exposure bias issue in MLE. We demonstrate that NRL outperforms MLE both in
+human and automated evaluation metrics, achieving the state-of-the-art on a
+fluency-oriented GEC corpus.

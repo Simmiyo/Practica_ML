@@ -1,0 +1,14 @@
+Generalization Bounds for Metric and Similarity Learning
+Recently, metric learning and similarity learning have attracted a large
+amount of interest. Many models and optimisation algorithms have been proposed.
+However, there is relatively little work on the generalization analysis of such
+methods. In this paper, we derive novel generalization bounds of metric and
+similarity learning. In particular, we first show that the generalization
+analysis reduces to the estimation of the Rademacher average over
+"sums-of-i.i.d." sample-blocks related to the specific matrix norm. Then, we
+derive generalization bounds for metric/similarity learning with different
+matrix-norm regularisers by estimating their specific Rademacher complexities.
+Our analysis indicates that sparse metric/similarity learning with $L^1$-norm
+regularisation could lead to significantly better bounds than those with
+Frobenius-norm regularisation. Our novel generalization analysis develops and
+refines the techniques of U-statistics and Rademacher complexity analysis.

@@ -1,0 +1,20 @@
+On inferring structural connectivity from brain functional-MRI data
+The anatomical structure of the brain can be observed via non-invasive
+techniques such as diffusion imaging. However, these are imperfect because they
+miss connections that are actually known to exist, especially long range
+inter-hemispheric ones. In this paper we formulate the inverse problem of
+inferring the structural connectivity of brain networks from experimentally
+observed functional connectivity via functional Magnetic Resonance Imaging
+(fMRI), by formulating it as a convex optimization problem. We show that
+structural connectivity can be modeled as an optimal sparse representation
+derived from the much denser functional connectivity in the human brain. Using
+only the functional connectivity data as input, we present (a) an optimization
+problem that models constraints based on known physiological observations, and
+(b) an ADMM algorithm for solving it. The algorithm not only recovers the known
+structural connectivity of the brain, but is also able to robustly predict the
+long range inter-hemispheric connections missed by DSI or DTI, including a very
+good match with experimentally observed quantitative distributions of the
+weights/strength of anatomical connections. We demonstrate results on both
+synthetic model data and a fine-scale 998 node cortical dataset, and discuss
+applications to other complex network domains where retrieving effective
+structure from functional signatures are important.

@@ -1,0 +1,11 @@
+Measuring efficiency in high-accuracy, broad-coverage statistical
+  parsing
+Very little attention has been paid to the comparison of efficiency between
+high accuracy statistical parsers. This paper proposes one machine-independent
+metric that is general enough to allow comparisons across very different
+parsing architectures. This metric, which we call ``events considered'',
+measures the number of ``events'', however they are defined for a particular
+parser, for which a probability must be calculated, in order to find the parse.
+It is applicable to single-pass or multi-stage parsers. We discuss the
+advantages of the metric, and demonstrate its usefulness by using it to compare
+two parsers which differ in several fundamental ways.

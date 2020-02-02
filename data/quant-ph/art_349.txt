@@ -1,0 +1,12 @@
+The Parity Bit in Quantum Cryptography
+An $n$-bit string is encoded as a sequence of non-orthogonal quantum states.
+The parity bit of that $n$-bit string is described by one of two density
+matrices, $\rho_0^{(n)}$ and $\rho_1^{(n)}$, both in a Hilbert space of
+dimension $2^n$. In order to derive the parity bit the receiver must
+distinguish between the two density matrices, e.g., in terms of optimal mutual
+information. In this paper we find the measurement which provides the optimal
+mutual information about the parity bit and calculate that information. We
+prove that this information decreases exponentially with the length of the
+string in the case where the single bit states are almost fully overlapping. We
+believe this result will be useful in proving the ultimate security of quantum
+crytography in the presence of noise.

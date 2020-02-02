@@ -1,0 +1,18 @@
+The Fast and the Flexible: training neural networks to learn to follow
+  instructions from small data
+Learning to follow human instructions is a long-pursued goal in artificial
+intelligence. The task becomes particularly challenging if no prior knowledge
+of the employed language is assumed while relying only on a handful of examples
+to learn from. Work in the past has relied on hand-coded components or manually
+engineered features to provide strong inductive biases that make learning in
+such situations possible. In contrast, here we seek to establish whether this
+knowledge can be acquired automatically by a neural network system through a
+two phase training procedure: A (slow) offline learning stage where the network
+learns about the general structure of the task and a (fast) online adaptation
+phase where the network learns the language of a new given speaker. Controlled
+experiments show that when the network is exposed to familiar instructions but
+containing novel words, the model adapts very efficiently to the new
+vocabulary. Moreover, even for human speakers whose language usage can depart
+significantly from our artificial training language, our network can still make
+use of its automatically acquired inductive bias to learn to follow
+instructions more effectively.

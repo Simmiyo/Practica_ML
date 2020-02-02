@@ -1,0 +1,18 @@
+Predictive Approaches For Gaussian Process Classifier Model Selection
+In this paper we consider the problem of Gaussian process classifier (GPC)
+model selection with different Leave-One-Out (LOO) Cross Validation (CV) based
+optimization criteria and provide a practical algorithm using LOO predictive
+distributions with such criteria to select hyperparameters. Apart from the
+standard average negative logarithm of predictive probability (NLP), we also
+consider smoothed versions of criteria such as F-measure and Weighted Error
+Rate (WER), which are useful for handling imbalanced data. Unlike the
+regression case, LOO predictive distributions for the classifier case are
+intractable. We use approximate LOO predictive distributions arrived from
+Expectation Propagation (EP) approximation. We conduct experiments on several
+real world benchmark datasets. When the NLP criterion is used for optimizing
+the hyperparameters, the predictive approaches show better or comparable NLP
+generalization performance with existing GPC approaches. On the other hand,
+when the F-measure criterion is used, the F-measure generalization performance
+improves significantly on several datasets. Overall, the EP-based predictive
+algorithm comes out as an excellent choice for GP classifier model selection
+with different optimization criteria.

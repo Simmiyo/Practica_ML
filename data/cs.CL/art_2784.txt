@@ -1,0 +1,16 @@
+Rule-Based Spanish Morphological Analyzer Built From Spell Checking
+  Lexicon
+Preprocessing tools for automated text analysis have become more widely
+available in major languages, but non-English tools are often still limited in
+their functionality. When working with Spanish-language text, researchers can
+easily find tools for tokenization and stemming, but may not have the means to
+extract more complex word features like verb tense or mood. Yet Spanish is a
+morphologically rich language in which such features are often identifiable
+from word form. Conjugation rules are consistent, but many special verbs and
+nouns take on different rules. While building a complete dictionary of known
+words and their morphological rules would be labor intensive, resources to do
+so already exist, in spell checkers designed to generate valid forms of known
+words. This paper introduces a set of tools for Spanish-language morphological
+analysis, built using the COES spell checking tools, to label person, mood,
+tense, gender and number, derive a word's root noun or verb infinitive, and
+convert verbs to their nominal form.

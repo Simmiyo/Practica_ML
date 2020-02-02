@@ -1,0 +1,23 @@
+The Second Order Linear Model
+We study a fundamental class of regression models called the second order
+linear model (SLM). The SLM extends the linear model to high order functional
+space and has attracted considerable research interest recently. Yet how to
+efficiently learn the SLM under full generality using nonconvex solver still
+remains an open question due to several fundamental limitations of the
+conventional gradient descent learning framework. In this study, we try to
+attack this problem from a gradient-free approach which we call the
+moment-estimation-sequence (MES) method. We show that the conventional gradient
+descent heuristic is biased by the skewness of the distribution therefore is no
+longer the best practice of learning the SLM. Based on the MES framework, we
+design a nonconvex alternating iteration process to train a $d$-dimension
+rank-$k$ SLM within $O(kd)$ memory and one-pass of the dataset. The proposed
+method converges globally and linearly, achieves $\epsilon$ recovery error
+after retrieving $O[k^{2}d\cdot\mathrm{polylog}(kd/\epsilon)]$ samples.
+Furthermore, our theoretical analysis reveals that not all SLMs can be learned
+on every sub-gaussian distribution. When the instances are sampled from a
+so-called $\tau$-MIP distribution, the SLM can be learned by $O(p/\tau^{2})$
+samples where $p$ and $\tau$ are positive constants depending on the skewness
+and kurtosis of the distribution. For non-MIP distribution, an addition
+diagonal-free oracle is necessary and sufficient to guarantee the learnability
+of the SLM. Numerical simulations verify the sharpness of our bounds on the
+sampling complexity and the linear convergence rate of our algorithm.

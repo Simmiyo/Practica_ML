@@ -1,0 +1,17 @@
+Towards multiple kernel principal component analysis for integrative
+  analysis of tumor samples
+Personalized treatment of patients based on tissue-specific cancer subtypes
+has strongly increased the efficacy of the chosen therapies. Even though the
+amount of data measured for cancer patients has increased over the last years,
+most cancer subtypes are still diagnosed based on individual data sources (e.g.
+gene expression data). We propose an unsupervised data integration method based
+on kernel principal component analysis. Principal component analysis is one of
+the most widely used techniques in data analysis. Unfortunately, the
+straight-forward multiple-kernel extension of this method leads to the use of
+only one of the input matrices, which does not fit the goal of gaining
+information from all data sources. Therefore, we present a scoring function to
+determine the impact of each input matrix. The approach enables visualizing the
+integrated data and subsequent clustering for cancer subtype identification.
+Due to the nature of the method, no free parameters have to be set. We apply
+the methodology to five different cancer data sets and demonstrate its
+advantages in terms of results and usability.

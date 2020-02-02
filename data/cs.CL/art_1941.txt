@@ -1,0 +1,10 @@
+Functional Distributional Semantics
+Vector space models have become popular in distributional semantics, despite
+the challenges they face in capturing various semantic phenomena. We propose a
+novel probabilistic framework which draws on both formal semantics and recent
+advances in machine learning. In particular, we separate predicates from the
+entities they refer to, allowing us to perform Bayesian inference based on
+logical forms. We describe an implementation of this framework using a
+combination of Restricted Boltzmann Machines and feedforward neural networks.
+Finally, we demonstrate the feasibility of this approach by training it on a
+parsed corpus and evaluating it on established similarity datasets.

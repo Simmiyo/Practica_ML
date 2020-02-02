@@ -1,0 +1,15 @@
+Fast Landmark Subspace Clustering
+Kernel methods obtain superb performance in terms of accuracy for various
+machine learning tasks since they can effectively extract nonlinear relations.
+However, their time complexity can be rather large especially for clustering
+tasks. In this paper we define a general class of kernels that can be easily
+approximated by randomization. These kernels appear in various applications, in
+particular, traditional spectral clustering, landmark-based spectral clustering
+and landmark-based subspace clustering. We show that for $n$ data points from
+$K$ clusters with $D$ landmarks, the randomization procedure results in an
+algorithm of complexity $O(KnD)$. Furthermore, we bound the error between the
+original clustering scheme and its randomization. To illustrate the power of
+this framework, we propose a new fast landmark subspace (FLS) clustering
+algorithm. Experiments over synthetic and real datasets demonstrate the
+superior performance of FLS in accelerating subspace clustering with marginal
+sacrifice of accuracy.

@@ -1,0 +1,16 @@
+Statistical Machine Translation by Generalized Parsing
+Designers of statistical machine translation (SMT) systems have begun to
+employ tree-structured translation models. Systems involving tree-structured
+translation models tend to be complex. This article aims to reduce the
+conceptual complexity of such systems, in order to make them easier to design,
+implement, debug, use, study, understand, explain, modify, and improve. In
+service of this goal, the article extends the theory of semiring parsing to
+arrive at a novel abstract parsing algorithm with five functional parameters: a
+logic, a grammar, a semiring, a search strategy, and a termination condition.
+The article then shows that all the common algorithms that revolve around
+tree-structured translation models, including hierarchical alignment, inference
+for parameter estimation, translation, and structured evaluation, can be
+derived by generalizing two of these parameters -- the grammar and the logic.
+The article culminates with a recipe for using such generalized parsers to
+train, apply, and evaluate an SMT system that is driven by tree-structured
+translation models.

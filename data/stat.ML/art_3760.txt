@@ -1,0 +1,12 @@
+A Tractable Fully Bayesian Method for the Stochastic Block Model
+The stochastic block model (SBM) is a generative model revealing macroscopic
+structures in graphs. Bayesian methods are used for (i) cluster assignment
+inference and (ii) model selection for the number of clusters. In this paper,
+we study the behavior of Bayesian inference in the SBM in the large sample
+limit. Combining variational approximation and Laplace's method, a consistent
+criterion of the fully marginalized log-likelihood is established. Based on
+that, we derive a tractable algorithm that solves tasks (i) and (ii)
+concurrently, obviating the need for an outer loop to check all model
+candidates. Our empirical and theoretical results demonstrate that our method
+is scalable in computation, accurate in approximation, and concise in model
+selection.

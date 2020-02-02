@@ -1,0 +1,21 @@
+Combining Gradient Boosting Machines with Collective Inference to
+  Predict Continuous Values
+Gradient boosting of regression trees is a competitive procedure for learning
+predictive models of continuous data that fits the data with an additive
+non-parametric model. The classic version of gradient boosting assumes that the
+data is independent and identically distributed. However, relational data with
+interdependent, linked instances is now common and the dependencies in such
+data can be exploited to improve predictive performance. Collective inference
+is one approach to exploit relational correlation patterns and significantly
+reduce classification error. However, much of the work on collective learning
+and inference has focused on discrete prediction tasks rather than continuous.
+%target values has not got that attention in terms of collective inference. In
+this work, we investigate how to combine these two paradigms together to
+improve regression in relational domains. Specifically, we propose a boosting
+algorithm for learning a collective inference model that predicts a continuous
+target variable. In the algorithm, we learn a basic relational model,
+collectively infer the target values, and then iteratively learn relational
+models to predict the residuals. We evaluate our proposed algorithm on a real
+network dataset and show that it outperforms alternative boosting methods.
+However, our investigation also revealed that the relational features interact
+together to produce better predictions.

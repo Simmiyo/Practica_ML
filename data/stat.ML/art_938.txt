@@ -1,0 +1,14 @@
+An Interpretable and Sparse Neural Network Model for Nonlinear Granger
+  Causality Discovery
+While most classical approaches to Granger causality detection repose upon
+linear time series assumptions, many interactions in neuroscience and economics
+applications are nonlinear. We develop an approach to nonlinear Granger
+causality detection using multilayer perceptrons where the input to the network
+is the past time lags of all series and the output is the future value of a
+single series. A sufficient condition for Granger non-causality in this setting
+is that all of the outgoing weights of the input data, the past lags of a
+series, to the first hidden layer are zero. For estimation, we utilize a group
+lasso penalty to shrink groups of input weights to zero. We also propose a
+hierarchical penalty for simultaneous Granger causality and lag estimation. We
+validate our approach on simulated data from both a sparse linear
+autoregressive model and the sparse and nonlinear Lorenz-96 model.

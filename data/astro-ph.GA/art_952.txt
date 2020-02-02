@@ -1,0 +1,24 @@
+Kelvin-Helmholtz instabilities with Godunov SPH
+Numerical simulations for the non-linear development of Kelvin-Helmholtz
+instability in two different density layers have been performed with the
+particle-based method (Godunov SPH) developed by Inutsuka (2002). The Godunov
+SPH can describe the Kelvin-Helmholtz instability even with a high density
+contrast, while the standard SPH shows the absence of the instability across a
+density gradient (Agertz et al. 2007). The interaction of a dense blob with a
+hot ambient medium has been performed also. The Godunov SPH describes the
+formation and evolution of the fingers due to the combinations of
+Rayleigh-Taylor, Richtmyer-Meshkov, and Kelvin-Helmholtz instabilities. The
+blob test result coincides well with the results of the grid-based codes. An
+inaccurate handling of a density gradient in the standard SPH has been pointed
+out as the direct reason of the absence of the instabilities. An unphysical
+force happens at the density gradient even in a pressure equilibrium, and
+repulses particles from the initial density discontinuity. Therefore, the
+initial perturbation damps, and a gap forms at the discontinuity. The
+unphysical force has been studied in terms of the consistency of a numerical
+scheme. Contrary to the standard SPH, the momentum equation of the Godunov SPH
+doesnt use the particle approximation, and has been derived from the kernel
+convolution or a new Lagrangian function. The new Lagrangian function used in
+the Godunov SPH is more analogous to the real Lagrangian function for
+continuum. The momentum equation of the Godunov SPH has much better linear
+consistency, so the unphysical force is greatly reduced compared to the
+standard SPH in a high density contrast.

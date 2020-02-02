@@ -1,0 +1,26 @@
+Fast Optimization of Wildfire Suppression Policies with SMAC
+Managers of US National Forests must decide what policy to apply for dealing
+with lightning-caused wildfires. Conflicts among stakeholders (e.g., timber
+companies, home owners, and wildlife biologists) have often led to spirited
+political debates and even violent eco-terrorism. One way to transform these
+conflicts into multi-stakeholder negotiations is to provide a high-fidelity
+simulation environment in which stakeholders can explore the space of
+alternative policies and understand the tradeoffs therein. Such an environment
+needs to support fast optimization of MDP policies so that users can adjust
+reward functions and analyze the resulting optimal policies. This paper
+assesses the suitability of SMAC---a black-box empirical function optimization
+algorithm---for rapid optimization of MDP policies. The paper describes five
+reward function components and four stakeholder constituencies. It then
+introduces a parameterized class of policies that can be easily understood by
+the stakeholders. SMAC is applied to find the optimal policy in this class for
+the reward functions of each of the stakeholder constituencies. The results
+confirm that SMAC is able to rapidly find good policies that make sense from
+the domain perspective. Because the full-fidelity forest fire simulator is far
+too expensive to support interactive optimization, SMAC is applied to a
+surrogate model constructed from a modest number of runs of the full-fidelity
+simulator. To check the quality of the SMAC-optimized policies, the policies
+are evaluated on the full-fidelity simulator. The results confirm that the
+surrogate values estimates are valid. This is the first successful optimization
+of wildfire management policies using a full-fidelity simulation. The same
+methodology should be applicable to other contentious natural resource
+management problems where high-fidelity simulation is extremely expensive.

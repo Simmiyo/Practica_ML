@@ -1,0 +1,20 @@
+Probabilistic Sensor Fusion for Ambient Assisted Living
+There is a widely-accepted need to revise current forms of health-care
+provision, with particular interest in sensing systems in the home. Given a
+multiple-modality sensor platform with heterogeneous network connectivity, as
+is under development in the Sensor Platform for HEalthcare in Residential
+Environment (SPHERE) Interdisciplinary Research Collaboration (IRC), we face
+specific challenges relating to the fusion of the heterogeneous sensor
+modalities.
+  We introduce Bayesian models for sensor fusion, which aims to address the
+challenges of fusion of heterogeneous sensor modalities. Using this approach we
+are able to identify the modalities that have most utility for each particular
+activity, and simultaneously identify which features within that activity are
+most relevant for a given activity.
+  We further show how the two separate tasks of location prediction and
+activity recognition can be fused into a single model, which allows for
+simultaneous learning an prediction for both tasks.
+  We analyse the performance of this model on data collected in the SPHERE
+house, and show its utility. We also compare against some benchmark models
+which do not have the full structure,and show how the proposed model compares
+favourably to these methods

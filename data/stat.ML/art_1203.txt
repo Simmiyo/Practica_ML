@@ -1,0 +1,15 @@
+An Efficient Pseudo-likelihood Method for Sparse Binary Pairwise Markov
+  Network Estimation
+The pseudo-likelihood method is one of the most popular algorithms for
+learning sparse binary pairwise Markov networks. In this paper, we formulate
+the $L_1$ regularized pseudo-likelihood problem as a sparse multiple logistic
+regression problem. In this way, many insights and optimization procedures for
+sparse logistic regression can be applied to the learning of discrete Markov
+networks. Specifically, we use the coordinate descent algorithm for generalized
+linear models with convex penalties, combined with strong screening rules, to
+solve the pseudo-likelihood problem with $L_1$ regularization. Therefore a
+substantial speedup without losing any accuracy can be achieved. Furthermore,
+this method is more stable than the node-wise logistic regression approach on
+unbalanced high-dimensional data when penalized by small regularization
+parameters. Thorough numerical experiments on simulated data and real world
+data demonstrate the advantages of the proposed method.

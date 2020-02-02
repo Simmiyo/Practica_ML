@@ -1,0 +1,12 @@
+Fast Quantum Fourier Transforms for a Class of Non-abelian Groups
+An algorithm is presented allowing the construction of fast Fourier
+transforms for any solvable group on a classical computer. The special
+structure of the recursion formula being the core of this algorithm makes it a
+good starting point to obtain systematically fast Fourier transforms for
+solvable groups on a quantum computer. The inherent structure of the Hilbert
+space imposed by the qubit architecture suggests to consider groups of order
+2^n first (where n is the number of qubits). As an example, fast quantum
+Fourier transforms for all 4 classes of non-abelian 2-groups with cyclic normal
+subgroup of index 2 are explicitly constructed in terms of quantum circuits.
+The (quantum) complexity of the Fourier transform for these groups of size 2^n
+is O(n^2) in all cases.

@@ -1,0 +1,11 @@
+Learning Causally-Generated Stationary Time Series
+We present the Causal Gaussian Process Convolution Model (CGPCM), a doubly
+nonparametric model for causal, spectrally complex dynamical phenomena. The
+CGPCM is a generative model in which white noise is passed through a causal,
+nonparametric-window moving-average filter, a construction that we show to be
+equivalent to a Gaussian process with a nonparametric kernel that is biased
+towards causally-generated signals. We develop enhanced variational inference
+and learning schemes for the CGPCM and its previous acausal variant, the GPCM
+(Tobar et al., 2015b), that significantly improve statistical accuracy. These
+modelling and inferential contributions are demonstrated on a range of
+synthetic and real-world signals.

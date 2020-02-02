@@ -1,0 +1,12 @@
+Consistent procedures for cluster tree estimation and pruning
+For a density $f$ on ${\mathbb R}^d$, a {\it high-density cluster} is any
+connected component of $\{x: f(x) \geq \lambda\}$, for some $\lambda > 0$. The
+set of all high-density clusters forms a hierarchy called the {\it cluster
+tree} of $f$. We present two procedures for estimating the cluster tree given
+samples from $f$. The first is a robust variant of the single linkage algorithm
+for hierarchical clustering. The second is based on the $k$-nearest neighbor
+graph of the samples. We give finite-sample convergence rates for these
+algorithms which also imply consistency, and we derive lower bounds on the
+sample complexity of cluster tree estimation. Finally, we study a tree pruning
+procedure that guarantees, under milder conditions than usual, to remove
+clusters that are spurious while recovering those that are salient.

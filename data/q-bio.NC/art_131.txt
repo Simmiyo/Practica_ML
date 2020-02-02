@@ -1,0 +1,21 @@
+A modified cable formalism for modeling neuronal membranes at high
+  frequencies
+Intracellular recordings of cortical neurons in vivo display intense
+subthreshold membrane potential (Vm) activity. The power spectral density (PSD)
+of the Vm displays a power-law structure at high frequencies (>50 Hz) with a
+slope of about -2.5. This type of frequency scaling cannot be accounted for by
+traditional models, as either single-compartment models or models based on
+reconstructed cell morphologies display a frequency scaling with a slope close
+to -4. This slope is due to the fact that the membrane resistance is
+"short-circuited" by the capacitance for high frequencies, a situation which
+may not be realistic. Here, we integrate non-ideal capacitors in cable
+equations to reflect the fact that the capacitance cannot be charged
+instantaneously. We show that the resulting "non-ideal" cable model can be
+solved analytically using Fourier transforms. Numerical simulations using a
+ball-and-stick model yield membrane potential activity with similar frequency
+scaling as in the experiments. We also discuss the consequences of using
+non-ideal capacitors on other cellular properties such as the transmission of
+high frequencies, which is boosted in non-ideal cables, or voltage attenuation
+in dendrites. These results suggest that cable equations based on non-ideal
+capacitors should be used to capture the behavior of neuronal membranes at high
+frequencies.

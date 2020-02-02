@@ -1,0 +1,19 @@
+Survey On The Estimation Of Mutual Information Methods as a Measure of
+  Dependency Versus Correlation Analysis
+In this survey, we present and compare different approaches to estimate
+Mutual Information (MI) from data to analyse general dependencies between
+variables of interest in a system. We demonstrate the performance difference of
+MI versus correlation analysis, which is only optimal in case of linear
+dependencies. First, we use a piece-wise constant Bayesian methodology using a
+general Dirichlet prior. In this estimation method, we use a two-stage approach
+where we approximate the probability distribution first and then calculate the
+marginal and joint entropies. Here, we demonstrate the performance of this
+Bayesian approach versus the others for computing the dependency between
+different variables. We also compare these with linear correlation analysis.
+Finally, we apply MI and correlation analysis to the identification of the bias
+in the determination of the aerosol optical depth (AOD) by the satellite based
+Moderate Resolution Imaging Spectroradiometer (MODIS) and the ground based
+AErosol RObotic NETwork (AERONET). Here, we observe that the AOD measurements
+by these two instruments might be different for the same location. The reason
+of this bias is explored by quantifying the dependencies between the bias and
+15 other variables including cloud cover, surface reflectivity and others.

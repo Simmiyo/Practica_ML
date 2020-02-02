@@ -1,0 +1,11 @@
+Bayesian Optimal Control of Smoothly Parameterized Systems: The Lazy
+  Posterior Sampling Algorithm
+We study Bayesian optimal control of a general class of smoothly
+parameterized Markov decision problems. Since computing the optimal control is
+computationally expensive, we design an algorithm that trades off performance
+for computational efficiency. The algorithm is a lazy posterior sampling method
+that maintains a distribution over the unknown parameter. The algorithm changes
+its policy only when the variance of the distribution is reduced sufficiently.
+Importantly, we analyze the algorithm and show the precise nature of the
+performance vs. computation tradeoff. Finally, we show the effectiveness of the
+method on a web server control application.

@@ -1,0 +1,14 @@
+Building a Knowledge Graph from Natural Language Definitions for
+  Interpretable Text Entailment Recognition
+Natural language definitions of terms can serve as a rich source of
+knowledge, but structuring them into a comprehensible semantic model is
+essential to enable them to be used in semantic interpretation tasks. We
+propose a method and provide a set of tools for automatically building a graph
+world knowledge base from natural language definitions. Adopting a conceptual
+model composed of a set of semantic roles for dictionary definitions, we
+trained a classifier for automatically labeling definitions, preparing the data
+to be later converted to a graph representation. WordNetGraph, a knowledge
+graph built out of noun and verb WordNet definitions according to this
+methodology, was successfully used in an interpretable text entailment
+recognition approach which uses paths in this graph to provide clear
+justifications for entailment decisions.

@@ -1,0 +1,25 @@
+Leader neurons in leaky integrate and fire neural network simulations
+Several experimental studies show the existence of leader neurons in
+population bursts of 2D living neural networks. A leader neuron is, basically,
+a neuron which fires at the beginning of a burst (respectively network spike)
+more often that we expect by looking at its whole mean neural activity. This
+means that leader neurons have some burst triggering power beyond a simple
+statistical effect. In this study, we characterize these leader neuron
+properties. This naturally leads us to simulate neural 2D networks. To build
+our simulations, we choose the leaky integrate and fire (lIF) neuron model. Our
+lIF model has got stable leader neurons in the burst population that we
+simulate. These leader neurons are excitatory neurons and have a low membrane
+potential firing threshold. Except for these two first properties, the
+conditions required for a neuron to be a leader neuron are difficult to
+identify and seem to depend on several parameters involved in the simulations
+themself. However, a detailed linear analysis shows a trend of the properties
+required for a neuron to be a leader neuron. Our main finding is: A leader
+neuron sends a signal to many excitatory neurons as well as to a few inhibitory
+neurons and a leader neuron receives only a few signals from other excitatory
+neurons. Our linear analysis exhibits five essential properties for leader
+neurons with relative importance. This means that considering a given neural
+network with a fixed mean number of connections per neuron, our analysis gives
+us a way of predicting which neuron can be a good leader neuron and which
+cannot. Our prediction formula gives us a good statistical prediction even if,
+considering a single given neuron, the success rate does not reach hundred
+percent.

@@ -1,0 +1,19 @@
+Path Integration on a Quantum Computer
+We study path integration on a quantum computer that performs quantum
+summation. We assume that the measure of path integration is Gaussian, with the
+eigenvalues of its covariance operator of order j^{-k} with k>1. For the Wiener
+measure occurring in many applications we have k=2. We want to compute an
+$\e$-approximation to path integrals whose integrands are at least Lipschitz.
+We prove:
+  1. Path integration on a quantum computer is tractable.
+  2. Path integration on a quantum computer can be solved roughly $\e^{-1}$
+times faster than on a classical computer using randomization, and
+exponentially faster than on a classical computer with a worst case assurance.
+  3.The number of quantum queries is the square root of the number of function
+values needed on a classical computer using randomization. More precisely, the
+number of quantum queries is at most $4.22 \e^{-1}$. Furthermore, a lower bound
+is obtained for the minimal number of quantum queries which shows that this
+bound cannot be significantly improved.
+  4.The number of qubits is polynomial in $\e^{-1}$. Furthermore, for the
+Wiener measure the degree is 2 for Lipschitz functions, and the degree is 1 for
+smoother integrands.

@@ -1,0 +1,20 @@
+A Statistical Machine Learning Approach to Yield Curve Forecasting
+Yield curve forecasting is an important problem in finance. In this work we
+explore the use of Gaussian Processes in conjunction with a dynamic modeling
+strategy, much like the Kalman Filter, to model the yield curve. Gaussian
+Processes have been successfully applied to model functional data in a variety
+of applications. A Gaussian Process is used to model the yield curve. The
+hyper-parameters of the Gaussian Process model are updated as the algorithm
+receives yield curve data. Yield curve data is typically available as a time
+series with a frequency of one day. We compare existing methods to forecast the
+yield curve with the proposed method. The results of this study showed that
+while a competing method (a multivariate time series method) performed well in
+forecasting the yields at the short term structure region of the yield curve,
+Gaussian Processes perform well in the medium and long term structure regions
+of the yield curve. Accuracy in the long term structure region of the yield
+curve has important practical implications. The Gaussian Process framework
+yields uncertainty and probability estimates directly in contrast to other
+competing methods. Analysts are frequently interested in this information. In
+this study the proposed method has been applied to yield curve forecasting,
+however it can be applied to model high frequency time series data or data
+streams in other domains.

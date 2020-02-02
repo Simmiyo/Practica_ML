@@ -1,0 +1,29 @@
+A Framework for Exploring Non-Linear Functional Connectivity and
+  Causality in the Human Brain: Mutual Connectivity Analysis (MCA) of
+  Resting-State Functional MRI with Convergent Cross-Mapping and Non-Metric
+  Clustering
+We present a computational framework for analysis and visualization of
+non-linear functional connectivity in the human brain from resting state
+functional MRI (fMRI) data for purposes of recovering the underlying network
+community structure and exploring causality between network components. Our
+proposed methodology of non-linear mutual connectivity analysis (MCA) involves
+two computational steps. First, the pair-wise cross-prediction performance
+between resting state fMRI pixel time series within the brain is evaluated. The
+underlying network structure is subsequently recovered from the affinity matrix
+constructed through MCA using non-metric network partitioning/clustering with
+the so-called Louvain method. We demonstrate our methodology in the task of
+identifying regions of the motor cortex associated with hand movement on
+resting state fMRI data acquired from eight slice locations in four subjects.
+For comparison, we also localized regions of the motor cortex through a
+task-based fMRI sequence involving a finger-tapping stimulus paradigm. Finally,
+we integrate convergent cross mapping (CCM) into the first step of MCA for
+investigating causality between regions of the motor cortex. Results regarding
+causation between regions of the motor cortex revealed a significant
+directional variability and were not readily interpretable in a consistent
+manner across all subjects. However, our results on whole-slice fMRI analysis
+demonstrate that MCA-based model-free recovery of regions associated with the
+primary motor cortex and supplementary motor area are in close agreement with
+localization of similar regions achieved with a task-based fMRI acquisition.
+Thus, we conclude that our computational framework MCA can extract and
+visualize valuable information concerning the underlying network structure and
+causation between different regions of the brain in resting state fMRI.

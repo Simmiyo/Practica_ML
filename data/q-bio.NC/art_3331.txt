@@ -1,0 +1,23 @@
+Clamping and Synchronization in the strongly coupled FitzHugh-Nagumo
+  model
+We investigate the dynamics of a limit of interacting FitzHugh-Nagumo neurons
+in the regime of large interaction coefficients. We consider the dynamics
+described by a mean-field model given by a nonlinear evolution partial
+differential equation representing the probability distribution of one given
+neuron in a large network. The case of weak connectivity previously studied
+displays a unique, exponentially stable, stationary solution. Here, we consider
+the case of strong connectivities, and exhibit the presence of possibly
+non-unique stationary behaviors or non-stationary behaviors. To this end, using
+Hopf-Cole transformation, we demonstrate that the solutions exponentially
+concentrate around a singular Dirac measure as the connectivity parameter
+diverges, centered at the zeros of a time-dependent continuous function. We
+next characterize the points at which this measure concentrates, and exhibit a
+particular solution corresponding to a Dirac measure concentrated on a
+time-dependent point satisfying an ordinary differential equation identical to
+the original FitzHugh-Nagumo system. This solution may thus feature multiple
+stable fixed points or periodic orbits, respectively corresponding to a
+clumping of the whole system at rest, or a synchronization of cells on a
+periodic solution. We illustrate these results with numerical simulations of
+neural networks with a relatively modest number of neurons and finite coupling
+strength, and show that away from the bifurcations of the limit system, the
+asymptotic equation recovers the main properties of more realistic networks.

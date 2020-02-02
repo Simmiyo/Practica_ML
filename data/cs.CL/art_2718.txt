@@ -1,0 +1,11 @@
+Negative Sampling Improves Hypernymy Extraction Based on Projection
+  Learning
+We present a new approach to extraction of hypernyms based on projection
+learning and word embeddings. In contrast to classification-based approaches,
+projection-based methods require no candidate hyponym-hypernym pairs. While it
+is natural to use both positive and negative training examples in supervised
+relation extraction, the impact of negative examples on hypernym prediction was
+not studied so far. In this paper, we show that explicit negative examples used
+for regularization of the model significantly improve performance compared to
+the state-of-the-art approach of Fu et al. (2014) on three datasets from
+different languages.

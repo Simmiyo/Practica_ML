@@ -1,0 +1,22 @@
+Non-exchangeable random partition models for microclustering
+Many popular random partition models, such as the Chinese restaurant process
+and its two-parameter extension, fall in the class of exchangeable random
+partitions, and have found wide applicability in model-based clustering,
+population genetics, ecology or network analysis. While the exchangeability
+assumption is sensible in many cases, it has some strong implications. In
+particular, Kingman's representation theorem implies that the size of the
+clusters necessarily grows linearly with the sample size; this feature may be
+undesirable for some applications, as recently pointed out by Miller et al.
+(2015). We present here a flexible class of non-exchangeable random partition
+models which are able to generate partitions whose cluster sizes grow
+sublinearly with the sample size, and where the growth rate is controlled by
+one parameter. Along with this result, we provide the asymptotic behaviour of
+the number of clusters of a given size, and show that the model can exhibit a
+power-law behavior, controlled by another parameter. The construction is based
+on completely random measures and a Poisson embedding of the random partition,
+and inference is performed using a Sequential Monte Carlo algorithm.
+Additionally, we show how the model can also be directly used to generate
+sparse multigraphs with power-law degree distributions and degree sequences
+with sublinear growth. Finally, experiments on real datasets emphasize the
+usefulness of the approach compared to a two-parameter Chinese restaurant
+process.

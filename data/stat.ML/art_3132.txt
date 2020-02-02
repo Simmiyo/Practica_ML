@@ -1,0 +1,22 @@
+Efficient penalty search for multiple changepoint problems
+In the multiple changepoint setting, various search methods have been
+proposed which involve optimising either a constrained or penalised cost
+function over possible numbers and locations of changepoints using dynamic
+programming. Such methods are typically computationally intensive. Recent work
+in the penalised optimisation setting has focussed on developing a
+pruning-based approach which gives an improved computational cost that, under
+certain conditions, is linear in the number of data points. Such an approach
+naturally requires the specification of a penalty to avoid under/over-fitting.
+Work has been undertaken to identify the appropriate penalty choice for data
+generating processes with known distributional form, but in many applications
+the model assumed for the data is not correct and these penalty choices are not
+always appropriate. Consequently it is desirable to have an approach that
+enables us to compare segmentations for different choices of penalty. To this
+end we present a method to obtain optimal changepoint segmentations of data
+sequences for all penalty values across a continuous range. This permits an
+evaluation of the various segmentations to identify a suitably parsimonious
+penalty choice. The computational complexity of this approach can be linear in
+the number of data points and linear in the difference between the number of
+changepoints in the optimal segmentations for the smallest and largest penalty
+values. This can be orders of magnitude faster than alternative approaches that
+find optimal segmentations for a range of the number of changepoints.

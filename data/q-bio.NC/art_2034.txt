@@ -1,0 +1,19 @@
+Indisputable facts when implementing spiking neuron networks
+In this article, our wish is to demystify some aspects of coding with
+spike-timing, through a simple review of well-understood technical facts
+regarding spike coding. The goal is to help better understanding to which
+extend computing and modelling with spiking neuron networks can be biologically
+plausible and computationally efficient. We intentionally restrict ourselves to
+a deterministic dynamics, in this review, and we consider that the dynamics of
+the network is defined by a non-stochastic mapping. This allows us to stay in a
+rather simple framework and to propose a review with concrete numerical values,
+results and formula on (i) general time constraints, (ii) links between
+continuous signals and spike trains, (iii) spiking networks parameter
+adjustments. When implementing spiking neuron networks, for computational or
+biological simulation purposes, it is important to take into account the
+indisputable facts here reviewed. This precaution could prevent from
+implementing mechanisms meaningless with regards to obvious time constraints,
+or from introducing spikes artificially, when continuous calculations would be
+sufficient and simpler. It is also pointed out that implementing a spiking
+neuron network is finally a simple task, unless complex neural codes are
+considered.

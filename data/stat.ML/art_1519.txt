@@ -1,0 +1,13 @@
+Multi-set Canonical Correlation Analysis simply explained
+There are a multitude of methods to perform multi-set correlated component
+analysis (MCCA), including some that require iterative solutions. The methods
+differ on the criterion they optimize and the constraints placed on the
+solutions. This note focuses perhaps on the simplest version, which can be
+solved in a single step as the eigenvectors of matrix ${\bf D}^{-1} {\bf R}$.
+Here ${\bf R}$ is the covariance matrix of the concatenated data, and ${\bf D}$
+is its block-diagonal. This note shows that this solution maximizes inter-set
+correlation (ISC) without further constraints. It also relates the solution to
+a two step procedure, which first whitens each dataset using PCA, and then
+performs an additional PCA on the concatenated and whitened data. Both these
+solutions are known, although a clear derivation and simple implementation are
+hard to find. This short note aims to remedy this.

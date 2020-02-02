@@ -1,0 +1,14 @@
+On the complexity of piecewise affine system identification
+The paper provides results regarding the computational complexity of hybrid
+system identification. More precisely, we focus on the estimation of piecewise
+affine (PWA) maps from input-output data and analyze the complexity of
+computing a global minimizer of the error. Previous work showed that a global
+solution could be obtained for continuous PWA maps with a worst-case complexity
+exponential in the number of data. In this paper, we show how global optimality
+can be reached for a slightly more general class of possibly discontinuous PWA
+maps with a complexity only polynomial in the number of data, however with an
+exponential complexity with respect to the data dimension. This result is
+obtained via an analysis of the intrinsic classification subproblem of
+associating the data points to the different modes. In addition, we prove that
+the problem is NP-hard, and thus that the exponential complexity in the
+dimension is a natural expectation for any exact algorithm.

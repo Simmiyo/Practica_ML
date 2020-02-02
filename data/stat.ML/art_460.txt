@@ -1,0 +1,23 @@
+Probabilistic Network Metrics: Variational Bayesian Network Centrality
+Network metrics form a fundamental part of the network analysis toolbox. Used
+to quantitatively measure different aspects of the network, these metrics can
+give insights into the underlying network structure and function. In this work,
+we connect network metrics to modern probabilistic machine learning. We focus
+on the centrality metric, which is used a wide variety of applications from web
+search to gene-analysis. First, we formulate an eigenvector-based Bayesian
+centrality model for determining node importance. Compared to existing methods,
+our probabilistic model allows for the assimilation of multiple edge weight
+observations, the inclusion of priors and the extraction of uncertainties. To
+enable tractable inference, we develop a variational lower bound (VBC) that is
+demonstrated to be effective on a variety of networks (two synthetic and five
+real-world graphs). We then bridge this model to sparse Gaussian processes. The
+sparse variational Bayesian centrality Gaussian process (VBC-GP) learns a
+mapping between node attributes to latent centrality and hence, is capable of
+predicting centralities from node features and can potentially represent a
+large number of nodes using only a limited number of inducing inputs.
+Experiments show that the VBC-GP learns high-quality mappings and compares
+favorably to a two-step baseline, i.e., a full GP trained on the node
+attributes and pre-computed centralities. Finally, we present two case-studies
+using the VBC-GP: first, to ascertain relevant features in a taxi transport
+network and second, to distribute a limited number of vaccines to mitigate the
+severity of a viral outbreak.

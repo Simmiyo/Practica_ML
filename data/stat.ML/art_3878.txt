@@ -1,0 +1,25 @@
+Multi-domain machine translation enhancements by parallel data
+  extraction from comparable corpora
+Parallel texts are a relatively rare language resource, however, they
+constitute a very useful research material with a wide range of applications.
+This study presents and analyses new methodologies we developed for obtaining
+such data from previously built comparable corpora. The methodologies are
+automatic and unsupervised which makes them good for large scale research. The
+task is highly practical as non-parallel multilingual data occur much more
+frequently than parallel corpora and accessing them is easy, although parallel
+sentences are a considerably more useful resource. In this study, we propose a
+method of automatic web crawling in order to build topic-aligned comparable
+corpora, e.g. based on the Wikipedia or Euronews.com. We also developed new
+methods of obtaining parallel sentences from comparable data and proposed
+methods of filtration of corpora capable of selecting inconsistent or only
+partially equivalent translations. Our methods are easily scalable to other
+languages. Evaluation of the quality of the created corpora was performed by
+analysing the impact of their use on statistical machine translation systems.
+Experiments were presented on the basis of the Polish-English language pair for
+texts from different domains, i.e. lectures, phrasebooks, film dialogues,
+European Parliament proceedings and texts contained medicines leaflets. We also
+tested a second method of creating parallel corpora based on data from
+comparable corpora which allows for automatically expanding the existing corpus
+of sentences about a given domain on the basis of analogies found between them.
+It does not require, therefore, having past parallel resources in order to
+train a classifier.

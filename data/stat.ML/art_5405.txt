@@ -1,0 +1,10 @@
+Sample Efficient Feature Selection for Factored MDPs
+In reinforcement learning, the state of the real world is often represented
+by feature vectors. However, not all of the features may be pertinent for
+solving the current task. We propose Feature Selection Explore and Exploit
+(FS-EE), an algorithm that automatically selects the necessary features while
+learning a Factored Markov Decision Process, and prove that under mild
+assumptions, its sample complexity scales with the in-degree of the dynamics of
+just the necessary features, rather than the in-degree of all features. This
+can result in a much better sample complexity when the in-degree of the
+necessary features is smaller than the in-degree of all features.

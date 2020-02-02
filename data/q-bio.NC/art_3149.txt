@@ -1,0 +1,22 @@
+Determinants of gait stability while walking on a treadmill: a machine
+  learning approach
+Dynamic balance in human locomotion can be assessed through the local dynamic
+stability (LDS) method. Whereas gait LDS has been used successfully in many
+settings and applications, little is known about its sensitivity to individual
+characteristics of healthy adults. Therefore, we reanalyzed a large dataset of
+accelerometric data measured for 100 healthy adults from 20 to 70 years of age
+performing 10 min. treadmill walking. We sought to assess the extent to which
+the variations of age, body mass and height, sex, and preferred walking speed
+(PWS) could influence gait LDS. The random forest (RF) and multiple adaptive
+regression splines (MARS) algorithms were selected for their good bias-variance
+tradeoff and their capabilities to handle nonlinear associations. First,
+through variable importance measure (VIM), we used RF to evaluate which
+individual characteristics had the highest influence on gait LDS. Second, we
+used MARS to detect potential interactions among individual characteristics
+that may influence LDS. The VIM and MARS results indicated that PWS and age
+correlated with LDS, whereas no associations were found for sex, body height,
+and body mass. Further, the MARS model detected an age by PWS interaction: on
+one hand, at high PWS, gait stability is constant across age while, on the
+other hand, at low PWS, gait instability increases substantially with age. We
+conclude that it is advisable to consider the participants' age as well as
+their PWS to avoid potential biases in evaluating dynamic balance through LDS.

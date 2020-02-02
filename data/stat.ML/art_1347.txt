@@ -1,0 +1,14 @@
+Regression Phalanxes
+Tomal et al. (2015) introduced the notion of "phalanxes" in the context of
+rare-class detection in two-class classification problems. A phalanx is a
+subset of features that work well for classification tasks. In this paper, we
+propose a different class of phalanxes for application in regression settings.
+We define a "Regression Phalanx" - a subset of features that work well together
+for prediction. We propose a novel algorithm which automatically chooses
+Regression Phalanxes from high-dimensional data sets using hierarchical
+clustering and builds a prediction model for each phalanx for further
+ensembling. Through extensive simulation studies and several real-life
+applications in various areas (including drug discovery, chemical analysis of
+spectra data, microarray analysis and climate projections) we show that an
+ensemble of Regression Phalanxes improves prediction accuracy when combined
+with effective prediction methods like Lasso or Random Forests.

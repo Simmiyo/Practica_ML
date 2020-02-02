@@ -1,0 +1,17 @@
+A general multiblock method for structured variable selection
+Regularised canonical correlation analysis was recently extended to more than
+two sets of variables by the multiblock method Regularised generalised
+canonical correlation analysis (RGCCA). Further, Sparse GCCA (SGCCA) was
+proposed to address the issue of variable selection. However, for technical
+reasons, the variable selection offered by SGCCA was restricted to a covariance
+link between the blocks (i.e., with $\tau=1$). One of the main contributions of
+this paper is to go beyond the covariance link and to propose an extension of
+SGCCA for the full RGCCA model (i.e., with $\tau\in[0, 1]$). In addition, we
+propose an extension of SGCCA that exploits structural relationships between
+variables within blocks. Specifically, we propose an algorithm that allows
+structured and sparsity-inducing penalties to be included in the RGCCA
+optimisation problem. The proposed multiblock method is illustrated on a real
+three-block high-grade glioma data set, where the aim is to predict the
+location of the brain tumours, and on a simulated data set, where the aim is to
+illustrate the method's ability to reconstruct the true underlying weight
+vectors.

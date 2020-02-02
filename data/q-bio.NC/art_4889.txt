@@ -1,0 +1,21 @@
+On the Classification of SSVEP-Based Dry-EEG Signals via Convolutional
+  Neural Networks
+In this paper, we propose a novel Convolutional Neural Network (CNN) approach
+for the classification of raw dry-EEG signals without any data pre-processing.
+To illustrate the effectiveness of our approach, we utilise the Steady State
+Visual Evoked Potential (SSVEP) paradigm as our use case. SSVEP can be utilised
+to allow people with severe physical disabilities such as Complete Locked-In
+Syndrome or Amyotrophic Lateral Sclerosis to be aided via BCI applications, as
+it requires only the subject to fixate upon the sensory stimuli of interest.
+Here we utilise SSVEP flicker frequencies between 10 to 30 Hz, which we record
+as subject cortical waveforms via the dry-EEG headset. Our proposed end-to-end
+CNN allows us to automatically and accurately classify SSVEP stimulation
+directly from the dry-EEG waveforms. Our CNN architecture utilises a common
+SSVEP Convolutional Unit (SCU), comprising of a 1D convolutional layer, batch
+normalization and max pooling. Furthermore, we compare several deep learning
+neural network variants with our primary CNN architecture, in addition to
+traditional machine learning classification approaches. Experimental evaluation
+shows our CNN architecture to be significantly better than competing
+approaches, achieving a classification accuracy of 96% whilst demonstrating
+superior cross-subject performance and even being able to generalise well to
+unseen subjects whose data is entirely absent from the training process.

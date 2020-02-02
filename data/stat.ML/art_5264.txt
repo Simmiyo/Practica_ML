@@ -1,0 +1,16 @@
+Minimax Lower Bounds for Ridge Combinations Including Neural Nets
+Estimation of functions of $ d $ variables is considered using ridge
+combinations of the form $ \textstyle\sum_{k=1}^m c_{1,k}
+\phi(\textstyle\sum_{j=1}^d c_{0,j,k}x_j-b_k) $ where the activation function $
+\phi $ is a function with bounded value and derivative. These include
+single-hidden layer neural networks, polynomials, and sinusoidal models. From a
+sample of size $ n $ of possibly noisy values at random sites $ X \in B =
+[-1,1]^d $, the minimax mean square error is examined for functions in the
+closure of the $ \ell_1 $ hull of ridge functions with activation $ \phi $. It
+is shown to be of order $ d/n $ to a fractional power (when $ d $ is of smaller
+order than $ n $), and to be of order $ (\log d)/n $ to a fractional power
+(when $ d $ is of larger order than $ n $). Dependence on constraints $ v_0 $
+and $ v_1 $ on the $ \ell_1 $ norms of inner parameter $ c_0 $ and outer
+parameter $ c_1 $, respectively, is also examined. Also, lower and upper bounds
+on the fractional power are given. The heart of the analysis is development of
+information-theoretic packing numbers for these classes of functions.

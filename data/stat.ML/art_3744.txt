@@ -1,0 +1,19 @@
+A Spectral Series Approach to High-Dimensional Nonparametric Regression
+A key question in modern statistics is how to make fast and reliable
+inferences for complex, high-dimensional data. While there has been much
+interest in sparse techniques, current methods do not generalize well to data
+with nonlinear structure. In this work, we present an orthogonal series
+estimator for predictors that are complex aggregate objects, such as natural
+images, galaxy spectra, trajectories, and movies. Our series approach ties
+together ideas from kernel machine learning, and Fourier methods. We expand the
+unknown regression on the data in terms of the eigenfunctions of a kernel-based
+operator, and we take advantage of orthogonality of the basis with respect to
+the underlying data distribution, P, to speed up computations and tuning of
+parameters. If the kernel is appropriately chosen, then the eigenfunctions
+adapt to the intrinsic geometry and dimension of the data. We provide
+theoretical guarantees for a radial kernel with varying bandwidth, and we
+relate smoothness of the regression function with respect to P to sparsity in
+the eigenbasis. Finally, using simulated and real-world data, we systematically
+compare the performance of the spectral series approach with classical kernel
+smoothing, k-nearest neighbors regression, kernel ridge regression, and
+state-of-the-art manifold and local regression methods.

@@ -1,0 +1,11 @@
+Tightening MRF Relaxations with Planar Subproblems
+We describe a new technique for computing lower-bounds on the minimum energy
+configuration of a planar Markov Random Field (MRF). Our method successively
+adds large numbers of constraints and enforces consistency over binary
+projections of the original problem state space. These constraints are
+represented in terms of subproblems in a dual-decomposition framework that is
+optimized using subgradient techniques. The complete set of constraints we
+consider enforces cycle consistency over the original graph. In practice we
+find that the method converges quickly on most problems with the addition of a
+few subproblems and outperforms existing methods for some interesting classes
+of hard potentials.

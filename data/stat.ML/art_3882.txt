@@ -1,0 +1,21 @@
+Kernelized Weighted SUSAN based Fuzzy C-Means Clustering for Noisy Image
+  Segmentation
+The paper proposes a novel Kernelized image segmentation scheme for noisy
+images that utilizes the concept of Smallest Univalue Segment Assimilating
+Nucleus (SUSAN) and incorporates spatial constraints by computing circular
+colour map induced weights. Fuzzy damping coefficients are obtained for each
+nucleus or center pixel on the basis of the corresponding weighted SUSAN area
+values, the weights being equal to the inverse of the number of horizontal and
+vertical moves required to reach a neighborhood pixel from the center pixel.
+These weights are used to vary the contributions of the different nuclei in the
+Kernel based framework. The paper also presents an edge quality metric obtained
+by fuzzy decision based edge candidate selection and final computation of the
+blurriness of the edges after their selection. The inability of existing
+algorithms to preserve edge information and structural details in their
+segmented maps necessitates the computation of the edge quality factor (EQF)
+for all the competing algorithms. Qualitative and quantitative analysis have
+been rendered with respect to state-of-the-art algorithms and for images ridden
+with varying types of noises. Speckle noise ridden SAR images and Rician noise
+ridden Magnetic Resonance Images have also been considered for evaluating the
+effectiveness of the proposed algorithm in extracting important segmentation
+information.

@@ -1,0 +1,11 @@
+An FFT based measure of phase synchronization
+In this paper phase of a signal has been viewed from a different angle.
+According to this view a signal can have countably infinitely many phases, one
+associated with each Fourier component. In other words each frequency has a
+phase associated with it. It has been shown that if two signals are phase
+synchronous then the difference between phases at a given component changes
+very slowly across the subsequent components. This leads to an FFT based phase
+synchronization measuring algorithm between any two signals. The algorithm does
+not take any more time than the FFT itself. Mathematical motivations as well as
+some results of implementation of the algorithm on artificially generated
+signals and real EEG signals have been presented.

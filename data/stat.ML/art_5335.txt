@@ -1,0 +1,15 @@
+Semi-parametric Network Structure Discovery Models
+We propose a network structure discovery model for continuous observations
+that generalizes linear causal models by incorporating a Gaussian process (GP)
+prior on a network-independent component, and random sparsity and weight
+matrices as the network-dependent parameters. This approach provides flexible
+modeling of network-independent trends in the observations as well as
+uncertainty quantification around the discovered network structure. We
+establish a connection between our model and multi-task GPs and develop an
+efficient stochastic variational inference algorithm for it. Furthermore, we
+formally show that our approach is numerically stable and in fact numerically
+easy to carry out almost everywhere on the support of the random variables
+involved. Finally, we evaluate our model on three applications, showing that it
+outperforms previous approaches. We provide a qualitative and quantitative
+analysis of the structures discovered for domains such as the study of the full
+genome regulation of the yeast Saccharomyces cerevisiae.

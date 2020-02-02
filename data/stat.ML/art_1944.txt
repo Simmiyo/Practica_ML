@@ -1,0 +1,13 @@
+A Novel Training Algorithm for HMMs with Partial and Noisy Access to the
+  States
+This paper proposes a new estimation algorithm for the parameters of an HMM
+as to best account for the observed data. In this model, in addition to the
+observation sequence, we have \emph{partial} and \emph{noisy} access to the
+hidden state sequence as side information. This access can be seen as "partial
+labeling" of the hidden states. Furthermore, we model possible mislabeling in
+the side information in a joint framework and derive the corresponding EM
+updates accordingly. In our simulations, we observe that using this side
+information, we considerably improve the state recognition performance, up to
+70%, with respect to the "achievable margin" defined by the baseline
+algorithms. Moreover, our algorithm is shown to be robust to the training
+conditions.

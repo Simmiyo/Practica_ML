@@ -1,0 +1,16 @@
+Bayesian deep neural networks for low-cost neurophysiological markers of
+  Alzheimer's disease severity
+As societies around the world are ageing, the number of Alzheimer's disease
+(AD) patients is rapidly increasing. To date, no low-cost, non-invasive
+biomarkers have been established to advance the objectivization of AD diagnosis
+and progression assessment. Here, we utilize Bayesian neural networks to
+develop a multivariate predictor for AD severity using a wide range of
+quantitative EEG (QEEG) markers. The Bayesian treatment of neural networks both
+automatically controls model complexity and provides a predictive distribution
+over the target function, giving uncertainty bounds for our regression task. It
+is therefore well suited to clinical neuroscience, where data sets are
+typically sparse and practitioners require a precise assessment of the
+predictive uncertainty. We use data of one of the largest prospective AD EEG
+trials ever conducted to demonstrate the potential of Bayesian deep learning in
+this domain, while comparing two distinct Bayesian neural network approaches,
+i.e., Monte Carlo dropout and Hamiltonian Monte Carlo.

@@ -1,0 +1,20 @@
+A large-scale evaluation framework for EEG deep learning architectures
+EEG is the most common signal source for noninvasive BCI applications. For
+such applications, the EEG signal needs to be decoded and translated into
+appropriate actions. A recently emerging EEG decoding approach is deep learning
+with Convolutional or Recurrent Neural Networks (CNNs, RNNs) with many
+different architectures already published. Here we present a novel framework
+for the large-scale evaluation of different deep-learning architectures on
+different EEG datasets. This framework comprises (i) a collection of EEG
+datasets currently including 100 examples (recording sessions) from six
+different classification problems, (ii) a collection of different EEG decoding
+algorithms, and (iii) a wrapper linking the decoders to the data as well as
+handling structured documentation of all settings and (hyper-) parameters and
+statistics, designed to ensure transparency and reproducibility. As an
+applications example we used our framework by comparing three publicly
+available CNN architectures: the Braindecode Deep4 ConvNet, Braindecode Shallow
+ConvNet, and two versions of EEGNet. We also show how our framework can be used
+to study similarities and differences in the performance of different decoding
+methods across tasks. We argue that the deep learning EEG framework as
+described here could help to tap the full potential of deep learning for BCI
+applications.

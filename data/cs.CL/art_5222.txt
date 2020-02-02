@@ -1,0 +1,11 @@
+Variational Self-attention Model for Sentence Representation
+This paper proposes a variational self-attention model (VSAM) that employs
+variational inference to derive self-attention. We model the self-attention
+vector as random variables by imposing a probabilistic distribution. The
+self-attention mechanism summarizes source information as an attention vector
+by weighted sum, where the weights are a learned probabilistic distribution.
+Compared with conventional deterministic counterpart, the stochastic units
+incorporated by VSAM allow multi-modal attention distributions. Furthermore, by
+marginalizing over the latent variables, VSAM is more robust against
+overfitting. Experiments on the stance detection task demonstrate the
+superiority of our method.

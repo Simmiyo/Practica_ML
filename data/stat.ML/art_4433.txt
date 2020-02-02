@@ -1,0 +1,18 @@
+Data Dependent Kernel Approximation using Pseudo Random Fourier Features
+Kernel methods are powerful and flexible approach to solve many problems in
+machine learning. Due to the pairwise evaluations in kernel methods, the
+complexity of kernel computation grows as the data size increases; thus the
+applicability of kernel methods is limited for large scale datasets. Random
+Fourier Features (RFF) has been proposed to scale the kernel method for solving
+large scale datasets by approximating kernel function using randomized Fourier
+features. While this method proved very popular, still it exists shortcomings
+to be effectively used. As RFF samples the randomized features from a
+distribution independent of training data, it requires sufficient large number
+of feature expansions to have similar performances to kernelized classifiers,
+and this is proportional to the number samples in the dataset. Thus, reducing
+the number of feature dimensions is necessary to effectively scale to large
+datasets. In this paper, we propose a kernel approximation method in a data
+dependent way, coined as Pseudo Random Fourier Features (PRFF) for reducing the
+number of feature dimensions and also to improve the prediction performance.
+The proposed approach is evaluated on classification and regression problems
+and compared with the RFF, orthogonal random features and Nystr{\"o}m approach

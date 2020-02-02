@@ -1,0 +1,25 @@
+Graphical Lasso and Thresholding: Equivalence and Closed-form Solutions
+Graphical Lasso (GL) is a popular method for learning the structure of an
+undirected graphical model, which is based on an $l_1$ regularization
+technique. The objective of this paper is to compare the computationally-heavy
+GL technique with a numerically-cheap heuristic method that is based on simply
+thresholding the sample covariance matrix. To this end, two notions of
+sign-consistent and inverse-consistent matrices are developed, and then it is
+shown that the thresholding and GL methods are equivalent if: (i) the
+thresholded sample covariance matrix is both sign-consistent and
+inverse-consistent, and (ii) the gap between the largest thresholded and the
+smallest un-thresholded entries of the sample covariance matrix is not too
+small. By building upon this result, it is proved that the GL method---as a
+conic optimization problem---has an explicit closed-form solution if the
+thresholded sample covariance matrix has an acyclic structure. This result is
+then generalized to arbitrary sparse support graphs, where a formula is found
+to obtain an approximate solution of GL. Furthermore, it is shown that the
+approximation error of the derived explicit formula decreases exponentially
+fast with respect to the length of the minimum-length cycle of the sparsity
+graph. The developed results are demonstrated on synthetic data, functional MRI
+data, traffic flows for transportation networks, and massive randomly generated
+data sets. We show that the proposed method can obtain an accurate
+approximation of the GL for instances with the sizes as large as $80,000\times
+80,000$ (more than 3.2 billion variables) in less than 30 minutes on a standard
+laptop computer running MATLAB, while other state-of-the-art methods do not
+converge within 4 hours.

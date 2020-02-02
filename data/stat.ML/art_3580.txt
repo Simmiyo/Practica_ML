@@ -1,0 +1,18 @@
+ParallelPC: an R package for efficient constraint based causal
+  exploration
+Discovering causal relationships from data is the ultimate goal of many
+research areas. Constraint based causal exploration algorithms, such as PC,
+FCI, RFCI, PC-simple, IDA and Joint-IDA have achieved significant progress and
+have many applications. A common problem with these methods is the high
+computational complexity, which hinders their applications in real world high
+dimensional datasets, e.g gene expression datasets. In this paper, we present
+an R package, ParallelPC, that includes the parallelised versions of these
+causal exploration algorithms. The parallelised algorithms help speed up the
+procedure of experimenting big datasets and reduce the memory used when running
+the algorithms. The package is not only suitable for super-computers or
+clusters, but also convenient for researchers using personal computers with
+multi core CPUs. Our experiment results on real world datasets show that using
+the parallelised algorithms it is now practical to explore causal relationships
+in high dimensional datasets with thousands of variables in a single multicore
+computer. ParallelPC is available in CRAN repository at
+https://cran.rproject.org/web/packages/ParallelPC/index.html.

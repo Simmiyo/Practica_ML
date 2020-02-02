@@ -1,0 +1,16 @@
+Determinantal Clustering Processes - A Nonparametric Bayesian Approach
+  to Kernel Based Semi-Supervised Clustering
+Semi-supervised clustering is the task of clustering data points into
+clusters where only a fraction of the points are labelled. The true number of
+clusters in the data is often unknown and most models require this parameter as
+an input. Dirichlet process mixture models are appealing as they can infer the
+number of clusters from the data. However, these models do not deal with high
+dimensional data well and can encounter difficulties in inference. We present a
+novel nonparameteric Bayesian kernel based method to cluster data points
+without the need to prespecify the number of clusters or to model complicated
+densities from which data points are assumed to be generated from. The key
+insight is to use determinants of submatrices of a kernel matrix as a measure
+of how close together a set of points are. We explore some theoretical
+properties of the model and derive a natural Gibbs based algorithm with MCMC
+hyperparameter learning. The model is implemented on a variety of synthetic and
+real world data sets.

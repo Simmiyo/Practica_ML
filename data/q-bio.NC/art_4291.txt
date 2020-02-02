@@ -1,0 +1,26 @@
+Inferring Synaptic Structure in presence of Neural Interaction Time
+  Scales
+Biological networks display a variety of activity patterns reflecting a web
+of interactions that is complex both in space and time. Yet inference methods
+have mainly focused on reconstructing, from the network's activity, the spatial
+structure, by assuming equilibrium conditions or, more recently, a
+probabilistic dynamics with a single arbitrary time-step. Here we show that,
+under this latter assumption, the inference procedure fails to reconstruct the
+synaptic matrix of a network of integrate-and-fire neurons when the chosen time
+scale of interaction does not closely match the synaptic delay or when no
+single time scale for the interaction can be identified; such failure,
+moreover, exposes a distinctive bias of the inference method that can lead to
+infer as inhibitory the excitatory synapses with interaction time scales longer
+than the model's time-step. We therefore introduce a new two-step method, that
+first infers through cross-correlation profiles the delay-structure of the
+network and then reconstructs the synaptic matrix, and successfully test it on
+networks with different topologies and in different activity regimes. Although
+step one is able to accurately recover the delay-structure of the network, thus
+getting rid of any \textit{a priori} guess about the time scales of the
+interaction, the inference method introduces nonetheless an arbitrary time
+scale, the time-bin $dt$ used to binarize the spike trains. We therefore
+analytically and numerically study how the choice of $dt$ affects the inference
+in our network model, finding that the relationship between the inferred
+couplings and the real synaptic efficacies, albeit being quadratic in both
+cases, depends critically on $dt$ for the excitatory synapses only, whilst
+being basically independent of it for the inhibitory ones.

@@ -1,0 +1,26 @@
+Multi-Task Metric Learning on Network Data
+Multi-task learning (MTL) improves prediction performance in different
+contexts by learning models jointly on multiple different, but related tasks.
+Network data, which are a priori data with a rich relational structure, provide
+an important context for applying MTL. In particular, the explicit relational
+structure implies that network data is not i.i.d. data. Network data also often
+comes with significant metadata (i.e., attributes) associated with each entity
+(node). Moreover, due to the diversity and variation in network data (e.g.,
+multi-relational links or multi-category entities), various tasks can be
+performed and often a rich correlation exists between them. Learning algorithms
+should exploit all of these additional sources of information for better
+performance. In this work we take a metric-learning point of view for the MTL
+problem in the network context. Our approach builds on structure preserving
+metric learning (SPML). In particular SPML learns a Mahalanobis distance metric
+for node attributes using network structure as supervision, so that the learned
+distance function encodes the structure and can be used to predict link
+patterns from attributes. SPML is described for single-task learning on single
+network. Herein, we propose a multi-task version of SPML, abbreviated as
+MT-SPML, which is able to learn across multiple related tasks on multiple
+networks via shared intermediate parametrization. MT-SPML learns a specific
+metric for each task and a common metric for all tasks. The task correlation is
+carried through the common metric and the individual metrics encode task
+specific information. When combined together, they are structure-preserving
+with respect to individual tasks. MT-SPML works on general networks, thus is
+suitable for a wide variety of problems. In experiments, we challenge MT-SPML
+on two real-word problems, where MT-SPML achieves significant improvement.

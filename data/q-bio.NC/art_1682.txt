@@ -1,0 +1,26 @@
+Electrodiffusion Models of Axon and Extracellular Space Using the
+  Poisson-Nernst-Planck Equations
+In studies of the brain and the nervous system, extracellular signals - as
+measured by local field potentials (LFPs) or electroencephalography (EEG) - are
+of capital importance, as they allow to simultaneously obtain data from
+multiple neurons. The exact biophysical basis of these signals is, however,
+still not fully understood. Most models for the extracellular potential today
+are based on volume conductor theory, which assumes that the extracellular
+fluid is electroneutral and that the only contributions to the electric field
+are given by membrane currents, which can be imposed as boundary conditions in
+the mathematical model. This neglects a second, possibly important contributor
+to the extracellular field: the time- and position-dependent concentrations of
+ions in the intra- and extracellular fluids. In this thesis, a 3D model of a
+single axon in extracellular fluid is presented based on the
+Poisson-Nernst-Planck (PNP) equations of electrodiffusion. This fundamental
+model includes not only the potential, but also the concentrations of all
+participating ion concentrations in a self-consistent way. This enables us to
+study the propagation of an action potential (AP) along the axonal membrane
+based on first principles by means of numerical simulations. By exploiting the
+cylinder symmetry of this geometry, the problem can be reduced to two
+dimensions. The numerical solution is implemented in a flexible and efficient
+way, using the DUNE framework. A suitable mesh generation strategy and a
+parallelization of the algorithm allow to solve the problem in reasonable time,
+with a high spatial and temporal resolution. The methods and programming
+techniques used to deal with the numerical challenges of this multi-scale
+problem are presented in detail.

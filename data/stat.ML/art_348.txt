@@ -1,0 +1,15 @@
+Robust Vertex Classification
+For random graphs distributed according to stochastic blockmodels, a special
+case of latent position graphs, adjacency spectral embedding followed by
+appropriate vertex classification is asymptotically Bayes optimal; but this
+approach requires knowledge of and critically depends on the model dimension.
+In this paper, we propose a sparse representation vertex classifier which does
+not require information about the model dimension. This classifier represents a
+test vertex as a sparse combination of the vertices in the training set and
+uses the recovered coefficients to classify the test vertex. We prove
+consistency of our proposed classifier for stochastic blockmodels, and
+demonstrate that the sparse representation classifier can predict vertex labels
+with higher accuracy than adjacency spectral embedding approaches via both
+simulation studies and real data experiments. Our results demonstrate the
+robustness and effectiveness of our proposed vertex classifier when the model
+dimension is unknown.

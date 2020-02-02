@@ -1,0 +1,16 @@
+Adaptive Parallel Tempering for Stochastic Maximum Likelihood Learning
+  of RBMs
+Restricted Boltzmann Machines (RBM) have attracted a lot of attention of
+late, as one the principle building blocks of deep networks. Training RBMs
+remains problematic however, because of the intractibility of their partition
+function. The maximum likelihood gradient requires a very robust sampler which
+can accurately sample from the model despite the loss of ergodicity often
+incurred during learning. While using Parallel Tempering in the negative phase
+of Stochastic Maximum Likelihood (SML-PT) helps address the issue, it imposes a
+trade-off between computational complexity and high ergodicity, and requires
+careful hand-tuning of the temperatures. In this paper, we show that this
+trade-off is unnecessary. The choice of optimal temperatures can be automated
+by minimizing average return time (a concept first proposed by [Katzgraber et
+al., 2006]) while chains can be spawned dynamically, as needed, thus minimizing
+the computational overhead. We show on a synthetic dataset, that this results
+in better likelihood scores.

@@ -1,0 +1,27 @@
+Sparsey: Event Recognition via Deep Hierarchical Spare Distributed Codes
+Visual cortex's hierarchical, multi-level organization is captured in many
+biologically inspired computational vision models, the general idea being that
+progressively larger scale, more complex spatiotemporal features are
+represented in progressively higher areas. However, most earlier models use
+localist representations (codes) in each representational field, which we
+equate with the cortical macrocolumn (mac), at each level. In localism, each
+represented feature/event (item) is coded by a single unit. Our model, Sparsey,
+is also hierarchical but crucially, uses sparse distributed coding (SDC) in
+every mac in all levels. In SDC, each represented item is coded by a small
+subset of the mac's units. SDCs of different items can overlap and the size of
+overlap between items can represent their similarity. The difference between
+localism and SDC is crucial because SDC allows the two essential operations of
+associative memory, storing a new item and retrieving the best-matching stored
+item, to be done in fixed time for the life of the model. Since the model's
+core algorithm, which does both storage and retrieval (inference), makes a
+single pass over all macs on each time step, the overall model's
+storage/retrieval operation is also fixed-time, a criterion we consider
+essential for scalability to huge datasets. A 2010 paper described a
+nonhierarchical version of this model in the context of purely spatial pattern
+processing. Here, we elaborate a fully hierarchical model (arbitrary numbers of
+levels and macs per level), describing novel model principles like progressive
+critical periods, dynamic modulation of principal cells' activation functions
+based on a mac-level familiarity measure, representation of multiple
+simultaneously active hypotheses, a novel method of time warp invariant
+recognition, and we report results showing learning/recognition of
+spatiotemporal patterns.

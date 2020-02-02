@@ -1,0 +1,13 @@
+Statistical Model for Dynamically-Changing Correlation Matrices with
+  Application to Resting-State Brain Connectivity
+A common approach to modeling dynamic connectivity in resting-state
+whole-brain fMRI is to compute (across moving temporal windows) the
+Pearson-correlation between anatomical regions derived from predefined brain
+parcellation. Due to image acquisition and physiological noise, the direct use
+of the sample correlation matrices is not reliable for the subsequent modeling
+of the dynamically-evolving connectivity matrices. To overcome this limitation,
+we propose a new regression approach that smooths out the noise by exploiting
+the geometric structure of correlation matrices. We demonstrate that the
+proposed method is useful for identifying distinct state spaces in the
+resting-state connectivities of males and females through the transition
+matrices of the common states.

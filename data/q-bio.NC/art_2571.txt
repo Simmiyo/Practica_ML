@@ -1,0 +1,16 @@
+Turn Down that Noise: Synaptic Encoding of Afferent SNR in a Single
+  Spiking Neuron
+We have added a simplified neuromorphic model of Spike Time Dependent
+Plasticity (STDP) to the Synapto-dendritic Kernel Adapting Neuron (SKAN). The
+resulting neuron model is the first to show synaptic encoding of afferent
+signal to noise ratio in addition to the unsupervised learning of spatio
+temporal spike patterns. The neuron model is particularly suitable for
+implementation in digital neuromorphic hardware as it does not use any complex
+mathematical operations and uses a novel approach to achieve synaptic
+homeostasis. The neurons noise compensation properties are characterized and
+tested on noise corrupted zeros digits of the MNIST handwritten dataset.
+Results show the simultaneously learning common patterns in its input data
+while dynamically weighing individual afferent channels based on their signal
+to noise ratio. Despite its simplicity the interesting behaviors of the neuron
+model and the resulting computational power may offer insights into biological
+systems.

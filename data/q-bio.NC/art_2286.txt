@@ -1,0 +1,24 @@
+A blind deconvolution approach to recover effective connectivity brain
+  networks from resting state fMRI data
+A great improvement to the insight on brain function that we can get from
+fMRI data can come from effective connectivity analysis, in which the flow of
+information between even remote brain regions is inferred by the parameters of
+a predictive dynamical model. As opposed to biologically inspired models, some
+techniques as Granger causality (GC) are purely data-driven and rely on
+statistical prediction and temporal precedence. While powerful and widely
+applicable, this approach could suffer from two main limitations when applied
+to BOLD fMRI data: confounding effect of hemodynamic response function (HRF)
+and conditioning to a large number of variables in presence of short time
+series. For task-related fMRI, neural population dynamics can be captured by
+modeling signal dynamics with explicit exogenous inputs; for resting-state fMRI
+on the other hand, the absence of explicit inputs makes this task more
+difficult, unless relying on some specific prior physiological hypothesis. In
+order to overcome these issues and to allow a more general approach, here we
+present a simple and novel blind-deconvolution technique for BOLD-fMRI signal.
+Coming to the second limitation, a fully multivariate conditioning with short
+and noisy data leads to computational problems due to overfitting. Furthermore,
+conceptual issues arise in presence of redundancy. We thus apply partial
+conditioning to a limited subset of variables in the framework of information
+theory, as recently proposed. Mixing these two improvements we compare the
+differences between BOLD and deconvolved BOLD level effective networks and draw
+some conclusions.

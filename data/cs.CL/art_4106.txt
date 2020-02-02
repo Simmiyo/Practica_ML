@@ -1,0 +1,14 @@
+SGM: Sequence Generation Model for Multi-label Classification
+Multi-label classification is an important yet challenging task in natural
+language processing. It is more complex than single-label classification in
+that the labels tend to be correlated. Existing methods tend to ignore the
+correlations between labels. Besides, different parts of the text can
+contribute differently for predicting different labels, which is not considered
+by existing models. In this paper, we propose to view the multi-label
+classification task as a sequence generation problem, and apply a sequence
+generation model with a novel decoder structure to solve it. Extensive
+experimental results show that our proposed methods outperform previous work by
+a substantial margin. Further analysis of experimental results demonstrates
+that the proposed methods not only capture the correlations between labels, but
+also select the most informative words automatically when predicting different
+labels.

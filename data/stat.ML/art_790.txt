@@ -1,0 +1,11 @@
+Data Augmentation via Levy Processes
+If a document is about travel, we may expect that short snippets of the
+document should also be about travel. We introduce a general framework for
+incorporating these types of invariances into a discriminative classifier. The
+framework imagines data as being drawn from a slice of a Levy process. If we
+slice the Levy process at an earlier point in time, we obtain additional
+pseudo-examples, which can be used to train the classifier. We show that this
+scheme has two desirable properties: it preserves the Bayes decision boundary,
+and it is equivalent to fitting a generative model in the limit where we rewind
+time back to 0. Our construction captures popular schemes such as Gaussian
+feature noising and dropout training, as well as admitting new generalizations.

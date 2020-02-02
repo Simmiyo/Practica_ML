@@ -1,0 +1,16 @@
+Using qualia information to identify lexical semantic classes in an
+  unsupervised clustering task
+Acquiring lexical information is a complex problem, typically approached by
+relying on a number of contexts to contribute information for classification.
+One of the first issues to address in this domain is the determination of such
+contexts. The work presented here proposes the use of automatically obtained
+FORMAL role descriptors as features used to draw nouns from the same lexical
+semantic class together in an unsupervised clustering task. We have dealt with
+three lexical semantic classes (HUMAN, LOCATION and EVENT) in English. The
+results obtained show that it is possible to discriminate between elements from
+different lexical semantic classes using only FORMAL role information, hence
+validating our initial hypothesis. Also, iterating our method accurately
+accounts for fine-grained distinctions within lexical classes, namely
+distinctions involving ambiguous expressions. Moreover, a filtering and
+bootstrapping strategy employed in extracting FORMAL role descriptors proved to
+minimize effects of sparse data and noise in our task.

@@ -1,0 +1,15 @@
+Provable Sparse Tensor Decomposition
+We propose a novel sparse tensor decomposition method, namely Tensor
+Truncated Power (TTP) method, that incorporates variable selection into the
+estimation of decomposition components. The sparsity is achieved via an
+efficient truncation step embedded in the tensor power iteration. Our method
+applies to a broad family of high dimensional latent variable models, including
+high dimensional Gaussian mixture and mixtures of sparse regressions. A
+thorough theoretical investigation is further conducted. In particular, we show
+that the final decomposition estimator is guaranteed to achieve a local
+statistical rate, and further strengthen it to the global statistical rate by
+introducing a proper initialization procedure. In high dimensional regimes, the
+obtained statistical rate significantly improves those shown in the existing
+non-sparse decomposition methods. The empirical advantages of TTP are confirmed
+in extensive simulated results and two real applications of click-through rate
+prediction and high-dimensional gene clustering.

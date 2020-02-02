@@ -1,0 +1,15 @@
+Supervised Dimensionality Reduction via Distance Correlation
+  Maximization
+In our work, we propose a novel formulation for supervised dimensionality
+reduction based on a nonlinear dependency criterion called Statistical Distance
+Correlation, Szekely et. al. (2007). We propose an objective which is free of
+distributional assumptions on regression variables and regression model
+assumptions. Our proposed formulation is based on learning a low-dimensional
+feature representation $\mathbf{z}$, which maximizes the squared sum of
+Distance Correlations between low dimensional features $\mathbf{z}$ and
+response $y$, and also between features $\mathbf{z}$ and covariates
+$\mathbf{x}$. We propose a novel algorithm to optimize our proposed objective
+using the Generalized Minimization Maximizaiton method of \Parizi et. al.
+(2015). We show superior empirical results on multiple datasets proving the
+effectiveness of our proposed approach over several relevant state-of-the-art
+supervised dimensionality reduction methods.

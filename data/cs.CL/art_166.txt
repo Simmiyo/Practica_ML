@@ -1,0 +1,16 @@
+Robust Probabilistic Predictive Syntactic Processing
+This thesis presents a broad-coverage probabilistic top-down parser, and its
+application to the problem of language modeling for speech recognition. The
+parser builds fully connected derivations incrementally, in a single pass from
+left-to-right across the string. We argue that the parsing approach that we
+have adopted is well-motivated from a psycholinguistic perspective, as a model
+that captures probabilistic dependencies between lexical items, as part of the
+process of building connected syntactic structures. The basic parser and
+conditional probability models are presented, and empirical results are
+provided for its parsing accuracy on both newspaper text and spontaneous
+telephone conversations. Modifications to the probability model are presented
+that lead to improved performance. A new language model which uses the output
+of the parser is then defined. Perplexity and word error rate reduction are
+demonstrated over trigram models, even when the trigram is trained on
+significantly more data. Interpolation on a word-by-word basis with a trigram
+model yields additional improvements.

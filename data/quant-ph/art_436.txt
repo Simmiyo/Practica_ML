@@ -1,0 +1,8 @@
+A fast quantum mechanical algorithm for estimating the median
+Consider the problem of estimating the median of N items to a precision
+epsilon, i.e., the estimate should be such that, with a high probability, the
+number of items, with values both smaller than and larger than this estimate,
+is less than N*(1+epsilon)/2. Any classical algorithm to do this will need at
+least O(1/epsilon^2) samples. Quantum mechanical systems can simultaneously
+carry out multiple computations due to their wave like properties. This paper
+describes an O(1/epsilon) step algorithm for the above estimation.

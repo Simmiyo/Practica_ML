@@ -1,0 +1,15 @@
+Deep Tempering
+Restricted Boltzmann Machines (RBMs) are one of the fundamental building
+blocks of deep learning. Approximate maximum likelihood training of RBMs
+typically necessitates sampling from these models. In many training scenarios,
+computationally efficient Gibbs sampling procedures are crippled by poor
+mixing. In this work we propose a novel method of sampling from Boltzmann
+machines that demonstrates a computationally efficient way to promote mixing.
+Our approach leverages an under-appreciated property of deep generative models
+such as the Deep Belief Network (DBN), where Gibbs sampling from deeper levels
+of the latent variable hierarchy results in dramatically increased ergodicity.
+Our approach is thus to train an auxiliary latent hierarchical model, based on
+the DBN. When used in conjunction with parallel-tempering, the method is
+asymptotically guaranteed to simulate samples from the target RBM. Experimental
+results confirm the effectiveness of this sampling strategy in the context of
+RBM training.

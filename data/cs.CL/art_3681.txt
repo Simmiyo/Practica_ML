@@ -1,0 +1,15 @@
+Direct Network Transfer: Transfer Learning of Sentence Embeddings for
+  Semantic Similarity
+Sentence encoders, which produce sentence embeddings using neural networks,
+are typically evaluated by how well they transfer to downstream tasks. This
+includes semantic similarity, an important task in natural language
+understanding. Although there has been much work dedicated to building sentence
+encoders, the accompanying transfer learning techniques have received
+relatively little attention. In this paper, we propose a transfer learning
+setting specialized for semantic similarity, which we refer to as direct
+network transfer. Through experiments on several standard text similarity
+datasets, we show that applying direct network transfer to existing encoders
+can lead to state-of-the-art performance. Additionally, we compare several
+approaches to transfer sentence encoders to semantic similarity tasks, showing
+that the choice of transfer learning setting greatly affects the performance in
+many cases, and differs by encoder and dataset.

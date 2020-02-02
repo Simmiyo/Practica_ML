@@ -1,0 +1,16 @@
+Super-resolution using Sparse Representations over Learned Dictionaries:
+  Reconstruction of Brain Structure using Electron Microscopy
+A central problem in neuroscience is reconstructing neuronal circuits on the
+synapse level. Due to a wide range of scales in brain architecture such
+reconstruction requires imaging that is both high-resolution and
+high-throughput. Existing electron microscopy (EM) techniques possess required
+resolution in the lateral plane and either high-throughput or high depth
+resolution but not both. Here, we exploit recent advances in unsupervised
+learning and signal processing to obtain high depth-resolution EM images
+computationally without sacrificing throughput. First, we show that the brain
+tissue can be represented as a sparse linear combination of localized basis
+functions that are learned using high-resolution datasets. We then develop
+compressive sensing-inspired techniques that can reconstruct the brain tissue
+from very few (typically 5) tomographic views of each section. This enables
+tracing of neuronal processes and, hence, high throughput reconstruction of
+neural circuits on the level of individual synapses.

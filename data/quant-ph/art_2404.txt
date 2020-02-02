@@ -1,0 +1,22 @@
+Quantum memory in quantum cryptography
+[Shortened abstract:] This thesis investigates the importance of quantum
+memory in quantum cryptography, concentrating on quantum key distribution
+schemes.
+  In the hands of an eavesdropper -- a quantum memory is a powerful tool,
+putting in question the security of quantum cryptography; Classical privacy
+amplification techniques, used to prove security against less powerful
+eavesdroppers, might not be effective when the eavesdropper can keep quantum
+states for a long time. In this work we suggest a possible direction for
+approaching this problem. We define strong attacks of this type, and show
+security against them, suggesting that quantum cryptography is secure. We start
+with a complete analysis regarding the information about a parity bit (since
+parity bits are used for privacy amplification). We use the results regarding
+the information on parity bits to prove security against very strong
+eavesdropping attacks, which uses quantum memories and all classical data
+(including error correction codes) to attack the final key directly.
+  In the hands of the legitimate users, a quantum memory is also a useful tool.
+We suggest a new type of quantum key distribution scheme where quantum memories
+are used instead of quantum channels. This scheme is especially adequate for
+networks of many users. The use of quantum memory also allows reducing the
+error rate to improve large scale quantum cryptography, and to enable the
+legitimate users to work with reasonable error rate.

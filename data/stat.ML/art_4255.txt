@@ -1,0 +1,21 @@
+Active Tolerant Testing
+In this work, we give the first algorithms for tolerant testing of nontrivial
+classes in the active model: estimating the distance of a target function to a
+hypothesis class C with respect to some arbitrary distribution D, using only a
+small number of label queries to a polynomial-sized pool of unlabeled examples
+drawn from D. Specifically, we show that for the class D of unions of d
+intervals on the line, we can estimate the error rate of the best hypothesis in
+the class to an additive error epsilon from only $O(\frac{1}{\epsilon^6}\log
+\frac{1}{\epsilon})$ label queries to an unlabeled pool of size
+$O(\frac{d}{\epsilon^2}\log \frac{1}{\epsilon})$. The key point here is the
+number of labels needed is independent of the VC-dimension of the class. This
+extends the work of Balcan et al. [2012] who solved the non-tolerant testing
+problem for this class (distinguishing the zero-error case from the case that
+the best hypothesis in the class has error greater than epsilon).
+  We also consider the related problem of estimating the performance of a given
+learning algorithm A in this setting. That is, given a large pool of unlabeled
+examples drawn from distribution D, can we, from only a few label queries,
+estimate how well A would perform if the entire dataset were labeled? We focus
+on k-Nearest Neighbor style algorithms, and also show how our results can be
+applied to the problem of hyperparameter tuning (selecting the best value of k
+for the given learning problem).

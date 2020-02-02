@@ -1,0 +1,19 @@
+Robust Discriminative Clustering with Sparse Regularizers
+Clustering high-dimensional data often requires some form of dimensionality
+reduction, where clustered variables are separated from "noise-looking"
+variables. We cast this problem as finding a low-dimensional projection of the
+data which is well-clustered. This yields a one-dimensional projection in the
+simplest situation with two clusters, and extends naturally to a multi-label
+scenario for more than two clusters. In this paper, (a) we first show that this
+joint clustering and dimension reduction formulation is equivalent to
+previously proposed discriminative clustering frameworks, thus leading to
+convex relaxations of the problem, (b) we propose a novel sparse extension,
+which is still cast as a convex relaxation and allows estimation in higher
+dimensions, (c) we propose a natural extension for the multi-label scenario,
+(d) we provide a new theoretical analysis of the performance of these
+formulations with a simple probabilistic model, leading to scalings over the
+form $d=O(\sqrt{n})$ for the affine invariant case and $d=O(n)$ for the sparse
+case, where $n$ is the number of examples and $d$ the ambient dimension, and
+finally, (e) we propose an efficient iterative algorithm with running-time
+complexity proportional to $O(nd^2)$, improving on earlier algorithms which had
+quadratic complexity in the number of examples.

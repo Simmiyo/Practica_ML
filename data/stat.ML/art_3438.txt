@@ -1,0 +1,22 @@
+Optimal model-free prediction from multivariate time series
+Forecasting a time series from multivariate predictors constitutes a
+challenging problem, especially using model-free approaches. Most techniques,
+such as nearest-neighbor prediction, quickly suffer from the curse of
+dimensionality and overfitting for more than a few predictors which has limited
+their application mostly to the univariate case. Therefore, selection
+strategies are needed that harness the available information as efficiently as
+possible. Since often the right combination of predictors matters, ideally all
+subsets of possible predictors should be tested for their predictive power, but
+the exponentially growing number of combinations makes such an approach
+computationally prohibitive. Here a prediction scheme that overcomes this
+strong limitation is introduced utilizing a causal pre-selection step which
+drastically reduces the number of possible predictors to the most predictive
+set of causal drivers making a globally optimal search scheme tractable. The
+information-theoretic optimality is derived and practical selection criteria
+are discussed. As demonstrated for multivariate nonlinear stochastic delay
+processes, the optimal scheme can even be less computationally expensive than
+commonly used sub-optimal schemes like forward selection. The method suggests a
+general framework to apply the optimal model-free approach to select variables
+and subsequently fit a model to further improve a prediction or learn
+statistical dependencies. The performance of this framework is illustrated on a
+climatological index of El Ni\~no Southern Oscillation.

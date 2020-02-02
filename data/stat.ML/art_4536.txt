@@ -1,0 +1,9 @@
+Emphatic TD Bellman Operator is a Contraction
+Recently, \citet{SuttonMW15} introduced the emphatic temporal differences
+(ETD) algorithm for off-policy evaluation in Markov decision processes. In this
+short note, we show that the projected fixed-point equation that underlies ETD
+involves a contraction operator, with a $\sqrt{\gamma}$-contraction modulus
+(where $\gamma$ is the discount factor). This allows us to provide error bounds
+on the approximation error of ETD. To our knowledge, these are the first error
+bounds for an off-policy evaluation algorithm under general target and behavior
+policies.

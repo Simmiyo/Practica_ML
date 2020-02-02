@@ -1,0 +1,23 @@
+A Truncated EM Approach for Spike-and-Slab Sparse Coding
+We study inference and learning based on a sparse coding model with
+`spike-and-slab' prior. As in standard sparse coding, the model used assumes
+independent latent sources that linearly combine to generate data points.
+However, instead of using a standard sparse prior such as a Laplace
+distribution, we study the application of a more flexible `spike-and-slab'
+distribution which models the absence or presence of a source's contribution
+independently of its strength if it contributes. We investigate two approaches
+to optimize the parameters of spike-and-slab sparse coding: a novel truncated
+EM approach and, for comparison, an approach based on standard factored
+variational distributions. The truncated approach can be regarded as a
+variational approach with truncated posteriors as variational distributions. In
+applications to source separation we find that both approaches improve the
+state-of-the-art in a number of standard benchmarks, which argues for the use
+of `spike-and-slab' priors for the corresponding data domains. Furthermore, we
+find that the truncated EM approach improves on the standard factored approach
+in source separation tasks$-$which hints to biases introduced by assuming
+posterior independence in the factored variational approach. Likewise, on a
+standard benchmark for image denoising, we find that the truncated EM approach
+improves on the factored variational approach. While the performance of the
+factored approach saturates with increasing numbers of hidden dimensions, the
+performance of the truncated approach improves the state-of-the-art for higher
+noise levels.

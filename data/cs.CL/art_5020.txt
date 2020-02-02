@@ -1,0 +1,17 @@
+Transfer Learning in Multilingual Neural Machine Translation with
+  Dynamic Vocabulary
+We propose a method to transfer knowledge across neural machine translation
+(NMT) models by means of a shared dynamic vocabulary. Our approach allows to
+extend an initial model for a given language pair to cover new languages by
+adapting its vocabulary as long as new data become available (i.e., introducing
+new vocabulary items if they are not included in the initial model). The
+parameter transfer mechanism is evaluated in two scenarios: i) to adapt a
+trained single language NMT system to work with a new language pair and ii) to
+continuously add new language pairs to grow to a multilingual NMT system. In
+both the scenarios our goal is to improve the translation performance, while
+minimizing the training convergence time. Preliminary experiments spanning five
+languages with different training data sizes (i.e., 5k and 50k parallel
+sentences) show a significant performance gain ranging from +3.85 up to +13.63
+BLEU in different language directions. Moreover, when compared with training an
+NMT model from scratch, our transfer-learning approach allows us to reach
+higher performance after training up to 4% of the total training steps.

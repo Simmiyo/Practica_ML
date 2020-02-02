@@ -1,0 +1,13 @@
+Disfluency Detection using a Bidirectional LSTM
+We introduce a new approach for disfluency detection using a Bidirectional
+Long-Short Term Memory neural network (BLSTM). In addition to the word
+sequence, the model takes as input pattern match features that were developed
+to reduce sensitivity to vocabulary size in training, which lead to improved
+performance over the word sequence alone. The BLSTM takes advantage of explicit
+repair states in addition to the standard reparandum states. The final output
+leverages integer linear programming to incorporate constraints of disfluency
+structure. In experiments on the Switchboard corpus, the model achieves
+state-of-the-art performance for both the standard disfluency detection task
+and the correction detection task. Analysis shows that the model has better
+detection of non-repetition disfluencies, which tend to be much harder to
+detect.

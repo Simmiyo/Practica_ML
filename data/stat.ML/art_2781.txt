@@ -1,0 +1,15 @@
+Dissimilarity-based Ensembles for Multiple Instance Learning
+In multiple instance learning, objects are sets (bags) of feature vectors
+(instances) rather than individual feature vectors. In this paper we address
+the problem of how these bags can best be represented. Two standard approaches
+are to use (dis)similarities between bags and prototype bags, or between bags
+and prototype instances. The first approach results in a relatively
+low-dimensional representation determined by the number of training bags, while
+the second approach results in a relatively high-dimensional representation,
+determined by the total number of instances in the training set. In this paper
+a third, intermediate approach is proposed, which links the two approaches and
+combines their strengths. Our classifier is inspired by a random subspace
+ensemble, and considers subspaces of the dissimilarity space, defined by
+subsets of instances, as prototypes. We provide guidelines for using such an
+ensemble, and show state-of-the-art performances on a range of multiple
+instance learning problems.

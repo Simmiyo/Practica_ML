@@ -1,0 +1,17 @@
+Generalized activity equations for spiking neural network dynamics
+Much progress has been made in uncovering the computational capabilities of
+spiking neural networks. However, spiking neurons will always be more expensive
+to simulate compared to rate neurons because of the inherent disparity in time
+scales - the spike duration time is much shorter than the inter-spike time,
+which is much shorter than any learning time scale. In numerical analysis, this
+is a classic stiff problem. Spiking neurons are also much more difficult to
+study analytically. One possible approach to making spiking networks more
+tractable is to augment mean field activity models with some information about
+spiking correlations. For example, such a generalized activity model could
+carry information about spiking rates and correlations between spikes
+self-consistently. Here, we will show how this can be accomplished by
+constructing a complete formal probabilistic description of the network and
+then expanding around a small parameter such as the inverse of the number of
+neurons in the network. The mean field theory of the system gives a rate-like
+description. The first order terms in the perturbation expansion keep track of
+covariances.

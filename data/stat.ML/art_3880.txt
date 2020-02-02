@@ -1,0 +1,16 @@
+Hybridization of Expectation-Maximization and K-Means Algorithms for
+  Better Clustering Performance
+The present work proposes hybridization of Expectation-Maximization (EM) and
+K-Means techniques as an attempt to speed-up the clustering process. Though
+both K-Means and EM techniques look into different areas, K-means can be viewed
+as an approximate way to obtain maximum likelihood estimates for the means.
+Along with the proposed algorithm for hybridization, the present work also
+experiments with the Standard EM algorithm. Six different datasets are used for
+the experiments of which three are synthetic datasets. Clustering fitness and
+Sum of Squared Errors (SSE) are computed for measuring the clustering
+performance. In all the experiments it is observed that the proposed algorithm
+for hybridization of EM and K-Means techniques is consistently taking less
+execution time with acceptable Clustering Fitness value and less SSE than the
+standard EM algorithm. It is also observed that the proposed algorithm is
+producing better clustering results than the Cluster package of Purdue
+University.

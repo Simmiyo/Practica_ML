@@ -1,0 +1,27 @@
+Why Neurons Have Thousands of Synapses, A Theory of Sequence Memory in
+  Neocortex
+Neocortical neurons have thousands of excitatory synapses. It is a mystery
+how neurons integrate the input from so many synapses and what kind of
+large-scale network behavior this enables. It has been previously proposed that
+non-linear properties of dendrites enable neurons to recognize multiple
+patterns. In this paper we extend this idea by showing that a neuron with
+several thousand synapses arranged along active dendrites can learn to
+accurately and robustly recognize hundreds of unique patterns of cellular
+activity, even in the presence of large amounts of noise and pattern variation.
+We then propose a neuron model where some of the patterns recognized by a
+neuron lead to action potentials and define the classic receptive field of the
+neuron, whereas the majority of the patterns recognized by a neuron act as
+predictions by slightly depolarizing the neuron without immediately generating
+an action potential. We then present a network model based on neurons with
+these properties and show that the network learns a robust model of time-based
+sequences. Given the similarity of excitatory neurons throughout the neocortex
+and the importance of sequence memory in inference and behavior, we propose
+that this form of sequence memory is a universal property of neocortical
+tissue. We further propose that cellular layers in the neocortex implement
+variations of the same sequence memory algorithm to achieve different aspects
+of inference and behavior. The neuron and network models we introduce are
+robust over a wide range of parameters as long as the network uses a sparse
+distributed code of cellular activations. The sequence capacity of the network
+scales linearly with the number of synapses on each neuron. Thus neurons need
+thousands of synapses to learn the many temporal patterns in sensory stimuli
+and motor sequences.

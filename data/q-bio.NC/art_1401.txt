@@ -1,0 +1,28 @@
+Open(G)PIAS: An open source solution for the construction of a
+  high-precision Acoustic-Startle-Response (ASR) setup for tinnitus screening
+  and threshold estimation in rodents
+The acoustic startle reflex (ASR) that can be induced by a loud sound
+stimulus can be used as a versatile tool to, e.g., estimate hearing thresholds
+or identify subjective tinnitus percepts in rodents. These techniques are based
+on the fact that the ASR amplitude can be suppressed by a pre-stimulus of
+lower, non-startling intensity, an effect named pre-pulse inhibition (PPI). For
+hearing threshold estimation, pure tone pre-stimuli of varying amplitudes are
+presented before an intense noise burst serving as startle stimulus. The amount
+of suppression of the ASR amplitude as a function of the pre-stimulus intensity
+can be used as a behavioral correlate to determine the hearing ability. For
+tinnitus assessment, the pure-tone pre-stimulus is replaced by a gap of silence
+in a narrowband noise background, a paradigm termed GPIAS (gap-pre-pulse
+inhibition of the acoustic startle response). A proper application of these
+paradigms depend on a reliable measurement of the ASR amplitudes, an exact
+stimulus presentation in terms of frequency and intensity. Here we introduce a
+novel open source solution for the construction of a low-cost ASR setup for the
+above mentioned purpose. The complete software for data acquisition and
+stimulus presentation is written in Python 3.6 and is provided as an anaconda
+package. Furthermore, we provide a construction plan for the sensory system
+based on low-cost hardware components. Exemplary data show that the ratios
+(1-PPI) of the pre and post trauma ASR amplitudes can be well described by a
+lognormal distribution being in good accordance to previous studies with
+already established setups. Hence, the open access solution described here will
+help to further establish the ASR method in many laboratories and thus
+facilitate and standardize research in animal models of tinnitus or hearing
+loss.

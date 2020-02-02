@@ -1,0 +1,8 @@
+Reducing Runtime by Recycling Samples
+Contrary to the situation with stochastic gradient descent, we argue that
+when using stochastic methods with variance reduction, such as SDCA, SAG or
+SVRG, as well as their variants, it could be beneficial to reuse previously
+used samples instead of fresh samples, even when fresh samples are available.
+We demonstrate this empirically for SDCA, SAG and SVRG, studying the optimal
+sample size one should use, and also uncover be-havior that suggests running
+SDCA for an integer number of epochs could be wasteful.

@@ -1,0 +1,13 @@
+CANDiS: Coupled & Attention-Driven Neural Distant Supervision
+Distant Supervision for Relation Extraction uses heuristically aligned text
+data with an existing knowledge base as training data. The unsupervised nature
+of this technique allows it to scale to web-scale relation extraction tasks, at
+the expense of noise in the training data. Previous work has explored
+relationships among instances of the same entity-pair to reduce this noise, but
+relationships among instances across entity-pairs have not been fully
+exploited. We explore the use of inter-instance couplings based on verb-phrase
+and entity type similarities. We propose a novel technique, CANDiS, which casts
+distant supervision using inter-instance coupling into an end-to-end neural
+network model. CANDiS incorporates an attention module at the instance-level to
+model the multi-instance nature of this problem. CANDiS outperforms existing
+state-of-the-art techniques on a standard benchmark dataset.

@@ -1,0 +1,18 @@
+Recursive Shortest Path Algorithm with Application to
+  Density-integration of Weighted Graphs
+Graph theory is increasingly commonly utilised in genetics, proteomics and
+neuroimaging. In such fields, the data of interest generally constitute
+weighted graphs. Analysis of such weighted graphs often require the integration
+of topological metrics with respect to the density of the graph. Here, density
+refers to the proportion of the number of edges present in that graph. When
+topological metrics based on shortest paths are of interest, such
+density-integration usually necessitates the iterative application of
+Dijkstra's algorithm in order to compute the shortest path matrix at each
+density level. In this short note, we describe a recursive shortest path
+algorithm based on single edge updating, which replaces the need for the
+iterative use of Dijkstra's algorithm. Our proposed procedure is based on pairs
+of breadth-first searches around each of the vertices incident to the edge
+added at each recursion. An algorithmic analysis of the proposed technique is
+provided. When the graph of interest is coded as an adjacency list, our
+algorithm can be shown to be more efficient than an iterative use of Dijkstra's
+algorithm.

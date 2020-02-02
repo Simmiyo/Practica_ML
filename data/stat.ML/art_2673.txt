@@ -1,0 +1,17 @@
+Particle Metropolis-Hastings using gradient and Hessian information
+Particle Metropolis-Hastings (PMH) allows for Bayesian parameter inference in
+nonlinear state space models by combining Markov chain Monte Carlo (MCMC) and
+particle filtering. The latter is used to estimate the intractable likelihood.
+In its original formulation, PMH makes use of a marginal MCMC proposal for the
+parameters, typically a Gaussian random walk. However, this can lead to a poor
+exploration of the parameter space and an inefficient use of the generated
+particles.
+  We propose a number of alternative versions of PMH that incorporate gradient
+and Hessian information about the posterior into the proposal. This information
+is more or less obtained as a byproduct of the likelihood estimation. Indeed,
+we show how to estimate the required information using a fixed-lag particle
+smoother, with a computational cost growing linearly in the number of
+particles. We conclude that the proposed methods can: (i) decrease the length
+of the burn-in phase, (ii) increase the mixing of the Markov chain at the
+stationary phase, and (iii) make the proposal distribution scale invariant
+which simplifies tuning.

@@ -1,0 +1,10 @@
+Semi-supervised Learning with Density Based Distances
+We present a simple, yet effective, approach to Semi-Supervised Learning. Our
+approach is based on estimating density-based distances (DBD) using a shortest
+path calculation on a graph. These Graph-DBD estimates can then be used in any
+distance-based supervised learning method, such as Nearest Neighbor methods and
+SVMs with RBF kernels. In order to apply the method to very large data sets, we
+also present a novel algorithm which integrates nearest neighbor computations
+into the shortest path search and can find exact shortest paths even in
+extremely large dense graphs. Significant runtime improvement over the commonly
+used Laplacian regularization method is then shown on a large scale dataset.

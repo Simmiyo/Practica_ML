@@ -1,0 +1,21 @@
+Indoor Localization by Fusing a Group of Fingerprints Based on Random
+  Forests
+Indoor localization based on SIngle Of Fingerprint (SIOF) is rather
+susceptible to the changing environment, multipath, and non-line-of-sight
+(NLOS) propagation. Building SIOF is also a very time-consuming process.
+Recently, we first proposed a GrOup Of Fingerprints (GOOF) to improve the
+localization accuracy and reduce the burden of building fingerprints. However,
+the main drawback is the timeliness. In this paper, we propose a novel
+localization framework by Fusing A Group Of fingerprinTs (FAGOT) based on
+random forests. In the offline phase, we first build a GOOF from different
+transformations of the received signals of multiple antennas. Then, we design
+multiple GOOF strong classifiers based on Random Forests (GOOF-RF) by training
+each fingerprint in the GOOF. In the online phase, we input the corresponding
+transformations of the real measurements into these strong classifiers to
+obtain multiple independent decisions. Finally, we propose a Sliding Window
+aIded Mode-based (SWIM) fusion algorithm to balance the localization accuracy
+and time. Our proposed approaches can work better in an unknown indoor
+scenario. The burden of building fingerprints can also be reduced drastically.
+We demonstrate the performance of our algorithms through simulations and real
+experimental data using two Universal Software Radio Peripheral (USRP)
+platforms.

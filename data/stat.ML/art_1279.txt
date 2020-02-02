@@ -1,0 +1,17 @@
+Importance Sampled Stochastic Optimization for Variational Inference
+Variational inference approximates the posterior distribution of a
+probabilistic model with a parameterized density by maximizing a lower bound
+for the model evidence. Modern solutions fit a flexible approximation with
+stochastic gradient descent, using Monte Carlo approximation for the gradients.
+This enables variational inference for arbitrary differentiable probabilistic
+models, and consequently makes variational inference feasible for probabilistic
+programming languages. In this work we develop more efficient inference
+algorithms for the task by considering importance sampling estimates for the
+gradients. We show how the gradient with respect to the approximation
+parameters can often be evaluated efficiently without needing to re-compute
+gradients of the model itself, and then proceed to derive practical algorithms
+that use importance sampled estimates to speed up computation.We present
+importance sampled stochastic gradient descent that outperforms standard
+stochastic gradient descent by a clear margin for a range of models, and
+provide a justifiable variant of stochastic average gradients for variational
+inference.

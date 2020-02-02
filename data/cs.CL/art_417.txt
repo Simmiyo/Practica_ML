@@ -1,0 +1,11 @@
+Thai Rhetorical Structure Analysis
+Rhetorical structure analysis (RSA) explores discourse relations among
+elementary discourse units (EDUs) in a text. It is very useful in many text
+processing tasks employing relationships among EDUs such as text understanding,
+summarization, and question-answering. Thai language with its distinctive
+linguistic characteristics requires a unique technique. This article proposes
+an approach for Thai rhetorical structure analysis. First, EDUs are segmented
+by two hidden Markov models derived from syntactic rules. A rhetorical
+structure tree is constructed from a clustering technique with its similarity
+measure derived from Thai semantic rules. Then, a decision tree whose features
+derived from the semantic rules is used to determine discourse relations.

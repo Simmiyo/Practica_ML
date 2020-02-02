@@ -1,0 +1,12 @@
+Projected Subgradient Methods for Learning Sparse Gaussians
+Gaussian Markov random fields (GMRFs) are useful in a broad range of
+applications. In this paper we tackle the problem of learning a sparse GMRF in
+a high-dimensional space. Our approach uses the l1-norm as a regularization on
+the inverse covariance matrix. We utilize a novel projected gradient method,
+which is faster than previous methods in practice and equal to the best
+performing of these in asymptotic complexity. We also extend the l1-regularized
+objective to the problem of sparsifying entire blocks within the inverse
+covariance matrix. Our methods generalize fairly easily to this case, while
+other methods do not. We demonstrate that our extensions give better
+generalization performance on two real domains--biological network analysis and
+a 2D-shape modeling image task.

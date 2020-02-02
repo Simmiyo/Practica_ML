@@ -1,0 +1,12 @@
+Supervised Complementary Entity Recognition with Augmented Key-value
+  Pairs of Knowledge
+Extracting opinion targets is an important task in sentiment analysis on
+product reviews and complementary entities (products) are one important type of
+opinion targets that may work together with the reviewed product. In this
+paper, we address the problem of Complementary Entity Recognition (CER) as a
+supervised sequence labeling with the capability of expanding domain knowledge
+as key-value pairs from unlabeled reviews, by automatically learning and
+enhancing knowledge-based features. We use Conditional Random Field (CRF) as
+the base learner and augment CRF with knowledge-based features (called the
+Knowledge-based CRF or KCRF for short). We conduct experiments to show that
+KCRF effectively improves the performance of supervised CER task.

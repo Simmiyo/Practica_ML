@@ -1,0 +1,14 @@
+Tree Exploration for Bayesian RL Exploration
+Research in reinforcement learning has produced algorithms for optimal
+decision making under uncertainty that fall within two main types. The first
+employs a Bayesian framework, where optimality improves with increased
+computational time. This is because the resulting planning task takes the form
+of a dynamic programming problem on a belief tree with an infinite number of
+states. The second type employs relatively simple algorithm which are shown to
+suffer small regret within a distribution-free framework. This paper presents a
+lower bound and a high probability upper bound on the optimal value function
+for the nodes in the Bayesian belief tree, which are analogous to similar
+bounds in POMDPs. The bounds are then used to create more efficient strategies
+for exploring the tree. The resulting algorithms are compared with the
+distribution-free algorithm UCB1, as well as a simpler baseline algorithm on
+multi-armed bandit problems.

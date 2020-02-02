@@ -1,0 +1,14 @@
+A simpler condition for consistency of a kernel independence test
+A statistical test of independence may be constructed using the
+Hilbert-Schmidt Independence Criterion (HSIC) as a test statistic. The HSIC is
+defined as the distance between the embedding of the joint distribution, and
+the embedding of the product of the marginals, in a Reproducing Kernel Hilbert
+Space (RKHS). It has previously been shown that when the kernel used in
+defining the joint embedding is characteristic (that is, the embedding of the
+joint distribution to the feature space is injective), then the HSIC-based test
+is consistent. In particular, it is sufficient for the product of kernels on
+the individual domains to be characteristic on the joint domain. In this note,
+it is established via a result of Lyons (2013) that HSIC-based independence
+tests are consistent when kernels on the marginals are characteristic on their
+respective domains, even when the product of kernels is not characteristic on
+the joint domain.

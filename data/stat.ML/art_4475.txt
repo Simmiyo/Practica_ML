@@ -1,0 +1,16 @@
+Probabilistic Combination of Classifier and Cluster Ensembles for
+  Non-transductive Learning
+Unsupervised models can provide supplementary soft constraints to help
+classify new target data under the assumption that similar objects in the
+target set are more likely to share the same class label. Such models can also
+help detect possible differences between training and target distributions,
+which is useful in applications where concept drift may take place. This paper
+describes a Bayesian framework that takes as input class labels from existing
+classifiers (designed based on labeled data from the source domain), as well as
+cluster labels from a cluster ensemble operating solely on the target data to
+be classified, and yields a consensus labeling of the target data. This
+framework is particularly useful when the statistics of the target data drift
+or change from those of the training data. We also show that the proposed
+framework is privacy-aware and allows performing distributed learning when
+data/models have sharing restrictions. Experiments show that our framework can
+yield superior results to those provided by applying classifier ensembles only.

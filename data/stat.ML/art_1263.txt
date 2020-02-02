@@ -1,0 +1,21 @@
+Angle-Based Joint and Individual Variation Explained
+Integrative analysis of disparate data blocks measured on a common set of
+experimental subjects is a major challenge in modern data analysis. This data
+structure naturally motivates the simultaneous exploration of the joint and
+individual variation within each data block resulting in new insights. For
+instance, there is a strong desire to integrate the multiple genomic data sets
+in The Cancer Genome Atlas to characterize the common and also the unique
+aspects of cancer genetics and cell biology for each source. In this paper we
+introduce Angle-Based Joint and Individual Variation Explained capturing both
+joint and individual variation within each data block. This is a major
+improvement over earlier approaches to this challenge in terms of a new
+conceptual understanding, much better adaption to data heterogeneity and a fast
+linear algebra computation. Important mathematical contributions are the use of
+score subspaces as the principal descriptors of variation structure and the use
+of perturbation theory as the guide for variation segmentation. This leads to
+an exploratory data analysis method which is insensitive to the heterogeneity
+among data blocks and does not require separate normalization. An application
+to cancer data reveals different behaviors of each type of signal in
+characterizing tumor subtypes. An application to a mortality data set reveals
+interesting historical lessons. Software and data are available at GitHub
+<https://github.com/MeileiJiang/AJIVE_Project>.

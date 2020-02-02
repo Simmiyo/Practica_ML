@@ -1,0 +1,25 @@
+A Spatiotemporal Dynamic Solution to the MEG Inverse Problem: An
+  Empirical Bayes Approach
+MEG/EEG are non-invasive imaging techniques that record brain activity with
+high temporal resolution. However, estimation of brain source currents from
+surface recordings requires solving an ill-posed inverse problem. Converging
+lines of evidence in neuroscience, from neuronal network models to
+resting-state imaging and neurophysiology, suggest that cortical activation is
+a distributed spatiotemporal dynamic process, supported by both local and
+long-distance neuroanatomic connections. Because spatiotemporal dynamics of
+this kind are central to brain physiology, inverse solutions could be improved
+by incorporating models of these dynamics. In this article, we present a model
+for cortical activity based on nearest-neighbor autoregression that
+incorporates local spatiotemporal interactions between distributed sources in a
+manner consistent with neurophysiology and neuroanatomy. We develop a dynamic
+Maximum a Posteriori Expectation-Maximization (dMAP-EM) source localization
+algorithm for estimation of cortical sources and model parameters based on the
+Kalman Filter, the Fixed Interval Smoother, and the EM algorithms. We apply the
+dMAP-EM algorithm to simulated experiments as well as to human experimental
+data. Furthermore, we derive expressions to relate our dynamic estimation
+formulas to those of standard static models, and show how dynamic methods
+optimally assimilate past and future data. Our results establish the
+feasibility of spatiotemporal dynamic estimation in large-scale distributed
+source spaces with several thousand source locations and hundreds of sensors,
+with resulting inverse solutions that provide substantial performance
+improvements over static methods.

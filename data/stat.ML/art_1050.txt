@@ -1,0 +1,22 @@
+Generalized Root Models: Beyond Pairwise Graphical Models for Univariate
+  Exponential Families
+We present a novel k-way high-dimensional graphical model called the
+Generalized Root Model (GRM) that explicitly models dependencies between
+variable sets of size k > 2---where k = 2 is the standard pairwise graphical
+model. This model is based on taking the k-th root of the original sufficient
+statistics of any univariate exponential family with positive sufficient
+statistics, including the Poisson and exponential distributions. As in the
+recent work with square root graphical (SQR) models [Inouye et al.
+2016]---which was restricted to pairwise dependencies---we give the conditions
+of the parameters that are needed for normalization using the radial
+conditionals similar to the pairwise case [Inouye et al. 2016]. In particular,
+we show that the Poisson GRM has no restrictions on the parameters and the
+exponential GRM only has a restriction akin to negative definiteness. We
+develop a simple but general learning algorithm based on L1-regularized
+node-wise regressions. We also present a general way of numerically
+approximating the log partition function and associated derivatives of the GRM
+univariate node conditionals---in contrast to [Inouye et al. 2016], which only
+provided algorithm for estimating the exponential SQR. To illustrate GRM, we
+model word counts with a Poisson GRM and show the associated k-sized variable
+sets. We finish by discussing methods for reducing the parameter space in
+various situations.

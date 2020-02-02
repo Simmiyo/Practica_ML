@@ -1,0 +1,19 @@
+Orthogonal symmetric non-negative matrix factorization under the
+  stochastic block model
+We present a method based on the orthogonal symmetric non-negative matrix
+tri-factorization of the normalized Laplacian matrix for community detection in
+complex networks. While the exact factorization of a given order may not exist
+and is NP hard to compute, we obtain an approximate factorization by solving an
+optimization problem. We establish the connection of the factors obtained
+through the factorization to a non-negative basis of an invariant subspace of
+the estimated matrix, drawing parallel with the spectral clustering. Using such
+factorization for clustering in networks is motivated by analyzing a
+block-diagonal Laplacian matrix with the blocks representing the connected
+components of a graph. The method is shown to be consistent for community
+detection in graphs generated from the stochastic block model and the degree
+corrected stochastic block model. Simulation results and real data analysis
+show the effectiveness of these methods under a wide variety of situations,
+including sparse and highly heterogeneous graphs where the usual spectral
+clustering is known to fail. Our method also performs better than the state of
+the art in popular benchmark network datasets, e.g., the political web blogs
+and the karate club data.

@@ -1,0 +1,18 @@
+Parameterizable Consensus Connectomes from the Human Connectome Project:
+  The Budapest Reference Connectome Server v3.0
+Connections of the living human brain, on a macroscopic scale, can be mapped
+by a diffusion MR imaging based workflow. Since the same anatomic regions can
+be corresponded between distinct brains, one can compare the presence or the
+absence of the edges, connecting the very same two anatomic regions, among
+multiple cortices. Previously, we have constructed the consensus braingraphs on
+1015 vertices first in five, then in 96 subjects in the Budapest Reference
+Connectome Server v1.0 and v2.0, respectively. Here we report the construction
+of the version 3.0 of the server, generating the common edges of the
+connectomes of variously parameterizable subsets of the 1015-vertex connectomes
+of 477 subjects of the Human Connectome Project's 500-subject release. The
+consensus connectomes are downloadable in csv and GraphML formats, and they are
+also visualized on the server's page. The consensus connectomes of the server
+can be considered as the "average, healthy" human connectome since all of their
+connections are present in at least $k$ subjects, where the default value of
+$k=209$, but it can also be modified freely at the web server. The webserver is
+available at \url{http://connectome.pitgroup.org}.

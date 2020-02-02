@@ -1,0 +1,27 @@
+On Identifying Significant Edges in Graphical Models of Molecular
+  Networks
+Objective: Modelling the associations from high-throughput experimental
+molecular data has provided unprecedented insights into biological pathways and
+signalling mechanisms. Graphical models and networks have especially proven to
+be useful abstractions in this regard. Ad-hoc thresholds are often used in
+conjunction with structure learning algorithms to determine significant
+associations. The present study overcomes this limitation by proposing a
+statistically-motivated approach for identifying significant associations in a
+network.
+  Methods and Materials: A new method that identifies significant associations
+in graphical models by estimating the threshold minimising the $L_{\mathrm{1}}$
+norm between the cumulative distribution function (CDF) of the observed edge
+confidences and those of its asymptotic counterpart is proposed. The
+effectiveness of the proposed method is demonstrated on popular synthetic data
+sets as well as publicly available experimental molecular data corresponding to
+gene and protein expression profiles.
+  Results: The improved performance of the proposed approach is demonstrated
+across the synthetic data sets using sensitivity, specificity and accuracy as
+performance metrics. The results are also demonstrated across varying sample
+sizes and three different structure learning algorithms with widely varying
+assumptions. In all cases, the proposed approach has specificity and accuracy
+close to 1, while sensitivity increases linearly in the logarithm of the sample
+size. The estimated threshold systematically outperforms common ad-hoc ones in
+terms of sensitivity while maintaining comparable levels of specificity and
+accuracy. Networks from experimental data sets are reconstructed accurately
+with respect to the results from the original papers.

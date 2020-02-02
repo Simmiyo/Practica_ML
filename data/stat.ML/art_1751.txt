@@ -1,0 +1,21 @@
+Spectrum Sensing for Cognitive Radio Using Kernel-Based Learning
+Kernel method is a very powerful tool in machine learning. The trick of
+kernel has been effectively and extensively applied in many areas of machine
+learning, such as support vector machine (SVM) and kernel principal component
+analysis (kernel PCA). Kernel trick is to define a kernel function which relies
+on the inner-product of data in the feature space without knowing these feature
+space data. In this paper, the kernel trick will be employed to extend the
+algorithm of spectrum sensing with leading eigenvector under the framework of
+PCA to a higher dimensional feature space. Namely, the leading eigenvector of
+the sample covariance matrix in the feature space is used for spectrum sensing
+without knowing the leading eigenvector explicitly. Spectrum sensing with
+leading eigenvector under the framework of kernel PCA is proposed with the
+inner-product as a measure of similarity. A modified kernel GLRT algorithm
+based on matched subspace model will be the first time applied to spectrum
+sensing. The experimental results on simulated sinusoidal signal show that
+spectrum sensing with kernel PCA is about 4 dB better than PCA, besides, kernel
+GLRT is also better than GLRT. The proposed algorithms are also tested on the
+measured DTV signal. The simulation results show that kernel methods are 4 dB
+better than the corresponding linear methods. The leading eigenvector of the
+sample covariance matrix learned by kernel PCA is more stable than that learned
+by PCA for different segments of DTV signal.

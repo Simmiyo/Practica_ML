@@ -1,0 +1,14 @@
+Graph-Based Approaches to Clustering Network-Constrained Trajectory Data
+Even though clustering trajectory data attracted considerable attention in
+the last few years, most of prior work assumed that moving objects can move
+freely in an euclidean space and did not consider the eventual presence of an
+underlying road network and its influence on evaluating the similarity between
+trajectories. In this paper, we present two approaches to clustering
+network-constrained trajectory data. The first approach discovers clusters of
+trajectories that traveled along the same parts of the road network. The second
+approach is segment-oriented and aims to group together road segments based on
+trajectories that they have in common. Both approaches use a graph model to
+depict the interactions between observations w.r.t. their similarity and
+cluster this similarity graph using a community detection algorithm. We also
+present experimental results obtained on synthetic data to showcase our
+propositions.

@@ -1,0 +1,15 @@
+Reproducing kernel Hilbert space based estimation of systems of ordinary
+  differential equations
+Non-linear systems of differential equations have attracted the interest in
+fields like system biology, ecology or biochemistry, due to their flexibility
+and their ability to describe dynamical systems. Despite the importance of such
+models in many branches of science they have not been the focus of systematic
+statistical analysis until recently. In this work we propose a general approach
+to estimate the parameters of systems of differential equations measured with
+noise. Our methodology is based on the maximization of the penalized likelihood
+where the system of differential equations is used as a penalty. To do so, we
+use a Reproducing Kernel Hilbert Space approach that allows to formulate the
+estimation problem as an unconstrained numeric maximization problem easy to
+solve. The proposed method is tested with synthetically simulated data and it
+is used to estimate the unobserved transcription factor CdaR in Steptomyes
+coelicolor using gene expression data of the genes it regulates.

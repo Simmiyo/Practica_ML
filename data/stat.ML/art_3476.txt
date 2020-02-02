@@ -1,0 +1,26 @@
+Fast rates in statistical and online learning
+The speed with which a learning algorithm converges as it is presented with
+more data is a central problem in machine learning --- a fast rate of
+convergence means less data is needed for the same level of performance. The
+pursuit of fast rates in online and statistical learning has led to the
+discovery of many conditions in learning theory under which fast learning is
+possible. We show that most of these conditions are special cases of a single,
+unifying condition, that comes in two forms: the central condition for 'proper'
+learning algorithms that always output a hypothesis in the given model, and
+stochastic mixability for online algorithms that may make predictions outside
+of the model. We show that under surprisingly weak assumptions both conditions
+are, in a certain sense, equivalent. The central condition has a
+re-interpretation in terms of convexity of a set of pseudoprobabilities,
+linking it to density estimation under misspecification. For bounded losses, we
+show how the central condition enables a direct proof of fast rates and we
+prove its equivalence to the Bernstein condition, itself a generalization of
+the Tsybakov margin condition, both of which have played a central role in
+obtaining fast rates in statistical learning. Yet, while the Bernstein
+condition is two-sided, the central condition is one-sided, making it more
+suitable to deal with unbounded losses. In its stochastic mixability form, our
+condition generalizes both a stochastic exp-concavity condition identified by
+Juditsky, Rigollet and Tsybakov and Vovk's notion of mixability. Our unifying
+conditions thus provide a substantial step towards a characterization of fast
+rates in statistical learning, similar to how classical mixability
+characterizes constant regret in the sequential prediction with expert advice
+setting.

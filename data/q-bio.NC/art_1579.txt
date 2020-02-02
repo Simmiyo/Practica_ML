@@ -1,0 +1,20 @@
+Fundamental bounds on learning performance in neural circuits
+How does the size of a neural circuit influence its learning performance?
+Intuitively, we expect the learning capacity of a neural circuit to grow with
+the number of neurons and synapses. Larger brains tend to be found in species
+with higher cognitive function and learning ability. Similarly, adding
+connections and units to artificial neural networks can allow them to solve
+more complex tasks. However, we show that in a biologically relevant setting
+where synapses introduce an unavoidable amount of noise, there is an optimal
+size of network for a given task. Beneath this optimal size, our analysis shows
+how adding apparently redundant neurons and connections can make tasks more
+learnable. Therefore large neural circuits can either devote connectivity to
+generating complex behaviors, or exploit this connectivity to achieve faster
+and more precise learning of simpler behaviors. Above the optimal network size,
+the addition of neurons and synaptic connections starts to impede learning
+performance. This suggests that overall brain size may be constrained by the
+need to learn efficiently with unreliable synapses, and may explain why some
+neurological learning deficits are associated with hyperconnectivity. Our
+analysis is independent of specific learning rules and uncovers fundamental
+relationships between learning rate, task performance, network size and
+intrinsic noise in neural circuits.

@@ -1,0 +1,17 @@
+Evaluating Semantic Rationality of a Sentence: A Sememe-Word-Matching
+  Neural Network based on HowNet
+Automatic evaluation of semantic rationality is an important yet challenging
+task, and current automatic techniques cannot well identify whether a sentence
+is semantically rational. The methods based on the language model do not
+measure the sentence by rationality but by commonness. The methods based on the
+similarity with human written sentences will fail if human-written references
+are not available. In this paper, we propose a novel model called
+Sememe-Word-Matching Neural Network (SWM-NN) to tackle semantic rationality
+evaluation by taking advantage of sememe knowledge base HowNet. The advantage
+is that our model can utilize a proper combination of sememes to represent the
+fine-grained semantic meanings of a word within the specific contexts. We use
+the fine-grained semantic representation to help the model learn the semantic
+dependency among words. To evaluate the effectiveness of the proposed model, we
+build a large-scale rationality evaluation dataset. Experimental results on
+this dataset show that the proposed model outperforms the competitive baselines
+with a 5.4\% improvement in accuracy.

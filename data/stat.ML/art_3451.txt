@@ -1,0 +1,14 @@
+Robustness Analysis of Preconditioned Successive Projection Algorithm
+  for General Form of Separable NMF Problem
+The successive projection algorithm (SPA) has been known to work well for
+separable nonnegative matrix factorization (NMF) problems arising in
+applications, such as topic extraction from documents and endmember detection
+in hyperspectral images. One of the reasons is in that the algorithm is robust
+to noise. Gillis and Vavasis showed in [SIAM J. Optim., 25(1), pp. 677-698,
+2015] that a preconditioner can further enhance its noise robustness. The proof
+rested on the condition that the dimension $d$ and factorization rank $r$ in
+the separable NMF problem coincide with each other. However, it may be
+unrealistic to expect that the condition holds in separable NMF problems
+appearing in actual applications; in such problems, $d$ is usually greater than
+$r$. This paper shows, without the condition $d=r$, that the preconditioned SPA
+is robust to noise.

@@ -1,0 +1,11 @@
+Functional Bandits
+We introduce the functional bandit problem, where the objective is to find an
+arm that optimises a known functional of the unknown arm-reward distributions.
+These problems arise in many settings such as maximum entropy methods in
+natural language processing, and risk-averse decision-making, but current
+best-arm identification techniques fail in these domains. We propose a new
+approach, that combines functional estimation and arm elimination, to tackle
+this problem. This method achieves provably efficient performance guarantees.
+In addition, we illustrate this method on a number of important functionals in
+risk management and information theory, and refine our generic theoretical
+results in those cases.

@@ -1,0 +1,11 @@
+One-Shot Coresets: The Case of k-Clustering
+Scaling clustering algorithms to massive data sets is a challenging task.
+Recently, several successful approaches based on data summarization methods,
+such as coresets and sketches, were proposed. While these techniques provide
+provably good and small summaries, they are inherently problem dependent - the
+practitioner has to commit to a fixed clustering objective before even
+exploring the data. However, can one construct small data summaries for a wide
+range of clustering problems simultaneously? In this work, we affirmatively
+answer this question by proposing an efficient algorithm that constructs such
+one-shot summaries for k-clustering problems while retaining strong theoretical
+guarantees.

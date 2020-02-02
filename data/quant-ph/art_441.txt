@@ -1,0 +1,6 @@
+Efficient Computations of Encodings for Quantum Error Correction
+We show how, given any set of generators of the stabilizer of a quantum code,
+an efficient gate array that computes the codewords can be constructed. For an
+n-qubit code whose stabilizer has d generators, the resulting gate array
+consists of O(n d) operations, and converts k-qubit data (where k = n - d) into
+n-qubit codewords.

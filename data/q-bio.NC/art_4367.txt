@@ -1,0 +1,21 @@
+First passage times in integrate-and-fire neurons with stochastic
+  thresholds
+We consider a leaky integrate-and-fire neuron with deterministic subthreshold
+dynamics and a firing threshold that evolves as an Ornstein-Uhlenbeck process.
+The formulation of this minimal model is motivated by the experimentally
+observed widespread variation of neural firing thresholds. We show numerically
+that the mean first passage time can depend non-monotonically on the noise
+amplitude. For sufficiently large values of the correlation time of the
+stochastic threshold the mean first passage time is maximal for non-vanishing
+noise. We provide an explanation for this effect by analytically transforming
+the original model into a first passage time problem for Brownian motion. This
+transformation also allows for a perturbative calculation of the first passage
+time histograms. In turn this provides quantitative insights into the
+mechanisms that lead to the non-monotonic behaviour of the mean first passage
+time. The perturbation expansion is in excellent agreement with direct
+numerical simulations. The approach developed here can be applied to any
+deterministic subthreshold dynamics and any Gauss-Markov processes for the
+firing threshold. This opens up the possibility to incorporate biophysically
+detailed components into the subthreshold dynamics, rendering our approach a
+powerful framework that sits between traditional integrate-and-fire models and
+complex mechanistic descriptions of neural dynamics.

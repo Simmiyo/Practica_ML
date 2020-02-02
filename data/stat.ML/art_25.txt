@@ -1,0 +1,10 @@
+Decomposable Principal Component Analysis
+We consider principal component analysis (PCA) in decomposable Gaussian
+graphical models. We exploit the prior information in these models in order to
+distribute its computation. For this purpose, we reformulate the problem in the
+sparse inverse covariance (concentration) domain and solve the global
+eigenvalue problem using a sequence of local eigenvalue problems in each of the
+cliques of the decomposable graph. We demonstrate the application of our
+methodology in the context of decentralized anomaly detection in the Abilene
+backbone network. Based on the topology of the network, we propose an
+approximate statistical graphical model and distribute the computation of PCA.

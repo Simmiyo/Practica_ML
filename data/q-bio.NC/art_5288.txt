@@ -1,0 +1,22 @@
+Transfer entropy in continuous time, with applications to jump and
+  neural spiking processes
+Transfer entropy has been used to quantify the directed flow of information
+between source and target variables in many complex systems. While transfer
+entropy was originally formulated in discrete time, in this paper we provide a
+framework for considering transfer entropy in continuous time systems, based on
+Radon-Nikodym derivatives between measures of complete path realizations. To
+describe the information dynamics of individual path realizations, we introduce
+the pathwise transfer entropy, the expectation of which is the transfer entropy
+accumulated over a finite time interval. We demonstrate that this formalism
+permits an instantaneous transfer entropy rate. These properties are analogous
+to the behavior of physical quantities defined along paths such as work and
+heat. We use this approach to produce an explicit form for the transfer entropy
+for pure jump processes, and highlight the simplified form in the specific case
+of point processes (frequently used in neuroscience to model neural spike
+trains). Finally, we present two synthetic spiking neuron model examples to
+exhibit the pertinent features of our formalism, namely, that the information
+flow for point processes consists of discontinuous jump contributions (at
+spikes in the target) interrupting a continuously varying contribution
+(relating to waiting times between target spikes). Numerical schemes based on
+our formalism promise significant benefits over existing strategies based on
+discrete time formalisms.

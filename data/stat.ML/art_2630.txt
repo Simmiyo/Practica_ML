@@ -1,0 +1,8 @@
+An upper bound on prototype set size for condensed nearest neighbor
+The condensed nearest neighbor (CNN) algorithm is a heuristic for reducing
+the number of prototypical points stored by a nearest neighbor classifier,
+while keeping the classification rule given by the reduced prototypical set
+consistent with the full set. I present an upper bound on the number of
+prototypical points accumulated by CNN. The bound originates in a bound on the
+number of times the decision rule is updated during training in the multiclass
+perceptron algorithm, and thus is independent of training set size.

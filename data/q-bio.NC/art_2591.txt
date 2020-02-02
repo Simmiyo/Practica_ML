@@ -1,0 +1,18 @@
+A hidden Markov model for decoding and the analysis of replay in spike
+  trains
+We present a hidden Markov model that describes variation in an animal's
+position associated with varying levels of activity in action potential spike
+trains of individual place cell neurons. The model incorporates a
+coarse-graining of position, which we find to be a more parsimonious
+description of the system than other models. We use a sequential Monte Carlo
+algorithm for Bayesian inference of model parameters, including the state space
+dimension, and we explain how to estimate position from spike train
+observations (decoding). We obtain greater accuracy over other methods in the
+conditions of high temporal resolution and small neuronal sample size. We also
+present a novel, model-based approach to the study of replay: the expression of
+spike train activity related to behaviour during times of motionlessness or
+sleep, thought to be integral to the consolidation of long-term memories. We
+demonstrate how we can detect the time, information content and compression
+rate of replay events in simulated and real hippocampal data recorded from rats
+in two different environments, and verify the correlation between the times of
+detected replay events and of sharp wave/ripples in the local field potential.

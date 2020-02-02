@@ -1,0 +1,15 @@
+A Unified Framework for Low-Rank plus Sparse Matrix Recovery
+We propose a unified framework to solve general low-rank plus sparse matrix
+recovery problems based on matrix factorization, which covers a broad family of
+objective functions satisfying the restricted strong convexity and smoothness
+conditions. Based on projected gradient descent and the double thresholding
+operator, our proposed generic algorithm is guaranteed to converge to the
+unknown low-rank and sparse matrices at a locally linear rate, while matching
+the best-known robustness guarantee (i.e., tolerance for sparsity). At the core
+of our theory is a novel structural Lipschitz gradient condition for low-rank
+plus sparse matrices, which is essential for proving the linear convergence
+rate of our algorithm, and we believe is of independent interest to prove fast
+rates for general superposition-structured models. We illustrate the
+application of our framework through two concrete examples: robust matrix
+sensing and robust PCA. Experiments on both synthetic and real datasets
+corroborate our theory.

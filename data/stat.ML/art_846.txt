@@ -1,0 +1,21 @@
+Sensitivity Maps of the Hilbert-Schmidt Independence Criterion
+Kernel dependence measures yield accurate estimates of nonlinear relations
+between random variables, and they are also endorsed with solid theoretical
+properties and convergence rates. Besides, the empirical estimates are easy to
+compute in closed form just involving linear algebra operations. However, they
+are hampered by two important problems: the high computational cost involved,
+as two kernel matrices of the sample size have to be computed and stored, and
+the interpretability of the measure, which remains hidden behind the implicit
+feature map. We here address these two issues. We introduce the Sensitivity
+Maps (SMs) for the Hilbert-Schmidt independence criterion (HSIC). Sensitivity
+maps allow us to explicitly analyze and visualize the relative relevance of
+both examples and features on the dependence measure. We also present the
+randomized HSIC (RHSIC) and its corresponding sensitivity maps to cope with
+large scale problems. We build upon the framework of random features and the
+Bochner's theorem to approximate the involved kernels in the canonical HSIC.
+The power of the RHSIC measure scales favourably with the number of samples,
+and it approximates HSIC and the sensitivity maps efficiently. Convergence
+bounds of both the measure and the sensitivity map are also provided. Our
+proposal is illustrated in synthetic examples, and challenging real problems of
+dependence estimation, feature selection, and causal inference from empirical
+data.

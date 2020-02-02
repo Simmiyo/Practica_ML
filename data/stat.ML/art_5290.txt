@@ -1,0 +1,9 @@
+An Improved Parametrization and Analysis of the EXP3++ Algorithm for
+  Stochastic and Adversarial Bandits
+We present a new strategy for gap estimation in randomized algorithms for
+multiarmed bandits and combine it with the EXP3++ algorithm of Seldin and
+Slivkins (2014). In the stochastic regime the strategy reduces dependence of
+regret on a time horizon from $(\ln t)^3$ to $(\ln t)^2$ and eliminates an
+additive factor of order $\Delta e^{1/\Delta^2}$, where $\Delta$ is the minimal
+gap of a problem instance. In the adversarial regime regret guarantee remains
+unchanged.

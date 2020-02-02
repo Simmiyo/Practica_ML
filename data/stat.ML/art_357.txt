@@ -1,0 +1,23 @@
+Filtering with State-Observation Examples via Kernel Monte Carlo Filter
+This paper addresses the problem of filtering with a state-space model.
+Standard approaches for filtering assume that a probabilistic model for
+observations (i.e. the observation model) is given explicitly or at least
+parametrically. We consider a setting where this assumption is not satisfied;
+we assume that the knowledge of the observation model is only provided by
+examples of state-observation pairs. This setting is important and appears when
+state variables are defined as quantities that are very different from the
+observations. We propose Kernel Monte Carlo Filter, a novel filtering method
+that is focused on this setting. Our approach is based on the framework of
+kernel mean embeddings, which enables nonparametric posterior inference using
+the state-observation examples. The proposed method represents state
+distributions as weighted samples, propagates these samples by sampling,
+estimates the state posteriors by Kernel Bayes' Rule, and resamples by Kernel
+Herding. In particular, the sampling and resampling procedures are novel in
+being expressed using kernel mean embeddings, so we theoretically analyze their
+behaviors. We reveal the following properties, which are similar to those of
+corresponding procedures in particle methods: (1) the performance of sampling
+can degrade if the effective sample size of a weighted sample is small; (2)
+resampling improves the sampling performance by increasing the effective sample
+size. We first demonstrate these theoretical findings by synthetic experiments.
+Then we show the effectiveness of the proposed filter by artificial and real
+data experiments, which include vision-based mobile robot localization.

@@ -1,0 +1,16 @@
+Effects of noise on quantum error correction algorithms
+It has recently been shown that there are efficient algorithms for quantum
+computers to solve certain problems, such as prime factorization, which are
+intractable to date on classical computers. The chances for practical
+implementation, however, are limited by decoherence, in which the effect of an
+external environment causes random errors in the quantum calculation. To combat
+this problem, quantum error correction schemes have been proposed, in which a
+single quantum bit (qubit) is ``encoded'' as a state of some larger number of
+qubits, chosen to resist particular types of errors. Most such schemes are
+vulnerable, however, to errors in the encoding and decoding itself. We examine
+two such schemes, in which a single qubit is encoded in a state of $n$ qubits
+while subject to dephasing or to arbitrary isotropic noise. Using both
+analytical and numerical calculations, we argue that error correction remains
+beneficial in the presence of weak noise, and that there is an optimal time
+between error correction steps, determined by the strength of the interaction
+with the environment and the parameters set by the encoding.

@@ -1,0 +1,11 @@
+End-to-end Recurrent Neural Network Models for Vietnamese Named Entity
+  Recognition: Word-level vs. Character-level
+This paper demonstrates end-to-end neural network architectures for
+Vietnamese named entity recognition. Our best model is a combination of
+bidirectional Long Short-Term Memory (Bi-LSTM), Convolutional Neural Network
+(CNN), Conditional Random Field (CRF), using pre-trained word embeddings as
+input, which achieves an F1 score of 88.59% on a standard test set. Our system
+is able to achieve a comparable performance to the first-rank system of the
+VLSP campaign without using any syntactic or hand-crafted features. We also
+give an extensive empirical study on using common deep learning models for
+Vietnamese NER, at both word and character level.

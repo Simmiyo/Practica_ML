@@ -1,0 +1,19 @@
+Reconstructing the Hopfield network as an inverse Ising problem
+We test four fast mean field type algorithms on Hopfield networks as an
+inverse Ising problem. The equilibrium behavior of Hopfield networks is
+simulated through Glauber dynamics. In the low temperature regime, the
+simulated annealing technique is adopted. Although performances of these
+network reconstruction algorithms on the simulated network of spiking neurons
+are extensively studied recently, the analysis of Hopfield networks is lacking
+so far. For the Hopfield network, we found that, in the retrieval phase favored
+when the network wants to memory one of stored patterns, all the reconstruction
+algorithms fail to extract interactions within a desired accuracy, and the same
+failure occurs in the spin glass phase where spurious minima show up, while in
+the paramagnetic phase, albeit unfavored during the retrieval dynamics, the
+algorithms work well to reconstruct the network itself. This implies that, as a
+inverse problem, the paramagnetic phase is conversely useful for reconstructing
+the network while the retrieval phase loses all the information about
+interactions in the network except for the case where only one pattern is
+stored. The performances of algorithms are studied with respect to the system
+size, memory load and temperature, sample-to-sample fluctuations are also
+considered.

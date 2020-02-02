@@ -1,0 +1,22 @@
+The Simulator: Understanding Adaptive Sampling in the
+  Moderate-Confidence Regime
+We propose a novel technique for analyzing adaptive sampling called the {\em
+Simulator}. Our approach differs from the existing methods by considering not
+how much information could be gathered by any fixed sampling strategy, but how
+difficult it is to distinguish a good sampling strategy from a bad one given
+the limited amount of data collected up to any given time. This change of
+perspective allows us to match the strength of both Fano and change-of-measure
+techniques, without succumbing to the limitations of either method. For
+concreteness, we apply our techniques to a structured multi-arm bandit problem
+in the fixed-confidence pure exploration setting, where we show that the
+constraints on the means imply a substantial gap between the
+moderate-confidence sample complexity, and the asymptotic sample complexity as
+$\delta \to 0$ found in the literature. We also prove the first instance-based
+lower bounds for the top-k problem which incorporate the appropriate
+log-factors. Moreover, our lower bounds zero-in on the number of times each
+\emph{individual} arm needs to be pulled, uncovering new phenomena which are
+drowned out in the aggregate sample complexity. Our new analysis inspires a
+simple and near-optimal algorithm for the best-arm and top-k identification,
+the first {\em practical} algorithm of its kind for the latter problem which
+removes extraneous log factors, and outperforms the state-of-the-art in
+experiments.

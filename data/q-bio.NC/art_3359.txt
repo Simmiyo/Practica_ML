@@ -1,0 +1,19 @@
+Correspondence of Deep Neural Networks and the Brain for Visual Textures
+Deep convolutional neural networks (CNNs) trained on objects and scenes have
+shown intriguing ability to predict some response properties of visual cortical
+neurons. However, the factors and computations that give rise to such ability,
+and the role of intermediate processing stages in explaining changes that
+develop across areas of the cortical hierarchy, are poorly understood. We
+focused on the sensitivity to textures as a paradigmatic example, since recent
+neurophysiology experiments provide rich data pointing to texture sensitivity
+in secondary but not primary visual cortex. We developed a quantitative
+approach for selecting a subset of the neural unit population from the CNN that
+best describes the brain neural recordings. We found that the first two layers
+of the CNN showed qualitative and quantitative correspondence to the cortical
+data across a number of metrics. This compatibility was reduced for the
+architecture alone rather than the learned weights, for some other related
+hierarchical models, and only mildly in the absence of a nonlinear computation
+akin to local divisive normalization. Our results show that the CNN class of
+model is effective for capturing changes that develop across early areas of
+cortex, and has the potential to facilitate understanding of the computations
+that give rise to hierarchical processing in the brain.

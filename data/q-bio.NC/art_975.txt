@@ -1,0 +1,17 @@
+Direct Estimation of Firing Rates from Calcium Imaging Data
+Two-photon imaging of calcium indicators allows simultaneous recording of
+responses of hundreds of neurons over hours and even days, but provides a
+relatively indirect measure of their spiking activity. Existing deconvolution
+algorithms attempt to recover spikes from observed imaging data, which are then
+commonly subjected to the same analyses that are applied to
+electrophysiologically recorded spikes (e.g., estimation of average firing
+rates, or tuning curves). Here we show, however, that in the presence of noise
+this approach is often heavily biased. We propose an alternative analysis that
+aims to estimate the underlying rate directly, by integrating over the
+unobserved spikes instead of committing to a single estimate of the spike
+train. This approach can be used to estimate average firing rates or tuning
+curves directly from the imaging data, and is sufficiently flexible to
+incorporate prior knowledge about tuning structure. We show that directly
+estimated rates are more accurate than those obtained from averaging of spikes
+estimated through deconvolution, both on simulated data and on imaging data
+acquired in mouse visual cortex.

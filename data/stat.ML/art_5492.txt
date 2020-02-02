@@ -1,0 +1,9 @@
+On the Statistical Efficiency of Compositional Nonparametric Prediction
+In this paper, we propose a compositional nonparametric method in which a
+model is expressed as a labeled binary tree of $2k+1$ nodes, where each node is
+either a summation, a multiplication, or the application of one of the $q$
+basis functions to one of the $p$ covariates. We show that in order to recover
+a labeled binary tree from a given dataset, the sufficient number of samples is
+$O(k\log(pq)+\log(k!))$, and the necessary number of samples is $\Omega(k\log
+(pq)-\log(k!))$. We further propose a greedy algorithm for regression in order
+to validate our theoretical findings through synthetic experiments.

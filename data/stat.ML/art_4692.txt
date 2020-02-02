@@ -1,0 +1,15 @@
+Accelerated Randomized Mirror Descent Algorithms For Composite
+  Non-strongly Convex Optimization
+We consider the problem of minimizing the sum of an average function of a
+large number of smooth convex components and a general, possibly
+non-differentiable, convex function. Although many methods have been proposed
+to solve this problem with the assumption that the sum is strongly convex, few
+methods support the non-strongly convex case. Adding a small quadratic
+regularization is a common devise used to tackle non-strongly convex problems;
+however, it may cause loss of sparsity of solutions or weaken the performance
+of the algorithms. Avoiding this devise, we propose an accelerated randomized
+mirror descent method for solving this problem without the strongly convex
+assumption. Our method extends the deterministic accelerated proximal gradient
+methods of Paul Tseng and can be applied even when proximal points are computed
+inexactly. We also propose a scheme for solving the problem when the component
+functions are non-smooth.

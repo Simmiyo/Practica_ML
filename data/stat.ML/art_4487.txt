@@ -1,0 +1,11 @@
+Random Projections for Linear Support Vector Machines
+Let X be a data matrix of rank \rho, whose rows represent n points in
+d-dimensional space. The linear support vector machine constructs a hyperplane
+separator that maximizes the 1-norm soft margin. We develop a new oblivious
+dimension reduction technique which is precomputed and can be applied to any
+input matrix X. We prove that, with high probability, the margin and minimum
+enclosing ball in the feature space are preserved to within \epsilon-relative
+error, ensuring comparable generalization as in the original space in the case
+of classification. For regression, we show that the margin is preserved to
+\epsilon-relative error with high probability. We present extensive experiments
+with real and synthetic data to support our theory.

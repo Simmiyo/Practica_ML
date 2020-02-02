@@ -1,0 +1,20 @@
+An Algorithmic Theory of Dependent Regularizers, Part 1: Submodular
+  Structure
+We present an exploration of the rich theoretical connections between several
+classes of regularized models, network flows, and recent results in submodular
+function theory. This work unifies key aspects of these problems under a common
+theory, leading to novel methods for working with several important models of
+interest in statistics, machine learning and computer vision.
+  In Part 1, we review the concepts of network flows and submodular function
+optimization theory foundational to our results. We then examine the
+connections between network flows and the minimum-norm algorithm from
+submodular optimization, extending and improving several current results. This
+leads to a concise representation of the structure of a large class of pairwise
+regularized models important in machine learning, statistics and computer
+vision.
+  In Part 2, we describe the full regularization path of a class of penalized
+regression problems with dependent variables that includes the graph-guided
+LASSO and total variation constrained models. This description also motivates a
+practical algorithm. This allows us to efficiently find the regularization path
+of the discretized version of TV penalized models. Ultimately, our new
+algorithms scale up to high-dimensional problems with millions of variables.

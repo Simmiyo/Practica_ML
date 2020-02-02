@@ -1,0 +1,18 @@
+Compositional Sentence Representation from Character within Large
+  Context Text
+This paper describes a Hierarchical Composition Recurrent Network (HCRN)
+consisting of a 3-level hierarchy of compositional models: character, word and
+sentence. This model is designed to overcome two problems of representing a
+sentence on the basis of a constituent word sequence. The first is a
+data-sparsity problem in word embedding, and the other is a no usage of
+inter-sentence dependency. In the HCRN, word representations are built from
+characters, thus resolving the data-sparsity problem, and inter-sentence
+dependency is embedded into sentence representation at the level of sentence
+composition. We adopt a hierarchy-wise learning scheme in order to alleviate
+the optimization difficulties of learning deep hierarchical recurrent network
+in end-to-end fashion. The HCRN was quantitatively and qualitatively evaluated
+on a dialogue act classification task. Especially, sentence representations
+with an inter-sentence dependency are able to capture both implicit and
+explicit semantics of sentence, significantly improving performance. In the
+end, the HCRN achieved state-of-the-art performance with a test error rate of
+22.7% for dialogue act classification on the SWBD-DAMSL database.

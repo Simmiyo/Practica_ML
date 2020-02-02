@@ -1,0 +1,14 @@
+SIRIUS-LTG-UiO at SemEval-2018 Task 7: Convolutional Neural Networks
+  with Shortest Dependency Paths for Semantic Relation Extraction and
+  Classification in Scientific Papers
+This article presents the SIRIUS-LTG-UiO system for the SemEval 2018 Task 7
+on Semantic Relation Extraction and Classification in Scientific Papers. First
+we extract the shortest dependency path (sdp) between two entities, then we
+introduce a convolutional neural network (CNN) which takes the shortest
+dependency path embeddings as input and performs relation classification with
+differing objectives for each subtask of the shared task. This approach
+achieved overall F1 scores of 76.7 and 83.2 for relation classification on
+clean and noisy data, respectively. Furthermore, for combined relation
+extraction and classification on clean data, it obtained F1 scores of 37.4 and
+33.6 for each phase. Our system ranks 3rd in all three sub-tasks of the shared
+task.

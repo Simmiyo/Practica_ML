@@ -1,0 +1,16 @@
+Closed-form EM for Sparse Coding and its Application to Source
+  Separation
+We define and discuss the first sparse coding algorithm based on closed-form
+EM updates and continuous latent variables. The underlying generative model
+consists of a standard `spike-and-slab' prior and a Gaussian noise model.
+Closed-form solutions for E- and M-step equations are derived by generalizing
+probabilistic PCA. The resulting EM algorithm can take all modes of a
+potentially multi-modal posterior into account. The computational cost of the
+algorithm scales exponentially with the number of hidden dimensions. However,
+with current computational resources, it is still possible to efficiently learn
+model parameters for medium-scale problems. Thus the model can be applied to
+the typical range of source separation tasks. In numerical experiments on
+artificial data we verify likelihood maximization and show that the derived
+algorithm recovers the sparse directions of standard sparse coding
+distributions. On source separation benchmarks comprised of realistic data we
+show that the algorithm is competitive with other recent methods.

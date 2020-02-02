@@ -1,0 +1,15 @@
+Shallow reading with Deep Learning: Predicting popularity of online
+  content using only its title
+With the ever decreasing attention span of contemporary Internet users, the
+title of online content (such as a news article or video) can be a major factor
+in determining its popularity. To take advantage of this phenomenon, we propose
+a new method based on a bidirectional Long Short-Term Memory (LSTM) neural
+network designed to predict the popularity of online content using only its
+title. We evaluate the proposed architecture on two distinct datasets of news
+articles and news videos distributed in social media that contain over 40,000
+samples in total. On those datasets, our approach improves the performance over
+traditional shallow approaches by a margin of 15%. Additionally, we show that
+using pre-trained word vectors in the embedding layer improves the results of
+LSTM models, especially when the training set is small. To our knowledge, this
+is the first attempt of applying popularity prediction using only textual
+information from the title.

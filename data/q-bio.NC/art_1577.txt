@@ -1,0 +1,20 @@
+Mesoscopic population equations for spiking neural networks with
+  synaptic short-term plasticity
+Coarse-graining microscopic models of biological neural networks to obtain
+mesoscopic models of neural activities is an essential step towards multi-scale
+models of the brain. Here, we extend a recent theory for mesoscopic population
+dynamics with static synapses to the case of dynamic synapses exhibiting
+short-term plasticity (STP). Under the assumption that spike arrivals at
+synapses have Poisson statistics, we derive analytically stochastic mean-field
+dynamics for the effective synaptic coupling between finite-size populations
+undergoing Tsodyks-Markram STP. The novel mean-field equations account for both
+finite number of synapses and correlations between the neurotransmitter release
+probability and the fraction of available synaptic resources. Comparisons with
+Monte Carlo simulations of the microscopic model show that in both feedforward
+and recurrent networks the mesoscopic mean-field model accurately reproduces
+stochastic realizations of the total synaptic input into a postsynaptic neuron
+and accounts for stochastic switches between Up and Down states as well as for
+population spikes. The extended mesoscopic population theory of spiking neural
+networks with STP may be useful for a systematic reduction of detailed
+biophysical models of cortical microcircuits to efficient and mathematically
+tractable mean-field models.

@@ -1,0 +1,16 @@
+Dimension Reduction of High-Dimensional Datasets Based on Stepwise SVM
+The current study proposes a dimension reduction method, stepwise support
+vector machine (SVM), to reduce the dimensions of large p small n datasets. The
+proposed method is compared with other dimension reduction methods, namely, the
+Pearson product difference correlation coefficient (PCCs), recursive feature
+elimination based on random forest (RF-RFE), and principal component analysis
+(PCA), by using five gene expression datasets. Additionally, the prediction
+performance of the variables selected by our method is evaluated. The study
+found that stepwise SVM can effectively select the important variables and
+achieve good prediction performance. Moreover, the predictions of stepwise SVM
+for reduced datasets was better than those for the unreduced datasets. The
+performance of stepwise SVM was more stable than that of PCA and RF-RFE, but
+the performance difference with respect to PCCs was minimal. It is necessary to
+reduce the dimensions of large p small n datasets. We believe that stepwise SVM
+can effectively eliminate noise in data and improve the prediction accuracy in
+any large p small n dataset.

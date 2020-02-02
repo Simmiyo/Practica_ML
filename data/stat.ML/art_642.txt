@@ -1,0 +1,19 @@
+Joint Tensor Factorization and Outlying Slab Suppression with
+  Applications
+We consider factoring low-rank tensors in the presence of outlying slabs.
+This problem is important in practice, because data collected in many
+real-world applications, such as speech, fluorescence, and some social network
+data, fit this paradigm. Prior work tackles this problem by iteratively
+selecting a fixed number of slabs and fitting, a procedure which may not
+converge. We formulate this problem from a group-sparsity promoting point of
+view, and propose an alternating optimization framework to handle the
+corresponding $\ell_p$ ($0<p\leq 1$) minimization-based low-rank tensor
+factorization problem. The proposed algorithm features a similar per-iteration
+complexity as the plain trilinear alternating least squares (TALS) algorithm.
+Convergence of the proposed algorithm is also easy to analyze under the
+framework of alternating optimization and its variants. In addition,
+regularization and constraints can be easily incorporated to make use of
+\emph{a priori} information on the latent loading factors. Simulations and real
+data experiments on blind speech separation, fluorescence data analysis, and
+social network mining are used to showcase the effectiveness of the proposed
+algorithm.

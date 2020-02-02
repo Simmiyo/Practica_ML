@@ -1,0 +1,17 @@
+End-to-End Optimization of Task-Oriented Dialogue Model with Deep
+  Reinforcement Learning
+In this paper, we present a neural network based task-oriented dialogue
+system that can be optimized end-to-end with deep reinforcement learning (RL).
+The system is able to track dialogue state, interface with knowledge bases, and
+incorporate query results into agent's responses to successfully complete
+task-oriented dialogues. Dialogue policy learning is conducted with a hybrid
+supervised and deep RL methods. We first train the dialogue agent in a
+supervised manner by learning directly from task-oriented dialogue corpora, and
+further optimize it with deep RL during its interaction with users. In the
+experiments on two different dialogue task domains, our model demonstrates
+robust performance in tracking dialogue state and producing reasonable system
+responses. We show that deep RL based optimization leads to significant
+improvement on task success rate and reduction in dialogue length comparing to
+supervised training model. We further show benefits of training task-oriented
+dialogue model end-to-end comparing to component-wise optimization with
+experiment results on dialogue simulations and human evaluations.

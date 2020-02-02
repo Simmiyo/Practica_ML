@@ -1,0 +1,16 @@
+Sparse partial least squares for on-line variable selection in
+  multivariate data streams
+In this paper we propose a computationally efficient algorithm for on-line
+variable selection in multivariate regression problems involving high
+dimensional data streams. The algorithm recursively extracts all the latent
+factors of a partial least squares solution and selects the most important
+variables for each factor. This is achieved by means of only one sparse
+singular value decomposition which can be efficiently updated on-line and in an
+adaptive fashion. Simulation results based on artificial data streams
+demonstrate that the algorithm is able to select important variables in dynamic
+settings where the correlation structure among the observed streams is governed
+by a few hidden components and the importance of each variable changes over
+time. We also report on an application of our algorithm to a multivariate
+version of the "enhanced index tracking" problem using financial data streams.
+The application consists of performing on-line asset allocation with the
+objective of overperforming two benchmark indices simultaneously.

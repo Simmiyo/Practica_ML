@@ -1,0 +1,14 @@
+The Upper Bound on Knots in Neural Networks
+Neural networks with rectified linear unit activations are essentially
+multivariate linear splines. As such, one of many ways to measure the
+"complexity" or "expressivity" of a neural network is to count the number of
+knots in the spline model. We study the number of knots in fully-connected
+feedforward neural networks with rectified linear unit activation functions. We
+intentionally keep the neural networks very simple, so as to make theoretical
+analyses more approachable. An induction on the number of layers $l$ reveals a
+tight upper bound on the number of knots in $\mathbb{R} \to \mathbb{R}^p$ deep
+neural networks. With $n_i \gg 1$ neurons in layer $i = 1, \dots, l$, the upper
+bound is approximately $n_1 \dots n_l$. We then show that the exact upper bound
+is tight, and we demonstrate the upper bound with an example. The purpose of
+these analyses is to pave a path for understanding the behavior of general
+$\mathbb{R}^q \to \mathbb{R}^p$ neural networks.

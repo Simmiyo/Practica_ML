@@ -1,0 +1,21 @@
+Bayesian nonparametric Principal Component Analysis
+Principal component analysis (PCA) is very popular to perform dimension
+reduction. The selection of the number of significant components is essential
+but often based on some practical heuristics depending on the application. Only
+few works have proposed a probabilistic approach able to infer the number of
+significant components. To this purpose, this paper introduces a Bayesian
+nonparametric principal component analysis (BNP-PCA). The proposed model
+projects observations onto a random orthogonal basis which is assigned a prior
+distribution defined on the Stiefel manifold. The prior on factor scores
+involves an Indian buffet process to model the uncertainty related to the
+number of components. The parameters of interest as well as the nuisance
+parameters are finally inferred within a fully Bayesian framework via Monte
+Carlo sampling. A study of the (in-)consistence of the marginal maximum a
+posteriori estimator of the latent dimension is carried out. A new estimator of
+the subspace dimension is proposed. Moreover, for sake of statistical
+significance, a Kolmogorov-Smirnov test based on the posterior distribution of
+the principal components is used to refine this estimate.
+  The behaviour of the algorithm is first studied on various synthetic
+examples. Finally, the proposed BNP dimension reduction approach is shown to be
+easily yet efficiently coupled with clustering or latent factor models within a
+unique framework.

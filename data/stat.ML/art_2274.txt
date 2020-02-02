@@ -1,0 +1,16 @@
+A Spectral Algorithm for Latent Junction Trees
+Latent variable models are an elegant framework for capturing rich
+probabilistic dependencies in many applications. However, current approaches
+typically parametrize these models using conditional probability tables, and
+learning relies predominantly on local search heuristics such as Expectation
+Maximization. Using tensor algebra, we propose an alternative parameterization
+of latent variable models (where the model structures are junction trees) that
+still allows for computation of marginals among observed variables. While this
+novel representation leads to a moderate increase in the number of parameters
+for junction trees of low treewidth, it lets us design a local-minimum-free
+algorithm for learning this parameterization. The main computation of the
+algorithm involves only tensor operations and SVDs which can be orders of
+magnitude faster than EM algorithms for large datasets. To our knowledge, this
+is the first provably consistent parameter learning technique for a large class
+of low-treewidth latent graphical models beyond trees. We demonstrate the
+advantages of our method on synthetic and real datasets.

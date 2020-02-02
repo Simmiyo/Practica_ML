@@ -1,0 +1,13 @@
+Update Rules for Parameter Estimation in Bayesian Networks
+This paper re-examines the problem of parameter estimation in Bayesian
+networks with missing values and hidden variables from the perspective of
+recent work in on-line learning [Kivinen & Warmuth, 1994]. We provide a unified
+framework for parameter estimation that encompasses both on-line learning,
+where the model is continuously adapted to new data cases as they arrive, and
+the more traditional batch learning, where a pre-accumulated set of samples is
+used in a one-time model selection process. In the batch case, our framework
+encompasses both the gradient projection algorithm and the EM algorithm for
+Bayesian networks. The framework also leads to new on-line and batch parameter
+update schemes, including a parameterized version of EM. We provide both
+empirical and theoretical results indicating that parameterized EM allows
+faster convergence to the maximum likelihood parameters than does standard EM.

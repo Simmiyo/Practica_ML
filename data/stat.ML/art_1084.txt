@@ -1,0 +1,11 @@
+Bayesian nonparametrics for Sparse Dynamic Networks
+We propose a Bayesian nonparametric prior for time-varying networks. To each
+node of the network is associated a positive parameter, modeling the
+sociability of that node. Sociabilities are assumed to evolve over time, and
+are modeled via a dynamic point process model. The model is able to (a) capture
+smooth evolution of the interaction between nodes, allowing edges to
+appear/disappear over time (b) capture long term evolution of the sociabilities
+of the nodes (c) and yield sparse graphs, where the number of edges grows
+subquadratically with the number of nodes. The evolution of the sociabilities
+is described by a tractable time-varying gamma process. We provide some
+theoretical insights into the model and apply it to three real world datasets.

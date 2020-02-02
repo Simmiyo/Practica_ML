@@ -1,0 +1,17 @@
+Combining Feature and Prototype Pruning by Uncertainty Minimization
+We focus in this paper on dataset reduction techniques for use in k-nearest
+neighbor classification. In such a context, feature and prototype selections
+have always been independently treated by the standard storage reduction
+algorithms. While this certifying is theoretically justified by the fact that
+each subproblem is NP-hard, we assume in this paper that a joint storage
+reduction is in fact more intuitive and can in practice provide better results
+than two independent processes. Moreover, it avoids a lot of distance
+calculations by progressively removing useless instances during the feature
+pruning. While standard selection algorithms often optimize the accuracy to
+discriminate the set of solutions, we use in this paper a criterion based on an
+uncertainty measure within a nearest-neighbor graph. This choice comes from
+recent results that have proven that accuracy is not always the suitable
+criterion to optimize. In our approach, a feature or an instance is removed if
+its deletion improves information of the graph. Numerous experiments are
+presented in this paper and a statistical analysis shows the relevance of our
+approach, and its tolerance in the presence of noise.

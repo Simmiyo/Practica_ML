@@ -1,0 +1,22 @@
+Community detection in weighted brain connectivity networks beyond the
+  resolution limit
+Graph theory provides a powerful framework to investigate brain functional
+connectivity networks and their modular organization. However, most graph-based
+methods suffer from a fundamental resolution limit that may have affected
+previous studies and prevented detection of modules, or communities, that are
+smaller than a specific scale. Surprise, a resolution-limit-free function
+rooted in discrete probability theory, has been recently introduced and applied
+to brain networks, revealing a wide size-distribution of functional modules, in
+contrast with many previous reports. However, the use of Surprise is limited to
+binary networks, while brain networks are intrinsically weighted, reflecting a
+continuous distribution of connectivity strengths between different brain
+regions. Here, we propose Asymptotical Surprise, a continuous version of
+Surprise, for the study of weighted brain connectivity networks, and validate
+this approach in synthetic networks endowed with a ground-truth modular
+structure. We compare Asymptotical Surprise with leading community detection
+methods currently in use and show its superior sensitivity in the detection of
+small modules even in the presence of noise and intersubject variability such
+as those observed in fMRI data. Finally, we apply our novel approach to
+functional connectivity networks from resting state fMRI experimenta, and
+demonstrate a heterogeneous modular organization, with a wide distribution of
+clusters spanning multiple scales.

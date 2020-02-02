@@ -1,0 +1,12 @@
+RubyStar: A Non-Task-Oriented Mixture Model Dialog System
+RubyStar is a dialog system designed to create "human-like" conversation by
+combining different response generation strategies. RubyStar conducts a
+non-task-oriented conversation on general topics by using an ensemble of
+rule-based, retrieval-based and generative methods. Topic detection, engagement
+monitoring, and context tracking are used for managing interaction. Predictable
+elements of conversation, such as the bot's backstory and simple question
+answering are handled by separate modules. We describe a rating scheme we
+developed for evaluating response generation. We find that character-level RNN
+is an effective generation model for general responses, with proper parameter
+settings; however other kinds of conversation topics might benefit from using
+other models.

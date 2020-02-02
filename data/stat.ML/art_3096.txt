@@ -1,0 +1,21 @@
+Joint Association Graph Screening and Decomposition for Large-scale
+  Linear Dynamical Systems
+This paper studies large-scale dynamical networks where the current state of
+the system is a linear transformation of the previous state, contaminated by a
+multivariate Gaussian noise. Examples include stock markets, human brains and
+gene regulatory networks. We introduce a transition matrix to describe the
+evolution, which can be translated to a directed Granger transition graph, and
+use the concentration matrix of the Gaussian noise to capture the second-order
+relations between nodes, which can be translated to an undirected conditional
+dependence graph. We propose regularizing the two graphs jointly in topology
+identification and dynamics estimation. Based on the notion of joint
+association graph (JAG), we develop a joint graphical screening and estimation
+(JGSE) framework for efficient network learning in big data. In particular, our
+method can pre-determine and remove unnecessary edges based on the joint
+graphical structure, referred to as JAG screening, and can decompose a large
+network into smaller subnetworks in a robust manner, referred to as JAG
+decomposition. JAG screening and decomposition can reduce the problem size and
+search space for fine estimation at a later stage. Experiments on both
+synthetic data and real-world applications show the effectiveness of the
+proposed framework in large-scale network topology identification and dynamics
+estimation.

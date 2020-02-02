@@ -1,0 +1,19 @@
+A Hebbian/Anti-Hebbian Network for Online Sparse Dictionary Learning
+  Derived from Symmetric Matrix Factorization
+Olshausen and Field (OF) proposed that neural computations in the primary
+visual cortex (V1) can be partially modeled by sparse dictionary learning. By
+minimizing the regularized representation error they derived an online
+algorithm, which learns Gabor-filter receptive fields from a natural image
+ensemble in agreement with physiological experiments. Whereas the OF algorithm
+can be mapped onto the dynamics and synaptic plasticity in a single-layer
+neural network, the derived learning rule is nonlocal - the synaptic weight
+update depends on the activity of neurons other than just pre- and postsynaptic
+ones - and hence biologically implausible. Here, to overcome this problem, we
+derive sparse dictionary learning from a novel cost-function - a regularized
+error of the symmetric factorization of the input's similarity matrix. Our
+algorithm maps onto a neural network of the same architecture as OF but using
+only biologically plausible local learning rules. When trained on natural
+images our network learns Gabor-filter receptive fields and reproduces the
+correlation among synaptic weights hard-wired in the OF network. Therefore,
+online symmetric matrix factorization may serve as an algorithmic theory of
+neural computation.

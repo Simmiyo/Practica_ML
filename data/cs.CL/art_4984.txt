@@ -1,0 +1,14 @@
+Language-Independent Representor for Neural Machine Translation
+Current Neural Machine Translation (NMT) employs a language-specific encoder
+to represent the source sentence and adopts a language-specific decoder to
+generate target translation. This language-dependent design leads to
+large-scale network parameters and makes the duality of the parallel data
+underutilized. To address the problem, we propose in this paper a
+language-independent representor to replace the encoder and decoder by using
+weight sharing. This shared representor can not only reduce large portion of
+network parameters, but also facilitate us to fully explore the language
+duality by jointly training source-to-target, target-to-source, left-to-right
+and right-to-left translations within a multi-task learning framework.
+Experiments show that our proposed framework can obtain significant
+improvements over conventional NMT models on resource-rich and low-resource
+translation tasks with only a quarter of parameters.

@@ -1,0 +1,11 @@
+Subset Selection for Multiple Linear Regression via Optimization
+Subset selection in multiple linear regression is to choose a subset of
+candidate explanatory variables that tradeoff error and the number of variables
+selected. We built mathematical programming models for subset selection and
+compare the performance of an LP-based branch-and-bound algorithm with tailored
+valid inequalities to known heuristics. We found that our models quickly find a
+quality solution while the rest of the time is spent to prove optimality. Our
+models are also applicable with slight modifications to the case with more
+candidate explanatory variables than observations. For this case, we provide
+mathematical programming models, propose new criteria, and develop heuristic
+algorithms based on mathematical programming.

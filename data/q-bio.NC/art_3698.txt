@@ -1,0 +1,22 @@
+Real-Time Cortical Simulation on Neuromorphic Hardware
+Real-time simulation of a large-scale biologically representative spiking
+neural network is presented, through the use of a heterogeneous parallelisation
+scheme and SpiNNaker neuromorphic hardware. A published cortical microcircuit
+model is used as a benchmark test case, representing approx. 1 square mm of
+early sensory cortex, containing 77k neurons and 0.3 billion synapses. This is
+the first true real-time simulation of this model, with 10 s of biological
+simulation time executed in 10 s wall-clock time. This surpasses best published
+efforts on HPC neural simulators (3x slowdown) and GPUs running optimised SNN
+libraries (2x slowdown). Furthermore, the presented approach indicates that
+real-time processing can be maintained with increasing SNN size, breaking the
+communication barrier incurred by traditional computing machinery. Model
+results are compared to an established HPC simulator baseline to verify
+simulation correctness, comparing well across a range of statistical measures.
+Energy to solution, and energy per synaptic event are also reported,
+demonstrating that the relatively low-tech SpiNNaker processors achieve a 10x
+reduction in energy relative to modern HPC systems, and comparable energy
+consumption to modern GPUs. Finally, system robustness is demonstrated through
+multiple 12 h simulations of the cortical microcircuit, each simulating 12 h of
+biological time, and demonstrating the potential of neuromorphic hardware as a
+neuroscience research tool for studying complex spiking neural networks over
+extended time periods.

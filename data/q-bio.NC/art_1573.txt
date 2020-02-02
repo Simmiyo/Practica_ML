@@ -1,0 +1,23 @@
+Nonlinear demixed component analysis for neural population data as a
+  low-rank kernel regression problem
+Here I introduce an extension to demixed principal component analysis (dPCA),
+a linear dimensionality reduction technique for analyzing the activity of
+neural populations, to the case of nonlinear components. This extension, kernel
+demixed principal component analysis (kdPCA), relies on kernel least-squares
+regression techniques, and it resembles kernel-based extensions to standard
+principal component analysis and canonical correlation analysis. kdPCA includes
+dPCA as a special case when the kernel is linear. I present simulated examples
+of high-dimensional neural activity generated from low-dimensional trajectories
+and compare the results of kdPCA to dPCA. These simulations demonstrate that
+neurally relevant nonlinearities - such as stimulus-dependent gain and
+rotations - impede the ability of dPCA to demix neural activity corresponding
+to experimental parameters. However, kdPCA can still recover interpretable
+components from such data. Additionally, I apply kdPCA to a neural population
+previously analyzed by dPCA from rat orbitofrontal cortex during an odor
+classification task in recovering decision-related activity. The components
+recovered by kdPCA achieve better generalization and demixing performance
+compared to dPCA by accounting for a nonlinear interaction between stimulus and
+decision in the neural activity. In conclusion, simple nonlinear interactions
+inhibit the ability of linear dimensionality reduction techniques to recover
+interpretable demixed components in neural data, but this problem can be
+tackled by nonlinear dimensionality reduction approaches like kdPCA.

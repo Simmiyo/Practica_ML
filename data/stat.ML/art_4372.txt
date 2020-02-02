@@ -1,0 +1,11 @@
+Prediction Scores as a Window into Classifier Behavior
+Most multi-class classifiers make their prediction for a test sample by
+scoring the classes and selecting the one with the highest score. Analyzing
+these prediction scores is useful to understand the classifier behavior and to
+assess its reliability. We present an interactive visualization that
+facilitates per-class analysis of these scores. Our system, called Classilist,
+enables relating these scores to the classification correctness and to the
+underlying samples and their features. We illustrate how such analysis reveals
+varying behavior of different classifiers. Classilist is available for use
+online, along with source code, video tutorials, and plugins for R, RapidMiner,
+and KNIME at https://katehara.github.io/classilist-site/.

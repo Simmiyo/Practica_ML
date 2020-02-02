@@ -1,0 +1,15 @@
+Robust Gaussian Filtering using a Pseudo Measurement
+Many sensors, such as range, sonar, radar, GPS and visual devices, produce
+measurements which are contaminated by outliers. This problem can be addressed
+by using fat-tailed sensor models, which account for the possibility of
+outliers. Unfortunately, all estimation algorithms belonging to the family of
+Gaussian filters (such as the widely-used extended Kalman filter and unscented
+Kalman filter) are inherently incompatible with such fat-tailed sensor models.
+The contribution of this paper is to show that any Gaussian filter can be made
+compatible with fat-tailed sensor models by applying one simple change: Instead
+of filtering with the physical measurement, we propose to filter with a pseudo
+measurement obtained by applying a feature function to the physical
+measurement. We derive such a feature function which is optimal under some
+conditions. Simulation results show that the proposed method can effectively
+handle measurement outliers and allows for robust filtering in both linear and
+nonlinear systems.

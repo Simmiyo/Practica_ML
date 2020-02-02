@@ -1,0 +1,16 @@
+Hilbert Space Embeddings of Predictive State Representations
+Predictive State Representations (PSRs) are an expressive class of models for
+controlled stochastic processes. PSRs represent state as a set of predictions
+of future observable events. Because PSRs are defined entirely in terms of
+observable data, statistically consistent estimates of PSR parameters can be
+learned efficiently by manipulating moments of observed training data. Most
+learning algorithms for PSRs have assumed that actions and observations are
+finite with low cardinality. In this paper, we generalize PSRs to infinite sets
+of observations and actions, using the recent concept of Hilbert space
+embeddings of distributions. The essence is to represent the state as a
+nonparametric conditional embedding operator in a Reproducing Kernel Hilbert
+Space (RKHS) and leverage recent work in kernel methods to estimate, predict,
+and update the representation. We show that these Hilbert space embeddings of
+PSRs are able to gracefully handle continuous actions and observations, and
+that our learned models outperform competing system identification algorithms
+on several prediction benchmarks.

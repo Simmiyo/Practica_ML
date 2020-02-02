@@ -1,0 +1,21 @@
+Extraction of hierarchical functional connectivity components in human
+  brain using resting-state fMRI
+The study of hierarchy in networks of the human brain has been of significant
+interest among the researchers as numerous studies have pointed out towards a
+functional hierarchical organization of the human brain. This paper provides a
+novel method for the extraction of hierarchical connectivity components in the
+human brain using resting-state fMRI. The method builds upon prior work of
+Sparse Connectivity Patterns (SCPs) by introducing a hierarchy of sparse
+overlapping patterns. The components are estimated by deep factorization of
+correlation matrices generated from fMRI. The goal of the paper is to extract
+interpretable hierarchical patterns using correlation matrices where a low rank
+decomposition is formed by a linear combination of a high rank decomposition.
+We formulate the decomposition as a non-convex optimization problem and solve
+it using gradient descent algorithms with adaptive step size. We also provide a
+method for the warm start of the gradient descent using singular value
+decomposition. We demonstrate the effectiveness of the developed method on two
+different real-world datasets by showing that multi-scale hierarchical SCPs are
+reproducible between sub-samples and are more reproducible as compared to
+single scale patterns. We also compare our method with existing hierarchical
+community detection approaches. Our method also provides novel insight into the
+functional organization of the human brain.

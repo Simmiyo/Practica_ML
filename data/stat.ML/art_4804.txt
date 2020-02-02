@@ -1,0 +1,15 @@
+Kernel-based Generative Learning in Distortion Feature Space
+This paper presents a novel kernel-based generative classifier which is
+defined in a distortion subspace using polynomial series expansion, named
+Kernel-Distortion (KD) classifier. An iterative kernel selection algorithm is
+developed to steadily improve classification performance by repeatedly removing
+and adding kernels. The experimental results on character recognition
+application not only show that the proposed generative classifier performs
+better than many existing classifiers, but also illustrate that it has
+different recognition capability compared to the state-of-the-art
+discriminative classifier - deep belief network. The recognition diversity
+indicates that a hybrid combination of the proposed generative classifier and
+the discriminative classifier could further improve the classification
+performance. Two hybrid combination methods, cascading and stacking, have been
+implemented to verify the diversity and the improvement of the proposed
+classifier.

@@ -1,0 +1,19 @@
+Racing to Learn: Statistical Inference and Learning in a Single Spiking
+  Neuron with Adaptive Kernels
+This paper describes the Synapto-dendritic Kernel Adapting Neuron (SKAN), a
+simple spiking neuron model that performs statistical inference and
+unsupervised learning of spatiotemporal spike patterns. SKAN is the first
+proposed neuron model to investigate the effects of dynamic synapto-dendritic
+kernels and demonstrate their computational power even at the single neuron
+scale. The rule-set defining the neuron is simple there are no complex
+mathematical operations such as normalization, exponentiation or even
+multiplication. The functionalities of SKAN emerge from the real-time
+interaction of simple additive and binary processes. Like a biological neuron,
+SKAN is robust to signal and parameter noise, and can utilize both in its
+operations. At the network scale neurons are locked in a race with each other
+with the fastest neuron to spike effectively hiding its learnt pattern from its
+neighbors. The robustness to noise, high speed and simple building blocks not
+only make SKAN an interesting neuron model in computational neuroscience, but
+also make it ideal for implementation in digital and analog neuromorphic
+systems which is demonstrated through an implementation in a Field Programmable
+Gate Array (FPGA).

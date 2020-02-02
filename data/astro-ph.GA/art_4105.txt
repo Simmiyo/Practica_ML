@@ -1,0 +1,23 @@
+A new code for orbit analysis and Schwarzschild modelling of triaxial
+  stellar systems
+We review the methods used to study the orbital structure and chaotic
+properties of various galactic models and to construct self-consistent
+equilibrium solutions by Schwarzschild's orbit superposition technique. These
+methods are implemented in a new publicly available software tool, SMILE, which
+is intended to be a convenient and interactive instrument for studying a
+variety of 2D and 3D models, including arbitrary potentials represented by a
+basis-set expansion, a spherical-harmonic expansion with coefficients being
+smooth functions of radius (splines), or a set of fixed point masses. We also
+propose two new variants of Schwarzschild modelling, in which the density of
+each orbit is represented by the coefficients of the basis-set or spline
+spherical-harmonic expansion, and the orbit weights are assigned in such a way
+as to reproduce the coefficients of the underlying density model. We explore
+the accuracy of these general-purpose potential expansions and show that they
+may be efficiently used to approximate a wide range of analytic density models
+and serve as smooth representations of discrete particle sets (e.g. snapshots
+from an N-body simulation), for instance, for the purpose of orbit analysis of
+the snapshot. For the variants of Schwarzschild modelling, we use two test
+cases - a triaxial Dehnen model containing a central black hole, and a model
+re-created from an N-body snapshot obtained by a cold collapse. These tests
+demonstrate that all modelling approaches are capable of creating equilibrium
+models.

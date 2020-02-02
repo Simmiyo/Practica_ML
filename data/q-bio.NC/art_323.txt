@@ -1,0 +1,21 @@
+Spiking input-output relation for general biophysical neuron models
+Cortical neurons include many sub-cellular processes, operating at multiple
+timescales, which may affect their response to stimulation through non-linear
+and stochastic interaction with ion channels and ionic concentrations. Since
+new processes are constantly being discovered, biophysical neuron models
+increasingly become "too complex to be useful" yet "too simple to be
+realistic". A fundamental open question in theoretical neuroscience pertains to
+how this deadlock may be resolved. In order to tackle this problem, we first
+define the notion of a "excitable neuron model". Then we analytically derive
+the input-output relation of such neuronal models, relating input spike trains
+to output spikes based on known biophysical properties. Thus we obtain
+closed-form expressions for the mean firing rates, all second order statistics
+(input-state-output correlation and spectra) and construct optimal linear
+estimators for the neuronal response and internal state. These results are
+guaranteed to hold, given a few generic assumptions, for any stochastic
+biophysical neuron model (with an arbitrary number of slow kinetic processes)
+under general sparse stimulation. This solution suggests that the common
+simplifying approach that ignores much of the complexity of the neuron might
+actually be unnecessary and even deleterious in some cases. Specifically, the
+stochasticity of ion channels and the temporal sparseness of inputs is exactly
+what rendered our analysis tractable, allowing us to incorporate slow kinetics.

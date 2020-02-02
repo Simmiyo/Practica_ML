@@ -1,0 +1,15 @@
+Predicting intelligence based on cortical WM/GM contrast, cortical
+  thickness and volumetry
+We propose a four-layer fully-connected neural network (FNN) for predicting
+fluid intelligence scores from T1-weighted MR images for the ABCD-challenge. In
+addition to the volumes of brain structures, the FNN uses cortical WM/GM
+contrast and cortical thickness at 78 cortical regions. These last two
+measurements were derived from the T1-weighted MR images using cortical
+surfaces produced by the CIVET pipeline. The age and gender of the subjects and
+the scanner manufacturer are also used as features for the learning algorithm.
+This yielded 283 features provided to the FNN with two hidden layers of 20 and
+15 nodes. The method was applied to the data from the ABCD study. Trained with
+a training set of 3736 subjects, the proposed method achieved a MSE of 71.596
+and a correlation of 0.151 in the validation set of 415 subjects. For the final
+submission, the model was trained with 3568 subjects and it achieved a MSE of
+94.0270 in the test set comprised of 4383 subjects.

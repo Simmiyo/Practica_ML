@@ -1,0 +1,23 @@
+Constraint-free Natural Image Reconstruction from fMRI Signals Based on
+  Convolutional Neural Network
+In recent years, research on decoding brain activity based on functional
+magnetic resonance imaging (fMRI) has made remarkable achievements. However,
+constraint-free natural image reconstruction from brain activity is still a
+challenge. The existing methods simplified the problem by using semantic prior
+information or just reconstructing simple images such as letters and digitals.
+Without semantic prior information, we present a novel method to reconstruct
+nature images from fMRI signals of human visual cortex based on the computation
+model of convolutional neural network (CNN). Firstly, we extracted the units
+output of viewed natural images in each layer of a pre-trained CNN as CNN
+features. Secondly, we transformed image reconstruction from fMRI signals into
+the problem of CNN feature visualizations by training a sparse linear
+regression to map from the fMRI patterns to CNN features. By iteratively
+optimization to find the matched image, whose CNN unit features become most
+similar to those predicted from the brain activity, we finally achieved the
+promising results for the challenging constraint-free natural image
+reconstruction. As there was no use of semantic prior information of the
+stimuli when training decoding model, any category of images (not constraint by
+the training set) could be reconstructed theoretically. We found that the
+reconstructed images resembled the natural stimuli, especially in position and
+shape. The experimental results suggest that hierarchical visual features can
+effectively express the visual perception process of human brain.

@@ -1,0 +1,12 @@
+Estimation of scale functions to model heteroscedasticity by support
+  vector machines
+A main goal of regression is to derive statistical conclusions on the
+conditional distribution of the output variable Y given the input values x. Two
+of the most important characteristics of a single distribution are location and
+scale. Support vector machines (SVMs) are well established to estimate location
+functions like the conditional median or the conditional mean. We investigate
+the estimation of scale functions by SVMs when the conditional median is
+unknown, too. Estimation of scale functions is important e.g. to estimate the
+volatility in finance. We consider the median absolute deviation (MAD) and the
+interquantile range (IQR) as measures of scale. Our main result shows the
+consistency of MAD-type SVMs.

@@ -1,0 +1,11 @@
+Accelerated Variance Reduced Block Coordinate Descent
+Algorithms with fast convergence, small number of data access, and low
+per-iteration complexity are particularly favorable in the big data era, due to
+the demand for obtaining \emph{highly accurate solutions} to problems with
+\emph{a large number of samples} in \emph{ultra-high} dimensional space.
+Existing algorithms lack at least one of these qualities, and thus are
+inefficient in handling such big data challenge. In this paper, we propose a
+method enjoying all these merits with an accelerated convergence rate
+$O(\frac{1}{k^2})$. Empirical studies on large scale datasets with more than
+one million features are conducted to show the effectiveness of our methods in
+practice.

@@ -1,0 +1,22 @@
+Maximum margin classifier working in a set of strings
+Numbers and numerical vectors account for a large portion of data. However,
+recently the amount of string data generated has increased dramatically.
+Consequently, classifying string data is a common problem in many fields. The
+most widely used approach to this problem is to convert strings into numerical
+vectors using string kernels and subsequently apply a support vector machine
+that works in a numerical vector space. However, this non-one-to-one conversion
+involves a loss of information and makes it impossible to evaluate, using
+probability theory, the generalization error of a learning machine, considering
+that the given data to train and test the machine are strings generated
+according to probability laws. In this study, we approach this classification
+problem by constructing a classifier that works in a set of strings. To
+evaluate the generalization error of such a classifier theoretically,
+probability theory for strings is required. Therefore, we first extend a limit
+theorem on the asymptotic behavior of a consensus sequence of strings, which is
+the counterpart of the mean of numerical vectors, as demonstrated in the
+probability theory on a metric space of strings developed by one of the authors
+and his colleague in a previous study [18]. Using the obtained result, we then
+demonstrate that our learning machine classifies strings in an asymptotically
+optimal manner. Furthermore, we demonstrate the usefulness of our machine in
+practical data analysis by applying it to predicting protein--protein
+interactions using amino acid sequences.

@@ -1,0 +1,19 @@
+Decoding multimodal behavior using time differences of MEG events
+Multimodal behavior involves multiple processing stations distributed across
+distant brain regions, but our understanding of how such distributed processing
+is coordinated in the brain is limited. Here we take a decoding approach to
+this problem, aiming to quantify how temporal aspects of brain-wide neural
+activity may be used to infer specific multimodal behaviors. Using high
+temporal resolution measurements by MEG, we detect bursts of activity from
+hundreds of locations across the surface of the brain at millisecond
+resolution. We then compare decoding using three characteristics of neural
+activity bursts, decoding with event counts, with latencies and with time
+differences between pairs of events. Training decoders in this regime is
+particularly challenging because the number of samples is smaller by orders of
+magnitude than the input dimensionality. We develop a new decoding approach for
+this regime that combines non-parametric modelling with aggressive feature
+selection. Surprisingly, we find that decoding using time-differences, based on
+thousands of region pairs, is significantly more accurate than using other
+activity characteristics, reaching 90% accuracy consistently across subjects.
+These results suggest that relevant information about multimodal brain function
+is provided by subtle time differences across remote brain areas.

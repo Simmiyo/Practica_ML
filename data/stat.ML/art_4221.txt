@@ -1,0 +1,14 @@
+Target contrastive pessimistic risk for robust domain adaptation
+In domain adaptation, classifiers with information from a source domain adapt
+to generalize to a target domain. However, an adaptive classifier can perform
+worse than a non-adaptive classifier due to invalid assumptions, increased
+sensitivity to estimation errors or model misspecification. Our goal is to
+develop a domain-adaptive classifier that is robust in the sense that it does
+not rely on restrictive assumptions on how the source and target domains relate
+to each other and that it does not perform worse than the non-adaptive
+classifier. We formulate a conservative parameter estimator that only deviates
+from the source classifier when a lower risk is guaranteed for all possible
+labellings of the given target samples. We derive the classical least-squares
+and discriminant analysis cases and show that these perform on par with
+state-of-the-art domain adaptive classifiers in sample selection bias settings,
+while outperforming them in more general domain adaptation settings.

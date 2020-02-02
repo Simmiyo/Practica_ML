@@ -1,0 +1,16 @@
+Multi-Domain Adversarial Learning for Slot Filling in Spoken Language
+  Understanding
+The goal of this paper is to learn cross-domain representations for slot
+filling task in spoken language understanding (SLU). Most of the recently
+published SLU models are domain-specific ones that work on individual task
+domains. Annotating data for each individual task domain is both financially
+costly and non-scalable. In this work, we propose an adversarial training
+method in learning common features and representations that can be shared
+across multiple domains. Model that produces such shared representations can be
+combined with models trained on individual domain SLU data to reduce the amount
+of training samples required for developing a new domain. In our experiments
+using data sets from multiple domains, we show that adversarial training helps
+in learning better domain-general SLU models, leading to improved slot filling
+F1 scores. We further show that applying adversarial learning on domain-general
+model also helps in achieving higher slot filling performance when the model is
+jointly optimized with domain-specific models.

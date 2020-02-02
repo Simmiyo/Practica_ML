@@ -1,0 +1,21 @@
+Gaussian Lower Bound for the Information Bottleneck Limit
+The Information Bottleneck (IB) is a conceptual method for extracting the
+most compact, yet informative, representation of a set of variables, with
+respect to the target. It generalizes the notion of minimal sufficient
+statistics from classical parametric statistics to a broader
+information-theoretic sense. The IB curve defines the optimal trade-off between
+representation complexity and its predictive power. Specifically, it is
+achieved by minimizing the level of mutual information (MI) between the
+representation and the original variables, subject to a minimal level of MI
+between the representation and the target. This problem is shown to be in
+general NP hard. One important exception is the multivariate Gaussian case, for
+which the Gaussian IB (GIB) is known to obtain an analytical closed form
+solution, similar to Canonical Correlation Analysis (CCA). In this work we
+introduce a Gaussian lower bound to the IB curve; we find an embedding of the
+data which maximizes its "Gaussian part", on which we apply the GIB. This
+embedding provides an efficient (and practical) representation of any arbitrary
+data-set (in the IB sense), which in addition holds the favorable properties of
+a Gaussian distribution. Importantly, we show that the optimal Gaussian
+embedding is bounded from above by non-linear CCA. This allows a fundamental
+limit for our ability to Gaussianize arbitrary data-sets and solve complex
+problems by linear methods.

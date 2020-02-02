@@ -1,0 +1,14 @@
+Scalable Group Level Probabilistic Sparse Factor Analysis
+Many data-driven approaches exist to extract neural representations of
+functional magnetic resonance imaging (fMRI) data, but most of them lack a
+proper probabilistic formulation. We propose a group level scalable
+probabilistic sparse factor analysis (psFA) allowing spatially sparse maps,
+component pruning using automatic relevance determination (ARD) and subject
+specific heteroscedastic spatial noise modeling. For task-based and resting
+state fMRI, we show that the sparsity constraint gives rise to components
+similar to those obtained by group independent component analysis. The noise
+modeling shows that noise is reduced in areas typically associated with
+activation by the experimental design. The psFA model identifies sparse
+components and the probabilistic setting provides a natural way to handle
+parameter uncertainties. The variational Bayesian framework easily extends to
+more complex noise models than the presently considered.

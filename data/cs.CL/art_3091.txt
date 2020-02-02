@@ -1,0 +1,13 @@
+Minimal Dependency Translation: a Framework for Computer-Assisted
+  Translation for Under-Resourced Languages
+This paper introduces Minimal Dependency Translation (MDT), an ongoing
+project to develop a rule-based framework for the creation of rudimentary
+bilingual lexicon-grammars for machine translation and computer-assisted
+translation into and out of under-resourced languages as well as initial steps
+towards an implementation of MDT for English-to-Amharic translation. The basic
+units in MDT, called groups, are headed multi-item sequences. In addition to
+wordforms, groups may contain lexemes, syntactic-semantic categories, and
+grammatical features. Each group is associated with one or more translations,
+each of which is a group in a target language. During translation, constraint
+satisfaction is used to select a set of source-language groups for the input
+sentence and to sequence the words in the associated target-language groups.

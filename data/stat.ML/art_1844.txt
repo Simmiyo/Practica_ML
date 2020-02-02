@@ -1,0 +1,17 @@
+Random Forests for Metric Learning with Implicit Pairwise Position
+  Dependence
+Metric learning makes it plausible to learn distances for complex
+distributions of data from labeled data. However, to date, most metric learning
+methods are based on a single Mahalanobis metric, which cannot handle
+heterogeneous data well. Those that learn multiple metrics throughout the space
+have demonstrated superior accuracy, but at the cost of computational
+efficiency. Here, we take a new angle to the metric learning problem and learn
+a single metric that is able to implicitly adapt its distance function
+throughout the feature space. This metric adaptation is accomplished by using a
+random forest-based classifier to underpin the distance function and
+incorporate both absolute pairwise position and standard relative position into
+the representation. We have implemented and tested our method against state of
+the art global and multi-metric methods on a variety of data sets. Overall, the
+proposed method outperforms both types of methods in terms of accuracy
+(consistently ranked first) and is an order of magnitude faster than state of
+the art multi-metric methods (16x faster in the worst case).

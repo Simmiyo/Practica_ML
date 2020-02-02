@@ -1,0 +1,14 @@
+Tensor machines for learning target-specific polynomial features
+Recent years have demonstrated that using random feature maps can
+significantly decrease the training and testing times of kernel-based
+algorithms without significantly lowering their accuracy. Regrettably, because
+random features are target-agnostic, typically thousands of such features are
+necessary to achieve acceptable accuracies. In this work, we consider the
+problem of learning a small number of explicit polynomial features. Our
+approach, named Tensor Machines, finds a parsimonious set of features by
+optimizing over the hypothesis class introduced by Kar and Karnick for random
+feature maps in a target-specific manner. Exploiting a natural connection
+between polynomials and tensors, we provide bounds on the generalization error
+of Tensor Machines. Empirically, Tensor Machines behave favorably on several
+real-world datasets compared to other state-of-the-art techniques for learning
+polynomial features, and deliver significantly more parsimonious models.

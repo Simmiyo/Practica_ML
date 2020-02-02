@@ -1,0 +1,16 @@
+On Optimistic versus Randomized Exploration in Reinforcement Learning
+We discuss the relative merits of optimistic and randomized approaches to
+exploration in reinforcement learning. Optimistic approaches presented in the
+literature apply an optimistic boost to the value estimate at each state-action
+pair and select actions that are greedy with respect to the resulting
+optimistic value function. Randomized approaches sample from among
+statistically plausible value functions and select actions that are greedy with
+respect to the random sample. Prior computational experience suggests that
+randomized approaches can lead to far more statistically efficient learning. We
+present two simple analytic examples that elucidate why this is the case. In
+principle, there should be optimistic approaches that fare well relative to
+randomized approaches, but that would require intractable computation.
+Optimistic approaches that have been proposed in the literature sacrifice
+statistical efficiency for the sake of computational efficiency. Randomized
+approaches, on the other hand, may enable simultaneous statistical and
+computational efficiency.

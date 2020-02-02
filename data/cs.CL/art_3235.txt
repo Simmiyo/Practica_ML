@@ -1,0 +1,12 @@
+Multi-Task Learning for Mental Health using Social Media Text
+We introduce initial groundwork for estimating suicide risk and mental health
+in a deep learning framework. By modeling multiple conditions, the system
+learns to make predictions about suicide risk and mental health at a low false
+positive rate. Conditions are modeled as tasks in a multi-task learning (MTL)
+framework, with gender prediction as an additional auxiliary task. We
+demonstrate the effectiveness of multi-task learning by comparison to a
+well-tuned single-task baseline with the same number of parameters. Our best
+MTL model predicts potential suicide attempt, as well as the presence of
+atypical mental health, with AUC > 0.8. We also find additional large
+improvements using multi-task learning on mental health tasks with limited
+training data.

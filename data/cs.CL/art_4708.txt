@@ -1,0 +1,12 @@
+Freezing Subnetworks to Analyze Domain Adaptation in Neural Machine
+  Translation
+To better understand the effectiveness of continued training, we analyze the
+major components of a neural machine translation system (the encoder, decoder,
+and each embedding space) and consider each component's contribution to, and
+capacity for, domain adaptation. We find that freezing any single component
+during continued training has minimal impact on performance, and that
+performance is surprisingly good when a single component is adapted while
+holding the rest of the model fixed. We also find that continued training does
+not move the model very far from the out-of-domain model, compared to a
+sensitivity analysis metric, suggesting that the out-of-domain model can
+provide a good generic initialization for the new domain.

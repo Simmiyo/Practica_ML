@@ -1,0 +1,23 @@
+General Latent Feature Models for Heterogeneous Datasets
+Latent feature modeling allows capturing the latent structure responsible for
+generating the observed properties of a set of objects. It is often used to
+make predictions either for new values of interest or missing information in
+the original data, as well as to perform data exploratory analysis. However,
+although there is an extensive literature on latent feature models for
+homogeneous datasets, where all the attributes that describe each object are of
+the same (continuous or discrete) nature, there is a lack of work on latent
+feature modeling for heterogeneous databases. In this paper, we introduce a
+general Bayesian nonparametric latent feature model suitable for heterogeneous
+datasets, where the attributes describing each object can be either discrete,
+continuous or mixed variables. The proposed model presents several important
+properties. First, it accounts for heterogeneous data while keeping the
+properties of conjugate models, which allow us to infer the model in linear
+time with respect to the number of objects and attributes. Second, its Bayesian
+nonparametric nature allows us to automatically infer the model complexity from
+the data, i.e., the number of features necessary to capture the latent
+structure in the data. Third, the latent features in the model are
+binary-valued variables, easing the interpretability of the obtained latent
+features in data exploratory analysis. We show the flexibility of the proposed
+model by solving both prediction and data analysis tasks on several real-world
+datasets. Moreover, a software package of the GLFM is publicly available for
+other researcher to use and improve it.

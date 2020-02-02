@@ -1,0 +1,20 @@
+Dynamic Screening: Accelerating First-Order Algorithms for the Lasso and
+  Group-Lasso
+Recent computational strategies based on screening tests have been proposed
+to accelerate algorithms addressing penalized sparse regression problems such
+as the Lasso. Such approaches build upon the idea that it is worth dedicating
+some small computational effort to locate inactive atoms and remove them from
+the dictionary in a preprocessing stage so that the regression algorithm
+working with a smaller dictionary will then converge faster to the solution of
+the initial problem. We believe that there is an even more efficient way to
+screen the dictionary and obtain a greater acceleration: inside each iteration
+of the regression algorithm, one may take advantage of the algorithm
+computations to obtain a new screening test for free with increasing screening
+effects along the iterations. The dictionary is henceforth dynamically screened
+instead of being screened statically, once and for all, before the first
+iteration. We formalize this dynamic screening principle in a general
+algorithmic scheme and apply it by embedding inside a number of first-order
+algorithms adapted existing screening tests to solve the Lasso or new screening
+tests to solve the Group-Lasso. Computational gains are assessed in a large set
+of experiments on synthetic data as well as real-world sounds and images. They
+show both the screening efficiency and the gain in terms running times.

@@ -1,0 +1,18 @@
+Estimating Nonlinear Dynamics with the ConvNet Smoother
+Estimating the state of a dynamical system from a series of noise-corrupted
+observations is fundamental in many areas of science and engineering. The most
+well-known method, the Kalman smoother (and the related Kalman filter), relies
+on assumptions of linearity and Gaussianity that are rarely met in practice. In
+this paper, we introduced a new dynamical smoothing method that exploits the
+remarkable capabilities of convolutional neural networks to approximate complex
+non-linear functions. The main idea is to generate a training set composed of
+both latent states and observations from an ensemble of simulators and to train
+the deep network to recover the former from the latter. Importantly, this
+method only requires the availability of the simulators and can therefore be
+applied in situations in which either the latent dynamical model or the
+observation model cannot be easily expressed in closed form. In our simulation
+studies, we show that the resulting ConvNet smoother has almost optimal
+performance in the Gaussian case even when the parameters are unknown.
+Furthermore, the method can be successfully applied to extremely non-linear and
+non-Gaussian systems. Finally, we empirically validate our approach via the
+analysis of measured brain signals.

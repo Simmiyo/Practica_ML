@@ -1,0 +1,13 @@
+Regression with Linear Factored Functions
+Many applications that use empirically estimated functions face a curse of
+dimensionality, because the integrals over most function classes must be
+approximated by sampling. This paper introduces a novel regression-algorithm
+that learns linear factored functions (LFF). This class of functions has
+structural properties that allow to analytically solve certain integrals and to
+calculate point-wise products. Applications like belief propagation and
+reinforcement learning can exploit these properties to break the curse and
+speed up computation. We derive a regularized greedy optimization scheme, that
+learns factored basis functions during training. The novel regression algorithm
+performs competitively to Gaussian processes on benchmark tasks, and the
+learned LFF functions are with 4-9 factored basis functions on average very
+compact.

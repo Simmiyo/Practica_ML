@@ -1,0 +1,25 @@
+RELEAF: An Algorithm for Learning and Exploiting Relevance
+Recommender systems, medical diagnosis, network security, etc., require
+on-going learning and decision-making in real time. These -- and many others --
+represent perfect examples of the opportunities and difficulties presented by
+Big Data: the available information often arrives from a variety of sources and
+has diverse features so that learning from all the sources may be valuable but
+integrating what is learned is subject to the curse of dimensionality. This
+paper develops and analyzes algorithms that allow efficient learning and
+decision-making while avoiding the curse of dimensionality. We formalize the
+information available to the learner/decision-maker at a particular time as a
+context vector which the learner should consider when taking actions. In
+general the context vector is very high dimensional, but in many settings, the
+most relevant information is embedded into only a few relevant dimensions. If
+these relevant dimensions were known in advance, the problem would be simple --
+but they are not. Moreover, the relevant dimensions may be different for
+different actions. Our algorithm learns the relevant dimensions for each
+action, and makes decisions based in what it has learned. Formally, we build on
+the structure of a contextual multi-armed bandit by adding and exploiting a
+relevance relation. We prove a general regret bound for our algorithm whose
+time order depends only on the maximum number of relevant dimensions among all
+the actions, which in the special case where the relevance relation is
+single-valued (a function), reduces to $\tilde{O}(T^{2(\sqrt{2}-1)})$; in the
+absence of a relevance relation, the best known contextual bandit algorithms
+achieve regret $\tilde{O}(T^{(D+1)/(D+2)})$, where $D$ is the full dimension of
+the context vector.

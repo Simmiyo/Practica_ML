@@ -1,0 +1,11 @@
+Learning Hierarchical Features from Generative Models
+Deep neural networks have been shown to be very successful at learning
+feature hierarchies in supervised learning tasks. Generative models, on the
+other hand, have benefited less from hierarchical models with multiple layers
+of latent variables. In this paper, we prove that hierarchical latent variable
+models do not take advantage of the hierarchical structure when trained with
+existing variational methods, and provide some limitations on the kind of
+features existing models can learn. Finally we propose an alternative
+architecture that do not suffer from these limitations. Our model is able to
+learn highly interpretable and disentangled hierarchical features on several
+natural image datasets with no task specific regularization or prior knowledge.

@@ -1,0 +1,20 @@
+TrueHappiness: Neuromorphic Emotion Recognition on TrueNorth
+We present an approach to constructing a neuromorphic device that responds to
+language input by producing neuron spikes in proportion to the strength of the
+appropriate positive or negative emotional response. Specifically, we perform a
+fine-grained sentiment analysis task with implementations on two different
+systems: one using conventional spiking neural network (SNN) simulators and the
+other one using IBM's Neurosynaptic System TrueNorth. Input words are projected
+into a high-dimensional semantic space and processed through a fully-connected
+neural network (FCNN) containing rectified linear units trained via
+backpropagation. After training, this FCNN is converted to a SNN by
+substituting the ReLUs with integrate-and-fire neurons. We show that there is
+practically no performance loss due to conversion to a spiking network on a
+sentiment analysis test set, i.e. correlations between predictions and human
+annotations differ by less than 0.02 comparing the original DNN and its spiking
+equivalent. Additionally, we show that the SNN generated with this technique
+can be mapped to existing neuromorphic hardware -- in our case, the TrueNorth
+chip. Mapping to the chip involves 4-bit synaptic weight discretization and
+adjustment of the neuron thresholds. The resulting end-to-end system can take a
+user input, i.e. a word in a vocabulary of over 300,000 words, and estimate its
+sentiment on TrueNorth with a power consumption of approximately 50 uW.

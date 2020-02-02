@@ -1,0 +1,18 @@
+Variable noise and dimensionality reduction for sparse Gaussian
+  processes
+The sparse pseudo-input Gaussian process (SPGP) is a new approximation method
+for speeding up GP regression in the case of a large number of data points N.
+The approximation is controlled by the gradient optimization of a small set of
+M `pseudo-inputs', thereby reducing complexity from N^3 to NM^2. One limitation
+of the SPGP is that this optimization space becomes impractically big for high
+dimensional data sets. This paper addresses this limitation by performing
+automatic dimensionality reduction. A projection of the input space to a low
+dimensional space is learned in a supervised manner, alongside the
+pseudo-inputs, which now live in this reduced space. The paper also
+investigates the suitability of the SPGP for modeling data with input-dependent
+noise. A further extension of the model is made to make it even more powerful
+in this regard - we learn an uncertainty parameter for each pseudo-input. The
+combination of sparsity, reduced dimension, and input-dependent noise makes it
+possible to apply GPs to much larger and more complex data sets than was
+previously practical. We demonstrate the benefits of these methods on several
+synthetic and real world problems.

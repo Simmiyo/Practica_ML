@@ -1,0 +1,16 @@
+Language understanding as a step towards human level intelligence -
+  automatizing the construction of the initial dictionary from example
+  sentences
+For a system to understand natural language, it needs to be able to take
+natural language text and answer questions given in natural language with
+respect to that text; it also needs to be able to follow instructions given in
+natural language. To achieve this, a system must be able to process natural
+language and be able to capture the knowledge within that text. Thus it needs
+to be able to translate natural language text into a formal language. We
+discuss our approach to do this, where the translation is achieved by composing
+the meaning of words in a sentence. Our initial approach uses an inverse lambda
+method that we developed (and other methods) to learn meaning of words from
+meaning of sentences and an initial lexicon. We then present an improved method
+where the initial lexicon is also learned by analyzing the training sentence
+and meaning pairs. We evaluate our methods and compare them with other existing
+methods on a corpora of database querying and robot command and control.

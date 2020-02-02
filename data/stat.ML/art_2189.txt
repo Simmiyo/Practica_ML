@@ -1,0 +1,15 @@
+A Generative Bayesian Model for Aggregating Experts' Probabilities
+In order to improve forecasts, a decisionmaker often combines probabilities
+given by various sources, such as human experts and machine learning
+classifiers. When few training data are available, aggregation can be improved
+by incorporating prior knowledge about the event being forecasted and about
+salient properties of the experts. To this end, we develop a generative
+Bayesian aggregation model for probabilistic classi cation. The model includes
+an event-specific prior, measures of individual experts' bias, calibration,
+accuracy, and a measure of dependence betweeen experts. Rather than require
+absolute measures, we show that aggregation may be expressed in terms of
+relative accuracy between experts. The model results in a weighted logarithmic
+opinion pool (LogOps) that satis es consistency criteria such as the external
+Bayesian property. We derive analytic solutions for independent and for
+exchangeable experts. Empirical tests demonstrate the model's use, comparing
+its accuracy with other aggregation methods.

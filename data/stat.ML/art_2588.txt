@@ -1,0 +1,20 @@
+Reference Distance Estimator
+A theoretical study is presented for a simple linear classifier called
+reference distance estimator (RDE), which assigns the weight of each feature j
+as P(r|j)-P(r), where r is a reference feature relevant to the target class y.
+The analysis shows that if r performs better than random guess in predicting y
+and is conditionally independent with each feature j, the RDE will have the
+same classification performance as that from P(y|j)-P(y), a classifier trained
+with the gold standard y. Since the estimation of P(r|j)-P(r) does not require
+labeled data, under the assumption above, RDE trained with a large number of
+unlabeled examples would be close to that trained with infinite labeled
+examples. For the case the assumption does not hold, we theoretically analyze
+the factors that influence the closeness of the RDE to the perfect one under
+the assumption, and present an algorithm to select reference features and
+combine multiple RDEs from different reference features using both labeled and
+unlabeled data. The experimental results on 10 text classification tasks show
+that the semi-supervised learning method improves supervised methods using
+5,000 labeled examples and 13 million unlabeled ones, and in many tasks, its
+performance is even close to a classifier trained with 13 million labeled
+examples. In addition, the bounds in the theorems provide good estimation of
+the classification performance and can be useful for new algorithm design.

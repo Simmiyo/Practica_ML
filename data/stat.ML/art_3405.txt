@@ -1,0 +1,12 @@
+On the Error of Random Fourier Features
+Kernel methods give powerful, flexible, and theoretically grounded approaches
+to solving many problems in machine learning. The standard approach, however,
+requires pairwise evaluations of a kernel function, which can lead to
+scalability issues for very large datasets. Rahimi and Recht (2007) suggested a
+popular approach to handling this problem, known as random Fourier features.
+The quality of this approximation, however, is not well understood. We improve
+the uniform error bound of that paper, as well as giving novel understandings
+of the embedding's variance, approximation error, and use in some machine
+learning methods. We also point out that surprisingly, of the two main variants
+of those features, the more widely used is strictly higher-variance for the
+Gaussian kernel and has worse bounds.

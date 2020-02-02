@@ -1,0 +1,20 @@
+Predictive Entropy Search for Multi-objective Bayesian Optimization with
+  Constraints
+This work presents PESMOC, Predictive Entropy Search for Multi-objective
+Bayesian Optimization with Constraints, an information-based strategy for the
+simultaneous optimization of multiple expensive-to-evaluate black-box functions
+under the presence of several constraints. PESMOC can hence be used to solve a
+wide range of optimization problems. Iteratively, PESMOC chooses an input
+location on which to evaluate the objective functions and the constraints so as
+to maximally reduce the entropy of the Pareto set of the corresponding
+optimization problem. The constraints considered in PESMOC are assumed to have
+similar properties to those of the objective functions in typical Bayesian
+optimization problems. That is, they do not have a known expression (which
+prevents gradient computation), their evaluation is considered to be very
+expensive, and the resulting observations may be corrupted by noise. These
+constraints arise in a plethora of expensive black-box optimization problems.
+We carry out synthetic experiments to illustrate the effectiveness of PESMOC,
+where we sample both the objectives and the constraints from a Gaussian process
+prior. The results obtained show that PESMOC is able to provide better
+recommendations with a smaller number of evaluations than a strategy based on
+random search.

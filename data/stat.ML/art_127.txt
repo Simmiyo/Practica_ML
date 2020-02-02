@@ -1,0 +1,11 @@
+Fast Convergence Rate of Multiple Kernel Learning with Elastic-net
+  Regularization
+We investigate the learning rate of multiple kernel leaning (MKL) with
+elastic-net regularization, which consists of an $\ell_1$-regularizer for
+inducing the sparsity and an $\ell_2$-regularizer for controlling the
+smoothness. We focus on a sparse setting where the total number of kernels is
+large but the number of non-zero components of the ground truth is relatively
+small, and prove that elastic-net MKL achieves the minimax learning rate on the
+$\ell_2$-mixed-norm ball. Our bound is sharper than the convergence rates ever
+shown, and has a property that the smoother the truth is, the faster the
+convergence rate is.

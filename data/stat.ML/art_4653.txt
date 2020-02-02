@@ -1,0 +1,19 @@
+Rank Ordered Autoencoders
+A new method for the unsupervised learning of sparse representations using
+autoencoders is proposed and implemented by ordering the output of the hidden
+units by their activation value and progressively reconstructing the input in
+this order. This can be done efficiently in parallel with the use of cumulative
+sums and sorting only slightly increasing the computational costs. Minimizing
+the difference of this progressive reconstruction with respect to the input can
+be seen as minimizing the number of active output units required for the
+reconstruction of the input. The model thus learns to reconstruct optimally
+using the least number of active output units. This leads to high sparsity
+without the need for extra hyperparameters, the amount of sparsity is instead
+implicitly learned by minimizing this progressive reconstruction error. Results
+of the trained model are given for patches of the CIFAR10 dataset, showing
+rapid convergence of features and extremely sparse output activations while
+maintaining a minimal reconstruction error and showing extreme robustness to
+overfitting. Additionally the reconstruction as function of number of active
+units is presented which shows the autoencoder learns a rank order code over
+the input where the highest ranked units correspond to the highest decrease in
+reconstruction error.

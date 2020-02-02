@@ -1,0 +1,22 @@
+Contrastive Structured Anomaly Detection for Gaussian Graphical Models
+Gaussian graphical models (GGMs) are probabilistic tools of choice for
+analyzing conditional dependencies between variables in complex systems.
+Finding changepoints in the structural evolution of a GGM is therefore
+essential to detecting anomalies in the underlying system modeled by the GGM.
+In order to detect structural anomalies in a GGM, we consider the problem of
+estimating changes in the precision matrix of the corresponding Gaussian
+distribution. We take a two-step approach to solving this problem:- (i)
+estimating a background precision matrix using system observations from the
+past without any anomalies, and (ii) estimating a foreground precision matrix
+using a sliding temporal window during anomaly monitoring. Our primary
+contribution is in estimating the foreground precision using a novel
+contrastive inverse covariance estimation procedure. In order to accurately
+learn only the structural changes to the GGM, we maximize a penalized
+log-likelihood where the penalty is the $l_1$ norm of difference between the
+foreground precision being estimated and the already learned background
+precision. We modify the alternating direction method of multipliers (ADMM)
+algorithm for sparse inverse covariance estimation to perform contrastive
+estimation of the foreground precision matrix. Our results on simulated GGM
+data show significant improvement in precision and recall for detecting
+structural changes to the GGM, compared to a non-contrastive sliding window
+baseline.

@@ -1,0 +1,19 @@
+Generalization of the event-based Carnevale-Hines integration scheme for
+  integrate-and-fire models
+An event-based integration scheme for an integrate-and-fire neuron model with
+exponentially decaying excitatory synaptic currents and double exponential
+inhibitory synaptic currents has recently been introduced by Carnevale and
+Hines. This integration scheme imposes non-physiological constraints on the
+time constants of the synaptic currents it attempts to model which hamper the
+general applicability. This paper addresses this problem in two ways. First, we
+provide physical arguments to show why these constraints on the time constants
+can be relaxed. Second, we give a formal proof showing which constraints can be
+abolished. This proof rests on a generalization of the Carnevale-Hines lemma,
+which is a new tool for comparing double exponentials as they naturally occur
+in many cascaded decay systems including receptor-neurotransmitter dissociation
+followed by channel closing. We show that this lemma can be generalized and
+subsequently used for lifting most of the original constraints on the time
+constants. Thus we show that the Carnevale-Hines integration scheme for the
+integrate-and-fire model can be employed for simulating a much wider range of
+neuron and synapse type combinations than is apparent from the original
+treatment.

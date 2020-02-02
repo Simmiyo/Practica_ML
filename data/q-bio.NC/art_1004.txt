@@ -1,0 +1,22 @@
+Classifying HCP Task-fMRI Networks Using Heat Kernels
+Network theory provides a principled abstraction of the human brain: reducing
+a complex system into a simpler representation from which to investigate brain
+organisation. Recent advancement in the neuroimaging field are towards
+representing brain connectivity as a dynamic process in order to gain a deeper
+understanding of the interplay between functional modules for efficient
+information transport. In this work, we employ heat kernels to model the
+process of energy diffusion in functional networks. We extract node-based,
+multi-scale features which describe the propagation of heat over 'time' which
+not only inform the importance of a node in the graph, but also incorporate
+local and global information of the underlying geometry of the network. As a
+proof-of-concept, we test the efficacy of two heat kernel features for
+discriminating between motor and working memory functional networks from the
+Human Connectome Project. For comparison, we also classified task networks
+using traditional network metrics which similarly provide rankings of node
+importance. In addition, a variant of the Smooth Incremental Graphical Lasso
+Estimation algorithm was used to estimate non-sparse, precision matrices to
+account for non-stationarity in the time series. We illustrate differences in
+heat kernel features between tasks, and also between regions of the brain.
+Using a random forest classifier, we showed heat kernel metrics to capture
+intrinsic properties of functional networks that serve well as features for
+task classification.

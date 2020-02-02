@@ -1,0 +1,22 @@
+UsingWord Embeddings for Query Translation for Hindi to English Cross
+  Language Information Retrieval
+Cross-Language Information Retrieval (CLIR) has become an important problem
+to solve in the recent years due to the growth of content in multiple languages
+in the Web. One of the standard methods is to use query translation from source
+to target language. In this paper, we propose an approach based on word
+embeddings, a method that captures contextual clues for a particular word in
+the source language and gives those words as translations that occur in a
+similar context in the target language. Once we obtain the word embeddings of
+the source and target language pairs, we learn a projection from source to
+target word embeddings, making use of a dictionary with word translation
+pairs.We then propose various methods of query translation and aggregation. The
+advantage of this approach is that it does not require the corpora to be
+aligned (which is difficult to obtain for resource-scarce languages), a
+dictionary with word translation pairs is enough to train the word vectors for
+translation. We experiment with Forum for Information Retrieval and Evaluation
+(FIRE) 2008 and 2012 datasets for Hindi to English CLIR. The proposed word
+embedding based approach outperforms the basic dictionary based approach by 70%
+and when the word embeddings are combined with the dictionary, the hybrid
+approach beats the baseline dictionary based method by 77%. It outperforms the
+English monolingual baseline by 15%, when combined with the translations
+obtained from Google Translate and Dictionary.

@@ -1,0 +1,21 @@
+Neural Simpletrons - Minimalistic Directed Generative Networks for
+  Learning with Few Labels
+Classifiers for the semi-supervised setting often combine strong supervised
+models with additional learning objectives to make use of unlabeled data. This
+results in powerful though very complex models that are hard to train and that
+demand additional labels for optimal parameter tuning, which are often not
+given when labeled data is very sparse. We here study a minimalistic
+multi-layer generative neural network for semi-supervised learning in a form
+and setting as similar to standard discriminative networks as possible. Based
+on normalized Poisson mixtures, we derive compact and local learning and neural
+activation rules. Learning and inference in the network can be scaled using
+standard deep learning tools for parallelized GPU implementation. With the
+single objective of likelihood optimization, both labeled and unlabeled data
+are naturally incorporated into learning. Empirical evaluations on standard
+benchmarks show, that for datasets with few labels the derived minimalistic
+network improves on all classical deep learning approaches and is competitive
+with their recent variants without the need of additional labels for parameter
+tuning. Furthermore, we find that the studied network is the best performing
+monolithic (`non-hybrid') system for few labels, and that it can be applied in
+the limit of very few labels, where no other system has been reported to
+operate so far.

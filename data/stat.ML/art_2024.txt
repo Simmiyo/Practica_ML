@@ -1,0 +1,11 @@
+Multi-View Learning over Structured and Non-Identical Outputs
+In many machine learning problems, labeled training data is limited but
+unlabeled data is ample. Some of these problems have instances that can be
+factored into multiple views, each of which is nearly sufficent in determining
+the correct labels. In this paper we present a new algorithm for probabilistic
+multi-view learning which uses the idea of stochastic agreement between views
+as regularization. Our algorithm works on structured and unstructured problems
+and easily generalizes to partial agreement scenarios. For the full agreement
+case, our algorithm minimizes the Bhattacharyya distance between the models of
+each view, and performs better than CoBoosting and two-view Perceptron on
+several flat and structured classification problems.

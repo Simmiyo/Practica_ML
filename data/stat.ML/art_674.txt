@@ -1,0 +1,15 @@
+Unbiased Bayesian Inference for Population Markov Jump Processes via
+  Random Truncations
+We consider continuous time Markovian processes where populations of
+individual agents interact stochastically according to kinetic rules. Despite
+the increasing prominence of such models in fields ranging from biology to
+smart cities, Bayesian inference for such systems remains challenging, as these
+are continuous time, discrete state systems with potentially infinite
+state-space. Here we propose a novel efficient algorithm for joint state /
+parameter posterior sampling in population Markov Jump processes. We introduce
+a class of pseudo-marginal sampling algorithms based on a random truncation
+method which enables a principled treatment of infinite state spaces. Extensive
+evaluation on a number of benchmark models shows that this approach achieves
+considerable savings compared to state of the art methods, retaining accuracy
+and fast convergence. We also present results on a synthetic biology data set
+showing the potential for practical usefulness of our work.

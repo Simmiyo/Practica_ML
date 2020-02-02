@@ -1,0 +1,12 @@
+Lasso based feature selection for malaria risk exposure prediction
+In life sciences, the experts generally use empirical knowledge to recode
+variables, choose interactions and perform selection by classical approach. The
+aim of this work is to perform automatic learning algorithm for variables
+selection which can lead to know if experts can be help in they decision or
+simply replaced by the machine and improve they knowledge and results. The
+Lasso method can detect the optimal subset of variables for estimation and
+prediction under some conditions. In this paper, we propose a novel approach
+which uses automatically all variables available and all interactions. By a
+double cross-validation combine with Lasso, we select a best subset of
+variables and with GLM through a simple cross-validation perform predictions.
+The algorithm assures the stability and the the consistency of estimators.

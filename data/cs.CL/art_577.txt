@@ -1,0 +1,10 @@
+Assessing Sentiment Strength in Words Prior Polarities
+Many approaches to sentiment analysis rely on lexica where words are tagged
+with their prior polarity - i.e. if a word out of context evokes something
+positive or something negative. In particular, broad-coverage resources like
+SentiWordNet provide polarities for (almost) every word. Since words can have
+multiple senses, we address the problem of how to compute the prior polarity of
+a word starting from the polarity of each sense and returning its polarity
+strength as an index between -1 and 1. We compare 14 such formulae that appear
+in the literature, and assess which one best approximates the human judgement
+of prior polarities, with both regression and classification models.

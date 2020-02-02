@@ -1,0 +1,15 @@
+CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
+In this paper, we introduce the \textbf{C}hinese \textbf{AI} and \textbf{L}aw
+challenge dataset (CAIL2018), the first large-scale Chinese legal dataset for
+judgment prediction. \dataset contains more than $2.6$ million criminal cases
+published by the Supreme People's Court of China, which are several times
+larger than other datasets in existing works on judgment prediction. Moreover,
+the annotations of judgment results are more detailed and rich. It consists of
+applicable law articles, charges, and prison terms, which are expected to be
+inferred according to the fact descriptions of cases. For comparison, we
+implement several conventional text classification baselines for judgment
+prediction and experimental results show that it is still a challenge for
+current models to predict the judgment results of legal cases, especially on
+prison terms. To help the researchers make improvements on legal judgment
+prediction, both \dataset and baselines will be released after the CAIL
+competition\footnote{http://cail.cipsc.org.cn/}.

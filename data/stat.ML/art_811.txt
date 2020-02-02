@@ -1,0 +1,19 @@
+Unsupervised clustering under the Union of Polyhedral Cones (UOPC) model
+In this paper, we consider clustering data that is assumed to come from one
+of finitely many pointed convex polyhedral cones. This model is referred to as
+the Union of Polyhedral Cones (UOPC) model. Similar to the Union of Subspaces
+(UOS) model where each data from each subspace is generated from a (unknown)
+basis, in the UOPC model each data from each cone is assumed to be generated
+from a finite number of (unknown) \emph{extreme rays}.To cluster data under
+this model, we consider several algorithms - (a) Sparse Subspace Clustering by
+Non-negative constraints Lasso (NCL), (b) Least squares approximation (LSA),
+and (c) K-nearest neighbor (KNN) algorithm to arrive at affinity between data
+points. Spectral Clustering (SC) is then applied on the resulting affinity
+matrix to cluster data into different polyhedral cones. We show that on an
+average KNN outperforms both NCL and LSA and for this algorithm we provide the
+deterministic conditions for correct clustering. For an affinity measure
+between the cones it is shown that as long as the cones are not very coherent
+and as long as the density of data within each cone exceeds a threshold, KNN
+leads to accurate clustering. Finally, simulation results on real datasets
+(MNIST and YaleFace datasets) depict that the proposed algorithm works well on
+real data indicating the utility of the UOPC model and the proposed algorithm.

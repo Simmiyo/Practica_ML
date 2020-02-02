@@ -1,0 +1,6 @@
+A Quantum Observable for the Graph Isomorphism Problem
+Suppose we are given two graphs on $n$ vertices. We define an observable in
+the Hilbert space $\Co[(S_n \wr S_2)^m]$ which returns the answer ``yes'' with
+certainty if the graphs are isomorphic and ``no'' with probability at least
+$1-n!/2^m$ if the graphs are not isomorphic. We do not know if this observable
+is efficiently implementable.

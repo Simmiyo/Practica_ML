@@ -1,0 +1,18 @@
+Parallel Implementation of Efficient Search Schemes for the Inference of
+  Cancer Progression Models
+The emergence and development of cancer is a consequence of the accumulation
+over time of genomic mutations involving a specific set of genes, which
+provides the cancer clones with a functional selective advantage. In this work,
+we model the order of accumulation of such mutations during the progression,
+which eventually leads to the disease, by means of probabilistic graphic
+models, i.e., Bayesian Networks (BNs). We investigate how to perform the task
+of learning the structure of such BNs, according to experimental evidence,
+adopting a global optimization meta-heuristics. In particular, in this work we
+rely on Genetic Algorithms, and to strongly reduce the execution time of the
+inference -- which can also involve multiple repetitions to collect
+statistically significant assessments of the data -- we distribute the
+calculations using both multi-threading and a multi-node architecture. The
+results show that our approach is characterized by good accuracy and
+specificity; we also demonstrate its feasibility, thanks to a 84x reduction of
+the overall execution time with respect to a traditional sequential
+implementation.

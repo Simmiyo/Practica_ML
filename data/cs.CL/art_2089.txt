@@ -1,0 +1,14 @@
+Neural Machine Transliteration: Preliminary Results
+Machine transliteration is the process of automatically transforming the
+script of a word from a source language to a target language, while preserving
+pronunciation. Sequence to sequence learning has recently emerged as a new
+paradigm in supervised learning. In this paper a character-based
+encoder-decoder model has been proposed that consists of two Recurrent Neural
+Networks. The encoder is a Bidirectional recurrent neural network that encodes
+a sequence of symbols into a fixed-length vector representation, and the
+decoder generates the target sequence using an attention-based recurrent neural
+network. The encoder, the decoder and the attention mechanism are jointly
+trained to maximize the conditional probability of a target sequence given a
+source sequence. Our experiments on different datasets show that the proposed
+encoder-decoder model is able to achieve significantly higher transliteration
+quality over traditional statistical models.

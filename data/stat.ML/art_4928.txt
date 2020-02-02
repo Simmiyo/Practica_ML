@@ -1,0 +1,15 @@
+Distributed learning with regularized least squares
+We study distributed learning with the least squares regularization scheme in
+a reproducing kernel Hilbert space (RKHS). By a divide-and-conquer approach,
+the algorithm partitions a data set into disjoint data subsets, applies the
+least squares regularization scheme to each data subset to produce an output
+function, and then takes an average of the individual output functions as a
+final global estimator or predictor. We show with error bounds in expectation
+in both the $L^2$-metric and RKHS-metric that the global output function of
+this distributed learning is a good approximation to the algorithm processing
+the whole data in one single machine. Our error bounds are sharp and stated in
+a general setting without any eigenfunction assumption. The analysis is
+achieved by a novel second order decomposition of operator differences in our
+integral operator approach. Even for the classical least squares regularization
+scheme in the RKHS associated with a general kernel, we give the best learning
+rate in the literature.

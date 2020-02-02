@@ -1,0 +1,12 @@
+Going off the Grid: Iterative Model Selection for Biclustered Matrix
+  Completion
+We consider the problem of performing matrix completion with side information
+on row-by-row and column-by-column similarities. We build upon recent proposals
+for matrix estimation with smoothness constraints with respect to row and
+column graphs. We present a novel iterative procedure for directly minimizing
+an information criterion in order to select an appropriate amount row and
+column smoothing, namely perform model selection. We also discuss how to
+exploit the special structure of the problem to scale up the estimation and
+model selection procedure via the Hutchinson estimator. We present simulation
+results and an application to predicting associations in imaging-genomics
+studies.

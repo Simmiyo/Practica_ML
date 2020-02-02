@@ -1,0 +1,18 @@
+Revised Note on Learning Algorithms for Quadratic Assignment with Graph
+  Neural Networks
+Inverse problems correspond to a certain type of optimization problems
+formulated over appropriate input distributions. Recently, there has been a
+growing interest in understanding the computational hardness of these
+optimization problems, not only in the worst case, but in an average-complexity
+sense under this same input distribution.
+  In this revised note, we are interested in studying another aspect of
+hardness, related to the ability to learn how to solve a problem by simply
+observing a collection of previously solved instances. These 'planted
+solutions' are used to supervise the training of an appropriate predictive
+model that parametrizes a broad class of algorithms, with the hope that the
+resulting model will provide good accuracy-complexity tradeoffs in the average
+sense.
+  We illustrate this setup on the Quadratic Assignment Problem, a fundamental
+problem in Network Science. We observe that data-driven models based on Graph
+Neural Networks offer intriguingly good performance, even in regimes where
+standard relaxation based techniques appear to suffer.

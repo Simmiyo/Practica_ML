@@ -1,0 +1,20 @@
+Group Invariance, Stability to Deformations, and Complexity of Deep
+  Convolutional Representations
+The success of deep convolutional architectures is often attributed in part
+to their ability to learn multiscale and invariant representations of natural
+signals. However, a precise study of these properties and how they affect
+learning guarantees is still missing. In this paper, we consider deep
+convolutional representations of signals; we study their invariance to
+translations and to more general groups of transformations, their stability to
+the action of diffeomorphisms, and their ability to preserve signal
+information. This analysis is carried by introducing a multilayer kernel based
+on convolutional kernel networks and by studying the geometry induced by the
+kernel mapping. We then characterize the corresponding reproducing kernel
+Hilbert space (RKHS), showing that it contains a large class of convolutional
+neural networks with homogeneous activation functions. This analysis allows us
+to separate data representation from learning, and to provide a canonical
+measure of model complexity, the RKHS norm, which controls both stability and
+generalization of any learned model. In addition to models in the constructed
+RKHS, our stability analysis also applies to convolutional networks with
+generic activations such as rectified linear units, and we discuss its
+relationship with recent generalization bounds based on spectral norms.

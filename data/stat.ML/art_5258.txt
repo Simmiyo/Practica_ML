@@ -1,0 +1,19 @@
+Truncated Variational EM for Semi-Supervised Neural Simpletrons
+Inference and learning for probabilistic generative networks is often very
+challenging and typically prevents scalability to as large networks as used for
+deep discriminative approaches. To obtain efficiently trainable, large-scale
+and well performing generative networks for semi-supervised learning, we here
+combine two recent developments: a neural network reformulation of hierarchical
+Poisson mixtures (Neural Simpletrons), and a novel truncated variational EM
+approach (TV-EM). TV-EM provides theoretical guarantees for learning in
+generative networks, and its application to Neural Simpletrons results in
+particularly compact, yet approximately optimal, modifications of learning
+equations. If applied to standard benchmarks, we empirically find, that
+learning converges in fewer EM iterations, that the complexity per EM iteration
+is reduced, and that final likelihood values are higher on average. For the
+task of classification on data sets with few labels, learning improvements
+result in consistently lower error rates if compared to applications without
+truncation. Experiments on the MNIST data set herein allow for comparison to
+standard and state-of-the-art models in the semi-supervised setting. Further
+experiments on the NIST SD19 data set show the scalability of the approach when
+a manifold of additional unlabeled data is available.

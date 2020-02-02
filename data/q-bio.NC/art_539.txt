@@ -1,0 +1,27 @@
+Learning of Precise Spike Times with Membrane Potential Dependent
+  Synaptic Plasticity
+Precise spatio-temporal patterns of neuronal action potentials underly e.g.
+sensory representations and control of muscle activities. However, it is not
+known how the synaptic efficacies in the neuronal networks of the brain adapt
+such that they can reliably generate spikes at specific points in time.
+Existing activity-dependent plasticity rules like Spike-Timing-Dependent
+Plasticity are agnostic to the goal of learning spike times. On the other hand,
+the existing formal and supervised learning algorithms perform a temporally
+precise comparison of projected activity with the target, but there is no known
+biologically plausible implementation of this comparison. Here, we propose a
+simple and local unsupervised synaptic plasticity mechanism that is derived
+from the requirement of a balanced membrane potential. Since the relevant
+signal for synaptic change is the postsynaptic voltage rather than spike times,
+we call the plasticity rule Membrane Potential Dependent Plasticity (MPDP).
+Combining our plasticity mechanism with spike after-hyperpolarization causes a
+sensitivity of synaptic change to pre- and postsynaptic spike times which can
+reproduce Hebbian spike timing dependent plasticity for inhibitory synapses as
+was found in experiments. In addition, the sensitivity of MPDP to the time
+course of the voltage when generating a spike allows MPDP to distinguish
+between weak (spurious) and strong (teacher) spikes, which therefore provides a
+neuronal basis for the comparison of actual and target activity. For
+spatio-temporal input spike patterns our conceptually simple plasticity rule
+achieves a surprisingly high storage capacity for spike associations. The
+sensitivity of the MPDP to the subthreshold membrane potential during training
+allows robust memory retrieval after learning even in the presence of activity
+corrupted by noise.

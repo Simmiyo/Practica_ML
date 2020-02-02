@@ -1,0 +1,12 @@
+Exact covariance thresholding into connected components for large-scale
+  Graphical Lasso
+We consider the sparse inverse covariance regularization problem or graphical
+lasso with regularization parameter $\rho$. Suppose the co- variance graph
+formed by thresholding the entries of the sample covariance matrix at $\rho$ is
+decomposed into connected components. We show that the vertex-partition induced
+by the thresholded covariance graph is exactly equal to that induced by the
+estimated concentration graph. This simple rule, when used as a wrapper around
+existing algorithms, leads to enormous performance gains. For large values of
+$\rho$, our proposal splits a large graphical lasso problem into smaller
+tractable problems, making it possible to solve an otherwise infeasible large
+scale graphical lasso problem.

@@ -1,0 +1,14 @@
+The Knowledge Gradient with Logistic Belief Models for Binary
+  Classification
+We consider sequential decision making problems for binary classification
+scenario in which the learner takes an active role in repeatedly selecting
+samples from the action pool and receives the binary label of the selected
+alternatives. Our problem is motivated by applications where observations are
+time consuming and/or expensive, resulting in small samples. The goal is to
+identify the best alternative with the highest response. We use Bayesian
+logistic regression to predict the response of each alternative. By formulating
+the problem as a Markov decision process, we develop a knowledge-gradient type
+policy to guide the experiment by maximizing the expected value of information
+of labeling each alternative and provide a finite-time analysis on the
+estimated error. Experiments on benchmark UCI datasets demonstrate the
+effectiveness of the proposed method.

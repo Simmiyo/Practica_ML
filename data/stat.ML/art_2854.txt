@@ -1,0 +1,20 @@
+Stable Graphical Models
+Stable random variables are motivated by the central limit theorem for
+densities with (potentially) unbounded variance and can be thought of as
+natural generalizations of the Gaussian distribution to skewed and heavy-tailed
+phenomenon. In this paper, we introduce stable graphical (SG) models, a class
+of multivariate stable densities that can also be represented as Bayesian
+networks whose edges encode linear dependencies between random variables. One
+major hurdle to the extensive use of stable distributions is the lack of a
+closed-form analytical expression for their densities. This makes penalized
+maximum-likelihood based learning computationally demanding. We establish
+theoretically that the Bayesian information criterion (BIC) can asymptotically
+be reduced to the computationally more tractable minimum dispersion criterion
+(MDC) and develop StabLe, a structure learning algorithm based on MDC. We use
+simulated datasets for five benchmark network topologies to empirically
+demonstrate how StabLe improves upon ordinary least squares (OLS) regression.
+We also apply StabLe to microarray gene expression data for lymphoblastoid
+cells from 727 individuals belonging to eight global population groups. We
+establish that StabLe improves test set performance relative to OLS via
+ten-fold cross-validation. Finally, we develop SGEX, a method for quantifying
+differential expression of genes between different population groups.

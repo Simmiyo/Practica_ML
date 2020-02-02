@@ -1,0 +1,10 @@
+A Bayesian Matrix Factorization Model for Relational Data
+Relational learning can be used to augment one data source with other
+correlated sources of information, to improve predictive accuracy. We frame a
+large class of relational learning problems as matrix factorization problems,
+and propose a hierarchical Bayesian model. Training our Bayesian model using
+random-walk Metropolis-Hastings is impractically slow, and so we develop a
+block Metropolis-Hastings sampler which uses the gradient and Hessian of the
+likelihood to dynamically tune the proposal. We demonstrate that a predictive
+model of brain response to stimuli can be improved by augmenting it with side
+information about the stimuli.

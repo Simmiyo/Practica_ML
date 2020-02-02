@@ -1,0 +1,22 @@
+Recognizing recurrent neural networks (rRNN): Bayesian inference for
+  recurrent neural networks
+Recurrent neural networks (RNNs) are widely used in computational
+neuroscience and machine learning applications. In an RNN, each neuron computes
+its output as a nonlinear function of its integrated input. While the
+importance of RNNs, especially as models of brain processing, is undisputed, it
+is also widely acknowledged that the computations in standard RNN models may be
+an over-simplification of what real neuronal networks compute. Here, we suggest
+that the RNN approach may be made both neurobiologically more plausible and
+computationally more powerful by its fusion with Bayesian inference techniques
+for nonlinear dynamical systems. In this scheme, we use an RNN as a generative
+model of dynamic input caused by the environment, e.g. of speech or kinematics.
+Given this generative RNN model, we derive Bayesian update equations that can
+decode its output. Critically, these updates define a 'recognizing RNN' (rRNN),
+in which neurons compute and exchange prediction and prediction error messages.
+The rRNN has several desirable features that a conventional RNN does not have,
+for example, fast decoding of dynamic stimuli and robustness to initial
+conditions and noise. Furthermore, it implements a predictive coding scheme for
+dynamic inputs. We suggest that the Bayesian inversion of recurrent neural
+networks may be useful both as a model of brain function and as a machine
+learning tool. We illustrate the use of the rRNN by an application to the
+online decoding (i.e. recognition) of human kinematics.

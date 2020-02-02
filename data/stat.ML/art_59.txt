@@ -1,0 +1,11 @@
+Structured Sparse Principal Component Analysis
+We present an extension of sparse PCA, or sparse dictionary learning, where
+the sparsity patterns of all dictionary elements are structured and constrained
+to belong to a prespecified set of shapes. This \emph{structured sparse PCA} is
+based on a structured regularization recently introduced by [1]. While
+classical sparse priors only deal with \textit{cardinality}, the regularization
+we use encodes higher-order information about the data. We propose an efficient
+and simple optimization procedure to solve this problem. Experiments with two
+practical tasks, face recognition and the study of the dynamics of a protein
+complex, demonstrate the benefits of the proposed structured approach over
+unstructured approaches.

@@ -1,0 +1,13 @@
+Causal Discovery with Continuous Additive Noise Models
+We consider the problem of learning causal directed acyclic graphs from an
+observational joint distribution. One can use these graphs to predict the
+outcome of interventional experiments, from which data are often not available.
+We show that if the observational distribution follows a structural equation
+model with an additive noise structure, the directed acyclic graph becomes
+identifiable from the distribution under mild conditions. This constitutes an
+interesting alternative to traditional methods that assume faithfulness and
+identify only the Markov equivalence class of the graph, thus leaving some
+edges undirected. We provide practical algorithms for finitely many samples,
+RESIT (Regression with Subsequent Independence Test) and two methods based on
+an independence score. We prove that RESIT is correct in the population setting
+and provide an empirical evaluation.

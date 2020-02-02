@@ -1,0 +1,16 @@
+Causal nearest neighbor rules for optimal treatment regimes
+The estimation of optimal treatment regimes is of considerable interest to
+precision medicine. In this work, we propose a causal $k$-nearest neighbor
+method to estimate the optimal treatment regime. The method roots in the
+framework of causal inference, and estimates the causal treatment effects
+within the nearest neighborhood. Although the method is simple, it possesses
+nice theoretical properties. We show that the causal $k$-nearest neighbor
+regime is universally consistent. That is, the causal $k$-nearest neighbor
+regime will eventually learn the optimal treatment regime as the sample size
+increases. We also establish its convergence rate. However, the causal
+$k$-nearest neighbor regime may suffer from the curse of dimensionality, i.e.
+performance deteriorates as dimensionality increases. To alleviate this
+problem, we develop an adaptive causal $k$-nearest neighbor method to perform
+metric selection and variable selection simultaneously. The performance of the
+proposed methods is illustrated in simulation studies and in an analysis of a
+chronic depression clinical trial.

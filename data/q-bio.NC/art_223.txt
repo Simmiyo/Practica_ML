@@ -1,0 +1,19 @@
+Sequence reproduction, single trial learning, and mimicry based on a
+  mammalian-like distributed code for time
+Animals learn tasks requiring a sequence of actions over time. Waiting a
+given time before taking an action is a simple example. Mimicry is a complex
+example, e.g. in humans, humming a brief tune you have just heard.
+Re-experiencing a sensory pattern mentally must involve reproducing a sequence
+of neural activities over time. In mammals, neurons in prefrontal cortex have
+time-dependent firing rates that vary smoothly and slowly in a stereotyped
+fashion. We show through modeling that a Many are Equal computation can use
+such slowly-varying activities to identify each timepoint in a sequence by the
+population pattern of activity at the timepoint. The MAE operation implemented
+here is facilitated by a common inhibitory conductivity due to a theta rhythm.
+Sequences of analog values of discrete events, exemplified by a brief tune
+having notes of different durations and intensities, can be learned in a single
+trial through STDP. An action sequence can be played back sped up, slowed down,
+or reversed by modulating the system that generates the slowly changing
+stereotyped activities. Synaptic adaptation and cellular post-hyperpolarization
+rebound contribute to robustness. An ability to mimic a sequence only seconds
+after observing it requires the STDP to be effective within seconds.

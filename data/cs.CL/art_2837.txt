@@ -1,0 +1,15 @@
+Low-Rank Hidden State Embeddings for Viterbi Sequence Labeling
+In textual information extraction and other sequence labeling tasks it is now
+common to use recurrent neural networks (such as LSTM) to form rich embedded
+representations of long-term input co-occurrence patterns. Representation of
+output co-occurrence patterns is typically limited to a hand-designed graphical
+model, such as a linear-chain CRF representing short-term Markov dependencies
+among successive labels. This paper presents a method that learns embedded
+representations of latent output structure in sequence data. Our model takes
+the form of a finite-state machine with a large number of latent states per
+label (a latent variable CRF), where the state-transition matrix is
+factorized---effectively forming an embedded representation of
+state-transitions capable of enforcing long-term label dependencies, while
+supporting exact Viterbi inference over output labels. We demonstrate accuracy
+improvements and interpretable latent structure in a synthetic but complex task
+based on CoNLL named entity recognition.

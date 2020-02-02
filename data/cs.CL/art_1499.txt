@@ -1,0 +1,23 @@
+Keyword-based Query Comprehending via Multiple Optimized-Demand
+  Augmentation
+In this paper, we consider the problem of machine reading task when the
+questions are in the form of keywords, rather than natural language. In recent
+years, researchers have achieved significant success on machine reading
+comprehension tasks, such as SQuAD and TriviaQA. These datasets provide a
+natural language question sentence and a pre-selected passage, and the goal is
+to answer the question according to the passage. However, in the situation of
+interacting with machines by means of text, people are more likely to raise a
+query in form of several keywords rather than a complete sentence. The
+keyword-based query comprehension is a new challenge, because small variations
+to a question may completely change its semantical information, thus yield
+different answers. In this paper, we propose a novel neural network system that
+consists a Demand Optimization Model based on a passage-attention neural
+machine translation and a Reader Model that can find the answer given the
+optimized question. The Demand Optimization Model optimizes the original query
+and output multiple reconstructed questions, then the Reader Model takes the
+new questions as input and locate the answers from the passage. To make
+predictions robust, an evaluation mechanism will score the reconstructed
+questions so the final answer strike a good balance between the quality of both
+the Demand Optimization Model and the Reader Model. Experimental results on
+several datasets show that our framework significantly improves multiple strong
+baselines on this challenging task.

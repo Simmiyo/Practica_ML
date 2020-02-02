@@ -1,0 +1,13 @@
+A Mutually-Dependent Hadamard Kernel for Modelling Latent Variable
+  Couplings
+We introduce a novel kernel that models input-dependent couplings across
+multiple latent processes. The pairwise joint kernel measures covariance along
+inputs and across different latent signals in a mutually-dependent fashion. A
+latent correlation Gaussian process (LCGP) model combines these non-stationary
+latent components into multiple outputs by an input-dependent mixing matrix.
+Probit classification and support for multiple observation sets are derived by
+Variational Bayesian inference. Results on several datasets indicate that the
+LCGP model can recover the correlations between latent signals while
+simultaneously achieving state-of-the-art performance. We highlight the latent
+covariances with an EEG classification dataset where latent brain processes and
+their couplings simultaneously emerge from the model.

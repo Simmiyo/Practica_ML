@@ -1,0 +1,23 @@
+The Ising decoder: reading out the activity of large neural ensembles
+The Ising Model has recently received much attention for the statistical
+description of neural spike train data. In this paper, we propose and
+demonstrate its use for building decoders capable of predicting, on a
+millisecond timescale, the stimulus represented by a pattern of neural
+activity. After fitting to a training dataset, the Ising decoder can be applied
+"online" for instantaneous decoding of test data. While such models can be fit
+exactly using Boltzmann learning, this approach rapidly becomes computationally
+intractable as neural ensemble size increases. We show that several approaches,
+including the Thouless-Anderson-Palmer (TAP) mean field approach from
+statistical physics, and the recently developed Minimum Probability Flow
+Learning (MPFL) algorithm, can be used for rapid inference of model parameters
+in large-scale neural ensembles. Use of the Ising model for decoding, unlike
+other problems such as functional connectivity estimation, requires estimation
+of the partition function. As this involves summation over all possible
+responses, this step can be limiting. Mean field approaches avoid this problem
+by providing an analytical expression for the partition function. We
+demonstrate these decoding techniques by applying them to simulated neural
+ensemble responses from a mouse visual cortex model, finding an improvement in
+decoder performance for a model with heterogeneous as opposed to homogeneous
+neural tuning and response properties. Our results demonstrate the practicality
+of using the Ising model to read out, or decode, spatial patterns of activity
+comprised of many hundreds of neurons.

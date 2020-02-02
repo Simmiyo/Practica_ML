@@ -1,0 +1,17 @@
+Adaptive matching pursuit for sparse signal recovery
+Spike and Slab priors have been of much recent interest in signal processing
+as a means of inducing sparsity in Bayesian inference. Applications domains
+that benefit from the use of these priors include sparse recovery, regression
+and classification. It is well-known that solving for the sparse coefficient
+vector to maximize these priors results in a hard non-convex and mixed integer
+programming problem. Most existing solutions to this optimization problem
+either involve simplifying assumptions/relaxations or are computationally
+expensive. We propose a new greedy and adaptive matching pursuit (AMP)
+algorithm to directly solve this hard problem. Essentially, in each step of the
+algorithm, the set of active elements would be updated by either adding or
+removing one index, whichever results in better improvement. In addition, the
+intermediate steps of the algorithm are calculated via an inexpensive Cholesky
+decomposition which makes the algorithm much faster. Results on simulated data
+sets as well as real-world image recovery challenges confirm the benefits of
+the proposed AMP, particularly in providing a superior cost-quality trade-off
+over existing alternatives.

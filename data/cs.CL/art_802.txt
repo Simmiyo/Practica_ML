@@ -1,0 +1,15 @@
+Detection is the central problem in real-word spelling correction
+Real-word spelling correction differs from non-word spelling correction in
+its aims and its challenges. Here we show that the central problem in real-word
+spelling correction is detection. Methods from non-word spelling correction,
+which focus instead on selection among candidate corrections, do not address
+detection adequately, because detection is either assumed in advance or heavily
+constrained. As we demonstrate in this paper, merely discriminating between the
+intended word and a random close variation of it within the context of a
+sentence is a task that can be performed with high accuracy using
+straightforward models. Trigram models are sufficient in almost all cases. The
+difficulty comes when every word in the sentence is a potential error, with a
+large set of possible candidate corrections. Despite their strengths, trigram
+models cannot reliably find true errors without introducing many more, at least
+not when used in the obvious sequential way without added structure. The
+detection task exposes weakness not visible in the selection task.

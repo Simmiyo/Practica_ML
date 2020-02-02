@@ -1,0 +1,13 @@
+Splitting Compounds by Semantic Analogy
+Compounding is a highly productive word-formation process in some languages
+that is often problematic for natural language processing applications. In this
+paper, we investigate whether distributional semantics in the form of word
+embeddings can enable a deeper, i.e., more knowledge-rich, processing of
+compounds than the standard string-based methods. We present an unsupervised
+approach that exploits regularities in the semantic vector space (based on
+analogies such as "bookshop is to shop as bookshelf is to shelf") to produce
+compound analyses of high quality. A subsequent compound splitting algorithm
+based on these analyses is highly effective, particularly for ambiguous
+compounds. German to English machine translation experiments show that this
+semantic analogy-based compound splitter leads to better translations than a
+commonly used frequency-based method.

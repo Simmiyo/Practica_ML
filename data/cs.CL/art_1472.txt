@@ -1,0 +1,23 @@
+End-to-end Conversation Modeling Track in DSTC6
+End-to-end training of neural networks is a promising approach to automatic
+construction of dialog systems using a human-to-human dialog corpus. Recently,
+Vinyals et al. tested neural conversation models using OpenSubtitles. Lowe et
+al. released the Ubuntu Dialogue Corpus for researching unstructured multi-turn
+dialogue systems. Furthermore, the approach has been extended to accomplish
+task oriented dialogs to provide information properly with natural
+conversation. For example, Ghazvininejad et al. proposed a knowledge grounded
+neural conversation model [3], where the research is aiming at combining
+conversational dialogs with task-oriented knowledge using unstructured data
+such as Twitter data for conversation and Foursquare data for external
+knowledge.However, the task is still limited to a restaurant information
+service, and has not yet been tested with a wide variety of dialog tasks. In
+addition, it is still unclear how to create intelligent dialog systems that can
+respond like a human agent.
+  In consideration of these problems, we proposed a challenge track to the 6th
+dialog system technology challenges (DSTC6) using human-to-human dialog data to
+mimic human dialog behaviors. The focus of the challenge track is to train
+end-to-end conversation models from human-to-human conversation and accomplish
+end-to-end dialog tasks in various situations assuming a customer service, in
+which a system plays a role of human agent and generates natural and
+informative sentences in response to user's questions or comments given dialog
+context.

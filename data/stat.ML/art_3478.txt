@@ -1,0 +1,27 @@
+Homotopy Continuation Approaches for Robust SV Classification and
+  Regression
+In support vector machine (SVM) applications with unreliable data that
+contains a portion of outliers, non-robustness of SVMs often causes
+considerable performance deterioration. Although many approaches for improving
+the robustness of SVMs have been studied, two major challenges remain in robust
+SVM learning. First, robust learning algorithms are essentially formulated as
+non-convex optimization problems. It is thus important to develop a non-convex
+optimization method for robust SVM that can find a good local optimal solution.
+The second practical issue is how one can tune the hyperparameter that controls
+the balance between robustness and efficiency. Unfortunately, due to the
+non-convexity, robust SVM solutions with slightly different hyper-parameter
+values can be significantly different, which makes model selection highly
+unstable. In this paper, we address these two issues simultaneously by
+introducing a novel homotopy approach to non-convex robust SVM learning. Our
+basic idea is to introduce parametrized formulations of robust SVM which bridge
+the standard SVM and fully robust SVM via the parameter that represents the
+influence of outliers. We characterize the necessary and sufficient conditions
+of the local optimal solutions of robust SVM, and develop an algorithm that can
+trace a path of local optimal solutions when the influence of outliers is
+gradually decreased. An advantage of our homotopy approach is that it can be
+interpreted as simulated annealing, a common approach for finding a good local
+optimal solution in non-convex optimization problems. In addition, our homotopy
+method allows stable and efficient model selection based on the path of local
+optimal solutions. Empirical performances of the proposed approach are
+demonstrated through intensive numerical experiments both on robust
+classification and regression problems.

@@ -1,0 +1,21 @@
+Laplacian Support Vector Machines Trained in the Primal
+In the last few years, due to the growing ubiquity of unlabeled data, much
+effort has been spent by the machine learning community to develop better
+understanding and improve the quality of classifiers exploiting unlabeled data.
+Following the manifold regularization approach, Laplacian Support Vector
+Machines (LapSVMs) have shown the state of the art performance in
+semi--supervised classification. In this paper we present two strategies to
+solve the primal LapSVM problem, in order to overcome some issues of the
+original dual formulation. Whereas training a LapSVM in the dual requires two
+steps, using the primal form allows us to collapse training to a single step.
+Moreover, the computational complexity of the training algorithm is reduced
+from O(n^3) to O(n^2) using preconditioned conjugate gradient, where n is the
+combined number of labeled and unlabeled examples. We speed up training by
+using an early stopping strategy based on the prediction on unlabeled data or,
+if available, on labeled validation examples. This allows the algorithm to
+quickly compute approximate solutions with roughly the same classification
+accuracy as the optimal ones, considerably reducing the training time. Due to
+its simplicity, training LapSVM in the primal can be the starting point for
+additional enhancements of the original LapSVM formulation, such as those for
+dealing with large datasets. We present an extensive experimental evaluation on
+real world data showing the benefits of the proposed approach.

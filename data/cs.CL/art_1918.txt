@@ -1,0 +1,12 @@
+Full-Time Supervision based Bidirectional RNN for Factoid Question
+  Answering
+Recently, bidirectional recurrent neural network (BRNN) has been widely used
+for question answering (QA) tasks with promising performance. However, most
+existing BRNN models extract the information of questions and answers by
+directly using a pooling operation to generate the representation for loss or
+similarity calculation. Hence, these existing models don't put supervision
+(loss or similarity calculation) at every time step, which will lose some
+useful information. In this paper, we propose a novel BRNN model called
+full-time supervision based BRNN (FTS-BRNN), which can put supervision at every
+time step. Experiments on the factoid QA task show that our FTS-BRNN can
+outperform other baselines to achieve the state-of-the-art accuracy.

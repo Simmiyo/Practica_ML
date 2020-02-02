@@ -1,0 +1,20 @@
+Prediction of Dynamical time Series Using Kernel Based Regression and
+  Smooth Splines
+Prediction of dynamical time series with additive noise using support vector
+machines or kernel based regression has been proved to be consistent for
+certain classes of discrete dynamical systems. Consistency implies that these
+methods are effective at computing the expected value of a point at a future
+time given the present coordinates. However, the present coordinates themselves
+are noisy, and therefore, these methods are not necessarily effective at
+removing noise. In this article, we consider denoising and prediction as
+separate problems for flows, as opposed to discrete time dynamical systems, and
+show that the use of smooth splines is more effective at removing noise.
+Combination of smooth splines and kernel based regression yields predictors
+that are more accurate on benchmarks typically by a factor of 2 or more. We
+prove that kernel based regression in combination with smooth splines converges
+to the exact predictor for time series extracted from any compact invariant set
+of any sufficiently smooth flow. As a consequence of convergence, one can find
+examples where the combination of kernel based regression with smooth splines
+is superior by even a factor of $100$. The predictors that we compute operate
+on delay coordinate data and not the full state vector, which is typically not
+observable.

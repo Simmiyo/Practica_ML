@@ -1,0 +1,16 @@
+Adversarial Examples, Uncertainty, and Transfer Testing Robustness in
+  Gaussian Process Hybrid Deep Networks
+Deep neural networks (DNNs) have excellent representative power and are state
+of the art classifiers on many tasks. However, they often do not capture their
+own uncertainties well making them less robust in the real world as they
+overconfidently extrapolate and do not notice domain shift. Gaussian processes
+(GPs) with RBF kernels on the other hand have better calibrated uncertainties
+and do not overconfidently extrapolate far from data in their training set.
+However, GPs have poor representational power and do not perform as well as
+DNNs on complex domains. In this paper we show that GP hybrid deep networks,
+GPDNNs, (GPs on top of DNNs and trained end-to-end) inherit the nice properties
+of both GPs and DNNs and are much more robust to adversarial examples. When
+extrapolating to adversarial examples and testing in domain shift settings,
+GPDNNs frequently output high entropy class probabilities corresponding to
+essentially "don't know". GPDNNs are therefore promising as deep architectures
+that know when they don't know.

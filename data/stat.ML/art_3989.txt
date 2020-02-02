@@ -1,0 +1,16 @@
+Homotopy Analysis for Tensor PCA
+Developing efficient and guaranteed nonconvex algorithms has been an
+important challenge in modern machine learning. Algorithms with good empirical
+performance such as stochastic gradient descent often lack theoretical
+guarantees. In this paper, we analyze the class of homotopy or continuation
+methods for global optimization of nonconvex functions. These methods start
+from an objective function that is efficient to optimize (e.g. convex), and
+progressively modify it to obtain the required objective, and the solutions are
+passed along the homotopy path. For the challenging problem of tensor PCA, we
+prove global convergence of the homotopy method in the "high noise" regime. The
+signal-to-noise requirement for our algorithm is tight in the sense that it
+matches the recovery guarantee for the best degree-4 sum-of-squares algorithm.
+In addition, we prove a phase transition along the homotopy path for tensor
+PCA. This allows to simplify the homotopy method to a local search algorithm,
+viz., tensor power iterations, with a specific initialization and a noise
+injection procedure, while retaining the theoretical guarantees.

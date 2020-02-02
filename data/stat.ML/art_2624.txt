@@ -1,0 +1,8 @@
+Approximate Kalman Filter Q-Learning for Continuous State-Space MDPs
+We seek to learn an effective policy for a Markov Decision Process (MDP) with
+continuous states via Q-Learning. Given a set of basis functions over state
+action pairs we search for a corresponding set of linear weights that minimizes
+the mean Bellman residual. Our algorithm uses a Kalman filter model to estimate
+those weights and we have developed a simpler approximate Kalman filter model
+that outperforms the current state of the art projected TD-Learning methods on
+several standard benchmark problems.

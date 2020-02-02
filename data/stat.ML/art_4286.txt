@@ -1,0 +1,14 @@
+From Multimodal to Unimodal Webpages for Developing Countries
+The multimodal web elements such as text and images are associated with
+inherent memory costs to store and transfer over the Internet. With the limited
+network connectivity in developing countries, webpage rendering gets delayed in
+the presence of high-memory demanding elements such as images (relative to
+text). To overcome this limitation, we propose a Canonical Correlation Analysis
+(CCA) based computational approach to replace high-cost modality with an
+equivalent low-cost modality. Our model learns a common subspace for low-cost
+and high-cost modalities that maximizes the correlation between their visual
+features. The obtained common subspace is used for determining the low-cost
+(text) element of a given high-cost (image) element for the replacement. We
+analyze the cost-saving performance of the proposed approach through an
+eye-tracking experiment conducted on real-world webpages. Our approach reduces
+the memory-cost by at least 83.35% by replacing images with text.

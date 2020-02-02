@@ -1,0 +1,25 @@
+Ultra-high Dimensional Multiple Output Learning With Simultaneous
+  Orthogonal Matching Pursuit: A Sure Screening Approach
+We propose a novel application of the Simultaneous Orthogonal Matching
+Pursuit (S-OMP) procedure for sparsistant variable selection in ultra-high
+dimensional multi-task regression problems. Screening of variables, as
+introduced in \cite{fan08sis}, is an efficient and highly scalable way to
+remove many irrelevant variables from the set of all variables, while retaining
+all the relevant variables. S-OMP can be applied to problems with hundreds of
+thousands of variables and once the number of variables is reduced to a
+manageable size, a more computationally demanding procedure can be used to
+identify the relevant variables for each of the regression outputs. To our
+knowledge, this is the first attempt to utilize relatedness of multiple outputs
+to perform fast screening of relevant variables. As our main theoretical
+contribution, we prove that, asymptotically, S-OMP is guaranteed to reduce an
+ultra-high number of variables to below the sample size without losing true
+relevant variables. We also provide formal evidence that a modified Bayesian
+information criterion (BIC) can be used to efficiently determine the number of
+iterations in S-OMP. We further provide empirical evidence on the benefit of
+variable selection using multiple regression outputs jointly, as opposed to
+performing variable selection for each output separately. The finite sample
+performance of S-OMP is demonstrated on extensive simulation studies, and on a
+genetic association mapping problem. $Keywords$ Adaptive Lasso; Greedy forward
+regression; Orthogonal matching pursuit; Multi-output regression; Multi-task
+learning; Simultaneous orthogonal matching pursuit; Sure screening; Variable
+selection

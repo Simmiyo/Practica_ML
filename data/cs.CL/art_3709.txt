@@ -1,0 +1,16 @@
+Efficient Large-Scale Domain Classification with Personalized Attention
+In this paper, we explore the task of mapping spoken language utterances to
+one of thousands of natural language understanding domains in intelligent
+personal digital assistants (IPDAs). This scenario is observed for many
+mainstream IPDAs in industry that allow third parties to develop thousands of
+new domains to augment built-in ones to rapidly increase domain coverage and
+overall IPDA capabilities. We propose a scalable neural model architecture with
+a shared encoder, a novel attention mechanism that incorporates personalization
+information and domain-specific classifiers that solves the problem
+efficiently. Our architecture is designed to efficiently accommodate new
+domains that appear in-between full model retraining cycles with a rapid
+bootstrapping mechanism two orders of magnitude faster than retraining. We
+account for practical constraints in real-time production systems, and design
+to minimize memory footprint and runtime latency. We demonstrate that
+incorporating personalization results in significantly more accurate domain
+classification in the setting with thousands of overlapping domains.

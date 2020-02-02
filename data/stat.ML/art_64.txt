@@ -1,0 +1,9 @@
+Expectation Propagation on the Maximum of Correlated Normal Variables
+Many inference problems involving questions of optimality ask for the maximum
+or the minimum of a finite set of unknown quantities. This technical report
+derives the first two posterior moments of the maximum of two correlated
+Gaussian variables and the first two posterior moments of the two generating
+variables (corresponding to Gaussian approximations minimizing relative
+entropy). It is shown how this can be used to build a heuristic approximation
+to the maximum relationship over a finite set of Gaussian variables, allowing
+approximate inference by Expectation Propagation on such quantities.

@@ -1,0 +1,10 @@
+LOCO: Distributing Ridge Regression with Random Projections
+We propose LOCO, an algorithm for large-scale ridge regression which
+distributes the features across workers on a cluster. Important dependencies
+between variables are preserved using structured random projections which are
+cheap to compute and must only be communicated once. We show that LOCO obtains
+a solution which is close to the exact ridge regression solution in the fixed
+design setting. We verify this experimentally in a simulation study as well as
+an application to climate prediction. Furthermore, we show that LOCO achieves
+significant speedups compared with a state-of-the-art distributed algorithm on
+a large-scale regression problem.

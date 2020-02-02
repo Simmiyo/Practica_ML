@@ -1,0 +1,21 @@
+Boosted Sparse Non-linear Distance Metric Learning
+This paper proposes a boosting-based solution addressing metric learning
+problems for high-dimensional data. Distance measures have been used as natural
+measures of (dis)similarity and served as the foundation of various learning
+methods. The efficiency of distance-based learning methods heavily depends on
+the chosen distance metric. With increasing dimensionality and complexity of
+data, however, traditional metric learning methods suffer from poor scalability
+and the limitation due to linearity as the true signals are usually embedded
+within a low-dimensional nonlinear subspace. In this paper, we propose a
+nonlinear sparse metric learning algorithm via boosting. We restructure a
+global optimization problem into a forward stage-wise learning of weak learners
+based on a rank-one decomposition of the weight matrix in the Mahalanobis
+distance metric. A gradient boosting algorithm is devised to obtain a sparse
+rank-one update of the weight matrix at each step. Nonlinear features are
+learned by a hierarchical expansion of interactions incorporated within the
+boosting algorithm. Meanwhile, an early stopping rule is imposed to control the
+overall complexity of the learned metric. As a result, our approach guarantees
+three desirable properties of the final metric: positive semi-definiteness, low
+rank and element-wise sparsity. Numerical experiments show that our learning
+model compares favorably with the state-of-the-art methods in the current
+literature of metric learning.

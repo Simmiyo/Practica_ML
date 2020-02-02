@@ -1,0 +1,16 @@
+An Empirical Evaluation of Zero Resource Acoustic Unit Discovery
+Acoustic unit discovery (AUD) is a process of automatically identifying a
+categorical acoustic unit inventory from speech and producing corresponding
+acoustic unit tokenizations. AUD provides an important avenue for unsupervised
+acoustic model training in a zero resource setting where expert-provided
+linguistic knowledge and transcribed speech are unavailable. Therefore, to
+further facilitate zero-resource AUD process, in this paper, we demonstrate
+acoustic feature representations can be significantly improved by (i)
+performing linear discriminant analysis (LDA) in an unsupervised self-trained
+fashion, and (ii) leveraging resources of other languages through building a
+multilingual bottleneck (BN) feature extractor to give effective cross-lingual
+generalization. Moreover, we perform comprehensive evaluations of AUD efficacy
+on multiple downstream speech applications, and their correlated performance
+suggests that AUD evaluations are feasible using different alternative language
+resources when only a subset of these evaluation resources can be available in
+typical zero resource applications.

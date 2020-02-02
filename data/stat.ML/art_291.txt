@@ -1,0 +1,18 @@
+Online dictionary learning for kernel LMS. Analysis and forward-backward
+  splitting algorithm
+Adaptive filtering algorithms operating in reproducing kernel Hilbert spaces
+have demonstrated superiority over their linear counterpart for nonlinear
+system identification. Unfortunately, an undesirable characteristic of these
+methods is that the order of the filters grows linearly with the number of
+input data. This dramatically increases the computational burden and memory
+requirement. A variety of strategies based on dictionary learning have been
+proposed to overcome this severe drawback. Few, if any, of these works analyze
+the problem of updating the dictionary in a time-varying environment. In this
+paper, we present an analytical study of the convergence behavior of the
+Gaussian least-mean-square algorithm in the case where the statistics of the
+dictionary elements only partially match the statistics of the input data. This
+allows us to emphasize the need for updating the dictionary in an online way,
+by discarding the obsolete elements and adding appropriate ones. We introduce a
+kernel least-mean-square algorithm with L1-norm regularization to automatically
+perform this task. The stability in the mean of this method is analyzed, and
+its performance is tested with experiments.

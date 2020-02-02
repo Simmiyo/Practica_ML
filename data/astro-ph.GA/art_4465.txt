@@ -1,0 +1,25 @@
+Artificial Neural Network for search for metal poor galaxies
+In order to find a fast and reliable method for selecting metal poor galaxies
+(MPGs), especially in large surveys and huge database, an Artificial Neural
+Network (ANN) method is applied to a sample of star-forming galaxies from the
+Sloan Digital Sky Survey (SDSS) data release 9 (DR9) provided by the Max Planck
+Institute and the Johns Hopkins University (MPA/JHU). A two-step approach is
+adopted:(i) The ANN network must be trained with a subset of objects that are
+known to be either MPGs or MRGs(Metal Rich galaxies), treating the strong
+emission line flux measurements as input feature vectors in an n-dimensional
+space, where n is the number of strong emission line flux ratios. (ii) After
+the network is trained on a sample of star-forming galaxies, remaining galaxies
+are classified in the automatic test analysis as either MPGs or MRGs. We
+consider several random divisions of the data into training and testing sets:
+for instance, for our sample, a total of 70 percent of the data are involved in
+training the algorithm, 15 percent are involved in validating the algorithm and
+the remaining 15 percent are used for blind testing of the resulting
+classifier.
+  For target selection, we have achieved an acquisition rate for MPGs of 96
+percent and 92 percent for an MPGs threshold of 12+log(O/H)=8.00 and
+12+log(O/H)=8.39, respectively.
+  Running the code takes minutes in most cases under the Matlab 2013a software
+environment.
+  The ANN method can easily be extended to any MPGs target selection task when
+the physical property of the target can be expressed as a quantitative
+variable.

@@ -1,0 +1,14 @@
+On the End-to-End Solution to Mandarin-English Code-switching Speech
+  Recognition
+Code-switching (CS) refers to a linguistic phenomenon where a speaker uses
+different languages in an utterance or between alternating utterances. In this
+work, we study end-to-end (E2E) approaches to the Mandarin-English
+code-switching speech recognition (CSSR) task. We first examine the
+effectiveness of using data augmentation and byte-pair encoding (BPE) subword
+units. More importantly, we propose a multitask learning recipe, where a
+language identification task is explicitly learned in addition to the E2E
+speech recognition task. Furthermore, we introduce an efficient word vocabulary
+expansion method for language modeling to alleviate data sparsity issues under
+the code-switching scenario. Experimental results on the SEAME data, a
+Mandarin-English CS corpus, demonstrate the effectiveness of the proposed
+methods.

@@ -1,0 +1,18 @@
+An Empirical Comparison of Sampling Quality Metrics: A Case Study for
+  Bayesian Nonnegative Matrix Factorization
+In this work, we empirically explore the question: how can we assess the
+quality of samples from some target distribution? We assume that the samples
+are provided by some valid Monte Carlo procedure, so we are guaranteed that the
+collection of samples will asymptotically approximate the true distribution.
+Most current evaluation approaches focus on two questions: (1) Has the chain
+mixed, that is, is it sampling from the distribution? and (2) How independent
+are the samples (as MCMC procedures produce correlated samples)? Focusing on
+the case of Bayesian nonnegative matrix factorization, we empirically evaluate
+standard metrics of sampler quality as well as propose new metrics to capture
+aspects that these measures fail to expose. The aspect of sampling that is of
+particular interest to us is the ability (or inability) of sampling methods to
+move between multiple optima in NMF problems. As a proxy, we propose and study
+a number of metrics that might quantify the diversity of a set of NMF
+factorizations obtained by a sampler through quantifying the coverage of the
+posterior distribution. We compare the performance of a number of standard
+sampling methods for NMF in terms of these new metrics.

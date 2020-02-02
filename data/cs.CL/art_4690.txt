@@ -1,0 +1,17 @@
+Can LSTM Learn to Capture Agreement? The Case of Basque
+Sequential neural networks models are powerful tools in a variety of Natural
+Language Processing (NLP) tasks. The sequential nature of these models raises
+the questions: to what extent can these models implicitly learn hierarchical
+structures typical to human language, and what kind of grammatical phenomena
+can they acquire?
+  We focus on the task of agreement prediction in Basque, as a case study for a
+task that requires implicit understanding of sentence structure and the
+acquisition of a complex but consistent morphological system. Analyzing
+experimental results from two syntactic prediction tasks -- verb number
+prediction and suffix recovery -- we find that sequential models perform worse
+on agreement prediction in Basque than one might expect on the basis of a
+previous agreement prediction work in English. Tentative findings based on
+diagnostic classifiers suggest the network makes use of local heuristics as a
+proxy for the hierarchical structure of the sentence. We propose the Basque
+agreement prediction task as challenging benchmark for models that attempt to
+learn regularities in human language.

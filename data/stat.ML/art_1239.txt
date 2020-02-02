@@ -1,0 +1,17 @@
+Reducing Crowdsourcing to Graphon Estimation, Statistically
+Inferring the correct answers to binary tasks based on multiple noisy answers
+in an unsupervised manner has emerged as the canonical question for micro-task
+crowdsourcing or more generally aggregating opinions. In graphon estimation,
+one is interested in estimating edge intensities or probabilities between nodes
+using a single snapshot of a graph realization. In the recent literature, there
+has been exciting development within both of these topics. In the context of
+crowdsourcing, the key intellectual challenge is to understand whether a given
+task can be more accurately denoised by aggregating answers collected from
+other different tasks. In the context of graphon estimation, precise
+information limits and estimation algorithms remain of interest. In this paper,
+we utilize a statistical reduction from crowdsourcing to graphon estimation to
+advance the state-of-art for both of these challenges. We use concepts from
+graphon estimation to design an algorithm that achieves better performance than
+the {\em majority voting} scheme for a setup that goes beyond the {\em rank
+one} models considered in the literature. We use known explicit lower bounds
+for crowdsourcing to provide refined lower bounds for graphon estimation.

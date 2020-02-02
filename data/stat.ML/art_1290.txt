@@ -1,0 +1,13 @@
+Group-sparse block PCA and explained variance
+The paper addresses the simultneous determination of goup-sparse loadings by
+block optimization, and the correlated problem of defining explained variance
+for a set of non orthogonal components. We give in both cases a comprehensive
+mathematical presentation of the problem, which leads to propose i) a new
+formulation/algorithm for group-sparse block PCA and ii) a framework for the
+definition of explained variance with the analysis of five definitions. The
+numerical results i) confirm the superiority of block optimization over
+deflation for the determination of group-sparse loadings, and the importance of
+group information when available, and ii) show that ranking of algorithms
+according to explained variance is essentially independant of the definition of
+explained variance. These results lead to propose a new optimal variance as the
+definition of choice for explained variance.

@@ -1,0 +1,19 @@
+Fast MCMC sampling algorithms on polytopes
+We propose and analyze two new MCMC sampling algorithms, the Vaidya walk and
+the John walk, for generating samples from the uniform distribution over a
+polytope. Both random walks are sampling algorithms derived from interior point
+methods. The former is based on volumetric-logarithmic barrier introduced by
+Vaidya whereas the latter uses John's ellipsoids. We show that the Vaidya walk
+mixes in significantly fewer steps than the logarithmic-barrier based Dikin
+walk studied in past work. For a polytope in $\mathbb{R}^d$ defined by $n >d$
+linear constraints, we show that the mixing time from a warm start is bounded
+as $\mathcal{O}(n^{0.5}d^{1.5})$, compared to the $\mathcal{O}(nd)$ mixing time
+bound for the Dikin walk. The cost of each step of the Vaidya walk is of the
+same order as the Dikin walk, and at most twice as large in terms of constant
+pre-factors. For the John walk, we prove an
+$\mathcal{O}(d^{2.5}\cdot\log^4(n/d))$ bound on its mixing time and conjecture
+that an improved variant of it could achieve a mixing time of
+$\mathcal{O}(d^2\cdot\text{polylog}(n/d))$. Additionally, we propose variants
+of the Vaidya and John walks that mix in polynomial time from a deterministic
+starting point. The speed-up of the Vaidya walk over the Dikin walk are
+illustrated in numerical examples.

@@ -1,0 +1,13 @@
+Network cross-validation by edge sampling
+While many statistical models and methods are now available for network
+analysis, resampling network data remains a challenging problem.
+Cross-validation is a useful general tool for model selection and parameter
+tuning, but is not directly applicable to networks since splitting network
+nodes into groups requires deleting edges and destroys some of the network
+structure. Here we propose a new network resampling strategy based on splitting
+node pairs rather than nodes applicable to cross-validation for a wide range of
+network model selection tasks. We provide a theoretical justification for our
+method in a general setting and examples of how our method can be used in
+specific network model selection and parameter tuning tasks. Numerical results
+on simulated networks and on a citation network of statisticians show that this
+cross-validation approach works well for model selection.

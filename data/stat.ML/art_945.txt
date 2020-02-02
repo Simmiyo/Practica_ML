@@ -1,0 +1,21 @@
+Asymptotic Analysis via Stochastic Differential Equations of Gradient
+  Descent Algorithms in Statistical and Computational Paradigms
+This paper investigates asymptotic behaviors of gradient descent algorithms
+(particularly accelerated gradient descent and stochastic gradient descent) in
+the context of stochastic optimization arose in statistics and machine learning
+where objective functions are estimated from available data. We show that these
+algorithms can be modeled by continuous-time ordinary or stochastic
+differential equations, and their asymptotic dynamic evolutions and
+distributions are governed by some linear ordinary or stochastic differential
+equations, as the data size goes to infinity. We illustrate that our study can
+provide a novel unified framework for a joint computational and statistical
+asymptotic analysis on dynamic behaviors of these algorithms with the time (or
+the number of iterations in the algorithms) and large sample behaviors of the
+statistical decision rules (like estimators and classifiers) that the
+algorithms are applied to compute, where the statistical decision rules are the
+limits of the random sequences generated from these iterative algorithms as the
+number of iterations goes to infinity. The analysis results may shed light on
+the empirically observed phenomenon of escaping from saddle points, avoiding
+bad local minimizers, and converging to good local minimizers, which depends on
+local geometry, learning rate and batch size, when stochastic gradient descent
+algorithms are applied to solve non-convex optimization problems.

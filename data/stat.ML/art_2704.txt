@@ -1,0 +1,22 @@
+Bayesian Inference for Gaussian Process Classifiers with Annealing and
+  Pseudo-Marginal MCMC
+Kernel methods have revolutionized the fields of pattern recognition and
+machine learning. Their success, however, critically depends on the choice of
+kernel parameters. Using Gaussian process (GP) classification as a working
+example, this paper focuses on Bayesian inference of covariance (kernel)
+parameters using Markov chain Monte Carlo (MCMC) methods. The motivation is
+that, compared to standard optimization of kernel parameters, they have been
+systematically demonstrated to be superior in quantifying uncertainty in
+predictions. Recently, the Pseudo-Marginal MCMC approach has been proposed as a
+practical inference tool for GP models. In particular, it amounts in replacing
+the analytically intractable marginal likelihood by an unbiased estimate
+obtainable by approximate methods and importance sampling. After discussing the
+potential drawbacks in employing importance sampling, this paper proposes the
+application of annealed importance sampling. The results empirically
+demonstrate that compared to importance sampling, annealed importance sampling
+can reduce the variance of the estimate of the marginal likelihood
+exponentially in the number of data at a computational cost that scales only
+polynomially. The results on real data demonstrate that employing annealed
+importance sampling in the Pseudo-Marginal MCMC approach represents a step
+forward in the development of fully automated exact inference engines for GP
+models.

@@ -1,0 +1,16 @@
+A study of dependency features of spike trains through copulas
+Simultaneous recordings from many neurons hide important information and the
+connections characterizing the network remain generally undiscovered despite
+the progresses of statistical and machine learning techniques. Discerning the
+presence of direct links between neuron from data is still a not completely
+solved problem. To enlarge the number of tools for detecting the underlying
+network structure, we propose here the use of copulas, pursuing on a research
+direction we started in [1]. Here, we adapt their use to distinguish different
+types of connections on a very simple network. Our proposal consists in
+choosing suitable random intervals in pairs of spike trains determining the
+shapes of their copulas. We show that this approach allows to detect different
+types of dependencies. We illustrate the features of the proposed method on
+synthetic data from suitably connected networks of two or three formal neurons
+directly connected or influenced by the surrounding network. We show how a
+smart choice of pairs of random times together with the use of empirical
+copulas allows to discern between direct and un-direct interactions.

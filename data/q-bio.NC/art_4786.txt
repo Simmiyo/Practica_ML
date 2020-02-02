@@ -1,0 +1,21 @@
+Spiking neurons with short-term synaptic plasticity form superior
+  generative networks
+Spiking networks that perform probabilistic inference have been proposed both
+as models of cortical computation and as candidates for solving problems in
+machine learning. However, the evidence for spike-based computation being in
+any way superior to non-spiking alternatives remains scarce. We propose that
+short-term plasticity can provide spiking networks with distinct computational
+advantages compared to their classical counterparts. In this work, we use
+networks of leaky integrate-and-fire neurons that are trained to perform both
+discriminative and generative tasks in their forward and backward information
+processing paths, respectively. During training, the energy landscape
+associated with their dynamics becomes highly diverse, with deep attractor
+basins separated by high barriers. Classical algorithms solve this problem by
+employing various tempering techniques, which are both computationally
+demanding and require global state updates. We demonstrate how similar results
+can be achieved in spiking networks endowed with local short-term synaptic
+plasticity. Additionally, we discuss how these networks can even outperform
+tempering-based approaches when the training data is imbalanced. We thereby
+show how biologically inspired, local, spike-triggered synaptic dynamics based
+simply on a limited pool of synaptic resources can allow spiking networks to
+outperform their non-spiking relatives.

@@ -1,0 +1,18 @@
+The discriminative Kalman filter for nonlinear and non-Gaussian
+  sequential Bayesian filtering
+The Kalman filter (KF) is used in a variety of applications for computing the
+posterior distribution of latent states in a state space model. The model
+requires a linear relationship between states and observations. Extensions to
+the Kalman filter have been proposed that incorporate linear approximations to
+nonlinear models, such as the extended Kalman filter (EKF) and the unscented
+Kalman filter (UKF). However, we argue that in cases where the dimensionality
+of observed variables greatly exceeds the dimensionality of state variables, a
+model for $p(\text{state}|\text{observation})$ proves both easier to learn and
+more accurate for latent space estimation. We derive and validate what we call
+the discriminative Kalman filter (DKF): a closed-form discriminative version of
+Bayesian filtering that readily incorporates off-the-shelf discriminative
+learning techniques. Further, we demonstrate that given mild assumptions,
+highly non-linear models for $p(\text{state}|\text{observation})$ can be
+specified. We motivate and validate on synthetic datasets and in neural
+decoding from non-human primates, showing substantial increases in decoding
+performance versus the standard Kalman filter.

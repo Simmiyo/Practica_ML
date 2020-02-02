@@ -1,0 +1,28 @@
+Partial Information Decomposition as a Unified Approach to the
+  Specification of Neural Goal Functions
+In many neural systems anatomical motifs are present repeatedly, but despite
+their structural similarity they can serve very different tasks. A prime
+example for such a motif is the canonical microcircuit of six-layered
+neo-cortex, which is repeated across cortical areas, and is involved in a
+number of different tasks (e.g.sensory, cognitive, or motor tasks). This
+observation has spawned interest in finding a common underlying principle, a
+'goal function', of information processing implemented in this structure. By
+definition such a goal function, if universal, cannot be cast in
+processing-domain specific language (e.g. 'edge filtering', 'working memory').
+Thus, to formulate such a principle, we have to use a domain-independent
+framework. Information theory offers such a framework. However, while the
+classical framework of information theory focuses on the relation between one
+input and one output (Shannon's mutual information), we argue that neural
+information processing crucially depends on the combination of
+\textit{multiple} inputs to create the output of a processor. To account for
+this, we use a very recent extension of Shannon Information theory, called
+partial information decomposition (PID). PID allows to quantify the information
+that several inputs provide individually (unique information), redundantly
+(shared information) or only jointly (synergistic information) about the
+output. First, we review the framework of PID. Then we apply it to reevaluate
+and analyze several earlier proposals of information theoretic neural goal
+functions (predictive coding, infomax, coherent infomax, efficient coding). We
+find that PID allows to compare these goal functions in a common framework, and
+also provides a versatile approach to design new goal functions from first
+principles. Building on this, we design and analyze a novel goal function,
+called 'coding with synergy'. [...]

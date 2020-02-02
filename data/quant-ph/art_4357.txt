@@ -1,0 +1,20 @@
+Counting, Fanout, and the Complexity of Quantum ACC
+We propose definitions of $\QAC^0$, the quantum analog of the classical class
+$\AC^0$ of constant-depth circuits with AND and OR gates of arbitrary fan-in,
+and $\QACC[q]$, the analog of the class $\ACC[q]$ where $\Mod_q$ gates are also
+allowed. We prove that parity or fanout allows us to construct quantum $\MOD_q$
+gates in constant depth for any $q$, so $\QACC[2] = \QACC$. More generally, we
+show that for any $q,p > 1$, $\MOD_q$ is equivalent to $\MOD_p$ (up to constant
+depth). This implies that $\QAC^0$ with unbounded fanout gates, denoted
+$\QACwf^0$, is the same as $\QACC[q]$ and $\QACC$ for all $q$. Since $\ACC[p]
+\ne \ACC[q]$ whenever $p$ and $q$ are distinct primes, $\QACC[q]$ is strictly
+more powerful than its classical counterpart, as is $\QAC^0$ when fanout is
+allowed. This adds to the growing list of quantum complexity classes which are
+provably more powerful than their classical counterparts.
+  We also develop techniques for proving upper bounds for $\QACC^0$ in terms of
+related language classes. We define classes of languages $\EQACC$, $\NQACC$ and
+$\BQACC_{\rats}$. We define a notion of $\log$-planar $\QACC$ operators and
+show the appropriately restricted versions of $\EQACC$ and $\NQACC$ are
+contained in $\P/\poly$. We also define a notion of $\log$-gate restricted
+$\QACC$ operators and show the appropriately restricted versions of $\EQACC$
+and $\NQACC$ are contained in $\TC^0$.

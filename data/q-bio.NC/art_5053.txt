@@ -1,0 +1,20 @@
+Neural Networks as Model Selection with Incremental MDL Normalization
+If we consider the neural network optimization process as a model selection
+problem, the implicit space can be constrained by the normalizing factor, the
+minimum description length of the optimal universal code. Inspired by the
+adaptation phenomenon of biological neuronal firing, we propose a class of
+reparameterization of the activation in the neural network that take into
+account the statistical regularity in the implicit space under the Minimum
+Description Length (MDL) principle. We introduce an incremental version of
+computing this universal code as normalized maximum likelihood and demonstrated
+its flexibility to include data prior such as top-down attention and other
+oracle information and its compatibility to be incorporated into batch
+normalization and layer normalization. The empirical results showed that the
+proposed method outperforms existing normalization methods in tackling the
+limited and imbalanced data from a non-stationary distribution benchmarked on
+computer vision and reinforcement learning tasks. As an unsupervised attention
+mechanism given input data, this biologically plausible normalization has the
+potential to deal with other complicated real-world scenarios as well as
+reinforcement learning setting where the rewards are sparse and non-uniform.
+Further research is proposed to discover these scenarios and explore the
+behaviors among different variants.

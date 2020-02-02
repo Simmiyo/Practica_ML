@@ -1,0 +1,15 @@
+Bayesian Nonparametric Poisson-Process Allocation for Time-Sequence
+  Modeling
+Analyzing the underlying structure of multiple time-sequences provides
+insights into the understanding of social networks and human activities. In
+this work, we present the \emph{Bayesian nonparametric Poisson process
+allocation} (BaNPPA), a latent-function model for time-sequences, which
+automatically infers the number of latent functions. We model the intensity of
+each sequence as an infinite mixture of latent functions, each of which is
+obtained using a function drawn from a Gaussian process. We show that a
+technical challenge for the inference of such mixture models is the
+unidentifiability of the weights of the latent functions. We propose to cope
+with the issue by regulating the volume of each latent function within a
+variational inference algorithm. Our algorithm is computationally efficient and
+scales well to large data sets. We demonstrate the usefulness of our proposed
+model through experiments on both synthetic and real-world data sets.

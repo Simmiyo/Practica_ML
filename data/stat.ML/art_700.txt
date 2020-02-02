@@ -1,0 +1,14 @@
+PCA-Based Out-of-Sample Extension for Dimensionality Reduction
+Dimensionality reduction methods are very common in the field of high
+dimensional data analysis. Typically, algorithms for dimensionality reduction
+are computationally expensive. Therefore, their applications for the analysis
+of massive amounts of data are impractical. For example, repeated computations
+due to accumulated data are computationally prohibitive. In this paper, an
+out-of-sample extension scheme, which is used as a complementary method for
+dimensionality reduction, is presented. We describe an algorithm which performs
+an out-of-sample extension to newly-arrived data points. Unlike other extension
+algorithms such as Nystr\"om algorithm, the proposed algorithm uses the
+intrinsic geometry of the data and properties for dimensionality reduction map.
+We prove that the error of the proposed algorithm is bounded. Additionally to
+the out-of-sample extension, the algorithm provides a degree of the abnormality
+of any newly-arrived data point.

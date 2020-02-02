@@ -1,0 +1,17 @@
+Multi-View Factorization Machines
+For a learning task, data can usually be collected from different sources or
+be represented from multiple views. For example, laboratory results from
+different medical examinations are available for disease diagnosis, and each of
+them can only reflect the health state of a person from a particular
+aspect/view. Therefore, different views provide complementary information for
+learning tasks. An effective integration of the multi-view information is
+expected to facilitate the learning performance. In this paper, we propose a
+general predictor, named multi-view machines (MVMs), that can effectively
+include all the possible interactions between features from multiple views. A
+joint factorization is embedded for the full-order interaction parameters which
+allows parameter estimation under sparsity. Moreover, MVMs can work in
+conjunction with different loss functions for a variety of machine learning
+tasks. A stochastic gradient descent method is presented to learn the MVM
+model. We further illustrate the advantages of MVMs through comparison with
+other methods for multi-view classification, including support vector machines
+(SVMs), support tensor machines (STMs) and factorization machines (FMs).

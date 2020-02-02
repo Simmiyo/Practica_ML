@@ -1,0 +1,19 @@
+LIUBoost : Locality Informed Underboosting for Imbalanced Data
+  Classification
+The problem of class imbalance along with class-overlapping has become a
+major issue in the domain of supervised learning. Most supervised learning
+algorithms assume equal cardinality of the classes under consideration while
+optimizing the cost function and this assumption does not hold true for
+imbalanced datasets which results in sub-optimal classification. Therefore,
+various approaches, such as undersampling, oversampling, cost-sensitive
+learning and ensemble based methods have been proposed for dealing with
+imbalanced datasets. However, undersampling suffers from information loss,
+oversampling suffers from increased runtime and potential overfitting while
+cost-sensitive methods suffer due to inadequately defined cost assignment
+schemes. In this paper, we propose a novel boosting based method called
+LIUBoost. LIUBoost uses under sampling for balancing the datasets in every
+boosting iteration like RUSBoost while incorporating a cost term for every
+instance based on their hardness into the weight update formula minimizing the
+information loss introduced by undersampling. LIUBoost has been extensively
+evaluated on 18 imbalanced datasets and the results indicate significant
+improvement over existing best performing method RUSBoost.

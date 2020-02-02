@@ -1,0 +1,23 @@
+Multi-label Learning via Structured Decomposition and Group Sparsity
+In multi-label learning, each sample is associated with several labels.
+Existing works indicate that exploring correlations between labels improve the
+prediction performance. However, embedding the label correlations into the
+training process significantly increases the problem size. Moreover, the
+mapping of the label structure in the feature space is not clear. In this
+paper, we propose a novel multi-label learning method "Structured Decomposition
++ Group Sparsity (SDGS)". In SDGS, we learn a feature subspace for each label
+from the structured decomposition of the training data, and predict the labels
+of a new sample from its group sparse representation on the multi-subspace
+obtained from the structured decomposition. In particular, in the training
+stage, we decompose the data matrix $X\in R^{n\times p}$ as
+$X=\sum_{i=1}^kL^i+S$, wherein the rows of $L^i$ associated with samples that
+belong to label $i$ are nonzero and consist a low-rank matrix, while the other
+rows are all-zeros, the residual $S$ is a sparse matrix. The row space of $L_i$
+is the feature subspace corresponding to label $i$. This decomposition can be
+efficiently obtained via randomized optimization. In the prediction stage, we
+estimate the group sparse representation of a new sample on the multi-subspace
+via group \emph{lasso}. The nonzero representation coefficients tend to
+concentrate on the subspaces of labels that the sample belongs to, and thus an
+effective prediction can be obtained. We evaluate SDGS on several real datasets
+and compare it with popular methods. Results verify the effectiveness and
+efficiency of SDGS.

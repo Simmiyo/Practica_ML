@@ -1,0 +1,11 @@
+Fused Lasso Additive Model
+We consider the problem of predicting an outcome variable using $p$
+covariates that are measured on $n$ independent observations, in the setting in
+which flexible and interpretable fits are desirable. We propose the fused lasso
+additive model (FLAM), in which each additive function is estimated to be
+piecewise constant with a small number of adaptively-chosen knots. FLAM is the
+solution to a convex optimization problem, for which a simple algorithm with
+guaranteed convergence to the global optimum is provided. FLAM is shown to be
+consistent in high dimensions, and an unbiased estimator of its degrees of
+freedom is proposed. We evaluate the performance of FLAM in a simulation study
+and on two data sets.

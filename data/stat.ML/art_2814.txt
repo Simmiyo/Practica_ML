@@ -1,0 +1,16 @@
+Cascading Randomized Weighted Majority: A New Online Ensemble Learning
+  Algorithm
+With the increasing volume of data in the world, the best approach for
+learning from this data is to exploit an online learning algorithm. Online
+ensemble methods are online algorithms which take advantage of an ensemble of
+classifiers to predict labels of data. Prediction with expert advice is a
+well-studied problem in the online ensemble learning literature. The Weighted
+Majority algorithm and the randomized weighted majority (RWM) are the most
+well-known solutions to this problem, aiming to converge to the best expert.
+Since among some expert, the best one does not necessarily have the minimum
+error in all regions of data space, defining specific regions and converging to
+the best expert in each of these regions will lead to a better result. In this
+paper, we aim to resolve this defect of RWM algorithms by proposing a novel
+online ensemble algorithm to the problem of prediction with expert advice. We
+propose a cascading version of RWM to achieve not only better experimental
+results but also a better error bound for sufficiently large datasets.

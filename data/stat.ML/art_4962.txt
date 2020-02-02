@@ -1,0 +1,17 @@
+Comparison among dimensionality reduction techniques based on Random
+  Projection for cancer classification
+Random Projection (RP) technique has been widely applied in many scenarios
+because it can reduce high-dimensional features into low-dimensional space
+within short time and meet the need of real-time analysis of massive data.
+There is an urgent need of dimensionality reduction with fast increase of big
+genomics data. However, the performance of RP is usually lower. We attempt to
+improve classification accuracy of RP through combining other reduction
+dimension methods such as Principle Component Analysis (PCA), Linear
+Discriminant Analysis (LDA), and Feature Selection (FS). We compared
+classification accuracy and running time of different combination methods on
+three microarray datasets and a simulation dataset. Experimental results show a
+remarkable improvement of 14.77% in classification accuracy of FS followed by
+RP compared to RP on BC-TCGA dataset. LDA followed by RP also helps RP to yield
+a more discriminative subspace with an increase of 13.65% on classification
+accuracy on the same dataset. FS followed by RP outperforms other combination
+methods in classification accuracy on most of the datasets.

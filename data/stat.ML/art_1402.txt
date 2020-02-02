@@ -1,0 +1,20 @@
+Geometric Dimensionality Reduction for Subsequent Classification
+Classifying samples into categories becomes intractable when a single sample
+can have millions to billions of features, such as in genetics or imaging data.
+Principal Components Analysis (PCA) is widely used to identify a
+low-dimensional representation of such features for further analysis. However,
+PCA, as well as most manifold learning techniques, operates on the means and
+variances of the data, ignoring class labels, such as whether or not a subject
+has cancer, thereby discarding information that could substantially improve
+downstream classification performance. We describe an approach, Linear Optimal
+Low-rank projection (LOL), which extends PCA by operating on the means and
+variances of each class of data, rather than pooling all classes together. We
+prove, and substantiate with synthetic and real data experiments, that LOL
+leads to a better representation of the data for subsequent classification than
+other linear approaches, while adding negligible computational cost. The
+simplicity of LOL enables its flexibility, leading to the development of
+several variants that improve its accuracy, robustness, and computational
+efficiency. Using a novel dataset of magnetic resonance imaging scans
+consisting of 500 million features and 400 gigabytes of data, we demonstrate
+that LOL achieves better accuracy than other methods for any dimensionality,
+while only requiring a few minutes on a standard desktop computer.

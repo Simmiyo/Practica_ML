@@ -1,0 +1,22 @@
+Does generalization performance of $l^q$ regularization learning depend
+  on $q$? A negative example
+$l^q$-regularization has been demonstrated to be an attractive technique in
+machine learning and statistical modeling. It attempts to improve the
+generalization (prediction) capability of a machine (model) through
+appropriately shrinking its coefficients. The shape of a $l^q$ estimator
+differs in varying choices of the regularization order $q$. In particular,
+$l^1$ leads to the LASSO estimate, while $l^{2}$ corresponds to the smooth
+ridge regression. This makes the order $q$ a potential tuning parameter in
+applications. To facilitate the use of $l^{q}$-regularization, we intend to
+seek for a modeling strategy where an elaborative selection on $q$ is
+avoidable. In this spirit, we place our investigation within a general
+framework of $l^{q}$-regularized kernel learning under a sample dependent
+hypothesis space (SDHS). For a designated class of kernel functions, we show
+that all $l^{q}$ estimators for $0< q < \infty$ attain similar generalization
+error bounds. These estimated bounds are almost optimal in the sense that up to
+a logarithmic factor, the upper and lower bounds are asymptotically identical.
+This finding tentatively reveals that, in some modeling contexts, the choice of
+$q$ might not have a strong impact in terms of the generalization capability.
+From this perspective, $q$ can be arbitrarily specified, or specified merely by
+other no generalization criteria like smoothness, computational complexity,
+sparsity, etc..

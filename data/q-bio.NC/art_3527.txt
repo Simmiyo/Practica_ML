@@ -1,0 +1,11 @@
+A Convolutional Network for Sleep Stages Classification
+Sleep stages classification is a crucial task in the context of sleep
+studies. It involves the simultaneous analysis of multiple signals recorded
+during sleep. However, it is complex and tedious, and even the trained expert
+can spend several hours scoring a single night recording. Multiple automatic
+methods have tried to solve these problems in the past, most of them by
+classifying a feature vector that is engineered for a specific dataset. In this
+work, we avoid this bias using a deep learning model that learns relevant
+features without human intervention. Particularly, we propose an ensemble of 5
+convolutional networks that achieves a kappa index of 0.83 when classifying a
+dataset of 500 sleep recordings.

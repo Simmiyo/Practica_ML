@@ -1,0 +1,11 @@
+Scatter Matrix Concordance: A Diagnostic for Regressions on Subsets of
+  Data
+Linear regression models depend directly on the design matrix and its
+properties. Techniques that efficiently estimate model coefficients by
+partitioning rows of the design matrix are increasingly popular for large-scale
+problems because they fit well with modern parallel computing architectures. We
+propose a simple measure of {\em concordance} between a design matrix and a
+subset of its rows that estimates how well a subset captures the
+variance-covariance structure of a larger data set. We illustrate the use of
+this measure in a heuristic method for selecting row partition sizes that
+balance statistical and computational efficiency goals in real-world problems.

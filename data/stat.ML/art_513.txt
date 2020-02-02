@@ -1,0 +1,12 @@
+Exploring Sparsity in Multi-class Linear Discriminant Analysis
+Recent studies in the literature have paid much attention to the sparsity in
+linear classification tasks. One motivation of imposing sparsity assumption on
+the linear discriminant direction is to rule out the noninformative features,
+making hardly contribution to the classification problem. Most of those work
+were focused on the scenarios of binary classification. In the presence of
+multi-class data, preceding researches recommended individually pairwise sparse
+linear discriminant analysis(LDA). However, further sparsity should be
+explored. In this paper, an estimator of grouped LASSO type is proposed to take
+advantage of sparsity for multi-class data. It enjoys appealing non-asymptotic
+properties which allows insignificant correlations among features. This
+estimator exhibits superior capability on both simulated and real data.

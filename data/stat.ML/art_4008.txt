@@ -1,0 +1,14 @@
+Algorithms for Fitting the Constrained Lasso
+We compare alternative computing strategies for solving the constrained lasso
+problem. As its name suggests, the constrained lasso extends the widely-used
+lasso to handle linear constraints, which allow the user to incorporate prior
+information into the model. In addition to quadratic programming, we employ the
+alternating direction method of multipliers (ADMM) and also derive an efficient
+solution path algorithm. Through both simulations and real data examples, we
+compare the different algorithms and provide practical recommendations in terms
+of efficiency and accuracy for various sizes of data. We also show that, for an
+arbitrary penalty matrix, the generalized lasso can be transformed to a
+constrained lasso, while the converse is not true. Thus, our methods can also
+be used for estimating a generalized lasso, which has wide-ranging
+applications. Code for implementing the algorithms is freely available in the
+Matlab toolbox SparseReg.

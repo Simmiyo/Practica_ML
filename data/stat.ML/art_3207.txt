@@ -1,0 +1,13 @@
+Marginalizing Gaussian Process Hyperparameters using Sequential Monte
+  Carlo
+Gaussian process regression is a popular method for non-parametric
+probabilistic modeling of functions. The Gaussian process prior is
+characterized by so-called hyperparameters, which often have a large influence
+on the posterior model and can be difficult to tune. This work provides a
+method for numerical marginalization of the hyperparameters, relying on the
+rigorous framework of sequential Monte Carlo. Our method is well suited for
+online problems, and we demonstrate its ability to handle real-world problems
+with several dimensions and compare it to other marginalization methods. We
+also conclude that our proposed method is a competitive alternative to the
+commonly used point estimates maximizing the likelihood, both in terms of
+computational load and its ability to handle multimodal posteriors.

@@ -1,0 +1,21 @@
+Cloud-based Deep Learning of Big EEG Data for Epileptic Seizure
+  Prediction
+Developing a Brain-Computer Interface~(BCI) for seizure prediction can help
+epileptic patients have a better quality of life. However, there are many
+difficulties and challenges in developing such a system as a real-life support
+for patients. Because of the nonstationary nature of EEG signals, normal and
+seizure patterns vary across different patients. Thus, finding a group of
+manually extracted features for the prediction task is not practical. Moreover,
+when using implanted electrodes for brain recording massive amounts of data are
+produced. This big data calls for the need for safe storage and high
+computational resources for real-time processing. To address these challenges,
+a cloud-based BCI system for the analysis of this big EEG data is presented.
+First, a dimensionality-reduction technique is developed to increase
+classification accuracy as well as to decrease the communication bandwidth and
+computation time. Second, following a deep-learning approach, a stacked
+autoencoder is trained in two steps for unsupervised feature extraction and
+classification. Third, a cloud-computing solution is proposed for real-time
+analysis of big EEG data. The results on a benchmark clinical dataset
+illustrate the superiority of the proposed patient-specific BCI as an
+alternative method and its expected usefulness in real-life support of epilepsy
+patients.

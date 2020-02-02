@@ -1,0 +1,25 @@
+Optimizing Kernel Machines using Deep Learning
+Building highly non-linear and non-parametric models is central to several
+state-of-the-art machine learning systems. Kernel methods form an important
+class of techniques that induce a reproducing kernel Hilbert space (RKHS) for
+inferring non-linear models through the construction of similarity functions
+from data. These methods are particularly preferred in cases where the training
+data sizes are limited and when prior knowledge of the data similarities is
+available. Despite their usefulness, they are limited by the computational
+complexity and their inability to support end-to-end learning with a
+task-specific objective. On the other hand, deep neural networks have become
+the de facto solution for end-to-end inference in several learning paradigms.
+In this article, we explore the idea of using deep architectures to perform
+kernel machine optimization, for both computational efficiency and end-to-end
+inferencing. To this end, we develop the DKMO (Deep Kernel Machine
+Optimization) framework, that creates an ensemble of dense embeddings using
+Nystrom kernel approximations and utilizes deep learning to generate
+task-specific representations through the fusion of the embeddings.
+Intuitively, the filters of the network are trained to fuse information from an
+ensemble of linear subspaces in the RKHS. Furthermore, we introduce the kernel
+dropout regularization to enable improved training convergence. Finally, we
+extend this framework to the multiple kernel case, by coupling a global fusion
+layer with pre-trained deep kernel machines for each of the constituent
+kernels. Using case studies with limited training data, and lack of explicit
+feature sources, we demonstrate the effectiveness of our framework over
+conventional model inferencing techniques.

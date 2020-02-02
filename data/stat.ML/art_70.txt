@@ -1,0 +1,19 @@
+Sparse Convolved Multiple Output Gaussian Processes
+Recently there has been an increasing interest in methods that deal with
+multiple outputs. This has been motivated partly by frameworks like multitask
+learning, multisensor networks or structured output data. From a Gaussian
+processes perspective, the problem reduces to specifying an appropriate
+covariance function that, whilst being positive semi-definite, captures the
+dependencies between all the data points and across all the outputs. One
+approach to account for non-trivial correlations between outputs employs
+convolution processes. Under a latent function interpretation of the
+convolution transform we establish dependencies between output variables. The
+main drawbacks of this approach are the associated computational and storage
+demands. In this paper we address these issues. We present different sparse
+approximations for dependent output Gaussian processes constructed through the
+convolution formalism. We exploit the conditional independencies present
+naturally in the model. This leads to a form of the covariance similar in
+spirit to the so called PITC and FITC approximations for a single output. We
+show experimental results with synthetic and real data, in particular, we show
+results in pollution prediction, school exams score prediction and gene
+expression data.

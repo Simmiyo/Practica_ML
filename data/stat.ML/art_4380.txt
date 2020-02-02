@@ -1,0 +1,16 @@
+A Classifying Variational Autoencoder with Application to Polyphonic
+  Music Generation
+The variational autoencoder (VAE) is a popular probabilistic generative
+model. However, one shortcoming of VAEs is that the latent variables cannot be
+discrete, which makes it difficult to generate data from different modes of a
+distribution. Here, we propose an extension of the VAE framework that
+incorporates a classifier to infer the discrete class of the modeled data. To
+model sequential data, we can combine our Classifying VAE with a recurrent
+neural network such as an LSTM. We apply this model to algorithmic music
+generation, where our model learns to generate musical sequences in different
+keys. Most previous work in this area avoids modeling key by transposing data
+into only one or two keys, as opposed to the 10+ different keys in the original
+music. We show that our Classifying VAE and Classifying VAE+LSTM models
+outperform the corresponding non-classifying models in generating musical
+samples that stay in key. This benefit is especially apparent when trained on
+untransposed music data in the original keys.

@@ -1,0 +1,18 @@
+Peacock Bundles: Bundle Coloring for Graphs with Globality-Locality
+  Trade-off
+Bundling of graph edges (node-to-node connections) is a common technique to
+enhance visibility of overall trends in the edge structure of a large graph
+layout, and a large variety of bundling algorithms have been proposed. However,
+with strong bundling, it becomes hard to identify origins and destinations of
+individual edges. We propose a solution: we optimize edge coloring to
+differentiate bundled edges. We quantify strength of bundling in a flexible
+pairwise fashion between edges, and among bundled edges, we quantify how
+dissimilar their colors should be by dissimilarity of their origins and
+destinations. We solve the resulting nonlinear optimization, which is also
+interpretable as a novel dimensionality reduction task. In large graphs the
+necessary compromise is whether to differentiate colors sharply between locally
+occurring strongly bundled edges ("local bundles"), or also between the weakly
+bundled edges occurring globally over the graph ("global bundles"); we allow a
+user-set global-local tradeoff. We call the technique "peacock bundles".
+Experiments show the coloring clearly enhances comprehensibility of graph
+layouts with edge bundling.

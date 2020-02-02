@@ -1,0 +1,20 @@
+Recurrent Exponential-Family Harmoniums without Backprop-Through-Time
+Exponential-family harmoniums (EFHs), which extend restricted Boltzmann
+machines (RBMs) from Bernoulli random variables to other exponential families
+(Welling et al., 2005), are generative models that can be trained with
+unsupervised-learning techniques, like contrastive divergence (Hinton et al.
+2006; Hinton, 2002), as density estimators for static data. Methods for
+extending RBMs--and likewise EFHs--to data with temporal dependencies have been
+proposed previously (Sutskever and Hinton, 2007; Sutskever et al., 2009), the
+learning procedure being validated by qualitative assessment of the generative
+model. Here we propose and justify, from a very different perspective, an
+alternative training procedure, proving sufficient conditions for optimal
+inference under that procedure. The resulting algorithm can be learned with
+only forward passes through the data--backprop-through-time is not required, as
+in previous approaches. The proof exploits a recent result about information
+retention in density estimators (Makin and Sabes, 2015), and applies it to a
+"recurrent EFH" (rEFH) by induction. Finally, we demonstrate optimality by
+simulation, testing the rEFH: (1) as a filter on training data generated with a
+linear dynamical system, the position of which is noisily reported by a
+population of "neurons" with Poisson-distributed spike counts; and (2) with the
+qualitative experiments proposed by Sutskever et al. (2009).

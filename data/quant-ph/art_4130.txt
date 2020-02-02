@@ -1,0 +1,14 @@
+A Systematic Algorithm for Quantum Boolean Circuits Construction
+To build a general-purpose quantum computer, it is crucial for the quantum
+devices to implement classical boolean logic. A straightforward realization of
+quantum boolean logic is to use auxiliary qubits as intermediate storage. This
+inefficient implementation causes a large number of auxiliary qubits to be
+used. In this paper, we have derived a systematic way of realizing any general
+m-to-n bit combinational boolean logic using elementary quantum gates. Our
+approach transforms the m-to-n bit classical mapping into a t-bit unitary
+quantum operation with minimum number of auxiliary qubits, then a variation of
+Toffoli gate is used as the basic building block to construct the unitary
+operation. Finally, each of these building blocks can be decomposed into
+one-bit rotation and two-bit control-U gates. The efficiency of the network is
+taken into consideration by formulating it as a constrained set partitioning
+problem.

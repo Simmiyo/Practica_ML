@@ -1,0 +1,28 @@
+An attractor neural network architecture with an ultra high information
+  capacity: numerical results
+Attractor neural network is an important theoretical scenario for modeling
+memory function in the hippocampus and in the cortex. In these models, memories
+are stored in the plastic recurrent connections of neural populations in the
+form of "attractor states". The maximal information capacity for conventional
+abstract attractor networks with unconstrained connections is 2 bits/synapse.
+However, an unconstrained synapse has the capacity to store infinite amount of
+bits in a noiseless theoretical scenario: a capacity that conventional
+attractor networks cannot achieve. Here, I propose a hierarchical attractor
+network that can achieve an ultra high information capacity. The network has
+two layers: a visible layer with $N_v$ neurons, and a hidden layer with $N_h$
+neurons. The visible-to-hidden connections are set at random and kept fixed
+during the training phase, in which the memory patterns are stored as
+fixed-points of the network dynamics. The hidden-to-visible connections,
+initially normally distributed, are learned via a local, online learning rule
+called the Three-Threshold Learning Rule and there is no within-layer
+connections. The results of simulations suggested that the maximal information
+capacity grows exponentially with the expansion ratio $N_h/N_v$. As a first
+order approximation to understand the mechanism providing the high capacity, I
+simulated a naive mean-field approximation (nMFA) of the network. The
+exponential increase was captured by the nMFA, revealing that a key underlying
+factor is the correlation between the hidden and the visible units.
+Additionally, it was observed that, at maximal capacity, the degree of symmetry
+of the connectivity between the hidden and the visible neurons increases with
+the expansion ratio. These results highlight the role of hierarchical
+architecture in remarkably increasing the performance of information storage in
+attractor networks.

@@ -1,0 +1,12 @@
+Detecting Parameter Symmetries in Probabilistic Models
+Probabilistic models often have parameters that can be translated, scaled,
+permuted, or otherwise transformed without changing the model. These symmetries
+can lead to strong correlation and multimodality in the posterior distribution
+over the model's parameters, which can pose challenges both for performing
+inference and interpreting the results. In this work, we address the automatic
+detection of common problematic model symmetries. To do so, we introduce local
+symmetries, which cover many common cases and are amenable to automatic
+detection. We show how to derive algorithms to detect several broad classes of
+local symmetries. Our algorithms are compatible with probabilistic programming
+constructs such as arrays, for loops, and if statements, and they scale to
+models with many variables.

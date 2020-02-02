@@ -1,0 +1,19 @@
+Generalised elastic nets
+The elastic net was introduced as a heuristic algorithm for combinatorial
+optimisation and has been applied, among other problems, to biological
+modelling. It has an energy function which trades off a fitness term against a
+tension term. In the original formulation of the algorithm the tension term was
+implicitly based on a first-order derivative. In this paper we generalise the
+elastic net model to an arbitrary quadratic tension term, e.g. derived from a
+discretised differential operator, and give an efficient learning algorithm. We
+refer to these as generalised elastic nets (GENs). We give a theoretical
+analysis of the tension term for 1D nets with periodic boundary conditions, and
+show that the model is sensitive to the choice of finite difference scheme that
+represents the discretised derivative. We illustrate some of these issues in
+the context of cortical map models, by relating the choice of tension term to a
+cortical interaction function. In particular, we prove that this interaction
+takes the form of a Mexican hat for the original elastic net, and of
+progressively more oscillatory Mexican hats for higher-order derivatives. The
+results apply not only to generalised elastic nets but also to other methods
+using discrete differential penalties, and are expected to be useful in other
+areas, such as data analysis, computer graphics and optimisation problems.

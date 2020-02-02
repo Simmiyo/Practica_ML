@@ -1,0 +1,20 @@
+Decoherence on Grover's quantum algorithm: perturbative approach
+In this paper, we study decoherence on Grover's quantum searching algorithm
+using a perturbative method. We assume that each two-state system (qubit)
+suffers \sigma_{z} error with probability p (0\leq p\leq 1) independently at
+every step in the algorithm. Considering an n-qubit density operator to which
+Grover's operation is applied M times, we expand it in powers of 2Mnp and
+derive its matrix element order by order under the n\to \infty limit. (In this
+large n limit, we assume p is small enough, so that 2Mnp(\geq 0) can take any
+real positive value or 0.) This approach gives us an interpretation about
+creation of new modes caused by \sigma_{z} error and an asymptotic form of an
+arbitrary order correction. Calculating the matrix element up to the fifth
+order term numerically, we investigate a region of 2Mnp (perturbative
+parameter) where the algorithm finds the correct item with a threshold of
+probability P_{th} or more. It satisfies 2Mnp<(8/5)(1-P_{th}) around 2Mnp\simeq
+0 and P_{th}\simeq 1, and this linear relation is applied to a wide range of
+P_{th} approximately. This observation is similar to a result obtained by E.
+Bernstein and U. Vazirani concerning accuracy of quantum gates for general
+algorithms. We cannot investigate a quantum to classical phase transition of
+the algorithm, because it is outside the reliable domain of our perturbation
+theory.

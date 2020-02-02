@@ -1,0 +1,15 @@
+Summarizing Dialogic Arguments from Social Media
+Online argumentative dialog is a rich source of information on popular
+beliefs and opinions that could be useful to companies as well as governmental
+or public policy agencies. Compact, easy to read, summaries of these dialogues
+would thus be highly valuable. A priori, it is not even clear what form such a
+summary should take. Previous work on summarization has primarily focused on
+summarizing written texts, where the notion of an abstract of the text is well
+defined. We collect gold standard training data consisting of five human
+summaries for each of 161 dialogues on the topics of Gay Marriage, Gun Control
+and Abortion. We present several different computational models aimed at
+identifying segments of the dialogues whose content should be used for the
+summary, using linguistic features and Word2vec features with both SVMs and
+Bidirectional LSTMs. We show that we can identify the most important arguments
+by using the dialog context with a best F-measure of 0.74 for gun control, 0.71
+for gay marriage, and 0.67 for abortion.

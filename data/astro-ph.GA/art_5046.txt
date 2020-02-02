@@ -1,0 +1,25 @@
+Resolving the mass--anisotropy degeneracy of the spherically symmetric
+  Jeans equation II: optimum smoothing and model validation
+The spherical Jeans equation is widely used to estimate the mass content of a
+stellar systems with apparent spherical symmetry. However, this method suffers
+from a degeneracy between the assumed mass density and the kinematic anisotropy
+profile, $\beta(r)$. In a previous work, we laid the theoretical foundations
+for an algorithm that combines smoothing B-splines with equations from dynamics
+to remove this degeneracy. Specifically, our method reconstructs a unique
+kinematic profile of $\sigma_{rr}^2$ and $\sigma_{tt}^2$ for an assumed free
+functional form of the potential and mass density $(\Phi,\rho)$ and given a set
+of observed line-of-sight velocity dispersion measurements, $\sigma_{los}^2$.
+In Paper I (submitted to MNRAS: MN-14-0101-MJ) we demonstrated the efficiency
+of our algorithm with a very simple example and we commented on the need for
+optimum smoothing of the B-spline representation; this is in order to avoid
+unphysical variational behaviour when we have large uncertainty in our data. In
+the current contribution we present a process of finding the optimum smoothing
+for a given data set by using information of the behaviour from known ideal
+theoretical models. Markov Chain Monte Carlo methods are used to explore the
+degeneracy in the dynamical modelling process. We validate our model through
+applications to synthetic data for systems with constant or variable
+mass-to-light ratio $\Upsilon$. In all cases we recover excellent fits of
+theoretical functions to observables and unique solutions. Our algorithm is a
+robust method for the removal of the mass-anisotropy degeneracy of the
+spherically symmetric Jeans equation for an assumed functional form of the mass
+density.

@@ -1,0 +1,15 @@
+Modelling the Lexicon in Unsupervised Part of Speech Induction
+Automatically inducing the syntactic part-of-speech categories for words in
+text is a fundamental task in Computational Linguistics. While the performance
+of unsupervised tagging models has been slowly improving, current
+state-of-the-art systems make the obviously incorrect assumption that all
+tokens of a given word type must share a single part-of-speech tag. This
+one-tag-per-type heuristic counters the tendency of Hidden Markov Model based
+taggers to over generate tags for a given word type. However, it is clearly
+incompatible with basic syntactic theory. In this paper we extend a
+state-of-the-art Pitman-Yor Hidden Markov Model tagger with an explicit model
+of the lexicon. In doing so we are able to incorporate a soft bias towards
+inducing few tags per type. We develop a particle filter for drawing samples
+from the posterior of our model and present empirical results that show that
+our model is competitive with and faster than the state-of-the-art without
+making any unrealistic restrictions.

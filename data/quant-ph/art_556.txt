@@ -1,0 +1,18 @@
+Limitations of Noisy Reversible Computation
+Noisy computation and reversible computation have been studied separately,
+and it is known that they are as powerful as unrestricted computation. We study
+the case where both noise and reversibility are combined and show that the
+combined model is weaker than unrestricted computation. In our noisy reversible
+circuits, each wire is flipped with probability p each time step, and all the
+inputs to the circuit are present in time 0. We prove that any noisy reversible
+circuit must have size exponential in its depth in order to compute a function
+with high probability. This is tight as we show that any circuit can be
+converted into a noise-resistant reversible one with a blow up in size which is
+exponential in the depth. This establishes that noisy reversible computation
+has the power of the complexity class NC^1.
+  We extend this to quantum circuits(QC). We prove that any noisy QC which is
+not worthless, and for which all inputs are present at time 0, must have size
+exponential in its depth. (This high-lights the fact that fault tolerant QC
+must use a constant supply of inputs all the time.) For the lower bound, we
+show that quasi-polynomial noisy QC are at least powerful as logarithmic depth
+QC, (or QNC^1). Making these bounds tight is left open in the quantum case.

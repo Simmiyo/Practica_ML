@@ -1,0 +1,13 @@
+Measuring spike train synchrony
+Estimating the degree of synchrony or reliability between two or more spike
+trains is a frequent task in both experimental and computational neuroscience.
+In recent years, many different methods have been proposed that typically
+compare the timing of spikes on a certain time scale to be fixed beforehand.
+Here, we propose the ISI-distance, a simple complementary approach that
+extracts information from the interspike intervals by evaluating the ratio of
+the instantaneous frequencies. The method is parameter free, time scale
+independent and easy to visualize as illustrated by an application to real
+neuronal spike trains obtained in vitro from rat slices. In a comparison with
+existing approaches on spike trains extracted from a simulated Hindemarsh-Rose
+network, the ISI-distance performs as well as the best time-scale-optimized
+measure based on spike timing.

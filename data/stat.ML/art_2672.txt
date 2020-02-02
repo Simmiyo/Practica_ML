@@ -1,0 +1,9 @@
+Thompson Sampling for Online Learning with Linear Experts
+In this note, we present a version of the Thompson sampling algorithm for the
+problem of online linear generalization with full information (i.e., the
+experts setting), studied by Kalai and Vempala, 2005. The algorithm uses a
+Gaussian prior and time-varying Gaussian likelihoods, and we show that it
+essentially reduces to Kalai and Vempala's Follow-the-Perturbed-Leader
+strategy, with exponentially distributed noise replaced by Gaussian noise. This
+implies sqrt(T) regret bounds for Thompson sampling (with time-varying
+likelihood) for online learning with full information.

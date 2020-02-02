@@ -1,0 +1,24 @@
+Constructing precisely computing networks with biophysical spiking
+  neurons
+While spike timing has been shown to carry detailed stimulus information at
+the sensory periphery, its possible role in network computation is less clear.
+Most models of computation by neural networks are based on population firing
+rates. In equivalent spiking implementations, firing is assumed to be random
+such that averaging across populations of neurons recovers the rate-based
+approach. Recently, however, Den\'eve and colleagues have suggested that the
+spiking behavior of neurons may be fundamental to how neuronal networks
+compute, with precise spike timing determined by each neuron's contribution to
+producing the desired output. By postulating that each neuron fires in order to
+reduce the error in the network's output, it was demonstrated that linear
+computations can be carried out by networks of integrate-and-fire neurons that
+communicate through instantaneous synapses. This left open, however, the
+possibility that realistic networks, with conductance-based neurons with
+subthreshold nonlinearity and the slower timescales of biophysical synapses,
+may not fit into this framework. Here, we show how the spike-based approach can
+be extended to biophysically plausible networks. We then show that our network
+reproduces a number of key features of cortical networks including irregular
+and Poisson-like spike times and a tight balance between excitation and
+inhibition. Lastly, we discuss how the behavior of our model scales with
+network size, or with the number of neurons "recorded" from a larger computing
+network. These results significantly increase the biological plausibility of
+the spike-based approach to network computation.

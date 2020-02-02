@@ -1,0 +1,11 @@
+Language Identification of Bengali-English Code-Mixed data using
+  Character & Phonetic based LSTM Models
+Language identification of social media text still remains a challenging task
+due to properties like code-mixing and inconsistent phonetic transliterations.
+In this paper, we present a supervised learning approach for language
+identification at the word level of low resource Bengali-English code-mixed
+data taken from social media. We employ two methods of word encoding, namely
+character based and root phone based to train our deep LSTM models. Utilizing
+these two models we created two ensemble models using stacking and threshold
+technique which gave 91.78% and 92.35% accuracies respectively on our testing
+data.

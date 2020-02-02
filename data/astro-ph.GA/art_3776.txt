@@ -1,0 +1,20 @@
+Simulating Star Clusters with the AMUSE Software Framework: I.
+  Dependence of Cluster Lifetimes on Model Assumptions and Cluster Dissolution
+  Modes
+We perform a series of simulations of evolving star clusters using AMUSE (the
+Astrophysical Multipurpose Software Environment), a new community-based
+multi-physics simulation package, and compare our results to existing work.
+These simulations model a star cluster beginning with a King model distribution
+and a selection of power-law initial mass functions, and contain a tidal
+cut-off. They are evolved using collisional stellar dynamics and include mass
+loss due to stellar evolution. After determining that the differences between
+AMUSE results and prior publications are understood, we explored the variation
+in cluster lifetimes due to the random realization noise introduced by
+transforming a King model to specific initial conditions. This random
+realization noise can affect the lifetime of a simulated star cluster by up to
+30%. Two modes of star cluster dissolution were identified: a mass evolution
+curve that contains a run-away cluster dissolution with a sudden loss of mass,
+and a dissolution mode that does not contain this feature. We refer to these
+dissolution modes as "dynamical" and "relaxation" dominated respectively. For
+Salpeter-like initial mass functions, we determined the boundary between these
+two modes in terms of the dynamical and relaxation time scales.

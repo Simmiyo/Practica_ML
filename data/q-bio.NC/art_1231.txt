@@ -1,0 +1,26 @@
+Spike-based probabilistic inference with correlated noise
+A steadily increasing body of evidence suggests that the brain performs
+probabilistic inference to interpret and respond to sensory input and that
+trial-to-trial variability in neural activity plays an important role. The
+neural sampling hypothesis interprets stochastic neural activity as sampling
+from an underlying probability distribution and has been shown to be compatible
+with biologically observed firing patterns. In many studies, uncorrelated noise
+is used as a source of stochasticity, discounting the fact that cortical
+neurons may share a significant portion of their presynaptic partners, which
+impacts their computation. This is relevant in biology and for implementations
+of neural networks where bandwidth constraints limit the amount of independent
+noise. When receiving correlated noise, the resulting correlations cannot be
+directly countered by changes in synaptic weights $W$. We show that this is
+contingent on the chosen coding: when changing the state space from
+$z\in\{0,1\}$ to $z'\in\{-1,1\}$, correlated noise has the exact same effect as
+changes in $W'$. The translation of the problem to the $\{-1,1\}$ space allows
+to find a weight configuration that compensates for the induced correlations.
+For an artificial embedding of sampling networks, this allows a straightforward
+transfer between platforms with different bandwidth constraints. The existence
+of the mapping is important for learning. Since in the $\{-1,1\}$-coding the
+correlated noise can be compensated by parameter changes and the probability
+distribution can be kept invariant when changing the coding, the distribution
+will be found in the $\{0,1\}$-coding as well during learning, as demonstrated
+in simulations. Conclusively, sampling spiking networks are impervious to noise
+correlations when trained. If such computation happens in cortex, network
+plasticity does not need to take account of shared noise inputs.

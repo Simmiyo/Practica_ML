@@ -1,0 +1,19 @@
+Scalable Bayesian Inference for Excitatory Point Process Networks
+Networks capture our intuition about relationships in the world. They
+describe the friendships between Facebook users, interactions in financial
+markets, and synapses connecting neurons in the brain. These networks are
+richly structured with cliques of friends, sectors of stocks, and a smorgasbord
+of cell types that govern how neurons connect. Some networks, like social
+network friendships, can be directly observed, but in many cases we only have
+an indirect view of the network through the actions of its constituents and an
+understanding of how the network mediates that activity. In this work, we focus
+on the problem of latent network discovery in the case where the observable
+activity takes the form of a mutually-excitatory point process known as a
+Hawkes process. We build on previous work that has taken a Bayesian approach to
+this problem, specifying prior distributions over the latent network structure
+and a likelihood of observed activity given this network. We extend this work
+by proposing a discrete-time formulation and developing a computationally
+efficient stochastic variational inference (SVI) algorithm that allows us to
+scale the approach to long sequences of observations. We demonstrate our
+algorithm on the calcium imaging data used in the Chalearn neural connectomics
+challenge.

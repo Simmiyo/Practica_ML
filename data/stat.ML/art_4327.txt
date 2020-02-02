@@ -1,0 +1,14 @@
+Variance Reduced methods for Non-convex Composition Optimization
+This paper explores the non-convex composition optimization in the form
+including inner and outer finite-sum functions with a large number of component
+functions. This problem arises in some important applications such as nonlinear
+embedding and reinforcement learning. Although existing approaches such as
+stochastic gradient descent (SGD) and stochastic variance reduced gradient
+(SVRG) descent can be applied to solve this problem, their query complexity
+tends to be high, especially when the number of inner component functions is
+large. In this paper, we apply the variance-reduced technique to derive two
+variance reduced algorithms that significantly improve the query complexity if
+the number of inner component functions is large. To the best of our knowledge,
+this is the first work that establishes the query complexity analysis for
+non-convex stochastic composition. Experiments validate the proposed algorithms
+and theoretical analysis.

@@ -1,0 +1,11 @@
+Stochastic Collapsed Variational Inference for Hidden Markov Models
+Stochastic variational inference for collapsed models has recently been
+successfully applied to large scale topic modelling. In this paper, we propose
+a stochastic collapsed variational inference algorithm for hidden Markov
+models, in a sequential data setting. Given a collapsed hidden Markov Model, we
+break its long Markov chain into a set of short subchains. We propose a novel
+sum-product algorithm to update the posteriors of the subchains, taking into
+account their boundary transitions due to the sequential dependencies. Our
+experiments on two discrete datasets show that our collapsed algorithm is
+scalable to very large datasets, memory efficient and significantly more
+accurate than the existing uncollapsed algorithm.

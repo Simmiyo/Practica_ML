@@ -1,0 +1,15 @@
+Adaptive Smoothing Algorithms for Nonsmooth Composite Convex
+  Minimization
+We propose an adaptive smoothing algorithm based on Nesterov's smoothing
+technique in \cite{Nesterov2005c} for solving "fully" nonsmooth composite
+convex optimization problems. Our method combines both Nesterov's accelerated
+proximal gradient scheme and a new homotopy strategy for smoothness parameter.
+By an appropriate choice of smoothing functions, we develop a new algorithm
+that has the $\mathcal{O}\left(\frac{1}{\varepsilon}\right)$-worst-case
+iteration-complexity while preserves the same complexity-per-iteration as in
+Nesterov's method and allows one to automatically update the smoothness
+parameter at each iteration. Then, we customize our algorithm to solve four
+special cases that cover various applications. We also specify our algorithm to
+solve constrained convex optimization problems and show its convergence
+guarantee on a primal sequence of iterates. We demonstrate our algorithm
+through three numerical examples and compare it with other related algorithms.

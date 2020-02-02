@@ -1,0 +1,28 @@
+Multi-scale detection of hierarchical community architecture in
+  structural and functional brain networks
+Community detection algorithms have been widely used to study the
+organization of complex systems like the brain. A principal appeal of these
+techniques is their ability to identify a partition of brain regions (or nodes)
+into communities, where nodes within a community are densely interconnected. In
+their simplest application, community detection algorithms are agnostic to the
+presence of community hierarchies, but a common characteristic of many neural
+systems is a nested hierarchy. To address this limitation, we exercise a
+multi-scale extension of a community detection technique known as modularity
+maximization, and we apply the tool to both synthetic graphs and graphs derived
+from human structural and functional imaging data. Our multi-scale community
+detection algorithm links a graph to copies of itself across neighboring
+topological scales, thereby becoming sensitive to conserved community
+organization across neighboring levels of the hierarchy. We demonstrate that
+this method allows for a better characterization of topological inhomogeneities
+of the graph's hierarchy by providing a local (node) measure of community
+stability and inter-scale reliability across topological scales. We compare the
+brain's structural and functional network architectures and demonstrate that
+structural graphs display a wider range of topological scales than functional
+graphs. Finally, we build a multimodal multiplex graph that combines structural
+and functional connectivity in a single model, and we identify the topological
+scales where resting state functional connectivity and underlying structural
+connectivity show similar versus unique hierarchical community architecture.
+Together, our results showcase the advantages of the multi-scale community
+detection algorithm in studying hierarchical community structure in brain
+graphs, and they illustrate its utility in modeling multimodal neuroimaging
+data.

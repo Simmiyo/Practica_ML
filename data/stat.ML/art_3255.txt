@@ -1,0 +1,15 @@
+Low-dimensional Models in Spatio-Temporal Wind Speed Forecasting
+Integrating wind power into the grid is challenging because of its random
+nature. Integration is facilitated with accurate short-term forecasts of wind
+power. The paper presents a spatio-temporal wind speed forecasting algorithm
+that incorporates the time series data of a target station and data of
+surrounding stations. Inspired by Compressive Sensing (CS) and
+structured-sparse recovery algorithms, we claim that there usually exists an
+intrinsic low-dimensional structure governing a large collection of stations
+that should be exploited. We cast the forecasting problem as recovery of a
+block-sparse signal $\boldsymbol{x}$ from a set of linear equations
+$\boldsymbol{b} = A\boldsymbol{x}$ for which we propose novel structure-sparse
+recovery algorithms. Results of a case study in the east coast show that the
+proposed Compressive Spatio-Temporal Wind Speed Forecasting (CST-WSF) algorithm
+significantly improves the short-term forecasts compared to a set of
+widely-used benchmark models.

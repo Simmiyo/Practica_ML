@@ -1,0 +1,12 @@
+Semantic WordRank: Generating Finer Single-Document Summarizations
+We present Semantic WordRank (SWR), an unsupervised method for generating an
+extractive summary of a single document. Built on a weighted word graph with
+semantic and co-occurrence edges, SWR scores sentences using an
+article-structure-biased PageRank algorithm with a Softplus function
+adjustment, and promotes topic diversity using spectral subtopic clustering
+under the Word-Movers-Distance metric. We evaluate SWR on the DUC-02 and
+SummBank datasets and show that SWR produces better summaries than the
+state-of-the-art algorithms over DUC-02 under common ROUGE measures. We then
+show that, under the same measures over SummBank, SWR outperforms each of the
+three human annotators (aka. judges) and compares favorably with the combined
+performance of all judges.

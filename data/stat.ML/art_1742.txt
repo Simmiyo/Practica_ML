@@ -1,0 +1,14 @@
+Rapid Learning with Stochastic Focus of Attention
+We present a method to stop the evaluation of a decision making process when
+the result of the full evaluation is obvious. This trait is highly desirable
+for online margin-based machine learning algorithms where a classifier
+traditionally evaluates all the features for every example. We observe that
+some examples are easier to classify than others, a phenomenon which is
+characterized by the event when most of the features agree on the class of an
+example. By stopping the feature evaluation when encountering an easy to
+classify example, the learning algorithm can achieve substantial gains in
+computation. Our method provides a natural attention mechanism for learning
+algorithms. By modifying Pegasos, a margin-based online learning algorithm, to
+include our attentive method we lower the number of attributes computed from
+$n$ to an average of $O(\sqrt{n})$ features without loss in prediction
+accuracy. We demonstrate the effectiveness of Attentive Pegasos on MNIST data.

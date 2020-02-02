@@ -1,0 +1,20 @@
+Tag-Aware Ordinal Sparse Factor Analysis for Learning and Content
+  Analytics
+Machine learning offers novel ways and means to design personalized learning
+systems wherein each student's educational experience is customized in real
+time depending on their background, learning goals, and performance to date.
+SPARse Factor Analysis (SPARFA) is a novel framework for machine learning-based
+learning analytics, which estimates a learner's knowledge of the concepts
+underlying a domain, and content analytics, which estimates the relationships
+among a collection of questions and those concepts. SPARFA jointly learns the
+associations among the questions and the concepts, learner concept knowledge
+profiles, and the underlying question difficulties, solely based on the
+correct/incorrect graded responses of a population of learners to a collection
+of questions. In this paper, we extend the SPARFA framework significantly to
+enable: (i) the analysis of graded responses on an ordinal scale (partial
+credit) rather than a binary scale (correct/incorrect); (ii) the exploitation
+of tags/labels for questions that partially describe the question{concept
+associations. The resulting Ordinal SPARFA-Tag framework greatly enhances the
+interpretability of the estimated concepts. We demonstrate using real
+educational data that Ordinal SPARFA-Tag outperforms both SPARFA and existing
+collaborative filtering techniques in predicting missing learner responses.

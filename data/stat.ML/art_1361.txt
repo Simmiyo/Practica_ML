@@ -1,0 +1,15 @@
+An optimal unrestricted learning procedure
+We study learning problems involving arbitrary classes of functions $F$,
+distributions $X$ and targets $Y$. Because proper learning procedures, i.e.,
+procedures that are only allowed to select functions in $F$, tend to perform
+poorly unless the problem satisfies some additional structural property (e.g.,
+that $F$ is convex), we consider unrestricted learning procedures that are free
+to choose functions outside the given class.
+  We present a new unrestricted procedure that is optimal in a very strong
+sense: the required sample complexity is essentially the best one can hope for,
+and the estimate holds for (almost) any problem, including heavy-tailed
+situations. Moreover, the sample complexity coincides with the what one would
+expect if $F$ were convex, even when $F$ is not. And if $F$ is convex, the
+procedure turns out to be proper. Thus, the unrestricted procedure is actually
+optimal in both realms, for convex classes as a proper procedure and for
+arbitrary classes as an unrestricted procedure.

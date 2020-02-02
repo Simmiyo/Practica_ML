@@ -1,0 +1,13 @@
+Active Contextual Entropy Search
+Contextual policy search allows adapting robotic movement primitives to
+different situations. For instance, a locomotion primitive might be adapted to
+different terrain inclinations or desired walking speeds. Such an adaptation is
+often achievable by modifying a small number of hyperparameters. However,
+learning, when performed on real robotic systems, is typically restricted to a
+small number of trials. Bayesian optimization has recently been proposed as a
+sample-efficient means for contextual policy search that is well suited under
+these conditions. In this work, we extend entropy search, a variant of Bayesian
+optimization, such that it can be used for active contextual policy search
+where the agent selects those tasks during training in which it expects to
+learn the most. Empirical results in simulation suggest that this allows
+learning successful behavior with less trials.

@@ -1,0 +1,25 @@
+Response statistics dissect the contributions of different sources of
+  variability to population activity in V1
+Response variability, as measured by fluctuating responses upon repeated
+performance of trials, is a major component of neural responses, and its
+characterization is key to interpret high dimensional population recordings.
+Response variability and covariability display predictable changes upon changes
+in stimulus and cognitive or behavioral state, providing an opportunity to test
+the predictive power of models of neural variability. Still, there is little
+agreement on which model to use as a building block for population-level
+analyses, and models of variability are often treated as a subject of choice.
+We investigate two competing models, the Doubly Stochastic Poisson (DSP) model
+assuming stochasticity at spike generation, and the Rectified Gaussian (RG)
+model that traces variability back to membrane potential variance, to analyze
+stimulus-dependent modulation of response statistics. Using a model of a pair
+of neurons, we demonstrate that the two models predict similar single-cell
+statistics. However, DSP and RG models have contradicting predictions on the
+joint statistics of spiking responses. In order to test the models against
+data, we build a population model to simulate stimulus change-related
+modulations in response statistics. We use unit recordings from the primary
+visual cortex of monkeys to show that while model predictions for variance are
+qualitatively similar to experimental data, only the RG model's predictions are
+compatible with joint statistics. These results suggest that models using
+Poisson-like variability might fail to capture important properties of response
+statistics. We argue that membrane potential-level modelling of stochasticity
+provides an efficient strategy to model correlations.

@@ -1,0 +1,14 @@
+A Random Finite Set Model for Data Clustering
+The goal of data clustering is to partition data points into groups to
+minimize a given objective function. While most existing clustering algorithms
+treat each data point as vector, in many applications each datum is not a
+vector but a point pattern or a set of points. Moreover, many existing
+clustering methods require the user to specify the number of clusters, which is
+not available in advance. This paper proposes a new class of models for data
+clustering that addresses set-valued data as well as unknown number of
+clusters, using a Dirichlet Process mixture of Poisson random finite sets. We
+also develop an efficient Markov Chain Monte Carlo posterior inference
+technique that can learn the number of clusters and mixture parameters
+automatically from the data. Numerical studies are presented to demonstrate the
+salient features of this new model, in particular its capacity to discover
+extremely unbalanced clusters in data.

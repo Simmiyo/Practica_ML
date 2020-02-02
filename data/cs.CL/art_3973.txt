@@ -1,0 +1,16 @@
+An Improved Phrase-based Approach to Annotating and Summarizing Student
+  Course Responses
+Teaching large classes remains a great challenge, primarily because it is
+difficult to attend to all the student needs in a timely manner. Automatic text
+summarization systems can be leveraged to summarize the student feedback,
+submitted immediately after each lecture, but it is left to be discovered what
+makes a good summary for student responses. In this work we explore a new
+methodology that effectively extracts summary phrases from the student
+responses. Each phrase is tagged with the number of students who raise the
+issue. The phrases are evaluated along two dimensions: with respect to text
+content, they should be informative and well-formed, measured by the ROUGE
+metric; additionally, they shall attend to the most pressing student needs,
+measured by a newly proposed metric. This work is enabled by a phrase-based
+annotation and highlighting scheme, which is new to the summarization task. The
+phrase-based framework allows us to summarize the student responses into a set
+of bullet points and present to the instructor promptly.

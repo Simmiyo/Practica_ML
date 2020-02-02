@@ -1,0 +1,14 @@
+An Efficient Algorithm for Computing Interventional Distributions in
+  Latent Variable Causal Models
+Probabilistic inference in graphical models is the task of computing marginal
+and conditional densities of interest from a factorized representation of a
+joint probability distribution. Inference algorithms such as variable
+elimination and belief propagation take advantage of constraints embedded in
+this factorization to compute such densities efficiently. In this paper, we
+propose an algorithm which computes interventional distributions in latent
+variable causal models represented by acyclic directed mixed graphs(ADMGs). To
+compute these distributions efficiently, we take advantage of a recursive
+factorization which generalizes the usual Markov factorization for DAGs and the
+more recent factorization for ADMGs. Our algorithm can be viewed as a
+generalization of variable elimination to the mixed graph case. We show our
+algorithm is exponential in the mixed graph generalization of treewidth.

@@ -1,0 +1,13 @@
+Robust Spoken Language Understanding via Paraphrasing
+Learning intents and slot labels from user utterances is a fundamental step
+in all spoken language understanding (SLU) and dialog systems. State-of-the-art
+neural network based methods, after deployment, often suffer from performance
+degradation on encountering paraphrased utterances, and out-of-vocabulary
+words, rarely observed in their training set. We address this challenging
+problem by introducing a novel paraphrasing based SLU model which can be
+integrated with any existing SLU model in order to improve their overall
+performance. We propose two new paraphrase generators using RNN and
+sequence-to-sequence based neural networks, which are suitable for our
+application. Our experiments on existing benchmark and in house datasets
+demonstrate the robustness of our models to rare and complex paraphrased
+utterances, even under adversarial test distributions.

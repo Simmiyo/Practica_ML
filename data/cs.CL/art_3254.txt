@@ -1,0 +1,15 @@
+Low Resourced Machine Translation via Morpho-syntactic Modeling: The
+  Case of Dialectal Arabic
+We present the second ever evaluated Arabic dialect-to-dialect machine
+translation effort, and the first to leverage external resources beyond a small
+parallel corpus. The subject has not previously received serious attention due
+to lack of naturally occurring parallel data; yet its importance is evidenced
+by dialectal Arabic's wide usage and breadth of inter-dialect variation,
+comparable to that of Romance languages. Our results suggest that modeling
+morphology and syntax significantly improves dialect-to-dialect translation,
+though optimizing such data-sparse models requires consideration of the
+linguistic differences between dialects and the nature of available data and
+resources. On a single-reference blind test set where untranslated input scores
+6.5 BLEU and a model trained only on parallel data reaches 14.6, pivot
+techniques and morphosyntactic modeling significantly improve performance to
+17.5.

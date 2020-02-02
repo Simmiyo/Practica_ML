@@ -1,0 +1,10 @@
+About the quantum mechanical speeding up of classical algorithms
+This work introduces a relative diffusion transformation (RDT) - a simple
+unitary transformation which acts in a subspace, localized by an oracle. Such a
+transformation can not be fulfilled on quantum Turing machines with this oracle
+in polynomial time in general case. It is proved, that every function
+computable in time T and space S on classical 1-dimensional cellular automaton,
+can be computed with certainty in time O(S \sqrt T) on quantum computer with
+RDTs over the parts of intermediate products of classical computation. This
+requires multiprocessor, which consists of \sqrt T quantum devices each of O(S)
+size, working in parallel-serial mode and interacting by classical lows.

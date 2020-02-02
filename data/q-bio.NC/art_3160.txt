@@ -1,0 +1,18 @@
+GSplit LBI: Taming the Procedural Bias in Neuroimaging for Disease
+  Prediction
+In voxel-based neuroimage analysis, lesion features have been the main focus
+in disease prediction due to their interpretability with respect to the related
+diseases. However, we observe that there exists another type of features
+introduced during the preprocessing steps and we call them "\textbf{Procedural
+Bias}". Besides, such bias can be leveraged to improve classification accuracy.
+Nevertheless, most existing models suffer from either under-fit without
+considering procedural bias or poor interpretability without differentiating
+such bias from lesion ones. In this paper, a novel dual-task algorithm namely
+\emph{GSplit LBI} is proposed to resolve this problem. By introducing an
+augmented variable enforced to be structural sparsity with a variable splitting
+term, the estimators for prediction and selecting lesion features can be
+optimized separately and mutually monitored by each other following an
+iterative scheme. Empirical experiments have been evaluated on the Alzheimer's
+Disease Neuroimaging Initiative\thinspace(ADNI) database. The advantage of
+proposed model is verified by improved stability of selected lesion features
+and better classification results.

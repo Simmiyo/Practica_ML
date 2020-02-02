@@ -1,0 +1,9 @@
+Parsing Universal Dependencies without training
+We propose UDP, the first training-free parser for Universal Dependencies
+(UD). Our algorithm is based on PageRank and a small set of head attachment
+rules. It features two-step decoding to guarantee that function words are
+attached as leaf nodes. The parser requires no training, and it is competitive
+with a delexicalized transfer system. UDP offers a linguistically sound
+unsupervised alternative to cross-lingual parsing for UD, which can be used as
+a baseline for such systems. The parser has very few parameters and is
+distinctly robust to domain change across languages.

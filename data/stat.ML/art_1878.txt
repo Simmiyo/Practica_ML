@@ -1,0 +1,15 @@
+Noisy-OR Models with Latent Confounding
+Given a set of experiments in which varying subsets of observed variables are
+subject to intervention, we consider the problem of identifiability of causal
+models exhibiting latent confounding. While identifiability is trivial when
+each experiment intervenes on a large number of variables, the situation is
+more complicated when only one or a few variables are subject to intervention
+per experiment. For linear causal models with latent variables Hyttinen et al.
+(2010) gave precise conditions for when such data are sufficient to identify
+the full model. While their result cannot be extended to discrete-valued
+variables with arbitrary cause-effect relationships, we show that a similar
+result can be obtained for the class of causal models whose conditional
+probability distributions are restricted to a `noisy-OR' parameterization. We
+further show that identification is preserved under an extension of the model
+that allows for negative influences, and present learning algorithms that we
+test for accuracy, scalability and robustness.

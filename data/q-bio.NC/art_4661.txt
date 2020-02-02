@@ -1,0 +1,14 @@
+Self-calibrating Neural Networks for Dimensionality Reduction
+Recently, a novel family of biologically plausible online algorithms for
+reducing the dimensionality of streaming data has been derived from the
+similarity matching principle. In these algorithms, the number of output
+dimensions can be determined adaptively by thresholding the singular values of
+the input data matrix. However, setting such threshold requires knowing the
+magnitude of the desired singular values in advance. Here we propose online
+algorithms where the threshold is self-calibrating based on the singular values
+computed from the existing observations. To derive these algorithms from the
+similarity matching cost function we propose novel regularizers. As before,
+these online algorithms can be implemented by Hebbian/anti-Hebbian neural
+networks in which the learning rule depends on the chosen regularizer. We
+demonstrate both mathematically and via simulation the effectiveness of these
+online algorithms in various settings.

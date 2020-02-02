@@ -1,0 +1,21 @@
+Derivatives and inverse of a linear-nonlinear multi-layer spatial vision
+  model
+Linear-nonlinear transforms are interesting in vision science because they
+are key in modeling a number of perceptual experiences such as color, motion or
+spatial texture. Here we first show that a number of issues in vision may be
+addressed through an analytic expression of the Jacobian of these
+linear-nonlinear transforms. The particular model analyzed afterwards (an
+extension of [Malo & Simoncelli SPIE 2015]) is illustrative because it consists
+of a cascade of standard linear-nonlinear modules. Each module roughly
+corresponds to a known psychophysical mechanism: (1) linear spectral
+integration and nonlinear brightness-from-luminance computation, (2) linear
+pooling of local brightness and nonlinear normalization for local contrast
+computation, (3) linear frequency selectivity and nonlinear normalization for
+spatial contrast masking, and (4) linear wavelet-like decomposition and
+nonlinear normalization for frequency-dependent masking. Beyond being the
+appropriate technical report with the missing details in [Malo & Simoncelli
+SPIE 2015], the interest of the presented analytic results and numerical
+methods transcend the particular model because of the ubiquity of the
+linear-nonlinear structure. Part of this material was presented at MODVIS 2016
+(see slides of the conference talk in the appendix at the end of this
+document).

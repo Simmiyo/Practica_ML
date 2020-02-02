@@ -1,0 +1,19 @@
+A quantum Goldreich-Levin theorem with cryptographic applications
+We investigate the Goldreich-Levin Theorem in the context of quantum
+information. This result is a reduction from the computational problem of
+inverting a one-way function to the problem of predicting a particular bit
+associated with that function. We show that the quantum version of the
+reduction -- between quantum one-way functions and quantum hard-predicates --
+is quantitatively more efficient than the known classical version. Roughly
+speaking, if the one-way function acts on n-bit strings then the overhead in
+the reduction is by a factor of O(n/epsilon^2) in the classical case but only
+by a factor of O(1/epsilon) in the quantum case, where 1/2 + epsilon is the
+probability of predicting the hard-predicate. Moreover, we prove via a lower
+bound that, in a black-box framework, the classical version of the reduction
+cannot have overhead less than order n/epsilon^2.
+  We also show that, using this reduction, a quantum bit commitment scheme that
+is perfectly binding and computationally concealing can be obtained from any
+quantum one-way permutation. This complements a recent result by Dumais, Mayers
+and Salvail, where the bit commitment scheme is perfectly concealing and
+computationally binding. We also show how to perform qubit commitment by a
+similar approach.

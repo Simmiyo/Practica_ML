@@ -1,0 +1,18 @@
+Simple and Efficient Parallelization for Probabilistic Temporal Tensor
+  Factorization
+Probabilistic Temporal Tensor Factorization (PTTF) is an effective algorithm
+to model the temporal tensor data. It leverages a time constraint to capture
+the evolving properties of tensor data. Nowadays the exploding dataset demands
+a large scale PTTF analysis, and a parallel solution is critical to accommodate
+the trend. Whereas, the parallelization of PTTF still remains unexplored. In
+this paper, we propose a simple yet efficient Parallel Probabilistic Temporal
+Tensor Factorization, referred to as P$^2$T$^2$F, to provide a scalable PTTF
+solution. P$^2$T$^2$F is fundamentally disparate from existing parallel tensor
+factorizations by considering the probabilistic decomposition and the temporal
+effects of tensor data. It adopts a new tensor data split strategy to subdivide
+a large tensor into independent sub-tensors, the computation of which is
+inherently parallel. We train P$^2$T$^2$F with an efficient algorithm of
+stochastic Alternating Direction Method of Multipliers, and show that the
+convergence is guaranteed. Experiments on several real-word tensor datasets
+demonstrate that P$^2$T$^2$F is a highly effective and efficiently scalable
+algorithm dedicated for large scale probabilistic temporal tensor analysis.

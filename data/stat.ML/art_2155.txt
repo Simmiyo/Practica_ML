@@ -1,0 +1,17 @@
+Bayesian Random Fields: The Bethe-Laplace Approximation
+While learning the maximum likelihood value of parameters of an undirected
+graphical model is hard, modelling the posterior distribution over parameters
+given data is harder. Yet, undirected models are ubiquitous in computer vision
+and text modelling (e.g. conditional random fields). But where Bayesian
+approaches for directed models have been very successful, a proper Bayesian
+treatment of undirected models in still in its infant stages. We propose a new
+method for approximating the posterior of the parameters given data based on
+the Laplace approximation. This approximation requires the computation of the
+covariance matrix over features which we compute using the linear response
+approximation based in turn on loopy belief propagation. We develop the theory
+for conditional and 'unconditional' random fields with or without hidden
+variables. In the conditional setting we introduce a new variant of bagging
+suitable for structured domains. Here we run the loopy max-product algorithm on
+a 'super-graph' composed of graphs for individual models sampled from the
+posterior and connected by constraints. Experiments on real world data validate
+the proposed methods.

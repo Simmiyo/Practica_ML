@@ -1,0 +1,15 @@
+Using Entropy Estimates for DAG-Based Ontologies
+Motivation: Entropy measurements on hierarchical structures have been used in
+methods for information retrieval and natural language modeling. Here we
+explore its application to semantic similarity. By finding shared ontology
+terms, semantic similarity can be established between annotated genes. A common
+procedure for establishing semantic similarity is to calculate the
+descriptiveness (information content) of ontology terms and use these values to
+determine the similarity of annotations. Most often information content is
+calculated for an ontology term by analyzing its frequency in an annotation
+corpus. The inherent problems in using these values to model functional
+similarity motivates our work. Summary: We present a novel calculation for
+establishing the entropy of a DAG-based ontology, which can be used in an
+alternative method for establishing the information content of its terms. We
+also compare our IC metric to two others using semantic and sequence
+similarity.

@@ -1,0 +1,16 @@
+Modeling Interference-Free Neuron Spikes with Optogenetic Stimulation
+This paper predicts the ability to externally control the firing times of a
+cortical neuron whose behavior follows the Izhikevich neuron model. The
+Izhikevich neuron model provides an efficient and biologically plausible method
+to track a cortical neuron's membrane potential and its firing times. The
+external control is a simple optogenetic model represented by a constant
+current source that can be turned on or off. This paper considers firing
+frequencies that are sufficiently low for the membrane potential to return to
+its resting potential after it fires. The time required for the neuron to
+charge and for the neuron to recover to the resting potential are numerically
+fitted to functions of the Izhikevich neuron model parameters and the input
+current. Results show that simple functions of the model parameters and input
+current can be used to predict the charging and recovery times, even when there
+are deviations in the actual parameter values. Furthermore, the predictions
+lead to lower bounds on the firing frequency that can be achieved without
+significant distortion.

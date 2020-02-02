@@ -1,0 +1,10 @@
+Rotations and Interpretability of Word Embeddings: the Case of the
+  Russian Language
+Consider a continuous word embedding model. Usually, the cosines between word
+vectors are used as a measure of similarity of words. These cosines do not
+change under orthogonal transformations of the embedding space. We demonstrate
+that, using some canonical orthogonal transformations from SVD, it is possible
+both to increase the meaning of some components and to make the components more
+stable under re-learning. We study the interpretability of components for
+publicly available models for the Russian language (RusVectores, fastText,
+RDT).

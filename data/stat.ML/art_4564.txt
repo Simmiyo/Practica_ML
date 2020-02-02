@@ -1,0 +1,15 @@
+Optimally Pruning Decision Tree Ensembles With Feature Cost
+We consider the problem of learning decision rules for prediction with
+feature budget constraint. In particular, we are interested in pruning an
+ensemble of decision trees to reduce expected feature cost while maintaining
+high prediction accuracy for any test example. We propose a novel 0-1 integer
+program formulation for ensemble pruning. Our pruning formulation is general -
+it takes any ensemble of decision trees as input. By explicitly accounting for
+feature-sharing across trees together with accuracy/cost trade-off, our method
+is able to significantly reduce feature cost by pruning subtrees that introduce
+more loss in terms of feature cost than benefit in terms of prediction accuracy
+gain. Theoretically, we prove that a linear programming relaxation produces the
+exact solution of the original integer program. This allows us to use efficient
+convex optimization tools to obtain an optimally pruned ensemble for any given
+budget. Empirically, we see that our pruning algorithm significantly improves
+the performance of the state of the art ensemble method BudgetRF.

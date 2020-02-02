@@ -1,0 +1,17 @@
+Reconstruction of Epsilon-Machines in Predictive Frameworks and
+  Decisional States
+This article introduces both a new algorithm for reconstructing
+epsilon-machines from data, as well as the decisional states. These are defined
+as the internal states of a system that lead to the same decision, based on a
+user-provided utility or pay-off function. The utility function encodes some a
+priori knowledge external to the system, it quantifies how bad it is to make
+mistakes. The intrinsic underlying structure of the system is modeled by an
+epsilon-machine and its causal states. The decisional states form a partition
+of the lower-level causal states that is defined according to the higher-level
+user's knowledge. In a complex systems perspective, the decisional states are
+thus the "emerging" patterns corresponding to the utility function. The
+transitions between these decisional states correspond to events that lead to a
+change of decision. The new REMAPF algorithm estimates both the epsilon-machine
+and the decisional states from data. Application examples are given for hidden
+model reconstruction, cellular automata filtering, and edge detection in
+images.

@@ -1,0 +1,10 @@
+SpeedRead: A Fast Named Entity Recognition Pipeline
+Online content analysis employs algorithmic methods to identify entities in
+unstructured text. Both machine learning and knowledge-base approaches lie at
+the foundation of contemporary named entities extraction systems. However, the
+progress in deploying these approaches on web-scale has been been hampered by
+the computational cost of NLP over massive text corpora. We present SpeedRead
+(SR), a named entity recognition pipeline that runs at least 10 times faster
+than Stanford NLP pipeline. This pipeline consists of a high performance Penn
+Treebank- compliant tokenizer, close to state-of-art part-of-speech (POS)
+tagger and knowledge-based named entity recognizer.

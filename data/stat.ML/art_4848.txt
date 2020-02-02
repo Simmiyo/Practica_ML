@@ -1,0 +1,22 @@
+Efficient Estimation in the Tails of Gaussian Copulas
+We consider the question of efficient estimation in the tails of Gaussian
+copulas. Our special focus is estimating expectations over multi-dimensional
+constrained sets that have a small implied measure under the Gaussian copula.
+We propose three estimators, all of which rely on a simple idea: identify
+certain \emph{dominating} point(s) of the feasible set, and appropriately shift
+and scale an exponential distribution for subsequent use within an importance
+sampling measure. As we show, the efficiency of such estimators depends
+crucially on the local structure of the feasible set around the dominating
+points. The first of our proposed estimators $\estOpt$ is the
+"full-information" estimator that actively exploits such local structure to
+achieve bounded relative error in Gaussian settings. The second and third
+estimators $\estExp$, $\estLap$ are "partial-information" estimators, for use
+when complete information about the constraint set is not available, they do
+not exhibit bounded relative error but are shown to achieve polynomial
+efficiency. We provide sharp asymptotics for all three estimators. For the
+NORTA setting where no ready information about the dominating points or the
+feasible set structure is assumed, we construct a multinomial mixture of the
+partial-information estimator $\estLap$ resulting in a fourth estimator
+$\estNt$ with polynomial efficiency, and implementable through the ecoNORTA
+algorithm. Numerical results on various example problems are remarkable, and
+consistent with theory.

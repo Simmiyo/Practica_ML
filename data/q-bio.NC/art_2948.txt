@@ -1,0 +1,17 @@
+Revisiting chaos in stimulus-driven spiking networks: signal encoding
+  and discrimination
+Highly connected recurrent neural networks often produce chaotic dynamics,
+meaning their precise activity is sensitive to small perturbations. What are
+the consequences for how such networks encode streams of temporal stimuli? On
+the one hand, chaos is a strong source of randomness, suggesting that small
+changes in stimuli will be obscured by intrinsically generated variability. On
+the other hand, recent work shows that the type of chaos that occurs in spiking
+networks can have a surprisingly low-dimensional structure, suggesting that
+there may be "room" for fine stimulus features to be precisely resolved. Here
+we show that strongly chaotic networks produce patterned spikes that reliably
+encode time-dependent stimuli: using a decoder sensitive to spike times on
+timescales of 10's of ms, one can easily distinguish responses to very similar
+inputs. Moreover, recurrence serves to distribute signals throughout chaotic
+networks so that small groups of cells can encode substantial information about
+signals arriving elsewhere. A conclusion is that the presence of strong chaos
+in recurrent networks does not prohibit precise stimulus encoding.

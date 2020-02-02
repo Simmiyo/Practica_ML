@@ -1,0 +1,14 @@
+Improved Estimation of High-dimensional Ising Models
+We consider the problem of jointly estimating the parameters as well as the
+structure of binary valued Markov Random Fields, in contrast to earlier work
+that focus on one of the two problems. We formulate the problem as a
+maximization of $\ell_1$-regularized surrogate likelihood that allows us to
+find a sparse solution. Our optimization technique efficiently incorporates the
+cutting-plane algorithm in order to obtain a tighter outer bound on the
+marginal polytope, which results in improvement of both parameter estimates and
+approximation to marginals. On synthetic data, we compare our algorithm on the
+two estimation tasks to the other existing methods. We analyze the method in
+the high-dimensional setting, where the number of dimensions $p$ is allowed to
+grow with the number of observations $n$. The rate of convergence of the
+estimate is demonstrated to depend explicitly on the sparsity of the underlying
+graph.

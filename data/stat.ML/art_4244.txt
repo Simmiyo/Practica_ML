@@ -1,0 +1,11 @@
+Feature uncertainty bounding schemes for large robust nonlinear SVM
+  classifiers
+We consider the binary classification problem when data are large and subject
+to unknown but bounded uncertainties. We address the problem by formulating the
+nonlinear support vector machine training problem with robust optimization. To
+do so, we analyze and propose two bounding schemes for uncertainties associated
+to random approximate features in low dimensional spaces. The proposed
+techniques are based on Random Fourier Features and the Nystr\"om methods. The
+resulting formulations can be solved with efficient stochastic approximation
+techniques such as stochastic (sub)-gradient, stochastic proximal gradient
+techniques or their variants.

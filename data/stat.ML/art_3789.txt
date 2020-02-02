@@ -1,0 +1,17 @@
+General Vector Machine
+The support vector machine (SVM) is an important class of learning machines
+for function approach, pattern recognition, and time-serious prediction, etc.
+It maps samples into the feature space by so-called support vectors of selected
+samples, and then feature vectors are separated by maximum margin hyperplane.
+The present paper presents the general vector machine (GVM) to replace the SVM.
+The support vectors are replaced by general project vectors selected from the
+usual vector space, and a Monte Carlo (MC) algorithm is developed to find the
+general vectors. The general project vectors improves the feature-extraction
+ability, and the MC algorithm can control the width of the separation margin of
+the hyperplane. By controlling the separation margin, we show that the maximum
+margin hyperplane can usually induce the overlearning, and the best learning
+machine is achieved with a proper separation margin. Applications in function
+approach, pattern recognition, and classification indicate that the developed
+method is very successful, particularly for small-set training problems.
+Additionally, our algorithm may induce some particular applications, such as
+for the transductive inference.

@@ -1,0 +1,20 @@
+Sparse Predictive Structure of Deconvolved Functional Brain Networks
+The functional and structural representation of the brain as a complex
+network is marked by the fact that the comparison of noisy and intrinsically
+correlated high-dimensional structures between experimental conditions or
+groups shuns typical mass univariate methods. Furthermore most network
+estimation methods cannot distinguish between real and spurious correlation
+arising from the convolution due to nodes' interaction, which thus introduces
+additional noise in the data. We propose a machine learning pipeline aimed at
+identifying multivariate differences between brain networks associated to
+different experimental conditions. The pipeline (1) leverages the deconvolved
+individual contribution of each edge and (2) maps the task into a sparse
+classification problem in order to construct the associated "sparse deconvolved
+predictive network", i.e., a graph with the same nodes of those compared but
+whose edge weights are defined by their relevance for out of sample predictions
+in classification. We present an application of the proposed method by decoding
+the covert attention direction (left or right) based on the single-trial
+functional connectivity matrix extracted from high-frequency
+magnetoencephalography (MEG) data. Our results demonstrate how network
+deconvolution matched with sparse classification methods outperforms typical
+approaches for MEG decoding.

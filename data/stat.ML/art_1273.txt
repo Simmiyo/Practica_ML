@@ -1,0 +1,13 @@
+Infinite Sparse Structured Factor Analysis
+Matrix factorisation methods decompose multivariate observations as linear
+combinations of latent feature vectors. The Indian Buffet Process (IBP)
+provides a way to model the number of latent features required for a good
+approximation in terms of regularised reconstruction error. Previous work has
+focussed on latent feature vectors with independent entries. We extend the
+model to include nondiagonal latent covariance structures representing
+characteristics such as smoothness. This is done by . Using simulations we
+demonstrate that under appropriate conditions a smoothness prior helps to
+recover the true latent features, while denoising more accurately. We
+demonstrate our method on a real neuroimaging dataset, where computational
+tractability is a sufficient challenge that the efficient strategy presented
+here is essential.

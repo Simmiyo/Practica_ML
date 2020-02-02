@@ -1,0 +1,24 @@
+PEAR: PEriodic And fixed Rank separation for fast fMRI
+In functional MRI (fMRI), faster acquisition via undersampling of data can
+improve the spatial-temporal resolution trade-off and increase statistical
+robustness through increased degrees-of-freedom. High quality reconstruction of
+fMRI data from undersampled measurements requires proper modeling of the data.
+We present an fMRI reconstruction approach based on modeling the fMRI signal as
+a sum of periodic and fixed rank components, for improved reconstruction from
+undersampled measurements. We decompose the fMRI signal into a component which
+a has fixed rank and a component consisting of a sum of periodic signals which
+is sparse in the temporal Fourier domain. Data reconstruction is performed by
+solving a constrained problem that enforces a fixed, moderate rank on one of
+the components, and a limited number of temporal frequencies on the other. Our
+approach is coined PEAR - PEriodic And fixed Rank separation for fast fMRI.
+  Experimental results include purely synthetic simulation, a simulation with
+real timecourses and retrospective undersampling of a real fMRI dataset.
+Evaluation was performed both quantitatively and visually versus ground truth,
+comparing PEAR to two additional recent methods for fMRI reconstruction from
+undersampled measurements. Results demonstrate PEAR's improvement in estimating
+the timecourses and activation maps versus the methods compared against at
+acceleration ratios of R=8,16 (for simulated data) and R=6.66,10 (for real
+data). PEAR results in reconstruction with higher fidelity than when using a
+fixed-rank based model or a conventional Low-rank+Sparse algorithm. We have
+shown that splitting the functional information between the components leads to
+better modeling of fMRI, over state-of-the-art methods.

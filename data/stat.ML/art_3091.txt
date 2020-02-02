@@ -1,0 +1,18 @@
+Dynamic Programming for Instance Annotation in Multi-instance
+  Multi-label Learning
+Labeling data for classification requires significant human effort. To reduce
+labeling cost, instead of labeling every instance, a group of instances (bag)
+is labeled by a single bag label. Computer algorithms are then used to infer
+the label for each instance in a bag, a process referred to as instance
+annotation. This task is challenging due to the ambiguity regarding the
+instance labels. We propose a discriminative probabilistic model for the
+instance annotation problem and introduce an expectation maximization framework
+for inference, based on the maximum likelihood approach. For many probabilistic
+approaches, brute-force computation of the instance label posterior probability
+given its bag label is exponential in the number of instances in the bag. Our
+key contribution is a dynamic programming method for computing the posterior
+that is linear in the number of instances. We evaluate our methods using both
+benchmark and real world data sets, in the domain of bird song, image
+annotation, and activity recognition. In many cases, the proposed framework
+outperforms, sometimes significantly, the current state-of-the-art MIML
+learning methods, both in instance label prediction and bag label prediction.

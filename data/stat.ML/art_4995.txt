@@ -1,0 +1,19 @@
+On Sequential Elimination Algorithms for Best-Arm Identification in
+  Multi-Armed Bandits
+We consider the best-arm identification problem in multi-armed bandits, which
+focuses purely on exploration. A player is given a fixed budget to explore a
+finite set of arms, and the rewards of each arm are drawn independently from a
+fixed, unknown distribution. The player aims to identify the arm with the
+largest expected reward. We propose a general framework to unify sequential
+elimination algorithms, where the arms are dismissed iteratively until a unique
+arm is left. Our analysis reveals a novel performance measure expressed in
+terms of the sampling mechanism and number of eliminated arms at each round.
+Based on this result, we develop an algorithm that divides the budget according
+to a nonlinear function of remaining arms at each round. We provide theoretical
+guarantees for the algorithm, characterizing the suitable nonlinearity for
+different problem environments described by the number of competitive arms.
+Matching the theoretical results, our experiments show that the nonlinear
+algorithm outperforms the state-of-the-art. We finally study the
+side-observation model, where pulling an arm reveals the rewards of its related
+arms, and we establish improved theoretical guarantees in the pure-exploration
+setting.

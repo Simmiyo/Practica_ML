@@ -1,0 +1,13 @@
+The End of Optimism? An Asymptotic Analysis of Finite-Armed Linear
+  Bandits
+Stochastic linear bandits are a natural and simple generalisation of
+finite-armed bandits with numerous practical applications. Current approaches
+focus on generalising existing techniques for finite-armed bandits, notably the
+optimism principle and Thompson sampling. While prior work has mostly been in
+the worst-case setting, we analyse the asymptotic instance-dependent regret and
+show matching upper and lower bounds on what is achievable. Surprisingly, our
+results show that no algorithm based on optimism or Thompson sampling will ever
+achieve the optimal rate, and indeed, can be arbitrarily far from optimal, even
+in very simple cases. This is a disturbing result because these techniques are
+standard tools that are widely used for sequential optimisation. For example,
+for generalised linear bandits and reinforcement learning.

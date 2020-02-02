@@ -1,0 +1,19 @@
+High-dimensional Mixed Graphical Models
+While graphical models for continuous data (Gaussian graphical models) and
+discrete data (Ising models) have been extensively studied, there is little
+work on graphical models linking both continuous and discrete variables (mixed
+data), which are common in many scientific applications. We propose a novel
+graphical model for mixed data, which is simple enough to be suitable for
+high-dimensional data, yet flexible enough to represent all possible graph
+structures. We develop a computationally efficient regression-based algorithm
+for fitting the model by focusing on the conditional log-likelihood of each
+variable given the rest. The parameters have a natural group structure, and
+sparsity in the fitted graph is attained by incorporating a group lasso
+penalty, approximated by a weighted $\ell_1$ penalty for computational
+efficiency. We demonstrate the effectiveness of our method through an extensive
+simulation study and apply it to a music annotation data set (CAL500),
+obtaining a sparse and interpretable graphical model relating the continuous
+features of the audio signal to categorical variables such as genre, emotions,
+and usage associated with particular songs. While we focus on binary discrete
+variables, we also show that the proposed methodology can be easily extended to
+general discrete variables.

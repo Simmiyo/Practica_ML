@@ -1,0 +1,11 @@
+Linguistic Search Optimization for Deep Learning Based LVCSR
+Recent advances in deep learning based large vocabulary con- tinuous speech
+recognition (LVCSR) invoke growing demands in large scale speech transcription.
+The inference process of a speech recognizer is to find a sequence of labels
+whose corresponding acoustic and language models best match the input feature
+[1]. The main computation includes two stages: acoustic model (AM) inference
+and linguistic search (weighted finite-state transducer, WFST). Large
+computational overheads of both stages hamper the wide application of LVCSR.
+Benefit from stronger classifiers, deep learning, and more powerful computing
+devices, we propose general ideas and some initial trials to solve these
+fundamental problems.

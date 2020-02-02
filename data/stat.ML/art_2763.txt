@@ -1,0 +1,21 @@
+Bayesian nonparametric comorbidity analysis of psychiatric disorders
+The analysis of comorbidity is an open and complex research field in the
+branch of psychiatry, where clinical experience and several studies suggest
+that the relation among the psychiatric disorders may have etiological and
+treatment implications. In this paper, we are interested in applying latent
+feature modeling to find the latent structure behind the psychiatric disorders
+that can help to examine and explain the relationships among them. To this end,
+we use the large amount of information collected in the National Epidemiologic
+Survey on Alcohol and Related Conditions (NESARC) database and propose to model
+these data using a nonparametric latent model based on the Indian Buffet
+Process (IBP). Due to the discrete nature of the data, we first need to adapt
+the observation model for discrete random variables. We propose a generative
+model in which the observations are drawn from a multinomial-logit distribution
+given the IBP matrix. The implementation of an efficient Gibbs sampler is
+accomplished using the Laplace approximation, which allows integrating out the
+weighting factors of the multinomial-logit likelihood model. We also provide a
+variational inference algorithm for this model, which provides a complementary
+(and less expensive in terms of computational complexity) alternative to the
+Gibbs sampler allowing us to deal with a larger number of data. Finally, we use
+the model to analyze comorbidity among the psychiatric disorders diagnosed by
+experts from the NESARC database.

@@ -1,0 +1,21 @@
+A geometrical analysis of global stability in trained feedback networks
+Recurrent neural networks have been extensively studied in the context of
+neuroscience and machine learning due to their ability to implement complex
+computations. While substantial progress in designing effective learning
+algorithms has been achieved in the last years, a full understanding of trained
+recurrent networks is still lacking. Specifically, the mechanisms that allow
+computations to emerge from the underlying recurrent dynamics are largely
+unknown. Here we focus on a simple, yet underexplored computational setup: a
+feedback architecture trained to associate a stationary output to a stationary
+input. As a starting point, we derive an approximate analytical description of
+global dynamics in trained networks which assumes uncorrelated connectivity
+weights in the feedback and in the random bulk. The resulting mean-field theory
+suggests that the task admits several classes of solutions, which imply
+different stability properties. Different classes are characterized in terms of
+the geometrical arrangement of the readout with respect to the input vectors,
+defined in the high-dimensional space spanned by the network population. We
+find that such approximate theoretical approach can be used to understand how
+standard training techniques implement the input-output task in finite-size
+feedback networks. In particular, our simplified description captures the local
+and the global stability properties of the target solution, and thus predicts
+training performance.

@@ -1,0 +1,15 @@
+Blocking Collapsed Gibbs Sampler for Latent Dirichlet Allocation Models
+The latent Dirichlet allocation (LDA) model is a widely-used latent variable
+model in machine learning for text analysis. Inference for this model typically
+involves a single-site collapsed Gibbs sampling step for latent variables
+associated with observations. The efficiency of the sampling is critical to the
+success of the model in practical large scale applications. In this article, we
+introduce a blocking scheme to the collapsed Gibbs sampler for the LDA model
+which can, with a theoretical guarantee, improve chain mixing efficiency. We
+develop two procedures, an O(K)-step backward simulation and an O(log K)-step
+nested simulation, to directly sample the latent variables within each block.
+We demonstrate that the blocking scheme achieves substantial improvements in
+chain mixing compared to the state of the art single-site collapsed Gibbs
+sampler. We also show that when the number of topics is over hundreds, the
+nested-simulation blocking scheme can achieve a significant reduction in
+computation time compared to the single-site sampler.

@@ -1,0 +1,14 @@
+Incorporating Syntactic Uncertainty in Neural Machine Translation with
+  Forest-to-Sequence Model
+Incorporating syntactic information in Neural Machine Translation models is a
+method to compensate their requirement for a large amount of parallel training
+text, especially for low-resource language pairs. Previous works on using
+syntactic information provided by (inevitably error-prone) parsers has been
+promising. In this paper, we propose a forest-to-sequence Attentional Neural
+Machine Translation model to make use of exponentially many parse trees of the
+source sentence to compensate for the parser errors. Our method represents the
+collection of parse trees as a packed forest, and learns a neural attentional
+transduction model from the forest to the target sentence. Experiments on
+English to German, Chinese and Persian translation show the superiority of our
+method over the tree-to-sequence and vanilla sequence-to-sequence neural
+translation models.

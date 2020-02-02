@@ -1,0 +1,17 @@
+Sparsity-driven weighted ensemble classifier
+In this study, a novel sparsity-driven weighted ensemble classifier (SDWEC)
+that improves classification accuracy and minimizes the number of classifiers
+is proposed. Using pre-trained classifiers, an ensemble in which base
+classifiers votes according to assigned weights is formed. These assigned
+weights directly affect classifier accuracy. In the proposed method, ensemble
+weights finding problem is modeled as a cost function with the following terms:
+(a) a data fidelity term aiming to decrease misclassification rate, (b) a
+sparsity term aiming to decrease the number of classifiers, and (c) a
+non-negativity constraint on the weights of the classifiers. As the proposed
+cost function is non-convex thus hard to solve, convex relaxation techniques
+and novel approximations are employed to obtain a numerically efficient
+solution. Sparsity term of cost function allows trade-off between accuracy and
+testing time when needed. The efficiency of SDWEC was tested on 11 datasets and
+compared with the state-of-the art classifier ensemble methods. The results
+show that SDWEC provides better or similar accuracy levels using fewer
+classifiers and reduces testing time for ensemble.

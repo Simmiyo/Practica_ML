@@ -1,0 +1,18 @@
+Monte Carlo Structured SVI for Two-Level Non-Conjugate Models
+The stochastic variational inference (SVI) paradigm, which combines
+variational inference, natural gradients, and stochastic updates, was recently
+proposed for large-scale data analysis in conjugate Bayesian models and
+demonstrated to be effective in several problems. This paper studies a family
+of Bayesian latent variable models with two levels of hidden variables but
+without any conjugacy requirements, making several contributions in this
+context. The first is observing that SVI, with an improved structured
+variational approximation, is applicable under more general conditions than
+previously thought with the only requirement being that the approximating
+variational distribution be in the same family as the prior. The resulting
+approach, Monte Carlo Structured SVI (MC-SSVI), significantly extends the scope
+of SVI, enabling large-scale learning in non-conjugate models. For models with
+latent Gaussian variables we propose a hybrid algorithm, using both standard
+and natural gradients, which is shown to improve stability and convergence.
+Applications in mixed effects models, sparse Gaussian processes, probabilistic
+matrix factorization and correlated topic models demonstrate the generality of
+the approach and the advantages of the proposed algorithms.

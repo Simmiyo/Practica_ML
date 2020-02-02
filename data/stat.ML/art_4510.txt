@@ -1,0 +1,19 @@
+Sequential Advantage Selection for Optimal Treatment Regimes
+Variable selection for optimal treatment regime in a clinical trial or an
+observational study is getting more attention. Most existing variable selection
+techniques focused on selecting variables that are important for prediction,
+therefore some variables that are poor in prediction but are critical for
+decision-making may be ignored. A qualitative interaction of a variable with
+treatment arises when treatment effect changes direction as the value of this
+variable varies. The qualitative interaction indicates the importance of this
+variable for decision-making. Gunter et al. (2011) proposed S-score which
+characterizes the magnitude of qualitative interaction of each variable with
+treatment individually. In this article, we developed a sequential advantage
+selection method based on the modified S-score. Our method selects
+qualitatively interacted variables sequentially, and hence excludes marginally
+important but jointly unimportant variables {or vice versa}. The optimal
+treatment regime based on variables selected via joint model is more
+comprehensive and reliable. With the proposed stopping criteria, our method can
+handle a large amount of covariates even if sample size is small. Simulation
+results show our method performs well in practical settings. We further applied
+our method to data from a clinical trial for depression.

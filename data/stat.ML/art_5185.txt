@@ -1,0 +1,21 @@
+Bayesian Non-Homogeneous Markov Models via Polya-Gamma Data Augmentation
+  with Applications to Rainfall Modeling
+Discrete-time hidden Markov models are a broadly useful class of
+latent-variable models with applications in areas such as speech recognition,
+bioinformatics, and climate data analysis. It is common in practice to
+introduce temporal non-homogeneity into such models by making the transition
+probabilities dependent on time-varying exogenous input variables via a
+multinomial logistic parametrization. We extend such models to introduce
+additional non-homogeneity into the emission distribution using a generalized
+linear model (GLM), with data augmentation for sampling-based inference.
+However, the presence of the logistic function in the state transition model
+significantly complicates parameter inference for the overall model,
+particularly in a Bayesian context. To address this we extend the
+recently-proposed Polya-Gamma data augmentation approach to handle
+non-homogeneous hidden Markov models (NHMMs), allowing the development of an
+efficient Markov chain Monte Carlo (MCMC) sampling scheme. We apply our model
+and inference scheme to 30 years of daily rainfall in India, leading to a
+number of insights into rainfall-related phenomena in the region. Our proposed
+approach allows for fully Bayesian analysis of relatively complex NHMMs on a
+scale that was not possible with previous methods. Software implementing the
+methods described in the paper is available via the R package NHMM.

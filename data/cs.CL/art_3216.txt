@@ -1,0 +1,16 @@
+The Effect of Negators, Modals, and Degree Adverbs on Sentiment
+  Composition
+Negators, modals, and degree adverbs can significantly affect the sentiment
+of the words they modify. Often, their impact is modeled with simple
+heuristics; although, recent work has shown that such heuristics do not capture
+the true sentiment of multi-word phrases. We created a dataset of phrases that
+include various negators, modals, and degree adverbs, as well as their
+combinations. Both the phrases and their constituent content words were
+annotated with real-valued scores of sentiment association. Using phrasal terms
+in the created dataset, we analyze the impact of individual modifiers and the
+average effect of the groups of modifiers on overall sentiment. We find that
+the effect of modifiers varies substantially among the members of the same
+group. Furthermore, each individual modifier can affect sentiment words in
+different ways. Therefore, solutions based on statistical learning seem more
+promising than fixed hand-crafted rules on the task of automatic sentiment
+prediction.

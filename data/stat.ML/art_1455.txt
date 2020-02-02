@@ -1,0 +1,11 @@
+Weighted Tensor Decomposition for Learning Latent Variables with Partial
+  Data
+Tensor decomposition methods are popular tools for learning latent variables
+given only lower-order moments of the data. However, the standard assumption is
+that we have sufficient data to estimate these moments to high accuracy. In
+this work, we consider the case in which certain dimensions of the data are not
+always observed---common in applied settings, where not all measurements may be
+taken for all observations---resulting in moment estimates of varying quality.
+We derive a weighted tensor decomposition approach that is computationally as
+efficient as the non-weighted approach, and demonstrate that it outperforms
+methods that do not appropriately leverage these less-observed dimensions.

@@ -1,0 +1,25 @@
+Neuroprosthetic decoder training as imitation learning
+Neuroprosthetic brain-computer interfaces function via an algorithm which
+decodes neural activity of the user into movements of an end effector, such as
+a cursor or robotic arm. In practice, the decoder is often learned by updating
+its parameters while the user performs a task. When the user's intention is not
+directly observable, recent methods have demonstrated value in training the
+decoder against a surrogate for the user's intended movement. We describe how
+training a decoder in this way is a novel variant of an imitation learning
+problem, where an oracle or expert is employed for supervised training in lieu
+of direct observations, which are not available. Specifically, we describe how
+a generic imitation learning meta-algorithm, dataset aggregation (DAgger, [1]),
+can be adapted to train a generic brain-computer interface. By deriving
+existing learning algorithms for brain-computer interfaces in this framework,
+we provide a novel analysis of regret (an important metric of learning
+efficacy) for brain-computer interfaces. This analysis allows us to
+characterize the space of algorithmic variants and bounds on their regret
+rates. Existing approaches for decoder learning have been performed in the
+cursor control setting, but the available design principles for these decoders
+are such that it has been impossible to scale them to naturalistic settings.
+Leveraging our findings, we then offer an algorithm that combines imitation
+learning with optimal control, which should allow for training of arbitrary
+effectors for which optimal control can generate goal-oriented control. We
+demonstrate this novel and general BCI algorithm with simulated neuroprosthetic
+control of a 26 degree-of-freedom model of an arm, a sophisticated and
+realistic end effector.

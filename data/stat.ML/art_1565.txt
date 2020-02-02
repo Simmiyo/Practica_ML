@@ -1,0 +1,12 @@
+Variational Inference for Gaussian Process with Panel Count Data
+We present the first framework for Gaussian-process-modulated Poisson
+processes when the temporal data appear in the form of panel counts. Panel
+count data frequently arise when experimental subjects are observed only at
+discrete time points and only the numbers of occurrences of the events between
+subsequent observation times are available. The exact occurrence timestamps of
+the events are unknown. The method of conducting the efficient variational
+inference is presented, based on the assumption of a Gaussian-process-modulated
+intensity function. We derive a tractable lower bound to alleviate the problems
+of the intractable evidence lower bound inherent in the variational inference
+framework. Our algorithm outperforms classical methods on both synthetic and
+three real panel count sets.

@@ -1,0 +1,19 @@
+Galaxy shear estimation from stacked images
+Statistics of the weak lensing of galaxies can be used to constrain cosmology
+if the galaxy shear can be estimated accurately. In general this requires
+accurate modelling of unlensed galaxy shapes and the point spread function
+(PSF). I discuss suboptimal but potentially robust methods for estimating
+galaxy shear by stacking images such that the stacked image distribution is
+closely Gaussian by the central limit theorem. The shear can then be determined
+by radial fitting, requiring only an accurate model of the PSF rather than also
+needing to model each galaxy accurately. When noise is significant asymmetric
+errors in the centroid must be corrected, but the method may ultimately be able
+to give accurate un-biased results when there is a high galaxy density with
+constant shear. It provides a useful baseline for more optimal methods, and a
+test-case for estimating biases, though the method is not directly applicable
+to realistic data. I test stacking methods on the simple toy simulations with
+constant PSF and shear provided by the GREAT08 project, on which most other
+existing methods perform significantly more poorly, and briefly discuss
+generalizations to more realistic cases. In the appendix I discuss a simple
+analytic galaxy population model where stacking gives optimal errors in a
+perfect ideal case.

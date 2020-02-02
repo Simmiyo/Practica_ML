@@ -1,0 +1,15 @@
+The Sum-over-Forests density index: identifying dense regions in a graph
+This work introduces a novel nonparametric density index defined on graphs,
+the Sum-over-Forests (SoF) density index. It is based on a clear and intuitive
+idea: high-density regions in a graph are characterized by the fact that they
+contain a large amount of low-cost trees with high outdegrees while low-density
+regions contain few ones. Therefore, a Boltzmann probability distribution on
+the countable set of forests in the graph is defined so that large (high-cost)
+forests occur with a low probability while short (low-cost) forests occur with
+a high probability. Then, the SoF density index of a node is defined as the
+expected outdegree of this node in a non-trivial tree of the forest, thus
+providing a measure of density around that node. Following the matrix-forest
+theorem, and a statistical physics framework, it is shown that the SoF density
+index can be easily computed in closed form through a simple matrix inversion.
+Experiments on artificial and real data sets show that the proposed index
+performs well on finding dense regions, for graphs of various origins.

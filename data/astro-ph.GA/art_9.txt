@@ -1,0 +1,24 @@
+Locality of MHD Turbulence in Isothermal Disks
+We numerically evolve turbulence driven by the magnetorotational instability
+(MRI) in a 3D, unstratified shearing box and study its structure using
+two-point correlation functions. We confirm Fromang and Papaloizou's result
+that shearing box models with zero net magnetic flux are not converged; the
+dimensionless shear stress $\alpha$ is proportional to the grid scale. We find
+that the two-point correlation of the magnetic field shows that it is composed
+of narrow filaments that are swept back by differential rotation into a
+trailing spiral. The correlation lengths along each of the correlation function
+principal axes decrease monotonically with the grid scale. For mean azimuthal
+field models, which we argue are more relevant to astrophysical disks than the
+zero net field models, we find that: $\alpha$ increases weakly with increasing
+resolution at fixed box size; $\alpha$ increases slightly as the box size is
+increased; $\alpha$ increases linearly with net field strength, confirming
+earlier results; the two-point correlation function of the magnetic field is
+resolved and converged, and is composed of narrow filaments swept back by the
+shear; the major axis of the two-point increases slightly as the box size is
+increased; these results are code independent, based on a comparison of ATHENA
+and ZEUS runs. The velocity, density, and magnetic fields decorrelate over
+scales larger than $\sim H$, as do the dynamical terms in the magnetic energy
+evolution equations. We conclude that MHD turbulence in disks is localized,
+subject to the limitations imposed by the absence of vertical stratification,
+the use of an isothermal equation of state, finite box size, finite run time,
+and finite resolution

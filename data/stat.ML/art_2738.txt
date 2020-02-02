@@ -1,0 +1,20 @@
+Generalization Bounds for Representative Domain Adaptation
+In this paper, we propose a novel framework to analyze the theoretical
+properties of the learning process for a representative type of domain
+adaptation, which combines data from multiple sources and one target (or
+briefly called representative domain adaptation). In particular, we use the
+integral probability metric to measure the difference between the distributions
+of two domains and meanwhile compare it with the H-divergence and the
+discrepancy distance. We develop the Hoeffding-type, the Bennett-type and the
+McDiarmid-type deviation inequalities for multiple domains respectively, and
+then present the symmetrization inequality for representative domain
+adaptation. Next, we use the derived inequalities to obtain the Hoeffding-type
+and the Bennett-type generalization bounds respectively, both of which are
+based on the uniform entropy number. Moreover, we present the generalization
+bounds based on the Rademacher complexity. Finally, we analyze the asymptotic
+convergence and the rate of convergence of the learning process for
+representative domain adaptation. We discuss the factors that affect the
+asymptotic behavior of the learning process and the numerical experiments
+support our theoretical findings as well. Meanwhile, we give a comparison with
+the existing results of domain adaptation and the classical results under the
+same-distribution assumption.

@@ -1,0 +1,11 @@
+Predicting Ambulance Demand: Challenges and Methods
+Predicting ambulance demand accurately at a fine resolution in time and space
+(e.g., every hour and 1 km$^2$) is critical for staff / fleet management and
+dynamic deployment. There are several challenges: though the dataset is
+typically large-scale, demand per time period and locality is almost always
+zero. The demand arises from complex urban geography and exhibits complex
+spatio-temporal patterns, both of which need to captured and exploited. To
+address these challenges, we propose three methods based on Gaussian mixture
+models, kernel density estimation, and kernel warping. These methods provide
+spatio-temporal predictions for Toronto and Melbourne that are significantly
+more accurate than the current industry practice.

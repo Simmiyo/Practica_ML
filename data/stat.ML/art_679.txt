@@ -1,0 +1,17 @@
+Asymptotically Optimal Sequential Experimentation Under Generalized
+  Ranking
+We consider the \mnk{classical} problem of a controller activating (or
+sampling) sequentially from a finite number of $N \geq 2$ populations,
+specified by unknown distributions. Over some time horizon, at each time $n =
+1, 2, \ldots$, the controller wishes to select a population to sample, with the
+goal of sampling from a population that optimizes some "score" function of its
+distribution, e.g., maximizing the expected sum of outcomes or minimizing
+variability. We define a class of \textit{Uniformly Fast (UF)} sampling
+policies and show, under mild regularity conditions, that there is an
+asymptotic lower bound for the expected total number of sub-optimal population
+activations. Then, we provide sufficient conditions under which a UCB policy is
+UF and asymptotically optimal, since it attains this lower bound. Explicit
+solutions are provided for a number of examples of interest, including general
+score functionals on unconstrained Pareto distributions (of potentially
+infinite mean), and uniform distributions of unknown support. Additional
+results on bandits of Normal distributions are also provided.

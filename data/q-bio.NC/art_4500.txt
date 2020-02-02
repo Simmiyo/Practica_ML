@@ -1,0 +1,23 @@
+Multiple Kernel Learning and Automatic Subspace Relevance Determination
+  for High-dimensional Neuroimaging Data
+Alzheimer's disease is a major cause of dementia. Its diagnosis requires
+accurate biomarkers that are sensitive to disease stages. In this respect, we
+regard probabilistic classification as a method of designing a probabilistic
+biomarker for disease staging. Probabilistic biomarkers naturally support the
+interpretation of decisions and evaluation of uncertainty associated with them.
+In this paper, we obtain probabilistic biomarkers via Gaussian Processes.
+Gaussian Processes enable probabilistic kernel machines that offer flexible
+means to accomplish Multiple Kernel Learning. Exploiting this flexibility, we
+propose a new variation of Automatic Relevance Determination and tackle the
+challenges of high dimensionality through multiple kernels. Our research
+results demonstrate that the Gaussian Process models are competitive with or
+better than the well-known Support Vector Machine in terms of classification
+performance even in the cases of single kernel learning. Extending the basic
+scheme towards the Multiple Kernel Learning, we improve the efficacy of the
+Gaussian Process models and their interpretability in terms of the known
+anatomical correlates of the disease. For instance, the disease pathology
+starts in and around the hippocampus and entorhinal cortex. Through the use of
+Gaussian Processes and Multiple Kernel Learning, we have automatically and
+efficiently determined those portions of neuroimaging data. In addition to
+their interpretability, our Gaussian Process models are competitive with recent
+deep learning solutions under similar settings.

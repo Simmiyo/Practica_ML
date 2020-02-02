@@ -1,0 +1,15 @@
+Restricted Collapsed Draw: Accurate Sampling for Hierarchical Chinese
+  Restaurant Process Hidden Markov Models
+We propose a restricted collapsed draw (RCD) sampler, a general Markov chain
+Monte Carlo sampler of simultaneous draws from a hierarchical Chinese
+restaurant process (HCRP) with restriction. Models that require simultaneous
+draws from a hierarchical Dirichlet process with restriction, such as infinite
+Hidden markov models (iHMM), were difficult to enjoy benefits of \markerg{the}
+HCRP due to combinatorial explosion in calculating distributions of coupled
+draws. By constructing a proposal of seating arrangements (partitioning) and
+stochastically accepts the proposal by the Metropolis-Hastings algorithm, the
+RCD sampler makes accurate sampling for complex combination of draws while
+retaining efficiency of HCRP representation. Based on the RCD sampler, we
+developed a series of sophisticated sampling algorithms for iHMMs, including
+blocked Gibbs sampling, beam sampling, and split-merge sampling, that
+outperformed conventional iHMM samplers in experiments

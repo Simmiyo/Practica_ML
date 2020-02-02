@@ -1,0 +1,15 @@
+Energy Distribution of EEG Signals: EEG Signal Wavelet-Neural Network
+  Classifier
+In this paper, a wavelet-based neural network (WNN) classifier for
+recognizing EEG signals is implemented and tested under three sets EEG signals
+(healthy subjects, patients with epilepsy and patients with epileptic syndrome
+during the seizure). First, the Discrete Wavelet Transform (DWT) with the
+Multi-Resolution Analysis (MRA) is applied to decompose EEG signal at
+resolution levels of the components of the EEG signal (delta, theta, alpha,
+beta and gamma) and the Parsevals theorem are employed to extract the
+percentage distribution of energy features of the EEG signal at different
+resolution levels. Second, the neural network (NN) classifies these extracted
+features to identify the EEGs type according to the percentage distribution of
+energy features. The performance of the proposed algorithm has been evaluated
+using in total 300 EEG signals. The results showed that the proposed classifier
+has the ability of recognizing and classifying EEG signals efficiently.

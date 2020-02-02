@@ -1,0 +1,12 @@
+Sparse principal component regression with adaptive loading
+Principal component regression (PCR) is a two-stage procedure that selects
+some principal components and then constructs a regression model regarding them
+as new explanatory variables. Note that the principal components are obtained
+from only explanatory variables and not considered with the response variable.
+To address this problem, we propose the sparse principal component regression
+(SPCR) that is a one-stage procedure for PCR. SPCR enables us to adaptively
+obtain sparse principal component loadings that are related to the response
+variable and select the number of principal components simultaneously. SPCR can
+be obtained by the convex optimization problem for each of parameters with the
+coordinate descent algorithm. Monte Carlo simulations and real data analyses
+are performed to illustrate the effectiveness of SPCR.

@@ -1,0 +1,23 @@
+Quantum Wavelet Transforms: Fast Algorithms and Complete Circuits
+The quantum Fourier transform (QFT), a quantum analog of the classical
+Fourier transform, has been shown to be a powerful tool in developing quantum
+algorithms. However, in classical computing there is another class of unitary
+transforms, the wavelet transforms, which are every bit as useful as the
+Fourier transform. Wavelet transforms are used to expose the multi-scale
+structure of a signal and are likely to be useful for quantum image processing
+and quantum data compression. In this paper, we derive efficient, complete,
+quantum circuits for two representative quantum wavelet transforms, the quantum
+Haar and quantum Daubechies $D^{(4)}$ transforms. Our approach is to factor the
+operators for these transforms into direct sums, direct products and dot
+products of unitary matrices. In so doing, we find that permutation matrices, a
+particular class of unitary matrices, play a pivotal role. Surprisingly, we
+find that operations that are easy and inexpensive to implement classically are
+not always easy and inexpensive to implement quantum mechanically, and vice
+versa. In particular, the computational cost of performing certain permutation
+matrices is ignored classically because they can be avoided explicitly.
+However, quantum mechanically, these permutation operations must be performed
+explicitly and hence their cost enters into the full complexity measure of the
+quantum transform. We consider the particular set of permutation matrices
+arising in quantum wavelet transforms and develop efficient quantum circuits
+that implement them. This allows us to design efficient, complete quantum
+circuits for the quantum wavelet transform.

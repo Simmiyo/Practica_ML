@@ -1,0 +1,21 @@
+Unsupervised Sentence Representations as Word Information Series:
+  Revisiting TF--IDF
+Sentence representation at the semantic level is a challenging task for
+Natural Language Processing and Artificial Intelligence. Despite the advances
+in word embeddings (i.e. word vector representations), capturing sentence
+meaning is an open question due to complexities of semantic interactions among
+words. In this paper, we present an embedding method, which is aimed at
+learning unsupervised sentence representations from unlabeled text. We propose
+an unsupervised method that models a sentence as a weighted series of word
+embeddings. The weights of the word embeddings are fitted by using Shannon's
+word entropies provided by the Term Frequency--Inverse Document Frequency
+(TF--IDF) transform. The hyperparameters of the model can be selected according
+to the properties of data (e.g. sentence length and textual gender).
+Hyperparameter selection involves word embedding methods and dimensionalities,
+as well as weighting schemata. Our method offers advantages over existing
+methods: identifiable modules, short-term training, online inference of
+(unseen) sentence representations, as well as independence from domain,
+external knowledge and language resources. Results showed that our model
+outperformed the state of the art in well-known Semantic Textual Similarity
+(STS) benchmarks. Moreover, our model reached state-of-the-art performance when
+compared to supervised and knowledge-based STS systems.

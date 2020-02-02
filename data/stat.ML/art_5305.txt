@@ -1,0 +1,15 @@
+One Size Fits Many: Column Bundle for Multi-X Learning
+Much recent machine learning research has been directed towards leveraging
+shared statistics among labels, instances and data views, commonly referred to
+as multi-label, multi-instance and multi-view learning. The underlying premises
+are that there exist correlations among input parts and among output targets,
+and the predictive performance would increase when the correlations are
+incorporated. In this paper, we propose Column Bundle (CLB), a novel deep
+neural network for capturing the shared statistics in data. CLB is generic that
+the same architecture can be applied for various types of shared statistics by
+changing only input and output handling. CLB is capable of scaling to thousands
+of input parts and output labels by avoiding explicit modeling of pairwise
+relations. We evaluate CLB on different types of data: (a) multi-label, (b)
+multi-view, (c) multi-view/multi-label and (d) multi-instance. CLB demonstrates
+a comparable and competitive performance in all datasets against
+state-of-the-art methods designed specifically for each type.

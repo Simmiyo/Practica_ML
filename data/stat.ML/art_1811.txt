@@ -1,0 +1,11 @@
+An Optimal Algorithm for Linear Bandits
+We provide the first algorithm for online bandit linear optimization whose
+regret after T rounds is of order sqrt{Td ln N} on any finite class X of N
+actions in d dimensions, and of order d*sqrt{T} (up to log factors) when X is
+infinite. These bounds are not improvable in general. The basic idea utilizes
+tools from convex geometry to construct what is essentially an optimal
+exploration basis. We also present an application to a model of linear bandits
+with expert advice. Interestingly, these results show that bandit linear
+optimization with expert advice in d dimensions is no more difficult (in terms
+of the achievable regret) than the online d-armed bandit problem with expert
+advice (where EXP4 is optimal).

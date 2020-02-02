@@ -1,0 +1,17 @@
+Bayesian Network Classifiers in a High Dimensional Framework
+We present a growing dimension asymptotic formalism. The perspective in this
+paper is classification theory and we show that it can accommodate
+probabilistic networks classifiers, including naive Bayes model and its
+augmented version. When represented as a Bayesian network these classifiers
+have an important advantage: The corresponding discriminant function turns out
+to be a specialized case of a generalized additive model, which makes it
+possible to get closed form expressions for the asymptotic misclassification
+probabilities used here as a measure of classification accuracy. Moreover, in
+this paper we propose a new quantity for assessing the discriminative power of
+a set of features which is then used to elaborate the augmented naive Bayes
+classifier. The result is a weighted form of the augmented naive Bayes that
+distributes weights among the sets of features according to their
+discriminative power. We derive the asymptotic distribution of the sample based
+discriminative power and show that it is seriously overestimated in a high
+dimensional case. We then apply this result to find the optimal, in a sense of
+minimum misclassification probability, type of weighting.

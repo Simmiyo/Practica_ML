@@ -1,0 +1,16 @@
+Extending the small-ball method
+The small-ball method was introduced as a way of obtaining a high
+probability, isomorphic lower bound on the quadratic empirical process, under
+weak assumptions on the indexing class. The key assumption was that class
+members satisfy a uniform small-ball estimate, that is, $Pr(|f| \geq
+\kappa\|f\|_{L_2}) \geq \delta$ for given constants $\kappa$ and $\delta$.
+  Here we extend the small-ball method and obtain a high probability,
+almost-isometric (rather than isomorphic) lower bound on the quadratic
+empirical process. The scope of the result is considerably wider than the
+small-ball method: there is no need for class members to satisfy a uniform
+small-ball condition, and moreover, motivated by the notion of tournament
+learning procedures, the result is stable under a `majority vote'.
+  As applications, we study the performance of empirical risk minimization in
+learning problems involving bounded subsets of $L_p$ that satisfy a Bernstein
+condition, and of the tournament procedure in problems involving bounded
+subsets of $L_\infty$.

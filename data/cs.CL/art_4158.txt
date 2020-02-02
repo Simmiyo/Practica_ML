@@ -1,0 +1,15 @@
+Coherence Models for Dialogue
+Coherence across multiple turns is a major challenge for state-of-the-art
+dialogue models. Arguably the most successful approach to automatically
+learning text coherence is the entity grid, which relies on modelling patterns
+of distribution of entities across multiple sentences of a text. Originally
+applied to the evaluation of automatic summaries and the news genre, among its
+many extensions, this model has also been successfully used to assess dialogue
+coherence. Nevertheless, both the original grid and its extensions do not model
+intents, a crucial aspect that has been studied widely in the literature in
+connection to dialogue structure. We propose to augment the original grid
+document representation for dialogue with the intentional structure of the
+conversation. Our models outperform the original grid representation on both
+text discrimination and insertion, the two main standard tasks for coherence
+assessment across three different dialogue datasets, confirming that intents
+play a key role in modelling dialogue coherence.

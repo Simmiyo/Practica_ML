@@ -1,0 +1,11 @@
+Incremental Nonlinear System Identification and Adaptive Particle
+  Filtering Using Gaussian Process
+An incremental/online state dynamic learning method is proposed for
+identification of the nonlinear Gaussian state space models. The method embeds
+the stochastic variational sparse Gaussian process as the probabilistic state
+dynamic model inside a particle filter framework. Model updating is done at
+measurement sample rate using stochastic gradient descent based optimization
+implemented in the state estimation filtering loop. The performance of the
+proposed method is compared with state-of-the-art Gaussian process based batch
+learning methods. Finally, it is shown that the state estimation performance
+significantly improves due to the online learning of state dynamics.

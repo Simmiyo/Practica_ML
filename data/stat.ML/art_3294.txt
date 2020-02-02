@@ -1,0 +1,16 @@
+Bayesian Clustering of Shapes of Curves
+Unsupervised clustering of curves according to their shapes is an important
+problem with broad scientific applications. The existing model-based clustering
+techniques either rely on simple probability models (e.g., Gaussian) that are
+not generally valid for shape analysis or assume the number of clusters. We
+develop an efficient Bayesian method to cluster curve data using an elastic
+shape metric that is based on joint registration and comparison of shapes of
+curves. The elastic-inner product matrix obtained from the data is modeled
+using a Wishart distribution whose parameters are assigned carefully chosen
+prior distributions to allow for automatic inference on the number of clusters.
+Posterior is sampled through an efficient Markov chain Monte Carlo procedure
+based on the Chinese restaurant process to infer (1) the posterior distribution
+on the number of clusters, and (2) clustering configuration of shapes. This
+method is demonstrated on a variety of synthetic data and real data examples on
+protein structure analysis, cell shape analysis in microscopy images, and
+clustering of shaped from MPEG7 database.

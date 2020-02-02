@@ -1,0 +1,13 @@
+Smoothing parameter estimation framework for IBM word alignment models
+IBM models are very important word alignment models in Machine Translation.
+Following the Maximum Likelihood Estimation principle to estimate their
+parameters, the models will easily overfit the training data when the data are
+sparse. While smoothing is a very popular solution in Language Model, there
+still lacks studies on smoothing for word alignment. In this paper, we propose
+a framework which generalizes the notable work Moore [2004] of applying
+additive smoothing to word alignment models. The framework allows developers to
+customize the smoothing amount for each pair of word. The added amount will be
+scaled appropriately by a common factor which reflects how much the framework
+trusts the adding strategy according to the performance on data. We also
+carefully examine various performance criteria and propose a smoothened version
+of the error count, which generally gives the best result.

@@ -1,0 +1,10 @@
+Domain Knowledge Uncertainty and Probabilistic Parameter Constraints
+Incorporating domain knowledge into the modeling process is an effective way
+to improve learning accuracy. However, as it is provided by humans, domain
+knowledge can only be specified with some degree of uncertainty. We propose to
+explicitly model such uncertainty through probabilistic constraints over the
+parameter space. In contrast to hard parameter constraints, our approach is
+effective also when the domain knowledge is inaccurate and generally results in
+superior modeling accuracy. We focus on generative and conditional modeling
+where the parameters are assigned a Dirichlet or Gaussian prior and demonstrate
+the framework with experiments on both synthetic and real-world data.

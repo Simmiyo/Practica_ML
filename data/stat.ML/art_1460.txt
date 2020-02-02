@@ -1,0 +1,10 @@
+Estimating the Operating Characteristics of Ensemble Methods
+In this paper we present a technique for using the bootstrap to estimate the
+operating characteristics and their variability for certain types of ensemble
+methods. Bootstrapping a model can require a huge amount of work if the
+training data set is large. Fortunately in many cases the technique lets us
+determine the effect of infinite resampling without actually refitting a single
+model. We apply the technique to the study of meta-parameter selection for
+random forests. We demonstrate that alternatives to bootstrap aggregation and
+to considering \sqrt{d} features to split each node, where d is the number of
+features, can produce improvements in predictive accuracy.

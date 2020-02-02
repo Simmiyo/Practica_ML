@@ -1,0 +1,15 @@
+Leveraging Deep Neural Networks and Knowledge Graphs for Entity
+  Disambiguation
+Entity Disambiguation aims to link mentions of ambiguous entities to a
+knowledge base (e.g., Wikipedia). Modeling topical coherence is crucial for
+this task based on the assumption that information from the same semantic
+context tends to belong to the same topic. This paper presents a novel deep
+semantic relatedness model (DSRM) based on deep neural networks (DNN) and
+semantic knowledge graphs (KGs) to measure entity semantic relatedness for
+topical coherence modeling. The DSRM is directly trained on large-scale KGs and
+it maps heterogeneous types of knowledge of an entity from KGs to numerical
+feature vectors in a latent space such that the distance between two
+semantically-related entities is minimized. Compared with the state-of-the-art
+relatedness approach proposed by (Milne and Witten, 2008a), the DSRM obtains
+19.4% and 24.5% reductions in entity disambiguation errors on two publicly
+available datasets respectively.

@@ -1,0 +1,14 @@
+Order-Preserving Abstractive Summarization for Spoken Content Based on
+  Connectionist Temporal Classification
+Connectionist temporal classification (CTC) is a powerful approach for
+sequence-to-sequence learning, and has been popularly used in speech
+recognition. The central ideas of CTC include adding a label "blank" during
+training. With this mechanism, CTC eliminates the need of segment alignment,
+and hence has been applied to various sequence-to-sequence learning problems.
+In this work, we applied CTC to abstractive summarization for spoken content.
+The "blank" in this case implies the corresponding input data are less
+important or noisy; thus it can be ignored. This approach was shown to
+outperform the existing methods in term of ROUGE scores over Chinese Gigaword
+and MATBN corpora. This approach also has the nice property that the ordering
+of words or characters in the input documents can be better preserved in the
+generated summaries.

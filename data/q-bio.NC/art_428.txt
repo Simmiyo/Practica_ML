@@ -1,0 +1,20 @@
+The Green's function formalism as a bridge between single and
+  multi-compartmental modeling
+Neurons are spatially extended structures that receive and process inputs on
+their dendrites. It is generally accepted that neuronal computations arise from
+the active integration of synaptic inputs along a dendrite between the input
+location and the location of spike generation in the axon initial segment.
+However, many application such as simulations of brain networks, use
+point-neurons --neurons without a morphological component-- as computational
+units to keep the conceptual complexity and computational costs low.
+Inevitably, these applications thus omit a fundamental property of neuronal
+computation. In this work, we present an approach to model an artificial
+synapse that mimics dendritic processing without the need to explicitly
+simulate dendritic dynamics. The model synapse employs an analytic solution for
+the cable equation to compute the neuron's membrane potential following
+dendritic inputs. Green's function formalism is used to derive the closed
+version of the cable equation. We show that by using this synapse model,
+point-neurons can achieve results that were previously limited to the realms of
+multi-compartmental models. Moreover, a computational advantage is achieved
+when only a small number of simulated synapses impinge on a morphologically
+elaborate neuron. Opportunities and limitations are discussed.

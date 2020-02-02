@@ -1,0 +1,11 @@
+Decision Lists for English and Basque
+In this paper we describe the systems we developed for the English (lexical
+and all-words) and Basque tasks. They were all supervised systems based on
+Yarowsky's Decision Lists. We used Semcor for training in the English all-words
+task. We defined different feature sets for each language. For Basque, in order
+to extract all the information from the text, we defined features that have not
+been used before in the literature, using a morphological analyzer. We also
+implemented systems that selected automatically good features and were able to
+obtain a prefixed precision (85%) at the cost of coverage. The systems that
+used all the features were identified as BCU-ehu-dlist-all and the systems that
+selected some features as BCU-ehu-dlist-best.

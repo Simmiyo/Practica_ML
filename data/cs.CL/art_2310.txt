@@ -1,0 +1,14 @@
+Local System Voting Feature for Machine Translation System Combination
+In this paper, we enhance the traditional confusion network system
+combination approach with an additional model trained by a neural network. This
+work is motivated by the fact that the commonly used binary system voting
+models only assign each input system a global weight which is responsible for
+the global impact of each input system on all translations. This prevents
+individual systems with low system weights from having influence on the system
+combination output, although in some situations this could be helpful. Further,
+words which have only been seen by one or few systems rarely have a chance of
+being present in the combined output. We train a local system voting model by a
+neural network which is based on the words themselves and the combinatorial
+occurrences of the different system outputs. This gives system combination the
+option to prefer other systems at different word positions even for the same
+sentence.

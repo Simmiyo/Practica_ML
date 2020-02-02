@@ -1,0 +1,20 @@
+Boosting Joint Models for Longitudinal and Time-to-Event Data
+Joint Models for longitudinal and time-to-event data have gained a lot of
+attention in the last few years as they are a helpful technique to approach
+common a data structure in clinical studies where longitudinal outcomes are
+recorded alongside event times. Those two processes are often linked and the
+two outcomes should thus be modeled jointly in order to prevent the potential
+bias introduced by independent modelling. Commonly, joint models are estimated
+in likelihood based expectation maximization or Bayesian approaches using
+frameworks where variable selection is problematic and which do not immediately
+work for high-dimensional data. In this paper, we propose a boosting algorithm
+tackling these challenges by being able to simultaneously estimate predictors
+for joint models and automatically select the most influential variables even
+in high-dimensional data situations. We analyse the performance of the new
+algorithm in a simulation study and apply it to the Danish cystic fibrosis
+registry which collects longitudinal lung function data on patients with cystic
+fibrosis together with data regarding the onset of pulmonary infections. This
+is the first approach to combine state-of-the art algorithms from the field of
+machine-learning with the model class of joint models, providing a fully
+data-driven mechanism to select variables and predictor effects in a unified
+framework of boosting joint models.

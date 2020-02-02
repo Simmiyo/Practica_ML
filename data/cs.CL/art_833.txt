@@ -1,0 +1,11 @@
+Arabic Language Text Classification Using Dependency Syntax-Based
+  Feature Selection
+We study the performance of Arabic text classification combining various
+techniques: (a) tfidf vs. dependency syntax, for feature selection and
+weighting; (b) class association rules vs. support vector machines, for
+classification. The Arabic text is used in two forms: rootified and lightly
+stemmed. The results we obtain show that lightly stemmed text leads to better
+performance than rootified text; that class association rules are better suited
+for small feature sets obtained by dependency syntax constraints; and, finally,
+that support vector machines are better suited for large feature sets based on
+morphological feature selection criteria.

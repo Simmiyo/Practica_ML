@@ -1,0 +1,15 @@
+Rules and mechanisms for efficient two-stage learning in neural circuits
+Trial-and-error learning requires evaluating variable actions and reinforcing
+successful variants. In songbirds, vocal exploration is induced by LMAN, the
+output of a basal ganglia-circuit that also contributes a corrective bias to
+the vocal output. This bias is gradually consolidated in RA, a motor cortex
+analogue downstream of LMAN. We develop a new model of such two-stage learning.
+Using stochastic gradient descent, we derive how the activity in 'tutor'
+circuits (e.g., LMAN) should match plasticity mechanisms in 'student' circuits
+(e.g., RA) to achieve efficient learning. We further describe a reinforcement
+learning framework through which the tutor can build its teaching signal. We
+show that mismatches between the tutor signal and the plasticity mechanism can
+impair learning. Applied to birdsong, our results predict the temporal
+structure of the corrective bias from LMAN given a plasticity rule in RA. Our
+framework can be applied predictively to other paired brain areas showing
+two-stage learning.

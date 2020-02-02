@@ -1,0 +1,19 @@
+Efficiency tests for estimating the gas and stellar population
+  parameters in Type 2 objects
+We investigated the efficiency of estimating characteristics of stellar
+populations (SP) and Active Galactic Nuclei (AGN) emission using ULySS code. To
+analyse simultaneously AGN and SP components in the integrated spectrum of Type
+2 active galaxies, we modelled the featureless continuum (FC) and emission
+lines, and we used PEGASE.HR stellar population models provided by ULySS. In
+order to validate the method, we simulated over 7000 integrated spectra of
+Seyfert 2 galaxies. Spectra were generated using different characteristics of
+the featureless AGN continuum, signal-to-noise ratio (SNR), spectral ranges,
+properties of emission lines and single stellar population (SSP) model whose
+initial mass function (IMF) and abundance pattern is similar to the solar
+neighbourhood. Simulated spectra were fitted with ULySS to evaluate the ability
+of the method to extract SP and AGN properties. We found that the analysis with
+ULySS can efficiently restore the characteristics of SP in spectra of Seyfert 2
+AGNs, where signal-to-noise ratio is higher than 20, and where SP contributes
+with more than 10% to the total flux. Degeneracies between AGN and SP
+parameters increase with increasing the AGN continuum fraction, which points
+out the importance of simultaneous fitting of the FC and SP contributions.

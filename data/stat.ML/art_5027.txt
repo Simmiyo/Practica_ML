@@ -1,0 +1,12 @@
+Stochastic Matrix Factorization
+This paper considers a restriction to non-negative matrix factorization in
+which at least one matrix factor is stochastic. That is, the elements of the
+matrix factors are non-negative and the columns of one matrix factor sum to 1.
+This restriction includes topic models, a popular method for analyzing
+unstructured data. It also includes a method for storing and finding pictures.
+The paper presents necessary and sufficient conditions on the observed data
+such that the factorization is unique. In addition, the paper characterizes
+natural bounds on the parameters for any observed data and presents a
+consistent least squares estimator. The results are illustrated using a topic
+model analysis of PhD abstracts in economics and the problem of storing and
+retrieving a set of pictures of faces.

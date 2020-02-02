@@ -1,0 +1,24 @@
+Strengths and Weaknesses of Deep Learning Models for Face Recognition
+  Against Image Degradations
+Deep convolutional neural networks (CNNs) based approaches are the
+state-of-the-art in various computer vision tasks, including face recognition.
+Considerable research effort is currently being directed towards further
+improving deep CNNs by focusing on more powerful model architectures and better
+learning techniques. However, studies systematically exploring the strengths
+and weaknesses of existing deep models for face recognition are still
+relatively scarce in the literature. In this paper, we try to fill this gap and
+study the effects of different covariates on the verification performance of
+four recent deep CNN models using the Labeled Faces in the Wild (LFW) dataset.
+Specifically, we investigate the influence of covariates related to: image
+quality -- blur, JPEG compression, occlusion, noise, image brightness,
+contrast, missing pixels; and model characteristics -- CNN architecture, color
+information, descriptor computation; and analyze their impact on the face
+verification performance of AlexNet, VGG-Face, GoogLeNet, and SqueezeNet. Based
+on comprehensive and rigorous experimentation, we identify the strengths and
+weaknesses of the deep learning models, and present key areas for potential
+future research. Our results indicate that high levels of noise, blur, missing
+pixels, and brightness have a detrimental effect on the verification
+performance of all models, whereas the impact of contrast changes and
+compression artifacts is limited. It has been found that the descriptor
+computation strategy and color information does not have a significant
+influence on performance.

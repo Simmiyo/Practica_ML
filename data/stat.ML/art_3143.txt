@@ -1,0 +1,17 @@
+Quantized Matrix Completion for Personalized Learning
+The recently proposed SPARse Factor Analysis (SPARFA) framework for
+personalized learning performs factor analysis on ordinal or binary-valued
+(e.g., correct/incorrect) graded learner responses to questions. The underlying
+factors are termed "concepts" (or knowledge components) and are used for
+learning analytics (LA), the estimation of learner concept-knowledge profiles,
+and for content analytics (CA), the estimation of question-concept associations
+and question difficulties. While SPARFA is a powerful tool for LA and CA, it
+requires a number of algorithm parameters (including the number of concepts),
+which are difficult to determine in practice. In this paper, we propose
+SPARFA-Lite, a convex optimization-based method for LA that builds on matrix
+completion, which only requires a single algorithm parameter and enables us to
+automatically identify the required number of concepts. Using a variety of
+educational datasets, we demonstrate that SPARFALite (i) achieves comparable
+performance in predicting unobserved learner responses to existing methods,
+including item response theory (IRT) and SPARFA, and (ii) is computationally
+more efficient.

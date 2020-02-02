@@ -1,0 +1,25 @@
+Task-related edge density (TED) - a new method for revealing large-scale
+  network formation in fMRI data of the human brain
+The formation of transient networks in response to external stimuli or as a
+reflection of internal cognitive processes is a hallmark of human brain
+function. However, its identification in fMRI data of the human brain is
+notoriously difficult. Here we propose a new method of fMRI data analysis that
+tackles this problem by considering large-scale, task-related synchronisation
+networks. Networks consist of nodes and edges connecting them, where nodes
+correspond to voxels in fMRI data, and the weight of an edge is determined via
+task-related changes in dynamic synchronisation between their respective times
+series. Based on these definitions, we developed a new data analysis algorithm
+that identifies edges in a brain network that differentially respond in unison
+to a task onset and that occur in dense packs with similar characteristics.
+Hence, we call this approach "Task-related Edge Density" (TED). TED proved to
+be a very strong marker for dynamic network formation that easily lends itself
+to statistical analysis using large scale statistical inference. A major
+advantage of TED compared to other methods is that it does not depend on any
+specific hemodynamic response model, and it also does not require a
+presegmentation of the data for dimensionality reduction as it can handle large
+networks consisting of tens of thousands of voxels. We applied TED to fMRI data
+of a fingertapping task provided by the Human Connectome Project. TED revealed
+network-based involvement of a large number of brain areas that evaded
+detection using traditional GLM-based analysis. We show that our proposed
+method provides an entirely new window into the immense complexity of human
+brain function.

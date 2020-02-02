@@ -1,0 +1,17 @@
+Propagation Kernels
+We introduce propagation kernels, a general graph-kernel framework for
+efficiently measuring the similarity of structured data. Propagation kernels
+are based on monitoring how information spreads through a set of given graphs.
+They leverage early-stage distributions from propagation schemes such as random
+walks to capture structural information encoded in node labels, attributes, and
+edge information. This has two benefits. First, off-the-shelf propagation
+schemes can be used to naturally construct kernels for many graph types,
+including labeled, partially labeled, unlabeled, directed, and attributed
+graphs. Second, by leveraging existing efficient and informative propagation
+schemes, propagation kernels can be considerably faster than state-of-the-art
+approaches without sacrificing predictive performance. We will also show that
+if the graphs at hand have a regular structure, for instance when modeling
+image or video data, one can exploit this regularity to scale the kernel
+computation to large databases of graphs with thousands of nodes. We support
+our contributions by exhaustive experiments on a number of real-world graphs
+from a variety of application domains.

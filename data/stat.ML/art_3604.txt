@@ -1,0 +1,19 @@
+Universal Dependency Analysis
+Most data is multi-dimensional. Discovering whether any subset of dimensions,
+or subspaces, of such data is significantly correlated is a core task in data
+mining. To do so, we require a measure that quantifies how correlated a
+subspace is. For practical use, such a measure should be universal in the sense
+that it captures correlation in subspaces of any dimensionality and allows to
+meaningfully compare correlation scores across different subspaces, regardless
+how many dimensions they have and what specific statistical properties their
+dimensions possess. Further, it would be nice if the measure can
+non-parametrically and efficiently capture both linear and non-linear
+correlations.
+  In this paper, we propose UDS, a multivariate correlation measure that
+fulfills all of these desiderata. In short, we define \uds based on cumulative
+entropy and propose a principled normalization scheme to bring its scores
+across different subspaces to the same domain, enabling universal correlation
+assessment. UDS is purely non-parametric as we make no assumption on data
+distributions nor types of correlation. To compute it on empirical data, we
+introduce an efficient and non-parametric method. Extensive experiments show
+that UDS outperforms state of the art.

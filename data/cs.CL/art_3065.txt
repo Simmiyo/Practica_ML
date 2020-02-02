@@ -1,0 +1,16 @@
+Learning Distributions of Meant Color
+When a speaker says the name of a color, the color that they picture is not
+necessarily the same as the listener imagines. Color is a grounded semantic
+task, but that grounding is not a mapping of a single word (or phrase) to a
+single point in color-space. Proper understanding of color language requires
+the capacity to map a sequence of words to a probability distribution in
+color-space. A distribution is required as there is no clear agreement between
+people as to what a particular color describes -- different people have a
+different idea of what it means to be `very dark orange'. We propose a novel
+GRU-based model to handle this case. Learning how each word in a color name
+contributes to the color described, allows for knowledge sharing between uses
+of the words in different color names. This knowledge sharing significantly
+improves predicative capacity for color names with sparse training data. The
+extreme case of this challenge in data sparsity is for color names without any
+direct training data. Our model is able to predict reasonable distributions for
+these cases, as evaluated on a held-out dataset consisting only of such terms.

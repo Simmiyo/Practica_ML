@@ -1,0 +1,19 @@
+DeMIAN: Deep Modality Invariant Adversarial Network
+Obtaining common representations from different modalities is important in
+that they are interchangeable with each other in a classification problem. For
+example, we can train a classifier on image features in the common
+representations and apply it to the testing of the text features in the
+representations. Existing multi-modal representation learning methods mainly
+aim to extract rich information from paired samples and train a classifier by
+the corresponding labels; however, collecting paired samples and their labels
+simultaneously involves high labor costs. Addressing paired modal samples
+without their labels and single modal data with their labels independently is
+much easier than addressing labeled multi-modal data. To obtain the common
+representations under such a situation, we propose to make the distributions
+over different modalities similar in the learned representations, namely
+modality-invariant representations. In particular, we propose a novel algorithm
+for modality-invariant representation learning, named Deep Modality Invariant
+Adversarial Network (DeMIAN), which utilizes the idea of Domain Adaptation
+(DA). Using the modality-invariant representations learned by DeMIAN, we
+achieved better classification accuracy than with the state-of-the-art methods,
+especially for some benchmark datasets of zero-shot learning.

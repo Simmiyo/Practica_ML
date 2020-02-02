@@ -1,0 +1,15 @@
+Analytic Feature Selection for Support Vector Machines
+Support vector machines (SVMs) rely on the inherent geometry of a data set to
+classify training data. Because of this, we believe SVMs are an excellent
+candidate to guide the development of an analytic feature selection algorithm,
+as opposed to the more commonly used heuristic methods. We propose a
+filter-based feature selection algorithm based on the inherent geometry of a
+feature set. Through observation, we identified six geometric properties that
+differ between optimal and suboptimal feature sets, and have statistically
+significant correlations to classifier performance. Our algorithm is based on
+logistic and linear regression models using these six geometric properties as
+predictor variables. The proposed algorithm achieves excellent results on high
+dimensional text data sets, with features that can be organized into a handful
+of feature types; for example, unigrams, bigrams or semantic structural
+features. We believe this algorithm is a novel and effective approach to
+solving the feature selection problem for linear SVMs.

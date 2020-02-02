@@ -1,0 +1,20 @@
+Evolution of sustained foraging in 3D environments with physics
+Artificially evolving foraging behavior in simulated legged animals has
+proved to be a notoriously difficult task. Here, we co-evolve the morphology
+and controller for virtual organisms in a three-dimensional physically
+realistic environment to produce goal-directed legged locomotion. We show that
+following and reaching multiple food sources can evolve de novo, by evaluating
+each organism on multiple food sources placed on a basic pattern that is
+gradually randomized across generations. We devised a strategy of evolutionary
+"staging", where the best organism from a set of evolutionary experiments using
+a particular fitness function is used to seed a new set, with a fitness
+function that is progressively altered to better challenge organisms as
+evolution improves them. We find that an organism's efficiency at reaching the
+first food source does not predict its ability at finding subsequent ones
+because foraging efficiency crucially depends on the position of the last food
+source reached, an effect illustrated by "foraging maps" that capture the
+organism's controller state, body position, and orientation. Our best evolved
+foragers are able to reach multiple food sources over 90% of the time on
+average, a behavior that is key to any biologically realistic simulation where
+a self-sustaining population has to survive by collecting food sources in
+three-dimensional, physical environments.

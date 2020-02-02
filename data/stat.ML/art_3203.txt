@@ -1,0 +1,17 @@
+Estimating Optimal Active Learning via Model Retraining Improvement
+A central question for active learning (AL) is: "what is the optimal
+selection?" Defining optimality by classifier loss produces a new
+characterisation of optimal AL behaviour, by treating expected loss reduction
+as a statistical target for estimation. This target forms the basis of model
+retraining improvement (MRI), a novel approach providing a statistical
+estimation framework for AL. This framework is constructed to address the
+central question of AL optimality, and to motivate the design of estimation
+algorithms. MRI allows the exploration of optimal AL behaviour, and the
+examination of AL heuristics, showing precisely how they make sub-optimal
+selections. The abstract formulation of MRI is used to provide a new guarantee
+for AL, that an unbiased MRI estimator should outperform random selection. This
+MRI framework reveals intricate estimation issues that in turn motivate the
+construction of new statistical AL algorithms. One new algorithm in particular
+performs strongly in a large-scale experimental study, compared to standard AL
+methods. This competitive performance suggests that practical efforts to
+minimise estimation bias may be important for AL applications.

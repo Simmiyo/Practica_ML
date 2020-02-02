@@ -1,0 +1,11 @@
+Semi-Supervised Learning of Class Balance under Class-Prior Change by
+  Distribution Matching
+In real-world classification problems, the class balance in the training
+dataset does not necessarily reflect that of the test dataset, which can cause
+significant estimation bias. If the class ratio of the test dataset is known,
+instance re-weighting or resampling allows systematical bias correction.
+However, learning the class ratio of the test dataset is challenging when no
+labeled data is available from the test domain. In this paper, we propose to
+estimate the class ratio in the test dataset by matching probability
+distributions of training and test input data. We demonstrate the utility of
+the proposed approach through experiments.

@@ -1,0 +1,15 @@
+Online but Accurate Inference for Latent Variable Models with Local
+  Gibbs Sampling
+We study parameter inference in large-scale latent variable models. We first
+propose an unified treatment of online inference for latent variable models
+from a non-canonical exponential family, and draw explicit links between
+several previously proposed frequentist or Bayesian methods. We then propose a
+novel inference method for the frequentist estimation of parameters, that
+adapts MCMC methods to online inference of latent variable models with the
+proper use of local Gibbs sampling. Then, for latent Dirich-let allocation,we
+provide an extensive set of experiments and comparisons with existing work,
+where our new approach outperforms all previously proposed methods. In
+particular, using Gibbs sampling for latent variable inference is superior to
+variational inference in terms of test log-likelihoods. Moreover, Bayesian
+inference through variational methods perform poorly, sometimes leading to
+worse fits with latent variables of higher dimensionality.

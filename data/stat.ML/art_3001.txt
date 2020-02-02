@@ -1,0 +1,17 @@
+Parallel Distributed Block Coordinate Descent Methods based on Pairwise
+  Comparison Oracle
+This paper provides a block coordinate descent algorithm to solve
+unconstrained optimization problems. In our algorithm, computation of function
+values or gradients is not required. Instead, pairwise comparison of function
+values is used. Our algorithm consists of two steps; one is the direction
+estimate step and the other is the search step. Both steps require only
+pairwise comparison of function values, which tells us only the order of
+function values over two points. In the direction estimate step, a Newton type
+search direction is estimated. A computation method like block coordinate
+descent methods is used with the pairwise comparison. In the search step, a
+numerical solution is updated along the estimated direction. The computation in
+the direction estimate step can be easily parallelized, and thus, the algorithm
+works efficiently to find the minimizer of the objective function. Also, we
+show an upper bound of the convergence rate. In numerical experiments, we show
+that our method efficiently finds the optimal solution compared to some
+existing methods based on the pairwise comparison.

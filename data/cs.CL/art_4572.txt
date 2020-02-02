@@ -1,0 +1,11 @@
+Multimodal Continuous Turn-Taking Prediction Using Multiscale RNNs
+In human conversational interactions, turn-taking exchanges can be
+coordinated using cues from multiple modalities. To design spoken dialog
+systems that can conduct fluid interactions it is desirable to incorporate cues
+from separate modalities into turn-taking models. We propose that there is an
+appropriate temporal granularity at which modalities should be modeled. We
+design a multiscale RNN architecture to model modalities at separate timescales
+in a continuous manner. Our results show that modeling linguistic and acoustic
+features at separate temporal rates can be beneficial for turn-taking modeling.
+We also show that our approach can be used to incorporate gaze features into
+turn-taking models.

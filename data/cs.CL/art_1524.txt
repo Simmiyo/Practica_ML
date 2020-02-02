@@ -1,0 +1,13 @@
+Evaluation of Croatian Word Embeddings
+Croatian is poorly resourced and highly inflected language from Slavic
+language family. Nowadays, research is focusing mostly on English. We created a
+new word analogy corpus based on the original English Word2vec word analogy
+corpus and added some of the specific linguistic aspects from Croatian
+language. Next, we created Croatian WordSim353 and RG65 corpora for a basic
+evaluation of word similarities. We compared created corpora on two popular
+word representation models, based on Word2Vec tool and fastText tool. Models
+has been trained on 1.37B tokens training data corpus and tested on a new
+robust Croatian word analogy corpus. Results show that models are able to
+create meaningful word representation. This research has shown that free word
+order and the higher morphological complexity of Croatian language influences
+the quality of resulting word embeddings.

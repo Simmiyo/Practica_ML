@@ -1,0 +1,23 @@
+SPIKY: A graphical user interface for monitoring spike train synchrony
+Techniques for recording large-scale neuronal spiking activity are developing
+very fast. This leads to an increasing demand for algorithms capable of
+analyzing large amounts of experimental spike train data. One of the most
+crucial and demanding tasks is the identification of similarity patterns with a
+very high temporal resolution and across different spatial scales. To address
+this task, in recent years three time-resolved measures of spike train
+synchrony have been proposed, the ISI-distance, the SPIKE-distance, and event
+synchronization. The Matlab source codes for calculating and visualizing these
+measures have been made publicly available. However, due to the many different
+possible representations of the results the use of these codes is rather
+complicated and their application requires some basic knowledge of Matlab. Thus
+it became desirable to provide a more user-friendly and interactive interface.
+Here we address this need and present SPIKY, a graphical user interface which
+facilitates the application of time-resolved measures of spike train synchrony
+to both simulated and real data. SPIKY includes implementations of the
+ISI-distance, the SPIKE-distance and SPIKE-synchronization (an improved and
+simplified extension of event synchronization) which have been optimized with
+respect to computation speed and memory demand. It also comprises a spike train
+generator and an event detector which makes it capable of analyzing continuous
+data. Finally, the SPIKY package includes additional complementary programs
+aimed at the analysis of large numbers of datasets and the estimation of
+significance levels.

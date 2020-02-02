@@ -1,0 +1,15 @@
+Neuromorphic Learning towards Nano Second Precision
+Temporal coding is one approach to representing information in spiking neural
+networks. An example of its application is the location of sounds by barn owls
+that requires especially precise temporal coding. Dependent upon the azimuthal
+angle, the arrival times of sound signals are shifted between both ears. In
+order to deter- mine these interaural time differences, the phase difference of
+the signals is measured. We implemented this biologically inspired network on a
+neuromorphic hardware system and demonstrate spike-timing dependent plasticity
+on an analog, highly accelerated hardware substrate. Our neuromorphic
+implementation enables the resolution of time differences of less than 50 ns.
+On-chip Hebbian learning mechanisms select inputs from a pool of neurons which
+code for the same sound frequency. Hence, noise caused by different synaptic
+delays across these inputs is reduced. Furthermore, learning compensates for
+variations on neuronal and synaptic parameters caused by device mismatch
+intrinsic to the neuromorphic substrate.

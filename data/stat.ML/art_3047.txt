@@ -1,0 +1,12 @@
+Mean-Field Networks
+The mean field algorithm is a widely used approximate inference algorithm for
+graphical models whose exact inference is intractable. In each iteration of
+mean field, the approximate marginals for each variable are updated by getting
+information from the neighbors. This process can be equivalently converted into
+a feedforward network, with each layer representing one iteration of mean field
+and with tied weights on all layers. This conversion enables a few natural
+extensions, e.g. untying the weights in the network. In this paper, we study
+these mean field networks (MFNs), and use them as inference tools as well as
+discriminative models. Preliminary experiment results show that MFNs can learn
+to do inference very efficiently and perform significantly better than mean
+field as discriminative models.

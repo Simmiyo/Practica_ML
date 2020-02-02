@@ -1,0 +1,15 @@
+What is the distribution of the number of unique original items in a
+  bootstrap sample?
+Sampling with replacement occurs in many settings in machine learning,
+notably in the bagging ensemble technique and the .632+ validation scheme. The
+number of unique original items in a bootstrap sample can have an important
+role in the behaviour of prediction models learned on it. Indeed, there are
+uncontrived examples where duplicate items have no effect. The purpose of this
+report is to present the distribution of the number of unique original items in
+a bootstrap sample clearly and concisely, with a view to enabling other machine
+learning researchers to understand and control this quantity in existing and
+future resampling techniques. We describe the key characteristics of this
+distribution along with the generalisation for the case where items come from
+distinct categories, as in classification. In both cases we discuss the normal
+limit, and conduct an empirical investigation to derive a heuristic for when a
+normal approximation is permissible.

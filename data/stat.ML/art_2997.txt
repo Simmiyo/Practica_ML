@@ -1,0 +1,14 @@
+Learning Machines Implemented on Non-Deterministic Hardware
+This paper highlights new opportunities for designing large-scale machine
+learning systems as a consequence of blurring traditional boundaries that have
+allowed algorithm designers and application-level practitioners to stay -- for
+the most part -- oblivious to the details of the underlying hardware-level
+implementations. The hardware/software co-design methodology advocated here
+hinges on the deployment of compute-intensive machine learning kernels onto
+compute platforms that trade-off determinism in the computation for improvement
+in speed and/or energy efficiency. To achieve this, we revisit digital
+stochastic circuits for approximating matrix computations that are ubiquitous
+in machine learning algorithms. Theoretical and empirical evaluation is
+undertaken to assess the impact of the hardware-induced computational noise on
+algorithm performance. As a proof-of-concept, a stochastic hardware simulator
+is employed for training deep neural networks for image recognition problems.

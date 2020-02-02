@@ -1,0 +1,17 @@
+Optimal Stochastic Strongly Convex Optimization with a Logarithmic
+  Number of Projections
+We consider stochastic strongly convex optimization with a complex inequality
+constraint. This complex inequality constraint may lead to computationally
+expensive projections in algorithmic iterations of the stochastic gradient
+descent~(SGD) methods. To reduce the computation costs pertaining to the
+projections, we propose an Epoch-Projection Stochastic Gradient
+Descent~(Epro-SGD) method. The proposed Epro-SGD method consists of a sequence
+of epochs; it applies SGD to an augmented objective function at each iteration
+within the epoch, and then performs a projection at the end of each epoch.
+Given a strongly convex optimization and for a total number of $T$ iterations,
+Epro-SGD requires only $\log(T)$ projections, and meanwhile attains an optimal
+convergence rate of $O(1/T)$, both in expectation and with a high probability.
+To exploit the structure of the optimization problem, we propose a proximal
+variant of Epro-SGD, namely Epro-ORDA, based on the optimal regularized dual
+averaging method. We apply the proposed methods on real-world applications; the
+empirical results demonstrate the effectiveness of our methods.

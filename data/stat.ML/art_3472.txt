@@ -1,0 +1,14 @@
+Learning Leading Indicators for Time Series Predictions
+We consider the problem of learning models for forecasting multiple
+time-series systems together with discovering the leading indicators that serve
+as good predictors for the system. We model the systems by linear vector
+autoregressive models (VAR) and link the discovery of leading indicators to
+inferring sparse graphs of Granger-causality. We propose new problem
+formulations and develop two new methods to learn such models, gradually
+increasing the complexity of assumptions and approaches. While the first method
+assumes common structures across the whole system, our second method uncovers
+model clusters based on the Granger-causality and leading indicators together
+with learning the model parameters. We study the performance of our methods on
+a comprehensive set of experiments and confirm their efficacy and their
+advantages over state-of-the-art sparse VAR and graphical Granger learning
+methods.

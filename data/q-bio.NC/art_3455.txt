@@ -1,0 +1,14 @@
+Propagation of spiking moments in linear Hawkes networks
+The present paper provides exact mathematical expressions for the high-order
+moments of spiking activity in a recurrently-connected network of linear Hawkes
+processes. It extends previous studies that have explored the case of a
+(linear) Hawkes network driven by deterministic intensity functions to the case
+of a stimulation by external inputs (rate functions or spike trains) with
+arbitrary correlation structure. Our approach describes the spatio-temporal
+filtering induced by the afferent and recurrent connectivities (with arbitrary
+synaptic response kernels) using operators acting on the input moments. This
+algebraic viewpoint provides intuition about how the network ingredients shape
+the input-output mapping for moments, as well as cumulants. We also show using
+numerical simulation that our results hold for neurons with refractoriness
+implemented by self-inhibition, provided the corresponding negative feedback
+for each neuron only mildly alters its mean firing probability.

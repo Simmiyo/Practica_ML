@@ -1,0 +1,21 @@
+Online Classification with Complex Metrics
+We present a framework and analysis of consistent binary classification for
+complex and non-decomposable performance metrics such as the F-measure and the
+Jaccard measure. The proposed framework is general, as it applies to both batch
+and online learning, and to both linear and non-linear models. Our work follows
+recent results showing that the Bayes optimal classifier for many complex
+metrics is given by a thresholding of the conditional probability of the
+positive class. This manuscript extends this thresholding characterization --
+showing that the utility is strictly locally quasi-concave with respect to the
+threshold for a wide range of models and performance metrics. This, in turn,
+motivates simple normalized gradient ascent updates for threshold estimation.
+We present a finite-sample regret analysis for the resulting procedure. In
+particular, the risk for the batch case converges to the Bayes risk at the same
+rate as that of the underlying conditional probability estimation, and the risk
+of proposed online algorithm converges at a rate that depends on the
+conditional probability estimation risk. For instance, in the special case
+where the conditional probability model is logistic regression, our procedure
+achieves $O(\frac{1}{\sqrt{n}})$ sample complexity, both for batch and online
+training. Empirical evaluation shows that the proposed algorithms out-perform
+alternatives in practice, with comparable or better prediction performance and
+reduced run time for various metrics and datasets.

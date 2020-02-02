@@ -1,0 +1,12 @@
+Recurrent neural network training with preconditioned stochastic
+  gradient descent
+This paper studies the performance of a recently proposed preconditioned
+stochastic gradient descent (PSGD) algorithm on recurrent neural network (RNN)
+training. PSGD adaptively estimates a preconditioner to accelerate gradient
+descent, and is designed to be simple, general and easy to use, as stochastic
+gradient descent (SGD). RNNs, especially the ones requiring extremely long term
+memories, are difficult to train. We have tested PSGD on a set of synthetic
+pathological RNN learning problems and the real world MNIST handwritten digit
+recognition task. Experimental results suggest that PSGD is able to achieve
+highly competitive performance without using any trick like preprocessing,
+pretraining or parameter tweaking.

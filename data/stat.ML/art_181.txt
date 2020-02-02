@@ -1,0 +1,11 @@
+Additive Covariance Kernels for High-Dimensional Gaussian Process
+  Modeling
+Gaussian process models -also called Kriging models- are often used as
+mathematical approximations of expensive experiments. However, the number of
+observation required for building an emulator becomes unrealistic when using
+classical covariance kernels when the dimension of input increases. In oder to
+get round the curse of dimensionality, a popular approach is to consider
+simplified models such as additive models. The ambition of the present work is
+to give an insight into covariance kernels that are well suited for building
+additive Kriging models and to describe some properties of the resulting
+models.

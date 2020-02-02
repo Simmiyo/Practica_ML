@@ -1,0 +1,19 @@
+Adaptive compressed sensing - a new class of self-organizing coding
+  models for neuroscience
+Sparse coding networks, which utilize unsupervised learning to maximize
+coding efficiency, have successfully reproduced response properties found in
+primary visual cortex \cite{AN:OlshausenField96}. However, conventional sparse
+coding models require that the coding circuit can fully sample the sensory data
+in a one-to-one fashion, a requirement not supported by experimental data from
+the thalamo-cortical projection. To relieve these strict wiring requirements,
+we propose a sparse coding network constructed by introducing synaptic learning
+in the framework of compressed sensing. We demonstrate that the new model
+evolves biologically realistic spatially smooth receptive fields despite the
+fact that the feedforward connectivity subsamples the input and thus the
+learning has to rely on an impoverished and distorted account of the original
+visual data. Further, we demonstrate that the model could form a general scheme
+of cortical communication: it can form meaningful representations in a
+secondary sensory area, which receives input from the primary sensory area
+through a "compressing" cortico-cortical projection. Finally, we prove that our
+model belongs to a new class of sparse coding algorithms in which recurrent
+connections are essential in forming the spatial receptive fields.

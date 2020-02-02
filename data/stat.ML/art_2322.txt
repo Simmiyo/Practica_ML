@@ -1,0 +1,10 @@
+Learning Sparse Low-Threshold Linear Classifiers
+We consider the problem of learning a non-negative linear classifier with a
+$1$-norm of at most $k$, and a fixed threshold, under the hinge-loss. This
+problem generalizes the problem of learning a $k$-monotone disjunction. We
+prove that we can learn efficiently in this setting, at a rate which is linear
+in both $k$ and the size of the threshold, and that this is the best possible
+rate. We provide an efficient online learning algorithm that achieves the
+optimal rate, and show that in the batch case, empirical risk minimization
+achieves this rate as well. The rates we show are tighter than the uniform
+convergence rate, which grows with $k^2$.

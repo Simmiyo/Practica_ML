@@ -1,0 +1,15 @@
+Classification by Set Cover: The Prototype Vector Machine
+We introduce a new nearest-prototype classifier, the prototype vector machine
+(PVM). It arises from a combinatorial optimization problem which we cast as a
+variant of the set cover problem. We propose two algorithms for approximating
+its solution. The PVM selects a relatively small number of representative
+points which can then be used for classification. It contains 1-NN as a special
+case. The method is compatible with any dissimilarity measure, making it
+amenable to situations in which the data are not embedded in an underlying
+feature space or in which using a non-Euclidean metric is desirable. Indeed, we
+demonstrate on the much studied ZIP code data how the PVM can reap the benefits
+of a problem-specific metric. In this example, the PVM outperforms the highly
+successful 1-NN with tangent distance, and does so retaining fewer than half of
+the data points. This example highlights the strengths of the PVM in yielding a
+low-error, highly interpretable model. Additionally, we apply the PVM to a
+protein classification problem in which a kernel-based distance is used.

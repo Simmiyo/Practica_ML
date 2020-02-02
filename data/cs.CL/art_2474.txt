@@ -1,0 +1,10 @@
+Character-Word LSTM Language Models
+We present a Character-Word Long Short-Term Memory Language Model which both
+reduces the perplexity with respect to a baseline word-level language model and
+reduces the number of parameters of the model. Character information can reveal
+structural (dis)similarities between words and can even be used when a word is
+out-of-vocabulary, thus improving the modeling of infrequent and unknown words.
+By concatenating word and character embeddings, we achieve up to 2.77% relative
+improvement on English compared to a baseline model with a similar amount of
+parameters and 4.57% on Dutch. Moreover, we also outperform baseline word-level
+models with a larger number of parameters.

@@ -1,0 +1,19 @@
+Delayed feedback causes non-Markovian behavior of neuronal firing
+  statistics
+The instantaneous state of a neural network consists of both the degree of
+excitation of each neuron, the network is composed of, and positions of
+impulses in communication lines between neurons. In neurophysiological
+experiments, the neuronal firing moments are registered, but not the state of
+communication lines. But future spiking moments depend essentially on the past
+positions of impulses in the lines. This suggests, that the sequence of
+intervals between firing moments (interspike intervals, ISIs) in the network
+could be non-Markovian. In this paper, we address this question for a simplest
+possible neural "net", namely, a single neuron with delayed feedback. The
+neuron receives excitatory input both from the driving Poisson stream and from
+its own output through the feedback line. We obtain analytical expressions for
+conditional probability density $P(t_{n+1} | t_n,...,t_1,t_0)$, which gives the
+probability to get an output ISI of duration $t_{n+1}$ provided the previous
+$(n+1)$ output ISIs had durations $t_n,...,t_1,t_0$. It is proven exactly, that
+$P(t_{n+1} | t_n,...,t_1,t_0)$ does not reduce to $P(t_{n+1} | t_n,...,t_1)$
+for any $n \geq 0$. This means that the output ISIs stream cannot be
+represented as Markov chain of any finite order.

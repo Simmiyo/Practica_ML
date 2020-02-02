@@ -1,0 +1,19 @@
+Reconstruction of sequential data with density models
+We introduce the problem of reconstructing a sequence of multidimensional
+real vectors where some of the data are missing. This problem contains
+regression and mapping inversion as particular cases where the pattern of
+missing data is independent of the sequence index. The problem is hard because
+it involves possibly multivalued mappings at each vector in the sequence, where
+the missing variables can take more than one value given the present variables;
+and the set of missing variables can vary from one vector to the next. To solve
+this problem, we propose an algorithm based on two redundancy assumptions:
+vector redundancy (the data live in a low-dimensional manifold), so that the
+present variables constrain the missing ones; and sequence redundancy (e.g.
+continuity), so that consecutive vectors constrain each other. We capture the
+low-dimensional nature of the data in a probabilistic way with a joint density
+model, here the generative topographic mapping, which results in a Gaussian
+mixture. Candidate reconstructions at each vector are obtained as all the modes
+of the conditional distribution of missing variables given present variables.
+The reconstructed sequence is obtained by minimising a global constraint, here
+the sequence length, by dynamic programming. We present experimental results
+for a toy problem and for inverse kinematics of a robot arm.

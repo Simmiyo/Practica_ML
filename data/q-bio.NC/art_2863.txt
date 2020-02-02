@@ -1,0 +1,17 @@
+Exact feature probabilities in images with occlusion
+To understand the computations of our visual system, it is important to
+understand also the natural environment it evolved to interpret. Unfortunately,
+existing models of the visual environment are either unrealistic or too complex
+for mathematical description. Here we describe a naturalistic image model and
+present a mathematical solution for the statistical relationships between the
+image features and model variables. The world described by this model is
+composed of independent, opaque, textured objects which occlude each other.
+This simple structure allows us to calculate the joint probability distribution
+of image values sampled at multiple arbitrarily located points, without
+approximation. This result can be converted into probabilistic relationships
+between observable image features as well as between the unobservable
+properties that caused these features, including object boundaries and relative
+depth. Using these results we explain the causes of a wide range of natural
+scene properties, including highly non-gaussian distributions of image features
+and causal relations between pairs of edges. We discuss the implications of
+this description of natural scenes for the study of vision.

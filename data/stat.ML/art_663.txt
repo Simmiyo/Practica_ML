@@ -1,0 +1,15 @@
+A Variational Bayesian State-Space Approach to Online Passive-Aggressive
+  Regression
+Online Passive-Aggressive (PA) learning is a class of online margin-based
+algorithms suitable for a wide range of real-time prediction tasks, including
+classification and regression. PA algorithms are formulated in terms of
+deterministic point-estimation problems governed by a set of user-defined
+hyperparameters: the approach fails to capture model/prediction uncertainty and
+makes their performance highly sensitive to hyperparameter configurations. In
+this paper, we introduce a novel PA learning framework for regression that
+overcomes the above limitations. We contribute a Bayesian state-space
+interpretation of PA regression, along with a novel online variational
+inference scheme, that not only produces probabilistic predictions, but also
+offers the benefit of automatic hyperparameter tuning. Experiments with various
+real-world data sets show that our approach performs significantly better than
+a more standard, linear Gaussian state-space model.

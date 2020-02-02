@@ -1,0 +1,16 @@
+NLITrans at SemEval-2018 Task 12: Transfer of Semantic Knowledge for
+  Argument Comprehension
+The Argument Reasoning Comprehension Task requires significant language
+understanding and complex reasoning over world knowledge. We focus on transfer
+of a sentence encoder to bootstrap more complicated models given the small size
+of the dataset. Our best model uses a pre-trained BiLSTM to encode input
+sentences, learns task-specific features for the argument and warrants, then
+performs independent argument-warrant matching. This model achieves mean test
+set accuracy of 64.43%. Encoder transfer yields a significant gain to our best
+model over random initialization. Independent warrant matching effectively
+doubles the size of the dataset and provides additional regularization. We
+demonstrate that regularization comes from ignoring statistical correlations
+between warrant features and position. We also report an experiment with our
+best model that only matches warrants to reasons, ignoring claims. Relatively
+low performance degradation suggests that our model is not necessarily learning
+the intended task.

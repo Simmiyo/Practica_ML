@@ -1,0 +1,21 @@
+The Interplay Between Stability and Regret in Online Learning
+This paper considers the stability of online learning algorithms and its
+implications for learnability (bounded regret). We introduce a novel quantity
+called {\em forward regret} that intuitively measures how good an online
+learning algorithm is if it is allowed a one-step look-ahead into the future.
+We show that given stability, bounded forward regret is equivalent to bounded
+regret. We also show that the existence of an algorithm with bounded regret
+implies the existence of a stable algorithm with bounded regret and bounded
+forward regret. The equivalence results apply to general, possibly non-convex
+problems. To the best of our knowledge, our analysis provides the first general
+connection between stability and regret in the online setting that is not
+restricted to a particular class of algorithms. Our stability-regret connection
+provides a simple recipe for analyzing regret incurred by any online learning
+algorithm. Using our framework, we analyze several existing online learning
+algorithms as well as the "approximate" versions of algorithms like RDA that
+solve an optimization problem at each iteration. Our proofs are simpler than
+existing analysis for the respective algorithms, show a clear trade-off between
+stability and forward regret, and provide tighter regret bounds in some cases.
+Furthermore, using our recipe, we analyze "approximate" versions of several
+algorithms such as follow-the-regularized-leader (FTRL) that requires solving
+an optimization problem at each step.

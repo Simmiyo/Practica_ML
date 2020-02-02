@@ -1,0 +1,12 @@
+Convergence Analysis of the Dynamics of a Special Kind of Two-Layered
+  Neural Networks with $\ell_1$ and $\ell_2$ Regularization
+In this paper, we made an extension to the convergence analysis of the
+dynamics of two-layered bias-free networks with one $ReLU$ output. We took into
+consideration two popular regularization terms: the $\ell_1$ and $\ell_2$ norm
+of the parameter vector $w$, and added it to the square loss function with
+coefficient $\lambda/2$. We proved that when $\lambda$ is small, the weight
+vector $w$ converges to the optimal solution $\hat{w}$ (with respect to the new
+loss function) with probability $\geq (1-\varepsilon)(1-A_d)/2$ under random
+initiations in a sphere centered at the origin, where $\varepsilon$ is a small
+value and $A_d$ is a constant. Numerical experiments including phase diagrams
+and repeated simulations verified our theory.

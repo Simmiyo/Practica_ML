@@ -1,0 +1,27 @@
+Sampling-based probabilistic inference emerges from learning in neural
+  circuits with a cost on reliability
+Neural responses in the cortex change over time both systematically, due to
+ongoing plasticity and learning, and seemingly randomly, due to various sources
+of noise and variability. Most previous work considered each of these
+processes, learning and variability, in isolation -- here we study neural
+networks exhibiting both and show that their interaction leads to the emergence
+of powerful computational properties. We trained neural networks on classical
+unsupervised learning tasks, in which the objective was to represent their
+inputs in an efficient, easily decodable form, with an additional cost for
+neural reliability which we derived from basic biophysical considerations. This
+cost on reliability introduced a tradeoff between energetically cheap but
+inaccurate representations and energetically costly but accurate ones. Despite
+the learning tasks being non-probabilistic, the networks solved this tradeoff
+by developing a probabilistic representation: neural variability represented
+samples from statistically appropriate posterior distributions that would
+result from performing probabilistic inference over their inputs. We provide an
+analytical understanding of this result by revealing a connection between the
+cost of reliability, and the objective for a state-of-the-art Bayesian
+inference strategy: variational autoencoders. We show that the same cost leads
+to the emergence of increasingly accurate probabilistic representations as
+networks become more complex, from single-layer feed-forward, through
+multi-layer feed-forward, to recurrent architectures. Our results provide
+insights into why neural responses in sensory areas show signatures of
+sampling-based probabilistic representations, and may inform future deep
+learning algorithms and their implementation in stochastic low-precision
+computing systems.

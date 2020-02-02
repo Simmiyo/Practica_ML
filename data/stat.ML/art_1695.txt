@@ -1,0 +1,14 @@
+The Loss Rank Criterion for Variable Selection in Linear Regression
+  Analysis
+Lasso and other regularization procedures are attractive methods for variable
+selection, subject to a proper choice of shrinkage parameter. Given a set of
+potential subsets produced by a regularization algorithm, a consistent model
+selection criterion is proposed to select the best one among this preselected
+set. The approach leads to a fast and efficient procedure for variable
+selection, especially in high-dimensional settings. Model selection consistency
+of the suggested criterion is proven when the number of covariates d is fixed.
+Simulation studies suggest that the criterion still enjoys model selection
+consistency when d is much larger than the sample size. The simulations also
+show that our approach for variable selection works surprisingly well in
+comparison with existing competitors. The method is also applied to a real data
+set.

@@ -1,0 +1,12 @@
+Reordering rules for English-Hindi SMT
+Reordering is a preprocessing stage for Statistical Machine Translation (SMT)
+system where the words of the source sentence are reordered as per the syntax
+of the target language. We are proposing a rich set of rules for better
+reordering. The idea is to facilitate the training process by better alignments
+and parallel phrase extraction for a phrase-based SMT system. Reordering also
+helps the decoding process and hence improving the machine translation quality.
+We have observed significant improvements in the translation quality by using
+our approach over the baseline SMT. We have used BLEU, NIST, multi-reference
+word error rate, multi-reference position independent error rate for judging
+the improvements. We have exploited open source SMT toolkit MOSES to develop
+the system.

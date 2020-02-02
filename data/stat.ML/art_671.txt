@@ -1,0 +1,16 @@
+A Statistical Theory of Deep Learning via Proximal Splitting
+In this paper we develop a statistical theory and an implementation of deep
+learning models. We show that an elegant variable splitting scheme for the
+alternating direction method of multipliers optimises a deep learning
+objective. We allow for non-smooth non-convex regularisation penalties to
+induce sparsity in parameter weights. We provide a link between traditional
+shallow layer statistical models such as principal component and sliced inverse
+regression and deep layer models. We also define the degrees of freedom of a
+deep learning predictor and a predictive MSE criteria to perform model
+selection for comparing architecture designs. We focus on deep multiclass
+logistic learning although our methods apply more generally. Our results
+suggest an interesting and previously under-exploited relationship between deep
+learning and proximal splitting techniques. To illustrate our methodology, we
+provide a multi-class logit classification analysis of Fisher's Iris data where
+we illustrate the convergence of our algorithm. Finally, we conclude with
+directions for future research.

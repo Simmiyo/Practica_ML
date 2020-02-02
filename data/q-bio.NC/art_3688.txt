@@ -1,0 +1,21 @@
+The homunculus for proprioception: Toward learning the representation of
+  a humanoid robot's joint space using self-organizing maps
+In primate brains, tactile and proprioceptive inputs are relayed to the
+somatosensory cortex which is known for somatotopic representations, or,
+"homunculi". Our research centers on understanding the mechanisms of the
+formation of these and more higher-level body representations (body schema) by
+using humanoid robots and neural networks to construct models. We specifically
+focus on how spatial representation of the body may be learned from
+somatosensory information in self-touch configurations. In this work, we target
+the representation of proprioceptive inputs, which we take to be joint angles
+in the robot. The inputs collected in different body postures serve as inputs
+to a Self-Organizing Map (SOM) with a 2D lattice on the output. With
+unrestricted, all-to-all connections, the map is not capable of representing
+the input space while preserving the topological relationships, because the
+intrinsic dimensionality of the body posture space is too large. Hence, we use
+a method we developed previously for tactile inputs (Hoffmann, Straka et al.
+2018) called MRF-SOM, where the Maximum Receptive Field of output neurons is
+restricted so they only learn to represent specific parts of the input space.
+This is in line with the receptive fields of neurons in somatosensory areas
+representing proprioception that often respond to combination of few joints
+(e.g. wrist and elbow).

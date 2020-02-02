@@ -1,0 +1,15 @@
+Hybrid Linear Modeling via Local Best-fit Flats
+We present a simple and fast geometric method for modeling data by a union of
+affine subspaces. The method begins by forming a collection of local best-fit
+affine subspaces, i.e., subspaces approximating the data in local
+neighborhoods. The correct sizes of the local neighborhoods are determined
+automatically by the Jones' $\beta_2$ numbers (we prove under certain geometric
+conditions that our method finds the optimal local neighborhoods). The
+collection of subspaces is further processed by a greedy selection procedure or
+a spectral method to generate the final model. We discuss applications to
+tracking-based motion segmentation and clustering of faces under different
+illuminating conditions. We give extensive experimental evidence demonstrating
+the state of the art accuracy and speed of the suggested algorithms on these
+problems and also on synthetic hybrid linear data as well as the MNIST
+handwritten digits data; and we demonstrate how to use our algorithms for fast
+determination of the number of affine subspaces.

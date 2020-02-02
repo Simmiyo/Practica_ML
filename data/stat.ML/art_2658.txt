@@ -1,0 +1,11 @@
+Bayesian Extensions of Kernel Least Mean Squares
+The kernel least mean squares (KLMS) algorithm is a computationally efficient
+nonlinear adaptive filtering method that "kernelizes" the celebrated (linear)
+least mean squares algorithm. We demonstrate that the least mean squares
+algorithm is closely related to the Kalman filtering, and thus, the KLMS can be
+interpreted as an approximate Bayesian filtering method. This allows us to
+systematically develop extensions of the KLMS by modifying the underlying
+state-space and observation models. The resulting extensions introduce many
+desirable properties such as "forgetting", and the ability to learn from
+discrete data, while retaining the computational simplicity and time complexity
+of the original algorithm.

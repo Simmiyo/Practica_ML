@@ -1,0 +1,20 @@
+PCA with Gaussian perturbations
+Most of machine learning deals with vector parameters. Ideally we would like
+to take higher order information into account and make use of matrix or even
+tensor parameters. However the resulting algorithms are usually inefficient.
+Here we address on-line learning with matrix parameters. It is often easy to
+obtain online algorithm with good generalization performance if you
+eigendecompose the current parameter matrix in each trial (at a cost of
+$O(n^3)$ per trial). Ideally we want to avoid the decompositions and spend
+$O(n^2)$ per trial, i.e. linear time in the size of the matrix data. There is a
+core trade-off between the running time and the generalization performance,
+here measured by the regret of the on-line algorithm (total gain of the best
+off-line predictor minus the total gain of the on-line algorithm). We focus on
+the key matrix problem of rank $k$ Principal Component Analysis in
+$\mathbb{R}^n$ where $k \ll n$. There are $O(n^3)$ algorithms that achieve the
+optimum regret but require eigendecompositions. We develop a simple algorithm
+that needs $O(kn^2)$ per trial whose regret is off by a small factor of
+$O(n^{1/4})$. The algorithm is based on the Follow the Perturbed Leader
+paradigm. It replaces full eigendecompositions at each trial by the problem
+finding $k$ principal components of the current covariance matrix that is
+perturbed by Gaussian noise.

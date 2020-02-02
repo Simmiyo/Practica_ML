@@ -1,0 +1,18 @@
+Learning Co-Sparse Analysis Operators with Separable Structures
+In the co-sparse analysis model a set of filters is applied to a signal out
+of the signal class of interest yielding sparse filter responses. As such, it
+may serve as a prior in inverse problems, or for structural analysis of signals
+that are known to belong to the signal class. The more the model is adapted to
+the class, the more reliable it is for these purposes. The task of learning
+such operators for a given class is therefore a crucial problem. In many
+applications, it is also required that the filter responses are obtained in a
+timely manner, which can be achieved by filters with a separable structure. Not
+only can operators of this sort be efficiently used for computing the filter
+responses, but they also have the advantage that less training samples are
+required to obtain a reliable estimate of the operator. The first contribution
+of this work is to give theoretical evidence for this claim by providing an
+upper bound for the sample complexity of the learning process. The second is a
+stochastic gradient descent (SGD) method designed to learn an analysis operator
+with separable structures, which includes a novel and efficient step size
+selection rule. Numerical experiments are provided that link the sample
+complexity to the convergence speed of the SGD algorithm.

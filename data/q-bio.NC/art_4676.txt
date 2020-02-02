@@ -1,0 +1,16 @@
+Converting Cascade-Correlation Neural Nets into Probabilistic Generative
+  Models
+Humans are not only adept in recognizing what class an input instance belongs
+to (i.e., classification task), but perhaps more remarkably, they can imagine
+(i.e., generate) plausible instances of a desired class with ease, when
+prompted. Inspired by this, we propose a framework which allows transforming
+Cascade-Correlation Neural Networks (CCNNs) into probabilistic generative
+models, thereby enabling CCNNs to generate samples from a category of interest.
+CCNNs are a well-known class of deterministic, discriminative NNs, which
+autonomously construct their topology, and have been successful in giving
+accounts for a variety of psychological phenomena. Our proposed framework is
+based on a Markov Chain Monte Carlo (MCMC) method, called the
+Metropolis-adjusted Langevin algorithm, which capitalizes on the gradient
+information of the target distribution to direct its explorations towards
+regions of high probability, thereby achieving good mixing properties. Through
+extensive simulations, we demonstrate the efficacy of our proposed framework.

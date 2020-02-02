@@ -1,0 +1,20 @@
+Nonparametric Bayesian Negative Binomial Factor Analysis
+A common approach to analyze a covariate-sample count matrix, an element of
+which represents how many times a covariate appears in a sample, is to
+factorize it under the Poisson likelihood. We show its limitation in capturing
+the tendency for a covariate present in a sample to both repeat itself and
+excite related ones. To address this limitation, we construct negative binomial
+factor analysis (NBFA) to factorize the matrix under the negative binomial
+likelihood, and relate it to a Dirichlet-multinomial distribution based
+mixed-membership model. To support countably infinite factors, we propose the
+hierarchical gamma-negative binomial process. By exploiting newly proved
+connections between discrete distributions, we construct two blocked and a
+collapsed Gibbs sampler that all adaptively truncate their number of factors,
+and demonstrate that the blocked Gibbs sampler developed under a compound
+Poisson representation converges fast and has low computational complexity.
+Example results show that NBFA has a distinct mechanism in adjusting its number
+of inferred factors according to the sample lengths, and provides clear
+advantages in parsimonious representation, predictive power, and computational
+complexity over previously proposed discrete latent variable models, which
+either completely ignore burstiness, or model only the burstiness of the
+covariates but not that of the factors.

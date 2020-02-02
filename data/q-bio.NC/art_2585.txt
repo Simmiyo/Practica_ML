@@ -1,0 +1,18 @@
+Region segmentation for sparse decompositions: better brain
+  parcellations from rest fMRI
+Functional Magnetic Resonance Images acquired during resting-state provide
+information about the functional organization of the brain through measuring
+correlations between brain areas. Independent components analysis is the
+reference approach to estimate spatial components from weakly structured data
+such as brain signal time courses; each of these components may be referred to
+as a brain network and the whole set of components can be conceptualized as a
+brain functional atlas. Recently, new methods using a sparsity prior have
+emerged to deal with low signal-to-noise ratio data. However, even when using
+sophisticated priors, the results may not be very sparse and most often do not
+separate the spatial components into brain regions. This work presents
+post-processing techniques that automatically sparsify brain maps and separate
+regions properly using geometric operations, and compares these techniques
+according to faithfulness to data and stability metrics. In particular, among
+threshold-based approaches, hysteresis thresholding and random walker
+segmentation, the latter improves significantly the stability of both dense and
+sparse models.

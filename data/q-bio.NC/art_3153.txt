@@ -1,0 +1,20 @@
+Multi-Scale Factor Analysis of High-Dimensional Brain Signals
+In this paper, we develop an approach to modeling high-dimensional networks
+with a large number of nodes arranged in a hierarchical and modular structure.
+We propose a novel multi-scale factor analysis (MSFA) model which partitions
+the massive spatio-temporal data defined over the complex networks into a
+finite set of regional clusters. To achieve further dimension reduction, we
+represent the signals in each cluster by a small number of latent factors. The
+correlation matrix for all nodes in the network are approximated by
+lower-dimensional sub-structures derived from the cluster-specific factors. To
+estimate regional connectivity between numerous nodes (within each cluster), we
+apply principal components analysis (PCA) to produce factors which are derived
+as the optimal reconstruction of the observed signals under the squared loss.
+Then, we estimate global connectivity (between clusters or sub-networks) based
+on the factors across regions using the RV-coefficient as the cross-dependence
+measure. This gives a reliable and computationally efficient multi-scale
+analysis of both regional and global dependencies of the large networks. The
+proposed novel approach is applied to estimate brain connectivity networks
+using functional magnetic resonance imaging (fMRI) data. Results on
+resting-state fMRI reveal interesting modular and hierarchical organization of
+human brain networks during rest.

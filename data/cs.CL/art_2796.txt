@@ -1,0 +1,12 @@
+Question Dependent Recurrent Entity Network for Question Answering
+Question Answering is a task which requires building models capable of
+providing answers to questions expressed in human language. Full question
+answering involves some form of reasoning ability. We introduce a neural
+network architecture for this task, which is a form of $Memory\ Network$, that
+recognizes entities and their relations to answers through a focus attention
+mechanism. Our model is named $Question\ Dependent\ Recurrent\ Entity\ Network$
+and extends $Recurrent\ Entity\ Network$ by exploiting aspects of the question
+during the memorization process. We validate the model on both synthetic and
+real datasets: the $bAbI$ question answering dataset and the $CNN\ \&\ Daily\
+News$ $reading\ comprehension$ dataset. In our experiments, the models achieved
+a State-of-The-Art in the former and competitive results in the latter.

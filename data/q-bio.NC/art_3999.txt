@@ -1,0 +1,26 @@
+Collective stability of networks of winner-take-all circuits
+The neocortex has a remarkably uniform neuronal organization, suggesting that
+common principles of processing are employed throughout its extent. In
+particular, the patterns of connectivity observed in the superficial layers of
+the visual cortex are consistent with the recurrent excitation and inhibitory
+feedback required for cooperative-competitive circuits such as the soft
+winner-take-all (WTA). WTA circuits offer interesting computational properties
+such as selective amplification, signal restoration, and decision making. But,
+these properties depend on the signal gain derived from positive feedback, and
+so there is a critical trade-off between providing feedback strong enough to
+support the sophisticated computations, while maintaining overall circuit
+stability. We consider the question of how to reason about stability in very
+large distributed networks of such circuits. We approach this problem by
+approximating the regular cortical architecture as many interconnected
+cooperative-competitive modules. We demonstrate that by properly understanding
+the behavior of this small computational module, one can reason over the
+stability and convergence of very large networks composed of these modules. We
+obtain parameter ranges in which the WTA circuit operates in a high-gain
+regime, is stable, and can be aggregated arbitrarily to form large stable
+networks. We use nonlinear Contraction Theory to establish conditions for
+stability in the fully nonlinear case, and verify these solutions using
+numerical simulations. The derived bounds allow modes of operation in which the
+WTA network is multi-stable and exhibits state-dependent persistent activities.
+Our approach is sufficiently general to reason systematically about the
+stability of any network, biological or technological, composed of networks of
+small modules that express competition through shared inhibition.

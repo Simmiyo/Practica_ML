@@ -1,0 +1,18 @@
+Graphical posterior predictive classifier: Bayesian model averaging with
+  particle Gibbs
+In this study, we present a multi-class graphical Bayesian predictive
+classifier that incorporates the uncertainty in the model selection into the
+standard Bayesian formalism. For each class, the dependence structure
+underlying the observed features is represented by a set of decomposable
+Gaussian graphical models. Emphasis is then placed on the Bayesian model
+averaging which takes full account of the class-specific model uncertainty by
+averaging over the posterior graph model probabilities. An explicit evaluation
+of the model probabilities is well known to be infeasible. To address this
+issue, we consider the particle Gibbs strategy of Olsson et al. (2018b) for
+posterior sampling from decomposable graphical models which utilizes the
+Christmas tree algorithm of Olsson et al. (2018a) as proposal kernel. We also
+derive a strong hyper Markov law which we call the hyper normal Wishart law
+that allow to perform the resultant Bayesian calculations locally. The proposed
+predictive graphical classifier reveals superior performance compared to the
+ordinary Bayesian predictive rule that does not account for the model
+uncertainty, as well as to a number of out-of-the-box classifiers.

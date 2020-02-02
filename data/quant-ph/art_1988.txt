@@ -1,0 +1,14 @@
+How to share a quantum secret
+We investigate the concept of quantum secret sharing. In a ((k,n)) threshold
+scheme, a secret quantum state is divided into n shares such that any k of
+those shares can be used to reconstruct the secret, but any set of k-1 or fewer
+shares contains absolutely no information about the secret. We show that the
+only constraint on the existence of threshold schemes comes from the quantum
+"no-cloning theorem", which requires that n < 2k, and, in all such cases, we
+give an efficient construction of a ((k,n)) threshold scheme. We also explore
+similarities and differences between quantum secret sharing schemes and quantum
+error-correcting codes. One remarkable difference is that, while most existing
+quantum codes encode pure states as pure states, quantum secret sharing schemes
+must use mixed states in some cases. For example, if k <= n < 2k-1 then any
+((k,n)) threshold scheme must distribute information that is globally in a
+mixed state.

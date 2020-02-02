@@ -1,0 +1,10 @@
+Auxiliary Variables for Multi-Dirichlet Priors
+Bayesian models that mix multiple Dirichlet prior parameters, called
+Multi-Dirichlet priors (MD) in this paper, are gaining popularity. Inferring
+mixing weights and parameters of mixed prior distributions seems tricky, as
+sums over Dirichlet parameters complicate the joint distribution of model
+parameters.
+  This paper shows a novel auxiliary variable scheme which helps to simplify
+the inference for models involving hierarchical MDs and MDPs. Using this
+scheme, it is easy to derive fully collapsed inference schemes which allow for
+an efficient inference.

@@ -1,0 +1,19 @@
+From the entropy to the statistical structure of spike trains
+We use statistical estimates of the entropy rate of spike train data in order
+to make inferences about the underlying structure of the spike train itself. We
+first examine a number of different parametric and nonparametric estimators
+(some known and some new), including the ``plug-in'' method, several versions
+of Lempel-Ziv-based compression algorithms, a maximum likelihood estimator
+tailored to renewal processes, and the natural estimator derived from the
+Context-Tree Weighting method (CTW). The theoretical properties of these
+estimators are examined, several new theoretical results are developed, and all
+estimators are systematically applied to various types of synthetic data and
+under different conditions.
+  Our main focus is on the performance of these entropy estimators on the
+(binary) spike trains of 28 neurons recorded simultaneously for a one-hour
+period from the primary motor and dorsal premotor cortices of a monkey. We show
+how the entropy estimates can be used to test for the existence of long-term
+structure in the data, and we construct a hypothesis test for whether the
+renewal process model is appropriate for these spike trains. Further, by
+applying the CTW algorithm we derive the maximum a posterior (MAP) tree model
+of our empirical data, and comment on the underlying structure it reveals.

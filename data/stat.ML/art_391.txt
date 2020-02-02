@@ -1,0 +1,12 @@
+High Dimensional Semiparametric Scale-Invariant Principal Component
+  Analysis
+We propose a new high dimensional semiparametric principal component analysis
+(PCA) method, named Copula Component Analysis (COCA). The semiparametric model
+assumes that, after unspecified marginally monotone transformations, the
+distributions are multivariate Gaussian. COCA improves upon PCA and sparse PCA
+in three aspects: (i) It is robust to modeling assumptions; (ii) It is robust
+to outliers and data contamination; (iii) It is scale-invariant and yields more
+interpretable results. We prove that the COCA estimators obtain fast estimation
+rates and are feature selection consistent when the dimension is nearly
+exponentially large relative to the sample size. Careful experiments confirm
+that COCA outperforms sparse PCA on both synthetic and real-world datasets.

@@ -1,0 +1,13 @@
+Sentence-Level Fluency Evaluation: References Help, But Can Be Spared!
+Motivated by recent findings on the probabilistic modeling of acceptability
+judgments, we propose syntactic log-odds ratio (SLOR), a normalized language
+model score, as a metric for referenceless fluency evaluation of natural
+language generation output at the sentence level. We further introduce WPSLOR,
+a novel WordPiece-based version, which harnesses a more compact language model.
+Even though word-overlap metrics like ROUGE are computed with the help of
+hand-written references, our referenceless methods obtain a significantly
+higher correlation with human fluency scores on a benchmark dataset of
+compressed sentences. Finally, we present ROUGE-LM, a reference-based metric
+which is a natural extension of WPSLOR to the case of available references. We
+show that ROUGE-LM yields a significantly higher correlation with human
+judgments than all baseline metrics, including WPSLOR on its own.

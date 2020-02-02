@@ -1,0 +1,27 @@
+The Importance of Being Negative: A serious treatment of non-trivial
+  edges in brain functional connectome
+Understanding the modularity of fMRI-derived brain networks or connectomes
+can inform the study of brain function organization. However, fMRI connectomes
+additionally involve negative edges, which are not rigorously accounted for by
+existing approaches to modularity that either ignores or arbitrarily weight
+these connections. Furthermore, most Q maximization-based modularity algorithms
+yield variable results with suboptimal reproducibility. Here we present an
+alternative, reproducible approach that exploits how frequent the BOLD-signal
+correlation between two nodes is negative. We validated this novel
+probability-based modularity approach on two independent publicly-available
+resting-state connectome dataset (the Human Connectome Project and the 1000
+Functional Connectomes) and demonstrated that negative correlations alone are
+sufficient in understanding resting-state modularity. In fact, this approach a)
+permits a dual formulation, leading to equivalent solutions regardless of
+whether one considers positive or negative edges; b) is theoretically linked to
+the Ising model defined on the connectome, thus yielding modularity result that
+maximizes data likelihood. We additionally were able to detect sex differences
+in modularity that the most widely utilized methods did not. Results confirmed
+the superiority of our approach in that: a) correlations with the highest
+probability of being negative are consistently placed between modules, b) due
+to the equivalent dual forms, no arbitrary weighting factor is required to
+balance the influence between negative and positive correlations, unlike
+existing Q maximization-based modularity approaches. As datasets like HCP
+become widely available for analysis by the neuroscience community at large,
+appropriate computational tools to understand the neurobiological information
+of negative edges in fMRI connectomes are increasingly important.

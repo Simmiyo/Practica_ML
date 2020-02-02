@@ -1,0 +1,26 @@
+Evaluation of spike sorting algorithms: Simulations and application to
+  human Subthalamic Nucleus recordings
+An important prerequisite for the analysis of spike synchrony in
+extracellular recordings is the extraction of single unit activity from the
+recorded multi unit signal. To identify single units (SUs), potential spikes
+are detected and separated with respect to their potential neuronal origins
+('spike sorting'). However, different sorting algorithms yield inconsistent
+unit assignments which seriously influences the subsequent analyses of the
+spiking activity. To evaluate the quality of spike sortings performed with
+different prevalent algorithms offered by the 'Plexon Offline Sorter' we first
+apply these algorithms to experimental data (ED), namely recordings in the
+Subthalamic Nucleus of patients with Parkinson's disease, obtained during Deep
+Brain Stimulation surgery. Since this procedure leaves us unsure about the best
+sorting result we then apply all methods again to artificial data (AD) with
+known ground truth (GT). AD consists of pairs of SUs with different shape
+similarity embedded in the background noise of the ED. The sorting evaluation
+is based on the influence of the respective methods on the SU assignments and
+its effect on the resulting firing characteristics. We find a high variability
+in the sorting results obtained by different algorithms that increases with SU
+shape similarity. We also find significant differences in the resulting firing
+characteristics of the ED. We conclude that Valley-Seeking produces the most
+accurate results if the exclusion of artifacts as unsorted events is important.
+If the latter is less important ('clean' data) K-Means is a better option. Our
+results strongly argue for the need of standardized validation procedures for
+spike sorting based on GT data. The recipe suggested here is simple enough to
+become a standard procedure.

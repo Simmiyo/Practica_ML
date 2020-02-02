@@ -1,0 +1,17 @@
+Hierarchically Compositional Kernels for Scalable Nonparametric Learning
+We propose a novel class of kernels to alleviate the high computational cost
+of large-scale nonparametric learning with kernel methods. The proposed kernel
+is defined based on a hierarchical partitioning of the underlying data domain,
+where the Nystr\"om method (a globally low-rank approximation) is married with
+a locally lossless approximation in a hierarchical fashion. The kernel
+maintains (strict) positive-definiteness. The corresponding kernel matrix
+admits a recursively off-diagonal low-rank structure, which allows for fast
+linear algebra computations. Suppressing the factor of data dimension, the
+memory and arithmetic complexities for training a regression or a classifier
+are reduced from $O(n^2)$ and $O(n^3)$ to $O(nr)$ and $O(nr^2)$, respectively,
+where $n$ is the number of training examples and $r$ is the rank on each level
+of the hierarchy. Although other randomized approximate kernels entail a
+similar complexity, empirical results show that the proposed kernel achieves a
+matching performance with a smaller $r$. We demonstrate comprehensive
+experiments to show the effective use of the proposed kernel on data sizes up
+to the order of millions.

@@ -1,0 +1,12 @@
+Kernel Alignment for Unsupervised Transfer Learning
+The ability of a human being to extrapolate previously gained knowledge to
+other domains inspired a new family of methods in machine learning called
+transfer learning. Transfer learning is often based on the assumption that
+objects in both target and source domains share some common feature and/or data
+space. In this paper, we propose a simple and intuitive approach that minimizes
+iteratively the distance between source and target task distributions by
+optimizing the kernel target alignment (KTA). We show that this procedure is
+suitable for transfer learning by relating it to Hilbert-Schmidt Independence
+Criterion (HSIC) and Quadratic Mutual Information (QMI) maximization. We run
+our method on benchmark computer vision data sets and show that it can
+outperform some state-of-art methods.

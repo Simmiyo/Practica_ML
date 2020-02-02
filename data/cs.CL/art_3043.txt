@@ -1,0 +1,17 @@
+Retrofitting Concept Vector Representations of Medical Concepts to
+  Improve Estimates of Semantic Similarity and Relatedness
+Estimation of semantic similarity and relatedness between biomedical concepts
+has utility for many informatics applications. Automated methods fall into two
+categories: methods based on distributional statistics drawn from text corpora,
+and methods using the structure of existing knowledge resources. Methods in the
+former category disregard taxonomic structure, while those in the latter fail
+to consider semantically relevant empirical information. In this paper, we
+present a method that retrofits distributional context vector representations
+of biomedical concepts using structural information from the UMLS
+Metathesaurus, such that the similarity between vector representations of
+linked concepts is augmented. We evaluated it on the UMNSRS benchmark. Our
+results demonstrate that retrofitting of concept vector representations leads
+to better correlation with human raters for both similarity and relatedness,
+surpassing the best results reported to date. They also demonstrate a clear
+improvement in performance on this reference standard for retrofitted vector
+representations, as compared to those without retrofitting.

@@ -1,0 +1,23 @@
+One-Level Prosodic Morphology
+Recent developments in theoretical linguistics have lead to a widespread
+acceptance of constraint-based analyses of prosodic morphology phenomena such
+as truncation, infixation, floating morphemes and reduplication. Of these,
+reduplication is particularly challenging for state-of-the-art computational
+morphology, since it involves copying of some part of a phonological string. In
+this paper I argue for certain extensions to the one-level model of phonology
+and morphology (Bird & Ellison 1994) to cover the computational aspects of
+prosodic morphology using finite-state methods. In a nutshell, enriched lexical
+representations provide additional automaton arcs to repeat or skip sounds and
+also to allow insertion of additional material. A kind of resource
+consciousness is introduced to control this additional freedom, distinguishing
+between producer and consumer arcs. The non-finite-state copying aspect of
+reduplication is mapped to automata intersection, itself a non-finite-state
+operation. Bounded local optimization prunes certain automaton arcs that fail
+to contribute to linguistic optimisation criteria. The paper then presents
+implemented case studies of Ulwa construct state infixation, German
+hypocoristic truncation and Tagalog over-applying reduplication that illustrate
+the expressive power of this approach, before its merits and limitations are
+discussed and possible extensions are sketched. I conclude that the one-level
+approach to prosodic morphology presents an attractive way of extending
+finite-state techniques to difficult phenomena that hitherto resisted elegant
+computational analyses.

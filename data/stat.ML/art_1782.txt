@@ -1,0 +1,14 @@
+Unsupervised K-Nearest Neighbor Regression
+In many scientific disciplines structures in high-dimensional data have to be
+found, e.g., in stellar spectra, in genome data, or in face recognition tasks.
+In this work we present a novel approach to non-linear dimensionality
+reduction. It is based on fitting K-nearest neighbor regression to the
+unsupervised regression framework for learning of low-dimensional manifolds.
+Similar to related approaches that are mostly based on kernel methods,
+unsupervised K-nearest neighbor (UNN) regression optimizes latent variables
+w.r.t. the data space reconstruction error employing the K-nearest neighbor
+heuristic. The problem of optimizing latent neighborhoods is difficult to
+solve, but the UNN formulation allows the design of efficient strategies that
+iteratively embed latent points to fixed neighborhood topologies. UNN is well
+appropriate for sorting of high-dimensional data. The iterative variants are
+analyzed experimentally.

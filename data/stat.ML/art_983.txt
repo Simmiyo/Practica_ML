@@ -1,0 +1,18 @@
+Sparse Pseudo-input Local Kriging for Large Spatial Datasets with
+  Exogenous Variables
+We study large-scale spatial systems that contain exogenous variables, e.g.
+environmental factors that are significant predictors in spatial processes.
+Building predictive models for such processes is challenging because the large
+numbers of observations present makes it inefficient to apply full Kriging. In
+order to reduce computational complexity, this paper proposes Sparse
+Pseudo-input Local Kriging (SPLK), which utilizes hyperplanes to partition a
+domain into smaller subdomains and then applies a sparse approximation of the
+full Kriging to each subdomain. We also develop an optimization procedure to
+find the desired hyperplanes. To alleviate the problem of discontinuity in the
+global predictor, we impose continuity constraints on the boundaries of the
+neighboring subdomains. Furthermore, partitioning the domain into smaller
+subdomains makes it possible to use different parameter values for the
+covariance function in each region and, therefore, the heterogeneity in the
+data structure can be effectively captured. Numerical experiments demonstrate
+that SPLK outperforms, or is comparable to, the algorithms commonly applied to
+spatial datasets.

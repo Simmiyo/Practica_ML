@@ -1,0 +1,22 @@
+Modelling zebrafish collective behaviours with multilayer perceptrons
+  optimised by evolutionary algorithms
+Collective movements are pervasive behaviours among social organisms and have
+led to the development of many models. However, modelling animal trajectories
+and social interactions in simple bounded environments remains a challenge.
+Moreover, advances in the understanding of the sensory-motor loop and the
+information processing by animals are leading to revisions of the traditional
+assumptions made in decision-making algorithms. In this context, we develop a
+methodology based on artificial neural networks (ANN) to describe the
+collective motion of small zebrafish groups in a bounded environment. Although
+ANN models are commonly used in artificial systems they are still
+under-explored to model animal collective behaviours. Here, we present a
+methodology to calibrate Multilayer Perceptrons by learning from real fish
+experimental data. The ANNs are trained using either supervised learning or
+various forms of evolutionary reinforcement learning methods (using the CMA-ES
+and NSGA-III algorithms). We reveal that ANN models trained using evolutionary
+methods are capable of generating realistic collective motions for groups of 5
+zebrafish including the tank wall effects, a feature that is lacking in
+previous models. Finally, we also discuss the benefits of optimised ANNs as
+candidates for driving robotic lure with biologically realistic behaviour, a
+method that is becoming increasingly popular to gather data and validate
+assumptions on collective behaviours.

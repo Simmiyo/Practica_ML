@@ -1,0 +1,14 @@
+Completely Unsupervised Phoneme Recognition by Adversarially Learning
+  Mapping Relationships from Audio Embeddings
+Unsupervised discovery of acoustic tokens from audio corpora without
+annotation and learning vector representations for these tokens have been
+widely studied. Although these techniques have been shown successful in some
+applications such as query-by-example Spoken Term Detection (STD), the lack of
+mapping relationships between these discovered tokens and real phonemes have
+limited the down-stream applications. This paper represents probably the first
+attempt towards the goal of completely unsupervised phoneme recognition, or
+mapping audio signals to phoneme sequences without phoneme-labeled audio data.
+The basic idea is to cluster the embedded acoustic tokens and learn the mapping
+between the cluster sequences and the unknown phoneme sequences with a
+Generative Adversarial Network (GAN). An unsupervised phoneme recognition
+accuracy of 36% was achieved in the preliminary experiments.

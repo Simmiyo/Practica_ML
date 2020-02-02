@@ -1,0 +1,13 @@
+Learning to Generate Structured Queries from Natural Language with
+  Indirect Supervision
+Generating structured query language (SQL) from natural language is an
+emerging research topic. This paper presents a new learning paradigm from
+indirect supervision of the answers to natural language questions, instead of
+SQL queries. This paradigm facilitates the acquisition of training data due to
+the abundant resources of question-answer pairs for various domains in the
+Internet, and expels the difficult SQL annotation job. An end-to-end neural
+model integrating with reinforcement learning is proposed to learn SQL
+generation policy within the answer-driven learning paradigm. The model is
+evaluated on datasets of different domains, including movie and academic
+publication. Experimental results show that our model outperforms the baseline
+models.

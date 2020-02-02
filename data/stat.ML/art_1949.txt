@@ -1,0 +1,15 @@
+Corrected Kriging update formulae for batch-sequential data assimilation
+Recently, a lot of effort has been paid to the efficient computation of
+Kriging predictors when observations are assimilated sequentially. In
+particular, Kriging update formulae enabling significant computational savings
+were derived in Barnes and Watson (1992), Gao et al. (1996), and Emery (2009).
+Taking advantage of the previous Kriging mean and variance calculations helps
+avoiding a costly $(n+1) \times (n+1)$ matrix inversion when adding one
+observation to the $n$ already available ones. In addition to traditional
+update formulae taking into account a single new observation, Emery (2009) also
+proposed formulae for the batch-sequential case, i.e. when $r > 1$ new
+observations are simultaneously assimilated. However, the Kriging variance and
+covariance formulae given without proof in Emery (2009) for the
+batch-sequential case are not correct. In this paper we fix this issue and
+establish corrected expressions for updated Kriging variances and covariances
+when assimilating several observations in parallel.

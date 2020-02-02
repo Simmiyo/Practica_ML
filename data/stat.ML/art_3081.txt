@@ -1,0 +1,15 @@
+N$^3$LARS: Minimum Redundancy Maximum Relevance Feature Selection for
+  Large and High-dimensional Data
+We propose a feature selection method that finds non-redundant features from
+a large and high-dimensional data in nonlinear way. Specifically, we propose a
+nonlinear extension of the non-negative least-angle regression (LARS) called
+N${}^3$LARS, where the similarity between input and output is measured through
+the normalized version of the Hilbert-Schmidt Independence Criterion (HSIC). An
+advantage of N${}^3$LARS is that it can easily incorporate with map-reduce
+frameworks such as Hadoop and Spark. Thus, with the help of distributed
+computing, a set of features can be efficiently selected from a large and
+high-dimensional data. Moreover, N${}^3$LARS is a convex method and can find a
+global optimum solution. The effectiveness of the proposed method is first
+demonstrated through feature selection experiments for classification and
+regression with small and high-dimensional datasets. Finally, we evaluate our
+proposed method over a large and high-dimensional biology dataset.

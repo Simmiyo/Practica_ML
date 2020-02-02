@@ -1,0 +1,21 @@
+Uncovering functional brain signature via random matrix theory
+The brain is organized in a modular way, serving multiple functionalities.
+This multiplicity requires that both positive (e.g. excitatory, phase-coherent)
+and negative (e.g. inhibitory, phase-opposing) interactions take place across
+brain modules. Unfortunately, most methods to detect modules from time series
+either neglect or convert to positive any measured negative correlation. This
+may leave a significant part of the sign-dependent functional structure
+undetected. Here we present a novel method, based on random matrix theory, for
+the identification of sign-dependent modules in the brain. Our method filters
+out the joint effects of local (unit-specific) noise and global (system-wide)
+dependencies that empirically obfuscate such structure. The method is
+guaranteed to identify an optimally contrasted functional `signature', i.e. a
+partition into modules that are positively correlated internally and negatively
+correlated across. The method is purely data-driven, does not use any arbitrary
+threshold or network projection, and outputs only statistically significant
+structure. In measurements of neuronal gene expression in the biological clock
+of mice, the method systematically uncovers two otherwise undetectable,
+negatively correlated modules whose relative size and mutual interaction
+strength are found to depend on photoperiod. The neurons alternating between
+the two modules define a candidate region of functional plasticity for
+circadian modulation.

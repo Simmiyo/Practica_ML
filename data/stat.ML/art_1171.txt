@@ -1,0 +1,16 @@
+Stable Recovery Of Sparse Vectors From Random Sinusoidal Feature Maps
+Random sinusoidal features are a popular approach for speeding up
+kernel-based inference in large datasets. Prior to the inference stage, the
+approach suggests performing dimensionality reduction by first multiplying each
+data vector by a random Gaussian matrix, and then computing an element-wise
+sinusoid. Theoretical analysis shows that collecting a sufficient number of
+such features can be reliably used for subsequent inference in kernel
+classification and regression.
+  In this work, we demonstrate that with a mild increase in the dimension of
+the embedding, it is also possible to reconstruct the data vector from such
+random sinusoidal features, provided that the underlying data is sparse enough.
+In particular, we propose a numerically stable algorithm for reconstructing the
+data vector given the nonlinear features, and analyze its sample complexity.
+Our algorithm can be extended to other types of structured inverse problems,
+such as demixing a pair of sparse (but incoherent) vectors. We support the
+efficacy of our approach via numerical experiments.

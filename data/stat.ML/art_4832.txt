@@ -1,0 +1,15 @@
+Vote-boosting ensembles
+Vote-boosting is a sequential ensemble learning method in which the
+individual classifiers are built on different weighted versions of the training
+data. To build a new classifier, the weight of each training instance is
+determined in terms of the degree of disagreement among the current ensemble
+predictions for that instance. For low class-label noise levels, especially
+when simple base learners are used, emphasis should be made on instances for
+which the disagreement rate is high. When more flexible classifiers are used
+and as the noise level increases, the emphasis on these uncertain instances
+should be reduced. In fact, at sufficiently high levels of class-label noise,
+the focus should be on instances on which the ensemble classifiers agree. The
+optimal type of emphasis can be automatically determined using
+cross-validation. An extensive empirical analysis using the beta distribution
+as emphasis function illustrates that vote-boosting is an effective method to
+generate ensembles that are both accurate and robust.

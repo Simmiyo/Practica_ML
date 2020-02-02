@@ -1,0 +1,20 @@
+Classical simulation of quantum entanglement without local hidden
+  variables
+Recent work has extended Bell's theorem by quantifying the amount of
+communication required to simulate entangled quantum systems with classical
+information. The general scenario is that a bipartite measurement is given from
+a set of possibilities and the goal is to find a classical scheme that
+reproduces exactly the correlations that arise when an actual quantum system is
+measured. Previous results have shown that, using local hidden variables, a
+finite amount of communication suffices to simulate the correlations for a Bell
+state. We extend this in a number of ways. First, we show that, when the
+communication is merely required to be finite {\em on average}, Bell states can
+be simulated {\em without} any local hidden variables. More generally, we show
+that arbitrary positive operator valued measurements on systems of $n$ Bell
+states can be simulated with $O(n 2^n)$ bits of communication on average
+(again, without local hidden variables). On the other hand, when the
+communication is required to be {\em absolutely bounded}, we show that a finite
+number of bits of local hidden variables is insufficent to simulate a Bell
+state. This latter result is based on an analysis of the non-deterministic
+communication complexity of the NOT-EQUAL function, which is constant in the
+quantum model and logarithmic in the classical model.

@@ -1,0 +1,12 @@
+An Ordered Lasso and Sparse Time-Lagged Regression
+We consider regression scenarios where it is natural to impose an order
+constraint on the coefficients. We propose an order-constrained version of
+L1-regularized regression for this problem, and show how to solve it
+efficiently using the well-known Pool Adjacent Violators Algorithm as its
+proximal operator. The main application of this idea is time-lagged regression,
+where we predict an outcome at time t from features at the previous K time
+points. In this setting it is natural to assume that the coefficients decay as
+we move farther away from t, and hence the order constraint is reasonable.
+Potential applications include financial time series and prediction of dynamic
+patient out- comes based on clinical measurements. We illustrate this idea on
+real and simulated data.

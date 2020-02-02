@@ -1,0 +1,23 @@
+Single-trial estimation of stimulus and spike-history effects on
+  time-varying ensemble spiking activity of multiple neurons: a simulation
+  study
+Neurons in cortical circuits exhibit coordinated spiking activity, and can
+produce correlated synchronous spikes during behavior and cognition. We
+recently developed a method for estimating the dynamics of correlated ensemble
+activity by combining a model of simultaneous neuronal interactions (e.g., a
+spin-glass model) with a state-space method (Shimazaki et al. 2012 PLoS Comput
+Biol 8 e1002385). This method allows us to estimate stimulus-evoked dynamics of
+neuronal interactions which is reproducible in repeated trials under identical
+experimental conditions. However, the method may not be suitable for detecting
+stimulus responses if the neuronal dynamics exhibits significant variability
+across trials. In addition, the previous model does not include effects of past
+spiking activity of the neurons on the current state of ensemble activity. In
+this study, we develop a parametric method for simultaneously estimating the
+stimulus and spike-history effects on the ensemble activity from single-trial
+data even if the neurons exhibit dynamics that is largely unrelated to these
+effects. For this goal, we model ensemble neuronal activity as a latent process
+and include the stimulus and spike-history effects as exogenous inputs to the
+latent process. We develop an expectation-maximization algorithm that
+simultaneously achieves estimation of the latent process, stimulus responses,
+and spike-history effects. The proposed method is useful to analyze an
+interaction of internal cortical states and sensory evoked activity.

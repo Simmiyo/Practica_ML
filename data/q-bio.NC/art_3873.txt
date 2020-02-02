@@ -1,0 +1,23 @@
+The Ising Model for Neural Data: Model Quality and Approximate Methods
+  for Extracting Functional Connectivity
+We study pairwise Ising models for describing the statistics of multi-neuron
+spike trains, using data from a simulated cortical network. We explore
+efficient ways of finding the optimal couplings in these models and examine
+their statistical properties. To do this, we extract the optimal couplings for
+subsets of size up to 200 neurons, essentially exactly, using Boltzmann
+learning. We then study the quality of several approximate methods for finding
+the couplings by comparing their results with those found from Boltzmann
+learning. Two of these methods- inversion of the TAP equations and an
+approximation proposed by Sessak and Monasson- are remarkably accurate. Using
+these approximations for larger subsets of neurons, we find that extracting
+couplings using data from a subset smaller than the full network tends
+systematically to overestimate their magnitude. This effect is described
+qualitatively by infinite-range spin glass theory for the normal phase. We also
+show that a globally-correlated input to the neurons in the network lead to a
+small increase in the average coupling. However, the pair-to-pair variation of
+the couplings is much larger than this and reflects intrinsic properties of the
+network. Finally, we study the quality of these models by comparing their
+entropies with that of the data. We find that they perform well for small
+subsets of the neurons in the network, but the fit quality starts to
+deteriorate as the subset size grows, signalling the need to include higher
+order correlations to describe the statistics of large networks.

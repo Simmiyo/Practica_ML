@@ -1,0 +1,16 @@
+Integration of rule-based models and compartmental models of neurons
+Synaptic plasticity depends on the interaction between electrical activity in
+neurons and the synaptic proteome, the collection of over 1000 proteins in the
+post-synaptic density (PSD) of synapses. To construct models of synaptic
+plasticity with realistic numbers of proteins, we aim to combine rule-based
+models of molecular interactions in the synaptic proteome with compartmental
+models of the electrical activity of neurons. Rule-based models allow
+interactions between the combinatorially large number of protein complexes in
+the postsynaptic proteome to be expressed straightforwardly. Simulations of
+rule-based models are stochastic and thus can deal with the small copy numbers
+of proteins and complexes in the PSD. Compartmental models of neurons are
+expressed as systems of coupled ordinary differential equations and solved
+deterministically. We present an algorithm which incorporates stochastic
+rule-based models into deterministic compartmental models and demonstrate an
+implementation ("KappaNEURON") of this hybrid system using the SpatialKappa and
+NEURON simulators.

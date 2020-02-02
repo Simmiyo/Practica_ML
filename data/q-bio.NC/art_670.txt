@@ -1,0 +1,13 @@
+A sparse reformulation of the Green's function formalism allows
+  efficient simulations of partial differential equations on tree graphs
+We prove that when a class of partial differential equations, generalized
+from the cable equation, is defined on tree graphs, and when the inputs are
+restricted to a spatially discrete, well chosen set of points, the Green's
+function (GF) formalism can be rewritten to scale as $O(n)$ with the number $n$
+of input locations, contrary to the previously reported $O(n^2)$ scaling. We
+show that the linear scaling can be combined with an expansion of the remaining
+kernels as sums of exponentials, to allow efficient simulations of equations
+from the aforementioned class. We furthermore validate this simulation paradigm
+on models of nerve cells and explore its relation with more traditional finite
+difference approaches. Situations in which a gain in computational performance
+is expected, are discussed.

@@ -1,0 +1,17 @@
+The Scalable Brain Atlas: instant web-based access to public brain
+  atlases and related content
+The Scalable Brain Atlas (SBA) is a collection of web services that provide
+unified access to a large collection of brain atlas templates for different
+species. Its main component is an atlas viewer that displays brain atlas data
+as a stack of slices in which stereotaxic coordinates and brain regions can be
+selected. These are subsequently used to launch web queries to resources that
+require coordinates or region names as input. It supports plugins which run
+inside the viewer and respond when a new slice, coordinate or region is
+selected. It contains 20 atlas templates in six species, and plugins to compute
+coordinate transformations, display anatomical connectivity and fiducial
+points, and retrieve properties, descriptions, definitions and 3d
+reconstructions of brain regions. The ambition of SBA is to provide a unified
+representation of all publicly available brain atlases directly in the web
+browser, while remaining a responsive and light weight resource that
+specializes in atlas comparisons, searches, coordinate transformations and
+interactive displays.

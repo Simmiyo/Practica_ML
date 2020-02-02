@@ -1,0 +1,20 @@
+The Importance of Constraint Smoothness for Parameter Estimation in
+  Computational Cognitive Modeling
+Psychiatric neuroscience is increasingly aware of the need to define
+psychopathology in terms of abnormal neural computation. The central tool in
+this endeavour is the fitting of computational models to behavioural data. The
+most prominent example of this procedure is fitting reinforcement learning (RL)
+models to decision-making data collected from mentally ill and healthy subject
+populations. These models are generative models of the decision-making data
+themselves, and the parameters we seek to infer can be psychologically and
+neurobiologically meaningful. Currently, the gold standard approach to this
+inference procedure involves Monte-Carlo sampling, which is robust but
+computationally intensive---rendering additional procedures, such as
+cross-validation, impractical. Searching for point estimates of model
+parameters using optimization procedures remains a popular and interesting
+option. On a novel testbed simulating parameter estimation from a common RL
+task, we investigated the effects of smooth vs. boundary constraints on
+parameter estimation using interior point and deterministic direct search
+algorithms for optimization. Ultimately, we show that the use of boundary
+constraints can lead to substantial truncation effects. Our results discourage
+the use of boundary constraints for these applications.

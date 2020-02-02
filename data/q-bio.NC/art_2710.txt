@@ -1,0 +1,10 @@
+Using persistent homology to reveal hidden information in neural data
+We propose a method, based on persistent homology, to uncover topological
+properties of a priori unknown covariates of neuron activity. Our input data
+consist of spike train measurements of a set of neurons of interest, a
+candidate list of the known stimuli that govern neuron activity, and the
+corresponding state of the animal throughout the experiment performed. Using a
+generalized linear model for neuron activity and simple assumptions on the
+effects of the external stimuli, we infer away any contribution to the observed
+spike trains by the candidate stimuli. Persistent homology then reveals useful
+information about any further, unknown, covariates.

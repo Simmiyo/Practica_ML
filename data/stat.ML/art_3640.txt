@@ -1,0 +1,14 @@
+Deep Kalman Filters
+Kalman Filters are one of the most influential models of time-varying
+phenomena. They admit an intuitive probabilistic interpretation, have a simple
+functional form, and enjoy widespread adoption in a variety of disciplines.
+Motivated by recent variational methods for learning deep generative models, we
+introduce a unified algorithm to efficiently learn a broad spectrum of Kalman
+filters. Of particular interest is the use of temporal generative models for
+counterfactual inference. We investigate the efficacy of such models for
+counterfactual inference, and to that end we introduce the "Healing MNIST"
+dataset where long-term structure, noise and actions are applied to sequences
+of digits. We show the efficacy of our method for modeling this dataset. We
+further show how our model can be used for counterfactual inference for
+patients, based on electronic health record data of 8,000 patients over 4.5
+years.

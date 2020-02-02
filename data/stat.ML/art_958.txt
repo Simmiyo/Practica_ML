@@ -1,0 +1,15 @@
+Classification Constrained Dimensionality Reduction
+Dimensionality reduction is a topic of recent interest. In this paper, we
+present the classification constrained dimensionality reduction (CCDR)
+algorithm to account for label information. The algorithm can account for
+multiple classes as well as the semi-supervised setting. We present an
+out-of-sample expressions for both labeled and unlabeled data. For unlabeled
+data, we introduce a method of embedding a new point as preprocessing to a
+classifier. For labeled data, we introduce a method that improves the embedding
+during the training phase using the out-of-sample extension. We investigate
+classification performance using the CCDR algorithm on hyper-spectral satellite
+imagery data. We demonstrate the performance gain for both local and global
+classifiers and demonstrate a 10% improvement of the $k$-nearest neighbors
+algorithm performance. We present a connection between intrinsic dimension
+estimation and the optimal embedding dimension obtained using the CCDR
+algorithm.

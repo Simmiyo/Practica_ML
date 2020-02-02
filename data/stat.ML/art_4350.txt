@@ -1,0 +1,17 @@
+Efficient Estimation of Generalization Error and Bias-Variance
+  Components of Ensembles
+For many applications, an ensemble of base classifiers is an effective
+solution. The tuning of its parameters(number of classes, amount of data on
+which each classifier is to be trained on, etc.) requires G, the generalization
+error of a given ensemble. The efficient estimation of G is the focus of this
+paper. The key idea is to approximate the variance of the class
+scores/probabilities of the base classifiers over the randomness imposed by the
+training subset by normal/beta distribution at each point x in the input
+feature space. We estimate the parameters of the distribution using a small set
+of randomly chosen base classifiers and use those parameters to give efficient
+estimation schemes for G. We give empirical evidence for the quality of the
+various estimators. We also demonstrate their usefulness in making design
+choices such as the number of classifiers in the ensemble and the size of a
+subset of data used for training that is needed to achieve a certain value of
+generalization error. Our approach also has great potential for designing
+distributed ensemble classifiers.

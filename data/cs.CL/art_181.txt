@@ -1,0 +1,16 @@
+A Bit of Progress in Language Modeling
+In the past several years, a number of different language modeling
+improvements over simple trigram models have been found, including caching,
+higher-order n-grams, skipping, interpolated Kneser-Ney smoothing, and
+clustering. We present explorations of variations on, or of the limits of, each
+of these techniques, including showing that sentence mixture models may have
+more potential. While all of these techniques have been studied separately,
+they have rarely been studied in combination. We find some significant
+interactions, especially with smoothing and clustering techniques. We compare a
+combination of all techniques together to a Katz smoothed trigram model with no
+count cutoffs. We achieve perplexity reductions between 38% and 50% (1 bit of
+entropy), depending on training data size, as well as a word error rate
+reduction of 8.9%. Our perplexity reductions are perhaps the highest reported
+compared to a fair baseline. This is the extended version of the paper; it
+contains additional details and proofs, and is designed to be a good
+introduction to the state of the art in language modeling.

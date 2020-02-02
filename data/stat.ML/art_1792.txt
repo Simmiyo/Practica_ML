@@ -1,0 +1,12 @@
+Semi-supervised logistic discrimination via labeled data and unlabeled
+  data from different sampling distributions
+This article addresses the problem of classification method based on both
+labeled and unlabeled data, where we assume that a density function for labeled
+data is different from that for unlabeled data. We propose a semi-supervised
+logistic regression model for classification problem along with the technique
+of covariate shift adaptation. Unknown parameters involved in proposed models
+are estimated by regularization with EM algorithm. A crucial issue in the
+modeling process is the choices of tuning parameters in our semi-supervised
+logistic models. In order to select the parameters, a model selection criterion
+is derived from an information-theoretic approach. Some numerical studies show
+that our modeling procedure performs well in various cases.

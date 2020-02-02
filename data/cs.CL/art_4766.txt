@@ -1,0 +1,12 @@
+Learning and Evaluating Sparse Interpretable Sentence Embeddings
+Previous research on word embeddings has shown that sparse representations,
+which can be either learned on top of existing dense embeddings or obtained
+through model constraints during training time, have the benefit of increased
+interpretability properties: to some degree, each dimension can be understood
+by a human and associated with a recognizable feature in the data. In this
+paper, we transfer this idea to sentence embeddings and explore several
+approaches to obtain a sparse representation. We further introduce a novel,
+quantitative and automated evaluation metric for sentence embedding
+interpretability, based on topic coherence methods. We observe an increase in
+interpretability compared to dense models, on a dataset of movie dialogs and on
+the scene descriptions from the MS COCO dataset.

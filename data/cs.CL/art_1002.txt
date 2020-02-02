@@ -1,0 +1,14 @@
+FAQ-based Question Answering via Word Alignment
+In this paper, we propose a novel word-alignment-based method to solve the
+FAQ-based question answering task. First, we employ a neural network model to
+calculate question similarity, where the word alignment between two questions
+is used for extracting features. Second, we design a bootstrap-based feature
+extraction method to extract a small set of effective lexical features. Third,
+we propose a learning-to-rank algorithm to train parameters more suitable for
+the ranking tasks. Experimental results, conducted on three languages (English,
+Spanish and Japanese), demonstrate that the question similarity model is more
+effective than baseline systems, the sparse features bring 5% improvements on
+top-1 accuracy, and the learning-to-rank algorithm works significantly better
+than the traditional method. We further evaluate our method on the answer
+sentence selection task. Our method outperforms all the previous systems on the
+standard TREC data set.

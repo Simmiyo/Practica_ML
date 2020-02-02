@@ -1,0 +1,12 @@
+Computational Intractability of Dictionary Learning for Sparse
+  Representation
+In this paper we consider the dictionary learning problem for sparse
+representation. We first show that this problem is NP-hard by polynomial time
+reduction of the densest cut problem. Then, using successive convex
+approximation strategies, we propose efficient dictionary learning schemes to
+solve several practical formulations of this problem to stationary points.
+Unlike many existing algorithms in the literature, such as K-SVD, our proposed
+dictionary learning scheme is theoretically guaranteed to converge to the set
+of stationary points under certain mild assumptions. For the image denoising
+application, the performance and the efficiency of the proposed dictionary
+learning scheme are comparable to that of K-SVD algorithm in simulation.

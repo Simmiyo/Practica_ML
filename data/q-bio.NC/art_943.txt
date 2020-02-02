@@ -1,0 +1,27 @@
+Finite element analysis of neuronal electric fields: the effect of
+  heterogeneous resistivity
+Simulation of extracellular fields is one of the substantial methods used in
+the area of computational neuroscience. Its most common usage is validation of
+experimental methods as EEG and extracellular spike recordings or modeling of
+physiological phenomena which can not be easily determined empirically.
+Continuous experimental work has been re-raising the importance of polarization
+effects between neuronal structures to neuronal communication. As this effects
+relies on very small potential changes, better modeling methods are necessary
+to quantify the weak electrical fields in the microscopic scale in a more
+realistic way. An important factor of influence on local field effects in the
+hippocampal formation is the heterogeneous resistivity of extracellular tissue.
+The vast majority of modeling studies consider the extracellular space to be
+homogeneous while experimentally, it has been shown that the stratum pyramidale
+has two times higher resistivity then other hippocampal layers. Common
+simulation methods for extracellular electrical fields based on the point
+source approximation are bound to describe the resistance of the space with a
+single, linear factor. We propose that models should be based on the space- and
+time-dependent Maxwell equations in order to account for heterogeneous
+properties of the extracellular space and specific arrangements of neurons in
+dense hippocampal layers. To demonstrate the influence of heterogeneous
+extracellular resistivity and neuronal spatial orientation on modeling results,
+we combine solutions of classical compartment models with spatiotemporal PDEs
+solved by the FEM. With the help of these methods, we show that the inclusion
+of heterogeneous resistivity has a substantial impact on voltages in close
+proximity to emitting neurons, increasing the extracellular potentials
+substantially compared to the homogeneous variant.

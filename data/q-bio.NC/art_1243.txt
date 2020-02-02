@@ -1,0 +1,19 @@
+A probabilistic model for learning in cortical microcircuit motifs with
+  data-based divisive inhibition
+Previous theoretical studies on the interaction of excitatory and inhibitory
+neurons proposed to model this cortical microcircuit motif as a so-called
+Winner-Take-All (WTA) circuit. A recent modeling study however found that the
+WTA model is not adequate for data-based softer forms of divisive inhibition as
+found in a microcircuit motif in cortical layer 2/3. We investigate here
+through theoretical analysis the role of such softer divisive inhibition for
+the emergence of computational operations and neural codes under spike-timing
+dependent plasticity (STDP). We show that in contrast to WTA models - where the
+network activity has been interpreted as probabilistic inference in a
+generative mixture distribution - this network dynamics approximates inference
+in a noisy-OR-like generative model that explains the network input based on
+multiple hidden causes. Furthermore, we show that STDP optimizes the parameters
+of this model by approximating online the expectation maximization (EM)
+algorithm. This theoretical analysis corroborates a preceding modelling study
+which suggested that the learning dynamics of this layer 2/3 microcircuit motif
+extracts a specific modular representation of the input and thus performs blind
+source separation on the input statistics.

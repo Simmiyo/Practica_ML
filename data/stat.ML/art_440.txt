@@ -1,0 +1,20 @@
+Resolution-limit-free and local Non-negative Matrix Factorization
+  quality functions for graph clustering
+Many graph clustering quality functions suffer from a resolution limit, the
+inability to find small clusters in large graphs. So called
+resolution-limit-free quality functions do not have this limit. This property
+was previously introduced for hard clustering, that is, graph partitioning.
+  We investigate the resolution-limit-free property in the context of
+Non-negative Matrix Factorization (NMF) for hard and soft graph clustering. To
+use NMF in the hard clustering setting, a common approach is to assign each
+node to its highest membership cluster. We show that in this case symmetric NMF
+is not resolution-limit-free, but that it becomes so when hardness constraints
+are used as part of the optimization. The resulting function is strongly linked
+to the Constant Potts Model. In soft clustering, nodes can belong to more than
+one cluster, with varying degrees of membership. In this setting
+resolution-limit-free turns out to be too strong a property. Therefore we
+introduce locality, which roughly states that changing one part of the graph
+does not affect the clustering of other parts of the graph. We argue that this
+is a desirable property, provide conditions under which NMF quality functions
+are local, and propose a novel class of local probabilistic NMF quality
+functions for soft graph clustering.

@@ -1,0 +1,17 @@
+$k$-means as a variational EM approximation of Gaussian mixture models
+We show that $k$-means (Lloyd's algorithm) is obtained as a special case when
+truncated variational EM approximations are applied to Gaussian Mixture Models
+(GMM) with isotropic Gaussians. In contrast to the standard way to relate
+$k$-means and GMMs, the provided derivation shows that it is not required to
+consider Gaussians with small variances or the limit case of zero variances.
+There are a number of consequences that directly follow from our approach: (A)
+$k$-means can be shown to increase a free energy associated with truncated
+distributions and this free energy can directly be reformulated in terms of the
+$k$-means objective; (B) $k$-means generalizations can directly be derived by
+considering the 2nd closest, 3rd closest etc. cluster in addition to just the
+closest one; and (C) the embedding of $k$-means into a free energy framework
+allows for theoretical interpretations of other $k$-means generalizations in
+the literature. In general, truncated variational EM provides a natural and
+rigorous quantitative link between $k$-means-like clustering and GMM clustering
+algorithms which may be very relevant for future theoretical and empirical
+studies.

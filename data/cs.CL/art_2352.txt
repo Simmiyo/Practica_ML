@@ -1,0 +1,9 @@
+Improving a Strong Neural Parser with Conjunction-Specific Features
+While dependency parsers reach very high overall accuracy, some dependency
+relations are much harder than others. In particular, dependency parsers
+perform poorly in coordination construction (i.e., correctly attaching the
+"conj" relation). We extend a state-of-the-art dependency parser with
+conjunction-specific features, focusing on the similarity between the conjuncts
+head words. Training the extended parser yields an improvement in "conj"
+attachment as well as in overall dependency parsing accuracy on the Stanford
+dependency conversion of the Penn TreeBank.

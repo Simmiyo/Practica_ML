@@ -1,0 +1,20 @@
+The role of robot design in decoding error-related information from EEG
+  signals of a human observer
+For utilization of robotic assistive devices in everyday life, means for
+detection and processing of erroneous robot actions are a focal aspect in the
+development of collaborative systems, especially when controlled via brain
+signals. Though, the variety of possible scenarios and the diversity of used
+robotic systems pose a challenge for error decoding from recordings of brain
+signals such as via EEG. For example, it is unclear whether humanoid
+appearances of robotic assistants have an influence on the performance. In this
+paper, we designed a study in which two different robots executed the same task
+both in an erroneous and a correct manner. We find error-related EEG signals of
+human observers indicating that the performance of the error decoding was
+independent of robot design. However, we can show that it was possible to
+identify which robot performed the instructed task by means of the EEG signals.
+In this case, deep convolutional neural networks (deep ConvNets) could reach
+significantly higher accuracies than both regularized Linear Discriminanat
+Analysis (rLDA) and filter bank common spatial patterns (FB-CSP) combined with
+rLDA. Our findings indicate that decoding information about robot action
+success from the EEG, particularly when using deep neural networks, may be an
+applicable approach for a broad range of robot designs.

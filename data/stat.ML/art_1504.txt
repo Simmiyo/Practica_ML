@@ -1,0 +1,7 @@
+Adaptive Scan Gibbs Sampler for Large Scale Inference Problems
+For large scale on-line inference problems the update strategy is critical
+for performance. We derive an adaptive scan Gibbs sampler that optimizes the
+update frequency by selecting an optimum mini-batch size. We demonstrate
+performance of our adaptive batch-size Gibbs sampler by comparing it against
+the collapsed Gibbs sampler for Bayesian Lasso, Dirichlet Process Mixture
+Models (DPMM) and Latent Dirichlet Allocation (LDA) graphical models.

@@ -1,0 +1,15 @@
+PAC-Bayesian Theorems for Domain Adaptation with Specialization to
+  Linear Classifiers
+In this paper, we provide two main contributions in PAC-Bayesian theory for
+domain adaptation where the objective is to learn, from a source distribution,
+a well-performing majority vote on a different target distribution. On the one
+hand, we propose an improvement of the previous approach proposed by Germain et
+al. (2013), that relies on a novel distribution pseudodistance based on a
+disagreement averaging, allowing us to derive a new tighter PAC-Bayesian domain
+adaptation bound for the stochastic Gibbs classifier. We specialize it to
+linear classifiers, and design a learning algorithm which shows interesting
+results on a synthetic problem and on a popular sentiment annotation task. On
+the other hand, we generalize these results to multisource domain adaptation
+allowing us to take into account different source domains. This study opens the
+door to tackle domain adaptation tasks by making use of all the PAC-Bayesian
+tools.

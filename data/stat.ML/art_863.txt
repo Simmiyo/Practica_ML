@@ -1,0 +1,17 @@
+Time Series Structure Discovery via Probabilistic Program Synthesis
+There is a widespread need for techniques that can discover structure from
+time series data. Recently introduced techniques such as Automatic Bayesian
+Covariance Discovery (ABCD) provide a way to find structure within a single
+time series by searching through a space of covariance kernels that is
+generated using a simple grammar. While ABCD can identify a broad class of
+temporal patterns, it is difficult to extend and can be brittle in practice.
+This paper shows how to extend ABCD by formulating it in terms of probabilistic
+program synthesis. The key technical ideas are to (i) represent models using
+abstract syntax trees for a domain-specific probabilistic language, and (ii)
+represent the time series model prior, likelihood, and search strategy using
+probabilistic programs in a sufficiently expressive language. The final
+probabilistic program is written in under 70 lines of probabilistic code in
+Venture. The paper demonstrates an application to time series clustering that
+involves a non-parametric extension to ABCD, experiments for interpolation and
+extrapolation on real-world econometric data, and improvements in accuracy over
+both non-parametric and standard regression baselines.

@@ -1,0 +1,19 @@
+A Generalized Least Squares Matrix Decomposition
+Variables in many massive high-dimensional data sets are structured, arising
+for example from measurements on a regular grid as in imaging and time series
+or from spatial-temporal measurements as in climate studies. Classical
+multivariate techniques ignore these structural relationships often resulting
+in poor performance. We propose a generalization of the singular value
+decomposition (SVD) and principal components analysis (PCA) that is appropriate
+for massive data sets with structured variables or known two-way dependencies.
+By finding the best low rank approximation of the data with respect to a
+transposable quadratic norm, our decomposition, entitled the Generalized least
+squares Matrix Decomposition (GMD), directly accounts for structural
+relationships. As many variables in high-dimensional settings are often
+irrelevant or noisy, we also regularize our matrix decomposition by adding
+two-way penalties to encourage sparsity or smoothness. We develop fast
+computational algorithms using our methods to perform generalized PCA (GPCA),
+sparse GPCA, and functional GPCA on massive data sets. Through simulations and
+a whole brain functional MRI example we demonstrate the utility of our
+methodology for dimension reduction, signal recovery, and feature selection
+with high-dimensional structured data.

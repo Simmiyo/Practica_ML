@@ -1,0 +1,25 @@
+Local Turbulence Simulations for the Multiphase ISM
+In this paper we show results of numerical simulations for the turbulence in
+the interstellar medium. These results were obtained using a Riemann
+solver-free numerical scheme for high-Mach number hyperbolic equations. Here we
+especially concentrate on the physical properties of the ISM. That is, we do
+not present turbulence simulations trimmed to be applicable to the interstellar
+medium. The simulations are rather based on physical estimates for the relevant
+parameters of the interstellar gas.
+  Applying our code to simulate the turbulent plasma motion within a typical
+interstellar molecular cloud, we investigate the influence of different
+equations of state (isothermal and adiabatic) on the statistical properties of
+the resulting turbulent structures. We find slightly different density power
+spectra and dispersion maps, while both cases yield qualitatively similar
+dissipative structures, and exhibit a departure from the classical Kolmogorov
+case towards a scaling described by the She-Leveque model.
+  Solving the full energy equation with realistic heating/cooling terms
+appropriate for the diffuse interstellar gas, we are able to reproduce a
+realistic two-phase distribution of cold and warm plasma. When extracting maps
+of polarised intensity from our simulation data, we find encouraging similarity
+to actual observations. Finally, we compare the actual magnetic field strength
+of our simulations to its value inferred from the rotation measure. We find
+these to be systematically different by a factor of about 1.5, thus
+highlighting the often underestimated influence of varying line-of-sight
+particle densities on the magnetic field strength derived from observed
+rotation measures.

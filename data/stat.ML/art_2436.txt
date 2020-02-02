@@ -1,0 +1,20 @@
+Learning Stable Multilevel Dictionaries for Sparse Representations
+Sparse representations using learned dictionaries are being increasingly used
+with success in several data processing and machine learning applications. The
+availability of abundant training data necessitates the development of
+efficient, robust and provably good dictionary learning algorithms. Algorithmic
+stability and generalization are desirable characteristics for dictionary
+learning algorithms that aim to build global dictionaries which can efficiently
+model any test data similar to the training samples. In this paper, we propose
+an algorithm to learn dictionaries for sparse representations from large scale
+data, and prove that the proposed learning algorithm is stable and
+generalizable asymptotically. The algorithm employs a 1-D subspace clustering
+procedure, the K-hyperline clustering, in order to learn a hierarchical
+dictionary with multiple levels. We also propose an information-theoretic
+scheme to estimate the number of atoms needed in each level of learning and
+develop an ensemble approach to learn robust dictionaries. Using the proposed
+dictionaries, the sparse code for novel test data can be computed using a
+low-complexity pursuit procedure. We demonstrate the stability and
+generalization characteristics of the proposed algorithm using simulations. We
+also evaluate the utility of the multilevel dictionaries in compressed recovery
+and subspace learning applications.

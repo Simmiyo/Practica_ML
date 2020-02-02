@@ -1,0 +1,14 @@
+DOLDA - a regularized supervised topic model for high-dimensional
+  multi-class regression
+Generating user interpretable multi-class predictions in data rich
+environments with many classes and explanatory covariates is a daunting task.
+We introduce Diagonal Orthant Latent Dirichlet Allocation (DOLDA), a supervised
+topic model for multi-class classification that can handle both many classes as
+well as many covariates. To handle many classes we use the recently proposed
+Diagonal Orthant (DO) probit model (Johndrow et al., 2013) together with an
+efficient Horseshoe prior for variable selection/shrinkage (Carvalho et al.,
+2010). We propose a computationally efficient parallel Gibbs sampler for the
+new model. An important advantage of DOLDA is that learned topics are directly
+connected to individual classes without the need for a reference class. We
+evaluate the model's predictive accuracy on two datasets and demonstrate
+DOLDA's advantage in interpreting the generated predictions.

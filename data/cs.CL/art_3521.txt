@@ -1,0 +1,10 @@
+A Feature-Based Model for Nested Named-Entity Recognition at VLSP-2018
+  NER Evaluation Campaign
+In this report, we describe our participant named-entity recognition system
+at VLSP 2018 evaluation campaign. We formalized the task as a sequence labeling
+problem using BIO encoding scheme. We applied a feature-based model which
+combines word, word-shape features, Brown-cluster-based features, and
+word-embedding-based features. We compare several methods to deal with nested
+entities in the dataset. We showed that combining tags of entities at all
+levels for training a sequence labeling model (joint-tag model) improved the
+accuracy of nested named-entity recognition.

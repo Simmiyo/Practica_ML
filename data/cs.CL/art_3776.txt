@@ -1,0 +1,13 @@
+Aspect Term Extraction with History Attention and Selective
+  Transformation
+Aspect Term Extraction (ATE), a key sub-task in Aspect-Based Sentiment
+Analysis, aims to extract explicit aspect expressions from online user reviews.
+We present a new framework for tackling ATE. It can exploit two useful clues,
+namely opinion summary and aspect detection history. Opinion summary is
+distilled from the whole input sentence, conditioned on each current token for
+aspect prediction, and thus the tailor-made summary can help aspect prediction
+on this token. Another clue is the information of aspect detection history, and
+it is distilled from the previous aspect predictions so as to leverage the
+coordinate structure and tagging schema constraints to upgrade the aspect
+prediction. Experimental results over four benchmark datasets clearly
+demonstrate that our framework can outperform all state-of-the-art methods.

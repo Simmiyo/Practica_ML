@@ -1,0 +1,16 @@
+Dimension Reduction Using Rule Ensemble Machine Learning Methods: A
+  Numerical Study of Three Ensemble Methods
+Ensemble methods for supervised machine learning have become popular due to
+their ability to accurately predict class labels with groups of simple,
+lightweight "base learners." While ensembles offer computationally efficient
+models that have good predictive capability they tend to be large and offer
+little insight into the patterns or structure in a dataset. We consider an
+ensemble technique that returns a model of ranked rules. The model accurately
+predicts class labels and has the advantage of indicating which parameter
+constraints are most useful for predicting those labels. An example of the rule
+ensemble method successfully ranking rules and selecting attributes is given
+with a dataset containing images of potential supernovas where the number of
+necessary features is reduced from 39 to 21. We also compare the rule ensemble
+method on a set of multi-class problems with boosting and bagging, which are
+two well known ensemble techniques that use decision trees as base learners,
+but do not have a rule ranking scheme.

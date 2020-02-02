@@ -1,0 +1,14 @@
+Part of Speech Tagging in Thai Language Using Support Vector Machine
+The elastic-input neuro tagger and hybrid tagger, combined with a neural
+network and Brill's error-driven learning, have already been proposed for the
+purpose of constructing a practical tagger using as little training data as
+possible. When a small Thai corpus is used for training, these taggers have
+tagging accuracies of 94.4% and 95.5% (accounting only for the ambiguous words
+in terms of the part of speech), respectively. In this study, in order to
+construct more accurate taggers we developed new tagging methods using three
+machine learning methods: the decision-list, maximum entropy, and support
+vector machine methods. We then performed tagging experiments by using these
+methods. Our results showed that the support vector machine method has the best
+precision (96.1%), and that it is capable of improving the accuracy of tagging
+in the Thai language. Finally, we theoretically examined all these methods and
+discussed how the improvements were achived.

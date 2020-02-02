@@ -1,0 +1,27 @@
+Graph analysis and modularity of brain functional connectivity networks:
+  searching for the optimal threshold
+Neuroimaging data can be represented as networks of nodes and edges that
+capture the topological organization of the brain connectivity. Graph theory
+provides a general and powerful framework to study these networks and their
+structure at various scales. By way of example, community detection methods
+have been widely applied to investigate the modular structure of many natural
+networks, including brain functional connectivity networks. Sparsification
+procedures are often applied to remove the weakest edges, which are the most
+affected by experimental noise, and to reduce the density of the graph, thus
+making it theoretically and computationally more tractable. However, weak links
+may also contain significant structural information, and procedures to identify
+the optimal tradeoff are the subject of active research. Here, we explore the
+use of percolation analysis, a method grounded in statistical physics, to
+identify the optimal sparsification threshold for community detection in brain
+connectivity networks. By using synthetic networks endowed with a ground-truth
+modular structure and realistic topological features typical of human brain
+functional connectivity networks, we show that percolation analysis can be
+applied to identify the optimal sparsification threshold that maximizes
+information on the networks' community structure. We validate this approach
+using three different community detection methods widely applied to the
+analysis of brain connectivity networks: Newman's modularity, InfoMap and
+Asymptotical Surprise. Importantly, we test the effects of noise and data
+variability, which are critical factors to determine the optimal threshold.
+This data-driven method should prove particularly useful in the analysis of the
+community structure of brain networks in populations characterized by different
+connectivity strengths, such as patients and controls.

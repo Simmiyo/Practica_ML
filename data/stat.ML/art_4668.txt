@@ -1,0 +1,18 @@
+Tuning parameter selection in high dimensional penalized likelihood
+Determining how to appropriately select the tuning parameter is essential in
+penalized likelihood methods for high-dimensional data analysis. We examine
+this problem in the setting of penalized likelihood methods for generalized
+linear models, where the dimensionality of covariates p is allowed to increase
+exponentially with the sample size n. We propose to select the tuning parameter
+by optimizing the generalized information criterion (GIC) with an appropriate
+model complexity penalty. To ensure that we consistently identify the true
+model, a range for the model complexity penalty is identified in GIC. We find
+that this model complexity penalty should diverge at the rate of some power of
+$\log p$ depending on the tail probability behavior of the response variables.
+This reveals that using the AIC or BIC to select the tuning parameter may not
+be adequate for consistently identifying the true model. Based on our
+theoretical study, we propose a uniform choice of the model complexity penalty
+and show that the proposed approach consistently identifies the true model
+among candidate models with asymptotic probability one. We justify the
+performance of the proposed procedure by numerical simulations and a gene
+expression data analysis.

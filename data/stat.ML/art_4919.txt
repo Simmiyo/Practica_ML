@@ -1,0 +1,20 @@
+Blankets Joint Posterior score for learning Markov network structures
+Markov networks are extensively used to model complex sequential, spatial,
+and relational interactions in a wide range of fields. By learning the
+structure of independences of a domain, more accurate joint probability
+distributions can be obtained for inference tasks or, more directly, for
+interpreting the most significant relations among the variables. Recently,
+several researchers have investigated techniques for automatically learning the
+structure from data by obtaining the probabilistic maximum-a-posteriori
+structure given the available data. However, all the approximations proposed
+decompose the posterior of the whole structure into local sub-problems, by
+assuming that the posteriors of the Markov blankets of all the variables are
+mutually independent. In this work, we propose a scoring function for relaxing
+such assumption. The Blankets Joint Posterior score computes the joint
+posterior of structures as a joint distribution of the collection of its Markov
+blankets. Essentially, the whole posterior is obtained by computing the
+posterior of the blanket of each variable as a conditional distribution that
+takes into account information from other blankets in the network. We show in
+our experimental results that the proposed approximation can improve the sample
+complexity of state-of-the-art scores when learning complex networks, where the
+independence assumption between blanket variables is clearly incorrect.

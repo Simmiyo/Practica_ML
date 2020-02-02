@@ -1,0 +1,13 @@
+Joint Modeling of Multiple Related Time Series via the Beta Process
+We propose a Bayesian nonparametric approach to the problem of jointly
+modeling multiple related time series. Our approach is based on the discovery
+of a set of latent, shared dynamical behaviors. Using a beta process prior, the
+size of the set and the sharing pattern are both inferred from data. We develop
+efficient Markov chain Monte Carlo methods based on the Indian buffet process
+representation of the predictive distribution of the beta process, without
+relying on a truncated model. In particular, our approach uses the sum-product
+algorithm to efficiently compute Metropolis-Hastings acceptance probabilities,
+and explores new dynamical behaviors via birth and death proposals. We examine
+the benefits of our proposed feature-based model on several synthetic datasets,
+and also demonstrate promising results on unsupervised segmentation of visual
+motion capture data.

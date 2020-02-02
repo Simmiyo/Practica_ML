@@ -1,0 +1,11 @@
+Text Summarization using Deep Learning and Ridge Regression
+We develop models and extract relevant features for automatic text
+summarization and investigate the performance of different models on the DUC
+2001 dataset. Two different models were developed, one being a ridge regressor
+and the other one was a multi-layer perceptron. The hyperparameters were varied
+and their performance were noted. We segregated the summarization task into 2
+main steps, the first being sentence ranking and the second step being sentence
+selection. In the first step, given a document, we sort the sentences based on
+their Importance, and in the second step, in order to obtain non-redundant
+sentences, we weed out the sentences that are have high similarity with the
+previously selected sentences.

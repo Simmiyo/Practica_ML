@@ -1,0 +1,12 @@
+Unsupervised Separation of Transliterable and Native Words for Malayalam
+Differentiating intrinsic language words from transliterable words is a key
+step aiding text processing tasks involving different natural languages. We
+consider the problem of unsupervised separation of transliterable words from
+native words for text in Malayalam language. Outlining a key observation on the
+diversity of characters beyond the word stem, we develop an optimization method
+to score words based on their nativeness. Our method relies on the usage of
+probability distributions over character n-grams that are refined in step with
+the nativeness scorings in an iterative optimization formulation. Using an
+empirical evaluation, we illustrate that our method, DTIM, provides significant
+improvements in nativeness scoring for Malayalam, establishing DTIM as the
+preferred method for the task.

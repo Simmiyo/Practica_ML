@@ -1,0 +1,18 @@
+Linear-time Detection of Non-linear Changes in Massively High
+  Dimensional Time Series
+Change detection in multivariate time series has applications in many
+domains, including health care and network monitoring. A common approach to
+detect changes is to compare the divergence between the distributions of a
+reference window and a test window. When the number of dimensions is very
+large, however, the naive approach has both quality and efficiency issues: to
+ensure robustness the window size needs to be large, which not only leads to
+missed alarms but also increases runtime.
+  To this end, we propose LIGHT, a linear-time algorithm for robustly detecting
+non-linear changes in massively high dimensional time series. Importantly,
+LIGHT provides high flexibility in choosing the window size, allowing the
+domain expert to fit the level of details required. To do such, we 1) perform
+scalable PCA to reduce dimensionality, 2) perform scalable factorization of the
+joint distribution, and 3) scalably compute divergences between these lower
+dimensional distributions. Extensive empirical evaluation on both synthetic and
+real-world data show that LIGHT outperforms state of the art with up to 100%
+improvement in both quality and efficiency.

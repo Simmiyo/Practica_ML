@@ -1,0 +1,15 @@
+Learning Non-Parametric Basis Independent Models from Point Queries via
+  Low-Rank Methods
+We consider the problem of learning multi-ridge functions of the form f(x) =
+g(Ax) from point evaluations of f. We assume that the function f is defined on
+an l_2-ball in R^d, g is twice continuously differentiable almost everywhere,
+and A \in R^{k \times d} is a rank k matrix, where k << d. We propose a
+randomized, polynomial-complexity sampling scheme for estimating such
+functions. Our theoretical developments leverage recent techniques from low
+rank matrix recovery, which enables us to derive a polynomial time estimator of
+the function f along with uniform approximation guarantees. We prove that our
+scheme can also be applied for learning functions of the form: f(x) =
+\sum_{i=1}^{k} g_i(a_i^T x), provided f satisfies certain smoothness conditions
+in a neighborhood around the origin. We also characterize the noise robustness
+of the scheme. Finally, we present numerical examples to illustrate the
+theoretical bounds in action.

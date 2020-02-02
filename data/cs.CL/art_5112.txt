@@ -1,0 +1,12 @@
+Neural Multi-Task Learning for Citation Function and Provenance
+Citation function and provenance are two cornerstone tasks in citation
+analysis. Given a citation, the former task determines its rhetorical role,
+while the latter locates the text in the cited paper that contains the relevant
+cited information. We hypothesize that these two tasks are synergistically
+related, and build a model that validates this claim. For both tasks, we show
+that a single-layer convolutional neural network (CNN) outperforms existing
+state-of-the-art baselines. More importantly, we show that the two tasks are
+indeed synergistic: by jointly training both of the tasks in a multi-task
+learning setup, we demonstrate additional performance gains. Altogether, our
+models improve the current state-of-the-arts up to 2\%, with statistical
+significance for both citation function and provenance prediction tasks.

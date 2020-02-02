@@ -1,0 +1,24 @@
+Nonlinear Langevin equations for wandering patterns in stochastic neural
+  fields
+We analyze the effects of additive, spatially extended noise on
+spatiotemporal patterns in continuum neural fields. Our main focus is how
+fluctuations impact patterns when they are weakly coupled to an external
+stimulus or another equivalent pattern. Showing the generality of our approach,
+we study both propagating fronts and stationary bumps. Using a separation of
+time scales, we represent the effects of noise in terms of a phase-shift of a
+pattern from its uniformly translating position at long time scales, and
+fluctuations in the pattern profile around its instantaneous position at short
+time scales. In the case of a stimulus-locked front, we show that the
+phase-shift satisfies a nonlinear Langevin equation (SDE) whose deterministic
+part has a unique stable fixed point. Using a linear-noise approximation, we
+thus establish that wandering of the front about the stimulus-locked state is
+given by an Ornstein-Uhlenbeck (OU) process. Analogous results hold for the
+relative phase-shift between a pair of mutually coupled fronts, provided that
+the coupling is excitatory. On the other hand, if the mutual coupling is given
+by a Mexican hat function (difference of exponentials), then the linear-noise
+approximation breaks down due to the co-existence of stable and unstable
+phase-locked states in the deterministic limit. Similarly, the stochastic
+motion of mutually coupled bumps can be described by a system of nonlinearly
+coupled SDEs, which can be linearized to yield a multivariate OU process. As in
+the case of fronts, large deviations can cause bumps to temporarily decouple,
+leading to a phase-slip in the bump positions.

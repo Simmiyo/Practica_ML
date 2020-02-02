@@ -1,0 +1,20 @@
+Modelling Shear Flows with SPH and Grid Based Methods
+Given the importance of shear flows for astrophysical gas dynamics, we study
+the evolution of the Kelvin-Helmholtz instability (KHI) analytically and
+numerically. We derive the dispersion relation for the two-dimensional KHI
+including viscous dissipation. The resulting expression for the growth rate is
+then used to estimate the intrinsic viscosity of four numerical schemes
+depending on code-specific as well as on physical parameters. Our set of
+numerical schemes includes the Tree-SPH code VINE, an alternative SPH
+formulation developed by Price (2008), and the finite-volume grid codes FLASH
+and PLUTO. In the first part, we explicitly demonstrate the effect of
+dissipation-inhibiting mechanisms such as the Balsara viscosity on the
+evolution of the KHI. With VINE, increasing density contrasts lead to a
+continuously increasing suppression of the KHI (with complete suppression from
+a contrast of 6:1 or higher). The alternative SPH formulation including an
+artificial thermal conductivity reproduces the analytically expected growth
+rates up to a density contrast of 10:1. The second part addresses the shear
+flow evolution with FLASH and PLUTO. Both codes result in a consistent
+non-viscous evolution (in the equal as well as in the different density case)
+in agreement with the analytical prediction. The viscous evolution studied with
+FLASH shows minor deviations from the analytical prediction.

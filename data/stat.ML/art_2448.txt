@@ -1,0 +1,20 @@
+Estimation Stability with Cross Validation (ESCV)
+Cross-validation (CV) is often used to select the regularization parameter in
+high dimensional problems. However, when applied to the sparse modeling method
+Lasso, CV leads to models that are unstable in high-dimensions, and
+consequently not suited for reliable interpretation. In this paper, we propose
+a model-free criterion ESCV based on a new estimation stability (ES) metric and
+CV. Our proposed ESCV finds a locally ES-optimal model smaller than the CV
+choice so that the it fits the data and also enjoys estimation stability
+property. We demonstrate that ESCV is an effective alternative to CV at a
+similar easily parallelizable computational cost. In particular, we compare the
+two approaches with respect to several performance measures when applied to the
+Lasso on both simulated and real data sets. For dependent predictors common in
+practice, our main finding is that, ESCV cuts down false positive rates often
+by a large margin, while sacrificing little of true positive rates. ESCV
+usually outperforms CV in terms of parameter estimation while giving similar
+performance as CV in terms of prediction. For the two real data sets from
+neuroscience and cell biology, the models found by ESCV are less than half of
+the model sizes by CV. Judged based on subject knowledge, they are more
+plausible than those by CV as well. We also discuss some regularization
+parameter alignment issues that come up in both approaches.

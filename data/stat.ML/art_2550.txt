@@ -1,0 +1,13 @@
+An Efficient Model Selection for Gaussian Mixture Model in a Bayesian
+  Framework
+In order to cluster or partition data, we often use
+Expectation-and-Maximization (EM) or Variational approximation with a Gaussian
+Mixture Model (GMM), which is a parametric probability density function
+represented as a weighted sum of $\hat{K}$ Gaussian component densities.
+However, model selection to find underlying $\hat{K}$ is one of the key
+concerns in GMM clustering, since we can obtain the desired clusters only when
+$\hat{K}$ is known. In this paper, we propose a new model selection algorithm
+to explore $\hat{K}$ in a Bayesian framework. The proposed algorithm builds the
+density of the model order which any information criterions such as AIC and BIC
+basically fail to reconstruct. In addition, this algorithm reconstructs the
+density quickly as compared to the time-consuming Monte Carlo simulation.

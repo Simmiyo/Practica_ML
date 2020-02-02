@@ -1,0 +1,14 @@
+Detecting confounding in multivariate linear models via spectral
+  analysis
+We study a model where one target variable Y is correlated with a vector
+X:=(X_1,...,X_d) of predictor variables being potential causes of Y. We
+describe a method that infers to what extent the statistical dependences
+between X and Y are due to the influence of X on Y and to what extent due to a
+hidden common cause (confounder) of X and Y. The method relies on concentration
+of measure results for large dimensions d and an independence assumption
+stating that, in the absence of confounding, the vector of regression
+coefficients describing the influence of each X on Y typically has `generic
+orientation' relative to the eigenspaces of the covariance matrix of X. For the
+special case of a scalar confounder we show that confounding typically spoils
+this generic orientation in a characteristic way that can be used to
+quantitatively estimate the amount of confounding.

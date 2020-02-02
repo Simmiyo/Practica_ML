@@ -1,0 +1,13 @@
+Probabilistic inverse reinforcement learning in unknown environments
+We consider the problem of learning by demonstration from agents acting in
+unknown stochastic Markov environments or games. Our aim is to estimate agent
+preferences in order to construct improved policies for the same task that the
+agents are trying to solve. To do so, we extend previous probabilistic
+approaches for inverse reinforcement learning in known MDPs to the case of
+unknown dynamics or opponents. We do this by deriving two simplified
+probabilistic models of the demonstrator's policy and utility. For
+tractability, we use maximum a posteriori estimation rather than full Bayesian
+inference. Under a flat prior, this results in a convex optimisation problem.
+We find that the resulting algorithms are highly competitive against a variety
+of other methods for inverse reinforcement learning that do have knowledge of
+the dynamics.

@@ -1,0 +1,15 @@
+Screening Tests for Lasso Problems
+This paper is a survey of dictionary screening for the lasso problem. The
+lasso problem seeks a sparse linear combination of the columns of a dictionary
+to best match a given target vector. This sparse representation has proven
+useful in a variety of subsequent processing and decision tasks. For a given
+target vector, dictionary screening quickly identifies a subset of dictionary
+columns that will receive zero weight in a solution of the corresponding lasso
+problem. These columns can be removed from the dictionary prior to solving the
+lasso problem without impacting the optimality of the solution obtained. This
+has two potential advantages: it reduces the size of the dictionary, allowing
+the lasso problem to be solved with less resources, and it may speed up
+obtaining a solution. Using a geometrically intuitive framework, we provide
+basic insights for understanding useful lasso screening tests and their
+limitations. We also provide illustrative numerical studies on several
+datasets.

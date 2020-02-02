@@ -1,0 +1,18 @@
+Unsupervised word segmentation and lexicon discovery using acoustic word
+  embeddings
+In settings where only unlabelled speech data is available, speech technology
+needs to be developed without transcriptions, pronunciation dictionaries, or
+language modelling text. A similar problem is faced when modelling infant
+language acquisition. In these cases, categorical linguistic structure needs to
+be discovered directly from speech audio. We present a novel unsupervised
+Bayesian model that segments unlabelled speech and clusters the segments into
+hypothesized word groupings. The result is a complete unsupervised tokenization
+of the input speech in terms of discovered word types. In our approach, a
+potential word segment (of arbitrary length) is embedded in a fixed-dimensional
+acoustic vector space. The model, implemented as a Gibbs sampler, then builds a
+whole-word acoustic model in this space while jointly performing segmentation.
+We report word error rates in a small-vocabulary connected digit recognition
+task by mapping the unsupervised decoded output to ground truth transcriptions.
+The model achieves around 20% error rate, outperforming a previous HMM-based
+system by about 10% absolute. Moreover, in contrast to the baseline, our model
+does not require a pre-specified vocabulary size.

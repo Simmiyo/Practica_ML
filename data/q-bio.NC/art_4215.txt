@@ -1,0 +1,15 @@
+Randomized co-training: from cortical neurons to machine learning and
+  back again
+Despite its size and complexity, the human cortex exhibits striking
+anatomical regularities, suggesting there may simple meta-algorithms underlying
+cortical learning and computation. We expect such meta-algorithms to be of
+interest since they need to operate quickly, scalably and effectively with
+little-to-no specialized assumptions.
+  This note focuses on a specific question: How can neurons use vast quantities
+of unlabeled data to speed up learning from the comparatively rare labels
+provided by reward systems? As a partial answer, we propose randomized
+co-training as a biologically plausible meta-algorithm satisfying the above
+requirements. As evidence, we describe a biologically-inspired algorithm,
+Correlated Nystrom Views (XNV) that achieves state-of-the-art performance in
+semi-supervised learning, and sketch work in progress on a neuronal
+implementation.

@@ -1,0 +1,17 @@
+Spike-and-Slab Sparse Coding for Unsupervised Feature Discovery
+We consider the problem of using a factor model we call {\em spike-and-slab
+sparse coding} (S3C) to learn features for a classification task. The S3C model
+resembles both the spike-and-slab RBM and sparse coding. Since exact inference
+in this model is intractable, we derive a structured variational inference
+procedure and employ a variational EM training algorithm. Prior work on
+approximate inference for this model has not prioritized the ability to exploit
+parallel architectures and scale to enormous problem sizes. We present an
+inference procedure appropriate for use with GPUs which allows us to
+dramatically increase both the training set size and the amount of latent
+factors.
+  We demonstrate that this approach improves upon the supervised learning
+capabilities of both sparse coding and the ssRBM on the CIFAR-10 dataset. We
+evaluate our approach's potential for semi-supervised learning on subsets of
+CIFAR-10. We demonstrate state-of-the art self-taught learning performance on
+the STL-10 dataset and use our method to win the NIPS 2011 Workshop on
+Challenges In Learning Hierarchical Models' Transfer Learning Challenge.

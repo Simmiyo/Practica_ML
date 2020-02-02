@@ -1,0 +1,14 @@
+Selectional Restrictions in HPSG
+Selectional restrictions are semantic sortal constraints imposed on the
+participants of linguistic constructions to capture contextually-dependent
+constraints on interpretation. Despite their limitations, selectional
+restrictions have proven very useful in natural language applications, where
+they have been used frequently in word sense disambiguation, syntactic
+disambiguation, and anaphora resolution. Given their practical value, we
+explore two methods to incorporate selectional restrictions in the HPSG theory,
+assuming that the reader is familiar with HPSG. The first method employs HPSG's
+Background feature and a constraint-satisfaction component pipe-lined after the
+parser. The second method uses subsorts of referential indices, and blocks
+readings that violate selectional restrictions during parsing. While
+theoretically less satisfactory, we have found the second method particularly
+useful in the development of practical systems.

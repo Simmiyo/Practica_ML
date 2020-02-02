@@ -1,0 +1,16 @@
+A General Hybrid Clustering Technique
+Here, we propose a clustering technique for general clustering problems
+including those that have non-convex clusters. For a given desired number of
+clusters $K$, we use three stages to find a clustering. The first stage uses a
+hybrid clustering technique to produce a series of clusterings of various sizes
+(randomly selected). They key steps are to find a $K$-means clustering using
+$K_\ell$ clusters where $K_\ell \gg K$ and then joins these small clusters by
+using single linkage clustering. The second stage stabilizes the result of
+stage one by reclustering via the `membership matrix' under Hamming distance to
+generate a dendrogram. The third stage is to cut the dendrogram to get $K^*$
+clusters where $K^* \geq K$ and then prune back to $K$ to give a final
+clustering. A variant on our technique also gives a reasonable estimate for
+$K_T$, the true number of clusters.
+  We provide a series of arguments to justify the steps in the stages of our
+methods and we provide numerous examples involving real and simulated data to
+compare our technique with other related techniques.

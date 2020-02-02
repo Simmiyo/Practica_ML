@@ -1,0 +1,10 @@
+Inferring Team Strengths Using a Discrete Markov Random Field
+We propose an original model for inferring team strengths using a Markov
+Random Field, which can be used to generate historical estimates of the
+offensive and defensive strengths of a team over time. This model was designed
+to be applied to sports such as soccer or hockey, in which contest outcomes
+take value in a limited discrete space. We perform inference using a
+combination of Expectation Maximization and Loopy Belief Propagation. The
+challenges of working with a non-convex optimization problem and a
+high-dimensional parameter space are discussed. The performance of the model is
+demonstrated on professional soccer data from the English Premier League.

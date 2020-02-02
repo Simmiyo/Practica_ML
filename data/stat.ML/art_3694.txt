@@ -1,0 +1,27 @@
+Neuron's Eye View: Inferring Features of Complex Stimuli from Neural
+  Responses
+Experiments that study neural encoding of stimuli at the level of individual
+neurons typically choose a small set of features present in the world ---
+contrast and luminance for vision, pitch and intensity for sound --- and
+assemble a stimulus set that systematically varies along these dimensions.
+Subsequent analysis of neural responses to these stimuli typically focuses on
+regression models, with experimenter-controlled features as predictors and
+spike counts or firing rates as responses. Unfortunately, this approach
+requires knowledge in advance about the relevant features coded by a given
+population of neurons. For domains as complex as social interaction or natural
+movement, however, the relevant feature space is poorly understood, and an
+arbitrary \emph{a priori} choice of features may give rise to confirmation
+bias. Here, we present a Bayesian model for exploratory data analysis that is
+capable of automatically identifying the features present in unstructured
+stimuli based solely on neuronal responses. Our approach is unique within the
+class of latent state space models of neural activity in that it assumes that
+firing rates of neurons are sensitive to multiple discrete time-varying
+features tied to the \emph{stimulus}, each of which has Markov (or semi-Markov)
+dynamics. That is, we are modeling neural activity as driven by multiple
+simultaneous stimulus features rather than intrinsic neural dynamics. We derive
+a fast variational Bayesian inference algorithm and show that it correctly
+recovers hidden features in synthetic data, as well as ground-truth stimulus
+features in a prototypical neural dataset. To demonstrate the utility of the
+algorithm, we also apply it to cluster neural responses and demonstrate
+successful recovery of features corresponding to monkeys and faces in the image
+set.

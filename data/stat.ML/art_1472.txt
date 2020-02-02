@@ -1,0 +1,14 @@
+Intelligent EHRs: Predicting Procedure Codes From Diagnosis Codes
+In order to submit a claim to insurance companies, a doctor needs to code a
+patient encounter with both the diagnosis (ICDs) and procedures performed
+(CPTs) in an Electronic Health Record (EHR). Identifying and applying relevant
+procedures code is a cumbersome and time-consuming task as a doctor has to
+choose from around 13,000 procedure codes with no predefined one-to-one
+mapping. In this paper, we propose a state-of-the-art deep learning method for
+automatic and intelligent coding of procedures (CPTs) from the diagnosis codes
+(ICDs) entered by the doctor. Precisely, we cast the learning problem as a
+multi-label classification problem and use distributed representation to learn
+the input mapping of high-dimensional sparse ICDs codes. Our final model
+trained on 2.3 million claims is able to outperform existing rule-based
+probabilistic and association-rule mining based methods and has a recall of
+90@3.

@@ -1,0 +1,21 @@
+A particle-based variational approach to Bayesian Non-negative Matrix
+  Factorization
+Bayesian Non-negative Matrix Factorization (NMF) is a promising approach for
+understanding uncertainty and structure in matrix data. However, a large volume
+of applied work optimizes traditional non-Bayesian NMF objectives that fail to
+provide a principled understanding of the non-identifiability inherent in NMF--
+an issue ideally addressed by a Bayesian approach. Despite their suitability,
+current Bayesian NMF approaches have failed to gain popularity in an applied
+setting; they sacrifice flexibility in modeling for tractable computation, tend
+to get stuck in local modes, and require many thousands of samples for
+meaningful uncertainty estimates. We address these issues through a
+particle-based variational approach to Bayesian NMF that only requires the
+joint likelihood to be differentiable for tractability, uses a novel
+initialization technique to identify multiple modes in the posterior, and
+allows domain experts to inspect a `small' set of factorizations that
+faithfully represent the posterior. We introduce and employ a class of
+likelihood and prior distributions for NMF that formulate a Bayesian model
+using popular non-Bayesian NMF objectives. On several real datasets, we obtain
+better particle approximations to the Bayesian NMF posterior in less time than
+baselines and demonstrate the significant role that multimodality plays in
+NMF-related tasks.

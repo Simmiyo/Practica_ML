@@ -1,0 +1,24 @@
+Constraint-based Causal Discovery from Multiple Interventions over
+  Overlapping Variable Sets
+Scientific practice typically involves repeatedly studying a system, each
+time trying to unravel a different perspective. In each study, the scientist
+may take measurements under different experimental conditions (interventions,
+manipulations, perturbations) and measure different sets of quantities
+(variables). The result is a collection of heterogeneous data sets coming from
+different data distributions. In this work, we present algorithm COmbINE, which
+accepts a collection of data sets over overlapping variable sets under
+different experimental conditions; COmbINE then outputs a summary of all causal
+models indicating the invariant and variant structural characteristics of all
+models that simultaneously fit all of the input data sets. COmbINE converts
+estimated dependencies and independencies in the data into path constraints on
+the data-generating causal model and encodes them as a SAT instance. The
+algorithm is sound and complete in the sample limit. To account for conflicting
+constraints arising from statistical errors, we introduce a general method for
+sorting constraints in order of confidence, computed as a function of their
+corresponding p-values. In our empirical evaluation, COmbINE outperforms in
+terms of efficiency the only pre-existing similar algorithm; the latter
+additionally admits feedback cycles, but does not admit conflicting constraints
+which hinders the applicability on real data. As a proof-of-concept, COmbINE is
+employed to co-analyze 4 real, mass-cytometry data sets measuring
+phosphorylated protein concentrations of overlapping protein sets under 3
+different interventions.

@@ -1,0 +1,13 @@
+Ballpark Learning: Estimating Labels from Rough Group Comparisons
+We are interested in estimating individual labels given only coarse,
+aggregated signal over the data points. In our setting, we receive sets
+("bags") of unlabeled instances with constraints on label proportions. We relax
+the unrealistic assumption of known label proportions, made in previous work;
+instead, we assume only to have upper and lower bounds, and constraints on bag
+differences. We motivate the problem, propose an intuitive formulation and
+algorithm, and apply our methods to real-world scenarios. Across several
+domains, we show how using only proportion constraints and no labeled examples,
+we can achieve surprisingly high accuracy. In particular, we demonstrate how to
+predict income level using rough stereotypes and how to perform sentiment
+analysis using very little information. We also apply our method to guide
+exploratory analysis, recovering geographical differences in twitter dialect.

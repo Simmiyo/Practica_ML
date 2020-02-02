@@ -1,0 +1,14 @@
+Convex Approaches to Model Wavelet Sparsity Patterns
+Statistical dependencies among wavelet coefficients are commonly represented
+by graphical models such as hidden Markov trees(HMTs). However, in linear
+inverse problems such as deconvolution, tomography, and compressed sensing, the
+presence of a sensing or observation matrix produces a linear mixing of the
+simple Markovian dependency structure. This leads to reconstruction problems
+that are non-convex optimizations. Past work has dealt with this issue by
+resorting to greedy or suboptimal iterative reconstruction methods. In this
+paper, we propose new modeling approaches based on group-sparsity penalties
+that leads to convex optimizations that can be solved exactly and efficiently.
+We show that the methods we develop perform significantly better in
+deconvolution and compressed sensing applications, while being as
+computationally efficient as standard coefficient-wise approaches such as
+lasso.

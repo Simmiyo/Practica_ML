@@ -1,0 +1,13 @@
+Transfer Deep Learning for Low-Resource Chinese Word Segmentation with a
+  Novel Neural Network
+Recent studies have shown effectiveness in using neural networks for Chinese
+word segmentation. However, these models rely on large-scale data and are less
+effective for low-resource datasets because of insufficient training data. We
+propose a transfer learning method to improve low-resource word segmentation by
+leveraging high-resource corpora. First, we train a teacher model on
+high-resource corpora and then use the learned knowledge to initialize a
+student model. Second, a weighted data similarity method is proposed to train
+the student model on low-resource data. Experiment results show that our work
+significantly improves the performance on low-resource datasets: 2.3% and 1.5%
+F-score on PKU and CTB datasets. Furthermore, this paper achieves
+state-of-the-art results: 96.1%, and 96.2% F-score on PKU and CTB datasets.

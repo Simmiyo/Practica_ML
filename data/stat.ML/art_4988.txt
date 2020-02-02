@@ -1,0 +1,20 @@
+Connectome Smoothing via Low-rank Approximations
+In statistical connectomics, the quantitative study of brain networks,
+estimating the mean of a population of graphs based on a sample is a core
+problem. Often, this problem is especially difficult because the sample or
+cohort size is relatively small, sometimes even a single subject. While using
+the element-wise sample mean of the adjacency matrices is a common approach,
+this method does not exploit any underlying structural properties of the
+graphs. We propose using a low-rank method which incorporates tools for
+dimension selection and diagonal augmentation to smooth the estimates and
+improve performance over the naive methodology for small sample sizes.
+Theoretical results for the stochastic blockmodel show that this method offers
+major improvements when there are many vertices. Similarly, we demonstrate that
+the low-rank methods outperform the standard sample mean for a variety of
+independent edge distributions as well as human connectome data derived from
+magnetic resonance imaging, especially when sample sizes are small. Moreover,
+the low-rank methods yield "eigen-connectomes", which correlate with the
+lobe-structure of the human brain and superstructures of the mouse brain. These
+results indicate that low-rank methods are an important part of the tool box
+for researchers studying populations of graphs in general, and statistical
+connectomics in particular.

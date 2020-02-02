@@ -1,0 +1,17 @@
+Gait recognition via deep learning of the center-of-pressure trajectory
+Analyzing the force that a walking individual applies to the ground has been
+proposed for identification purpose. Using end-to-end learning, I investigated
+whether the center-of-pressure trajectory is sufficiently unique to identify a
+person with a high certainty. Thirty-six adults walked on a treadmill equipped
+with a force platform that recorded the positions of the center of pressure.
+The raw two-dimensional signals were sliced into segments of two gait cycles. A
+set of 20,250 segments from 30 subjects was used to configure and train
+convolutional neural networks (CNNs). The best CNN classified a separated set
+containing 2,250 segments with 99.9% overall accuracy. A second set of 4,500
+segments from the six remaining subjects was then used for transfer learning.
+Several small subsamples of this set were selected randomly and used for fine
+tuning. Training with two segments per subject was sufficient to achieve 100%
+accuracy. The results suggest that every person produces a unique trajectory of
+underfoot pressures and that CNNs can learn the distinctive features of these
+trajectories. Using transfer learning, a few strides could be sufficient to
+learn and identify new gaits.

@@ -1,0 +1,12 @@
+Dr.VAE: Drug Response Variational Autoencoder
+We present two deep generative models based on Variational Autoencoders to
+improve the accuracy of drug response prediction. Our models, Perturbation
+Variational Autoencoder and its semi-supervised extension, Drug Response
+Variational Autoencoder (Dr.VAE), learn latent representation of the underlying
+gene states before and after drug application that depend on: (i) drug-induced
+biological change of each gene and (ii) overall treatment response outcome. Our
+VAE-based models outperform the current published benchmarks in the field by
+anywhere from 3 to 11% AUROC and 2 to 30% AUPR. In addition, we found that
+better reconstruction accuracy does not necessarily lead to improvement in
+classification accuracy and that jointly trained models perform better than
+models that minimize reconstruction error independently.

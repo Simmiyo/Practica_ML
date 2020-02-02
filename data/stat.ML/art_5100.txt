@@ -1,0 +1,22 @@
+Anytime Monte Carlo
+A Monte Carlo algorithm typically simulates some prescribed number of
+samples, taking some random real time to complete the computations necessary.
+This work considers the converse: to impose a real-time budget on the
+computation, so that the number of samples simulated is random. To complicate
+matters, the real time taken for each simulation may depend on the sample
+produced, so that the samples themselves are not independent of their number,
+and a length bias with respect to compute time is apparent. This is especially
+problematic when a Markov chain Monte Carlo (MCMC) algorithm is used and the
+final state of the Markov chain---rather than an average over all states---is
+required. The length bias does not diminish with the compute budget in this
+case. It occurs, for example, in sequential Monte Carlo (SMC) algorithms. We
+propose an anytime framework to address the concern, using a continuous-time
+Markov jump process to study the progress of the computation in real time. We
+show that the length bias can be eliminated for any MCMC algorithm by using a
+multiple chain construction. The utility of this construction is demonstrated
+on a large-scale SMC-squared implementation, using four billion particles
+distributed across a cluster of 128 graphics processing units on the Amazon EC2
+service. The anytime framework imposes a real-time budget on the MCMC move
+steps within SMC-squared, ensuring that all processors are simultaneously ready
+for the resampling step, demonstrably reducing wait times and providing
+substantial control over the total compute budget.

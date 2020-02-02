@@ -1,0 +1,14 @@
+Director Field Model of the Primary Visual Cortex for Contour Detection
+We aim to build the simplest possible model capable of detecting long, noisy
+contours in a cluttered visual scene. For this, we model the neural dynamics in
+the primate primary visual cortex in terms of a continuous director field that
+describes the average rate and the average orientational preference of active
+neurons at a particular point in the cortex. We then use a linear-nonlinear
+dynamical model with long range connectivity patterns to enforce long-range
+statistical context present in the analyzed images. The resulting model has
+substantially fewer degrees of freedom than traditional models, and yet it can
+distinguish large contiguous objects from the background clutter by suppressing
+the clutter and by filling-in occluded elements of object contours. This
+results in high-precision, high-recall detection of large objects in cluttered
+scenes. Parenthetically, our model has a direct correspondence with the Landau
+- de Gennes theory of nematic liquid crystal in two dimensions.

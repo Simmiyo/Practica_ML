@@ -1,0 +1,19 @@
+Sparse Q-learning with Mirror Descent
+This paper explores a new framework for reinforcement learning based on
+online convex optimization, in particular mirror descent and related
+algorithms. Mirror descent can be viewed as an enhanced gradient method,
+particularly suited to minimization of convex functions in highdimensional
+spaces. Unlike traditional gradient methods, mirror descent undertakes gradient
+updates of weights in both the dual space and primal space, which are linked
+together using a Legendre transform. Mirror descent can be viewed as a proximal
+algorithm where the distance generating function used is a Bregman divergence.
+A new class of proximal-gradient based temporal-difference (TD) methods are
+presented based on different Bregman divergences, which are more powerful than
+regular TD learning. Examples of Bregman divergences that are studied include
+p-norm functions, and Mahalanobis distance based on the covariance of sample
+gradients. A new family of sparse mirror-descent reinforcement learning methods
+are proposed, which are able to find sparse fixed points of an l1-regularized
+Bellman equation at significantly less computational cost than previous methods
+based on second-order matrix methods. An experimental study of mirror-descent
+reinforcement learning is presented using discrete and continuous Markov
+decision processes.

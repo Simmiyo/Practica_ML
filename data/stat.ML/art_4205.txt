@@ -1,0 +1,23 @@
+Element-centric clustering comparison unifies overlaps and hierarchy
+Clustering is one of the most universal approaches for understanding complex
+data. A pivotal aspect of clustering analysis is quantitatively comparing
+clusterings; clustering comparison is the basis for many tasks such as
+clustering evaluation, consensus clustering, and tracking the temporal
+evolution of clusters. In particular, the extrinsic evaluation of clustering
+methods requires comparing the uncovered clusterings to planted clusterings or
+known metadata. Yet, as we demonstrate, existing clustering comparison measures
+have critical biases which undermine their usefulness, and no measure
+accommodates both overlapping and hierarchical clusterings. Here we unify the
+comparison of disjoint, overlapping, and hierarchically structured clusterings
+by proposing a new element-centric framework: elements are compared based on
+the relationships induced by the cluster structure, as opposed to the
+traditional cluster-centric philosophy. We demonstrate that, in contrast to
+standard clustering similarity measures, our framework does not suffer from
+critical biases and naturally provides unique insights into how the clusterings
+differ. We illustrate the strengths of our framework by revealing new insights
+into the organization of clusters in two applications: the improved
+classification of schizophrenia based on the overlapping and hierarchical
+community structure of fMRI brain networks, and the disentanglement of various
+social homophily factors in Facebook social networks. The universality of
+clustering suggests far-reaching impact of our framework throughout all areas
+of science.

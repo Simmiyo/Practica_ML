@@ -1,0 +1,24 @@
+FNS: an event-driven spiking neural network simulator based on the LIFL
+  neuron model
+Limitations in processing capabilities and memory of today's computers make
+spiking neuron-based (human) whole-brain simulations inevitably characterized
+by a compromise between bio-plausibility and computational cost. It translates
+into brain models composed of a reduced number of neurons and a simplified
+neuron's mathematical model, leading to the search for new simulation
+strategies. Taking advantage of the sparse character of brain-like computation,
+the event-driven technique could represent a way to carry out efficient
+simulation of large-scale Spiking Neural Networks (SNN). The recent Leaky
+Integrate-and-Fire with Latency (LIFL) spiking neuron model is event-driven
+compatible and exhibits some realistic neuronal features, opening new avenues
+for brain modelling. In this paper we introduce FNS, the first LIFL-based
+spiking neural network framework, which combines spiking/synaptic neural
+modelling with the event-driven approach, allowing us to define heterogeneous
+neuron modules and multi-scale connectivity with delayed connections and
+plastic synapses. In order to allow multi-thread implementations a novel
+parallelization strategy is also introduced. This paper presents mathematical
+models, software implementation and simulation routines on which FNS is based.
+Finally, a brain subnetwork is modeled on the basis of real brain structural
+data, and the resulting simulated activity is compared with associated brain
+functional (source-space MEG) data, demonstrating a good matching between the
+activity of the model and that of the experimetal data. This work aims to lay
+the groundwork for future event-driven based personalised brain models.

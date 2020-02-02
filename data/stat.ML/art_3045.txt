@@ -1,0 +1,16 @@
+On Iterative Hard Thresholding Methods for High-dimensional M-Estimation
+The use of M-estimators in generalized linear regression models in high
+dimensional settings requires risk minimization with hard $L_0$ constraints. Of
+the known methods, the class of projected gradient descent (also known as
+iterative hard thresholding (IHT)) methods is known to offer the fastest and
+most scalable solutions. However, the current state-of-the-art is only able to
+analyze these methods in extremely restrictive settings which do not hold in
+high dimensional statistical models. In this work we bridge this gap by
+providing the first analysis for IHT-style methods in the high dimensional
+statistical setting. Our bounds are tight and match known minimax lower bounds.
+Our results rely on a general analysis framework that enables us to analyze
+several popular hard thresholding style algorithms (such as HTP, CoSaMP, SP) in
+the high dimensional regression setting. We also extend our analysis to a large
+family of "fully corrective methods" that includes two-stage and partial
+hard-thresholding algorithms. We show that our results hold for the problem of
+sparse regression, as well as low-rank matrix recovery.

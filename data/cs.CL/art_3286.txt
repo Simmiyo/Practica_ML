@@ -1,0 +1,12 @@
+A New Approach for Measuring Sentiment Orientation based on
+  Multi-Dimensional Vector Space
+This study implements a vector space model approach to measure the sentiment
+orientations of words. Two representative vectors for positive/negative
+polarity are constructed using high-dimensional vec-tor space in both an
+unsupervised and a semi-supervised manner. A sentiment ori-entation value per
+word is determined by taking the difference between the cosine distances
+against the two reference vec-tors. These two conditions (unsupervised and
+semi-supervised) are compared against an existing unsupervised method (Turney,
+2002). As a result of our experi-ment, we demonstrate that this novel ap-proach
+significantly outperforms the pre-vious unsupervised approach and is more
+practical and data efficient as well.

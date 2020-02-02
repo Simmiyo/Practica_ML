@@ -1,0 +1,20 @@
+The Graphical Lasso: New Insights and Alternatives
+The graphical lasso \citep{FHT2007a} is an algorithm for learning the
+structure in an undirected Gaussian graphical model, using $\ell_1$
+regularization to control the number of zeros in the precision matrix
+${\B\Theta}={\B\Sigma}^{-1}$ \citep{BGA2008,yuan_lin_07}. The {\texttt R}
+package \GL\ \citep{FHT2007a} is popular, fast, and allows one to efficiently
+build a path of models for different values of the tuning parameter.
+Convergence of \GL\ can be tricky; the converged precision matrix might not be
+the inverse of the estimated covariance, and occasionally it fails to converge
+with warm starts. In this paper we explain this behavior, and propose new
+algorithms that appear to outperform \GL.
+  By studying the "normal equations" we see that, \GL\ is solving the {\em
+dual} of the graphical lasso penalized likelihood, by block coordinate ascent;
+a result which can also be found in \cite{BGA2008}.
+  In this dual, the target of estimation is $\B\Sigma$, the covariance matrix,
+rather than the precision matrix $\B\Theta$. We propose similar primal
+algorithms \PGL\ and \DPGL, that also operate by block-coordinate descent,
+where $\B\Theta$ is the optimization target. We study all of these algorithms,
+and in particular different approaches to solving their coordinate
+sub-problems. We conclude that \DPGL\ is superior from several points of view.

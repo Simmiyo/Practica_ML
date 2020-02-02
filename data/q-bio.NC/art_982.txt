@@ -1,0 +1,18 @@
+Efficient Probabilistic Inference in Generic Neural Networks Trained
+  with Non-Probabilistic Feedback
+Animals perform near-optimal probabilistic inference in a wide range of
+psychophysical tasks. Probabilistic inference requires trial-to-trial
+representation of the uncertainties associated with task variables and
+subsequent use of this representation. Previous work has implemented such
+computations using neural networks with hand-crafted and task-dependent
+operations. We show that generic neural networks trained with a simple
+error-based learning rule perform near-optimal probabilistic inference in nine
+common psychophysical tasks. In a probabilistic categorization task,
+error-based learning in a generic network simultaneously explains a monkey's
+learning curve and the evolution of qualitative aspects of its choice behavior.
+In all tasks, the number of neurons required for a given level of performance
+grows sub-linearly with the input population size, a substantial improvement on
+previous implementations of probabilistic inference. The trained networks
+develop a novel sparsity-based probabilistic population code. Our results
+suggest that probabilistic inference emerges naturally in generic neural
+networks trained with error-based learning rules.

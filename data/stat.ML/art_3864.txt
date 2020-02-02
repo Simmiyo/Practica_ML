@@ -1,0 +1,20 @@
+Feature Selection as a Multiagent Coordination Problem
+Datasets with hundreds to tens of thousands features is the new norm. Feature
+selection constitutes a central problem in machine learning, where the aim is
+to derive a representative set of features from which to construct a
+classification (or prediction) model for a specific task. Our experimental
+study involves microarray gene expression datasets, these are high-dimensional
+and noisy datasets that contain genetic data typically used for distinguishing
+between benign or malicious tissues or classifying different types of cancer.
+In this paper, we formulate feature selection as a multiagent coordination
+problem and propose a novel feature selection method using multiagent
+reinforcement learning. The central idea of the proposed approach is to
+"assign" a reinforcement learning agent to each feature where each agent learns
+to control a single feature, we refer to this approach as MARL. Applying this
+to microarray datasets creates an enormous multiagent coordination problem
+between thousands of learning agents. To address the scalability challenge we
+apply a form of reward shaping called CLEAN rewards. We compare in total nine
+feature selection methods, including state-of-the-art methods, and show that
+the proposed method using CLEAN rewards can significantly scale-up, thus
+outperforming the rest of learning-based methods. We further show that a hybrid
+variant of MARL achieves the best overall performance.

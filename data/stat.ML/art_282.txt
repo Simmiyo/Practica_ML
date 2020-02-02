@@ -1,0 +1,18 @@
+Joint Modeling and Registration of Cell Populations in Cohorts of
+  High-Dimensional Flow Cytometric Data
+In systems biomedicine, an experimenter encounters different potential
+sources of variation in data such as individual samples, multiple experimental
+conditions, and multi-variable network-level responses. In multiparametric
+cytometry, which is often used for analyzing patient samples, such issues are
+critical. While computational methods can identify cell populations in
+individual samples, without the ability to automatically match them across
+samples, it is difficult to compare and characterize the populations in typical
+experiments, such as those responding to various stimulations or distinctive of
+particular patients or time-points, especially when there are many samples.
+Joint Clustering and Matching (JCM) is a multi-level framework for simultaneous
+modeling and registration of populations across a cohort. JCM models every
+population with a robust multivariate probability distribution. Simultaneously,
+JCM fits a random-effects model to construct an overall batch template -- used
+for registering populations across samples, and classifying new samples. By
+tackling systems-level variation, JCM supports practical biomedical
+applications involving large cohorts.

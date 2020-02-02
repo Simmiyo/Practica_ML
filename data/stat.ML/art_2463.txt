@@ -1,0 +1,13 @@
+ABC Reinforcement Learning
+This paper introduces a simple, general framework for likelihood-free
+Bayesian reinforcement learning, through Approximate Bayesian Computation
+(ABC). The main advantage is that we only require a prior distribution on a
+class of simulators (generative models). This is useful in domains where an
+analytical probabilistic model of the underlying process is too complex to
+formulate, but where detailed simulation models are available. ABC-RL allows
+the use of any Bayesian reinforcement learning technique, even in this case. In
+addition, it can be seen as an extension of rollout algorithms to the case
+where we do not know what the correct model to draw rollouts from is. We
+experimentally demonstrate the potential of this approach in a comparison with
+LSPI. Finally, we introduce a theorem showing that ABC is a sound methodology
+in principle, even when non-sufficient statistics are used.

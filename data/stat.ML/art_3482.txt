@@ -1,0 +1,10 @@
+An SVM-like Approach for Expectile Regression
+Expectile regression is a nice tool for investigating conditional
+distributions beyond the conditional mean. It is well-known that expectiles can
+be described with the help of the asymmetric least square loss function, and
+this link makes it possible to estimate expectiles in a non-parametric
+framework by a support vector machine like approach. In this work we develop an
+efficient sequential-minimal-optimization-based solver for the underlying
+optimization problem. The behavior of the solver is investigated by conducting
+various experiments and the results are compared with the recent R-package
+ER-Boost.

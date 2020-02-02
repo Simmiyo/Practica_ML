@@ -1,0 +1,16 @@
+Stochastic Variance-reduced Gradient Descent for Low-rank Matrix
+  Recovery from Linear Measurements
+We study the problem of estimating low-rank matrices from linear measurements
+(a.k.a., matrix sensing) through nonconvex optimization. We propose an
+efficient stochastic variance reduced gradient descent algorithm to solve a
+nonconvex optimization problem of matrix sensing. Our algorithm is applicable
+to both noisy and noiseless settings. In the case with noisy observations, we
+prove that our algorithm converges to the unknown low-rank matrix at a linear
+rate up to the minimax optimal statistical error. And in the noiseless setting,
+our algorithm is guaranteed to linearly converge to the unknown low-rank matrix
+and achieves exact recovery with optimal sample complexity. Most notably, the
+overall computational complexity of our proposed algorithm, which is defined as
+the iteration complexity times per iteration time complexity, is lower than the
+state-of-the-art algorithms based on gradient descent. Experiments on synthetic
+data corroborate the superiority of the proposed algorithm over the
+state-of-the-art algorithms.

@@ -1,0 +1,17 @@
+Investigating how well contextual features are captured by
+  bi-directional recurrent neural network models
+Learning algorithms for natural language processing (NLP) tasks traditionally
+rely on manually defined relevant contextual features. On the other hand,
+neural network models using an only distributional representation of words have
+been successfully applied for several NLP tasks. Such models learn features
+automatically and avoid explicit feature engineering. Across several domains,
+neural models become a natural choice specifically when limited characteristics
+of data are known. However, this flexibility comes at the cost of
+interpretability. In this paper, we define three different methods to
+investigate ability of bi-directional recurrent neural networks (RNNs) in
+capturing contextual features. In particular, we analyze RNNs for sequence
+tagging tasks. We perform a comprehensive analysis on general as well as
+biomedical domain datasets. Our experiments focus on important contextual words
+as features, which can easily be extended to analyze various other feature
+types. We also investigate positional effects of context words and show how the
+developed methods can be used for error analysis.

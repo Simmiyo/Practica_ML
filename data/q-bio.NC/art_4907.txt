@@ -1,0 +1,17 @@
+EEG-GAN: Generative adversarial networks for electroencephalograhic
+  (EEG) brain signals
+Generative adversarial networks (GANs) are recently highly successful in
+generative applications involving images and start being applied to time series
+data. Here we describe EEG-GAN as a framework to generate
+electroencephalographic (EEG) brain signals. We introduce a modification to the
+improved training of Wasserstein GANs to stabilize training and investigate a
+range of architectural choices critical for time series generation (most
+notably up- and down-sampling). For evaluation we consider and compare
+different metrics such as Inception score, Frechet inception distance and
+sliced Wasserstein distance, together showing that our EEG-GAN framework
+generated naturalistic EEG examples. It thus opens up a range of new generative
+application scenarios in the neuroscientific and neurological context, such as
+data augmentation in brain-computer interfacing tasks, EEG super-sampling, or
+restoration of corrupted data segments. The possibility to generate signals of
+a certain class and/or with specific properties may also open a new avenue for
+research into the underlying structure of brain signals.

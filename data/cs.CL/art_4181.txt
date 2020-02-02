@@ -1,0 +1,18 @@
+Predicting CEFRL levels in learner English on the basis of metrics and
+  full texts
+This paper analyses the contribution of language metrics and, potentially, of
+linguistic structures, to classify French learners of English according to
+levels of the Common European Framework of Reference for Languages (CEFRL). The
+purpose is to build a model for the prediction of learner levels as a function
+of language complexity features. We used the EFCAMDAT corpus, a database of one
+million written assignments by learners. After applying language complexity
+metrics on the texts, we built a representation matching the language metrics
+of the texts to their assigned CEFRL levels. Lexical and syntactic metrics were
+computed with LCA, LSA, and koRpus. Several supervised learning models were
+built by using Gradient Boosted Trees and Keras Neural Network methods and by
+contrasting pairs of CEFRL levels. Results show that it is possible to
+implement pairwise distinctions, especially for levels ranging from A1 to B1
+(A1=>A2: 0.916 AUC and A2=>B1: 0.904 AUC). Model explanation reveals
+significant linguistic features for the predictiveness in the corpus. Word
+tokens and word types appear to play a significant role in determining levels.
+This shows that levels are highly dependent on specific semantic profiles.

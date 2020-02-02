@@ -1,0 +1,18 @@
+Learning Topology and Dynamics of Large Recurrent Neural Networks
+Large-scale recurrent networks have drawn increasing attention recently
+because of their capabilities in modeling a large variety of real-world
+phenomena and physical mechanisms. This paper studies how to identify all
+authentic connections and estimate system parameters of a recurrent network,
+given a sequence of node observations. This task becomes extremely challenging
+in modern network applications, because the available observations are usually
+very noisy and limited, and the associated dynamical system is strongly
+nonlinear. By formulating the problem as multivariate sparse sigmoidal
+regression, we develop simple-to-implement network learning algorithms, with
+rigorous convergence guarantee in theory, for a variety of sparsity-promoting
+penalty forms. A quantile variant of progressive recurrent network screening is
+proposed for efficient computation and allows for direct cardinality control of
+network topology in estimation. Moreover, we investigate recurrent network
+stability conditions in Lyapunov's sense, and integrate such stability
+constraints into sparse network learning. Experiments show excellent
+performance of the proposed algorithms in network topology identification and
+forecasting.

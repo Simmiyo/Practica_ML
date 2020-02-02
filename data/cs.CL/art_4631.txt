@@ -1,0 +1,16 @@
+Dynamically Context-Sensitive Time-Decay Attention for Dialogue Modeling
+Spoken language understanding (SLU) is an essential component in
+conversational systems. Considering that contexts provide informative cues for
+better understanding, history can be leveraged for contextual SLU. However,
+most prior work only paid attention to the related content in history
+utterances and ignored the temporal information. In dialogues, it is intuitive
+that the most recent utterances are more important than the least recent ones,
+and time-aware attention should be in a decaying manner. Therefore, this paper
+allows the model to automatically learn a time-decay attention function where
+the attentional weights can be dynamically decided based on the content of each
+role's contexts, which effectively integrates both content-aware and time-aware
+perspectives and demonstrates remarkable flexibility to complex dialogue
+contexts. The experiments on the benchmark Dialogue State Tracking Challenge
+(DSTC4) dataset show that the proposed dynamically context-sensitive time-decay
+attention mechanisms significantly improve the state-of-the-art model for
+contextual understanding performance.

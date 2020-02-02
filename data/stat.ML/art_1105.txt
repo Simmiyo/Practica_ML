@@ -1,0 +1,21 @@
+Fast Algorithms for Demixing Sparse Signals from Nonlinear Observations
+We study the problem of demixing a pair of sparse signals from noisy,
+nonlinear observations of their superposition. Mathematically, we consider a
+nonlinear signal observation model, $y_i = g(a_i^Tx) + e_i, \ i=1,\ldots,m$,
+where $x = \Phi w+\Psi z$ denotes the superposition signal, $\Phi$ and $\Psi$
+are orthonormal bases in $\mathbb{R}^n$, and $w, z\in\mathbb{R}^n$ are sparse
+coefficient vectors of the constituent signals, and $e_i$ represents the noise.
+Moreover, $g$ represents a nonlinear link function, and $a_i\in\mathbb{R}^n$ is
+the $i$-th row of the measurement matrix, $A\in\mathbb{R}^{m\times n}$.
+Problems of this nature arise in several applications ranging from astronomy,
+computer vision, and machine learning. In this paper, we make some concrete
+algorithmic progress for the above demixing problem. Specifically, we consider
+two scenarios: (i) the case when the demixing procedure has no knowledge of the
+link function, and (ii) the case when the demixing algorithm has perfect
+knowledge of the link function. In both cases, we provide fast algorithms for
+recovery of the constituents $w$ and $z$ from the observations. Moreover, we
+support these algorithms with a rigorous theoretical analysis, and derive
+(nearly) tight upper bounds on the sample complexity of the proposed algorithms
+for achieving stable recovery of the component signals. We also provide a range
+of numerical simulations to illustrate the performance of the proposed
+algorithms on both real and synthetic signals and images.

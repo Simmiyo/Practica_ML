@@ -1,0 +1,17 @@
+Estimating prediction error for complex samples
+With a growing interest in using non-representative samples to train
+prediction models for numerous outcomes it is necessary to account for the
+sampling design that gives rise to the data in order to assess the generalized
+predictive utility of a proposed prediction rule. After learning a prediction
+rule based on a non-uniform sample, it is of interest to estimate the rule's
+error rate when applied to unobserved members of the population. Efron (1986)
+proposed a general class of covariance penalty inflated prediction error
+estimators that assume the available training data are representative of the
+target population for which the prediction rule is to be applied. We extend
+Efron's estimator to the complex sample context by incorporating
+Horvitz-Thompson sampling weights and show that it is consistent for the true
+generalization error rate when applied to the underlying superpopulation. The
+resulting Horvitz-Thompson-Efron (HTE) estimator is equivalent to dAIC, a
+recent extension of AIC to survey sampling data, but is more widely applicable.
+The proposed methodology is assessed with simulations and is applied to models
+predicting renal function obtained from the large-scale NHANES survey.

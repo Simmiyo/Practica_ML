@@ -1,0 +1,15 @@
+Quantifying error in estimates of human brain fiber directions using
+  Earth Mover's Distance
+Diffusion-weighted MR imaging (DWI) is the only method we currently have to
+measure connections between different parts of the human brain in vivo. To
+elucidate the structure of these connections, algorithms for tracking bundles
+of axonal fibers through the subcortical white matter rely on local estimates
+of the fiber orientation distribution function (fODF) in different parts of the
+brain. These functions describe the relative abundance of populations of axonal
+fibers crossing each other in each location. Multiple models exist for
+estimating fODFs. The quality of the resulting estimates can be quantified by
+means of a suitable measure of distance on the space of fODFs. However, there
+are multiple distance metrics that can be applied for this purpose, including
+smoothed $L_p$ distances and the Wasserstein metrics. Here, we give four
+reasons for the use of the Earth Mover's Distance (EMD) equipped with the
+arc-length, as a distance metric. (continued)

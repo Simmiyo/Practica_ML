@@ -1,0 +1,12 @@
+Sparse Kernel Canonical Correlation Analysis via $\ell_1$-regularization
+Canonical correlation analysis (CCA) is a multivariate statistical technique
+for finding the linear relationship between two sets of variables. The kernel
+generalization of CCA named kernel CCA has been proposed to find nonlinear
+relations between datasets. Despite their wide usage, they have one common
+limitation that is the lack of sparsity in their solution. In this paper, we
+consider sparse kernel CCA and propose a novel sparse kernel CCA algorithm
+(SKCCA). Our algorithm is based on a relationship between kernel CCA and least
+squares. Sparsity of the dual transformations is introduced by penalizing the
+$\ell_{1}$-norm of dual vectors. Experiments demonstrate that our algorithm not
+only performs well in computing sparse dual transformations but also can
+alleviate the over-fitting problem of kernel CCA.

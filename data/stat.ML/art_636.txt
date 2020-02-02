@@ -1,0 +1,19 @@
+Semiblind Hyperspectral Unmixing in the Presence of Spectral Library
+  Mismatches
+The dictionary-aided sparse regression (SR) approach has recently emerged as
+a promising alternative to hyperspectral unmixing (HU) in remote sensing. By
+using an available spectral library as a dictionary, the SR approach identifies
+the underlying materials in a given hyperspectral image by selecting a small
+subset of spectral samples in the dictionary to represent the whole image. A
+drawback with the current SR developments is that an actual spectral signature
+in the scene is often assumed to have zero mismatch with its corresponding
+dictionary sample, and such an assumption is considered too ideal in practice.
+In this paper, we tackle the spectral signature mismatch problem by proposing a
+dictionary-adjusted nonconvex sparsity-encouraging regression (DANSER)
+framework. The main idea is to incorporate dictionary correcting variables in
+an SR formulation. A simple and low per-iteration complexity algorithm is
+tailor-designed for practical realization of DANSER. Using the same dictionary
+correcting idea, we also propose a robust subspace solution for dictionary
+pruning. Extensive simulations and real-data experiments show that the proposed
+method is effective in mitigating the undesirable spectral signature mismatch
+effects.

@@ -1,0 +1,11 @@
+Continuous quantum error correction via quantum feedback control
+We describe a protocol for continuously protecting unknown quantum states
+from decoherence that incorporates design principles from both quantum error
+correction and quantum feedback control. Our protocol uses continuous
+measurements and Hamiltonian operations, which are weaker control tools than
+are typically assumed for quantum error correction. We develop a cost function
+appropriate for unknown quantum states and use it to optimize our
+state-estimate feedback. Using Monte Carlo simulations, we study our protocol
+for the three-qubit bit-flip code in detail and demonstrate that it can improve
+the fidelity of quantum states beyond what is achievable using quantum error
+correction when the time between quantum error correction cycles is limited.

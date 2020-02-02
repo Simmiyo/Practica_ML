@@ -1,0 +1,14 @@
+Online Optimization of Smoothed Piecewise Constant Functions
+We study online optimization of smoothed piecewise constant functions over
+the domain [0, 1). This is motivated by the problem of adaptively picking
+parameters of learning algorithms as in the recently introduced framework by
+Gupta and Roughgarden (2016). Majority of the machine learning literature has
+focused on Lipschitz-continuous functions or functions with bounded gradients.
+1 This is with good reason---any learning algorithm suffers linear regret even
+against piecewise constant functions that are chosen adversarially, arguably
+the simplest of non-Lipschitz continuous functions. The smoothed setting we
+consider is inspired by the seminal work of Spielman and Teng (2004) and the
+recent work of Gupta and Roughgarden---in this setting, the sequence of
+functions may be chosen by an adversary, however, with some uncertainty in the
+location of discontinuities. We give algorithms that achieve sublinear regret
+in the full information and bandit settings.

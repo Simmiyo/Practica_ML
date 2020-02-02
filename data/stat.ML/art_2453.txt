@@ -1,0 +1,18 @@
+Generalized Thompson Sampling for Sequential Decision-Making and Causal
+  Inference
+Recently, it has been shown how sampling actions from the predictive
+distribution over the optimal action-sometimes called Thompson sampling-can be
+applied to solve sequential adaptive control problems, when the optimal policy
+is known for each possible environment. The predictive distribution can then be
+constructed by a Bayesian superposition of the optimal policies weighted by
+their posterior probability that is updated by Bayesian inference and causal
+calculus. Here we discuss three important features of this approach. First, we
+discuss in how far such Thompson sampling can be regarded as a natural
+consequence of the Bayesian modeling of policy uncertainty. Second, we show how
+Thompson sampling can be used to study interactions between multiple adaptive
+agents, thus, opening up an avenue of game-theoretic analysis. Third, we show
+how Thompson sampling can be applied to infer causal relationships when
+interacting with an environment in a sequential fashion. In summary, our
+results suggest that Thompson sampling might not merely be a useful heuristic,
+but a principled method to address problems of adaptive sequential
+decision-making and causal inference.

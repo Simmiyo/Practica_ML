@@ -1,0 +1,20 @@
+Minimax Policies for Combinatorial Prediction Games
+We address the online linear optimization problem when the actions of the
+forecaster are represented by binary vectors. Our goal is to understand the
+magnitude of the minimax regret for the worst possible set of actions. We study
+the problem under three different assumptions for the feedback: full
+information, and the partial information models of the so-called "semi-bandit",
+and "bandit" problems. We consider both $L_\infty$-, and $L_2$-type of
+restrictions for the losses assigned by the adversary.
+  We formulate a general strategy using Bregman projections on top of a
+potential-based gradient descent, which generalizes the ones studied in the
+series of papers Gyorgy et al. (2007), Dani et al. (2008), Abernethy et al.
+(2008), Cesa-Bianchi and Lugosi (2009), Helmbold and Warmuth (2009), Koolen et
+al. (2010), Uchiya et al. (2010), Kale et al. (2010) and Audibert and Bubeck
+(2010). We provide simple proofs that recover most of the previous results. We
+propose new upper bounds for the semi-bandit game. Moreover we derive lower
+bounds for all three feedback assumptions. With the only exception of the
+bandit game, the upper and lower bounds are tight, up to a constant factor.
+Finally, we answer a question asked by Koolen et al. (2010) by showing that the
+exponentially weighted average forecaster is suboptimal against $L_{\infty}$
+adversaries.

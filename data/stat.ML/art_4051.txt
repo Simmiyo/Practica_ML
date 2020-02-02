@@ -1,0 +1,11 @@
+Recoverability of Joint Distribution from Missing Data
+A probabilistic query may not be estimable from observed data corrupted by
+missing values if the data are not missing at random (MAR). It is therefore of
+theoretical interest and practical importance to determine in principle whether
+a probabilistic query is estimable from missing data or not when the data are
+not MAR. We present an algorithm that systematically determines whether the
+joint probability is estimable from observed data with missing values, assuming
+that the data-generation model is represented as a Bayesian network containing
+unobserved latent variables that not only encodes the dependencies among the
+variables but also explicitly portrays the mechanisms responsible for the
+missingness process. The result significantly advances the existing work.

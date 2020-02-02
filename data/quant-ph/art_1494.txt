@@ -1,0 +1,14 @@
+A quantum analog of Huffman coding
+We analyze a generalization of Huffman coding to the quantum case. In
+particular, we notice various difficulties in using instantaneous codes for
+quantum communication. Nevertheless, for the storage of quantum information, we
+have succeeded in constructing a Huffman-coding inspired quantum scheme. The
+number of computational steps in the encoding and decoding processes of N
+quantum signals can be made to be of polylogarithmic depth by a massively
+parallel implementation of a quantum gate array. This is to be compared with
+the O (N^3) computational steps required in the sequential implementation by
+Cleve and DiVincenzo of the well-known quantum noiseless block coding scheme of
+Schumacher. We also show that O(N^2(log N)^a) computational steps are needed
+for the communication of quantum information using another Huffman-coding
+inspired scheme where the sender must disentangle her encoding device before
+the receiver can perform any measurements on his signals.

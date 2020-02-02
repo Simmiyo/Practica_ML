@@ -1,0 +1,7 @@
+A Risk Comparison of Ordinary Least Squares vs Ridge Regression
+We compare the risk of ridge regression to a simple variant of ordinary least
+squares, in which one simply projects the data onto a finite dimensional
+subspace (as specified by a Principal Component Analysis) and then performs an
+ordinary (un-regularized) least squares regression in this subspace. This note
+shows that the risk of this ordinary least squares method is within a constant
+factor (namely 4) of the risk of ridge regression.

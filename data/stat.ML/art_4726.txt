@@ -1,0 +1,19 @@
+Spectral Methods for Correlated Topic Models
+In this paper, we propose guaranteed spectral methods for learning a broad
+range of topic models, which generalize the popular Latent Dirichlet Allocation
+(LDA). We overcome the limitation of LDA to incorporate arbitrary topic
+correlations, by assuming that the hidden topic proportions are drawn from a
+flexible class of Normalized Infinitely Divisible (NID) distributions. NID
+distributions are generated through the process of normalizing a family of
+independent Infinitely Divisible (ID) random variables. The Dirichlet
+distribution is a special case obtained by normalizing a set of Gamma random
+variables. We prove that this flexible topic model class can be learned via
+spectral methods using only moments up to the third order, with (low order)
+polynomial sample and computational complexity. The proof is based on a key new
+technique derived here that allows us to diagonalize the moments of the NID
+distribution through an efficient procedure that requires evaluating only
+univariate integrals, despite the fact that we are handling high dimensional
+multivariate moments. In order to assess the performance of our proposed Latent
+NID topic model, we use two real datasets of articles collected from New York
+Times and Pubmed. Our experiments yield improved perplexity on both datasets
+compared with the baseline.

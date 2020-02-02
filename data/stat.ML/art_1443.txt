@@ -1,0 +1,19 @@
+Multilevel Modeling with Structured Penalties for Classification from
+  Imaging Genetics data
+In this paper, we propose a framework for automatic classification of
+patients from multimodal genetic and brain imaging data by optimally combining
+them. Additive models with unadapted penalties (such as the classical group
+lasso penalty or $L_1$-multiple kernel learning) treat all modalities in the
+same manner and can result in undesirable elimination of specific modalities
+when their contributions are unbalanced. To overcome this limitation, we
+introduce a multilevel model that combines imaging and genetics and that
+considers joint effects between these two modalities for diagnosis prediction.
+Furthermore, we propose a framework allowing to combine several penalties
+taking into account the structure of the different types of data, such as a
+group lasso penalty over the genetic modality and a $L_2$-penalty on imaging
+modalities. Finally , we propose a fast optimization algorithm, based on a
+proximal gradient method. The model has been evaluated on genetic (single
+nucleotide polymorphisms-SNP) and imaging (anatomical MRI measures) data from
+the ADNI database, and compared to additive models. It exhibits good
+performances in AD diagnosis; and at the same time, reveals relationships
+between genes, brain regions and the disease status.

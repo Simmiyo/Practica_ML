@@ -1,0 +1,11 @@
+CLaC @ QATS: Quality Assessment for Text Simplification
+This paper describes our approach to the 2016 QATS quality assessment shared
+task. We trained three independent Random Forest classifiers in order to assess
+the quality of the simplified texts in terms of grammaticality, meaning
+preservation and simplicity. We used the language model of Google-Ngram as
+feature to predict the grammaticality. Meaning preservation is predicted using
+two complementary approaches based on word embedding and WordNet synonyms. A
+wider range of features including TF-IDF, sentence length and frequency of cue
+phrases are used to evaluate the simplicity aspect. Overall, the accuracy of
+the system ranges from 33.33% for the overall aspect to 58.73% for
+grammaticality.

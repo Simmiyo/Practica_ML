@@ -1,0 +1,10 @@
+Learning to Learn Neural Networks
+Meta-learning consists in learning learning algorithms. We use a Long Short
+Term Memory (LSTM) based network to learn to compute on-line updates of the
+parameters of another neural network. These parameters are stored in the cell
+state of the LSTM. Our framework allows to compare learned algorithms to
+hand-made algorithms within the traditional train and test methodology. In an
+experiment, we learn a learning algorithm for a one-hidden layer Multi-Layer
+Perceptron (MLP) on non-linearly separable datasets. The learned algorithm is
+able to update parameters of both layers and generalise well on similar
+datasets.

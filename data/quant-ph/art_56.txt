@@ -1,0 +1,17 @@
+Quantum Computers, Factoring, and Decoherence
+In a quantum computer any superposition of inputs evolves unitarily into the
+corresponding superposition of outputs. It has been recently demonstrated that
+such computers can dramatically speed up the task of finding factors of large
+numbers -- a problem of great practical significance because of its
+cryptographic applications. Instead of the nearly exponential ($\sim \exp
+L^{1/3}$, for a number with $L$ digits) time required by the fastest classical
+algorithm, the quantum algorithm gives factors in a time polynomial in $L$
+($\sim L^2$). This enormous speed-up is possible in principle because quantum
+computation can simultaneously follow all of the paths corresponding to the
+distinct classical inputs, obtaining the solution as a result of coherent
+quantum interference between the alternatives. Hence, a quantum computer is
+sophisticated interference device, and it is essential for its quantum state to
+remain coherent in the course of the operation. In this report we investigate
+the effect of decoherence on the quantum factorization algorithm and establish
+an upper bound on a ``quantum factorizable'' $L$ based on the decoherence
+suffered per operational step.

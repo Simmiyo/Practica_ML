@@ -1,0 +1,15 @@
+A Modified Construction for a Support Vector Classifier to Accommodate
+  Class Imbalances
+Given a training set with binary classification, the Support Vector Machine
+identifies the hyperplane maximizing the margin between the two classes of
+training data. This general formulation is useful in that it can be applied
+without regard to variance differences between the classes. Ignoring these
+differences is not optimal, however, as the general SVM will give the class
+with lower variance an unjustifiably wide berth. This increases the chance of
+misclassification of the other class and results in an overall loss of
+predictive performance. An alternate construction is proposed in which the
+margins of the separating hyperplane are different for each class, each
+proportional to the standard deviation of its class along the direction
+perpendicular to the hyperplane. The construction agrees with the SVM in the
+case of equal class variances. This paper will then examine the impact to the
+dual representation of the modified constraint equations.

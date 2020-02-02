@@ -1,0 +1,12 @@
+Security against eavesdropping in quantum cryptography
+In this article we deal with the security of the BB84 quantum cryptography
+protocol over noisy channels using generalized privacy amplification. For this
+we estimate the fraction of bits needed to be discarded during the privacy
+amplification step. This estimate is given for two scenarios, both of which
+assume the eavesdropper to access each of the signals independently and take
+error correction into account. One scenario does not allow a delay of the
+eavesdropper's measurement of a measurement probe until he receives additional
+classical information. In this scenario we achieve a sharp bound. The other
+scenario allows a measurement delay, so that the general attack of an
+eavesdropper on individual signals is covered. This bound is not sharp but
+allows a practical implementation of the protocol.

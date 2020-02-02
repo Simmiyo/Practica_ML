@@ -1,0 +1,18 @@
+LSTM-based Whisper Detection
+This article presents a whisper speech detector in the far-field domain. The
+proposed system consists of a long-short term memory (LSTM) neural network
+trained on log-filterbank energy (LFBE) acoustic features. This model is
+trained and evaluated on recordings of human interactions with
+voice-controlled, far-field devices in whisper and normal phonation modes. We
+compare multiple inference approaches for utterance-level classification by
+examining trajectories of the LSTM posteriors. In addition, we engineer a set
+of features based on the signal characteristics inherent to whisper speech, and
+evaluate their effectiveness in further separating whisper from normal speech.
+A benchmarking of these features using multilayer perceptrons (MLP) and LSTMs
+suggests that the proposed features, in combination with LFBE features, can
+help us further improve our classifiers. We prove that, with enough data, the
+LSTM model is indeed as capable of learning whisper characteristics from LFBE
+features alone com- pared to a simpler MLP model that uses both LFBE and
+features engineered for separating whisper and normal speech. In addition, we
+prove that the LSTM classifiers accuracy can be further improved with the
+incorporation of the proposed engineered features.

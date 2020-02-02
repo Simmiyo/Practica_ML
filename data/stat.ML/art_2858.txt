@@ -1,0 +1,19 @@
+Classifying pairs with trees for supervised biological network inference
+Networks are ubiquitous in biology and computational approaches have been
+largely investigated for their inference. In particular, supervised machine
+learning methods can be used to complete a partially known network by
+integrating various measurements. Two main supervised frameworks have been
+proposed: the local approach, which trains a separate model for each network
+node, and the global approach, which trains a single model over pairs of nodes.
+Here, we systematically investigate, theoretically and empirically, the
+exploitation of tree-based ensemble methods in the context of these two
+approaches for biological network inference. We first formalize the problem of
+network inference as classification of pairs, unifying in the process
+homogeneous and bipartite graphs and discussing two main sampling schemes. We
+then present the global and the local approaches, extending the later for the
+prediction of interactions between two unseen network nodes, and discuss their
+specializations to tree-based ensemble methods, highlighting their
+interpretability and drawing links with clustering techniques. Extensive
+computational experiments are carried out with these methods on various
+biological networks that clearly highlight that these methods are competitive
+with existing methods.

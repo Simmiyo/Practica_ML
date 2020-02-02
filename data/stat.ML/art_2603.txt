@@ -1,0 +1,17 @@
+Efficient Sampling from Time-Varying Log-Concave Distributions
+We propose a computationally efficient random walk on a convex body which
+rapidly mixes and closely tracks a time-varying log-concave distribution. We
+develop general theoretical guarantees on the required number of steps; this
+number can be calculated on the fly according to the distance from and the
+shape of the next distribution. We then illustrate the technique on several
+examples. Within the context of exponential families, the proposed method
+produces samples from a posterior distribution which is updated as data arrive
+in a streaming fashion. The sampling technique can be used to track
+time-varying truncated distributions, as well as to obtain samples from a
+changing mixture model, fitted in a streaming fashion to data. In the setting
+of linear optimization, the proposed method has oracle complexity with best
+known dependence on the dimension for certain geometries. In the context of
+online learning and repeated games, the algorithm is an efficient method for
+implementing no-regret mixture forecasting strategies. Remarkably, in some of
+these examples, only one step of the random walk is needed to track the next
+distribution.

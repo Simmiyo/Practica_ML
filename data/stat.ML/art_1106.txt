@@ -1,0 +1,22 @@
+Iterative Hard Thresholding for Model Selection in Genome-Wide
+  Association Studies
+A genome-wide association study (GWAS) correlates marker variation with trait
+variation in a sample of individuals. Each study subject is genotyped at a
+multitude of SNPs (single nucleotide polymorphisms) spanning the genome. Here
+we assume that subjects are unrelated and collected at random and that trait
+values are normally distributed or transformed to normality. Over the past
+decade, researchers have been remarkably successful in applying GWAS analysis
+to hundreds of traits. The massive amount of data produced in these studies
+present unique computational challenges. Penalized regression with LASSO or MCP
+penalties is capable of selecting a handful of associated SNPs from millions of
+potential SNPs. Unfortunately, model selection can be corrupted by false
+positives and false negatives, obscuring the genetic underpinning of a trait.
+This paper introduces the iterative hard thresholding (IHT) algorithm to the
+GWAS analysis of continuous traits. Our parallel implementation of IHT
+accommodates SNP genotype compression and exploits multiple CPU cores and
+graphics processing units (GPUs). This allows statistical geneticists to
+leverage commodity desktop computers in GWAS analysis and to avoid
+supercomputing. We evaluate IHT performance on both simulated and real GWAS
+data and conclude that it reduces false positive and false negative rates while
+remaining competitive in computational time with penalized regression. Source
+code is freely available at https://github.com/klkeys/IHT.jl.

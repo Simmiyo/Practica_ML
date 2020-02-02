@@ -1,0 +1,13 @@
+Sparse Multiple Kernel Learning with Geometric Convergence Rate
+In this paper, we study the problem of sparse multiple kernel learning (MKL),
+where the goal is to efficiently learn a combination of a fixed small number of
+kernels from a large pool that could lead to a kernel classifier with a small
+prediction error. We develop an efficient algorithm based on the greedy
+coordinate descent algorithm, that is able to achieve a geometric convergence
+rate under appropriate conditions. The convergence rate is achieved by
+measuring the size of functional gradients by an empirical $\ell_2$ norm that
+depends on the empirical data distribution. This is in contrast to previous
+algorithms that use a functional norm to measure the size of gradients, which
+is independent from the data samples. We also establish a generalization error
+bound of the learned sparse kernel classifier using the technique of local
+Rademacher complexity.

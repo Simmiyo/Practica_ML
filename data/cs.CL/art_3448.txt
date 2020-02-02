@@ -1,0 +1,14 @@
+Improving Sentiment Analysis in Arabic Using Word Representation
+The complexities of Arabic language in morphology, orthography and dialects
+makes sentiment analysis for Arabic more challenging. Also, text feature
+extraction from short messages like tweets, in order to gauge the sentiment,
+makes this task even more difficult. In recent years, deep neural networks were
+often employed and showed very good results in sentiment classification and
+natural language processing applications. Word embedding, or word distributing
+approach, is a current and powerful tool to capture together the closest words
+from a contextual text. In this paper, we describe how we construct Word2Vec
+models from a large Arabic corpus obtained from ten newspapers in different
+Arab countries. By applying different machine learning algorithms and
+convolutional neural networks with different text feature selections, we report
+improved accuracy of sentiment classification (91%-95%) on our publicly
+available Arabic language health sentiment dataset [1]

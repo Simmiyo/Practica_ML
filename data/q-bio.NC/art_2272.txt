@@ -1,0 +1,26 @@
+Unsupervised adaptation of brain machine interface decoders
+The performance of neural decoders can degrade over time due to
+nonstationarities in the relationship between neuronal activity and behavior.
+In this case, brain-machine interfaces (BMI) require adaptation of their
+decoders to maintain high performance across time. One way to achieve this is
+by use of periodical calibration phases, during which the BMI system (or an
+external human demonstrator) instructs the user to perform certain movements or
+behaviors. This approach has two disadvantages: (i) calibration phases
+interrupt the autonomous operation of the BMI and (ii) between two calibration
+phases the BMI performance might not be stable but continuously decrease. A
+better alternative would be that the BMI decoder is able to continuously adapt
+in an unsupervised manner during autonomous BMI operation, i.e. without knowing
+the movement intentions of the user.
+  In the present article, we present an efficient method for such unsupervised
+training of BMI systems for continuous movement control. The proposed method
+utilizes a cost function derived from neuronal recordings, which guides a
+learning algorithm to evaluate the decoding parameters. We verify the
+performance of our adaptive method by simulating a BMI user with an optimal
+feedback control model and its interaction with our adaptive BMI decoder. The
+simulation results show that the cost function and the algorithm yield fast and
+precise trajectories towards targets at random orientations on a 2-dimensional
+computer screen. For initially unknown and non-stationary tuning parameters,
+our unsupervised method is still able to generate precise trajectories and to
+keep its performance stable in the long term. The algorithm can optionally work
+also with neuronal error signals instead or in conjunction with the proposed
+unsupervised adaptation.

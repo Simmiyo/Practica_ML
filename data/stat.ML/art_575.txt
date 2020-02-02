@@ -1,0 +1,16 @@
+High-Dimensional Classification for Brain Decoding
+Brain decoding involves the determination of a subject's cognitive state or
+an associated stimulus from functional neuroimaging data measuring brain
+activity. In this setting the cognitive state is typically characterized by an
+element of a finite set, and the neuroimaging data comprise voluminous amounts
+of spatiotemporal data measuring some aspect of the neural signal. The
+associated statistical problem is one of classification from high-dimensional
+data. We explore the use of functional principal component analysis, mutual
+information networks, and persistent homology for examining the data through
+exploratory analysis and for constructing features characterizing the neural
+signal for brain decoding. We review each approach from this perspective, and
+we incorporate the features into a classifier based on symmetric multinomial
+logistic regression with elastic net regularization. The approaches are
+illustrated in an application where the task is to infer, from brain activity
+measured with magnetoencephalography (MEG), the type of video stimulus shown to
+a subject.

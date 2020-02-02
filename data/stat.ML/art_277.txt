@@ -1,0 +1,12 @@
+Factored expectation propagation for input-output FHMM models in systems
+  biology
+We consider the problem of joint modelling of metabolic signals and gene
+expression in systems biology applications. We propose an approach based on
+input-output factorial hidden Markov models and propose a structured
+variational inference approach to infer the structure and states of the model.
+We start from the classical free form structured variational mean field
+approach and use a expectation propagation to approximate the expectations
+needed in the variational loop. We show that this corresponds to a factored
+expectation constrained approximate inference. We validate our model through
+extensive simulations and demonstrate its applicability on a real world
+bacterial data set.

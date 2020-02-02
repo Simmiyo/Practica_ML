@@ -1,0 +1,18 @@
+Learning Balanced Mixtures of Discrete Distributions with Small Sample
+We study the problem of partitioning a small sample of $n$ individuals from a
+mixture of $k$ product distributions over a Boolean cube $\{0, 1\}^K$ according
+to their distributions. Each distribution is described by a vector of allele
+frequencies in $\R^K$. Given two distributions, we use $\gamma$ to denote the
+average $\ell_2^2$ distance in frequencies across $K$ dimensions, which
+measures the statistical divergence between them. We study the case assuming
+that bits are independently distributed across $K$ dimensions. This work
+demonstrates that, for a balanced input instance for $k = 2$, a certain
+graph-based optimization function returns the correct partition with high
+probability, where a weighted graph $G$ is formed over $n$ individuals, whose
+pairwise hamming distances between their corresponding bit vectors define the
+edge weights, so long as $K = \Omega(\ln n/\gamma)$ and $Kn = \tilde\Omega(\ln
+n/\gamma^2)$. The function computes a maximum-weight balanced cut of $G$, where
+the weight of a cut is the sum of the weights across all edges in the cut. This
+result demonstrates a nice property in the high-dimensional feature space: one
+can trade off the number of features that are required with the size of the
+sample to accomplish certain tasks like clustering.

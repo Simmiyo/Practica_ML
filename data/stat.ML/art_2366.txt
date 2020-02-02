@@ -1,0 +1,19 @@
+Variational Relevance Vector Machines
+The Support Vector Machine (SVM) of Vapnik (1998) has become widely
+established as one of the leading approaches to pattern recognition and machine
+learning. It expresses predictions in terms of a linear combination of kernel
+functions centred on a subset of the training data, known as support vectors.
+  Despite its widespread success, the SVM suffers from some important
+limitations, one of the most significant being that it makes point predictions
+rather than generating predictive distributions. Recently Tipping (1999) has
+formulated the Relevance Vector Machine (RVM), a probabilistic model whose
+functional form is equivalent to the SVM. It achieves comparable recognition
+accuracy to the SVM, yet provides a full predictive distribution, and also
+requires substantially fewer kernel functions.
+  The original treatment of the RVM relied on the use of type II maximum
+likelihood (the `evidence framework') to provide point estimates of the
+hyperparameters which govern model sparsity. In this paper we show how the RVM
+can be formulated and solved within a completely Bayesian paradigm through the
+use of variational inference, thereby giving a posterior distribution over both
+parameters and hyperparameters. We demonstrate the practicality and performance
+of the variational RVM using both synthetic and real world examples.

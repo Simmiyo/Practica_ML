@@ -1,0 +1,16 @@
+Nystrom Method for Approximating the GMM Kernel
+The GMM (generalized min-max) kernel was recently proposed (Li, 2016) as a
+measure of data similarity and was demonstrated effective in machine learning
+tasks. In order to use the GMM kernel for large-scale datasets, the prior work
+resorted to the (generalized) consistent weighted sampling (GCWS) to convert
+the GMM kernel to linear kernel. We call this approach as ``GMM-GCWS''.
+  In the machine learning literature, there is a popular algorithm which we
+call ``RBF-RFF''. That is, one can use the ``random Fourier features'' (RFF) to
+convert the ``radial basis function'' (RBF) kernel to linear kernel. It was
+empirically shown in (Li, 2016) that RBF-RFF typically requires substantially
+more samples than GMM-GCWS in order to achieve comparable accuracies.
+  The Nystrom method is a general tool for computing nonlinear kernels, which
+again converts nonlinear kernels into linear kernels. We apply the Nystrom
+method for approximating the GMM kernel, a strategy which we name as
+``GMM-NYS''. In this study, our extensive experiments on a set of fairly large
+datasets confirm that GMM-NYS is also a strong competitor of RBF-RFF.

@@ -1,0 +1,13 @@
+Algorithmic Composition of Melodies with Deep Recurrent Neural Networks
+A big challenge in algorithmic composition is to devise a model that is both
+easily trainable and able to reproduce the long-range temporal dependencies
+typical of music. Here we investigate how artificial neural networks can be
+trained on a large corpus of melodies and turned into automated music composers
+able to generate new melodies coherent with the style they have been trained
+on. We employ gated recurrent unit networks that have been shown to be
+particularly efficient in learning complex sequential activations with
+arbitrary long time lags. Our model processes rhythm and melody in parallel
+while modeling the relation between these two features. Using such an approach,
+we were able to generate interesting complete melodies or suggest possible
+continuations of a melody fragment that is coherent with the characteristics of
+the fragment itself.

@@ -1,0 +1,14 @@
+Bayesian Online Changepoint Detection
+Changepoints are abrupt variations in the generative parameters of a data
+sequence. Online detection of changepoints is useful in modelling and
+prediction of time series in application areas such as finance, biometrics, and
+robotics. While frequentist methods have yielded online filtering and
+prediction techniques, most Bayesian papers have focused on the retrospective
+segmentation problem. Here we examine the case where the model parameters
+before and after the changepoint are independent and we derive an online
+algorithm for exact inference of the most recent changepoint. We compute the
+probability distribution of the length of the current ``run,'' or time since
+the last changepoint, using a simple message-passing algorithm. Our
+implementation is highly modular so that the algorithm may be applied to a
+variety of types of data. We illustrate this modularity by demonstrating the
+algorithm on three different real-world data sets.

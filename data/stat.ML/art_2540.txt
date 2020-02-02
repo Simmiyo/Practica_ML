@@ -1,0 +1,10 @@
+Deep Learning by Scattering
+We introduce general scattering transforms as mathematical models of deep
+neural networks with l2 pooling. Scattering networks iteratively apply complex
+valued unitary operators, and the pooling is performed by a complex modulus. An
+expected scattering defines a contractive representation of a high-dimensional
+probability distribution, which preserves its mean-square norm. We show that
+unsupervised learning can be casted as an optimization of the space contraction
+to preserve the volume occupied by unlabeled examples, at each layer of the
+network. Supervised learning and classification are performed with an averaged
+scattering, which provides scattering estimations for multiple classes.

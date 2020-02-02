@@ -1,0 +1,17 @@
+Hierarchical Partitioning of the Output Space in Multi-label Data
+Hierarchy Of Multi-label classifiers (HOMER) is a multi-label learning
+algorithm that breaks the initial learning task to several, easier sub-tasks by
+first constructing a hierarchy of labels from a given label set and secondly
+employing a given base multi-label classifier (MLC) to the resulting
+sub-problems. The primary goal is to effectively address class imbalance and
+scalability issues that often arise in real-world multi-label classification
+problems. In this work, we present the general setup for a HOMER model and a
+simple extension of the algorithm that is suited for MLCs that output rankings.
+Furthermore, we provide a detailed analysis of the properties of the algorithm,
+both from an aspect of effectiveness and computational complexity. A secondary
+contribution involves the presentation of a balanced variant of the k means
+algorithm, which serves in the first step of the label hierarchy construction.
+We conduct extensive experiments on six real-world datasets, studying
+empirically HOMER's parameters and providing examples of instantiations of the
+algorithm with different clustering approaches and MLCs, The empirical results
+demonstrate a significant improvement over the given base MLC.

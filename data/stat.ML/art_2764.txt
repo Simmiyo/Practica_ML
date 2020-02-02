@@ -1,0 +1,25 @@
+A Spectral Framework for Anomalous Subgraph Detection
+A wide variety of application domains are concerned with data consisting of
+entities and their relationships or connections, formally represented as
+graphs. Within these diverse application areas, a common problem of interest is
+the detection of a subset of entities whose connectivity is anomalous with
+respect to the rest of the data. While the detection of such anomalous
+subgraphs has received a substantial amount of attention, no
+application-agnostic framework exists for analysis of signal detectability in
+graph-based data. In this paper, we describe a framework that enables such
+analysis using the principal eigenspace of a graph's residuals matrix, commonly
+called the modularity matrix in community detection. Leveraging this analytical
+tool, we show that the framework has a natural power metric in the spectral
+norm of the anomalous subgraph's adjacency matrix (signal power) and of the
+background graph's residuals matrix (noise power). We propose several
+algorithms based on spectral properties of the residuals matrix, with more
+computationally expensive techniques providing greater detection power.
+Detection and identification performance are presented for a number of signal
+and noise models, including clusters and bipartite foregrounds embedded into
+simple random backgrounds as well as graphs with community structure and
+realistic degree distributions. The trends observed verify intuition gleaned
+from other signal processing areas, such as greater detection power when the
+signal is embedded within a less active portion of the background. We
+demonstrate the utility of the proposed techniques in detecting small, highly
+anomalous subgraphs in real graphs derived from Internet traffic and product
+co-purchases.

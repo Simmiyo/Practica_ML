@@ -1,0 +1,18 @@
+Multi-Instance Learning with Any Hypothesis Class
+In the supervised learning setting termed Multiple-Instance Learning (MIL),
+the examples are bags of instances, and the bag label is a function of the
+labels of its instances. Typically, this function is the Boolean OR. The
+learner observes a sample of bags and the bag labels, but not the instance
+labels that determine the bag labels. The learner is then required to emit a
+classification rule for bags based on the sample. MIL has numerous
+applications, and many heuristic algorithms have been used successfully on this
+problem, each adapted to specific settings or applications. In this work we
+provide a unified theoretical analysis for MIL, which holds for any underlying
+hypothesis class, regardless of a specific application or problem domain. We
+show that the sample complexity of MIL is only poly-logarithmically dependent
+on the size of the bag, for any underlying hypothesis class. In addition, we
+introduce a new PAC-learning algorithm for MIL, which uses a regular supervised
+learning algorithm as an oracle. We prove that efficient PAC-learning for MIL
+can be generated from any efficient non-MIL supervised learning algorithm that
+handles one-sided error. The computational complexity of the resulting
+algorithm is only polynomially dependent on the bag size.

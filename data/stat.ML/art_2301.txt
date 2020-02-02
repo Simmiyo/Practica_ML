@@ -1,0 +1,16 @@
+On Information Regularization
+We formulate a principle for classification with the knowledge of the
+marginal distribution over the data points (unlabeled data). The principle is
+cast in terms of Tikhonov style regularization where the regularization penalty
+articulates the way in which the marginal density should constrain otherwise
+unrestricted conditional distributions. Specifically, the regularization
+penalty penalizes any information introduced between the examples and labels
+beyond what is provided by the available labeled examples. The work extends
+Szummer and Jaakkola's information regularization (NIPS 2002) to multiple
+dimensions, providing a regularizer independent of the covering of the space
+used in the derivation. We show in addition how the information regularizer can
+be used as a measure of complexity of the classification task with unlabeled
+data and prove a relevant sample-complexity bound. We illustrate the
+regularization principle in practice by restricting the class of conditional
+distributions to be logistic regression models and constructing the
+regularization penalty from a finite set of unlabeled examples.

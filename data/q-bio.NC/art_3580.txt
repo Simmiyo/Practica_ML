@@ -1,0 +1,27 @@
+Characterizing the nonlinear structure of shared variability in cortical
+  neuron populations using latent variable models
+Sensory neurons often have variable responses to repeated presentations of
+the same stimulus, which can significantly degrade the stimulus information
+contained in those responses. This information can in principle be preserved if
+variability is shared across many neurons, but depends on the structure of the
+shared variability and its relationship to sensory encoding at the population
+level. The structure of this shared variability in neural activity can be
+characterized by latent variable models, although they have thus far typically
+been used under restrictive mathematical assumptions. Here we introduce two
+nonlinear latent variable models for analyzing large-scale neural recordings.
+We first present a general nonlinear latent variable model that is agnostic to
+the stimulus tuning properties of the individual neurons, and is hence well
+suited for exploring neural populations whose tuning properties are not well
+characterized. This motivates a second class of model, the Generalized Affine
+Model, which simultaneously determines each neuron's stimulus selectivity and a
+set of latent variables that modulate these stimulus-driven responses both
+additively and multiplicatively. While these approaches can detect very general
+nonlinear relationships in shared neural variability, we find that neural
+activity recorded in anesthetized primary visual cortex (V1) is best described
+by a single additive and single multiplicative latent variable, i.e. an `affine
+model'. In contrast, application of the same models to recordings in awake
+macaque prefrontal cortex discover more general nonlinearities to compactly
+describe the population response variability. These results thus demonstrate
+how nonlinear latent variable models can be used to describe population
+response variability, and suggest that a range of methods is necessary to study
+different brain regions under different experimental conditions.

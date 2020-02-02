@@ -1,0 +1,16 @@
+Multiple Source Adaptation and the Renyi Divergence
+This paper presents a novel theoretical study of the general problem of
+multiple source adaptation using the notion of Renyi divergence. Our results
+build on our previous work [12], but significantly broaden the scope of that
+work in several directions. We extend previous multiple source loss guarantees
+based on distribution weighted combinations to arbitrary target distributions
+P, not necessarily mixtures of the source distributions, analyze both known and
+unknown target distribution cases, and prove a lower bound. We further extend
+our bounds to deal with the case where the learner receives an approximate
+distribution for each source instead of the exact one, and show that similar
+loss guarantees can be achieved depending on the divergence between the
+approximate and true distributions. We also analyze the case where the labeling
+functions of the source domains are somewhat different. Finally, we report the
+results of experiments with both an artificial data set and a sentiment
+analysis task, showing the performance benefits of the distribution weighted
+combinations and the quality of our bounds based on the Renyi divergence.

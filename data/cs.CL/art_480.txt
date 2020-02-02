@@ -1,0 +1,21 @@
+A Probabilistic Approach to Pronunciation by Analogy
+The relationship between written and spoken words is convoluted in languages
+with a deep orthography such as English and therefore it is difficult to devise
+explicit rules for generating the pronunciations for unseen words.
+Pronunciation by analogy (PbA) is a data-driven method of constructing
+pronunciations for novel words from concatenated segments of known words and
+their pronunciations. PbA performs relatively well with English and outperforms
+several other proposed methods. However, the best published word accuracy of
+65.5% (for the 20,000 word NETtalk corpus) suggests there is much room for
+improvement in it.
+  Previous PbA algorithms have used several different scoring strategies such
+as the product of the frequencies of the component pronunciations of the
+segments, or the number of different segmentations that yield the same
+pronunciation, and different combinations of these methods, to evaluate the
+candidate pronunciations. In this article, we instead propose to use a
+probabilistically justified scoring rule. We show that this principled approach
+alone yields better accuracy (66.21% for the NETtalk corpus) than any
+previously published PbA algorithm. Furthermore, combined with certain ad hoc
+modifications motivated by earlier algorithms, the performance climbs up to
+66.6%, and further improvements are possible by combining this method with
+other methods.

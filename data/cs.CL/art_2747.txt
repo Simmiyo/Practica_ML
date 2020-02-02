@@ -1,0 +1,18 @@
+Spherical Paragraph Model
+Representing texts as fixed-length vectors is central to many language
+processing tasks. Most traditional methods build text representations based on
+the simple Bag-of-Words (BoW) representation, which loses the rich semantic
+relations between words. Recent advances in natural language processing have
+shown that semantically meaningful representations of words can be efficiently
+acquired by distributed models, making it possible to build text
+representations based on a better foundation called the Bag-of-Word-Embedding
+(BoWE) representation. However, existing text representation methods using BoWE
+often lack sound probabilistic foundations or cannot well capture the semantic
+relatedness encoded in word vectors. To address these problems, we introduce
+the Spherical Paragraph Model (SPM), a probabilistic generative model based on
+BoWE, for text representation. SPM has good probabilistic interpretability and
+can fully leverage the rich semantics of words, the word co-occurrence
+information as well as the corpus-wide information to help the representation
+learning of texts. Experimental results on topical classification and sentiment
+analysis demonstrate that SPM can achieve new state-of-the-art performances on
+several benchmark datasets.

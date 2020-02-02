@@ -1,0 +1,10 @@
+Inducing Regular Grammars Using Recurrent Neural Networks
+Grammar induction is the task of learning a grammar from a set of examples.
+Recently, neural networks have been shown to be powerful learning machines that
+can identify patterns in streams of data. In this work we investigate their
+effectiveness in inducing a regular grammar from data, without any assumptions
+about the grammar. We train a recurrent neural network to distinguish between
+strings that are in or outside a regular language, and utilize an algorithm for
+extracting the learned finite-state automaton. We apply this method to several
+regular languages and find unexpected results regarding the connections between
+the network's states that may be regarded as evidence for generalization.

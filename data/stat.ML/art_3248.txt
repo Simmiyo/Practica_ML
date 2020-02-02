@@ -1,0 +1,16 @@
+Sparse Approximation of a Kernel Mean
+Kernel means are frequently used to represent probability distributions in
+machine learning problems. In particular, the well known kernel density
+estimator and the kernel mean embedding both have the form of a kernel mean.
+Unfortunately, kernel means are faced with scalability issues. A single point
+evaluation of the kernel density estimator, for example, requires a computation
+time linear in the training sample size. To address this challenge, we present
+a method to efficiently construct a sparse approximation of a kernel mean. We
+do so by first establishing an incoherence-based bound on the approximation
+error, and then noticing that, for the case of radial kernels, the bound can be
+minimized by solving the $k$-center problem. The outcome is a linear time
+construction of a sparse kernel mean, which also lends itself naturally to an
+automatic sparsity selection scheme. We show the computational gains of our
+method by looking at three problems involving kernel means: Euclidean embedding
+of distributions, class proportion estimation, and clustering using the
+mean-shift algorithm.

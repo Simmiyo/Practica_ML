@@ -1,0 +1,19 @@
+Bayesian Variable Selection for Globally Sparse Probabilistic PCA
+Sparse versions of principal component analysis (PCA) have imposed themselves
+as simple, yet powerful ways of selecting relevant features of high-dimensional
+data in an unsupervised manner. However, when several sparse principal
+components are computed, the interpretation of the selected variables is
+difficult since each axis has its own sparsity pattern and has to be
+interpreted separately. To overcome this drawback, we propose a Bayesian
+procedure called globally sparse probabilistic PCA (GSPPCA) that allows to
+obtain several sparse components with the same sparsity pattern. This allows
+the practitioner to identify the original variables which are relevant to
+describe the data. To this end, using Roweis' probabilistic interpretation of
+PCA and a Gaussian prior on the loading matrix, we provide the first exact
+computation of the marginal likelihood of a Bayesian PCA model. To avoid the
+drawbacks of discrete model selection, a simple relaxation of this framework is
+presented. It allows to find a path of models using a variational
+expectation-maximization algorithm. The exact marginal likelihood is then
+maximized over this path. This approach is illustrated on real and synthetic
+data sets. In particular, using unlabeled microarray data, GSPPCA infers much
+more relevant gene subsets than traditional sparse PCA algorithms.

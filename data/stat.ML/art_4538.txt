@@ -1,0 +1,18 @@
+Zero-Truncated Poisson Tensor Factorization for Massive Binary Tensors
+We present a scalable Bayesian model for low-rank factorization of massive
+tensors with binary observations. The proposed model has the following key
+properties: (1) in contrast to the models based on the logistic or probit
+likelihood, using a zero-truncated Poisson likelihood for binary data allows
+our model to scale up in the number of \emph{ones} in the tensor, which is
+especially appealing for massive but sparse binary tensors; (2)
+side-information in form of binary pairwise relationships (e.g., an adjacency
+network) between objects in any tensor mode can also be leveraged, which can be
+especially useful in "cold-start" settings; and (3) the model admits simple
+Bayesian inference via batch, as well as \emph{online} MCMC; the latter allows
+scaling up even for \emph{dense} binary data (i.e., when the number of ones in
+the tensor/network is also massive). In addition, non-negative factor matrices
+in our model provide easy interpretability, and the tensor rank can be inferred
+from the data. We evaluate our model on several large-scale real-world binary
+tensors, achieving excellent computational scalability, and also demonstrate
+its usefulness in leveraging side-information provided in form of
+mode-network(s).

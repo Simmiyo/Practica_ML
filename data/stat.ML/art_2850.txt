@@ -1,0 +1,28 @@
+Priors for Random Count Matrices Derived from a Family of Negative
+  Binomial Processes
+We define a family of probability distributions for random count matrices
+with a potentially unbounded number of rows and columns. The three
+distributions we consider are derived from the gamma-Poisson, gamma-negative
+binomial, and beta-negative binomial processes. Because the models lead to
+closed-form Gibbs sampling update equations, they are natural candidates for
+nonparametric Bayesian priors over count matrices. A key aspect of our analysis
+is the recognition that, although the random count matrices within the family
+are defined by a row-wise construction, their columns can be shown to be i.i.d.
+This fact is used to derive explicit formulas for drawing all the columns at
+once. Moreover, by analyzing these matrices' combinatorial structure, we
+describe how to sequentially construct a column-i.i.d. random count matrix one
+row at a time, and derive the predictive distribution of a new row count vector
+with previously unseen features. We describe the similarities and differences
+between the three priors, and argue that the greater flexibility of the gamma-
+and beta- negative binomial processes, especially their ability to model
+over-dispersed, heavy-tailed count data, makes these well suited to a wide
+variety of real-world applications. As an example of our framework, we
+construct a naive-Bayes text classifier to categorize a count vector to one of
+several existing random count matrices of different categories. The classifier
+supports an unbounded number of features, and unlike most existing methods, it
+does not require a predefined finite vocabulary to be shared by all the
+categories, and needs neither feature selection nor parameter tuning. Both the
+gamma- and beta- negative binomial processes are shown to significantly
+outperform the gamma-Poisson process for document categorization, with
+comparable performance to other state-of-the-art supervised text classification
+algorithms.

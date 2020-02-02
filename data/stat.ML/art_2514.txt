@@ -1,0 +1,14 @@
+Prediction with Missing Data via Bayesian Additive Regression Trees
+We present a method for incorporating missing data in non-parametric
+statistical learning without the need for imputation. We focus on a tree-based
+method, Bayesian Additive Regression Trees (BART), enhanced with "Missingness
+Incorporated in Attributes," an approach recently proposed incorporating
+missingness into decision trees (Twala, 2008). This procedure takes advantage
+of the partitioning mechanisms found in tree-based models. Simulations on
+generated models and real data indicate that our proposed method can forecast
+well on complicated missing-at-random and not-missing-at-random models as well
+as models where missingness itself influences the response. Our procedure has
+higher predictive performance and is more stable than competitors in many
+cases. We also illustrate BART's abilities to incorporate missingness into
+uncertainty intervals and to detect the influence of missingness on the model
+fit.

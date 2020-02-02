@@ -1,0 +1,13 @@
+Prior Attention for Style-aware Sequence-to-Sequence Models
+We extend sequence-to-sequence models with the possibility to control the
+characteristics or style of the generated output, via attention that is
+generated a priori (before decoding) from a latent code vector. After training
+an initial attention-based sequence-to-sequence model, we use a variational
+auto-encoder conditioned on representations of input sequences and a latent
+code vector space to generate attention matrices. By sampling the code vector
+from specific regions of this latent space during decoding and imposing prior
+attention generated from it in the seq2seq model, output can be steered towards
+having certain attributes. This is demonstrated for the task of sentence
+simplification, where the latent code vector allows control over output length
+and lexical simplification, and enables fine-tuning to optimize for different
+evaluation metrics.

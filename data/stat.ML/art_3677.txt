@@ -1,0 +1,21 @@
+Adding Gradient Noise Improves Learning for Very Deep Networks
+Deep feedforward and recurrent networks have achieved impressive results in
+many perception and language processing applications. This success is partially
+attributed to architectural innovations such as convolutional and long
+short-term memory networks. The main motivation for these architectural
+innovations is that they capture better domain knowledge, and importantly are
+easier to optimize than more basic architectures. Recently, more complex
+architectures such as Neural Turing Machines and Memory Networks have been
+proposed for tasks including question answering and general computation,
+creating a new set of optimization challenges. In this paper, we discuss a
+low-overhead and easy-to-implement technique of adding gradient noise which we
+find to be surprisingly effective when training these very deep architectures.
+The technique not only helps to avoid overfitting, but also can result in lower
+training loss. This method alone allows a fully-connected 20-layer deep network
+to be trained with standard gradient descent, even starting from a poor
+initialization. We see consistent improvements for many complex models,
+including a 72% relative reduction in error rate over a carefully-tuned
+baseline on a challenging question-answering task, and a doubling of the number
+of accurate binary multiplication models learned across 7,000 random restarts.
+We encourage further application of this technique to additional complex modern
+architectures.

@@ -1,0 +1,15 @@
+Optimal Schatten-q and Ky-Fan-k Norm Rate of Low Rank Matrix Estimation
+In this paper, we consider low rank matrix estimation using either
+matrix-version Dantzig Selector $\hat{A}_{\lambda}^d$ or matrix-version LASSO
+estimator $\hat{A}_{\lambda}^L$. We consider sub-Gaussian measurements, $i.e.$,
+the measurements $X_1,\ldots,X_n\in\mathbb{R}^{m\times m}$ have $i.i.d.$
+sub-Gaussian entries. Suppose $\textrm{rank}(A_0)=r$. We proved that, when
+$n\geq Cm[r^2\vee r\log(m)\log(n)]$ for some $C>0$, both $\hat{A}_{\lambda}^d$
+and $\hat{A}_{\lambda}^L$ can obtain optimal upper bounds(except some
+logarithmic terms) for estimation accuracy under spectral norm. By applying
+metric entropy of Grassmann manifolds, we construct (near) matching minimax
+lower bound for estimation accuracy under spectral norm. We also give upper
+bounds and matching minimax lower bound(except some logarithmic terms) for
+estimation accuracy under Schatten-q norm for every $1\leq q\leq\infty$. As a
+direct corollary, we show both upper bounds and minimax lower bounds of
+estimation accuracy under Ky-Fan-k norms for every $1\leq k\leq m$.

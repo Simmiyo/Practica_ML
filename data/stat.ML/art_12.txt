@@ -1,0 +1,9 @@
+Variable importance in binary regression trees and forests
+We characterize and study variable importance (VIMP) and pairwise variable
+associations in binary regression trees. A key component involves the node mean
+squared error for a quantity we refer to as a maximal subtree. The theory
+naturally extends from single trees to ensembles of trees and applies to
+methods like random forests. This is useful because while importance values
+from random forests are used to screen variables, for example they are used to
+filter high throughput genomic data in Bioinformatics, very little theory
+exists about their properties.

@@ -1,0 +1,13 @@
+Spoken Language Biomarkers for Detecting Cognitive Impairment
+In this study we developed an automated system that evaluates speech and
+language features from audio recordings of neuropsychological examinations of
+92 subjects in the Framingham Heart Study. A total of 265 features were used in
+an elastic-net regularized binomial logistic regression model to classify the
+presence of cognitive impairment, and to select the most predictive features.
+We compared performance with a demographic model from 6,258 subjects in the
+greater study cohort (0.79 AUC), and found that a system that incorporated both
+audio and text features performed the best (0.92 AUC), with a True Positive
+Rate of 29% (at 0% False Positive Rate) and a good model fit (Hosmer-Lemeshow
+test > 0.05). We also found that decreasing pitch and jitter, shorter segments
+of speech, and responses phrased as questions were positively associated with
+cognitive impairment.

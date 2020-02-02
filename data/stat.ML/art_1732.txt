@@ -1,0 +1,18 @@
+Adaptive Evolutionary Clustering
+In many practical applications of clustering, the objects to be clustered
+evolve over time, and a clustering result is desired at each time step. In such
+applications, evolutionary clustering typically outperforms traditional static
+clustering by producing clustering results that reflect long-term trends while
+being robust to short-term variations. Several evolutionary clustering
+algorithms have recently been proposed, often by adding a temporal smoothness
+penalty to the cost function of a static clustering method. In this paper, we
+introduce a different approach to evolutionary clustering by accurately
+tracking the time-varying proximities between objects followed by static
+clustering. We present an evolutionary clustering framework that adaptively
+estimates the optimal smoothing parameter using shrinkage estimation, a
+statistical approach that improves a naive estimate using additional
+information. The proposed framework can be used to extend a variety of static
+clustering algorithms, including hierarchical, k-means, and spectral
+clustering, into evolutionary clustering algorithms. Experiments on synthetic
+and real data sets indicate that the proposed framework outperforms static
+clustering and existing evolutionary clustering algorithms in many scenarios.

@@ -1,0 +1,13 @@
+BRAINSTORMING: Consensus Learning in Practice
+We present here an introduction to Brainstorming approach, that was recently
+proposed as a consensus meta-learning technique, and used in several practical
+applications in bioinformatics and chemoinformatics. The consensus learning
+denotes heterogeneous theoretical classification method, where one trains an
+ensemble of machine learning algorithms using different types of input training
+data representations. In the second step all solutions are gathered and the
+consensus is build between them. Therefore no early solution, given even by a
+generally low performing algorithm, is not discarder until the late phase of
+prediction, when the final conclusion is drawn by comparing different machine
+learning models. This final phase, i.e. consensus learning, is trying to
+balance the generality of solution and the overall performance of trained
+model.

@@ -1,0 +1,14 @@
+Generalization and Robustness of Batched Weighted Average Algorithm with
+  V-geometrically Ergodic Markov Data
+We analyze the generalization and robustness of the batched weighted average
+algorithm for V-geometrically ergodic Markov data. This algorithm is a good
+alternative to the empirical risk minimization algorithm when the latter
+suffers from overfitting or when optimizing the empirical risk is hard. For the
+generalization of the algorithm, we prove a PAC-style bound on the training
+sample size for the expected $L_1$-loss to converge to the optimal loss when
+training data are V-geometrically ergodic Markov chains. For the robustness, we
+show that if the training target variable's values contain bounded noise, then
+the generalization bound of the algorithm deviates at most by the range of the
+noise. Our results can be applied to the regression problem, the classification
+problem, and the case where there exists an unknown deterministic target
+hypothesis.

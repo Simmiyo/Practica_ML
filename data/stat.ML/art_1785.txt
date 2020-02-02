@@ -1,0 +1,25 @@
+Expectation-Propagation for Likelihood-Free Inference
+Many models of interest in the natural and social sciences have no
+closed-form likelihood function, which means that they cannot be treated using
+the usual techniques of statistical inference. In the case where such models
+can be efficiently simulated, Bayesian inference is still possible thanks to
+the Approximate Bayesian Computation (ABC) algorithm. Although many refinements
+have been suggested, ABC inference is still far from routine. ABC is often
+excruciatingly slow due to very low acceptance rates. In addition, ABC requires
+introducing a vector of "summary statistics", the choice of which is relatively
+arbitrary, and often require some trial and error, making the whole process
+quite laborious for the user.
+  We introduce in this work the EP-ABC algorithm, which is an adaptation to the
+likelihood-free context of the variational approximation algorithm known as
+Expectation Propagation (Minka, 2001). The main advantage of EP-ABC is that it
+is faster by a few orders of magnitude than standard algorithms, while
+producing an overall approximation error which is typically negligible. A
+second advantage of EP-ABC is that it replaces the usual global ABC constraint
+on the vector of summary statistics computed on the whole dataset, by n local
+constraints of the form that apply separately to each data-point. As a
+consequence, it is often possible to do away with summary statistics entirely.
+In that case, EP-ABC approximates directly the evidence (marginal likelihood)
+of the model.
+  Comparisons are performed in three real-world applications which are typical
+of likelihood-free inference, including one application in neuroscience which
+is novel, and possibly too challenging for standard ABC techniques.

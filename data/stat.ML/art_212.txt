@@ -1,0 +1,22 @@
+Asymptotic Accuracy of Bayes Estimation for Latent Variables with
+  Redundancy
+Hierarchical parametric models consisting of observable and latent variables
+are widely used for unsupervised learning tasks. For example, a mixture model
+is a representative hierarchical model for clustering. From the statistical
+point of view, the models can be regular or singular due to the distribution of
+data. In the regular case, the models have the identifiability; there is
+one-to-one relation between a probability density function for the model
+expression and the parameter. The Fisher information matrix is positive
+definite, and the estimation accuracy of both observable and latent variables
+has been studied. In the singular case, on the other hand, the models are not
+identifiable and the Fisher matrix is not positive definite. Conventional
+statistical analysis based on the inverse Fisher matrix is not applicable.
+Recently, an algebraic geometrical analysis has been developed and is used to
+elucidate the Bayes estimation of observable variables. The present paper
+applies this analysis to latent-variable estimation and determines its
+theoretical performance. Our results clarify behavior of the convergence of the
+posterior distribution. It is found that the posterior of the
+observable-variable estimation can be different from the one in the
+latent-variable estimation. Because of the difference, the Markov chain Monte
+Carlo method based on the parameter and the latent variable cannot construct
+the desired posterior distribution.

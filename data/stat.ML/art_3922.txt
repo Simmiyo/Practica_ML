@@ -1,0 +1,12 @@
+Optimistic Semi-supervised Least Squares Classification
+The goal of semi-supervised learning is to improve supervised classifiers by
+using additional unlabeled training examples. In this work we study a simple
+self-learning approach to semi-supervised learning applied to the least squares
+classifier. We show that a soft-label and a hard-label variant of self-learning
+can be derived by applying block coordinate descent to two related but slightly
+different objective functions. The resulting soft-label approach is related to
+an idea about dealing with missing data that dates back to the 1930s. We show
+that the soft-label variant typically outperforms the hard-label variant on
+benchmark datasets and partially explain this behaviour by studying the
+relative difficulty of finding good local minima for the corresponding
+objective functions.

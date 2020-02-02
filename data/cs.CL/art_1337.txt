@@ -1,0 +1,13 @@
+Cruciform: Solving Crosswords with Natural Language Processing
+Crossword puzzles are popular word games that require not only a large
+vocabulary, but also a broad knowledge of topics. Answering each clue is a
+natural language task on its own as many clues contain nuances, puns, or
+counter-intuitive word definitions. Additionally, it can be extremely difficult
+to ascertain definitive answers without the constraints of the crossword grid
+itself. This task is challenging for both humans and computers. We describe
+here a new crossword solving system, Cruciform. We employ a group of natural
+language components, each of which returns a list of candidate words with
+scores when given a clue. These lists are used in conjunction with the fill
+intersections in the puzzle grid to formulate a constraint satisfaction
+problem, in a manner similar to the one used in the Dr. Fill system. We
+describe the results of several of our experiments with the system.

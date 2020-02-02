@@ -1,0 +1,12 @@
+Truncation-free Hybrid Inference for DPMM
+Dirichlet process mixture models (DPMM) are a cornerstone of Bayesian
+non-parametrics. While these models free from choosing the number of components
+a-priori, computationally attractive variational inference often reintroduces
+the need to do so, via a truncation on the variational distribution. In this
+paper we present a truncation-free hybrid inference for DPMM, combining the
+advantages of sampling-based MCMC and variational methods. The proposed
+hybridization enables more efficient variational updates, while increasing
+model complexity only if needed. We evaluate the properties of the hybrid
+updates and their empirical performance in single- as well as mixed-membership
+models. Our method is easy to implement and performs favorably compared to
+existing schemas.

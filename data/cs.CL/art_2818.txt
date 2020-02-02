@@ -1,0 +1,16 @@
+A Weakly Supervised Approach to Train Temporal Relation Classifiers and
+  Acquire Regular Event Pairs Simultaneously
+Capabilities of detecting temporal relations between two events can benefit
+many applications. Most of existing temporal relation classifiers were trained
+in a supervised manner. Instead, we explore the observation that regular event
+pairs show a consistent temporal relation despite of their various contexts,
+and these rich contexts can be used to train a contextual temporal relation
+classifier, which can further recognize new temporal relation contexts and
+identify new regular event pairs. We focus on detecting after and before
+temporal relations and design a weakly supervised learning approach that
+extracts thousands of regular event pairs and learns a contextual temporal
+relation classifier simultaneously. Evaluation shows that the acquired regular
+event pairs are of high quality and contain rich commonsense knowledge and
+domain specific knowledge. In addition, the weakly supervised trained temporal
+relation classifier achieves comparable performance with the state-of-the-art
+supervised systems.

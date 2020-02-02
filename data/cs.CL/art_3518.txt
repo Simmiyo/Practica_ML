@@ -1,0 +1,18 @@
+$ρ$-hot Lexicon Embedding-based Two-level LSTM for Sentiment Analysis
+Sentiment analysis is a key component in various text mining applications.
+Numerous sentiment classification techniques, including conventional and deep
+learning-based methods, have been proposed in the literature. In most existing
+methods, a high-quality training set is assumed to be given. Nevertheless,
+constructing a high-quality training set that consists of highly accurate
+labels is challenging in real applications. This difficulty stems from the fact
+that text samples usually contain complex sentiment representations, and their
+annotation is subjective. We address this challenge in this study by leveraging
+a new labeling strategy and utilizing a two-level long short-term memory
+network to construct a sentiment classifier. Lexical cues are useful for
+sentiment analysis, and they have been utilized in conventional studies. For
+example, polar and privative words play important roles in sentiment analysis.
+A new encoding strategy, that is, $\rho$-hot encoding, is proposed to alleviate
+the drawbacks of one-hot encoding and thus effectively incorporate useful
+lexical cues. We compile three Chinese data sets on the basis of our label
+strategy and proposed methodology. Experiments on the three data sets
+demonstrate that the proposed method outperforms state-of-the-art algorithms.

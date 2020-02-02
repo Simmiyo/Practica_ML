@@ -1,0 +1,22 @@
+Multi-armed Bandit Problems with Strategic Arms
+We study a strategic version of the multi-armed bandit problem, where each
+arm is an individual strategic agent and we, the principal, pull one arm each
+round. When pulled, the arm receives some private reward $v_a$ and can choose
+an amount $x_a$ to pass on to the principal (keeping $v_a-x_a$ for itself). All
+non-pulled arms get reward $0$. Each strategic arm tries to maximize its own
+utility over the course of $T$ rounds. Our goal is to design an algorithm for
+the principal incentivizing these arms to pass on as much of their private
+rewards as possible.
+  When private rewards are stochastically drawn each round ($v_a^t \leftarrow
+D_a$), we show that:
+  - Algorithms that perform well in the classic adversarial multi-armed bandit
+setting necessarily perform poorly: For all algorithms that guarantee low
+regret in an adversarial setting, there exist distributions $D_1,\ldots,D_k$
+and an approximate Nash equilibrium for the arms where the principal receives
+reward $o(T)$.
+  - Still, there exists an algorithm for the principal that induces a game
+among the arms where each arm has a dominant strategy. When each arm plays its
+dominant strategy, the principal sees expected reward $\mu'T - o(T)$, where
+$\mu'$ is the second-largest of the means $\mathbb{E}[D_{a}]$. This algorithm
+maintains its guarantee if the arms are non-strategic ($x_a = v_a$), and also
+if there is a mix of strategic and non-strategic arms.

@@ -1,0 +1,15 @@
+ABtree: An Algorithm for Subgroup-Based Treatment Assignment
+Given two possible treatments, there may exist subgroups who benefit greater
+from one treatment than the other. This problem is relevant to the field of
+marketing, where treatments may correspond to different ways of selling a
+product. It is similarly relevant to the field of public policy, where
+treatments may correspond to specific government programs. And finally,
+personalized medicine is a field wholly devoted to understanding which
+subgroups of individuals will benefit from particular medical treatments. We
+present a computationally fast tree-based method, ABtree, for treatment effect
+differentiation. Unlike other methods, ABtree specifically produces decision
+rules for optimal treatment assignment on a per-individual basis. The treatment
+choices are selected for maximizing the overall occurrence of a desired binary
+outcome, conditional on a set of covariates. In this poster, we present the
+methodology on tree growth and pruning, and show performance results when
+applied to simulated data as well as real data.

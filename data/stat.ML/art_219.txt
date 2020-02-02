@@ -1,0 +1,17 @@
+Learning LiNGAM based on data with more variables than observations
+A very important topic in systems biology is developing statistical methods
+that automatically find causal relations in gene regulatory networks with no
+prior knowledge of causal connectivity. Many methods have been developed for
+time series data. However, discovery methods based on steady-state data are
+often necessary and preferable since obtaining time series data can be more
+expensive and/or infeasible for many biological systems. A conventional
+approach is causal Bayesian networks. However, estimation of Bayesian networks
+is ill-posed. In many cases it cannot uniquely identify the underlying causal
+network and only gives a large class of equivalent causal networks that cannot
+be distinguished between based on the data distribution. We propose a new
+discovery algorithm for uniquely identifying the underlying causal network of
+genes. To the best of our knowledge, the proposed method is the first algorithm
+for learning gene networks based on a fully identifiable causal model called
+LiNGAM. We here compare our algorithm with competing algorithms using
+artificially-generated data, although it is definitely better to test it based
+on real microarray gene expression data.

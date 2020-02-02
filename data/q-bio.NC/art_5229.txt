@@ -1,0 +1,17 @@
+Information In The Non-Stationary Case
+Information estimates such as the ``direct method'' of Strong et al. (1998)
+sidestep the difficult problem of estimating the joint distribution of response
+and stimulus by instead estimating the difference between the marginal and
+conditional entropies of the response. While this is an effective estimation
+strategy, it tempts the practitioner to ignore the role of the stimulus and the
+meaning of mutual information. We show here that, as the number of trials
+increases indefinitely, the direct (or ``plug-in'') estimate of marginal
+entropy converges (with probability 1) to the entropy of the time-averaged
+conditional distribution of the response, and the direct estimate of the
+conditional entropy converges to the time-averaged entropy of the conditional
+distribution of the response. Under joint stationarity and ergodicity of the
+response and stimulus, the difference of these quantities converges to the
+mutual information. When the stimulus is deterministic or non-stationary the
+direct estimate of information no longer estimates mutual information, which is
+no longer meaningful, but it remains a measure of variability of the response
+distribution across time.

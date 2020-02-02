@@ -1,0 +1,9 @@
+Latent Tree Learning with Differentiable Parsers: Shift-Reduce Parsing
+  and Chart Parsing
+Latent tree learning models represent sentences by composing their words
+according to an induced parse tree, all based on a downstream task. These
+models often outperform baselines which use (externally provided) syntax trees
+to drive the composition order. This work contributes (a) a new latent tree
+learning model based on shift-reduce parsing, with competitive downstream
+performance and non-trivial induced trees, and (b) an analysis of the trees
+learned by our shift-reduce model and by a chart-based model.

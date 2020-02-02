@@ -1,0 +1,11 @@
+Convolution Metric for Neuron Membrane Potential Recordings
+I provide a convolution metric which takes neural membrane potential
+recordings as arguments and compares their subthreshold features along with the
+timing and number of spikes within them--summarizing differences in these with
+a single "distance" between the recordings. Based on van Rossum's 2001 metric
+for spike trains, the metric relies on a convolution operation that it performs
+on the input data. The kernel used for the convolution is carefully chosen such
+that it produces a desirable frequency space response and, unlike van Rossum's
+kernel, causes the metric to be first order both in differences between nearby
+spike times and in differences between same-time membrane potential values: an
+important trait. 31 pages, 4 figures.

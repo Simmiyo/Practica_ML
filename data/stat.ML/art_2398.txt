@@ -1,0 +1,17 @@
+Hierarchical Mixtures-of-Experts for Exponential Family Regression
+  Models with Generalized Linear Mean Functions: A Survey of Approximation and
+  Consistency Results
+We investigate a class of hierarchical mixtures-of-experts (HME) models where
+exponential family regression models with generalized linear mean functions of
+the form psi(ga+fx^Tfgb) are mixed. Here psi(...) is the inverse link function.
+Suppose the true response y follows an exponential family regression model with
+mean function belonging to a class of smooth functions of the form psi(h(fx))
+where h(...)in W_2^infty (a Sobolev class over [0,1]^{s}). It is shown that the
+HME probability density functions can approximate the true density, at a rate
+of O(m^{-2/s}) in L_p norm, and at a rate of O(m^{-4/s}) in Kullback-Leibler
+divergence. These rates can be achieved within the family of HME structures
+with no more than s-layers, where s is the dimension of the predictor fx. It is
+also shown that likelihood-based inference based on HME is consistent in
+recovering the truth, in the sense that as the sample size n and the number of
+experts m both increase, the mean square error of the predicted mean response
+goes to zero. Conditions for such results to hold are stated and discussed.

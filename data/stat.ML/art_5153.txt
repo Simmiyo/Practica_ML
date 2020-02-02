@@ -1,0 +1,13 @@
+A Deep Learning Approach To Multiple Kernel Fusion
+Kernel fusion is a popular and effective approach for combining multiple
+features that characterize different aspects of data. Traditional approaches
+for Multiple Kernel Learning (MKL) attempt to learn the parameters for
+combining the kernels through sophisticated optimization procedures. In this
+paper, we propose an alternative approach that creates dense embeddings for
+data using the kernel similarities and adopts a deep neural network
+architecture for fusing the embeddings. In order to improve the effectiveness
+of this network, we introduce the kernel dropout regularization strategy
+coupled with the use of an expanded set of composition kernels. Experiment
+results on a real-world activity recognition dataset show that the proposed
+architecture is effective in fusing kernels and achieves state-of-the-art
+performance.

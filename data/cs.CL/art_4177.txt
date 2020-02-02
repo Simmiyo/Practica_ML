@@ -1,0 +1,20 @@
+Unsupervised and Efficient Vocabulary Expansion for Recurrent Neural
+  Network Language Models in ASR
+In automatic speech recognition (ASR) systems, recurrent neural network
+language models (RNNLM) are used to rescore a word lattice or N-best hypotheses
+list. Due to the expensive training, the RNNLM's vocabulary set accommodates
+only small shortlist of most frequent words. This leads to suboptimal
+performance if an input speech contains many out-of-shortlist (OOS) words. An
+effective solution is to increase the shortlist size and retrain the entire
+network which is highly inefficient. Therefore, we propose an efficient method
+to expand the shortlist set of a pretrained RNNLM without incurring expensive
+retraining and using additional training data. Our method exploits the
+structure of RNNLM which can be decoupled into three parts: input projection
+layer, middle layers, and output projection layer. Specifically, our method
+expands the word embedding matrices in projection layers and keeps the middle
+layers unchanged. In this approach, the functionality of the pretrained RNNLM
+will be correctly maintained as long as OOS words are properly modeled in two
+embedding spaces. We propose to model the OOS words by borrowing linguistic
+knowledge from appropriate in-shortlist words. Additionally, we propose to
+generate the list of OOS words to expand vocabulary in unsupervised manner by
+automatically extracting them from ASR output.

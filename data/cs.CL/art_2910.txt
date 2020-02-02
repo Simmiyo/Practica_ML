@@ -1,0 +1,12 @@
+Arabic Multi-Dialect Segmentation: bi-LSTM-CRF vs. SVM
+Arabic word segmentation is essential for a variety of NLP applications such
+as machine translation and information retrieval. Segmentation entails breaking
+words into their constituent stems, affixes and clitics. In this paper, we
+compare two approaches for segmenting four major Arabic dialects using only
+several thousand training examples for each dialect. The two approaches involve
+posing the problem as a ranking problem, where an SVM ranker picks the best
+segmentation, and as a sequence labeling problem, where a bi-LSTM RNN coupled
+with CRF determines where best to segment words. We are able to achieve solid
+segmentation results for all dialects using rather limited training data. We
+also show that employing Modern Standard Arabic data for domain adaptation and
+assuming context independence improve overall results.

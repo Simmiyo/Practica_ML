@@ -1,0 +1,13 @@
+A Benchmark and Comparison of Active Learning for Logistic Regression
+Logistic regression is by far the most widely used classifier in real-world
+applications. In this paper, we benchmark the state-of-the-art active learning
+methods for logistic regression and discuss and illustrate their underlying
+characteristics. Experiments are carried out on three synthetic datasets and 44
+real-world datasets, providing insight into the behaviors of these active
+learning methods with respect to the area of the learning curve (which plots
+classification accuracy as a function of the number of queried examples) and
+their computational costs. Surprisingly, one of the earliest and simplest
+suggested active learning methods, i.e., uncertainty sampling, performs
+exceptionally well overall. Another remarkable finding is that random sampling,
+which is the rudimentary baseline to improve upon, is not overwhelmed by
+individual active learning techniques in many cases.

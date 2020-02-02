@@ -1,0 +1,21 @@
+A wake-sleep algorithm for recurrent, spiking neural networks
+We investigate a recently proposed model for cortical computation which
+performs relational inference. It consists of several interconnected,
+structurally equivalent populations of leaky integrate-and-fire (LIF) neurons,
+which are trained in a self-organized fashion with spike-timing dependent
+plasticity (STDP). Despite its robust learning dynamics, the model is
+susceptible to a problem typical for recurrent networks which use a correlation
+based (Hebbian) learning rule: if trained with high learning rates, the
+recurrent connections can cause strong feedback loops in the network dynamics,
+which lead to the emergence of attractor states. This causes a strong reduction
+in the number of representable patterns and a decay in the inference ability of
+the network. As a solution, we introduce a conceptually very simple
+"wake-sleep" algorithm: during the wake phase, training is executed normally,
+while during the sleep phase, the network "dreams" samples from its generative
+model, which are induced by random input. This process allows us to activate
+the attractor states in the network, which can then be unlearned effectively by
+an anti-Hebbian mechanism. The algorithm allows us to increase learning rates
+up to a factor of ten while avoiding clustering, which allows the network to
+learn several times faster. Also for low learning rates, where clustering is
+not an issue, it improves convergence speed and reduces the final inference
+error.

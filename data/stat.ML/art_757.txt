@@ -1,0 +1,15 @@
+Bayesian nonparametric image segmentation using a generalized
+  Swendsen-Wang algorithm
+Unsupervised image segmentation aims at clustering the set of pixels of an
+image into spatially homogeneous regions. We introduce here a class of Bayesian
+nonparametric models to address this problem. These models are based on a
+combination of a Potts-like spatial smoothness component and a prior on
+partitions which is used to control both the number and size of clusters. This
+class of models is flexible enough to include the standard Potts model and the
+more recent Potts-Dirichlet Process model \cite{Orbanz2008}. More importantly,
+any prior on partitions can be introduced to control the global clustering
+structure so that it is possible to penalize small or large clusters if
+necessary. Bayesian computation is carried out using an original generalized
+Swendsen-Wang algorithm. Experiments demonstrate that our method is competitive
+in terms of RAND\ index compared to popular image segmentation methods, such as
+mean-shift, and recent alternative Bayesian nonparametric models.

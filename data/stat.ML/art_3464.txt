@@ -1,0 +1,17 @@
+Correlated Random Measures
+We develop correlated random measures, random measures where the atom weights
+can exhibit a flexible pattern of dependence, and use them to develop powerful
+hierarchical Bayesian nonparametric models. Hierarchical Bayesian nonparametric
+models are usually built from completely random measures, a Poisson-process
+based construction in which the atom weights are independent. Completely random
+measures imply strong independence assumptions in the corresponding
+hierarchical model, and these assumptions are often misplaced in real-world
+settings. Correlated random measures address this limitation. They model
+correlation within the measure by using a Gaussian process in concert with the
+Poisson process. With correlated random measures, for example, we can develop a
+latent feature model for which we can infer both the properties of the latent
+features and their dependency pattern. We develop several other examples as
+well. We study a correlated random measure model of pairwise count data. We
+derive an efficient variational inference algorithm and show improved
+predictive performance on large data sets of documents, web clicks, and
+electronic health records.

@@ -1,0 +1,21 @@
+Statistical Inference for Data-adaptive Doubly Robust Estimators with
+  Survival Outcomes
+The consistency of doubly robust estimators relies on consistent estimation
+of at least one of two nuisance regression parameters. In moderate to large
+dimensions, the use of flexible data-adaptive regression estimators may aid in
+achieving this consistency. However, $n^{1/2}$-consistency of doubly robust
+estimators is not guaranteed if one of the nuisance estimators is inconsistent.
+In this paper we present a doubly robust estimator for survival analysis with
+the novel property that it converges to a Gaussian variable at $n^{1/2}$-rate
+for a large class of data-adaptive estimators of the nuisance parameters, under
+the only assumption that at least one of them is consistently estimated at a
+$n^{1/4}$-rate. This result is achieved through adaptation of recent ideas in
+semiparametric inference, which amount to: (i) Gaussianizing (i.e., making
+asymptotically linear) a drift term that arises in the asymptotic analysis of
+the doubly robust estimator, and (ii) using cross-fitting to avoid entropy
+conditions on the nuisance estimators. We present the formula of the asymptotic
+variance of the estimator, which allows computation of doubly robust confidence
+intervals and p-values. We illustrate the finite-sample properties of the
+estimator in simulation studies, and demonstrate its use in a phase III
+clinical trial for estimating the effect of a novel therapy for the treatment
+of HER2 positive breast cancer.

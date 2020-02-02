@@ -1,0 +1,41 @@
+Scale-Free and Multifractal Time Dynamics of fMRI Signals during Rest
+  and Task
+Scaling temporal dynamics in functional MRI (fMRI) signals have been
+evidenced for a decade as intrinsic characteristics of ongoing brain activity
+(Zarahn et al., 1997). Recently, scaling properties were shown to fluctuate
+across brain networks and to be modulated between rest and task (He, 2011):
+notably, Hurst exponent, quantifying long memory, decreases under task in
+activating and deactivating brain regions. In most cases, such results were
+obtained: First, from univariate (voxelwise or regionwise) analysis, hence
+focusing on specific cognitive systems such as Resting-State Networks (RSNs)
+and raising the issue of the specificity of this scale-free dynamics modulation
+in RSNs. Second, using analysis tools designed to measure a single scaling
+exponent related to the second order statistics of the data, thus relying on
+models that either implicitly or explicitly assume Gaussianity and (asymptotic)
+self-similarity, while fMRI signals may significantly depart from those either
+of those two assumptions (Ciuciu et al., 2008; Wink et al., 2008). To address
+these issues, the present contribution elaborates on the analysis of the
+scaling properties of fMRI temporal dynamics by proposing two significant
+variations. First, scaling properties are technically investigated using the
+recently introduced Wavelet Leader-based Multifractal formalism (WLMF; Wendt et
+al., 2007). This measures a collection of scaling exponents, thus enables a
+richer and more versatile description of scale invariance (beyond correlation
+and Gaussianity), referred to as multifractality. Also, it benefits from
+improved estimation performance compared to tools previously used in the
+literature. Second, scaling properties are investigated in both RSN and non-RSN
+structures (e.g., artifacts), at a broader spatial scale than the voxel one,
+using a multivariate approach, namely the Multi-Subject Dictionary Learning
+(MSDL) algorithm (Varoquaux et al., 2011) that produces a set of spatial
+components that appear more sparse than their Independent Component Analysis
+(ICA) counterpart. These tools are combined and applied to a fMRI dataset
+comprising 12 subjects with resting-state and activation runs (Sadaghiani et
+al., 2009). Results stemming from those analysis confirm the already reported
+task-related decrease of long memory in functional networks, but also show that
+it occurs in artifacts, thus making this feature not specific to functional
+networks. Further, results indicate that most fMRI signals appear multifractal
+at rest except in non-cortical regions. Task-related modulation of
+multifractality appears only significant in functional networks and thus can be
+considered as the key property disentangling functional networks from
+artifacts. These finding are discussed in the light of the recent literature
+reporting scaling dynamics of EEG microstate sequences at rest and addressing
+non-stationarity issues in temporally independent fMRI modes.

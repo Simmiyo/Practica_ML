@@ -1,0 +1,24 @@
+Intraoperative margin assessment of human breast tissue in optical
+  coherence tomography images using deep neural networks
+Objective: In this work, we perform margin assessment of human breast tissue
+from optical coherence tomography (OCT) images using deep neural networks
+(DNNs). This work simulates an intraoperative setting for breast cancer
+lumpectomy. Methods: To train the DNNs, we use both the state-of-the-art
+methods (Weight Decay and DropOut) and a newly introduced regularization method
+based on function norms. Commonly used methods can fail when only a small
+database is available. The use of a function norm introduces a direct control
+over the complexity of the function with the aim of diminishing the risk of
+overfitting. Results: As neither the code nor the data of previous results are
+publicly available, the obtained results are compared with reported results in
+the literature for a conservative comparison. Moreover, our method is applied
+to locally collected data on several data configurations. The reported results
+are the average over the different trials. Conclusion: The experimental results
+show that the use of DNNs yields significantly better results than other
+techniques when evaluated in terms of sensitivity, specificity, F1 score,
+G-mean and Matthews correlation coefficient. Function norm regularization
+yielded higher and more robust results than competing methods. Significance: We
+have demonstrated a system that shows high promise for (partially) automated
+margin assessment of human breast tissue, Equal error rate (EER) is reduced
+from approximately 12\% (the lowest reported in the literature) to 5\%\,--\,a
+58\% reduction. The method is computationally feasible for intraoperative
+application (less than 2 seconds per image).

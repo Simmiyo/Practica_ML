@@ -1,0 +1,18 @@
+A Ternary Non-Commutative Latent Factor Model for Scalable Three-Way
+  Real Tensor Completion
+Motivated by large-scale Collaborative-Filtering applications, we present a
+Non-Commuting Latent Factor (NCLF) tensor-completion approach for modeling
+three-way arrays, which is diagonal like the standard PARAFAC, but wherein
+different terms distinguish different kinds of three-way relations of
+co-clusters, as determined by permutations of latent factors. The first key
+component of the algebraic representation is the usage of two non-commutative
+real trilinear operations as the building blocks of the approximation. These
+operations are the standard three dimensional triple-product and a trilinear
+product on a two-dimensional real vector space, which is a representation of
+the real Clifford Algebra Cl(1,1) (a certain Majorana spinor). Both operations
+are purely ternary in that they cannot be decomposed into two group-operations
+on the relevant spaces. The second key component of the method is combining
+these operations using permutation-symmetry preserving linear combinations. We
+apply the model to the MovieLens and Fannie Mae datasets, and find that it
+outperforms the PARAFAC model. We propose some future directions, such as
+unsupervised-learning.

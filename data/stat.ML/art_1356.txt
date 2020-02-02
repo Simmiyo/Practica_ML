@@ -1,0 +1,16 @@
+A Cluster Elastic Net for Multivariate Regression
+We propose a method for estimating coefficients in multivariate regression
+when there is a clustering structure to the response variables. The proposed
+method includes a fusion penalty, to shrink the difference in fitted values
+from responses in the same cluster, and an L1 penalty for simultaneous variable
+selection and estimation. The method can be used when the grouping structure of
+the response variables is known or unknown. When the clustering structure is
+unknown the method will simultaneously estimate the clusters of the response
+and the regression coefficients. Theoretical results are presented for the
+penalized least squares case, including asymptotic results allowing for p >> n.
+We extend our method to the setting where the responses are binomial variables.
+We propose a coordinate descent algorithm for both the normal and binomial
+likelihood, which can easily be extended to other generalized linear model
+(GLM) settings. Simulations and data examples from business operations and
+genomics are presented to show the merits of both the least squares and
+binomial methods.

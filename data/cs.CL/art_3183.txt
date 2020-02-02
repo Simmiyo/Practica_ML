@@ -1,0 +1,12 @@
+Exploring the Use of Text Classification in the Legal Domain
+In this paper, we investigate the application of text classification methods
+to support law professionals. We present several experiments applying machine
+learning techniques to predict with high accuracy the ruling of the French
+Supreme Court and the law area to which a case belongs to. We also investigate
+the influence of the time period in which a ruling was made on the form of the
+case description and the extent to which we need to mask information in a full
+case ruling to automatically obtain training and test data that resembles case
+descriptions. We developed a mean probability ensemble system combining the
+output of multiple SVM classifiers. We report results of 98% average F1 score
+in predicting a case ruling, 96% F1 score for predicting the law area of a
+case, and 87.07% F1 score on estimating the date of a ruling.

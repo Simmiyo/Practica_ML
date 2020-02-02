@@ -1,0 +1,13 @@
+Direct Learning of Sparse Changes in Markov Networks by Density Ratio
+  Estimation
+We propose a new method for detecting changes in Markov network structure
+between two sets of samples. Instead of naively fitting two Markov network
+models separately to the two data sets and figuring out their difference, we
+\emph{directly} learn the network structure change by estimating the ratio of
+Markov network models. This density-ratio formulation naturally allows us to
+introduce sparsity in the network structure change, which highly contributes to
+enhancing interpretability. Furthermore, computation of the normalization term,
+which is a critical bottleneck of the naive approach, can be remarkably
+mitigated. We also give the dual formulation of the optimization problem, which
+further reduces the computation cost for large-scale Markov networks. Through
+experiments, we demonstrate the usefulness of our method.

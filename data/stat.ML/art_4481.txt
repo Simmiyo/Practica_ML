@@ -1,0 +1,22 @@
+What Regularized Auto-Encoders Learn from the Data Generating
+  Distribution
+What do auto-encoders learn about the underlying data generating
+distribution? Recent work suggests that some auto-encoder variants do a good
+job of capturing the local manifold structure of data. This paper clarifies
+some of these previous observations by showing that minimizing a particular
+form of regularized reconstruction error yields a reconstruction function that
+locally characterizes the shape of the data generating density. We show that
+the auto-encoder captures the score (derivative of the log-density with respect
+to the input). It contradicts previous interpretations of reconstruction error
+as an energy function. Unlike previous results, the theorems provided here are
+completely generic and do not depend on the parametrization of the
+auto-encoder: they show what the auto-encoder would tend to if given enough
+capacity and examples. These results are for a contractive training criterion
+we show to be similar to the denoising auto-encoder training criterion with
+small corruption noise, but with contraction applied on the whole
+reconstruction function rather than just encoder. Similarly to score matching,
+one can consider the proposed training criterion as a convenient alternative to
+maximum likelihood because it does not involve a partition function. Finally,
+we show how an approximate Metropolis-Hastings MCMC can be setup to recover
+samples from the estimated distribution, and this is confirmed in sampling
+experiments.

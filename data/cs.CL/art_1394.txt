@@ -1,0 +1,14 @@
+Exploiting Unlabeled Data for Neural Grammatical Error Detection
+Identifying and correcting grammatical errors in the text written by
+non-native writers has received increasing attention in recent years. Although
+a number of annotated corpora have been established to facilitate data-driven
+grammatical error detection and correction approaches, they are still limited
+in terms of quantity and coverage because human annotation is labor-intensive,
+time-consuming, and expensive. In this work, we propose to utilize unlabeled
+data to train neural network based grammatical error detection models. The
+basic idea is to cast error detection as a binary classification problem and
+derive positive and negative training examples from unlabeled data. We
+introduce an attention-based neural network to capture long-distance
+dependencies that influence the word being detected. Experiments show that the
+proposed approach significantly outperforms SVMs and convolutional networks
+with fixed-size context window.

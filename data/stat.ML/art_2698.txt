@@ -1,0 +1,17 @@
+A Comprehensive Approach to Universal Piecewise Nonlinear Regression
+  Based on Trees
+In this paper, we investigate adaptive nonlinear regression and introduce
+tree based piecewise linear regression algorithms that are highly efficient and
+provide significantly improved performance with guaranteed upper bounds in an
+individual sequence manner. We use a tree notion in order to partition the
+space of regressors in a nested structure. The introduced algorithms adapt not
+only their regression functions but also the complete tree structure while
+achieving the performance of the "best" linear mixture of a doubly exponential
+number of partitions, with a computational complexity only polynomial in the
+number of nodes of the tree. While constructing these algorithms, we also avoid
+using any artificial "weighting" of models (with highly data dependent
+parameters) and, instead, directly minimize the final regression error, which
+is the ultimate performance goal. The introduced methods are generic such that
+they can readily incorporate different tree construction methods such as random
+trees in their framework and can use different regressor or partitioning
+functions as demonstrated in the paper.

@@ -1,0 +1,21 @@
+$k$-MLE: A fast algorithm for learning statistical mixture models
+We describe $k$-MLE, a fast and efficient local search algorithm for learning
+finite statistical mixtures of exponential families such as Gaussian mixture
+models. Mixture models are traditionally learned using the
+expectation-maximization (EM) soft clustering technique that monotonically
+increases the incomplete (expected complete) likelihood. Given prescribed
+mixture weights, the hard clustering $k$-MLE algorithm iteratively assigns data
+to the most likely weighted component and update the component models using
+Maximum Likelihood Estimators (MLEs). Using the duality between exponential
+families and Bregman divergences, we prove that the local convergence of the
+complete likelihood of $k$-MLE follows directly from the convergence of a dual
+additively weighted Bregman hard clustering. The inner loop of $k$-MLE can be
+implemented using any $k$-means heuristic like the celebrated Lloyd's batched
+or Hartigan's greedy swap updates. We then show how to update the mixture
+weights by minimizing a cross-entropy criterion that implies to update weights
+by taking the relative proportion of cluster points, and reiterate the mixture
+parameter update and mixture weight update processes until convergence. Hard EM
+is interpreted as a special case of $k$-MLE when both the component update and
+the weight update are performed successively in the inner loop. To initialize
+$k$-MLE, we propose $k$-MLE++, a careful initialization of $k$-MLE guaranteeing
+probabilistically a global bound on the best possible complete likelihood.

@@ -1,0 +1,19 @@
+Compressed Nonnegative Matrix Factorization is Fast and Accurate
+Nonnegative matrix factorization (NMF) has an established reputation as a
+useful data analysis technique in numerous applications. However, its usage in
+practical situations is undergoing challenges in recent years. The fundamental
+factor to this is the increasingly growing size of the datasets available and
+needed in the information sciences. To address this, in this work we propose to
+use structured random compression, that is, random projections that exploit the
+data structure, for two NMF variants: classical and separable. In separable NMF
+(SNMF) the left factors are a subset of the columns of the input matrix. We
+present suitable formulations for each problem, dealing with different
+representative algorithms within each one. We show that the resulting
+compressed techniques are faster than their uncompressed variants, vastly
+reduce memory demands, and do not encompass any significant deterioration in
+performance. The proposed structured random projections for SNMF allow to deal
+with arbitrarily shaped large matrices, beyond the standard limit of
+tall-and-skinny matrices, granting access to very efficient computations in
+this general setting. We accompany the algorithmic presentation with
+theoretical foundations and numerous and diverse examples, showing the
+suitability of the proposed approaches.

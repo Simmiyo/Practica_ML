@@ -1,0 +1,21 @@
+Spatio-Temporal Backpropagation for Training High-performance Spiking
+  Neural Networks
+Compared with artificial neural networks (ANNs), spiking neural networks
+(SNNs) are promising to explore the brain-like behaviors since the spikes could
+encode more spatio-temporal information. Although pre-training from ANN or
+direct training based on backpropagation (BP) makes the supervised training of
+SNNs possible, these methods only exploit the networks' spatial domain
+information which leads to the performance bottleneck and requires many
+complicated training skills. Another fundamental issue is that the spike
+activity is naturally non-differentiable which causes great difficulties in
+training SNNs. To this end, we build an iterative LIF model that is more
+friendly for gradient descent training. By simultaneously considering the
+layer-by-layer spatial domain (SD) and the timing-dependent temporal domain
+(TD) in the training phase, as well as an approximated derivative for the spike
+activity, we propose a spatio-temporal backpropagation (STBP) training
+framework without using any complicated technology. We achieve the best
+performance of multi-layered perceptron (MLP) compared with existing
+state-of-the-art algorithms over the static MNIST and the dynamic N-MNIST
+dataset as well as a custom object detection dataset. This work provides a new
+perspective to explore the high-performance SNNs for future brain-like
+computing paradigm with rich spatio-temporal dynamics.

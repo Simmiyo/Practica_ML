@@ -1,0 +1,30 @@
+Learning Content Selection Rules for Generating Object Descriptions in
+  Dialogue
+A fundamental requirement of any task-oriented dialogue system is the ability
+to generate object descriptions that refer to objects in the task domain. The
+subproblem of content selection for object descriptions in task-oriented
+dialogue has been the focus of much previous work and a large number of models
+have been proposed. In this paper, we use the annotated COCONUT corpus of
+task-oriented design dialogues to develop feature sets based on Dale and
+Reiters (1995) incremental model, Brennan and Clarks (1996) conceptual pact
+model, and Jordans (2000b) intentional influences model, and use these feature
+sets in a machine learning experiment to automatically learn a model of content
+selection for object descriptions. Since Dale and Reiters model requires a
+representation of discourse structure, the corpus annotations are used to
+derive a representation based on Grosz and Sidners (1986) theory of the
+intentional structure of discourse, as well as two very simple representations
+of discourse structure based purely on recency. We then apply the
+rule-induction program RIPPER to train and test the content selection component
+of an object description generator on a set of 393 object descriptions from the
+corpus. To our knowledge, this is the first reported experiment of a trainable
+content selection component for object description generation in dialogue.
+Three separate content selection models that are based on the three theoretical
+models, all independently achieve accuracies significantly above the majority
+class baseline (17%) on unseen test data, with the intentional influences model
+(42.4%) performing significantly better than either the incremental model
+(30.4%) or the conceptual pact model (28.9%). But the best performing models
+combine all the feature sets, achieving accuracies near 60%. Surprisingly, a
+simple recency-based representation of discourse structure does as well as one
+based on intentional structure. To our knowledge, this is also the first
+empirical comparison of a representation of Grosz and Sidners model of
+discourse structure with a simpler model for any generation task.

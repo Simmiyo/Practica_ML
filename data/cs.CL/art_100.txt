@@ -1,0 +1,16 @@
+ATLAS: A flexible and extensible architecture for linguistic annotation
+We describe a formal model for annotating linguistic artifacts, from which we
+derive an application programming interface (API) to a suite of tools for
+manipulating these annotations. The abstract logical model provides for a range
+of storage formats and promotes the reuse of tools that interact through this
+API. We focus first on ``Annotation Graphs,'' a graph model for annotations on
+linear signals (such as text and speech) indexed by intervals, for which
+efficient database storage and querying techniques are applicable. We note how
+a wide range of existing annotated corpora can be mapped to this annotation
+graph model. This model is then generalized to encompass a wider variety of
+linguistic ``signals,'' including both naturally occuring phenomena (as
+recorded in images, video, multi-modal interactions, etc.), as well as the
+derived resources that are increasingly important to the engineering of natural
+language processing systems (such as word lists, dictionaries, aligned
+bilingual corpora, etc.). We conclude with a review of the current efforts
+towards implementing key pieces of this architecture.

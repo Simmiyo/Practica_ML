@@ -1,0 +1,17 @@
+Using Neural Network Formalism to Solve Multiple-Instance Problems
+Many objects in the real world are difficult to describe by a single
+numerical vector of a fixed length, whereas describing them by a set of vectors
+is more natural. Therefore, Multiple instance learning (MIL) techniques have
+been constantly gaining on importance throughout last years. MIL formalism
+represents each object (sample) by a set (bag) of feature vectors (instances)
+of fixed length where knowledge about objects (e.g., class label) is available
+on bag level but not necessarily on instance level. Many standard tools
+including supervised classifiers have been already adapted to MIL setting since
+the problem got formalized in late nineties. In this work we propose a neural
+network (NN) based formalism that intuitively bridges the gap between MIL
+problem definition and the vast existing knowledge-base of standard models and
+classifiers. We show that the proposed NN formalism is effectively optimizable
+by a modified back-propagation algorithm and can reveal unknown patterns inside
+bags. Comparison to eight types of classifiers from the prior art on a set of
+14 publicly available benchmark datasets confirms the advantages and accuracy
+of the proposed solution.

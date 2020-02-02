@@ -1,0 +1,16 @@
+Lower bounds for quantum communication complexity
+We prove new lower bounds for bounded error quantum communication complexity.
+Our methods are based on the Fourier transform of the considered functions.
+First we generalize a method for proving classical communication complexity
+lower bounds developed by Raz to the quantum case. Applying this method we give
+an exponential separation between bounded error quantum communication
+complexity and nondeterministic quantum communication complexity. We develop
+several other lower bound methods based on the Fourier transform, notably
+showing that \sqrt{\bar{s}(f)/\log n}, for the average sensitivity \bar{s}(f)
+of a function f, yields a lower bound on the bounded error quantum
+communication complexity of f(x AND y XOR z), where x is a Boolean word held by
+Alice and y,z are Boolean words held by Bob. We then prove the first large
+lower bounds on the bounded error quantum communication complexity of
+functions, for which a polynomial quantum speedup is possible. For all the
+functions we investigate, the only previously applied general lower bound
+method based on discrepancy yields bounds that are O(\log n).

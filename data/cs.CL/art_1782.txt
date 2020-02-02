@@ -1,0 +1,20 @@
+Why and How to Pay Different Attention to Phrase Alignments of Different
+  Intensities
+This work studies comparatively two typical sentence pair classification
+tasks: textual entailment (TE) and answer selection (AS), observing that phrase
+alignments of different intensities contribute differently in these tasks. We
+address the problems of identifying phrase alignments of flexible granularity
+and pooling alignments of different intensities for these tasks. Examples for
+flexible granularity are alignments between two single words, between a single
+word and a phrase and between a short phrase and a long phrase. By intensity we
+roughly mean the degree of match, it ranges from identity over surface-form
+co-occurrence, rephrasing and other semantic relatedness to unrelated words as
+in lots of parenthesis text. Prior work (i) has limitations in phrase
+generation and representation, or (ii) conducts alignment at word and phrase
+levels by handcrafted features or (iii) utilizes a single attention mechanism
+over alignment intensities without considering the characteristics of specific
+tasks, which limits the system's effectiveness across tasks. We propose an
+architecture based on Gated Recurrent Unit that supports (i) representation
+learning of phrases of arbitrary granularity and (ii) task-specific focusing of
+phrase alignments between two sentences by attention pooling. Experimental
+results on TE and AS match our observation and are state-of-the-art.

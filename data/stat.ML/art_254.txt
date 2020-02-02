@@ -1,0 +1,16 @@
+Multiclass Data Segmentation using Diffuse Interface Methods on Graphs
+We present two graph-based algorithms for multiclass segmentation of
+high-dimensional data. The algorithms use a diffuse interface model based on
+the Ginzburg-Landau functional, related to total variation compressed sensing
+and image processing. A multiclass extension is introduced using the Gibbs
+simplex, with the functional's double-well potential modified to handle the
+multiclass case. The first algorithm minimizes the functional using a convex
+splitting numerical scheme. The second algorithm is a uses a graph adaptation
+of the classical numerical Merriman-Bence-Osher (MBO) scheme, which alternates
+between diffusion and thresholding. We demonstrate the performance of both
+algorithms experimentally on synthetic data, grayscale and color images, and
+several benchmark data sets such as MNIST, COIL and WebKB. We also make use of
+fast numerical solvers for finding the eigenvectors and eigenvalues of the
+graph Laplacian, and take advantage of the sparsity of the matrix. Experiments
+indicate that the results are competitive with or better than the current
+state-of-the-art multiclass segmentation algorithms.

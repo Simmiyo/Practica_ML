@@ -1,0 +1,13 @@
+An Attention Mechanism for Answer Selection Using a Combined Global and
+  Local View
+We propose a new attention mechanism for neural based question answering,
+which depends on varying granularities of the input. Previous work focused on
+augmenting recurrent neural networks with simple attention mechanisms which are
+a function of the similarity between a question embedding and an answer
+embeddings across time. We extend this by making the attention mechanism
+dependent on a global embedding of the answer attained using a separate
+network.
+  We evaluate our system on InsuranceQA, a large question answering dataset.
+Our model outperforms current state-of-the-art results on InsuranceQA. Further,
+we visualize which sections of text our attention mechanism focuses on, and
+explore its performance across different parameter settings.

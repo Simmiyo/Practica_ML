@@ -1,0 +1,17 @@
+CoreNEURON : An Optimized Compute Engine for the NEURON Simulator
+The NEURON simulator has been developed over the past three decades and is
+widely used by neuroscientists to model the electrical activity of neuronal
+networks. Large network simulation projects using NEURON have supercomputer
+allocations that individually measure in the millions of core hours.
+Supercomputer centers are transitioning to next generation architectures and
+the work accomplished per core hour for these simulations could be improved by
+an order of magnitude if NEURON was able to better utilize those new hardware
+capabilities. In order to adapt NEURON to evolving computer architectures, the
+compute engine of the NEURON simulator has been extracted and has been
+optimized as a library called CoreNEURON. This paper presents the design,
+implementation and optimizations of CoreNEURON. We describe how CoreNEURON can
+be used as a library with NEURON and then compare performance of different
+network models on multiple architectures including IBM BlueGene/Q, Intel
+Skylake, Intel MIC and NVIDIA GPU. We show how CoreNEURON can simulate existing
+NEURON network models with 4-7x less memory usage and 2-7x less execution time
+while maintaining binary result compatibility with NEURON.

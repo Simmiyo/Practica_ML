@@ -1,0 +1,19 @@
+Tensor-Based Fusion of EEG and FMRI to Understand Neurological Changes
+  in Schizophrenia
+Neuroimaging modalities such as functional magnetic resonance imaging (fMRI)
+and electroencephalography (EEG) provide information about neurological
+functions in complementary spatiotemporal resolutions; therefore, fusion of
+these modalities is expected to provide better understanding of brain activity.
+In this paper, we jointly analyze fMRI and multi-channel EEG signals collected
+during an auditory oddball task with the goal of capturing brain activity
+patterns that differ between patients with schizophrenia and healthy controls.
+Rather than selecting a single electrode or matricizing the third-order tensor
+that can be naturally used to represent multi-channel EEG signals, we preserve
+the multi-way structure of EEG data and use a coupled matrix and tensor
+factorization (CMTF) model to jointly analyze fMRI and EEG signals. Our
+analysis reveals that (i) joint analysis of EEG and fMRI using a CMTF model can
+capture meaningful temporal and spatial signatures of patterns that behave
+differently in patients and controls, and (ii) these differences and the
+interpretability of the associated components increase by including multiple
+electrodes from frontal, motor and parietal areas, but not necessarily by
+including all electrodes in the analysis.

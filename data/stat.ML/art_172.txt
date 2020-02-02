@@ -1,0 +1,10 @@
+Multiple Gaussian Process Models
+We consider a Gaussian process formulation of the multiple kernel learning
+problem. The goal is to select the convex combination of kernel matrices that
+best explains the data and by doing so improve the generalisation on unseen
+data. Sparsity in the kernel weights is obtained by adopting a hierarchical
+Bayesian approach: Gaussian process priors are imposed over the latent
+functions and generalised inverse Gaussians on their associated weights. This
+construction is equivalent to imposing a product of heavy-tailed process priors
+over function space. A variational inference algorithm is derived for
+regression and binary classification.

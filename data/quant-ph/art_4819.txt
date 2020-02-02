@@ -1,0 +1,12 @@
+A Comparison of Quantum Oracles
+A standard quantum oracle $S_f$ for a general function $f: Z_N \to Z_N $ is
+defined to act on two input states and return two outputs, with inputs
+$\ket{i}$ and $\ket{j}$ ($i,j \in Z_N $) returning outputs $\ket{i}$ and
+$\ket{j \oplus f(i)}$. However, if $f$ is known to be a one-to-one function, a
+simpler oracle, $M_f$, which returns $\ket{f(i)}$ given $\ket{i}$, can also be
+defined. We consider the relative strengths of these oracles. We define a
+simple promise problem which minimal quantum oracles can solve exponentially
+faster than classical oracles, via an algorithm which cannot be naively adapted
+to standard quantum oracles. We show that $S_f$ can be constructed by invoking
+$M_f$ and $(M_f)^{-1}$ once each, while $\Theta(\sqrt{N})$ invocations of $S_f$
+and/or $(S_f)^{-1}$ are required to construct $M_f$.

@@ -1,0 +1,19 @@
+Investigating Bar Structure of Disc Galaxies via PRIMAL: A
+  PaRtIcle-by-particle M2M ALgorithm
+We have modified our particle-by-particle adaptation of the made-to-measure
+(M2M) method, with the aim of modelling the Galactic disc from upcoming
+Galactic stellar survey data. In our new particle-by-particle M2M algorithm,
+PRIMAL, the observables of the target system are compared with those of the
+model galaxy at the position of the target stars, i.e. particles. The mass of
+the model particles are adjusted to reproduce the observables of the target
+system, and the gravitational potential is automatically adjusted by the
+changing mass of the particles. This paper builds upon our previous work,
+introducing likelihood-based velocity constraints in PRIMAL. In this paper we
+apply PRIMAL to barred disc galaxies created by a N-body simulation in a known
+dark matter potential, with no error in the observables. This paper
+demonstrates that PRIMAL can recover the radial profiles of the surface
+density, velocity dispersion in the radial and perpendicular directions, and
+the rotational velocity of the target discs, along with the apparent bar
+structure and pattern speed of the bar, especially when the reference frame is
+adjusted so that the bar angle of the target galaxy is aligned to that of the
+model galaxy at every timestep.

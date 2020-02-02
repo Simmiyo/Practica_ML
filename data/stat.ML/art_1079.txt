@@ -1,0 +1,12 @@
+Making Tree Ensembles Interpretable: A Bayesian Model Selection Approach
+Tree ensembles, such as random forests and boosted trees, are renowned for
+their high prediction performance. However, their interpretability is
+critically limited due to the enormous complexity. In this study, we present a
+method to make a complex tree ensemble interpretable by simplifying the model.
+Specifically, we formalize the simplification of tree ensembles as a model
+selection problem. Given a complex tree ensemble, we aim at obtaining the
+simplest representation that is essentially equivalent to the original one. To
+this end, we derive a Bayesian model selection algorithm that optimizes the
+simplified model while maintaining the prediction performance. Our numerical
+experiments on several datasets showed that complicated tree ensembles were
+reasonably approximated as interpretable.

@@ -1,0 +1,14 @@
+Time Series Prediction : Predicting Stock Price
+Time series forecasting is widely used in a multitude of domains. In this
+paper, we present four models to predict the stock price using the SPX index as
+input time series data. The martingale and ordinary linear models require the
+strongest assumption in stationarity which we use as baseline models. The
+generalized linear model requires lesser assumptions but is unable to
+outperform the martingale. In empirical testing, the RNN model performs the
+best comparing to other two models, because it will update the input through
+LSTM instantaneously, but also does not beat the martingale. In addition, we
+introduce an online to batch algorithm and discrepancy measure to inform
+readers the newest research in time series predicting method, which doesn't
+require any stationarity or non mixing assumptions in time series data.
+Finally, to apply these forecasting to practice, we introduce basic trading
+strategies that can create Win win and Zero sum situations.

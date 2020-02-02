@@ -1,0 +1,18 @@
+A Multiple Kernel Learning Approach for Human Behavioral Task
+  Classification using STN-LFP Signal
+Deep Brain Stimulation (DBS) has gained increasing attention as an effective
+method to mitigate Parkinsons disease (PD) disorders. Existing DBS systems are
+open-loop such that the system parameters are not adjusted automatically based
+on patients behavior. Classification of human behavior is an important step in
+the design of the next generation of DBS systems that are closed-loop. This
+paper presents a classification approach to recognize such behavioral tasks
+using the subthalamic nucleus (STN) Local Field Potential (LFP) signals. In our
+approach, we use the time-frequency representation (spectrogram) of the raw LFP
+signals recorded from left and right STNs as the feature vectors. Then these
+features are combined together via Support Vector Machines (SVM) with Multiple
+Kernel Learning (MKL) formulation. The MKL-based classification method is
+utilized to classify different tasks: button press, mouth movement, speech, and
+arm movement. Our experiments show that the lp-norm MKL significantly
+outperforms single kernel SVM-based classifiers in classifying behavioral tasks
+of five subjects even using signals acquired with a low sampling rate of 10 Hz.
+This leads to a lower computational cost.

@@ -1,0 +1,15 @@
+Analyzing P300 Distractors for Target Reconstruction
+P300-based brain-computer interfaces (BCIs) are often trained per-user and
+per-application space. Training such models requires ground truth knowledge of
+target and non-target stimulus categories during model training, which imparts
+bias into the model. Additionally, not all non-targets are created equal; some
+may contain visual features that resemble targets or may otherwise be visually
+salient. Current research has indicated that non-target distractors may elicit
+attenuated P300 responses based on the perceptual similarity of these
+distractors to the target category. To minimize this bias, and enable a more
+nuanced analysis, we use a generalized BCI approach that is fit to neither user
+nor task. We do not seek to improve the overall accuracy of the BCI with our
+generalized approach; we instead demonstrate the utility of our approach for
+identifying target-related image features. When combined with other intelligent
+agents, such as computer vision systems, the performance of the generalized
+model equals that of the user-specific models, without any user specific data.

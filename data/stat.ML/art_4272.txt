@@ -1,0 +1,14 @@
+Structured Variational Inference for Coupled Gaussian Processes
+Sparse variational approximations allow for principled and scalable inference
+in Gaussian Process (GP) models. In settings where several GPs are part of the
+generative model, theses GPs are a posteriori coupled. For many applications
+such as regression where predictive accuracy is the quantity of interest, this
+coupling is not crucial. Howewer if one is interested in posterior uncertainty,
+it cannot be ignored. A key element of variational inference schemes is the
+choice of the approximate posterior parameterization. When the number of latent
+variables is large, mean field (MF) methods provide fast and accurate posterior
+means while more structured posterior lead to inference algorithm of greater
+computational complexity. Here, we extend previous sparse GP approximations and
+propose a novel parameterization of variational posteriors in the multi-GP
+setting allowing for fast and scalable inference capturing posterior
+dependencies.

@@ -1,0 +1,14 @@
+Unperturbed: spectral analysis beyond Davis-Kahan
+Classical matrix perturbation results, such as Weyl's theorem for eigenvalues
+and the Davis-Kahan theorem for eigenvectors, are general purpose. These
+classical bounds are tight in the worst case, but in many settings sub-optimal
+in the typical case. In this paper, we present perturbation bounds which
+consider the nature of the perturbation and its interaction with the
+unperturbed structure in order to obtain significant improvements over the
+classical theory in many scenarios, such as when the perturbation is random. We
+demonstrate the utility of these new results by analyzing perturbations in the
+stochastic blockmodel where we derive much tighter bounds than provided by the
+classical theory. We use our new perturbation theory to show that a very simple
+and natural clustering algorithm -- whose analysis was difficult using the
+classical tools -- nevertheless recovers the communities of the blockmodel
+exactly even in very sparse graphs.

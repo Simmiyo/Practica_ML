@@ -1,0 +1,12 @@
+Learning flexible representations of stochastic processes on graphs
+Graph convolutional networks adapt the architecture of convolutional neural
+networks to learn rich representations of data supported on arbitrary graphs by
+replacing the convolution operations of convolutional neural networks with
+graph-dependent linear operations. However, these graph-dependent linear
+operations are developed for scalar functions supported on undirected graphs.
+We propose a class of linear operations for stochastic (time-varying) processes
+on directed (or undirected) graphs to be used in graph convolutional networks.
+We propose a parameterization of such linear operations using functional
+calculus to achieve arbitrarily low learning complexity. The proposed approach
+is shown to model richer behaviors and display greater flexibility in learning
+representations than product graph methods.

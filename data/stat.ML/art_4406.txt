@@ -1,0 +1,18 @@
+Adaptive Cardinality Estimation
+In this paper we address cardinality estimation problem which is an important
+subproblem in query optimization. Query optimization is a part of every
+relational DBMS responsible for finding the best way of the execution for the
+given query. These ways are called plans. The execution time of different plans
+may differ by several orders, so query optimizer has a great influence on the
+whole DBMS performance. We consider cost-based query optimization approach as
+the most popular one. It was observed that cost-based optimization quality
+depends much on cardinality estimation quality. Cardinality of the plan node is
+the number of tuples returned by it.
+  In the paper we propose a novel cardinality estimation approach with the use
+of machine learning methods. The main point of the approach is using query
+execution statistics of the previously executed queries to improve cardinality
+estimations. We called this approach adaptive cardinality estimation to reflect
+this point. The approach is general, flexible, and easy to implement. The
+experimental evaluation shows that this approach significantly increases the
+quality of cardinality estimation, and therefore increases the DBMS performance
+for some queries by several times or even by several dozens of times.

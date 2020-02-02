@@ -1,0 +1,12 @@
+Sparse Distance Weighted Discrimination
+Distance weighted discrimination (DWD) was originally proposed to handle the
+data piling issue in the support vector machine. In this paper, we consider the
+sparse penalized DWD for high-dimensional classification. The state-of-the-art
+algorithm for solving the standard DWD is based on second-order cone
+programming, however such an algorithm does not work well for the sparse
+penalized DWD with high-dimensional data. In order to overcome the challenging
+computation difficulty, we develop a very efficient algorithm to compute the
+solution path of the sparse DWD at a given fine grid of regularization
+parameters. We implement the algorithm in a publicly available R package sdwd.
+We conduct extensive numerical experiments to demonstrate the computational
+efficiency and classification performance of our method.

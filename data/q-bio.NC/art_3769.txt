@@ -1,0 +1,15 @@
+Spherical Harmonics Interpolation, Computation of Laplacians and Gauge
+  Theory
+The aim in this note is to define an algorithm to carry out minimal curvature
+spherical harmonics interpolation, which is then used to calculate the
+Laplacian for multi-electrode EEG data analysis. The approach taken is to
+respect the data. That is, we implement a minimal curvature condition for the
+interpolating surface subject to the constraints determined from the
+multi-electrode data. We implement this approach using spherical harmonics
+interpolation. In this elegant example we show that minimization requirement
+and constraints complement each other to fix all degrees of freedom
+automatically, as occurs in gauge theories. That is, the constraints are
+respected, while only the orthogonal subspace minimization constraints are
+enforced. As an example, we discuss the application to interpolate control data
+and calculate the temporal sequence of laplacians from an EEG Mismatch
+Negativity (MMN) experiment (using an implementation of the algorithm in IDL).

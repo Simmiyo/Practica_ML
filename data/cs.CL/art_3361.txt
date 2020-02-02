@@ -1,0 +1,20 @@
+Left-Center-Right Separated Neural Network for Aspect-based Sentiment
+  Analysis with Rotatory Attention
+Deep learning techniques have achieved success in aspect-based sentiment
+analysis in recent years. However, there are two important issues that still
+remain to be further studied, i.e., 1) how to efficiently represent the target
+especially when the target contains multiple words; 2) how to utilize the
+interaction between target and left/right contexts to capture the most
+important words in them. In this paper, we propose an approach, called
+left-center-right separated neural network with rotatory attention (LCR-Rot),
+to better address the two problems. Our approach has two characteristics: 1) it
+has three separated LSTMs, i.e., left, center and right LSTMs, corresponding to
+three parts of a review (left context, target phrase and right context); 2) it
+has a rotatory attention mechanism which models the relation between target and
+left/right contexts. The target2context attention is used to capture the most
+indicative sentiment words in left/right contexts. Subsequently, the
+context2target attention is used to capture the most important word in the
+target. This leads to a two-side representation of the target: left-aware
+target and right-aware target. We compare our approach on three benchmark
+datasets with ten related methods proposed recently. The results show that our
+approach significantly outperforms the state-of-the-art techniques.

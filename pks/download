@@ -1,0 +1,73 @@
+import pip
+import urllib3
+import bs4
+
+import urllib.request
+import urllib.parse
+import urllib.error
+import urllib.robotparser as rb
+"""
+URL = input("Enter an URL: ")
+requrl = urllib.request.urlopen(URL)
+print(requrl.read())
+
+parurl = urllib.parse.urlparse(URL)
+print(parurl)
+uparurl = urllib.parse.urlunparse(parurl)
+print(uparurl)
+splurl = urllib.parse.urlsplit(URL)
+print(splurl)
+usplurl = urllib.parse.urlunsplit(splurl)
+print(usplurl)
+print(urllib.parse.urldefrag(URL))
+
+print(urllib.parse.urlparse('https://www.google.com/search?ei=ruqAXZWJFcOckgWcgL7ICA&q=simona&oq=simona&gs_l=psy-ab.3..0l10.2221.2885..3054...0.1..0.111.594.3j3......0....1..gws-wiz.......0i71j0i67.NUbW2u6c3ZE&ved=0ahUKEwiVmMvnhdjkAhVDjqQKHRyAD4kQ4dUDCAs&uact=5'))
+
+alturl = input("Try another url: ")
+try:
+    link = urllib.request.urlopen(alturl)
+    print(link.read())
+except Exception as eroare:    #lack of connection to internet #servere inaccesibile precumhttps://www.google.com%20/%20search?q%20=%20test
+    print(str(eroare))
+"""
+
+
+permis = urllib.request.Request('https://www.google.com/search?q=python',data= None,
+                                headers = {'User-Agent' : 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+f = urllib.request.urlopen(permis)
+#print(f.read().decode('utf-8'))
+saveFile = open('withHeaders.txt','w')
+saveFile.write(str(f.read()))
+saveFile.close()
+
+"""
+bot = ubot.RobotFileParser() #bot is an object of this class
+a = bot.set_url('https://www.geeksforgeeks.org/robots.txt')
+print(bot.modified())
+print(a)
+print(bot.url)
+b = bot.can_fetch('*','https://www.geeksforgeeks.org / wp-admin/')
+print(b)
+c = bot.can_fetch('*','https://www.geeksforgeeks.org/')
+print(c)
+"""
+
+bot = rb.RobotFileParser()
+
+# checks where the website's robot.txt file reside
+x = bot.set_url('https://export.arxiv.org/robot.txt')
+print(x)
+
+# reads the files
+y = bot.read()
+print(y)
+
+# we can crawl the main site
+z = bot.can_fetch('*', 'https://export.arxiv.org/archive')
+print(z)
+
+# but can not crawl the disallowed url
+w = bot.can_fetch('*', 'https://export.arxiv.org/user')
+print(w)
+
+

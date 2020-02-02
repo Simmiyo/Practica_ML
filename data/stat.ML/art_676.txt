@@ -1,0 +1,12 @@
+Estimating network edge probabilities by neighborhood smoothing
+The estimation of probabilities of network edges from the observed adjacency
+matrix has important applications to predicting missing links and network
+denoising. It has usually been addressed by estimating the graphon, a function
+that determines the matrix of edge probabilities, but this is ill-defined
+without strong assumptions on the network structure. Here we propose a novel
+computationally efficient method, based on neighborhood smoothing to estimate
+the expectation of the adjacency matrix directly, without making the structural
+assumptions that graphon estimation requires. The neighborhood smoothing method
+requires little tuning, has a competitive mean-squared error rate, and
+outperforms many benchmark methods on link prediction in simulated and real
+networks.

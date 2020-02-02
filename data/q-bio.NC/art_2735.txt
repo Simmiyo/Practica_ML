@@ -1,0 +1,20 @@
+Impact of exponential long range and Gaussian short range lateral
+  connectivity on the distributed simulation of neural networks including up to
+  30 billion synapses
+Recent experimental neuroscience studies are pointing out the role of
+long-range intra-areal connectivity that can be modeled by a distance dependent
+exponential decay of the synaptic probability distribution. This short report
+provides a preliminary measure of the impact of exponentially decaying lateral
+connectivity compared to that of shorter-range Gaussian decays on the scaling
+behaviour and memory occupation of a distributed spiking neural network
+simulator (DPSNN). Two-dimensional grids of cortical columns composed by
+point-like spiking neurons have been connected by up to 30 billion synapses
+using exponential and Gaussian connectivity models. Up to 1024 hardware cores,
+hosted on a 64 nodes server platform, executed the MPI processes composing the
+distributed simulator. The hardware platform was a cluster of IBM NX360 M5
+16-core compute nodes, each one containing two Intel Xeon Haswell 8-core
+E5-2630 v3 processors, with a clock of 2.40GHz, interconnected through an
+InfiniBand network. This study is conducted in the framework of the CORTICONIC
+FET project, also in view of the next -to-start activities foreseen as part of
+the Human Brain Project (HBP), SubProject 3 Cognitive and Systems Neuroscience,
+WaveScalES work-package.

@@ -1,0 +1,20 @@
+Norm-Free Radon-Nikodym Approach to Machine Learning
+For Machine Learning (ML) classification problem, where a vector of
+$\mathbf{x}$--observations (values of attributes) is mapped to a single $y$
+value (class label), a generalized Radon--Nikodym type of solution is proposed.
+Quantum--mechanics --like probability states $\psi^2(\mathbf{x})$ are
+considered and "Cluster Centers", corresponding to the extremums of
+$<y\psi^2(\mathbf{x})>/<\psi^2(\mathbf{x})>$, are found from generalized
+eigenvalues problem. The eigenvalues give possible $y^{[i]}$ outcomes and
+corresponding to them eigenvectors $\psi^{[i]}(\mathbf{x})$ define "Cluster
+Centers". The projection of a $\psi$ state, localized at given $\mathbf{x}$ to
+classify, on these eigenvectors define the probability of $y^{[i]}$ outcome,
+thus avoiding using a norm ($L^2$ or other types), required for "quality
+criteria" in a typical Machine Learning technique. A coverage of each `Cluster
+Center" is calculated, what potentially allows to separate system properties
+(described by $y^{[i]}$ outcomes) and system testing conditions (described by
+$C^{[i]}$ coverage). As an example of such application $y$ distribution
+estimator is proposed in a form of pairs $(y^{[i]},C^{[i]})$, that can be
+considered as Gauss quadratures generalization. This estimator allows to
+perform $y$ probability distribution estimation in a strongly non--Gaussian
+case.

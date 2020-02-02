@@ -1,0 +1,24 @@
+Spectral Synchronicity in Brain Signals
+Brain activity following stimulus presentation and during resting state are
+often the result of highly coordinated responses of large numbers of neurons
+both locally and globally. Coordinated activity of neurons can give rise to
+oscillations which are captured by electroencephalograms (EEG). In this paper,
+we examine EEGs as this is the primary data being used by our collaborators who
+are studying coordination of neuronal response during the execution of tasks
+such as learning, and memory formation, retention and retrieval. In this paper,
+we develop the spectral merger clustering (SMC) method that identifies
+synchronized brain regions during resting state in a sense that these regions
+share similar oscillations or waveforms. The SMC method, produces clusters of
+EEGs which serve as a proxy for segmenting the brain cortical surface since the
+EEGs capture neuronal activity over a locally distributed region on the
+cortical surface. The extent of desynchronicity between a pair of EEGs is
+measured using the total variation distance (TVD) which gives the largest
+possible difference between the spectral densities of the pair of EEGs. We
+considered the spectral merger algorithm for clustering EEGs, which updates the
+spectral estimate of the cluster from a weighted average of the spectral
+estimate obtained from each EEG in the cluster. Numerical experiments suggest
+that the SMC method performs very well in producing the correct clusters. When
+applied to resting state EEG data, the method showed how some regions, though
+not contiguously connected on the cortical surface, are spectrally synchronized
+during resting state. Moreover, the method demonstrates that brain
+organization, as expressed in cluster formation, evolves over resting state.

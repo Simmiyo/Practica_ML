@@ -1,0 +1,21 @@
+Spiking Neural Predictive Coding for Continual Learning from Data
+  Streams
+For energy-efficient computation in specialized neuromorphic hardware, we
+present the Spiking Neural Coding Network, an instantiation of a family of
+artificial neural models strongly motivated by the theory of predictive coding.
+The model, in essence, works by operating in a never-ending process of
+"guess-and-check", where neurons predict the activity values of one another and
+then immediately adjust their own activities to make better future predictions.
+The interactive, iterative nature of our neural system fits well into the
+continuous time formulation of data sensory stream prediction and, as we show,
+the model's structure yields a simple, local synaptic update rule, which could
+be used to complement or replace online spike-timing dependent plasticity
+rules. In this article, we experiment with an instantiation of our model that
+consists of leaky integrate-and-fire units. However, the general framework
+within which our model is situated can naturally incorporate more complex,
+formal neurons such as the Hodgkin-Huxley model. Our experimental results in
+pattern recognition demonstrate the potential of the proposed model when binary
+spike trains are the primary paradigm for inter-neuron communication. Notably,
+our model is competitive in terms of classification performance, capable of
+conducting online semi-supervised learning, and more computationally economical
+and biologically-plausible than popular artificial neural networks.

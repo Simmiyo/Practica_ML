@@ -1,0 +1,10 @@
+APPLE: Approximate Path for Penalized Likelihood Estimators
+In high-dimensional data analysis, penalized likelihood estimators are shown
+to provide superior results in both variable selection and parameter
+estimation. A new algorithm, APPLE, is proposed for calculating the Approximate
+Path for Penalized Likelihood Estimators. Both the convex penalty (such as
+LASSO) and the nonconvex penalty (such as SCAD and MCP) cases are considered.
+The APPLE efficiently computes the solution path for the penalized likelihood
+estimator using a hybrid of the modified predictor-corrector method and the
+coordinate-descent algorithm. APPLE is compared with several well-known
+packages via simulation and analysis of two gene expression data sets.

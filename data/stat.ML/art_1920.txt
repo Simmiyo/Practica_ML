@@ -1,0 +1,8 @@
+Super-Samples from Kernel Herding
+We extend the herding algorithm to continuous spaces by using the kernel
+trick. The resulting "kernel herding" algorithm is an infinite memory
+deterministic process that learns to approximate a PDF with a collection of
+samples. We show that kernel herding decreases the error of expectations of
+functions in the Hilbert space at a rate O(1/T) which is much faster than the
+usual O(1/pT) for iid random samples. We illustrate kernel herding by
+approximating Bayesian predictive distributions.

@@ -1,0 +1,18 @@
+Modeling and Interpreting Real-world Human Risk Decision Making with
+  Inverse Reinforcement Learning
+We model human decision-making behaviors in a risk-taking task using inverse
+reinforcement learning (IRL) for the purposes of understanding real human
+decision making under risk. To the best of our knowledge, this is the first
+work applying IRL to reveal the implicit reward function in human risk-taking
+decision making and to interpret risk-prone and risk-averse decision-making
+policies. We hypothesize that the state history (e.g. rewards and decisions in
+previous trials) are related to the human reward function, which leads to
+risk-averse and risk-prone decisions. We design features that reflect these
+factors in the reward function of IRL and learn the corresponding weight that
+is interpretable as the importance of features. The results confirm the
+sub-optimal risk-related decisions of human-driven by the personalized reward
+function. In particular, the risk-prone person tends to decide based on the
+current pump number, while the risk-averse person relies on burst information
+from the previous trial and the average end status. Our results demonstrate
+that IRL is an effective tool to model human decision-making behavior, as well
+as to help interpret the human psychological process in risk decision-making.

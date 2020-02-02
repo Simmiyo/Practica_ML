@@ -1,0 +1,12 @@
+PLDA with Two Sources of Inter-session Variability
+In some speaker recognition scenarios we find conversations recorded
+simultaneously over multiple channels. That is the case of the interviews in
+the NIST SRE dataset. To take advantage of that, we propose a modification of
+the PLDA model that considers two different inter-session variability terms.
+The first term is tied between all the recordings belonging to the same
+conversation whereas the second is not. Thus, the former mainly intends to
+capture the variability due to the phonetic content of the conversation while
+the latter tries to capture the channel variability. In this document, we
+derive the equations for this model. This model was applied in the paper
+"Handling Recordings Acquired Simultaneously over Multiple Channels with PLDA"
+published at Interspeech 2013.

@@ -1,0 +1,17 @@
+Learning Deep Representation Without Parameter Inference for Nonlinear
+  Dimensionality Reduction
+Unsupervised deep learning is one of the most powerful representation
+learning techniques. Restricted Boltzman machine, sparse coding, regularized
+auto-encoders, and convolutional neural networks are pioneering building blocks
+of deep learning. In this paper, we propose a new building block -- distributed
+random models. The proposed method is a special full implementation of the
+product of experts: (i) each expert owns multiple hidden units and different
+experts have different numbers of hidden units; (ii) the model of each expert
+is a k-center clustering, whose k-centers are only uniformly sampled examples,
+and whose output (i.e. the hidden units) is a sparse code that only the
+similarity values from a few nearest neighbors are reserved. The relationship
+between the pioneering building blocks, several notable research branches and
+the proposed method is analyzed. Experimental results show that the proposed
+deep model can learn better representations than deep belief networks and
+meanwhile can train a much larger network with much less time than deep belief
+networks.

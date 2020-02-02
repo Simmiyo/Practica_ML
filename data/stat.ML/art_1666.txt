@@ -1,0 +1,9 @@
+Context models on sequences of covers
+We present a class of models that, via a simple construction, enables exact,
+incremental, non-parametric, polynomial-time, Bayesian inference of conditional
+measures. The approach relies upon creating a sequence of covers on the
+conditioning variable and maintaining a different model for each set within a
+cover. Inference remains tractable by specifying the probabilistic model in
+terms of a random walk within the sequence of covers. We demonstrate the
+approach on problems of conditional density estimation, which, to our knowledge
+is the first closed-form, non-parametric Bayesian approach to this problem.

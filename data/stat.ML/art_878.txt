@@ -1,0 +1,9 @@
+Improving Variational Auto-Encoders using convex combination linear
+  Inverse Autoregressive Flow
+In this paper, we propose a new volume-preserving flow and show that it
+performs similarly to the linear general normalizing flow. The idea is to
+enrich a linear Inverse Autoregressive Flow by introducing multiple
+lower-triangular matrices with ones on the diagonal and combining them using a
+convex combination. In the experimental studies on MNIST and Histopathology
+data we show that the proposed approach outperforms other volume-preserving
+flows and is competitive with current state-of-the-art linear normalizing flow.

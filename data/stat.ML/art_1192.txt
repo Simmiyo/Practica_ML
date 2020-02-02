@@ -1,0 +1,21 @@
+Uniform Inference for High-dimensional Quantile Regression: Linear
+  Functionals and Regression Rank Scores
+Hypothesis tests in models whose dimension far exceeds the sample size can be
+formulated much like the classical studentized tests only after the initial
+bias of estimation is removed successfully. The theory of debiased estimators
+can be developed in the context of quantile regression models for a fixed
+quantile value. However, it is frequently desirable to formulate tests based on
+the quantile regression process, as this leads to more robust tests and more
+stable confidence sets. Additionally, inference in quantile regression requires
+estimation of the so called sparsity function, which depends on the unknown
+density of the error. In this paper we consider a debiasing approach for the
+uniform testing problem. We develop high-dimensional regression rank scores and
+show how to use them to estimate the sparsity function, as well as how to adapt
+them for inference involving the quantile regression process. Furthermore, we
+develop a Kolmogorov-Smirnov test in a location-shift high-dimensional models
+and confidence sets that are uniformly valid for many quantile values. The main
+technical result are the development of a Bahadur representation of the
+debiasing estimator that is uniform over a range of quantiles and uniform
+convergence of the quantile process to the Brownian bridge process, which are
+of independent interest. Simulation studies illustrate finite sample properties
+of our procedure.

@@ -1,0 +1,14 @@
+Lipschitz Parametrization of Probabilistic Graphical Models
+We show that the log-likelihood of several probabilistic graphical models is
+Lipschitz continuous with respect to the lp-norm of the parameters. We discuss
+several implications of Lipschitz parametrization. We present an upper bound of
+the Kullback-Leibler divergence that allows understanding methods that penalize
+the lp-norm of differences of parameters as the minimization of that upper
+bound. The expected log-likelihood is lower bounded by the negative lp-norm,
+which allows understanding the generalization ability of probabilistic models.
+The exponential of the negative lp-norm is involved in the lower bound of the
+Bayes error rate, which shows that it is reasonable to use parameters as
+features in algorithms that rely on metric spaces (e.g. classification,
+dimensionality reduction, clustering). Our results do not rely on specific
+algorithms for learning the structure or parameters. We show preliminary
+results for activity recognition and temporal segmentation.

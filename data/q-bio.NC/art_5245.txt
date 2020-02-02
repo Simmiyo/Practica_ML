@@ -1,0 +1,9 @@
+Adaptive Cluster Expansion for Inferring Boltzmann Machines with Noisy
+  Data
+We introduce a procedure to infer the interactions among a set of binary
+variables, based on their sampled frequencies and pairwise correlations. The
+algorithm builds the clusters of variables contributing most to the entropy of
+the inferred Ising model, and rejects the small contributions due to the
+sampling noise. Our procedure successfully recovers benchmark Ising models even
+at criticality and in the low temperature phase, and is applied to
+neurobiological data.

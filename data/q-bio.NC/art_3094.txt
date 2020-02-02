@@ -1,0 +1,29 @@
+Measures of spike train synchrony for data with multiple time-scales
+Background: Measures of spike train synchrony are widely used in both
+experimental and computational neuroscience. Time-scale independent and
+parameter-free measures, such as the ISI-distance, the SPIKE-distance and
+SPIKE-synchronization, are preferable to time-scale parametric measures, since
+by adapting to the local firing rate they take into account all the time-scales
+of a given dataset.
+  New Method: In data containing multiple time-scales (e.g. regular spiking and
+bursts) one is typically less interested in the smallest time-scales and a more
+adaptive approach is needed. Here we propose the A-ISI-distance, the
+A-SPIKE-distance and A-SPIKE-synchronization, which generalize the original
+measures by considering the local relative to the global time-scales. For the
+A-SPIKE-distance we also introduce a rate-independent extension called the
+RIA-SPIKE-distance, which focuses specifically on spike timing.
+  Results: The adaptive generalizations A-ISI-distance and A-SPIKE-distance
+allow to disregard spike time differences that are not relevant on a more
+global scale. A-SPIKE-synchronization does not any longer demand an
+unreasonably high accuracy for spike doublets and coinciding bursts. Finally,
+the RIA-SPIKE-distance proves to be independent of rate ratios between spike
+trains.
+  Comparison with Existing Methods: We find that compared to the original
+versions the A-ISI-distance and the A-SPIKE-distance yield improvements for
+spike trains containing different time-scales without exhibiting any unwanted
+side effects in other examples. A-SPIKE-synchronization matches spikes more
+efficiently than SPIKE-Synchronization.
+  Conclusions: With these proposals we have completed the picture, since we now
+provide adaptive generalized measures that are sensitive to rate only
+(A-ISI-distance), to timing only (ARI-SPIKE-distance), and to both at the same
+time (A-SPIKE-distance).

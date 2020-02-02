@@ -1,0 +1,11 @@
+Spatio-Temporal Graphical Model Selection
+We consider the problem of estimating the topology of spatial interactions in
+a discrete state, discrete time spatio-temporal graphical model where the
+interactions affect the temporal evolution of each agent in a network. Among
+other models, the susceptible, infected, recovered ($SIR$) model for
+interaction events fall into this framework. We pose the problem as a structure
+learning problem and solve it using an $\ell_1$-penalized likelihood convex
+program. We evaluate the solution on a simulated spread of infectious over a
+complex network. Our topology estimates outperform those of a standard spatial
+Markov random field graphical model selection using $\ell_1$-regularized
+logistic regression.

@@ -1,0 +1,13 @@
+Kernel Alignment Inspired Linear Discriminant Analysis
+Kernel alignment measures the degree of similarity between two kernels. In
+this paper, inspired from kernel alignment, we propose a new Linear
+Discriminant Analysis (LDA) formulation, kernel alignment LDA (kaLDA). We first
+define two kernels, data kernel and class indicator kernel. The problem is to
+find a subspace to maximize the alignment between subspace-transformed data
+kernel and class indicator kernel. Surprisingly, the kernel alignment induced
+kaLDA objective function is very similar to classical LDA and can be expressed
+using between-class and total scatter matrices. This can be extended to
+multi-label data. We use a Stiefel-manifold gradient descent algorithm to solve
+this problem. We perform experiments on 8 single-label and 6 multi-label data
+sets. Results show that kaLDA has very good performance on many single-label
+and multi-label problems.

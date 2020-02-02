@@ -1,0 +1,26 @@
+Quantifying the strength of structural connectivity underlying
+  functional brain networks
+In recent years, there has been strong interest in neuroscience studies to
+investigate brain organization through networks of brain regions that
+demonstrate strong functional connectivity (FC). These networks are extracted
+from observed fMRI using data-driven analytic methods such as independent
+component analysis (ICA). A notable limitation of these FC methods is that they
+do not provide any information on the underlying structural connectivity (SC),
+which is believed to serve as the basis for interregional interactions in brain
+activity. We propose a new statistical measure of the strength of SC (sSC)
+underlying FC networks obtained from data-driven methods. The sSC measure is
+developed using information from diffusion tensor imaging (DTI) data, and can
+be applied to compare the strength of SC across different FC networks.
+Furthermore, we propose a reliability index for data-driven FC networks to
+measure the reproducibility of the networks through re-sampling the observed
+data. To perform statistical inference such as hypothesis testing on the sSC,
+we develop a formal variance estimator of sSC based a spatial semivariogram
+model with a novel distance metric. We demonstrate the performance of the sSC
+measure and its estimation and inference methods with simulation studies. For
+real data analysis, we apply our methods to a multimodal imaging study with
+resting-state fMRI and DTI data from 20 healthy controls and 20 subjects with
+major depressive disorder. Results show that well-known resting state networks
+all demonstrate higher SC within the network as compared to the average
+structural connections across the brain. We also found that sSC is positively
+associated with the reliability index, indicating that the FC networks that
+have stronger underlying SC are more reproducible across samples.

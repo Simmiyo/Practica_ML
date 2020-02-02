@@ -1,0 +1,18 @@
+Joint entity recognition and relation extraction as a multi-head
+  selection problem
+State-of-the-art models for joint entity recognition and relation extraction
+strongly rely on external natural language processing (NLP) tools such as POS
+(part-of-speech) taggers and dependency parsers. Thus, the performance of such
+joint models depends on the quality of the features obtained from these NLP
+tools. However, these features are not always accurate for various languages
+and contexts. In this paper, we propose a joint neural model which performs
+entity recognition and relation extraction simultaneously, without the need of
+any manually extracted features or the use of any external tool. Specifically,
+we model the entity recognition task using a CRF (Conditional Random Fields)
+layer and the relation extraction task as a multi-head selection problem (i.e.,
+potentially identify multiple relations for each entity). We present an
+extensive experimental setup, to demonstrate the effectiveness of our method
+using datasets from various contexts (i.e., news, biomedical, real estate) and
+languages (i.e., English, Dutch). Our model outperforms the previous neural
+models that use automatically extracted features, while it performs within a
+reasonable margin of feature-based neural models, or even beats them.

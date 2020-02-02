@@ -1,0 +1,22 @@
+Optimal Subsampling Approaches for Large Sample Linear Regression
+A significant hurdle for analyzing large sample data is the lack of effective
+statistical computing and inference methods. An emerging powerful approach for
+analyzing large sample data is subsampling, by which one takes a random
+subsample from the original full sample and uses it as a surrogate for
+subsequent computation and estimation. In this paper, we study subsampling
+methods under two scenarios: approximating the full sample ordinary
+least-square (OLS) estimator and estimating the coefficients in linear
+regression. We present two algorithms, weighted estimation algorithm and
+unweighted estimation algorithm, and analyze asymptotic behaviors of their
+resulting subsample estimators under general conditions. For the weighted
+estimation algorithm, we propose a criterion for selecting the optimal sampling
+probability by making use of the asymptotic results. On the basis of the
+criterion, we provide two novel subsampling methods, the optimal subsampling
+and the predictor- length subsampling methods. The predictor-length subsampling
+method is based on the L2 norm of predictors rather than leverage scores. Its
+computational cost is scalable. For unweighted estimation algorithm, we show
+that its resulting subsample estimator is not consistent to the full sample OLS
+estimator. However, it has better performance than the weighted estimation
+algorithm for estimating the coefficients. Simulation studies and a real data
+example are used to demonstrate the effectiveness of our proposed subsampling
+methods.

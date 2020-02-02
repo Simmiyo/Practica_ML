@@ -1,0 +1,13 @@
+Saturating Splines and Feature Selection
+We extend the adaptive regression spline model by incorporating saturation,
+the natural requirement that a function extend as a constant outside a certain
+range. We fit saturating splines to data using a convex optimization problem
+over a space of measures, which we solve using an efficient algorithm based on
+the conditional gradient method. Unlike many existing approaches, our algorithm
+solves the original infinite-dimensional (for splines of degree at least two)
+optimization problem without pre-specified knot locations. We then adapt our
+algorithm to fit generalized additive models with saturating splines as
+coordinate functions and show that the saturation requirement allows our model
+to simultaneously perform feature selection and nonlinear function fitting.
+Finally, we briefly sketch how the method can be extended to higher order
+splines and to different requirements on the extension outside the data range.

@@ -1,0 +1,11 @@
+Learning Less-Overlapping Representations
+In representation learning (RL), how to make the learned representations easy
+to interpret and less overfitted to training data are two important but
+challenging issues. To address these problems, we study a new type of
+regulariza- tion approach that encourages the supports of weight vectors in RL
+models to have small overlap, by simultaneously promoting near-orthogonality
+among vectors and sparsity of each vector. We apply the proposed regularizer to
+two models: neural networks (NNs) and sparse coding (SC), and develop an
+efficient ADMM-based algorithm for regu- larized SC. Experiments on various
+datasets demonstrate that weight vectors learned under our regularizer are more
+interpretable and have better generalization performance.

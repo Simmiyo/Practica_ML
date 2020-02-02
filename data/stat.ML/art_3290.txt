@@ -1,0 +1,11 @@
+Crowdsourcing Feature Discovery via Adaptively Chosen Comparisons
+We introduce an unsupervised approach to efficiently discover the underlying
+features in a data set via crowdsourcing. Our queries ask crowd members to
+articulate a feature common to two out of three displayed examples. In addition
+we also ask the crowd to provide binary labels to the remaining examples based
+on the discovered features. The triples are chosen adaptively based on the
+labels of the previously discovered features on the data set. In two natural
+models of features, hierarchical and independent, we show that a simple
+adaptive algorithm, using "two-out-of-three" similarity queries, recovers all
+features with less labor than any nonadaptive algorithm. Experimental results
+validate the theoretical findings.

@@ -1,0 +1,17 @@
+Non-Redundant Spectral Dimensionality Reduction
+Spectral dimensionality reduction algorithms are widely used in numerous
+domains, including for recognition, segmentation, tracking and visualization.
+However, despite their popularity, these algorithms suffer from a major
+limitation known as the "repeated Eigen-directions" phenomenon. That is, many
+of the embedding coordinates they produce typically capture the same direction
+along the data manifold. This leads to redundant and inefficient
+representations that do not reveal the true intrinsic dimensionality of the
+data. In this paper, we propose a general method for avoiding redundancy in
+spectral algorithms. Our approach relies on replacing the orthogonality
+constraints underlying those methods by unpredictability constraints.
+Specifically, we require that each embedding coordinate be unpredictable (in
+the statistical sense) from all previous ones. We prove that these constraints
+necessarily prevent redundancy, and provide a simple technique to incorporate
+them into existing methods. As we illustrate on challenging high-dimensional
+scenarios, our approach produces significantly more informative and compact
+representations, which improve visualization and classification tasks.

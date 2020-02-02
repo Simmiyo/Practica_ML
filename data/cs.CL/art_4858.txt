@@ -1,0 +1,14 @@
+Robust Neural Abstractive Summarization Systems and Evaluation against
+  Adversarial Information
+Sequence-to-sequence (seq2seq) neural models have been actively investigated
+for abstractive summarization. Nevertheless, existing neural abstractive
+systems frequently generate factually incorrect summaries and are vulnerable to
+adversarial information, suggesting a crucial lack of semantic understanding.
+In this paper, we propose a novel semantic-aware neural abstractive
+summarization model that learns to generate high quality summaries through
+semantic interpretation over salient content. A novel evaluation scheme with
+adversarial samples is introduced to measure how well a model identifies
+off-topic information, where our model yields significantly better performance
+than the popular pointer-generator summarizer. Human evaluation also confirms
+that our system summaries are uniformly more informative and faithful as well
+as less redundant than the seq2seq model.

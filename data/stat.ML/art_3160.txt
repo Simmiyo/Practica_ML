@@ -1,0 +1,18 @@
+Bayesian leave-one-out cross-validation approximations for Gaussian
+  latent variable models
+The future predictive performance of a Bayesian model can be estimated using
+Bayesian cross-validation. In this article, we consider Gaussian latent
+variable models where the integration over the latent values is approximated
+using the Laplace method or expectation propagation (EP). We study the
+properties of several Bayesian leave-one-out (LOO) cross-validation
+approximations that in most cases can be computed with a small additional cost
+after forming the posterior approximation given the full data. Our main
+objective is to assess the accuracy of the approximative LOO cross-validation
+estimators. That is, for each method (Laplace and EP) we compare the
+approximate fast computation with the exact brute force LOO computation.
+Secondarily, we evaluate the accuracy of the Laplace and EP approximations
+themselves against a ground truth established through extensive Markov chain
+Monte Carlo simulation. Our empirical results show that the approach based upon
+a Gaussian approximation to the LOO marginal distribution (the so-called cavity
+distribution) gives the most accurate and reliable results among the fast
+methods.

@@ -1,0 +1,17 @@
+Robust Low-rank Tensor Recovery: Models and Algorithms
+Robust tensor recovery plays an instrumental role in robustifying tensor
+decompositions for multilinear data analysis against outliers, gross
+corruptions and missing values and has a diverse array of applications. In this
+paper, we study the problem of robust low-rank tensor recovery in a convex
+optimization framework, drawing upon recent advances in robust Principal
+Component Analysis and tensor completion. We propose tailored optimization
+algorithms with global convergence guarantees for solving both the constrained
+and the Lagrangian formulations of the problem. These algorithms are based on
+the highly efficient alternating direction augmented Lagrangian and accelerated
+proximal gradient methods. We also propose a nonconvex model that can often
+improve the recovery results from the convex models. We investigate the
+empirical recoverability properties of the convex and nonconvex formulations
+and compare the computational performance of the algorithms on simulated data.
+We demonstrate through a number of real applications the practical
+effectiveness of this convex optimization framework for robust low-rank tensor
+recovery.

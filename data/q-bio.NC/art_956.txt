@@ -1,0 +1,15 @@
+Predicting age of human subjects based on structural connectivity from
+  diffusion tensor imaging
+Predicting brain maturity using noninvasive magnetic resonance images (MRI)
+can distinguish different age groups and help to assess neurodevelopmental
+disorders. However, group-wise differences are often less informative for
+assessing features of individuals. Here, we propose a simple method to predict
+the age of an individual subject solely based on structural connectivity data
+from diffusion tensor imaging (DTI). Our simple predictor computed a weighted
+sum of the strength of all connections of an individual. The weight consists of
+the fiber strength, given by the number of streamlines following tract tracing,
+multiplied by the importance of that connection for an observed feature--age in
+this case. We tested this approach using DTI data from 121 healthy subjects
+aged 4 to 85 years. After determining importance in a training dataset, our
+predicted ages in the test dataset showed a strong correlation (rho = 0.77)
+with real age deviating by, on average, only 10 years.

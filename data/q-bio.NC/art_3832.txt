@@ -1,0 +1,18 @@
+Low Dimensional Embedding of fMRI datasets
+We propose a novel method to embed a functional magnetic resonance imaging
+(fMRI) dataset in a low-dimensional space. The embedding optimally preserves
+the local functional coupling between fMRI time series and provides a
+low-dimensional coordinate system for detecting activated voxels. To compute
+the embedding, we build a graph of functionally connected voxels. We use the
+commute time, instead of the geodesic distance, to measure functional distances
+on the graph. Because the commute time can be computed directly from the
+eigenvectors of (a symmetric version) the graph probability transition matrix,
+we use these eigenvectors to embed the dataset in low dimensions. After
+clustering the datasets in low dimensions, coherent structures emerge that can
+be easily interpreted. We performed an extensive evaluation of our method
+comparing it to linear and nonlinear techniques using synthetic datasets and in
+vivo datasets. We analyzed datasets from the EBC competition obtained with
+subjects interacting in an urban virtual reality environment. Our exploratory
+approach is able to detect independently visual areas (V1/V2, V5/MT), auditory
+areas, and language areas. Our method can be used to analyze fMRI collected
+during ``natural stimuli''.

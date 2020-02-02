@@ -1,0 +1,22 @@
+Orthogonal parallel MCMC methods for sampling and optimization
+Monte Carlo (MC) methods are widely used for Bayesian inference and
+optimization in statistics, signal processing and machine learning. A
+well-known class of MC methods are Markov Chain Monte Carlo (MCMC) algorithms.
+In order to foster better exploration of the state space, specially in
+high-dimensional applications, several schemes employing multiple parallel MCMC
+chains have been recently introduced. In this work, we describe a novel
+parallel interacting MCMC scheme, called {\it orthogonal MCMC} (O-MCMC), where
+a set of "vertical" parallel MCMC chains share information using some
+"horizontal" MCMC techniques working on the entire population of current
+states. More specifically, the vertical chains are led by random-walk
+proposals, whereas the horizontal MCMC techniques employ independent proposals,
+thus allowing an efficient combination of global exploration and local
+approximation. The interaction is contained in these horizontal iterations.
+Within the analysis of different implementations of O-MCMC, novel schemes in
+order to reduce the overall computational cost of parallel multiple try
+Metropolis (MTM) chains are also presented. Furthermore, a modified version of
+O-MCMC for optimization is provided by considering parallel simulated annealing
+(SA) algorithms. Numerical results show the advantages of the proposed sampling
+scheme in terms of efficiency in the estimation, as well as robustness in terms
+of independence with respect to initial values and the choice of the
+parameters.

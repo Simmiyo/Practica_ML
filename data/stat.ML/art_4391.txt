@@ -1,0 +1,11 @@
+Mondrian Processes for Flow Cytometry Analysis
+Analysis of flow cytometry data is an essential tool for clinical diagnosis
+of hematological and immunological conditions. Current clinical workflows rely
+on a manual process called gating to classify cells into their canonical types.
+This dependence on human annotation limits the rate, reproducibility, and
+complexity of flow cytometry analysis. In this paper, we propose using Mondrian
+processes to perform automated gating by incorporating prior information of the
+kind used by gating technicians. The method segments cells into types via
+Bayesian nonparametric trees. Examining the posterior over trees allows for
+interpretable visualizations and uncertainty quantification - two vital
+qualities for implementation in clinical practice.

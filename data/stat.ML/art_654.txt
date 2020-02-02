@@ -1,0 +1,22 @@
+Optimal Learning Rates for Localized SVMs
+One of the limiting factors of using support vector machines (SVMs) in large
+scale applications are their super-linear computational requirements in terms
+of the number of training samples. To address this issue, several approaches
+that train SVMs on many small chunks of large data sets separately have been
+proposed in the literature. So far, however, almost all these approaches have
+only been empirically investigated. In addition, their motivation was always
+based on computational requirements. In this work, we consider a localized SVM
+approach based upon a partition of the input space. For this local SVM, we
+derive a general oracle inequality. Then we apply this oracle inequality to
+least squares regression using Gaussian kernels and deduce local learning rates
+that are essentially minimax optimal under some standard smoothness assumptions
+on the regression function. This gives the first motivation for using local
+SVMs that is not based on computational requirements but on theoretical
+predictions on the generalization performance. We further introduce a
+data-dependent parameter selection method for our local SVM approach and show
+that this method achieves the same learning rates as before. Finally, we
+present some larger scale experiments for our localized SVM showing that it
+achieves essentially the same test performance as a global SVM for a fraction
+of the computational requirements. In addition, it turns out that the
+computational requirements for the local SVMs are similar to those of a vanilla
+random chunk approach, while the achieved test errors are significantly better.

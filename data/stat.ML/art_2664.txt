@@ -1,0 +1,25 @@
+The Information Geometry of Mirror Descent
+Information geometry applies concepts in differential geometry to probability
+and statistics and is especially useful for parameter estimation in exponential
+families where parameters are known to lie on a Riemannian manifold.
+Connections between the geometric properties of the induced manifold and
+statistical properties of the estimation problem are well-established. However
+developing first-order methods that scale to larger problems has been less of a
+focus in the information geometry community. The best known algorithm that
+incorporates manifold structure is the second-order natural gradient descent
+algorithm introduced by Amari. On the other hand, stochastic approximation
+methods have led to the development of first-order methods for optimizing noisy
+objective functions. A recent generalization of the Robbins-Monro algorithm
+known as mirror descent, developed by Nemirovski and Yudin is a first order
+method that induces non-Euclidean geometries. However current analysis of
+mirror descent does not precisely characterize the induced non-Euclidean
+geometry nor does it consider performance in terms of statistical relative
+efficiency. In this paper, we prove that mirror descent induced by Bregman
+divergences is equivalent to the natural gradient descent algorithm on the dual
+Riemannian manifold. Using this equivalence, it follows that (1) mirror descent
+is the steepest descent direction along the Riemannian manifold of the
+exponential family; (2) mirror descent with log-likelihood loss applied to
+parameter estimation in exponential families asymptotically achieves the
+classical Cram\'er-Rao lower bound and (3) natural gradient descent for
+manifolds corresponding to exponential families can be implemented as a
+first-order method through mirror descent.

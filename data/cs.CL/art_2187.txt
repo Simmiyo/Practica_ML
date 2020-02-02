@@ -1,0 +1,15 @@
+A Two-Phase Approach Towards Identifying Argument Structure in Natural
+  Language
+We propose a new approach for extracting argument structure from natural
+language texts that contain an underlying argument. Our approach comprises of
+two phases: Score Assignment and Structure Prediction. The Score Assignment
+phase trains models to classify relations between argument units (Support,
+Attack or Neutral). To that end, different training strategies have been
+explored. We identify different linguistic and lexical features for training
+the classifiers. Through ablation study, we observe that our novel use of
+word-embedding features is most effective for this task. The Structure
+Prediction phase makes use of the scores from the Score Assignment phase to
+arrive at the optimal structure. We perform experiments on three argumentation
+datasets, namely, AraucariaDB, Debatepedia and Wikipedia. We also propose two
+baselines and observe that the proposed approach outperforms baseline systems
+for the final task of Structure Prediction.

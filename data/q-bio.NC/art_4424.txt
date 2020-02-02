@@ -1,0 +1,18 @@
+Stochastic Interpretation of Quasi-periodic Event-based Systems
+Many networks used in machine learning and as models of biological neural
+networks make use of stochastic neurons or neuron-like units. We show that
+stochastic artificial neurons can be realized on silicon chips by exploiting
+the quasi-periodic behavior of mismatched analog oscillators to approximate the
+neuron's stochastic activation function. We represent neurons by finite state
+machines (FSMs) that communicate using digital events and whose transitions are
+event-triggered. The event generation times of each neuron are controlled by an
+analog oscillator internal to that neuron/FSM and the frequencies of the
+oscillators in different FSMs are incommensurable. We show that within this
+quasi-periodic system, the transition graph of a FSM can be interpreted as the
+transition graph of a Markov chain and we show that by using different FSMs, we
+can obtain approximations of different stochastic activation functions. We
+investigate the quality of the stochastic interpretation of such a
+deterministic system and we use the system to realize and sample from a
+restricted Boltzmann machine. We implemented the quasi-periodic event-based
+system on a custom silicon chip and we show that the chip behavior can be used
+to closely approximate a stochastic sampling task.

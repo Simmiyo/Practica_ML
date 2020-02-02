@@ -1,0 +1,10 @@
+ROCS-Derived Features for Virtual Screening
+Rapid overlay of chemical structures (ROCS) is a standard tool for the
+calculation of 3D shape and chemical ("color") similarity. ROCS uses unweighted
+sums to combine many aspects of similarity, yielding parameter-free models for
+virtual screening. In this report, we decompose the ROCS color force field into
+"color components" and "color atom overlaps", novel color similarity features
+that can be weighted in a system-specific manner by machine learning
+algorithms. In cross-validation experiments, these additional features
+significantly improve virtual screening performance (ROC AUC scores) relative
+to standard ROCS.

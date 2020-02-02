@@ -1,0 +1,25 @@
+Stability Conditions for Online Learnability
+Stability is a general notion that quantifies the sensitivity of a learning
+algorithm's output to small change in the training dataset (e.g. deletion or
+replacement of a single training sample). Such conditions have recently been
+shown to be more powerful to characterize learnability in the general learning
+setting under i.i.d. samples where uniform convergence is not necessary for
+learnability, but where stability is both sufficient and necessary for
+learnability. We here show that similar stability conditions are also
+sufficient for online learnability, i.e. whether there exists a learning
+algorithm such that under any sequence of examples (potentially chosen
+adversarially) produces a sequence of hypotheses that has no regret in the
+limit with respect to the best hypothesis in hindsight. We introduce online
+stability, a stability condition related to uniform-leave-one-out stability in
+the batch setting, that is sufficient for online learnability. In particular we
+show that popular classes of online learners, namely algorithms that fall in
+the category of Follow-the-(Regularized)-Leader, Mirror Descent, gradient-based
+methods and randomized algorithms like Weighted Majority and Hedge, are
+guaranteed to have no regret if they have such online stability property. We
+provide examples that suggest the existence of an algorithm with such stability
+condition might in fact be necessary for online learnability. For the more
+restricted binary classification setting, we establish that such stability
+condition is in fact both sufficient and necessary. We also show that for a
+large class of online learnable problems in the general learning setting,
+namely those with a notion of sub-exponential covering, no-regret online
+algorithms that have such stability condition exists.

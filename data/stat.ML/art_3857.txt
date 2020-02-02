@@ -1,0 +1,15 @@
+A Grothendieck-type inequality for local maxima
+A large number of problems in optimization, machine learning, signal
+processing can be effectively addressed by suitable semidefinite programming
+(SDP) relaxations. Unfortunately, generic SDP solvers hardly scale beyond
+instances with a few hundreds variables (in the underlying combinatorial
+problem). On the other hand, it has been observed empirically that an effective
+strategy amounts to introducing a (non-convex) rank constraint, and solving the
+resulting smooth optimization problem by ascent methods. This non-convex
+problem has --generically-- a large number of local maxima, and the reason for
+this success is therefore unclear.
+  This paper provides rigorous support for this approach. For the problem of
+maximizing a linear functional over the elliptope, we prove that all local
+maxima are within a small gap from the SDP optimum. In several problems of
+interest, arbitrarily small relative error can be achieved by taking the rank
+constraint $k$ to be of order one, independently of the problem size.

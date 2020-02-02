@@ -1,0 +1,15 @@
+Controlling Decoding for More Abstractive Summaries with Copy-Based
+  Networks
+Attention-based neural abstractive summarization systems equipped with copy
+mechanisms have shown promising results. Despite this success, it has been
+noticed that such a system generates a summary by mostly, if not entirely,
+copying over phrases, sentences, and sometimes multiple consecutive sentences
+from an input paragraph, effectively performing extractive summarization. In
+this paper, we verify this behavior using the latest neural abstractive
+summarization system - a pointer-generator network. We propose a simple
+baseline method that allows us to control the amount of copying without
+retraining. Experiments indicate that the method provides a strong baseline for
+abstractive systems looking to obtain high ROUGE scores while minimizing
+overlap with the source article, substantially reducing the n-gram overlap with
+the original article while keeping within 2 points of the original model's
+ROUGE score.

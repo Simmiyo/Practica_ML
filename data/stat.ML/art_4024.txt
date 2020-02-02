@@ -1,0 +1,17 @@
+Combining observational and experimental data to find heterogeneous
+  treatment effects
+Every design choice will have different effects on different units. However
+traditional A/B tests are often underpowered to identify these heterogeneous
+effects. This is especially true when the set of unit-level attributes is
+high-dimensional and our priors are weak about which particular covariates are
+important. However, there are often observational data sets available that are
+orders of magnitude larger. We propose a method to combine these two data
+sources to estimate heterogeneous treatment effects. First, we use
+observational time series data to estimate a mapping from covariates to
+unit-level effects. These estimates are likely biased but under some conditions
+the bias preserves unit-level relative rank orderings. If these conditions
+hold, we only need sufficient experimental data to identify a monotonic,
+one-dimensional transformation from observationally predicted treatment effects
+to real treatment effects. This reduces power demands greatly and makes the
+detection of heterogeneous effects much easier. As an application, we show how
+our method can be used to improve Facebook page recommendations.

@@ -1,0 +1,16 @@
+PAC-Bayes and Domain Adaptation
+We provide two main contributions in PAC-Bayesian theory for domain
+adaptation where the objective is to learn, from a source distribution, a
+well-performing majority vote on a different, but related, target distribution.
+Firstly, we propose an improvement of the previous approach we proposed in
+Germain et al. (2013), which relies on a novel distribution pseudodistance
+based on a disagreement averaging, allowing us to derive a new tighter domain
+adaptation bound for the target risk. While this bound stands in the spirit of
+common domain adaptation works, we derive a second bound (recently introduced
+in Germain et al., 2016) that brings a new perspective on domain adaptation by
+deriving an upper bound on the target risk where the distributions'
+divergence-expressed as a ratio-controls the trade-off between a source error
+measure and the target voters' disagreement. We discuss and compare both
+results, from which we obtain PAC-Bayesian generalization bounds. Furthermore,
+from the PAC-Bayesian specialization to linear classifiers, we infer two
+learning algorithms, and we evaluate them on real data.

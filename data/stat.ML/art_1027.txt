@@ -1,0 +1,21 @@
+Kernel-Based Structural Equation Models for Topology Identification of
+  Directed Networks
+Structural equation models (SEMs) have been widely adopted for inference of
+causal interactions in complex networks. Recent examples include unveiling
+topologies of hidden causal networks over which processes such as spreading
+diseases, or rumors propagate. The appeal of SEMs in these settings stems from
+their simplicity and tractability, since they typically assume linear
+dependencies among observable variables. Acknowledging the limitations inherent
+to adopting linear models, the present paper advocates nonlinear SEMs, which
+account for (possible) nonlinear dependencies among network nodes. The
+advocated approach leverages kernels as a powerful encompassing framework for
+nonlinear modeling, and an efficient estimator with affordable tradeoffs is put
+forth. Interestingly, pursuit of the novel kernel-based approach yields a
+convex regularized estimator that promotes edge sparsity, and is amenable to
+proximal-splitting optimization methods. To this end, solvers with
+complementary merits are developed by leveraging the alternating direction
+method of multipliers, and proximal gradient iterations. Experiments conducted
+on simulated data demonstrate that the novel approach outperforms linear SEMs
+with respect to edge detection errors. Furthermore, tests on a real gene
+expression dataset unveil interesting new edges that were not revealed by
+linear SEMs, which could shed more light on regulatory behavior of human genes.

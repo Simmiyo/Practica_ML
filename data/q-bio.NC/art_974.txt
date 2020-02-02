@@ -1,0 +1,25 @@
+The Neural Particle Filter
+The robust estimation of dynamically changing features, such as the position
+of prey, is one of the hallmarks of perception. On an abstract, algorithmic
+level, nonlinear Bayesian filtering, i.e. the estimation of temporally changing
+signals based on the history of observations, provides a mathematical framework
+for dynamic perception in real time. Since the general, nonlinear filtering
+problem is analytically intractable, particle filters are considered among the
+most powerful approaches to approximating the solution numerically. Yet, these
+algorithms prevalently rely on importance weights, and thus it remains an
+unresolved question how the brain could implement such an inference strategy
+with a neuronal population. Here, we propose the Neural Particle Filter (NPF),
+a weight-less particle filter that can be interpreted as the neuronal dynamics
+of a recurrently connected neural network that receives feed-forward input from
+sensory neurons and represents the posterior probability distribution in terms
+of samples. Specifically, this algorithm bridges the gap between the
+computational task of online state estimation and an implementation that allows
+networks of neurons in the brain to perform nonlinear Bayesian filtering. The
+model captures not only the properties of temporal and multisensory integration
+according to Bayesian statistics, but also allows online learning with a
+maximum likelihood approach. With an example from multisensory integration, we
+demonstrate that the numerical performance of the model is adequate to account
+for both filtering and identification problems. Due to the weightless approach,
+our algorithm alleviates the 'curse of dimensionality' and thus outperforms
+conventional, weighted particle filters in higher dimensions for a limited
+number of particles.

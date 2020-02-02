@@ -1,0 +1,12 @@
+Learning to Abstain from Binary Prediction
+A binary classifier capable of abstaining from making a label prediction has
+two goals in tension: minimizing errors, and avoiding abstaining unnecessarily
+often. In this work, we exactly characterize the best achievable tradeoff
+between these two goals in a general semi-supervised setting, given an ensemble
+of predictors of varying competence as well as unlabeled data on which we wish
+to predict or abstain. We give an algorithm for learning a classifier in this
+setting which trades off its errors with abstentions in a minimax optimal
+manner, is as efficient as linear learning and prediction, and is demonstrably
+practical. Our analysis extends to a large class of loss functions and other
+scenarios, including ensembles comprised of specialists that can themselves
+abstain.

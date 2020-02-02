@@ -1,0 +1,17 @@
+Efficiently Sampling Multiplicative Attribute Graphs Using a
+  Ball-Dropping Process
+We introduce a novel and efficient sampling algorithm for the Multiplicative
+Attribute Graph Model (MAGM - Kim and Leskovec (2010)}). Our algorithm is
+\emph{strictly} more efficient than the algorithm proposed by Yun and
+Vishwanathan (2012), in the sense that our method extends the \emph{best} time
+complexity guarantee of their algorithm to a larger fraction of parameter
+space. Both in theory and in empirical evaluation on sparse graphs, our new
+algorithm outperforms the previous one. To design our algorithm, we first
+define a stochastic \emph{ball-dropping process} (BDP). Although a special case
+of this process was introduced as an efficient approximate sampling algorithm
+for the Kronecker Product Graph Model (KPGM - Leskovec et al. (2010)}), neither
+\emph{why} such an approximation works nor \emph{what} is the actual
+distribution this process is sampling from has been addressed so far to the
+best of our knowledge. Our rigorous treatment of the BDP enables us to clarify
+the rational behind a BDP approximation of KPGM, and design an efficient
+sampling algorithm for the MAGM.

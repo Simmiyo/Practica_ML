@@ -1,0 +1,11 @@
+Sparse Additive Model using Symmetric Nonnegative Definite Smoothers
+We introduce a new algorithm, called adaptive sparse backfitting algorithm,
+for solving high dimensional Sparse Additive Model (SpAM) utilizing symmetric,
+non-negative definite smoothers. Unlike the previous sparse backfitting
+algorithm, our method is essentially a block coordinate descent algorithm that
+guarantees to converge to the optimal solution. It bridges the gap between the
+population backfitting algorithm and that of the data version. We also prove
+variable selection consistency under suitable conditions. Numerical studies on
+both synthesis and real data are conducted to show that adaptive sparse
+backfitting algorithm outperforms previous sparse backfitting algorithm in
+fitting and predicting high dimensional nonparametric models.

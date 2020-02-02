@@ -1,0 +1,23 @@
+Smoothed Hierarchical Dirichlet Process: A Non-Parametric Approach to
+  Constraint Measures
+Time-varying mixture densities occur in many scenarios, for example, the
+distributions of keywords that appear in publications may evolve from year to
+year, video frame features associated with multiple targets may evolve in a
+sequence. Any models that realistically cater to this phenomenon must exhibit
+two important properties: the underlying mixture densities must have an unknown
+number of mixtures, and there must be some "smoothness" constraints in place
+for the adjacent mixture densities. The traditional Hierarchical Dirichlet
+Process (HDP) may be suited to the first property, but certainly not the
+second. This is due to how each random measure in the lower hierarchies is
+sampled independent of each other and hence does not facilitate any temporal
+correlations. To overcome such shortcomings, we proposed a new Smoothed
+Hierarchical Dirichlet Process (sHDP). The key novelty of this model is that we
+place a temporal constraint amongst the nearby discrete measures $\{G_j\}$ in
+the form of symmetric Kullback-Leibler (KL) Divergence with a fixed bound $B$.
+Although the constraint we place only involves a single scalar value, it
+nonetheless allows for flexibility in the corresponding successive measures.
+Remarkably, it also led us to infer the model within the stick-breaking process
+where the traditional Beta distribution used in stick-breaking is now replaced
+by a new constraint calculated from $B$. We present the inference algorithm and
+elaborate on its solutions. Our experiment using NIPS keywords has shown the
+desirable effect of the model.

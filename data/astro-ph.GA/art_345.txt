@@ -1,0 +1,16 @@
+Automated star-galaxy segregation using spectral and integrated band
+  data for TAUVEX/ASTROSAT satellite data pipeline
+We employ an Artificial Neural Network (ANN) based technique to develop a
+pipeline for automated segregation of stars from the galaxies to be observed by
+Tel-Aviv University Ultra-Violet Experiment (TAUVEX). We use synthetic spectra
+of stars from UVBLUE library and selected International Ultraviolet Explorer
+(IUE) low resolution spectra for galaxies in the ultraviolet (UV) region from
+1250 to 3220\AA as the training set and IUE low-resolution spectra for both the
+stars and the galaxies as the test set. All the data sets have been
+pre-processed to get band integrated fluxes so as to mimic the observations of
+the TAUVEX UV imager. We also perform the ANN based segregation scheme using
+the full length spectral features (which will also be useful for the ASTROSAT
+mission). Our results suggest that, in the case of the non-availability of full
+spectral features, the limited band integrated features can be used to
+segregate the two classes of objects; although the band data classification is
+less accurate than the full spectral data classification.

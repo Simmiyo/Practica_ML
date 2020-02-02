@@ -1,0 +1,15 @@
+Synthetic HI observations of a simulated spiral galaxy
+Using the Torus radiative transfer code we produce synthetic observations of
+the 21 cm neutral hydrogen line from an SPH simulation of a spiral galaxy. The
+SPH representation of the galaxy is mapped onto an AMR grid, and a ray tracing
+method is used to calculate 21 cm line emission for lines of sight through the
+AMR grid in different velocity channels and spatial pixels. The result is a
+synthetic spectral cube which can be directly compared to real observations. We
+compare our synthetic spectral cubes to observations of M31 and M33 and find
+good agreement, whereby increasing velocity channels trace the main disc of the
+galaxy. The synthetic data also show kinks in the velocity across the spiral
+arms, evidence of non-circular velocities. These are still present even when we
+blur our data to a similar resolution as the observations, but largely absent
+in M31 and M33, indicating those galaxies do not contain significant spiral
+shocks. Thus the detailed velocity structure of our maps better represent
+previous observations of the grand design spiral M81.

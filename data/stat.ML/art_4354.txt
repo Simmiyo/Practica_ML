@@ -1,0 +1,17 @@
+Variational Bi-LSTMs
+Recurrent neural networks like long short-term memory (LSTM) are important
+architectures for sequential prediction tasks. LSTMs (and RNNs in general)
+model sequences along the forward time direction. Bidirectional LSTMs
+(Bi-LSTMs) on the other hand model sequences along both forward and backward
+directions and are generally known to perform better at such tasks because they
+capture a richer representation of the data. In the training of Bi-LSTMs, the
+forward and backward paths are learned independently. We propose a variant of
+the Bi-LSTM architecture, which we call Variational Bi-LSTM, that creates a
+channel between the two paths (during training, but which may be omitted during
+inference); thus optimizing the two paths jointly. We arrive at this joint
+objective for our model by minimizing a variational lower bound of the joint
+likelihood of the data sequence. Our model acts as a regularizer and encourages
+the two networks to inform each other in making their respective predictions
+using distinct information. We perform ablation studies to better understand
+the different components of our model and evaluate the method on various
+benchmarks, showing state-of-the-art performance.

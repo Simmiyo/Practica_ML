@@ -1,0 +1,11 @@
+Topology Adaptive Graph Estimation in High Dimensions
+We introduce Graphical TREX (GTREX), a novel method for graph estimation in
+high-dimensional Gaussian graphical models. By conducting neighborhood
+selection with TREX, GTREX avoids tuning parameters and is adaptive to the
+graph topology. We compare GTREX with standard methods on a new simulation
+set-up that is designed to assess accurately the strengths and shortcomings of
+different methods. These simulations show that a neighborhood selection scheme
+based on Lasso and an optimal (in practice unknown) tuning parameter
+outperforms other standard methods over a large spectrum of scenarios.
+Moreover, we show that GTREX can rival this scheme and, therefore, can provide
+competitive graph estimation without the need for tuning parameter calibration.

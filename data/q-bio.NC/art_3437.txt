@@ -1,0 +1,20 @@
+Caulking the Leakage Effect in MEEG Source Connectivity Analysis
+Simplistic estimation of neural connectivity in MEEG sensor space is
+impossible due to volume conduction. The only viable alternative is to carry
+out connectivity estimation in source space. Among the neuroscience community
+this is claimed to be impossible or misleading due to Leakage: linear mixing of
+the reconstructed sources. To address this problematic we propose a novel
+solution method that caulks the Leakage in MEEG source activity and
+connectivity estimates: BC-VARETA. It is based on a joint estimation of source
+activity and connectivity in the frequency domain representation of MEEG time
+series. To achieve this, we go beyond current methods that assume a fixed
+gaussian graphical model for source connectivity. In contrast we estimate this
+graphical model in a Bayesian framework by placing priors on it, which allows
+for highly optimized computations of the connectivity, via a new procedure
+based on the local quadratic approximation under quite general prior models. A
+further contribution of this paper is the rigorous definition of leakage via
+the Spatial Dispersion Measure and Earth Movers Distance based on the geodesic
+distances over the cortical manifold. Both measures are extended for the first
+time to quantify Connectivity Leakage by defining them on the cartesian product
+of cortical manifolds. Using these measures, we show that BC-VARETA outperforms
+most state of the art inverse solvers by several orders of magnitude.

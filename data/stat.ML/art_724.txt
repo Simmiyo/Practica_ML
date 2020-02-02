@@ -1,0 +1,24 @@
+A General Framework for Constrained Bayesian Optimization using
+  Information-based Search
+We present an information-theoretic framework for solving global black-box
+optimization problems that also have black-box constraints. Of particular
+interest to us is to efficiently solve problems with decoupled constraints, in
+which subsets of the objective and constraint functions may be evaluated
+independently. For example, when the objective is evaluated on a CPU and the
+constraints are evaluated independently on a GPU. These problems require an
+acquisition function that can be separated into the contributions of the
+individual function evaluations. We develop one such acquisition function and
+call it Predictive Entropy Search with Constraints (PESC). PESC is an
+approximation to the expected information gain criterion and it compares
+favorably to alternative approaches based on improvement in several synthetic
+and real-world problems. In addition to this, we consider problems with a mix
+of functions that are fast and slow to evaluate. These problems require
+balancing the amount of time spent in the meta-computation of PESC and in the
+actual evaluation of the target objective. We take a bounded rationality
+approach and develop partial update for PESC which trades off accuracy against
+speed. We then propose a method for adaptively switching between the partial
+and full updates for PESC. This allows us to interpolate between versions of
+PESC that are efficient in terms of function evaluations and those that are
+efficient in terms of wall-clock time. Overall, we demonstrate that PESC is an
+effective algorithm that provides a promising direction towards a unified
+solution for constrained Bayesian optimization.

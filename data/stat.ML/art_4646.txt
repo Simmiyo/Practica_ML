@@ -1,0 +1,10 @@
+Efficient Distributed Estimation of Inverse Covariance Matrices
+In distributed systems, communication is a major concern due to issues such
+as its vulnerability or efficiency. In this paper, we are interested in
+estimating sparse inverse covariance matrices when samples are distributed into
+different machines. We address communication efficiency by proposing a method
+where, in a single round of communication, each machine transfers a small
+subset of the entries of the inverse covariance matrix. We show that, with this
+efficient distributed method, the error rates can be comparable with estimation
+in a non-distributed setting, and correct model selection is still possible.
+Practical performance is shown through simulations.

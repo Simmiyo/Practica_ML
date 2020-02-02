@@ -1,0 +1,17 @@
+SYNTAGMA. A Linguistic Approach to Parsing
+SYNTAGMA is a rule-based parsing system, structured on two levels: a general
+parsing engine and a language specific grammar. The parsing engine is a
+language independent program, while grammar and language specific rules and
+resources are given as text files, consisting in a list of constituent
+structuresand a lexical database with word sense related features and
+constraints. Since its theoretical background is principally Tesniere's
+Elements de syntaxe, SYNTAGMA's grammar emphasizes the role of argument
+structure (valency) in constraint satisfaction, and allows also horizontal
+bounds, for instance treating coordination. Notions such as Pro, traces, empty
+categories are derived from Generative Grammar and some solutions are close to
+Government&Binding Theory, although they are the result of an autonomous
+research. These properties allow SYNTAGMA to manage complex syntactic
+configurations and well known weak points in parsing engineering. An important
+resource is the semantic network, which is used in disambiguation tasks.
+Parsing process follows a bottom-up, rule driven strategy. Its behavior can be
+controlled and fine-tuned.

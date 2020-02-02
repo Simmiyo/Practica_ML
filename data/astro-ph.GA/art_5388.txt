@@ -1,0 +1,21 @@
+De-Confusing blended field images using graphs and bayesian priors
+We present a new technique for overcoming confusion noise in deep
+far-infrared \Herschel space telescope images making use of prior information
+from shorter $\lambda<2$\micron wavelengths. For the deepest images obtained by
+\Herschels, the flux limit due to source confusion is about a factor of three
+brighter than the flux limit due to instrumental noise and (smooth) sky
+background. We have investigated the possibility of de-confusing simulated
+\Herschel PACS-160\micron images by using strong Bayesian priors on the
+positions and weak priors on the flux of sources. We find the blended sources
+and group them together and simultaneously fit their fluxes. We derive the
+posterior probability distribution function of fluxes subject to these priors
+through Monte Carlo Markov Chain (MCMC) sampling by fitting the image. Assuming
+we can predict FIR flux of sources based on ultraviolet-optical part of their
+SEDs to within an order of magnitude, the simulations show that we can obtain
+reliable fluxes and uncertainties at least a factor of three fainter than the
+confusion noise limit of $3\sigma_{c} $=2.7 mJy in our simulated PACS-160
+image. This technique could in principle be used to mitigate the effects of
+source confusion in any situation where one has prior information of positions
+and plausible fluxes of blended sources. For \Herschel, application of this
+technique will improve our ability to constrain the dust content in normal
+galaxies at high redshift.

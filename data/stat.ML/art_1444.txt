@@ -1,0 +1,13 @@
+Learning Independent Features with Adversarial Nets for Non-linear ICA
+Reliable measures of statistical dependence could be useful tools for
+learning independent features and performing tasks like source separation using
+Independent Component Analysis (ICA). Unfortunately, many of such measures,
+like the mutual information, are hard to estimate and optimize directly. We
+propose to learn independent features with adversarial objectives which
+optimize such measures implicitly. These objectives compare samples from the
+joint distribution and the product of the marginals without the need to compute
+any probability densities. We also propose two methods for obtaining samples
+from the product of the marginals using either a simple resampling trick or a
+separate parametric distribution. Our experiments show that this strategy can
+easily be applied to different types of model architectures and solve both
+linear and non-linear ICA problems.

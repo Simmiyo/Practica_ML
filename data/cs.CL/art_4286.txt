@@ -1,0 +1,17 @@
+Concurrent Learning of Semantic Relations
+Discovering whether words are semantically related and identifying the
+specific semantic relation that holds between them is of crucial importance for
+NLP as it is essential for tasks like query expansion in IR. Within this
+context, different methodologies have been proposed that either exclusively
+focus on a single lexical relation (e.g. hypernymy vs. random) or learn
+specific classifiers capable of identifying multiple semantic relations (e.g.
+hypernymy vs. synonymy vs. random). In this paper, we propose another way to
+look at the problem that relies on the multi-task learning paradigm. In
+particular, we want to study whether the learning process of a given semantic
+relation (e.g. hypernymy) can be improved by the concurrent learning of another
+semantic relation (e.g. co-hyponymy). Within this context, we particularly
+examine the benefits of semi-supervised learning where the training of a
+prediction function is performed over few labeled data jointly with many
+unlabeled ones. Preliminary results based on simple learning strategies and
+state-of-the-art distributional feature representations show that concurrent
+learning can lead to improvements in a vast majority of tested situations.

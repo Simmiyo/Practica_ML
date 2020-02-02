@@ -1,0 +1,8 @@
+Shallow Discourse Parsing Using Distributed Argument Representations and
+  Bayesian Optimization
+This paper describes the Georgia Tech team's approach to the CoNLL-2016
+supplementary evaluation on discourse relation sense classification. We use
+long short-term memories (LSTM) to induce distributed representations of each
+argument, and then combine these representations with surface features in a
+neural network. The architecture of the neural network is determined by
+Bayesian hyperparameter search.

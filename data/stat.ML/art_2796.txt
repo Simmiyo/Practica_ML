@@ -1,0 +1,19 @@
+Hybrid SRL with Optimization Modulo Theories
+Generally speaking, the goal of constructive learning could be seen as, given
+an example set of structured objects, to generate novel objects with similar
+properties. From a statistical-relational learning (SRL) viewpoint, the task
+can be interpreted as a constraint satisfaction problem, i.e. the generated
+objects must obey a set of soft constraints, whose weights are estimated from
+the data. Traditional SRL approaches rely on (finite) First-Order Logic (FOL)
+as a description language, and on MAX-SAT solvers to perform inference. Alas,
+FOL is unsuited for con- structive problems where the objects contain a mixture
+of Boolean and numerical variables. It is in fact difficult to implement, e.g.
+linear arithmetic constraints within the language of FOL. In this paper we
+propose a novel class of hybrid SRL methods that rely on Satisfiability Modulo
+Theories, an alternative class of for- mal languages that allow to describe,
+and reason over, mixed Boolean-numerical objects and constraints. The resulting
+methods, which we call Learning Mod- ulo Theories, are formulated within the
+structured output SVM framework, and employ a weighted SMT solver as an
+optimization oracle to perform efficient in- ference and discriminative max
+margin weight learning. We also present a few examples of constructive learning
+applications enabled by our method.

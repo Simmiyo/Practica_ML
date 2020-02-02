@@ -1,0 +1,14 @@
+Regularizing Solutions to the MEG Inverse Problem Using Space-Time
+  Separable Covariance Functions
+In magnetoencephalography (MEG) the conventional approach to source
+reconstruction is to solve the underdetermined inverse problem independently
+over time and space. Here we present how the conventional approach can be
+extended by regularizing the solution in space and time by a Gaussian process
+(Gaussian random field) model. Assuming a separable covariance function in
+space and time, the computational complexity of the proposed model becomes
+(without any further assumptions or restrictions) $\mathcal{O}(t^3 + n^3 +
+m^2n)$, where $t$ is the number of time steps, $m$ is the number of sources,
+and $n$ is the number of sensors. We apply the method to both simulated and
+empirical data, and demonstrate the efficiency and generality of our Bayesian
+source reconstruction approach which subsumes various classical approaches in
+the literature.

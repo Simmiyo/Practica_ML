@@ -1,0 +1,13 @@
+Characterizing the maximum parameter of the total-variation denoising
+  through the pseudo-inverse of the divergence
+We focus on the maximum regularization parameter for anisotropic
+total-variation denoising. It corresponds to the minimum value of the
+regularization parameter above which the solution remains constant. While this
+value is well know for the Lasso, such a critical value has not been
+investigated in details for the total-variation. Though, it is of importance
+when tuning the regularization parameter as it allows fixing an upper-bound on
+the grid for which the optimal parameter is sought. We establish a closed form
+expression for the one-dimensional case, as well as an upper-bound for the
+two-dimensional case, that appears reasonably tight in practice. This problem
+is directly linked to the computation of the pseudo-inverse of the divergence,
+which can be quickly obtained by performing convolutions in the Fourier domain.

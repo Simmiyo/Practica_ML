@@ -1,0 +1,16 @@
+A Neural Language Model for Dynamically Representing the Meanings of
+  Unknown Words and Entities in a Discourse
+This study addresses the problem of identifying the meaning of unknown words
+or entities in a discourse with respect to the word embedding approaches used
+in neural language models. We proposed a method for on-the-fly construction and
+exploitation of word embeddings in both the input and output layers of a neural
+model by tracking contexts. This extends the dynamic entity representation used
+in Kobayashi et al. (2016) and incorporates a copy mechanism proposed
+independently by Gu et al. (2016) and Gulcehre et al. (2016). In addition, we
+construct a new task and dataset called Anonymized Language Modeling for
+evaluating the ability to capture word meanings while reading. Experiments
+conducted using our novel dataset show that the proposed variant of RNN
+language model outperformed the baseline model. Furthermore, the experiments
+also demonstrate that dynamic updates of an output layer help a model predict
+reappearing entities, whereas those of an input layer are effective to predict
+words following reappearing entities.

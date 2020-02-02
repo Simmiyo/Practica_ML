@@ -1,0 +1,16 @@
+Training Restricted Boltzmann Machines on Word Observations
+The restricted Boltzmann machine (RBM) is a flexible tool for modeling
+complex data, however there have been significant computational difficulties in
+using RBMs to model high-dimensional multinomial observations. In natural
+language processing applications, words are naturally modeled by K-ary discrete
+distributions, where K is determined by the vocabulary size and can easily be
+in the hundreds of thousands. The conventional approach to training RBMs on
+word observations is limited because it requires sampling the states of K-way
+softmax visible units during block Gibbs updates, an operation that takes time
+linear in K. In this work, we address this issue by employing a more general
+class of Markov chain Monte Carlo operators on the visible units, yielding
+updates with computational complexity independent of K. We demonstrate the
+success of our approach by training RBMs on hundreds of millions of word
+n-grams using larger vocabularies than previously feasible and using the
+learned features to improve performance on chunking and sentiment
+classification tasks, achieving state-of-the-art results on the latter.

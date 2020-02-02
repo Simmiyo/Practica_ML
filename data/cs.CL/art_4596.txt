@@ -1,0 +1,10 @@
+Trivial Transfer Learning for Low-Resource Neural Machine Translation
+Transfer learning has been proven as an effective technique for neural
+machine translation under low-resource conditions. Existing methods require a
+common target language, language relatedness, or specific training tricks and
+regimes. We present a simple transfer learning method, where we first train a
+"parent" model for a high-resource language pair and then continue the training
+on a lowresource pair only by replacing the training corpus. This "child" model
+performs significantly better than the baseline trained for lowresource pair
+only. We are the first to show this for targeting different languages, and we
+observe the improvements even for unrelated languages with different alphabets.

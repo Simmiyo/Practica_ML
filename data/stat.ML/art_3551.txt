@@ -1,0 +1,15 @@
+Efficient Empowerment
+Empowerment quantifies the influence an agent has on its environment. This is
+formally achieved by the maximum of the expected KL-divergence between the
+distribution of the successor state conditioned on a specific action and a
+distribution where the actions are marginalised out. This is a natural
+candidate for an intrinsic reward signal in the context of reinforcement
+learning: the agent will place itself in a situation where its action have
+maximum stability and maximum influence on the future. The limiting factor so
+far has been the computational complexity of the method: the only way of
+calculation has so far been a brute force algorithm, reducing the applicability
+of the method to environments with a small set discrete states. In this work,
+we propose to use an efficient approximation for marginalising out the actions
+in the case of continuous environments. This allows fast evaluation of
+empowerment, paving the way towards challenging environments such as real world
+robotics. The method is presented on a pendulum swing up problem.

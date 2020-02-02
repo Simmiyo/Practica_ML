@@ -1,0 +1,18 @@
+Bayesian Structure Learning for Markov Random Fields with a Spike and
+  Slab Prior
+In recent years a number of methods have been developed for automatically
+learning the (sparse) connectivity structure of Markov Random Fields. These
+methods are mostly based on L1-regularized optimization which has a number of
+disadvantages such as the inability to assess model uncertainty and expensive
+cross-validation to find the optimal regularization parameter. Moreover, the
+model's predictive performance may degrade dramatically with a suboptimal value
+of the regularization parameter (which is sometimes desirable to induce
+sparseness). We propose a fully Bayesian approach based on a "spike and slab"
+prior (similar to L0 regularization) that does not suffer from these
+shortcomings. We develop an approximate MCMC method combining Langevin dynamics
+and reversible jump MCMC to conduct inference in this model. Experiments show
+that the proposed model learns a good combination of the structure and
+parameter values without the need for separate hyper-parameter tuning.
+Moreover, the model's predictive performance is much more robust than L1-based
+methods with hyper-parameter settings that induce highly sparse model
+structures.

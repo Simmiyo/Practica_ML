@@ -1,0 +1,14 @@
+Quantum Computations and Images Recognition
+The using of quantum parallelism is often connected with consideration of
+quantum system with huge dimension of space of states. The n-qubit register can
+be described by complex vector with 2^n components (it belongs to n'th tensor
+power of qubit spaces). For example, for algorithm of factorization of numbers
+by quantum computer n can be about a few hundreds for some realistic
+applications for cryptography. The applications described further are used some
+other properties of quantum systems and they do not demand such huge number of
+states.
+  The term "images recognition" is used here for some broad class of problems.
+For example, we have a set of some objects V_i and function of "likelihood":
+  F(V,W) < F(V,V) = 1
+  If we have some "noisy" or "distorted" image W, we can say that recognition
+of W is V_i, if F(W,V_i) is near 1 for some V_i.

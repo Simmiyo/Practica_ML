@@ -1,0 +1,12 @@
+ParceLiNGAM: A causal ordering method robust against latent confounders
+We consider learning a causal ordering of variables in a linear non-Gaussian
+acyclic model called LiNGAM. Several existing methods have been shown to
+consistently estimate a causal ordering assuming that all the model assumptions
+are correct. But, the estimation results could be distorted if some assumptions
+actually are violated. In this paper, we propose a new algorithm for learning
+causal orders that is robust against one typical violation of the model
+assumptions: latent confounders. The key idea is to detect latent confounders
+by testing independence between estimated external influences and find subsets
+(parcels) that include variables that are not affected by latent confounders.
+We demonstrate the effectiveness of our method using artificial data and
+simulated brain imaging data.

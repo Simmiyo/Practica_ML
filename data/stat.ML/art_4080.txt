@@ -1,0 +1,9 @@
+Probabilistic structure discovery in time series data
+Existing methods for structure discovery in time series data construct
+interpretable, compositional kernels for Gaussian process regression models.
+While the learned Gaussian process model provides posterior mean and variance
+estimates, typically the structure is learned via a greedy optimization
+procedure. This restricts the space of possible solutions and leads to
+over-confident uncertainty estimates. We introduce a fully Bayesian approach,
+inferring a full posterior over structures, which more reliably captures the
+uncertainty of the model.

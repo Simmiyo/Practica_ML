@@ -1,0 +1,28 @@
+Artificial Intelligence Framework for Simulating Clinical
+  Decision-Making: A Markov Decision Process Approach
+In the modern healthcare system, rapidly expanding costs/complexity, the
+growing myriad of treatment options, and exploding information streams that
+often do not effectively reach the front lines hinder the ability to choose
+optimal treatment decisions over time. The goal in this paper is to develop a
+general purpose (non-disease-specific) computational/artificial intelligence
+(AI) framework to address these challenges. This serves two potential
+functions: 1) a simulation environment for exploring various healthcare
+policies, payment methodologies, etc., and 2) the basis for clinical artificial
+intelligence - an AI that can think like a doctor. This approach combines
+Markov decision processes and dynamic decision networks to learn from clinical
+data and develop complex plans via simulation of alternative sequential
+decision paths while capturing the sometimes conflicting, sometimes synergistic
+interactions of various components in the healthcare system. It can operate in
+partially observable environments (in the case of missing observations or data)
+by maintaining belief states about patient health status and functions as an
+online agent that plans and re-plans. This framework was evaluated using real
+patient data from an electronic health record. Such an AI framework easily
+outperforms the current treatment-as-usual (TAU) case-rate/fee-for-service
+models of healthcare (Cost per Unit Change: $189 vs. $497) while obtaining a
+30-35% increase in patient outcomes. Tweaking certain model parameters further
+enhances this advantage, obtaining roughly 50% more improvement for roughly
+half the costs. Given careful design and problem formulation, an AI simulation
+framework can approximate optimal decisions even in complex and uncertain
+environments. Future work is described that outlines potential lines of
+research and integration of machine learning algorithms for personalized
+medicine.

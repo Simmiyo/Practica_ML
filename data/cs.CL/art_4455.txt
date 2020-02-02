@@ -1,0 +1,17 @@
+Churn Intent Detection in Multilingual Chatbot Conversations and Social
+  Media
+We propose a new method to detect when users express the intent to leave a
+service, also known as churn. While previous work focuses solely on social
+media, we show that this intent can be detected in chatbot conversations. As
+companies increasingly rely on chatbots they need an overview of potentially
+churny users. To this end, we crowdsource and publish a dataset of churn intent
+expressions in chatbot interactions in German and English. We show that
+classifiers trained on social media data can detect the same intent in the
+context of chatbots.
+  We introduce a classification architecture that outperforms existing work on
+churn intent detection in social media. Moreover, we show that, using bilingual
+word embeddings, a system trained on combined English and German data
+outperforms monolingual approaches. As the only existing dataset is in English,
+we crowdsource and publish a novel dataset of German tweets. We thus underline
+the universal aspect of the problem, as examples of churn intent in English
+help us identify churn in German tweets and chatbot conversations.

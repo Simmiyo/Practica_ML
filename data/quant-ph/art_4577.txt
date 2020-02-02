@@ -1,0 +1,16 @@
+Remote control of restricted sets of operations: Teleportation of Angles
+We study the remote implementation of a unitary transformation on a qubit. We
+show the existence of non-trivial protocols (i.e., using less resources than
+bidirectional state teleportation) which allow the perfect remote
+implementation of certain continuous sets of quantum operations. We prove that,
+up to a local change of basis, only two subsets exist that can be implemented
+remotely with a non-trivial protocol: Arbitrary rotations around a fixed
+direction $\vec{n}$ and rotations by a fixed angle around an arbitrary
+direction lying in a plane orthogonal to $\vec{n}$. The overall classical
+information and distributed entanglement cost required for the remote
+implementation depends on whether it is a priori known to which of the two
+teleportable subsets the transformation belongs to. If it is so, the optimal
+protocol consumes one e-bit of entanglement and one c-bit in each direction. If
+the subset is not known, two e-bits of entanglement need to be consumed while
+the classical channel becomes asymmetric, two c-bits are conveyed from Alice to
+Bob but only one from Bob to Alice.

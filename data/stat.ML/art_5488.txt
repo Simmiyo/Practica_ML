@@ -1,0 +1,23 @@
+Bag-of-Words Method Applied to Accelerometer Measurements for the
+  Purpose of Classification and Energy Estimation
+Accelerometer measurements are the prime type of sensor information most
+think of when seeking to measure physical activity. On the market, there are
+many fitness measuring devices which aim to track calories burned and steps
+counted through the use of accelerometers. These measurements, though good
+enough for the average consumer, are noisy and unreliable in terms of the
+precision of measurement needed in a scientific setting. The contribution of
+this paper is an innovative and highly accurate regression method which uses an
+intermediary two-stage classification step to better direct the regression of
+energy expenditure values from accelerometer counts.
+  We show that through an additional unsupervised layer of intermediate feature
+construction, we can leverage latent patterns within accelerometer counts to
+provide better grounds for activity classification than expert-constructed
+timeseries features. For this, our approach utilizes a mathematical model
+originating in natural language processing, the bag-of-words model, that has in
+the past years been appearing in diverse disciplines outside of the natural
+language processing field such as image processing. Further emphasizing the
+natural language connection to stochastics, we use a gaussian mixture model to
+learn the dictionary upon which the bag-of-words model is built. Moreover, we
+show that with the addition of these features, we're able to improve regression
+root mean-squared error of energy expenditure by approximately 1.4 units over
+existing state-of-the-art methods.

@@ -1,0 +1,14 @@
+Natural Evolution Strategies
+This paper presents Natural Evolution Strategies (NES), a recent family of
+algorithms that constitute a more principled approach to black-box optimization
+than established evolutionary algorithms. NES maintains a parameterized
+distribution on the set of solution candidates, and the natural gradient is
+used to update the distribution's parameters in the direction of higher
+expected fitness. We introduce a collection of techniques that address issues
+of convergence, robustness, sample complexity, computational complexity and
+sensitivity to hyperparameters. This paper explores a number of implementations
+of the NES family, ranging from general-purpose multi-variate normal
+distributions to heavy-tailed and separable distributions tailored towards
+global optimization and search in high dimensional spaces, respectively.
+Experimental results show best published performance on various standard
+benchmarks, as well as competitive performance on others.

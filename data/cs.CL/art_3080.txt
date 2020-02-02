@@ -1,0 +1,19 @@
+Dynamic Time-Aware Attention to Speaker Roles and Contexts for Spoken
+  Language Understanding
+Spoken language understanding (SLU) is an essential component in
+conversational systems. Most SLU component treats each utterance independently,
+and then the following components aggregate the multi-turn information in the
+separate phases. In order to avoid error propagation and effectively utilize
+contexts, prior work leveraged history for contextual SLU. However, the
+previous model only paid attention to the content in history utterances without
+considering their temporal information and speaker roles. In the dialogues, the
+most recent utterances should be more important than the least recent ones.
+Furthermore, users usually pay attention to 1) self history for reasoning and
+2) others' utterances for listening, the speaker of the utterances may provides
+informative cues to help understanding. Therefore, this paper proposes an
+attention-based network that additionally leverages temporal information and
+speaker role for better SLU, where the attention to contexts and speaker roles
+can be automatically learned in an end-to-end manner. The experiments on the
+benchmark Dialogue State Tracking Challenge 4 (DSTC4) dataset show that the
+time-aware dynamic role attention networks significantly improve the
+understanding performance.

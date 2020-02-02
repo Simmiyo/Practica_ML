@@ -1,0 +1,13 @@
+When is Network Lasso Accurate?
+The "least absolute shrinkage and selection operator" (Lasso) method has been
+adapted recently for networkstructured datasets. In particular, this network
+Lasso method allows to learn graph signals from a small number of noisy signal
+samples by using the total variation of a graph signal for regularization.
+While efficient and scalable implementations of the network Lasso are
+available, only little is known about the conditions on the underlying network
+structure which ensure network Lasso to be accurate. By leveraging concepts of
+compressed sensing, we address this gap and derive precise conditions on the
+underlying network topology and sampling set which guarantee the network Lasso
+for a particular loss function to deliver an accurate estimate of the entire
+underlying graph signal. We also quantify the error incurred by network Lasso
+in terms of two constants which reflect the connectivity of the sampled nodes.

@@ -1,0 +1,14 @@
+The Effect of Heteroscedasticity on Regression Trees
+Regression trees are becoming increasingly popular as omnibus predicting
+tools and as the basis of numerous modern statistical learning ensembles. Part
+of their popularity is their ability to create a regression prediction without
+ever specifying a structure for the mean model. However, the method implicitly
+assumes homogeneous variance across the entire explanatory-variable space. It
+is unknown how the algorithm behaves when faced with heteroscedastic data. In
+this study, we assess the performance of the most popular regression-tree
+algorithm in a single-variable setting under a very simple step-function model
+for heteroscedasticity. We use simulation to show that the locations of splits,
+and hence the ability to accurately predict means, are both adversely
+influenced by the change in variance. We identify the pruning algorithm as the
+main concern, although the effects on the splitting algorithm may be meaningful
+in some applications.

@@ -1,0 +1,19 @@
+Deterministic networks for probabilistic computing
+Neural-network models of high-level brain functions such as memory recall and
+reasoning often rely on the presence of stochasticity. The majority of these
+models assumes that each neuron in the functional network is equipped with its
+own private source of randomness, often in the form of uncorrelated external
+noise. However, both in vivo and in silico, the number of noise sources is
+limited due to space and bandwidth constraints. Hence, neurons in large
+networks usually need to share noise sources. Here, we show that the resulting
+shared-noise correlations can significantly impair the performance of
+stochastic network models. We demonstrate that this problem can be overcome by
+using deterministic recurrent neural networks as sources of uncorrelated noise,
+exploiting the decorrelating effect of inhibitory feedback. Consequently, even
+a single recurrent network of a few hundred neurons can serve as a natural
+noise source for large ensembles of functional networks, each comprising
+thousands of units. We successfully apply the proposed framework to a diverse
+set of binary-unit networks with different dimensionalities and entropies, as
+well as to a network reproducing handwritten digits with distinct predefined
+frequencies. Finally, we show that the same design transfers to functional
+networks of spiking neurons.

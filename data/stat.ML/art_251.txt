@@ -1,0 +1,17 @@
+Regression shrinkage and grouping of highly correlated predictors with
+  HORSES
+Identifying homogeneous subgroups of variables can be challenging in high
+dimensional data analysis with highly correlated predictors. We propose a new
+method called Hexagonal Operator for Regression with Shrinkage and Equality
+Selection, HORSES for short, that simultaneously selects positively correlated
+variables and identifies them as predictive clusters. This is achieved via a
+constrained least-squares problem with regularization that consists of a linear
+combination of an L_1 penalty for the coefficients and another L_1 penalty for
+pairwise differences of the coefficients. This specification of the penalty
+function encourages grouping of positively correlated predictors combined with
+a sparsity solution. We construct an efficient algorithm to implement the
+HORSES procedure. We show via simulation that the proposed method outperforms
+other variable selection methods in terms of prediction error and parsimony.
+The technique is demonstrated on two data sets, a small data set from analysis
+of soil in Appalachia, and a high dimensional data set from a near infrared
+(NIR) spectroscopy study, showing the flexibility of the methodology.

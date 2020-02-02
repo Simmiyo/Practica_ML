@@ -1,0 +1,12 @@
+Convergence of Langevin MCMC in KL-divergence
+Langevin diffusion is a commonly used tool for sampling from a given
+distribution. In this work, we establish that when the target density $p^*$ is
+such that $\log p^*$ is $L$ smooth and $m$ strongly convex, discrete Langevin
+diffusion produces a distribution $p$ with $KL(p||p^*)\leq \epsilon$ in
+$\tilde{O}(\frac{d}{\epsilon})$ steps, where $d$ is the dimension of the sample
+space. We also study the convergence rate when the strong-convexity assumption
+is absent. By considering the Langevin diffusion as a gradient flow in the
+space of probability distributions, we obtain an elegant analysis that applies
+to the stronger property of convergence in KL-divergence and gives a
+conceptually simpler proof of the best-known convergence results in weaker
+metrics.

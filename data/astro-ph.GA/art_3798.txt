@@ -1,0 +1,15 @@
+Bayes versus the virial theorem: inferring the potential of a galaxy
+  from a kinematical snapshot
+We present a new framework for estimating a galaxy's gravitational potential,
+Phi(x), from its stellar kinematics by adopting a fully non-parametric model
+for the galaxy's unknown action-space distribution function, f(J). Having an
+expression for the joint likelihood of Phi and f, the likelihood of Phi is
+calculated by using a Dirichlet process mixture to represent the prior on f and
+marginalising. We demonstrate that modelling machinery constructed using this
+framework is successful at recovering the potentials of some simple systems
+from perfect discrete kinematical data, a situation handled effortlessly by
+traditional moment-based methods, such as the virial theorem, but in which
+other, more modern, methods are less than satisfactory. We show how to
+generalise the machinery to account for realistic observational errors and
+selection functions. A practical implementation is likely to raise some
+interesting algorithmic and computational challenges.

@@ -1,0 +1,24 @@
+The Unfitted Discontinuous Galerkin Method for Solving the EEG Forward
+  Problem
+Objective: The purpose of this study is to introduce and evaluate the
+unfitted discontinuous Galerkin finite element method (UDG-FEM) for solving the
+electroencephalography (EEG) forward problem. Methods: This new approach for
+source analysis does not use a geometry conforming volume triangulation, but
+instead uses a structured mesh that does not resolve the geometry. The geometry
+is described using level set functions and is incorporated implicitly in its
+mathematical formulation. As no triangulation is necessary, the complexity of a
+simulation pipeline and the need for manual interaction for patient specific
+simulations can be reduced and is comparable with that of the FEM for
+hexahedral meshes. In addition, it maintains conservation laws on a discrete
+level. Here, we present the theory for UDG-FEM forward modeling, its
+verification using quasi-analytical solutions in multi-layer sphere models and
+an evaluation in a comparison with a discontinuous Galerkin (DG-FEM) method on
+hexahedral and on conforming tetrahedral meshes. We furthermore apply the
+UDG-FEM forward approach in a realistic head model simulation study. Results:
+The given results show convergence and indicate a good overall accuracy of the
+UDG-FEM approach. UDG-FEM performs comparable or even better than DG-FEM on a
+conforming tetrahedral mesh while providing a less complex simulation pipeline.
+When compared to DG-FEM on hexahedral meshes, an overall better accuracy is
+achieved. Conclusion: The UDG-FEM approach is an accurate, flexible and
+promising method to solve the EEG forward problem. Significance: This study
+shows the first application of the UDG-FEM approach to the EEG forward problem.

@@ -1,0 +1,17 @@
+Type I and Type II Bayesian Methods for Sparse Signal Recovery using
+  Scale Mixtures
+In this paper, we propose a generalized scale mixture family of
+distributions, namely the Power Exponential Scale Mixture (PESM) family, to
+model the sparsity inducing priors currently in use for sparse signal recovery
+(SSR). We show that the successful and popular methods such as LASSO,
+Reweighted $\ell_1$ and Reweighted $\ell_2$ methods can be formulated in an
+unified manner in a maximum a posteriori (MAP) or Type I Bayesian framework
+using an appropriate member of the PESM family as the sparsity inducing prior.
+In addition, exploiting the natural hierarchical framework induced by the PESM
+family, we utilize these priors in a Type II framework and develop the
+corresponding EM based estimation algorithms. Some insight into the differences
+between Type I and Type II methods is provided and of particular interest in
+the algorithmic development is the Type II variant of the popular and
+successful reweighted $\ell_1$ method. Extensive empirical results are provided
+and they show that the Type II methods exhibit better support recovery than the
+corresponding Type I methods.

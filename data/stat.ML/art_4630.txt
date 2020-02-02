@@ -1,0 +1,17 @@
+An improved chromosome formulation for genetic algorithms applied to
+  variable selection with the inclusion of interaction terms
+Genetic algorithms are a well-known method for tackling the problem of
+variable selection. As they are non-parametric and can use a large variety of
+fitness functions, they are well-suited as a variable selection wrapper that
+can be applied to many different models. In almost all cases, the chromosome
+formulation used in these genetic algorithms consists of a binary vector of
+length n for n potential variables indicating the presence or absence of the
+corresponding variables. While the aforementioned chromosome formulation has
+exhibited good performance for relatively small n, there are potential problems
+when the size of n grows very large, especially when interaction terms are
+considered. We introduce a modification to the standard chromosome formulation
+that allows for better scalability and model sparsity when interaction terms
+are included in the predictor search space. Experimental results show that the
+indexed chromosome formulation demonstrates improved computational efficiency
+and sparsity on high-dimensional datasets with interaction terms compared to
+the standard chromosome formulation.

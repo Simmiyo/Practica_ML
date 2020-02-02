@@ -1,0 +1,20 @@
+Manifold unwrapping using density ridges
+Research on manifold learning within a density ridge estimation framework has
+shown great potential in recent work for both estimation and de-noising of
+manifolds, building on the intuitive and well-defined notion of principal
+curves and surfaces. However, the problem of unwrapping or unfolding manifolds
+has received relatively little attention within the density ridge approach,
+despite being an integral part of manifold learning in general. This paper
+proposes two novel algorithms for unwrapping manifolds based on estimated
+principal curves and surfaces for one- and multi-dimensional manifolds
+respectively. The methods of unwrapping are founded in the realization that
+both principal curves and principal surfaces will have inherent local maxima of
+the probability density function. Following this observation, coordinate
+systems that follow the shape of the manifold can be computed by following the
+integral curves of the gradient flow of a kernel density estimate on the
+manifold. Furthermore, since integral curves of the gradient flow of a kernel
+density estimate is inherently local, we propose to stitch together local
+coordinate systems using parallel transport along the manifold. We provide
+numerical experiments on both real and synthetic data that illustrates clear
+and intuitive unwrapping results comparable to state-of-the-art manifold
+learning algorithms.

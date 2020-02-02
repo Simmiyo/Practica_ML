@@ -1,0 +1,19 @@
+Extraction of semantic relations from a Basque monolingual dictionary
+  using Constraint Grammar
+This paper deals with the exploitation of dictionaries for the semi-automatic
+construction of lexicons and lexical knowledge bases. The final goal of our
+research is to enrich the Basque Lexical Database with semantic information
+such as senses, definitions, semantic relations, etc., extracted from a Basque
+monolingual dictionary. The work here presented focuses on the extraction of
+the semantic relations that best characterise the headword, that is, those of
+synonymy, antonymy, hypernymy, and other relations marked by specific relators
+and derivation. All nominal, verbal and adjectival entries were treated. Basque
+uses morphological inflection to mark case, and therefore semantic relations
+have to be inferred from suffixes rather than from prepositions. Our approach
+combines a morphological analyser and surface syntax parsing (based on
+Constraint Grammar), and has proven very successful for highly inflected
+languages such as Basque. Both the effort to write the rules and the actual
+processing time of the dictionary have been very low. At present we have
+extracted 42,533 relations, leaving only 2,943 (9%) definitions without any
+extracted relation. The error rate is extremely low, as only 2.2% of the
+extracted relations are wrong.

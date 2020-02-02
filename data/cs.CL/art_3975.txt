@@ -1,0 +1,12 @@
+Connecting Distant Entities with Induction through Conditional Random
+  Fields for Named Entity Recognition: Precursor-Induced CRF
+This paper presents a method of designing specific high-order dependency
+factor on the linear chain conditional random fields (CRFs) for named entity
+recognition (NER). Named entities tend to be separated from each other by
+multiple outside tokens in a text, and thus the first-order CRF, as well as the
+second-order CRF, may innately lose transition information between distant
+named entities. The proposed design uses outside label in NER as a transmission
+medium of precedent entity information on the CRF. Then, empirical results
+apparently demonstrate that it is possible to exploit long-distance label
+dependency in the original first-order linear chain CRF structure upon NER
+while reducing computational loss rather than in the second-order CRF.

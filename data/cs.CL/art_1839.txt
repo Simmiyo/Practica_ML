@@ -1,0 +1,18 @@
+Boosting Question Answering by Deep Entity Recognition
+In this paper an open-domain factoid question answering system for Polish,
+RAFAEL, is presented. The system goes beyond finding an answering sentence; it
+also extracts a single string, corresponding to the required entity. Herein the
+focus is placed on different approaches to entity recognition, essential for
+retrieving information matching question constraints. Apart from traditional
+approach, including named entity recognition (NER) solutions, a novel
+technique, called Deep Entity Recognition (DeepER), is introduced and
+implemented. It allows a comprehensive search of all forms of entity references
+matching a given WordNet synset (e.g. an impressionist), based on a previously
+assembled entity library. It has been created by analysing the first sentences
+of encyclopaedia entries and disambiguation and redirect pages. DeepER also
+provides automatic evaluation, which makes possible numerous experiments,
+including over a thousand questions from a quiz TV show answered on the grounds
+of Polish Wikipedia. The final results of a manual evaluation on a separate
+question set show that the strength of DeepER approach lies in its ability to
+answer questions that demand answers beyond the traditional categories of named
+entities.

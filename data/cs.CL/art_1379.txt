@@ -1,0 +1,24 @@
+Incorporating Pass-Phrase Dependent Background Models for Text-Dependent
+  Speaker Verification
+In this paper, we propose pass-phrase dependent background models (PBMs) for
+text-dependent (TD) speaker verification (SV) to integrate the pass-phrase
+identification process into the conventional TD-SV system, where a PBM is
+derived from a text-independent background model through adaptation using the
+utterances of a particular pass-phrase. During training, pass-phrase specific
+target speaker models are derived from the particular PBM using the training
+data for the respective target model. While testing, the best PBM is first
+selected for the test utterance in the maximum likelihood (ML) sense and the
+selected PBM is then used for the log likelihood ratio (LLR) calculation with
+respect to the claimant model. The proposed method incorporates the pass-phrase
+identification step in the LLR calculation, which is not considered in
+conventional standalone TD-SV systems. The performance of the proposed method
+is compared to conventional text-independent background model based TD-SV
+systems using either Gaussian mixture model (GMM)-universal background model
+(UBM) or Hidden Markov model (HMM)-UBM or i-vector paradigms. In addition, we
+consider two approaches to build PBMs: speaker-independent and
+speaker-dependent. We show that the proposed method significantly reduces the
+error rates of text-dependent speaker verification for the non-target types:
+target-wrong and imposter-wrong while it maintains comparable TD-SV performance
+when imposters speak a correct utterance with respect to the conventional
+system. Experiments are conducted on the RedDots challenge and the RSR2015
+databases that consist of short utterances.

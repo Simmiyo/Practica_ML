@@ -1,0 +1,21 @@
+Application of backpropagation neural networks to both stages of
+  fingerprinting based WIPS
+We propose a scheme to employ backpropagation neural networks (BPNNs) for
+both stages of fingerprinting-based indoor positioning using WLAN/WiFi signal
+strengths (FWIPS): radio map construction during the offline stage, and
+localization during the online stage. Given a training radio map (TRM), i.e., a
+set of coordinate vectors and associated WLAN/WiFi signal strengths of the
+available access points, a BPNN can be trained to output the expected signal
+strengths for any input position within the region of interest (BPNN-RM). This
+can be used to provide a continuous representation of the radio map and to
+filter, densify or decimate a discrete radio map. Correspondingly, the TRM can
+also be used to train another BPNN to output the expected position within the
+region of interest for any input vector of recorded signal strengths and thus
+carry out localization (BPNN-LA).Key aspects of the design of such artificial
+neural networks for a specific application are the selection of design
+parameters like the number of hidden layers and nodes within the network, and
+the training procedure. Summarizing extensive numerical simulations, based on
+real measurements in a testbed, we analyze the impact of these design choices
+on the performance of the BPNN and compare the results in particular to those
+obtained using the $k$ nearest neighbors ($k$NN) and weighted $k$ nearest
+neighbors approaches to FWIPS.

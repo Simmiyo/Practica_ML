@@ -1,0 +1,13 @@
+Efficient Networks for Quantum Factoring
+We consider how to optimize memory use and computation time in operating a
+quantum computer. In particular, we estimate the number of memory qubits and
+the number of operations required to perform factorization, using the algorithm
+suggested by Shor. A $K$-bit number can be factored in time of order $K^3$
+using a machine capable of storing $5K+1$ qubits. Evaluation of the modular
+exponential function (the bottleneck of Shor's algorithm) could be achieved
+with about $72 K^3$ elementary quantum gates; implementation using a linear ion
+trap would require about $396 K^3$ laser pulses. A proof-of-principle
+demonstration of quantum factoring (factorization of 15) could be performed
+with only 6 trapped ions and 38 laser pulses. Though the ion trap may never be
+a useful computer, it will be a powerful device for exploring experimentally
+the properties of entangled quantum states.

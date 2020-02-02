@@ -1,0 +1,11 @@
+Analyse en dépendances à l'aide des grammaires d'interaction
+This article proposes a method to extract dependency structures from
+phrase-structure level parsing with Interaction Grammars. Interaction Grammars
+are a formalism which expresses interactions among words using a polarity
+system. Syntactical composition is led by the saturation of polarities.
+Interactions take place between constituents, but as grammars are lexicalized,
+these interactions can be translated at the level of words. Dependency
+relations are extracted from the parsing process: every dependency is the
+consequence of a polarity saturation. The dependency relations we obtain can be
+seen as a refinement of the usual dependency tree. Generally speaking, this
+work sheds new light on links between phrase structure and dependency parsing.

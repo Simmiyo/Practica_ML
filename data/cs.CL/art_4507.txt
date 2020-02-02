@@ -1,0 +1,11 @@
+Universal Dependency Parsing with a General Transition-Based DAG Parser
+This paper presents our experiments with applying TUPA to the CoNLL 2018 UD
+shared task. TUPA is a general neural transition-based DAG parser, which we use
+to present the first experiments on recovering enhanced dependencies as part of
+the general parsing task. TUPA was designed for parsing UCCA, a
+cross-linguistic semantic annotation scheme, exhibiting reentrancy,
+discontinuity and non-terminal nodes. By converting UD trees and graphs to a
+UCCA-like DAG format, we train TUPA almost without modification on the UD
+parsing task. The generic nature of our approach lends itself naturally to
+multitask learning. Our code is available at
+https://github.com/CoNLL-UD-2018/HUJI

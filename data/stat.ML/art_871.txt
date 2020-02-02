@@ -1,0 +1,12 @@
+Efficient learning with robust gradient descent
+Minimizing the empirical risk is a popular training strategy, but for
+learning tasks where the data may be noisy or heavy-tailed, one may require
+many observations in order to generalize well. To achieve better performance
+under less stringent requirements, we introduce a procedure which constructs a
+robust approximation of the risk gradient for use in an iterative learning
+routine. Using high-probability bounds on the excess risk of this algorithm, we
+show that our update does not deviate far from the ideal gradient-based update.
+Empirical tests using both controlled simulations and real-world benchmark data
+show that in diverse settings, the proposed procedure can learn more
+efficiently, using less resources (iterations and observations) while
+generalizing better.

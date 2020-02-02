@@ -1,0 +1,18 @@
+Clustering Dynamic Web Usage Data
+Most classification methods are based on the assumption that data conforms to
+a stationary distribution. The machine learning domain currently suffers from a
+lack of classification techniques that are able to detect the occurrence of a
+change in the underlying data distribution. Ignoring possible changes in the
+underlying concept, also known as concept drift, may degrade the performance of
+the classification model. Often these changes make the model inconsistent and
+regular updatings become necessary. Taking the temporal dimension into account
+during the analysis of Web usage data is a necessity, since the way a site is
+visited may indeed evolve due to modifications in the structure and content of
+the site, or even due to changes in the behavior of certain user groups. One
+solution to this problem, proposed in this article, is to update models using
+summaries obtained by means of an evolutionary approach based on an intelligent
+clustering approach. We carry out various clustering strategies that are
+applied on time sub-periods. To validate our approach we apply two external
+evaluation criteria which compare different partitions from the same data set.
+Our experiments show that the proposed approach is efficient to detect the
+occurrence of changes.

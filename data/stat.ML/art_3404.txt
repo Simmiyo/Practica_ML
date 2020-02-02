@@ -1,0 +1,14 @@
+Estimating Posterior Ratio for Classification: Transfer Learning from
+  Probabilistic Perspective
+Transfer learning assumes classifiers of similar tasks share certain
+parameter structures. Unfortunately, modern classifiers uses sophisticated
+feature representations with huge parameter spaces which lead to costly
+transfer. Under the impression that changes from one classifier to another
+should be ``simple'', an efficient transfer learning criteria that only learns
+the ``differences'' is proposed in this paper. We train a \emph{posterior
+ratio} which turns out to minimizes the upper-bound of the target learning
+risk. The model of posterior ratio does not have to share the same parameter
+space with the source classifier at all so it can be easily modelled and
+efficiently trained. The resulting classifier therefore is obtained by simply
+multiplying the existing probabilistic-classifier with the learned posterior
+ratio.

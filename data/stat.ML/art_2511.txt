@@ -1,0 +1,12 @@
+Declarative Modeling and Bayesian Inference of Dark Matter Halos
+Probabilistic programming allows specification of probabilistic models in a
+declarative manner. Recently, several new software systems and languages for
+probabilistic programming have been developed on the basis of newly developed
+and improved methods for approximate inference in probabilistic models. In this
+contribution a probabilistic model for an idealized dark matter localization
+problem is described. We first derive the probabilistic model for the inference
+of dark matter locations and masses, and then show how this model can be
+implemented using BUGS and Infer.NET, two software systems for probabilistic
+programming. Finally, the different capabilities of both systems are discussed.
+The presented dark matter model includes mainly non-conjugate factors, thus, it
+is difficult to implement this model with Infer.NET.

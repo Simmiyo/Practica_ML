@@ -1,0 +1,12 @@
+A Statistical Learning Theory Framework for Supervised Pattern Discovery
+This paper formalizes a latent variable inference problem we call {\em
+supervised pattern discovery}, the goal of which is to find sets of
+observations that belong to a single ``pattern.'' We discuss two versions of
+the problem and prove uniform risk bounds for both. In the first version,
+collections of patterns can be generated in an arbitrary manner and the data
+consist of multiple labeled collections. In the second version, the patterns
+are assumed to be generated independently by identically distributed processes.
+These processes are allowed to take an arbitrary form, so observations within a
+pattern are not in general independent of each other. The bounds for the second
+version of the problem are stated in terms of a new complexity measure, the
+quasi-Rademacher complexity.

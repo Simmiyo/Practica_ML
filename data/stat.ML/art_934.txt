@@ -1,0 +1,13 @@
+On the EM-Tau algorithm: a new EM-style algorithm with partial E-steps
+The EM algorithm is one of many important tools in the field of statistics.
+While often used for imputing missing data, its widespread applications include
+other common statistical tasks, such as clustering. In clustering, the EM
+algorithm assumes a parametric distribution for the clusters, whose parameters
+are estimated through a novel iterative procedure that is based on the theory
+of maximum likelihood. However, one major drawback of the EM algorithm, that
+renders it impractical especially when working with large datasets, is that it
+often requires several passes of the data before convergence. In this paper, we
+introduce a new EM-style algorithm that implements a novel policy for
+performing partial E-steps. We call the new algorithm the EM-Tau algorithm,
+which can approximate the traditional EM algorithm with high accuracy but with
+only a fraction of the running time.

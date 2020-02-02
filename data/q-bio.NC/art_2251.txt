@@ -1,0 +1,17 @@
+Minimal model of associative learning for cross-situational lexicon
+  acquisition
+An explanation for the acquisition of word-object mappings is the associative
+learning in a cross-situational scenario. Here we present analytical results of
+the performance of a simple associative learning algorithm for acquiring a
+one-to-one mapping between $N$ objects and $N$ words based solely on the
+co-occurrence between objects and words. In particular, a learning trial in our
+learning scenario consists of the presentation of $C + 1 < N$ objects together
+with a target word, which refers to one of the objects in the context. We find
+that the learning times are distributed exponentially and the learning rates
+are given by $\ln{[\frac{N(N-1)}{C + (N-1)^{2}}]}$ in the case the $N$ target
+words are sampled randomly and by $\frac{1}{N} \ln [\frac{N-1}{C}] $ in the
+case they follow a deterministic presentation sequence. This learning
+performance is much superior to those exhibited by humans and more realistic
+learning algorithms in cross-situational experiments. We show that introduction
+of discrimination limitations using Weber's law and forgetting reduce the
+performance of the associative algorithm to the human level.

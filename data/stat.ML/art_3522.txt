@@ -1,0 +1,14 @@
+Semismooth Newton Coordinate Descent Algorithm for Elastic-Net Penalized
+  Huber Loss Regression and Quantile Regression
+We propose an algorithm, semismooth Newton coordinate descent (SNCD), for the
+elastic-net penalized Huber loss regression and quantile regression in high
+dimensional settings. Unlike existing coordinate descent type algorithms, the
+SNCD updates each regression coefficient and its corresponding subgradient
+simultaneously in each iteration. It combines the strengths of the coordinate
+descent and the semismooth Newton algorithm, and effectively solves the
+computational challenges posed by dimensionality and nonsmoothness. We
+establish the convergence properties of the algorithm. In addition, we present
+an adaptive version of the "strong rule" for screening predictors to gain extra
+efficiency. Through numerical experiments, we demonstrate that the proposed
+algorithm is very efficient and scalable to ultra-high dimensions. We
+illustrate the application via a real data example.

@@ -1,0 +1,20 @@
+Dimensionality Detection and Integration of Multiple Data Sources via
+  the GP-LVM
+The Gaussian Process Latent Variable Model (GP-LVM) is a non-linear
+probabilistic method of embedding a high dimensional dataset in terms low
+dimensional `latent' variables. In this paper we illustrate that maximum a
+posteriori (MAP) estimation of the latent variables and hyperparameters can be
+used for model selection and hence we can determine the optimal number or
+latent variables and the most appropriate model. This is an alternative to the
+variational approaches developed recently and may be useful when we want to use
+a non-Gaussian prior or kernel functions that don't have automatic relevance
+determination (ARD) parameters. Using a second order expansion of the latent
+variable posterior we can marginalise the latent variables and obtain an
+estimate for the hyperparameter posterior. Secondly, we use the GP-LVM to
+integrate multiple data sources by simultaneously embedding them in terms of
+common latent variables. We present results from synthetic data to illustrate
+the successful detection and retrieval of low dimensional structure from high
+dimensional data. We demonstrate that the integration of multiple data sources
+leads to more robust performance. Finally, we show that when the data are used
+for binary classification tasks we can attain a significant gain in prediction
+accuracy when the low dimensional representation is used.

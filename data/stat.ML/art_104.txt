@@ -1,0 +1,18 @@
+Task-Driven Dictionary Learning
+Modeling data with linear combinations of a few elements from a learned
+dictionary has been the focus of much recent research in machine learning,
+neuroscience and signal processing. For signals such as natural images that
+admit such sparse representations, it is now well established that these models
+are well suited to restoration tasks. In this context, learning the dictionary
+amounts to solving a large-scale matrix factorization problem, which can be
+done efficiently with classical optimization tools. The same approach has also
+been used for learning features from data for other purposes, e.g., image
+classification, but tuning the dictionary in a supervised way for these tasks
+has proven to be more difficult. In this paper, we present a general
+formulation for supervised dictionary learning adapted to a wide variety of
+tasks, and present an efficient algorithm for solving the corresponding
+optimization problem. Experiments on handwritten digit classification, digital
+art identification, nonlinear inverse image problems, and compressed sensing
+demonstrate that our approach is effective in large-scale settings, and is well
+suited to supervised and semi-supervised classification, as well as regression
+tasks for data that admit sparse representations.

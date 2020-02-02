@@ -1,0 +1,18 @@
+Multidimensional Transformation-Based Learning
+This paper presents a novel method that allows a machine learning algorithm
+following the transformation-based learning paradigm \cite{brill95:tagging} to
+be applied to multiple classification tasks by training jointly and
+simultaneously on all fields. The motivation for constructing such a system
+stems from the observation that many tasks in natural language processing are
+naturally composed of multiple subtasks which need to be resolved
+simultaneously; also tasks usually learned in isolation can possibly benefit
+from being learned in a joint framework, as the signals for the extra tasks
+usually constitute inductive bias.
+  The proposed algorithm is evaluated in two experiments: in one, the system is
+used to jointly predict the part-of-speech and text chunks/baseNP chunks of an
+English corpus; and in the second it is used to learn the joint prediction of
+word segment boundaries and part-of-speech tagging for Chinese. The results
+show that the simultaneous learning of multiple tasks does achieve an
+improvement in each task upon training the same tasks sequentially. The
+part-of-speech tagging result of 96.63% is state-of-the-art for individual
+systems on the particular train/test split.

@@ -1,0 +1,21 @@
+Near-Ideal Behavior of Compressed Sensing Algorithms
+In a recent paper, it is shown that the LASSO algorithm exhibits "near-ideal
+behavior," in the following sense: Suppose $y = Az + \eta$ where $A$ satisfies
+the restricted isometry property (RIP) with a sufficiently small constant, and
+$\Vert \eta \Vert_2 \leq \epsilon$. Then minimizing $\Vert z \Vert_1$ subject
+to $\Vert y - Az \Vert_2 \leq \epsilon$ leads to an estimate $\hat{x}$ whose
+error $\Vert \hat{x} - x \Vert_2$ is bounded by a universal constant times the
+error achieved by an "oracle" that knows the location of the nonzero components
+of $x$. In the world of optimization, the LASSO algorithm has been generalized
+in several directions such as the group LASSO, the sparse group LASSO, either
+without or with tree-structured overlapping groups, and most recently, the
+sorted LASSO. In this paper, it is shown that {\it any algorithm\/} exhibits
+near-ideal behavior in the above sense, provided only that (i) the norm used to
+define the sparsity index is "decomposable," (ii) the penalty norm that is
+minimized in an effort to enforce sparsity is "$\gamma$-decomposable," and
+(iii) a "compressibility condition" in terms of a group restricted isometry
+property is satisfied. Specifically, the group LASSO, and the sparse group
+LASSO (with some permissible overlap in the groups), as well as the sorted
+$\ell_1$-norm minimization all exhibit near-ideal behavior. Explicit bounds on
+the residual error are derived that contain previously known results as special
+cases.

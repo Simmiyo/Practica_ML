@@ -1,0 +1,17 @@
+Cascaded High Dimensional Histograms: A Generative Approach to Density
+  Estimation
+We present tree- and list- structured density estimation methods for high
+dimensional binary/categorical data. Our density estimation models are high
+dimensional analogies to variable bin width histograms. In each leaf of the
+tree (or list), the density is constant, similar to the flat density within the
+bin of a histogram. Histograms, however, cannot easily be visualized in higher
+dimensions, whereas our models can. The accuracy of histograms fades as
+dimensions increase, whereas our models have priors that help with
+generalization. Our models are sparse, unlike high-dimensional histograms. We
+present three generative models, where the first one allows the user to specify
+the number of desired leaves in the tree within a Bayesian prior. The second
+model allows the user to specify the desired number of branches within the
+prior. The third model returns lists (rather than trees) and allows the user to
+specify the desired number of rules and the length of rules within the prior.
+Our results indicate that the new approaches yield a better balance between
+sparsity and accuracy of density estimates than other methods for this task.

@@ -1,0 +1,14 @@
+Re-scale boosting for regression and classification
+Boosting is a learning scheme that combines weak prediction rules to produce
+a strong composite estimator, with the underlying intuition that one can obtain
+accurate prediction rules by combining "rough" ones. Although boosting is
+proved to be consistent and overfitting-resistant, its numerical convergence
+rate is relatively slow. The aim of this paper is to develop a new boosting
+strategy, called the re-scale boosting (RBoosting), to accelerate the numerical
+convergence rate and, consequently, improve the learning performance of
+boosting. Our studies show that RBoosting possesses the almost optimal
+numerical convergence rate in the sense that, up to a logarithmic factor, it
+can reach the minimax nonlinear approximation rate. We then use RBoosting to
+tackle both the classification and regression problems, and deduce a tight
+generalization error estimate. The theoretical and experimental results show
+that RBoosting outperforms boosting in terms of generalization.

@@ -1,0 +1,14 @@
+Tensor-Dictionary Learning with Deep Kruskal-Factor Analysis
+A multi-way factor analysis model is introduced for tensor-variate data of
+any order. Each data item is represented as a (sparse) sum of Kruskal
+decompositions, a Kruskal-factor analysis (KFA). KFA is nonparametric and can
+infer both the tensor-rank of each dictionary atom and the number of dictionary
+atoms. The model is adapted for online learning, which allows dictionary
+learning on large data sets. After KFA is introduced, the model is extended to
+a deep convolutional tensor-factor analysis, supervised by a Bayesian SVM. The
+experiments section demonstrates the improvement of KFA over vectorized
+approaches (e.g., BPFA), tensor decompositions, and convolutional neural
+networks (CNN) in multi-way denoising, blind inpainting, and image
+classification. The improvement in PSNR for the inpainting results over other
+methods exceeds 1dB in several cases and we achieve state of the art results on
+Caltech101 image classification.

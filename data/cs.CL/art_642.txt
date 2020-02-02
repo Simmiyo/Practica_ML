@@ -1,0 +1,23 @@
+Computing Lexical Contrast
+Knowing the degree of semantic contrast between words has widespread
+application in natural language processing, including machine translation,
+information retrieval, and dialogue systems. Manually-created lexicons focus on
+opposites, such as {\rm hot} and {\rm cold}. Opposites are of many kinds such
+as antipodals, complementaries, and gradable. However, existing lexicons often
+do not classify opposites into the different kinds. They also do not explicitly
+list word pairs that are not opposites but yet have some degree of contrast in
+meaning, such as {\rm warm} and {\rm cold} or {\rm tropical} and {\rm
+freezing}. We propose an automatic method to identify contrasting word pairs
+that is based on the hypothesis that if a pair of words, $A$ and $B$, are
+contrasting, then there is a pair of opposites, $C$ and $D$, such that $A$ and
+$C$ are strongly related and $B$ and $D$ are strongly related. (For example,
+there exists the pair of opposites {\rm hot} and {\rm cold} such that {\rm
+tropical} is related to {\rm hot,} and {\rm freezing} is related to {\rm
+cold}.) We will call this the contrast hypothesis. We begin with a large
+crowdsourcing experiment to determine the amount of human agreement on the
+concept of oppositeness and its different kinds. In the process, we flesh out
+key features of different kinds of opposites. We then present an automatic and
+empirical measure of lexical contrast that relies on the contrast hypothesis,
+corpus statistics, and the structure of a {\it Roget}-like thesaurus. We show
+that the proposed measure of lexical contrast obtains high precision and large
+coverage, outperforming existing methods.

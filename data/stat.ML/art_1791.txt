@@ -1,0 +1,20 @@
+Toward Parts-Based Scene Understanding with Pixel-Support Parts-Sparse
+  Pictorial Structures
+Scene understanding remains a significant challenge in the computer vision
+community. The visual psychophysics literature has demonstrated the importance
+of interdependence among parts of the scene. Yet, the majority of methods in
+computer vision remain local. Pictorial structures have arisen as a fundamental
+parts-based model for some vision problems, such as articulated object
+detection. However, the form of classical pictorial structures limits their
+applicability for global problems, such as semantic pixel labeling. In this
+paper, we propose an extension of the pictorial structures approach, called
+pixel-support parts-sparse pictorial structures, or PS3, to overcome this
+limitation. Our model extends the classical form in two ways: first, it defines
+parts directly based on pixel-support rather than in a parametric form, and
+second, it specifies a space of plausible parts-based scene models and permits
+one to be used for inference on any given image. PS3 makes strides toward
+unifying object-level and pixel-level modeling of scene elements. In this
+report, we implement the first half of our model and rely upon external
+knowledge to provide an initial graph structure for a given image. Our
+experimental results on benchmark datasets demonstrate the capability of this
+new parts-based view of scene modeling.

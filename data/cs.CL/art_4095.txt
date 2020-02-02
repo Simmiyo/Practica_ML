@@ -1,0 +1,15 @@
+Impersonation: Modeling Persona in Smart Responses to Email
+In this paper, we present design, implementation, and effectiveness of
+generating personalized suggestions for email replies. To personalize email
+responses based on users style and personality, we model the users persona
+based on her past responses to emails. This model is added to the
+language-based model created across users using past responses of the all user
+emails.
+  A users model captures the typical responses of the user given a particular
+context. The context includes the email received, recipient of the email, and
+other external signals such as calendar activities, preferences, etc. The
+context along with users personality (e.g., extrovert, formal, reserved, etc.)
+is used to suggest responses. These responses can be a mixture of multiple
+modes: email replies (textual), audio clips, etc. This helps in making
+responses mimic the user as much as possible and helps the user to be more
+productive while retaining her mark in the responses.

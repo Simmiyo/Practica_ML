@@ -1,0 +1,15 @@
+Variational Tempering
+Variational inference (VI) combined with data subsampling enables approximate
+posterior inference over large data sets, but suffers from poor local optima.
+We first formulate a deterministic annealing approach for the generic class of
+conditionally conjugate exponential family models. This approach uses a
+decreasing temperature parameter which deterministically deforms the objective
+during the course of the optimization. A well-known drawback to this annealing
+approach is the choice of the cooling schedule. We therefore introduce
+variational tempering, a variational algorithm that introduces a temperature
+latent variable to the model. In contrast to related work in the Markov chain
+Monte Carlo literature, this algorithm results in adaptive annealing schedules.
+Lastly, we develop local variational tempering, which assigns a latent
+temperature to each data point; this allows for dynamic annealing that varies
+across data. Compared to the traditional VI, all proposed approaches find
+improved predictive likelihoods on held-out data.

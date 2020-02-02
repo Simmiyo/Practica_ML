@@ -1,0 +1,23 @@
+Hebbian Inspecificity in the Oja Model
+Recent work on Long Term Potentiation in brain slices shows that Hebb's rule
+is not completely synapse-specific, probably due to intersynapse diffusion of
+calcium or other factors. We extend the classical Oja unsupervised model of
+learning by a single linear neuron to include Hebbian inspecificity, by
+introducing an error matrix E, which expresses possible crosstalk between
+updating at different connections. We show the modified algorithm converges to
+the leading eigenvector of the matrix EC, where C is the input covariance
+matrix. When there is no inspecificity, this gives the classical result of
+convergence to the first principal component of the input distribution (PC1).
+We then study the outcome of learning using different versions of E. In the
+most biologically plausible case, arising when there are no intrinsically
+privileged connections, E has diagonal elements Q and off- diagonal elements
+(1-Q)/(n-1), where Q, the quality, is expected to decrease with the number of
+inputs n. We analyze this error-onto-all case in detail, for both uncorrelated
+and correlated inputs. We study the dependence of the angle theta between PC1
+and the leading eigenvector of EC on b, n and the amount of input activity or
+correlation. (We do this analytically and using Matlab calculations.) We find
+that theta increases (learning becomes gradually less useful) with increases in
+b, particularly for intermediate (i.e. biologically-realistic) correlation
+strength, although some useful learning always occurs up to the trivial limit Q
+= 1/n. We discuss the relation of our results to Hebbian unsupervised learning
+in the brain.

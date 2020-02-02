@@ -1,0 +1,14 @@
+The Dynamic ECME Algorithm
+The ECME algorithm has proven to be an effective way of accelerating the EM
+algorithm for many problems. Recognising the limitation of using prefixed
+acceleration subspace in ECME, we propose the new Dynamic ECME (DECME)
+algorithm which allows the acceleration subspace to be chosen dynamically. Our
+investigation of an inefficient special case of DECME, the classical Successive
+Overrelaxation (SOR) method, leads to an efficient, simple, and widely
+applicable DECME implementation, called DECME_v1. The fast convergence of
+DECME_v1 is established by the theoretical result that, in a small
+neighbourhood of the maximum likelihood estimate (MLE), DECME_v1 is equivalent
+to a conjugate direction method. Numerical results show that DECME_v1 and its
+two variants are very stable and often converge faster than EM by a factor of
+one hundred in terms of number of iterations and a factor of thirty in terms of
+CPU time when EM is very slow.

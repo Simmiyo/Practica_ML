@@ -1,0 +1,9 @@
+Asynchronous Anytime Sequential Monte Carlo
+We introduce a new sequential Monte Carlo algorithm we call the particle
+cascade. The particle cascade is an asynchronous, anytime alternative to
+traditional particle filtering algorithms. It uses no barrier synchronizations
+which leads to improved particle throughput and memory efficiency. It is an
+anytime algorithm in the sense that it can be run forever to emit an unbounded
+number of particles while keeping within a fixed memory budget. We prove that
+the particle cascade is an unbiased marginal likelihood estimator which means
+that it can be straightforwardly plugged into existing pseudomarginal methods.

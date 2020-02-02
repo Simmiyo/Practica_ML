@@ -1,0 +1,13 @@
+Deep Gaussian Processes with Decoupled Inducing Inputs
+Deep Gaussian Processes (DGP) are hierarchical generalizations of Gaussian
+Processes (GP) that have proven to work effectively on a multiple supervised
+regression tasks. They combine the well calibrated uncertainty estimates of GPs
+with the great flexibility of multilayer models. In DGPs, given the inputs, the
+outputs of the layers are Gaussian distributions parameterized by their means
+and covariances. These layers are realized as Sparse GPs where the training
+data is approximated using a small set of pseudo points. In this work, we show
+that the computational cost of DGPs can be reduced with no loss in performance
+by using a separate, smaller set of pseudo points when calculating the
+layerwise variance while using a larger set of pseudo points when calculating
+the layerwise mean. This enabled us to train larger models that have lower cost
+and better predictive performance.

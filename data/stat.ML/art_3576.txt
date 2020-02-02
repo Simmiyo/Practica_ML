@@ -1,0 +1,10 @@
+Some Theory For Practical Classifier Validation
+We compare and contrast two approaches to validating a trained classifier
+while using all in-sample data for training. One is simultaneous validation
+over an organized set of hypotheses (SVOOSH), the well-known method that began
+with VC theory. The other is withhold and gap (WAG). WAG withholds a validation
+set, trains a holdout classifier on the remaining data, uses the validation
+data to validate that classifier, then adds the rate of disagreement between
+the holdout classifier and one trained using all in-sample data, which is an
+upper bound on the difference in error rates. We show that complex hypothesis
+classes and limited training data can make WAG a favorable alternative.

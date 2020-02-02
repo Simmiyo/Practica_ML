@@ -1,0 +1,11 @@
+Robust exponential binary pattern storage in Little-Hopfield networks
+The Little-Hopfield network is an auto-associative computational model of
+neural memory storage and retrieval. This model is known to robustly store
+collections of randomly generated binary patterns as stable-states of the
+network dynamics. However, the number of binary memories so storable scales
+linearly in the number of neurons, and it has been a long-standing open problem
+whether robust exponential storage of binary patterns was possible in such a
+network memory model. In this note, we design simple families of
+Little-Hopfield networks that provably solve this problem affirmatively. As a
+byproduct, we produce a set of novel (nonlinear) binary codes with an
+efficient, highly parallelizable denoising mechanism.

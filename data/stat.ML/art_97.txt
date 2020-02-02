@@ -1,0 +1,9 @@
+A Simple CW-SSIM Kernel-based Nearest Neighbor Method for Handwritten
+  Digit Classification
+We propose a simple kernel based nearest neighbor approach for handwritten
+digit classification. The "distance" here is actually a kernel defining the
+similarity between two images. We carefully study the effects of different
+number of neighbors and weight schemes and report the results. With only a few
+nearest neighbors (or most similar images) to vote, the test set error rate on
+MNIST database could reach about 1.5%-2.0%, which is very close to many
+advanced models.

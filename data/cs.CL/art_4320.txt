@@ -1,0 +1,14 @@
+A Multi-task Ensemble Framework for Emotion, Sentiment and Intensity
+  Prediction
+In this paper, through multi-task ensemble framework we address three
+problems of emotion and sentiment analysis i.e. "emotion classification &
+intensity", "valence, arousal & dominance for emotion" and "valence & arousal}
+for sentiment". The underlying problems cover two granularities (i.e.
+coarse-grained and fine-grained) and a diverse range of domains (i.e. tweets,
+Facebook posts, news headlines, blogs, letters etc.). The ensemble model aims
+to leverage the learned representations of three deep learning models (i.e.
+CNN, LSTM and GRU) and a hand-crafted feature representation for the
+predictions. Experimental results on the benchmark datasets show the efficacy
+of our proposed multi-task ensemble frameworks. We obtain the performance
+improvement of 2-3 points on an average over single-task systems for most of
+the problems and domains.

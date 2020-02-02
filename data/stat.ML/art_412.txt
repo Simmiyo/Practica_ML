@@ -1,0 +1,11 @@
+Approximate Inference for Nonstationary Heteroscedastic Gaussian process
+  Regression
+This paper presents a novel approach for approximate integration over the
+uncertainty of noise and signal variances in Gaussian process (GP) regression.
+Our efficient and straightforward approach can also be applied to integration
+over input dependent noise variance (heteroscedasticity) and input dependent
+signal variance (nonstationarity) by setting independent GP priors for the
+noise and signal variances. We use expectation propagation (EP) for inference
+and compare results to Markov chain Monte Carlo in two simulated data sets and
+three empirical examples. The results show that EP produces comparable results
+with less computational burden.

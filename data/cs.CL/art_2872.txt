@@ -1,0 +1,12 @@
+Argument Labeling of Explicit Discourse Relations using LSTM Neural
+  Networks
+Argument labeling of explicit discourse relations is a challenging task. The
+state of the art systems achieve slightly above 55% F-measure but require
+hand-crafted features. In this paper, we propose a Long Short Term Memory
+(LSTM) based model for argument labeling. We experimented with multiple
+configurations of our model. Using the PDTB dataset, our best model achieved an
+F1 measure of 23.05% without any feature engineering. This is significantly
+higher than the 20.52% achieved by the state of the art RNN approach, but
+significantly lower than the feature based state of the art systems. On the
+other hand, because our approach learns only from the raw dataset, it is more
+widely applicable to multiple textual genres and languages.

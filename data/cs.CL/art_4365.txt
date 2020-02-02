@@ -1,0 +1,12 @@
+Neural Semi-Markov Conditional Random Fields for Robust Character-Based
+  Part-of-Speech Tagging
+Character-level models of tokens have been shown to be effective at dealing
+with within-token noise and out-of-vocabulary words. But these models still
+rely on correct token boundaries. In this paper, we propose a novel end-to-end
+character-level model and demonstrate its effectiveness in multilingual
+settings and when token boundaries are noisy. Our model is a semi-Markov
+conditional random field with neural networks for character and segment
+representation. It requires no tokenizer. The model matches state-of-the-art
+baselines for various languages and significantly outperforms them on a noisy
+English version of a part-of-speech tagging benchmark dataset. Our code and the
+noisy dataset are publicly available at http://cistern.cis.lmu.de/semiCRF.

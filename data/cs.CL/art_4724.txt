@@ -1,0 +1,9 @@
+Similarity measure for Public Persons
+For the webportal "Who is in the News!" with statistics about the appearence
+of persons in written news we developed an extension, which measures the
+relationship of public persons depending on a time parameter, as the
+relationship may vary over time. On a training corpus of English and German
+news articles we built a measure by extracting the persons occurrence in the
+text via pretrained named entity extraction and then construct time series of
+counts for each person. Pearson correlation over a sliding window is then used
+to measure the relation of two persons.

@@ -1,0 +1,21 @@
+BindsNET: A machine learning-oriented spiking neural networks library in
+  Python
+The development of spiking neural network simulation software is a critical
+component enabling the modeling of neural systems and the development of
+biologically inspired algorithms. Existing software frameworks support a wide
+range of neural functionality, software abstraction levels, and hardware
+devices, yet are typically not suitable for rapid prototyping or application to
+problems in the domain of machine learning. In this paper, we describe a new
+Python package for the simulation of spiking neural networks, specifically
+geared towards machine learning and reinforcement learning. Our software,
+called BindsNET, enables rapid building and simulation of spiking networks and
+features user-friendly, concise syntax. BindsNET is built on top of the PyTorch
+deep neural networks library, enabling fast CPU and GPU computation for large
+spiking networks. The BindsNET framework can be adjusted to meet the needs of
+other existing computing and hardware environments, e.g., TensorFlow. We also
+provide an interface into the OpenAI gym library, allowing for training and
+evaluation of spiking networks on reinforcement learning problems. We argue
+that this package facilitates the use of spiking networks for large-scale
+machine learning experimentation, and show some simple examples of how we
+envision BindsNET can be used in practice. BindsNET code is available at
+https://github.com/Hananel-Hazan/bindsnet

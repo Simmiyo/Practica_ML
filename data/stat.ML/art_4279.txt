@@ -1,0 +1,20 @@
+Distribution-Preserving k-Anonymity
+Preserving the privacy of individuals by protecting their sensitive
+attributes is an important consideration during microdata release. However, it
+is equally important to preserve the quality or utility of the data for at
+least some targeted workloads. We propose a novel framework for privacy
+preservation based on the k-anonymity model that is ideally suited for
+workloads that require preserving the probability distribution of the
+quasi-identifier variables in the data. Our framework combines the principles
+of distribution-preserving quantization and k-member clustering, and we
+specialize it to two variants that respectively use intra-cluster and Gaussian
+dithering of cluster centers to achieve distribution preservation. We perform
+theoretical analysis of the proposed schemes in terms of distribution
+preservation, and describe their utility in workloads such as covariate shift
+and transfer learning where such a property is necessary. Using extensive
+experiments on real-world Medical Expenditure Panel Survey data, we demonstrate
+the merits of our algorithms over standard k-anonymization for a hallmark
+health care application where an insurance company wishes to understand the
+risk in entering a new market. Furthermore, by empirically quantifying the
+reidentification risk, we also show that the proposed approaches indeed
+maintain k-anonymity.

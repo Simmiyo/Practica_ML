@@ -1,0 +1,23 @@
+Cross-Platform Emoji Interpretation: Analysis, a Solution, and
+  Applications
+Most social media platforms are largely based on text, and users often write
+posts to describe where they are, what they are seeing, and how they are
+feeling. Because written text lacks the emotional cues of spoken and
+face-to-face dialogue, ambiguities are common in written language. This problem
+is exacerbated in the short, informal nature of many social media posts. To
+bypass this issue, a suite of special characters called "emojis," which are
+small pictograms, are embedded within the text. Many emojis are small
+depictions of facial expressions designed to help disambiguate the emotional
+meaning of the text. However, a new ambiguity arises in the way that emojis are
+rendered. Every platform (Windows, Mac, and Android, to name a few) renders
+emojis according to their own style. In fact, it has been shown that some
+emojis can be rendered so differently that they look "happy" on some platforms,
+and "sad" on others. In this work, we use real-world data to verify the
+existence of this problem. We verify that the usage of the same emoji can be
+significantly different across platforms, with some emojis exhibiting different
+sentiment polarities on different platforms. We propose a solution to identify
+the intended emoji based on the platform-specific nature of the emoji used by
+the author of a social media post. We apply our solution to sentiment analysis,
+a task that can benefit from the emoji calibration technique we use in this
+work. We conduct experiments to evaluate the effectiveness of the mapping in
+this task.

@@ -1,0 +1,18 @@
+A Biased Look at Phase Locking: Brief Critical Review and Proposed
+  Remedy
+A number of popular measures of dependence between pairs of band-limited
+signals rely on analytic phase. A common misconception is that the dependence
+revealed by these measures must be specific to the spectral range of the
+filtered input signals. Implicitly or explicitly, obtaining analytic phase
+involves normalizing the signal by its own envelope, which is a nonlinear
+operation that introduces broad spectral leakage. We review how this generates
+bias and complicates the interpretation of commonly used measures of phase
+locking. A specific example of this effect may create spurious phase locking as
+a consequence of nonzero circular mean in the phase of input signals, which can
+be viewed as spectral leakage to 0 Hz. Corrections for this problem which
+recenter or uniformize the distribution of phase may fail when the amplitudes
+of the compared signals are correlated. To address the more general problem of
+spectral bias, a novel measure of phase locking is proposed, the
+amplitude-weighted phase locking value (awPLV). This measure is closely related
+to coherence, but it removes ambiguities of interpretation that detract from
+the latter.

@@ -1,0 +1,21 @@
+Multivariate Gaussian and Student$-t$ Process Regression for
+  Multi-output Prediction
+Gaussian process model for vector-valued function has been shown to be useful
+for multi-output prediction. The existing method for this model is to
+re-formulate the matrix-variate Gaussian distribution as a multivariate normal
+distribution. Although it is effective in many cases, re-formulation is not
+always workable and is difficult to apply to other distributions because not
+all matrix-variate distributions can be transformed to respective multivariate
+distributions, such as the case for matrix-variate Student$-t$ distribution. In
+this paper, we propose a unified framework which is used not only to introduce
+a novel multivariate Student$-t$ process regression model (MV-TPR) for
+multi-output prediction, but also to reformulate the multivariate Gaussian
+process regression (MV-GPR) that overcomes some limitations of the existing
+methods. Both MV-GPR and MV-TPR have closed-form expressions for the marginal
+likelihoods and predictive distributions under this unified framework and thus
+can adopt the same optimization approaches as used in the conventional GPR. The
+usefulness of the proposed methods is illustrated through several simulated and
+real data examples. In particular, we verify empirically that MV-TPR has
+superiority for the datasets considered, including air quality prediction and
+bike rent prediction. At last, the proposed methods are shown to produce
+profitable investment strategies in the stock markets.

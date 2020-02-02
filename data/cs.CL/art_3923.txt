@@ -1,0 +1,14 @@
+A new dataset and model for learning to understand navigational
+  instructions
+In this paper, we present a state-of-the-art model and introduce a new
+dataset for grounded language learning. Our goal is to develop a model that can
+learn to follow new instructions given prior instruction-perception-action
+examples. We based our work on the SAIL dataset which consists of navigational
+instructions and actions in a maze-like environment. The new model we propose
+achieves the best results to date on the SAIL dataset by using an improved
+perceptual component that can represent relative positions of objects. We also
+analyze the problems with the SAIL dataset regarding its size and balance. We
+argue that performance on a small, fixed-size dataset is no longer a good
+measure to differentiate state-of-the-art models. We introduce SAILx, a
+synthetic dataset generator, and perform experiments where the size and balance
+of the dataset are controlled.

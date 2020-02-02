@@ -1,0 +1,21 @@
+The Impact of Random Models on Clustering Similarity
+Clustering is a central approach for unsupervised learning. After clustering
+is applied, the most fundamental analysis is to quantitatively compare
+clusterings. Such comparisons are crucial for the evaluation of clustering
+methods as well as other tasks such as consensus clustering. It is often argued
+that, in order to establish a baseline, clustering similarity should be
+assessed in the context of a random ensemble of clusterings. The prevailing
+assumption for the random clustering ensemble is the permutation model in which
+the number and sizes of clusters are fixed. However, this assumption does not
+necessarily hold in practice; for example, multiple runs of K-means clustering
+returns clusterings with a fixed number of clusters, while the cluster size
+distribution varies greatly. Here, we derive corrected variants of two
+clustering similarity measures (the Rand index and Mutual Information) in the
+context of two random clustering ensembles in which the number and sizes of
+clusters vary. In addition, we study the impact of one-sided comparisons in the
+scenario with a reference clustering. The consequences of different random
+models are illustrated using synthetic examples, handwriting recognition, and
+gene expression data. We demonstrate that the choice of random model can have a
+drastic impact on the ranking of similar clustering pairs, and the evaluation
+of a clustering method with respect to a random baseline; thus, the choice of
+random clustering model should be carefully justified.

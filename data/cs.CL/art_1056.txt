@@ -1,0 +1,16 @@
+Deep convolutional acoustic word embeddings using word-pair side
+  information
+Recent studies have been revisiting whole words as the basic modelling unit
+in speech recognition and query applications, instead of phonetic units. Such
+whole-word segmental systems rely on a function that maps a variable-length
+speech segment to a vector in a fixed-dimensional space; the resulting acoustic
+word embeddings need to allow for accurate discrimination between different
+word types, directly in the embedding space. We compare several old and new
+approaches in a word discrimination task. Our best approach uses side
+information in the form of known word pairs to train a Siamese convolutional
+neural network (CNN): a pair of tied networks that take two speech segments as
+input and produce their embeddings, trained with a hinge loss that separates
+same-word pairs and different-word pairs by some margin. A word classifier CNN
+performs similarly, but requires much stronger supervision. Both types of CNNs
+yield large improvements over the best previously published results on the word
+discrimination task.

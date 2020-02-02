@@ -1,0 +1,13 @@
+A Novel Method for Epileptic Seizure Detection Using Coupled Hidden
+  Markov Models
+We propose a novel Coupled Hidden Markov Model to detect epileptic seizures
+in multichannel electroencephalography (EEG) data. Our model defines a network
+of seizure propagation paths to capture both the temporal and spatial evolution
+of epileptic activity. To address the intractability introduced by the coupled
+interactions, we derive a variational inference procedure to efficiently infer
+the seizure evolution from spectral patterns in the EEG data. We validate our
+model on EEG aquired under clinical conditions in the Epilepsy Monitoring Unit
+of the Johns Hopkins Hospital. Using 5-fold cross validation, we demonstrate
+that our model outperforms three baseline approaches which rely on a classical
+detection framework. Our model also demonstrates the potential to localize
+seizure onset zones in focal epilepsy.

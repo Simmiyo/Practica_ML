@@ -1,0 +1,13 @@
+A recommender system to restore images with impulse noise
+We build a collaborative filtering recommender system to restore images with
+impulse noise for which the noisy pixels have been previously identified. We
+define this recommender system in terms of a new color image representation
+using three matrices that depend on the noise-free pixels of the image to
+restore, and two parameters: $k$, the number of features; and $\lambda$, the
+regularization factor. We perform experiments on a well known image database to
+test our algorithm and we provide image quality statistics for the results
+obtained. We discuss the roles of bias and variance in the performance of our
+algorithm as determined by the values of $k$ and $\lambda$, and provide
+guidance on how to choose the values of these parameters. Finally, we discuss
+the possibility of using our collaborative filtering recommender system to
+perform image inpainting and super-resolution.

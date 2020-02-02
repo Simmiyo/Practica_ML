@@ -1,0 +1,17 @@
+A New Greedy Algorithm for Multiple Sparse Regression
+This paper proposes a new algorithm for multiple sparse regression in high
+dimensions, where the task is to estimate the support and values of several
+(typically related) sparse vectors from a few noisy linear measurements. Our
+algorithm is a "forward-backward" greedy procedure that -- uniquely -- operates
+on two distinct classes of objects. In particular, we organize our target
+sparse vectors as a matrix; our algorithm involves iterative addition and
+removal of both (a) individual elements, and (b) entire rows (corresponding to
+shared features), of the matrix.
+  Analytically, we establish that our algorithm manages to recover the supports
+(exactly) and values (approximately) of the sparse vectors, under assumptions
+similar to existing approaches based on convex optimization. However, our
+algorithm has a much smaller computational complexity. Perhaps most
+interestingly, it is seen empirically to require visibly fewer samples. Ours
+represents the first attempt to extend greedy algorithms to the class of models
+that can only/best be represented by a combination of component structural
+assumptions (sparse and group-sparse, in our case).

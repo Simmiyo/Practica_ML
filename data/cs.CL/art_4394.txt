@@ -1,0 +1,10 @@
+Syntree2Vec - An algorithm to augment syntactic hierarchy into word
+  embeddings
+Word embeddings aims to map sense of the words into a lower dimensional
+vector space in order to reason over them. Training embeddings on domain
+specific data helps express concepts more relevant to their use case but comes
+at a cost of accuracy when data is less. Our effort is to minimise this by
+infusing syntactic knowledge into the embeddings. We propose a graph based
+embedding algorithm inspired from node2vec. Experimental results have shown
+that our algorithm improves the syntactic strength and gives robust performance
+on meagre data.

@@ -1,0 +1,14 @@
+A new kernel-based approach to system identification with quantized
+  output data
+In this paper we introduce a novel method for linear system identification
+with quantized output data. We model the impulse response as a zero-mean
+Gaussian process whose covariance (kernel) is given by the recently proposed
+stable spline kernel, which encodes information on regularity and exponential
+stability. This serves as a starting point to cast our system identification
+problem into a Bayesian framework. We employ Markov Chain Monte Carlo methods
+to provide an estimate of the system. In particular, we design two methods
+based on the so-called Gibbs sampler that allow also to estimate the kernel
+hyperparameters by marginal likelihood maximization via the
+expectation-maximization method. Numerical simulations show the effectiveness
+of the proposed scheme, as compared to the state-of-the-art kernel-based
+methods when these are employed in system identification with quantized data.

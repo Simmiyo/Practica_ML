@@ -1,0 +1,18 @@
+Robust and Sparse Regression via $γ$-divergence
+In high-dimensional data, many sparse regression methods have been proposed.
+However, they may not be robust against outliers. Recently, the use of density
+power weight has been studied for robust parameter estimation and the
+corresponding divergences have been discussed. One of such divergences is the
+$\gamma$-divergence and the robust estimator using the $\gamma$-divergence is
+known for having a strong robustness. In this paper, we consider the robust and
+sparse regression based on $\gamma$-divergence. We extend the
+$\gamma$-divergence to the regression problem and show that it has a strong
+robustness under heavy contamination even when outliers are heterogeneous. The
+loss function is constructed by an empirical estimate of the
+$\gamma$-divergence with sparse regularization and the parameter estimate is
+defined as the minimizer of the loss function. To obtain the robust and sparse
+estimate, we propose an efficient update algorithm which has a monotone
+decreasing property of the loss function. Particularly, we discuss a linear
+regression problem with $L_1$ regularization in detail. In numerical
+experiments and real data analyses, we see that the proposed method outperforms
+past robust and sparse methods.

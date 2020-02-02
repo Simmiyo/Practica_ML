@@ -1,0 +1,13 @@
+A Character-Word Compositional Neural Language Model for Finnish
+Inspired by recent research, we explore ways to model the highly
+morphological Finnish language at the level of characters while maintaining the
+performance of word-level models. We propose a new
+Character-to-Word-to-Character (C2W2C) compositional language model that uses
+characters as input and output while still internally processing word level
+embeddings. Our preliminary experiments, using the Finnish Europarl V7 corpus,
+indicate that C2W2C can respond well to the challenges of morphologically rich
+languages such as high out of vocabulary rates, the prediction of novel words,
+and growing vocabulary size. Notably, the model is able to correctly score
+inflectional forms that are not present in the training data and sample
+grammatically and semantically correct Finnish sentences character by
+character.

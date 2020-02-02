@@ -1,0 +1,8 @@
+PAWL-Forced Simulated Tempering
+In this short note, we show how the parallel adaptive Wang-Landau (PAWL)
+algorithm of Bornn et al. (2013) can be used to automate and improve simulated
+tempering algorithms. While Wang-Landau and other stochastic approximation
+methods have frequently been applied within the simulated tempering framework,
+this note demonstrates through a simple example the additional improvements
+brought about by parallelization, adaptive proposals and automated bin
+splitting.

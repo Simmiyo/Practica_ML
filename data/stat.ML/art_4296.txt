@@ -1,0 +1,13 @@
+Tangent: Automatic Differentiation Using Source Code Transformation in
+  Python
+Automatic differentiation (AD) is an essential primitive for machine learning
+programming systems. Tangent is a new library that performs AD using source
+code transformation (SCT) in Python. It takes numeric functions written in a
+syntactic subset of Python and NumPy as input, and generates new Python
+functions which calculate a derivative. This approach to automatic
+differentiation is different from existing packages popular in machine
+learning, such as TensorFlow and Autograd. Advantages are that Tangent
+generates gradient code in Python which is readable by the user, easy to
+understand and debug, and has no runtime overhead. Tangent also introduces
+abstractions for easily injecting logic into the generated gradient code,
+further improving usability.

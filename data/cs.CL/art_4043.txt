@@ -1,0 +1,14 @@
+Explaining Away Syntactic Structure in Semantic Document Representations
+Most generative document models act on bag-of-words input in an attempt to
+focus on the semantic content and thereby partially forego syntactic
+information. We argue that it is preferable to keep the original word order
+intact and explicitly account for the syntactic structure instead. We propose
+an extension to the Neural Variational Document Model (Miao et al., 2016) that
+does exactly that to separate local (syntactic) context from the global
+(semantic) representation of the document. Our model builds on the variational
+autoencoder framework to define a generative document model based on next-word
+prediction. We name our approach Sequence-Aware Variational Autoencoder since
+in contrast to its predecessor, it operates on the true input sequence. In a
+series of experiments we observe stronger topicality of the learned
+representations as well as increased robustness to syntactic noise in our
+training data.

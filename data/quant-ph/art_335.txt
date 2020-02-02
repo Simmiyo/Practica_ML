@@ -1,0 +1,25 @@
+Mixed State Entanglement and Quantum Error Correction
+Entanglement purification protocols (EPP) and quantum error-correcting codes
+(QECC) provide two ways of protecting quantum states from interaction with the
+environment. In an EPP, perfectly entangled pure states are extracted, with
+some yield D, from a mixed state M shared by two parties; with a QECC, an arbi-
+trary quantum state $|\xi\rangle$ can be transmitted at some rate Q through a
+noisy channel $\chi$ without degradation. We prove that an EPP involving one-
+way classical communication and acting on mixed state $\hat{M}(\chi)$ (obtained
+by sharing halves of EPR pairs through a channel $\chi$) yields a QECC on
+$\chi$ with rate $Q=D$, and vice versa. We compare the amount of entanglement
+E(M) required to prepare a mixed state M by local actions with the amounts
+$D_1(M)$ and $D_2(M)$ that can be locally distilled from it by EPPs using one-
+and two-way classical communication respectively, and give an exact expression
+for $E(M)$ when $M$ is Bell-diagonal. While EPPs require classical communica-
+tion, QECCs do not, and we prove Q is not increased by adding one-way classical
+communication. However, both D and Q can be increased by adding two-way com-
+munication. We show that certain noisy quantum channels, for example a 50%
+depolarizing channel, can be used for reliable transmission of quantum states
+if two-way communication is available, but cannot be used if only one-way com-
+munication is available. We exhibit a family of codes based on universal hash-
+ing able toachieve an asymptotic $Q$ (or $D$) of 1-S for simple noise models,
+where S is the error entropy. We also obtain a specific, simple 5-bit single-
+error-correcting quantum block code. We prove that {\em iff} a QECC results in
+high fidelity for the case of no error the QECC can be recast into a form where
+the encoder is the matrix inverse of the decoder.

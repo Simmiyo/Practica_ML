@@ -1,0 +1,20 @@
+State estimation for large ensembles
+We consider the problem of estimating the state of a large but finite number
+$N$ of identical quantum systems. In the limit of large $N$ the problem
+simplifies. In particular the only relevant measure of the quality of the
+estimation is the mean quadratic error matrix. Here we present a bound on the
+mean quadratic error which is a new quantum version of the Cram\'er-Rao
+inequality. This new bound expresses in a succinct way how in the quantum case
+one can trade information about one parameter for information about another
+parameter. The bound holds for arbitrary measurements on pure states, but only
+for separable measurements on mixed states--a striking example of non-locality
+without entanglement for mixed but not for pure states. Cram\'er-Rao bounds are
+generally derived under the assumption that the estimator is unbiased. We also
+prove that under additional regularity conditions our bound also holds for
+biased estimators. Finally we prove that when the unknown states belong to a 2
+dimensional Hilbert space our quantum Cram\'er-Rao bound can always be attained
+and we provide an explicit measurement strategy that attains our bound. This
+therefore provides a complete solution to the problem of estimating as
+efficiently as possible the unknown state of a large ensemble of qubits in the
+same pure state. For qubits in the same mixed state, this also provides an
+optimal estimation strategy if one only considers separable measurements.

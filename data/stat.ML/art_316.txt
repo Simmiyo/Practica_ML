@@ -1,0 +1,10 @@
+MPBART - Multinomial Probit Bayesian Additive Regression Trees
+This article proposes Multinomial Probit Bayesian Additive Regression Trees
+(MPBART) as a multinomial probit extension of BART - Bayesian Additive
+Regression Trees (Chipman et al (2010)). MPBART is flexible to allow inclusion
+of predictors that describe the observed units as well as the available choice
+alternatives. Through two simulation studies and four real data examples, we
+show that MPBART exhibits very good predictive performance in comparison to
+other discrete choice and multiclass classification methods. To implement
+MPBART, we have developed an R package mpbart available freely from CRAN
+repositories.

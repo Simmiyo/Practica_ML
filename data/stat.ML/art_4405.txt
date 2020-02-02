@@ -1,0 +1,23 @@
+Utilizing artificial neural networks to predict demand for
+  weather-sensitive products at retail stores
+One key requirement for effective supply chain management is the quality of
+its inventory management. Various inventory management methods are typically
+employed for different types of products based on their demand patterns,
+product attributes, and supply network. In this paper, our goal is to develop
+robust demand prediction methods for weather sensitive products at retail
+stores. We employ historical datasets from Walmart, whose customers and markets
+are often exposed to extreme weather events which can have a huge impact on
+sales regarding the affected stores and products. We want to accurately predict
+the sales of 111 potentially weather-sensitive products around the time of
+major weather events at 45 of Walmart retails locations in the U.S.
+Intuitively, we may expect an uptick in the sales of umbrellas before a big
+thunderstorm, but it is difficult for replenishment managers to predict the
+level of inventory needed to avoid being out-of-stock or overstock during and
+after that storm. While they rely on a variety of vendor tools to predict sales
+around extreme weather events, they mostly employ a time-consuming process that
+lacks a systematic measure of effectiveness. We employ all the methods critical
+to any analytics project and start with data exploration. Critical features are
+extracted from the raw historical dataset for demand forecasting accuracy and
+robustness. In particular, we employ Artificial Neural Network for forecasting
+demand for each product sold around the time of major weather events. Finally,
+we evaluate our model to evaluate their accuracy and robustness.

@@ -1,0 +1,19 @@
+Semi-supervised Kernel Metric Learning Using Relative Comparisons
+We consider the problem of metric learning subject to a set of constraints on
+relative-distance comparisons between the data items. Such constraints are
+meant to reflect side-information that is not expressed directly in the feature
+vectors of the data items. The relative-distance constraints used in this work
+are particularly effective in expressing structures at finer level of detail
+than must-link (ML) and cannot-link (CL) constraints, which are most commonly
+used for semi-supervised clustering. Relative-distance constraints are thus
+useful in settings where providing an ML or a CL constraint is difficult
+because the granularity of the true clustering is unknown.
+  Our main contribution is an efficient algorithm for learning a kernel matrix
+using the log determinant divergence --- a variant of the Bregman divergence
+--- subject to a set of relative-distance constraints. The learned kernel
+matrix can then be employed by many different kernel methods in a wide range of
+applications. In our experimental evaluations, we consider a semi-supervised
+clustering setting and show empirically that kernels found by our algorithm
+yield clusterings of higher quality than existing approaches that either use
+ML/CL constraints or a different means to implement the supervision using
+relative comparisons.

@@ -1,0 +1,16 @@
+Single-Pass, Adaptive Natural Language Filtering: Measuring Value in
+  User Generated Comments on Large-Scale, Social Media News Forums
+There are large amounts of insight and social discovery potential in mining
+crowd-sourced comments left on popular news forums like Reddit.com, Tumblr.com,
+Facebook.com and Hacker News. Unfortunately, due the overwhelming amount of
+participation with its varying quality of commentary, extracting value out of
+such data isn't always obvious nor timely. By designing efficient, single-pass
+and adaptive natural language filters to quickly prune spam, noise, copy-cats,
+marketing diversions, and out-of-context posts, we can remove over a third of
+entries and return the comments with a higher probability of relatedness to the
+original article in question. The approach presented here uses an adaptive,
+two-step filtering process. It first leverages the original article posted in
+the thread as a starting corpus to parse comments by matching intersecting
+words and term-ratio balance per sentence then grows the corpus by adding new
+words harvested from high-matching comments to increase filtering accuracy over
+time.

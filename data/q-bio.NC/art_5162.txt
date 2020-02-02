@@ -1,0 +1,19 @@
+Cortical Surface Parcellation using Spherical Convolutional Neural
+  Networks
+We present cortical surface parcellation using spherical deep convolutional
+neural networks. Traditional multi-atlas cortical surface parcellation requires
+inter-subject surface registration using geometric features with high
+processing time on a single subject (2-3 hours). Moreover, even optimal surface
+registration does not necessarily produce optimal cortical parcellation as
+parcel boundaries are not fully matched to the geometric features. In this
+context, a choice of training features is important for accurate cortical
+parcellation. To utilize the networks efficiently, we propose cortical
+parcellation-specific input data from an irregular and complicated structure of
+cortical surfaces. To this end, we align ground-truth cortical parcel
+boundaries and use their resulting deformation fields to generate new pairs of
+deformed geometric features and parcellation maps. To extend the capability of
+the networks, we then smoothly morph cortical geometric features and
+parcellation maps using the intermediate deformation fields. We validate our
+method on 427 adult brains for 49 labels. The experimental results show that
+our method out-performs traditional multi-atlas and naive spherical U-Net
+approaches, while achieving full cortical parcellation in less than a minute.

@@ -1,0 +1,19 @@
+A constrained ICA-EMD Model for Group Level fMRI Analysis
+Independent component analysis (ICA), as a data driven method, has shown to
+be a powerful tool for functional magnetic resonance imaging (fMRI) data
+analysis. One drawback of this multivariate approach is, that it is not
+compatible to the analysis of group data in general. Therefore various
+techniques have been proposed in order to overcome this limitation of ICA. In
+this paper a novel ICA-based work-flow for extracting resting state networks
+from fMRI group studies is proposed. An empirical mode decomposition (EMD) is
+used to generate reference signals in a data driven manner, which can be
+incorporated into a constrained version of ICA (cICA), what helps to eliminate
+the inherent ambiguities of ICA. The results of the proposed workflow are then
+compared to those obtained by a widely used group ICA approach for fMRI
+analysis. In this paper it is demonstrated that intrinsic modes, extracted by
+EMD, are suitable to serve as references for cICA to obtain typical resting
+state patterns, which are consistent over subjects. By introducing these
+reference signals into the ICA, our processing pipeline makes it transparent
+for the user, how comparable activity patterns across subjects emerge. This
+additionally allows adapting the trade-off between enforcing similarity across
+subjects and preserving individual subject features.

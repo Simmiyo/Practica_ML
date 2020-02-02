@@ -1,0 +1,9 @@
+An Approximation Ratio for Biclustering
+The problem of biclustering consists of the simultaneous clustering of rows
+and columns of a matrix such that each of the submatrices induced by a pair of
+row and column clusters is as uniform as possible. In this paper we approximate
+the optimal biclustering by applying one-way clustering algorithms
+independently on the rows and on the columns of the input matrix. We show that
+such a solution yields a worst-case approximation ratio of 1+sqrt(2) under
+L1-norm for 0-1 valued matrices, and of 2 under L2-norm for real valued
+matrices.

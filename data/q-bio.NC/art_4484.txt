@@ -1,0 +1,22 @@
+Robustly representing uncertainty in deep neural networks through
+  sampling
+As deep neural networks (DNNs) are applied to increasingly challenging
+problems, they will need to be able to represent their own uncertainty.
+Modeling uncertainty is one of the key features of Bayesian methods. Using
+Bernoulli dropout with sampling at prediction time has recently been proposed
+as an efficient and well performing variational inference method for DNNs.
+However, sampling from other multiplicative noise based variational
+distributions has not been investigated in depth. We evaluated Bayesian DNNs
+trained with Bernoulli or Gaussian multiplicative masking of either the units
+(dropout) or the weights (dropconnect). We tested the calibration of the
+probabilistic predictions of Bayesian convolutional neural networks (CNNs) on
+MNIST and CIFAR-10. Sampling at prediction time increased the calibration of
+the DNNs' probabalistic predictions. Sampling weights, whether Gaussian or
+Bernoulli, led to more robust representation of uncertainty compared to
+sampling of units. However, using either Gaussian or Bernoulli dropout led to
+increased test set classification accuracy. Based on these findings we used
+both Bernoulli dropout and Gaussian dropconnect concurrently, which we show
+approximates the use of a spike-and-slab variational distribution without
+increasing the number of learned parameters. We found that spike-and-slab
+sampling had higher test set performance than Gaussian dropconnect and more
+robustly represented its uncertainty compared to Bernoulli dropout.

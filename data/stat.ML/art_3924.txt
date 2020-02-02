@@ -1,0 +1,14 @@
+Post Selection Inference with Kernels
+We propose a novel kernel based post selection inference (PSI) algorithm,
+which can not only handle non-linearity in data but also structured output such
+as multi-dimensional and multi-label outputs. Specifically, we develop a PSI
+algorithm for independence measures, and propose the Hilbert-Schmidt
+Independence Criterion (HSIC) based PSI algorithm (hsicInf). The novelty of the
+proposed algorithm is that it can handle non-linearity and/or structured data
+through kernels. Namely, the proposed algorithm can be used for wider range of
+applications including nonlinear multi-class classification and multi-variate
+regressions, while existing PSI algorithms cannot handle them. Through
+synthetic experiments, we show that the proposed approach can find a set of
+statistically significant features for both regression and classification
+problems. Moreover, we apply the hsicInf algorithm to a real-world data, and
+show that hsicInf can successfully identify important features.

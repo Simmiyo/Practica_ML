@@ -1,0 +1,8 @@
+A Limit on the Speed of Quantum Computation in Determining Parity
+Consider a function f which is defined on the integers from 1 to N and takes
+the values -1 and +1. The parity of f is the product over all x from 1 to N of
+f(x). With no further information about f, to classically determine the parity
+of f requires N calls of the function f. We show that any quantum algorithm
+capable of determining the parity of f contains at least N/2 applications of
+the unitary operator which evaluates f. Thus for this problem, quantum
+computers cannot outperform classical computers.

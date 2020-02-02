@@ -1,0 +1,12 @@
+ABCD Neurocognitive Prediction Challenge 2019: Predicting individual
+  fluid intelligence scores from structural MRI using probabilistic
+  segmentation and kernel ridge regression
+We applied several regression and deep learning methods to predict fluid
+intelligence scores from T1-weighted MRI scans as part of the ABCD
+Neurocognitive Prediction Challenge (ABCD-NP-Challenge) 2019. We used voxel
+intensities and probabilistic tissue-type labels derived from these as features
+to train the models. The best predictive performance (lowest mean-squared
+error) came from Kernel Ridge Regression (KRR; $\lambda=10$), which produced a
+mean-squared error of 69.7204 on the validation set and 92.1298 on the test
+set. This placed our group in the fifth position on the validation leader board
+and first place on the final (test) leader board.

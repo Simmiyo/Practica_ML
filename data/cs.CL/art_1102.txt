@@ -1,0 +1,14 @@
+Gaussian Mixture Embeddings for Multiple Word Prototypes
+Recently, word representation has been increasingly focused on for its
+excellent properties in representing the word semantics. Previous works mainly
+suffer from the problem of polysemy phenomenon. To address this problem, most
+of previous models represent words as multiple distributed vectors. However, it
+cannot reflect the rich relations between words by representing words as points
+in the embedded space. In this paper, we propose the Gaussian mixture skip-gram
+(GMSG) model to learn the Gaussian mixture embeddings for words based on
+skip-gram framework. Each word can be regarded as a gaussian mixture
+distribution in the embedded space, and each gaussian component represents a
+word sense. Since the number of senses varies from word to word, we further
+propose the Dynamic GMSG (D-GMSG) model by adaptively increasing the sense
+number of words during training. Experiments on four benchmarks show the
+effectiveness of our proposed model.

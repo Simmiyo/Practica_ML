@@ -1,0 +1,14 @@
+On Lipschitz Continuity and Smoothness of Loss Functions in Learning to
+  Rank
+In binary classification and regression problems, it is well understood that
+Lipschitz continuity and smoothness of the loss function play key roles in
+governing generalization error bounds for empirical risk minimization
+algorithms. In this paper, we show how these two properties affect
+generalization error bounds in the learning to rank problem. The learning to
+rank problem involves vector valued predictions and therefore the choice of the
+norm with respect to which Lipschitz continuity and smoothness are defined
+becomes crucial. Choosing the $\ell_\infty$ norm in our definition of Lipschitz
+continuity allows us to improve existing bounds. Furthermore, under smoothness
+assumptions, our choice enables us to prove rates that interpolate between
+$1/\sqrt{n}$ and $1/n$ rates. Application of our results to ListNet, a popular
+learning to rank method, gives state-of-the-art performance guarantees.

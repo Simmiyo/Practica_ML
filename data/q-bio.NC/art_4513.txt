@@ -1,0 +1,19 @@
+A Useful Motif for Flexible Task Learning in an Embodied Two-Dimensional
+  Visual Environment
+Animals (especially humans) have an amazing ability to learn new tasks
+quickly, and switch between them flexibly. How brains support this ability is
+largely unknown, both neuroscientifically and algorithmically. One reasonable
+supposition is that modules drawing on an underlying general-purpose sensory
+representation are dynamically allocated on a per-task basis. Recent results
+from neuroscience and artificial intelligence suggest the role of the general
+purpose visual representation may be played by a deep convolutional neural
+network, and give some clues how task modules based on such a representation
+might be discovered and constructed. In this work, we investigate module
+architectures in an embodied two-dimensional touchscreen environment, in which
+an agent's learning must occur via interactions with an environment that emits
+images and rewards, and accepts touches as input. This environment is designed
+to capture the physical structure of the task environments that are commonly
+deployed in visual neuroscience and psychophysics. We show that in this
+context, very simple changes in the nonlinear activations used by such a module
+can significantly influence how fast it is at learning visual tasks and how
+suitable it is for switching to new tasks.

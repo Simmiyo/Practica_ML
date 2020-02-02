@@ -1,0 +1,15 @@
+A novel method for determining the phase-response curves of neurons
+  based on minimizing spike-time prediction error
+Regular firing neurons can be seen as oscillators. The phase-response curve
+(PRC) describes how such neurons will respond to small excitatory
+perturbations. Knowledge of the PRC is important as it is associated to the
+excitability type of neurons and their capability to synchronize in networks.
+In this work we present a novel method to estimate the PRC from experimental
+data. We assume that continuous noise signal can be discretized into
+independent perturbations at evenly spaced phases and predict the next spike
+based on these independent perturbations. The difference between the predicted
+next spike made at every discretized phase and the actual next spike time is
+used as the error signal used to optimize the PRC. We test our method on model
+data and experimentally obtained data and find that the newly developed method
+is robust and reliable method for the estimation of PRCs from experimental
+data.

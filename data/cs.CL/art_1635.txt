@@ -1,0 +1,17 @@
+Automatic derivation of domain terms and concept location based on the
+  analysis of the identifiers
+Developers express the meaning of the domain ideas in specifically selected
+identifiers and comments that form the target implemented code. Software
+maintenance requires knowledge and understanding of the encoded ideas. This
+paper presents a way how to create automatically domain vocabulary. Knowledge
+of domain vocabulary supports the comprehension of a specific domain for later
+code maintenance or evolution. We present experiments conducted in two selected
+domains: application servers and web frameworks. Knowledge of domain terms
+enables easy localization of chunks of code that belong to a certain term. We
+consider these chunks of code as "concepts" and their placement in the code as
+"concept location". Application developers may also benefit from the obtained
+domain terms. These terms are parts of speech that characterize a certain
+concept. Concepts are encoded in "classes" (OO paradigm) and the obtained
+vocabulary of terms supports the selection and the comprehension of the class'
+appropriate identifiers. We measured the following software products with our
+tool: JBoss, JOnAS, GlassFish, Tapestry, Google Web Toolkit and Echo2.

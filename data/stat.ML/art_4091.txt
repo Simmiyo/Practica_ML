@@ -1,0 +1,13 @@
+TreeView: Peeking into Deep Neural Networks Via Feature-Space
+  Partitioning
+With the advent of highly predictive but opaque deep learning models, it has
+become more important than ever to understand and explain the predictions of
+such models. Existing approaches define interpretability as the inverse of
+complexity and achieve interpretability at the cost of accuracy. This
+introduces a risk of producing interpretable but misleading explanations. As
+humans, we are prone to engage in this kind of behavior \cite{mythos}. In this
+paper, we take a step in the direction of tackling the problem of
+interpretability without compromising the model accuracy. We propose to build a
+Treeview representation of the complex model via hierarchical partitioning of
+the feature space, which reveals the iterative rejection of unlikely class
+labels until the correct association is predicted.

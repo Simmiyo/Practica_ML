@@ -1,0 +1,19 @@
+Modeling Bottom-Up and Top-Down Attention with a Neurodynamic Model of
+  V1
+Previous studies in that line suggested that lateral interactions of V1 cells
+are responsible, among other visual effects, of bottom-up visual attention
+(alternatively named visual salience or saliency). Our objective is to mimic
+these connections in the visual system with a neurodynamic network of
+firing-rate neurons. Early subcortical processes (i.e. retinal and thalamic)
+are functionally simulated. An implementation of the cortical magnification
+function is included to define the retinotopical projections towards V1,
+processing neuronal activity for each distinct view during scene observation.
+Novel computational definitions of top-down inhibition (in terms of inhibition
+of return and selection mechanisms), are also proposed to predict attention in
+Free-Viewing and Visual Search conditions. Results show that our model
+outpeforms other biologically-inpired models of saliency prediction as well as
+to predict visual saccade sequences during free viewing. We also show how
+temporal and spatial characteristics of inhibition of return can improve
+prediction of saccades, as well as how distinct search strategies (in terms of
+feature-selective or category-specific inhibition) predict attention at
+distinct image contexts.

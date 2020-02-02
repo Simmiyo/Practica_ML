@@ -1,0 +1,19 @@
+Token-based Function Computation with Memory
+In distributed function computation, each node has an initial value and the
+goal is to compute a function of these values in a distributed manner. In this
+paper, we propose a novel token-based approach to compute a wide class of
+target functions to which we refer as "Token-based function Computation with
+Memory" (TCM) algorithm. In this approach, node values are attached to tokens
+and travel across the network. Each pair of travelling tokens would coalesce
+when they meet, forming a token with a new value as a function of the original
+token values. In contrast to the Coalescing Random Walk (CRW) algorithm, where
+token movement is governed by random walk, meeting of tokens in our scheme is
+accelerated by adopting a novel chasing mechanism. We proved that, compared to
+the CRW algorithm, the TCM algorithm results in a reduction of time complexity
+by a factor of at least $\sqrt{n/\log(n)}$ in Erd\"os-Renyi and complete
+graphs, and by a factor of $\log(n)/\log(\log(n))$ in torus networks.
+Simulation results show that there is at least a constant factor improvement in
+the message complexity of TCM algorithm in all considered topologies.
+Robustness of the CRW and TCM algorithms in the presence of node failure is
+analyzed. We show that their robustness can be improved by running multiple
+instances of the algorithms in parallel.

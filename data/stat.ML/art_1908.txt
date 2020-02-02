@@ -1,0 +1,12 @@
+Inference in Hidden Markov Models with Explicit State Duration
+  Distributions
+In this letter we borrow from the inference techniques developed for
+unbounded state-cardinality (nonparametric) variants of the HMM and use them to
+develop a tuning-parameter free, black-box inference procedure for
+Explicit-state-duration hidden Markov models (EDHMM). EDHMMs are HMMs that have
+latent states consisting of both discrete state-indicator and discrete
+state-duration random variables. In contrast to the implicit geometric state
+duration distribution possessed by the standard HMM, EDHMMs allow the direct
+parameterisation and estimation of per-state duration distributions. As most
+duration distributions are defined over the positive integers, truncation or
+other approximations are usually required to perform EDHMM inference.

@@ -1,0 +1,12 @@
+On Regularization Parameter Estimation under Covariate Shift
+This paper identifies a problem with the usual procedure for
+L2-regularization parameter estimation in a domain adaptation setting. In such
+a setting, there are differences between the distributions generating the
+training data (source domain) and the test data (target domain). The usual
+cross-validation procedure requires validation data, which can not be obtained
+from the unlabeled target data. The problem is that if one decides to use
+source validation data, the regularization parameter is underestimated. One
+possible solution is to scale the source validation data through importance
+weighting, but we show that this correction is not sufficient. We conclude the
+paper with an empirical analysis of the effect of several importance weight
+estimators on the estimation of the regularization parameter.

@@ -1,0 +1,12 @@
+Entropic Determinants
+The ability of many powerful machine learning algorithms to deal with large
+data sets without compromise is often hampered by computationally expensive
+linear algebra tasks, of which calculating the log determinant is a canonical
+example. In this paper we demonstrate the optimality of Maximum Entropy methods
+in approximating such calculations. We prove the equivalence between mean value
+constraints and sample expectations in the big data limit, that Covariance
+matrix eigenvalue distributions can be completely defined by moment information
+and that the reduction of the self entropy of a maximum entropy proposal
+distribution, achieved by adding more moments reduces the KL divergence between
+the proposal and true eigenvalue distribution. We empirically verify our
+results on a variety of SparseSuite matrices and establish best practices.

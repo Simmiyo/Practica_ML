@@ -1,0 +1,21 @@
+Towards minimax policies for online linear optimization with bandit
+  feedback
+We address the online linear optimization problem with bandit feedback. Our
+contribution is twofold. First, we provide an algorithm (based on exponential
+weights) with a regret of order $\sqrt{d n \log N}$ for any finite action set
+with $N$ actions, under the assumption that the instantaneous loss is bounded
+by 1. This shaves off an extraneous $\sqrt{d}$ factor compared to previous
+works, and gives a regret bound of order $d \sqrt{n \log n}$ for any compact
+set of actions. Without further assumptions on the action set, this last bound
+is minimax optimal up to a logarithmic factor. Interestingly, our result also
+shows that the minimax regret for bandit linear optimization with expert advice
+in $d$ dimension is the same as for the basic $d$-armed bandit with expert
+advice. Our second contribution is to show how to use the Mirror Descent
+algorithm to obtain computationally efficient strategies with minimax optimal
+regret bounds in specific examples. More precisely we study two canonical
+action sets: the hypercube and the Euclidean ball. In the former case, we
+obtain the first computationally efficient algorithm with a $d \sqrt{n}$
+regret, thus improving by a factor $\sqrt{d \log n}$ over the best known result
+for a computationally efficient algorithm. In the latter case, our approach
+gives the first algorithm with a $\sqrt{d n \log n}$ regret, again shaving off
+an extraneous $\sqrt{d}$ compared to previous works.

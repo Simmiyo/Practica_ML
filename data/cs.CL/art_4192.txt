@@ -1,0 +1,17 @@
+Punctuation Prediction Model for Conversational Speech
+An ASR system usually does not predict any punctuation or capitalization.
+Lack of punctuation causes problems in result presentation and confuses both
+the human reader andoff-the-shelf natural language processing algorithms. To
+overcome these limitations, we train two variants of Deep Neural Network (DNN)
+sequence labelling models - a Bidirectional Long Short-Term Memory (BLSTM) and
+a Convolutional Neural Network (CNN), to predict the punctuation. The models
+are trained on the Fisher corpus which includes punctuation annotation. In our
+experiments, we combine time-aligned and punctuated Fisher corpus transcripts
+using a sequence alignment algorithm. The neural networks are trained on Common
+Web Crawl GloVe embedding of the words in Fisher transcripts aligned with
+conversation side indicators and word time infomation. The CNNs yield a better
+precision and BLSTMs tend to have better recall. While BLSTMs make fewer
+mistakes overall, the punctuation predicted by the CNN is more accurate -
+especially in the case of question marks. Our results constitute significant
+evidence that the distribution of words in time, as well as pre-trained
+embeddings, can be useful in the punctuation prediction task.

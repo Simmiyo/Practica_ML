@@ -1,0 +1,17 @@
+Robust Unsupervised Domain Adaptation for Neural Networks via Moment
+  Alignment
+A novel approach for unsupervised domain adaptation for neural networks is
+proposed. It relies on metric-based regularization of the learning process. The
+metric-based regularization aims at domain-invariant latent feature
+representations by means of maximizing the similarity between domain-specific
+activation distributions. The proposed metric results from modifying an
+integral probability metric such that it becomes less translation-sensitive on
+a polynomial function space. The metric has an intuitive interpretation in the
+dual space as the sum of differences of higher order central moments of the
+corresponding activation distributions. Under appropriate assumptions on the
+input distributions, error minimization is proven for the continuous case. As
+demonstrated by an analysis of standard benchmark experiments for sentiment
+analysis, object recognition and digit recognition, the outlined approach is
+robust regarding parameter changes and achieves higher classification
+accuracies than comparable approaches. The source code is available at
+https://github.com/wzell/mann.

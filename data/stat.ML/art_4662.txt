@@ -1,0 +1,23 @@
+Learning theory estimates with observations from general stationary
+  stochastic processes
+This paper investigates the supervised learning problem with observations
+drawn from certain general stationary stochastic processes. Here by
+\emph{general}, we mean that many stationary stochastic processes can be
+included. We show that when the stochastic processes satisfy a generalized
+Bernstein-type inequality, a unified treatment on analyzing the learning
+schemes with various mixing processes can be conducted and a sharp oracle
+inequality for generic regularized empirical risk minimization schemes can be
+established. The obtained oracle inequality is then applied to derive
+convergence rates for several learning schemes such as empirical risk
+minimization (ERM), least squares support vector machines (LS-SVMs) using given
+generic kernels, and SVMs using Gaussian kernels for both least squares and
+quantile regression. It turns out that for i.i.d.~processes, our learning rates
+for ERM recover the optimal rates. On the other hand, for non-i.i.d.~processes
+including geometrically $\alpha$-mixing Markov processes, geometrically
+$\alpha$-mixing processes with restricted decay, $\phi$-mixing processes, and
+(time-reversed) geometrically $\mathcal{C}$-mixing processes, our learning
+rates for SVMs with Gaussian kernels match, up to some arbitrarily small extra
+term in the exponent, the optimal rates. For the remaining cases, our rates are
+at least close to the optimal rates. As a by-product, the assumed generalized
+Bernstein-type inequality also provides an interpretation of the so-called
+"effective number of observations" for various mixing processes.

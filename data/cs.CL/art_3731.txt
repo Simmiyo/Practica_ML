@@ -1,0 +1,15 @@
+Detecting Syntactic Features of Translated Chinese
+We present a machine learning approach to distinguish texts translated to
+Chinese (by humans) from texts originally written in Chinese, with a focus on a
+wide range of syntactic features. Using Support Vector Machines (SVMs) as
+classifier on a genre-balanced corpus in translation studies of Chinese, we
+find that constituent parse trees and dependency triples as features without
+lexical information perform very well on the task, with an F-measure above 90%,
+close to the results of lexical n-gram features, without the risk of learning
+topic information rather than translation features. Thus, we claim syntactic
+features alone can accurately distinguish translated from original Chinese.
+Translated Chinese exhibits an increased use of determiners, subject position
+pronouns, NP + 'de' as NP modifiers, multiple NPs or VPs conjoined by a Chinese
+specific punctuation, among other structures. We also interpret the syntactic
+features with reference to previous translation studies in Chinese,
+particularly the usage of pronouns.

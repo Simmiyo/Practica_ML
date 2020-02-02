@@ -1,0 +1,24 @@
+WAND: A 128-channel, closed-loop, wireless artifact-free neuromodulation
+  device
+Closed-loop neuromodulation systems aim to treat a variety of neurological
+conditions by dynamically delivering and adjusting therapeutic electrical
+stimulation in response to a patient's neural state, recorded in real-time.
+Existing systems are limited by low channel counts, lack of algorithmic
+flexibility, and distortion of recorded signals from large, persistent
+stimulation artifacts. Here, we describe a device that enables new research
+applications requiring high-throughput data streaming, low-latency biosignal
+processing, and truly simultaneous sensing and stimulation. The Wireless
+Artifact-free Neuromodulation Device (WAND) is a miniaturized, wireless neural
+interface capable of recording and stimulating on 128 channels with on-board
+processing to fully cancel stimulation artifacts, detect neural biomarkers, and
+automatically adjust stimulation parameters in a closed-loop fashion. It
+combines custom application specific integrated circuits (ASICs), an on-board
+FPGA, and a low-power bidirectional radio. We validate wireless, long-term
+recordings of local field potentials (LFP) and real-time cancellation of
+stimulation artifacts in a behaving nonhuman primate (NHP). We use WAND to
+demonstrate a closed-loop stimulation paradigm to disrupt movement preparatory
+activity during a delayed-reach task in a NHP in vivo. This wireless device,
+leveraging custom ASICs for both neural recording and electrical stimulation
+modalities, makes possible a neural interface platform technology to
+significantly advance both neuroscientific discovery and preclinical
+investigations of stimulation-based therapeutic interventions.

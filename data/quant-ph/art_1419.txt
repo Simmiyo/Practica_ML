@@ -1,0 +1,15 @@
+Scalable NMR Quantum Computation
+Nuclear magnetic resonance offers an appealing prospect for implementation of
+quantum computers, because of the long coherence times associated with nuclear
+spins, and extensive laboratory experience in manipulating the spins with radio
+frequency pulses. Existing proposals, however, suffer from a signal-to-noise
+ratio that decays exponentially in the number of qubits in the quantum
+computer. This places a severe limit on the size of the computations that can
+be performed by such a computer; estimates of that limit are well within the
+range in which a conventional computer taking exponentially more steps would
+still be practical.
+  We give an NMR implementation in which the signal-to-noise ratio depends only
+on features of NMR technology, not the size of the computer. This provides a
+means for NMR computation techniques to scale to sizes at which the exponential
+speedup enables quantum computation to solve problems beyond the capabilities
+of classical computers.

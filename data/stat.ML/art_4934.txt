@@ -1,0 +1,13 @@
+The Spectral Condition Number Plot for Regularization Parameter
+  Determination
+Many modern statistical applications ask for the estimation of a covariance
+(or precision) matrix in settings where the number of variables is larger than
+the number of observations. There exists a broad class of ridge-type estimators
+that employs regularization to cope with the subsequent singularity of the
+sample covariance matrix. These estimators depend on a penalty parameter and
+choosing its value can be hard, in terms of being computationally unfeasible or
+tenable only for a restricted set of ridge-type estimators. Here we introduce a
+simple graphical tool, the spectral condition number plot, for informed
+heuristic penalty parameter selection. The proposed tool is computationally
+friendly and can be employed for the full class of ridge-type covariance
+(precision) estimators.

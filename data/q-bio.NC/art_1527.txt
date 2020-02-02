@@ -1,0 +1,25 @@
+A neural field model for color perception unifying assimilation and
+  contrast
+We address the question of color-space interactions in the brain, by
+proposing a neural field model of color perception with spatial context for the
+visual area V1 of the cortex. Our framework reconciles two opposing perceptual
+phenomena, known as simultaneous contrast and chromatic assimilation. They have
+been previously shown to act synergistically, so that at some point in an
+image, the color seems perceptually more similar to that of adjacent neighbors,
+while being more dissimilar from that of remote ones. Thus, their combined
+effects are enhanced in the presence of a spatial pattern, and can be measured
+as larger shifts in color matching experiments. Our model supposes a
+hypercolumnar structure coding for colors in V1, and relies on the notion of
+color opponency introduced by Hering. The connectivity kernel of the neural
+field exploits the balance between attraction and repulsion in color and
+physical spaces, so as to reproduce the sign reversal in the influence of
+neighboring points. The color sensation at a point, defined from a steady state
+of the neural activities, is then extracted as a nonlinear percept conveyed by
+an assembly of neurons. It connects the cortical and perceptual levels, because
+we describe the search for a color match in asymmetric matching experiments as
+a mathematical projection on color sensations. We validate our color neural
+field alongside this color matching framework, by performing a multi-parameter
+regression to data produced by psychophysicists and ourselves. All the results
+show that we are able to explain the nonlinear behavior of shifts observed
+along one or two dimensions in color space, which cannot be done using a simple
+linear model.

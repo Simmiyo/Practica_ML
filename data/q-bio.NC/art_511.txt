@@ -1,0 +1,26 @@
+Fast sampling for Bayesian inference in neural circuits
+Time is at a premium for recurrent network dynamics, and particularly so when
+they are stochastic and correlated: the quality of inference from such dynamics
+fundamentally depends on how fast the neural circuit generates new samples from
+its stationary distribution. Indeed, behavioral decisions can occur on fast
+time scales (~100 ms), but it is unclear what neural circuit dynamics afford
+sampling at such high rates.
+  We analyzed a stochastic form of rate-based linear neuronal network dynamics
+with synaptic weight matrix $W$, and the dependence on $W$ of the covariance of
+the stationary distribution of joint firing rates. This covariance $\Sigma$ can
+be actively used to represent posterior uncertainty via sampling under a
+linear-Gaussian latent variable model. The key insight is that the mapping
+between $W$ and $\Sigma$ is degenerate: there are infinitely many $W$'s that
+lead to sampling from the same $\Sigma$ but differ greatly in the speed at
+which they sample. We were able to explicitly separate these extra degrees of
+freedom in a parametric form and thus study their effects on sampling speed.
+  We show that previous proposals for probabilistic sampling in neural circuits
+correspond to using a symmetric $W$ which violates Dale's law and results in
+critically slow sampling, even for moderate stationary correlations. In
+contrast, optimizing network dynamics for speed consistently yielded asymmetric
+$W$'s and dynamics characterized by fast transients, such that samples of
+network activity became fully decorrelated over ~10 ms. Importantly, networks
+with separate excitatory/inhibitory populations proved to be particularly
+efficient samplers, and were in the balanced regime. Thus, plausible neural
+circuit dynamics can perform fast sampling for efficient decoding and
+inference.

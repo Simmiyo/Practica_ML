@@ -1,0 +1,25 @@
+Evolution of moments and correlations in non-renewal escape-time
+  processes
+The theoretical description of non-renewal stochastic systems is a challenge.
+Analytical results are often not available or can only be obtained under strong
+conditions, limiting their applicability. Also, numerical results have mostly
+been obtained by ad-hoc Monte--Carlo simulations, which are usually
+computationally expensive when a high degree of accuracy is needed. To gain
+quantitative insight into these systems under general conditions, we here
+introduce a numerical iterated first-passage time approach based on solving the
+time-dependent Fokker-Planck equation (FPE) to describe the statistics of
+non-renewal stochastic systems. We illustrate the approach using
+spike-triggered neuronal adaptation in the leaky and perfect integrate-and-fire
+model, respectively. The transition to stationarity of first-passage time
+moments and their sequential correlations occur on a non-trivial timescale that
+depends on all system parameters. Surprisingly this is so for both single
+exponential and scale-free power-law adaptation. The method works beyond the
+small noise and timescale separation approximations. It shows excellent
+agreement with direct Monte Carlo simulations, which allows for the computation
+of transient and stationary distributions. We compare different methods to
+compute the evolution of the moments and serial correlation coefficients (SCC),
+and discuss the challenge of reliably computing the SCC which we find to be
+very sensitive to numerical inaccuracies for both the leaky and perfect
+integrate-and-fire models. In conclusion, our methods provide a general picture
+of non-renewal dynamics in a wide range of stochastic systems exhibiting short
+and long-range correlations.

@@ -1,0 +1,19 @@
+Bayesian orthogonal component analysis for sparse representation
+This paper addresses the problem of identifying a lower dimensional space
+where observed data can be sparsely represented. This under-complete dictionary
+learning task can be formulated as a blind separation problem of sparse sources
+linearly mixed with an unknown orthogonal mixing matrix. This issue is
+formulated in a Bayesian framework. First, the unknown sparse sources are
+modeled as Bernoulli-Gaussian processes. To promote sparsity, a weighted
+mixture of an atom at zero and a Gaussian distribution is proposed as prior
+distribution for the unobserved sources. A non-informative prior distribution
+defined on an appropriate Stiefel manifold is elected for the mixing matrix.
+The Bayesian inference on the unknown parameters is conducted using a Markov
+chain Monte Carlo (MCMC) method. A partially collapsed Gibbs sampler is
+designed to generate samples asymptotically distributed according to the joint
+posterior distribution of the unknown model parameters and hyperparameters.
+These samples are then used to approximate the joint maximum a posteriori
+estimator of the sources and mixing matrix. Simulations conducted on synthetic
+data are reported to illustrate the performance of the method for recovering
+sparse representations. An application to sparse coding on under-complete
+dictionary is finally investigated.

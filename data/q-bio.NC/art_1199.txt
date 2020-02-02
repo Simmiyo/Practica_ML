@@ -1,0 +1,18 @@
+EEG source imaging assists decoding in a face recognition task
+EEG based brain state decoding has numerous applications. State of the art
+decoding is based on processing of the multivariate sensor space signal,
+however evidence is mounting that EEG source reconstruction can assist
+decoding. EEG source imaging leads to high-dimensional representations and
+rather strong a priori information must be invoked. Recent work by Edelman et
+al. (2016) has demonstrated that introduction of a spatially focal source space
+representation can improve decoding of motor imagery. In this work we explore
+the generality of Edelman et al. hypothesis by considering decoding of face
+recognition. This task concerns the differentiation of brain responses to
+images of faces and scrambled faces and poses a rather difficult decoding
+problem at the single trial level. We implement the pipeline using spatially
+focused features and show that this approach is challenged and source imaging
+does not lead to an improved decoding. We design a distributed pipeline in
+which the classifier has access to brain wide features which in turn does lead
+to a 15% reduction in the error rate using source space features. Hence, our
+work presents supporting evidence for the hypothesis that source imaging
+improves decoding.

@@ -1,0 +1,26 @@
+Brain Maturation Study during Adolescence Using Graph Laplacian Learning
+  Based Fourier Transform
+Objective: Longitudinal neuroimaging studies have demonstrated that
+adolescence is the crucial developmental epoch of continued brain growth and
+change. A large number of researchers dedicate to uncovering the mechanisms
+about brain maturity during adolescence. Motivated by both achievement in graph
+signal processing and recent evidence that some brain areas act as hubs
+connecting functionally specialized systems, we proposed an approach to detect
+these regions from spectral analysis perspective. In particular, as human brain
+undergoes substantial development throughout adolescence, we addressed the
+challenge by evaluating the functional network difference among age groups from
+functional magnetic resonance imaging (fMRI) observations. Methods: We treated
+these observations as graph signals defined on the parcellated functional brain
+regions and applied graph Laplacian learning based Fourier Transform (GLFT) to
+transform the original graph signals into frequency domain. Eigen-analysis was
+conducted afterwards to study the behavior of the corresponding brain regions,
+which enables the characterization of brain maturation. Result: We first
+evaluated our method on the synthetic data and further applied the method to
+resting and task state fMRI imaging data from Philadelphia Neurodevelopmental
+Cohort (PNC) dataset, comprised of normally developing adolescents from 8 to
+22. The model provided a highest accuracy of 95.69% in distinguishing different
+adolescence stages. Conclusion: We detected 13 hubs from resting state fMRI and
+16 hubs from task state fMRI that are highly related to brain maturation
+process. Significance: The proposed GLFT method is powerful in extracting the
+brain connectivity patterns and identifying hub regions with a high prediction
+power

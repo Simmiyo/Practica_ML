@@ -1,0 +1,17 @@
+On the Use of Default Parameter Settings in the Empirical Evaluation of
+  Classification Algorithms
+We demonstrate that, for a range of state-of-the-art machine learning
+algorithms, the differences in generalisation performance obtained using
+default parameter settings and using parameters tuned via cross-validation can
+be similar in magnitude to the differences in performance observed between
+state-of-the-art and uncompetitive learning systems. This means that fair and
+rigorous evaluation of new learning algorithms requires performance comparison
+against benchmark methods with best-practice model selection procedures, rather
+than using default parameter settings. We investigate the sensitivity of three
+key machine learning algorithms (support vector machine, random forest and
+rotation forest) to their default parameter settings, and provide guidance on
+determining sensible default parameter values for implementations of these
+algorithms. We also conduct an experimental comparison of these three
+algorithms on 121 classification problems and find that, perhaps surprisingly,
+rotation forest is significantly more accurate on average than both random
+forest and a support vector machine.

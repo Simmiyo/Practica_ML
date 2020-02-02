@@ -1,0 +1,23 @@
+Analysis of neuronal sequences using pairwise biases
+Sequences of neuronal activation have long been implicated in a variety of
+brain functions. In particular, these sequences have been tied to memory
+formation and spatial navigation in the hippocampus, a region of mammalian
+brains. Traditionally, neuronal sequences have been interpreted as noisy
+manifestations of neuronal templates (i.e., orderings), ignoring much richer
+structure contained in the sequences. This paper introduces a new tool for
+understanding neuronal sequences: the bias matrix. The bias matrix captures the
+probabilistic tendency of each neuron to fire before or after each other
+neuron. Despite considering only pairs of neurons, the bias matrix captures the
+best total ordering of neurons for a sequence (Proposition 3.3) and, thus,
+generalizes the concept of a neuronal template.
+  We establish basic mathematical properties of bias matrices, in particular
+describing the fundamental polytope in which all biases reside (Theorem 3.25).
+We show how the underlying simple digraph of a bias matrix, which we term the
+bias network, serves as a combinatorial generalization of neuronal templates.
+Surprisingly, every simple digraph is realizable as the bias network of some
+sequence (Theorem 3.34). The bias-matrix representation leads us to a natural
+method for sequence correlation, which then leads to a probabilistic framework
+for determining the similarity of one set of sequences to another. Using data
+from rat hippocampus, we describe events of interest and also
+sequence-detection techniques. Finally, the bias matrix and the similarity
+measure are applied to this real-world data using code developed by us.

@@ -1,0 +1,16 @@
+1-Bit Matrix Completion under Exact Low-Rank Constraint
+We consider the problem of noisy 1-bit matrix completion under an exact rank
+constraint on the true underlying matrix $M^*$. Instead of observing a subset
+of the noisy continuous-valued entries of a matrix $M^*$, we observe a subset
+of noisy 1-bit (or binary) measurements generated according to a probabilistic
+model. We consider constrained maximum likelihood estimation of $M^*$, under a
+constraint on the entry-wise infinity-norm of $M^*$ and an exact rank
+constraint. This is in contrast to previous work which has used convex
+relaxations for the rank. We provide an upper bound on the matrix estimation
+error under this model. Compared to the existing results, our bound has faster
+convergence rate with matrix dimensions when the fraction of revealed 1-bit
+observations is fixed, independent of the matrix dimensions. We also propose an
+iterative algorithm for solving our nonconvex optimization with a certificate
+of global optimality of the limiting point. This algorithm is based on low rank
+factorization of $M^*$. We validate the method on synthetic and real data with
+improved performance over existing methods.

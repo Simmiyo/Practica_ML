@@ -1,0 +1,19 @@
+An Ontology-Based Dialogue Management System for Banking and Finance
+  Dialogue Systems
+Keeping the dialogue state in dialogue systems is a notoriously difficult
+task. We introduce an ontology-based dialogue manage(OntoDM), a dialogue
+manager that keeps the state of the conversation, provides a basis for anaphora
+resolution and drives the conversation via domain ontologies. The banking and
+finance area promises great potential for disambiguating the context via a rich
+set of products and specificity of proper nouns, named entities and verbs. We
+used ontologies both as a knowledge base and a basis for the dialogue manager;
+the knowledge base component and dialogue manager components coalesce in a
+sense. Domain knowledge is used to track Entities of Interest, i.e. nodes
+(classes) of the ontology which happen to be products and services. In this way
+we also introduced conversation memory and attention in a sense. We finely
+blended linguistic methods, domain-driven keyword ranking and domain ontologies
+to create ways of domain-driven conversation. Proposed framework is used in our
+in-house German language banking and finance chatbots. General challenges of
+German language processing and finance-banking domain chatbot language models
+and lexicons are also introduced. This work is still in progress, hence no
+success metrics have been introduced yet.

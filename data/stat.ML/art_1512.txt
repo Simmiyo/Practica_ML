@@ -1,0 +1,12 @@
+Nonparametric Quantile-Based Causal Discovery
+Distinguishing cause from effect using observational data is a challenging
+problem, especially in the bivariate case. Contemporary methods often assume an
+independence between the cause and the generating mechanism of the effect given
+the cause. From this postulate, they derive asymmetries to uncover causal
+relationships. Leveraging the same postulate, in this work, we propose a novel
+approach based on the link between Kolmogorov complexity and quantile scoring.
+We use a nonparametric conditional quantile estimator based on copulas to
+implement our procedure, thus avoiding restrictive assumptions about the joint
+distribution between cause and effect. In an extensive study on real and
+synthetic data, we show that quantile copula causal discovery (QCCD) compares
+favorably to state-of-the-art methods.

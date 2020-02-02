@@ -1,0 +1,16 @@
+Dynamic Fusion Networks for Machine Reading Comprehension
+This paper presents a novel neural model - Dynamic Fusion Network (DFN), for
+machine reading comprehension (MRC). DFNs differ from most state-of-the-art
+models in their use of a dynamic multi-strategy attention process, in which
+passages, questions and answer candidates are jointly fused into attention
+vectors, along with a dynamic multi-step reasoning module for generating
+answers. With the use of reinforcement learning, for each input sample that
+consists of a question, a passage and a list of candidate answers, an instance
+of DFN with a sample-specific network architecture can be dynamically
+constructed by determining what attention strategy to apply and how many
+reasoning steps to take. Experiments show that DFNs achieve the best result
+reported on RACE, a challenging MRC dataset that contains real human reading
+questions in a wide variety of types. A detailed empirical analysis also
+demonstrates that DFNs can produce attention vectors that summarize information
+from questions, passages and answer candidates more effectively than other
+popular MRC models.

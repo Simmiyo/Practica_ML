@@ -1,0 +1,22 @@
+Sparse principal component regression for generalized linear models
+Principal component regression (PCR) is a widely used two-stage procedure:
+principal component analysis (PCA), followed by regression in which the
+selected principal components are regarded as new explanatory variables in the
+model. Note that PCA is based only on the explanatory variables, so the
+principal components are not selected using the information on the response
+variable. In this paper, we propose a one-stage procedure for PCR in the
+framework of generalized linear models. The basic loss function is based on a
+combination of the regression loss and PCA loss. An estimate of the regression
+parameter is obtained as the minimizer of the basic loss function with a sparse
+penalty. We call the proposed method sparse principal component regression for
+generalized linear models (SPCR-glm). Taking the two loss function into
+consideration simultaneously, SPCR-glm enables us to obtain sparse principal
+component loadings that are related to a response variable. However, a
+combination of loss functions may cause a parameter identification problem, but
+this potential problem is avoided by virtue of the sparse penalty. Thus, the
+sparse penalty plays two roles in this method. The parameter estimation
+procedure is proposed using various update algorithms with the coordinate
+descent algorithm. We apply SPCR-glm to two real datasets, doctor visits data
+and mouse consomic strain data. SPCR-glm provides more easily interpretable
+principal component (PC) scores and clearer classification on PC plots than the
+usual PCA.

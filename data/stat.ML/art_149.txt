@@ -1,0 +1,14 @@
+Causal Network Inference via Group Sparse Regularization
+This paper addresses the problem of inferring sparse causal networks modeled
+by multivariate auto-regressive (MAR) processes. Conditions are derived under
+which the Group Lasso (gLasso) procedure consistently estimates sparse network
+structure. The key condition involves a "false connection score." In
+particular, we show that consistent recovery is possible even when the number
+of observations of the network is far less than the number of parameters
+describing the network, provided that the false connection score is less than
+one. The false connection score is also demonstrated to be a useful metric of
+recovery in non-asymptotic regimes. The conditions suggest a modified gLasso
+procedure which tends to improve the false connection score and reduce the
+chances of reversing the direction of causal influence. Computational
+experiments and a real network based electrocorticogram (ECoG) simulation study
+demonstrate the effectiveness of the approach.

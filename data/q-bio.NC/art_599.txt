@@ -1,0 +1,25 @@
+Scalability of asynchronous networks is limited by one-to-one mapping
+  between effective connectivity and correlations
+Network models are routinely downscaled compared to nature in terms of
+numbers of nodes or edges because of a lack of computational resources, often
+without explicit mention of the limitations this entails. While reliable
+methods have long existed to adjust parameters such that the first-order
+statistics of network dynamics are conserved, here we show that limitations
+already arise if also second-order statistics are to be maintained. The
+temporal structure of pairwise averaged correlations in the activity of
+recurrent networks is determined by the effective population-level
+connectivity. We first show that in general the converse is also true and
+explicitly mention degenerate cases when this one-to-one relationship does not
+hold. The one-to-one correspondence between effective connectivity and the
+temporal structure of pairwise averaged correlations implies that network
+scalings should preserve the effective connectivity if pairwise averaged
+correlations are to be held constant. Changes in effective connectivity can
+even push a network from a linearly stable to an unstable, oscillatory regime
+and vice versa. On this basis, we derive conditions for the preservation of
+both mean population-averaged activities and pairwise averaged correlations
+under a change in numbers of neurons or synapses in the asynchronous regime
+typical of cortical networks. We find that mean activities and correlation
+structure can be maintained by an appropriate scaling of the synaptic weights,
+but only over a range of numbers of synapses that is limited by the variance of
+external inputs to the network. Our results therefore show that the
+reducibility of asynchronous networks is fundamentally limited.

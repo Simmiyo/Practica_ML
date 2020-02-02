@@ -1,0 +1,13 @@
+Structured Interpretation of Temporal Relations
+Temporal relations between events and time expressions in a document are
+often modeled in an unstructured manner where relations between individual
+pairs of time expressions and events are considered in isolation. This often
+results in inconsistent and incomplete annotation and computational modeling.
+We propose a novel annotation approach where events and time expressions in a
+document form a dependency tree in which each dependency relation corresponds
+to an instance of temporal anaphora where the antecedent is the parent and the
+anaphor is the child. We annotate a corpus of 235 documents using this approach
+in the two genres of news and narratives, with 48 documents doubly annotated.
+We report a stable and high inter-annotator agreement on the doubly annotated
+subset, validating our approach, and perform a quantitative comparison between
+the two genres of the entire corpus. We make this corpus publicly available.

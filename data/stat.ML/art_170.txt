@@ -1,0 +1,14 @@
+Is the k-NN classifier in high dimensions affected by the curse of
+  dimensionality?
+There is an increasing body of evidence suggesting that exact nearest
+neighbour search in high-dimensional spaces is affected by the curse of
+dimensionality at a fundamental level. Does it necessarily mean that the same
+is true for k nearest neighbours based learning algorithms such as the k-NN
+classifier? We analyse this question at a number of levels and show that the
+answer is different at each of them. As our first main observation, we show the
+consistency of a k approximate nearest neighbour classifier. However, the
+performance of the classifier in very high dimensions is provably unstable. As
+our second main observation, we point out that the existing model for
+statistical learning is oblivious of dimension of the domain and so every
+learning problem admits a universally consistent deterministic reduction to the
+one-dimensional case by means of a Borel isomorphism.

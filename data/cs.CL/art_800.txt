@@ -1,0 +1,27 @@
+Microtask crowdsourcing for disease mention annotation in PubMed
+  abstracts
+Identifying concepts and relationships in biomedical text enables knowledge
+to be applied in computational analyses. Many biological natural language
+process (BioNLP) projects attempt to address this challenge, but the state of
+the art in BioNLP still leaves much room for improvement. Progress in BioNLP
+research depends on large, annotated corpora for evaluating information
+extraction systems and training machine learning models. Traditionally, such
+corpora are created by small numbers of expert annotators often working over
+extended periods of time. Recent studies have shown that workers on microtask
+crowdsourcing platforms such as Amazon's Mechanical Turk (AMT) can, in
+aggregate, generate high-quality annotations of biomedical text. Here, we
+investigated the use of the AMT in capturing disease mentions in PubMed
+abstracts. We used the NCBI Disease corpus as a gold standard for refining and
+benchmarking our crowdsourcing protocol. After several iterations, we arrived
+at a protocol that reproduced the annotations of the 593 documents in the
+training set of this gold standard with an overall F measure of 0.872
+(precision 0.862, recall 0.883). The output can also be tuned to optimize for
+precision (max = 0.984 when recall = 0.269) or recall (max = 0.980 when
+precision = 0.436). Each document was examined by 15 workers, and their
+annotations were merged based on a simple voting method. In total 145 workers
+combined to complete all 593 documents in the span of 1 week at a cost of $.06
+per abstract per worker. The quality of the annotations, as judged with the F
+measure, increases with the number of workers assigned to each task such that
+the system can be tuned to balance cost against quality. These results
+demonstrate that microtask crowdsourcing can be a valuable tool for generating
+well-annotated corpora in BioNLP.

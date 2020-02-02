@@ -1,0 +1,25 @@
+Which spike train distance is most suitable for distinguishing rate and
+  temporal coding?
+Background: It is commonly assumed in neuronal coding that repeated
+presentations of a stimulus to a coding neuron elicit similar responses. One
+common way to assess similarity are spike train distances. These can be divided
+into spike-resolved, such as the Victor-Purpura and the van Rossum distance,
+and time-resolved, e.g. the ISI-, the SPIKE- and the RI-SPIKE-distance.
+  New Method: We use independent steady-rate Poisson processes as surrogates
+for spike trains with fixed rate and no timing information to address two basic
+questions: How does the sensitivity of the different spike train distances to
+temporal coding depend on the rates of the two processes and how do the
+distances deal with very low rates?
+  Results: Spike-resolved distances always contain rate information even for
+parameters indicating time coding. This is an issue for reasonably high rates
+but beneficial for very low rates. In contrast, the operational range for
+detecting time coding of time-resolved distances is superior at normal rates,
+but these measures produce artefacts at very low rates. The RI-SPIKE-distance
+is the only measure that is sensitive to timing information only.
+  Comparison with Existing Methods: While our results on rate-dependent
+expectation values for the spike-resolved distances agree with
+\citet{Chicharro11}, we here go one step further and specifically investigate
+applicability for very low rates.
+  Conclusions: The most appropriate measure depends on the rates of the data
+being analysed. Accordingly, we summarize our results in one table that allows
+an easy selection of the preferred measure for any kind of data.

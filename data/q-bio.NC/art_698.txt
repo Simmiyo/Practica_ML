@@ -1,0 +1,26 @@
+Computational neuroanatomy: mapping cell-type densities in the mouse
+  brain, simulations from the Allen Brain Atlas
+The Allen Brain Atlas (ABA) of the adult mouse consists of digitized
+expression profiles of thousands of genes in the mouse brain, co-registered to
+a common three-dimensional template (the Allen Reference Atlas). This
+brain-wide, genome-wide data set has triggered a renaissance in neuroanatomy.
+Its voxelized version (with cubic voxels of side 200 microns) can be analyzed
+on a desktop computer using MATLAB. On the other hand, brain cells exhibit a
+great phenotypic diversity (in terms of size, shape and electrophysiological
+activity), which has inspired the names of some well-studied cell types, such
+as granule cells and medium spiny neurons. However, no exhaustive taxonomy of
+brain cells is available. A genetic classification of brain cells is under way,
+and some cell types have been characterized by their transcriptome profiles.
+However, given a cell type characterized by its transcriptome, it is not clear
+where else in the brain similar cells can be found. The ABA can been used to
+solve this region-specificity problem in a data-driven way: rewriting the
+brain-wide expression profiles of all genes in the atlas as a sum of
+cell-type-specific transcriptome profiles is equivalent to solving a quadratic
+optimization problem at each voxel in the brain. However, the estimated
+brain-wide densities of 64 cell types published recently were based on one
+series of co-registered coronal in situ hybridization (ISH) images per gene,
+whereas the online ABA contains several image series per gene, including
+sagittal ones. In the presented work, we simulate the variability of cell-type
+densities in a Monte Carlo way by repeatedly drawing a random image series for
+each gene and solving optimization problems. This yields error bars on the
+region-specificity of cell types.

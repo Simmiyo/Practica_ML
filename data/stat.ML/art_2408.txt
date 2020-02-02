@@ -1,0 +1,20 @@
+The trace norm constrained matrix-variate Gaussian process for multitask
+  bipartite ranking
+We propose a novel hierarchical model for multitask bipartite ranking. The
+proposed approach combines a matrix-variate Gaussian process with a generative
+model for task-wise bipartite ranking. In addition, we employ a novel trace
+constrained variational inference approach to impose low rank structure on the
+posterior matrix-variate Gaussian process. The resulting posterior covariance
+function is derived in closed form, and the posterior mean function is the
+solution to a matrix-variate regression with a novel spectral elastic net
+regularizer. Further, we show that variational inference for the trace
+constrained matrix-variate Gaussian process combined with maximum likelihood
+parameter estimation for the bipartite ranking model is jointly convex. Our
+motivating application is the prioritization of candidate disease genes. The
+goal of this task is to aid the identification of unobserved associations
+between human genes and diseases using a small set of observed associations as
+well as kernels induced by gene-gene interaction networks and disease
+ontologies. Our experimental results illustrate the performance of the proposed
+model on real world datasets. Moreover, we find that the resulting low rank
+solution improves the computational scalability of training and testing as
+compared to baseline models.

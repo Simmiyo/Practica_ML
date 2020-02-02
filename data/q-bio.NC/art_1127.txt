@@ -1,0 +1,18 @@
+Consensus clustering approach to group brain connectivity matrices
+A novel approach rooted on the notion of consensus clustering, a strategy
+developed for community detection in complex networks, is proposed to cope with
+the heterogeneity that characterizes connectivity matrices in health and
+disease. The method can be summarized as follows:
+  (i) define, for each node, a distance matrix for the set of subjects by
+comparing the connectivity pattern of that node in all pairs of subjects; (ii)
+cluster the distance matrix for each node; (iii) build the consensus network
+from the corresponding partitions; (iv) extract groups of subjects by finding
+the communities of the consensus network thus obtained.
+  Differently from the previous implementations of consensus clustering, we
+thus propose to use the consensus strategy to combine the information arising
+from the connectivity patterns of each node. The proposed approach may be seen
+either as an exploratory technique or as an unsupervised pre-training step to
+help the subsequent construction of a supervised classifier. Applications on a
+toy model and two real data sets, show the effectiveness of the proposed
+methodology, which represents heterogeneity of a set of subjects in terms of a
+weighted network, the consensus matrix.

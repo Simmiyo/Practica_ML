@@ -1,0 +1,12 @@
+Collaborative Regression
+We consider the scenario where one observes an outcome variable and sets of
+features from multiple assays, all measured on the same set of samples. One
+approach that has been proposed for dealing with this type of data is ``sparse
+multiple canonical correlation analysis'' (sparse mCCA). All of the current
+sparse mCCA techniques are biconvex and thus have no guarantees about reaching
+a global optimum. We propose a method for performing sparse supervised
+canonical correlation analysis (sparse sCCA), a specific case of sparse mCCA
+when one of the datasets is a vector. Our proposal for sparse sCCA is convex
+and thus does not face the same difficulties as the other methods. We derive
+efficient algorithms for this problem, and illustrate their use on simulated
+and real data.

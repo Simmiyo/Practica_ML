@@ -1,0 +1,12 @@
+Noise Mitigation for Neural Entity Typing and Relation Extraction
+In this paper, we address two different types of noise in information
+extraction models: noise from distant supervision and noise from pipeline input
+features. Our target tasks are entity typing and relation extraction. For the
+first noise type, we introduce multi-instance multi-label learning algorithms
+using neural network models, and apply them to fine-grained entity typing for
+the first time. This gives our models comparable performance with the
+state-of-the-art supervised approach which uses global embeddings of entities.
+For the second noise type, we propose ways to improve the integration of noisy
+entity type predictions into relation extraction. Our experiments show that
+probabilistic predictions are more robust than discrete predictions and that
+joint training of the two tasks performs best.

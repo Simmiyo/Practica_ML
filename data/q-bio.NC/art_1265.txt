@@ -1,0 +1,20 @@
+Extracranial estimation of neural mass model parameters using the
+  Unscented Kalman Filter
+Data assimilation, defined as the fusion of data with preexisting knowledge,
+is particularly suited to elucidating underlying phenomena from
+noisy/insufficient observations. Although this approach has been widely used in
+diverse fields, only recently have efforts been directed to problems in
+neuroscience, using mainly intracranial data and thus limiting its
+applicability to invasive measurements involving electrode implants. Here we
+intend to apply data assimilation to non-invasive electroencephalography (EEG)
+measurements to infer brain states and their characteristics. For this purpose,
+we use Kalman filtering to combine synthetic EEG data with a coupled
+neural-mass model together with Ary's model of the head, which projects
+intracranial signals onto the scalp. Our results show that using several
+extracranial electrodes allows to successfully estimate the state and
+parameters of the neural masses and their interactions, whereas one single
+electrode provides only a very partial and insufficient view of the system. The
+superiority of using multiple extracranial electrodes over using only one, be
+it intra- or extracranial, is shown over a wide variety of dynamical
+behaviours. Our results show potential towards future clinical applications of
+the method.

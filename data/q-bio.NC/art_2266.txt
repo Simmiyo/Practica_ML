@@ -1,0 +1,20 @@
+Stimulus-dependent maximum entropy models of neural population codes
+Neural populations encode information about their stimulus in a collective
+fashion, by joint activity patterns of spiking and silence. A full account of
+this mapping from stimulus to neural activity is given by the conditional
+probability distribution over neural codewords given the sensory input. To be
+able to infer a model for this distribution from large-scale neural recordings,
+we introduce a stimulus-dependent maximum entropy (SDME) model---a minimal
+extension of the canonical linear-nonlinear model of a single neuron, to a
+pairwise-coupled neural population. The model is able to capture the
+single-cell response properties as well as the correlations in neural spiking
+due to shared stimulus and due to effective neuron-to-neuron connections. Here
+we show that in a population of 100 retinal ganglion cells in the salamander
+retina responding to temporal white-noise stimuli, dependencies between cells
+play an important encoding role. As a result, the SDME model gives a more
+accurate account of single cell responses and in particular outperforms
+uncoupled models in reproducing the distributions of codewords emitted in
+response to a stimulus. We show how the SDME model, in conjunction with static
+maximum entropy models of population vocabulary, can be used to estimate
+information-theoretic quantities like surprise and information transmission in
+a neural population.

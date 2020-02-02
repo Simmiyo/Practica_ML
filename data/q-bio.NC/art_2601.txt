@@ -1,0 +1,16 @@
+Neural Implementation of Probabilistic Models of Cognition
+Bayesian models of cognition hypothesize that human brains make sense of data
+by representing probability distributions and applying Bayes' rule to find the
+best explanation for available data. Understanding the neural mechanisms
+underlying probabilistic models remains important because Bayesian models
+provide a computational framework, rather than specifying mechanistic
+processes. Here, we propose a deterministic neural-network model which
+estimates and represents probability distributions from observable events --- a
+phenomenon related to the concept of probability matching. Our model learns to
+represent probabilities without receiving any representation of them from the
+external world, but rather by experiencing the occurrence patterns of
+individual events. Our neural implementation of probability matching is paired
+with a neural module applying Bayes' rule, forming a comprehensive neural
+scheme to simulate human Bayesian learning and inference. Our model also
+provides novel explanations of base-rate neglect, a notable deviation from
+Bayes.

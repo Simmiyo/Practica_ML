@@ -1,0 +1,15 @@
+NegBio: a high-performance tool for negation and uncertainty detection
+  in radiology reports
+Negative and uncertain medical findings are frequent in radiology reports,
+but discriminating them from positive findings remains challenging for
+information extraction. Here, we propose a new algorithm, NegBio, to detect
+negative and uncertain findings in radiology reports. Unlike previous
+rule-based methods, NegBio utilizes patterns on universal dependencies to
+identify the scope of triggers that are indicative of negation or uncertainty.
+We evaluated NegBio on four datasets, including two public benchmarking corpora
+of radiology reports, a new radiology corpus that we annotated for this work,
+and a public corpus of general clinical texts. Evaluation on these datasets
+demonstrates that NegBio is highly accurate for detecting negative and
+uncertain findings and compares favorably to a widely-used state-of-the-art
+system NegEx (an average of 9.5% improvement in precision and 5.1% in
+F1-score).

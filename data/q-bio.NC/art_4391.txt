@@ -1,0 +1,18 @@
+Mapping Heritability of Large-Scale Brain Networks with a Billion
+  Connections {\em via} Persistent Homology
+In many human brain network studies, we do not have sufficient number (n) of
+images relative to the number (p) of voxels due to the prohibitively expensive
+cost of scanning enough subjects. Thus, brain network models usually suffer the
+small-n large-p problem. Such a problem is often remedied by sparse network
+models, which are usually solved numerically by optimizing L1-penalties.
+Unfortunately, due to the computational bottleneck associated with optimizing
+L1-penalties, it is not practical to apply such methods to construct
+large-scale brain networks at the voxel-level. In this paper, we propose a new
+scalable sparse network model using cross-correlations that bypass the
+computational bottleneck. Our model can build sparse brain networks at the
+voxel level with p > 25000. Instead of using a single sparse parameter that may
+not be optimal in other studies and datasets, the computational speed gain
+enables us to analyze the collection of networks at every possible sparse
+parameter in a coherent mathematical framework via persistent homology. The
+method is subsequently applied in determining the extent of heritability on a
+functional brain network at the voxel-level for the first time using twin fMRI.

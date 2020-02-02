@@ -1,0 +1,24 @@
+Correlation of Data Reconstruction Error and Shrinkages in Pair-wise
+  Distances under Principal Component Analysis (PCA)
+In this on-going work, I explore certain theoretical and empirical
+implications of data transformations under the PCA. In particular, I state and
+prove three theorems about PCA, which I paraphrase as follows: 1). PCA without
+discarding eigenvector rows is injective, but looses this injectivity when
+eigenvector rows are discarded 2). PCA without discarding eigen- vector rows
+preserves pair-wise distances, but tends to cause pair-wise distances to shrink
+when eigenvector rows are discarded. 3). For any pair of points, the shrinkage
+in pair-wise distance is bounded above by an L1 norm reconstruction error
+associated with the points. Clearly, 3). suggests that there might exist some
+correlation between shrinkages in pair-wise distances and mean square
+reconstruction error which is defined as the sum of those eigenvalues
+associated with the discarded eigenvectors. I therefore decided to perform
+numerical experiments to obtain the corre- lation between the sum of those
+eigenvalues and shrinkages in pair-wise distances. In addition, I have also
+performed some experiments to check respectively the effect of the sum of those
+eigenvalues and the effect of the shrinkages on classification accuracies under
+the PCA map. So far, I have obtained the following results on some publicly
+available data from the UCI Machine Learning Repository: 1). There seems to be
+a strong cor- relation between the sum of those eigenvalues associated with
+discarded eigenvectors and shrinkages in pair-wise distances. 2). Neither the
+sum of those eigenvalues nor pair-wise distances have any strong correlations
+with classification accuracies. 1

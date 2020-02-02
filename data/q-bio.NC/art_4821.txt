@@ -1,0 +1,15 @@
+Brain EEG Time Series Selection: A Novel Graph-Based Approach for
+  Classification
+Brain Electroencephalography (EEG) classification is widely applied to
+analyze cerebral diseases in recent years. Unfortunately, invalid/noisy EEGs
+degrade the diagnosis performance and most previously developed methods ignore
+the necessity of EEG selection for classification. To this end, this paper
+proposes a novel maximum weight clique-based EEG selection approach, named
+mwcEEGs, to map EEG selection to searching maximum similarity-weighted cliques
+from an improved Fr\'{e}chet distance-weighted undirected EEG graph
+simultaneously considering edge weights and vertex weights. Our mwcEEGs
+improves the classification performance by selecting intra-clique pairwise
+similar and inter-clique discriminative EEGs with similarity threshold
+$\delta$. Experimental results demonstrate the algorithm effectiveness compared
+with the state-of-the-art time series selection algorithms on real-world EEG
+datasets.

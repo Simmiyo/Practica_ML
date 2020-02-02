@@ -1,0 +1,26 @@
+Universal Spike Classifier
+In electrophysiology, microelectrodes are the primary source for recording
+neural data of single neurons (single unit activity). These microelectrodes can
+be implanted individually, or in the form of microelectrodes arrays, consisting
+of hundreds of electrodes. During recordings, some channels capture the
+activity of neurons, which is usually contaminated with external artifacts and
+noise. Another considerable fraction of channels does not record any neural
+data, but external artifacts and noise. Therefore, an automatic identification
+and tracking of channels containing neural data is of great significance and
+can accelerate the process of analysis, e.g. automatic selection of meaningful
+channels during offline and online spike sorting. Another important aspect is
+the selection of meaningful channels during online decoding in brain-computer
+interface applications, where threshold crossing events are usually for feature
+extraction, even though they do not necessarily correspond to neural events.
+Here, we propose a novel algorithm based on the newly introduced way of feature
+vector extraction and a supervised deep learning method: a universal spike
+classifier (USC). The USC enables us to address both above-raised issues. The
+USC uses the standard architecture of convolutional neural networks (Conv net).
+It takes the batch of the waveforms, instead of a single waveform as an input,
+propagates it through the multilayered structure, and finally classifies it as
+a channel containing neural spike data or artifacts. We have trained the model
+of USC on data recorded from single tetraplegic patient with Utah arrays
+implanted in different brain areas. This trained model was then evaluated
+without retraining on the data collected from six epileptic patients implanted
+with depth electrodes and two tetraplegic patients implanted with two Utah
+arrays, individually.

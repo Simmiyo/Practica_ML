@@ -1,0 +1,18 @@
+A Tight Convex Upper Bound on the Likelihood of a Finite Mixture
+The likelihood function of a finite mixture model is a non-convex function
+with multiple local maxima and commonly used iterative algorithms such as EM
+will converge to different solutions depending on initial conditions. In this
+paper we ask: is it possible to assess how far we are from the global maximum
+of the likelihood? Since the likelihood of a finite mixture model can grow
+unboundedly by centering a Gaussian on a single datapoint and shrinking the
+covariance, we constrain the problem by assuming that the parameters of the
+individual models are members of a large discrete set (e.g. estimating a
+mixture of two Gaussians where the means and variances of both Gaussians are
+members of a set of a million possible means and variances). For this setting
+we show that a simple upper bound on the likelihood can be computed using
+convex optimization and we analyze conditions under which the bound is
+guaranteed to be tight. This bound can then be used to assess the quality of
+solutions found by EM (where the final result is projected on the discrete set)
+or any other mixture estimation algorithm. For any dataset our method allows us
+to find a finite mixture model together with a dataset-specific bound on how
+far the likelihood of this mixture is from the global optimum of the likelihood

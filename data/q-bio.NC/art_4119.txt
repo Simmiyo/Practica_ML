@@ -1,0 +1,13 @@
+From the decoding of cortical activities to the control of a JACO
+  robotic arm: a whole processing chain
+This paper presents a complete processing chain for decoding intracranial
+data recorded in the cortex of a monkey and replicates the associated movements
+on a JACO robotic arm by Kinova. We developed specific modules inside the
+OpenViBE platform in order to build a Brain-Machine Interface able to read the
+data, compute the position of the robotic finger and send this position to the
+robotic arm. More pre- cisely, two client/server protocols have been tested to
+transfer the finger positions: VRPN and a light protocol based on TCP/IP
+sockets. According to the requested finger position, the server calls the
+associ- ated functions of an API by Kinova to move the fin- gers properly.
+Finally, we monitor the gap between the requested and actual fingers positions.
+This chain can be generalized to any movement of the arm or wrist.

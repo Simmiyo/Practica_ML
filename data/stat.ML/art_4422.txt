@@ -1,0 +1,11 @@
+Feature Selection Facilitates Learning Mixtures of Discrete Product
+  Distributions
+Feature selection can facilitate the learning of mixtures of discrete random
+variables as they arise, e.g. in crowdsourcing tasks. Intuitively, not all
+workers are equally reliable but, if the less reliable ones could be
+eliminated, then learning should be more robust. By analogy with Gaussian
+mixture models, we seek a low-order statistical approach, and here introduce an
+algorithm based on the (pairwise) mutual information. This induces an order
+over workers that is well structured for the `one coin' model. More generally,
+it is justified by a goodness-of-fit measure and is validated empirically.
+Improvement in real data sets can be substantial.

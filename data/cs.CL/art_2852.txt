@@ -1,0 +1,10 @@
+Referenceless Quality Estimation for Natural Language Generation
+Traditional automatic evaluation measures for natural language generation
+(NLG) use costly human-authored references to estimate the quality of a system
+output. In this paper, we propose a referenceless quality estimation (QE)
+approach based on recurrent neural networks, which predicts a quality score for
+a NLG system output by comparing it to the source meaning representation only.
+Our method outperforms traditional metrics and a constant baseline in most
+respects; we also show that synthetic data helps to increase correlation
+results by 21% compared to the base system. Our results are comparable to
+results obtained in similar QE tasks despite the more challenging setting.

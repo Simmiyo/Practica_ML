@@ -1,0 +1,10 @@
+Multi-stage Convex Relaxation for Feature Selection
+A number of recent work studied the effectiveness of feature selection using
+Lasso. It is known that under the restricted isometry properties (RIP), Lasso
+does not generally lead to the exact recovery of the set of nonzero
+coefficients, due to the looseness of convex relaxation. This paper considers
+the feature selection property of nonconvex regularization, where the solution
+is given by a multi-stage convex relaxation scheme. Under appropriate
+conditions, we show that the local solution obtained by this procedure recovers
+the set of nonzero coefficients without suffering from the bias of Lasso
+relaxation, which complements parameter estimation results of this procedure.

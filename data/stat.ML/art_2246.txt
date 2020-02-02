@@ -1,0 +1,14 @@
+A Bayesian Nonparametric Approach to Image Super-resolution
+Super-resolution methods form high-resolution images from low-resolution
+images. In this paper, we develop a new Bayesian nonparametric model for
+super-resolution. Our method uses a beta-Bernoulli process to learn a set of
+recurring visual patterns, called dictionary elements, from the data. Because
+it is nonparametric, the number of elements found is also determined from the
+data. We test the results on both benchmark and natural images, comparing with
+several other models from the research literature. We perform large-scale human
+evaluation experiments to assess the visual quality of the results. In a first
+implementation, we use Gibbs sampling to approximate the posterior. However,
+this algorithm is not feasible for large-scale data. To circumvent this, we
+then develop an online variational Bayes (VB) algorithm. This algorithm finds
+high quality dictionaries in a fraction of the time needed by the Gibbs
+sampler.

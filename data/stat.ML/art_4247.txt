@@ -1,0 +1,10 @@
+Neural Sequence Model Training via $α$-divergence Minimization
+We propose a new neural sequence model training method in which the objective
+function is defined by $\alpha$-divergence. We demonstrate that the objective
+function generalizes the maximum-likelihood (ML)-based and reinforcement
+learning (RL)-based objective functions as special cases (i.e., ML corresponds
+to $\alpha \to 0$ and RL to $\alpha \to1$). We also show that the gradient of
+the objective function can be considered a mixture of ML- and RL-based
+objective gradients. The experimental results of a machine translation task
+show that minimizing the objective function with $\alpha > 0$ outperforms
+$\alpha \to 0$, which corresponds to ML-based methods.

@@ -1,0 +1,10 @@
+Domain Aware Neural Dialog System
+We investigate the task of building a domain aware chat system which
+generates intelligent responses in a conversation comprising of different
+domains. The domain, in this case, is the topic or theme of the conversation.
+To achieve this, we present DOM-Seq2Seq, a domain aware neural network model
+based on the novel technique of using domain-targeted sequence-to-sequence
+models (Sutskever et al., 2014) and a domain classifier. The model captures
+features from current utterance and domains of the previous utterances to
+facilitate the formation of relevant responses. We evaluate our model on
+automatic metrics and compare our performance with the Seq2Seq model.

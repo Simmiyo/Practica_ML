@@ -1,0 +1,14 @@
+A Deep Learning Approach for Expert Identification in Question Answering
+  Communities
+In this paper, we describe an effective convolutional neural network
+framework for identifying the expert in question answering community. This
+approach uses the convolutional neural network and combines user feature
+representations with question feature representations to compute scores that
+the user who gets the highest score is the expert on this question. Unlike
+prior work, this method does not measure expert based on measure answer content
+quality to identify the expert but only require question sentence and user
+embedding feature to identify the expert. Remarkably, Our model can be applied
+to different languages and different domains. The proposed framework is trained
+on two datasets, The first dataset is Stack Overflow and the second one is
+Zhihu. The Top-1 accuracy results of our experiments show that our framework
+outperforms the best baseline framework for expert identification.

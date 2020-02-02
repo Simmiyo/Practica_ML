@@ -1,0 +1,15 @@
+Precision-biased Parsing and High-Quality Parse Selection
+We introduce precision-biased parsing: a parsing task which favors precision
+over recall by allowing the parser to abstain from decisions deemed uncertain.
+We focus on dependency-parsing and present an ensemble method which is capable
+of assigning parents to 84% of the text tokens while being over 96% accurate on
+these tokens. We use the precision-biased parsing task to solve the related
+high-quality parse-selection task: finding a subset of high-quality (accurate)
+trees in a large collection of parsed text. We present a method for choosing
+over a third of the input trees while keeping unlabeled dependency parsing
+accuracy of 97% on these trees. We also present a method which is not based on
+an ensemble but rather on directly predicting the risk associated with
+individual parser decisions. In addition to its efficiency, this method
+demonstrates that a parsing system can provide reasonable estimates of
+confidence in its predictions without relying on ensembles or aggregate corpus
+counts.

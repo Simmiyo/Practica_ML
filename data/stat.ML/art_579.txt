@@ -1,0 +1,14 @@
+Graphical Fermat's Principle and Triangle-Free Graph Estimation
+We consider the problem of estimating undirected triangle-free graphs of high
+dimensional distributions. Triangle-free graphs form a rich graph family which
+allows arbitrary loopy structures but 3-cliques. For inferential tractability,
+we propose a graphical Fermat's principle to regularize the distribution
+family. Such principle enforces the existence of a distribution-dependent
+pseudo-metric such that any two nodes have a smaller distance than that of two
+other nodes who have a geodesic path include these two nodes. Guided by this
+principle, we show that a greedy strategy is able to recover the true graph.
+The resulting algorithm only requires a pairwise distance matrix as input and
+is computationally even more efficient than calculating the minimum spanning
+tree. We consider graph estimation problems under different settings, including
+discrete and nonparametric distribution families. Thorough numerical results
+are provided to illustrate the usefulness of the proposed method.

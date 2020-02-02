@@ -1,0 +1,7 @@
+Predicting Conditional Quantiles via Reduction to Classification
+We show how to reduce the process of predicting general order statistics (and
+the median in particular) to solving classification. The accompanying
+theoretical statement shows that the regret of the classifier bounds the regret
+of the quantile regression under a quantile loss. We also test this reduction
+empirically against existing quantile regression methods on large real-world
+datasets and discover that it provides state-of-the-art performance.

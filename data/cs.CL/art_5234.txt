@@ -1,0 +1,14 @@
+Text Mining Customer Reviews For Aspect-based Restaurant Rating
+This study applies text mining to analyze customer reviews and automatically
+assign a collective restaurant star rating based on five predetermined aspects:
+ambiance, cost, food, hygiene, and service. The application provides a web and
+mobile crowd sourcing platform where users share dining experiences and get
+insights about the strengths and weaknesses of a restaurant through user
+contributed feedback. Text reviews are tokenized into sentences. Noun-adjective
+pairs are extracted from each sentence using Stanford Core NLP library and are
+associated to aspects based on the bag of associated words fed into the system.
+The sentiment weight of the adjectives is determined through AFINN library. An
+overall restaurant star rating is computed based on the individual aspect
+rating. Further, a word cloud is generated to provide visual display of the
+most frequently occurring terms in the reviews. The more feedbacks are added
+the more reflective the sentiment score to the restaurants' performance.

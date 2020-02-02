@@ -1,0 +1,9 @@
+deltaBLEU: A Discriminative Metric for Generation Tasks with
+  Intrinsically Diverse Targets
+We introduce Discriminative BLEU (deltaBLEU), a novel metric for intrinsic
+evaluation of generated text in tasks that admit a diverse range of possible
+outputs. Reference strings are scored for quality by human raters on a scale of
+[-1, +1] to weight multi-reference BLEU. In tasks involving generation of
+conversational responses, deltaBLEU correlates reasonably with human judgments
+and outperforms sentence-level and IBM BLEU in terms of both Spearman's rho and
+Kendall's tau.

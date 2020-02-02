@@ -1,0 +1,15 @@
+The effects of time delays in adaptive phase measurements
+It is not possible to make measurements of the phase of an optical mode using
+linear optics without introducing an extra phase uncertainty. This extra phase
+variance is quite large for heterodyne measurements, however it is possible to
+reduce it to the theoretical limit of log(n)/(4n^2) using adaptive
+measurements. These measurements are quite sensitive to experimental
+inaccuracies, especially time delays and inefficient detectors. Here it is
+shown that the minimum introduced phase variance when there is a time delay of
+tau is tau/(8n). This result is verified numerically, showing that the phase
+variance introduced approaches this limit for most of the adaptive schemes
+using the best final phase estimate. The main exception is the adaptive mark II
+scheme with simplified feedback, which is extremely sensitive to time delays.
+The extra phase variance due to time delays is considered for the mark I case
+with simplified feedback, verifying the tau/2 result obtained by Wiseman and
+Killip both by a more rigorous analytic technique and numerically.

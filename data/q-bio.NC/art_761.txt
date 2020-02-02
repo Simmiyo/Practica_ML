@@ -1,0 +1,22 @@
+Unsupervised decoding of long-term, naturalistic human neural recordings
+  with automated video and audio annotations
+Fully automated decoding of human activities and intentions from direct
+neural recordings is a tantalizing challenge in brain-computer interfacing.
+Most ongoing efforts have focused on training decoders on specific, stereotyped
+tasks in laboratory settings. Implementing brain-computer interfaces (BCIs) in
+natural settings requires adaptive strategies and scalable algorithms that
+require minimal supervision. Here we propose an unsupervised approach to
+decoding neural states from human brain recordings acquired in a naturalistic
+context. We demonstrate our approach on continuous long-term
+electrocorticographic (ECoG) data recorded over many days from the brain
+surface of subjects in a hospital room, with simultaneous audio and video
+recordings. We first discovered clusters in high-dimensional ECoG recordings
+and then annotated coherent clusters using speech and movement labels extracted
+automatically from audio and video recordings. To our knowledge, this
+represents the first time techniques from computer vision and speech processing
+have been used for natural ECoG decoding. Our results show that our
+unsupervised approach can discover distinct behaviors from ECoG data, including
+moving, speaking and resting. We verify the accuracy of our approach by
+comparing to manual annotations. Projecting the discovered cluster centers back
+onto the brain, this technique opens the door to automated functional brain
+mapping in natural settings.

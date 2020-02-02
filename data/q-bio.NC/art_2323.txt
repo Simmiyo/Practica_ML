@@ -1,0 +1,27 @@
+Generating functionals for autonomous latching dynamics in attractor
+  relict networks
+Well characterized sequences of dynamical states play an important role for
+motor control and associative neural computation in the brain. Autonomous
+dynamics involving sequences of transiently stable states have been termed
+associative latching in the context of grammar generation. We propose that
+generating functionals allow for a systematic construction of dynamical
+networks with well characterized dynamical behavior, such as regular or
+intermittent bursting latching dynamics.
+  Coupling local, slowly adapting variables to an attractor network allows to
+destabilize all attractors, turning them into attractor ruins. The resulting
+attractor relict network may show ongoing autonomous latching dynamics. We
+propose to use two generating functionals for the construction of attractor
+relict networks. The first functional is a simple Hopfield energy functional,
+known to generate a neural attractor network. The second generating functional,
+which we denote polyhomeostatic optimization, is based on
+information-theoretical principles, encoding the information content of the
+neural firing statistics. Polyhomeostatic optimization destabilizes the
+attractors of the Hopfield network inducing latching dynamics.
+  We investigate the influence of stress, in terms of conflicting optimization
+targets, on the resulting dynamics. Objective function stress is absent when
+the target level for the mean of neural activities is identical for the two
+generating functionals and the resulting latching dynamics is then found to be
+regular. Objective function stress is present when the respective target
+activity levels differ, inducing intermittent bursting latching dynamics. We
+propose that generating functionals may be useful quite generally for the
+controlled construction of complex dynamical systems.

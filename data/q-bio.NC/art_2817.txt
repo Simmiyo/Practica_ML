@@ -1,0 +1,12 @@
+Blind nonnegative source separation using biological neural networks
+Blind source separation, i.e. extraction of independent sources from a
+mixture, is an important problem for both artificial and natural signal
+processing. Here, we address a special case of this problem when sources (but
+not the mixing matrix) are known to be nonnegative, for example, due to the
+physical nature of the sources. We search for the solution to this problem that
+can be implemented using biologically plausible neural networks. Specifically,
+we consider the online setting where the dataset is streamed to a neural
+network. The novelty of our approach is that we formulate blind nonnegative
+source separation as a similarity matching problem and derive neural networks
+from the similarity matching objective. Importantly, synaptic weights in our
+networks are updated according to biologically plausible local learning rules.

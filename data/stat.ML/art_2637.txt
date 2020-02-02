@@ -1,0 +1,20 @@
+A Unified Primal Dual Active Set Algorithm for Nonconvex Sparse Recovery
+In this paper, we consider the problem of recovering a sparse signal based on
+penalized least squares formulations. We develop a novel algorithm of
+primal-dual active set type for a class of nonconvex sparsity-promoting
+penalties, including $\ell^0$, bridge, smoothly clipped absolute deviation,
+capped $\ell^1$ and minimax concavity penalty. First we establish the existence
+of a global minimizer for the related optimization problems. Then we derive a
+novel necessary optimality condition for the global minimizer using the
+associated thresholding operator. The solutions to the optimality system are
+coordinate-wise minimizers, and under minor conditions, they are also local
+minimizers. Upon introducing the dual variable, the active set can be
+determined using the primal and dual variables together. Further, this relation
+lends itself to an iterative algorithm of active set type which at each step
+involves first updating the primal variable only on the active set and then
+updating the dual variable explicitly. When combined with a continuation
+strategy on the regularization parameter, the primal dual active set method is
+shown to converge globally to the underlying regression target under certain
+regularity conditions. Extensive numerical experiments with both simulated and
+real data demonstrate its superior performance in efficiency and accuracy
+compared with the existing sparse recovery methods.

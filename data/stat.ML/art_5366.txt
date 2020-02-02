@@ -1,0 +1,13 @@
+Encrypted accelerated least squares regression
+Information that is stored in an encrypted format is, by definition, usually
+not amenable to statistical analysis or machine learning methods. In this paper
+we present detailed analysis of coordinate and accelerated gradient descent
+algorithms which are capable of fitting least squares and penalised ridge
+regression models, using data encrypted under a fully homomorphic encryption
+scheme. Gradient descent is shown to dominate in terms of encrypted
+computational speed, and theoretical results are proven to give parameter
+bounds which ensure correctness of decryption. The characteristics of encrypted
+computation are empirically shown to favour a non-standard acceleration
+technique. This demonstrates the possibility of approximating conventional
+statistical regression methods using encrypted data without compromising
+privacy.

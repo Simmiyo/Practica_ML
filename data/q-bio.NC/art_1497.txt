@@ -1,0 +1,13 @@
+Deep Learning for Quality Control of Subcortical Brain 3D Shape Models
+We present several deep learning models for assessing the morphometric
+fidelity of deep grey matter region models extracted from brain MRI. We test
+three different convolutional neural net architectures (VGGNet, ResNet and
+Inception) over 2D maps of geometric features. Further, we present a novel
+geometry feature augmentation technique based on a parametric spherical
+mapping. Finally, we present an approach for model decision visualization,
+allowing human raters to see the areas of subcortical shapes most likely to be
+deemed of failing quality by the machine. Our training data is comprised of
+5200 subjects from the ENIGMA Schizophrenia MRI cohorts, and our test dataset
+contains 1500 subjects from the ENIGMA Major Depressive Disorder cohorts. Our
+final models reduce human rater time by 46-70%. ResNet outperforms VGGNet and
+Inception for all of our predictive tasks.

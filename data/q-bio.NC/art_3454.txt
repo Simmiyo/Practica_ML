@@ -1,0 +1,24 @@
+Prediction of treatment outcome for autism from structure of the brain
+  based on sure independence screening
+Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder, and
+behavioral treatment interventions have shown promise for young children with
+ASD. However, there is limited progress in understanding the effect of each
+type of treatment. In this project, we aim to detect structural changes in the
+brain after treatment and select structural features associated with treatment
+outcomes. The difficulty in building large databases of patients who have
+received specific treatments and the high dimensionality of medical image
+analysis problems are the challenges in this work. To select predictive
+features and build accurate models, we use the sure independence screening
+(SIS) method. SIS is a theoretically and empirically validated method for
+ultra-high dimensional general linear models, and it achieves both predictive
+accuracy and correct feature selection by iterative feature selection. Compared
+with step-wise feature selection methods, SIS removes multiple features in each
+iteration and is computationally efficient. Compared with other linear models
+such as elastic-net regression, support vector regression (SVR) and partial
+least squares regression (PSLR), SIS achieves higher accuracy. We validated the
+superior performance of SIS in various experiments: First, we extract brain
+structural features from FreeSurfer, including cortical thickness, surface
+area, mean curvature and cortical volume. Next, we predict different measures
+of treatment outcomes based on structural features. We show that SIS achieves
+the highest correlation between prediction and measurements in all tasks.
+Furthermore, we report regions selected by SIS as biomarkers for ASD.

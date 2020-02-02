@@ -1,0 +1,23 @@
+Surrogate Regret Bounds for Bipartite Ranking via Strongly Proper Losses
+The problem of bipartite ranking, where instances are labeled positive or
+negative and the goal is to learn a scoring function that minimizes the
+probability of mis-ranking a pair of positive and negative instances (or
+equivalently, that maximizes the area under the ROC curve), has been widely
+studied in recent years. A dominant theoretical and algorithmic framework for
+the problem has been to reduce bipartite ranking to pairwise classification; in
+particular, it is well known that the bipartite ranking regret can be
+formulated as a pairwise classification regret, which in turn can be upper
+bounded using usual regret bounds for classification problems. Recently,
+Kotlowski et al. (2011) showed regret bounds for bipartite ranking in terms of
+the regret associated with balanced versions of the standard (non-pairwise)
+logistic and exponential losses. In this paper, we show that such
+(non-pairwise) surrogate regret bounds for bipartite ranking can be obtained in
+terms of a broad class of proper (composite) losses that we term as strongly
+proper. Our proof technique is much simpler than that of Kotlowski et al.
+(2011), and relies on properties of proper (composite) losses as elucidated
+recently by Reid and Williamson (2010, 2011) and others. Our result yields
+explicit surrogate bounds (with no hidden balancing terms) in terms of a
+variety of strongly proper losses, including for example logistic, exponential,
+squared and squared hinge losses as special cases. We also obtain tighter
+surrogate bounds under certain low-noise conditions via a recent result of
+Clemencon and Robbiano (2011).

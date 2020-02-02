@@ -1,0 +1,21 @@
+Sparse Precision Matrix Selection for Fitting Gaussian Random Field
+  Models to Large Data Sets
+Iterative methods for fitting a Gaussian Random Field (GRF) model to spatial
+data via maximum likelihood (ML) require $\mathcal{O}(n^3)$ floating point
+operations per iteration, where $n$ denotes the number of data locations. For
+large data sets, the $\mathcal{O}(n^3)$ complexity per iteration together with
+the non-convexity of the ML problem render traditional ML methods inefficient
+for GRF fitting. The problem is even more aggravated for anisotropic GRFs where
+the number of covariance function parameters increases with the process domain
+dimension. In this paper, we propose a new two-step GRF estimation procedure
+when the process is second-order stationary. First, a \emph{convex} likelihood
+problem regularized with a weighted $\ell_1$-norm, utilizing the available
+distance information between observation locations, is solved to fit a sparse
+\emph{{precision} (inverse covariance) matrix to the observed data using the
+Alternating Direction Method of Multipliers. Second, the parameters of the GRF
+spatial covariance function are estimated by solving a least squares problem.
+Theoretical error bounds for the proposed estimator are provided; moreover,
+convergence of the estimator is shown as the number of samples per location
+increases. The proposed method is numerically compared with state-of-the-art
+methods for big $n$. Data segmentation schemes are implemented to handle large
+data sets.

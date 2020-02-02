@@ -1,0 +1,12 @@
+Sparse Topical Coding
+We present sparse topical coding (STC), a non-probabilistic formulation of
+topic models for discovering latent representations of large collections of
+data. Unlike probabilistic topic models, STC relaxes the normalization
+constraint of admixture proportions and the constraint of defining a normalized
+likelihood function. Such relaxations make STC amenable to: 1) directly control
+the sparsity of inferred representations by using sparsity-inducing
+regularizers; 2) be seamlessly integrated with a convex error function (e.g.,
+SVM hinge loss) for supervised learning; and 3) be efficiently learned with a
+simply structured coordinate descent algorithm. Our results demonstrate the
+advantages of STC and supervised MedSTC on identifying topical meanings of
+words and improving classification accuracy and time efficiency.

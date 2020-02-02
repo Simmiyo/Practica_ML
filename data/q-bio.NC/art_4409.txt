@@ -1,0 +1,17 @@
+Sequential estimation of intrinsic activity and synaptic input in single
+  neurons by particle filtering with optimal importance density
+This paper deals with the problem of inferring the signals and parameters
+that cause neural activity to occur. The ultimate challenge being to unveil
+brain's connectivity, here we focus on a microscopic vision of the problem,
+where single neurons (potentially connected to a network of peers) are at the
+core of our study. The sole observation available are noisy, sampled voltage
+traces obtained from intracellular recordings. We design algorithms and
+inference methods using the tools provided by stochastic filtering, that allow
+a probabilistic interpretation and treatment of the problem. Using particle
+filtering we are able to reconstruct traces of voltages and estimate the time
+course of auxiliary variables. By extending the algorithm, through PMCMC
+methodology, we are able to estimate hidden physiological parameters as well,
+like intrinsic conductances or reversal potentials. Last, but not least, the
+method is applied to estimate synaptic conductances arriving at a target cell,
+thus reconstructing the synaptic excitatory/inhibitory input traces. Notably,
+these estimations have a bound-achieving performance even in spiking regimes.

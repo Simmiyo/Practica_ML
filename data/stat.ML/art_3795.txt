@@ -1,0 +1,22 @@
+A Minimax Theory for Adaptive Data Analysis
+In adaptive data analysis, the user makes a sequence of queries on the data,
+where at each step the choice of query may depend on the results in previous
+steps. The releases are often randomized in order to reduce overfitting for
+such adaptively chosen queries. In this paper, we propose a minimax framework
+for adaptive data analysis. Assuming Gaussianity of queries, we establish the
+first sharp minimax lower bound on the squared error in the order of
+$O(\frac{\sqrt{k}\sigma^2}{n})$, where $k$ is the number of queries asked, and
+$\sigma^2/n$ is the ordinary signal-to-noise ratio for a single query. Our
+lower bound is based on the construction of an approximately least favorable
+adversary who picks a sequence of queries that are most likely to be affected
+by overfitting. This approximately least favorable adversary uses only one
+level of adaptivity, suggesting that the minimax risk for 1-step adaptivity
+with k-1 initial releases and that for $k$-step adaptivity are on the same
+order. The key technical component of the lower bound proof is a reduction to
+finding the convoluting distribution that optimally obfuscates the sign of a
+Gaussian signal. Our lower bound construction also reveals a transparent and
+elementary proof of the matching upper bound as an alternative approach to
+Russo and Zou (2015), who used information-theoretic tools to provide the same
+upper bound. We believe that the proposed framework opens up opportunities to
+obtain theoretical insights for many other settings of adaptive data analysis,
+which would extend the idea to more practical realms.

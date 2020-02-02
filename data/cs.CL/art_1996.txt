@@ -1,0 +1,19 @@
+Machine Learned Resume-Job Matching Solution
+Job search through online matching engines nowadays are very prominent and
+beneficial to both job seekers and employers. But the solutions of traditional
+engines without understanding the semantic meanings of different resumes have
+not kept pace with the incredible changes in machine learning techniques and
+computing capability. These solutions are usually driven by manual rules and
+predefined weights of keywords which lead to an inefficient and frustrating
+search experience. To this end, we present a machine learned solution with rich
+features and deep learning methods. Our solution includes three configurable
+modules that can be plugged with little restrictions. Namely, unsupervised
+feature extraction, base classifiers training and ensemble method learning. In
+our solution, rather than using manual rules, machine learned methods to
+automatically detect the semantic similarity of positions are proposed. Then
+four competitive "shallow" estimators and "deep" estimators are selected.
+Finally, ensemble methods to bag these estimators and aggregate their
+individual predictions to form a final prediction are verified. Experimental
+results of over 47 thousand resumes show that our solution can significantly
+improve the predication precision current position, salary, educational
+background and company scale.

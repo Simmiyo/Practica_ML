@@ -1,0 +1,20 @@
+Tumor Motion Tracking in Liver Ultrasound Images Using Mean Shift and
+  Active Contour
+In this paper we present a new method for motion tracking of tumors in liver
+ultrasound image sequences. Our algorithm has two main steps. In the first
+step, we apply mean shift algorithm with multiple features to estimate the
+center of the target in each frame. Target in the first frame is defined using
+an ellipse. Edge, texture, and intensity features are extracted from the first
+frame, and then mean shift algorithm is applied to each feature separately to
+find the center of ellipse related to that feature in the next frame. The
+center of ellipse will be the weighted average of these centers. By using mean
+shift actually we estimate the target movement between two consecutive frames.
+Once the correct ellipsoid in each frame is known, in the second step we apply
+the Dynamic Directional Gradient Vector Flow (DDGVF) version of active contour
+models, in order to find the correct boundary of tumors. We sample a few points
+on the boundary of active contour then translate those points based on the
+translation of the center of ellipsoid in two consecutive frames to determine
+the target movement. We use these translated sample points as an initial guess
+for active contour in the next frame. Our experimental results show that, the
+suggested method provides a reliable performance for liver tumor tracking in
+ultrasound image sequences.

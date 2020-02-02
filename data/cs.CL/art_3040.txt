@@ -1,0 +1,14 @@
+De-identification of medical records using conditional random fields and
+  long short-term memory networks
+The CEGS N-GRID 2016 Shared Task 1 in Clinical Natural Language Processing
+focuses on the de-identification of psychiatric evaluation records. This paper
+describes two participating systems of our team, based on conditional random
+fields (CRFs) and long short-term memory networks (LSTMs). A pre-processing
+module was introduced for sentence detection and tokenization before
+de-identification. For CRFs, manually extracted rich features were utilized to
+train the model. For LSTMs, a character-level bi-directional LSTM network was
+applied to represent tokens and classify tags for each token, following which a
+decoding layer was stacked to decode the most probable protected health
+information (PHI) terms. The LSTM-based system attained an i2b2 strict
+micro-F_1 measure of 89.86%, which was higher than that of the CRF-based
+system.

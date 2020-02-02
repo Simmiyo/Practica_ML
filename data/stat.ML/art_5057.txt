@@ -1,0 +1,11 @@
+Classifier comparison using precision
+New proposed models are often compared to state-of-the-art using statistical
+significance testing. Literature is scarce for classifier comparison using
+metrics other than accuracy. We present a survey of statistical methods that
+can be used for classifier comparison using precision, accounting for
+inter-precision correlation arising from use of same dataset. Comparisons are
+made using per-class precision and methods presented to test global null
+hypothesis of an overall model comparison. Comparisons are extended to multiple
+multi-class classifiers and to models using cross validation or its variants.
+Partial Bayesian update to precision is introduced when population prevalence
+of a class is known. Applications to compare deep architectures are studied.

@@ -1,0 +1,12 @@
+Communication-efficient Distributed Sparse Linear Discriminant Analysis
+We propose a communication-efficient distributed estimation method for sparse
+linear discriminant analysis (LDA) in the high dimensional regime. Our method
+distributes the data of size $N$ into $m$ machines, and estimates a local
+sparse LDA estimator on each machine using the data subset of size $N/m$. After
+the distributed estimation, our method aggregates the debiased local estimators
+from $m$ machines, and sparsifies the aggregated estimator. We show that the
+aggregated estimator attains the same statistical rate as the centralized
+estimation method, as long as the number of machines $m$ is chosen
+appropriately. Moreover, we prove that our method can attain the model
+selection consistency under a milder condition than the centralized method.
+Experiments on both synthetic and real datasets corroborate our theory.

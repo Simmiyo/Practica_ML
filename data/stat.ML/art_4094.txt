@@ -1,0 +1,12 @@
+Interpretation of Prediction Models Using the Input Gradient
+State of the art machine learning algorithms are highly optimized to provide
+the optimal prediction possible, naturally resulting in complex models. While
+these models often outperform simpler more interpretable models by order of
+magnitudes, in terms of understanding the way the model functions, we are often
+facing a "black box".
+  In this paper we suggest a simple method to interpret the behavior of any
+predictive model, both for regression and classification. Given a particular
+model, the information required to interpret it can be obtained by studying the
+partial derivatives of the model with respect to the input. We exemplify this
+insight by interpreting convolutional and multi-layer neural networks in the
+field of natural language processing.

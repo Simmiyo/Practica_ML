@@ -1,0 +1,13 @@
+Statistical Learning under Nonstationary Mixing Processes
+We study a special case of the problem of statistical learning without the
+i.i.d. assumption. Specifically, we suppose a learning method is presented with
+a sequence of data points, and required to make a prediction (e.g., a
+classification) for each one, and can then observe the loss incurred by this
+prediction. We go beyond traditional analyses, which have focused on stationary
+mixing processes or nonstationary product processes, by combining these two
+relaxations to allow nonstationary mixing processes. We are particularly
+interested in the case of $\beta$-mixing processes, with the sum of changes in
+marginal distributions growing sublinearly in the number of samples. Under
+these conditions, we propose a learning method, and establish that for bounded
+VC subgraph classes, the cumulative excess risk grows sublinearly in the number
+of predictions, at a quantified rate.

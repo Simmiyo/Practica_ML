@@ -1,0 +1,18 @@
+Tutorial: Neuromorphic spiking neural networks for temporal learning
+Spiking neural networks (SNN) as time-dependent hypotheses consisting of
+spiking nodes (neurons) and directed edges (synapses) are believed to offer
+unique solutions to reward prediction tasks and the related feedback that are
+classified as reinforcement learning. Generally, temporal difference (TD)
+learning renders it possible to optimize a model network to predict the delayed
+reward in an ad hoc manner. Neuromorphic SNNs--networks built using dedicated
+hardware--particularly leverage such TD learning for not only reward prediction
+but also temporal sequence prediction in a physical time domain. In this
+tutorial, such learning in a physical time domain is referred to as temporal
+learning to distinguish it from conventional TD learning-based methods that
+generally involve algorithmic (rather than physical) time. This tutorial
+addresses neuromorphic SNNs for temporal learning from the scratch. It first
+concerns general characteristics of SNNs including spiking neurons and
+information coding schemes and then moves on to temporal learning including its
+general concept, feasible algorithms, and their association with
+neurophysiological learning rules that have intensively been enriched for the
+last few decades.

@@ -1,0 +1,8 @@
+Classifying movie genres by analyzing text reviews
+This paper proposes a method for classifying movie genres by only looking at
+text reviews. The data used are from Large Movie Review Dataset v1.0 and IMDb.
+This paper compared a K-nearest neighbors (KNN) model and a multilayer
+perceptron (MLP) that uses tf-idf as input features. The paper also discusses
+different evaluation metrics used when doing multi-label classification. For
+the data used in this research, the KNN model performed the best with an
+accuracy of 55.4\% and a Hamming loss of 0.047.

@@ -1,0 +1,22 @@
+Data-Driven Predictive Modeling of Neuronal Dynamics using Long
+  Short-Term Memory
+Modeling brain dynamics to better understand and control complex behaviors
+underlying various cognitive brain functions are of interests to engineers,
+mathematicians, and physicists from the last several decades. With a motivation
+of developing computationally efficient models of brain dynamics to use in
+designing control-theoretic neurostimulation strategies, we have developed a
+novel data-driven approach in a long short-term memory (LSTM) neural network
+architecture to predict the temporal dynamics of complex systems over an
+extended long time-horizon in future. In contrast to recent LSTM-based
+dynamical modeling approaches that make use of multi-layer perceptrons or
+linear combination layers as output layers, our architecture uses a single
+fully connected output layer and reversed-order sequence-to-sequence mapping to
+improve short time-horizon prediction accuracy and to make multi-timestep
+predictions of dynamical behaviors. We demonstrate the efficacy of our approach
+in reconstructing the regular spiking to bursting dynamics exhibited by an
+experimentally-validated 9-dimensional Hodgkin-Huxley model of hippocampal CA1
+pyramidal neurons. Through simulations, we show that our LSTM neural network
+can predict the multi-time scale temporal dynamics underlying various spiking
+patterns with reasonable accuracy. Moreover, our results show that the
+predictions improve with increasing predictive time-horizon in the
+multi-timestep deep LSTM neural network.

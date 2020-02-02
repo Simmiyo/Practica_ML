@@ -1,0 +1,20 @@
+A Hidden Absorbing Semi-Markov Model for Informatively Censored Temporal
+  Data: Learning and Inference
+Modeling continuous-time physiological processes that manifest a patient's
+evolving clinical states is a key step in approaching many problems in
+healthcare. In this paper, we develop the Hidden Absorbing Semi-Markov Model
+(HASMM): a versatile probabilistic model that is capable of capturing the
+modern electronic health record (EHR) data. Unlike exist- ing models, an HASMM
+accommodates irregularly sampled, temporally correlated, and informatively
+censored physiological data, and can describe non-stationary clinical state
+transitions. Learning an HASMM from the EHR data is achieved via a novel
+forward- filtering backward-sampling Monte-Carlo EM algorithm that exploits the
+knowledge of the end-point clinical outcomes (informative censoring) in the EHR
+data, and implements the E-step by sequentially sampling the patients' clinical
+states in the reverse-time direction while conditioning on the future states.
+Real-time inferences are drawn via a forward- filtering algorithm that operates
+on a virtually constructed discrete-time embedded Markov chain that mirrors the
+patient's continuous-time state trajectory. We demonstrate the di- agnostic and
+prognostic utility of the HASMM in a critical care prognosis setting using a
+real-world dataset for patients admitted to the Ronald Reagan UCLA Medical
+Center.

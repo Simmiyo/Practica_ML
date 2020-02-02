@@ -1,0 +1,13 @@
+Variational Interpolation Algorithm between Weak- and Strong-Coupling
+  Expansions
+For many physical quantities, theory supplies weak- and strong-coupling
+expansions of the types $\sum a_n \alpha ^n$ and $ \alpha ^p\sum b_n
+(\alpha^{-2/q) ^n$, respectively. Either or both of these may have a zero
+radius of convergence. We present a simple interpolation algorithm which
+rapidly converges for an increasing number of known expansion coefficients. The
+accuracy is illustrated by calculating the ground state energies of the
+anharmonic oscillator using only the leading large-order coefficient $b_0$
+(apart from the trivial expansion coefficent $a_0=1/2$). The errors are less
+than 0.5 for all g. The algorithm is applied to find energy and mass of the
+Fr\"ohlich-Feynman polaron. Our mass is quite different from Feynman's
+variational approach.

@@ -1,0 +1,22 @@
+Networks that learn the precise timing of event sequences
+Neuronal circuits can learn and replay firing patterns evoked by sequences of
+sensory stimuli. After training, a brief cue can trigger a spatiotemporal
+pattern of neural activity similar to that evoked by a learned stimulus
+sequence. Network models show that such sequence learning can occur through the
+shaping of feedforward excitatory connectivity via long term plasticity.
+Previous models describe how event order can be learned, but they typically do
+not explain how precise timing can be recalled. We propose a mechanism for
+learning both the order and precise timing of event sequences. In our recurrent
+network model, long term plasticity leads to the learning of the sequence,
+while short term facilitation enables temporally precise replay of events.
+Learned synaptic weights between populations determine the time necessary for
+one population to activate another. Long term plasticity adjusts these weights
+so that the trained event times are matched during playback. While we chose
+short term facilitation as a time-tracking process, we also demonstrate that
+other mechanisms, such as spike rate adaptation, can fulfill this role. We also
+analyze the impact of trial-to-trial variability, showing how observational
+errors as well as neuronal noise result in variability in learned event times.
+The dynamics of the playback process determine how stochasticity is inherited
+in learned sequence timings. Future experiments that characterize such
+variability can therefore shed light on the neural mechanisms of sequence
+learning.

@@ -1,0 +1,14 @@
+Doubly Stochastic Primal-Dual Coordinate Method for Bilinear
+  Saddle-Point Problem
+We propose a doubly stochastic primal-dual coordinate optimization algorithm
+for empirical risk minimization, which can be formulated as a bilinear
+saddle-point problem. In each iteration, our method randomly samples a block of
+coordinates of the primal and dual solutions to update. The linear convergence
+of our method could be established in terms of 1) the distance from the current
+iterate to the optimal solution and 2) the primal-dual objective gap. We show
+that the proposed method has a lower overall complexity than existing
+coordinate methods when either the data matrix has a factorized structure or
+the proximal mapping on each block is computationally expensive, e.g.,
+involving an eigenvalue decomposition. The efficiency of the proposed method is
+confirmed by empirical studies on several real applications, such as the
+multi-task large margin nearest neighbor problem.

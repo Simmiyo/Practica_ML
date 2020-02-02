@@ -1,0 +1,15 @@
+Prediction of the progression of subcortical brain structures in
+  Alzheimer's disease from baseline
+We propose a method to predict the subject-specific longitudinal progression
+of brain structures extracted from baseline MRI, and evaluate its performance
+on Alzheimer's disease data. The disease progression is modeled as a trajectory
+on a group of diffeomorphisms in the context of large deformation diffeomorphic
+metric mapping (LDDMM). We first exhibit the limited predictive abilities of
+geodesic regression extrapolation on this group. Building on the recent concept
+of parallel curves in shape manifolds, we then introduce a second predictive
+protocol which personalizes previously learned trajectories to new subjects,
+and investigate the relative performances of two parallel shifting paradigms.
+This design only requires the baseline imaging data. Finally, coefficients
+encoding the disease dynamics are obtained from longitudinal cognitive
+measurements for each subject, and exploited to refine our methodology which is
+demonstrated to successfully predict the follow-up visits.

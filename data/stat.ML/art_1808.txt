@@ -1,0 +1,15 @@
+Efficient Latent Variable Graphical Model Selection via Split Bregman
+  Method
+We consider the problem of covariance matrix estimation in the presence of
+latent variables. Under suitable conditions, it is possible to learn the
+marginal covariance matrix of the observed variables via a tractable convex
+program, where the concentration matrix of the observed variables is decomposed
+into a sparse matrix (representing the graphical structure of the observed
+variables) and a low rank matrix (representing the marginalization effect of
+latent variables). We present an efficient first-order method based on split
+Bregman to solve the convex problem. The algorithm is guaranteed to converge
+under mild conditions. We show that our algorithm is significantly faster than
+the state-of-the-art algorithm on both artificial and real-world data. Applying
+the algorithm to a gene expression data involving thousands of genes, we show
+that most of the correlation between observed variables can be explained by
+only a few dozen latent factors.

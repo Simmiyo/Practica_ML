@@ -1,0 +1,13 @@
+An Aggregation Method for Sparse Logistic Regression
+$L_1$ regularized logistic regression has now become a workhorse of data
+mining and bioinformatics: it is widely used for many classification problems,
+particularly ones with many features. However, $L_1$ regularization typically
+selects too many features and that so-called false positives are unavoidable.
+In this paper, we demonstrate and analyze an aggregation method for sparse
+logistic regression in high dimensions. This approach linearly combines the
+estimators from a suitable set of logistic models with different underlying
+sparsity patterns and can balance the predictive ability and model
+interpretability. Numerical performance of our proposed aggregation method is
+then investigated using simulation studies. We also analyze a published
+genome-wide case-control dataset to further evaluate the usefulness of the
+aggregation method in multilocus association mapping.

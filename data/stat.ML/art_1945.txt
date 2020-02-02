@@ -1,0 +1,13 @@
+Semi-blind Sparse Image Reconstruction with Application to MRFM
+We propose a solution to the image deconvolution problem where the
+convolution kernel or point spread function (PSF) is assumed to be only
+partially known. Small perturbations generated from the model are exploited to
+produce a few principal components explaining the PSF uncertainty in a high
+dimensional space. Unlike recent developments on blind deconvolution of natural
+images, we assume the image is sparse in the pixel basis, a natural sparsity
+arising in magnetic resonance force microscopy (MRFM). Our approach adopts a
+Bayesian Metropolis-within-Gibbs sampling framework. The performance of our
+Bayesian semi-blind algorithm for sparse images is superior to previously
+proposed semi-blind algorithms such as the alternating minimization (AM)
+algorithm and blind algorithms developed for natural images. We illustrate our
+myopic algorithm on real MRFM tobacco virus data.

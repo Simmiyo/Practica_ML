@@ -1,0 +1,22 @@
+Network classification with applications to brain connectomics
+While statistical analysis of a single network has received a lot of
+attention in recent years, with a focus on social networks, analysis of a
+sample of networks presents its own challenges which require a different set of
+analytic tools. Here we study the problem of classification of networks with
+labeled nodes, motivated by applications in neuroimaging. Brain networks are
+constructed from imaging data to represent functional connectivity between
+regions of the brain, and previous work has shown the potential of such
+networks to distinguish between various brain disorders, giving rise to a
+network classification problem. Existing approaches tend to either treat all
+edge weights as a long vector, ignoring the network structure, or focus on
+graph topology as represented by summary measures while ignoring the edge
+weights. Our goal is to design a classification method that uses both the
+individual edge information and the network structure of the data in a
+computationally efficient way, and that can produce a parsimonious and
+interpretable representation of differences in brain connectivity patterns
+between classes. We propose a graph classification method that uses edge
+weights as predictors but incorporates the network nature of the data via
+penalties that promote sparsity in the number of nodes, in addition to the
+usual sparsity penalties that encourage selection of edges. We implement the
+method via efficient convex optimization and provide a detailed analysis of
+data from two fMRI studies of schizophrenia.

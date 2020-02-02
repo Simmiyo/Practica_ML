@@ -1,0 +1,27 @@
+Alternating Diffusion Map Based Fusion of Multimodal Brain Connectivity
+  Networks for IQ Prediction
+To explain individual differences in development, behavior, and cognition,
+most previous studies focused on projecting resting-state functional MRI (fMRI)
+based functional connectivity (FC) data into a low-dimensional space via linear
+dimensionality reduction techniques, followed by executing analysis operations.
+However, linear dimensionality analysis techniques may fail to capture
+nonlinearity of brain neuroactivity. Moreover, besides resting-state FC, FC
+based on task fMRI can be expected to provide complementary information.
+Motivated by these considerations, we nonlinearly fuse resting-state and
+task-based FC networks (FCNs) to seek a better representation in this paper. We
+propose a framework based on alternating diffusion map (ADM), which extracts
+geometry-preserving low-dimensional embeddings that successfully parameterize
+the intrinsic variables driving the phenomenon of interest. Specifically, we
+first separately build resting-state and task-based FCNs by symmetric positive
+definite matrices using sparse inverse covariance estimation for each subject,
+and then utilize the ADM to fuse them in order to extract significant
+low-dimensional embeddings, which are used as fingerprints to identify
+individuals. The proposed framework is validated on the Philadelphia
+Neurodevelopmental Cohort data, where we conduct extensive experimental study
+on resting-state and fractal $n$-back task fMRI for the classification of
+intelligence quotient (IQ). The fusion of resting-state and $n$-back task fMRI
+by the proposed framework achieves better classification accuracy than any
+single fMRI, and the proposed framework is shown to outperform several other
+data fusion methods. To our knowledge, this paper is the first to demonstrate a
+successful extension of the ADM to fuse resting-state and task-based fMRI data
+for accurate prediction of IQ.

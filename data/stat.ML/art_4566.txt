@@ -1,0 +1,9 @@
+Streaming Gibbs Sampling for LDA Model
+Streaming variational Bayes (SVB) is successful in learning LDA models in an
+online manner. However previous attempts toward developing online Monte-Carlo
+methods for LDA have little success, often by having much worse perplexity than
+their batch counterparts. We present a streaming Gibbs sampling (SGS) method,
+an online extension of the collapsed Gibbs sampling (CGS). Our empirical study
+shows that SGS can reach similar perplexity as CGS, much better than SVB. Our
+distributed version of SGS, DSGS, is much more scalable than SVB mainly because
+the updates' communication complexity is small.

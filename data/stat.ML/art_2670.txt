@@ -1,0 +1,12 @@
+Online Learning with Multiple Operator-valued Kernels
+We consider the problem of learning a vector-valued function f in an online
+learning setting. The function f is assumed to lie in a reproducing Hilbert
+space of operator-valued kernels. We describe two online algorithms for
+learning f while taking into account the output structure. A first contribution
+is an algorithm, ONORMA, that extends the standard kernel-based online learning
+algorithm NORMA from scalar-valued to operator-valued setting. We report a
+cumulative error bound that holds both for classification and regression. We
+then define a second algorithm, MONORMA, which addresses the limitation of
+pre-defining the output structure in ONORMA by learning sequentially a linear
+combination of operator-valued kernels. Our experiments show that the proposed
+algorithms achieve good performance results with low computational cost.

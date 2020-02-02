@@ -1,0 +1,26 @@
+Re-thinking EEG-based non-invasive brain interfaces: modeling and
+  analysis
+Brain interfaces are cyber-physical systems that aim to harvest information
+from the (physical) brain through sensing mechanisms, extract information about
+the underlying processes, and decide/actuate accordingly. Nonetheless, the
+brain interfaces are still in their infancy, but reaching to their maturity
+quickly as several initiatives are released to push forward their development
+(e.g., NeuraLink by Elon Musk and `typing-by-brain' by Facebook). This has
+motivated us to revisit the design of EEG-based non-invasive brain interfaces.
+Specifically, current methodologies entail a highly skilled neuro-functional
+approach and evidence-based \emph{a priori} knowledge about specific signal
+features and their interpretation from a neuro-physiological point of view.
+Hereafter, we propose to demystify such approaches, as we propose to leverage
+new time-varying complex network models that equip us with a fractal dynamical
+characterization of the underlying processes. Subsequently, the parameters of
+the proposed complex network models can be explained from a system's
+perspective, and, consecutively, used for classification using machine learning
+algorithms and/or actuation laws determined using control system's theory.
+Besides, the proposed system identification methods and techniques have
+computational complexities comparable with those currently used in EEG-based
+brain interfaces, which enable comparable online performances. Furthermore, we
+foresee that the proposed models and approaches are also valid using other
+invasive and non-invasive technologies. Finally, we illustrate and
+experimentally evaluate this approach on real EEG-datasets to assess and
+validate the proposed methodology. The classification accuracies are high even
+on having less number of training samples.

@@ -1,0 +1,15 @@
+Towards an optimal decision strategy of visual search
+Searching for objects amongst clutter is a key ability of visual systems.
+Speed and accuracy are often crucial: how can the visual system trade off these
+competing quantities for optimal performance in different tasks? How does the
+trade-off depend on target appearance and scene complexity? We show that the
+optimal tradeoff strategy may be cast as the solution to a partially observable
+Markov decision process (POMDP) and computed by a dynamic programming
+procedure. However, this procedure is computationally intensive when the visual
+scene becomes too cluttered. Therefore, we also conjecture an optimal strategy
+that scales to large number of clutters. Our conjecture applies to homogeneous
+visual search and for a special case of heterogenous search where the
+signal-to-noise ratio differs across location. Using the conjecture we show
+that two existing decision mechanisms for analyzing human data, namely
+diffusion-to-bound and maximum-of-output, are sub-optimal; the optimal strategy
+instead employs two scaled diffusions.

@@ -1,0 +1,18 @@
+Bayesian Nonparametric Modeling of Driver Behavior using HDP Split-Merge
+  Sampling Algorithm
+Modern vehicles are equipped with increasingly complex sensors. These sensors
+generate large volumes of data that provide opportunities for modeling and
+analysis. Here, we are interested in exploiting this data to learn aspects of
+behaviors and the road network associated with individual drivers. Our dataset
+is collected on a standard vehicle used to commute to work and for personal
+trips. A Hidden Markov Model (HMM) trained on the GPS position and orientation
+data is utilized to compress the large amount of position information into a
+small amount of road segment states. Each state has a set of observations, i.e.
+car signals, associated with it that are quantized and modeled as draws from a
+Hierarchical Dirichlet Process (HDP). The inference for the topic distributions
+is carried out using HDP split-merge sampling algorithm. The topic
+distributions over joint quantized car signals characterize the driving
+situation in the respective road state. In a novel manner, we demonstrate how
+the sparsity of the personal road network of a driver in conjunction with a
+hierarchical topic model allows data driven predictions about destinations as
+well as likely road conditions.

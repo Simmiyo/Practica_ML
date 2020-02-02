@@ -1,0 +1,17 @@
+Multi-Stage Multi-Task Feature Learning
+Multi-task sparse feature learning aims to improve the generalization
+performance by exploiting the shared features among tasks. It has been
+successfully applied to many applications including computer vision and
+biomedical informatics. Most of the existing multi-task sparse feature learning
+algorithms are formulated as a convex sparse regularization problem, which is
+usually suboptimal, due to its looseness for approximating an $\ell_0$-type
+regularizer. In this paper, we propose a non-convex formulation for multi-task
+sparse feature learning based on a novel non-convex regularizer. To solve the
+non-convex optimization problem, we propose a Multi-Stage Multi-Task Feature
+Learning (MSMTFL) algorithm; we also provide intuitive interpretations,
+detailed convergence and reproducibility analysis for the proposed algorithm.
+Moreover, we present a detailed theoretical analysis showing that MSMTFL
+achieves a better parameter estimation error bound than the convex formulation.
+Empirical studies on both synthetic and real-world data sets demonstrate the
+effectiveness of MSMTFL in comparison with the state of the art multi-task
+sparse feature learning algorithms.

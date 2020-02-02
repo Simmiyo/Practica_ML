@@ -1,0 +1,8 @@
+Siamese Networks for Semantic Pattern Similarity
+Semantic Pattern Similarity is an interesting, though not often encountered
+NLP task where two sentences are compared not by their specific meaning, but by
+their more abstract semantic pattern (e.g., preposition or frame). We utilize
+Siamese Networks to model this task, and show its usefulness in determining SQL
+patterns for unseen questions in a database-backed question answering scenario.
+Our approach achieves high accuracy and contains a built-in proxy for
+confidence, which can be used to keep precision arbitrarily high.

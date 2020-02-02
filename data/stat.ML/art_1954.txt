@@ -1,0 +1,11 @@
+UCB Algorithm for Exponential Distributions
+We introduce in this paper a new algorithm for Multi-Armed Bandit (MAB)
+problems. A machine learning paradigm popular within Cognitive Network related
+topics (e.g., Spectrum Sensing and Allocation). We focus on the case where the
+rewards are exponentially distributed, which is common when dealing with
+Rayleigh fading channels. This strategy, named Multiplicative Upper Confidence
+Bound (MUCB), associates a utility index to every available arm, and then
+selects the arm with the highest index. For every arm, the associated index is
+equal to the product of a multiplicative factor by the sample mean of the
+rewards collected by this arm. We show that the MUCB policy has a low
+complexity and is order optimal.

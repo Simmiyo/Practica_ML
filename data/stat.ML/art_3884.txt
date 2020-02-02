@@ -1,0 +1,17 @@
+Detecting weak changes in dynamic events over networks
+Large volume of networked streaming event data are becoming increasingly
+available in a wide variety of applications, such as social network analysis,
+Internet traffic monitoring and healthcare analytics. Streaming event data are
+discrete observation occurred in continuous time, and the precise time interval
+between two events carries a great deal of information about the dynamics of
+the underlying systems. How to promptly detect changes in these dynamic systems
+using these streaming event data? In this paper, we propose a novel
+change-point detection framework for multi-dimensional event data over
+networks. We cast the problem into sequential hypothesis test, and derive the
+likelihood ratios for point processes, which are computed efficiently via an
+EM-like algorithm that is parameter-free and can be computed in a distributed
+fashion. We derive a highly accurate theoretical characterization of the
+false-alarm-rate, and show that it can achieve weak signal detection by
+aggregating local statistics over time and networks. Finally, we demonstrate
+the good performance of our algorithm on numerical examples and real-world
+datasets from twitter and Memetracker.

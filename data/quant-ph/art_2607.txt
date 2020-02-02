@@ -1,0 +1,17 @@
+Remarks on Universal Quantum Computer
+According to Deutsch, a universal quantum Turing machine (UQTM) is able to
+perform, in repeating a fixed unitary transformation on the total system, an
+arbitrary unitary transformation on an arbitrary data state, by including a
+program as another part of the input state. We note that if such a UQTM really
+exists, with the program state dependent on the data state, and if the
+prescribed halting scheme is indeed valid, then there would be no entanglement
+between the halt qubit and other qubits, as pointed out by Myers. If, however,
+the program is required to be independent of the data, the concerned
+entanglement appears, and is problematic no matter whether the halt qubit is
+monitored or not. We also note that for a deterministic programmable quantum
+gate array, as discussed by Nielson and Chuang, if the program is allowed to
+depend on the data state, then its existence has not been ruled out. On the
+other hand, if UQTM exists, it can be simulated by repeating the operation of a
+fixed gate array. However, more importantly, we observe that it is actually
+still open whether Deutsch's UQTM exists and whether a crucial concatenation
+scheme, of which the halting scheme is a special case, is valid.

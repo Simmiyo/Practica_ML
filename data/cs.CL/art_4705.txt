@@ -1,0 +1,13 @@
+Tübingen-Oslo system: Linear regression works the best at Predicting
+  Current and Future Psychological Health from Childhood Essays in the CLPsych
+  2018 Shared Task
+This paper describes our efforts in predicting current and future
+psychological health from childhood essays within the scope of the CLPsych-2018
+Shared Task. We experimented with a number of different models, including
+recurrent and convolutional networks, Poisson regression, support vector
+regression, and L1 and L2 regularized linear regression. We obtained the best
+results on the training/development data with L2 regularized linear regression
+(ridge regression) which also got the best scores on main metrics in the
+official testing for task A (predicting psychological health from essays
+written at the age of 11 years) and task B (predicting later psychological
+health from essays written at the age of 11).

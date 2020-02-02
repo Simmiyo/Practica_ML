@@ -1,0 +1,19 @@
+Distortion Distribution of Neural Spike Train Sequence Matching with
+  Optogenetics
+This paper uses a simple optogenetic model to compare the timing distortion
+between a randomly-generated target spike sequence and an externally-stimulated
+neuron spike sequence. Optogenetics is an emerging field of neuroscience where
+neurons are genetically modified to express light-sensitive receptors that
+enable external control over when the neurons fire. Given the prominence of
+neuronal signaling within the brain and throughout the body, optogenetics has
+significant potential to improve the understanding of the nervous system and to
+develop treatments for neurological diseases. This paper primarily considers
+two different distortion measures. The first measure is the delay in
+externally-stimulated spikes. The second measure is the root mean square error
+between the filtered outputs of the target and stimulated spike sequences. The
+mean and the distribution of the distortion is derived in closed form when the
+target sequence generation rate is sufficiently low. All derived results are
+supported with simulations. This work is a step towards an analytical model to
+predict whether different spike trains were observed from the same stimulus,
+and the broader goal of understanding the quantity and reliability of
+information that can be carried by neurons.

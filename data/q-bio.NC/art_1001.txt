@@ -1,0 +1,25 @@
+The space-clamped Hodgkin-Huxley system with random synaptic input:
+  inhibition of spiking by weak noise and analysis with moment equations
+We consider a classical space-clamped Hodgkin-Huxley model neuron stimulated
+by synaptic excitation and inhibition with conductances represented by
+Ornstein-Uhlenbeck processes. Using numerical solutions of the stochastic model
+system obtained by an Euler method, it is found that with excitation only there
+is a critical value of the steady state excitatory conductance for repetitive
+spiking without noise and for values of the conductance near the critical value
+small noise has a powerfully inhibitory effect. For a given level of inhibition
+there is also a critical value of the steady state excitatory conductance for
+repetitive firing and it is demonstrated that noise either in the excitatory or
+inhibitory processes or both can powerfully inhibit spiking. Furthermore, near
+the critical value, inverse stochastic resonance was observed when noise was
+present only in the inhibitory input process.
+  The system of 27 coupled deterministic differential equations for the
+approximate first and second order moments of the 6-dimensional model is
+derived. The moment differential equations are solved using Runge-Kutta methods
+and the solutions are compared with the results obtained by simulation for
+various sets of parameters including some with conductances obtained by
+experiment on pyramidal cells of rat prefrontal cortex. The mean and variance
+obtained from simulation are in good agreement when there is spiking induced by
+strong stimulation and relatively small noise or when the voltage is
+fluctuating at subthreshold levels. In the occasional spike mode sometimes
+exhibited by spinal motoneurons and cortical pyramidal cells the assunptions
+underlying the moment equation approach are not satisfied.

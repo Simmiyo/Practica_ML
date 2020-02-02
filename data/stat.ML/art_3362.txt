@@ -1,0 +1,15 @@
+Locally Adaptive Dynamic Networks
+Our focus is on realistically modeling and forecasting dynamic networks of
+face-to-face contacts among individuals. Important aspects of such data that
+lead to problems with current methods include the tendency of the contacts to
+move between periods of slow and rapid changes, and the dynamic heterogeneity
+in the actors' connectivity behaviors. Motivated by this application, we
+develop a novel method for Locally Adaptive DYnamic (LADY) network inference.
+The proposed model relies on a dynamic latent space representation in which
+each actor's position evolves in time via stochastic differential equations.
+Using a state space representation for these stochastic processes and
+P\'olya-gamma data augmentation, we develop an efficient MCMC algorithm for
+posterior inference along with tractable procedures for online updating and
+forecasting of future networks. We evaluate performance in simulation studies,
+and consider an application to face-to-face contacts among individuals in a
+primary school.

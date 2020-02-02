@@ -1,0 +1,22 @@
+Personalizing deep learning models for automatic sleep staging
+Despite continued advancement in machine learning algorithms and increasing
+availability of large data sets, there is still no universally acceptable
+solution for automatic sleep staging of human sleep recordings. One reason is
+that a skilled neurophysiologist scoring brain recordings of a sleeping person
+implicitly adapts his/her staging to the individual characteristics present in
+the brain recordings. Trying to incorporate this adaptation step in an
+automatic scoring algorithm, we introduce in this paper a method for
+personalizing a general sleep scoring model. Starting from a general
+convolutional neural network architecture, we allow the model to learn
+individual characteristics of the first night of sleep in order to quantify
+sleep stages of the second night. While the original neural network allows to
+sleep stage on a public database with a state of the art accuracy,
+personalizing the model further increases performance (on the order of two
+percentage points on average, but more for difficult subjects). This
+improvement is particularly present in subjects where the original algorithm
+did not perform well (typically subjects with accuracy less than $80\%$).
+Looking deeper, we find that optimal classification can be achieved when broad
+knowledge of sleep staging in general (at least 20 separate nights) is combined
+with subject-specific knowledge. We hypothesize that this method will be very
+valuable for improving scoring of lower quality sleep recordings, such as those
+from wearable devices.

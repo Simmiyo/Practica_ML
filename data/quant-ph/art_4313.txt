@@ -1,0 +1,23 @@
+Proof of security of quantum key distribution with two-way classical
+  communications
+Shor and Preskill have provided a simple proof of security of the standard
+quantum key distribution scheme by Bennett and Brassard (BB84) by demonstrating
+a connection between key distribution and entanglement purification protocols
+with one-way communications. Here we provide proofs of security of standard
+quantum key distribution schemes, BB84 and the six-state scheme, against the
+most general attack, by using the techniques of *two*-way entanglement
+purification. We demonstrate clearly the advantage of classical post-processing
+with two-way classical communications over classical post-processing with only
+one-way classical communications in QKD. This is done by the explicit
+construction of a new protocol for (the error correction/detection and privacy
+amplification of) BB84 that can tolerate a bit error rate of up to 18.9%, which
+is higher than what any BB84 scheme with only one-way classical communications
+can possibly tolerate. Moreover, we demonstrate the advantage of the six-state
+scheme over BB84 by showing that the six-state scheme can strictly tolerate a
+higher bit error rate than BB84. In particular, our six-state protocol can
+tolerate a bit error rate of 26.4%, which is higher than the upper bound of 25%
+bit error rate for any secure BB84 protocol. Consequently, our protocols may
+allow higher key generation rate and remain secure over longer distances than
+previous protocols. Our investigation suggests that two-way entanglement
+purification is a useful tool in the study of advantage distillation, error
+correction, and privacy amplification protocols.

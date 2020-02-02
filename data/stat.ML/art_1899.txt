@@ -1,0 +1,20 @@
+On the Sample Complexity of Predictive Sparse Coding
+The goal of predictive sparse coding is to learn a representation of examples
+as sparse linear combinations of elements from a dictionary, such that a
+learned hypothesis linear in the new representation performs well on a
+predictive task. Predictive sparse coding algorithms recently have demonstrated
+impressive performance on a variety of supervised tasks, but their
+generalization properties have not been studied. We establish the first
+generalization error bounds for predictive sparse coding, covering two
+settings: 1) the overcomplete setting, where the number of features k exceeds
+the original dimensionality d; and 2) the high or infinite-dimensional setting,
+where only dimension-free bounds are useful. Both learning bounds intimately
+depend on stability properties of the learned sparse encoder, as measured on
+the training sample. Consequently, we first present a fundamental stability
+result for the LASSO, a result characterizing the stability of the sparse codes
+with respect to perturbations to the dictionary. In the overcomplete setting,
+we present an estimation error bound that decays as \tilde{O}(sqrt(d k/m)) with
+respect to d and k. In the high or infinite-dimensional setting, we show a
+dimension-free bound that is \tilde{O}(sqrt(k^2 s / m)) with respect to k and
+s, where s is an upper bound on the number of non-zeros in the sparse code for
+any training data point.

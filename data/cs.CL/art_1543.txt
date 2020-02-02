@@ -1,0 +1,13 @@
+Towards the Use of Deep Reinforcement Learning with Global Policy For
+  Query-based Extractive Summarisation
+Supervised approaches for text summarisation suffer from the problem of
+mismatch between the target labels/scores of individual sentences and the
+evaluation score of the final summary. Reinforcement learning can solve this
+problem by providing a learning mechanism that uses the score of the final
+summary as a guide to determine the decisions made at the time of selection of
+each sentence. In this paper we present a proof-of-concept approach that
+applies a policy-gradient algorithm to learn a stochastic policy using an
+undiscounted reward. The method has been applied to a policy consisting of a
+simple neural network and simple features. The resulting deep reinforcement
+learning system is able to learn a global policy and obtain encouraging
+results.

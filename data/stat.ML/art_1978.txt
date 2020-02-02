@@ -1,0 +1,12 @@
+Products of Hidden Markov Models: It Takes N>1 to Tango
+Products of Hidden Markov Models(PoHMMs) are an interesting class of
+generative models which have received little attention since their
+introduction. This maybe in part due to their more computationally expensive
+gradient-based learning algorithm,and the intractability of computing the log
+likelihood of sequences under the model. In this paper, we demonstrate how the
+partition function can be estimated reliably via Annealed Importance Sampling.
+We perform experiments using contrastive divergence learning on rainfall data
+and data captured from pairs of people dancing. Our results suggest that
+advances in learning and evaluation for undirected graphical models and recent
+increases in available computing power make PoHMMs worth considering for
+complex time-series modeling tasks.

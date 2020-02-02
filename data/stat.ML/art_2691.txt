@@ -1,0 +1,11 @@
+A Component Lasso
+We propose a new sparse regression method called the component lasso, based
+on a simple idea. The method uses the connected-components structure of the
+sample covariance matrix to split the problem into smaller ones. It then solves
+the subproblems separately, obtaining a coefficient vector for each one. Then,
+it uses non-negative least squares to recombine the different vectors into a
+single solution. This step is useful in selecting and reweighting components
+that are correlated with the response. Simulated and real data examples show
+that the component lasso can outperform standard regression methods such as the
+lasso and elastic net, achieving a lower mean squared error as well as better
+support recovery.

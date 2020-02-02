@@ -1,0 +1,22 @@
+Visual pathways from the perspective of cost functions and multi-task
+  deep neural networks
+Vision research has been shaped by the seminal insight that we can understand
+the higher-tier visual cortex from the perspective of multiple functional
+pathways with different goals. In this paper, we try to give a computational
+account of the functional organization of this system by reasoning from the
+perspective of multi-task deep neural networks. Machine learning has shown that
+tasks become easier to solve when they are decomposed into subtasks with their
+own cost function. We hypothesize that the visual system optimizes multiple
+cost functions of unrelated tasks and this causes the emergence of a ventral
+pathway dedicated to vision for perception, and a dorsal pathway dedicated to
+vision for action. To evaluate the functional organization in multi-task deep
+neural networks, we propose a method that measures the contribution of a unit
+towards each task, applying it to two networks that have been trained on either
+two related or two unrelated tasks, using an identical stimulus set. Results
+show that the network trained on the unrelated tasks shows a decreasing degree
+of feature representation sharing towards higher-tier layers while the network
+trained on related tasks uniformly shows high degree of sharing. We conjecture
+that the method we propose can be used to analyze the anatomical and functional
+organization of the visual system and beyond. We predict that the degree to
+which tasks are related is a good descriptor of the degree to which they share
+downstream cortical-units.

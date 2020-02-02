@@ -1,0 +1,18 @@
+Calibrated Multivariate Regression with Application to Neural Semantic
+  Basis Discovery
+We propose a calibrated multivariate regression method named CMR for fitting
+high dimensional multivariate regression models. Compared with existing
+methods, CMR calibrates regularization for each regression task with respect to
+its noise level so that it simultaneously attains improved finite-sample
+performance and tuning insensitiveness. Theoretically, we provide sufficient
+conditions under which CMR achieves the optimal rate of convergence in
+parameter estimation. Computationally, we propose an efficient smoothed
+proximal gradient algorithm with a worst-case numerical rate of convergence
+$\cO(1/\epsilon)$, where $\epsilon$ is a pre-specified accuracy of the
+objective function value. We conduct thorough numerical simulations to
+illustrate that CMR consistently outperforms other high dimensional
+multivariate regression methods. We also apply CMR to solve a brain activity
+prediction problem and find that it is as competitive as a handcrafted model
+created by human experts. The R package \texttt{camel} implementing the
+proposed method is available on the Comprehensive R Archive Network
+\url{http://cran.r-project.org/web/packages/camel/}.

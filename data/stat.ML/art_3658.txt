@@ -1,0 +1,19 @@
+Adjustable Bounded Rectifiers: Towards Deep Binary Representations
+Binary representation is desirable for its memory efficiency, computation
+speed and robustness. In this paper, we propose adjustable bounded rectifiers
+to learn binary representations for deep neural networks. While hard
+constraining representations across layers to be binary makes training
+unreasonably difficult, we softly encourage activations to diverge from real
+values to binary by approximating step functions. Our final representation is
+completely binary. We test our approach on MNIST, CIFAR10, and ILSVRC2012
+dataset, and systematically study the training dynamics of the binarization
+process. Our approach can binarize the last layer representation without loss
+of performance and binarize all the layers with reasonably small degradations.
+The memory space that it saves may allow more sophisticated models to be
+deployed, thus compensating the loss. To the best of our knowledge, this is the
+first work to report results on current deep network architectures using
+complete binary middle representations. Given the learned representations, we
+find that the firing or inhibition of a binary neuron is usually associated
+with a meaningful interpretation across different classes. This suggests that
+the semantic structure of a neural network may be manifested through a guided
+binarization process.

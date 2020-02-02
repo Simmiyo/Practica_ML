@@ -1,0 +1,14 @@
+A unified deep artificial neural network approach to partial
+  differential equations in complex geometries
+In this paper we use deep feedforward artificial neural networks to
+approximate solutions to partial differential equations in complex geometries.
+We show how to modify the backpropagation algorithm to compute the partial
+derivatives of the network output with respect to the space variables which is
+needed to approximate the differential operator. The method is based on an
+ansatz for the solution which requires nothing but feedforward neural networks
+and an unconstrained gradient based optimization method such as gradient
+descent or a quasi-Newton method.
+  We show an example where classical mesh based methods cannot be used and
+neural networks can be seen as an attractive alternative. Finally, we highlight
+the benefits of deep compared to shallow neural networks and device some other
+convergence enhancing techniques.

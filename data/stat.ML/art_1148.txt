@@ -1,0 +1,14 @@
+Distributed Generalized Cross-Validation for Divide-and-Conquer Kernel
+  Ridge Regression and its Asymptotic Optimality
+Tuning parameter selection is of critical importance for kernel ridge
+regression. To this date, data driven tuning method for divide-and-conquer
+kernel ridge regression (d-KRR) has been lacking in the literature, which
+limits the applicability of d-KRR for large data sets. In this paper, by
+modifying the Generalized Cross-validation (GCV, Wahba, 1990) score, we propose
+a distributed Generalized Cross-Validation (dGCV) as a data-driven tool for
+selecting the tuning parameters in d-KRR. Not only the proposed dGCV is
+computationally scalable for massive data sets, it is also shown, under mild
+conditions, to be asymptotically optimal in the sense that minimizing the dGCV
+score is equivalent to minimizing the true global conditional empirical loss of
+the averaged function estimator, extending the existing optimality results of
+GCV to the divide-and-conquer framework.

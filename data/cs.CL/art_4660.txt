@@ -1,0 +1,20 @@
+Can Neural Generators for Dialogue Learn Sentence Planning and Discourse
+  Structuring?
+Responses in task-oriented dialogue systems often realize multiple
+propositions whose ultimate form depends on the use of sentence planning and
+discourse structuring operations. For example a recommendation may consist of
+an explicitly evaluative utterance e.g. Chanpen Thai is the best option, along
+with content related by the justification discourse relation, e.g. It has great
+food and service, that combines multiple propositions into a single phrase.
+While neural generation methods integrate sentence planning and surface
+realization in one end-to-end learning framework, previous work has not shown
+that neural generators can: (1) perform common sentence planning and discourse
+structuring operations; (2) make decisions as to whether to realize content in
+a single sentence or over multiple sentences; (3) generalize sentence planning
+and discourse relation operations beyond what was seen in training. We
+systematically create large training corpora that exhibit particular sentence
+planning operations and then test neural models to see what they learn. We
+compare models without explicit latent variables for sentence planning with
+ones that provide explicit supervision during training. We show that only the
+models with additional supervision can reproduce sentence planing and discourse
+operations and generalize to situations unseen in training.

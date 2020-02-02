@@ -1,0 +1,14 @@
+Spectral Clustering with Imbalanced Data
+Spectral clustering is sensitive to how graphs are constructed from data
+particularly when proximal and imbalanced clusters are present. We show that
+Ratio-Cut (RCut) or normalized cut (NCut) objectives are not tailored to
+imbalanced data since they tend to emphasize cut sizes over cut values. We
+propose a graph partitioning problem that seeks minimum cut partitions under
+minimum size constraints on partitions to deal with imbalanced data. Our
+approach parameterizes a family of graphs, by adaptively modulating node
+degrees on a fixed node set, to yield a set of parameter dependent cuts
+reflecting varying levels of imbalance. The solution to our problem is then
+obtained by optimizing over these parameters. We present rigorous limit cut
+analysis results to justify our approach. We demonstrate the superiority of our
+method through unsupervised and semi-supervised experiments on synthetic and
+real data sets.

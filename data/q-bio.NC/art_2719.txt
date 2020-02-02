@@ -1,0 +1,18 @@
+Scaling to 1024 software processes and hardware cores of the distributed
+  simulation of a spiking neural network including up to 20G synapses
+This short report describes the scaling, up to 1024 software processes and
+hardware cores, of a distributed simulator of plastic spiking neural networks.
+A previous report demonstrated good scalability of the simulator up to 128
+processes. Herein we extend the speed-up measurements and strong and weak
+scaling analysis of the simulator to the range between 1 and 1024 software
+processes and hardware cores. We simulated two-dimensional grids of cortical
+columns including up to ~20G synapses connecting ~11M neurons. The neural
+network was distributed over a set of MPI processes and the simulations were
+run on a server platform composed of up to 64 dual-socket nodes, each socket
+equipped with Intel Haswell E5-2630 v3 processors (8 cores @ 2.4 GHz clock).
+All nodes are interconned through an InfiniBand network. The DPSNN simulator
+has been developed by INFN in the framework of EURETILE and CORTICONIC European
+FET Project and will be used by the WaveScalEW tem in the framework of the
+Human Brain Project (HBP), SubProject 2 - Cognitive and Systems Neuroscience.
+This report lays the groundwork for a more thorough comparison with the neural
+simulation tool NEST.

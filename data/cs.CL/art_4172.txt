@@ -1,0 +1,14 @@
+A Multi-Modal Chinese Poetry Generation Model
+Recent studies in sequence-to-sequence learning demonstrate that RNN
+encoder-decoder structure can successfully generate Chinese poetry. However,
+existing methods can only generate poetry with a given first line or user's
+intent theme. In this paper, we proposed a three-stage multi-modal Chinese
+poetry generation approach. Given a picture, the first line, the title and the
+other lines of the poem are successively generated in three stages. According
+to the characteristics of Chinese poems, we propose a hierarchy-attention
+seq2seq model which can effectively capture character, phrase, and sentence
+information between contexts and improve the symmetry delivered in poems. In
+addition, the Latent Dirichlet allocation (LDA) model is utilized for title
+generation and improve the relevance of the whole poem and the title. Compared
+with strong baseline, the experimental results demonstrate the effectiveness of
+our approach, using machine evaluations as well as human judgments.

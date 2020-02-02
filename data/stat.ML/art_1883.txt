@@ -1,0 +1,18 @@
+Conditional Restricted Boltzmann Machines for Structured Output
+  Prediction
+Conditional Restricted Boltzmann Machines (CRBMs) are rich probabilistic
+models that have recently been applied to a wide range of problems, including
+collaborative filtering, classification, and modeling motion capture data.
+While much progress has been made in training non-conditional RBMs, these
+algorithms are not applicable to conditional models and there has been almost
+no work on training and generating predictions from conditional RBMs for
+structured output problems. We first argue that standard Contrastive
+Divergence-based learning may not be suitable for training CRBMs. We then
+identify two distinct types of structured output prediction problems and
+propose an improved learning algorithm for each. The first problem type is one
+where the output space has arbitrary structure but the set of likely output
+configurations is relatively small, such as in multi-label classification. The
+second problem is one where the output space is arbitrarily structured but
+where the output space variability is much greater, such as in image denoising
+or pixel labeling. We show that the new learning algorithms can work much
+better than Contrastive Divergence on both types of problems.

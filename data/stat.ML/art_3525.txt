@@ -1,0 +1,11 @@
+A Markov Jump Process for More Efficient Hamiltonian Monte Carlo
+In most sampling algorithms, including Hamiltonian Monte Carlo, transition
+rates between states correspond to the probability of making a transition in a
+single time step, and are constrained to be less than or equal to 1. We derive
+a Hamiltonian Monte Carlo algorithm using a continuous time Markov jump
+process, and are thus able to escape this constraint. Transition rates in a
+Markov jump process need only be non-negative. We demonstrate that the new
+algorithm leads to improved mixing for several example problems, both by
+evaluating the spectral gap of the Markov operator, and by computing
+autocorrelation as a function of compute time. We release the algorithm as an
+open source Python package.

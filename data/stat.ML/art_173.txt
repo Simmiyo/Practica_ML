@@ -1,0 +1,17 @@
+A Flexible, Scalable and Efficient Algorithmic Framework for Primal
+  Graphical Lasso
+We propose a scalable, efficient and statistically motivated computational
+framework for Graphical Lasso (Friedman et al., 2007b) - a covariance
+regularization framework that has received significant attention in the
+statistics community over the past few years. Existing algorithms have trouble
+in scaling to dimensions larger than a thousand. Our proposal significantly
+enhances the state-of-the-art for such moderate sized problems and gracefully
+scales to larger problems where other algorithms become practically infeasible.
+This requires a few key new ideas. We operate on the primal problem and use a
+subtle variation of block-coordinate-methods which drastically reduces the
+computational complexity by orders of magnitude. We provide rigorous
+theoretical guarantees on the convergence and complexity of our algorithm and
+demonstrate the effectiveness of our proposal via experiments. We believe that
+our framework extends the applicability of Graphical Lasso to large-scale
+modern applications like bioinformatics, collaborative filtering and social
+networks, among others.

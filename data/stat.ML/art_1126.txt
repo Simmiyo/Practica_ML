@@ -1,0 +1,17 @@
+Gray-box inference for structured Gaussian process models
+We develop an automated variational inference method for Bayesian structured
+prediction problems with Gaussian process (GP) priors and linear-chain
+likelihoods. Our approach does not need to know the details of the structured
+likelihood model and can scale up to a large number of observations.
+Furthermore, we show that the required expected likelihood term and its
+gradients in the variational objective (ELBO) can be estimated efficiently by
+using expectations over very low-dimensional Gaussian distributions.
+Optimization of the ELBO is fully parallelizable over sequences and amenable to
+stochastic optimization, which we use along with control variate techniques and
+state-of-the-art incremental optimization to make our framework useful in
+practice. Results on a set of natural language processing tasks show that our
+method can be as good as (and sometimes better than) hard-coded approaches
+including SVM-struct and CRFs, and overcomes the scalability limitations of
+previous inference algorithms based on sampling. Overall, this is a fundamental
+step to developing automated inference methods for Bayesian structured
+prediction.

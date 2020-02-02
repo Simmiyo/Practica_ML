@@ -1,0 +1,15 @@
+Manifold Gaussian Processes for Regression
+Off-the-shelf Gaussian Process (GP) covariance functions encode smoothness
+assumptions on the structure of the function to be modeled. To model complex
+and non-differentiable functions, these smoothness assumptions are often too
+restrictive. One way to alleviate this limitation is to find a different
+representation of the data by introducing a feature space. This feature space
+is often learned in an unsupervised way, which might lead to data
+representations that are not useful for the overall regression task. In this
+paper, we propose Manifold Gaussian Processes, a novel supervised method that
+jointly learns a transformation of the data into a feature space and a GP
+regression from the feature space to observed space. The Manifold GP is a full
+GP and allows to learn data representations, which are useful for the overall
+regression task. As a proof-of-concept, we evaluate our approach on complex
+non-smooth functions where standard GPs perform poorly, such as step functions
+and robotics tasks with contacts.

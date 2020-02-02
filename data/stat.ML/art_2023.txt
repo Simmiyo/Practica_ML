@@ -1,0 +1,19 @@
+Convex Point Estimation using Undirected Bayesian Transfer Hierarchies
+When related learning tasks are naturally arranged in a hierarchy, an
+appealing approach for coping with scarcity of instances is that of transfer
+learning using a hierarchical Bayes framework. As fully Bayesian computations
+can be difficult and computationally demanding, it is often desirable to use
+posterior point estimates that facilitate (relatively) efficient prediction.
+However, the hierarchical Bayes framework does not always lend itself naturally
+to this maximum aposteriori goal. In this work we propose an undirected
+reformulation of hierarchical Bayes that relies on priors in the form of
+similarity measures. We introduce the notion of "degree of transfer" weights on
+components of these similarity measures, and show how they can be automatically
+learned within a joint probabilistic framework. Importantly, our reformulation
+results in a convex objective for many learning problems, thus facilitating
+optimal posterior point estimation using standard optimization techniques. In
+addition, we no longer require proper priors, allowing for flexible and
+straightforward specification of joint distributions over transfer hierarchies.
+We show that our framework is effective for learning models that are part of
+transfer hierarchies for two real-life tasks: object shape modeling using
+Gaussian density estimation and document classification.

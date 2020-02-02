@@ -1,0 +1,13 @@
+Multi-timescale memory dynamics in a reinforcement learning network with
+  attention-gated memory
+Learning and memory are intertwined in our brain and their relationship is at
+the core of several recent neural network models. In particular, the
+Attention-Gated MEmory Tagging model (AuGMEnT) is a reinforcement learning
+network with an emphasis on biological plausibility of memory dynamics and
+learning. We find that the AuGMEnT network does not solve some hierarchical
+tasks, where higher-level stimuli have to be maintained over a long time, while
+lower-level stimuli need to be remembered and forgotten over a shorter
+timescale. To overcome this limitation, we introduce hybrid AuGMEnT, with leaky
+or short-timescale and non-leaky or long-timescale units in memory, that allow
+to exchange lower-level information while maintaining higher-level one, thus
+solving both hierarchical and distractor tasks.

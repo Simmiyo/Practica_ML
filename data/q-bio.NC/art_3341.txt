@@ -1,0 +1,17 @@
+Multi-scale metrics and self-organizing maps: a computational approach
+  to the structure of sensory maps
+This paper introduces the concept of a bi-scale metric for use in the
+cooperative phase of the self-organizing map (SOM) algorithm. Use of a bi-scale
+metric allows segmentation of the map into a number of regions, corresponding
+to anticipated cluster structure in the data. Such a situation occurs, for
+example, in the somatotopic maps which inspired the SOM algo- rithm, where
+clusters of data may correspond to body surface regions whose general structure
+is known. When a bi-scale metric is appropriately applied, issues with map
+neurons that are not activated by any point in the training data are reduced or
+eliminated. The paper also presents results of simulation studies on the
+plasticity of bi-scale metric maps when they are retrained af- ter loss of
+groups of map neurons or after changes in training data (such as would occur in
+a somatotopic map when a body surface region like a finger is lost/removed).
+The paper further considers situations where tri-scale met- rics may be useful,
+and an alternative approach suggested by neurobiology, where some map regions
+adapt more slowly to stimuli because they have a lower learning rate parameter.

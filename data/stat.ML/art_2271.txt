@@ -1,0 +1,14 @@
+Lifted Relational Variational Inference
+Hybrid continuous-discrete models naturally represent many real-world
+applications in robotics, finance, and environmental engineering. Inference
+with large-scale models is challenging because relational structures
+deteriorate rapidly during inference with observations. The main contribution
+of this paper is an efficient relational variational inference algorithm that
+factors largescale probability models into simpler variational models, composed
+of mixtures of iid (Bernoulli) random variables. The algorithm takes
+probability relational models of largescale hybrid systems and converts them to
+a close-to-optimal variational models. Then, it efficiently calculates marginal
+probabilities on the variational models by using a latent (or lifted) variable
+elimination or a lifted stochastic sampling. This inference is unique because
+it maintains the relational structure upon individual observations and during
+inference steps.

@@ -1,0 +1,19 @@
+Reconstruction in the Labeled Stochastic Block Model
+The labeled stochastic block model is a random graph model representing
+networks with community structure and interactions of multiple types. In its
+simplest form, it consists of two communities of approximately equal size, and
+the edges are drawn and labeled at random with probability depending on whether
+their two endpoints belong to the same community or not.
+  It has been conjectured in \cite{Heimlicher12} that correlated reconstruction
+(i.e.\ identification of a partition correlated with the true partition into
+the underlying communities) would be feasible if and only if a model parameter
+exceeds a threshold. We prove one half of this conjecture, i.e., reconstruction
+is impossible when below the threshold. In the positive direction, we introduce
+a weighted graph to exploit the label information. With a suitable choice of
+weight function, we show that when above the threshold by a specific constant,
+reconstruction is achieved by (1) minimum bisection, (2) a semidefinite
+relaxation of minimum bisection, and (3) a spectral method combined with
+removal of edges incident to vertices of high degree. Furthermore, we show that
+hypothesis testing between the labeled stochastic block model and the labeled
+Erd\H{o}s-R\'enyi random graph model exhibits a phase transition at the
+conjectured reconstruction threshold.

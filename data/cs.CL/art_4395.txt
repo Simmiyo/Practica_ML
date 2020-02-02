@@ -1,0 +1,14 @@
+SeVeN: Augmenting Word Embeddings with Unsupervised Relation Vectors
+We present SeVeN (Semantic Vector Networks), a hybrid resource that encodes
+relationships between words in the form of a graph. Different from traditional
+semantic networks, these relations are represented as vectors in a continuous
+vector space. We propose a simple pipeline for learning such relation vectors,
+which is based on word vector averaging in combination with an ad hoc
+autoencoder. We show that by explicitly encoding relational information in a
+dedicated vector space we can capture aspects of word meaning that are
+complementary to what is captured by word embeddings. For example, by examining
+clusters of relation vectors, we observe that relational similarities can be
+identified at a more abstract level than with traditional word vector
+differences. Finally, we test the effectiveness of semantic vector networks in
+two tasks: measuring word similarity and neural text categorization. SeVeN is
+available at bitbucket.org/luisespinosa/seven.

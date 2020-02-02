@@ -1,0 +1,19 @@
+EUNHA: a new cosmological hydro simulation code
+We have developed a parallel cosmological hydrodynamic simulation code
+designed for the study of formation and evolution of cosmological structures.
+The gravitational force is calculated using the TreePM method and the
+hydrodynamics is implemented based on the smoothed particle hydrodynamics. The
+initial displacement and velocity of simulation particles are calculated
+according to second-order linear perturbation theory using the power spectra of
+dark matter and baryonic matter. The initial background temperature is given by
+Recfast and the temperature uctuations at the initial particle position are
+determined by the adiabatic model. We use a time-limiter scheme over the
+individual time steps to capture shock-fronts and to ease the time-step tension
+between the shock and preshock particles. We also include the astrophysical gas
+processes of radiative heating/cooling, star formation, metal enrichment, and
+supernova feedback. We have tested the code in several standard cases such as
+one-dimensional Riemann problems, Kelvin-Helmholtz, and Sedov blast wave
+instability. Star formation on the galactic disk is investigated to check
+whether the Schmidt-Kennicutt relation is properly recovered. We also study
+global star formation histories at different simulation resolutions and compare
+them with observations.

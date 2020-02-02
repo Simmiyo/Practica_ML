@@ -1,0 +1,18 @@
+Fingerprinting Orientation Distribution Functions in Diffusion MRI
+  detects smaller crossing angles
+Diffusion tractography is routinely used to study white matter architecture
+and brain connectivity in vivo. A key step for successful tractography of
+neuronal tracts is the correct identification of tract directions in each
+voxel. Here we propose a fingerprinting-based methodology to identify these
+fiber directions in Orientation Distribution Functions, dubbed
+ODF-Fingerprinting (ODF-FP). In ODF-FP, fiber configurations are selected based
+on the similarity between measured ODFs and elements in a pre-computed library.
+In noisy ODFs, the library matching algorithm penalizes the more complex fiber
+configurations. ODF simulations and analysis of bootstrapped partial and
+whole-brain in vivo datasets show that the ODF-FP approach improves the
+detection of fiber pairs with small crossing angles while maintaining fiber
+direction precision, which leads to better tractography results. Rather than
+focusing on the ODF maxima, the ODF-FP approach uses the whole ODF shape to
+infer fiber directions to improve the detection of fiber bundles with small
+crossing angle. The resulting fiber directions aid tractography algorithms in
+accurately displaying neuronal tracts and calculating brain connectivity.

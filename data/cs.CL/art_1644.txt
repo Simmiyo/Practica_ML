@@ -1,0 +1,17 @@
+A Principled Approach to Grammars for Controlled Natural Languages and
+  Predictive Editors
+Controlled natural languages (CNL) with a direct mapping to formal logic have
+been proposed to improve the usability of knowledge representation systems,
+query interfaces, and formal specifications. Predictive editors are a popular
+approach to solve the problem that CNLs are easy to read but hard to write.
+Such predictive editors need to be able to "look ahead" in order to show all
+possible continuations of a given unfinished sentence. Such lookahead features,
+however, are difficult to implement in a satisfying way with existing grammar
+frameworks, especially if the CNL supports complex nonlocal structures such as
+anaphoric references. Here, methods and algorithms are presented for a new
+grammar notation called Codeco, which is specifically designed for controlled
+natural languages and predictive editors. A parsing approach for Codeco based
+on an extended chart parsing algorithm is presented. A large subset of Attempto
+Controlled English (ACE) has been represented in Codeco. Evaluation of this
+grammar and the parser implementation shows that the approach is practical,
+adequate and efficient.

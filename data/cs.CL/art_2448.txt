@@ -1,0 +1,11 @@
+Syntax Aware LSTM Model for Chinese Semantic Role Labeling
+As for semantic role labeling (SRL) task, when it comes to utilizing parsing
+information, both traditional methods and recent recurrent neural network (RNN)
+based methods use the feature engineering way. In this paper, we propose Syntax
+Aware Long Short Time Memory(SA-LSTM). The structure of SA-LSTM modifies
+according to dependency parsing information in order to model parsing
+information directly in an architecture engineering way instead of feature
+engineering way. We experimentally demonstrate that SA-LSTM gains more
+improvement from the model architecture. Furthermore, SA-LSTM outperforms the
+state-of-the-art on CPB 1.0 significantly according to Student t-test
+($p<0.05$).

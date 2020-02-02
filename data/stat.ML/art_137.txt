@@ -1,0 +1,15 @@
+Auto-associative models, nonlinear Principal component analysis,
+  manifolds and projection pursuit
+In this paper, auto-associative models are proposed as candidates to the
+generalization of Principal Component Analysis. We show that these models are
+dedicated to the approximation of the dataset by a manifold. Here, the word
+"manifold" refers to the topology properties of the structure. The
+approximating manifold is built by a projection pursuit algorithm. At each step
+of the algorithm, the dimension of the manifold is incremented. Some
+theoretical properties are provided. In particular, we can show that, at each
+step of the algorithm, the mean residuals norm is not increased. Moreover, it
+is also established that the algorithm converges in a finite number of steps.
+Some particular auto-associative models are exhibited and compared to the
+classical PCA and some neural networks models. Implementation aspects are
+discussed. We show that, in numerous cases, no optimization procedure is
+required. Some illustrations on simulated and real data are presented.

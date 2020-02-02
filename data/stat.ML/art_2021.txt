@@ -1,0 +1,10 @@
+Learning Convex Inference of Marginals
+Graphical models trained using maximum likelihood are a common tool for
+probabilistic inference of marginal distributions. However, this approach
+suffers difficulties when either the inference process or the model is
+approximate. In this paper, the inference process is first defined to be the
+minimization of a convex function, inspired by free energy approximations.
+Learning is then done directly in terms of the performance of the inference
+process at univariate marginal prediction. The main novelty is that this is a
+direct minimization of emperical risk, where the risk measures the accuracy of
+predicted marginals.

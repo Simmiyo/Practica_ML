@@ -1,0 +1,13 @@
+A comparison of linear and non-linear calibrations for speaker
+  recognition
+In recent work on both generative and discriminative score to
+log-likelihood-ratio calibration, it was shown that linear transforms give good
+accuracy only for a limited range of operating points. Moreover, these methods
+required tailoring of the calibration training objective functions in order to
+target the desired region of best accuracy. Here, we generalize the linear
+recipes to non-linear ones. We experiment with a non-linear, non-parametric,
+discriminative PAV solution, as well as parametric, generative,
+maximum-likelihood solutions that use Gaussian, Student's T and
+normal-inverse-Gaussian score distributions. Experiments on NIST SRE'12 scores
+suggest that the non-linear methods provide wider ranges of optimal accuracy
+and can be trained without having to resort to objective function tailoring.

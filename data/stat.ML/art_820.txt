@@ -1,0 +1,14 @@
+Robust and Parallel Bayesian Model Selection
+Effective and accurate model selection is an important problem in modern data
+analysis. One of the major challenges is the computational burden required to
+handle large data sets that cannot be stored or processed on one machine.
+Another challenge one may encounter is the presence of outliers and
+contaminations that damage the inference quality. The parallel "divide and
+conquer" model selection strategy divides the observations of the full data set
+into roughly equal subsets and perform inference and model selection
+independently on each subset. After local subset inference, this method
+aggregates the posterior model probabilities or other model/variable selection
+criteria to obtain a final model by using the notion of geometric median. This
+approach leads to improved concentration in finding the "correct" model and
+model parameters and also is provably robust to outliers and data
+contamination.

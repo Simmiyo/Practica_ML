@@ -1,0 +1,12 @@
+Learning to Mine Chinese Coordinate Terms Using the Web
+Coordinate relation refers to the relation between instances of a concept and
+the relation between the directly hyponyms of a concept. In this paper, we
+focus on the task of extracting terms which are coordinate with a user given
+seed term in Chinese, and grouping the terms which belong to different concepts
+if the seed term has several meanings. We propose a semi-supervised method that
+integrates manually defined linguistic patterns and automatically learned
+semi-structural patterns to extract coordinate terms in Chinese from web search
+results. In addition, terms are grouped into different concepts based on their
+co-occurring terms and contexts. We further calculate the saliency scores of
+extracted terms and rank them accordingly. Experimental results demonstrate
+that our proposed method generates results with high quality and wide coverage.

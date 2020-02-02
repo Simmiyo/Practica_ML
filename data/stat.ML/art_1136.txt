@@ -1,0 +1,12 @@
+Two Methods For Wild Variational Inference
+Variational inference provides a powerful tool for approximate probabilistic
+in- ference on complex, structured models. Typical variational inference
+methods, however, require to use inference networks with computationally
+tractable proba- bility density functions. This largely limits the design and
+implementation of vari- ational inference methods. We consider wild variational
+inference methods that do not require tractable density functions on the
+inference networks, and hence can be applied in more challenging cases. As an
+example of application, we treat stochastic gradient Langevin dynamics (SGLD)
+as an inference network, and use our methods to automatically adjust the step
+sizes of SGLD, yielding significant improvement over the hand-designed step
+size schemes

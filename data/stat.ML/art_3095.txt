@@ -1,0 +1,15 @@
+Implicitly Constrained Semi-Supervised Linear Discriminant Analysis
+Semi-supervised learning is an important and active topic of research in
+pattern recognition. For classification using linear discriminant analysis
+specifically, several semi-supervised variants have been proposed. Using any
+one of these methods is not guaranteed to outperform the supervised classifier
+which does not take the additional unlabeled data into account. In this work we
+compare traditional Expectation Maximization type approaches for
+semi-supervised linear discriminant analysis with approaches based on intrinsic
+constraints and propose a new principled approach for semi-supervised linear
+discriminant analysis, using so-called implicit constraints. We explore the
+relationships between these methods and consider the question if and in what
+sense we can expect improvement in performance over the supervised procedure.
+The constraint based approaches are more robust to misspecification of the
+model, and may outperform alternatives that make more assumptions on the data,
+in terms of the log-likelihood of unseen objects.

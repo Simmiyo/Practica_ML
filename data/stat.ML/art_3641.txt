@@ -1,0 +1,14 @@
+Cross-scale predictive dictionaries
+Sparse representations using data dictionaries provide an efficient model
+particularly for signals that do not enjoy alternate analytic sparsifying
+transformations. However, solving inverse problems with sparsifying
+dictionaries can be computationally expensive, especially when the dictionary
+under consideration has a large number of atoms. In this paper, we incorporate
+additional structure on to dictionary-based sparse representations for visual
+signals to enable speedups when solving sparse approximation problems. The
+specific structure that we endow onto sparse models is that of a multi-scale
+modeling where the sparse representation at each scale is constrained by the
+sparse representation at coarser scales. We show that this cross-scale
+predictive model delivers significant speedups, often in the range of
+10-60$\times$, with little loss in accuracy for linear inverse problems
+associated with images, videos, and light fields.

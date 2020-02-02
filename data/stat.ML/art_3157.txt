@@ -1,0 +1,16 @@
+Locally Weighted Learning for Naive Bayes Classifier
+As a consequence of the strong and usually violated conditional independence
+assumption (CIA) of naive Bayes (NB) classifier, the performance of NB becomes
+less and less favorable compared to sophisticated classifiers when the sample
+size increases. We learn from this phenomenon that when the size of the
+training data is large, we should either relax the assumption or apply NB to a
+"reduced" data set, say for example use NB as a local model. The latter
+approach trades the ignored information for the robustness to the model
+assumption. In this paper, we consider using NB as a model for locally weighted
+data. A special weighting function is designed so that if CIA holds for the
+unweighted data, it also holds for the weighted data. The new method is
+intuitive and capable of handling class imbalance. It is theoretically more
+sound than the locally weighted learners of naive Bayes that base
+classification only on the $k$ nearest neighbors. Empirical study shows that
+the new method with appropriate choice of parameter outperforms seven existing
+classifiers of similar nature.

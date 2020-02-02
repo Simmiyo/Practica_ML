@@ -1,0 +1,21 @@
+Expectation Propagation for Neural Networks with Sparsity-promoting
+  Priors
+We propose a novel approach for nonlinear regression using a two-layer neural
+network (NN) model structure with sparsity-favoring hierarchical priors on the
+network weights. We present an expectation propagation (EP) approach for
+approximate integration over the posterior distribution of the weights, the
+hierarchical scale parameters of the priors, and the residual scale. Using a
+factorized posterior approximation we derive a computationally efficient
+algorithm, whose complexity scales similarly to an ensemble of independent
+sparse linear models. The approach enables flexible definition of weight priors
+with different sparseness properties such as independent Laplace priors with a
+common scale parameter or Gaussian automatic relevance determination (ARD)
+priors with different relevance parameters for all inputs. The approach can be
+extended beyond standard activation functions and NN model structures to form
+flexible nonlinear predictors from multiple sparse linear models. The effects
+of the hierarchical priors and the predictive performance of the algorithm are
+assessed using both simulated and real-world data. Comparisons are made to two
+alternative models with ARD priors: a Gaussian process with a NN covariance
+function and marginal maximum a posteriori estimates of the relevance
+parameters, and a NN with Markov chain Monte Carlo integration over all the
+unknown model parameters.

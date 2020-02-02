@@ -1,0 +1,22 @@
+A Sequential Neural Encoder with Latent Structured Description for
+  Modeling Sentences
+In this paper, we propose a sequential neural encoder with latent structured
+description (SNELSD) for modeling sentences. This model introduces latent
+chunk-level representations into conventional sequential neural encoders, i.e.,
+recurrent neural networks (RNNs) with long short-term memory (LSTM) units, to
+consider the compositionality of languages in semantic modeling. An SNELSD
+model has a hierarchical structure that includes a detection layer and a
+description layer. The detection layer predicts the boundaries of latent word
+chunks in an input sentence and derives a chunk-level vector for each word. The
+description layer utilizes modified LSTM units to process these chunk-level
+vectors in a recurrent manner and produces sequential encoding outputs. These
+output vectors are further concatenated with word vectors or the outputs of a
+chain LSTM encoder to obtain the final sentence representation. All the model
+parameters are learned in an end-to-end manner without a dependency on
+additional text chunking or syntax parsing. A natural language inference (NLI)
+task and a sentiment analysis (SA) task are adopted to evaluate the performance
+of our proposed model. The experimental results demonstrate the effectiveness
+of the proposed SNELSD model on exploring task-dependent chunking patterns
+during the semantic modeling of sentences. Furthermore, the proposed method
+achieves better performance than conventional chain LSTMs and tree-structured
+LSTMs on both tasks.

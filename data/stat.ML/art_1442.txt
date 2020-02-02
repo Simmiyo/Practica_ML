@@ -1,0 +1,18 @@
+Lagged Exact Bayesian Online Changepoint Detection with Parameter
+  Estimation
+Identifying changes in the generative process of sequential data, known as
+changepoint detection, has become an increasingly important topic for a wide
+variety of fields. A recently developed approach, which we call EXact Online
+Bayesian Changepoint Detection (EXO), has shown reasonable results with
+efficient computation for real time updates. The method is based on a
+\textit{forward} recursive message-passing algorithm. However, the detected
+changepoints from these methods are unstable. We propose a new algorithm called
+Lagged EXact Online Bayesian Changepoint Detection (LEXO) that improves the
+accuracy and stability of the detection by incorporating $\ell$-time lags to
+the inference. The new algorithm adds a recursive \textit{backward} step to the
+forward EXO and has computational complexity linear in the number of added
+lags. Estimation of parameters associated with regimes is also developed.
+Simulation studies with three common changepoint models show that the detected
+changepoints from LEXO are much more stable and parameter estimates from LEXO
+have considerably lower MSE than EXO. We illustrate applicability of the
+methods with two real world data examples comparing the EXO and LEXO.

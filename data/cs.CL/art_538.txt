@@ -1,0 +1,11 @@
+A Model-Driven Probabilistic Parser Generator
+Existing probabilistic scanners and parsers impose hard constraints on the
+way lexical and syntactic ambiguities can be resolved. Furthermore, traditional
+grammar-based parsing tools are limited in the mechanisms they allow for taking
+context into account. In this paper, we propose a model-driven tool that allows
+for statistical language models with arbitrary probability estimators. Our work
+on model-driven probabilistic parsing is built on top of ModelCC, a model-based
+parser generator, and enables the probabilistic interpretation and resolution
+of anaphoric, cataphoric, and recursive references in the disambiguation of
+abstract syntax graphs. In order to prove the expression power of ModelCC, we
+describe the design of a general-purpose natural language parser.

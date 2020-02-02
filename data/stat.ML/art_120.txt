@@ -1,0 +1,18 @@
+Autoregressive Kernels For Time Series
+We propose in this work a new family of kernels for variable-length time
+series. Our work builds upon the vector autoregressive (VAR) model for
+multivariate stochastic processes: given a multivariate time series x, we
+consider the likelihood function p_{\theta}(x) of different parameters \theta
+in the VAR model as features to describe x. To compare two time series x and
+x', we form the product of their features p_{\theta}(x) p_{\theta}(x') which is
+integrated out w.r.t \theta using a matrix normal-inverse Wishart prior. Among
+other properties, this kernel can be easily computed when the dimension d of
+the time series is much larger than the lengths of the considered time series x
+and x'. It can also be generalized to time series taking values in arbitrary
+state spaces, as long as the state space itself is endowed with a kernel
+\kappa. In that case, the kernel between x and x' is a a function of the Gram
+matrices produced by \kappa on observations and subsequences of observations
+enumerated in x and x'. We describe a computationally efficient implementation
+of this generalization that uses low-rank matrix factorization techniques.
+These kernels are compared to other known kernels using a set of benchmark
+classification tasks carried out with support vector machines.

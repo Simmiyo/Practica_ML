@@ -1,0 +1,11 @@
+Scalable Nonparametric Bayesian Inference on Point Processes with
+  Gaussian Processes
+In this paper we propose the first non-parametric Bayesian model using
+Gaussian Processes to make inference on Poisson Point Processes without
+resorting to gridding the domain or to introducing latent thinning points.
+Unlike competing models that scale cubically and have a squared memory
+requirement in the number of data points, our model has a linear complexity and
+memory requirement. We propose an MCMC sampler and show that our model is
+faster, more accurate and generates less correlated samples than competing
+models on both synthetic and real-life data. Finally, we show that our model
+easily handles data sizes not considered thus far by alternate approaches.

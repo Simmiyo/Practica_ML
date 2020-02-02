@@ -1,0 +1,21 @@
+The equivalence of information-theoretic and likelihood-based methods
+  for neural dimensionality reduction
+Stimulus dimensionality-reduction methods in neuroscience seek to identify a
+low-dimensional space of stimulus features that affect a neuron's probability
+of spiking. One popular method, known as maximally informative dimensions
+(MID), uses an information-theoretic quantity known as "single-spike
+information" to identify this space. Here we examine MID from a model-based
+perspective. We show that MID is a maximum-likelihood estimator for the
+parameters of a linear-nonlinear-Poisson (LNP) model, and that the empirical
+single-spike information corresponds to the normalized log-likelihood under a
+Poisson model. This equivalence implies that MID does not necessarily find
+maximally informative stimulus dimensions when spiking is not well described as
+Poisson. We provide several examples to illustrate this shortcoming, and derive
+a lower bound on the information lost when spiking is Bernoulli in discrete
+time bins. To overcome this limitation, we introduce model-based dimensionality
+reduction methods for neurons with non-Poisson firing statistics, and show that
+they can be framed equivalently in likelihood-based or information-theoretic
+terms. Finally, we show how to overcome practical limitations on the number of
+stimulus dimensions that MID can estimate by constraining the form of the
+non-parametric nonlinearity in an LNP model. We illustrate these methods with
+simulations and data from primate visual cortex.

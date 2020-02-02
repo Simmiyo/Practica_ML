@@ -1,0 +1,18 @@
+Recurrent DNNs and its Ensembles on the TIMIT Phone Recognition Task
+In this paper, we have investigated recurrent deep neural networks (DNNs) in
+combination with regularization techniques as dropout, zoneout, and
+regularization post-layer. As a benchmark, we chose the TIMIT phone recognition
+task due to its popularity and broad availability in the community. It also
+simulates a low-resource scenario that is helpful in minor languages. Also, we
+prefer the phone recognition task because it is much more sensitive to an
+acoustic model quality than a large vocabulary continuous speech recognition
+task. In recent years, recurrent DNNs pushed the error rates in automatic
+speech recognition down. But, there was no clear winner in proposed
+architectures. The dropout was used as the regularization technique in most
+cases, but combination with other regularization techniques together with model
+ensembles was omitted. However, just an ensemble of recurrent DNNs performed
+best and achieved an average phone error rate from 10 experiments 14.84 %
+(minimum 14.69 %) on core test set that is slightly lower then the
+best-published PER to date, according to our knowledge. Finally, in contrast of
+the most papers, we published the open-source scripts to easily replicate the
+results and to help continue the development.

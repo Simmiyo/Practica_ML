@@ -1,0 +1,26 @@
+A Unifying Framework for the Identification of Motor Primitives
+A long-standing hypothesis in neuroscience is that the central nervous system
+accomplishes complex motor behaviors through the combination of a small number
+of motor primitives. Many studies in the last couples of decades have
+identified motor primitives at the kinematic, kinetic, and electromyographic
+level, thus supporting modularity at different levels of organization in the
+motor system. However, these studies relied on heterogeneous definitions of
+motor primitives and on different algorithms for their identification. Standard
+unsupervised learning algorithms such as principal component analysis,
+independent component analysis, and non-negative matrix factorization, or more
+advanced techniques involving the estimation of temporal delays of the relevant
+mixture components have been applied. This plurality of algorithms has made
+difficult to compare and interpret results obtained across different studies.
+Moreover, how the different definitions of motor primitives relate to each
+other has never been examined systematically. Here we propose a comprehensive
+framework for the definition of different types of motor primitives and a
+single algorithm for their identification. By embedding smoothness priors and
+specific constraints in the underlying generative model, the algorithm can
+identify many different types of motor primitives. We assessed the
+identification performance of the algorithm both on simulated data sets, for
+which the properties of the primitives and of the corresponding combination
+parameters were known, and on experimental electromyographic and kinematic data
+sets, collected from human subjects accomplishing goal-oriented and rhythmic
+motor tasks. The identification accuracy of the new algorithm was typically
+equal or better than the accuracy of other unsupervised learning algorithms
+used previously for the identification of the same types of primitives.

@@ -1,0 +1,21 @@
+Hate Speech Detection: A Solved Problem? The Challenging Case of Long
+  Tail on Twitter
+In recent years, the increasing propagation of hate speech on social media
+and the urgent need for effective counter-measures have drawn significant
+investment from governments, companies, and researchers. A large number of
+methods have been developed for automated hate speech detection online. This
+aims to classify textual content into non-hate or hate speech, in which case
+the method may also identify the targeting characteristics (i.e., types of
+hate, such as race, and religion) in the hate speech. However, we notice
+significant difference between the performance of the two (i.e., non-hate v.s.
+hate). In this work, we argue for a focus on the latter problem for practical
+reasons. We show that it is a much more challenging task, as our analysis of
+the language in the typical datasets shows that hate speech lacks unique,
+discriminative features and therefore is found in the 'long tail' in a dataset
+that is difficult to discover. We then propose Deep Neural Network structures
+serving as feature extractors that are particularly effective for capturing the
+semantics of hate speech. Our methods are evaluated on the largest collection
+of hate speech datasets based on Twitter, and are shown to be able to
+outperform the best performing method by up to 5 percentage points in
+macro-average F1, or 8 percentage points in the more challenging case of
+identifying hateful content.

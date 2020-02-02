@@ -1,0 +1,22 @@
+Crude EEG parameter provides sleep medicine with well-defined continuous
+  hypnograms
+To evaluate EEG data, one can count local maxima and minima on a fine scale,
+in a sliding window analysis. This straightforward calculation, which
+simplifies and improves previous work on permutation entropy, directly defines
+a good proxy for brain activity in an EEG channel during an epoch of 30
+seconds. Different channels and persons can be compared when they are measured
+with the same device and prefiltering options. This could lead to a rigorously
+defined and suitably standardized biomarker of cortex activity, like blood
+pressure or laboratory values. Applied to sleep EEG, the algorithm yields
+hypnograms with continuous scale which show amazing coincidence with sleep
+stage annotation by trained experts. Although produced by a crude method,
+continuous hypnograms provide a lot of details. For example, sleep depth
+usually decreases from evening to morning even within the same annotated sleep
+stage, except for REM phases where mean sleep depth is rather constant, but
+different in frontal and parietal channels. The diagnostic potential of the
+method is demonstrated with two hypnograms of narcoleptic patients. In all 10
+subjects, infra-slow oscillations of activity with a wavelength between 30s and
+two minutes were clearly seen, particularly strong at the onset of sleep and in
+S2 phases. The suggested method needs to be checked and improved. In its
+present form it seems already an appropriate tool for screening long-term EEG
+data.

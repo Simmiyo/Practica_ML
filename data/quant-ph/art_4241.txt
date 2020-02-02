@@ -1,0 +1,16 @@
+Quantum Digital Signatures
+We present a quantum digital signature scheme whose security is based on
+fundamental principles of quantum physics. It allows a sender (Alice) to sign a
+message in such a way that the signature can be validated by a number of
+different people, and all will agree either that the message came from Alice or
+that it has been tampered with. To accomplish this task, each recipient of the
+message must have a copy of Alice's "public key," which is a set of quantum
+states whose exact identity is known only to Alice. Quantum public keys are
+more difficult to deal with than classical public keys: for instance, only a
+limited number of copies can be in circulation, or the scheme becomes insecure.
+However, in exchange for this price, we achieve unconditionally secure digital
+signatures. Sending an m-bit message uses up O(m) quantum bits for each
+recipient of the public key. We briefly discuss how to securely distribute
+quantum public keys, and show the signature scheme is absolutely secure using
+one method of key distribution. The protocol provides a model for importing the
+ideas of classical public key cryptography into the quantum world.

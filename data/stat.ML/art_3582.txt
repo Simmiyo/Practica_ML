@@ -1,0 +1,17 @@
+VB calibration to improve the interface between phone recognizer and
+  i-vector extractor
+The EM training algorithm of the classical i-vector extractor is often
+incorrectly described as a maximum-likelihood method. The i-vector model is
+however intractable: the likelihood itself and the hidden-variable posteriors
+needed for the EM algorithm cannot be computed in closed form. We show here
+that the classical i-vector extractor recipe is actually a mean-field
+variational Bayes (VB) recipe.
+  This theoretical VB interpretation turns out to be of further use, because it
+also offers an interpretation of the newer phonetic i-vector extractor recipe,
+thereby unifying the two flavours of extractor.
+  More importantly, the VB interpretation is also practically useful: it
+suggests ways of modifying existing i-vector extractors to make them more
+accurate. In particular, in existing methods, the approximate VB posterior for
+the GMM states is fixed, while only the parameters of the generative model are
+adapted. Here we explore the possibility of also mildly adjusting (calibrating)
+those posteriors, so that they better fit the generative model.

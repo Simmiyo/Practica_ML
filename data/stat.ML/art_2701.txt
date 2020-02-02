@@ -1,0 +1,16 @@
+Semi-Supervised Sparse Coding
+Sparse coding approximates the data sample as a sparse linear combination of
+some basic codewords and uses the sparse codes as new presentations. In this
+paper, we investigate learning discriminative sparse codes by sparse coding in
+a semi-supervised manner, where only a few training samples are labeled. By
+using the manifold structure spanned by the data set of both labeled and
+unlabeled samples and the constraints provided by the labels of the labeled
+samples, we learn the variable class labels for all the samples. Furthermore,
+to improve the discriminative ability of the learned sparse codes, we assume
+that the class labels could be predicted from the sparse codes directly using a
+linear classifier. By solving the codebook, sparse codes, class labels and
+classifier parameters simultaneously in a unified objective function, we
+develop a semi-supervised sparse coding algorithm. Experiments on two
+real-world pattern recognition problems demonstrate the advantage of the
+proposed methods over supervised sparse coding methods on partially labeled
+data sets.

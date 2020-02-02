@@ -1,0 +1,15 @@
+A Mathematical Formalization of Hierarchical Temporal Memory's Spatial
+  Pooler
+Hierarchical temporal memory (HTM) is an emerging machine learning algorithm,
+with the potential to provide a means to perform predictions on spatiotemporal
+data. The algorithm, inspired by the neocortex, currently does not have a
+comprehensive mathematical framework. This work brings together all aspects of
+the spatial pooler (SP), a critical learning component in HTM, under a single
+unifying framework. The primary learning mechanism is explored, where a maximum
+likelihood estimator for determining the degree of permanence update is
+proposed. The boosting mechanisms are studied and found to be only relevant
+during the initial few iterations of the network. Observations are made
+relating HTM to well-known algorithms such as competitive learning and
+attribute bagging. Methods are provided for using the SP for classification as
+well as dimensionality reduction. Empirical evidence verifies that given the
+proper parameterizations, the SP may be used for feature learning.

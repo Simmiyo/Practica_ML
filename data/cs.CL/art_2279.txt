@@ -1,0 +1,13 @@
+Automatic Prediction of Discourse Connectives
+Accurate prediction of suitable discourse connectives (however, furthermore,
+etc.) is a key component of any system aimed at building coherent and fluent
+discourses from shorter sentences and passages. As an example, a dialog system
+might assemble a long and informative answer by sampling passages extracted
+from different documents retrieved from the Web. We formulate the task of
+discourse connective prediction and release a dataset of 2.9M sentence pairs
+separated by discourse connectives for this task. Then, we evaluate the
+hardness of the task for human raters, apply a recently proposed decomposable
+attention (DA) model to this task and observe that the automatic predictor has
+a higher F1 than human raters (32 vs. 30). Nevertheless, under specific
+conditions the raters still outperform the DA model, suggesting that there is
+headroom for future improvements.

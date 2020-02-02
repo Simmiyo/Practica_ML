@@ -1,0 +1,12 @@
+Efficient KLMS and KRLS Algorithms: A Random Fourier Feature Perspective
+We present a new framework for online Least Squares algorithms for nonlinear
+modeling in RKH spaces (RKHS). Instead of implicitly mapping the data to a RKHS
+(e.g., kernel trick), we map the data to a finite dimensional Euclidean space,
+using random features of the kernel's Fourier transform. The advantage is that,
+the inner product of the mapped data approximates the kernel function. The
+resulting "linear" algorithm does not require any form of sparsification,
+since, in contrast to all existing algorithms, the solution's size remains
+fixed and does not increase with the iteration steps. As a result, the obtained
+algorithms are computationally significantly more efficient compared to
+previously derived variants, while, at the same time, they converge at similar
+speeds and to similar error floors.

@@ -1,0 +1,21 @@
+Hybrid Clustering based on Content and Connection Structure using Joint
+  Nonnegative Matrix Factorization
+We present a hybrid method for latent information discovery on the data sets
+containing both text content and connection structure based on constrained low
+rank approximation. The new method jointly optimizes the Nonnegative Matrix
+Factorization (NMF) objective function for text clustering and the Symmetric
+NMF (SymNMF) objective function for graph clustering. We propose an effective
+algorithm for the joint NMF objective function, based on a block coordinate
+descent (BCD) framework. The proposed hybrid method discovers content
+associations via latent connections found using SymNMF. The method can also be
+applied with a natural conversion of the problem when a hypergraph formulation
+is used or the content is associated with hypergraph edges.
+  Experimental results show that by simultaneously utilizing both content and
+connection structure, our hybrid method produces higher quality clustering
+results compared to the other NMF clustering methods that uses content alone
+(standard NMF) or connection structure alone (SymNMF). We also present some
+interesting applications to several types of real world data such as citation
+recommendations of papers. The hybrid method proposed in this paper can also be
+applied to general data expressed with both feature space vectors and pairwise
+similarities and can be extended to the case with multiple feature spaces or
+multiple similarity measures.

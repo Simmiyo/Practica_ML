@@ -1,0 +1,15 @@
+Coherence Functions with Applications in Large-Margin Classification
+  Methods
+Support vector machines (SVMs) naturally embody sparseness due to their use
+of hinge loss functions. However, SVMs can not directly estimate conditional
+class probabilities. In this paper we propose and study a family of coherence
+functions, which are convex and differentiable, as surrogates of the hinge
+function. The coherence function is derived by using the maximum-entropy
+principle and is characterized by a temperature parameter. It bridges the hinge
+function and the logit function in logistic regression. The limit of the
+coherence function at zero temperature corresponds to the hinge function, and
+the limit of the minimizer of its expected error is the minimizer of the
+expected error of the hinge loss. We refer to the use of the coherence function
+in large-margin classification as C-learning, and we present efficient
+coordinate descent algorithms for the training of regularized ${\cal
+C}$-learning models.

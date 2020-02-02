@@ -1,0 +1,28 @@
+Distributed simulation of polychronous and plastic spiking neural
+  networks: strong and weak scaling of a representative mini-application
+  benchmark executed on a small-scale commodity cluster
+We introduce a natively distributed mini-application benchmark representative
+of plastic spiking neural network simulators. It can be used to measure
+performances of existing computing platforms and to drive the development of
+future parallel/distributed computing systems dedicated to the simulation of
+plastic spiking networks. The mini-application is designed to generate spiking
+behaviors and synaptic connectivity that do not change when the number of
+hardware processing nodes is varied, simplifying the quantitative study of
+scalability on commodity and custom architectures. Here, we present the strong
+and weak scaling and the profiling of the computational/communication
+components of the DPSNN-STDP benchmark (Distributed Simulation of Polychronous
+Spiking Neural Network with synaptic Spike-Timing Dependent Plasticity). In
+this first test, we used the benchmark to exercise a small-scale cluster of
+commodity processors (varying the number of used physical cores from 1 to 128).
+The cluster was interconnected through a commodity network. Bidimensional grids
+of columns composed of Izhikevich neurons projected synapses locally and toward
+first, second and third neighboring columns. The size of the simulated network
+varied from 6.6 Giga synapses down to 200 K synapses. The code demonstrated to
+be fast and scalable: 10 wall clock seconds were required to simulate one
+second of activity and plasticity (per Hertz of average firing rate) of a
+network composed by 3.2 G synapses running on 128 hardware cores clocked @ 2.4
+GHz. The mini-application has been designed to be easily interfaced with
+standard and custom software and hardware communication interfaces. It has been
+designed from its foundation to be natively distributed and parallel, and
+should not pose major obstacles against distribution and parallelization on
+several platforms.

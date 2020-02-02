@@ -1,0 +1,15 @@
+Empirical Gaussian priors for cross-lingual transfer learning
+Sequence model learning algorithms typically maximize log-likelihood minus
+the norm of the model (or minimize Hamming loss + norm). In cross-lingual
+part-of-speech (POS) tagging, our target language training data consists of
+sequences of sentences with word-by-word labels projected from translations in
+$k$ languages for which we have labeled data, via word alignments. Our training
+data is therefore very noisy, and if Rademacher complexity is high, learning
+algorithms are prone to overfit. Norm-based regularization assumes a constant
+width and zero mean prior. We instead propose to use the $k$ source language
+models to estimate the parameters of a Gaussian prior for learning new POS
+taggers. This leads to significantly better performance in multi-source
+transfer set-ups. We also present a drop-out version that injects (empirical)
+Gaussian noise during online learning. Finally, we note that using empirical
+Gaussian priors leads to much lower Rademacher complexity, and is superior to
+optimally weighted model interpolation.

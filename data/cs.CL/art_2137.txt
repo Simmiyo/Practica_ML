@@ -1,0 +1,9 @@
+Byte-based Language Identification with Deep Convolutional Networks
+We report on our system for the shared task on discriminating between similar
+languages (DSL 2016). The system uses only byte representations in a deep
+residual network (ResNet). The system, named ResIdent, is trained only on the
+data released with the task (closed training). We obtain 84.88% accuracy on
+subtask A, 68.80% accuracy on subtask B1, and 69.80% accuracy on subtask B2. A
+large difference in accuracy on development data can be observed with
+relatively minor changes in our network's architecture and hyperparameters. We
+therefore expect fine-tuning of these parameters to yield higher accuracies.

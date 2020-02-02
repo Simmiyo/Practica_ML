@@ -1,0 +1,13 @@
+A GAMP Based Low Complexity Sparse Bayesian Learning Algorithm
+In this paper, we present an algorithm for the sparse signal recovery problem
+that incorporates damped Gaussian generalized approximate message passing
+(GGAMP) into Expectation-Maximization (EM)-based sparse Bayesian learning
+(SBL). In particular, GGAMP is used to implement the E-step in SBL in place of
+matrix inversion, leveraging the fact that GGAMP is guaranteed to converge with
+appropriate damping. The resulting GGAMP-SBL algorithm is much more robust to
+arbitrary measurement matrix $\boldsymbol{A}$ than the standard damped GAMP
+algorithm while being much lower complexity than the standard SBL algorithm. We
+then extend the approach from the single measurement vector (SMV) case to the
+temporally correlated multiple measurement vector (MMV) case, leading to the
+GGAMP-TSBL algorithm. We verify the robustness and computational advantages of
+the proposed algorithms through numerical experiments.

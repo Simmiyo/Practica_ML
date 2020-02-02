@@ -1,0 +1,27 @@
+A Direct Estimation of High Dimensional Stationary Vector
+  Autoregressions
+The vector autoregressive (VAR) model is a powerful tool in modeling complex
+time series and has been exploited in many fields. However, fitting high
+dimensional VAR model poses some unique challenges: On one hand, the
+dimensionality, caused by modeling a large number of time series and higher
+order autoregressive processes, is usually much higher than the time series
+length; On the other hand, the temporal dependence structure in the VAR model
+gives rise to extra theoretical challenges. In high dimensions, one popular
+approach is to assume the transition matrix is sparse and fit the VAR model
+using the "least squares" method with a lasso-type penalty. In this manuscript,
+we propose an alternative way in estimating the VAR model. The main idea is,
+via exploiting the temporal dependence structure, to formulate the estimating
+problem into a linear program. There is instant advantage for the proposed
+approach over the lasso-type estimators: The estimation equation can be
+decomposed into multiple sub-equations and accordingly can be efficiently
+solved in a parallel fashion. In addition, our method brings new theoretical
+insights into the VAR model analysis. So far the theoretical results developed
+in high dimensions (e.g., Song and Bickel (2011) and Kock and Callot (2012))
+mainly pose assumptions on the design matrix of the formulated regression
+problems. Such conditions are indirect about the transition matrices and not
+transparent. In contrast, our results show that the operator norm of the
+transition matrices plays an important role in estimation accuracy. We provide
+explicit rates of convergence for both estimation and prediction. In addition,
+we provide thorough experiments on both synthetic and real-world equity data to
+show that there are empirical advantages of our method over the lasso-type
+estimators in both parameter estimation and forecasting.

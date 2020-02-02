@@ -1,0 +1,20 @@
+A theoretical basis for efficient computations with noisy spiking
+  neurons
+Network of neurons in the brain apply - unlike processors in our current
+generation of computer hardware - an event-based processing strategy, where
+short pulses (spikes) are emitted sparsely by neurons to signal the occurrence
+of an event at a particular point in time. Such spike-based computations
+promise to be substantially more power-efficient than traditional clocked
+processing schemes. However it turned out to be surprisingly difficult to
+design networks of spiking neurons that are able to carry out demanding
+computations. We present here a new theoretical framework for organizing
+computations of networks of spiking neurons. In particular, we show that a
+suitable design enables them to solve hard constraint satisfaction problems
+from the domains of planning - optimization and verification - logical
+inference. The underlying design principles employ noise as a computational
+resource. Nevertheless the timing of spikes (rather than just spike rates)
+plays an essential role in the resulting computations. Furthermore, one can
+demonstrate for the Traveling Salesman Problem a surprising computational
+advantage of networks of spiking neurons compared with traditional artificial
+neural networks and Gibbs sampling. The identification of such advantage has
+been a well-known open problem.

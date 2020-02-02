@@ -1,0 +1,18 @@
+Estimation of neuronal interaction graph from spike train data
+One of the main current issues in Neurobiology concerns the understanding of
+interrelated spiking activity among multineuronal ensembles and differences
+between stimulus-driven and spontaneous activity in neurophysiological
+experiments. Multi electrode array recordings that are now commonly used
+monitor neuronal activity in the form of spike trains from many well identified
+neurons. A basic question when analyzing such data is the identification of the
+directed graph describing "synaptic coupling" between neurons. In this article
+we deal with this matter working with a high quality multielectrode array
+recording dataset (Pouzat et al., 2015) from the first olfactory relay of the
+locust, $Schistocerca$ $americana$. From a mathematical point of view this
+paper presents two novelties. First we propose a procedure allowing to deal
+with the small sample sizes met in actual datasets. Moreover we address the
+sensitive case of partially observed networks. Our starting point is the
+procedure introduced in Duarte et al. (2016). We evaluate the performance of
+both original and improved procedures through simulation studies, which are
+also used for parameter tuning and for exploring the effect of recording only a
+small subset of the neurons of a network.

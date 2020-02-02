@@ -1,0 +1,18 @@
+Annealing Gaussian into ReLU: a New Sampling Strategy for Leaky-ReLU RBM
+Restricted Boltzmann Machine (RBM) is a bipartite graphical model that is
+used as the building block in energy-based deep generative models. Due to
+numerical stability and quantifiability of the likelihood, RBM is commonly used
+with Bernoulli units. Here, we consider an alternative member of exponential
+family RBM with leaky rectified linear units -- called leaky RBM. We first
+study the joint and marginal distributions of leaky RBM under different
+leakiness, which provides us important insights by connecting the leaky RBM
+model and truncated Gaussian distributions. The connection leads us to a simple
+yet efficient method for sampling from this model, where the basic idea is to
+anneal the leakiness rather than the energy; -- i.e., start from a fully
+Gaussian/Linear unit and gradually decrease the leakiness over iterations. This
+serves as an alternative to the annealing of the temperature parameter and
+enables numerical estimation of the likelihood that are more efficient and more
+accurate than the commonly used annealed importance sampling (AIS). We further
+demonstrate that the proposed sampling algorithm enjoys faster mixing property
+than contrastive divergence algorithm, which benefits the training without any
+additional computational cost.

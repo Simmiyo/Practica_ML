@@ -1,0 +1,20 @@
+Nonparametric Bayesian Mixed-effect Model: a Sparse Gaussian Process
+  Approach
+Multi-task learning models using Gaussian processes (GP) have been developed
+and successfully applied in various applications. The main difficulty with this
+approach is the computational cost of inference using the union of examples
+from all tasks. Therefore sparse solutions, that avoid using the entire data
+directly and instead use a set of informative "representatives" are desirable.
+The paper investigates this problem for the grouped mixed-effect GP model where
+each individual response is given by a fixed-effect, taken from one of a set of
+unknown groups, plus a random individual effect function that captures
+variations among individuals. Such models have been widely used in previous
+work but no sparse solutions have been developed. The paper presents the first
+sparse solution for such problems, showing how the sparse approximation can be
+obtained by maximizing a variational lower bound on the marginal likelihood,
+generalizing ideas from single-task Gaussian processes to handle the
+mixed-effect model as well as grouping. Experiments using artificial and real
+data validate the approach showing that it can recover the performance of
+inference with the full sample, that it outperforms baseline methods, and that
+it outperforms state of the art sparse solutions for other multi-task GP
+formulations.

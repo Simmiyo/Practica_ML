@@ -1,0 +1,11 @@
+Negative Tree Reweighted Belief Propagation
+We introduce a new class of lower bounds on the log partition function of a
+Markov random field which makes use of a reversed Jensen's inequality. In
+particular, our method approximates the intractable distribution using a linear
+combination of spanning trees with negative weights. This technique is a
+lower-bound counterpart to the tree-reweighted belief propagation algorithm,
+which uses a convex combination of spanning trees with positive weights to
+provide corresponding upper bounds. We develop algorithms to optimize and
+tighten the lower bounds over the non-convex set of valid parameter values. Our
+algorithm generalizes mean field approaches (including naive and structured
+mean field approximations), which it includes as a limiting case.

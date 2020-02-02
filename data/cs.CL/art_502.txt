@@ -1,0 +1,14 @@
+Wikipedia Arborification and Stratified Explicit Semantic Analysis
+[This is the translation of paper "Arborification de Wikip\'edia et analyse
+s\'emantique explicite stratifi\'ee" submitted to TALN 2012.]
+  We present an extension of the Explicit Semantic Analysis method by
+Gabrilovich and Markovitch. Using their semantic relatedness measure, we weight
+the Wikipedia categories graph. Then, we extract a minimal spanning tree, using
+Chu-Liu & Edmonds' algorithm. We define a notion of stratified tfidf where the
+stratas, for a given Wikipedia page and a given term, are the classical tfidf
+and categorical tfidfs of the term in the ancestor categories of the page
+(ancestors in the sense of the minimal spanning tree). Our method is based on
+this stratified tfidf, which adds extra weight to terms that "survive" when
+climbing up the category tree. We evaluate our method by a text classification
+on the WikiNews corpus: it increases precision by 18%. Finally, we provide
+hints for future research

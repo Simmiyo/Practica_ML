@@ -1,0 +1,21 @@
+Parallel Bayesian Global Optimization of Expensive Functions
+We consider parallel global optimization of derivative-free
+expensive-to-evaluate functions, and propose an efficient method based on
+stochastic approximation for implementing a conceptual Bayesian optimization
+algorithm proposed by Ginsbourger et al. (2007). At the heart of this algorithm
+is maximizing the information criterion called the "multi-points expected
+improvement'', or the q-EI. To accomplish this, we use infinitessimal
+perturbation analysis (IPA) to construct a stochastic gradient estimator and
+show that this estimator is unbiased. We also show that the stochastic gradient
+ascent algorithm using the constructed gradient estimator converges to a
+stationary point of the q-EI surface, and therefore, as the number of multiple
+starts of the gradient ascent algorithm and the number of steps for each start
+grow large, the one-step Bayes optimal set of points is recovered. We show in
+numerical experiments that our method for maximizing the q-EI is faster than
+methods based on closed-form evaluation using high-dimensional integration,
+when considering many parallel function evaluations, and is comparable in speed
+when considering few. We also show that the resulting one-step Bayes optimal
+algorithm for parallel global optimization finds high-quality solutions with
+fewer evaluations than a heuristic based on approximately maximizing the q-EI.
+A high-quality open source implementation of this algorithm is available in the
+open source Metrics Optimization Engine (MOE).

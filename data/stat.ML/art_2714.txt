@@ -1,0 +1,25 @@
+An Extensive Evaluation of Filtering Misclassified Instances in
+  Supervised Classification Tasks
+Removing or filtering outliers and mislabeled instances prior to training a
+learning algorithm has been shown to increase classification accuracy. A
+popular approach for handling outliers and mislabeled instances is to remove
+any instance that is misclassified by a learning algorithm. However, an
+examination of which learning algorithms to use for filtering as well as their
+effects on multiple learning algorithms over a large set of data sets has not
+been done. Previous work has generally been limited due to the large
+computational requirements to run such an experiment, and, thus, the
+examination has generally been limited to learning algorithms that are
+computationally inexpensive and using a small number of data sets. In this
+paper, we examine 9 learning algorithms as filtering algorithms as well as
+examining the effects of filtering in the 9 chosen learning algorithms on a set
+of 54 data sets. In addition to using each learning algorithm individually as a
+filter, we also use the set of learning algorithms as an ensemble filter and
+use an adaptive algorithm that selects a subset of the learning algorithms for
+filtering for a specific task and learning algorithm. We find that for most
+cases, using an ensemble of learning algorithms for filtering produces the
+greatest increase in classification accuracy. We also compare filtering with a
+majority voting ensemble. The voting ensemble significantly outperforms
+filtering unless there are high amounts of noise present in the data set.
+Additionally, we find that a majority voting ensemble is robust to noise as
+filtering with a voting ensemble does not increase the classification accuracy
+of the voting ensemble.

@@ -1,0 +1,19 @@
+Free multiflows in bidirected and skew-symmetric graphs
+A graph (digraph) $G=(V,E)$ with a set $T\subseteq V$ of terminals is called
+inner Eulerian if each nonterminal node $v$ has even degree (resp. the numbers
+of edges entering and leaving $v$ are equal). Cherkassky and Lov\'asz showed
+that the maximum number of pairwise edge-disjoint $T$-paths in an inner
+Eulerian graph $G$ is equal to $\frac12\sum_{s\in T} \lambda(s)$, where
+$\lambda(s)$ is the minimum number of edges whose removal disconnects $s$ and
+$T-\{s\}$. A similar relation for inner Eulerian digraphs was established by
+Lomonosov. Considering undirected and directed networks with ``inner Eulerian''
+edge capacities, Ibaraki, Karzanov, and Nagamochi showed that the problem of
+finding a maximum integer multiflow (where partial flows connect arbitrary
+pairs of distinct terminals) is reduced to $O(\log T)$ maximum flow
+computations and to a number of flow decompositions. In this paper we extend
+the above max-min relation to inner Eulerian bidirected and skew-symmetric
+graphs and develop an algorithm of complexity $O(VE\log T\log(2+V^2/E))$ for
+the corresponding capacitated cases. In particular, this improves the known
+bound for digraphs. Our algorithm uses a fast procedure for decomposing a flow
+with O(1) sources and sinks in a digraph into the sum of one-source-one-sink
+flows.

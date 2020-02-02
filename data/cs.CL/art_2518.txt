@@ -1,0 +1,12 @@
+Redefining Context Windows for Word Embedding Models: An Experimental
+  Study
+Distributional semantic models learn vector representations of words through
+the contexts they occur in. Although the choice of context (which often takes
+the form of a sliding window) has a direct influence on the resulting
+embeddings, the exact role of this model component is still not fully
+understood. This paper presents a systematic analysis of context windows based
+on a set of four distinct hyper-parameters. We train continuous Skip-Gram
+models on two English-language corpora for various combinations of these
+hyper-parameters, and evaluate them on both lexical similarity and analogy
+tasks. Notable experimental results are the positive impact of cross-sentential
+contexts and the surprisingly good performance of right-context windows.

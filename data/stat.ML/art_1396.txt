@@ -1,0 +1,13 @@
+Sparse Regularization in Marketing and Economics
+Sparse alpha-norm regularization has many data-rich applications in Marketing
+and Economics. Alpha-norm, in contrast to lasso and ridge regularization, jumps
+to a sparse solution. This feature is attractive for ultra high-dimensional
+problems that occur in demand estimation and forecasting. The alpha-norm
+objective is nonconvex and requires coordinate descent and proximal operators
+to find the sparse solution. We study a typical marketing demand forecasting
+problem, grocery store sales for salty snacks, that has many dummy variables as
+controls. The key predictors of demand include price, equivalized volume,
+promotion, flavor, scent, and brand effects. By comparing with many commonly
+used machine learning methods, alpha-norm regularization achieves its goal of
+providing accurate out-of-sample estimates for the promotion lift effects.
+Finally, we conclude with directions for future research.

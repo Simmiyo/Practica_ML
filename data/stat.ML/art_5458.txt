@@ -1,0 +1,14 @@
+Factoring Exogenous State for Model-Free Monte Carlo
+Policy analysts wish to visualize a range of policies for large
+simulator-defined Markov Decision Processes (MDPs). One visualization approach
+is to invoke the simulator to generate on-policy trajectories and then
+visualize those trajectories. When the simulator is expensive, this is not
+practical, and some method is required for generating trajectories for new
+policies without invoking the simulator. The method of Model-Free Monte Carlo
+(MFMC) can do this by stitching together state transitions for a new policy
+based on previously-sampled trajectories from other policies. This "off-policy
+Monte Carlo simulation" method works well when the state space has low
+dimension but fails as the dimension grows. This paper describes a method for
+factoring out some of the state and action variables so that MFMC can work in
+high-dimensional MDPs. The new method, MFMCi, is evaluated on a very
+challenging wildfire management MDP.

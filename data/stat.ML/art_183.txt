@@ -1,0 +1,12 @@
+Gaussian Probabilities and Expectation Propagation
+While Gaussian probability densities are omnipresent in applied mathematics,
+Gaussian cumulative probabilities are hard to calculate in any but the
+univariate case. We study the utility of Expectation Propagation (EP) as an
+approximate integration method for this problem. For rectangular integration
+regions, the approximation is highly accurate. We also extend the derivations
+to the more general case of polyhedral integration regions. However, we find
+that in this polyhedral case, EP's answer, though often accurate, can be almost
+arbitrarily wrong. We consider these unexpected results empirically and
+theoretically, both for the problem of Gaussian probabilities and for EP more
+generally. These results elucidate an interesting and non-obvious feature of EP
+not yet studied in detail.

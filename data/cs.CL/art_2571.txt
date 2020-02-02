@@ -1,0 +1,21 @@
+How compatible are our discourse annotations? Insights from mapping
+  RST-DT and PDTB annotations
+Discourse-annotated corpora are an important resource for the community, but
+they are often annotated according to different frameworks. This makes
+comparison of the annotations difficult, thereby also preventing researchers
+from searching the corpora in a unified way, or using all annotated data
+jointly to train computational systems. Several theoretical proposals have
+recently been made for mapping the relational labels of different frameworks to
+each other, but these proposals have so far not been validated against existing
+annotations. The two largest discourse relation annotated resources, the Penn
+Discourse Treebank and the Rhetorical Structure Theory Discourse Treebank, have
+however been annotated on the same text, allowing for a direct comparison of
+the annotation layers. We propose a method for automatically aligning the
+discourse segments, and then evaluate existing mapping proposals by comparing
+the empirically observed against the proposed mappings. Our analysis highlights
+the influence of segmentation on subsequent discourse relation labeling, and
+shows that while agreement between frameworks is reasonable for explicit
+relations, agreement on implicit relations is low. We identify several sources
+of systematic discrepancies between the two annotation schemes and discuss
+consequences of these discrepancies for future annotation and for the training
+of automatic discourse relation labellers.

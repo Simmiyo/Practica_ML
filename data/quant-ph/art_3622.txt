@@ -1,0 +1,16 @@
+Quantum versus Classical Learnability
+We consider quantum versions of two well-studied classical learning models:
+Angluin's model of exact learning from membership queries and Valiant's
+Probably Approximately Correct (PAC) model of learning from random examples. We
+give positive and negative results for quantum versus classical learnability.
+For each of the two learning models described above, we show that any concept
+class is information-theoretically learnable from polynomially many quantum
+examples if and only if it is information-theoretically learnable from
+polynomially many classical examples. In contrast to this information-theoretic
+equivalence betwen quantum and classical learnability, though, we observe that
+a separation does exist between efficient quantum and classical learnability.
+For both the model of exact learning from membership queries and the PAC model,
+we show that under a widely held computational hardness assumption for
+classical computation (the intractability of factoring), there is a concept
+class which is polynomial-time learnable in the quantum version but not in the
+classical version of the model.

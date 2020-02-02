@@ -1,0 +1,15 @@
+Conditional Density Estimation with Bayesian Normalising Flows
+Modeling complex conditional distributions is critical in a variety of
+settings. Despite a long tradition of research into conditional density
+estimation, current methods employ either simple parametric forms or are
+difficult to learn in practice. This paper employs normalising flows as a
+flexible likelihood model and presents an efficient method for fitting them to
+complex densities. These estimators must trade-off between modeling
+distributional complexity, functional complexity and heteroscedasticity without
+overfitting. We recognize these trade-offs as modeling decisions and develop a
+Bayesian framework for placing priors over these conditional density estimators
+using variational Bayesian neural networks. We evaluate this method on several
+small benchmark regression datasets, on some of which it obtains state of the
+art performance. Finally, we apply the method to two spatial density modeling
+tasks with over 1 million datapoints using the New York City yellow taxi
+dataset and the Chicago crime dataset.

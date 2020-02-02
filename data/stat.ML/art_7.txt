@@ -1,0 +1,23 @@
+Bayesian Classification and Regression with High Dimensional Features
+This thesis responds to the challenges of using a large number, such as
+thousands, of features in regression and classification problems.
+  There are two situations where such high dimensional features arise. One is
+when high dimensional measurements are available, for example, gene expression
+data produced by microarray techniques. For computational or other reasons,
+people may select only a small subset of features when modelling such data, by
+looking at how relevant the features are to predicting the response, based on
+some measure such as correlation with the response in the training data.
+Although it is used very commonly, this procedure will make the response appear
+more predictable than it actually is. In Chapter 2, we propose a Bayesian
+method to avoid this selection bias, with application to naive Bayes models and
+mixture models.
+  High dimensional features also arise when we consider high-order
+interactions. The number of parameters will increase exponentially with the
+order considered. In Chapter 3, we propose a method for compressing a group of
+parameters into a single one, by exploiting the fact that many predictor
+variables derived from high-order interactions have the same values for all the
+training cases. The number of compressed parameters may have converged before
+considering the highest possible order. We apply this compression method to
+logistic sequence prediction models and logistic classification models.
+  We use both simulated data and real data to test our methods in both
+chapters.

@@ -1,0 +1,20 @@
+Concurrent Quantum Computation
+A quantum computer is a multi-particle interferometer that comprises beam
+splitters at both ends and arms, where the n two-level particles undergo the
+interactions among them. The arms are designed so that relevant functions
+required to produce a computational result is stored in the phase shifts of the
+2^n arms. They can be detected by interferometry that allows us to utilize
+quantum parallelism. Quantum algorithms are accountable for what
+interferometers to be constructed to compute particular problems. A standard
+formalism for constructing the arms has been developed by the extension of
+classical reversible gate arrays. By its nature of sequential applications of
+logic operations, the required number of gates increases exponentially as the
+problem size grows. This may cause a crucial obstacle to perform a quantum
+computation within a limited decoherence time. We propose a direct and
+concurrent construction of the interferometer arms by one-time evolution of a
+physical system with arbitrary multi-particle interactions. It is inherently
+quantum mechanical and has no classical analogue. Encoding the functions used
+in Shor's algorithm for prime factoring, Grover's algorithm and Deutsch-Jozsa
+algorithm requires only one-time evolution of such a system regardless of the
+problem size n as opposed to its standard sequential counterpart that takes
+O(n^3), O(n) and O(n2^n).

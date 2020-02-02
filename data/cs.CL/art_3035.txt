@@ -1,0 +1,22 @@
+Aspect-Based Relational Sentiment Analysis Using a Stacked Neural
+  Network Architecture
+Sentiment analysis can be regarded as a relation extraction problem in which
+the sentiment of some opinion holder towards a certain aspect of a product,
+theme or event needs to be extracted. We present a novel neural architecture
+for sentiment analysis as a relation extraction problem that addresses this
+problem by dividing it into three subtasks: i) identification of aspect and
+opinion terms, ii) labeling of opinion terms with a sentiment, and iii)
+extraction of relations between opinion terms and aspect terms. For each
+subtask, we propose a neural network based component and combine all of them
+into a complete system for relational sentiment analysis. The component for
+aspect and opinion term extraction is a hybrid architecture consisting of a
+recurrent neural network stacked on top of a convolutional neural network. This
+approach outperforms a standard convolutional deep neural architecture as well
+as a recurrent network architecture and performs competitively compared to
+other methods on two datasets of annotated customer reviews. To extract
+sentiments for individual opinion terms, we propose a recurrent architecture in
+combination with word distance features and achieve promising results,
+outperforming a majority baseline by 18% accuracy and providing the first
+results for the USAGE dataset. Our relation extraction component outperforms
+the current state-of-the-art in aspect-opinion relation extraction by 15%
+F-Measure.

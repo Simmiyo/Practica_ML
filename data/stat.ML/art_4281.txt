@@ -1,0 +1,14 @@
+Provenance and Pseudo-Provenance for Seeded Learning-Based Automated
+  Test Generation
+Many methods for automated software test generation, including some that
+explicitly use machine learning (and some that use ML more broadly conceived)
+derive new tests from existing tests (often referred to as seeds). Often, the
+seed tests from which new tests are derived are manually constructed, or at
+least simpler than the tests that are produced as the final outputs of such
+test generators. We propose annotation of generated tests with a provenance
+(trail) showing how individual generated tests of interest (especially failing
+tests) derive from seed tests, and how the population of generated tests
+relates to the original seed tests. In some cases, post-processing of generated
+tests can invalidate provenance information, in which case we also propose a
+method for attempting to construct "pseudo-provenance" describing how the tests
+could have been (partly) generated from seeds.

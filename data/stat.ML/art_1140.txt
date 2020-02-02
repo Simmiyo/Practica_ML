@@ -1,0 +1,13 @@
+Supervised topic models for clinical interpretability
+Supervised topic models can help clinical researchers find interpretable
+cooccurence patterns in count data that are relevant for diagnostics. However,
+standard formulations of supervised Latent Dirichlet Allocation have two
+problems. First, when documents have many more words than labels, the influence
+of the labels will be negligible. Second, due to conditional independence
+assumptions in the graphical model the impact of supervised labels on the
+learned topic-word probabilities is often minimal, leading to poor predictions
+on heldout data. We investigate penalized optimization methods for training
+sLDA that produce interpretable topic-word parameters and useful heldout
+predictions, using recognition networks to speed-up inference. We report
+preliminary results on synthetic data and on predicting successful
+anti-depressant medication given a patient's diagnostic history.

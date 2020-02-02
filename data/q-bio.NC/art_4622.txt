@@ -1,0 +1,15 @@
+Neural ideals and stimulus space visualization
+A neural code $\mathcal{C}$ is a collection of binary vectors of a given
+length n that record the co-firing patterns of a set of neurons. Our focus is
+on neural codes arising from place cells, neurons that respond to geographic
+stimulus. In this setting, the stimulus space can be visualized as subset of
+$\mathbb{R}^2$ covered by a collection $\mathcal{U}$ of convex sets such that
+the arrangement $\mathcal{U}$ forms an Euler diagram for $\mathcal{C}$. There
+are some methods to determine whether such a convex realization $\mathcal{U}$
+exists; however, these methods do not describe how to draw a realization. In
+this work, we look at the problem of algorithmically drawing Euler diagrams for
+neural codes using two polynomial ideals: the neural ideal, a pseudo-monomial
+ideal; and the neural toric ideal, a binomial ideal. In particular, we study
+how these objects are related to the theory of piercings in information
+visualization, and we show how minimal generating sets of the ideals reveal
+whether or not a code is $0$, $1$, or $2$-inductively pierced.

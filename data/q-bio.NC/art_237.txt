@@ -1,0 +1,14 @@
+Fast, scalable, Bayesian spike identification for multi-electrode arrays
+We present an algorithm to identify individual neural spikes observed on
+high-density multi-electrode arrays (MEAs). Our method can distinguish large
+numbers of distinct neural units, even when spikes overlap, and accounts for
+intrinsic variability of spikes from each unit. As MEAs grow larger, it is
+important to find spike-identification methods that are scalable, that is, the
+computational cost of spike fitting should scale well with the number of units
+observed. Our algorithm accomplishes this goal, and is fast, because it
+exploits the spatial locality of each unit and the basic biophysics of
+extracellular signal propagation. Human intervention is minimized and
+streamlined via a graphical interface. We illustrate our method on data from a
+mammalian retina preparation and document its performance on simulated data
+consisting of spikes added to experimentally measured background noise. The
+algorithm is highly accurate.

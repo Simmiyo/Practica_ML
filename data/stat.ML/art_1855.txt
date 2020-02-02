@@ -1,0 +1,18 @@
+Dynamic trees for streaming and massive data contexts
+Data collection at a massive scale is becoming ubiquitous in a wide variety
+of settings, from vast offline databases to streaming real-time information.
+Learning algorithms deployed in such contexts must rely on single-pass
+inference, where the data history is never revisited. In streaming contexts,
+learning must also be temporally adaptive to remain up-to-date against
+unforeseen changes in the data generating mechanism. Although rapidly growing,
+the online Bayesian inference literature remains challenged by massive data and
+transient, evolving data streams. Non-parametric modelling techniques can prove
+particularly ill-suited, as the complexity of the model is allowed to increase
+with the sample size. In this work, we take steps to overcome these challenges
+by porting standard streaming techniques, like data discarding and
+downweighting, into a fully Bayesian framework via the use of informative
+priors and active learning heuristics. We showcase our methods by augmenting a
+modern non-parametric modelling framework, dynamic trees, and illustrate its
+performance on a number of practical examples. The end product is a powerful
+streaming regression and classification tool, whose performance compares
+favourably to the state-of-the-art.

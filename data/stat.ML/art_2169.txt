@@ -1,0 +1,12 @@
+Obtaining Calibrated Probabilities from Boosting
+Boosted decision trees typically yield good accuracy, precision, and ROC
+area. However, because the outputs from boosting are not well calibrated
+posterior probabilities, boosting yields poor squared error and cross-entropy.
+We empirically demonstrate why AdaBoost predicts distorted probabilities and
+examine three calibration methods for correcting this distortion: Platt
+Scaling, Isotonic Regression, and Logistic Correction. We also experiment with
+boosting using log-loss instead of the usual exponential loss. Experiments show
+that Logistic Correction and boosting with log-loss work well when boosting
+weak models such as decision stumps, but yield poor performance when boosting
+more complex models such as full decision trees. Platt Scaling and Isotonic
+Regression, however, significantly improve the probabilities predicted by

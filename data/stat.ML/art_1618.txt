@@ -1,0 +1,14 @@
+Feature selection in omics prediction problems using cat scores and
+  false nondiscovery rate control
+We revisit the problem of feature selection in linear discriminant analysis
+(LDA), that is, when features are correlated. First, we introduce a pooled
+centroids formulation of the multiclass LDA predictor function, in which the
+relative weights of Mahalanobis-transformed predictors are given by
+correlation-adjusted $t$-scores (cat scores). Second, for feature selection we
+propose thresholding cat scores by controlling false nondiscovery rates (FNDR).
+Third, training of the classifier is based on James--Stein shrinkage estimates
+of correlations and variances, where regularization parameters are chosen
+analytically without resampling. Overall, this results in an effective and
+computationally inexpensive framework for high-dimensional prediction with
+natural feature selection. The proposed shrinkage discriminant procedures are
+implemented in the R package ``sda'' available from the R repository CRAN.

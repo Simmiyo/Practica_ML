@@ -1,0 +1,13 @@
+The Random Forest Kernel and other kernels for big data from random
+  partitions
+We present Random Partition Kernels, a new class of kernels derived by
+demonstrating a natural connection between random partitions of objects and
+kernels between those objects. We show how the construction can be used to
+create kernels from methods that would not normally be viewed as random
+partitions, such as Random Forest. To demonstrate the potential of this method,
+we propose two new kernels, the Random Forest Kernel and the Fast Cluster
+Kernel, and show that these kernels consistently outperform standard kernels on
+problems involving real-world datasets. Finally, we show how the form of these
+kernels lend themselves to a natural approximation that is appropriate for
+certain big data problems, allowing $O(N)$ inference in methods such as
+Gaussian Processes, Support Vector Machines and Kernel PCA.

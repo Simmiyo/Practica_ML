@@ -1,0 +1,20 @@
+A probabilistic network for the diagnosis of acute cardiopulmonary
+  diseases
+In this paper, the development of a probabilistic network for the diagnosis
+of acute cardiopulmonary diseases is presented. This paper is a draft version
+of the article published after peer review in 2018
+(https://doi.org/10.1002/bimj.201600206). A panel of expert physicians
+collaborated to specify the qualitative part, that is a directed acyclic graph
+defining a factorization of the joint probability distribution of domain
+variables. The quantitative part, that is the set of all conditional
+probability distributions defined by each factor, was estimated in the Bayesian
+paradigm: we applied a special formal representation, characterized by a low
+number of parameters and a parameterization intelligible for physicians,
+elicited the joint prior distribution of parameters from medical experts, and
+updated it by conditioning on a dataset of hospital patient records using
+Markov Chain Monte Carlo simulation. Refinement was cyclically performed until
+the probabilistic network provided satisfactory Concordance Index values for a
+selection of acute diseases and reasonable inference on six fictitious patient
+cases. The probabilistic network can be employed to perform medical diagnosis
+on a total of 63 diseases (38 acute and 25 chronic) on the basis of up to 167
+patient findings.

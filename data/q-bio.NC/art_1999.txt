@@ -1,0 +1,19 @@
+Extracting synaptic conductances from single membrane potential traces
+In awake animals, the activity of the cerebral cortex is highly complex, with
+neurons firing irregularly with apparent Poisson statistics. One way to
+characterize this complexity is to take advantage of the high interconnectivity
+of cerebral cortex and use intracellular recordings of cortical neurons, which
+contain information about the activity of thousands of other cortical neurons.
+Identifying the membrane potential (Vm) to a stochastic process enables the
+extraction of important statistical signatures of this complex synaptic
+activity. Typically, one estimates the total synaptic conductances (excitatory
+and inhibitory) but this type of estimation requires at least two Vm levels and
+therefore cannot be applied to single Vm traces. We propose here a method to
+extract excitatory and inhibitory conductances (mean and variance) from single
+Vm traces. This "VmT method" estimates conductance parameters using maximum
+likelihood criteria, under the assumption are that synaptic conductances are
+described by Gaussian stochastic processes and are integrated by a passive
+leaky membrane. The method is illustrated using models and is tested on
+guinea-pig visual cortex neurons in vitro using dynamic-clamp experiments. The
+VmT method holds promises for extracting conductances from single-trial
+measurements, which has a high potential for in vivo applications.

@@ -1,0 +1,28 @@
+Consistent Classification Algorithms for Multi-class Non-Decomposable
+  Performance Metrics
+We study consistency of learning algorithms for a multi-class performance
+metric that is a non-decomposable function of the confusion matrix of a
+classifier and cannot be expressed as a sum of losses on individual data
+points; examples of such performance metrics include the macro F-measure
+popular in information retrieval and the G-mean metric used in class-imbalanced
+problems. While there has been much work in recent years in understanding the
+consistency properties of learning algorithms for `binary' non-decomposable
+metrics, little is known either about the form of the optimal classifier for a
+general multi-class non-decomposable metric, or about how these learning
+algorithms generalize to the multi-class case. In this paper, we provide a
+unified framework for analysing a multi-class non-decomposable performance
+metric, where the problem of finding the optimal classifier for the performance
+metric is viewed as an optimization problem over the space of all confusion
+matrices achievable under the given distribution. Using this framework, we show
+that (under a continuous distribution) the optimal classifier for a multi-class
+performance metric can be obtained as the solution of a cost-sensitive
+classification problem, thus generalizing several previous results on specific
+binary non-decomposable metrics. We then design a consistent learning algorithm
+for concave multi-class performance metrics that proceeds via a sequence of
+cost-sensitive classification problems, and can be seen as applying the
+conditional gradient (CG) optimization method over the space of feasible
+confusion matrices. To our knowledge, this is the first efficient learning
+algorithm (whose running time is polynomial in the number of classes) that is
+consistent for a large family of multi-class non-decomposable metrics. Our
+consistency proof uses a novel technique based on the convergence analysis of
+the CG method.

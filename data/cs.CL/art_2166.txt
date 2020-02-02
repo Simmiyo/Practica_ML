@@ -1,0 +1,25 @@
+From narrative descriptions to MedDRA: automagically encoding adverse
+  drug reactions
+The collection of narrative spontaneous reports is an irreplaceable source
+for the prompt detection of suspected adverse drug reactions (ADRs): qualified
+domain experts manually revise a huge amount of narrative descriptions and then
+encode texts according to MedDRA standard terminology. The manual annotation of
+narrative documents with medical terminology is a subtle and expensive task,
+since the number of reports is growing up day-by-day. MagiCoder, a Natural
+Language Processing algorithm, is proposed for the automatic encoding of
+free-text descriptions into MedDRA terms. MagiCoder procedure is efficient in
+terms of computational complexity (in particular, it is linear in the size of
+the narrative input and the terminology). We tested it on a large dataset of
+about 4500 manually revised reports, by performing an automated comparison
+between human and MagiCoder revisions. For the current base version of
+MagiCoder, we measured: on short descriptions, an average recall of $86\%$ and
+an average precision of $88\%$; on medium-long descriptions (up to 255
+characters), an average recall of $64\%$ and an average precision of $63\%$.
+From a practical point of view, MagiCoder reduces the time required for
+encoding ADR reports. Pharmacologists have simply to review and validate the
+MagiCoder terms proposed by the application, instead of choosing the right
+terms among the 70K low level terms of MedDRA. Such improvement in the
+efficiency of pharmacologists' work has a relevant impact also on the quality
+of the subsequent data analysis. We developed MagiCoder for the Italian
+pharmacovigilance language. However, our proposal is based on a general
+approach, not depending on the considered language nor the term dictionary.

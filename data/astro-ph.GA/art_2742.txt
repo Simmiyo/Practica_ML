@@ -1,0 +1,27 @@
+The Aquila comparison Project: The Effects of Feedback and Numerical
+  Methods on Simulations of Galaxy Formation
+We compare the results of thirteen cosmological gasdynamical codes used to
+simulate the formation of a galaxy in the LCDM structure formation paradigm.
+The various runs differ in their hydrodynamical treatment (SPH, moving-mesh and
+AMR) but share the same initial conditions and adopt their latest published
+model of cooling, star formation and feedback. Despite the common halo assembly
+history, we find large code-to-code variations in the stellar mass, size,
+morphology and gas content of the galaxy at z=0, due mainly to the different
+implementations of feedback. Compared with observation, most codes tend to
+produce an overly massive galaxy, smaller and less gas-rich than typical
+spirals, with a massive bulge and a declining rotation curve. A stellar disk is
+discernible in most simulations, though its prominence varies widely from code
+to code. There is a well-defined trend between the effects of feedback and the
+severity of the disagreement with observation. Models that are more effective
+at limiting the baryonic mass of the galaxy come closer to matching observed
+galaxy scaling laws, but often to the detriment of the disk component. Our
+conclusions hold at two different numerical resolutions. Some differences can
+also be traced to the numerical techniques: more gas seems able to cool and
+become available for star formation in grid-based codes than in SPH. However,
+this effect is small compared to the variations induced by different feedback
+prescriptions. We conclude that state-of-the-art simulations cannot yet
+uniquely predict the properties of the baryonic component of a galaxy, even
+when the assembly history of its host halo is fully specified. Developing
+feedback algorithms that can effectively regulate the mass of a galaxy without
+hindering the formation of high-angular momentum stellar disks remains a
+challenge.

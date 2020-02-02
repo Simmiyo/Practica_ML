@@ -1,0 +1,17 @@
+Identifiability of Causal Graphs using Functional Models
+This work addresses the following question: Under what assumptions on the
+data generating process can one infer the causal graph from the joint
+distribution? The approach taken by conditional independence-based causal
+discovery methods is based on two assumptions: the Markov condition and
+faithfulness. It has been shown that under these assumptions the causal graph
+can be identified up to Markov equivalence (some arrows remain undirected)
+using methods like the PC algorithm. In this work we propose an alternative by
+defining Identifiable Functional Model Classes (IFMOCs). As our main theorem we
+prove that if the data generating process belongs to an IFMOC, one can identify
+the complete causal graph. To the best of our knowledge this is the first
+identifiability result of this kind that is not limited to linear functional
+relationships. We discuss how the IFMOC assumption and the Markov and
+faithfulness assumptions relate to each other and explain why we believe that
+the IFMOC assumption can be tested more easily on given data. We further
+provide a practical algorithm that recovers the causal graph from finitely many
+data; experiments on simulated data support the theoretical findings.

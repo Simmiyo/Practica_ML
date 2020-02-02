@@ -1,0 +1,16 @@
+Estimation of the sample covariance matrix from compressive measurements
+This paper focuses on the estimation of the sample covariance matrix from
+low-dimensional random projections of data known as compressive measurements.
+In particular, we present an unbiased estimator to extract the covariance
+structure from compressive measurements obtained by a general class of random
+projection matrices consisting of i.i.d. zero-mean entries and finite first
+four moments. In contrast to previous works, we make no structural assumptions
+about the underlying covariance matrix such as being low-rank. In fact, our
+analysis is based on a non-Bayesian data setting which requires no
+distributional assumptions on the set of data samples. Furthermore, inspired by
+the generality of the projection matrices, we propose an approach to covariance
+estimation that utilizes sparse Rademacher matrices. Therefore, our algorithm
+can be used to estimate the covariance matrix in applications with limited
+memory and computation power at the acquisition devices. Experimental results
+demonstrate that our approach allows for accurate estimation of the sample
+covariance matrix on several real-world data sets, including video data.

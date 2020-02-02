@@ -1,0 +1,17 @@
+Eye movement simulation and detector creation to reduce laborious
+  parameter adjustments
+Eye movements hold information about human perception, intention and
+cognitive state. Various algorithms have been proposed to identify and
+distinguish eye movements, particularly fixations, saccades, and smooth
+pursuits. A major drawback of existing algorithms is that they rely on accurate
+and constant sampling rates, impeding straightforward adaptation to new
+movements such as micro saccades. We propose a novel eye movement simulator
+that i) probabilistically simulates saccade movements as gamma distributions
+considering different peak velocities and ii) models smooth pursuit onsets with
+the sigmoid function. This simulator is combined with a machine learning
+approach to create detectors for general and specific velocity profiles.
+Additionally, our approach is capable of using any sampling rate, even with
+fluctuations. The machine learning approach consists of different binary
+patterns combined using conditional distributions. The simulation is evaluated
+against publicly available real data using a squared error, and the detectors
+are evaluated against state-of-the-art algorithms.

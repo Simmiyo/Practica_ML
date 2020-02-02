@@ -1,0 +1,17 @@
+High-dimensional Joint Sparsity Random Effects Model for Multi-task
+  Learning
+Joint sparsity regularization in multi-task learning has attracted much
+attention in recent years. The traditional convex formulation employs the group
+Lasso relaxation to achieve joint sparsity across tasks. Although this approach
+leads to a simple convex formulation, it suffers from several issues due to the
+looseness of the relaxation. To remedy this problem, we view jointly sparse
+multi-task learning as a specialized random effects model, and derive a convex
+relaxation approach that involves two steps. The first step learns the
+covariance matrix of the coefficients using a convex formulation which we refer
+to as sparse covariance coding; the second step solves a ridge regression
+problem with a sparse quadratic regularizer based on the covariance matrix
+obtained in the first step. It is shown that this approach produces an
+asymptotically optimal quadratic regularizer in the multitask learning setting
+when the number of tasks approaches infinity. Experimental results demonstrate
+that the convex formulation obtained via the proposed model significantly
+outperforms group Lasso (and related multi-stage formulations

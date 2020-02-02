@@ -1,0 +1,12 @@
+Quantum Computation and Decision Trees
+Many interesting computational problems can be reformulated in terms of
+decision trees. A natural classical algorithm is to then run a random walk on
+the tree, starting at the root, to see if the tree contains a node n levels
+from the root. We devise a quantum mechanical algorithm that evolves a state,
+initially localized at the root, through the tree. We prove that if the
+classical strategy succeeds in reaching level n in time polynomial in n, then
+so does the quantum algorithm. Moreover, we find examples of trees for which
+the classical algorithm requires time exponential in n, but for which the
+quantum algorithm succeeds in polynomial time. The examples we have so far,
+however, could also be solved in polynomial time by different classical
+algorithms.

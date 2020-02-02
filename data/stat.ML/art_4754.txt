@@ -1,0 +1,20 @@
+Locally-Optimized Inter-Subject Alignment of Functional Cortical Regions
+Inter-subject registration of cortical areas is necessary in functional
+imaging (fMRI) studies for making inferences about equivalent brain function
+across a population. However, many high-level visual brain areas are defined as
+peaks of functional contrasts whose cortical position is highly variable. As
+such, most alignment methods fail to accurately map functional regions of
+interest (ROIs) across participants. To address this problem, we propose a
+locally optimized registration method that directly predicts the location of a
+seed ROI on a separate target cortical sheet by maximizing the functional
+correlation between their time courses, while simultaneously allowing for
+non-smooth local deformations in region topology. Our method outperforms the
+two most commonly used alternatives (anatomical landmark-based AFNI alignment
+and cortical convexity-based FreeSurfer alignment) in overlap between predicted
+region and functionally-defined LOC. Furthermore, the maps obtained using our
+method are more consistent across subjects than both baseline measures.
+Critically, our method represents an important step forward towards predicting
+brain regions without explicit localizer scans and deciphering the poorly
+understood relationship between the location of functional regions, their
+anatomical extent, and the consistency of computations those regions perform
+across people.

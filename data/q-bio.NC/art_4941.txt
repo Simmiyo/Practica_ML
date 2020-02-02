@@ -1,0 +1,20 @@
+Transfer Learning for Brain-Computer Interfaces: A Euclidean Space Data
+  Alignment Approach
+Objective: This paper targets a major challenge in developing practical
+EEG-based brain-computer interfaces (BCIs): how to cope with individual
+differences so that better learning performance can be obtained for a new
+subject, with minimum or even no subject-specific data? Methods: We propose a
+novel approach to align EEG trials from different subjects in the Euclidean
+space to make them more similar, and hence improve the learning performance for
+a new subject. Our approach has three desirable properties: 1) it aligns the
+EEG trials directly in the Euclidean space, and any signal processing, feature
+extraction and machine learning algorithms can then be applied to the aligned
+trials; 2) its computational cost is very low; and, 3) it is unsupervised and
+does not need any label information from the new subject. Results: Both offline
+and simulated online experiments on motor imagery classification and
+event-related potential classification verified that our proposed approach
+outperformed a state-of-the-art Riemannian space data alignment approach, and
+several approaches without data alignment. Conclusion: The proposed Euclidean
+space EEG data alignment approach can greatly facilitate transfer learning in
+BCIs. Significance: Our proposed approach is effective, efficient, and easy to
+implement. It could be an essential pre-processing step for EEG-based BCIs.

@@ -1,0 +1,20 @@
+Sparse Inverse Covariance Estimation for Chordal Structures
+In this paper, we consider the Graphical Lasso (GL), a popular optimization
+problem for learning the sparse representations of high-dimensional datasets,
+which is well-known to be computationally expensive for large-scale problems.
+Recently, we have shown that the sparsity pattern of the optimal solution of GL
+is equivalent to the one obtained from simply thresholding the sample
+covariance matrix, for sparse graphs under different conditions. We have also
+derived a closed-form solution that is optimal when the thresholded sample
+covariance matrix has an acyclic structure. As a major generalization of the
+previous result, in this paper we derive a closed-form solution for the GL for
+graphs with chordal structures. We show that the GL and thresholding
+equivalence conditions can significantly be simplified and are expected to hold
+for high-dimensional problems if the thresholded sample covariance matrix has a
+chordal structure. We then show that the GL and thresholding equivalence is
+enough to reduce the GL to a maximum determinant matrix completion problem and
+drive a recursive closed-form solution for the GL when the thresholded sample
+covariance matrix has a chordal structure. For large-scale problems with up to
+450 million variables, the proposed method can solve the GL problem in less
+than 2 minutes, while the state-of-the-art methods converge in more than 2
+hours.

@@ -1,0 +1,19 @@
+A nonparametric HMM for genetic imputation and coalescent inference
+Genetic sequence data are well described by hidden Markov models (HMMs) in
+which latent states correspond to clusters of similar mutation patterns. Theory
+from statistical genetics suggests that these HMMs are nonhomogeneous (their
+transition probabilities vary along the chromosome) and have large support for
+self transitions. We develop a new nonparametric model of genetic sequence
+data, based on the hierarchical Dirichlet process, which supports these self
+transitions and nonhomogeneity. Our model provides a parameterization of the
+genetic process that is more parsimonious than other more general nonparametric
+models which have previously been applied to population genetics. We provide
+truncation-free MCMC inference for our model using a new auxiliary sampling
+scheme for Bayesian nonparametric HMMs. In a series of experiments on male X
+chromosome data from the Thousand Genomes Project and also on data simulated
+from a population bottleneck we show the benefits of our model over the popular
+finite model fastPHASE, which can itself be seen as a parametric truncation of
+our model. We find that the number of HMM states found by our model is
+correlated with the time to the most recent common ancestor in population
+bottlenecks. This work demonstrates the flexibility of Bayesian nonparametrics
+applied to large and complex genetic data.

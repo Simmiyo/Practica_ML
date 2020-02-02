@@ -1,0 +1,19 @@
+Sketch and Validate for Big Data Clustering
+In response to the need for learning tools tuned to big data analytics, the
+present paper introduces a framework for efficient clustering of huge sets of
+(possibly high-dimensional) data. Building on random sampling and consensus
+(RANSAC) ideas pursued earlier in a different (computer vision) context for
+robust regression, a suite of novel dimensionality and set-reduction algorithms
+is developed. The advocated sketch-and-validate (SkeVa) family includes two
+algorithms that rely on K-means clustering per iteration on reduced number of
+dimensions and/or feature vectors: The first operates in a batch fashion, while
+the second sequential one offers computational efficiency and suitability with
+streaming modes of operation. For clustering even nonlinearly separable
+vectors, the SkeVa family offers also a member based on user-selected kernel
+functions. Further trading off performance for reduced complexity, a fourth
+member of the SkeVa family is based on a divergence criterion for selecting
+proper minimal subsets of feature variables and vectors, thus bypassing the
+need for K-means clustering per iteration. Extensive numerical tests on
+synthetic and real data sets highlight the potential of the proposed
+algorithms, and demonstrate their competitive performance relative to
+state-of-the-art random projection alternatives.

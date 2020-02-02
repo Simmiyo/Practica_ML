@@ -1,0 +1,19 @@
+Fast and Accurate OOV Decoder on High-Level Features
+This work proposes a novel approach to out-of-vocabulary (OOV) keyword search
+(KWS) task. The proposed approach is based on using high-level features from an
+automatic speech recognition (ASR) system, so called phoneme posterior based
+(PPB) features, for decoding. These features are obtained by calculating
+time-dependent phoneme posterior probabilities from word lattices, followed by
+their smoothing. For the PPB features we developed a special novel very fast,
+simple and efficient OOV decoder. Experimental results are presented on the
+Georgian language from the IARPA Babel Program, which was the test language in
+the OpenKWS 2016 evaluation campaign. The results show that in terms of maximum
+term weighted value (MTWV) metric and computational speed, for single ASR
+systems, the proposed approach significantly outperforms the state-of-the-art
+approach based on using in-vocabulary proxies for OOV keywords in the indexed
+database. The comparison of the two OOV KWS approaches on the fusion results of
+the nine different ASR systems demonstrates that the proposed OOV decoder
+outperforms the proxy-based approach in terms of MTWV metric given the
+comparable processing speed. Other important advantages of the OOV decoder
+include extremely low memory consumption and simplicity of its implementation
+and parameter optimization.

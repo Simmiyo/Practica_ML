@@ -1,0 +1,17 @@
+Removing Biases from Trainable MT Metrics by Using Self-Training
+Most trainable machine translation (MT) metrics train their weights on human
+judgments of state-of-the-art MT systems outputs. This makes trainable metrics
+biases in many ways. One of them is preferring longer translations. These
+biased metrics when used for tuning are evaluating different types of
+translations -- n-best lists of translations with very diverse quality. Systems
+tuned with these metrics tend to produce overly long translations that are
+preferred by the metric but not by humans. This is usually solved by manually
+tweaking metric's weights to equally value recall and precision. Our solution
+is more general: (1) it does not address only the recall bias but also all
+other biases that might be present in the data and (2) it does not require any
+knowledge of the types of features used which is useful in cases when manual
+tuning of metric's weights is not possible. This is accomplished by
+self-training on unlabeled n-best lists by using metric that was initially
+trained on standard human judgments. One way of looking at this is as domain
+adaptation from the domain of state-of-the-art MT translations to diverse
+n-best list translations.

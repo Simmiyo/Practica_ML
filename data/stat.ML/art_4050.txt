@@ -1,0 +1,19 @@
+Splitting matters: how monotone transformation of predictor variables
+  may improve the predictions of decision tree models
+It is widely believed that the prediction accuracy of decision tree models is
+invariant under any strictly monotone transformation of the individual
+predictor variables. However, this statement may be false when predicting new
+observations with values that were not seen in the training-set and are close
+to the location of the split point of a tree rule. The sensitivity of the
+prediction error to the split point interpolation is high when the split point
+of the tree is estimated based on very few observations, reaching 9%
+misclassification error when only 10 observations are used for constructing a
+split, and shrinking to 1% when relying on 100 observations. This study
+compares the performance of alternative methods for split point interpolation
+and concludes that the best choice is taking the mid-point between the two
+closest points to the split point of the tree. Furthermore, if the (continuous)
+distribution of the predictor variable is known, then using its probability
+integral for transforming the variable ("quantile transformation") will reduce
+the model's interpolation error by up to about a half on average. Accordingly,
+this study provides guidelines for both developers and users of decision tree
+models (including bagging and random forest).

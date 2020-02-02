@@ -1,0 +1,14 @@
+A penalized likelihood method for classification with matrix-valued
+  predictors
+We propose a penalized likelihood method to fit the linear discriminant
+analysis model when the predictor is matrix valued. We simultaneously estimate
+the means and the precision matrix, which we assume has a Kronecker product
+decomposition. Our penalties encourage pairs of response category mean matrices
+to have equal entries and also encourage zeros in the precision matrix. To
+compute our estimators, we use a blockwise coordinate descent algorithm. To
+update the optimization variables corresponding to response category mean
+matrices, we use an alternating minimization algorithm that takes advantage of
+the Kronecker structure of the precision matrix. We show that our method can
+outperform relevant competitors in classification, even when our modeling
+assumptions are violated. We analyze an EEG dataset to demonstrate our method's
+interpretability and classification accuracy.

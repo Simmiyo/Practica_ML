@@ -1,0 +1,25 @@
+Central and peripheral vision for scene recognition: A
+  neurocomputational modeling exploration
+What are the roles of central and peripheral vision in human scene
+recognition? Larson and Loschky (2009) showed that peripheral vision
+contributes more than central vision in obtaining maximum scene recognition
+accuracy. However, central vision is more efficient for scene recognition than
+peripheral, based on the amount of visual area needed for accurate recognition.
+In this study, we model and explain the results of Larson and Loschky (2009)
+using a neurocomputational modeling approach. We show that the advantage of
+peripheral vision in scene recognition, as well as the efficiency advantage for
+central vision, can be replicated using state-of-the-art deep neural network
+models. In addition, we propose and provide support for the hypothesis that the
+peripheral advantage comes from the inherent usefulness of peripheral features.
+This result is consistent with data presented by Thibaut, Tran, Szaffarczyk,
+and Boucart (2014), who showed that patients with central vision loss can still
+categorize natural scenes efficiently. Furthermore, by using a deep
+mixture-of-experts model ("The Deep Model," or TDM) that receives central and
+peripheral visual information on separate channels simultaneously, we show that
+the peripheral advantage emerges naturally in the learning process: When
+trained to categorize scenes, the model weights the peripheral pathway more
+than the central pathway. As we have seen in our previous modeling work,
+learning creates a transform that spreads different scene categories into
+different regions in representational space. Finally, we visualize the features
+for the two pathways, and find that different preferences for scene categories
+emerge for the two pathways during the training process.

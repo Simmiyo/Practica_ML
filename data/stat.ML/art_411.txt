@@ -1,0 +1,18 @@
+Clustering via Mode Seeking by Direct Estimation of the Gradient of a
+  Log-Density
+Mean shift clustering finds the modes of the data probability density by
+identifying the zero points of the density gradient. Since it does not require
+to fix the number of clusters in advance, the mean shift has been a popular
+clustering algorithm in various application fields. A typical implementation of
+the mean shift is to first estimate the density by kernel density estimation
+and then compute its gradient. However, since good density estimation does not
+necessarily imply accurate estimation of the density gradient, such an indirect
+two-step approach is not reliable. In this paper, we propose a method to
+directly estimate the gradient of the log-density without going through density
+estimation. The proposed method gives the global solution analytically and thus
+is computationally efficient. We then develop a mean-shift-like fixed-point
+algorithm to find the modes of the density for clustering. As in the mean
+shift, one does not need to set the number of clusters in advance. We
+empirically show that the proposed clustering method works much better than the
+mean shift especially for high-dimensional data. Experimental results further
+indicate that the proposed method outperforms existing clustering methods.

@@ -1,0 +1,27 @@
+Kernel Method for Detecting Higher Order Interactions in multi-view
+  Data: An Application to Imaging, Genetics, and Epigenetics
+In this study, we tested the interaction effect of multimodal datasets using
+a novel method called the kernel method for detecting higher order interactions
+among biologically relevant mulit-view data. Using a semiparametric method on a
+reproducing kernel Hilbert space (RKHS), we used a standard mixed-effects
+linear model and derived a score-based variance component statistic that tests
+for higher order interactions between multi-view data. The proposed method
+offers an intangible framework for the identification of higher order
+interaction effects (e.g., three way interaction) between genetics, brain
+imaging, and epigenetic data. Extensive numerical simulation studies were first
+conducted to evaluate the performance of this method. Finally, this method was
+evaluated using data from the Mind Clinical Imaging Consortium (MCIC) including
+single nucleotide polymorphism (SNP) data, functional magnetic resonance
+imaging (fMRI) scans, and deoxyribonucleic acid (DNA) methylation data,
+respectfully, in schizophrenia patients and healthy controls. We treated each
+gene-derived SNPs, region of interest (ROI) and gene-derived DNA methylation as
+a single testing unit, which are combined into triplets for evaluation. In
+addition, cardiovascular disease risk factors such as age, gender, and body
+mass index were assessed as covariates on hippocampal volume and compared
+between triplets. Our method identified $13$-triplets ($p$-values $\leq 0.001$)
+that included $6$ gene-derived SNPs, $10$ ROIs, and $6$ gene-derived DNA
+methylations that correlated with changes in hippocampal volume, suggesting
+that these triplets may be important in explaining schizophrenia-related
+neurodegeneration. With strong evidence ($p$-values $\leq 0.000001$), the
+triplet ({\bf MAGI2, CRBLCrus1.L, FBXO28}) has the potential to distinguish
+schizophrenia patients from the healthy control variations.

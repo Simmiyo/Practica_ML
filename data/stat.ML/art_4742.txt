@@ -1,0 +1,16 @@
+Property-driven State-Space Coarsening for Continuous Time Markov Chains
+Dynamical systems with large state-spaces are often expensive to thoroughly
+explore experimentally. Coarse-graining methods aim to define simpler systems
+which are more amenable to analysis and exploration; most current methods,
+however, focus on a priori state aggregation based on similarities in
+transition rates, which is not necessarily reflected in similar behaviours at
+the level of trajectories. We propose a way to coarsen the state-space of a
+system which optimally preserves the satisfaction of a set of logical
+specifications about the system's trajectories. Our approach is based on
+Gaussian Process emulation and Multi-Dimensional Scaling, a dimensionality
+reduction technique which optimally preserves distances in non-Euclidean
+spaces. We show how to obtain low-dimensional visualisations of the system's
+state-space from the perspective of properties' satisfaction, and how to define
+macro-states which behave coherently with respect to the specifications. Our
+approach is illustrated on a non-trivial running example, showing promising
+performance and high computational efficiency.

@@ -1,0 +1,12 @@
+Embarrassingly Parallel Inference for Gaussian Processes
+Training Gaussian process-based models typically involves an $ O(N^3)$
+computational bottleneck due to inverting the covariance matrix. Popular
+methods for overcoming this matrix inversion problem cannot adequately model
+all types of latent functions, and are often not parallelizable. However,
+judicious choice of model structure can ameliorate this problem. A
+mixture-of-experts model that uses a mixture of $K$ Gaussian processes offers
+modeling flexibility and opportunities for scalable inference. Our
+embarrassingly parallel algorithm combines low-dimensional matrix inversions
+with importance sampling to yield a flexible, scalable mixture-of-experts model
+that offers comparable performance to Gaussian process regression at a much
+lower computational cost.

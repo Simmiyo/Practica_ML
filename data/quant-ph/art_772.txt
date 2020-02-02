@@ -1,0 +1,11 @@
+An Exact Quantum Polynomial-Time Algorithm for Simon's Problem
+We investigate the power of quantum computers when they are required to
+return an answer that is guaranteed to be correct after a time that is
+upper-bounded by a polynomial in the worst case. We show that a natural
+generalization of Simon's problem can be solved in this way, whereas previous
+algorithms required quantum polynomial time in the expected sense only, without
+upper bounds on the worst-case running time. This is achieved by generalizing
+both Simon's and Grover's algorithms and combining them in a novel way. It
+follows that there is a decision problem that can be solved in exact quantum
+polynomial time, which would require expected exponential time on any classical
+bounded-error probabilistic computer if the data is supplied as a black box.

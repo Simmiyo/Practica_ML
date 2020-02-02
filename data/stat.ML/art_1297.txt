@@ -1,0 +1,24 @@
+Influence Function and Robust Variant of Kernel Canonical Correlation
+  Analysis
+Many unsupervised kernel methods rely on the estimation of the kernel
+covariance operator (kernel CO) or kernel cross-covariance operator (kernel
+CCO). Both kernel CO and kernel CCO are sensitive to contaminated data, even
+when bounded positive definite kernels are used. To the best of our knowledge,
+there are few well-founded robust kernel methods for statistical unsupervised
+learning. In addition, while the influence function (IF) of an estimator can
+characterize its robustness, asymptotic properties and standard error, the IF
+of a standard kernel canonical correlation analysis (standard kernel CCA) has
+not been derived yet. To fill this gap, we first propose a robust kernel
+covariance operator (robust kernel CO) and a robust kernel cross-covariance
+operator (robust kernel CCO) based on a generalized loss function instead of
+the quadratic loss function. Second, we derive the IF for robust kernel CCO and
+standard kernel CCA. Using the IF of the standard kernel CCA, we can detect
+influential observations from two sets of data. Finally, we propose a method
+based on the robust kernel CO and the robust kernel CCO, called {\bf robust
+kernel CCA}, which is less sensitive to noise than the standard kernel CCA. The
+introduced principles can also be applied to many other kernel methods
+involving kernel CO or kernel CCO. Our experiments on synthesized data and
+imaging genetics analysis demonstrate that the proposed IF of standard kernel
+CCA can identify outliers. It is also seen that the proposed robust kernel CCA
+method performs better for ideal and contaminated data than the standard kernel
+CCA.

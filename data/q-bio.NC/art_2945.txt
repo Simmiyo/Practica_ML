@@ -1,0 +1,27 @@
+Humans and deep networks largely agree on which kinds of variation make
+  object recognition harder
+View-invariant object recognition is a challenging problem, which has
+attracted much attention among the psychology, neuroscience, and computer
+vision communities. Humans are notoriously good at it, even if some variations
+are presumably more difficult to handle than others (e.g. 3D rotations). Humans
+are thought to solve the problem through hierarchical processing along the
+ventral stream, which progressively extracts more and more invariant visual
+features. This feed-forward architecture has inspired a new generation of
+bio-inspired computer vision systems called deep convolutional neural networks
+(DCNN), which are currently the best algorithms for object recognition in
+natural images. Here, for the first time, we systematically compared human
+feed-forward vision and DCNNs at view-invariant object recognition using the
+same images and controlling for both the kinds of transformation as well as
+their magnitude. We used four object categories and images were rendered from
+3D computer models. In total, 89 human subjects participated in 10 experiments
+in which they had to discriminate between two or four categories after rapid
+presentation with backward masking. We also tested two recent DCNNs on the same
+tasks. We found that humans and DCNNs largely agreed on the relative
+difficulties of each kind of variation: rotation in depth is by far the hardest
+transformation to handle, followed by scale, then rotation in plane, and
+finally position. This suggests that humans recognize objects mainly through 2D
+template matching, rather than by constructing 3D object models, and that DCNNs
+are not too unreasonable models of human feed-forward vision. Also, our results
+show that the variation levels in rotation in depth and scale strongly modulate
+both humans' and DCNNs' recognition performances. We thus argue that these
+variations should be controlled in the image datasets used in vision research.

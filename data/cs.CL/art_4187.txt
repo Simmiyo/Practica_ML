@@ -1,0 +1,14 @@
+Joint Learning of Domain Classification and Out-of-Domain Detection with
+  Dynamic Class Weighting for Satisficing False Acceptance Rates
+In domain classification for spoken dialog systems, correct detection of
+out-of-domain (OOD) utterances is crucial because it reduces confusion and
+unnecessary interaction costs between users and the systems. Previous work
+usually utilizes OOD detectors that are trained separately from in-domain (IND)
+classifiers, and confidence thresholding for OOD detection given target
+evaluation scores. In this paper, we introduce a neural joint learning model
+for domain classification and OOD detection, where dynamic class weighting is
+used during the model training to satisfice a given OOD false acceptance rate
+(FAR) while maximizing the domain classification accuracy. Evaluating on two
+domain classification tasks for the utterances from a large spoken dialogue
+system, we show that our approach significantly improves the domain
+classification performance with satisficing given target FARs.

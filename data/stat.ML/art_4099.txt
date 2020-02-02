@@ -1,0 +1,17 @@
+Texture Synthesis with Spatial Generative Adversarial Networks
+Generative adversarial networks (GANs) are a recent approach to train
+generative models of data, which have been shown to work particularly well on
+image data. In the current paper we introduce a new model for texture synthesis
+based on GAN learning. By extending the input noise distribution space from a
+single vector to a whole spatial tensor, we create an architecture with
+properties well suited to the task of texture synthesis, which we call spatial
+GAN (SGAN). To our knowledge, this is the first successful completely
+data-driven texture synthesis method based on GANs.
+  Our method has the following features which make it a state of the art
+algorithm for texture synthesis: high image quality of the generated textures,
+very high scalability w.r.t. the output texture size, fast real-time forward
+generation, the ability to fuse multiple diverse source images in complex
+textures. To illustrate these capabilities we present multiple experiments with
+different classes of texture images and use cases. We also discuss some
+limitations of our method with respect to the types of texture images it can
+synthesize, and compare it to other neural techniques for texture generation.

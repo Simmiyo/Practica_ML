@@ -1,0 +1,23 @@
+Evaluation of modelling approaches for predicting the spatial
+  distribution of soil organic carbon stocks at the national scale
+Soil organic carbon (SOC) plays a major role in the global carbon budget. It
+can act as a source or a sink of atmospheric carbon, thereby possibly
+influencing the course of climate change. Improving the tools that model the
+spatial distributions of SOC stocks at national scales is a priority, both for
+monitoring changes in SOC and as an input for global carbon cycles studies. In
+this paper, we compare and evaluate two recent and promising modelling
+approaches. First, we considered several increasingly complex boosted
+regression trees (BRT), a convenient and efficient multiple regression model
+from the statistical learning field. Further, we considered a robust
+geostatistical approach coupled to the BRT models. Testing the different
+approaches was performed on the dataset from the French Soil Monitoring
+Network, with a consistent cross-validation procedure. We showed that when a
+limited number of predictors were included in the BRT model, the standalone BRT
+predictions were significantly improved by robust geostatistical modelling of
+the residuals. However, when data for several SOC drivers were included, the
+standalone BRT model predictions were not significantly improved by
+geostatistical modelling. Therefore, in this latter situation, the BRT
+predictions might be considered adequate without the need for geostatistical
+modelling, provided that i) care is exercised in model fitting and validating,
+and ii) the dataset does not allow for modelling of local spatial
+autocorrelations, as is the case for many national systematic sampling schemes.

@@ -1,0 +1,21 @@
+First-spike based visual categorization using reward-modulated STDP
+Reinforcement learning (RL) has recently regained popularity, with major
+achievements such as beating the European game of Go champion. Here, for the
+first time, we show that RL can be used efficiently to train a spiking neural
+network (SNN) to perform object recognition in natural images without using an
+external classifier. We used a feedforward convolutional SNN and a temporal
+coding scheme where the most strongly activated neurons fire first, while less
+activated ones fire later, or not at all. In the highest layers, each neuron
+was assigned to an object category, and it was assumed that the stimulus
+category was the category of the first neuron to fire. If this assumption was
+correct, the neuron was rewarded, i.e. spike-timing-dependent plasticity (STDP)
+was applied, which reinforced the neuron's selectivity. Otherwise, anti-STDP
+was applied, which encouraged the neuron to learn something else. As
+demonstrated on various image datasets (Caltech, ETH-80, and NORB), this reward
+modulated STDP (R-STDP) approach extracted particularly discriminative visual
+features, whereas classic unsupervised STDP extracts any feature that
+consistently repeats. As a result, R-STDP outperformed STDP on these datasets.
+Furthermore, R-STDP is suitable for online learning, and can adapt to drastic
+changes such as label permutations. Finally, it is worth mentioning that both
+feature extraction and classification were done with spikes, using at most one
+spike per neuron. Thus the network is hardware friendly and energy efficient.

@@ -1,0 +1,27 @@
+Computational Modeling of Channelrhodopsin-2 Photocurrent
+  Characteristics in Relation to Neural Signaling
+Channelrhodopsins-2 (ChR2) are a class of light sensitive proteins that offer
+the ability to use light stimulation to regulate neural activity with
+millisecond precision. In order to address the limitations in the efficacy of
+the wild-type ChR2 (ChRwt) to achieve this objective, new variants of ChR2 that
+exhibit fast mono-exponential photocurrent decay characteristics have been
+recently developed and validated. In this paper, we investigate whether the
+framework of transition rate model with 4 states, primarily developed to mimic
+the bi-exponential photocurrent decay kinetics of ChRwt, as opposed to the low
+complexity 3 state model, is warranted to mimic the mono-exponential
+photocurrent decay kinetics of the newly developed fast ChR2 variants: ChETA
+(Gunaydin et al., Nature Neurosci, 13:387-392, 2010) and ChRET/TC (Berndt et
+al., PNAS, 108:7595-7600, 2011). We begin by estimating the parameters for the
+3-state and 4-state models from experimental data on the photocurrent kinetics
+of ChRwt, ChETA and ChRET/TC. We then incorporate these models into a
+fast-spiking interneuron model (Wang and Buzsaki., J Neurosci,
+16:6402-6413,1996) and a hippocampal pyramidal cell model (Golomb et al., J
+Neurophysiol, 96:1912-1926, 2006) and investigate the extent to which the
+experimentally observed neural response to various optostimulation protocols
+can be captured by these models. We demonstrate that for all ChR2 variants
+investigated, the 4 state model implementation is better able to capture neural
+response consistent with experiments across wide range of optostimulation
+protocol. We conclude by analytically investigating the conditions under which
+the characteristic specific to the 3-state model, namely the mono-exponential
+photocurrent decay of the newly developed variants of ChR2, can occurs in the
+framework of the 4-state model.

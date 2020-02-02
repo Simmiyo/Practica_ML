@@ -1,0 +1,18 @@
+Follow the Leader If You Can, Hedge If You Must
+Follow-the-Leader (FTL) is an intuitive sequential prediction strategy that
+guarantees constant regret in the stochastic setting, but has terrible
+performance for worst-case data. Other hedging strategies have better
+worst-case guarantees but may perform much worse than FTL if the data are not
+maximally adversarial. We introduce the FlipFlop algorithm, which is the first
+method that provably combines the best of both worlds.
+  As part of our construction, we develop AdaHedge, which is a new way of
+dynamically tuning the learning rate in Hedge without using the doubling trick.
+AdaHedge refines a method by Cesa-Bianchi, Mansour and Stoltz (2007), yielding
+slightly improved worst-case guarantees. By interleaving AdaHedge and FTL, the
+FlipFlop algorithm achieves regret within a constant factor of the FTL regret,
+without sacrificing AdaHedge's worst-case guarantees.
+  AdaHedge and FlipFlop do not need to know the range of the losses in advance;
+moreover, unlike earlier methods, both have the intuitive property that the
+issued weights are invariant under rescaling and translation of the losses. The
+losses are also allowed to be negative, in which case they may be interpreted
+as gains.

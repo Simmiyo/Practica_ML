@@ -1,0 +1,19 @@
+Comparison of Langevin and Markov channel noise models for neuronal
+  signal generation
+The stochastic opening and closing of voltage-gated ion channels produces
+noise in neurons. The effect of this noise on the neuronal performance has been
+modelled using either approximate or Langevin model, based on stochastic
+differential equations or an exact model, based on a Markov process model of
+channel gating. Yet whether the Langevin model accurately reproduces the
+channel noise produced by the Markov model remains unclear. Here we present a
+comparison between Langevin and Markov models of channel noise in neurons using
+single compartment Hodgkin-Huxley models containing either $Na^{+}$ and
+$K^{+}$, or only $K^{+}$ voltage-gated ion channels. The performance of the
+Langevin and Markov models was quantified over a range of stimulus statistics,
+membrane areas and channel numbers. We find that in comparison to the Markov
+model, the Langevin model underestimates the noise contributed by voltage-gated
+ion channels, overestimating information rates for both spiking and non-spiking
+membranes. Even with increasing numbers of channels the difference between the
+two models persists. This suggests that the Langevin model may not be suitable
+for accurately simulating channel noise in neurons, even in simulations with
+large numbers of ion channels.

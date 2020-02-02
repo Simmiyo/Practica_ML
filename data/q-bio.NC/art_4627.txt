@@ -1,0 +1,20 @@
+Random projections of random manifolds
+Interesting data often concentrate on low dimensional smooth manifolds inside
+a high dimensional ambient space. Random projections are a simple, powerful
+tool for dimensionality reduction of such data. Previous works have studied
+bounds on how many projections are needed to accurately preserve the geometry
+of these manifolds, given their intrinsic dimensionality, volume and curvature.
+However, such works employ definitions of volume and curvature that are
+inherently difficult to compute. Therefore such theory cannot be easily tested
+against numerical simulations to understand the tightness of the proven bounds.
+We instead study typical distortions arising in random projections of an
+ensemble of smooth Gaussian random manifolds. We find explicitly computable,
+approximate theoretical bounds on the number of projections required to
+accurately preserve the geometry of these manifolds. Our bounds, while
+approximate, can only be violated with a probability that is exponentially
+small in the ambient dimension, and therefore they hold with high probability
+in cases of practical interest. Moreover, unlike previous work, we test our
+theoretical bounds against numerical experiments on the actual geometric
+distortions that typically occur for random projections of random smooth
+manifolds. We find our bounds are tighter than previous results by several
+orders of magnitude.

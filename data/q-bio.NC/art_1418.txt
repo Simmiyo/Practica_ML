@@ -1,0 +1,28 @@
+Multimodal Cross-registration and Quantification of Metric Distortions
+  in Whole Brain Histology of Marmoset using Diffeomorphic Mappings
+Whole brain neuroanatomy using tera-voxel light-microscopic data sets is of
+much current interest. A fundamental problem in this field is the mapping of
+individual brain data sets to a reference space. Previous work has not
+rigorously quantified the distortions in brain geometry from in-vivo to ex-vivo
+brains due to the tissue processing, which will be important when computing
+properties such as local cell and process densities at the voxel level in
+creating reference brain maps. Further, existing approaches focus on
+registering uni-modal volumetric data; however, given the increasing interest
+in the marmoset model for neuroscience research, it is necessary to
+cross-register multi-modal data sets including MRIs and multiple histological
+series that can help address individual variations in brain architecture. Here
+we present a computational approach for same-subject multimodal MRI guided
+reconstruction of a histological series, jointly with diffeomorphic mapping to
+a reference atlas. We quantify the scale change during the different stages of
+histological processing of the brains using the Jacobian determinant of the
+diffeomorphic transformations involved. There are two major steps in the
+histology process with associated scale distortions (a) brain perfusion (b)
+histological sectioning and reassembly. By mapping the final image stacks to
+the ex-vivo post fixation MRI, we show that tape-transfer histology can be
+reassembled accurately into 3D volumes with a local scale change of 2.0 $\pm$
+0.4% per axis dimension. In contrast, the perfusion step, as assessed by
+mapping the in-vivo MRIs to the ex-vivo post fixation MRIs, shows a larger
+local scale change of 6.9 $\pm$ 2.1% per axis dimension. This is the first
+systematic quantification of the local metric distortions associated with
+whole-brain histological processing, and we expect that the results will
+generalize to other species.

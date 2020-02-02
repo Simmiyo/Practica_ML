@@ -1,0 +1,17 @@
+Stochastic Variance Reduced Riemannian Eigensolver
+We study the stochastic Riemannian gradient algorithm for matrix
+eigen-decomposition. The state-of-the-art stochastic Riemannian algorithm
+requires the learning rate to decay to zero and thus suffers from slow
+convergence and sub-optimal solutions. In this paper, we address this issue by
+deploying the variance reduction (VR) technique of stochastic gradient descent
+(SGD). The technique was originally developed to solve convex problems in the
+Euclidean space. We generalize it to Riemannian manifolds and realize it to
+solve the non-convex eigen-decomposition problem. We are the first to propose
+and analyze the generalization of SVRG to Riemannian manifolds. Specifically,
+we propose the general variance reduction form, SVRRG, in the framework of the
+stochastic Riemannian gradient optimization. It's then specialized to the
+problem with eigensolvers and induces the SVRRG-EIGS algorithm. We provide a
+novel and elegant theoretical analysis on this algorithm. The theory shows that
+a fixed learning rate can be used in the Riemannian setting with an exponential
+global convergence rate guaranteed. The theoretical results make a significant
+improvement over existing studies, with the effectiveness empirically verified.

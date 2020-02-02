@@ -1,0 +1,19 @@
+Exploiting gradients and Hessians in Bayesian optimization and Bayesian
+  quadrature
+An exciting branch of machine learning research focuses on methods for
+learning, optimizing, and integrating unknown functions that are difficult or
+costly to evaluate. A popular Bayesian approach to this problem uses a Gaussian
+process (GP) to construct a posterior distribution over the function of
+interest given a set of observed measurements, and selects new points to
+evaluate using the statistics of this posterior. Here we extend these methods
+to exploit derivative information from the unknown function. We describe
+methods for Bayesian optimization (BO) and Bayesian quadrature (BQ) in settings
+where first and second derivatives may be evaluated along with the function
+itself. We perform sampling-based inference in order to incorporate uncertainty
+over hyperparameters, and show that both hyperparameter and function
+uncertainty decrease much more rapidly when using derivative information.
+Moreover, we introduce techniques for overcoming ill-conditioning issues that
+have plagued earlier methods for gradient-enhanced Gaussian processes and
+kriging. We illustrate the efficacy of these methods using applications to real
+and simulated Bayesian optimization and quadrature problems, and show that
+exploting derivatives can provide substantial gains over standard methods.

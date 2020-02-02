@@ -1,0 +1,13 @@
+Semantic Parsing Natural Language into SPARQL: Improving Target Language
+  Representation with Neural Attention
+Semantic parsing is the process of mapping a natural language sentence into a
+formal representation of its meaning. In this work we use the neural network
+approach to transform natural language sentence into a query to an ontology
+database in the SPARQL language. This method does not rely on handcraft-rules,
+high-quality lexicons, manually-built templates or other handmade complex
+structures. Our approach is based on vector space model and neural networks.
+The proposed model is based in two learning steps. The first step generates a
+vector representation for the sentence in natural language and SPARQL query.
+The second step uses this vector representation as input to a neural network
+(LSTM with attention mechanism) to generate a model able to encode natural
+language and decode SPARQL.

@@ -1,0 +1,20 @@
+Putting a bug in ML: The moth olfactory network learns to read MNIST
+We seek to (i) characterize the learning architectures exploited in
+biological neural networks for training on very few samples, and (ii) port
+these algorithmic structures to a machine learning context. The Moth Olfactory
+Network is among the simplest biological neural systems that can learn, and its
+architecture includes key structural elements and mechanisms widespread in
+biological neural nets, such as cascaded networks, competitive inhibition, high
+intrinsic noise, sparsity, reward mechanisms, and Hebbian plasticity. These
+structural biological elements, in combination, enable rapid learning.
+  MothNet is a computational model of the Moth Olfactory Network, closely
+aligned with the moth's known biophysics and with in vivo electrode data
+collected from moths learning new odors. We assign this model the task of
+learning to read the MNIST digits. We show that MothNet successfully learns to
+read given very few training samples (1 to 10 samples per class). In this
+few-samples regime, it outperforms standard machine learning methods such as
+nearest-neighbors, support-vector machines, and neural networks (NNs), and
+matches specialized one-shot transfer-learning methods but without the need for
+pre-training. The MothNet architecture illustrates how algorithmic structures
+derived from biological brains can be used to build alternative NNs that may
+avoid some of the learning rate limitations of current engineered NNs.

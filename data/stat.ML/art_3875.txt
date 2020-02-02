@@ -1,0 +1,17 @@
+Extracting Predictive Information from Heterogeneous Data Streams using
+  Gaussian Processes
+Financial markets are notoriously complex environments, presenting vast
+amounts of noisy, yet potentially informative data. We consider the problem of
+forecasting financial time series from a wide range of information sources
+using online Gaussian Processes with Automatic Relevance Determination (ARD)
+kernels. We measure the performance gain, quantified in terms of Normalised
+Root Mean Square Error (NRMSE), Median Absolute Deviation (MAD) and Pearson
+correlation, from fusing each of four separate data domains: time series
+technicals, sentiment analysis, options market data and broker recommendations.
+We show evidence that ARD kernels produce meaningful feature rankings that help
+retain salient inputs and reduce input dimensionality, providing a framework
+for sifting through financial complexity. We measure the performance gain from
+fusing each domain's heterogeneous data streams into a single probabilistic
+model. In particular our findings highlight the critical value of options data
+in mapping out the curvature of price space and inspire an intuitive, novel
+direction for research in financial prediction.

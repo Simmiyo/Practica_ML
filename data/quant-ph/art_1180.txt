@@ -1,0 +1,13 @@
+Quantum Computer Can Not Speed Up Iterated Applications of a Black Box
+Let a classical algorithm be determined by sequential applications of a black
+box performing one step of this algorithm. If we consider this black box as an
+oracle which gives a value F(a) for any query a, we can compute T sequential
+applications of F on a classical computer relative to this oracle in time T.
+  It is proved that if T=O(2^{n/7}), where n is the length of input, then the
+result of T sequential applications of F can not be computed on quantum
+computer with oracle for F for all possible F faster than in time \Omega (T).
+This means that there is no general method of quantum speeding up of classical
+algorithms provided in such a general method a classical algorithm is regarded
+as iterated applications of a given black box.
+  For an arbitrary time complexity T a lower bound for the time of quantum
+simulation was found to be \Omega (T^{1/2}).

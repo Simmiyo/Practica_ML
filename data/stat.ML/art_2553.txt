@@ -1,0 +1,14 @@
+Loss minimization and parameter estimation with heavy tails
+This work studies applications and generalizations of a simple estimation
+technique that provides exponential concentration under heavy-tailed
+distributions, assuming only bounded low-order moments. We show that the
+technique can be used for approximate minimization of smooth and strongly
+convex losses, and specifically for least squares linear regression. For
+instance, our $d$-dimensional estimator requires just
+$\tilde{O}(d\log(1/\delta))$ random samples to obtain a constant factor
+approximation to the optimal least squares loss with probability $1-\delta$,
+without requiring the covariates or noise to be bounded or subgaussian. We
+provide further applications to sparse linear regression and low-rank
+covariance matrix estimation with similar allowances on the noise and covariate
+distributions. The core technique is a generalization of the median-of-means
+estimator to arbitrary metric spaces.

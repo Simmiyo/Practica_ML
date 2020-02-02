@@ -1,0 +1,15 @@
+Cross-Validation with Confidence
+Cross-validation is one of the most popular model selection methods in
+statistics and machine learning. Despite its wide applicability, traditional
+cross validation methods tend to select overfitting models, due to the
+ignorance of the uncertainty in the testing sample. We develop a new,
+statistically principled inference tool based on cross-validation that takes
+into account the uncertainty in the testing sample. This new method outputs a
+set of highly competitive candidate models containing the best one with
+guaranteed probability. As a consequence, our method can achieve consistent
+variable selection in a classical linear regression setting, for which existing
+cross-validation methods require unconventional split ratios. When used for
+regularizing tuning parameter selection, the method can provide a further
+trade-off between prediction accuracy and model interpretability. We
+demonstrate the performance of the proposed method in several simulated and
+real data examples.

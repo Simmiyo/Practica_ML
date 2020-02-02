@@ -1,0 +1,25 @@
+Radiative Transfer and Radiative driving of Outflows in AGN and
+  Starbursts
+To facilitate the study of black hole fueling, star formation, and feedback
+in galaxies, we outline a method for treating the radial forces on interstellar
+gas due to absorption of photons by dust grains. The method gives the correct
+behavior in all of the relevant limits (dominated by the central point source;
+dominated by the distributed isotropic source; optically thin; optically thick
+to UV/optical; optically thick to IR) and reasonably interpolates between the
+limits when necessary. The method is explicitly energy conserving so that
+UV/optical photons that are absorbed are not lost, but are rather redistributed
+to the IR where they may scatter out of the galaxy. We implement the radiative
+transfer algorithm in a two-dimensional hydrodynamical code designed to study
+feedback processes in the context of early-type galaxies. We find that the
+dynamics and final state of simulations are measurably but only moderately
+affected by radiative forces on dust, even when assumptions about the
+dust-to-gas ratio are varied from zero to a value appropriate for the Milky
+Way. In simulations with high gas densities designed to mimic ULIRGs with a
+star formation rate of several hundred solar masses per year, dust makes a more
+substantial contribution to the dynamics and outcome of the simulation. We find
+that, despite the large opacity of dust to UV radiation, the momentum input to
+the flow from radiation very rarely exceeds L/c due to two factors: the low
+opacity of dust to the re-radiated IR and the tendency for dust to be destroyed
+by sputtering in hot gas environments. We also develop a simplification of our
+radiative transfer algorithm that respects the essential physics but is much
+easier to implement and requires a fraction of the computational cost.

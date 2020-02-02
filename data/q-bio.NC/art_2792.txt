@@ -1,0 +1,20 @@
+Integration of continuous-time dynamics in a spiking neural network
+  simulator
+Contemporary modeling approaches to the dynamics of neural networks consider
+two main classes of models: biologically grounded spiking neurons and
+functionally inspired rate-based units. The unified simulation framework
+presented here supports the combination of the two for multi-scale modeling
+approaches, the quantitative validation of mean-field approaches by spiking
+network simulations, and an increase in reliability by usage of the same
+simulation code and the same network model specifications for both model
+classes. While most efficient spiking simulations rely on the communication of
+discrete events, rate models require time-continuous interactions between
+neurons. Exploiting the conceptual similarity to the inclusion of gap junctions
+in spiking network simulations, we arrive at a reference implementation of
+instantaneous and delayed interactions between rate-based models in a spiking
+network simulator. The separation of rate dynamics from the general connection
+and communication infrastructure ensures flexibility of the framework. We
+further demonstrate the broad applicability of the framework by considering
+various examples from the literature ranging from random networks to neural
+field models. The study provides the prerequisite for interactions between
+rate-based and spiking models in a joint simulation.

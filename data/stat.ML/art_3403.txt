@@ -1,0 +1,12 @@
+The LICORS Cabinet: Nonparametric Algorithms for Spatio-temporal
+  Prediction
+Spatio-temporal data is intrinsically high dimensional, so unsupervised
+modeling is only feasible if we can exploit structure in the process. When the
+dynamics are local in both space and time, this structure can be exploited by
+splitting the global field into many lower-dimensional "light cones". We review
+light cone decompositions for predictive state reconstruction, introducing
+three simple light cone algorithms. These methods allow for tractable inference
+of spatio-temporal data, such as full-frame video. The algorithms make few
+assumptions on the underlying process yet have good predictive performance and
+can provide distributions over spatio-temporal data, enabling sophisticated
+probabilistic inference.

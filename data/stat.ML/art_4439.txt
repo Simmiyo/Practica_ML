@@ -1,0 +1,14 @@
+Semi-supervised learning of hierarchical representations of molecules
+  using neural message passing
+With the rapid increase of compound databases available in medicinal and
+material science, there is a growing need for learning representations of
+molecules in a semi-supervised manner. In this paper, we propose an
+unsupervised hierarchical feature extraction algorithm for molecules (or more
+generally, graph-structured objects with fixed number of types of nodes and
+edges), which is applicable to both unsupervised and semi-supervised tasks. Our
+method extends recently proposed Paragraph Vector algorithm and incorporates
+neural message passing to obtain hierarchical representations of subgraphs. We
+applied our method to an unsupervised task and demonstrated that it outperforms
+existing proposed methods in several benchmark datasets. We also experimentally
+showed that semi-supervised tasks enhanced predictive performance compared with
+supervised ones with labeled molecules only.

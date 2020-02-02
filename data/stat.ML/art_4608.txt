@@ -1,0 +1,14 @@
+Loss Bounds and Time Complexity for Speed Priors
+This paper establishes for the first time the predictive performance of speed
+priors and their computational complexity. A speed prior is essentially a
+probability distribution that puts low probability on strings that are not
+efficiently computable. We propose a variant to the original speed prior
+(Schmidhuber, 2002), and show that our prior can predict sequences drawn from
+probability measures that are estimable in polynomial time. Our speed prior is
+computable in doubly-exponential time, but not in polynomial time. On a
+polynomial time computable sequence our speed prior is computable in
+exponential time. We show better upper complexity bounds for Schmidhuber's
+speed prior under the same conditions, and that it predicts deterministic
+sequences that are computable in polynomial time; however, we also show that it
+is not computable in polynomial time, and the question of its predictive
+properties for stochastic sequences remains open.

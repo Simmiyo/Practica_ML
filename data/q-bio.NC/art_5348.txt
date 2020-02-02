@@ -1,0 +1,22 @@
+Computational EEG in Personalized Medicine: A study in Parkinson's
+  Disease
+Recordings of electrical brain activity carry information about a person's
+cognitive health. For recording EEG signals, a very common setting is for a
+subject to be at rest with its eyes closed. Analysis of these recordings often
+involve a dimensionality reduction step in which electrodes are grouped into 10
+or more regions (depending on the number of electrodes available). Then an
+average over each group is taken which serves as a feature in subsequent
+evaluation. Currently, the most prominent features used in clinical practice
+are based on spectral power densities. In our work we consider a simplified
+grouping of electrodes into two regions only. In addition to spectral features
+we introduce a secondary, non-redundant view on brain activity through the lens
+of Tsallis Entropy $S_{q=2}$. We further take EEG measurements not only in an
+eyes closed (ec) but also in an eyes open (eo) state. For our cohort of healthy
+controls (HC) and individuals suffering from Parkinson's disease (PD), the
+question we are asking is the following: How well can one discriminate between
+HC and PD within this simplified, binary grouping? This question is motivated
+by the commercial availability of inexpensive and easy to use portable EEG
+devices. If enough information is retained in this binary grouping, then such
+simple devices could potentially be used as personal monitoring tools, as
+standard screening tools by general practitioners or as digital biomarkers for
+easy long term monitoring during neurological studies.

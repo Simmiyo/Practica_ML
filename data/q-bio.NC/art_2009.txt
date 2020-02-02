@@ -1,0 +1,21 @@
+State dependent computation using coupled recurrent networks
+Although conditional branching between possible behavioural states is a
+hallmark of intelligent behavior, very little is known about the neuronal
+mechanisms that support this processing. In a step toward solving this problem
+we demonstrate by theoretical analysis and simulation how networks of richly
+inter-connected neurons, such as those observed in the superficial layers of
+the neocortex, can embed reliable robust finite state machines. We show how a
+multi-stable neuronal network containing a number of states can be created very
+simply, by coupling two recurrent networks whose synaptic weights have been
+configured for soft winner-take-all (sWTA) performance. These two sWTAs have
+simple, homogenous locally recurrent connectivity except for a small fraction
+of recurrent cross-connections between them, which are used to embed the
+required states. This coupling between the maps allows the network to continue
+to express the current state even after the input that elicted that state is
+withdrawn. In addition, a small number of 'transition neurons' implement the
+necessary input-driven transitions between the embedded states. We provide
+simple rules to systematically design and construct neuronal state machines of
+this kind. The significance of our finding is that it offers a method whereby
+the cortex could construct networks supporting a broad range of sophisticated
+processing by applying only small specializations to the same generic neuronal
+circuit.

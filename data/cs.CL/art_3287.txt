@@ -1,0 +1,16 @@
+PronouncUR: An Urdu Pronunciation Lexicon Generator
+State-of-the-art speech recognition systems rely heavily on three basic
+components: an acoustic model, a pronunciation lexicon and a language model. To
+build these components, a researcher needs linguistic as well as technical
+expertise, which is a barrier in low-resource domains. Techniques to construct
+these three components without having expert domain knowledge are in great
+demand. Urdu, despite having millions of speakers all over the world, is a
+low-resource language in terms of standard publically available linguistic
+resources. In this paper, we present a grapheme-to-phoneme conversion tool for
+Urdu that generates a pronunciation lexicon in a form suitable for use with
+speech recognition systems from a list of Urdu words. The tool predicts the
+pronunciation of words using a LSTM-based model trained on a handcrafted expert
+lexicon of around 39,000 words and shows an accuracy of 64% upon internal
+evaluation. For external evaluation on a speech recognition task, we obtain a
+word error rate comparable to one achieved using a fully handcrafted expert
+lexicon.

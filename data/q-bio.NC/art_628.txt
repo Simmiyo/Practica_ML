@@ -1,0 +1,25 @@
+Mean Time-to-Fire for the Noisy LIF Neuron - A Detailed Derivation of
+  the Siegert Formula
+When stimulated by a very large number of Poisson-like presynaptic current
+input spikes, the temporal dynamics of the soma membrane potential $V(t)$ of a
+leaky integrate-and-fire (LIF) neuron is typically modeled in the diffusion
+limit and treated as a Ornstein-Uhlenbeck process (OUP). When the potential
+reaches a threshold value $\theta$, $V(t) = \theta$, the LIF neuron fires and
+the membrane potential is reset to a resting value, $V_0 < \theta$, and clamped
+to this value for a specified (non-stochastic) absolute refractory period $T_r
+\ge 0$, after which the cycle is repeated. The time between firings is given by
+the random variable $T_f = T_r+ T$ where $T$ is the random time which elapses
+between the "unpinning" of the membrane potential clamp and the next,
+subsequent firing of the neuron. The mean time-to-fire, $\widehat{T}_f =
+\text{E}(T_f) = T_r + \text{E}(T) = T_r + \widehat{T}$, provides a measure
+$\rho$ of the average firing rate of the neuron, \[ \rho = \widehat{T}_f^{-1} =
+\frac{1}{T_r + \widehat{T}} . \] This note briefly discusses some aspects of
+the OUP model and derives the Siegert formula giving the firing rate, $\rho =
+\rho(I_0)$ as a function of an injected current, $I_0$. This is a well-known
+classical result and no claim to originality is made. The derivation of the
+firing rate given in this report, which closely follows the derivation outlined
+in the textbook by Gardiner, minimizes the required mathematical background and
+is done in some pedagogic detail to facilitate study by graduate students and
+others who are new to the subject. Knowledge of the material presented in the
+first five chapters of Gardiner should provide an adequate background for
+following the derivation given in this note.

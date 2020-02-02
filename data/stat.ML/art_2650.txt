@@ -1,0 +1,15 @@
+Bayesian Information Sharing Between Noise And Regression Models
+  Improves Prediction of Weak Effects
+We consider the prediction of weak effects in a multiple-output regression
+setup, when covariates are expected to explain a small amount, less than
+$\approx 1%$, of the variance of the target variables. To facilitate the
+prediction of the weak effects, we constrain our model structure by introducing
+a novel Bayesian approach of sharing information between the regression model
+and the noise model. Further reduction of the effective number of parameters is
+achieved by introducing an infinite shrinkage prior and group sparsity in the
+context of the Bayesian reduced rank regression, and using the Bayesian
+infinite factor model as a flexible low-rank noise model. In our experiments
+the model incorporating the novelties outperformed alternatives in genomic
+prediction of rich phenotype data. In particular, the information sharing
+between the noise and regression models led to significant improvement in
+prediction accuracy.

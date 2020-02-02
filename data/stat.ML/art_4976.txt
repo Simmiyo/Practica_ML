@@ -1,0 +1,17 @@
+hi-RF: Incremental Learning Random Forest for large-scale multi-class
+  Data Classification
+In recent years, dynamically growing data and incrementally growing number of
+classes pose new challenges to large-scale data classification research. Most
+traditional methods struggle to balance the precision and computational burden
+when data and its number of classes increased. However, some methods are with
+weak precision, and the others are time-consuming. In this paper, we propose an
+incremental learning method, namely, heterogeneous incremental Nearest Class
+Mean Random Forest (hi-RF), to handle this issue. It is a heterogeneous method
+that either replaces trees or updates trees leaves in the random forest
+adaptively, to reduce the computational time in comparable performance, when
+data of new classes arrive. Specifically, to keep the accuracy, one proportion
+of trees are replaced by new NCM decision trees; to reduce the computational
+load, the rest trees are updated their leaves probabilities only. Most of all,
+out-of-bag estimation and out-of-bag boosting are proposed to balance the
+accuracy and the computational efficiency. Fair experiments were conducted and
+demonstrated its comparable precision with much less computational time.

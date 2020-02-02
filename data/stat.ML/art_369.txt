@@ -1,0 +1,19 @@
+Online Matrix Completion Through Nuclear Norm Regularisation
+It is the main goal of this paper to propose a novel method to perform matrix
+completion on-line. Motivated by a wide variety of applications, ranging from
+the design of recommender systems to sensor network localization through
+seismic data reconstruction, we consider the matrix completion problem when
+entries of the matrix of interest are observed gradually. Precisely, we place
+ourselves in the situation where the predictive rule should be refined
+incrementally, rather than recomputed from scratch each time the sample of
+observed entries increases. The extension of existing matrix completion methods
+to the sequential prediction context is indeed a major issue in the Big Data
+era, and yet little addressed in the literature. The algorithm promoted in this
+article builds upon the Soft Impute approach introduced in Mazumder et al.
+(2010). The major novelty essentially arises from the use of a randomised
+technique for both computing and updating the Singular Value Decomposition
+(SVD) involved in the algorithm. Though of disarming simplicity, the method
+proposed turns out to be very efficient, while requiring reduced computations.
+Several numerical experiments based on real datasets illustrating its
+performance are displayed, together with preliminary results giving it a
+theoretical basis.

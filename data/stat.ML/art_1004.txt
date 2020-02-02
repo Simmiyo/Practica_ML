@@ -1,0 +1,17 @@
+An Adaptive Resample-Move Algorithm for Estimating Normalizing Constants
+The estimation of normalizing constants is a fundamental step in
+probabilistic model comparison. Sequential Monte Carlo methods may be used for
+this task and have the advantage of being inherently parallelizable. However,
+the standard choice of using a fixed number of particles at each iteration is
+suboptimal because some steps will contribute disproportionately to the
+variance of the estimate. We introduce an adaptive version of the Resample-Move
+algorithm, in which the particle set is adaptively expanded whenever a better
+approximation of an intermediate distribution is needed. The algorithm builds
+on the expression for the optimal number of particles and the corresponding
+minimum variance found under ideal conditions. Benchmark results on challenging
+Gaussian Process Classification and Restricted Boltzmann Machine applications
+show that Adaptive Resample-Move (ARM) estimates the normalizing constant with
+a smaller variance, using less computational resources, than either
+Resample-Move with a fixed number of particles or Annealed Importance Sampling.
+A further advantage over Annealed Importance Sampling is that ARM is easier to
+tune.

@@ -1,0 +1,13 @@
+Noisy-parallel and comparable corpora filtering methodology for the
+  extraction of bi-lingual equivalent data at sentence level
+Text alignment and text quality are critical to the accuracy of Machine
+Translation (MT) systems, some NLP tools, and any other text processing tasks
+requiring bilingual data. This research proposes a language independent
+bi-sentence filtering approach based on Polish (not a position-sensitive
+language) to English experiments. This cleaning approach was developed on the
+TED Talks corpus and also initially tested on the Wikipedia comparable corpus,
+but it can be used for any text domain or language pair. The proposed approach
+implements various heuristics for sentence comparison. Some of them leverage
+synonyms and semantic and structural analysis of text as additional
+information. Minimization of data loss was ensured. An improvement in MT system
+score with text processed using the tool is discussed.

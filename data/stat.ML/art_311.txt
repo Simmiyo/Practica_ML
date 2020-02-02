@@ -1,0 +1,16 @@
+Sparse and Functional Principal Components Analysis
+Regularized variants of Principal Components Analysis, especially Sparse PCA
+and Functional PCA, are among the most useful tools for the analysis of complex
+high-dimensional data. Many examples of massive data, have both sparse and
+functional (smooth) aspects and may benefit from a regularization scheme that
+can capture both forms of structure. For example, in neuro-imaging data, the
+brain's response to a stimulus may be restricted to a discrete region of
+activation (spatial sparsity), while exhibiting a smooth response within that
+region. We propose a unified approach to regularized PCA which can induce both
+sparsity and smoothness in both the row and column principal components. Our
+framework generalizes much of the previous literature, with sparse, functional,
+two-way sparse, and two-way functional PCA all being special cases of our
+approach. Our method permits flexible combinations of sparsity and smoothness
+that lead to improvements in feature selection and signal recovery, as well as
+more interpretable PCA factors. We demonstrate the efficacy of our method on
+simulated data and a neuroimaging example on EEG data.

@@ -1,0 +1,17 @@
+Efficient Estimation of the number of neighbours in Probabilistic K
+  Nearest Neighbour Classification
+Probabilistic k-nearest neighbour (PKNN) classification has been introduced
+to improve the performance of original k-nearest neighbour (KNN) classification
+algorithm by explicitly modelling uncertainty in the classification of each
+feature vector. However, an issue common to both KNN and PKNN is to select the
+optimal number of neighbours, $k$. The contribution of this paper is to
+incorporate the uncertainty in $k$ into the decision making, and in so doing
+use Bayesian model averaging to provide improved classification. Indeed the
+problem of assessing the uncertainty in $k$ can be viewed as one of statistical
+model selection which is one of the most important technical issues in the
+statistics and machine learning domain. In this paper, a new functional
+approximation algorithm is proposed to reconstruct the density of the model
+(order) without relying on time consuming Monte Carlo simulations. In addition,
+this algorithm avoids cross validation by adopting Bayesian framework. The
+performance of this algorithm yielded very good performance on several real
+experimental datasets.

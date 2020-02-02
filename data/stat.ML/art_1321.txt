@@ -1,0 +1,16 @@
+Improved Clustering with Augmented k-means
+Identifying a set of homogeneous clusters in a heterogeneous dataset is one
+of the most important classes of problems in statistical modeling. In the realm
+of unsupervised partitional clustering, k-means is a very important algorithm
+for this. In this technical report, we develop a new k-means variant called
+Augmented k-means, which is a hybrid of k-means and logistic regression. During
+each iteration, logistic regression is used to predict the current cluster
+labels, and the cluster belonging probabilities are used to control the
+subsequent re-estimation of cluster means. Observations which can't be firmly
+identified into clusters are excluded from the re-estimation step. This can be
+valuable when the data exhibit many characteristics of real datasets such as
+heterogeneity, non-sphericity, substantial overlap, and high scatter. Augmented
+k-means frequently outperforms k-means by more accurately classifying
+observations into known clusters and / or converging in fewer iterations. We
+demonstrate this on both simulated and real datasets. Our algorithm is
+implemented in Python and will be available with this report.

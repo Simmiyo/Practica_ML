@@ -1,0 +1,12 @@
+Incremental Variational Inference for Latent Dirichlet Allocation
+We introduce incremental variational inference and apply it to latent
+Dirichlet allocation (LDA). Incremental variational inference is inspired by
+incremental EM and provides an alternative to stochastic variational inference.
+Incremental LDA can process massive document collections, does not require to
+set a learning rate, converges faster to a local optimum of the variational
+bound and enjoys the attractive property of monotonically increasing it. We
+study the performance of incremental LDA on large benchmark data sets. We
+further introduce a stochastic approximation of incremental variational
+inference which extends to the asynchronous distributed setting. The resulting
+distributed algorithm achieves comparable performance as single host
+incremental variational inference, but with a significant speed-up.

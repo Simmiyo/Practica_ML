@@ -1,0 +1,18 @@
+Quantum Bit Escrow
+Unconditionally secure bit commitment and coin flipping are known to be
+impossible in the classical world. Bit commitment is known to be impossible
+also in the quantum world. We introduce a related new primitive - {\em quantum
+bit escrow}. In this primitive Alice commits to a bit $b$ to Bob. The
+commitment is {\em binding} in the sense that if Alice is asked to reveal the
+bit, Alice can not bias her commitment without having a good probability of
+being detected cheating. The commitment is {\em sealing} in the sense that if
+Bob learns information about the encoded bit, then if later on he is asked to
+prove he was playing honestly, he is detected cheating with a good probability.
+Rigorously proving the correctness of quantum cryptographic protocols has
+proved to be a difficult task. We develop techniques to prove quantitative
+statements about the binding and sealing properties of the quantum bit escrow
+protocol.
+  A related primitive we construct is a quantum biased coin flipping protocol
+where no player can control the game, i.e., even an all-powerful cheating
+player must lose with some constant probability, which stands in sharp contrast
+to the classical world where such protocols are impossible.

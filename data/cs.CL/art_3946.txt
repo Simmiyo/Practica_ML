@@ -1,0 +1,23 @@
+How much does a word weigh? Weighting word embeddings for word sense
+  induction
+The paper describes our participation in the first shared task on word sense
+induction and disambiguation for the Russian language RUSSE'2018 (Panchenko et
+al., 2018). For each of several dozens of ambiguous words, the participants
+were asked to group text fragments containing it according to the senses of
+this word, which were not provided beforehand, therefore the "induction" part
+of the task. For instance, a word "bank" and a set of text fragments (also
+known as "contexts") in which this word occurs, e.g. "bank is a financial
+institution that accepts deposits" and "river bank is a slope beside a body of
+water" were given. A participant was asked to cluster such contexts in the
+unknown in advance number of clusters corresponding to, in this case, the
+"company" and the "area" senses of the word "bank". The organizers proposed
+three evaluation datasets of varying complexity and text genres based
+respectively on texts of Wikipedia, Web pages, and a dictionary of the Russian
+language. We present two experiments: a positive and a negative one, based
+respectively on clustering of contexts represented as a weighted average of
+word embeddings and on machine translation using two state-of-the-art
+production neural machine translation systems. Our team showed the second best
+result on two datasets and the third best result on the remaining one dataset
+among 18 participating teams. We managed to substantially outperform
+competitive state-of-the-art baselines from the previous years based on sense
+embeddings.

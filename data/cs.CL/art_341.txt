@@ -1,0 +1,17 @@
+Robustness Evaluation of Two CCG, a PCFG and a Link Grammar Parsers
+Robustness in a parser refers to an ability to deal with exceptional
+phenomena. A parser is robust if it deals with phenomena outside its normal
+range of inputs. This paper reports on a series of robustness evaluations of
+state-of-the-art parsers in which we concentrated on one aspect of robustness:
+its ability to parse sentences containing misspelled words. We propose two
+measures for robustness evaluation based on a comparison of a parser's output
+for grammatical input sentences and their noisy counterparts. In this paper, we
+use these measures to compare the overall robustness of the four evaluated
+parsers, and we present an analysis of the decline in parser performance with
+increasing error levels. Our results indicate that performance typically
+declines tens of percentage units when parsers are presented with texts
+containing misspellings. When it was tested on our purpose-built test set of
+443 sentences, the best parser in the experiment (C&C parser) was able to
+return exactly the same parse tree for the grammatical and ungrammatical
+sentences for 60.8%, 34.0% and 14.9% of the sentences with one, two or three
+misspelled words respectively.

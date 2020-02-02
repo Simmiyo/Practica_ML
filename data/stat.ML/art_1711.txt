@@ -1,0 +1,14 @@
+Toward a Classification of Finite Partial-Monitoring Games
+Partial-monitoring games constitute a mathematical framework for sequential
+decision making problems with imperfect feedback: The learner repeatedly
+chooses an action, opponent responds with an outcome, and then the learner
+suffers a loss and receives a feedback signal, both of which are fixed
+functions of the action and the outcome. The goal of the learner is to minimize
+his total cumulative loss. We make progress towards the classification of these
+games based on their minimax expected regret. Namely, we classify almost all
+games with two outcomes and finite number of actions: We show that their
+minimax expected regret is either zero, $\widetilde{\Theta}(\sqrt{T})$,
+$\Theta(T^{2/3})$, or $\Theta(T)$ and we give a simple and efficiently
+computable classification of these four classes of games. Our hope is that the
+result can serve as a stepping stone toward classifying all finite
+partial-monitoring games.

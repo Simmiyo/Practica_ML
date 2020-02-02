@@ -1,0 +1,17 @@
+Labeler-hot Detection of EEG Epileptic Transients
+Preventing early progression of epilepsy and so the severity of seizures
+requires an effective diagnosis. Epileptic transients indicate the ability to
+develop seizures but humans overlook such brief events in an
+electroencephalogram (EEG) what compromises patient treatment. Traditionally,
+training of the EEG event detection algorithms has relied on ground truth
+labels, obtained from the consensus of the majority of labelers. In this work,
+we go beyond labeler consensus on EEG data. Our event descriptor integrates EEG
+signal features with one-hot encoded labeler category that is a key to improved
+generalization performance. Notably, boosted decision trees take advantage of
+singly-labeled but more varied training sets. Our quantitative experiments show
+the proposed labeler-hot epileptic event detector consistently outperforms a
+consensus-trained detector and maintains confidence bounds of the detection.
+The results on our infant EEG recordings suggest datasets can gain higher event
+variety faster and thus better performance by shifting available human effort
+from consensus-oriented to separate labeling when labels include both, the
+event and the labeler category.

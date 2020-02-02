@@ -1,0 +1,17 @@
+Zooming Network
+Structural information is important in natural language understanding.
+Although some current neural net-based models have a limited ability to take
+local syntactic information, they fail to use high-level and large-scale
+structures of documents. This information is valuable for text understanding
+since it contains the author's strategy to express information, in building an
+effective representation and forming appropriate output modes. We propose a
+neural net-based model, Zooming Network, capable of representing and leveraging
+text structure of long document and developing its own analyzing rhythm to
+extract critical information. Generally, ZN consists of an encoding neural net
+that can build a hierarchical representation of a document, and an interpreting
+neural model that can read the information at multi-levels and issuing labeling
+actions through a policy-net. Our model is trained with a hybrid paradigm of
+supervised learning (distinguishing right and wrong decision) and reinforcement
+learning (determining the goodness among multiple right paths). We applied the
+proposed model to long text sequence labeling tasks, with performance exceeding
+baseline model (biLSTM-crf) by 10 F1-measure.

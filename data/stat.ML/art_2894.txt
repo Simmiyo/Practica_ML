@@ -1,0 +1,16 @@
+An Entropy Search Portfolio for Bayesian Optimization
+Bayesian optimization is a sample-efficient method for black-box global
+optimization. How- ever, the performance of a Bayesian optimization method very
+much depends on its exploration strategy, i.e. the choice of acquisition
+function, and it is not clear a priori which choice will result in superior
+performance. While portfolio methods provide an effective, principled way of
+combining a collection of acquisition functions, they are often based on
+measures of past performance which can be misleading. To address this issue, we
+introduce the Entropy Search Portfolio (ESP): a novel approach to portfolio
+construction which is motivated by information theoretic considerations. We
+show that ESP outperforms existing portfolio methods on several real and
+synthetic problems, including geostatistical datasets and simulated control
+tasks. We not only show that ESP is able to offer performance as good as the
+best, but unknown, acquisition function, but surprisingly it often gives better
+performance. Finally, over a wide range of conditions we find that ESP is
+robust to the inclusion of poor acquisition functions.

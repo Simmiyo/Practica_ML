@@ -1,0 +1,12 @@
+Long Short-Term Memory for Japanese Word Segmentation
+This study presents a Long Short-Term Memory (LSTM) neural network approach
+to Japanese word segmentation (JWS). Previous studies on Chinese word
+segmentation (CWS) succeeded in using recurrent neural networks such as LSTM
+and gated recurrent units (GRU). However, in contrast to Chinese, Japanese
+includes several character types, such as hiragana, katakana, and kanji, that
+produce orthographic variations and increase the difficulty of word
+segmentation. Additionally, it is important for JWS tasks to consider a global
+context, and yet traditional JWS approaches rely on local features. In order to
+address this problem, this study proposes employing an LSTM-based approach to
+JWS. The experimental results indicate that the proposed model achieves
+state-of-the-art accuracy with respect to various Japanese corpora.

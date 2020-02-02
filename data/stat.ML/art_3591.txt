@@ -1,0 +1,18 @@
+Accelerometer based Activity Classification with Variational Inference
+  on Sticky HDP-SLDS
+As part of daily monitoring of human activities, wearable sensors and devices
+are becoming increasingly popular sources of data. With the advent of
+smartphones equipped with acceloremeter, gyroscope and camera; it is now
+possible to develop activity classification platforms everyone can use
+conveniently. In this paper, we propose a fast inference method for an
+unsupervised non-parametric time series model namely variational inference for
+sticky HDP-SLDS(Hierarchical Dirichlet Process Switching Linear Dynamical
+System). We show that the proposed algorithm can differentiate various indoor
+activities such as sitting, walking, turning, going up/down the stairs and
+taking the elevator using only the acceloremeter of an Android smartphone
+Samsung Galaxy S4. We used the front camera of the smartphone to annotate
+activity types precisely. We compared the proposed method with Hidden Markov
+Models with Gaussian emission probabilities on a dataset of 10 subjects. We
+showed that the efficacy of the stickiness property. We further compared the
+variational inference to the Gibbs sampler on the same model and show that
+variational inference is faster in one order of magnitude.

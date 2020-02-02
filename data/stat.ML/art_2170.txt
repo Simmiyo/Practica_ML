@@ -1,0 +1,13 @@
+Piecewise Training for Undirected Models
+For many large undirected models that arise in real-world applications, exact
+maximumlikelihood training is intractable, because it requires computing
+marginal distributions of the model. Conditional training is even more
+difficult, because the partition function depends not only on the parameters,
+but also on the observed input, requiring repeated inference over each training
+example. An appealing idea for such models is to independently train a local
+undirected classifier over each clique, afterwards combining the learned
+weights into a single global model. In this paper, we show that this piecewise
+method can be justified as minimizing a new family of upper bounds on the log
+partition function. On three natural-language data sets, piecewise training is
+more accurate than pseudolikelihood, and often performs comparably to global
+training using belief propagation.

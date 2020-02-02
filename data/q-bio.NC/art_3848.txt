@@ -1,0 +1,25 @@
+Detecting Neuronal Communities from Beginning of Activation Patterns
+The detection of neuronal communities is addressed with basis on two
+important concepts from neuroscience: facilitation of neuronal firing and
+nearly simultaneous beginning of activation of sets of neurons. More
+specifically, integrate-and-fire complex neuronal networks are activated at
+each of their nodes, and the dissemination of activation is monitored. As the
+activation received by each neuron accumulates, its firing gets facilitated.
+The time it takes for each neuron, other than the source, to receive the first
+non-zero input (beginning activation time) and the time for it to produce the
+first spike (beginning spiking time) are identified through simulations. It is
+shown, with respect to two synthetic and a real-world (\emph{C. elegans})
+neuronal complex networks, that the patterns of beginning activation times (and
+to a lesser extent also of the spiking times) tend to cluster into groups
+corresponding to communities of neurons in the original complex neuronal
+network. Such an effect is identified to be a direct consequence of the almost
+simultaneous activation between the nodes inside the same community in which
+the source of activation is placed, as well as of the respective trapping of
+activation implied by the integration of activiation prior to firing.
+Interestingly, the accumulation of activity and thresholds inside each neuron
+were found to be essential for constraining the initial activations within each
+respective community during the transient activation (no clear clusters were
+observed when using overall activation or spiking rates). In addition to its
+intrinsic value for neuroscience and structure-dynamics studies, these results
+confirm the importance of the consideration of transient dynamics in complex
+systems investigations.

@@ -1,0 +1,18 @@
+An Alternative to EM for Gaussian Mixture Models: Batch and Stochastic
+  Riemannian Optimization
+We consider maximum likelihood estimation for Gaussian Mixture Models (Gmms).
+This task is almost invariably solved (in theory and practice) via the
+Expectation Maximization (EM) algorithm. EM owes its success to various
+factors, of which is its ability to fulfill positive definiteness constraints
+in closed form is of key importance. We propose an alternative to EM by
+appealing to the rich Riemannian geometry of positive definite matrices, using
+which we cast Gmm parameter estimation as a Riemannian optimization problem.
+Surprisingly, such an out-of-the-box Riemannian formulation completely fails
+and proves much inferior to EM. This motivates us to take a closer look at the
+problem geometry, and derive a better formulation that is much more amenable to
+Riemannian optimization. We then develop (Riemannian) batch and stochastic
+gradient algorithms that outperform EM, often substantially. We provide a
+non-asymptotic convergence analysis for our stochastic method, which is also
+the first (to our knowledge) such global analysis for Riemannian stochastic
+gradient. Numerous empirical results are included to demonstrate the
+effectiveness of our methods.

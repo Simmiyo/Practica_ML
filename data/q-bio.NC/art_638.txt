@@ -1,0 +1,24 @@
+Neuronal calculus for the auditory pathway
+The first steps in the neural processing of sound are located in the auditory
+nerve and in the cochlear nuclei. To model the signal processing efficiently,
+we propose a simple mathematical tool that takes the minute timing of the
+system into account. In contrast to the situation in the cortex, the number of
+connections between neurons in auditory periphery is comparatively low. This
+gives way to an accurate modeling of the connectivity of the neuronal network.
+The timing is the all important feature in the peripheral neuronal auditory
+pathway. The primary auditory neurons e.g. phase lock to periodic sounds with
+important interactions with respect to both the refractory periods of the
+neurons and to the time delays caused by traveling times along the basilar
+membrane or through a synaptic connection. The mathematical tools provide a
+solid basis to build models for peripheral auditory processes. In particular,
+we study carefully a large class of refractory neurons, find analytical
+formulas for the spiking activity, and prove that refractory neurons respond to
+periodic signals by asymptotically periodic output. The methods rely on the
+theory of positive operators and give a numerical scheme for finding fixed
+points to an integral operator with geometric convergence rate. In addition, we
+consider a perfect integrator neuron, mathematically equivalent to randomized
+random walk, where the random walk is bounded from below, and solve the first
+passage time problem using continuous time Markov chain techniques. In an
+accompanying paper we set up the simulation framework as a counterpart to the
+present mathematical model. By suitably adjusting the few parameters in the
+model it is possible to reproduce the basic patterns of neural activity.

@@ -1,0 +1,16 @@
+Compound Poisson Processes, Latent Shrinkage Priors and Bayesian
+  Nonconvex Penalization
+In this paper we discuss Bayesian nonconvex penalization for sparse learning
+problems. We explore a nonparametric formulation for latent shrinkage
+parameters using subordinators which are one-dimensional L\'{e}vy processes. We
+particularly study a family of continuous compound Poisson subordinators and a
+family of discrete compound Poisson subordinators. We exemplify four specific
+subordinators: Gamma, Poisson, negative binomial and squared Bessel
+subordinators. The Laplace exponents of the subordinators are Bernstein
+functions, so they can be used as sparsity-inducing nonconvex penalty
+functions. We exploit these subordinators in regression problems, yielding a
+hierarchical model with multiple regularization parameters. We devise ECME
+(Expectation/Conditional Maximization Either) algorithms to simultaneously
+estimate regression coefficients and regularization parameters. The empirical
+evaluation of simulated data shows that our approach is feasible and effective
+in high-dimensional data analysis.

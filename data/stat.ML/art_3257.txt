@@ -1,0 +1,21 @@
+Quantifying Uncertainty in Stochastic Models with Parametric Variability
+We present a method to quantify uncertainty in the predictions made by
+simulations of mathematical models that can be applied to a broad class of
+stochastic, discrete, and differential equation models. Quantifying uncertainty
+is crucial for determining how accurate the model predictions are and
+identifying which input parameters affect the outputs of interest. Most of the
+existing methods for uncertainty quantification require many samples to
+generate accurate results, are unable to differentiate where the uncertainty is
+coming from (e.g., parameters or model assumptions), or require a lot of
+computational resources. Our approach addresses these challenges and
+opportunities by allowing different types of uncertainty, that is, uncertainty
+in input parameters as well as uncertainty created through stochastic model
+components. This is done by combining the Karhunen-Loeve decomposition,
+polynomial chaos expansion, and Bayesian Gaussian process regression to create
+a statistical surrogate for the stochastic model. The surrogate separates the
+analysis of variation arising through stochastic simulation and variation
+arising through uncertainty in the model parameterization. We illustrate our
+approach by quantifying the uncertainty in a stochastic ordinary differential
+equation epidemic model. Specifically, we estimate four quantities of interest
+for the epidemic model and show agreement between the surrogate and the actual
+model results.

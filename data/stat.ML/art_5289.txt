@@ -1,0 +1,13 @@
+Compressive Embedding and Visualization using Graphs
+Visualizing high-dimensional data has been a focus in data analysis
+communities for decades, which has led to the design of many algorithms, some
+of which are now considered references (such as t-SNE for example). In our era
+of overwhelming data volumes, the scalability of such methods have become more
+and more important. In this work, we present a method which allows to apply any
+visualization or embedding algorithm on very large datasets by considering only
+a fraction of the data as input and then extending the information to all data
+points using a graph encoding its global similarity. We show that in most
+cases, using only $\mathcal{O}(\log(N))$ samples is sufficient to diffuse the
+information to all $N$ data points. In addition, we propose quantitative
+methods to measure the quality of embeddings and demonstrate the validity of
+our technique on both synthetic and real-world datasets.

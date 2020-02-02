@@ -1,0 +1,13 @@
+Detection of Phase Shift Events
+We consider the problem of change-point estimation of the instantaneous phase
+of an observed time series. Such change points, or phase shifts, can be markers
+of information transfer in complex systems; their analysis occurring in
+geology, biology and physics, but most notably in neuroscience. We develop two
+non-parametric approaches to this problem: the cumulative summation (CUSUM) and
+phase derivative (PD) estimators. In general the CUSUM estimator has higher
+power for identifying single shift events, while the PD estimator has better
+temporal resolution for multiple ones. A system of weakly coupled Rossler
+attractors provides an application in which there are high levels of systematic
+and time-dependent noise. Shift identification is also performed on beta-band
+activity from electroencephalogram recordings of a visual attention task, an
+unsupervised application which requires high temporal resolution.

@@ -1,0 +1,21 @@
+Minimum Distance Estimation for Robust High-Dimensional Regression
+We propose a minimum distance estimation method for robust regression in
+sparse high-dimensional settings. The traditional likelihood-based estimators
+lack resilience against outliers, a critical issue when dealing with
+high-dimensional noisy data. Our method, Minimum Distance Lasso (MD-Lasso),
+combines minimum distance functionals, customarily used in nonparametric
+estimation for their robustness, with l1-regularization for high-dimensional
+regression. The geometry of MD-Lasso is key to its consistency and robustness.
+The estimator is governed by a scaling parameter that caps the influence of
+outliers: the loss per observation is locally convex and close to quadratic for
+small squared residuals, and flattens for squared residuals larger than the
+scaling parameter. As the parameter approaches infinity, the estimator becomes
+equivalent to least-squares Lasso. MD-Lasso enjoys fast convergence rates under
+mild conditions on the model error distribution, which hold for any of the
+solutions in a convexity region around the true parameter and in certain cases
+for every solution. Remarkably, a first-order optimization method is able to
+produce iterates very close to the consistent solutions, with geometric
+convergence and regardless of the initialization. A connection is established
+with re-weighted least-squares that intuitively explains MD-Lasso robustness.
+The merits of our method are demonstrated through simulation and eQTL data
+analysis.

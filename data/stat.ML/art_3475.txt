@@ -1,0 +1,16 @@
+Intrinsic Non-stationary Covariance Function for Climate Modeling
+Designing a covariance function that represents the underlying correlation is
+a crucial step in modeling complex natural systems, such as climate models.
+Geospatial datasets at a global scale usually suffer from non-stationarity and
+non-uniformly smooth spatial boundaries. A Gaussian process regression using a
+non-stationary covariance function has shown promise for this task, as this
+covariance function adapts to the variable correlation structure of the
+underlying distribution. In this paper, we generalize the non-stationary
+covariance function to address the aforementioned global scale geospatial
+issues. We define this generalized covariance function as an intrinsic
+non-stationary covariance function, because it uses intrinsic statistics of the
+symmetric positive definite matrices to represent the characteristic length
+scale and, thereby, models the local stochastic process. Experiments on a
+synthetic and real dataset of relative sea level changes across the world
+demonstrate improvements in the error metrics for the regression estimates
+using our newly proposed approach.

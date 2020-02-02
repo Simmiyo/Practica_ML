@@ -1,0 +1,14 @@
+Asymptotic Normality of Support Vector Machine Variants and Other
+  Regularized Kernel Methods
+In nonparametric classification and regression problems, regularized kernel
+methods, in particular support vector machines, attract much attention in
+theoretical and in applied statistics. In an abstract sense, regularized kernel
+methods (simply called SVMs here) can be seen as regularized M-estimators for a
+parameter in a (typically infinite dimensional) reproducing kernel Hilbert
+space. For smooth loss functions, it is shown that the difference between the
+estimator, i.e.\ the empirical SVM, and the theoretical SVM is asymptotically
+normal with rate $\sqrt{n}$. That is, the standardized difference converges
+weakly to a Gaussian process in the reproducing kernel Hilbert space. As common
+in real applications, the choice of the regularization parameter may depend on
+the data. The proof is done by an application of the functional delta-method
+and by showing that the SVM-functional is suitably Hadamard-differentiable.

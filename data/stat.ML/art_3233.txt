@@ -1,0 +1,26 @@
+Two-stage Sampling, Prediction and Adaptive Regression via Correlation
+  Screening (SPARCS)
+This paper proposes a general adaptive procedure for budget-limited predictor
+design in high dimensions called two-stage Sampling, Prediction and Adaptive
+Regression via Correlation Screening (SPARCS). SPARCS can be applied to high
+dimensional prediction problems in experimental science, medicine, finance, and
+engineering, as illustrated by the following. Suppose one wishes to run a
+sequence of experiments to learn a sparse multivariate predictor of a dependent
+variable $Y$ (disease prognosis for instance) based on a $p$ dimensional set of
+independent variables $\mathbf X=[X_1,\ldots, X_p]^T$ (assayed biomarkers).
+Assume that the cost of acquiring the full set of variables $\mathbf X$
+increases linearly in its dimension. SPARCS breaks the data collection into two
+stages in order to achieve an optimal tradeoff between sampling cost and
+predictor performance. In the first stage we collect a few ($n$) expensive
+samples $\{y_i,\mathbf x_i\}_{i=1}^n$, at the full dimension $p\gg n$ of
+$\mathbf X$, winnowing the number of variables down to a smaller dimension $l <
+p$ using a type of cross-correlation or regression coefficient screening. In
+the second stage we collect a larger number $(t-n)$ of cheaper samples of the
+$l$ variables that passed the screening of the first stage. At the second
+stage, a low dimensional predictor is constructed by solving the standard
+regression problem using all $t$ samples of the selected variables. SPARCS is
+an adaptive online algorithm that implements false positive control on the
+selected variables, is well suited to small sample sizes, and is scalable to
+high dimensions. We establish asymptotic bounds for the Familywise Error Rate
+(FWER), specify high dimensional convergence rates for support recovery, and
+establish optimal sample allocation rules to the first and second stages.

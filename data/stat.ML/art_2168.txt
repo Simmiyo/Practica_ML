@@ -1,0 +1,12 @@
+Learning about individuals from group statistics
+We propose a new problem formulation which is similar to, but more
+informative than, the binary multiple-instance learning problem. In this
+setting, we are given groups of instances (described by feature vectors) along
+with estimates of the fraction of positively-labeled instances per group. The
+task is to learn an instance level classifier from this information. That is,
+we are trying to estimate the unknown binary labels of individuals from
+knowledge of group statistics. We propose a principled probabilistic model to
+solve this problem that accounts for uncertainty in the parameters and in the
+unknown individual labels. This model is trained with an efficient MCMC
+algorithm. Its performance is demonstrated on both synthetic and real-world
+data arising in general object recognition.

@@ -1,0 +1,21 @@
+Functorial Hierarchical Clustering with Overlaps
+This work draws inspiration from three important sources of research on
+dissimilarity-based clustering and intertwines those three threads into a
+consistent principled functorial theory of clustering. Those three are the
+overlapping clustering of Jardine and Sibson, the functorial approach of
+Carlsson and M\'{e}moli to partition-based clustering, and the Isbell/Dress
+school's study of injective envelopes. Carlsson and M\'{e}moli introduce the
+idea of viewing clustering methods as functors from a category of metric spaces
+to a category of clusters, with functoriality subsuming many desirable
+properties. Our first series of results extends their theory of functorial
+clustering schemes to methods that allow overlapping clusters in the spirit of
+Jardine and Sibson. This obviates some of the unpleasant effects of chaining
+that occur, for example with single-linkage clustering. We prove an equivalence
+between these general overlapping clustering functors and projections of weight
+spaces to what we term clustering domains, by focusing on the order structure
+determined by the morphisms. As a specific application of this machinery, we
+are able to prove that there are no functorial projections to cut metrics, or
+even to tree metrics. Finally, although we focus less on the construction of
+clustering methods (clustering domains) derived from injective envelopes, we
+lay out some preliminary results, that hopefully will give a feel for how the
+third leg of the stool comes into play.

@@ -1,0 +1,17 @@
+Equalizing Gender Biases in Neural Machine Translation with Word
+  Embeddings Techniques
+Neural machine translation has significantly pushed forward the quality of
+the field. However, there are remaining big issues with the output translations
+and one of them is fairness. Neural models are trained on large text corpora
+which contain biases and stereotypes. As a consequence, models inherit these
+social biases. Recent methods have shown results in reducing gender bias in
+other natural language processing tools such as word embeddings. We take
+advantage of the fact that word embeddings are used in neural machine
+translation to propose a method to equalize gender biases in neural machine
+translation using these representations. Specifically, we propose, experiment
+and analyze the integration of two debiasing techniques over GloVe embeddings
+in the Transformer translation architecture. We evaluate our proposed system on
+the WMT English-Spanish benchmark task, showing gains up to one BLEU point. As
+for the gender bias evaluation, we generate a test set of occupations and we
+show that our proposed system learns to equalize existing biases from the
+baseline system.

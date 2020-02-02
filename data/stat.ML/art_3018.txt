@@ -1,0 +1,12 @@
+Fully adaptive density-based clustering
+The clusters of a distribution are often defined by the connected components
+of a density level set. However, this definition depends on the user-specified
+level. We address this issue by proposing a simple, generic algorithm, which
+uses an almost arbitrary level set estimator to estimate the smallest level at
+which there are more than one connected components. In the case where this
+algorithm is fed with histogram-based level set estimates, we provide a finite
+sample analysis, which is then used to show that the algorithm consistently
+estimates both the smallest level and the corresponding connected components.
+We further establish rates of convergence for the two estimation problems, and
+last but not least, we present a simple, yet adaptive strategy for determining
+the width-parameter of the involved density estimator in a data-depending way.

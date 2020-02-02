@@ -1,0 +1,28 @@
+Simple, Fast and Accurate Implementation of the Diffusion Approximation
+  Algorithm for Stochastic Ion Channels with Multiple States
+The phenomena that emerge from the interaction of the stochastic opening and
+closing of ion channels (channel noise) with the non-linear neural dynamics are
+essential to our understanding of the operation of the nervous system. The
+effects that channel noise can have on neural dynamics are generally studied
+using numerical simulations of stochastic models. Algorithms based on discrete
+Markov Chains (MC) seem to be the most reliable and trustworthy, but even
+optimized algorithms come with a non-negligible computational cost. Diffusion
+Approximation (DA) methods use Stochastic Differential Equations (SDE) to
+approximate the behavior of a number of MCs, considerably speeding up
+simulation times. However, model comparisons have suggested that DA methods did
+not lead to the same results as in MC modeling in terms of channel noise
+statistics and effects on excitability. Recently, it was shown that the
+difference arose because MCs were modeled with coupled activation subunits,
+while the DA was modeled using uncoupled activation subunits. Implementations
+of DA with coupled subunits, in the context of a specific kinetic scheme,
+yielded similar results to MC. However, it remained unclear how to generalize
+these implementations to different kinetic schemes, or whether they were faster
+than MC algorithms. Additionally, a steady state approximation was used for the
+stochastic terms, which, as we show here, can introduce significant
+inaccuracies. We derived the SDE explicitly for any given ion channel kinetic
+scheme. The resulting generic equations were surprisingly simple and
+interpretable - allowing an easy and efficient DA implementation. The algorithm
+was tested in a voltage clamp simulation and in two different current clamp
+simulations, yielding the same results as MC modeling. Also, the simulation
+efficiency of this DA method demonstrated considerable superiority over MC
+methods.

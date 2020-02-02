@@ -1,0 +1,24 @@
+Statistical analysis of latent generalized correlation matrix estimation
+  in transelliptical distribution
+Correlation matrices play a key role in many multivariate methods (e.g.,
+graphical model estimation and factor analysis). The current state-of-the-art
+in estimating large correlation matrices focuses on the use of Pearson's sample
+correlation matrix. Although Pearson's sample correlation matrix enjoys various
+good properties under Gaussian models, it is not an effective estimator when
+facing heavy-tailed distributions. As a robust alternative, Han and Liu [J. Am.
+Stat. Assoc. 109 (2015) 275-287] advocated the use of a transformed version of
+the Kendall's tau sample correlation matrix in estimating high dimensional
+latent generalized correlation matrix under the transelliptical distribution
+family (or elliptical copula). The transelliptical family assumes that after
+unspecified marginal monotone transformations, the data follow an elliptical
+distribution. In this paper, we study the theoretical properties of the
+Kendall's tau sample correlation matrix and its transformed version proposed in
+Han and Liu [J. Am. Stat. Assoc. 109 (2015) 275-287] for estimating the
+population Kendall's tau correlation matrix and the latent Pearson's
+correlation matrix under both spectral and restricted spectral norms. With
+regard to the spectral norm, we highlight the role of "effective rank" in
+quantifying the rate of convergence. With regard to the restricted spectral
+norm, we for the first time present a "sign sub-Gaussian condition" which is
+sufficient to guarantee that the rank-based correlation matrix estimator
+attains the fast rate of convergence. In both cases, we do not need any moment
+condition.

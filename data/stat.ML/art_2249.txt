@@ -1,0 +1,10 @@
+Subset Selection for Gaussian Markov Random Fields
+Given a Gaussian Markov random field, we consider the problem of selecting a
+subset of variables to observe which minimizes the total expected squared
+prediction error of the unobserved variables. We first show that finding an
+exact solution is NP-hard even for a restricted class of Gaussian Markov random
+fields, called Gaussian free fields, which arise in semi-supervised learning
+and computer vision. We then give a simple greedy approximation algorithm for
+Gaussian free fields on arbitrary graphs. Finally, we give a message passing
+algorithm for general Gaussian Markov random fields on bounded tree-width
+graphs.

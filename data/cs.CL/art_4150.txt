@@ -1,0 +1,13 @@
+Opinion Dynamics Modeling for Movie Review Transcripts Classification
+  with Hidden Conditional Random Fields
+In this paper, the main goal is to detect a movie reviewer's opinion using
+hidden conditional random fields. This model allows us to capture the dynamics
+of the reviewer's opinion in the transcripts of long unsegmented audio reviews
+that are analyzed by our system. High level linguistic features are computed at
+the level of inter-pausal segments. The features include syntactic features, a
+statistical word embedding model and subjectivity lexicons. The proposed system
+is evaluated on the ICT-MMMO corpus. We obtain a F1-score of 82\%, which is
+better than logistic regression and recurrent neural network approaches. We
+also offer a discussion that sheds some light on the capacity of our system to
+adapt the word embedding model learned from general written texts data to
+spoken movie reviews and thus model the dynamics of the opinion.

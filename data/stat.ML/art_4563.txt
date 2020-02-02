@@ -1,0 +1,18 @@
+Robust Non-linear Regression: A Greedy Approach Employing Kernels with
+  Application to Image Denoising
+We consider the task of robust non-linear regression in the presence of both
+inlier noise and outliers. Assuming that the unknown non-linear function
+belongs to a Reproducing Kernel Hilbert Space (RKHS), our goal is to estimate
+the set of the associated unknown parameters. Due to the presence of outliers,
+common techniques such as the Kernel Ridge Regression (KRR) or the Support
+Vector Regression (SVR) turn out to be inadequate. Instead, we employ sparse
+modeling arguments to explicitly model and estimate the outliers, adopting a
+greedy approach. The proposed robust scheme, i.e., Kernel Greedy Algorithm for
+Robust Denoising (KGARD), is inspired by the classical Orthogonal Matching
+Pursuit (OMP) algorithm. Specifically, the proposed method alternates between a
+KRR task and an OMP-like selection step. Theoretical results concerning the
+identification of the outliers are provided. Moreover, KGARD is compared
+against other cutting edge methods, where its performance is evaluated via a
+set of experiments with various types of noise. Finally, the proposed robust
+estimation framework is applied to the task of image denoising, and its
+enhanced performance in the presence of outliers is demonstrated.

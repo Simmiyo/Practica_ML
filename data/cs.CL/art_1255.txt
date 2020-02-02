@@ -1,0 +1,7 @@
+Language Models with Pre-Trained (GloVe) Word Embeddings
+In this work we implement a training of a Language Model (LM), using
+Recurrent Neural Network (RNN) and GloVe word embeddings, introduced by
+Pennigton et al. in [1]. The implementation is following the general idea of
+training RNNs for LM tasks presented in [2], but is rather using Gated
+Recurrent Unit (GRU) [3] for a memory cell, and not the more commonly used LSTM
+[4].

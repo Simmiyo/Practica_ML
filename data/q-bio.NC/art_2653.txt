@@ -1,0 +1,22 @@
+Power, Energy and Speed of Embedded and Server Multi-Cores applied to
+  Distributed Simulation of Spiking Neural Networks: ARM in NVIDIA Tegra vs
+  Intel Xeon quad-cores
+This short note regards a comparison of instantaneous power, total energy
+consumption, execution time and energetic cost per synaptic event of a spiking
+neural network simulator (DPSNN-STDP) distributed on MPI processes when
+executed either on an embedded platform (based on a dual socket quad-core ARM
+platform) or a server platform (INTEL-based quad-core dual socket platform). We
+also compare the measure with those reported by leading custom and semi-custom
+designs: TrueNorth and SpiNNaker. In summary, we observed that: 1- we spent 2.2
+micro-Joule per simulated event on the "embedded platform", approx. 4.4 times
+lower than what was spent by the "server platform"; 2- the instantaneous power
+consumption of the "embedded platform" was 14.4 times better than the "server"
+one; 3- the server platform is a factor 3.3 faster. The "embedded platform" is
+made of NVIDIA Jetson TK1 boards, interconnected by Ethernet, each mounting a
+Tegra K1 chip including a quad-core ARM Cortex-A15 at 2.3GHz. The "server
+platform" is based on dual-socket quad-core Intel Xeon CPUs (E5620 at 2.4GHz).
+The measures were obtained with the DPSNN-STDP simulator (Distributed Simulator
+of Polychronous Spiking Neural Network with synaptic Spike Timing Dependent
+Plasticity) developed by INFN, that already proved its efficient scalability
+and execution speed-up on hundreds of similar "server" cores and MPI processes,
+applied to neural nets composed of several billions of synapses.

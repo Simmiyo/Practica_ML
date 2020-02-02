@@ -1,0 +1,9 @@
+An intrinsic limitation on the size of quantum database
+It is found that Grover's quantum search algorithm is not robust against
+phase inversion and Hadmard transformation inaccuracies. Imperfect phase
+inversions and Hadmard-Walsh transformations in Grover's quantum search
+algorithm lead to reductions in the maximum probability of the marked state and
+affect the efficiency of the algorithm. even in the absence of decoherence.
+Given the degrees of inaccuracies, we find that to guarantee half rate of
+success, the size of the database should be in the order of $O({1 \over
+\delta^2})$, where $\delta$ is the uncertainty.

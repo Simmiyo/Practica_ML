@@ -1,0 +1,25 @@
+Complex tensor factorisation with PARAFAC2 for the estimation of brain
+  connectivity from the EEG
+Objective: The coupling between neuronal populations and its magnitude have
+been shown to be informative for various clinical applications. One method to
+estimate brain connectivity is with electroencephalography (EEG) from which the
+cross-spectrum between different sensor locations is derived. We wish to test
+the efficacy of tensor factorisation in the estimation of brain connectivity.
+Methods: Complex tensor factorisation based on PARAFAC2 is used to decompose
+the EEG into scalp components described by the spatial, spectral, and complex
+trial profiles. An EEG model in the complex domain was derived that shows the
+suitability of PARAFAC2. A connectivity metric was also derived on the complex
+trial profiles of the extracted components. Results: Results on a benchmark EEG
+dataset confirmed that PARAFAC2 can estimate connectivity better than
+traditional tensor analysis such as PARAFAC within a range of signal-to-noise
+ratios. The analysis of EEG from patients with mild cognitive impairment or
+Alzheimer's disease showed that PARAFAC2 identifies loss of brain connectivity
+better than traditional approaches and agreeing with prior pathological
+knowledge. Conclusion: The complex PARAFAC2 algorithm is suitable for EEG
+connectivity estimation since it allows to extract meaningful coupled sources
+and provides better estimates than complex PARAFAC. Significance: A new
+paradigm that employs complex tensor factorisation has demonstrated to be
+successful in identifying brain connectivity and the location of couples
+sources for both a benchmark and a real-world EEG dataset. This can enable
+future applications and has the potential to solve some the issues that
+deteriorate the performance of traditional connectivity metrics.

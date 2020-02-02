@@ -1,0 +1,15 @@
+A Fixed-Point of View on Gradient Methods for Big Data
+Interpreting gradient methods as fixed-point iterations, we provide a
+detailed analysis of those methods for minimizing convex objective functions.
+Due to their conceptual and algorithmic simplicity, gradient methods are widely
+used in machine learning for massive data sets (big data). In particular,
+stochastic gradient methods are considered the de- facto standard for training
+deep neural networks. Studying gradient methods within the realm of fixed-point
+theory provides us with powerful tools to analyze their convergence properties.
+In particular, gradient methods using inexact or noisy gradients, such as
+stochastic gradient descent, can be studied conveniently using well-known
+results on inexact fixed-point iterations. Moreover, as we demonstrate in this
+paper, the fixed-point approach allows an elegant derivation of accelerations
+for basic gradient methods. In particular, we will show how gradient descent
+can be accelerated by a fixed-point preserving transformation of an operator
+associated with the objective function.

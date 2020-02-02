@@ -1,0 +1,14 @@
+Iterative Thresholding for Demixing Structured Superpositions in High
+  Dimensions
+We consider the demixing problem of two (or more) high-dimensional vectors
+from nonlinear observations when the number of such observations is far less
+than the ambient dimension of the underlying vectors. Specifically, we
+demonstrate an algorithm that stably estimate the underlying components under
+general \emph{structured sparsity} assumptions on these components.
+Specifically, we show that for certain types of structured superposition
+models, our method provably recovers the components given merely $n =
+\mathcal{O}(s)$ samples where $s$ denotes the number of nonzero entries in the
+underlying components. Moreover, our method achieves a fast (linear)
+convergence rate, and also exhibits fast (near-linear) per-iteration complexity
+for certain types of structured models. We also provide a range of simulations
+to illustrate the performance of the proposed algorithm.

@@ -1,0 +1,10 @@
+Fast Variational Inference in the Conjugate Exponential Family
+We present a general method for deriving collapsed variational inference
+algo- rithms for probabilistic models in the conjugate exponential family. Our
+method unifies many existing approaches to collapsed variational inference. Our
+collapsed variational inference leads to a new lower bound on the marginal
+likelihood. We exploit the information geometry of the bound to derive much
+faster optimization methods based on conjugate gradients for these models. Our
+approach is very general and is easily applied to any model where the mean
+field update equations have been derived. Empirically we show significant
+speed-ups for probabilistic models optimized using our bound.

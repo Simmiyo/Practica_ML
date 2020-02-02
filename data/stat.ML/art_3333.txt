@@ -1,0 +1,19 @@
+On the estimation of initial conditions in kernel-based system
+  identification
+Recent developments in system identification have brought attention to
+regularized kernel-based methods, where, adopting the recently introduced
+stable spline kernel, prior information on the unknown process is enforced.
+This reduces the variance of the estimates and thus makes kernel-based methods
+particularly attractive when few input-output data samples are available. In
+such cases however, the influence of the system initial conditions may have a
+significant impact on the output dynamics. In this paper, we specifically
+address this point. We propose three methods that deal with the estimation of
+initial conditions using different types of information. The methods consist in
+various mixed maximum likelihood--a posteriori estimators which estimate the
+initial conditions and tune the hyperparameters characterizing the stable
+spline kernel. To solve the related optimization problems, we resort to the
+expectation-maximization method, showing that the solutions can be attained by
+iterating among simple update steps. Numerical experiments show the advantages,
+in terms of accuracy in reconstructing the system impulse response, of the
+proposed strategies, compared to other kernel-based schemes not accounting for
+the effect initial conditions.

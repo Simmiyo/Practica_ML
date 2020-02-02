@@ -1,0 +1,19 @@
+Clustering Algorithms: A Comparative Approach
+Many real-world systems can be studied in terms of pattern recognition tasks,
+so that proper use (and understanding) of machine learning methods in practical
+applications becomes essential. While a myriad of classification methods have
+been proposed, there is no consensus on which methods are more suitable for a
+given dataset. As a consequence, it is important to comprehensively compare
+methods in many possible scenarios. In this context, we performed a systematic
+comparison of 7 well-known clustering methods available in the R language. In
+order to account for the many possible variations of data, we considered
+artificial datasets with several tunable properties (number of classes,
+separation between classes, etc). In addition, we also evaluated the
+sensitivity of the clustering methods with regard to their parameters
+configuration. The results revealed that, when considering the default
+configurations of the adopted methods, the spectral approach usually
+outperformed the other clustering algorithms. We also found that the default
+configuration of the adopted implementations was not accurate. In these cases,
+a simple approach based on random selection of parameters values proved to be a
+good alternative to improve the performance. All in all, the reported approach
+provides subsidies guiding the choice of clustering algorithms.

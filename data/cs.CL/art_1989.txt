@@ -1,0 +1,11 @@
+Syntax-based Attention Model for Natural Language Inference
+Introducing attentional mechanism in neural network is a powerful concept,
+and has achieved impressive results in many natural language processing tasks.
+However, most of the existing models impose attentional distribution on a flat
+topology, namely the entire input representation sequence. Clearly, any
+well-formed sentence has its accompanying syntactic tree structure, which is a
+much rich topology. Applying attention to such topology not only exploits the
+underlying syntax, but also makes attention more interpretable. In this paper,
+we explore this direction in the context of natural language inference. The
+results demonstrate its efficacy. We also perform extensive qualitative
+analysis, deriving insights and intuitions of why and how our model works.

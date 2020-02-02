@@ -1,0 +1,12 @@
+Streaming, Memory Limited Matrix Completion with Noise
+In this paper, we consider the streaming memory-limited matrix completion
+problem when the observed entries are noisy versions of a small random fraction
+of the original entries. We are interested in scenarios where the matrix size
+is very large so the matrix is very hard to store and manipulate. Here, columns
+of the observed matrix are presented sequentially and the goal is to complete
+the missing entries after one pass on the data with limited memory space and
+limited computational complexity. We propose a streaming algorithm which
+produces an estimate of the original matrix with a vanishing mean square error,
+uses memory space scaling linearly with the ambient dimension of the matrix,
+i.e. the memory required to store the output alone, and spends computations as
+much as the number of non-zero entries of the input matrix.

@@ -1,0 +1,14 @@
+Effective Combination of Language and Vision Through Model Composition
+  and the R-CCA Method
+We address the problem of integrating textual and visual information in
+vector space models for word meaning representation. We first present the
+Residual CCA (R-CCA) method, that complements the standard CCA method by
+representing, for each modality, the difference between the original signal and
+the signal projected to the shared, max correlation, space. We then show that
+constructing visual and textual representations and then post-processing them
+through composition of common modeling motifs such as PCA, CCA, R-CCA and
+linear interpolation (a.k.a sequential modeling) yields high quality models. On
+five standard semantic benchmarks our sequential models outperform recent
+multimodal representation learning alternatives, including ones that rely on
+joint representation learning. For two of these benchmarks our R-CCA method is
+part of the Best configuration our algorithm yields.

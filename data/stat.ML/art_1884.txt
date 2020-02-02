@@ -1,0 +1,11 @@
+Fractional Moments on Bandit Problems
+Reinforcement learning addresses the dilemma between exploration to find
+profitable actions and exploitation to act according to the best observations
+already made. Bandit problems are one such class of problems in stateless
+environments that represent this explore/exploit situation. We propose a
+learning algorithm for bandit problems based on fractional expectation of
+rewards acquired. The algorithm is theoretically shown to converge on an
+eta-optimal arm and achieve O(n) sample complexity. Experimental results show
+the algorithm incurs substantially lower regrets than parameter-optimized
+eta-greedy and SoftMax approaches and other low sample complexity
+state-of-the-art techniques.

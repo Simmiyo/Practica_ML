@@ -1,0 +1,18 @@
+Training Deep Gaussian Processes using Stochastic Expectation
+  Propagation and Probabilistic Backpropagation
+Deep Gaussian processes (DGPs) are multi-layer hierarchical generalisations
+of Gaussian processes (GPs) and are formally equivalent to neural networks with
+multiple, infinitely wide hidden layers. DGPs are probabilistic and
+non-parametric and as such are arguably more flexible, have a greater capacity
+to generalise, and provide better calibrated uncertainty estimates than
+alternative deep models. The focus of this paper is scalable approximate
+Bayesian learning of these networks. The paper develops a novel and efficient
+extension of probabilistic backpropagation, a state-of-the-art method for
+training Bayesian neural networks, that can be used to train DGPs. The new
+method leverages a recently proposed method for scaling Expectation
+Propagation, called stochastic Expectation Propagation. The method is able to
+automatically discover useful input warping, expansion or compression, and it
+is therefore is a flexible form of Bayesian kernel design. We demonstrate the
+success of the new method for supervised learning on several real-world
+datasets, showing that it typically outperforms GP regression and is never much
+worse.

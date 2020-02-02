@@ -1,0 +1,17 @@
+Dialog-context aware end-to-end speech recognition
+Existing speech recognition systems are typically built at the sentence
+level, although it is known that dialog context, e.g. higher-level knowledge
+that spans across sentences or speakers, can help the processing of long
+conversations. The recent progress in end-to-end speech recognition systems
+promises to integrate all available information (e.g. acoustic, language
+resources) into a single model, which is then jointly optimized. It seems
+natural that such dialog context information should thus also be integrated
+into the end-to-end models to improve further recognition accuracy. In this
+work, we present a dialog-context aware speech recognition model, which
+explicitly uses context information beyond sentence-level information, in an
+end-to-end fashion. Our dialog-context model captures a history of
+sentence-level context so that the whole system can be trained with
+dialog-context information in an end-to-end manner. We evaluate our proposed
+approach on the Switchboard conversational speech corpus and show that our
+system outperforms a comparable sentence-level end-to-end speech recognition
+system.

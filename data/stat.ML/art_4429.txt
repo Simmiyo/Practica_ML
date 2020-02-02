@@ -1,0 +1,17 @@
+OSTSC: Over Sampling for Time Series Classification in R
+The OSTSC package is a powerful oversampling approach for classifying
+univariant, but multinomial time series data in R. This article provides a
+brief overview of the oversampling methodology implemented by the package. A
+tutorial of the OSTSC package is provided. We begin by providing three test
+cases for the user to quickly validate the functionality in the package. To
+demonstrate the performance impact of OSTSC, we then provide two medium size
+imbalanced time series datasets. Each example applies a TensorFlow
+implementation of a Long Short-Term Memory (LSTM) classifier - a type of a
+Recurrent Neural Network (RNN) classifier - to imbalanced time series. The
+classifier performance is compared with and without oversampling. Finally,
+larger versions of these two datasets are evaluated to demonstrate the
+scalability of the package. The examples demonstrate that the OSTSC package
+improves the performance of RNN classifiers applied to highly imbalanced time
+series data. In particular, OSTSC is observed to increase the AUC of LSTM from
+0.543 to 0.784 on a high frequency trading dataset consisting of 30,000 time
+series observations.

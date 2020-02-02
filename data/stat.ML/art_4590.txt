@@ -1,0 +1,18 @@
+A Robust UCB Scheme for Active Learning in Regression from Strategic
+  Crowds
+We study the problem of training an accurate linear regression model by
+procuring labels from multiple noisy crowd annotators, under a budget
+constraint. We propose a Bayesian model for linear regression in crowdsourcing
+and use variational inference for parameter estimation. To minimize the number
+of labels crowdsourced from the annotators, we adopt an active learning
+approach. In this specific context, we prove the equivalence of well-studied
+criteria of active learning like entropy minimization and expected error
+reduction. Interestingly, we observe that we can decouple the problems of
+identifying an optimal unlabeled instance and identifying an annotator to label
+it. We observe a useful connection between the multi-armed bandit framework and
+the annotator selection in active learning. Due to the nature of the
+distribution of the rewards on the arms, we use the Robust Upper Confidence
+Bound (UCB) scheme with truncated empirical mean estimator to solve the
+annotator selection problem. This yields provable guarantees on the regret. We
+further apply our model to the scenario where annotators are strategic and
+design suitable incentives to induce them to put in their best efforts.

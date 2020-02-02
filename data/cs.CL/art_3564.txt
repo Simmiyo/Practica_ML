@@ -1,0 +1,15 @@
+Joint Learning of Interactive Spoken Content Retrieval and Trainable
+  User Simulator
+User-machine interaction is crucial for information retrieval, especially for
+spoken content retrieval, because spoken content is difficult to browse, and
+speech recognition has a high degree of uncertainty. In interactive retrieval,
+the machine takes different actions to interact with the user to obtain better
+retrieval results; here it is critical to select the most efficient action. In
+previous work, deep Q-learning techniques were proposed to train an interactive
+retrieval system but rely on a hand-crafted user simulator; building a reliable
+user simulator is difficult. In this paper, we further improve the interactive
+spoken content retrieval framework by proposing a learnable user simulator
+which is jointly trained with interactive retrieval system, making the
+hand-crafted user simulator unnecessary. The experimental results show that the
+learned simulated users not only achieve larger rewards than the hand-crafted
+ones but act more like real users.

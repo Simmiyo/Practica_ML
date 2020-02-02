@@ -1,0 +1,22 @@
+A Bayesian approach for inferring neuronal connectivity from calcium
+  fluorescent imaging data
+Deducing the structure of neural circuits is one of the central problems of
+modern neuroscience. Recently-introduced calcium fluorescent imaging methods
+permit experimentalists to observe network activity in large populations of
+neurons, but these techniques provide only indirect observations of neural
+spike trains, with limited time resolution and signal quality. In this work we
+present a Bayesian approach for inferring neural circuitry given this type of
+imaging data. We model the network activity in terms of a collection of coupled
+hidden Markov chains, with each chain corresponding to a single neuron in the
+network and the coupling between the chains reflecting the network's
+connectivity matrix. We derive a Monte Carlo Expectation--Maximization
+algorithm for fitting the model parameters; to obtain the sufficient statistics
+in a computationally-efficient manner, we introduce a specialized
+blockwise-Gibbs algorithm for sampling from the joint activity of all observed
+neurons given the observed fluorescence data. We perform large-scale
+simulations of randomly connected neuronal networks with biophysically
+realistic parameters and find that the proposed methods can accurately infer
+the connectivity in these networks given reasonable experimental and
+computational constraints. In addition, the estimation accuracy may be improved
+significantly by incorporating prior knowledge about the sparseness of
+connectivity in the network, via standard L$_1$ penalization methods.

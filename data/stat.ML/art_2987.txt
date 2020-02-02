@@ -1,0 +1,18 @@
+Multi-rank Sparse Hierarchical Clustering
+There has been a surge in the number of large and flat data sets - data sets
+containing a large number of features and a relatively small number of
+observations - due to the growing ability to collect and store information in
+medical research and other fields. Hierarchical clustering is a widely used
+clustering tool. In hierarchical clustering, large and flat data sets may allow
+for a better coverage of clustering features (features that help explain the
+true underlying clusters) but, such data sets usually include a large fraction
+of noise features (non-clustering features) that may hide the underlying
+clusters. Witten and Tibshirani (2010) proposed a sparse hierarchical
+clustering framework to cluster the observations using an adaptively chosen
+subset of the features, however, we show that this framework has some
+limitations when the data sets contain clustering features with complex
+structure. In this paper, we propose the Multi-rank sparse hierarchical
+clustering (MrSHC). We show that, using simulation studies and real data
+examples, MrSHC produces superior feature selection and clustering performance
+comparing to the classical (of-the-shelf) hierarchical clustering and the
+existing sparse hierarchical clustering framework.

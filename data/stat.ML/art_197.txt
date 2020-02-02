@@ -1,0 +1,16 @@
+Subspace clustering of high-dimensional data: a predictive approach
+In several application domains, high-dimensional observations are collected
+and then analysed in search for naturally occurring data clusters which might
+provide further insights about the nature of the problem. In this paper we
+describe a new approach for partitioning such high-dimensional data. Our
+assumption is that, within each cluster, the data can be approximated well by a
+linear subspace estimated by means of a principal component analysis (PCA). The
+proposed algorithm, Predictive Subspace Clustering (PSC) partitions the data
+into clusters while simultaneously estimating cluster-wise PCA parameters. The
+algorithm minimises an objective function that depends upon a new measure of
+influence for PCA models. A penalised version of the algorithm is also
+described for carrying our simultaneous subspace clustering and variable
+selection. The convergence of PSC is discussed in detail, and extensive
+simulation results and comparisons to competing methods are presented. The
+comparative performance of PSC has been assessed on six real gene expression
+data sets for which PSC often provides state-of-art results.

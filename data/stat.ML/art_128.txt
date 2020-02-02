@@ -1,0 +1,10 @@
+The Local Rademacher Complexity of Lp-Norm Multiple Kernel Learning
+We derive an upper bound on the local Rademacher complexity of $\ell_p$-norm
+multiple kernel learning, which yields a tighter excess risk bound than global
+approaches. Previous local approaches aimed at analyzed the case $p=1$ only
+while our analysis covers all cases $1\leq p\leq\infty$, assuming the different
+feature mappings corresponding to the different kernels to be uncorrelated. We
+also show a lower bound that shows that the bound is tight, and derive
+consequences regarding excess loss, namely fast convergence rates of the order
+$O(n^{-\frac{\alpha}{1+\alpha}})$, where $\alpha$ is the minimum eigenvalue
+decay rate of the individual kernels.

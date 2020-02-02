@@ -1,0 +1,17 @@
+Outlier Detection on Mixed-Type Data: An Energy-based Approach
+Outlier detection amounts to finding data points that differ significantly
+from the norm. Classic outlier detection methods are largely designed for
+single data type such as continuous or discrete. However, real world data is
+increasingly heterogeneous, where a data point can have both discrete and
+continuous attributes. Handling mixed-type data in a disciplined way remains a
+great challenge. In this paper, we propose a new unsupervised outlier detection
+method for mixed-type data based on Mixed-variate Restricted Boltzmann Machine
+(Mv.RBM). The Mv.RBM is a principled probabilistic method that models data
+density. We propose to use \emph{free-energy} derived from Mv.RBM as outlier
+score to detect outliers as those data points lying in low density regions. The
+method is fast to learn and compute, is scalable to massive datasets. At the
+same time, the outlier score is identical to data negative log-density up-to an
+additive constant. We evaluate the proposed method on synthetic and real-world
+datasets and demonstrate that (a) a proper handling mixed-types is necessary in
+outlier detection, and (b) free-energy of Mv.RBM is a powerful and efficient
+outlier scoring method, which is highly competitive against state-of-the-arts.

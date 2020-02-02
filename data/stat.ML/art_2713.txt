@@ -1,0 +1,12 @@
+Clustering for high-dimension, low-sample size data using distance
+  vectors
+In high-dimension, low-sample size (HDLSS) data, it is not always true that
+closeness of two objects reflects a hidden cluster structure. We point out the
+important fact that it is not the closeness, but the "values" of distance that
+contain information of the cluster structure in high-dimensional space. Based
+on this fact, we propose an efficient and simple clustering approach, called
+distance vector clustering, for HDLSS data. Under the assumptions given in the
+work of Hall et al. (2005), we show the proposed approach provides a true
+cluster label under milder conditions when the dimension tends to infinity with
+the sample size fixed. The effectiveness of the distance vector clustering
+approach is illustrated through a numerical experiment and real data analysis.

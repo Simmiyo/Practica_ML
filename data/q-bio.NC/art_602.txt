@@ -1,0 +1,19 @@
+A statistical model for in vivo neuronal dynamics
+Single neuron models have a long tradition in computational neuroscience.
+Detailed biophysical models such as the Hodgkin-Huxley model as well as
+simplified neuron models such as the class of integrate-and-fire models relate
+the input current to the membrane potential of the neuron. Those types of
+models have been extensively fitted to in vitro data where the input current is
+controlled. Those models are however of little use when it comes to
+characterize intracellular in vivo recordings since the input to the neuron is
+not known. Here we propose a novel single neuron model that characterizes the
+statistical properties of in vivo recordings. More specifically, we propose a
+stochastic process where the subthreshold membrane potential follows a Gaussian
+process and the spike emission intensity depends nonlinearly on the membrane
+potential as well as the spiking history. We first show that the model has a
+rich dynamical repertoire since it can capture arbitrary subthreshold
+autocovariance functions, firing-rate adaptations as well as arbitrary shapes
+of the action potential. We then show that this model can be efficiently fitted
+to data without overfitting. Finally, we show that this model can be used to
+characterize and therefore precisely compare various intracellular in vivo
+recordings from different animals and experimental conditions.

@@ -1,0 +1,17 @@
+Scalable Bayesian Non-Negative Tensor Factorization for Massive Count
+  Data
+We present a Bayesian non-negative tensor factorization model for
+count-valued tensor data, and develop scalable inference algorithms (both batch
+and online) for dealing with massive tensors. Our generative model can handle
+overdispersed counts as well as infer the rank of the decomposition. Moreover,
+leveraging a reparameterization of the Poisson distribution as a multinomial
+facilitates conjugacy in the model and enables simple and efficient Gibbs
+sampling and variational Bayes (VB) inference updates, with a computational
+cost that only depends on the number of nonzeros in the tensor. The model also
+provides a nice interpretability for the factors; in our model, each factor
+corresponds to a "topic". We develop a set of online inference algorithms that
+allow further scaling up the model to massive tensors, for which batch
+inference methods may be infeasible. We apply our framework on diverse
+real-world applications, such as \emph{multiway} topic modeling on a scientific
+publications database, analyzing a political science data set, and analyzing a
+massive household transactions data set.

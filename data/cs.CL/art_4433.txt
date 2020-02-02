@@ -1,0 +1,15 @@
+Neural Named Entity Recognition from Subword Units
+Named entity recognition (NER) is a vital task in language technology.
+Existing neural models for NER rely mostly on dedicated word-level
+representations, which suffer from two main shortcomings: 1) the vocabulary
+size is large, yielding large memory requirements and training time, and 2)
+they cannot learn morphological representations. We adopt a neural solution
+based on bidirectional LSTMs and conditional random fields, where we rely on
+subword units, namely characters, phonemes, and bytes, to remedy the above
+shortcomings. We conducted experiments on a large dataset covering four
+languages with up to 5.5M utterances per language. Our experiments show that 1)
+with increasing training data, performance of models trained solely on subword
+units becomes closer to that of models with dedicated word-level embeddings
+(91.35 vs 93.92 F1 for English), while using a much smaller vocabulary size
+(332 vs 74K), 2) subword units enhance models with dedicated word-level
+embeddings, and 3) combining different subword units improves performance.

@@ -1,0 +1,16 @@
+Forest Density Estimation
+We study graph estimation and density estimation in high dimensions, using a
+family of density estimators based on forest structured undirected graphical
+models. For density estimation, we do not assume the true distribution
+corresponds to a forest; rather, we form kernel density estimates of the
+bivariate and univariate marginals, and apply Kruskal's algorithm to estimate
+the optimal forest on held out data. We prove an oracle inequality on the
+excess risk of the resulting estimator relative to the risk of the best forest.
+For graph estimation, we consider the problem of estimating forests with
+restricted tree sizes. We prove that finding a maximum weight spanning forest
+with restricted tree size is NP-hard, and develop an approximation algorithm
+for this problem. Viewing the tree size as a complexity parameter, we then
+select a forest using data splitting, and prove bounds on excess risk and
+structure selection consistency of the procedure. Experiments with simulated
+data and microarray data indicate that the methods are a practical alternative
+to Gaussian graphical models.

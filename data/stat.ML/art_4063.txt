@@ -1,0 +1,17 @@
+Boosting Variational Inference
+Variational inference (VI) provides fast approximations of a Bayesian
+posterior in part because it formulates posterior approximation as an
+optimization problem: to find the closest distribution to the exact posterior
+over some family of distributions. For practical reasons, the family of
+distributions in VI is usually constrained so that it does not include the
+exact posterior, even as a limit point. Thus, no matter how long VI is run, the
+resulting approximation will not approach the exact posterior. We propose to
+instead consider a more flexible approximating family consisting of all
+possible finite mixtures of a parametric base distribution (e.g., Gaussian).
+For efficient inference, we borrow ideas from gradient boosting to develop an
+algorithm we call boosting variational inference (BVI). BVI iteratively
+improves the current approximation by mixing it with a new component from the
+base distribution family and thereby yields progressively more accurate
+posterior approximations as more computing time is spent. Unlike a number of
+common VI variants including mean-field VI, BVI is able to capture
+multimodality, general posterior covariance, and nonstandard posterior shapes.

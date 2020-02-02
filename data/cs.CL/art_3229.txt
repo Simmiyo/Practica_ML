@@ -1,0 +1,21 @@
+Sequence to Sequence Networks for Roman-Urdu to Urdu Transliteration
+Neural Machine Translation models have replaced the conventional phrase based
+statistical translation methods since the former takes a generic, scalable,
+data-driven approach rather than relying on manual, hand-crafted features. The
+neural machine translation system is based on one neural network that is
+composed of two parts, one that is responsible for input language sentence and
+other part that handles the desired output language sentence. This model based
+on encoder-decoder architecture also takes as input the distributed
+representations of the source language which enriches the learnt dependencies
+and gives a warm start to the network. In this work, we transform Roman-Urdu to
+Urdu transliteration into sequence to sequence learning problem. To this end,
+we make the following contributions. We create the first ever parallel corpora
+of Roman-Urdu to Urdu, create the first ever distributed representation of
+Roman-Urdu and present the first neural machine translation model that
+transliterates text from Roman-Urdu to Urdu language. Our model has achieved
+the state-of-the-art results using BLEU as the evaluation metric. Precisely,
+our model is able to correctly predict sentences up to length 10 while
+achieving BLEU score of 48.6 on the test set. We are hopeful that our model and
+our results shall serve as the baseline for further work in the domain of
+neural machine translation for Roman-Urdu to Urdu using distributed
+representation.

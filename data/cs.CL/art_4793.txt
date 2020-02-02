@@ -1,0 +1,14 @@
+The Rule of Three: Abstractive Text Summarization in Three Bullet Points
+Neural network-based approaches have become widespread for abstractive text
+summarization. Though previously proposed models for abstractive text
+summarization addressed the problem of repetition of the same contents in the
+summary, they did not explicitly consider its information structure. One of the
+reasons these previous models failed to account for information structure in
+the generated summary is that standard datasets include summaries of variable
+lengths, resulting in problems in analyzing information flow, specifically, the
+manner in which the first sentence is related to the following sentences.
+Therefore, we use a dataset containing summaries with only three bullet points,
+and propose a neural network-based abstractive summarization model that
+considers the information structures of the generated summaries. Our
+experimental results show that the information structure of a summary can be
+controlled, thus improving the performance of the overall summarization.

@@ -1,0 +1,15 @@
+NRC-Canada at SMM4H Shared Task: Classifying Tweets Mentioning Adverse
+  Drug Reactions and Medication Intake
+Our team, NRC-Canada, participated in two shared tasks at the AMIA-2017
+Workshop on Social Media Mining for Health Applications (SMM4H): Task 1 -
+classification of tweets mentioning adverse drug reactions, and Task 2 -
+classification of tweets describing personal medication intake. For both tasks,
+we trained Support Vector Machine classifiers using a variety of surface-form,
+sentiment, and domain-specific features. With nine teams participating in each
+task, our submissions ranked first on Task 1 and third on Task 2. Handling
+considerable class imbalance proved crucial for Task 1. We applied an
+under-sampling technique to reduce class imbalance (from about 1:10 to 1:2).
+Standard n-gram features, n-grams generalized over domain terms, as well as
+general-domain and domain-specific word embeddings had a substantial impact on
+the overall performance in both tasks. On the other hand, including sentiment
+lexicon features did not result in any improvement.

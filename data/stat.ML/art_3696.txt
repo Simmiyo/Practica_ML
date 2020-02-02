@@ -1,0 +1,17 @@
+Unsupervised comparable corpora preparation and exploration for
+  bi-lingual translation equivalents
+The multilingual nature of the world makes translation a crucial requirement
+today. Parallel dictionaries constructed by humans are a widely-available
+resource, but they are limited and do not provide enough coverage for good
+quality translation purposes, due to out-of-vocabulary words and neologisms.
+This motivates the use of statistical translation systems, which are
+unfortunately dependent on the quantity and quality of training data. Such
+systems have a very limited availability especially for some languages and very
+narrow text domains. In this research we present our improvements to current
+comparable corpora mining methodologies by re- implementation of the comparison
+algorithms (using Needleman-Wunch algorithm), introduction of a tuning script
+and computation time improvement by GPU acceleration. Experiments are carried
+out on bilingual data extracted from the Wikipedia, on various domains. For the
+Wikipedia itself, additional cross-lingual comparison heuristics were
+introduced. The modifications made a positive impact on the quality and
+quantity of mined data and on the translation quality.

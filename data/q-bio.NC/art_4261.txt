@@ -1,0 +1,27 @@
+Characterization and Compensation of Network-Level Anomalies in
+  Mixed-Signal Neuromorphic Modeling Platforms
+Advancing the size and complexity of neural network models leads to an ever
+increasing demand for computational resources for their simulation.
+Neuromorphic devices offer a number of advantages over conventional computing
+architectures, such as high emulation speed or low power consumption, but this
+usually comes at the price of reduced configurability and precision. In this
+article, we investigate the consequences of several such factors that are
+common to neuromorphic devices, more specifically limited hardware resources,
+limited parameter configurability and parameter variations. Our final aim is to
+provide an array of methods for coping with such inevitable distortion
+mechanisms. As a platform for testing our proposed strategies, we use an
+executable system specification (ESS) of the BrainScaleS neuromorphic system,
+which has been designed as a universal emulation back-end for neuroscientific
+modeling. We address the most essential limitations of this device in detail
+and study their effects on three prototypical benchmark network models within a
+well-defined, systematic workflow. For each network model, we start by defining
+quantifiable functionality measures by which we then assess the effects of
+typical hardware-specific distortion mechanisms, both in idealized software
+simulations and on the ESS. For those effects that cause unacceptable
+deviations from the original network dynamics, we suggest generic compensation
+mechanisms and demonstrate their effectiveness. Both the suggested workflow and
+the investigated compensation mechanisms are largely back-end independent and
+do not require additional hardware configurability beyond the one required to
+emulate the benchmark networks in the first place. We hereby provide a generic
+methodological environment for configurable neuromorphic devices that are
+targeted at emulating large-scale, functional neural networks.

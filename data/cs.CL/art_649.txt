@@ -1,0 +1,12 @@
+Exploiting Similarities among Languages for Machine Translation
+Dictionaries and phrase tables are the basis of modern statistical machine
+translation systems. This paper develops a method that can automate the process
+of generating and extending dictionaries and phrase tables. Our method can
+translate missing word and phrase entries by learning language structures based
+on large monolingual data and mapping between languages from small bilingual
+data. It uses distributed representation of words and learns a linear mapping
+between vector spaces of languages. Despite its simplicity, our method is
+surprisingly effective: we can achieve almost 90% precision@5 for translation
+of words between English and Spanish. This method makes little assumption about
+the languages, so it can be used to extend and refine dictionaries and
+translation tables for any language pairs.

@@ -1,0 +1,14 @@
+Roll-back Hamiltonian Monte Carlo
+We propose a new framework for Hamiltonian Monte Carlo (HMC) on truncated
+probability distributions with smooth underlying density functions. Traditional
+HMC requires computing the gradient of potential function associated with the
+target distribution, and therefore does not perform its full power on truncated
+distributions due to lack of continuity and differentiability. In our
+framework, we introduce a sharp sigmoid factor in the density function to
+approximate the probability drop at the truncation boundary. The target
+potential function is approximated by a new potential which smoothly extends to
+the entire sample space. HMC is then performed on the approximate potential.
+While our method is easy to implement and applies to a wide range of problems,
+it also achieves comparable computational efficiency on various sampling tasks
+compared to other baseline methods. RBHMC also gives rise to a new approach for
+Bayesian inference on constrained spaces.

@@ -1,0 +1,16 @@
+AWE: Asymmetric Word Embedding for Textual Entailment
+Textual entailment is a fundamental task in natural language processing. It
+refers to the directional relation between text fragments such that the
+"premise" can infer "hypothesis". In recent years deep learning methods have
+achieved great success in this task. Many of them have considered the
+inter-sentence word-word interactions between the premise-hypothesis pairs,
+however, few of them considered the "asymmetry" of these interactions.
+Different from paraphrase identification or sentence similarity evaluation,
+textual entailment is essentially determining a directional (asymmetric)
+relation between the premise and the hypothesis. In this paper, we propose a
+simple but effective way to enhance existing textual entailment algorithms by
+using asymmetric word embeddings. Experimental results on SciTail and SNLI
+datasets show that the learned asymmetric word embeddings could significantly
+improve the word-word interaction based textual entailment models. It is
+noteworthy that the proposed AWE-DeIsTe model can get 2.1% accuracy improvement
+over prior state-of-the-art on SciTail.

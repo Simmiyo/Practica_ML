@@ -1,0 +1,20 @@
+Metric-space analysis of spike trains: theory, algorithms, and
+  application
+We present the mathematical basis of a new approach to the analysis of
+temporal coding. The foundation of the approach is the construction of several
+families of novel distances (metrics) between neuronal impulse trains. In
+contrast to most previous approaches to the analysis of temporal coding, the
+present approach does not attempt to embed impulse trains in a vector space,
+and does not assume a Euclidean notion of distance. Rather, the proposed
+metrics formalize physiologically-based hypotheses for what aspects of the
+firing pattern might be stimulus-dependent, and make essential use of the point
+process nature of neural discharges. We show that these families of metrics
+endow the space of impulse trains with related but inequivalent topological
+structures. We show how these metrics can be used to determine whether a set of
+observed responses have stimulus-dependent temporal structure without a
+vector-space embedding. We show how multidimensional scaling can be used to
+assess the similarity of these metrics to Euclidean distances. For two of these
+families of metrics (one based on spike times and one based on spike
+intervals), we present highly efficient computational algorithms for
+calculating the distances. We illustrate these ideas by application to
+artificial datasets and to recordings from auditory and visual cortex.

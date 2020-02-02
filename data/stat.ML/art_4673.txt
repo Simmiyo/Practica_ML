@@ -1,0 +1,11 @@
+Detecting Relative Anomaly
+System states that are anomalous from the perspective of a domain expert
+occur frequently in some anomaly detection problems. The performance of
+commonly used unsupervised anomaly detection methods may suffer in that
+setting, because they use frequency as a proxy for anomaly. We propose a novel
+concept for anomaly detection, called relative anomaly detection. It is
+tailored to be robust towards anomalies that occur frequently, by taking into
+account their location relative to the most typical observations. The
+approaches we develop are computationally feasible even for large data sets,
+and they allow real-time detection. We illustrate using data sets of potential
+scraping attempts and Wi-Fi channel utilization, both from Google, Inc.

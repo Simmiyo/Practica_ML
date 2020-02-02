@@ -1,0 +1,28 @@
+Efficient Mixed-Norm Regularization: Algorithms and Safe Screening
+  Methods
+Sparse learning has recently received increasing attention in many areas
+including machine learning, statistics, and applied mathematics. The mixed-norm
+regularization based on the l1q norm with q>1 is attractive in many
+applications of regression and classification in that it facilitates group
+sparsity in the model. The resulting optimization problem is, however,
+challenging to solve due to the inherent structure of the mixed-norm
+regularization. Existing work deals with special cases with q=1, 2, infinity,
+and they cannot be easily extended to the general case. In this paper, we
+propose an efficient algorithm based on the accelerated gradient method for
+solving the general l1q-regularized problem. One key building block of the
+proposed algorithm is the l1q-regularized Euclidean projection (EP_1q). Our
+theoretical analysis reveals the key properties of EP_1q and illustrates why
+EP_1q for the general q is significantly more challenging to solve than the
+special cases. Based on our theoretical analysis, we develop an efficient
+algorithm for EP_1q by solving two zero finding problems. To further improve
+the efficiency of solving large dimensional mixed-norm regularized problems, we
+propose a screening method which is able to quickly identify the inactive
+groups, i.e., groups that have 0 components in the solution. This may lead to
+substantial reduction in the number of groups to be entered to the
+optimization. An appealing feature of our screening method is that the data set
+needs to be scanned only once to run the screening. Compared to that of solving
+the mixed-norm regularized problems, the computational cost of our screening
+test is negligible. The key of the proposed screening method is an accurate
+sensitivity analysis of the dual optimal solution when the regularization
+parameter varies. Experimental results demonstrate the efficiency of the
+proposed algorithm.

@@ -1,0 +1,14 @@
+Building a reordering system using tree-to-string hierarchical model
+This paper describes our submission to the First Workshop on Reordering for
+Statistical Machine Translation. We have decided to build a reordering system
+based on tree-to-string model, using only publicly available tools to
+accomplish this task. With the provided training data we have built a
+translation model using Moses toolkit, and then we applied a chart decoder,
+implemented in Moses, to reorder the sentences. Even though our submission only
+covered English-Farsi language pair, we believe that the approach itself should
+work regardless of the choice of the languages, so we have also carried out the
+experiments for English-Italian and English-Urdu. For these language pairs we
+have noticed a significant improvement over the baseline in BLEU, Kendall-Tau
+and Hamming metrics. A detailed description is given, so that everyone can
+reproduce our results. Also, some possible directions for further improvements
+are discussed.

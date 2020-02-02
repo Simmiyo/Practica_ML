@@ -1,0 +1,23 @@
+High-Dimensional Regression with Gaussian Mixtures and Partially-Latent
+  Response Variables
+In this work we address the problem of approximating high-dimensional data
+with a low-dimensional representation. We make the following contributions. We
+propose an inverse regression method which exchanges the roles of input and
+response, such that the low-dimensional variable becomes the regressor, and
+which is tractable. We introduce a mixture of locally-linear probabilistic
+mapping model that starts with estimating the parameters of inverse regression,
+and follows with inferring closed-form solutions for the forward parameters of
+the high-dimensional regression problem of interest. Moreover, we introduce a
+partially-latent paradigm, such that the vector-valued response variable is
+composed of both observed and latent entries, thus being able to deal with data
+contaminated by experimental artifacts that cannot be explained with noise
+models. The proposed probabilistic formulation could be viewed as a
+latent-variable augmentation of regression. We devise expectation-maximization
+(EM) procedures based on a data augmentation strategy which facilitates the
+maximum-likelihood search over the model parameters. We propose two
+augmentation schemes and we describe in detail the associated EM inference
+procedures that may well be viewed as generalizations of a number of EM
+regression, dimension reduction, and factor analysis algorithms. The proposed
+framework is validated with both synthetic and real data. We provide
+experimental evidence that our method outperforms several existing regression
+techniques.

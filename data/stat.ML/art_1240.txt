@@ -1,0 +1,16 @@
+Training Gaussian Mixture Models at Scale via Coresets
+How can we train a statistical mixture model on a massive data set? In this
+work we show how to construct coresets for mixtures of Gaussians. A coreset is
+a weighted subset of the data, which guarantees that models fitting the coreset
+also provide a good fit for the original data set. We show that, perhaps
+surprisingly, Gaussian mixtures admit coresets of size polynomial in dimension
+and the number of mixture components, while being independent of the data set
+size. Hence, one can harness computationally intensive algorithms to compute a
+good approximation on a significantly smaller data set. More importantly, such
+coresets can be efficiently constructed both in distributed and streaming
+settings and do not impose restrictions on the data generating process. Our
+results rely on a novel reduction of statistical estimation to problems in
+computational geometry and new combinatorial complexity results for mixtures of
+Gaussians. Empirical evaluation on several real-world datasets suggests that
+our coreset-based approach enables significant reduction in training-time with
+negligible approximation error.

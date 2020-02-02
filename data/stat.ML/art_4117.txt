@@ -1,0 +1,14 @@
+Autism Spectrum Disorder Classification using Graph Kernels on
+  Multidimensional Time Series
+We present an approach to model time series data from resting state fMRI for
+autism spectrum disorder (ASD) severity classification. We propose to adopt
+kernel machines and employ graph kernels that define a kernel dot product
+between two graphs. This enables us to take advantage of spatio-temporal
+information to capture the dynamics of the brain network, as opposed to
+aggregating them in the spatial or temporal dimension. In addition to the
+conventional similarity graphs, we explore the use of L1 graph using sparse
+coding, and the persistent homology of time delay embeddings, in the proposed
+pipeline for ASD classification. In our experiments on two datasets from the
+ABIDE collection, we demonstrate a consistent and significant advantage in
+using graph kernels over traditional linear or non linear kernels for a variety
+of time series features.

@@ -1,0 +1,16 @@
+Spectrum density of large sparse random matrices associated to neural
+  networks
+The eigendecomposition of the coupling matrix of large biological networks is
+central to the study of the dynamics of these networks. For neural networks,
+this matrix should reflect the topology of the network and conform with Dale's
+law which states that a neuron can have only all excitatory or only all
+inhibitory output connections, i.e., coefficients of one column of the coupling
+matrix must all have the same sign. The eigenspectrum density has been
+determined before for dense matrices $J_{ij}$, when several populations are
+considered. However, the expressions were derived under the assumption of dense
+connectivity, whereas neural circuits have sparse connections. Here, we
+followed mean-field approaches in order to come up with exact self-consistent
+expressions for the spectrum density in the limit of sparse matrices for both
+symmetric and neural network matrices. Furthermore we introduced approximations
+that allow for good numerical evaluation of the density. Finally, we studied
+the phenomenology of localization properties of the eigenvectors.

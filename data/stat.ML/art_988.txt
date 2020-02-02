@@ -1,0 +1,12 @@
+Unbounded Bayesian Optimization via Regularization
+Bayesian optimization has recently emerged as a popular and efficient tool
+for global optimization and hyperparameter tuning. Currently, the established
+Bayesian optimization practice requires a user-defined bounding box which is
+assumed to contain the optimizer. However, when little is known about the
+probed objective function, it can be difficult to prescribe such bounds. In
+this work we modify the standard Bayesian optimization framework in a
+principled way to allow automatic resizing of the search space. We introduce
+two alternative methods and compare them on two common synthetic benchmarking
+test functions as well as the tasks of tuning the stochastic gradient descent
+optimizer of a multi-layered perceptron and a convolutional neural network on
+MNIST.

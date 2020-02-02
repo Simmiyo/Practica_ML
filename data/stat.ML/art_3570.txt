@@ -1,0 +1,12 @@
+Empirical Analysis of Sampling Based Estimators for Evaluating RBMs
+The Restricted Boltzmann Machines (RBM) can be used either as classifiers or
+as generative models. The quality of the generative RBM is measured through the
+average log-likelihood on test data. Due to the high computational complexity
+of evaluating the partition function, exact calculation of test log-likelihood
+is very difficult. In recent years some estimation methods are suggested for
+approximate computation of test log-likelihood. In this paper we present an
+empirical comparison of the main estimation methods, namely, the AIS algorithm
+for estimating the partition function, the CSL method for directly estimating
+the log-likelihood, and the RAISE algorithm that combines these two ideas. We
+use the MNIST data set to learn the RBM and then compare these methods for
+estimating the test log-likelihood.

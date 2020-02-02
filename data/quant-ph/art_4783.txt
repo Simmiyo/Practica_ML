@@ -1,0 +1,17 @@
+How unconditionally secure quantum bit commitment is possible
+Bit commitment involves the submission of evidence from one party to another
+so that the evidence can be used to confirm a later revealed bit value by the
+first party, while the second party cannot determine the bit value from the
+evidence alone. It is widely believed that unconditionally secure quantum bit
+commitment is impossible due to quantum entanglement cheating, which is
+codified in a general impossibility theorem. In this paper, the scope of this
+general impossibility proof is analyzed, and gaps are found. Two variants of a
+bit commitment scheme utilizing anonymous quantum states and decoy states are
+presented. In the first variant, the exact verifying measurement is independent
+of the committed bit value, thus the second party can make it before the first
+party opens, making possible an unconditional security proof based on
+no-cloning. In the second variant, the impossibility proof fails because
+quantum entanglement purification of a mixed state does not render the protocol
+determinate. Whether impossibility holds in this or similar protocols is an
+open question, although preliminary results already show that the impossibility
+proof cannot work as it stands.

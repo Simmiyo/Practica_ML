@@ -1,0 +1,19 @@
+Finding consensus in speech recognition: word error minimization and
+  other applications of confusion networks
+We describe a new framework for distilling information from word lattices to
+improve the accuracy of speech recognition and obtain a more perspicuous
+representation of a set of alternative hypotheses. In the standard MAP decoding
+approach the recognizer outputs the string of words corresponding to the path
+with the highest posterior probability given the acoustics and a language
+model. However, even given optimal models, the MAP decoder does not necessarily
+minimize the commonly used performance metric, word error rate (WER). We
+describe a method for explicitly minimizing WER by extracting word hypotheses
+with the highest posterior probabilities from word lattices. We change the
+standard problem formulation by replacing global search over a large set of
+sentence hypotheses with local search over a small set of word candidates. In
+addition to improving the accuracy of the recognizer, our method produces a new
+representation of the set of candidate hypotheses that specifies the sequence
+of word-level confusions in a compact lattice format. We study the properties
+of confusion networks and examine their use for other tasks, such as lattice
+compression, word spotting, confidence annotation, and reevaluation of
+recognition hypotheses using higher-level knowledge sources.

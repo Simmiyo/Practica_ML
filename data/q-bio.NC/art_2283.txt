@@ -1,0 +1,25 @@
+Simultaneous Reduction of Two Common Autocalibration Errors in GRAPPA
+  EPI Time Series Data
+The GRAPPA (GeneRalized Autocalibrating Partially Parallel Acquisitions)
+method of parallel MRI makes use of an autocalibration scan (ACS) to determine
+a set of synthesis coefficients to be used in the image reconstruction. For EPI
+time series the ACS data is usually acquired once prior to the time series. In
+this case the interleaved R-shot EPI trajectory, where R is the GRAPPA
+reduction factor, offers advantages which we justify from a theoretical and
+experimental perspective. Unfortunately, interleaved R-shot ACS can be
+corrupted due to perturbations to the signal (such as direct and indirect
+motion effects) occurring between the shots, and these perturbations may lead
+to artifacts in GRAPPA-reconstructed images. Consequently we also present a
+method of acquiring interleaved ACS data in a manner which can reduce the
+effects of inter-shot signal perturbations. This method makes use of the phase
+correction data, conveniently a part of many standard EPI sequences, to assess
+the signal perturbations between the segments of R-shot EPI ACS scans. The
+phase correction scans serve as navigator echoes, or more accurately a
+perturbation-sensitive signal, to which a root-mean-square deviation
+perturbation metric is applied for the determination of the best available
+complete ACS data set among multiple complete sets of ACS data acquired prior
+to the EPI time series. This best set (assumed to be that with the smallest
+valued perturbation metric) is used in the GRAPPA autocalibration algorithm,
+thereby permitting considerable improvement in both image quality and temporal
+signal-to-noise ratio of the subsequent EPI time series at the expense of a
+small increase in overall acquisition time.

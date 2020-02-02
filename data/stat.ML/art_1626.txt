@@ -1,0 +1,19 @@
+High Dimensional Nonlinear Learning using Local Coordinate Coding
+This paper introduces a new method for semi-supervised learning on high
+dimensional nonlinear manifolds, which includes a phase of unsupervised basis
+learning and a phase of supervised function learning. The learned bases provide
+a set of anchor points to form a local coordinate system, such that each data
+point $x$ on the manifold can be locally approximated by a linear combination
+of its nearby anchor points, with the linear weights offering a
+local-coordinate coding of $x$. We show that a high dimensional nonlinear
+function can be approximated by a global linear function with respect to this
+coding scheme, and the approximation quality is ensured by the locality of such
+coding. The method turns a difficult nonlinear learning problem into a simple
+global linear learning problem, which overcomes some drawbacks of traditional
+local learning methods. The work also gives a theoretical justification to the
+empirical success of some biologically-inspired models using sparse coding of
+sensory data, since a local coding scheme must be sufficiently sparse. However,
+sparsity does not always satisfy locality conditions, and can thus possibly
+lead to suboptimal results. The properties and performances of the method are
+empirically verified on synthetic data, handwritten digit classification, and
+object recognition tasks.

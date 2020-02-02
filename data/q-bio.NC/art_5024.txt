@@ -1,0 +1,22 @@
+Dynamics and computation in mixed networks containing neurons that
+  accelerate towards spiking
+Networks in the brain consist of different types of neurons. Here we
+investigate the influence of neuron diversity on the dynamics, phase space
+structure and computational capabilities of spiking neural networks. We find
+that already a single neuron of a different type can qualitatively change the
+network dynamics and that mixed networks may combine the computational
+capabilities of ones with a single neuron type. We study inhibitory networks of
+concave leaky (LIF) and convex "anti-leaky" (XIF) integrate-and-fire neurons
+that generalize irregularly spiking non-chaotic LIF neuron networks. Endowed
+with simple conductance-based synapses for XIF neurons, our networks can
+generate a balanced state of irregular asynchronous spiking as well. We
+determine the voltage probability distributions and self-consistent firing
+rates assuming Poisson input with finite size spike impacts. Further, we
+compute the full spectrum of Lyapunov exponents (LEs) and the covariant
+Lyapunov vectors (CLVs) specifying the corresponding perturbation directions.
+We find that there is approximately one positive LE for each XIF neuron. This
+indicates in particular that a single XIF neuron renders the network dynamics
+chaotic. A simple mean-field approach, which can be justified by properties of
+the CLVs, explains the finding. As an application, we propose a spike-based
+computing scheme where our networks serve as computational reservoirs and their
+different stability properties yield different computational capabilities.

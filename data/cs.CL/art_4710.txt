@@ -1,0 +1,13 @@
+Unsupervised Abstractive Sentence Summarization using Length Controlled
+  Variational Autoencoder
+In this work we present an unsupervised approach to summarize sentences in
+abstractive way using Variational Autoencoder (VAE). VAE are known to learn a
+semantically rich latent variable, representing high dimensional input. VAEs
+are trained by learning to reconstruct the input from the probabilistic latent
+variable. Explicitly providing the information about output length during
+training influences the VAE to not encode this information and thus can be
+manipulated during inference. Instructing the decoder to produce a shorter
+output sequence leads to expressing the input sentence with fewer words. We
+show on different summarization data sets, that these shorter sentences can not
+beat a simple baseline but yield higher ROUGE scores than trying to reconstruct
+the whole sentence.

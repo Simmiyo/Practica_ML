@@ -1,0 +1,17 @@
+A Collaborative Kalman Filter for Time-Evolving Dyadic Processes
+We present the collaborative Kalman filter (CKF), a dynamic model for
+collaborative filtering and related factorization models. Using the matrix
+factorization approach to collaborative filtering, the CKF accounts for time
+evolution by modeling each low-dimensional latent embedding as a
+multidimensional Brownian motion. Each observation is a random variable whose
+distribution is parameterized by the dot product of the relevant Brownian
+motions at that moment in time. This is naturally interpreted as a Kalman
+filter with multiple interacting state space vectors. We also present a method
+for learning a dynamically evolving drift parameter for each location by
+modeling it as a geometric Brownian motion. We handle posterior intractability
+via a mean-field variational approximation, which also preserves tractability
+for downstream calculations in a manner similar to the Kalman filter. We
+evaluate the model on several large datasets, providing quantitative evaluation
+on the 10 million Movielens and 100 million Netflix datasets and qualitative
+evaluation on a set of 39 million stock returns divided across roughly 6,500
+companies from the years 1962-2014.

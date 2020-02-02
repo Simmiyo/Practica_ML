@@ -1,0 +1,24 @@
+A neuro-inspired system for online learning and recognition of parallel
+  spike trains, based on spike latency and heterosynaptic STDP
+Humans perform remarkably well in many cognitive tasks including pattern
+recognition. However, the neuronal mechanisms underlying this process are not
+well understood. Nevertheless, artificial neural networks, inspired in brain
+circuits, have been designed and used to tackle spatio-temporal pattern
+recognition tasks. In this paper we present a multineuronal spike pattern
+detection structure able to autonomously implement online learning and
+recognition of parallel spike sequences (i.e., sequences of pulses belonging to
+different neurons/neural ensembles). The operating principle of this structure
+is based on two spiking/synaptic neurocomputational characteristics: spike
+latency, that enables neurons to fire spikes with a certain delay and
+heterosynaptic plasticity, that allows the own regulation of synaptic weights.
+From the perspective of the information representation, the structure allows
+mapping a spatio-temporal stimulus into a multidimensional, temporal, feature
+space. In this space, the parameter coordinate and the time at which a neuron
+fires represent one specific feature. In this sense, each feature can be
+considered to span a single temporal axis. We applied our proposed scheme to
+experimental data obtained from a motor inhibitory cognitive task. The test
+exhibits good classification performance, indicating the adequateness of our
+approach. In addition to its effectiveness, its simplicity and low
+computational cost suggest a large scale implementation for real time
+recognition applications in several areas, such as brain computer interface,
+personal biometrics authentication or early detection of diseases.

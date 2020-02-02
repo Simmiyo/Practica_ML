@@ -1,0 +1,21 @@
+The White Matter Query Language: A Novel Approach for Describing Human
+  White Matter Anatomy
+We have developed a novel method to describe human white matter anatomy using
+an approach that is both intuitive and simple to use, and which automatically
+extracts white matter tracts from diffusion MRI volumes. Further, our method
+simplifies the quantification and statistical analysis of white matter tracts
+on large diffusion MRI databases. This work reflects the careful syntactical
+definition of major white matter fiber tracts in the human brain based on a
+neuroanatomist's expert knowledge. The framework is based on a novel query
+language with a near-to-English textual syntax. This query language makes it
+possible to construct a dictionary of anatomical definitions that describe
+white matter tracts. The definitions include adjacent gray and white matter
+regions, and rules for spatial relations. This novel method makes it possible
+to automatically label white matter anatomy across subjects. After describing
+this method, we provide an example of its implementation where we encode
+anatomical knowledge in human white matter for 10 association and 15 projection
+tracts per hemisphere, along with 7 commissural tracts. Importantly, this novel
+method is comparable in accuracy to manual labeling. Finally, we present
+results applying this method to create a white matter atlas from 77 healthy
+subjects, and we use this atlas in a small proof-of-concept study to detect
+changes in association tracts that characterize schizophrenia.

@@ -1,0 +1,7 @@
+Finding Matches between Two Databases on a Quantum Computer
+Given two unsorted lists each of length N that have a single common entry, a
+quantum computer can find that matching element with a work factor of
+$O(N^{3/4}\log N)$ (measured in quantum memory accesses and accesses to each
+list). The amount of quantum memory required is $O(N^{1/2})$. The quantum
+algorithm that accomplishes this consists of an inner Grover search combined
+with a partial sort all sitting inside of an outer Grover search.

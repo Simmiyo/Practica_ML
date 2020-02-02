@@ -1,0 +1,20 @@
+Learning Signal Subgraphs from Longitudinal Brain Networks with
+  Symmetric Bilinear Logistic Regression
+Modern neuroimaging technologies, combined with state-of-the-art data
+processing pipelines, have made it possible to collect longitudinal
+observations of an individual's brain connectome at different ages. It is of
+substantial scientific interest to study how brain connectivity varies over
+time in relation to human cognitive traits. In brain connectomics, the
+structural brain network for an individual corresponds to a set of
+interconnections among brain regions. We propose a symmetric bilinear logistic
+regression to learn a set of small subgraphs relevant to a binary outcome from
+longitudinal brain networks as well as estimating the time effects of the
+subgraphs. We enforce the extracted signal subgraphs to have clique structure
+which has appealing interpretations as they can be related to neurological
+circuits. The time effect of each signal subgraph reflects how its predictive
+effect on the outcome varies over time, which may improve our understanding of
+interactions between the aging of brain structure and neurological disorders.
+Application of this method on longitudinal brain connectomics and cognitive
+capacity data shows interesting discovery of relevant interconnections among a
+small set of brain regions in frontal and temporal lobes with better predictive
+performance than competitors.

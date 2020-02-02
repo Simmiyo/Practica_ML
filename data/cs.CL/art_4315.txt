@@ -1,0 +1,21 @@
+Sequence Discriminative Training for Deep Learning based Acoustic
+  Keyword Spotting
+Speech recognition is a sequence prediction problem. Besides employing
+various deep learning approaches for framelevel classification, sequence-level
+discriminative training has been proved to be indispensable to achieve the
+state-of-the-art performance in large vocabulary continuous speech recognition
+(LVCSR). However, keyword spotting (KWS), as one of the most common speech
+recognition tasks, almost only benefits from frame-level deep learning due to
+the difficulty of getting competing sequence hypotheses. The few studies on
+sequence discriminative training for KWS are limited for fixed vocabulary or
+LVCSR based methods and have not been compared to the state-of-the-art deep
+learning based KWS approaches. In this paper, a sequence discriminative
+training framework is proposed for both fixed vocabulary and unrestricted
+acoustic KWS. Sequence discriminative training for both sequence-level
+generative and discriminative models are systematically investigated. By
+introducing word-independent phone lattices or non-keyword blank symbols to
+construct competing hypotheses, feasible and efficient sequence discriminative
+training approaches are proposed for acoustic KWS. Experiments showed that the
+proposed approaches obtained consistent and significant improvement in both
+fixed vocabulary and unrestricted KWS tasks, compared to previous frame-level
+deep learning based acoustic KWS methods.

@@ -1,0 +1,21 @@
+Represent, Aggregate, and Constrain: A Novel Architecture for Machine
+  Reading from Noisy Sources
+In order to extract event information from text, a machine reading model must
+learn to accurately read and interpret the ways in which that information is
+expressed. But it must also, as the human reader must, aggregate numerous
+individual value hypotheses into a single coherent global analysis, applying
+global constraints which reflect prior knowledge of the domain.
+  In this work we focus on the task of extracting plane crash event information
+from clusters of related news articles whose labels are derived via distant
+supervision. Unlike previous machine reading work, we assume that while most
+target values will occur frequently in most clusters, they may also be missing
+or incorrect.
+  We introduce a novel neural architecture to explicitly model the noisy nature
+of the data and to deal with these aforementioned learning issues. Our models
+are trained end-to-end and achieve an improvement of more than 12.1 F$_1$ over
+previous work, despite using far less linguistic annotation. We apply factor
+graph constraints to promote more coherent event analyses, with belief
+propagation inference formulated within the transitions of a recurrent neural
+network. We show this technique additionally improves maximum F$_1$ by up to
+2.8 points, resulting in a relative improvement of $50\%$ over the previous
+state-of-the-art.

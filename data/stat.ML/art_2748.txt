@@ -1,0 +1,18 @@
+Inference in High Dimensions with the Penalized Score Test
+In recent years, there has been considerable theoretical development
+regarding variable selection consistency of penalized regression techniques,
+such as the lasso. However, there has been relatively little work on
+quantifying the uncertainty in these selection procedures. In this paper, we
+propose a new method for inference in high dimensions using a score test based
+on penalized regression. In this test, we perform penalized regression of an
+outcome on all but a single feature, and test for correlation of the residuals
+with the held-out feature. This procedure is applied to each feature in turn.
+Interestingly, when an $\ell_1$ penalty is used, the sparsity pattern of the
+lasso corresponds exactly to a decision based on the proposed test. Further,
+when an $\ell_2$ penalty is used, the test corresponds precisely to a score
+test in a mixed effects model, in which the effects of all but one feature are
+assumed to be random. We formulate the hypothesis being tested as a compromise
+between the null hypotheses tested in simple linear regression on each feature
+and in multiple linear regression on all features, and develop reference
+distributions for some well-known penalties. We also examine the behavior of
+the test on real and simulated data.

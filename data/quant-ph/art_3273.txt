@@ -1,0 +1,11 @@
+Fermionic quantum computation
+We define a model of quantum computation with local fermionic modes (LFMs) --
+sites which can be either empty or occupied by a fermion. With the standard
+correspondence between the Foch space of $m$ LFMs and the Hilbert space of $m$
+qubits, simulation of one fermionic gate takes $O(m)$ qubit gates and vice
+versa. We show that using different encodings, the simulation cost can be
+reduced to $O(\log m)$ and a constant, respectively. Nearest-neighbors
+fermionic gates on a graph of bounded degree can be simulated at a constant
+cost. A universal set of fermionic gates is found. We also study computation
+with Majorana fermions which are basically halves of LFMs. Some connection to
+qubit quantum codes is made.

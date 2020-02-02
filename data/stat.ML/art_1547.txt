@@ -1,0 +1,10 @@
+Path-Specific Counterfactual Fairness
+We consider the problem of learning fair decision systems in complex
+scenarios in which a sensitive attribute might affect the decision along both
+fair and unfair pathways. We introduce a causal approach to disregard effects
+along unfair pathways that simplifies and generalizes previous literature. Our
+method corrects observations adversely affected by the sensitive attribute, and
+uses these to form a decision. This avoids disregarding fair information, and
+does not require an often intractable computation of the path-specific effect.
+We leverage recent developments in deep learning and approximate inference to
+achieve a solution that is widely applicable to complex, non-linear scenarios.

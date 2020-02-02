@@ -1,0 +1,15 @@
+Multivariate Temporal Dictionary Learning for EEG
+This article addresses the issue of representing electroencephalographic
+(EEG) signals in an efficient way. While classical approaches use a fixed Gabor
+dictionary to analyze EEG signals, this article proposes a data-driven method
+to obtain an adapted dictionary. To reach an efficient dictionary learning,
+appropriate spatial and temporal modeling is required. Inter-channels links are
+taken into account in the spatial multivariate model, and shift-invariance is
+used for the temporal model. Multivariate learned kernels are informative (a
+few atoms code plentiful energy) and interpretable (the atoms can have a
+physiological meaning). Using real EEG data, the proposed method is shown to
+outperform the classical multichannel matching pursuit used with a Gabor
+dictionary, as measured by the representative power of the learned dictionary
+and its spatial flexibility. Moreover, dictionary learning can capture
+interpretable patterns: this ability is illustrated on real data, learning a
+P300 evoked potential.

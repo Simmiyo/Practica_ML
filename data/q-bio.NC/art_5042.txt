@@ -1,0 +1,18 @@
+Information Flow in Computational Systems
+We develop a theoretical framework for defining and identifying flows of
+information in computational systems. Here, a computational system is assumed
+to be a directed graph, with "clocked" nodes that send transmissions to each
+other along the edges of the graph at discrete points in time. A few measures
+of information flow have been proposed previously in the literature, and
+measures of directed causal influence are currently being used as a heuristic
+proxy for information flow. However, there is as yet no rigorous treatment of
+the problem with formal definitions and clearly stated assumptions, and the
+process of defining information flow is often conflated with the problem of
+estimating it. In this work, we provide a new information-theoretic definition
+for information flow in a computational system, which we motivate using a
+series of examples. We then show that this definition satisfies intuitively
+desirable properties, including the existence of "information paths", along
+which information flows from the input of the computational system to its
+output. Finally, we describe how information flow might be estimated in a
+noiseless setting, and provide an algorithm to identify information paths on
+the time-unrolled graph of a computational system.

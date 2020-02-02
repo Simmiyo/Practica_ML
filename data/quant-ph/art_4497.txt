@@ -1,0 +1,13 @@
+Quantum Search by Local Adiabatic Evolution
+The adiabatic theorem has been recently used to design quantum algorithms of
+a new kind, where the quantum computer evolves slowly enough so that it remains
+near its instantaneous ground state which tends to the solution [Farhi et al.,
+quant-ph/0001106]. We apply this time-dependent Hamiltonian approach to the
+Grover's problem, i. e., searching a marked item in an unstructured database.
+We find that, by adjusting the evolution rate of the Hamiltonian so as to keep
+the evolution adiabatic on each infinitesimal time interval, the total running
+time is of order $\sqrt{N}$, where $N$ is the number of items in the database.
+We thus recover the advantage of Grover's standard algorithm as compared to a
+classical search, scaling as $N$. This is in contrast with the constant-rate
+adiabatic approach developed by Farhi et al., where the requirement of
+adiabaticity is expressed only globally, resulting in a time of order $N$.

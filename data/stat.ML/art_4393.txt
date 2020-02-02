@@ -1,0 +1,23 @@
+Jaccard analysis and LASSO-based feature selection for location
+  fingerprinting with limited computational complexity
+We propose an approach to reduce both computational complexity and data
+storage requirements for the online positioning stage of a fingerprinting-based
+indoor positioning system (FIPS) by introducing segmentation of the region of
+interest (RoI) into sub-regions, sub-region selection using a modified Jaccard
+index, and feature selection based on randomized least absolute shrinkage and
+selection operator (LASSO). We implement these steps into a Bayesian framework
+of position estimation using the maximum a posteriori (MAP) principle. An
+additional benefit of these steps is that the time for estimating the position,
+and the required data storage are virtually independent of the size of the RoI
+and of the total number of available features within the RoI. Thus the proposed
+steps facilitate application of FIPS to large areas. Results of an experimental
+analysis using real data collected in an office building using a Nexus 6P smart
+phone as user device and a total station for providing position ground truth
+corroborate the expected performance of the proposed approach. The positioning
+accuracy obtained by only processing 10 automatically identified features
+instead of all available ones and limiting position estimation to 10
+automatically identified sub-regions instead of the entire RoI is equivalent to
+processing all available data. In the chosen example, 50% of the errors are
+less than 1.8 m and 90% are less than 5 m. However, the computation time using
+the automatically identified subset of data is only about 1% of that required
+for processing the entire data set.

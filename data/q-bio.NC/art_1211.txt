@@ -1,0 +1,23 @@
+Effects of spatial smoothing on functional brain networks
+Graph-theoretical methods have rapidly become a standard tool in studies of
+the structure and function of the human brain. Whereas the structural
+connectome can be fairly straightforwardly mapped onto a complex network, there
+are more degrees of freedom in constructing networks that represent functional
+connections between brain areas. For fMRI data, such networks are typically
+built by aggregating the BOLD signal time series of voxels into larger entities
+(such as Regions of Interest in some brain atlas), and determining the
+connection strengths between these from some measure of time-series
+correlations. Although it is evident that the outcome of this procedure must be
+affected by how the voxel-level time series are treated at the preprocessing
+stage, there is a lack of systematic studies of the effects of preprocessing on
+network structure. Here, we focus on the effects of spatial smoothing, which is
+a standard preprocessing method for fMRI. We apply various levels of spatial
+smoothing to resting-state fMRI data, and measure the changes induced in the
+corresponding functional networks. We show that the level of spatial smoothing
+clearly affects the degrees and other centrality measures of the nodes of the
+functional networks; these changes are non-uniform, systematic, and depend on
+the geometry of the brain. The composition of the largest connected network
+component is also affected in a way that artificially increases the similarity
+of the networks of different subjects. Our conclusion is that wherever
+possible, spatial smoothing should be avoided when preprocessing fMRI data for
+network analysis.

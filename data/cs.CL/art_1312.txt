@@ -1,0 +1,11 @@
+Faster decoding for subword level Phrase-based SMT between related
+  languages
+A common and effective way to train translation systems between related
+languages is to consider sub-word level basic units. However, this increases
+the length of the sentences resulting in increased decoding time. The increase
+in length is also impacted by the specific choice of data format for
+representing the sentences as subwords. In a phrase-based SMT framework, we
+investigate different choices of decoder parameters as well as data format and
+their impact on decoding time and translation accuracy. We suggest best options
+for these settings that significantly improve decoding time with little impact
+on the translation accuracy.

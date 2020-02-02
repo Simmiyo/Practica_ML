@@ -1,0 +1,10 @@
+From direct tagging to Tagging with sentences compression
+In essence, the two tagging methods (direct tagging and tagging with
+sentences compression) are to tag the information we need by using regular
+expression which basing on the inherent language patterns of the natural
+language. Though it has many advantages in extracting regular data, Direct
+tagging is not applicable to some situations. if the data we need extract is
+not regular and its surrounding words are regular is relatively regular, then
+we can use information compression to cut the information we do not need before
+we tagging the data we need. In this way we can increase the precision of the
+data while not undermine the recall of the data.

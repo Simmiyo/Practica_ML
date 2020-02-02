@@ -1,0 +1,16 @@
+Constant Size Molecular Descriptors For Use With Machine Learning
+A set of molecular descriptors whose length is independent of molecular size
+is developed for machine learning models that target thermodynamic and
+electronic properties of molecules. These features are evaluated by monitoring
+performance of kernel ridge regression models on well-studied data sets of
+small organic molecules. The features include connectivity counts, which
+require only the bonding pattern of the molecule, and encoded distances, which
+summarize distances between both bonded and non-bonded atoms and so require the
+full molecular geometry. In addition to having constant size, these features
+summarize information regarding the local environment of atoms and bonds, such
+that models can take advantage of similarities resulting from the presence of
+similar chemical fragments across molecules. Combining these two types of
+features leads to models whose performance is comparable to or better than the
+current state of the art. The features introduced here have the advantage of
+leading to models that may be trained on smaller molecules and then used
+successfully on larger molecules.

@@ -1,0 +1,15 @@
+An integral version of Shor's factoring algorithm
+We consider a version of Shor's quantum factoring algorithm such that the
+quantum Fourier transform is replaced by an extremely simple one where
+decomposition coefficients take only the values of $1,i,-1,-i$. In numerous
+calculations which have been carried out so far, our algorithm has been
+surprisingly stable and never failed. There are numerical indications that the
+probability of period finding given by the algorithm is a slowly decreasing
+function of the number to be factorized and is typically less than in Shor's
+algorithm. On the other hand, quantum computer (QC), capable of implementing
+our algorithm, will require a much less amount of resources and will be much
+less error-sensitive than standard QC. We also propose a modification of
+Coppersmith' Approximate Fast Fourier Transform. The numerical results show
+that the probability is signifacantly amplified even in the first post integral
+approximation. Our algorithm can be very useful at early stages of development
+of quantum computer.

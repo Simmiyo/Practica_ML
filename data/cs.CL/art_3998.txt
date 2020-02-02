@@ -1,0 +1,10 @@
+Polyglot Semantic Role Labeling
+Previous approaches to multilingual semantic dependency parsing treat
+languages independently, without exploiting the similarities between semantic
+structures across languages. We experiment with a new approach where we combine
+resources from a pair of languages in the CoNLL 2009 shared task to build a
+polyglot semantic role labeler. Notwithstanding the absence of parallel data,
+and the dissimilarity in annotations between languages, our approach results in
+an improvement in SRL performance on multiple languages over a monolingual
+baseline. Analysis of the polyglot model shows it to be advantageous in
+lower-resource settings.

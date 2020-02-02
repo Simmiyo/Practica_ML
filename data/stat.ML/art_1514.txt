@@ -1,0 +1,13 @@
+Greedy Active Learning Algorithm for Logistic Regression Models
+We study a logistic model-based active learning procedure for binary
+classification problems, in which we adopt a batch subject selection strategy
+with a modified sequential experimental design method. Moreover, accompanying
+the proposed subject selection scheme, we simultaneously conduct a greedy
+variable selection procedure such that we can update the classification model
+with all labeled training subjects. The proposed algorithm repeatedly performs
+both subject and variable selection steps until a prefixed stopping criterion
+is reached. Our numerical results show that the proposed procedure has
+competitive performance, with smaller training size and a more compact model,
+comparing with that of the classifier trained with all variables and a full
+data set. We also apply the proposed procedure to a well-known wave data set
+(Breiman et al., 1984) to confirm the performance of our method.

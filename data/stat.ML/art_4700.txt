@@ -1,0 +1,25 @@
+Kernel-based Reconstruction of Graph Signals
+A number of applications in engineering, social sciences, physics, and
+biology involve inference over networks. In this context, graph signals are
+widely encountered as descriptors of vertex attributes or features in
+graph-structured data. Estimating such signals in all vertices given noisy
+observations of their values on a subset of vertices has been extensively
+analyzed in the literature of signal processing on graphs (SPoG). This paper
+advocates kernel regression as a framework generalizing popular SPoG modeling
+and reconstruction and expanding their capabilities. Formulating signal
+reconstruction as a regression task on reproducing kernel Hilbert spaces of
+graph signals permeates benefits from statistical learning, offers fresh
+insights, and allows for estimators to leverage richer forms of prior
+information than existing alternatives. A number of SPoG notions such as
+bandlimitedness, graph filters, and the graph Fourier transform are naturally
+accommodated in the kernel framework. Additionally, this paper capitalizes on
+the so-called representer theorem to devise simpler versions of existing
+Thikhonov regularized estimators, and offers a novel probabilistic
+interpretation of kernel methods on graphs based on graphical models. Motivated
+by the challenges of selecting the bandwidth parameter in SPoG estimators or
+the kernel map in kernel-based methods, the present paper further proposes two
+multi-kernel approaches with complementary strengths. Whereas the first enables
+estimation of the unknown bandwidth of bandlimited signals, the second allows
+for efficient graph filter selection. Numerical tests with synthetic as well as
+real data demonstrate the merits of the proposed methods relative to
+state-of-the-art alternatives.

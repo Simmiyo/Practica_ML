@@ -1,0 +1,17 @@
+A robust and sparse K-means clustering algorithm
+In many situations where the interest lies in identifying clusters one might
+expect that not all available variables carry information about these groups.
+Furthermore, data quality (e.g. outliers or missing entries) might present a
+serious and sometimes hard-to-assess problem for large and complex datasets. In
+this paper we show that a small proportion of atypical observations might have
+serious adverse effects on the solutions found by the sparse clustering
+algorithm of Witten and Tibshirani (2010). We propose a robustification of
+their sparse K-means algorithm based on the trimmed K-means algorithm of
+Cuesta-Albertos et al. (1997) Our proposal is also able to handle datasets with
+missing values. We illustrate the use of our method on microarray data for
+cancer patients where we are able to identify strong biological clusters with a
+much reduced number of genes. Our simulation studies show that, when there are
+outliers in the data, our robust sparse K-means algorithm performs better than
+other competing methods both in terms of the selection of features and also the
+identified clusters. This robust sparse K-means algorithm is implemented in the
+R package RSKC which is publicly available from the CRAN repository.

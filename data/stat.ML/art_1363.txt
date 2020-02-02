@@ -1,0 +1,15 @@
+Improving Output Uncertainty Estimation and Generalization in Deep
+  Learning via Neural Network Gaussian Processes
+We propose a simple method that combines neural networks and Gaussian
+processes. The proposed method can estimate the uncertainty of outputs and
+flexibly adjust target functions where training data exist, which are
+advantages of Gaussian processes. The proposed method can also achieve high
+generalization performance for unseen input configurations, which is an
+advantage of neural networks. With the proposed method, neural networks are
+used for the mean functions of Gaussian processes. We present a scalable
+stochastic inference procedure, where sparse Gaussian processes are inferred by
+stochastic variational inference, and the parameters of neural networks and
+kernels are estimated by stochastic gradient descent methods, simultaneously.
+We use two real-world spatio-temporal data sets to demonstrate experimentally
+that the proposed method achieves better uncertainty estimation and
+generalization performance than neural networks and Gaussian processes.

@@ -1,0 +1,18 @@
+Time Series Using Exponential Smoothing Cells
+Time series analysis is used to understand and predict dynamic processes,
+including evolving demands in business, weather, markets, and biological
+rhythms. Exponential smoothing is used in all these domains to obtain simple
+interpretable models of time series and to forecast future values. Despite its
+popularity, exponential smoothing fails dramatically in the presence of
+outliers, large amounts of noise, or when the underlying time series changes.
+  We propose a flexible model for time series analysis, using exponential
+smoothing cells for overlapping time windows. The approach can detect and
+remove outliers, denoise data, fill in missing observations, and provide
+meaningful forecasts in challenging situations. In contrast to classic
+exponential smoothing, which solves a nonconvex optimization problem over the
+smoothing parameters and initial state, the proposed approach requires solving
+a single structured convex optimization problem. Recent developments in
+efficient convex optimization of large-scale dynamic models make the approach
+tractable. We illustrate new capabilities using synthetic examples, and then
+use the approach to analyze and forecast noisy real-world time series. Code for
+the approach and experiments is publicly available.

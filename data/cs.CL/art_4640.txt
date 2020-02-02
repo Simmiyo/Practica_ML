@@ -1,0 +1,12 @@
+82 Treebanks, 34 Models: Universal Dependency Parsing with
+  Multi-Treebank Models
+We present the Uppsala system for the CoNLL 2018 Shared Task on universal
+dependency parsing. Our system is a pipeline consisting of three components:
+the first performs joint word and sentence segmentation; the second predicts
+part-of- speech tags and morphological features; the third predicts dependency
+trees from words and tags. Instead of training a single parsing model for each
+treebank, we trained models with multiple treebanks for one language or closely
+related languages, greatly reducing the number of models. On the official test
+run, we ranked 7th of 27 teams for the LAS and MLAS metrics. Our system
+obtained the best scores overall for word segmentation, universal POS tagging,
+and morphological features.

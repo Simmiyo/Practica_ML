@@ -1,0 +1,19 @@
+TANKER: Distributed Architecture for Named Entity Recognition and
+  Disambiguation
+Named Entity Recognition and Disambiguation (NERD) systems have recently been
+widely researched to deal with the significant growth of the Web. NERD systems
+are crucial for several Natural Language Processing (NLP) tasks such as
+summarization, understanding, and machine translation. However, there is no
+standard interface specification, i.e. these systems may vary significantly
+either for exporting their outputs or for processing the inputs. Thus, when a
+given company desires to implement more than one NERD system, the process is
+quite exhaustive and prone to failure. In addition, industrial solutions demand
+critical requirements, e.g., large-scale processing, completeness, versatility,
+and licenses. Commonly, these requirements impose a limitation, making good
+NERD models to be ignored by companies. This paper presents TANKER, a
+distributed architecture which aims to overcome scalability, reliability and
+failure tolerance limitations related to industrial needs by combining NERD
+systems. To this end, TANKER relies on a micro-services oriented architecture,
+which enables agile development and delivery of complex enterprise
+applications. In addition, TANKER provides a standardized API which makes
+possible to combine several NERD systems at once.

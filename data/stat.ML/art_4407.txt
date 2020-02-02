@@ -1,0 +1,16 @@
+Asymmetric Variational Autoencoders
+Variational inference for latent variable models is prevalent in various
+machine learning problems, typically solved by maximizing the Evidence Lower
+Bound (ELBO) of the true data likelihood with respect to a variational
+distribution. However, freely enriching the family of variational distribution
+is challenging since the ELBO requires variational likelihood evaluations of
+the latent variables. In this paper, we propose a novel framework to enrich the
+variational family by incorporating auxiliary variables to the variational
+family. The resulting inference network doesn't require density evaluations for
+the auxiliary variables and thus complex implicit densities over the auxiliary
+variables can be constructed by neural networks. It can be shown that the
+actual variational posterior of the proposed approach is essentially modeling a
+rich probabilistic mixture of simple variational posterior indexed by auxiliary
+variables, thus a flexible inference model can be built. Empirical evaluations
+on several density estimation tasks demonstrates the effectiveness of the
+proposed method.

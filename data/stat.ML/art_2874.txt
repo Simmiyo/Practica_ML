@@ -1,0 +1,18 @@
+Reducing the Effects of Detrimental Instances
+Not all instances in a data set are equally beneficial for inducing a model
+of the data. Some instances (such as outliers or noise) can be detrimental.
+However, at least initially, the instances in a data set are generally
+considered equally in machine learning algorithms. Many current approaches for
+handling noisy and detrimental instances make a binary decision about whether
+an instance is detrimental or not. In this paper, we 1) extend this paradigm by
+weighting the instances on a continuous scale and 2) present a methodology for
+measuring how detrimental an instance may be for inducing a model of the data.
+We call our method of identifying and weighting detrimental instances reduced
+detrimental instance learning (RDIL). We examine RIDL on a set of 54 data sets
+and 5 learning algorithms and compare RIDL with other weighting and filtering
+approaches. RDIL is especially useful for learning algorithms where every
+instance can affect the classification boundary and the training instances are
+considered individually, such as multilayer perceptrons trained with
+backpropagation (MLPs). Our results also suggest that a more accurate estimate
+of which instances are detrimental can have a significant positive impact for
+handling them.

@@ -1,0 +1,27 @@
+A Self-Organized Neural Comparator
+Learning algorithms need generally the possibility to compare several streams
+of information. Neural learning architectures hence need a unit, a comparator,
+able to compare several inputs encoding either internal or external
+information, like for instance predictions and sensory readings. Without the
+possibility of comparing the values of prediction to actual sensory inputs,
+reward evaluation and supervised learning would not be possible.
+  Comparators are usually not implemented explicitly, necessary comparisons are
+commonly performed by directly comparing one-to-one the respective activities.
+This implies that the characteristics of the two input streams (like size and
+encoding) must be provided at the time of designing the system.
+  It is however plausible that biological comparators emerge from
+self-organizing, genetically encoded principles, which allow the system to
+adapt to the changes in the input and in the organism.
+  We propose an unsupervised neural circuitry, where the function of input
+comparison emerges via self-organization only from the interaction of the
+system with the respective inputs, without external influence or supervision.
+  The proposed neural comparator adapts, unsupervised, according to the
+correlations present in the input streams. The system consists of a multilayer
+feed-forward neural network which follows a local output minimization
+(anti-Hebbian) rule for adaptation of the synaptic weights.
+  The local output minimization allows the circuit to autonomously acquire the
+capability of comparing the neural activities received from different neural
+populations, which may differ in the size of the population and in the neural
+encoding used. The comparator is able to compare objects never encountered
+before in the sensory input streams and to evaluate a measure of their
+similarity, even when differently encoded.

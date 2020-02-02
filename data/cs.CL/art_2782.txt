@@ -1,0 +1,14 @@
+Fine Grained Citation Span for References in Wikipedia
+\emph{Verifiability} is one of the core editing principles in Wikipedia,
+editors being encouraged to provide citations for the added content. For a
+Wikipedia article, determining the \emph{citation span} of a citation, i.e.
+what content is covered by a citation, is important as it helps decide for
+which content citations are still missing.
+  We are the first to address the problem of determining the \emph{citation
+span} in Wikipedia articles. We approach this problem by classifying which
+textual fragments in an article are covered by a citation. We propose a
+sequence classification approach where for a paragraph and a citation, we
+determine the citation span at a fine-grained level.
+  We provide a thorough experimental evaluation and compare our approach
+against baselines adopted from the scientific domain, where we show improvement
+for all evaluation metrics.

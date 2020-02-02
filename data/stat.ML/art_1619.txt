@@ -1,0 +1,15 @@
+A Stochastic View of Optimal Regret through Minimax Duality
+We study the regret of optimal strategies for online convex optimization
+games. Using von Neumann's minimax theorem, we show that the optimal regret in
+this adversarial setting is closely related to the behavior of the empirical
+minimization algorithm in a stochastic process setting: it is equal to the
+maximum, over joint distributions of the adversary's action sequence, of the
+difference between a sum of minimal expected losses and the minimal empirical
+loss. We show that the optimal regret has a natural geometric interpretation,
+since it can be viewed as the gap in Jensen's inequality for a concave
+functional--the minimizer over the player's actions of expected loss--defined
+on a set of probability distributions. We use this expression to obtain upper
+and lower bounds on the regret of an optimal strategy for a variety of online
+learning problems. Our method provides upper bounds without the need to
+construct a learning algorithm; the lower bounds provide explicit optimal
+strategies for the adversary.

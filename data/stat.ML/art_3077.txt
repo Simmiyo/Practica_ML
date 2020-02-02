@@ -1,0 +1,13 @@
+Beta Process Non-negative Matrix Factorization with Stochastic
+  Structured Mean-Field Variational Inference
+Beta process is the standard nonparametric Bayesian prior for latent factor
+model. In this paper, we derive a structured mean-field variational inference
+algorithm for a beta process non-negative matrix factorization (NMF) model with
+Poisson likelihood. Unlike the linear Gaussian model, which is well-studied in
+the nonparametric Bayesian literature, NMF model with beta process prior does
+not enjoy the conjugacy. We leverage the recently developed stochastic
+structured mean-field variational inference to relax the conjugacy constraint
+and restore the dependencies among the latent variables in the approximating
+variational distribution. Preliminary results on both synthetic and real
+examples demonstrate that the proposed inference algorithm can reasonably
+recover the hidden structure of the data.

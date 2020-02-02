@@ -1,0 +1,18 @@
+Ending-based Strategies for Part-of-speech Tagging
+Probabilistic approaches to part-of-speech tagging rely primarily on
+whole-word statistics about word/tag combinations as well as contextual
+information. But experience shows about 4 per cent of tokens encountered in
+test sets are unknown even when the training set is as large as a million
+words. Unseen words are tagged using secondary strategies that exploit word
+features such as endings, capitalizations and punctuation marks. In this work,
+word-ending statistics are primary and whole-word statistics are secondary.
+First, a tagger was trained and tested on word endings only. Subsequent
+experiments added back whole-word statistics for the words occurring most
+frequently in the training set. As grew larger, performance was expected to
+improve, in the limit performing the same as word-based taggers. Surprisingly,
+the ending-based tagger initially performed nearly as well as the word-based
+tagger; in the best case, its performance significantly exceeded that of the
+word-based tagger. Lastly, and unexpectedly, an effect of negative returns was
+observed - as grew larger, performance generally improved and then declined. By
+varying factors such as ending length and tag-list strategy, we achieved a
+success rate of 97.5 percent.

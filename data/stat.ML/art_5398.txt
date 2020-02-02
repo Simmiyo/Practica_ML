@@ -1,0 +1,13 @@
+Don't Fear the Bit Flips: Optimized Coding Strategies for Binary
+  Classification
+After being trained, classifiers must often operate on data that has been
+corrupted by noise. In this paper, we consider the impact of such noise on the
+features of binary classifiers. Inspired by tools for classifier robustness, we
+introduce the same classification probability (SCP) to measure the resulting
+distortion on the classifier outputs. We introduce a low-complexity estimate of
+the SCP based on quantization and polynomial multiplication. We also study
+channel coding techniques based on replication error-correcting codes. In
+contrast to the traditional channel coding approach, where error-correction is
+meant to preserve the data and is agnostic to the application, our schemes
+specifically aim to maximize the SCP (equivalently minimizing the distortion of
+the classifier output) for the same redundancy overhead.

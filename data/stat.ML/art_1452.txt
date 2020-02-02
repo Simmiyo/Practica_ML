@@ -1,0 +1,14 @@
+Sparse Linear Isotonic Models
+In machine learning and data mining, linear models have been widely used to
+model the response as parametric linear functions of the predictors. To relax
+such stringent assumptions made by parametric linear models, additive models
+consider the response to be a summation of unknown transformations applied on
+the predictors; in particular, additive isotonic models (AIMs) assume the
+unknown transformations to be monotone. In this paper, we introduce sparse
+linear isotonic models (SLIMs) for highdimensional problems by hybridizing
+ideas in parametric sparse linear models and AIMs, which enjoy a few appealing
+advantages over both. In the high-dimensional setting, a two-step algorithm is
+proposed for estimating the sparse parameters as well as the monotone functions
+over predictors. Under mild statistical assumptions, we show that the algorithm
+can accurately estimate the parameters. Promising preliminary experiments are
+presented to support the theoretical results.

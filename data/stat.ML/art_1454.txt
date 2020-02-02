@@ -1,0 +1,17 @@
+Variational Inference based on Robust Divergences
+Robustness to outliers is a central issue in real-world machine learning
+applications. While replacing a model to a heavy-tailed one (e.g., from
+Gaussian to Student-t) is a standard approach for robustification, it can only
+be applied to simple models. In this paper, based on Zellner's optimization and
+variational formulation of Bayesian inference, we propose an outlier-robust
+pseudo-Bayesian variational method by replacing the Kullback-Leibler divergence
+used for data fitting to a robust divergence such as the beta- and
+gamma-divergences. An advantage of our approach is that superior but complex
+models such as deep networks can also be handled. We theoretically prove that,
+for deep networks with ReLU activation functions, the \emph{influence function}
+in our proposed method is bounded, while it is unbounded in the ordinary
+variational inference. This implies that our proposed method is robust to both
+of input and output outliers, while the ordinary variational method is not. We
+experimentally demonstrate that our robust variational method outperforms
+ordinary variational inference in regression and classification with deep
+networks.

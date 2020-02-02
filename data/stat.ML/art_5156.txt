@@ -1,0 +1,11 @@
+High-dimensional Filtering using Nested Sequential Monte Carlo
+Sequential Monte Carlo (SMC) methods comprise one of the most successful
+approaches to approximate Bayesian filtering. However, SMC without good
+proposal distributions struggle in high dimensions. We propose nested
+sequential Monte Carlo (NSMC), a methodology that generalises the SMC framework
+by requiring only approximate, properly weighted, samples from the SMC proposal
+distribution, while still resulting in a correct SMC algorithm. This way we can
+exactly approximate the locally optimal proposal, and extend the class of
+models for which we can perform efficient inference using SMC. We show improved
+accuracy over other state-of-the-art methods on several spatio-temporal state
+space models.

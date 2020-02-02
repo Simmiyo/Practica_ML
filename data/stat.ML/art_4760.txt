@@ -1,0 +1,26 @@
+Sketching for Large-Scale Learning of Mixture Models
+Learning parameters from voluminous data can be prohibitive in terms of
+memory and computational requirements. We propose a "compressive learning"
+framework where we estimate model parameters from a sketch of the training
+data. This sketch is a collection of generalized moments of the underlying
+probability distribution of the data. It can be computed in a single pass on
+the training set, and is easily computable on streams or distributed datasets.
+The proposed framework shares similarities with compressive sensing, which aims
+at drastically reducing the dimension of high-dimensional signals while
+preserving the ability to reconstruct them. To perform the estimation task, we
+derive an iterative algorithm analogous to sparse reconstruction algorithms in
+the context of linear inverse problems. We exemplify our framework with the
+compressive estimation of a Gaussian Mixture Model (GMM), providing heuristics
+on the choice of the sketching procedure and theoretical guarantees of
+reconstruction. We experimentally show on synthetic data that the proposed
+algorithm yields results comparable to the classical Expectation-Maximization
+(EM) technique while requiring significantly less memory and fewer computations
+when the number of database elements is large. We further demonstrate the
+potential of the approach on real large-scale data (over 10 8 training samples)
+for the task of model-based speaker verification. Finally, we draw some
+connections between the proposed framework and approximate Hilbert space
+embedding of probability distributions using random features. We show that the
+proposed sketching operator can be seen as an innovative method to design
+translation-invariant kernels adapted to the analysis of GMMs. We also use this
+theoretical framework to derive information preservation guarantees, in the
+spirit of infinite-dimensional compressive sensing.

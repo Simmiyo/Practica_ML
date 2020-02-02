@@ -1,0 +1,22 @@
+A Manifold Regularized Multi-Task Learning Model for IQ Prediction from
+  Multiple fMRI Paradigms
+Multi-modal brain functional connectivity (FC) data have shown great
+potential for providing insights into individual variations in behavioral and
+cognitive traits. The joint learning of multi-modal imaging data can utilize
+the intrinsic association, and thus can boost the learning performance.
+Although several multi-task based learning models have already been proposed by
+viewing the feature learning on each modality as one task, most of them ignore
+the geometric structure information inherent in the modalities, which may play
+an important role in extracting discriminative features. In this paper, we
+propose a new manifold regularized multi-task learning model by simultaneously
+considering between-subject and between-modality relationships. Besides
+employing a group-sparsity regularizer to jointly select a few common features
+across multiple tasks (modalities), we design a novel manifold regularizer to
+preserve the structure information both within and between modalities in our
+model. This will make our model more adaptive for realistic data analysis. Our
+model is then validated on the Philadelphia Neurodevelopmental Cohort dataset,
+where we regard our modalities as functional MRI (fMRI) data collected under
+two paradigms. Specifically, we conduct experimental studies on fMRI based FC
+network data in two task conditions for intelligence quotient (IQ) prediction.
+The results demonstrate that our proposed model can not only achieve improved
+prediction performance, but also yield a set of IQ-relevant biomarkers.

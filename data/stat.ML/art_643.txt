@@ -1,0 +1,10 @@
+On the Convergence of Stochastic Variational Inference in Bayesian
+  Networks
+We highlight a pitfall when applying stochastic variational inference to
+general Bayesian networks. For global random variables approximated by an
+exponential family distribution, natural gradient steps, commonly starting from
+a unit length step size, are averaged to convergence. This useful insight into
+the scaling of initial step sizes is lost when the approximation factorizes
+across a general Bayesian network, and care must be taken to ensure practical
+convergence. We experimentally investigate how much of the baby (well-scaled
+steps) is thrown out with the bath water (exact gradients).

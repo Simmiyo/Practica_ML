@@ -1,0 +1,14 @@
+Contextual Decision Processes with Low Bellman Rank are PAC-Learnable
+This paper studies systematic exploration for reinforcement learning with
+rich observations and function approximation. We introduce a new model called
+contextual decision processes, that unifies and generalizes most prior
+settings. Our first contribution is a complexity measure, the Bellman rank,
+that we show enables tractable learning of near-optimal behavior in these
+processes and is naturally small for many well-studied reinforcement learning
+settings. Our second contribution is a new reinforcement learning algorithm
+that engages in systematic exploration to learn contextual decision processes
+with low Bellman rank. Our algorithm provably learns near-optimal behavior with
+a number of samples that is polynomial in all relevant parameters but
+independent of the number of unique observations. The approach uses Bellman
+error minimization with optimistic exploration and provides new insights into
+efficient exploration for reinforcement learning with function approximation.

@@ -1,0 +1,13 @@
+Bayesian Optimization for Synthetic Gene Design
+We address the problem of synthetic gene design using Bayesian optimization.
+The main issue when designing a gene is that the design space is defined in
+terms of long strings of characters of different lengths, which renders the
+optimization intractable. We propose a three-step approach to deal with this
+issue. First, we use a Gaussian process model to emulate the behavior of the
+cell. As inputs of the model, we use a set of biologically meaningful gene
+features, which allows us to define optimal gene designs rules. Based on the
+model outputs we define a multi-task acquisition function to optimize
+simultaneously severals aspects of interest. Finally, we define an evaluation
+function, which allow us to rank sets of candidate gene sequences that are
+coherent with the optimal design strategy. We illustrate the performance of
+this approach in a real gene design experiment with mammalian cells.

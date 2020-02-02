@@ -1,0 +1,15 @@
+A Talker Ensemble: the University of Wrocław's Entry to the NIPS 2017
+  Conversational Intelligence Challenge
+We present Poetwannabe, a chatbot submitted by the University of Wroc{\l}aw
+to the NIPS 2017 Conversational Intelligence Challenge, in which it ranked
+first ex-aequo. It is able to conduct a conversation with a user in a natural
+language. The primary functionality of our dialogue system is context-aware
+question answering (QA), while its secondary function is maintaining user
+engagement. The chatbot is composed of a number of sub-modules, which
+independently prepare replies to user's prompts and assess their own
+confidence. To answer questions, our dialogue system relies heavily on factual
+data, sourced mostly from Wikipedia and DBpedia, data of real user interactions
+in public forums, as well as data concerning general literature. Where
+applicable, modules are trained on large datasets using GPUs. However, to
+comply with the competition's requirements, the final system is compact and
+runs on commodity hardware.

@@ -1,0 +1,17 @@
+Sparse Generalized Eigenvalue Problem via Smooth Optimization
+In this paper, we consider an $\ell_{0}$-norm penalized formulation of the
+generalized eigenvalue problem (GEP), aimed at extracting the leading sparse
+generalized eigenvector of a matrix pair. The formulation involves maximization
+of a discontinuous nonconcave objective function over a nonconvex constraint
+set, and is therefore computationally intractable. To tackle the problem, we
+first approximate the $\ell_{0}$-norm by a continuous surrogate function. Then
+an algorithm is developed via iteratively majorizing the surrogate function by
+a quadratic separable function, which at each iteration reduces to a regular
+generalized eigenvalue problem. A preconditioned steepest ascent algorithm for
+finding the leading generalized eigenvector is provided. A systematic way based
+on smoothing is proposed to deal with the "singularity issue" that arises when
+a quadratic function is used to majorize the nondifferentiable surrogate
+function. For sparse GEPs with special structure, algorithms that admit a
+closed-form solution at every iteration are derived. Numerical experiments show
+that the proposed algorithms match or outperform existing algorithms in terms
+of computational complexity and support recovery.

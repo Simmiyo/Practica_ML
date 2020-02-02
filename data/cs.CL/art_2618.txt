@@ -1,0 +1,15 @@
+Content-based Approach for Vietnamese Spam SMS Filtering
+Short Message Service (SMS) spam is a serious problem in Vietnam because of
+the availability of very cheap pre-paid SMS packages. There are some systems to
+detect and filter spam messages for English, most of which use machine learning
+techniques to analyze the content of messages and classify them. For
+Vietnamese, there is some research on spam email filtering but none focused on
+SMS. In this work, we propose the first system for filtering Vietnamese spam
+SMS. We first propose an appropriate preprocessing method since existing tools
+for Vietnamese preprocessing cannot give good accuracy on our dataset. We then
+experiment with vector representations and classifiers to find the best model
+for this problem. Our system achieves an accuracy of 94% when labelling spam
+messages while the misclassification rate of legitimate messages is relatively
+small, about only 0.4%. This is an encouraging result compared to that of
+English and can be served as a strong baseline for future development of
+Vietnamese SMS spam prevention systems.

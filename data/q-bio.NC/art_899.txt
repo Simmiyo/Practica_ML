@@ -1,0 +1,24 @@
+Learning to make external sensory stimulus predictions using internal
+  correlations in populations of neurons
+To compensate for sensory processing delays, the visual system must make
+predictions to ensure timely and appropriate behaviors. Recent work has found
+predictive information about the stimulus in neural populations early in vision
+processing, starting in the retina. However, to utilize this information, cells
+downstream must in turn be able to read out the predictive information from the
+spiking activity of retinal ganglion cells. Here we investigate whether a
+downstream cell could learn efficient encoding of predictive information in its
+inputs in the absence of other instructive signals, from the correlations in
+the inputs themselves. We simulate learning driven by spiking activity recorded
+in salamander retina. We model a downstream cell as a binary neuron receiving a
+small group of weighted inputs and quantify the predictive information between
+activity in the binary neuron and future input. Input weights change according
+to spike timing-dependent learning rules during a training period. We
+characterize the readouts learned under spike timing-dependent learning rules,
+finding that although the fixed points of learning dynamics are not associated
+with absolute optimal readouts, they convey nearly all the information conveyed
+by the optimal readout. Moreover, we find that learned perceptrons transmit
+position and velocity information of a moving bar stimulus nearly as
+efficiently as optimal perceptrons. We conclude that predictive information is,
+in principle, readable from the perspective of downstream neurons in the
+absence of other inputs, and consequently suggests that bottom-up prediction
+may play an important role in sensory processing.

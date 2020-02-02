@@ -1,0 +1,25 @@
+Hebbian Crosstalk and Input Segregation
+Purpose: We previously proposed that Hebbian adjustments that are
+incompletely synapse specific ("crosstalk") might be analogous to genetic
+mutations. We analyze aspects of the effect of crosstalk in Hebbian learning
+using the classical Oja model.
+  Methods: In previous work we showed that crosstalk leads to learning of the
+principal eigenvector of EC (the input covariance matrix pre-multiplied by an
+error matrix that describes the crosstalk pattern), and found that with
+positive input correlations increasing crosstalk smoothly degrades performance.
+However, the Oja model requires negative input correlations to account for
+biological ocular segregation. Although this assumption is biologically
+somewhat implausible, it captures features that are seen in more complex
+models. Here, we analyze how crosstalk would affect such segregation.
+  Results: We show that for statistically unbiased inputs crosstalk induces a
+bifurcation from segregating to non-segregating outcomes at a critical value
+which depends on correlations. We also investigate the behavior in the vicinity
+of this critical state and for weakly biased inputs.
+  Conclusions: Our results show that crosstalk can induce a bifurcation under
+special conditions even in the simplest Hebbian models and that even the low
+levels of crosstalk observed in the brain could prevent normal development.
+However, during learning pairwise input statistics are more complex and
+crosstalk-induced bifurcations may not occur in the Oja model. Such
+bifurcations would be analogous to "error catastrophes" in genetic models, and
+we argue that they are usually absent for simple linear Hebbian learning
+because such learning is only driven by pairwise correlations.

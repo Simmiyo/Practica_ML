@@ -1,0 +1,15 @@
+Sentence Modeling via Multiple Word Embeddings and Multi-level
+  Comparison for Semantic Textual Similarity
+Different word embedding models capture different aspects of linguistic
+properties. This inspired us to propose a model (M-MaxLSTM-CNN) for employing
+multiple sets of word embeddings for evaluating sentence similarity/relation.
+Representing each word by multiple word embeddings, the MaxLSTM-CNN encoder
+generates a novel sentence embedding. We then learn the similarity/relation
+between our sentence embeddings via Multi-level comparison. Our method
+M-MaxLSTM-CNN consistently shows strong performances in several tasks (i.e.,
+measure textual similarity, identify paraphrase, recognize textual entailment).
+According to the experimental results on STS Benchmark dataset and SICK dataset
+from SemEval, M-MaxLSTM-CNN outperforms the state-of-the-art methods for
+textual similarity tasks. Our model does not use hand-crafted features (e.g.,
+alignment features, Ngram overlaps, dependency features) as well as does not
+require pre-trained word embeddings to have the same dimension.

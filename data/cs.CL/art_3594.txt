@@ -1,0 +1,16 @@
+Deep Learning for Digital Text Analytics: Sentiment Analysis
+In today's scenario, imagining a world without negativity is something very
+unrealistic, as bad NEWS spreads more virally than good ones. Though it seems
+impractical in real life, this could be implemented by building a system using
+Machine Learning and Natural Language Processing techniques in identifying the
+news datum with negative shade and filter them by taking only the news with
+positive shade (good news) to the end user. In this work, around two lakhs
+datum have been trained and tested using a combination of rule-based and data
+driven approaches. VADER along with a filtration method has been used as an
+annotating tool followed by statistical Machine Learning approach that have
+used Document Term Matrix (representation) and Support Vector Machine
+(classification). Deep Learning algorithms then came into picture to make this
+system reliable (Doc2Vec) which finally ended up with Convolutional Neural
+Network(CNN) that yielded better results than the other experimented modules.
+It showed up a training accuracy of 96%, while a test accuracy of (internal and
+external news datum) above 85% was obtained.

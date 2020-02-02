@@ -1,0 +1,22 @@
+New logarithmic Sobolev inequalities and an ε-regularity theorem
+  for the Ricci flow
+In this note we prove a new \epsilon-regularity theorem for the Ricci flow.
+Let (M^n,g(t)) with t\in [-T,0] be a Ricci flow and H_{x} the conjugate heat
+kernel centered at a point (x,0) in the final time slice. Substituting H_{x}
+into Perelman's W-functional produces a monotone function W_{x}(s) of s \in
+[-T,0], the pointed entropy, with W_{x}(s) <= 0, and W_{x}(s) = 0 iff (M,g(t))
+is isometric to the trivial flow on R^n. Our main theorem asserts the
+following: There exists an \epsilon>0, depending only on T and on lower scalar
+curvature and \mu-entropy bounds for (M,g(-T)), such that W_{x_0}(s) >
+-\epsilon implies |Rm|< r^{-2} on P_{\epsilon r}(x,0), where r^2 = |s| and
+P_r(x,t) \equiv B_r(x,t)\times (t-r^2,t] is the parabolic ball.
+  The main technical challenge of the theorem is to prove an effective
+Lipschitz bound in x for the s-average of W_x(s). To accomplish this, we
+require a new log-Sobolev inequality. It is well known by Perelman that the
+metric measure spaces (M,g(t),dv_{g(t)}) satisfy a log-Sobolev; however we
+prove that this is also true for the conjugate heat kernel weighted spaces
+(M,g(t),H_{x}(-,t)\,dv_{g(t)}). Our log-Sobolev constants for these weighted
+spaces are in fact universal and sharp.
+  The weighted log-Sobolev has other consequences as well, including an average
+Gaussian upper bound on the conjugate heat kernel that only depends on a
+two-sided scalar curvature bound.

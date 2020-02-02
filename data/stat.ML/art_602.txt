@@ -1,0 +1,16 @@
+Generalized Spectral Kernels
+In this paper we propose a family of tractable kernels that is dense in the
+family of bounded positive semi-definite functions (i.e. can approximate any
+bounded kernel with arbitrary precision). We start by discussing the case of
+stationary kernels, and propose a family of spectral kernels that extends
+existing approaches such as spectral mixture kernels and sparse spectrum
+kernels. Our extension has two primary advantages. Firstly, unlike existing
+spectral approaches that yield infinite differentiability, the kernels we
+introduce allow learning the degree of differentiability of the latent function
+in Gaussian process (GP) models and functions in the reproducing kernel Hilbert
+space (RKHS) in other kernel methods. Secondly, we show that some of the
+kernels we propose require fewer parameters than existing spectral kernels for
+the same accuracy, thereby leading to faster and more robust inference.
+Finally, we generalize our approach and propose a flexible and tractable family
+of spectral kernels that we prove can approximate any continuous bounded
+nonstationary kernel.

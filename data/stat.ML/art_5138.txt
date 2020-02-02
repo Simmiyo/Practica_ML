@@ -1,0 +1,19 @@
+Finding Statistically Significant Attribute Interactions
+In many data exploration tasks it is meaningful to identify groups of
+attribute interactions that are specific to a variable of interest. For
+instance, in a dataset where the attributes are medical markers and the
+variable of interest (class variable) is binary indicating presence/absence of
+disease, we would like to know which medical markers interact with respect to
+the binary class label. These interactions are useful in several practical
+applications, for example, to gain insight into the structure of the data, in
+feature selection, and in data anonymisation. We present a novel method, based
+on statistical significance testing, that can be used to verify if the data set
+has been created by a given factorised class-conditional joint distribution,
+where the distribution is parametrised by a partition of its attributes.
+Furthermore, we provide a method, named ASTRID, for automatically finding a
+partition of attributes describing the distribution that has generated the
+data. State-of-the-art classifiers are utilised to capture the interactions
+present in the data by systematically breaking attribute interactions and
+observing the effect of this breaking on classifier performance. We empirically
+demonstrate the utility of the proposed method with examples using real and
+synthetic data.

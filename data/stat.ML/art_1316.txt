@@ -1,0 +1,9 @@
+Accelerated Hierarchical Density Clustering
+We present an accelerated algorithm for hierarchical density based
+clustering. Our new algorithm improves upon HDBSCAN*, which itself provided a
+significant qualitative improvement over the popular DBSCAN algorithm. The
+accelerated HDBSCAN* algorithm provides comparable performance to DBSCAN, while
+supporting variable density clusters, and eliminating the need for the
+difficult to tune distance scale parameter. This makes accelerated HDBSCAN* the
+default choice for density based clustering.
+  Library available at: https://github.com/scikit-learn-contrib/hdbscan

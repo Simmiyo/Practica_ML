@@ -1,0 +1,13 @@
+Structured sparsity through convex optimization
+Sparse estimation methods are aimed at using or obtaining parsimonious
+representations of data or models. While naturally cast as a combinatorial
+optimization problem, variable or feature selection admits a convex relaxation
+through the regularization by the $\ell_1$-norm. In this paper, we consider
+situations where we are not only interested in sparsity, but where some
+structural prior knowledge is available as well. We show that the $\ell_1$-norm
+can then be extended to structured norms built on either disjoint or
+overlapping groups of variables, leading to a flexible framework that can deal
+with various structures. We present applications to unsupervised learning, for
+structured sparse principal component analysis and hierarchical dictionary
+learning, and to supervised learning in the context of non-linear variable
+selection.

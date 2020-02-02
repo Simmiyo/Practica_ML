@@ -1,0 +1,27 @@
+Spontaneous activity emerging from an inferred network model captures
+  complex temporal dynamics of spiking data
+The combination of new recording techniques in neuroscience and powerful
+inference methods recently held the promise to recover useful effective models,
+at the single neuron or network level, directly from observed data. The value
+of a model of course should critically depend on its ability to reproduce the
+dynamical behavior of the modeled system; however, few attempts have been made
+to inquire into the dynamics of inferred models in neuroscience, and none, to
+our knowledge, at the network level. Here we introduce a principled
+modification of a widely used generalized linear model (GLM), and learn its
+structural and dynamic parameters from ex-vivo spiking data. We show that the
+new model is able to capture the most prominent features of the highly
+non-stationary and non-linear dynamics displayed by the biological network,
+where the reference GLM largely fails. Two ingredients turn out to be key for
+success. The first one is a bounded transfer function that makes the single
+neuron able to respond to its input in a saturating fashion; beyond its
+biological plausibility such property, by limiting the capacity of the neuron
+to transfer information, makes the coding more robust in the face of the highly
+variable network activity, and noise. The second ingredient is a super-Poisson
+spikes generative probabilistic mechanism; this feature, that accounts for the
+fact that observations largely undersample the network, allows the model neuron
+to more flexibly incorporate the observed activity fluctuations. Taken
+together, the two ingredients, without increasing complexity, allow the model
+to capture the key dynamic elements. When left free to generate its spontaneous
+activity, the inferred model proved able to reproduce not only the
+non-stationary population dynamics of the network, but also part of the
+fine-grained structure of the dynamics at the single neuron level.

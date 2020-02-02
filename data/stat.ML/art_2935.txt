@@ -1,0 +1,25 @@
+Dissimilarity-based Sparse Subset Selection
+Finding an informative subset of a large collection of data points or models
+is at the center of many problems in computer vision, recommender systems,
+bio/health informatics as well as image and natural language processing. Given
+pairwise dissimilarities between the elements of a `source set' and a `target
+set,' we consider the problem of finding a subset of the source set, called
+representatives or exemplars, that can efficiently describe the target set. We
+formulate the problem as a row-sparsity regularized trace minimization problem.
+Since the proposed formulation is, in general, NP-hard, we consider a convex
+relaxation. The solution of our optimization finds representatives and the
+assignment of each element of the target set to each representative, hence,
+obtaining a clustering. We analyze the solution of our proposed optimization as
+a function of the regularization parameter. We show that when the two sets
+jointly partition into multiple groups, our algorithm finds representatives
+from all groups and reveals clustering of the sets. In addition, we show that
+the proposed framework can effectively deal with outliers. Our algorithm works
+with arbitrary dissimilarities, which can be asymmetric or violate the triangle
+inequality. To efficiently implement our algorithm, we consider an Alternating
+Direction Method of Multipliers (ADMM) framework, which results in quadratic
+complexity in the problem size. We show that the ADMM implementation allows to
+parallelize the algorithm, hence further reducing the computational time.
+Finally, by experiments on real-world datasets, we show that our proposed
+algorithm improves the state of the art on the two problems of scene
+categorization using representative images and time-series modeling and
+segmentation using representative~models.

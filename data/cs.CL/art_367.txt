@@ -1,0 +1,11 @@
+New Confidence Measures for Statistical Machine Translation
+A confidence measure is able to estimate the reliability of an hypothesis
+provided by a machine translation system. The problem of confidence measure can
+be seen as a process of testing : we want to decide whether the most probable
+sequence of words provided by the machine translation system is correct or not.
+In the following we describe several original word-level confidence measures
+for machine translation, based on mutual information, n-gram language model and
+lexical features language model. We evaluate how well they perform individually
+or together, and show that using a combination of confidence measures based on
+mutual information yields a classification error rate as low as 25.1% with an
+F-measure of 0.708.

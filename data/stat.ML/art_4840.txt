@@ -1,0 +1,19 @@
+Group Sparse Regularization for Deep Neural Networks
+In this paper, we consider the joint task of simultaneously optimizing (i)
+the weights of a deep neural network, (ii) the number of neurons for each
+hidden layer, and (iii) the subset of active input features (i.e., feature
+selection). While these problems are generally dealt with separately, we
+present a simple regularized formulation allowing to solve all three of them in
+parallel, using standard optimization routines. Specifically, we extend the
+group Lasso penalty (originated in the linear regression literature) in order
+to impose group-level sparsity on the network's connections, where each group
+is defined as the set of outgoing weights from a unit. Depending on the
+specific case, the weights can be related to an input variable, to a hidden
+neuron, or to a bias unit, thus performing simultaneously all the
+aforementioned tasks in order to obtain a compact network. We perform an
+extensive experimental evaluation, by comparing with classical weight decay and
+Lasso penalties. We show that a sparse version of the group Lasso penalty is
+able to achieve competitive performances, while at the same time resulting in
+extremely compact networks with a smaller number of input features. We evaluate
+both on a toy dataset for handwritten digit recognition, and on multiple
+realistic large-scale classification problems.

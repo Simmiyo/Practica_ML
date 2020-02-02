@@ -1,0 +1,12 @@
+Tightening Fractional Covering Upper Bounds on the Partition Function
+  for High-Order Region Graphs
+In this paper we present a new approach for tightening upper bounds on the
+partition function. Our upper bounds are based on fractional covering bounds on
+the entropy function, and result in a concave program to compute these bounds
+and a convex program to tighten them. To solve these programs effectively for
+general region graphs we utilize the entropy barrier method, thus decomposing
+the original programs by their dual programs and solve them with dual block
+optimization scheme. The entropy barrier method provides an elegant framework
+to generalize the message-passing scheme to high-order region graph, as well as
+to solve the block dual steps in closed-form. This is a key for computational
+relevancy for large problems with thousands of regions.

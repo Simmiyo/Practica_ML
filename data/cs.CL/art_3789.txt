@@ -1,0 +1,18 @@
+Cross-lingual Candidate Search for Biomedical Concept Normalization
+Biomedical concept normalization links concept mentions in texts to a
+semantically equivalent concept in a biomedical knowledge base. This task is
+challenging as concepts can have different expressions in natural languages,
+e.g. paraphrases, which are not necessarily all present in the knowledge base.
+Concept normalization of non-English biomedical text is even more challenging
+as non-English resources tend to be much smaller and contain less synonyms. To
+overcome the limitations of non-English terminologies we propose a
+cross-lingual candidate search for concept normalization using a
+character-based neural translation model trained on a multilingual biomedical
+terminology. Our model is trained with Spanish, French, Dutch and German
+versions of UMLS. The evaluation of our model is carried out on the French
+Quaero corpus, showing that it outperforms most teams of CLEF eHealth 2015 and
+2016. Additionally, we compare performance to commercial translators on
+Spanish, French, Dutch and German versions of Mantra. Our model performs
+similarly well, but is free of charge and can be run locally. This is
+particularly important for clinical NLP applications as medical documents
+underlay strict privacy restrictions.

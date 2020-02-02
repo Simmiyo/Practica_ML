@@ -1,0 +1,19 @@
+Minimum Spectral Connectivity Projection Pursuit
+We study the problem of determining the optimal low dimensional projection
+for maximising the separability of a binary partition of an unlabelled dataset,
+as measured by spectral graph theory. This is achieved by finding projections
+which minimise the second eigenvalue of the graph Laplacian of the projected
+data, which corresponds to a non-convex, non-smooth optimisation problem. We
+show that the optimal univariate projection based on spectral connectivity
+converges to the vector normal to the maximum margin hyperplane through the
+data, as the scaling parameter is reduced to zero. This establishes a
+connection between connectivity as measured by spectral graph theory and
+maximal Euclidean separation. The computational cost associated with each
+eigen-problem is quadratic in the number of data. To mitigate this issue, we
+propose an approximation method using microclusters with provable approximation
+error bounds. Combining multiple binary partitions within a divisive
+hierarchical model allows us to construct clustering solutions admitting
+clusters with varying scales and lying within different subspaces. We evaluate
+the performance of the proposed method on a large collection of benchmark
+datasets and find that it compares favourably with existing methods for
+projection pursuit and dimension reduction for data clustering.

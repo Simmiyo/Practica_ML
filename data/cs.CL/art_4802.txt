@@ -1,0 +1,20 @@
+Automatic Data Expansion for Customer-care Spoken Language Understanding
+Spoken language understanding (SLU) systems are widely used in handling of
+customer-care calls.A traditional SLU system consists of an acoustic model (AM)
+and a language model (LM) that areused to decode the utterance and a natural
+language understanding (NLU) model that predicts theintent. While AM can be
+shared across different domains, LM and NLU models need to be
+trainedspecifically for every new task. However, preparing enough data to train
+these models is prohibitivelyexpensive. In this paper, we introduce an
+efficient method to expand the limited in-domain data. Theprocess starts with
+training a preliminary NLU model based on logistic regression on the
+in-domaindata. Since the features are based onn= 1,2-grams, we can detect the
+most informative n-gramsfor each intent class. Using these n-grams, we find the
+samples in the out-of-domain corpus that1) contain the desired n-gram and/or 2)
+have similar intent label. The ones which meet the firstconstraint are used to
+train a new LM model and the ones that meet both constraints are used to train
+anew NLU model. Our results on two divergent experimental setups show that the
+proposed approachreduces by 30% the absolute classification error rate (CER)
+comparing to the preliminary modelsand it significantly outperforms the
+traditional data expansion algorithms such as the ones based onsemi-supervised
+learning, TF-IDF and embedding vectors.

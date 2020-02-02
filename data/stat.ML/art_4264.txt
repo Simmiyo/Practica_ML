@@ -1,0 +1,6 @@
+Network-size independent covering number bounds for deep networks
+We give a covering number bound for deep learning networks that is
+independent of the size of the network. The key for the simple analysis is that
+for linear classifiers, rotating the data doesn't affect the covering number.
+Thus, we can ignore the rotation part of each layer's linear transformation,
+and get the covering number bound by concentrating on the scaling part.

@@ -1,0 +1,20 @@
+HHCART: An Oblique Decision Tree
+Decision trees are a popular technique in statistical data classification.
+They recursively partition the feature space into disjoint sub-regions until
+each sub-region becomes homogeneous with respect to a particular class. The
+basic Classification and Regression Tree (CART) algorithm partitions the
+feature space using axis parallel splits. When the true decision boundaries are
+not aligned with the feature axes, this approach can produce a complicated
+boundary structure. Oblique decision trees use oblique decision boundaries to
+potentially simplify the boundary structure. The major limitation of this
+approach is that the tree induction algorithm is computationally expensive. In
+this article we present a new decision tree algorithm, called HHCART. The
+method utilizes a series of Householder matrices to reflect the training data
+at each node during the tree construction. Each reflection is based on the
+directions of the eigenvectors from each classes' covariance matrix.
+Considering axis parallel splits in the reflected training data provides an
+efficient way of finding oblique splits in the unreflected training data.
+Experimental results show that the accuracy and size of the HHCART trees are
+comparable with some benchmark methods in the literature. The appealing feature
+of HHCART is that it can handle both qualitative and quantitative features in
+the same oblique split.

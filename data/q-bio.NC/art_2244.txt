@@ -1,0 +1,24 @@
+The Effect of Nonstationarity on Models Inferred from Neural Data
+Neurons subject to a common non-stationary input may exhibit a correlated
+firing behavior. Correlations in the statistics of neural spike trains also
+arise as the effect of interaction between neurons. Here we show that these two
+situations can be distinguished, with machine learning techniques, provided the
+data are rich enough. In order to do this, we study the problem of inferring a
+kinetic Ising model, stationary or nonstationary, from the available data. We
+apply the inference procedure to two data sets: one from salamander retinal
+ganglion cells and the other from a realistic computational cortical network
+model. We show that many aspects of the concerted activity of the salamander
+retinal neurons can be traced simply to the external input. A model of
+non-interacting neurons subject to a non-stationary external field outperforms
+a model with stationary input with couplings between neurons, even accounting
+for the differences in the number of model parameters. When couplings are added
+to the non-stationary model, for the retinal data, little is gained: the
+inferred couplings are generally not significant. Likewise, the distribution of
+the sizes of sets of neurons that spike simultaneously and the frequency of
+spike patterns as function of their rank (Zipf plots) are well-explained by an
+independent-neuron model with time-dependent external input, and adding
+connections to such a model does not offer significant improvement. For the
+cortical model data, robust couplings, well correlated with the real
+connections, can be inferred using the non-stationary model. Adding connections
+to this model slightly improves the agreement with the data for the probability
+of synchronous spikes but hardly affects the Zipf plot.

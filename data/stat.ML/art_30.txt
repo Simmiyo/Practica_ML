@@ -1,0 +1,12 @@
+Kernel Regression by Mode Calculation of the Conditional Probability
+  Distribution
+The most direct way to express arbitrary dependencies in datasets is to
+estimate the joint distribution and to apply afterwards the argmax-function to
+obtain the mode of the corresponding conditional distribution. This method is
+in practice difficult, because it requires a global optimization of a
+complicated function, the joint distribution by fixed input variables. This
+article proposes a method for finding global maxima if the joint distribution
+is modeled by a kernel density estimation. Some experiments show advantages and
+shortcomings of the resulting regression method in comparison to the standard
+Nadaraya-Watson regression technique, which approximates the optimum by the
+expectation value.

@@ -1,0 +1,19 @@
+The Global Dynamical Complexity of the Human Brain Network
+How much information do large brain networks integrate as a whole over the
+sum of their parts? Can the dynamical complexity of such networks be globally
+quantified in an information-theoretic way and be meaningfully coupled to brain
+function? Recently, measures of dynamical complexity such as integrated
+information have been proposed. However, problems related to the normalization
+and Bell number of partitions associated to these measures make these
+approaches computationally infeasible for large-scale brain networks. Our goal
+in this work is to address this problem. Our formulation of network integrated
+information is based on the Kullback-Leibler divergence between the
+multivariate distribution on the set of network states versus the corresponding
+factorized distribution over its parts. We find that implementing the maximum
+information partition optimizes computations. These methods are well-suited for
+large networks with linear stochastic dynamics. We compute the integrated
+information for both, the system's attractor states, as well as non-stationary
+dynamical states of the network. We then apply this formalism to brain networks
+to compute the integrated information for the human brain's connectome.
+Compared to a randomly re-wired network, we find that the specific topology of
+the brain generates greater information complexity.

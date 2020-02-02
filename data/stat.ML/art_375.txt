@@ -1,0 +1,17 @@
+Embedding Graphs under Centrality Constraints for Network Visualization
+Visual rendering of graphs is a key task in the mapping of complex network
+data. Although most graph drawing algorithms emphasize aesthetic appeal,
+certain applications such as travel-time maps place more importance on
+visualization of structural network properties. The present paper advocates two
+graph embedding approaches with centrality considerations to comply with node
+hierarchy. The problem is formulated first as one of constrained
+multi-dimensional scaling (MDS), and it is solved via block coordinate descent
+iterations with successive approximations and guaranteed convergence to a KKT
+point. In addition, a regularization term enforcing graph smoothness is
+incorporated with the goal of reducing edge crossings. A second approach
+leverages the locally-linear embedding (LLE) algorithm which assumes that the
+graph encodes data sampled from a low-dimensional manifold. Closed-form
+solutions to the resulting centrality-constrained optimization problems are
+determined yielding meaningful embeddings. Experimental results demonstrate the
+efficacy of both approaches, especially for visualizing large networks on the
+order of thousands of nodes.

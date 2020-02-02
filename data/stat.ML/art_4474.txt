@@ -1,0 +1,14 @@
+Randomized Dimension Reduction on Massive Data
+Scalability of statistical estimators is of increasing importance in modern
+applications and dimension reduction is often used to extract relevant
+information from data. A variety of popular dimension reduction approaches can
+be framed as symmetric generalized eigendecomposition problems. In this paper
+we outline how taking into account the low rank structure assumption implicit
+in these dimension reduction approaches provides both computational and
+statistical advantages. We adapt recent randomized low-rank approximation
+algorithms to provide efficient solutions to three dimension reduction methods:
+Principal Component Analysis (PCA), Sliced Inverse Regression (SIR), and
+Localized Sliced Inverse Regression (LSIR). A key observation in this paper is
+that randomization serves a dual role, improving both computational and
+statistical performance. This point is highlighted in our experiments on real
+and simulated data.

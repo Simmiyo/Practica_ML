@@ -1,0 +1,16 @@
+A study on tuning parameter selection for the high-dimensional lasso
+High-dimensional predictive models, those with more measurements than
+observations, require regularization to be well defined, perform well
+empirically, and possess theoretical guarantees. The amount of regularization,
+often determined by tuning parameters, is integral to achieving good
+performance. One can choose the tuning parameter in a variety of ways, such as
+through resampling methods or generalized information criteria. However, the
+theory supporting many regularized procedures relies on an estimate for the
+variance parameter, which is complicated in high dimensions. We develop a suite
+of information criteria for choosing the tuning parameter in lasso regression
+by leveraging the literature on high-dimensional variance estimation. We derive
+intuition showing that existing information-theoretic approaches work poorly in
+this setting. We compare our risk estimators to existing methods with an
+extensive simulation and derive some theoretical justification. We find that
+our new estimators perform well across a wide range of simulation conditions
+and evaluation criteria.

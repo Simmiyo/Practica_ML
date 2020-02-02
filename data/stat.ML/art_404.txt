@@ -1,0 +1,16 @@
+An Efficient Search Strategy for Aggregation and Discretization of
+  Attributes of Bayesian Networks Using Minimum Description Length
+Bayesian networks are convenient graphical expressions for high dimensional
+probability distributions representing complex relationships between a large
+number of random variables. They have been employed extensively in areas such
+as bioinformatics, artificial intelligence, diagnosis, and risk management. The
+recovery of the structure of a network from data is of prime importance for the
+purposes of modeling, analysis, and prediction. Most recovery algorithms in the
+literature assume either discrete of continuous but Gaussian data. For general
+continuous data, discretization is usually employed but often destroys the very
+structure one is out to recover. Friedman and Goldszmidt suggest an approach
+based on the minimum description length principle that chooses a discretization
+which preserves the information in the original data set, however it is one
+which is difficult, if not impossible, to implement for even moderately sized
+networks. In this paper we provide an extremely efficient search strategy which
+allows one to use the Friedman and Goldszmidt discretization in practice.

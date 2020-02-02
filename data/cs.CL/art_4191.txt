@@ -1,0 +1,12 @@
+A Simple but Effective Classification Model for Grammatical Error
+  Correction
+We treat grammatical error correction (GEC) as a classification problem in
+this study, where for different types of errors, a target word is identified,
+and the classifier predicts the correct word form from a set of possible
+choices. We propose a novel neural network based feature representation and
+classification model, trained using large text corpora without human
+annotations. Specifically we use RNNs with attention to represent both the left
+and right context of a target word. All feature embeddings are learned jointly
+in an end-to-end fashion. Experimental results show that our novel approach
+outperforms other classifier methods on the CoNLL-2014 test set (F0.5 45.05%).
+Our model is simple but effective, and is suitable for industrial production.

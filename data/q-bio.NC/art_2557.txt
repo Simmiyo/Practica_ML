@@ -1,0 +1,22 @@
+A neural circuit for navigation inspired by C. elegans Chemotaxis
+We develop an artificial neural circuit for contour tracking and navigation
+inspired by the chemotaxis of the nematode Caenorhabditis elegans. In order to
+harness the computational advantages spiking neural networks promise over their
+non-spiking counterparts, we develop a network comprising 7-spiking neurons
+with non-plastic synapses which we show is extremely robust in tracking a range
+of concentrations. Our worm uses information regarding local temporal gradients
+in sodium chloride concentration to decide the instantaneous path for foraging,
+exploration and tracking. A key neuron pair in the C. elegans chemotaxis
+network is the ASEL & ASER neuron pair, which capture the gradient of
+concentration sensed by the worm in their graded membrane potentials. The
+primary sensory neurons for our network are a pair of artificial spiking
+neurons that function as gradient detectors whose design is adapted from a
+computational model of the ASE neuron pair in C. elegans. Simulations show that
+our worm is able to detect the set-point with approximately four times higher
+probability than the optimal memoryless Levy foraging model. We also show that
+our spiking neural network is much more efficient and noise-resilient while
+navigating and tracking a contour, as compared to an equivalent non-spiking
+network. We demonstrate that our model is extremely robust to noise and with
+slight modifications can be used for other practical applications such as
+obstacle avoidance. Our network model could also be extended for use in
+three-dimensional contour tracking or obstacle avoidance.

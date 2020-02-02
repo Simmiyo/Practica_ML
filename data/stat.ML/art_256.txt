@@ -1,0 +1,15 @@
+Spectral Clustering with Unbalanced Data
+Spectral clustering (SC) and graph-based semi-supervised learning (SSL)
+algorithms are sensitive to how graphs are constructed from data. In particular
+if the data has proximal and unbalanced clusters these algorithms can lead to
+poor performance on well-known graphs such as $k$-NN, full-RBF,
+$\epsilon$-graphs. This is because the objectives such as Ratio-Cut (RCut) or
+normalized cut (NCut) attempt to tradeoff cut values with cluster sizes, which
+are not tailored to unbalanced data. We propose a novel graph partitioning
+framework, which parameterizes a family of graphs by adaptively modulating node
+degrees in a $k$-NN graph. We then propose a model selection scheme to choose
+sizable clusters which are separated by smallest cut values. Our framework is
+able to adapt to varying levels of unbalancedness of data and can be naturally
+used for small cluster detection. We theoretically justify our ideas through
+limit cut analysis. Unsupervised and semi-supervised experiments on synthetic
+and real data sets demonstrate the superiority of our method.

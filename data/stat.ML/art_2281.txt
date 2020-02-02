@@ -1,0 +1,17 @@
+Fast Graph Construction Using Auction Algorithm
+In practical machine learning systems, graph based data representation has
+been widely used in various learning paradigms, ranging from unsupervised
+clustering to supervised classification. Besides those applications with
+natural graph or network structure data, such as social network analysis and
+relational learning, many other applications often involve a critical step in
+converting data vectors to an adjacency graph. In particular, a sparse subgraph
+extracted from the original graph is often required due to both theoretic and
+practical needs. Previous study clearly shows that the performance of different
+learning algorithms, e.g., clustering and classification, benefits from such
+sparse subgraphs with balanced node connectivity. However, the existing graph
+construction methods are either computationally expensive or with
+unsatisfactory performance. In this paper, we utilize a scalable method called
+auction algorithm and its parallel extension to recover a sparse yet nearly
+balanced subgraph with significantly reduced computational cost. Empirical
+study and comparison with the state-ofart approaches clearly demonstrate the
+superiority of the proposed method in both efficiency and accuracy.

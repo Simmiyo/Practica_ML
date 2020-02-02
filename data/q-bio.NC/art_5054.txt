@@ -1,0 +1,15 @@
+Monotonic Gaussian Process for Spatio-Temporal Disease Progression
+  Modeling in Brain Imaging Data
+We introduce a probabilistic generative model for disentangling
+spatio-temporal disease trajectories from series of high-dimensional brain
+images. The model is based on spatio-temporal matrix factorization, where
+inference on the sources is constrained by anatomically plausible statistical
+priors. To model realistic trajectories, the temporal sources are defined as
+monotonic and time-reparametrized Gaussian Processes. To account for the
+non-stationarity of brain images, we model the spatial sources as sparse codes
+convolved at multiple scales. The method was tested on synthetic data
+favourably comparing with standard blind source separation approaches. The
+application on large-scale imaging data from a clinical study allows to
+disentangle differential temporal progression patterns mapping brain regions
+key to neurodegeneration, while revealing a disease-specific time scale
+associated to the clinical diagnosis.

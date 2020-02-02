@@ -1,0 +1,14 @@
+Valence extraction using EM selection and co-occurrence matrices
+This paper discusses two new procedures for extracting verb valences from raw
+texts, with an application to the Polish language. The first novel technique,
+the EM selection algorithm, performs unsupervised disambiguation of valence
+frame forests, obtained by applying a non-probabilistic deep grammar parser and
+some post-processing to the text. The second new idea concerns filtering of
+incorrect frames detected in the parsed text and is motivated by an observation
+that verbs which take similar arguments tend to have similar frames. This
+phenomenon is described in terms of newly introduced co-occurrence matrices.
+Using co-occurrence matrices, we split filtering into two steps. The list of
+valid arguments is first determined for each verb, whereas the pattern
+according to which the arguments are combined into frames is computed in the
+following stage. Our best extracted dictionary reaches an $F$-score of 45%,
+compared to an $F$-score of 39% for the standard frame-based BHT filtering.

@@ -1,0 +1,25 @@
+Evolutionary optimisation of neural network models for fish collective
+  behaviours in mixed groups of robots and zebrafish
+Animal and robot social interactions are interesting both for ethological
+studies and robotics. On the one hand, the robots can be tools and models to
+analyse animal collective behaviours, on the other hand, the robots and their
+artificial intelligence are directly confronted and compared to the natural
+animal collective intelligence. The first step is to design robots and their
+behavioural controllers that are capable of socially interact with animals.
+Designing such behavioural bio-mimetic controllers remains an important
+challenge as they have to reproduce the animal behaviours and have to be
+calibrated on experimental data. Most animal collective behavioural models are
+designed by modellers based on experimental data. This process is long and
+costly because it is difficult to identify the relevant behavioural features
+that are then used as a priori knowledge in model building. Here, we want to
+model the fish individual and collective behaviours in order to develop robot
+controllers. We explore the use of optimised black-box models based on
+artificial neural networks (ANN) to model fish behaviours. While the ANN may
+not be biomimetic but rather bio-inspired, they can be used to link perception
+to motor responses. These models are designed to be implementable as robot
+controllers to form mixed-groups of fish and robots, using few a priori
+knowledge of the fish behaviours. We present a methodology with multilayer
+perceptron or echo state networks that are optimised through evolutionary
+algorithms to model accurately the fish individual and collective behaviours in
+a bounded rectangular arena. We assess the biomimetism of the generated models
+and compare them to the fish experimental behaviours.

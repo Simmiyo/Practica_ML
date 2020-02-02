@@ -1,0 +1,16 @@
+Estimating Quality in Multi-Objective Bandits Optimization
+Many real-world applications are characterized by a number of conflicting
+performance measures. As optimizing in a multi-objective setting leads to a set
+of non-dominated solutions, a preference function is required for selecting the
+solution with the appropriate trade-off between the objectives. The question
+is: how good do estimations of these objectives have to be in order for the
+solution maximizing the preference function to remain unchanged? In this paper,
+we introduce the concept of preference radius to characterize the robustness of
+the preference function and provide guidelines for controlling the quality of
+estimations in the multi-objective setting. More specifically, we provide a
+general formulation of multi-objective optimization under the bandits setting.
+We show how the preference radius relates to the optimal gap and we use this
+concept to provide a theoretical analysis of the Thompson sampling algorithm
+from multivariate normal priors. We finally present experiments to support the
+theoretical results and highlight the fact that one cannot simply scalarize
+multi-objective problems into single-objective problems.

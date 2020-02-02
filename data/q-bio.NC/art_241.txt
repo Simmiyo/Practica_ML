@@ -1,0 +1,23 @@
+Storage of phase-coded patterns via STDP in fully-connected and sparse
+  network: a study of the network capacity
+We study the storage and retrieval of phase-coded patterns as stable
+dynamical attractors in recurrent neural networks, for both an analog and a
+integrate-and-fire spiking model. The synaptic strength is determined by a
+learning rule based on spike-time-dependent plasticity, with an asymmetric time
+window depending on the relative timing between pre- and post-synaptic
+activity. We store multiple patterns and study the network capacity.
+  For the analog model, we find that the network capacity scales linearly with
+the network size, and that both capacity and the oscillation frequency of the
+retrieval state depend on the asymmetry of the learning time window. In
+addition to fully-connected networks, we study sparse networks, where each
+neuron is connected only to a small number z << N of other neurons. Connections
+can be short range, between neighboring neurons placed on a regular lattice, or
+long range, between randomly chosen pairs of neurons. We find that a small
+fraction of long range connections is able to amplify the capacity of the
+network. This imply that a small-world-network topology is optimal, as a
+compromise between the cost of long range connections and the capacity
+increase.
+  Also in the spiking integrate and fire model the crucial result of storing
+and retrieval of multiple phase-coded patterns is observed. The capacity of the
+fully-connected spiking network is investigated, together with the relation
+between oscillation frequency of retrieval state and window asymmetry.

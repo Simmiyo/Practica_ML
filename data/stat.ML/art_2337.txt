@@ -1,0 +1,15 @@
+Continuation Methods for Mixing Heterogenous Sources
+A number of modern learning tasks involve estimation from heterogeneous
+information sources. This includes classification with labeled and unlabeled
+data as well as other problems with analogous structure such as competitive
+(game theoretic) problems. The associated estimation problems can be typically
+reduced to solving a set of fixed point equations (consistency conditions). We
+introduce a general method for combining a preferred information source with
+another in this setting by evolving continuous paths of fixed points at
+intermediate allocations. We explicitly identify critical points along the
+unique paths to either increase the stability of estimation or to ensure a
+significant departure from the initial source. The homotopy continuation
+approach is guaranteed to terminate at the second source, and involves no
+combinatorial effort. We illustrate the power of these ideas both in
+classification tasks with labeled and unlabeled data, as well as in the context
+of a competitive (min-max) formulation of DNA sequence motif discovery.

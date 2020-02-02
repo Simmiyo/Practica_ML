@@ -1,0 +1,24 @@
+The Perils of Clumpfind: The Mass Spectrum of Sub-structures in
+  Molecular Clouds
+We study the mass spectrum of sub-structures in the Perseus Molecular Cloud
+Complex traced by 13CO (1-0), finding that $dN/dM\propto M^{-2.4}$ for the
+standard Clumpfind parameters. This result does not agree with the classical
+$dN/dM\propto M^{-1.6}$. To understand this discrepancy we study the robustness
+of the mass spectrum derived using the Clumpfind algorithm. Both 2D and 3D
+Clumpfind versions are tested, using 850 $\mu$m dust emission and 13CO
+spectral-line observations of Perseus, respectively. The effect of varying
+threshold is not important, but varying stepsize produces a different effect
+for 2D and 3D cases. In the 2D case, where emission is relatively isolated
+(associated with only the densest peaks in the cloud), the mass spectrum
+variability is negligible compared to the mass function fit uncertainties. In
+the 3D case, however, where the 13CO emission traces the bulk of the molecular
+cloud, the number of clumps and the derived mass spectrum are highly correlated
+with the stepsize used. The distinction between "2D" and "3D" here is more
+importantly also a distinction between "sparse" and "crowded" emission. In any
+"crowded" case, Clumpfind should not be used blindly to derive mass functions.
+Clumpfind's output in the "crowded" case can still offer a statistical
+description of emission useful in inter-comparisons, but the clump-list should
+not be treated as a robust region decomposition suitable to generate a
+physically-meaningful mass function. We conclude that the 13CO mass spectrum
+depends on the observations resolution, due to the hierarchical structure of
+MC.

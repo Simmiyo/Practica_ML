@@ -1,0 +1,13 @@
+Probabilistic Clustering of Time-Evolving Distance Data
+We present a novel probabilistic clustering model for objects that are
+represented via pairwise distances and observed at different time points. The
+proposed method utilizes the information given by adjacent time points to find
+the underlying cluster structure and obtain a smooth cluster evolution. This
+approach allows the number of objects and clusters to differ at every time
+point, and no identification on the identities of the objects is needed.
+Further, the model does not require the number of clusters being specified in
+advance -- they are instead determined automatically using a Dirichlet process
+prior. We validate our model on synthetic data showing that the proposed method
+is more accurate than state-of-the-art clustering methods. Finally, we use our
+dynamic clustering model to analyze and illustrate the evolution of brain
+cancer patients over time.

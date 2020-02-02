@@ -1,0 +1,22 @@
+A spectrum of routing strategies for brain networks
+Communication of signals among nodes in a complex network poses fundamental
+problems of efficiency and cost. Routing of messages along shortest paths
+requires global information about the topology, while spreading by diffusion,
+which operates according to local topological features, is informationally
+"cheap" but inefficient. We introduce a stochastic model for network
+communication that combines varying amounts of local and global information
+about the network topology. The model generates a continuous spectrum of
+dynamics that converge onto shortest-path and random-walk (diffusion)
+communication processes at the limiting extremes. We implement the model on two
+cohorts of human connectome networks and investigate the effects of varying
+amounts of local and global information on the network's communication cost. We
+identify routing strategies that approach a (highly efficient) shortest-path
+communication process with a relatively small amount of global information.
+Moreover, we show that the cost of routing messages from and to hub nodes
+varies as a function of the amount of global information driving the system's
+dynamics. Finally, we implement the model to identify individual subject
+differences from a communication dynamics point of view. The present framework
+departs from the classical shortest paths vs. diffusion dichotomy, suggesting
+instead that brain networks may exhibit different types of communication
+dynamics depending on varying functional demands and the availability of
+resources.

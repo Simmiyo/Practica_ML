@@ -1,0 +1,28 @@
+Predicting shim gaps in aircraft assembly with machine learning and
+  sparse sensing
+A modern aircraft may require on the order of thousands of custom shims to
+fill gaps between structural components in the airframe that arise due to
+manufacturing tolerances adding up across large structures. These shims are
+necessary to eliminate gaps, maintain structural performance, and minimize
+pull-down forces required to bring the aircraft into engineering nominal
+configuration for peak aerodynamic efficiency. Gap filling is a time-consuming
+process, involving either expensive by-hand inspection or computations on vast
+quantities of measurement data from increasingly sophisticated metrology
+equipment. Either case amounts to significant delays in production, with much
+of the time spent in the critical path of aircraft assembly. This work presents
+an alternative strategy for predictive shimming, based on machine learning and
+sparse sensing to first learn gap distributions from historical data, and then
+design optimized sparse sensing strategies to streamline data collection and
+processing. This new approach is based on the assumption that patterns exist in
+shim distributions across aircraft, which may be mined and used to reduce the
+burden of data collection and processing in future aircraft. Specifically,
+robust principal component analysis is used to extract low-dimensional patterns
+in the gap measurements while rejecting outliers. Next, optimized sparse
+sensors are obtained that are most informative about the dimensions of a new
+aircraft in these low-dimensional principal components. We demonstrate the
+success of the proposed approach, called PIXel Identification Despite
+Uncertainty in Sensor Technology (PIXI-DUST), on historical production data
+from 54 representative Boeing commercial aircraft. Our algorithm successfully
+predicts $99\%$ of shim gaps within the desired measurement tolerance using
+$3\%$ of the laser scan points typically required; all results are
+cross-validated.

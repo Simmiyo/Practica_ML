@@ -1,0 +1,15 @@
+Quantum Codes for Controlling Coherent Evolution
+Control over spin dynamics has been obtained in NMR via coherent averaging,
+which is implemented through a sequence of RF pulses, and via quantum codes
+which can protect against incoherent evolution. Here, we discuss the design and
+implementation of quantum codes to protect against coherent evolution. A
+detailed example is given of a quantum code for protecting two data qubits from
+evolution under a weak coupling (Ising) term in the Hamiltonian, using an
+``isolated'' ancilla which does not evolve on the experimental time scale. The
+code is realized in a three-spin system by liquid-state NMR spectroscopy on
+13C-labelled alanine, and tested for two initial states. It is also shown that
+for coherent evolution and isolated ancillae, codes exist that do not require
+the ancillae to initially be in a (pseudo-)pure state. Finally, it is shown
+that even with non-isolated ancillae quantum codes exist which can protect
+against evolution under weak coupling. An example is presented for a six qubit
+code that protects two data spins to first order.

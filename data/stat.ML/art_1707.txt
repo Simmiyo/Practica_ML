@@ -1,0 +1,21 @@
+A fast and recursive algorithm for clustering large datasets with
+  $k$-medians
+Clustering with fast algorithms large samples of high dimensional data is an
+important challenge in computational statistics. Borrowing ideas from MacQueen
+(1967) who introduced a sequential version of the $k$-means algorithm, a new
+class of recursive stochastic gradient algorithms designed for the $k$-medians
+loss criterion is proposed. By their recursive nature, these algorithms are
+very fast and are well adapted to deal with large samples of data that are
+allowed to arrive sequentially. It is proved that the stochastic gradient
+algorithm converges almost surely to the set of stationary points of the
+underlying loss criterion. A particular attention is paid to the averaged
+versions, which are known to have better performances, and a data-driven
+procedure that allows automatic selection of the value of the descent step is
+proposed.
+  The performance of the averaged sequential estimator is compared on a
+simulation study, both in terms of computation speed and accuracy of the
+estimations, with more classical partitioning techniques such as $k$-means,
+trimmed $k$-means and PAM (partitioning around medoids). Finally, this new
+online clustering technique is illustrated on determining television audience
+profiles with a sample of more than 5000 individual television audiences
+measured every minute over a period of 24 hours.

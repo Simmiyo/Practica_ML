@@ -1,0 +1,14 @@
+Regularization for Matrix Completion
+We consider the problem of reconstructing a low rank matrix from noisy
+observations of a subset of its entries. This task has applications in
+statistical learning, computer vision, and signal processing. In these
+contexts, "noise" generically refers to any contribution to the data that is
+not captured by the low-rank model. In most applications, the noise level is
+large compared to the underlying signal and it is important to avoid
+overfitting. In order to tackle this problem, we define a regularized cost
+function well suited for spectral reconstruction methods. Within a random noise
+model, and in the large system limit, we prove that the resulting accuracy
+undergoes a phase transition depending on the noise level and on the fraction
+of observed entries. The cost function can be minimized using OPTSPACE (a
+manifold gradient descent algorithm). Numerical simulations show that this
+approach is competitive with state-of-the-art alternatives.

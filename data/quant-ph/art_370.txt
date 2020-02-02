@@ -1,0 +1,15 @@
+Why quantum bit commitment and ideal quantum coin tossing are impossible
+There had been well known claims of ``provably unbreakable'' quantum
+protocols for bit commitment and coin tossing. However, we, and independently
+Mayers, showed that all proposed quantum bit commitment (and therefore coin
+tossing) schemes are, in principle, insecure because the sender, Alice, can
+always cheat successfully by using an EPR-type of attack and delaying her
+measurements. One might wonder if secure quantum bit commitment and coin
+tossing protocols exist at all. Here we prove that an EPR-type of attack by
+Alice will, in principle, break {\em any} realistic quantum bit commitment and
+{\em ideal} coin tossing scheme. Therefore, provided that Alice has a quantum
+computer and is capable of storing quantum signals for an arbitrary length of
+time, all those schemes are insecure. Since bit commitment and coin tossing are
+useful primitives for building up more sophisticated protocols such as
+zero-knowledge proofs, our results cast very serious doubt on the security of
+quantum cryptography in the so-called ``post-cold-war'' applications.

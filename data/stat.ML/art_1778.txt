@@ -1,0 +1,8 @@
+BSVM: A Banded Suport Vector Machine
+We describe a novel binary classification technique called Banded SVM
+(B-SVM). In the standard C-SVM formulation of Cortes et al. (1995), the
+decision rule is encouraged to lie in the interval [1, \infty]. The new B-SVM
+objective function contains a penalty term that encourages the decision rule to
+lie in a user specified range [\rho_1, \rho_2]. In addition to the standard set
+of support vectors (SVs) near the class boundaries, B-SVM results in a second
+set of SVs in the interior of each class.

@@ -1,0 +1,15 @@
+Stochastic Divergence Minimization for Biterm Topic Model
+As the emergence and the thriving development of social networks, a huge
+number of short texts are accumulated and need to be processed. Inferring
+latent topics of collected short texts is useful for understanding its hidden
+structure and predicting new contents. Unlike conventional topic models such as
+latent Dirichlet allocation (LDA), a biterm topic model (BTM) was recently
+proposed for short texts to overcome the sparseness of document-level word
+co-occurrences by directly modeling the generation process of word pairs.
+Stochastic inference algorithms based on collapsed Gibbs sampling (CGS) and
+collapsed variational inference have been proposed for BTM. However, they
+either require large computational complexity, or rely on very crude
+estimation. In this work, we develop a stochastic divergence minimization
+inference algorithm for BTM to estimate latent topics more accurately in a
+scalable way. Experiments demonstrate the superiority of our proposed algorithm
+compared with existing inference algorithms.

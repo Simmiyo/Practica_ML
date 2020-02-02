@@ -1,0 +1,11 @@
+A Differentiable Transition Between Additive and Multiplicative Neurons
+Existing approaches to combine both additive and multiplicative neural units
+either use a fixed assignment of operations or require discrete optimization to
+determine what function a neuron should perform. However, this leads to an
+extensive increase in the computational complexity of the training procedure.
+  We present a novel, parameterizable transfer function based on the
+mathematical concept of non-integer functional iteration that allows the
+operation each neuron performs to be smoothly and, most importantly,
+differentiablely adjusted between addition and multiplication. This allows the
+decision between addition and multiplication to be integrated into the standard
+backpropagation training procedure.

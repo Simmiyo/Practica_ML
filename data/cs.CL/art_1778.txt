@@ -1,0 +1,16 @@
+Row-less Universal Schema
+Universal schema jointly embeds knowledge bases and textual patterns to
+reason about entities and relations for automatic knowledge base construction
+and information extraction. In the past, entity pairs and relations were
+represented as learned vectors with compatibility determined by a scoring
+function, limiting generalization to unseen text patterns and entities.
+Recently, 'column-less' versions of Universal Schema have used compositional
+pattern encoders to generalize to all text patterns. In this work we take the
+next step and propose a 'row-less' model of universal schema, removing explicit
+entity pair representations. Instead of learning vector representations for
+each entity pair in our training set, we treat an entity pair as a function of
+its relation types. In experimental results on the FB15k-237 benchmark we
+demonstrate that we can match the performance of a comparable model with
+explicit entity pair representations using a model of attention over relation
+types. We further demonstrate that the model per- forms with nearly the same
+accuracy on entity pairs never seen during training.

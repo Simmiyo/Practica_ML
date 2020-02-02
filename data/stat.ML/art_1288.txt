@@ -1,0 +1,24 @@
+Ensemble Sales Forecasting Study in Semiconductor Industry
+Sales forecasting plays a prominent role in business planning and business
+strategy. The value and importance of advance information is a cornerstone of
+planning activity, and a well-set forecast goal can guide sale-force more
+efficiently. In this paper CPU sales forecasting of Intel Corporation, a
+multinational semiconductor industry, was considered. Past sale, future
+booking, exchange rates, Gross domestic product (GDP) forecasting, seasonality
+and other indicators were innovatively incorporated into the quantitative
+modeling. Benefit from the recent advances in computation power and software
+development, millions of models built upon multiple regressions, time series
+analysis, random forest and boosting tree were executed in parallel. The models
+with smaller validation errors were selected to form the ensemble model. To
+better capture the distinct characteristics, forecasting models were
+implemented at lead time and lines of business level. The moving windows
+validation process automatically selected the models which closely represent
+current market condition. The weekly cadence forecasting schema allowed the
+model to response effectively to market fluctuation. Generic variable
+importance analysis was also developed to increase the model interpretability.
+Rather than assuming fixed distribution, this non-parametric permutation
+variable importance analysis provided a general framework across methods to
+evaluate the variable importance. This variable importance framework can
+further extend to classification problem by modifying the mean absolute
+percentage error(MAPE) into misclassify error. Please find the demo code at :
+https://github.com/qx0731/ensemble_forecast_methods

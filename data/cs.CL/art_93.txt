@@ -1,0 +1,15 @@
+Entropy-based Pruning of Backoff Language Models
+A criterion for pruning parameters from N-gram backoff language models is
+developed, based on the relative entropy between the original and the pruned
+model. It is shown that the relative entropy resulting from pruning a single
+N-gram can be computed exactly and efficiently for backoff models. The relative
+entropy measure can be expressed as a relative change in training set
+perplexity. This leads to a simple pruning criterion whereby all N-grams that
+change perplexity by less than a threshold are removed from the model.
+Experiments show that a production-quality Hub4 LM can be reduced to 26% its
+original size without increasing recognition error. We also compare the
+approach to a heuristic pruning criterion by Seymore and Rosenfeld (1996), and
+show that their approach can be interpreted as an approximation to the relative
+entropy criterion. Experimentally, both approaches select similar sets of
+N-grams (about 85% overlap), with the exact relative entropy criterion giving
+marginally better performance.

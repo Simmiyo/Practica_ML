@@ -1,0 +1,22 @@
+Mass Volume Curves and Anomaly Ranking
+This paper aims at formulating the issue of ranking multivariate unlabeled
+observations depending on their degree of abnormality as an unsupervised
+statistical learning task. In the 1-d situation, this problem is usually
+tackled by means of tail estimation techniques: univariate observations are
+viewed as all the more `abnormal' as they are located far in the tail(s) of the
+underlying probability distribution. It would be desirable as well to dispose
+of a scalar valued `scoring' function allowing for comparing the degree of
+abnormality of multivariate observations. Here we formulate the issue of
+scoring anomalies as a M-estimation problem by means of a novel functional
+performance criterion, referred to as the Mass Volume curve (MV curve in
+short), whose optimal elements are strictly increasing transforms of the
+density almost everywhere on the support of the density. We first study the
+statistical estimation of the MV curve of a given scoring function and we
+provide a strategy to build confidence regions using a smoothed bootstrap
+approach. Optimization of this functional criterion over the set of piecewise
+constant scoring functions is next tackled. This boils down to estimating a
+sequence of empirical minimum volume sets whose levels are chosen adaptively
+from the data, so as to adjust to the variations of the optimal MV curve, while
+controling the bias of its approximation by a stepwise curve. Generalization
+bounds are then established for the difference in sup norm between the MV curve
+of the empirical scoring function thus obtained and the optimal MV curve.

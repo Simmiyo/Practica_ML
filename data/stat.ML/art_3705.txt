@@ -1,0 +1,27 @@
+RSG: Beating Subgradient Method without Smoothness and Strong Convexity
+In this paper, we study the efficiency of a {\bf R}estarted {\bf S}ub{\bf
+G}radient (RSG) method that periodically restarts the standard subgradient
+method (SG). We show that, when applied to a broad class of convex optimization
+problems, RSG method can find an $\epsilon$-optimal solution with a lower
+complexity than the SG method. In particular, we first show that RSG can reduce
+the dependence of SG's iteration complexity on the distance between the initial
+solution and the optimal set to that between the $\epsilon$-level set and the
+optimal set {multiplied by a logarithmic factor}. Moreover, we show the
+advantages of RSG over SG in solving three different families of convex
+optimization problems. (a) For the problems whose epigraph is a polyhedron, RSG
+is shown to converge linearly. (b) For the problems with local quadratic growth
+property in the $\epsilon$-sublevel set, RSG has an
+$O(\frac{1}{\epsilon}\log(\frac{1}{\epsilon}))$ iteration complexity. (c) For
+the problems that admit a local Kurdyka-\L ojasiewicz property with a power
+constant of $\beta\in[0,1)$, RSG has an
+$O(\frac{1}{\epsilon^{2\beta}}\log(\frac{1}{\epsilon}))$ iteration complexity.
+The novelty of our analysis lies at exploiting the lower bound of the
+first-order optimality residual at the $\epsilon$-level set. It is this novelty
+that allows us to explore the local properties of functions (e.g., local
+quadratic growth property, local Kurdyka-\L ojasiewicz property, more generally
+local error bound conditions) to develop the improved convergence of RSG. { We
+also develop a practical variant of RSG enjoying faster convergence than the SG
+method, which can be run without knowing the involved parameters in the local
+error bound condition.} We demonstrate the effectiveness of the proposed
+algorithms on several machine learning tasks including regression,
+classification and matrix completion.

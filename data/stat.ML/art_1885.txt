@@ -1,0 +1,8 @@
+Partial Order MCMC for Structure Discovery in Bayesian Networks
+We present a new Markov chain Monte Carlo method for estimating posterior
+probabilities of structural features in Bayesian networks. The method draws
+samples from the posterior distribution of partial orders on the nodes; for
+each sampled partial order, the conditional probabilities of interest are
+computed exactly. We give both analytical and empirical results that suggest
+the superiority of the new method compared to previous methods, which sample
+either directed acyclic graphs or linear orders on the nodes.

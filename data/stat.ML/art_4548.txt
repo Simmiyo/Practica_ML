@@ -1,0 +1,19 @@
+AUC Optimisation and Collaborative Filtering
+In recommendation systems, one is interested in the ranking of the predicted
+items as opposed to other losses such as the mean squared error. Although a
+variety of ways to evaluate rankings exist in the literature, here we focus on
+the Area Under the ROC Curve (AUC) as it widely used and has a strong
+theoretical underpinning. In practical recommendation, only items at the top of
+the ranked list are presented to the users. With this in mind, we propose a
+class of objective functions over matrix factorisations which primarily
+represent a smooth surrogate for the real AUC, and in a special case we show
+how to prioritise the top of the list. The objectives are differentiable and
+optimised through a carefully designed stochastic gradient-descent-based
+algorithm which scales linearly with the size of the data. In the special case
+of square loss we show how to improve computational complexity by leveraging
+previously computed measures. To understand theoretically the underlying matrix
+factorisation approaches we study both the consistency of the loss functions
+with respect to AUC, and generalisation using Rademacher theory. The resulting
+generalisation analysis gives strong motivation for the optimisation under
+study. Finally, we provide computation results as to the efficacy of the
+proposed method using synthetic and real data.

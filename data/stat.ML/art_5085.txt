@@ -1,0 +1,15 @@
+Deep learning in color: towards automated quark/gluon jet discrimination
+Artificial intelligence offers the potential to automate challenging
+data-processing tasks in collider physics. To establish its prospects, we
+explore to what extent deep learning with convolutional neural networks can
+discriminate quark and gluon jets better than observables designed by
+physicists. Our approach builds upon the paradigm that a jet can be treated as
+an image, with intensity given by the local calorimeter deposits. We supplement
+this construction by adding color to the images, with red, green and blue
+intensities given by the transverse momentum in charged particles, transverse
+momentum in neutral particles, and pixel-level charged particle counts.
+Overall, the deep networks match or outperform traditional jet variables. We
+also find that, while various simulations produce different quark and gluon
+jets, the neural networks are surprisingly insensitive to these differences,
+similar to traditional observables. This suggests that the networks can extract
+robust physical information from imperfect simulations.

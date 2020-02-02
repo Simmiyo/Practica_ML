@@ -1,0 +1,18 @@
+Adaptive Independent Sticky MCMC algorithms
+In this work, we introduce a novel class of adaptive Monte Carlo methods,
+called adaptive independent sticky MCMC algorithms, for efficient sampling from
+a generic target probability density function (pdf). The new class of
+algorithms employs adaptive non-parametric proposal densities which become
+closer and closer to the target as the number of iterations increases. The
+proposal pdf is built using interpolation procedures based on a set of support
+points which is constructed iteratively based on previously drawn samples. The
+algorithm's efficiency is ensured by a test that controls the evolution of the
+set of support points. This extra stage controls the computational cost and the
+convergence of the proposal density to the target. Each part of the novel
+family of algorithms is discussed and several examples are provided. Although
+the novel algorithms are presented for univariate target densities, we show
+that they can be easily extended to the multivariate context within a
+Gibbs-type sampler. The ergodicity is ensured and discussed. Exhaustive
+numerical examples illustrate the efficiency of sticky schemes, both as a
+stand-alone methods to sample from complicated one-dimensional pdfs and within
+Gibbs in order to draw from multi-dimensional target distributions.

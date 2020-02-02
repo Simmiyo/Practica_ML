@@ -1,0 +1,13 @@
+Validation of neural spike sorting algorithms without ground-truth
+  information
+We describe a suite of validation metrics that assess the credibility of a
+given automatic spike sorting algorithm applied to a given electrophysiological
+recording, when ground-truth is unavailable. By rerunning the spike sorter two
+or more times, the metrics measure stability under various perturbations
+consistent with variations in the data itself, making no assumptions about the
+noise model, nor about the internal workings of the sorting algorithm. Such
+stability is a prerequisite for reproducibility of results. We illustrate the
+metrics on standard sorting algorithms for both in vivo and ex vivo recordings.
+We believe that such metrics could reduce the significant human labor currently
+spent on validation, and should form an essential part of large-scale automated
+spike sorting and systematic benchmarking of algorithms.

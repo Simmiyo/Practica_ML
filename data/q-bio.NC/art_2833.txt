@@ -1,0 +1,26 @@
+Wireless Optogenetic Nanonetworks: Device Model and Charging Protocols
+In recent years, numerous research efforts have been dedicated towards
+developing efficient implantable devices for brain stimulation. However, there
+are limitations and challenges with the current technologies. Firstly, the
+stimulation of neurons currently is possible through implantable electrodes but
+limited to a population of neurons. Secondly, a major hurdle lies in developing
+miniature devices that can last for a lifetime in the patient's brain. In
+parallel, Optogenetics has emerged proposing the stimulation of neurons using
+light by means of optical fibers inserted through the skull. Many challenges
+are thus introduced in terms of suitability to patient's lifestyle and
+biocompatibility. We have recently proposed the concept of wireless optogenetic
+nanonetworking devices (WiOptND), addressing these long-term deployment
+problems, and at the same time targeting single neuron stimulation [1]. The
+WiOptND is equipped with a miniature LED that is able to stimulate a
+genetically engineered neuron while harvesting energy from ultrasonic
+vibrations. This paper investigates how light propagates in the brain tissue,
+and based on the power required to emit sufficient intensity for stimulation,
+an energy harvesting circuitry is designed. A number of charging protocols are
+also proposed to maximize energy efficiency while ensuring minimum number of
+neural spike misfirings. These protocols include the Charge and Fire, the
+Predictive Sliding Detection Window, and its variant Markov-Chain based
+Time-Delay Patterns. Simulation results show the drop of stimulation ratio for
+25% and more stable trend in its efficiency ratio are exhibited on Markov-Chain
+based Time-Delay Patterns compared to Change and Fire. The results show the
+feasibility of utilizing WiOptND for long-term implants, and a new direction
+towards precise stimulation of neurons in the cortical columns of the brain.

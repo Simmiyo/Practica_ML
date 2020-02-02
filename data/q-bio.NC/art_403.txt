@@ -1,0 +1,27 @@
+The sign rule and beyond: Boundary effects, flexibility, and noise
+  correlations in neural population codes
+Over repeat presentations of the same stimulus, sensory neurons show variable
+responses. This "noise" is typically correlated between pairs of cells, and a
+question with rich history in neuroscience is how these noise correlations
+impact the population's ability to encode the stimulus. Here, we consider a
+very general setting for population coding, investigating how information
+varies as a function of noise correlations, with all other aspects of the
+problem - neural tuning curves, etc. - held fixed. This work yields unifying
+insights into the role of noise correlations. These are summarized in the form
+of theorems, and illustrated with numerical examples involving neurons with
+diverse tuning curves. Our main contributions are as follows.
+  (1) We generalize previous results to prove a sign rule (SR) - if noise
+correlations between pairs of neurons have opposite signs vs. their signal
+correlations, then coding performance will improve compared to the independent
+case. This holds for three different metrics of coding performance, and for
+arbitrary tuning curves and levels of heterogeneity. This generality is true
+for our other results as well.
+  (2) As also pointed out in the literature, the SR does not provide a
+necessary condition for good coding. We show that a diverse set of correlation
+structures can improve coding. Many of these violate the SR, as do
+experimentally observed correlations. There is structure to this diversity: we
+prove that the optimal correlation structures must lie on boundaries of the
+possible set of noise correlations.
+  (3) We provide a novel set of necessary and sufficient conditions, under
+which the coding performance (in the presence of noise) will be as good as it
+would be if there were no noise present at all.

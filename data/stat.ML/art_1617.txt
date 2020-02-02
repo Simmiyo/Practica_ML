@@ -1,0 +1,24 @@
+Context tree selection and linguistic rhythm retrieval from written
+  texts
+The starting point of this article is the question "How to retrieve
+fingerprints of rhythm in written texts?" We address this problem in the case
+of Brazilian and European Portuguese. These two dialects of Modern Portuguese
+share the same lexicon and most of the sentences they produce are superficially
+identical. Yet they are conjectured, on linguistic grounds, to implement
+different rhythms. We show that this linguistic question can be formulated as a
+problem of model selection in the class of variable length Markov chains. To
+carry on this approach, we compare texts from European and Brazilian
+Portuguese. These texts are previously encoded according to some basic rhythmic
+features of the sentences which can be automatically retrieved. This is an
+entirely new approach from the linguistic point of view. Our statistical
+contribution is the introduction of the smallest maximizer criterion which is a
+constant free procedure for model selection. As a by-product, this provides a
+solution for the problem of optimal choice of the penalty constant when using
+the BIC to select a variable length Markov chain. Besides proving the
+consistency of the smallest maximizer criterion when the sample size diverges,
+we also make a simulation study comparing our approach with both the standard
+BIC selection and the Peres-Shields order estimation. Applied to the linguistic
+sample constituted for our case study, the smallest maximizer criterion assigns
+different context-tree models to the two dialects of Portuguese. The features
+of the selected models are compatible with current conjectures discussed in the
+linguistic literature.

@@ -1,0 +1,13 @@
+Blitzkriging: Kronecker-structured Stochastic Gaussian Processes
+We present Blitzkriging, a new approach to fast inference for Gaussian
+processes, applicable to regression, optimisation and classification.
+State-of-the-art (stochastic) inference for Gaussian processes on very large
+datasets scales cubically in the number of 'inducing inputs', variables
+introduced to factorise the model. Blitzkriging shares state-of-the-art scaling
+with data, but reduces the scaling in the number of inducing points to
+approximately linear. Further, in contrast to other methods, Blitzkriging: does
+not force the data to conform to any particular structure (including
+grid-like); reduces reliance on error-prone optimisation of inducing point
+locations; and is able to learn rich (covariance) structure from the data. We
+demonstrate the benefits of our approach on real data in regression,
+time-series prediction and signal-interpolation experiments.

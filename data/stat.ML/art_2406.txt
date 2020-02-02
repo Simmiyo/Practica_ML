@@ -1,0 +1,17 @@
+Models and Selection Criteria for Regression and Classification
+When performing regression or classification, we are interested in the
+conditional probability distribution for an outcome or class variable Y given a
+set of explanatoryor input variables X. We consider Bayesian models for this
+task. In particular, we examine a special class of models, which we call
+Bayesian regression/classification (BRC) models, that can be factored into
+independent conditional (y|x) and input (x) models. These models are
+convenient, because the conditional model (the portion of the full model that
+we care about) can be analyzed by itself. We examine the practice of
+transforming arbitrary Bayesian models to BRC models, and argue that this
+practice is often inappropriate because it ignores prior knowledge that may be
+important for learning. In addition, we examine Bayesian methods for learning
+models from data. We discuss two criteria for Bayesian model selection that are
+appropriate for repression/classification: one described by Spiegelhalter et
+al. (1993), and another by Buntine (1993). We contrast these two criteria using
+the prequential framework of Dawid (1984), and give sufficient conditions under
+which the criteria agree.

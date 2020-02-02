@@ -1,0 +1,16 @@
+Active Learning on Trees and Graphs
+We investigate the problem of active learning on a given tree whose nodes are
+assigned binary labels in an adversarial way. Inspired by recent results by
+Guillory and Bilmes, we characterize (up to constant factors) the optimal
+placement of queries so to minimize the mistakes made on the non-queried nodes.
+Our query selection algorithm is extremely efficient, and the optimal number of
+mistakes on the non-queried nodes is achieved by a simple and efficient mincut
+classifier. Through a simple modification of the query selection algorithm we
+also show optimality (up to constant factors) with respect to the trade-off
+between number of queries and number of mistakes on non-queried nodes. By using
+spanning trees, our algorithms can be efficiently applied to general graphs,
+although the problem of finding optimal and efficient active learning
+algorithms for general graphs remains open. Towards this end, we provide a
+lower bound on the number of mistakes made on arbitrary graphs by any active
+learning algorithm using a number of queries which is up to a constant fraction
+of the graph size.

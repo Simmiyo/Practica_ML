@@ -1,0 +1,16 @@
+Stabilizing Linear Prediction Models using Autoencoder
+To date, the instability of prognostic predictors in a sparse high
+dimensional model, which hinders their clinical adoption, has received little
+attention. Stable prediction is often overlooked in favour of performance. Yet,
+stability prevails as key when adopting models in critical areas as healthcare.
+Our study proposes a stabilization scheme by detecting higher order feature
+correlations. Using a linear model as basis for prediction, we achieve feature
+stability by regularising latent correlation in features. Latent higher order
+correlation among features is modelled using an autoencoder network. Stability
+is enhanced by combining a recent technique that uses a feature graph, and
+augmenting external unlabelled data for training the autoencoder network. Our
+experiments are conducted on a heart failure cohort from an Australian
+hospital. Stability was measured using Consistency index for feature subsets
+and signal-to-noise ratio for model parameters. Our methods demonstrated
+significant improvement in feature stability and model estimation stability
+when compared to baselines.

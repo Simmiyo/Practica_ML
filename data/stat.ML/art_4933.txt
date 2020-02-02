@@ -1,0 +1,16 @@
+Depth and depth-based classification with R-package ddalpha
+Following the seminal idea of Tukey, data depth is a function that measures
+how close an arbitrary point of the space is located to an implicitly defined
+center of a data cloud. Having undergone theoretical and computational
+developments, it is now employed in numerous applications with classification
+being the most popular one. The R-package ddalpha is a software directed to
+fuse experience of the applicant with recent achievements in the area of data
+depth and depth-based classification.
+  ddalpha provides an implementation for exact and approximate computation of
+most reasonable and widely applied notions of data depth. These can be further
+used in the depth-based multivariate and functional classifiers implemented in
+the package, where the $DD\alpha$-procedure is in the main focus. The package
+is expandable with user-defined custom depth methods and separators. The
+implemented functions for depth visualization and the built-in benchmark
+procedures may also serve to provide insights into the geometry of the data and
+the quality of pattern recognition.

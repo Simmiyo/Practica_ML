@@ -1,0 +1,20 @@
+Multithreshold Entropy Linear Classifier
+Linear classifiers separate the data with a hyperplane. In this paper we
+focus on the novel method of construction of multithreshold linear classifier,
+which separates the data with multiple parallel hyperplanes. Proposed model is
+based on the information theory concepts -- namely Renyi's quadratic entropy
+and Cauchy-Schwarz divergence.
+  We begin with some general properties, including data scale invariance. Then
+we prove that our method is a multithreshold large margin classifier, which
+shows the analogy to the SVM, while in the same time works with much broader
+class of hypotheses. What is also interesting, proposed method is aimed at the
+maximization of the balanced quality measure (such as Matthew's Correlation
+Coefficient) as opposed to very common maximization of the accuracy. This
+feature comes directly from the optimization problem statement and is further
+confirmed by the experiments on the UCI datasets.
+  It appears, that our Multithreshold Entropy Linear Classifier (MELC) obtaines
+similar or higher scores than the ones given by SVM on both synthetic and real
+data. We show how proposed approach can be benefitial for the cheminformatics
+in the task of ligands activity prediction, where despite better classification
+results, MELC gives some additional insight into the data structure (classes of
+underrepresented chemical compunds).

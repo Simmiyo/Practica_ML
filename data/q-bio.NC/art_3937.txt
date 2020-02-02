@@ -1,0 +1,22 @@
+Exponential Random Graph Modeling for Complex Brain Networks
+Exponential random graph models (ERGMs), also known as p* models, have been
+utilized extensively in the social science literature to study complex networks
+and how their global structure depends on underlying structural components.
+However, the literature on their use in biological networks (especially brain
+networks) has remained sparse. Descriptive models based on a specific feature
+of the graph (clustering coefficient, degree distribution, etc.) have dominated
+connectivity research in neuroscience. Corresponding generative models have
+been developed to reproduce one of these features. However, the complexity
+inherent in whole-brain network data necessitates the development and use of
+tools that allow the systematic exploration of several features simultaneously
+and how they interact to form the global network architecture. ERGMs provide a
+statistically principled approach to the assessment of how a set of interacting
+local brain network features gives rise to the global structure. We illustrate
+the utility of ERGMs for modeling, analyzing, and simulating complex
+whole-brain networks with network data from normal subjects. We also provide a
+foundation for the selection of important local features through the
+implementation and assessment of three selection approaches: a traditional
+p-value based backward selection approach, an information criterion approach
+(AIC), and a graphical goodness of fit (GOF) approach. The graphical GOF
+approach serves as the best method given the scientific interest in being able
+to capture and reproduce the structure of fitted brain networks.

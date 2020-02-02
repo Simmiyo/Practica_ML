@@ -1,0 +1,11 @@
+Learning Model Reparametrizations: Implicit Variational Inference by
+  Fitting MCMC distributions
+We introduce a new algorithm for approximate inference that combines
+reparametrization, Markov chain Monte Carlo and variational methods. We
+construct a very flexible implicit variational distribution synthesized by an
+arbitrary Markov chain Monte Carlo operation and a deterministic transformation
+that can be optimized using the reparametrization trick. Unlike current methods
+for implicit variational inference, our method avoids the computation of log
+density ratios and therefore it is easily applicable to arbitrary continuous
+and differentiable models. We demonstrate the proposed algorithm for fitting
+banana-shaped distributions and for training variational autoencoders.

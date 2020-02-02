@@ -1,0 +1,15 @@
+Sparse Partially Collapsed MCMC for Parallel Inference in Topic Models
+Topic models, and more specifically the class of Latent Dirichlet Allocation
+(LDA), are widely used for probabilistic modeling of text. MCMC sampling from
+the posterior distribution is typically performed using a collapsed Gibbs
+sampler. We propose a parallel sparse partially collapsed Gibbs sampler and
+compare its speed and efficiency to state-of-the-art samplers for topic models
+on five well-known text corpora of differing sizes and properties. In
+particular, we propose and compare two different strategies for sampling the
+parameter block with latent topic indicators. The experiments show that the
+increase in statistical inefficiency from only partial collapsing is smaller
+than commonly assumed, and can be more than compensated by the speedup from
+parallelization and sparsity on larger corpora. We also prove that the
+partially collapsed samplers scale well with the size of the corpus. The
+proposed algorithm is fast, efficient, exact, and can be used in more modeling
+situations than the ordinary collapsed sampler.

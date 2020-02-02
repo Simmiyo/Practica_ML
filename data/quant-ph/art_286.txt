@@ -1,0 +1,12 @@
+Perfect Quantum Error Correction Code
+We present a quantum error correction code which protects a qubit of
+information against general one qubit errors which maybe caused by the
+interaction with the environment. To accomplish this, we encode the original
+state by distributing quantum information over five qubits, the minimal number
+required for this task. We give a simple circuit which takes the initial state
+with four extra qubits in the state |0> to the encoded state. The circuit can
+be converted into a decoding one by simply running it backward. Reading the
+extra four qubits at the decoder's output we learn which one of the sixteen
+alternatives (no error plus all fifteen possible 1-bit errors) was realized.
+The original state of the encoded qubit can then be restored by a simple
+unitary transformation.

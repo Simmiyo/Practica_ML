@@ -1,0 +1,10 @@
+Asymptotically Optimal Algorithms for Budgeted Multiple Play Bandits
+We study a generalization of the multi-armed bandit problem with multiple
+plays where there is a cost associated with pulling each arm and the agent has
+a budget at each time that dictates how much she can expect to spend. We derive
+an asymptotic regret lower bound for any uniformly efficient algorithm in our
+setting. We then study a variant of Thompson sampling for Bernoulli rewards and
+a variant of KL-UCB for both single-parameter exponential families and bounded,
+finitely supported rewards. We show these algorithms are asymptotically
+optimal, both in rateand leading problem-dependent constants, including in the
+thick margin setting where multiple arms fall on the decision boundary.

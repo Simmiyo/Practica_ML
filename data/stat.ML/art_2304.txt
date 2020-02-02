@@ -1,0 +1,30 @@
+Sufficient Dimensionality Reduction with Irrelevant Statistics
+The problem of finding a reduced dimensionality representation of categorical
+variables while preserving their most relevant characteristics is fundamental
+for the analysis of complex data. Specifically, given a co-occurrence matrix of
+two variables, one often seeks a compact representation of one variable which
+preserves information about the other variable. We have recently introduced
+``Sufficient Dimensionality Reduction' [GT-2003], a method that extracts
+continuous reduced dimensional features whose measurements (i.e., expectation
+values) capture maximal mutual information among the variables. However, such
+measurements often capture information that is irrelevant for a given task.
+Widely known examples are illumination conditions, which are irrelevant as
+features for face recognition, writing style which is irrelevant as a feature
+for content classification, and intonation which is irrelevant as a feature for
+speech recognition. Such irrelevance cannot be deduced apriori, since it
+depends on the details of the task, and is thus inherently ill defined in the
+purely unsupervised case. Separating relevant from irrelevant features can be
+achieved using additional side data that contains such irrelevant structures.
+This approach was taken in [CT-2002], extending the information bottleneck
+method, which uses clustering to compress the data. Here we use this
+side-information framework to identify features whose measurements are
+maximally informative for the original data set, but carry as little
+information as possible on a side data set. In statistical terms this can be
+understood as extracting statistics which are maximally sufficient for the
+original dataset, while simultaneously maximally ancillary for the side
+dataset. We formulate this tradeoff as a constrained optimization problem and
+characterize its solutions. We then derive a gradient descent algorithm for
+this problem, which is based on the Generalized Iterative Scaling method for
+finding maximum entropy distributions. The method is demonstrated on synthetic
+data, as well as on real face recognition datasets, and is shown to outperform
+standard methods such as oriented PCA.

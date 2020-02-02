@@ -1,0 +1,18 @@
+Guided Machine Learning for power grid segmentation
+The segmentation of large scale power grids into zones is crucial for control
+room operators when managing the grid complexity near real time. In this paper
+we propose a new method in two steps which is able to automatically do this
+segmentation, while taking into account the real time context, in order to help
+them handle shifting dynamics. Our method relies on a "guided" machine learning
+approach. As a first step, we define and compute a task specific "Influence
+Graph" in a guided manner. We indeed simulate on a grid state chosen
+interventions, representative of our task of interest (managing active power
+flows in our case). For visualization and interpretation, we then build a
+higher representation of the grid relevant to this task by applying the graph
+community detection algorithm \textit{Infomap} on this Influence Graph. To
+illustrate our method and demonstrate its practical interest, we apply it on
+commonly used systems, the IEEE-14 and IEEE-118. We show promising and original
+interpretable results, especially on the previously well studied RTS-96 system
+for grid segmentation. We eventually share initial investigation and results on
+a large-scale system, the French power grid, whose segmentation had a
+surprising resemblance with RTE's historical partitioning.

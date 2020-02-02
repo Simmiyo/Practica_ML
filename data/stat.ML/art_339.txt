@@ -1,0 +1,10 @@
+Multivariate Generalized Gaussian Process Models
+We propose a family of multivariate Gaussian process models for correlated
+outputs, based on assuming that the likelihood function takes the generic form
+of the multivariate exponential family distribution (EFD). We denote this model
+as a multivariate generalized Gaussian process model, and derive Taylor and
+Laplace algorithms for approximate inference on the generic model. By
+instantiating the EFD with specific parameter functions, we obtain two novel GP
+models (and corresponding inference algorithms) for correlated outputs: 1) a
+Von-Mises GP for angle regression; and 2) a Dirichlet GP for regressing on the
+multinomial simplex.

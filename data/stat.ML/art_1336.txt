@@ -1,0 +1,16 @@
+Non-parametric estimation of Jensen-Shannon Divergence in Generative
+  Adversarial Network training
+Generative Adversarial Networks (GANs) have become a widely popular framework
+for generative modelling of high-dimensional datasets. However their training
+is well-known to be difficult. This work presents a rigorous statistical
+analysis of GANs providing straight-forward explanations for common training
+pathologies such as vanishing gradients. Furthermore, it proposes a new
+training objective, Kernel GANs, and demonstrates its practical effectiveness
+on large-scale real-world data sets. A key element in the analysis is the
+distinction between training with respect to the (unknown) data distribution,
+and its empirical counterpart. To overcome issues in GAN training, we pursue
+the idea of smoothing the Jensen-Shannon Divergence (JSD) by incorporating
+noise in the input distributions of the discriminator. As we show, this
+effectively leads to an empirical version of the JSD in which the true and the
+generator densities are replaced by kernel density estimates, which leads to
+Kernel GANs.

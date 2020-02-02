@@ -1,0 +1,19 @@
+Mean-Field Theory of Meta-Learning
+We discuss here the mean-field theory for a cellular automata model of
+meta-learning. The meta-learning is the process of combining outcomes of
+individual learning procedures in order to determine the final decision with
+higher accuracy than any single learning method. Our method is constructed from
+an ensemble of interacting, learning agents, that acquire and process incoming
+information using various types, or different versions of machine learning
+algorithms. The abstract learning space, where all agents are located, is
+constructed here using a fully connected model that couples all agents with
+random strength values. The cellular automata network simulates the higher
+level integration of information acquired from the independent learning trials.
+The final classification of incoming input data is therefore defined as the
+stationary state of the meta-learning system using simple majority rule, yet
+the minority clusters that share opposite classification outcome can be
+observed in the system. Therefore, the probability of selecting proper class
+for a given input data, can be estimated even without the prior knowledge of
+its affiliation. The fuzzy logic can be easily introduced into the system, even
+if learning agents are build from simple binary classification machine learning
+algorithms by calculating the percentage of agreeing agents.

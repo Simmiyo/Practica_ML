@@ -1,0 +1,16 @@
+Early stopping and non-parametric regression: An optimal data-dependent
+  stopping rule
+The strategy of early stopping is a regularization technique based on
+choosing a stopping time for an iterative algorithm. Focusing on non-parametric
+regression in a reproducing kernel Hilbert space, we analyze the early stopping
+strategy for a form of gradient-descent applied to the least-squares loss
+function. We propose a data-dependent stopping rule that does not involve
+hold-out or cross-validation data, and we prove upper bounds on the squared
+error of the resulting function estimate, measured in either the $L^2(P)$ and
+$L^2(P_n)$ norm. These upper bounds lead to minimax-optimal rates for various
+kernel classes, including Sobolev smoothness classes and other forms of
+reproducing kernel Hilbert spaces. We show through simulation that our stopping
+rule compares favorably to two other stopping rules, one based on hold-out data
+and the other based on Stein's unbiased risk estimate. We also establish a
+tight connection between our early stopping strategy and the solution path of a
+kernel ridge regression estimator.

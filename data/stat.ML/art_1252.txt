@@ -1,0 +1,16 @@
+Gradient-based Regularization Parameter Selection for Problems with
+  Non-smooth Penalty Functions
+In high-dimensional and/or non-parametric regression problems, regularization
+(or penalization) is used to control model complexity and induce desired
+structure. Each penalty has a weight parameter that indicates how strongly the
+structure corresponding to that penalty should be enforced. Typically the
+parameters are chosen to minimize the error on a separate validation set using
+a simple grid search or a gradient-free optimization method. It is more
+efficient to tune parameters if the gradient can be determined, but this is
+often difficult for problems with non-smooth penalty functions. Here we show
+that for many penalized regression problems, the validation loss is actually
+smooth almost-everywhere with respect to the penalty parameters. We can
+therefore apply a modified gradient descent algorithm to tune parameters.
+Through simulation studies on example regression problems, we find that
+increasing the number of penalty parameters and tuning them using our method
+can decrease the generalization error.

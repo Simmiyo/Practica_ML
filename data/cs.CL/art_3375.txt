@@ -1,0 +1,11 @@
+Biomedical term normalization of EHRs with UMLS
+This paper presents a novel prototype for biomedical term normalization of
+electronic health record excerpts with the Unified Medical Language System
+(UMLS) Metathesaurus. Despite being multilingual and cross-lingual by design,
+we first focus on processing clinical text in Spanish because there is no
+existing tool for this language and for this specific purpose. The tool is
+based on Apache Lucene to index the Metathesaurus and generate mapping
+candidates from input text. It uses the IXA pipeline for basic language
+processing and resolves ambiguities with the UKB toolkit. It has been evaluated
+by measuring its agreement with MetaMap in two English-Spanish parallel
+corpora. In addition, we present a web-based interface for the tool.

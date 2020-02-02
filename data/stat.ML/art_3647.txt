@@ -1,0 +1,25 @@
+Sacrificing information for the greater good: how to select photometric
+  bands for optimal accuracy
+Large-scale surveys make huge amounts of photometric data available. Because
+of the sheer amount of objects, spectral data cannot be obtained for all of
+them. Therefore it is important to devise techniques for reliably estimating
+physical properties of objects from photometric information alone. These
+estimates are needed to automatically identify interesting objects worth a
+follow-up investigation as well as to produce the required data for a
+statistical analysis of the space covered by a survey. We argue that machine
+learning techniques are suitable to compute these estimates accurately and
+efficiently. This study promotes a feature selection algorithm, which selects
+the most informative magnitudes and colours for a given task of estimating
+physical quantities from photometric data alone. Using k nearest neighbours
+regression, a well-known non-parametric machine learning method, we show that
+using the found features significantly increases the accuracy of the
+estimations compared to using standard features and standard methods. We
+illustrate the usefulness of the approach by estimating specific star formation
+rates (sSFRs) and redshifts (photo-z's) using only the broad-band photometry
+from the Sloan Digital Sky Survey (SDSS). For estimating sSFRs, we demonstrate
+that our method produces better estimates than traditional spectral energy
+distribution (SED) fitting. For estimating photo-z's, we show that our method
+produces more accurate photo-z's than the method employed by SDSS. The study
+highlights the general importance of performing proper model selection to
+improve the results of machine learning systems and how feature selection can
+provide insights into the predictive relevance of particular input features.

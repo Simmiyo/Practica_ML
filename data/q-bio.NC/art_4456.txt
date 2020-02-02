@@ -1,0 +1,23 @@
+Bayesian methods for event analysis of intracellular currents
+Investigation of neural circuit functioning often requires statistical
+interpretation of events in subthreshold electrophysiological recordings. This
+problem is non-trivial because recordings may have moderate levels of
+structured noise and events may have distinct kinetics. In addition, novel
+experimental designs that combine optical and electrophysiological methods will
+depend upon statistical tools that combine multimodal data. We present a
+Bayesian approach for inferring the timing, strength, and kinetics of
+postsynaptic currents (PSCs) from voltage-clamp recordings on a per event
+basis. The simple generative model for a single voltage-clamp recording
+flexibly extends to include network-level structure to enable experiments
+designed to probe synaptic connectivity. We validate the approach on simulated
+and real data. We also demonstrate that extensions of the basic PSC detection
+algorithm can handle recordings contaminated with optically evoked currents,
+and we simulate a scenario in which calcium imaging observations, available for
+a subset of neurons, can be fused with electrophysiological data to achieve
+higher temporal resolution. We apply this approach to simulated and real ground
+truth data to demonstrate its higher sensitivity in detecting small
+signal-to-noise events and its increased robustness to noise compared to
+standard methods for detecting PSCs. The new Bayesian event analysis approach
+for electrophysiological recordings should allow for better estimation of
+physiological parameters under more variable conditions and help support new
+experimental designs for circuit mapping.

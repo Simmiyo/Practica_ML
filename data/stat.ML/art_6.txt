@@ -1,0 +1,12 @@
+Supervised Machine Learning with a Novel Kernel Density Estimator
+In recent years, kernel density estimation has been exploited by computer
+scientists to model machine learning problems. The kernel density estimation
+based approaches are of interest due to the low time complexity of either O(n)
+or O(n*log(n)) for constructing a classifier, where n is the number of sampling
+instances. Concerning design of kernel density estimators, one essential issue
+is how fast the pointwise mean square error (MSE) and/or the integrated mean
+square error (IMSE) diminish as the number of sampling instances increases. In
+this article, it is shown that with the proposed kernel function it is feasible
+to make the pointwise MSE of the density estimator converge at O(n^-2/3)
+regardless of the dimension of the vector space, provided that the probability
+density function at the point of interest meets certain conditions.

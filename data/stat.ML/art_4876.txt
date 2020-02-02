@@ -1,0 +1,13 @@
+Combining Random Walks and Nonparametric Bayesian Topic Model for
+  Community Detection
+Community detection has been an active research area for decades. Among all
+probabilistic models, Stochastic Block Model has been the most popular one.
+This paper introduces a novel probabilistic model: RW-HDP, based on random
+walks and Hierarchical Dirichlet Process, for community extraction. In RW-HDP,
+random walks conducted in a social network are treated as documents; nodes are
+treated as words. By using Hierarchical Dirichlet Process, a nonparametric
+Bayesian model, we are not only able to cluster nodes into different
+communities, but also determine the number of communities automatically. We use
+Stochastic Variational Inference for our model inference, which makes our
+method time efficient and can be easily extended to an online learning
+algorithm.

@@ -1,0 +1,10 @@
+Decentralized Dynamic Discriminative Dictionary Learning
+We consider discriminative dictionary learning in a distributed online
+setting, where a network of agents aims to learn a common set of dictionary
+elements of a feature space and model parameters while sequentially receiving
+observations. We formulate this problem as a distributed stochastic program
+with a non-convex objective and present a block variant of the Arrow-Hurwicz
+saddle point algorithm to solve it. Using Lagrange multipliers to penalize the
+discrepancy between them, only neighboring nodes exchange model information. We
+show that decisions made with this saddle point algorithm asymptotically
+achieve a first-order stationarity condition on average.

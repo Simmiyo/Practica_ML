@@ -1,0 +1,14 @@
+Recovery of simultaneous low rank and two-way sparse coefficient
+  matrices, a nonconvex approach
+We study the problem of recovery of matrices that are simultaneously low rank
+and row and/or column sparse. Such matrices appear in recent applications in
+cognitive neuroscience, imaging, computer vision, macroeconomics, and genetics.
+We propose a GDT (Gradient Descent with hard Thresholding) algorithm to
+efficiently recover matrices with such structure, by minimizing a bi-convex
+function over a nonconvex set of constraints. We show linear convergence of the
+iterates obtained by GDT to a region within statistical error of an optimal
+solution. As an application of our method, we consider multi-task learning
+problems and show that the statistical error rate obtained by GDT is near
+optimal compared to minimax rate. Experiments demonstrate competitive
+performance and much faster running speed compared to existing methods, on both
+simulations and real data sets.

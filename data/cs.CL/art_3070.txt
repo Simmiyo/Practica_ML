@@ -1,0 +1,17 @@
+Application of a Hybrid Bi-LSTM-CRF model to the task of Russian Named
+  Entity Recognition
+Named Entity Recognition (NER) is one of the most common tasks of the natural
+language processing. The purpose of NER is to find and classify tokens in text
+documents into predefined categories called tags, such as person names,
+quantity expressions, percentage expressions, names of locations,
+organizations, as well as expression of time, currency and others. Although
+there is a number of approaches have been proposed for this task in Russian
+language, it still has a substantial potential for the better solutions. In
+this work, we studied several deep neural network models starting from vanilla
+Bi-directional Long Short-Term Memory (Bi-LSTM) then supplementing it with
+Conditional Random Fields (CRF) as well as highway networks and finally adding
+external word embeddings. All models were evaluated across three datasets:
+Gareev's dataset, Person-1000, FactRuEval-2016. We found that extension of
+Bi-LSTM model with CRF significantly increased the quality of predictions.
+Encoding input tokens with external word embeddings reduced training time and
+allowed to achieve state of the art for the Russian NER task.

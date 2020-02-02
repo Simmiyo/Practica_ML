@@ -1,0 +1,11 @@
+A path algorithm for the Fused Lasso Signal Approximator
+The Lasso is a very well known penalized regression model, which adds an
+$L_{1}$ penalty with parameter $\lambda_{1}$ on the coefficients to the squared
+error loss function. The Fused Lasso extends this model by also putting an
+$L_{1}$ penalty with parameter $\lambda_{2}$ on the difference of neighboring
+coefficients, assuming there is a natural ordering. In this paper, we develop a
+fast path algorithm for solving the Fused Lasso Signal Approximator that
+computes the solutions for all values of $\lambda_1$ and $\lambda_2$. In the
+supplement, we also give an algorithm for the general Fused Lasso for the case
+with predictor matrix $\bX \in \mathds{R}^{n \times p}$ with
+$\text{rank}(\bX)=p$.

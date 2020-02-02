@@ -1,0 +1,21 @@
+Locally epistatic genomic relationship matrices for genomic association,
+  prediction and selection
+As the amount and complexity of genetic information increases it is necessary
+that we explore some efficient ways of handling these data. This study takes
+the "divide and conquer" approach for analyzing high dimensional genomic data.
+Our aims include reducing the dimensionality of the problem that has to be
+dealt one at a time, improving the performance and interpretability of the
+models. We propose using the inherent structures in the genome; to divide the
+bigger problem into manageable parts. In plant and animal breeding studies a
+distinction is made between the commercial value (additive + epistatic genetic
+effects) and the breeding value (additive genetic effects) of an individual
+since it is expected that some of the epistatic genetic effects will be lost
+due to recombination. In this paper, we argue that the breeder can take
+advantage of some of the epistatic marker effects in regions of low
+recombination. The models introduced here aim to estimate local epistatic line
+heritability by using the genetic map information and combine the local
+additive and epistatic effects. To this end, we have used semi-parametric mixed
+models with multiple local genomic relationship matrices with hierarchical
+testing designs and lasso post-processing for sparsity in the final model and
+speed. Our models produce good predictive performance along with genetic
+association information.

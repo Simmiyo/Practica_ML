@@ -1,0 +1,24 @@
+Principal Polynomial Analysis
+This paper presents a new framework for manifold learning based on a sequence
+of principal polynomials that capture the possibly nonlinear nature of the
+data. The proposed Principal Polynomial Analysis (PPA) generalizes PCA by
+modeling the directions of maximal variance by means of curves, instead of
+straight lines. Contrarily to previous approaches, PPA reduces to performing
+simple univariate regressions, which makes it computationally feasible and
+robust. Moreover, PPA shows a number of interesting analytical properties.
+First, PPA is a volume-preserving map, which in turn guarantees the existence
+of the inverse. Second, such an inverse can be obtained in closed form.
+Invertibility is an important advantage over other learning methods, because it
+permits to understand the identified features in the input domain where the
+data has physical meaning. Moreover, it allows to evaluate the performance of
+dimensionality reduction in sensible (input-domain) units. Volume preservation
+also allows an easy computation of information theoretic quantities, such as
+the reduction in multi-information after the transform. Third, the analytical
+nature of PPA leads to a clear geometrical interpretation of the manifold: it
+allows the computation of Frenet-Serret frames (local features) and of
+generalized curvatures at any point of the space. And fourth, the analytical
+Jacobian allows the computation of the metric induced by the data, thus
+generalizing the Mahalanobis distance. These properties are demonstrated
+theoretically and illustrated experimentally. The performance of PPA is
+evaluated in dimensionality and redundancy reduction, in both synthetic and
+real datasets from the UCI repository.

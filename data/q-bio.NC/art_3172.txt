@@ -1,0 +1,18 @@
+Multiscale Granger causality analysis by à trous wavelet transform
+Since interactions in neural systems occur across multiple temporal scales,
+it is likely that information flow will exhibit a multiscale structure, thus
+requiring a multiscale generalization of classical temporal precedence
+causality analysis like Granger's approach. However, the computation of
+multiscale measures of information dynamics is complicated by theoretical and
+practical issues such as filtering and undersampling: to overcome these
+problems, we propose a wavelet-based approach for multiscale Granger causality
+(GC) analysis, which is characterized by the following properties: (i) only the
+candidate driver variable is wavelet transformed (ii) the decomposition is
+performed using the \`a trous wavelet transform with cubic B-spline filter. We
+measure GC, at a given scale, by including the wavelet coefficients of the
+driver times series, at that scale, in the regression model of the target. To
+validate our method, we apply it to publicly available scalp EEG signals, and
+we find that the condition of closed eyes, at rest, is characterized by an
+enhanced GC among channels at slow scales w.r.t. eye open condition, whilst the
+standard Granger causality is not significantly different in the two
+conditions.

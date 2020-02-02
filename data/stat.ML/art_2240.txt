@@ -1,0 +1,18 @@
+Signal Recovery in Unions of Subspaces with Applications to Compressive
+  Imaging
+In applications ranging from communications to genetics, signals can be
+modeled as lying in a union of subspaces. Under this model, signal coefficients
+that lie in certain subspaces are active or inactive together. The potential
+subspaces are known in advance, but the particular set of subspaces that are
+active (i.e., in the signal support) must be learned from measurements. We show
+that exploiting knowledge of subspaces can further reduce the number of
+measurements required for exact signal recovery, and derive universal bounds
+for the number of measurements needed. The bound is universal in the sense that
+it only depends on the number of subspaces under consideration, and their
+orientation relative to each other. The particulars of the subspaces (e.g.,
+compositions, dimensions, extents, overlaps, etc.) does not affect the results
+we obtain. In the process, we derive sample complexity bounds for the special
+case of the group lasso with overlapping groups (the latent group lasso), which
+is used in a variety of applications. Finally, we also show that wavelet
+transform coefficients of images can be modeled as lying in groups, and hence
+can be efficiently recovered using group lasso methods.

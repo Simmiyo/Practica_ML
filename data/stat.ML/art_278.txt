@@ -1,0 +1,13 @@
+Out-of-sample Extension for Latent Position Graphs
+We consider the problem of vertex classification for graphs constructed from
+the latent position model. It was shown previously that the approach of
+embedding the graphs into some Euclidean space followed by classification in
+that space can yields a universally consistent vertex classifier. However, a
+major technical difficulty of the approach arises when classifying unlabeled
+out-of-sample vertices without including them in the embedding stage. In this
+paper, we studied the out-of-sample extension for the graph embedding step and
+its impact on the subsequent inference tasks. We show that, under the latent
+position graph model and for sufficiently large $n$, the mapping of the
+out-of-sample vertices is close to its true latent position. We then
+demonstrate that successful inference for the out-of-sample vertices is
+possible.

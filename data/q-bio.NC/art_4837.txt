@@ -1,0 +1,19 @@
+Detecting Multiple Change Points Using Adaptive Regression Splines with
+  Application to Neural Recordings
+Time series, as frequently the case in neuroscience, are rarely stationary,
+but often exhibit abrupt changes due to attractor transitions or bifurcations
+in the dynamical systems producing them. A plethora of methods for detecting
+such change points in time series statistics have been developed over the
+years, in addition to test criteria to evaluate their significance. Issues to
+consider when developing change point analysis methods include computational
+demands, difficulties arising from either limited amount of data or a large
+number of covariates, and arriving at statistical tests with sufficient power
+to detect as many changes as contained in potentially high-dimensional time
+series. Here, a general method called Paired Adaptive Regressors for Cumulative
+Sum is developed for detecting multiple change points in the mean of
+multivariate time series. The method's advantages over alternative approaches
+are demonstrated through a series of simulation experiments. This is followed
+by a real data application to neural recordings from rat medial prefrontal
+cortex during learning. Finally, the method's flexibility to incorporate useful
+features from state-of-the-art change point detection techniques is discussed,
+along with potential drawbacks and suggestions to remedy them.

@@ -1,0 +1,15 @@
+Autoregressive Point-Processes as Latent State-Space Models: a
+  Moment-Closure Approach to Fluctuations and Autocorrelations
+Modeling and interpreting spike train data is a task of central importance in
+computational neuroscience, with significant translational implications. Two
+popular classes of data-driven models for this task are autoregressive Point
+Process Generalized Linear models (PPGLM) and latent State-Space models (SSM)
+with point-process observations. In this letter, we derive a mathematical
+connection between these two classes of models. By introducing an auxiliary
+history process, we represent exactly a PPGLM in terms of a latent, infinite
+dimensional dynamical system, which can then be mapped onto an SSM by basis
+function projections and moment closure. This representation provides a new
+perspective on widely used methods for modeling spike data, and also suggests
+novel algorithmic approaches to fitting such models. We illustrate our results
+on a phasic bursting neuron model, showing that our proposed approach provides
+an accurate and efficient way to capture neural dynamics.

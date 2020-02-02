@@ -1,0 +1,16 @@
+Regularized Multi-Task Learning for Multi-Dimensional Log-Density
+  Gradient Estimation
+Log-density gradient estimation is a fundamental statistical problem and
+possesses various practical applications such as clustering and measuring
+non-Gaussianity. A naive two-step approach of first estimating the density and
+then taking its log-gradient is unreliable because an accurate density estimate
+does not necessarily lead to an accurate log-density gradient estimate. To cope
+with this problem, a method to directly estimate the log-density gradient
+without density estimation has been explored, and demonstrated to work much
+better than the two-step method. The objective of this paper is to further
+improve the performance of this direct method in multi-dimensional cases. Our
+idea is to regard the problem of log-density gradient estimation in each
+dimension as a task, and apply regularized multi-task learning to the direct
+log-density gradient estimator. We experimentally demonstrate the usefulness of
+the proposed multi-task method in log-density gradient estimation and
+mode-seeking clustering.

@@ -1,0 +1,9 @@
+Online Multiple Kernel Learning for Structured Prediction
+Despite the recent progress towards efficient multiple kernel learning (MKL),
+the structured output case remains an open research front. Current approaches
+involve repeatedly solving a batch learning problem, which makes them
+inadequate for large scale scenarios. We propose a new family of online
+proximal algorithms for MKL (as well as for group-lasso and variants thereof),
+which overcomes that drawback. We show regret, convergence, and generalization
+bounds for the proposed method. Experiments on handwriting recognition and
+dependency parsing testify for the successfulness of the approach.

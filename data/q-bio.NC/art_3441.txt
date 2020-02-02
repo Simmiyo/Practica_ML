@@ -1,0 +1,21 @@
+Topological exploration of artificial neuronal network dynamics
+One of the paramount challenges in neuroscience is to understand the dynamics
+of individual neurons and how they give rise to network dynamics when
+interconnected. Historically, researchers have resorted to graph theory,
+statistics, and statistical mechanics to describe the spatiotemporal structure
+of such network dynamics. Our novel approach employs tools from algebraic
+topology to characterize the global properties of network structure and
+dynamics.
+  We propose a method based on persistent homology to automatically classify
+network dynamics using topological features of spaces built from various
+spike-train distances. We investigate the efficacy of our method by simulating
+activity in three small artificial neural networks with different sets of
+parameters, giving rise to dynamics that can be classified into four regimes.
+We then compute three measures of spike train similarity and use persistent
+homology to extract topological features that are fundamentally different from
+those used in traditional methods. Our results show that a machine learning
+classifier trained on these features can accurately predict the regime of the
+network it was trained on and also generalize to other networks that were not
+presented during training. Moreover, we demonstrate that using features
+extracted from multiple spike-train distances systematically improves the
+performance of our method.

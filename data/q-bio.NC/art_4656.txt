@@ -1,0 +1,20 @@
+A Multi-Pass Approach to Large-Scale Connectomics
+The field of connectomics faces unprecedented "big data" challenges. To
+reconstruct neuronal connectivity, automated pixel-level segmentation is
+required for petabytes of streaming electron microscopy data. Existing
+algorithms provide relatively good accuracy but are unacceptably slow, and
+would require years to extract connectivity graphs from even a single cubic
+millimeter of neural tissue. Here we present a viable real-time solution, a
+multi-pass pipeline optimized for shared-memory multicore systems, capable of
+processing data at near the terabyte-per-hour pace of multi-beam electron
+microscopes. The pipeline makes an initial fast-pass over the data, and then
+makes a second slow-pass to iteratively correct errors in the output of the
+fast-pass. We demonstrate the accuracy of a sparse slow-pass reconstruction
+algorithm and suggest new methods for detecting morphological errors. Our
+fast-pass approach provided many algorithmic challenges, including the design
+and implementation of novel shallow convolutional neural nets and the
+parallelization of watershed and object-merging techniques. We use it to
+reconstruct, from image stack to skeletons, the full dataset of Kasthuri et al.
+(463 GB capturing 120,000 cubic microns) in a matter of hours on a single
+multicore machine rather than the weeks it has taken in the past on much larger
+distributed systems.

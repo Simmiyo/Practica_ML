@@ -1,0 +1,16 @@
+Learning binary or real-valued time-series via spike-timing dependent
+  plasticity
+A dynamic Boltzmann machine (DyBM) has been proposed as a model of a spiking
+neural network, and its learning rule of maximizing the log-likelihood of given
+time-series has been shown to exhibit key properties of spike-timing dependent
+plasticity (STDP), which had been postulated and experimentally confirmed in
+the field of neuroscience as a learning rule that refines the Hebbian rule.
+Here, we relax some of the constraints in the DyBM in a way that it becomes
+more suitable for computation and learning. We show that learning the DyBM can
+be considered as logistic regression for binary-valued time-series. We also
+show how the DyBM can learn real-valued data in the form of a Gaussian DyBM and
+discuss its relation to the vector autoregressive (VAR) model. The Gaussian
+DyBM extends the VAR by using additional explanatory variables, which
+correspond to the eligibility traces of the DyBM and capture long term
+dependency of the time-series. Numerical experiments show that the Gaussian
+DyBM significantly improves the predictive accuracy over VAR.

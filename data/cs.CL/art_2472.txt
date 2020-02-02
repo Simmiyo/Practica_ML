@@ -1,0 +1,13 @@
+Improving Implicit Semantic Role Labeling by Predicting Semantic Frame
+  Arguments
+Implicit semantic role labeling (iSRL) is the task of predicting the semantic
+roles of a predicate that do not appear as explicit arguments, but rather
+regard common sense knowledge or are mentioned earlier in the discourse. We
+introduce an approach to iSRL based on a predictive recurrent neural semantic
+frame model (PRNSFM) that uses a large unannotated corpus to learn the
+probability of a sequence of semantic arguments given a predicate. We leverage
+the sequence probabilities predicted by the PRNSFM to estimate selectional
+preferences for predicates and their arguments. On the NomBank iSRL test set,
+our approach improves state-of-the-art performance on implicit semantic role
+labeling with less reliance than prior work on manually constructed language
+resources.

@@ -1,0 +1,12 @@
+Task-specific Word-Clustering for Part-of-Speech Tagging
+While the use of cluster features became ubiquitous in core NLP tasks, most
+cluster features in NLP are based on distributional similarity. We propose a
+new type of clustering criteria, specific to the task of part-of-speech
+tagging. Instead of distributional similarity, these clusters are based on the
+beha vior of a baseline tagger when applied to a large corpus. These cluster
+features provide similar gains in accuracy to those achieved by
+distributional-similarity derived clusters. Using both types of cluster
+features together further improve tagging accuracies. We show that the method
+is effective for both the in-domain and out-of-domain scenarios for English,
+and for French, German and Italian. The effect is larger for out-of-domain
+text.

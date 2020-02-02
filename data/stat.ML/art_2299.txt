@@ -1,0 +1,15 @@
+Bayesian Hierarchical Mixtures of Experts
+The Hierarchical Mixture of Experts (HME) is a well-known tree-based model
+for regression and classification, based on soft probabilistic splits. In its
+original formulation it was trained by maximum likelihood, and is therefore
+prone to over-fitting. Furthermore the maximum likelihood framework offers no
+natural metric for optimizing the complexity and structure of the tree.
+Previous attempts to provide a Bayesian treatment of the HME model have relied
+either on ad-hoc local Gaussian approximations or have dealt with related
+models representing the joint distribution of both input and output variables.
+In this paper we describe a fully Bayesian treatment of the HME model based on
+variational inference. By combining local and global variational methods we
+obtain a rigourous lower bound on the marginal probability of the data under
+the model. This bound is optimized during the training phase, and its resulting
+value can be used for model order selection. We present results using this
+approach for a data set describing robot arm kinematics.

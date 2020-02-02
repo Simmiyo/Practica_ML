@@ -1,0 +1,19 @@
+Communication-efficient Distributed Estimation and Inference for
+  Transelliptical Graphical Models
+We propose communication-efficient distributed estimation and inference
+methods for the transelliptical graphical model, a semiparametric extension of
+the elliptical distribution in the high dimensional regime. In detail, the
+proposed method distributes the $d$-dimensional data of size $N$ generated from
+a transelliptical graphical model into $m$ worker machines, and estimates the
+latent precision matrix on each worker machine based on the data of size
+$n=N/m$. It then debiases the local estimators on the worker machines and send
+them back to the master machine. Finally, on the master machine, it aggregates
+the debiased local estimators by averaging and hard thresholding. We show that
+the aggregated estimator attains the same statistical rate as the centralized
+estimator based on all the data, provided that the number of machines satisfies
+$m \lesssim \min\{N\log d/d,\sqrt{N/(s^2\log d)}\}$, where $s$ is the maximum
+number of nonzero entries in each column of the latent precision matrix. It is
+worth noting that our algorithm and theory can be directly applied to Gaussian
+graphical models, Gaussian copula graphical models and elliptical graphical
+models, since they are all special cases of transelliptical graphical models.
+Thorough experiments on synthetic data back up our theory.

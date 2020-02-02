@@ -1,0 +1,25 @@
+Evaluation and Ensembling of Methods for Reverse Engineering of Brain
+  Connectivity from Imaging Data
+Brain science is an evolving research area inviting great enthusiasm with its
+potential for providing insights and thereby, preventing, and treating multiple
+neuronal disorders affecting millions of patients. Discovery of relationships,
+such as brain connectivity, is a major goal in basic, translational, and
+clinical science. Algorithms for causal discovery are used in diverse fields
+for tackling problems similar to the task of reconstruction of neuronal brain
+connectivity. Our aim is to understand the strengths and limitations of these
+methods, measure performance and its determinants, and provide insights to
+enhance their performance and applicability. We performed extensive empirical
+testing and benchmarking of reconstruction performance of several
+state-of-the-art algorithms along with several ensemble techniques used to
+combine them. Our experiments used a clear and broadly relevant gold standard
+based on calcium fluorescence time series recordings of thousands of neurons
+sampled from a previously validated realistic, neuronal model. Correlation,
+entropy-based measures, Cross-Correlation for short time lags, and Generalized
+Transfer Entropy had the best performances with area under ROC curve (AUC) in
+the range of 0.7-0.8 even for smaller sample sizes of n = 100 to 1,000 and
+converged quickly (at less than n = 1,000). Ensembles of best-performing
+methods using random forests and neural networks generated AUC of ~0.9 with n =
+10,000. Several important insights regarding parameter choice and sample size
+were gained for guiding the experimental design of studies. Our data are also
+supportive of the feasibility of reliably reconstructing complex neuronal
+connectivity using existing techniques.

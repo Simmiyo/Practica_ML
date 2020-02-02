@@ -1,0 +1,22 @@
+Output Stream of Binding Neuron with Feedback
+The binding neuron model is inspired by numerical simulation of
+Hodgkin-Huxley-type point neuron, as well as by the leaky integrate-and-fire
+model. In the binding neuron, the trace of an input is remembered for a fixed
+period of time after which it disappears completely. This is in the contrast
+with the above two models, where the postsynaptic potentials decay
+exponentially and can be forgotten only after triggering. The finiteness of
+memory in the binding neuron allows one to construct fast recurrent networks
+for computer modeling. Recently, the finiteness is utilized for exact
+mathematical description of the output stochastic process if the binding neuron
+is driven with the Poissonian input stream. In this paper, the simplest
+networking is considered for binding neuron. Namely, it is expected that every
+output spike of single neuron is immediately fed into its input. For this
+construction, externally fed with Poissonian stream, the output stream is
+characterized in terms of interspike interval probability density distribution
+if the binding neuron has threshold 2. For higher thresholds, the distribution
+is calculated numerically. The distributions are compared with those found for
+binding neuron without feedback, and for leaky integrator. Sample distributions
+for leaky integrator with feedback are calculated numerically as well. It is
+oncluded that even the simplest networking can radically alter spikng
+statistics. Information condensation at the level of single neuron is
+discussed.

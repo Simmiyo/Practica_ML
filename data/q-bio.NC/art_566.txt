@@ -1,0 +1,20 @@
+A few points suffice: Efficient large-scale computation of brain
+  voxel-wise functional connectomes from a sparse spatio-temporal point-process
+Large efforts are currently under way to systematically map functional
+connectivity between all pairs of millimeter-scale brain regions using big
+volumes of neuroimaging data. Functional magnetic resonance imaging (fMRI) can
+produce these functional connectomes, however, large amounts of data and
+lengthy computation times add important overhead to this task. Previous work
+has demonstrated that fMRI data admits a sparse representation in the form a
+discrete point-process containing sufficient information for the efficient
+estimation of functional connectivity between all pairs of voxels. In this work
+we validate this method, by replicating results obtained with standard
+whole-brain voxel-wise linear correlation matrices in two datasets. In the
+first one (n=71) we study the changes in node strength (a measure of network
+centrality) during deep sleep. The second is a large database (n=1147) of
+subjects in which we look at the age-related reorganization of the voxel-wise
+network of functional connections. In both cases it is shown that the proposed
+method compares well with standard techniques, despite requiring of the order
+of 1 % of the original fMRI time series. Overall, these results demonstrate
+that the proposed approach allows efficient fMRI data compression and a
+subsequent reduction of computation times.

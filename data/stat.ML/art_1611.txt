@@ -1,0 +1,21 @@
+Maximum Entropy Discrimination Markov Networks
+In this paper, we present a novel and general framework called {\it Maximum
+Entropy Discrimination Markov Networks} (MaxEnDNet), which integrates the
+max-margin structured learning and Bayesian-style estimation and combines and
+extends their merits. Major innovations of this model include: 1) It
+generalizes the extant Markov network prediction rule based on a point
+estimator of weights to a Bayesian-style estimator that integrates over a
+learned distribution of the weights. 2) It extends the conventional max-entropy
+discrimination learning of classification rule to a new structural max-entropy
+discrimination paradigm of learning the distribution of Markov networks. 3) It
+subsumes the well-known and powerful Maximum Margin Markov network (M$^3$N) as
+a special case, and leads to a model similar to an $L_1$-regularized M$^3$N
+that is simultaneously primal and dual sparse, or other types of Markov network
+by plugging in different prior distributions of the weights. 4) It offers a
+simple inference algorithm that combines existing variational inference and
+convex-optimization based M$^3$N solvers as subroutines. 5) It offers a
+PAC-Bayesian style generalization bound. This work represents the first
+successful attempt to combine Bayesian-style learning (based on generative
+models) with structured maximum margin learning (based on a discriminative
+model), and outperforms a wide array of competing methods for structured
+input/output learning on both synthetic and real data sets.

@@ -1,0 +1,14 @@
+Convex Coupled Matrix and Tensor Completion
+We propose a set of convex low rank inducing norms for a coupled matrices and
+tensors (hereafter coupled tensors), which shares information between matrices
+and tensors through common modes. More specifically, we propose a mixture of
+the overlapped trace norm and the latent norms with the matrix trace norm, and
+then, we propose a new completion algorithm based on the proposed norms. A key
+advantage of the proposed norms is that it is convex and can find a globally
+optimal solution, while existing methods for coupled learning are non-convex.
+Furthermore, we analyze the excess risk bounds of the completion model
+regularized by our proposed norms which show that our proposed norms can
+exploit the low rankness of coupled tensors leading to better bounds compared
+to uncoupled norms. Through synthetic and real-world data experiments, we show
+that the proposed completion algorithm compares favorably with existing
+completion algorithms.

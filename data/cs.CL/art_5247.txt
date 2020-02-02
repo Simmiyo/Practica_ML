@@ -1,0 +1,19 @@
+Linguistic Analysis of Pretrained Sentence Encoders with Acceptability
+  Judgments
+Recent work on evaluating grammatical knowledge in pretrained sentence
+encoders gives a fine-grained view of a small number of phenomena. We introduce
+a new analysis dataset that also has broad coverage of linguistic phenomena. We
+annotate the development set of the Corpus of Linguistic Acceptability (CoLA;
+Warstadt et al., 2018) for the presence of 13 classes of syntactic phenomena
+including various forms of argument alternations, movement, and modification.
+We use this analysis set to investigate the grammatical knowledge of three
+pretrained encoders: BERT (Devlin et al., 2018), GPT (Radford et al., 2018),
+and the BiLSTM baseline from Warstadt et al. We find that these models have a
+strong command of complex or non-canonical argument structures like
+ditransitives (Sue gave Dan a book) and passives (The book was read). Sentences
+with long distance dependencies like questions (What do you think I ate?)
+challenge all models, but for these, BERT and GPT have a distinct advantage
+over the baseline. We conclude that recent sentence encoders, despite showing
+near-human performance on acceptability classification overall, still fail to
+make fine-grained grammaticality distinctions for many complex syntactic
+structures.

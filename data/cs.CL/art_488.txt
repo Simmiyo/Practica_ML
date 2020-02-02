@@ -1,0 +1,16 @@
+ESLO: from transcription to speakers' personal information annotation
+This paper presents the preliminary works to put online a French oral corpus
+and its transcription. This corpus is the Socio-Linguistic Survey in Orleans,
+realized in 1968. First, we numerized the corpus, then we handwritten
+transcribed it with the Transcriber software adding different tags about
+speakers, time, noise, etc. Each document (audio file and XML file of the
+transcription) was described by a set of metadata stored in an XML format to
+allow an easy consultation. Second, we added different levels of annotations,
+recognition of named entities and annotation of personal information about
+speakers. This two annotation tasks used the CasSys system of transducer
+cascades. We used and modified a first cascade to recognize named entities.
+Then we built a second cascade to annote the designating entities, i.e.
+information about the speaker. These second cascade parsed the named entity
+annotated corpus. The objective is to locate information about the speaker and,
+also, what kind of information can designate him/her. These two cascades was
+evaluated with precision and recall measures.

@@ -1,0 +1,16 @@
+Context is Everything: Finding Meaning Statistically in Semantic Spaces
+This paper introduces Contextual Salience (CoSal), a simple and explicit
+measure of a word's importance in context which is a more theoretically
+natural, practically simpler, and more accurate replacement to tf-idf. CoSal
+supports very small contexts (20 or more sentences), out-of context words, and
+is easy to calculate. A word vector space generated with both bigram phrases
+and unigram tokens reveals that contextually significant words
+disproportionately define phrases. This relationship is applied to produce
+simple weighted bag-of-words sentence embeddings. This model outperforms
+SkipThought and the best models trained on unordered sentences in most tests in
+Facebook's SentEval, beats tf-idf on all available tests, and is generally
+comparable to the state of the art. This paper also applies CoSal to sentence
+and document summarization and an improved and context-aware cosine distance.
+Applying the premise that unexpected words are important, CoSal is presented as
+a replacement for tf-idf and an intuitive measure of contextual word
+importance.

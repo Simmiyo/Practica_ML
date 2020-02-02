@@ -1,0 +1,15 @@
+A marginal sampler for $σ$-Stable Poisson-Kingman mixture models
+We investigate the class of $\sigma$-stable Poisson-Kingman random
+probability measures (RPMs) in the context of Bayesian nonparametric mixture
+modeling. This is a large class of discrete RPMs which encompasses most of the
+the popular discrete RPMs used in Bayesian nonparametrics, such as the
+Dirichlet process, Pitman-Yor process, the normalized inverse Gaussian process
+and the normalized generalized Gamma process. We show how certain sampling
+properties and marginal characterizations of $\sigma$-stable Poisson-Kingman
+RPMs can be usefully exploited for devising a Markov chain Monte Carlo (MCMC)
+algorithm for making inference in Bayesian nonparametric mixture modeling.
+Specifically, we introduce a novel and efficient MCMC sampling scheme in an
+augmented space that has a fixed number of auxiliary variables per iteration.
+We apply our sampling scheme for a density estimation and clustering tasks with
+unidimensional and multidimensional datasets, and we compare it against
+competing sampling schemes.

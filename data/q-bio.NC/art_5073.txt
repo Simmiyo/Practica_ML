@@ -1,0 +1,15 @@
+Unsupervised Continual Learning and Self-Taught Associative Memory
+  Hierarchies
+We first pose the Unsupervised Continual Learning (UCL) problem: learning
+salient representations from a non-stationary stream of unlabeled data in which
+the number of object classes varies with time. Given limited labeled data just
+before inference, those representations can also be associated with specific
+object types to perform classification. To solve the UCL problem, we propose an
+architecture that involves a single module, called Self-Taught Associative
+Memory (STAM), which loosely models the function of a cortical column in the
+mammalian brain. Hierarchies of STAM modules learn based on a combination of
+Hebbian learning, online clustering, detection of novel patterns, forgetting
+outliers, and top-down predictions. We illustrate the operation of STAMs in the
+context of learning handwritten digits in a continual manner with only 3-12
+labeled examples per class. STAMs suggest a promising direction to solve the
+UCL problem without catastrophic forgetting.

@@ -1,0 +1,24 @@
+Efficient statistical analysis of large correlated multivariate
+  datasets: a case study on brain connectivity matrices
+In neuroimaging, a large number of correlated tests are routinely performed
+to detect active voxels in single-subject experiments or to detect regions that
+differ between individuals belonging to different groups. In order to bound the
+probability of a false discovery of pair-wise differences, a Bonferroni or
+other correction for multiplicity is necessary. These corrections greatly
+reduce the power of the comparisons which means that small signals
+(differences) remain hidden and therefore have been more or less successful
+depending on the application. We introduce a method that improves the power of
+a family of correlated statistical tests by reducing their number in an orderly
+fashion using our a-priori understanding of the problem . The tests are grouped
+by blocks that respect the data structure and only one or a few tests per group
+are performed. For each block we construct an appropriate summary statistic
+that characterizes a meaningful feature of the block. The comparisons are based
+on these summary statistics by a block-wise approach. We contrast this method
+with the one based on the individual measures in terms of power. Finally, we
+apply the method to compare brain connectivity matrices. Although the method is
+used in this study on the particular case of imaging, the proposed strategy can
+be applied to a large variety of problems that involves multiple comparisons
+when the tests can be grouped according to attributes that depend on the
+specific problem. Keywords and phrases: Multiple comparisons ; Family-wise
+error rate; False discovery rate; Bonferroni procedure; Human brain
+connectivity; Brain connectivity matrices.

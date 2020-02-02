@@ -1,0 +1,18 @@
+Spike Sorting by Convolutional Dictionary Learning
+Spike sorting refers to the problem of assigning action potentials observed
+in extra-cellular recordings of neural activity to the neuron(s) from which
+they originate. We cast this problem as one of learning a convolutional
+dictionary from raw multi-electrode waveform data, subject to sparsity
+constraints. In this context, sparsity refers to the number of neurons that are
+allowed to spike simultaneously. The convolutional dictionary setting, along
+with its assumptions (e.g. refractoriness) that are motivated by the
+spike-sorting problem, let us give theoretical bounds on the sample complexity
+of spike sorting as a function of the number of underlying neurons, the rate of
+occurrence of simultaneous spiking, and the firing rate of the neurons. We
+derive memory/computation-efficient convolutional versions of OMP (cOMP) and
+KSVD (cKSVD), popular algorithms for sparse coding and dictionary learning
+respectively. We demonstrate via simulations that an algorithm that alternates
+between cOMP and cKSVD can recover the underlying spike waveforms successfully,
+assuming few neurons spike simultaneously, and is stable in the presence of
+noise. We also apply the algorithm to extra-cellular recordings from a tetrode
+in the rat Hippocampus.

@@ -1,0 +1,22 @@
+Increasing the Analytical Accessibility of Multishell and Diffusion
+  Spectrum Imaging Data Using Generalized Q-Sampling Conversion
+Many diffusion MRI researchers, including the Human Connectome Project (HCP),
+acquire data using multishell (e.g., WU-Minn consortium) and diffusion spectrum
+imaging (DSI) schemes (e.g., USC-Harvard consortium). However, these data sets
+are not readily accessible to high angular resolution diffusion imaging (HARDI)
+analysis methods that are popular in connectomics analysis. Here we introduce a
+scheme conversion approach that transforms multishell and DSI data into their
+corresponding HARDI representations, thereby empowering HARDI-based analytical
+methods to make use of data acquired using non-HARDI approaches. This method
+was evaluated on both phantom and in-vivo human data sets by acquiring
+multishell, DSI, and HARDI data simultaneously, and comparing the converted
+HARDI, from non-HARDI methods, with the original HARDI data. Analysis on the
+phantom shows that the converted HARDI from DSI and multishell data strongly
+predicts the original HARDI (correlation coefficient > 0.9). Our in-vivo study
+shows that the converted HARDI can be reconstructed by constrained spherical
+deconvolution, and the fiber orientation distributions are consistent with
+those from the original HARDI. We further illustrate that our scheme conversion
+method can be applied to HCP data, and the converted HARDI do not appear to
+sacrifice angular resolution. Thus this novel approach can benefit all
+HARDI-based analysis approaches, allowing greater analytical accessibility to
+non-HARDI data, including data from the HCP.

@@ -1,0 +1,13 @@
+Efficient hierarchical clustering for continuous data
+We present an new sequential Monte Carlo sampler for coalescent based
+Bayesian hierarchical clustering. Our model is appropriate for modeling
+non-i.i.d. data and offers a substantial reduction of computational cost when
+compared to the original sampler without resorting to approximations. We also
+propose a quadratic complexity approximation that in practice shows almost no
+loss in performance compared to its counterpart. We show that as a byproduct of
+our formulation, we obtain a greedy algorithm that exhibits performance
+improvement over other greedy algorithms, particularly in small data sets. In
+order to exploit the correlation structure of the data, we describe how to
+incorporate Gaussian process priors in the model as a flexible way to model
+non-i.i.d. data. Results on artificial and real data show significant
+improvements over closely related approaches.

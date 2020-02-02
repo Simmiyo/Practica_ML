@@ -1,0 +1,15 @@
+UNLocBoX: A MATLAB convex optimization toolbox for proximal-splitting
+  methods
+Convex optimization is an essential tool for machine learning, as many of its
+problems can be formulated as minimization problems of specific objective
+functions. While there is a large variety of algorithms available to solve
+convex problems, we can argue that it becomes more and more important to focus
+on efficient, scalable methods that can deal with big data. When the objective
+function can be written as a sum of "simple" terms, proximal splitting methods
+are a good choice. UNLocBoX is a MATLAB library that implements many of these
+methods, designed to solve convex optimization problems of the form $\min_{x
+\in \mathbb{R}^N} \sum_{n=1}^K f_n(x).$ It contains the most recent solvers
+such as FISTA, Douglas-Rachford, SDMM as well a primal dual techniques such as
+Chambolle-Pock and forward-backward-forward. It also includes an extensive list
+of common proximal operators that can be combined, allowing for a quick
+implementation of a large variety of convex problems.

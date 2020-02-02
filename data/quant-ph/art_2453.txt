@@ -1,0 +1,15 @@
+NMR Quantum Logic Gates for Homonuclear Spin Systems
+If NMR systems are to be used as practical quantum computers, the number of
+coupled spins will need to be so large that it is not feasible to rely on
+purely heteronuclear spin systems. The implementation of a quantum logic gate
+imposes certain constraints on the motion of those spins not directly involved
+in that gate, the so-called "spectator" spins; they must be returned to their
+initial states at the end of the sequence. As a result, a homonuclear spin
+system where there is appreciable coupling between every pair of spins would
+seem to require a refocusing scheme that doubles in complexity and duration for
+every additional spectator spin. Fortunately, for the more realistic practical
+case where long-range spin-spin couplings can be neglected, simpler refocusing
+schemes can be devised where the overall duration of the sequence remains
+constant and the number of soft pulses increases only linearly with the number
+of spectator spins. These ideas are tested experimentally on a six qubit
+system: the six coupled protons of inosine.

@@ -1,0 +1,21 @@
+Breakdown Point of Robust Support Vector Machine
+The support vector machine (SVM) is one of the most successful learning
+methods for solving classification problems. Despite its popularity, SVM has a
+serious drawback, that is sensitivity to outliers in training samples. The
+penalty on misclassification is defined by a convex loss called the hinge loss,
+and the unboundedness of the convex loss causes the sensitivity to outliers. To
+deal with outliers, robust variants of SVM have been proposed, such as the
+robust outlier detection algorithm and an SVM with a bounded loss called the
+ramp loss. In this paper, we propose a robust variant of SVM and investigate
+its robustness in terms of the breakdown point. The breakdown point is a
+robustness measure that is the largest amount of contamination such that the
+estimated classifier still gives information about the non-contaminated data.
+The main contribution of this paper is to show an exact evaluation of the
+breakdown point for the robust SVM. For learning parameters such as the
+regularization parameter in our algorithm, we derive a simple formula that
+guarantees the robustness of the classifier. When the learning parameters are
+determined with a grid search using cross validation, our formula works to
+reduce the number of candidate search points. The robustness of the proposed
+method is confirmed in numerical experiments. We show that the statistical
+properties of the robust SVM are well explained by a theoretical analysis of
+the breakdown point.

@@ -1,0 +1,20 @@
+Automatic classification of bengali sentences based on sense definitions
+  present in bengali wordnet
+Based on the sense definition of words available in the Bengali WordNet, an
+attempt is made to classify the Bengali sentences automatically into different
+groups in accordance with their underlying senses. The input sentences are
+collected from 50 different categories of the Bengali text corpus developed in
+the TDIL project of the Govt. of India, while information about the different
+senses of particular ambiguous lexical item is collected from Bengali WordNet.
+In an experimental basis we have used Naive Bayes probabilistic model as a
+useful classifier of sentences. We have applied the algorithm over 1747
+sentences that contain a particular Bengali lexical item which, because of its
+ambiguous nature, is able to trigger different senses that render sentences in
+different meanings. In our experiment we have achieved around 84% accurate
+result on the sense classification over the total input sentences. We have
+analyzed those residual sentences that did not comply with our experiment and
+did affect the results to note that in many cases, wrong syntactic structures
+and less semantic information are the main hurdles in semantic classification
+of sentences. The applicational relevance of this study is attested in
+automatic text classification, machine learning, information extraction, and
+word sense disambiguation.

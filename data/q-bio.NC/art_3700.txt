@@ -1,0 +1,15 @@
+Neural network design for J function approximation in dynamic
+  programming
+This paper shows that a new type of artificial neural network (ANN) -- the
+Simultaneous Recurrent Network (SRN) -- can, if properly trained, solve a
+difficult function approximation problem which conventional ANNs -- either
+feedforward or Hebbian -- cannot. This problem, the problem of generalized maze
+navigation, is typical of problems which arise in building true intelligent
+control systems using neural networks. (Such systems are discussed in the
+chapter by Werbos in K.Pribram, Brain and Values, Erlbaum 1998.) The paper
+provides a general review of other types of recurrent networks and alternative
+training techniques, including a flowchart of the Error Critic training design,
+arguable the only plausible approach to explain how the brain adapts
+time-lagged recurrent systems in real-time. The C code of the test is appended.
+As in the first tests of backprop, the training here was slow, but there are
+ways to do better after more experience using this type of network.

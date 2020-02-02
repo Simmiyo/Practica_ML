@@ -1,0 +1,18 @@
+Permuted and Augmented Stick-Breaking Bayesian Multinomial Regression
+To model categorical response variables given their covariates, we propose a
+permuted and augmented stick-breaking (paSB) construction that one-to-one maps
+the observed categories to randomly permuted latent sticks. This new
+construction transforms multinomial regression into regression analysis of
+stick-specific binary random variables that are mutually independent given
+their covariate-dependent stick success probabilities, which are parameterized
+by the regression coefficients of their corresponding categories. The paSB
+construction allows transforming an arbitrary cross-entropy-loss binary
+classifier into a Bayesian multinomial one. Specifically, we parameterize the
+negative logarithms of the stick failure probabilities with a family of
+covariate-dependent softplus functions to construct nonparametric Bayesian
+multinomial softplus regression, and transform Bayesian support vector machine
+(SVM) into Bayesian multinomial SVM. These Bayesian multinomial regression
+models are not only capable of providing probability estimates, quantifying
+uncertainty, increasing robustness, and producing nonlinear classification
+decision boundaries, but also amenable to posterior simulation. Example results
+demonstrate their attractive properties and performance.

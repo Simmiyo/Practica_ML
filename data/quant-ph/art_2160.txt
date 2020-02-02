@@ -1,0 +1,12 @@
+Noise in Grover's Quantum Search Algorithm
+Grover's quantum algorithm improves any classical search algorithm. We show
+how random Gaussian noise at each step of the algorithm can be modelled easily
+because of the exact recursion formulas available for computing the quantum
+amplitude in Grover's algorithm. We study the algorithm's intrinsic robustness
+when no quantum correction codes are used, and evaluate how much noise the
+algorithm can bear with, in terms of the size of the phone book and a desired
+probability of finding the correct result. The algorithm loses efficiency when
+noise is added, but does not slow down. We also study the maximal noise under
+which the iterated quantum algorithm is just as slow as the classical
+algorithm. In all cases, the width of the allowed noise scales with the size of
+the phone book as N^-2/3.

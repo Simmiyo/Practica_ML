@@ -1,0 +1,12 @@
+Variational Attention for Sequence-to-Sequence Models
+The variational encoder-decoder (VED) encodes source information as a set of
+random variables using a neural network, which in turn is decoded into target
+data using another neural network. In natural language processing,
+sequence-to-sequence (Seq2Seq) models typically serve as encoder-decoder
+networks. When combined with a traditional (deterministic) attention mechanism,
+the variational latent space may be bypassed by the attention model, and thus
+becomes ineffective. In this paper, we propose a variational attention
+mechanism for VED, where the attention vector is also modeled as Gaussian
+distributed random variables. Results on two experiments show that, without
+loss of quality, our proposed method alleviates the bypassing phenomenon as it
+increases the diversity of generated sentences.

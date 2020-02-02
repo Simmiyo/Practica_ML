@@ -1,0 +1,15 @@
+Robust Bayesian Compressed sensing
+We consider the problem of robust compressed sensing whose objective is to
+recover a high-dimensional sparse signal from compressed measurements corrupted
+by outliers. A new sparse Bayesian learning method is developed for robust
+compressed sensing. The basic idea of the proposed method is to identify and
+remove the outliers from sparse signal recovery. To automatically identify the
+outliers, we employ a set of binary indicator hyperparameters to indicate which
+observations are outliers. These indicator hyperparameters are treated as
+random variables and assigned a beta process prior such that their values are
+confined to be binary. In addition, a Gaussian-inverse Gamma prior is imposed
+on the sparse signal to promote sparsity. Based on this hierarchical prior
+model, we develop a variational Bayesian method to estimate the indicator
+hyperparameters as well as the sparse signal. Simulation results show that the
+proposed method achieves a substantial performance improvement over existing
+robust compressed sensing techniques.

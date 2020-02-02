@@ -1,0 +1,19 @@
+Experiments with Neural Networks for Small and Large Scale Authorship
+  Verification
+We propose two models for a special case of authorship verification problem.
+The task is to investigate whether the two documents of a given pair are
+written by the same author. We consider the authorship verification problem for
+both small and large scale datasets. The underlying small-scale problem has two
+main challenges: First, the authors of the documents are unknown to us because
+no previous writing samples are available. Second, the two documents are short
+(a few hundred to a few thousand words) and may differ considerably in the
+genre and/or topic. To solve it we propose transformation encoder to transform
+one document of the pair into the other. This document transformation generates
+a loss which is used as a recognizable feature to verify if the authors of the
+pair are identical. For the large scale problem where various authors are
+engaged and more examples are available with larger length, a parallel
+recurrent neural network is proposed. It compares the language models of the
+two documents. We evaluate our methods on various types of datasets including
+Authorship Identification datasets of PAN competition, Amazon reviews, and
+machine learning articles. Experiments show that both methods achieve stable
+and competitive performance compared to the baselines.

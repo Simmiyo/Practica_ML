@@ -1,0 +1,24 @@
+Parametric inference in the large data limit using maximally informative
+  models
+Motivated by data-rich experiments in transcriptional regulation and sensory
+neuroscience, we consider the following general problem in statistical
+inference. When exposed to a high-dimensional signal S, a system of interest
+computes a representation R of that signal which is then observed through a
+noisy measurement M. From a large number of signals and measurements, we wish
+to infer the "filter" that maps S to R. However, the standard method for
+solving such problems, likelihood-based inference, requires perfect a priori
+knowledge of the "noise function" mapping R to M. In practice such noise
+functions are usually known only approximately, if at all, and using an
+incorrect noise function will typically bias the inferred filter. Here we show
+that, in the large data limit, this need for a pre-characterized noise function
+can be circumvented by searching for filters that instead maximize the mutual
+information I[M;R] between observed measurements and predicted representations.
+Moreover, if the correct filter lies within the space of filters being
+explored, maximizing mutual information becomes equivalent to simultaneously
+maximizing every dependence measure that satisfies the Data Processing
+Inequality. It is important to note that maximizing mutual information will
+typically leave a small number of directions in parameter space unconstrained.
+We term these directions "diffeomorphic modes" and present an equation that
+allows these modes to be derived systematically. The presence of diffeomorphic
+modes reflects a fundamental and nontrivial substructure within parameter
+space, one that is obscured by standard likelihood-based inference.

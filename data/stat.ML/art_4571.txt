@@ -1,0 +1,27 @@
+A Sufficient Statistics Construction of Bayesian Nonparametric
+  Exponential Family Conjugate Models
+Conjugate pairs of distributions over infinite dimensional spaces are
+prominent in statistical learning theory, particularly due to the widespread
+adoption of Bayesian nonparametric methodologies for a host of models and
+applications. Much of the existing literature in the learning community focuses
+on processes possessing some form of computationally tractable conjugacy as is
+the case for the beta and gamma processes (and, via normalization, the
+Dirichlet process). For these processes, proofs of conjugacy and requisite
+derivation of explicit computational formulae for posterior density parameters
+are idiosyncratic to the stochastic process in question. As such, Bayesian
+Nonparametric models are currently available for a limited number of conjugate
+pairs, e.g. the Dirichlet-multinomial and beta-Bernoulli process pairs. In each
+of these above cases the likelihood process belongs to the class of discrete
+exponential family distributions. The exclusion of continuous likelihood
+distributions from the known cases of Bayesian Nonparametric Conjugate models
+stands as a disparity in the researcher's toolbox.
+  In this paper we first address the problem of obtaining a general
+construction of prior distributions over infinite dimensional spaces possessing
+distributional properties amenable to conjugacy. Second, we bridge the divide
+between the discrete and continuous likelihoods by illustrating a canonical
+construction for stochastic processes whose Levy measure densities are from
+positive exponential families, and then demonstrate that these processes in
+fact form the prior, likelihood, and posterior in a conjugate family. Our
+canonical construction subsumes known computational formulae for posterior
+density parameters in the cases where the likelihood is from a discrete
+distribution belonging to an exponential family.

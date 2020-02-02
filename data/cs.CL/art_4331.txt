@@ -1,0 +1,17 @@
+Learning to Focus when Ranking Answers
+One of the main challenges in ranking is embedding the query and document
+pairs into a joint feature space, which can then be fed to a learning-to-rank
+algorithm. To achieve this representation, the conventional state of the art
+approaches perform extensive feature engineering that encode the similarity of
+the query-answer pair. Recently, deep-learning solutions have shown that it is
+possible to achieve comparable performance, in some settings, by learning the
+similarity representation directly from data. Unfortunately, previous models
+perform poorly on longer texts, or on texts with significant portion of
+irrelevant information, or which are grammatically incorrect. To overcome these
+limitations, we propose a novel ranking algorithm for question answering,
+QARAT, which uses an attention mechanism to learn on which words and phrases to
+focus when building the mutual representation. We demonstrate superior ranking
+performance on several real-world question-answer ranking datasets, and provide
+visualization of the attention mechanism to otter more insights into how our
+models of attention could benefit ranking for difficult question answering
+challenges.

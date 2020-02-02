@@ -1,0 +1,12 @@
+Transfer Learning across Low-Resource, Related Languages for Neural
+  Machine Translation
+We present a simple method to improve neural translation of a low-resource
+language pair using parallel data from a related, also low-resource, language
+pair. The method is based on the transfer method of Zoph et al., but whereas
+their method ignores any source vocabulary overlap, ours exploits it. First, we
+split words using Byte Pair Encoding (BPE) to increase vocabulary overlap.
+Then, we train a model on the first language pair and transfer its parameters,
+including its source word embeddings, to another model and continue training on
+the second language pair. Our experiments show that transfer learning helps
+word-based translation only slightly, but when used on top of a much stronger
+BPE baseline, it yields larger improvements of up to 4.3 BLEU.

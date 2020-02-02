@@ -1,0 +1,14 @@
+Bayesian Inference in Sparse Gaussian Graphical Models
+One of the fundamental tasks of science is to find explainable relationships
+between observed phenomena. One approach to this task that has received
+attention in recent years is based on probabilistic graphical modelling with
+sparsity constraints on model structures. In this paper, we describe two new
+approaches to Bayesian inference of sparse structures of Gaussian graphical
+models (GGMs). One is based on a simple modification of the cutting-edge block
+Gibbs sampler for sparse GGMs, which results in significant computational gains
+in high dimensions. The other method is based on a specific construction of the
+Hamiltonian Monte Carlo sampler, which results in further significant
+improvements. We compare our fully Bayesian approaches with the popular
+regularisation-based graphical LASSO, and demonstrate significant advantages of
+the Bayesian treatment under the same computing costs. We apply the methods to
+a broad range of simulated data sets, and a real-life financial data set.

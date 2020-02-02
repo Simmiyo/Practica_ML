@@ -1,0 +1,17 @@
+Topological Brain Network Distances
+Existing brain network distances are often based on matrix norms. The
+element-wise differences in the existing matrix norms may fail to capture
+underlying topological differences. Further, matrix norms are sensitive to
+outliers. A major disadvantage to element-wise distance calculations is that it
+could be severely affected even by a small number of extreme edge weights. Thus
+it is necessary to develop network distances that recognize topology. In this
+paper, we provide a survey of bottleneck, Gromov-Hausdorff (GH) and
+Kolmogorov-Smirnov (KS) distances that are adapted for brain networks, and
+compare them against matrix-norm based network distances. Bottleneck and
+GH-distances are often used in persistent homology. However, they were rarely
+utilized to measure similarity between brain networks. KS-distance is recently
+introduced to measure the similarity between networks across different
+filtration values. The performance analysis was conducted using the random
+network simulations with the ground truths. Using a twin imaging study, which
+provides biological ground truth, we demonstrate that the KS distance has the
+ability to determine heritability.

@@ -1,0 +1,14 @@
+Learning Item Trees for Probabilistic Modelling of Implicit Feedback
+User preferences for items can be inferred from either explicit feedback,
+such as item ratings, or implicit feedback, such as rental histories. Research
+in collaborative filtering has concentrated on explicit feedback, resulting in
+the development of accurate and scalable models. However, since explicit
+feedback is often difficult to collect it is important to develop effective
+models that take advantage of the more widely available implicit feedback. We
+introduce a probabilistic approach to collaborative filtering with implicit
+feedback based on modelling the user's item selection process. In the interests
+of scalability, we restrict our attention to tree-structured distributions over
+items and develop a principled and efficient algorithm for learning item trees
+from data. We also identify a problem with a widely used protocol for
+evaluating implicit feedback models and propose a way of addressing it using a
+small quantity of explicit feedback data.

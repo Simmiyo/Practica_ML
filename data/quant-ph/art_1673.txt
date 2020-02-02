@@ -1,0 +1,20 @@
+A Study of Parallel Self-Organizing Map
+A Parallel Self-Organizing Map (Parallel-SOM) is proposed to modify Kohonen's
+SOM in parallel computing environment. In this model, two separate layers of
+neurons are connected together. The number of neurons in both layers and
+connections between them is the product of the number of all elements of input
+signals and the number of possible classification of the data. With this
+structure the conventional repeated learning procedure is modified to learn
+just once. The once learning manner is more similar to human learning and
+memorizing activities. During training, weight updating is managed through a
+sequence of operations among some transformation and operation matrices. Every
+connection between neurons of input/output layers is considered as a
+independent processor. In this way, all elements of the Euclidean distance
+matrix and weight matrix are calculated simultaneously. The minimum distance of
+every line of distance matrix can be found by Grover's search algorithm. This
+synchronization feature improves the weight updating sequence significantly.
+With a typical classification example, the convergence result demonstrates
+efficient performance of Parallel-SOM. Theoretic analysis and proofs also show
+some important properties of proposed model. Especially, the paper proves that
+Parallel-SOM has the same convergence property as Kohonen's SOM, but the
+complexity of former is reduced obviously.

@@ -1,0 +1,14 @@
+Towards Stratification Learning through Homology Inference
+A topological approach to stratification learning is developed for point
+cloud data drawn from a stratified space. Given such data, our objective is to
+infer which points belong to the same strata. First we define a multi-scale
+notion of a stratified space, giving a stratification for each radius level. We
+then use methods derived from kernel and cokernel persistent homology to
+cluster the data points into different strata, and we prove a result which
+guarantees the correctness of our clustering, given certain topological
+conditions; some geometric intuition for these topological conditions is also
+provided. Our correctness result is then given a probabilistic flavor: we give
+bounds on the minimum number of sample points required to infer, with
+probability, which points belong to the same strata. Finally, we give an
+explicit algorithm for the clustering, prove its correctness, and apply it to
+some simulated data.

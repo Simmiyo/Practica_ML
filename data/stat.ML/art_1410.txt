@@ -1,0 +1,18 @@
+Optimal Learning for Sequential Decision Making for Expensive Cost
+  Functions with Stochastic Binary Feedbacks
+We consider the problem of sequentially making decisions that are rewarded by
+"successes" and "failures" which can be predicted through an unknown
+relationship that depends on a partially controllable vector of attributes for
+each instance. The learner takes an active role in selecting samples from the
+instance pool. The goal is to maximize the probability of success in either
+offline (training) or online (testing) phases. Our problem is motivated by
+real-world applications where observations are time-consuming and/or expensive.
+We develop a knowledge gradient policy using an online Bayesian linear
+classifier to guide the experiment by maximizing the expected value of
+information of labeling each alternative. We provide a finite-time analysis of
+the estimated error and show that the maximum likelihood estimator based
+produced by the KG policy is consistent and asymptotically normal. We also show
+that the knowledge gradient policy is asymptotically optimal in an offline
+setting. This work further extends the knowledge gradient to the setting of
+contextual bandits. We report the results of a series of experiments that
+demonstrate its efficiency.

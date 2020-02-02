@@ -1,0 +1,19 @@
+Machine Learning Approach for Skill Evaluation in Robotic-Assisted
+  Surgery
+Evaluating surgeon skill has predominantly been a subjective task.
+Development of objective methods for surgical skill assessment are of increased
+interest. Recently, with technological advances such as robotic-assisted
+minimally invasive surgery (RMIS), new opportunities for objective and
+automated assessment frameworks have arisen. In this paper, we applied machine
+learning methods to automatically evaluate performance of the surgeon in RMIS.
+Six important movement features were used in the evaluation including
+completion time, path length, depth perception, speed, smoothness and
+curvature. Different classification methods applied to discriminate expert and
+novice surgeons. We test our method on real surgical data for suturing task and
+compare the classification result with the ground truth data (obtained by
+manual labeling). The experimental results show that the proposed framework can
+classify surgical skill level with relatively high accuracy of 85.7%. This
+study demonstrates the ability of machine learning methods to automatically
+classify expert and novice surgeons using movement features for different RMIS
+tasks. Due to the simplicity and generalizability of the introduced
+classification method, it is easy to implement in existing trainers.

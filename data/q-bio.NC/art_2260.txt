@@ -1,0 +1,21 @@
+Recognition of Words from the EEG Laplacian
+Recent works on the relationship between the electro-encephalogram (EEG) data
+and psychological stimuli show that EEG recordings can be used to recognize an
+auditory stimulus presented to a subject. The recognition rate is, however,
+strongly affected by technical and physiological artifacts. In this work,
+subjects were presented seven auditory simuli in the form of English words
+(first, second, third, left, right, yes, and no), and the time-locked electric
+field was recorded with a 64 channel Neuroscan EEG system. We used the surface
+Laplacian operator to eliminate artifacts due to sources located at regions far
+from the electrode. Our intent with the Laplacian was to improve the
+recognition rates of auditory stimuli from the electric field. To compute the
+Laplacian, we used a spline interpolation from spherical harmonics. The EEG
+Laplacian of the electric field were average over trials for the same auditory
+stimulus, and with those averages we constructed prototypes and test samples.
+In addition to the Laplacian, we applied Butterworth bandpass digital filters
+to the averaged prototypes and test samples, and compared the filtered test
+samples against the prototypes using a least squares metric in the time domain.
+We also analyzed the effects of the spline interpolation order and bandpass
+filter parameters in the recognition rates. Our results show that the use of
+the Laplacian improves the recognition rates and suggests a spatial isomorphism
+between both subjects.

@@ -1,0 +1,18 @@
+A hybrid model for large neural network description
+The aim of the present paper is to efficiently describe the membrane
+potential dynamics of neural populations formed by species having a high
+density difference in specific brain areas. We propose a hybrid model whose
+main ingredients are a conductance-based model (ODE system) and its continuous
+counterpart (PDE system) obtained through a limit process in which the number
+of neurons confined in a bounded region of the brain is sent to infinity.
+Specifically, in the discrete model each cell of the low-density populations is
+individually described by a set of time-dependent variables, whereas in the
+continuum model the high-density populations are described as a whole by a
+small set of continuous variables depending on space and time. Communications
+among populations, which translate into interactions among the discrete and the
+continuous models, are the essence of the hybrid model we present here. Such an
+approach has been validated reconstructing the ensemble activity of the
+granular layer network of the Cerebellum, leading to a computational cost
+reduction. The hybrid model reproduced interesting dynamics such as local
+microcircuit synchronization, travelling waves, center-surround and
+time-windowing.

@@ -1,0 +1,11 @@
+Generative Deep Deconvolutional Learning
+A generative Bayesian model is developed for deep (multi-layer) convolutional
+dictionary learning. A novel probabilistic pooling operation is integrated into
+the deep model, yielding efficient bottom-up and top-down probabilistic
+learning. After learning the deep convolutional dictionary, testing is
+implemented via deconvolutional inference. To speed up this inference, a new
+statistical approach is proposed to project the top-layer dictionary elements
+to the data level. Following this, only one layer of deconvolution is required
+during testing. Experimental results demonstrate powerful capabilities of the
+model to learn multi-layer features from images. Excellent classification
+results are obtained on both the MNIST and Caltech 101 datasets.

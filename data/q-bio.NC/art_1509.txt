@@ -1,0 +1,22 @@
+LSTM knowledge transfer for HRV-based sleep staging
+Automated sleep stage classification using heart-rate variability is an
+active field of research. In this work limitations of the current
+state-of-the-art are addressed through the use of deep learning techniques and
+their efficacy is demonstrated. First, a temporal model is proposed for the
+inference of sleep stages from electrocardiography using a deep long- and
+short-term (LSTM) classifier and it is shown that this model outperforms
+previous approaches which were often limited to non-temporal or Markovian
+classifiers on a comprehensive benchmark data set (292 participants, 541214
+samples) comprising a wide range of ages and pathological profiles, achieving a
+Cohen's $\kappa$ of $0.61\pm0.16$ and accuracy of $76.30\pm10.17$ annotated
+according to the Rechtschaffen & Kales annotation standard.
+  Subsequently, it is demonstrated how knowledge learned on this large
+benchmark data set can be re-used through transfer learning for the
+classification of photoplethysmography (PPG) data. This is done using a smaller
+data set (60 participants, 91479 samples) that is annotated with the more
+recent American Association of Sleep Medicine annotation standard, achieving a
+Cohen's $\kappa$ of $0.63\pm0.13$ and accuracy of $74.65\pm8.63$ for
+wrist-mounted PPG-based sleep stage classification, higher than any previously
+reported performance using this sensor modality. This demonstrates the
+feasibility of knowledge transfer in sleep staging to adapt models for new
+sensor modalities as well as different annotation strategies.

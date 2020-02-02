@@ -1,0 +1,23 @@
+The Computational Structure of Spike Trains
+Neurons perform computations, and convey the results of those computations
+through the statistical structure of their output spike trains. Here we present
+a practical method, grounded in the information-theoretic analysis of
+prediction, for inferring a minimal representation of that structure and for
+characterizing its complexity. Starting from spike trains, our approach finds
+their causal state models (CSMs), the minimal hidden Markov models or
+stochastic automata capable of generating statistically identical time series.
+We then use these CSMs to objectively quantify both the generalizable structure
+and the idiosyncratic randomness of the spike train. Specifically, we show that
+the expected algorithmic information content (the information needed to
+describe the spike train exactly) can be split into three parts describing (1)
+the time-invariant structure (complexity) of the minimal spike-generating
+process, which describes the spike train statistically; (2) the randomness
+(internal entropy rate) of the minimal spike-generating process; and (3) a
+residual pure noise term not described by the minimal spike-generating process.
+We use CSMs to approximate each of these quantities. The CSMs are inferred
+nonparametrically from the data, making only mild regularity assumptions, via
+the causal state splitting reconstruction algorithm. The methods presented here
+complement more traditional spike train analyses by describing not only spiking
+probability and spike train entropy, but also the complexity of a spike train's
+structure. We demonstrate our approach using both simulated spike trains and
+experimental data recorded in rat barrel cortex during vibrissa stimulation.

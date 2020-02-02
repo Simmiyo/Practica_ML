@@ -1,0 +1,9 @@
+Herding Dynamic Weights for Partially Observed Random Field Models
+Learning the parameters of a (potentially partially observable) random field
+model is intractable in general. Instead of focussing on a single optimal
+parameter value we propose to treat parameters as dynamical quantities. We
+introduce an algorithm to generate complex dynamics for parameters and (both
+visible and hidden) state vectors. We show that under certain conditions
+averages computed over trajectories of the proposed dynamical system converge
+to averages computed over the data. Our "herding dynamics" does not require
+expensive operations such as exponentiation and is fully deterministic.

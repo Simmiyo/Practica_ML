@@ -1,0 +1,15 @@
+Poisson intensity estimation with reproducing kernels
+Despite the fundamental nature of the inhomogeneous Poisson process in the
+theory and application of stochastic processes, and its attractive
+generalizations (e.g. Cox process), few tractable nonparametric modeling
+approaches of intensity functions exist, especially when observed points lie in
+a high-dimensional space. In this paper we develop a new, computationally
+tractable Reproducing Kernel Hilbert Space (RKHS) formulation for the
+inhomogeneous Poisson process. We model the square root of the intensity as an
+RKHS function. Whereas RKHS models used in supervised learning rely on the
+so-called representer theorem, the form of the inhomogeneous Poisson process
+likelihood means that the representer theorem does not apply. However, we prove
+that the representer theorem does hold in an appropriately transformed RKHS,
+guaranteeing that the optimization of the penalized likelihood can be cast as a
+tractable finite-dimensional problem. The resulting approach is simple to
+implement, and readily scales to high dimensions and large-scale datasets.

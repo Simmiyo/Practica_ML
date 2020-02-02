@@ -1,0 +1,20 @@
+An Extragradient-Based Alternating Direction Method for Convex
+  Minimization
+In this paper, we consider the problem of minimizing the sum of two convex
+functions subject to linear linking constraints. The classical alternating
+direction type methods usually assume that the two convex functions have
+relatively easy proximal mappings. However, many problems arising from
+statistics, image processing and other fields have the structure that while one
+of the two functions has easy proximal mapping, the other function is smoothly
+convex but does not have an easy proximal mapping. Therefore, the classical
+alternating direction methods cannot be applied. To deal with the difficulty,
+we propose in this paper an alternating direction method based on
+extragradients. Under the assumption that the smooth function has a Lipschitz
+continuous gradient, we prove that the proposed method returns an
+$\epsilon$-optimal solution within $O(1/\epsilon)$ iterations. We apply the
+proposed method to solve a new statistical model called fused logistic
+regression. Our numerical experiments show that the proposed method performs
+very well when solving the test problems. We also test the performance of the
+proposed method through solving the lasso problem arising from statistics and
+compare the result with several existing efficient solvers for this problem;
+the results are very encouraging indeed.

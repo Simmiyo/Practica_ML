@@ -1,0 +1,18 @@
+How to Train Your Deep Neural Network with Dictionary Learning
+Currently there are two predominant ways to train deep neural networks. The
+first one uses restricted Boltzmann machine (RBM) and the second one
+autoencoders. RBMs are stacked in layers to form deep belief network (DBN); the
+final representation layer is attached to the target to complete the deep
+neural network. Autoencoders are nested one inside the other to form stacked
+autoencoders; once the stcaked autoencoder is learnt the decoder portion is
+detached and the target attached to the deepest layer of the encoder to form
+the deep neural network. This work proposes a new approach to train deep neural
+networks using dictionary learning as the basic building block; the idea is to
+use the features from the shallower layer as inputs for training the next
+deeper layer. One can use any type of dictionary learning (unsupervised,
+supervised, discriminative etc.) as basic units till the pre-final layer. In
+the final layer one needs to use the label consistent dictionary learning
+formulation for classification. We compare our proposed framework with existing
+state-of-the-art deep learning techniques on benchmark problems; we are always
+within the top 10 results. In actual problems of age and gender classification,
+we are better than the best known techniques.

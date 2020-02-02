@@ -1,0 +1,20 @@
+Optimal decoding of dynamic stimuli encoded by heterogeneous populations
+  of spiking neurons - a closed form approximation
+Neural decoding may be formulated as dynamic state estimation (filtering)
+based on point process observations, a generally intractable problem. Numerical
+sampling techniques are often practically useful for the decoding of real
+neural data. However, they are less useful as theoretical tools for modeling
+and understanding sensory neural systems, since they lead to limited conceptual
+insight about optimal encoding and decoding strategies. We consider sensory
+neural populations characterized by a distribution over neuron parameters. We
+develop an analytically tractable Bayesian approximation to optimal filtering
+based on the observation of spiking activity, that greatly facilitates the
+analysis of optimal encoding in situations deviating from common assumptions of
+uniform coding. Continuous distributions are used to approximate large
+populations with few parameters, resulting in a filter whose complexity does
+not grow with the population size, and allowing optimization of population
+parameters rather than individual tuning functions. Numerical comparison with
+particle filtering demonstrates the quality of the approximation. The analytic
+framework leads to insights which are difficult to obtain from numerical
+algorithms, and is consistent with biological observations about the
+distribution of sensory cells' preferred stimuli.

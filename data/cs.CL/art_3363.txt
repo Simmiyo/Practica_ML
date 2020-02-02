@@ -1,0 +1,13 @@
+Heuristic Feature Selection for Clickbait Detection
+We study feature selection as a means to optimize the baseline clickbait
+detector employed at the Clickbait Challenge 2017. The challenge's task is to
+score the "clickbaitiness" of a given Twitter tweet on a scale from 0 (no
+clickbait) to 1 (strong clickbait). Unlike most other approaches submitted to
+the challenge, the baseline approach is based on manual feature engineering and
+does not compete out of the box with many of the deep learning-based
+approaches. We show that scaling up feature selection efforts to heuristically
+identify better-performing feature subsets catapults the performance of the
+baseline classifier to second rank overall, beating 12 other competing
+approaches and improving over the baseline performance by 20%. This
+demonstrates that traditional classification approaches can still keep up with
+deep learning on this task.

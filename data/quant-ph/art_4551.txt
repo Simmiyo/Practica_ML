@@ -1,0 +1,11 @@
+Quantum Optimization for Combinatorial Searches
+I propose a "quantum annealing" heuristic for the problem of combinatorial
+search among a frustrated set of states characterized by a cost function to be
+minimized. The algorithm is probabilistic, with postselection of the
+measurement result. A unique parameter playing the role of an effective
+temperature governs the computational load and the overall quality of the
+optimization. Any level of accuracy can be reached with a computational load
+independent of the dimension {\it N} of the search set by choosing the
+effective temperature correspondingly low. This is much better than classical
+search heuristics, which typically involve computation times growing as powers
+of log({\it N})

@@ -1,0 +1,20 @@
+Closing the loop between neural network simulators and the OpenAI Gym
+Since the enormous breakthroughs in machine learning over the last decade,
+functional neural network models are of growing interest for many researchers
+in the field of computational neuroscience. One major branch of research is
+concerned with biologically plausible implementations of reinforcement
+learning, with a variety of different models developed over the recent years.
+However, most studies in this area are conducted with custom simulation scripts
+and manually implemented tasks. This makes it hard for other researchers to
+reproduce and build upon previous work and nearly impossible to compare the
+performance of different learning architectures. In this work, we present a
+novel approach to solve this problem, connecting benchmark tools from the field
+of machine learning and state-of-the-art neural network simulators from
+computational neuroscience. This toolchain enables researchers in both fields
+to make use of well-tested high-performance simulation software supporting
+biologically plausible neuron, synapse and network models and allows them to
+evaluate and compare their approach on the basis of standardized environments
+of varying complexity. We demonstrate the functionality of the toolchain by
+implementing a neuronal actor-critic architecture for reinforcement learning in
+the NEST simulator and successfully training it on two different environments
+from the OpenAI Gym.

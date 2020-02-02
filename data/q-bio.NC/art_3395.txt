@@ -1,0 +1,21 @@
+Winner-Take-All as Basic Probabilistic Inference Unit of Neuronal
+  Circuits
+Experimental observations of neuroscience suggest that the brain is working a
+probabilistic way when computing information with uncertainty. This processing
+could be modeled as Bayesian inference. However, it remains unclear how
+Bayesian inference could be implemented at the level of neuronal circuits of
+the brain. In this study, we propose a novel general-purpose neural
+implementation of probabilistic inference based on a ubiquitous network of
+cortical microcircuits, termed winner-take-all (WTA) circuit. We show that each
+WTA circuit could encode the distribution of states defined on a variable. By
+connecting multiple WTA circuits together, the joint distribution can be
+represented for arbitrary probabilistic graphical models. Moreover, we prove
+that the neural dynamics of WTA circuit is able to implement one of the most
+powerful inference methods in probabilistic graphical models, mean-field
+inference. We show that the synaptic drive of each spiking neuron in the WTA
+circuit encodes the marginal probability of the variable in each state, and the
+firing probability (or firing rate) of each neuron is proportional to the
+marginal probability. Theoretical analysis and experimental results demonstrate
+that the WTA circuits can get comparable inference result as mean-field
+approximation. Taken together, our results suggest that the WTA circuit could
+be seen as the minimal inference unit of neuronal circuits.

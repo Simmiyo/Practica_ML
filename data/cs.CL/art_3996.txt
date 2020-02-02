@@ -1,0 +1,16 @@
+Lightly-supervised Representation Learning with Global Interpretability
+We propose a lightly-supervised approach for information extraction, in
+particular named entity classification, which combines the benefits of
+traditional bootstrapping, i.e., use of limited annotations and
+interpretability of extraction patterns, with the robust learning approaches
+proposed in representation learning. Our algorithm iteratively learns custom
+embeddings for both the multi-word entities to be extracted and the patterns
+that match them from a few example entities per category. We demonstrate that
+this representation-based approach outperforms three other state-of-the-art
+bootstrapping approaches on two datasets: CoNLL-2003 and OntoNotes.
+Additionally, using these embeddings, our approach outputs a
+globally-interpretable model consisting of a decision list, by ranking patterns
+based on their proximity to the average entity embedding in a given class. We
+show that this interpretable model performs close to our complete bootstrapping
+model, proving that representation learning can be used to produce
+interpretable models with small loss in performance.

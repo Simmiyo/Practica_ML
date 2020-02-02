@@ -1,0 +1,19 @@
+Hierarchical models for neural population dynamics in the presence of
+  non-stationarity
+Neural population activity often exhibits rich variability and temporal
+structure. This variability is thought to arise from single-neuron
+stochasticity, neural dynamics on short time-scales, as well as from
+modulations of neural firing properties on long time-scales, often referred to
+as "non-stationarity". To better understand the nature of co-variability in
+neural circuits and their impact on cortical information processing, we need
+statistical models that are able to capture multiple sources of variability on
+different time-scales. Here, we introduce a hierarchical statistical model of
+neural population activity which models both neural population dynamics as well
+as inter-trial modulations in firing rates. In addition, we extend the model to
+allow us to capture non-stationarities in the population dynamics itself (i.e.,
+correlations across neurons).
+  We develop variational inference methods for learning model parameters, and
+demonstrate that the method can recover non-stationarities in both average
+firing rates and correlation structure. Applied to neural population recordings
+from anesthetized macaque primary visual cortex, our models provide a better
+account of the structure of neural firing than stationary dynamics models.

@@ -1,0 +1,15 @@
+Johnson-Lindenstrauss Compression with Neuroscience-Based Constraints
+Johnson-Lindenstrauss (JL) matrices implemented by sparse random synaptic
+connections are thought to be a prime candidate for how convergent pathways in
+the brain compress information. However, to date, there is no complete
+mathematical support for such implementations given the constraints of real
+neural tissue. The fact that neurons are either excitatory or inhibitory
+implies that every so implementable JL matrix must be sign-consistent (i.e.,
+all entries in a single column must be either all non-negative or all
+non-positive), and the fact that any given neuron connects to a relatively
+small subset of other neurons implies that the JL matrix had better be sparse.
+  We construct sparse JL matrices that are sign-consistent, and prove that our
+construction is essentially optimal. Our work answers a mathematical question
+that was triggered by earlier work and is necessary to justify the existence of
+JL compression in the brain, and emphasizes that inhibition is crucial if
+neurons are to perform efficient, correlation-preserving compression.

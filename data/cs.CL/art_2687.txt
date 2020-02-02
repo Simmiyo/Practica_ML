@@ -1,0 +1,16 @@
+Zero-Shot Transfer Learning for Event Extraction
+Most previous event extraction studies have relied heavily on features
+derived from annotated event mentions, thus cannot be applied to new event
+types without annotation effort. In this work, we take a fresh look at event
+extraction and model it as a grounding problem. We design a transferable neural
+architecture, mapping event mentions and types jointly into a shared semantic
+space using structural and compositional neural networks, where the type of
+each event mention can be determined by the closest of all candidate types . By
+leveraging (1)~available manual annotations for a small set of existing event
+types and (2)~existing event ontologies, our framework applies to new event
+types without requiring additional annotation. Experiments on both existing
+event types (e.g., ACE, ERE) and new event types (e.g., FrameNet) demonstrate
+the effectiveness of our approach. \textit{Without any manual annotations} for
+23 new event types, our zero-shot framework achieved performance comparable to
+a state-of-the-art supervised model which is trained from the annotations of
+500 event mentions.

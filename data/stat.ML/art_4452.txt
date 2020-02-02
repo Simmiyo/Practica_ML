@@ -1,0 +1,11 @@
+State Space LSTM Models with Particle MCMC Inference
+Long Short-Term Memory (LSTM) is one of the most powerful sequence models.
+Despite the strong performance, however, it lacks the nice interpretability as
+in state space models. In this paper, we present a way to combine the best of
+both worlds by introducing State Space LSTM (SSL) models that generalizes the
+earlier work \cite{zaheer2017latent} of combining topic models with LSTM.
+However, unlike \cite{zaheer2017latent}, we do not make any factorization
+assumptions in our inference algorithm. We present an efficient sampler based
+on sequential Monte Carlo (SMC) method that draws from the joint posterior
+directly. Experimental results confirms the superiority and stability of this
+SMC inference algorithm on a variety of domains.

@@ -1,0 +1,21 @@
+Improved Graph Clustering
+Graph clustering involves the task of dividing nodes into clusters, so that
+the edge density is higher within clusters as opposed to across clusters. A
+natural, classic and popular statistical setting for evaluating solutions to
+this problem is the stochastic block model, also referred to as the planted
+partition model.
+  In this paper we present a new algorithm--a convexified version of Maximum
+Likelihood--for graph clustering. We show that, in the classic stochastic block
+model setting, it outperforms existing methods by polynomial factors when the
+cluster size is allowed to have general scalings. In fact, it is within
+logarithmic factors of known lower bounds for spectral methods, and there is
+evidence suggesting that no polynomial time algorithm would do significantly
+better.
+  We then show that this guarantee carries over to a more general extension of
+the stochastic block model. Our method can handle the settings of semi-random
+graphs, heterogeneous degree distributions, unequal cluster sizes, unaffiliated
+nodes, partially observed graphs and planted clique/coloring etc. In
+particular, our results provide the best exact recovery guarantees to date for
+the planted partition, planted k-disjoint-cliques and planted noisy coloring
+models with general cluster sizes; in other settings, we match the best
+existing results up to logarithmic factors.

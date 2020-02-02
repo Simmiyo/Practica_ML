@@ -1,0 +1,23 @@
+Local case-control sampling: Efficient subsampling in imbalanced data
+  sets
+For classification problems with significant class imbalance, subsampling can
+reduce computational costs at the price of inflated variance in estimating
+model parameters. We propose a method for subsampling efficiently for logistic
+regression by adjusting the class balance locally in feature space via an
+accept-reject scheme. Our method generalizes standard case-control sampling,
+using a pilot estimate to preferentially select examples whose responses are
+conditionally rare given their features. The biased subsampling is corrected by
+a post-hoc analytic adjustment to the parameters. The method is simple and
+requires one parallelizable scan over the full data set. Standard case-control
+sampling is inconsistent under model misspecification for the population
+risk-minimizing coefficients $\theta^*$. By contrast, our estimator is
+consistent for $\theta^*$ provided that the pilot estimate is. Moreover, under
+correct specification and with a consistent, independent pilot estimate, our
+estimator has exactly twice the asymptotic variance of the full-sample MLE -
+even if the selected subsample comprises a miniscule fraction of the full data
+set, as happens when the original data are severely imbalanced. The factor of
+two improves to $1+\frac{1}{c}$ if we multiply the baseline acceptance
+probabilities by $c>1$ (and weight points with acceptance probability greater
+than 1), taking roughly $\frac{1+c}{2}$ times as many data points into the
+subsample. Experiments on simulated and real data show that our method can
+substantially outperform standard case-control subsampling.

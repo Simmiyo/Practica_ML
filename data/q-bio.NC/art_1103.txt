@@ -1,0 +1,19 @@
+Deconstructing Odorant Identity via Primacy in Dual Networks
+In the olfactory system, odor percepts retain their identity despite
+substantial variations in concentration, timing, and background. We propose a
+novel strategy for encoding intensity-invariant stimuli identity that is based
+on representing relative rather than absolute values of the stimulus features.
+Because, in this scheme, stimulus identity depends on relative amplitudes of
+stimulus features, identity becomes invariant with respect to variations in
+intensity and monotonous non-linearities of neuronal responses. In the
+olfactory system, stimulus identity can be represented by the identities of the
+p strongest responding odorant receptor types out of a species dependent
+complement. We show that this information is sufficient to recover sparse
+stimuli (odorants) via elastic net loss minimization. Such a minimization has
+to be performed under constraints imposed by the relationships between stimulus
+features. We map this problem onto the dual problem of minimizing a functional
+of Lagrange multipliers. The dual problem, in turn, can be solved by a neural
+network whose Lyapunov function represents the dual Lagrangian. We thus propose
+that networks in the piriform cortex compute odorant identity and implement
+dual computations with the sparse activities of individual neurons representing
+the Lagrange multipliers.

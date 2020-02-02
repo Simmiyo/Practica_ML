@@ -1,0 +1,17 @@
+Positive semi-definite embedding for dimensionality reduction and
+  out-of-sample extensions
+In machine learning or statistics, it is often desirable to reduce the
+dimensionality of high dimensional data. We propose to obtain the low
+dimensional embedding coordinates as the eigenvectors of a positive
+semi-definite kernel matrix. This kernel matrix is the solution of a
+semi-definite program promoting a low rank solution and defined with the help
+of a diffusion kernel. Besides, we also discuss an infinite dimensional
+analogue of the same semi-definite program. From a practical perspective, a
+main feature of our approach is the existence of a non-linear out-of-sample
+extension formula of the embedding coordinates that we call a projected
+Nystr\"om approximation. This extension formula yields an extension of the
+kernel matrix to a data-dependent Mercer kernel function. Although the
+semi-definite program may be solved directly, we propose another strategy based
+on a rank constrained formulation solved thanks to a projected power method
+algorithm followed by a singular value decomposition. This strategy allows for
+a reduced computational time.

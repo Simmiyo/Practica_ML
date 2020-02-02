@@ -1,0 +1,19 @@
+Multiple Output Regression with Latent Noise
+In high-dimensional data, structured noise caused by observed and unobserved
+factors affecting multiple target variables simultaneously, imposes a serious
+challenge for modeling, by masking the often weak signal. Therefore, (1)
+explaining away the structured noise in multiple-output regression is of
+paramount importance. Additionally, (2) assumptions about the correlation
+structure of the regression weights are needed. We note that both can be
+formulated in a natural way in a latent variable model, in which both the
+interesting signal and the noise are mediated through the same latent factors.
+Under this assumption, the signal model then borrows strength from the noise
+model by encouraging similar effects on correlated targets. We introduce a
+hyperparameter for the \emph{latent signal-to-noise ratio} which turns out to
+be important for modelling weak signals, and an ordered infinite-dimensional
+shrinkage prior that resolves the rotational unidentifiability in reduced-rank
+regression models. Simulations and prediction experiments with metabolite, gene
+expression, FMRI measurement, and macroeconomic time series data show that our
+model equals or exceeds the state-of-the-art performance and, in particular,
+outperforms the standard approach of assuming independent noise and signal
+models.

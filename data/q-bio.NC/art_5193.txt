@@ -1,0 +1,20 @@
+An encoding framework with brain inner state for natural image
+  identification
+Neural encoding and decoding, which aim to characterize the relationship
+between stimuli and brain activities, have emerged as an important area in
+cognitive neuroscience. Traditional encoding models, which focus on feature
+extraction and mapping, consider the brain as an input-output mapper without
+inner states. In this work, inspired by the fact that human brain acts like a
+state machine, we proposed a novel encoding framework that combines information
+from both the external world and the inner state to predict brain activity. The
+framework comprises two parts: forward encoding model that deals with visual
+stimuli and inner state model that captures influence from intrinsic
+connections in the brain. The forward model can be any traditional encoding
+model, making the framework flexible. The inner state model is a linear model
+to utilize information in the prediction residuals of the forward model. The
+proposed encoding framework can achieve much better performance on natural
+image identification from fMRI response than forwardonly models. The
+identification accuracy will decrease slightly with the dataset size
+increasing, but remain relatively stable with different identification methods.
+The results confirm that the new encoding framework is effective and robust
+when used for brain decoding.

@@ -1,0 +1,24 @@
+Time-series modeling with undecimated fully convolutional neural
+  networks
+We present a new convolutional neural network-based time-series model.
+Typical convolutional neural network (CNN) architectures rely on the use of
+max-pooling operators in between layers, which leads to reduced resolution at
+the top layers. Instead, in this work we consider a fully convolutional network
+(FCN) architecture that uses causal filtering operations, and allows for the
+rate of the output signal to be the same as that of the input signal. We
+furthermore propose an undecimated version of the FCN, which we refer to as the
+undecimated fully convolutional neural network (UFCNN), and is motivated by the
+undecimated wavelet transform. Our experimental results verify that using the
+undecimated version of the FCN is necessary in order to allow for effective
+time-series modeling. The UFCNN has several advantages compared to other
+time-series models such as the recurrent neural network (RNN) and long
+short-term memory (LSTM), since it does not suffer from either the vanishing or
+exploding gradients problems, and is therefore easier to train. Convolution
+operations can also be implemented more efficiently compared to the recursion
+that is involved in RNN-based models. We evaluate the performance of our model
+in a synthetic target tracking task using bearing only measurements generated
+from a state-space model, a probabilistic modeling of polyphonic music
+sequences problem, and a high frequency trading task using a time-series of
+ask/bid quotes and their corresponding volumes. Our experimental results using
+synthetic and real datasets verify the significant advantages of the UFCNN
+compared to the RNN and LSTM baselines.

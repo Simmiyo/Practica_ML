@@ -1,0 +1,21 @@
+Deep Classification of Epileptic Signals
+Electrophysiological observation plays a major role in epilepsy evaluation.
+However, human interpretation of brain signals is subjective and prone to
+misdiagnosis. Automating this process, especially seizure detection relying on
+scalp-based Electroencephalography (EEG) and intracranial EEG, has been the
+focus of research over recent decades. Nevertheless, its numerous challenges
+have inhibited a definitive solution. Inspired by recent advances in deep
+learning, we propose a new classification approach for EEG time series based on
+Recurrent Neural Networks (RNNs) via the use of Long-Short Term Memory (LSTM)
+networks. The proposed deep network effectively learns and models
+discriminative temporal patterns from EEG sequential data. Especially, the
+features are automatically discovered from the raw EEG data without any
+pre-processing step, eliminating humans from laborious feature design task. We
+also show that, in the epilepsy scenario, simple architectures can achieve
+competitive performance. Using simple architectures significantly benefits in
+the practical scenario considering their low computation complexity and reduced
+requirement for large training datasets. Using a public dataset, a multi-fold
+cross-validation scheme exhibited an average validation accuracy of 95.54\% and
+an average AUC of 0.9582 of the ROC curve among all sets defined in the
+experiment. This work reinforces the benefits of deep learning to be further
+attended in clinical applications and neuroscientific research.

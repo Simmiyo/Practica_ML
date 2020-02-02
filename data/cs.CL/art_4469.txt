@@ -1,0 +1,18 @@
+Fast and Accurate Recognition of Chinese Clinical Named Entities with
+  Residual Dilated Convolutions
+Clinical Named Entity Recognition (CNER) aims to identify and classify
+clinical terms such as diseases, symptoms, treatments, exams, and body parts in
+electronic health records, which is a fundamental and crucial task for clinical
+and translation research. In recent years, deep learning methods have achieved
+significant success in CNER tasks. However, these methods depend greatly on
+Recurrent Neural Networks (RNNs), which maintain a vector of hidden activations
+that are propagated through time, thus causing too much time to train models.
+In this paper, we propose a Residual Dilated Convolutional Neural Network with
+Conditional Random Field (RD-CNN-CRF) to solve it. Specifically, Chinese
+characters and dictionary features are first projected into dense vector
+representations, then they are fed into the residual dilated convolutional
+neural network to capture contextual features. Finally, a conditional random
+field is employed to capture dependencies between neighboring tags.
+Computational results on the CCKS-2017 Task 2 benchmark dataset show that our
+proposed RD-CNN-CRF method competes favorably with state-of-the-art RNN-based
+methods both in terms of computational performance and training time.

@@ -1,0 +1,17 @@
+On the construction of probabilistic Newton-type algorithms
+It has recently been shown that many of the existing quasi-Newton algorithms
+can be formulated as learning algorithms, capable of learning local models of
+the cost functions. Importantly, this understanding allows us to safely start
+assembling probabilistic Newton-type algorithms, applicable in situations where
+we only have access to noisy observations of the cost function and its
+derivatives. This is where our interest lies.
+  We make contributions to the use of the non-parametric and probabilistic
+Gaussian process models in solving these stochastic optimisation problems.
+Specifically, we present a new algorithm that unites these approximations
+together with recent probabilistic line search routines to deliver a
+probabilistic quasi-Newton approach.
+  We also show that the probabilistic optimisation algorithms deliver promising
+results on challenging nonlinear system identification problems where the very
+nature of the problem is such that we can only access the cost function and its
+derivative via noisy observations, since there are no closed-form expressions
+available.

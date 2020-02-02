@@ -1,0 +1,15 @@
+Domain Adaptation of Majority Votes via Perturbed Variation-based Label
+  Transfer
+We tackle the PAC-Bayesian Domain Adaptation (DA) problem. This arrives when
+one desires to learn, from a source distribution, a good weighted majority vote
+(over a set of classifiers) on a different target distribution. In this
+context, the disagreement between classifiers is known crucial to control. In
+non-DA supervised setting, a theoretical bound - the C-bound - involves this
+disagreement and leads to a majority vote learning algorithm: MinCq. In this
+work, we extend MinCq to DA by taking advantage of an elegant divergence
+between distribution called the Perturbed Varation (PV). Firstly, justified by
+a new formulation of the C-bound, we provide to MinCq a target sample labeled
+thanks to a PV-based self-labeling focused on regions where the source and
+target marginal distributions are closer. Secondly, we propose an original
+process for tuning the hyperparameters. Our framework shows very promising
+results on a toy problem.

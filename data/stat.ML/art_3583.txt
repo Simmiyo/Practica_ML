@@ -1,0 +1,14 @@
+Penalized estimation in large-scale generalized linear array models
+Large-scale generalized linear array models (GLAMs) can be challenging to
+fit. Computation and storage of its tensor product design matrix can be
+impossible due to time and memory constraints, and previously considered design
+matrix free algorithms do not scale well with the dimension of the parameter
+vector. A new design matrix free algorithm is proposed for computing the
+penalized maximum likelihood estimate for GLAMs, which, in particular, handles
+nondifferentiable penalty functions. The proposed algorithm is implemented and
+available via the R package \verb+glamlasso+. It combines several ideas --
+previously considered separately -- to obtain sparse estimates while at the
+same time efficiently exploiting the GLAM structure. In this paper the
+convergence of the algorithm is treated and the performance of its
+implementation is investigated and compared to that of \verb+glmnet+ on
+simulated as well as real data. It is shown that the computation time for

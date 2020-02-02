@@ -1,0 +1,17 @@
+Bayesian Nonparametric Covariance Regression
+Although there is a rich literature on methods for allowing the variance in a
+univariate regression model to vary with predictors, time and other factors,
+relatively little has been done in the multivariate case. Our focus is on
+developing a class of nonparametric covariance regression models, which allow
+an unknown p x p covariance matrix to change flexibly with predictors. The
+proposed modeling framework induces a prior on a collection of covariance
+matrices indexed by predictors through priors for predictor-dependent loadings
+matrices in a factor model. In particular, the predictor-dependent loadings are
+characterized as a sparse combination of a collection of unknown dictionary
+functions (e.g, Gaussian process random functions). The induced covariance is
+then a regularized quadratic function of these dictionary elements. Our
+proposed framework leads to a highly-flexible, but computationally tractable
+formulation with simple conjugate posterior updates that can readily handle
+missing data. Theoretical properties are discussed and the methods are
+illustrated through simulations studies and an application to the Google Flu
+Trends data.

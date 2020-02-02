@@ -1,0 +1,11 @@
+In-depth Question classification using Convolutional Neural Networks
+Convolutional neural networks for computer vision are fairly intuitive. In a
+typical CNN used in image classification, the first layers learn edges, and the
+following layers learn some filters that can identify an object. But CNNs for
+Natural Language Processing are not used often and are not completely
+intuitive. We have a good idea about what the convolution filters learn for the
+task of text classification, and to that, we propose a neural network structure
+that will be able to give good results in less time. We will be using
+convolutional neural networks to predict the primary or broader topic of a
+question, and then use separate networks for each of these predicted topics to
+accurately classify their sub-topics.

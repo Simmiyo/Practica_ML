@@ -1,0 +1,11 @@
+Optimizing for Measure of Performance in Max-Margin Parsing
+Many statistical learning problems in the area of natural language processing
+including sequence tagging, sequence segmentation and syntactic parsing has
+been successfully approached by means of structured prediction methods. An
+appealing property of the corresponding discriminative learning algorithms is
+their ability to integrate the loss function of interest directly into the
+optimization process, which potentially can increase the resulting performance
+accuracy. Here, we demonstrate on the example of constituency parsing how to
+optimize for F1-score in the max-margin framework of structural SVM. In
+particular, the optimization is with respect to the original (not binarized)
+trees.

@@ -1,0 +1,14 @@
+Leveraging Twitter for Low-Resource Conversational Speech Language
+  Modeling
+In applications involving conversational speech, data sparsity is a limiting
+factor in building a better language model. We propose a simple,
+language-independent method to quickly harvest large amounts of data from
+Twitter to supplement a smaller training set that is more closely matched to
+the domain. The techniques lead to a significant reduction in perplexity on
+four low-resource languages even though the presence on Twitter of these
+languages is relatively small. We also find that the Twitter text is more
+useful for learning word classes than the in-domain text and that use of these
+word classes leads to further reductions in perplexity. Additionally, we
+introduce a method of using social and textual information to prioritize the
+download queue during the Twitter crawling. This maximizes the amount of useful
+data that can be collected, impacting both perplexity and vocabulary coverage.

@@ -1,0 +1,28 @@
+Statistics of Visual Responses to Object Stimuli from Primate AIT
+  Neurons to DNN Neurons
+Cadieu et al. (Cadieu,2014) reported that deep neural networks(DNNs) could
+rival the representation of primate inferotemporal cortex for object
+recognition. Lehky et al. (Lehky,2011) provided a statistical analysis on
+neural responses to object stimuli in primate AIT cortex. They found the
+intrinsic dimensionality of object representations in AIT cortex is around 100
+(Lehky,2014). Considering the outstanding performance of DNNs in object
+recognition, it is worthwhile investigating whether the responses of DNN
+neurons have similar response statistics to those of AIT neurons. Following
+Lehky et al.'s works, we analyze the response statistics to image stimuli and
+the intrinsic dimensionality of object representations of DNN neurons. Our
+findings show in terms of kurtosis and Pareto tail index, the response
+statistics on single-neuron selectivity and population sparseness of DNN
+neurons are fundamentally different from those of IT neurons except some
+special cases. By increasing the number of neurons and stimuli, the conclusions
+could alter substantially. In addition, with the ascendancy of the
+convolutional layers of DNNs, the single-neuron selectivity and population
+sparseness of DNN neurons increase, indicating the last convolutional layer is
+to learn features for object representations, while the following
+fully-connected layers are to learn categorization features. It is also found
+that a sufficiently large number of stimuli and neurons are necessary for
+obtaining a stable dimensionality. To our knowledge, this is the first work to
+analyze the response statistics of DNN neurons comparing with AIT neurons, and
+our results provide not only some insights into the discrepancy of DNN neurons
+with respect to IT neurons in object representation, but also shed some light
+on possible outcomes of IT neurons when the number of recorded neurons and
+stimuli is beyond the level in (Lehky,2011,2014).

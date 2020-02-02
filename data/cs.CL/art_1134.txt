@@ -1,0 +1,11 @@
+Many Languages, One Parser
+We train one multilingual model for dependency parsing and use it to parse
+sentences in several languages. The parsing model uses (i) multilingual word
+clusters and embeddings; (ii) token-level language information; and (iii)
+language-specific features (fine-grained POS tags). This input representation
+enables the parser not only to parse effectively in multiple languages, but
+also to generalize across languages based on linguistic universals and
+typological similarities, making it more effective to learn from limited
+annotations. Our parser's performance compares favorably to strong baselines in
+a range of data scenarios, including when the target language has a large
+treebank, a small treebank, or no treebank for training.

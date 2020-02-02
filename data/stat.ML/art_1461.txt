@@ -1,0 +1,23 @@
+General Bayesian Inference over the Stiefel Manifold via the Givens
+  Representation
+We introduce an approach based on the Givens representation that allows for a
+routine, reliable, and flexible way to infer Bayesian models with orthogonal
+matrix parameters. This class of models most notably includes models from
+multivariate statistics such factor models and probabilistic principal
+component analysis (PPCA). Our approach overcomes several of the practical
+barriers to using the Givens representation in a general Bayesian inference
+framework. In particular, we show how to inexpensively compute the
+change-of-measure term necessary for transformations of random variables. We
+also show how to overcome specific topological pathologies that arise when
+representing circular random variables in an unconstrained space. In addition,
+we discuss how the alternative parameterization can be used to define new
+distributions over orthogonal matrices as well as to constrain parameter space
+to eliminate superfluous posterior modes in models such as PPCA. While previous
+inference approaches to this problem involved specialized updates to the
+orthogonal matrix parameters, our approach lets us represent these constrained
+parameters in an unconstrained form. Unlike previous approaches, this allows
+for the inference of models with orthogonal matrix parameters using any modern
+inference algorithm including those available in modern Bayesian modeling
+frameworks such as Stan, Edward, or PyMC3. We illustrate with examples how our
+approach can be used in practice in Stan to infer models with orthogonal matrix
+parameters, and we compare to existing methods.

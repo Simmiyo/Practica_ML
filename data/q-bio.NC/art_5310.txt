@@ -1,0 +1,20 @@
+Criticality as It Could Be: organizational invariance as self-organized
+  criticality in embodied agents
+This paper outlines a methodological approach for designing adaptive agents
+driving themselves near points of criticality. Using a synthetic approach we
+construct a conceptual model that, instead of specifying mechanistic
+requirements to generate criticality, exploits the maintenance of an
+organizational structure capable of reproducing critical behavior. Our approach
+exploits the well-known principle of universality, which classifies critical
+phenomena inside a few universality classes of systems independently of their
+specific mechanisms or topologies. In particular, we implement an artificial
+embodied agent controlled by a neural network maintaining a correlation
+structure randomly sampled from a lattice Ising model at a critical point. We
+evaluate the agent in two classical reinforcement learning scenarios: the
+Mountain Car benchmark and the Acrobot double pendulum, finding that in both
+cases the neural controller reaches a point of criticality, which coincides
+with a transition point between two regimes of the agent's behaviour,
+maximizing the mutual information between neurons and sensorimotor patterns.
+Finally, we discuss the possible applications of this synthetic approach to the
+comprehension of deeper principles connected to the pervasive presence of
+criticality in biological and cognitive systems.

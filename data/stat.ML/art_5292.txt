@@ -1,0 +1,16 @@
+Convolution Aware Initialization
+Initialization of parameters in deep neural networks has been shown to have a
+big impact on the performance of the networks (Mishkin & Matas, 2015). The
+initialization scheme devised by He et al, allowed convolution activations to
+carry a constrained mean which allowed deep networks to be trained effectively
+(He et al., 2015a). Orthogonal initializations and more generally orthogonal
+matrices in standard recurrent networks have been proved to eradicate the
+vanishing and exploding gradient problem (Pascanu et al., 2012). Majority of
+current initialization schemes do not take fully into account the intrinsic
+structure of the convolution operator. Using the duality of the Fourier
+transform and the convolution operator, Convolution Aware Initialization builds
+orthogonal filters in the Fourier space, and using the inverse Fourier
+transform represents them in the standard space. With Convolution Aware
+Initialization we noticed not only higher accuracy and lower loss, but faster
+convergence. We achieve new state of the art on the CIFAR10 dataset, and
+achieve close to state of the art on various other tasks.

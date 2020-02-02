@@ -1,0 +1,14 @@
+Theoretical Analysis of Domain Adaptation with Optimal Transport
+Domain adaptation (DA) is an important and emerging field of machine learning
+that tackles the problem occurring when the distributions of training (source
+domain) and test (target domain) data are similar but different. Current
+theoretical results show that the efficiency of DA algorithms depends on their
+capacity of minimizing the divergence between source and target probability
+distributions. In this paper, we provide a theoretical study on the advantages
+that concepts borrowed from optimal transportation theory can bring to DA. In
+particular, we show that the Wasserstein metric can be used as a divergence
+measure between distributions to obtain generalization guarantees for three
+different learning settings: (i) classic DA with unsupervised target data (ii)
+DA combining source and target labeled data, (iii) multiple source DA. Based on
+the obtained results, we provide some insights showing when this analysis can
+be tighter than other existing frameworks.

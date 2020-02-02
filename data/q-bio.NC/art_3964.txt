@@ -1,0 +1,16 @@
+Modeling Image Structure with Factorized Phase-Coupled Boltzmann
+  Machines
+We describe a model for capturing the statistical structure of local
+amplitude and local spatial phase in natural images. The model is based on a
+recently developed, factorized third-order Boltzmann machine that was shown to
+be effective at capturing higher-order structure in images by modeling
+dependencies among squared filter outputs (Ranzato and Hinton, 2010). Here, we
+extend this model to $L_p$-spherically symmetric subspaces. In order to model
+local amplitude and phase structure in images, we focus on the case of two
+dimensional subspaces, and the $L_2$-norm. When trained on natural images the
+model learns subspaces resembling quadrature-pair Gabor filters. We then
+introduce an additional set of hidden units that model the dependencies among
+subspace phases. These hidden units form a combinatorial mixture of phase
+coupling distributions, concentrated in the sum and difference of phase pairs.
+When adapted to natural images, these distributions capture local spatial phase
+structure in natural images.

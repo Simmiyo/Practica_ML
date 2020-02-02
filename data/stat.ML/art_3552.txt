@@ -1,0 +1,21 @@
+Foundations of Coupled Nonlinear Dimensionality Reduction
+In this paper we introduce and analyze the learning scenario of \emph{coupled
+nonlinear dimensionality reduction}, which combines two major steps of machine
+learning pipeline: projection onto a manifold and subsequent supervised
+learning. First, we present new generalization bounds for this scenario and,
+second, we introduce an algorithm that follows from these bounds. The
+generalization error bound is based on a careful analysis of the empirical
+Rademacher complexity of the relevant hypothesis set. In particular, we show an
+upper bound on the Rademacher complexity that is in $\widetilde
+O(\sqrt{\Lambda_{(r)}/m})$, where $m$ is the sample size and $\Lambda_{(r)}$
+the upper bound on the Ky-Fan $r$-norm of the associated kernel matrix. We give
+both upper and lower bound guarantees in terms of that Ky-Fan $r$-norm, which
+strongly justifies the definition of our hypothesis set. To the best of our
+knowledge, these are the first learning guarantees for the problem of coupled
+dimensionality reduction. Our analysis and learning guarantees further apply to
+several special cases, such as that of using a fixed kernel with supervised
+dimensionality reduction or that of unsupervised learning of a kernel for
+dimensionality reduction followed by a supervised learning algorithm. Based on
+theoretical analysis, we suggest a structural risk minimization algorithm
+consisting of the coupled fitting of a low dimensional manifold and a
+separation function on that manifold.

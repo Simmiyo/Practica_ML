@@ -1,0 +1,18 @@
+Unsupervised Domain Adaptation with Random Walks on Target Labelings
+Unsupervised Domain Adaptation (DA) is used to automatize the task of
+labeling data: an unlabeled dataset (target) is annotated using a labeled
+dataset (source) from a related domain. We cast domain adaptation as the
+problem of finding stable labels for target examples. A new definition of label
+stability is proposed, motivated by a generalization error bound for large
+margin linear classifiers: a target labeling is stable when, with high
+probability, a classifier trained on a random subsample of the target with that
+labeling yields the same labeling. We find stable labelings using a random walk
+on a directed graph with transition probabilities based on labeling stability.
+The majority vote of those labelings visited by the walk yields a stable label
+for each target example. The resulting domain adaptation algorithm is
+strikingly easy to implement and apply: It does not rely on data
+transformations, which are in general computational prohibitive in the presence
+of many input features, and does not need to access the source data, which is
+advantageous when data sharing is restricted. By acting on the original feature
+space, our method is able to take full advantage of deep features from external
+pre-trained neural networks, as demonstrated by the results of our experiments.

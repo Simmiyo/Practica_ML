@@ -1,0 +1,15 @@
+Learning Localized Geometric Features Using 3D-CNN: An Application to
+  Manufacturability Analysis of Drilled Holes
+3D convolutional neural networks (3D-CNN) have been used for object
+recognition based on the voxelized shape of an object. In this paper, we
+present a 3D-CNN based method to learn distinct local geometric features of
+interest within an object. In this context, the voxelized representation may
+not be sufficient to capture the distinguishing information about such local
+features. To enable efficient learning, we augment the voxel data with surface
+normals of the object boundary. We then train a 3D-CNN with this augmented data
+and identify the local features critical for decision-making using 3D
+gradient-weighted class activation maps. An application of this feature
+identification framework is to recognize difficult-to-manufacture drilled hole
+features in a complex CAD geometry. The framework can be extended to identify
+difficult-to-manufacture features at multiple spatial scales leading to a
+real-time decision support system for design for manufacturability.

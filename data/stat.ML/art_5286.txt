@@ -1,0 +1,11 @@
+Approximate Bayes learning of stochastic differential equations
+We introduce a nonparametric approach for estimating drift and diffusion
+functions in systems of stochastic differential equations from observations of
+the state vector. Gaussian processes are used as flexible models for these
+functions and estimates are calculated directly from dense data sets using
+Gaussian process regression. We also develop an approximate expectation
+maximization algorithm to deal with the unobserved, latent dynamics between
+sparse observations. The posterior over states is approximated by a piecewise
+linearized process of the Ornstein-Uhlenbeck type and the maximum a posteriori
+estimation of the drift is facilitated by a sparse Gaussian process
+approximation.

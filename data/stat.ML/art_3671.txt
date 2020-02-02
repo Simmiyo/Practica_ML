@@ -1,0 +1,18 @@
+Neural Network Matrix Factorization
+Data often comes in the form of an array or matrix. Matrix factorization
+techniques attempt to recover missing or corrupted entries by assuming that the
+matrix can be written as the product of two low-rank matrices. In other words,
+matrix factorization approximates the entries of the matrix by a simple, fixed
+function---namely, the inner product---acting on the latent feature vectors for
+the corresponding row and column. Here we consider replacing the inner product
+by an arbitrary function that we learn from the data at the same time as we
+learn the latent feature vectors. In particular, we replace the inner product
+by a multi-layer feed-forward neural network, and learn by alternating between
+optimizing the network for fixed latent features, and optimizing the latent
+features for a fixed network. The resulting approach---which we call neural
+network matrix factorization or NNMF, for short---dominates standard low-rank
+techniques on a suite of benchmark but is dominated by some recent proposals
+that take advantage of the graph features. Given the vast range of
+architectures, activation functions, regularizers, and optimization techniques
+that could be used within the NNMF framework, it seems likely the true
+potential of the approach has yet to be reached.

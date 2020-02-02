@@ -1,0 +1,17 @@
+Cluster based RBF Kernel for Support Vector Machines
+In the classical Gaussian SVM classification we use the feature space
+projection transforming points to normal distributions with fixed covariance
+matrices (identity in the standard RBF and the covariance of the whole dataset
+in Mahalanobis RBF). In this paper we add additional information to Gaussian
+SVM by considering local geometry-dependent feature space projection. We
+emphasize that our approach is in fact an algorithm for a construction of the
+new Gaussian-type kernel.
+  We show that better (compared to standard RBF and Mahalanobis RBF)
+classification results are obtained in the simple case when the space is
+preliminary divided by k-means into two sets and points are represented as
+normal distributions with a covariances calculated according to the dataset
+partitioning.
+  We call the constructed method C$_k$RBF, where $k$ stands for the amount of
+clusters used in k-means. We show empirically on nine datasets from UCI
+repository that C$_2$RBF increases the stability of the grid search (measured
+as the probability of finding good parameters).

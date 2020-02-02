@@ -1,0 +1,16 @@
+Predicting Pairwise Relations with Neural Similarity Encoders
+Matrix factorization is at the heart of many machine learning algorithms, for
+example, dimensionality reduction (e.g. kernel PCA) or recommender systems
+relying on collaborative filtering. Understanding a singular value
+decomposition (SVD) of a matrix as a neural network optimization problem
+enables us to decompose large matrices efficiently while dealing naturally with
+missing values in the given matrix. But most importantly, it allows us to learn
+the connection between data points' feature vectors and the matrix containing
+information about their pairwise relations. In this paper we introduce a novel
+neural network architecture termed Similarity Encoder (SimEc), which is
+designed to simultaneously factorize a given target matrix while also learning
+the mapping to project the data points' feature vectors into a similarity
+preserving embedding space. This makes it possible to, for example, easily
+compute out-of-sample solutions for new data points. Additionally, we
+demonstrate that SimEc can preserve non-metric similarities and even predict
+multiple pairwise relations between data points at once.

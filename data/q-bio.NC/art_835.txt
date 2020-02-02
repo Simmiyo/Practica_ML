@@ -1,0 +1,26 @@
+Adaptive stimulus design for dynamic recurrent neural network models
+We present a theoretical application of an optimal experiment design (OED)
+methodology to the development of mathematical models to describe the
+stimulus-response relationship of sensory neurons. Although there are a few
+related studies in the computational neuroscience literature on this topic,
+most of them are either involving non-linear static maps or simple linear
+filters cascaded to a static non-linearity. Although the linear filters might
+be appropriate to demonstrate some aspects of neural processes, the high level
+of non-linearity in the nature of the stimulus-response data may render them
+inadequate. In addition, modelling by a static non-linear input - output map
+may mask important dynamical (time-dependent) features in the response data.
+Due to all those facts a non-linear continuous time dynamic recurrent neural
+network that models the excitatory and inhibitory membrane potential dynamics
+is preferred. The main goal of this research is to estimate the parametric
+details of this model from the available stimulus-response data. In order to
+design an efficient estimator an optimal experiment design scheme is proposed
+which computes a pre-shaped stimulus to maximize a certain measure of Fisher
+Information Matrix. This measure depends on the estimated values of the
+parameters in the current step and the optimal stimuli are used in a maximum
+likelihood estimation procedure to find an estimate of the network parameters.
+This process works as a loop until a reasonable convergence occurs. The
+response data is discontinuous as it is composed of the neural spiking instants
+which is assumed to obey the Poisson statistical distribution. Thus the
+likelihood functions depend on the Poisson statistics. In order to validate the
+approach and evaluate its performance, a comparison with another approach on
+estimation based on randomly generated stimuli is also presented.

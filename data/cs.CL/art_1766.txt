@@ -1,0 +1,16 @@
+Clustering Comparable Corpora of Russian and Ukrainian Academic Texts:
+  Word Embeddings and Semantic Fingerprints
+We present our experience in applying distributional semantics (neural word
+embeddings) to the problem of representing and clustering documents in a
+bilingual comparable corpus. Our data is a collection of Russian and Ukrainian
+academic texts, for which topics are their academic fields. In order to build
+language-independent semantic representations of these documents, we train
+neural distributional models on monolingual corpora and learn the optimal
+linear transformation of vectors from one language to another. The resulting
+vectors are then used to produce `semantic fingerprints' of documents, serving
+as input to a clustering algorithm.
+  The presented method is compared to several baselines including `orthographic
+translation' with Levenshtein edit distance and outperforms them by a large
+margin. We also show that language-independent `semantic fingerprints' are
+superior to multi-lingual clustering algorithms proposed in the previous work,
+at the same time requiring less linguistic resources.

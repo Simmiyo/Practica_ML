@@ -1,0 +1,26 @@
+Multinomial Loss on Held-out Data for the Sparse Non-negative Matrix
+  Language Model
+We describe Sparse Non-negative Matrix (SNM) language model estimation using
+multinomial loss on held-out data.
+  Being able to train on held-out data is important in practical situations
+where the training data is usually mismatched from the held-out/test data. It
+is also less constrained than the previous training algorithm using
+leave-one-out on training data: it allows the use of richer meta-features in
+the adjustment model, e.g. the diversity counts used by Kneser-Ney smoothing
+which would be difficult to deal with correctly in leave-one-out training.
+  In experiments on the one billion words language modeling benchmark, we are
+able to slightly improve on our previous results which use a different loss
+function, and employ leave-one-out training on a subset of the main training
+set. Surprisingly, an adjustment model with meta-features that discard all
+lexical information can perform as well as lexicalized meta-features. We find
+that fairly small amounts of held-out data (on the order of 30-70 thousand
+words) are sufficient for training the adjustment model.
+  In a real-life scenario where the training data is a mix of data sources that
+are imbalanced in size, and of different degrees of relevance to the held-out
+and test data, taking into account the data source for a given skip-/n-gram
+feature and combining them for best performance on held-out/test data improves
+over skip-/n-gram SNM models trained on pooled data by about 8% in the SMT
+setup, or as much as 15% in the ASR/IME setup.
+  The ability to mix various data sources based on how relevant they are to a
+mismatched held-out set is probably the most attractive feature of the new
+estimation method for SNM LM.

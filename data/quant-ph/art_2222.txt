@@ -1,0 +1,16 @@
+Generalized Quantum Search with Parallelism
+We generalize Grover's unstructured quantum search algorithm to enable it to
+use an arbitrary starting superposition and an arbitrary unitary matrix
+simultaneously. We derive an exact formula for the probability of the
+generalized Grover's algorithm succeeding after n iterations. We show that the
+fully generalized formula reduces to the special cases considered by previous
+authors. We then use the generalized formula to determine the optimal strategy
+for using the unstructured quantum search algorithm. On average the optimal
+strategy is about 12% better than the naive use of Grover's algorithm. The
+speedup obtained is not dramatic but it illustrates that a hybrid use of
+quantum computing and classical computing techniques can yield a performance
+that is better than either alone. We extend the analysis to the case of a
+society of k quantum searches acting in parallel. We derive an analytic formula
+that connects the degree of parallelism with the optimal strategy for
+k-parallel quantum search. We then derive the formula for the expected speed of
+k-parallel quantum search.

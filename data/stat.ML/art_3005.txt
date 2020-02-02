@@ -1,0 +1,19 @@
+Anomaly Detection Based on Indicators Aggregation
+Automatic anomaly detection is a major issue in various areas. Beyond mere
+detection, the identification of the source of the problem that produced the
+anomaly is also essential. This is particularly the case in aircraft engine
+health monitoring where detecting early signs of failure (anomalies) and
+helping the engine owner to implement efficiently the adapted maintenance
+operations (fixing the source of the anomaly) are of crucial importance to
+reduce the costs attached to unscheduled maintenance. This paper introduces a
+general methodology that aims at classifying monitoring signals into normal
+ones and several classes of abnormal ones. The main idea is to leverage expert
+knowledge by generating a very large number of binary indicators. Each
+indicator corresponds to a fully parametrized anomaly detector built from
+parametric anomaly scores designed by experts. A feature selection method is
+used to keep only the most discriminant indicators which are used at inputs of
+a Naive Bayes classifier. This give an interpretable classifier based on
+interpretable anomaly detectors whose parameters have been optimized indirectly
+by the selection process. The proposed methodology is evaluated on simulated
+data designed to reproduce some of the anomaly types observed in real world
+engines.

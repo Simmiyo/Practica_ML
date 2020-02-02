@@ -1,0 +1,16 @@
+The intrinsic value of HFO features as a biomarker of epileptic activity
+High frequency oscillations (HFOs) are a promising biomarker of epileptic
+brain tissue and activity. HFOs additionally serve as a prototypical example of
+challenges in the analysis of discrete events in high-temporal resolution,
+intracranial EEG data. Two primary challenges are 1) dimensionality reduction,
+and 2) assessing feasibility of classification. Dimensionality reduction
+assumes that the data lie on a manifold with dimension less than that of the
+feature space. However, previous HFO analyses have assumed a linear manifold,
+global across time, space (i.e. recording electrode/channel), and individual
+patients. Instead, we assess both a) whether linear methods are appropriate and
+b) the consistency of the manifold across time, space, and patients. We also
+estimate bounds on the Bayes classification error to quantify the distinction
+between two classes of HFOs (those occurring during seizures and those
+occurring due to other processes). This analysis provides the foundation for
+future clinical use of HFO features and buides the analysis for other discrete
+events, such as individual action potentials or multi-unit activity.

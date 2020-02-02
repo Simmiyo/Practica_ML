@@ -1,0 +1,18 @@
+Joint Estimation of Multiple Dependent Gaussian Graphical Models with
+  Applications to Mouse Genomics
+Gaussian graphical models are widely used to represent conditional dependence
+among random variables. In this paper, we propose a novel estimator for data
+arising from a group of Gaussian graphical models that are themselves
+dependent. A motivating example is that of modeling gene expression collected
+on multiple tissues from the same individual: here the multivariate outcome is
+affected by dependencies acting not only at the level of the specific tissues,
+but also at the level of the whole body; existing methods that assume
+independence among graphs are not applicable in this case. To estimate multiple
+dependent graphs, we decompose the problem into two graphical layers: the
+systemic layer, which affects all outcomes and thereby induces cross- graph
+dependence, and the category-specific layer, which represents graph-specific
+variation. We propose a graphical EM technique that estimates both layers
+jointly, establish estimation consistency and selection sparsistency of the
+proposed estimator, and confirm by simulation that the EM method is superior to
+a simple one-step method. We apply our technique to mouse genomics data and
+obtain biologically plausible results.

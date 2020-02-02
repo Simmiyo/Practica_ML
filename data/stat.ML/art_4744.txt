@@ -1,0 +1,19 @@
+Robust Ensemble Clustering Using Probability Trajectories
+Although many successful ensemble clustering approaches have been developed
+in recent years, there are still two limitations to most of the existing
+approaches. First, they mostly overlook the issue of uncertain links, which may
+mislead the overall consensus process. Second, they generally lack the ability
+to incorporate global information to refine the local links. To address these
+two limitations, in this paper, we propose a novel ensemble clustering approach
+based on sparse graph representation and probability trajectory analysis. In
+particular, we present the elite neighbor selection strategy to identify the
+uncertain links by locally adaptive thresholds and build a sparse graph with a
+small number of probably reliable links. We argue that a small number of
+probably reliable links can lead to significantly better consensus results than
+using all graph links regardless of their reliability. The random walk process
+driven by a new transition probability matrix is utilized to explore the global
+information in the graph. We derive a novel and dense similarity measure from
+the sparse graph by analyzing the probability trajectories of the random
+walkers, based on which two consensus functions are further proposed.
+Experimental results on multiple real-world datasets demonstrate the
+effectiveness and efficiency of our approach.

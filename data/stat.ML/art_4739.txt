@@ -1,0 +1,26 @@
+DeepSurv: Personalized Treatment Recommender System Using A Cox
+  Proportional Hazards Deep Neural Network
+Medical practitioners use survival models to explore and understand the
+relationships between patients' covariates (e.g. clinical and genetic features)
+and the effectiveness of various treatment options. Standard survival models
+like the linear Cox proportional hazards model require extensive feature
+engineering or prior medical knowledge to model treatment interaction at an
+individual level. While nonlinear survival methods, such as neural networks and
+survival forests, can inherently model these high-level interaction terms, they
+have yet to be shown as effective treatment recommender systems. We introduce
+DeepSurv, a Cox proportional hazards deep neural network and state-of-the-art
+survival method for modeling interactions between a patient's covariates and
+treatment effectiveness in order to provide personalized treatment
+recommendations. We perform a number of experiments training DeepSurv on
+simulated and real survival data. We demonstrate that DeepSurv performs as well
+as or better than other state-of-the-art survival models and validate that
+DeepSurv successfully models increasingly complex relationships between a
+patient's covariates and their risk of failure. We then show how DeepSurv
+models the relationship between a patient's features and effectiveness of
+different treatment options to show how DeepSurv can be used to provide
+individual treatment recommendations. Finally, we train DeepSurv on real
+clinical studies to demonstrate how it's personalized treatment recommendations
+would increase the survival time of a set of patients. The predictive and
+modeling capabilities of DeepSurv will enable medical researchers to use deep
+neural networks as a tool in their exploration, understanding, and prediction
+of the effects of a patient's characteristics on their risk of failure.

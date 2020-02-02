@@ -1,0 +1,28 @@
+Measuring and Understanding Sensory Representations within Deep Networks
+  Using a Numerical Optimization Framework
+A central challenge in sensory neuroscience is describing how the activity of
+populations of neurons can represent useful features of the external
+environment. However, while neurophysiologists have long been able to record
+the responses of neurons in awake, behaving animals, it is another matter
+entirely to say what a given neuron does. A key problem is that in many sensory
+domains, the space of all possible stimuli that one might encounter is
+effectively infinite; in vision, for instance, natural scenes are
+combinatorially complex, and an organism will only encounter a tiny fraction of
+possible stimuli. As a result, even describing the response properties of
+sensory neurons is difficult, and investigations of neuronal functions are
+almost always critically limited by the number of stimuli that can be
+considered. In this paper, we propose a closed-loop, optimization-based
+experimental framework for characterizing the response properties of sensory
+neurons, building on past efforts in closed-loop experimental methods, and
+leveraging recent advances in artificial neural networks to serve as as a
+proving ground for our techniques. Specifically, using deep convolutional
+neural networks, we asked whether modern black-box optimization techniques can
+be used to interrogate the "tuning landscape" of an artificial neuron in a
+deep, nonlinear system, without imposing significant constraints on the space
+of stimuli under consideration. We introduce a series of measures to quantify
+the tuning landscapes, and show how these relate to the performances of the
+networks in an object recognition task. To the extent that deep convolutional
+neural networks increasingly serve as de facto working hypotheses for
+biological vision, we argue that developing a unified approach for studying
+both artificial and biological systems holds great potential to advance both
+fields together.

@@ -1,0 +1,16 @@
+Supervised learning sets benchmark for robust spike detection from
+  calcium imaging signals
+A fundamental challenge in calcium imaging has been to infer the timing of
+action potentials from the measured noisy calcium fluorescence traces. We
+systematically evaluate a range of spike inference algorithms on a large
+benchmark dataset recorded from varying neural tissue (V1 and retina) using
+different calcium indicators (OGB-1 and GCamp6). We show that a new algorithm
+based on supervised learning in flexible probabilistic models outperforms all
+previously published techniques, setting a new standard for spike inference
+from calcium signals. Importantly, it performs better than other algorithms
+even on datasets not seen during training. Future data acquired in new
+experimental conditions can easily be used to further improve its spike
+prediction accuracy and generalization performance. Finally, we show that
+comparing algorithms on artificial data is not informative about performance on
+real population imaging data, suggesting that a benchmark dataset may greatly
+facilitate future algorithmic developments.

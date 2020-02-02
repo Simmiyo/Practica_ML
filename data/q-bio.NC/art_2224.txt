@@ -1,0 +1,18 @@
+Competition through selective inhibitory synchrony
+Models of cortical neuronal circuits commonly depend on inhibitory feedback
+to control gain, provide signal normalization, and to selectively amplify
+signals using winner-take-all (WTA) dynamics. Such models generally assume that
+excitatory and inhibitory neurons are able to interact easily, because their
+axons and dendrites are co-localized in the same small volume. However,
+quantitative neuroanatomical studies of the dimensions of axonal and dendritic
+trees of neurons in the neocortex show that this co-localization assumption is
+not valid. In this paper we describe a simple modification to the WTA circuit
+design that permits the effects of distributed inhibitory neurons to be coupled
+through synchronization, and so allows a single WTA to be distributed widely in
+cortical space, well beyond the arborization of any single inhibitory neuron,
+and even across different cortical areas. We prove by non-linear contraction
+analysis, and demonstrate by simulation that distributed WTA sub-systems
+combined by such inhibitory synchrony are inherently stable. We show
+analytically that synchronization is substantially faster than winner
+selection. This circuit mechanism allows networks of independent WTAs to fully
+or partially compete with each other.

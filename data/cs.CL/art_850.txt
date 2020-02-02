@@ -1,0 +1,13 @@
+Coarse-grained Cross-lingual Alignment of Comparable Texts with Topic
+  Models and Encyclopedic Knowledge
+We present a method for coarse-grained cross-lingual alignment of comparable
+texts: segments consisting of contiguous paragraphs that discuss the same theme
+(e.g. history, economy) are aligned based on induced multilingual topics. The
+method combines three ideas: a two-level LDA model that filters out words that
+do not convey themes, an HMM that models the ordering of themes in the
+collection of documents, and language-independent concept annotations to serve
+as a cross-language bridge and to strengthen the connection between paragraphs
+in the same segment through concept relations. The method is evaluated on
+English and French data previously used for monolingual alignment. The results
+show state-of-the-art performance in both monolingual and cross-lingual
+settings.

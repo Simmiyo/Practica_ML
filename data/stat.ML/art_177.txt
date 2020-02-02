@@ -1,0 +1,10 @@
+Estimated VC dimension for risk bounds
+Vapnik-Chervonenkis (VC) dimension is a fundamental measure of the
+generalization capacity of learning algorithms. However, apart from a few
+special cases, it is hard or impossible to calculate analytically. Vapnik et
+al. [10] proposed a technique for estimating the VC dimension empirically.
+While their approach behaves well in simulations, it could not be used to bound
+the generalization risk of classifiers, because there were no bounds for the
+estimation error of the VC dimension itself. We rectify this omission,
+providing high probability concentration results for the proposed estimator and
+deriving corresponding generalization bounds.

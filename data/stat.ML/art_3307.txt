@@ -1,0 +1,16 @@
+Adaptive Randomized Dimension Reduction on Massive Data
+The scalability of statistical estimators is of increasing importance in
+modern applications. One approach to implementing scalable algorithms is to
+compress data into a low dimensional latent space using dimension reduction
+methods. In this paper we develop an approach for dimension reduction that
+exploits the assumption of low rank structure in high dimensional data to gain
+both computational and statistical advantages. We adapt recent randomized
+low-rank approximation algorithms to provide an efficient solution to principal
+component analysis (PCA), and we use this efficient solver to improve parameter
+estimation in large-scale linear mixed models (LMM) for association mapping in
+statistical and quantitative genomics. A key observation in this paper is that
+randomization serves a dual role, improving both computational and statistical
+performance by implicitly regularizing the covariance matrix estimate of the
+random effect in a LMM. These statistical and computational advantages are
+highlighted in our experiments on simulated data and large-scale genomic
+studies.

@@ -1,0 +1,10 @@
+Rgtsvm: Support Vector Machines on a GPU in R
+Rgtsvm provides a fast and flexible support vector machine (SVM)
+implementation for the R language. The distinguishing feature of Rgtsvm is that
+support vector classification and support vector regression tasks are
+implemented on a graphical processing unit (GPU), allowing the libraries to
+scale to millions of examples with >100-fold improvement in performance over
+existing implementations. Nevertheless, Rgtsvm retains feature parity and has
+an interface that is compatible with the popular e1071 SVM package in R.
+Altogether, Rgtsvm enables large SVM models to be created by both experienced
+and novice practitioners.

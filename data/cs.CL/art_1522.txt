@@ -1,0 +1,15 @@
+Distributed Representation for Traditional Chinese Medicine Herb via
+  Deep Learning Models
+Traditional Chinese Medicine (TCM) has accumulated a big amount of precious
+resource in the long history of development. TCM prescriptions that consist of
+TCM herbs are an important form of TCM treatment, which are similar to natural
+language documents, but in a weakly ordered fashion. Directly adapting language
+modeling style methods to learn the embeddings of the herbs can be problematic
+as the herbs are not strictly in order, the herbs in the front of the
+prescription can be connected to the very last ones. In this paper, we propose
+to represent TCM herbs with distributed representations via Prescription Level
+Language Modeling (PLLM). In one of our experiments, the correlation between
+our calculated similarity between medicines and the judgment of professionals
+achieves a Spearman score of 55.35 indicating a strong correlation, which
+surpasses human beginners (TCM related field bachelor student) by a big margin
+(over 10%).

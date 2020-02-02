@@ -1,0 +1,17 @@
+A correlation game for unsupervised learning yields computational
+  interpretations of Hebbian excitation, anti-Hebbian inhibition, and synapse
+  elimination
+Much has been learned about plasticity of biological synapses from empirical
+studies. Hebbian plasticity is driven by correlated activity of presynaptic and
+postsynaptic neurons. Synapses that converge onto the same neuron often behave
+as if they compete for a fixed resource; some survive the competition while
+others are eliminated. To provide computational interpretations of these
+aspects of synaptic plasticity, we formulate unsupervised learning as a
+zero-sum game between Hebbian excitation and anti-Hebbian inhibition in a
+neural network model. The game formalizes the intuition that Hebbian excitation
+tries to maximize correlations of neurons with their inputs, while anti-Hebbian
+inhibition tries to decorrelate neurons from each other. We further include a
+model of synaptic competition, which enables a neuron to eliminate all
+connections except those from its most strongly correlated inputs. Through
+empirical studies, we show that this facilitates the learning of sensory
+features that resemble parts of objects.

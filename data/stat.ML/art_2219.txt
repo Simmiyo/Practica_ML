@@ -1,0 +1,16 @@
+Minerva and minepy: a C engine for the MINE suite and its R, Python and
+  MATLAB wrappers
+We introduce a novel implementation in ANSI C of the MINE family of
+algorithms for computing maximal information-based measures of dependence
+between two variables in large datasets, with the aim of a low memory footprint
+and ease of integration within bioinformatics pipelines. We provide the
+libraries minerva (with the R interface) and minepy for Python, MATLAB, Octave
+and C++. The C solution reduces the large memory requirement of the original
+Java implementation, has good upscaling properties, and offers a native
+parallelization for the R interface. Low memory requirements are demonstrated
+on the MINE benchmarks as well as on large (n=1340) microarray and Illumina
+GAII RNA-seq transcriptomics datasets.
+  Availability and Implementation: Source code and binaries are freely
+available for download under GPL3 licence at http://minepy.sourceforge.net for
+minepy and through the CRAN repository http://cran.r-project.org for the R
+package minerva. All software is multiplatform (MS Windows, Linux and OSX).

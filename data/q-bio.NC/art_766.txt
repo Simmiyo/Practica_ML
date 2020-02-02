@@ -1,0 +1,20 @@
+Pattern completion in symmetric threshold-linear networks
+Threshold-linear networks are a common class of firing rate models that
+describe recurrent interactions among neurons. Unlike their linear
+counterparts, these networks generically possess multiple stable fixed points
+(steady states), making them viable candidates for memory encoding and
+retrieval. In this work, we characterize stable fixed points of general
+threshold-linear networks with constant external drive, and discover
+constraints on the co-existence of fixed points involving different subsets of
+active neurons. In the case of symmetric networks, we prove the following
+antichain property: if a set of neurons $\tau$ is the support of a stable fixed
+point, then no proper subset or superset of $\tau$ can support a stable fixed
+point. Symmetric threshold-linear networks thus appear to be well suited for
+pattern completion, since the dynamics are guaranteed not to get "stuck" in a
+subset or superset of a stored pattern. We also show that for any graph G, we
+can construct a network whose stable fixed points correspond precisely to the
+maximal cliques of G. As an application, we design network decoders for place
+field codes, and demonstrate their efficacy for error correction and pattern
+completion. The proofs of our main results build on the theory of permitted
+sets in threshold-linear networks, including recently-developed connections to
+classical distance geometry.

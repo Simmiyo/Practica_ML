@@ -1,0 +1,22 @@
+Biologically Plausible Online Principal Component Analysis Without
+  Recurrent Neural Dynamics
+Artificial neural networks that learn to perform Principal Component Analysis
+(PCA) and related tasks using strictly local learning rules have been
+previously derived based on the principle of similarity matching: similar pairs
+of inputs should map to similar pairs of outputs. However, the operation of
+these networks (and of similar networks) requires a fixed-point iteration to
+determine the output corresponding to a given input, which means that dynamics
+must operate on a faster time scale than the variation of the input. Further,
+during these fast dynamics such networks typically "disable" learning, updating
+synaptic weights only once the fixed-point iteration has been resolved. Here,
+we derive a network for PCA-based dimensionality reduction that avoids this
+fast fixed-point iteration. The key novelty of our approach is a modification
+of the similarity matching objective to encourage near-diagonality of a
+synaptic weight matrix. We then approximately invert this matrix using a Taylor
+series approximation, replacing the previous fast iterations. In the offline
+setting, our algorithm corresponds to a dynamical system, the stability of
+which we rigorously analyze. In the online setting (i.e., with stochastic
+gradients), we map our algorithm to a familiar neural network architecture and
+give numerical results showing that our method converges at a competitive rate.
+The computational complexity per iteration of our online algorithm is linear in
+the total degrees of freedom, which is in some sense optimal.

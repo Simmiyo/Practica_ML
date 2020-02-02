@@ -1,0 +1,10 @@
+Black-Box Policy Search with Probabilistic Programs
+In this work, we explore how probabilistic programs can be used to represent
+policies in sequential decision problems. In this formulation, a probabilistic
+program is a black-box stochastic simulator for both the problem domain and the
+agent. We relate classic policy gradient techniques to recently introduced
+black-box variational methods which generalize to probabilistic program
+inference. We present case studies in the Canadian traveler problem, Rock
+Sample, and a benchmark for optimal diagnosis inspired by Guess Who. Each study
+illustrates how programs can efficiently represent policies using moderate
+numbers of parameters.

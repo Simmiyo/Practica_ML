@@ -1,0 +1,16 @@
+Radiation-MHD simulations of pillars and globules in HII regions
+Implicit and explicit raytracing-photoionisation algorithms have been
+implemented in the author's radiation-magnetohydrodynamics code. The algorithms
+are described briefly and their efficiency and parallel scaling are
+investigated. The implicit algorithm is more efficient for calculations where
+ionisation fronts have very supersonic velocities, and the explicit algorithm
+is favoured in the opposite limit because of its better parallel scaling. The
+implicit method is used to investigate the effects of initially uniform
+magnetic fields on the formation and evolution of dense pillars and cometary
+globules at the boundaries of HII regions. It is shown that for weak and medium
+field strengths an initially perpendicular field is swept into alignment with
+the pillar during its dynamical evolution, matching magnetic field observations
+of the`Pillars of Creation' in M16. A strong perpendicular magnetic field
+remains in its initial configuration and also confines the photoevaporation
+flow into a bar-shaped, dense, ionised ribbon which partially shields the
+ionisation front.

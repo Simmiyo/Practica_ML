@@ -1,0 +1,13 @@
+Joint modeling of multiple time series via the beta process with
+  application to motion capture segmentation
+We propose a Bayesian nonparametric approach to the problem of jointly
+modeling multiple related time series. Our model discovers a latent set of
+dynamical behaviors shared among the sequences, and segments each time series
+into regions defined by a subset of these behaviors. Using a beta process
+prior, the size of the behavior set and the sharing pattern are both inferred
+from data. We develop Markov chain Monte Carlo (MCMC) methods based on the
+Indian buffet process representation of the predictive distribution of the beta
+process. Our MCMC inference algorithm efficiently adds and removes behaviors
+via novel split-merge moves as well as data-driven birth and death proposals,
+avoiding the need to consider a truncated model. We demonstrate promising
+results on unsupervised segmentation of human motion capture data.

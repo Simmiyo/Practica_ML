@@ -1,0 +1,17 @@
+Parameter-Free Spectral Kernel Learning
+Due to the growing ubiquity of unlabeled data, learning with unlabeled data
+is attracting increasing attention in machine learning. In this paper, we
+propose a novel semi-supervised kernel learning method which can seamlessly
+combine manifold structure of unlabeled data and Regularized Least-Squares
+(RLS) to learn a new kernel. Interestingly, the new kernel matrix can be
+obtained analytically with the use of spectral decomposition of graph Laplacian
+matrix. Hence, the proposed algorithm does not require any numerical
+optimization solvers. Moreover, by maximizing kernel target alignment on
+labeled data, we can also learn model parameters automatically with a
+closed-form solution. For a given graph Laplacian matrix, our proposed method
+does not need to tune any model parameter including the tradeoff parameter in
+RLS and the balance parameter for unlabeled data. Extensive experiments on ten
+benchmark datasets show that our proposed two-stage parameter-free spectral
+kernel learning algorithm can obtain comparable performance with fine-tuned
+manifold regularization methods in transductive setting, and outperform
+multiple kernel learning in supervised setting.

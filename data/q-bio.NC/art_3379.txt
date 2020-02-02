@@ -1,0 +1,18 @@
+Gridbot: An autonomous robot controlled by a Spiking Neural Network
+  mimicking the brain's navigational system
+It is true that the "best" neural network is not necessarily the one with the
+most "brain-like" behavior. Understanding biological intelligence, however, is
+a fundamental goal for several distinct disciplines. Translating our
+understanding of intelligence to machines is a fundamental problem in robotics.
+Propelled by new advancements in Neuroscience, we developed a spiking neural
+network (SNN) that draws from mounting experimental evidence that a number of
+individual neurons is associated with spatial navigation. By following the
+brain's structure, our model assumes no initial all-to-all connectivity, which
+could inhibit its translation to a neuromorphic hardware, and learns an
+uncharted territory by mapping its identified components into a limited number
+of neural representations, through spike-timing dependent plasticity (STDP). In
+our ongoing effort to employ a bioinspired SNN-controlled robot to real-world
+spatial mapping applications, we demonstrate here how an SNN may robustly
+control an autonomous robot in mapping and exploring an unknown environment,
+while compensating for its own intrinsic hardware imperfections, such as
+partial or total loss of visual input.

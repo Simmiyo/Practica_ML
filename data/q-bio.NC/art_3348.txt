@@ -1,0 +1,14 @@
+Spiking Linear Dynamical Systems on Neuromorphic Hardware for Low-Power
+  Brain-Machine Interfaces
+Neuromorphic architectures achieve low-power operation by using many simple
+spiking neurons in lieu of traditional hardware. Here, we develop methods for
+precise linear computations in spiking neural networks and use these methods to
+map the evolution of a linear dynamical system (LDS) onto an existing
+neuromorphic chip: IBM's TrueNorth. We analytically characterize, and
+numerically validate, the discrepancy between the spiking LDS state sequence
+and that of its non-spiking counterpart. These analytical results shed light on
+the multiway tradeoff between time, space, energy, and accuracy in neuromorphic
+computation. To demonstrate the utility of our work, we implemented a
+neuromorphic Kalman filter (KF) and used it for offline decoding of human vocal
+pitch from neural data. The neuromorphic KF could be used for low-power
+filtering in domains beyond neuroscience, such as navigation or robotics.

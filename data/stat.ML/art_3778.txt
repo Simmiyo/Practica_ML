@@ -1,0 +1,20 @@
+Minimax Lower Bounds for Realizable Transductive Classification
+Transductive learning considers a training set of $m$ labeled samples and a
+test set of $u$ unlabeled samples, with the goal of best labeling that
+particular test set. Conversely, inductive learning considers a training set of
+$m$ labeled samples drawn iid from $P(X,Y)$, with the goal of best labeling any
+future samples drawn iid from $P(X)$. This comparison suggests that
+transduction is a much easier type of inference than induction, but is this
+really the case? This paper provides a negative answer to this question, by
+proving the first known minimax lower bounds for transductive, realizable,
+binary classification. Our lower bounds show that $m$ should be at least
+$\Omega(d/\epsilon + \log(1/\delta)/\epsilon)$ when $\epsilon$-learning a
+concept class $\mathcal{H}$ of finite VC-dimension $d<\infty$ with confidence
+$1-\delta$, for all $m \leq u$. This result draws three important conclusions.
+First, general transduction is as hard as general induction, since both
+problems have $\Omega(d/m)$ minimax values. Second, the use of unlabeled data
+does not help general transduction, since supervised learning algorithms such
+as ERM and (Hanneke, 2015) match our transductive lower bounds while ignoring
+the unlabeled test set. Third, our transductive lower bounds imply lower bounds
+for semi-supervised learning, which add to the important discussion about the
+role of unlabeled data in machine learning.

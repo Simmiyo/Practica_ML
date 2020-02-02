@@ -1,0 +1,20 @@
+Modeling human intuitions about liquid flow with particle-based
+  simulation
+Humans can easily describe, imagine, and, crucially, predict a wide variety
+of behaviors of liquids--splashing, squirting, gushing, sloshing, soaking,
+dripping, draining, trickling, pooling, and pouring--despite tremendous
+variability in their material and dynamical properties. Here we propose and
+test a computational model of how people perceive and predict these liquid
+dynamics, based on coarse approximate simulations of fluids as collections of
+interacting particles. Our model is analogous to a "game engine in the head",
+drawing on techniques for interactive simulations (as in video games) that
+optimize for efficiency and natural appearance rather than physical accuracy.
+In two behavioral experiments, we found that the model accurately captured
+people's predictions about how liquids flow among complex solid obstacles, and
+was significantly better than two alternatives based on simple heuristics and
+deep neural networks. Our model was also able to explain how people's
+predictions varied as a function of the liquids' properties (e.g., viscosity
+and stickiness). Together, the model and empirical results extend the recent
+proposal that human physical scene understanding for the dynamics of rigid,
+solid objects can be supported by approximate probabilistic simulation, to the
+more complex and unexplored domain of fluid dynamics.

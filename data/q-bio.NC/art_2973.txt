@@ -1,0 +1,20 @@
+View-tolerant face recognition and Hebbian learning imply
+  mirror-symmetric neural tuning to head orientation
+The primate brain contains a hierarchy of visual areas, dubbed the ventral
+stream, which rapidly computes object representations that are both specific
+for object identity and relatively robust against identity-preserving
+transformations like depth-rotations. Current computational models of object
+recognition, including recent deep learning networks, generate these properties
+through a hierarchy of alternating selectivity-increasing filtering and
+tolerance-increasing pooling operations, similar to simple-complex cells
+operations. While simulations of these models recapitulate the ventral stream's
+progression from early view-specific to late view-tolerant representations,
+they fail to generate the most salient property of the intermediate
+representation for faces found in the brain: mirror-symmetric tuning of the
+neural population to head orientation. Here we prove that a class of
+hierarchical architectures and a broad set of biologically plausible learning
+rules can provide approximate invariance at the top level of the network. While
+most of the learning rules do not yield mirror-symmetry in the mid-level
+representations, we characterize a specific biologically-plausible Hebb-type
+learning rule that is guaranteed to generate mirror-symmetric tuning to faces
+tuning at intermediate levels of the architecture.

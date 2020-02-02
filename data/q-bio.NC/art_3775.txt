@@ -1,0 +1,23 @@
+Computation in a single neuron: Hodgkin and Huxley revisited
+A spiking neuron ``computes'' by transforming a complex dynamical input into
+a train of action potentials, or spikes. The computation performed by the
+neuron can be formulated as dimensional reduction, or feature detection,
+followed by a nonlinear decision function over the low dimensional space.
+Generalizations of the reverse correlation technique with white noise input
+provide a numerical strategy for extracting the relevant low dimensional
+features from experimental data, and information theory can be used to evaluate
+the quality of the low--dimensional approximation. We apply these methods to
+analyze the simplest biophysically realistic model neuron, the Hodgkin--Huxley
+model, using this system to illustrate the general methodological issues. We
+focus on the features in the stimulus that trigger a spike, explicitly
+eliminating the effects of interactions between spikes. One can approximate
+this triggering ``feature space'' as a two dimensional linear subspace in the
+high--dimensional space of input histories, capturing in this way a substantial
+fraction of the mutual information between inputs and spike time. We find that
+an even better approximation, however, is to describe the relevant subspace as
+two dimensional, but curved; in this way we can capture 90% of the mutual
+information even at high time resolution. Our analysis provides a new
+understanding of the computational properties of the Hodgkin--Huxley model.
+While it is common to approximate neural behavior as ``integrate and fire,''
+the HH model is not an integrator nor is it well described by a single
+threshold.

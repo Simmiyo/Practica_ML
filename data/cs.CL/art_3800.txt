@@ -1,0 +1,14 @@
+Russian word sense induction by clustering averaged word embeddings
+The paper reports our participation in the shared task on word sense
+induction and disambiguation for the Russian language (RUSSE-2018). Our team
+was ranked 2nd for the wiki-wiki dataset (containing mostly homonyms) and 5th
+for the bts-rnc and active-dict datasets (containing mostly polysemous words)
+among all 19 participants.
+  The method we employed was extremely naive. It implied representing contexts
+of ambiguous words as averaged word embedding vectors, using off-the-shelf
+pre-trained distributional models. Then, these vector representations were
+clustered with mainstream clustering techniques, thus producing the groups
+corresponding to the ambiguous word senses. As a side result, we show that word
+embedding models trained on small but balanced corpora can be superior to those
+trained on large but noisy data - not only in intrinsic evaluation, but also in
+downstream tasks like word sense induction.

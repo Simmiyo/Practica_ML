@@ -1,0 +1,21 @@
+Challenges in Bayesian Adaptive Data Analysis
+Traditional statistical analysis requires that the analysis process and data
+are independent. By contrast, the new field of adaptive data analysis hopes to
+understand and provide algorithms and accuracy guarantees for research as it is
+commonly performed in practice, as an iterative process of interacting
+repeatedly with the same data set, such as repeated tests against a holdout
+set. Previous work has defined a model with a rather strong lower bound on
+sample complexity in terms of the number of queries, $n\sim\sqrt q$, arguing
+that adaptive data analysis is much harder than static data analysis, where
+$n\sim\log q$ is possible. Instead, we argue that those strong lower bounds
+point to a limitation of the previous model in that it must consider wildly
+asymmetric scenarios which do not hold in typical applications.
+  To better understand other difficulties of adaptivity, we propose a new
+Bayesian version of the problem that mandates symmetry. Since the other lower
+bound techniques are ruled out, we can more effectively see difficulties that
+might otherwise be overshadowed. As a first contribution to this model, we
+produce a new problem using error-correcting codes on which a large family of
+methods, including all previously proposed algorithms, require roughly
+$n\sim\sqrt[4]q$. These early results illustrate new difficulties in adaptive
+data analysis regarding slightly correlated queries on problems with
+concentrated uncertainty.

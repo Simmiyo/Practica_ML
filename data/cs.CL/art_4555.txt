@@ -1,0 +1,13 @@
+Learning to adapt: a meta-learning approach for speaker adaptation
+The performance of automatic speech recognition systems can be improved by
+adapting an acoustic model to compensate for the mismatch between training and
+testing conditions, for example by adapting to unseen speakers. The success of
+speaker adaptation methods relies on selecting weights that are suitable for
+adaptation and using good adaptation schedules to update these weights in order
+not to overfit to the adaptation data. In this paper we investigate a
+principled way of adapting all the weights of the acoustic model using a
+meta-learning. We show that the meta-learner can learn to perform supervised
+and unsupervised speaker adaptation and that it outperforms a strong baseline
+adapting LHUC parameters when adapting a DNN AM with 1.5M parameters. We also
+report initial experiments on adapting TDNN AMs, where the meta-learner
+achieves comparable performance with LHUC.

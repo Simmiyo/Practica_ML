@@ -1,0 +1,19 @@
+Stochastic approximation for speeding up LSTD (and LSPI)
+We propose a stochastic approximation (SA) based method with randomization of
+samples for policy evaluation using the least squares temporal difference
+(LSTD) algorithm. Our method results in an $O(d)$ improvement in complexity in
+comparison to regular LSTD, where $d$ is the dimension of the data. We provide
+convergence rate results for our proposed method, both in high probability and
+in expectation. Moreover, we also establish that using our scheme in place of
+LSTD does not impact the rate of convergence of the approximate value function
+to the true value function and hence a low-complexity LSPI variant that uses
+our SA based scheme has the same order of the performance bounds as that of
+regular LSPI. These rate results coupled with the low complexity of our method
+make it attractive for implementation in big data settings, where $d$ is large.
+Furthermore, we analyze a similar low-complexity alternative for least squares
+regression and provide finite-time bounds there. We demonstrate the
+practicality of our method for LSTD empirically by combining it with the LSPI
+algorithm in a traffic signal control application. We also conduct another set
+of experiments that combines the SA based low-complexity variant for least
+squares regression with the LinUCB algorithm for contextual bandits, using the
+large scale news recommendation dataset from Yahoo.

@@ -1,0 +1,14 @@
+Local Word Vectors Guiding Keyphrase Extraction
+Automated keyphrase extraction is a fundamental textual information
+processing task concerned with the selection of representative phrases from a
+document that summarize its content. This work presents a novel unsupervised
+method for keyphrase extraction, whose main innovation is the use of local word
+embeddings (in particular GloVe vectors), i.e., embeddings trained from the
+single document under consideration. We argue that such local representation of
+words and keyphrases are able to accurately capture their semantics in the
+context of the document they are part of, and therefore can help in improving
+keyphrase extraction quality. Empirical results offer evidence that indeed
+local representations lead to better keyphrase extraction results compared to
+both embeddings trained on very large third corpora or larger corpora
+consisting of several documents of the same scientific field and to other
+state-of-the-art unsupervised keyphrase extraction methods.

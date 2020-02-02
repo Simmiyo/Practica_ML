@@ -1,0 +1,17 @@
+Ground Truth for training OCR engines on historical documents in German
+  Fraktur and Early Modern Latin
+In this paper we describe a dataset of German and Latin \textit{ground truth}
+(GT) for historical OCR in the form of printed text line images paired with
+their transcription. This dataset, called \textit{GT4HistOCR}, consists of
+313,173 line pairs covering a wide period of printing dates from incunabula
+from the 15th century to 19th century books printed in Fraktur types and is
+openly available under a CC-BY 4.0 license. The special form of GT as line
+image/transcription pairs makes it directly usable to train state-of-the-art
+recognition models for OCR software employing recurring neural networks in LSTM
+architecture such as Tesseract 4 or OCRopus. We also provide some pretrained
+OCRopus models for subcorpora of our dataset yielding between 95\% (early
+printings) and 98\% (19th century Fraktur printings) character accuracy rates
+on unseen test cases, a Perl script to harmonize GT produced by different
+transcription rules, and give hints on how to construct GT for OCR purposes
+which has requirements that may differ from linguistically motivated
+transcriptions.

@@ -1,0 +1,19 @@
+MERLiN: Mixture Effect Recovery in Linear Networks
+Causal inference concerns the identification of cause-effect relationships
+between variables, e.g. establishing whether a stimulus affects activity in a
+certain brain region. The observed variables themselves often do not constitute
+meaningful causal variables, however, and linear combinations need to be
+considered. In electroencephalographic studies, for example, one is not
+interested in establishing cause-effect relationships between electrode signals
+(the observed variables), but rather between cortical signals (the causal
+variables) which can be recovered as linear combinations of electrode signals.
+  We introduce MERLiN (Mixture Effect Recovery in Linear Networks), a family of
+causal inference algorithms that implement a novel means of constructing causal
+variables from non-causal variables. We demonstrate through application to EEG
+data how the basic MERLiN algorithm can be extended for application to
+different (neuroimaging) data modalities. Given an observed linear mixture, the
+algorithms can recover a causal variable that is a linear effect of another
+given variable. That is, MERLiN allows us to recover a cortical signal that is
+affected by activity in a certain brain region, while not being a direct effect
+of the stimulus. The Python/Matlab implementation for all presented algorithms
+is available on https://github.com/sweichwald/MERLiN

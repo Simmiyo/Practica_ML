@@ -1,0 +1,19 @@
+Restate the reference for EEG microstate analysis
+Despite the decades of efforts, the choice of EEG reference is still a
+debated fundamental issue. Non-neutral reference can inevitably inject the
+uncontrolled temporal biases into all EEG recordings, which may influence the
+spatiotemporal analysis of brain activity. A method, termed microstates,
+identifying spatiotemporal EEG features as the quasi-stable topography states
+in milliseconds, suggests its potential as biomarkers of neurophysiological
+disease. As reference electrode standardization technique (REST) could
+reconstruct an infinity reference approximately, it is a question whether REST
+or the other references will be more reliable than average reference (AR) for
+the microstates analysis. In this study, we design the microstate-based EEG
+forward model, and apply different references for microstates analysis. The
+spatial similarity between the generated and assumed cluster maps is mainly
+investigated. Furthermore, the real EEG data by the parametric bootstrap method
+is used to validate the performance of the references. Finally, we find that
+REST is robust to recover more similar cluster maps to the assumption than AR
+in the simulation, and the cluster maps between REST and AR on the real EEG
+data are quite different. This study may indicate that REST contributes to
+identifying more objective microstates features than AR.

@@ -1,0 +1,10 @@
+The Population Posterior and Bayesian Inference on Streams
+Many modern data analysis problems involve inferences from streaming data.
+However, streaming data is not easily amenable to the standard probabilistic
+modeling approaches, which assume that we condition on finite data. We develop
+population variational Bayes, a new approach for using Bayesian modeling to
+analyze streams of data. It approximates a new type of distribution, the
+population posterior, which combines the notion of a population distribution of
+the data with Bayesian inference in a probabilistic model. We study our method
+with latent Dirichlet allocation and Dirichlet process mixtures on several
+large-scale data sets.

@@ -1,0 +1,8 @@
+Quantum Carry-Save Arithmetic
+This paper shows how to design efficient arithmetic elements out of quantum
+gates using "carry-save" techniques borrowed from classical computer design.
+This allows bit-parallel evaluation of all the arithmetic elements required for
+Shor's algorithm, including modular arithmetic, deferring all carry propagation
+until the end of the entire computation. This reduces the quantum gate delay
+from O(N^3) to O(N log N) at a cost of increasing the number of qubits required
+from O(N) to O(N^2).

@@ -1,0 +1,19 @@
+A Semantic Relevance Based Neural Network for Text Summarization and
+  Text Simplification
+Text summarization and text simplification are two major ways to simplify the
+text for poor readers, including children, non-native speakers, and the
+functionally illiterate. Text summarization is to produce a brief summary of
+the main ideas of the text, while text simplification aims to reduce the
+linguistic complexity of the text and retain the original meaning. Recently,
+most approaches for text summarization and text simplification are based on the
+sequence-to-sequence model, which achieves much success in many text generation
+tasks. However, although the generated simplified texts are similar to source
+texts literally, they have low semantic relevance. In this work, our goal is to
+improve semantic relevance between source texts and simplified texts for text
+summarization and text simplification. We introduce a Semantic Relevance Based
+neural model to encourage high semantic similarity between texts and summaries.
+In our model, the source text is represented by a gated attention encoder,
+while the summary representation is produced by a decoder. Besides, the
+similarity score between the representations is maximized during training. Our
+experiments show that the proposed model outperforms the state-of-the-art
+systems on two benchmark corpus.

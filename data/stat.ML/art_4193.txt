@@ -1,0 +1,10 @@
+L2 Regularization versus Batch and Weight Normalization
+Batch Normalization is a commonly used trick to improve the training of deep
+neural networks. These neural networks use L2 regularization, also called
+weight decay, ostensibly to prevent overfitting. However, we show that L2
+regularization has no regularizing effect when combined with normalization.
+Instead, regularization has an influence on the scale of weights, and thereby
+on the effective learning rate. We investigate this dependence, both in theory,
+and experimentally. We show that popular optimization methods such as ADAM only
+partially eliminate the influence of normalization on the learning rate. This
+leads to a discussion on other ways to mitigate this issue.

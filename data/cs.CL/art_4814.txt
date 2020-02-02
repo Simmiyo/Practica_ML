@@ -1,0 +1,11 @@
+Neural Networks for Cross-lingual Negation Scope Detection
+Negation scope has been annotated in several English and Chinese corpora, and
+highly accurate models for this task in these languages have been learned from
+these annotations. Unfortunately, annotations are not available in other
+languages. Could a model that detects negation scope be applied to a language
+that it hasn't been trained on? We develop neural models that learn from
+cross-lingual word embeddings or universal dependencies in English, and test
+them on Chinese, showing that they work surprisingly well. We find that
+modelling syntax is helpful even in monolingual settings and that cross-lingual
+word embeddings help relatively little, and we analyse cases that are still
+difficult for this task.

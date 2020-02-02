@@ -1,0 +1,20 @@
+Measuring multivariate redundant information with pointwise common
+  change in surprisal
+The problem of how to properly quantify redundant information is an open
+question that has been the subject of much recent research. Redundant
+information refers to information about a target variable S that is common to
+two or more predictor variables Xi. It can be thought of as quantifying
+overlapping information content or similarities in the representation of S
+between the Xi. We present a new measure of redundancy which measures the
+common change in surprisal shared between variables at the local or pointwise
+level. We provide a game-theoretic operational definition of unique
+information, and use this to derive constraints which are used to obtain a
+maximum entropy distribution. Redundancy is then calculated from this maximum
+entropy distribution by counting only those local co-information terms which
+admit an unambiguous interpretation as redundant information. We show how this
+redundancy measure can be used within the framework of the Partial Information
+Decomposition (PID) to give an intuitive decomposition of the multivariate
+mutual information into redundant, unique and synergistic contributions. We
+compare our new measure to existing approaches over a range of example systems,
+including continuous Gaussian variables. Matlab code for the measure is
+provided, including all considered examples.

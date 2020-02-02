@@ -1,0 +1,14 @@
+Improving Variational Auto-Encoders using Householder Flow
+Variational auto-encoders (VAE) are scalable and powerful generative models.
+However, the choice of the variational posterior determines tractability and
+flexibility of the VAE. Commonly, latent variables are modeled using the normal
+distribution with a diagonal covariance matrix. This results in computational
+efficiency but typically it is not flexible enough to match the true posterior
+distribution. One fashion of enriching the variational posterior distribution
+is application of normalizing flows, i.e., a series of invertible
+transformations to latent variables with a simple posterior. In this paper, we
+follow this line of thinking and propose a volume-preserving flow that uses a
+series of Householder transformations. We show empirically on MNIST dataset and
+histopathology data that the proposed flow allows to obtain more flexible
+variational posterior and competitive results comparing to other normalizing
+flows.

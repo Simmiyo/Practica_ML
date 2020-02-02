@@ -1,0 +1,16 @@
+Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised
+  Sanskrit
+We propose a post-OCR text correction approach for digitising texts in
+Romanised Sanskrit. Owing to the lack of resources our approach uses OCR models
+trained for other languages written in Roman. Currently, there exists no
+dataset available for Romanised Sanskrit OCR. So, we bootstrap a dataset of 430
+images, scanned in two different settings and their corresponding ground truth.
+For training, we synthetically generate training images for both the settings.
+We find that the use of copying mechanism (Gu et al., 2016) yields a percentage
+increase of 7.69 in Character Recognition Rate (CRR) than the current state of
+the art model in solving monotone sequence-to-sequence tasks (Schnober et al.,
+2016). We find that our system is robust in combating OCR-prone errors, as it
+obtains a CRR of 87.01% from an OCR output with CRR of 35.76% for one of the
+dataset settings. A human judgment survey performed on the models shows that
+our proposed model results in predictions which are faster to comprehend and
+faster to improve for a human than the other systems.

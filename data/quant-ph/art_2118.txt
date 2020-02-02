@@ -1,0 +1,21 @@
+Characterizations of 1-Way Quantum Finite Automata
+The 2-way quantum finite automaton introduced by Kondacs and Watrous can
+accept non-regular languages with bounded error in polynomial time. If we
+restrict the head of the automaton to moving classically and to moving only in
+one direction, the acceptance power of this 1-way quantum finite automaton is
+reduced to a proper subset of the regular languages.
+  In this paper we study two different models of 1-way quantum finite automata.
+The first model, termed measure-once quantum finite automata, was introduced by
+Moore and Crutchfield, and the second model, termed measure-many quantum finite
+automata, was introduced by Kondacs and Watrous.
+  We characterize the measure-once model when it is restricted to accepting
+with bounded error and show that, without that restriction, it can solve the
+word problem over the free group. We also show that it can be simulated by a
+probabilistic finite automaton and describe an algorithm that determines if two
+measure-once automata are equivalent.
+  We prove several closure properties of the classes of languages accepted by
+measure-many automata, including inverse homomorphisms, and provide a new
+necessary condition for a language to be accepted by the measure-many model
+with bounded error. Finally, we show that piecewise testable languages can be
+accepted with bounded error by a measure-many quantum finite automaton, in the
+process introducing new construction techniques for quantum automata.

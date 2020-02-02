@@ -1,0 +1,12 @@
+Attentional Encoder Network for Targeted Sentiment Classification
+Targeted sentiment classification aims at determining the sentimental
+tendency towards specific targets. Most of the previous approaches model
+context and target words with RNN and attention. However, RNNs are difficult to
+parallelize and truncated backpropagation through time brings difficulty in
+remembering long-term patterns. To address this issue, this paper proposes an
+Attentional Encoder Network (AEN) which eschews recurrence and employs
+attention based encoders for the modeling between context and target. We raise
+the label unreliability issue and introduce label smoothing regularization. We
+also apply pre-trained BERT to this task and obtain new state-of-the-art
+results. Experiments and analysis demonstrate the effectiveness and lightweight
+of our model.

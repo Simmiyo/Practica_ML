@@ -1,0 +1,12 @@
+Bidirectional LSTM-CRF for Clinical Concept Extraction
+Extraction of concepts present in patient clinical records is an essential
+step in clinical research. The 2010 i2b2/VA Workshop on Natural Language
+Processing Challenges for clinical records presented concept extraction (CE)
+task, with aim to identify concepts (such as treatments, tests, problems) and
+classify them into predefined categories. State-of-the-art CE approaches
+heavily rely on hand crafted features and domain specific resources which are
+hard to collect and tune. For this reason, this paper employs bidirectional
+LSTM with CRF decoding initialized with general purpose off-the-shelf word
+embeddings for CE. The experimental results achieved on 2010 i2b2/VA reference
+standard corpora using bidirectional LSTM CRF ranks closely with top ranked
+systems.

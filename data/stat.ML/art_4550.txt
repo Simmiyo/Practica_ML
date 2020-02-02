@@ -1,0 +1,27 @@
+Nested Hierarchical Dirichlet Processes for Multi-Level Non-Parametric
+  Admixture Modeling
+Dirichlet Process(DP) is a Bayesian non-parametric prior for infinite mixture
+modeling, where the number of mixture components grows with the number of data
+items. The Hierarchical Dirichlet Process (HDP), is an extension of DP for
+grouped data, often used for non-parametric topic modeling, where each group is
+a mixture over shared mixture densities. The Nested Dirichlet Process (nDP), on
+the other hand, is an extension of the DP for learning group level
+distributions from data, simultaneously clustering the groups. It allows group
+level distributions to be shared across groups in a non-parametric setting,
+leading to a non-parametric mixture of mixtures. The nCRF extends the nDP for
+multilevel non-parametric mixture modeling, enabling modeling topic
+hierarchies. However, the nDP and nCRF do not allow sharing of distributions as
+required in many applications, motivating the need for multi-level
+non-parametric admixture modeling. We address this gap by proposing multi-level
+nested HDPs (nHDP) where the base distribution of the HDP is itself a HDP at
+each level thereby leading to admixtures of admixtures at each level. Because
+of couplings between various HDP levels, scaling up is naturally a challenge
+during inference. We propose a multi-level nested Chinese Restaurant Franchise
+(nCRF) representation for the nested HDP, with which we outline an inference
+algorithm based on Gibbs Sampling. We evaluate our model with the two level
+nHDP for non-parametric entity topic modeling where an inner HDP creates a
+countably infinite set of topic mixtures and associates them with author
+entities, while an outer HDP associates documents with these author entities.
+In our experiments on two real world research corpora, the nHDP is able to
+generalize significantly better than existing models and detect missing author
+entities with a reasonable level of accuracy.

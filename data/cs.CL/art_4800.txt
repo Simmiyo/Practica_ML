@@ -1,0 +1,11 @@
+Detecting Satire in the News with Machine Learning
+We built models with Logistic Regression and linear Support Vector Machines
+on a large dataset consisting of regular news articles and news from satirical
+websites, and showed that such linear classifiers on a corpus with about 60,000
+articles can perform with a precision of 98.7% and a recall of 95.2% on a
+random test set of the news. On the other hand, when testing the classifier on
+"publication sources" which are completely unknown during training, only an
+accuracy of 88.2% and an F1-score of 76.3% are achieved. As another result, we
+showed that the same algorithm can distinguish between news written by the news
+agency itself and paid articles from customers. Here the results had an
+accuracy of 99%.

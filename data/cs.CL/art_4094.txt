@@ -1,0 +1,13 @@
+An Ensemble Model for Sentiment Analysis of Hindi-English Code-Mixed
+  Data
+In multilingual societies like India, code-mixed social media texts comprise
+the majority of the Internet. Detecting the sentiment of the code-mixed user
+opinions plays a crucial role in understanding social, economic and political
+trends. In this paper, we propose an ensemble of character-trigrams based LSTM
+model and word-ngrams based Multinomial Naive Bayes (MNB) model to identify the
+sentiments of Hindi-English (Hi-En) code-mixed data. The ensemble model
+combines the strengths of rich sequential patterns from the LSTM model and
+polarity of keywords from the probabilistic ngram model to identify sentiments
+in sparse and inconsistent code-mixed data. Experiments on reallife user
+code-mixed data reveals that our approach yields state-of-the-art results as
+compared to several baselines and other deep learning based proposed methods.

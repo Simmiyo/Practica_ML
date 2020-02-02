@@ -1,0 +1,26 @@
+In Praise of Artifice Reloaded: Caution with subjective image quality
+  databases
+Subjective image quality databases are a major source of raw data on how the
+visual system works in naturalistic environments. These databases describe the
+sensitivity of many observers to a wide range of distortions (of different
+nature and with different suprathreshold intensities) seen on top of a variety
+of natural images. They seem like a dream for the vision scientist to check the
+models in realistic scenarios.
+  However, while these natural databases are great benchmarks for models
+developed in some other way (e.g. by using the well-controlled artificial
+stimuli of traditional psychophysics), they should be carefully used when
+trying to fit vision models. Given the high dimensionality of the image space,
+it is very likely that some basic phenomenon (e.g. sensitivity to distortions
+in certain environments) are under-represented in the database. Therefore, a
+model fitted on these large-scale natural databases will not reproduce these
+under-represented basic phenomena that could otherwise be easily illustrated
+with well selected artificial stimuli.
+  In this work we study a specific example of the above statement. A
+wavelet+divisive normalization layer of a sensible cascade of linear+nonlinear
+layers fitted to maximize the correlation with subjective opinion of observers
+on a large image quality database fails to reproduce basic crossmasking. Here
+we outline a solution for this problem using artificial stimuli. Then, we show
+that the resulting model is also a competitive solution for the large-scale
+database. In line with Rust and Movshon (2005), our report (misrepresentation
+of basic visual phenomena in subjectively-rated natural image databases) is an
+additional argument in praise of artifice.

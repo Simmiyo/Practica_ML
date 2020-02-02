@@ -1,0 +1,20 @@
+Information capacity of a network of spiking neurons
+We study a model of spiking neurons, with recurrent connections that result
+from learning a set of spatio-temporal patterns with a spike-timing dependent
+plasticity rule and a global inhibition. We investigate the ability of the
+network to store and selectively replay multiple patterns of spikes, with a
+combination of spatial population and phase-of-spike code. Each neuron in a
+pattern is characterized by a binary variable determining if the neuron is
+active in the pattern, and a phase-lag variable representing the spike-timing
+order among the active units. After the learning stage, we study the dynamics
+of the network induced by a brief cue stimulation, and verify that the network
+is able to selectively replay the pattern correctly and persistently. We
+calculate the information capacity of the network, defined as the maximum
+number of patterns that can be encoded in the network times the number of bits
+carried by each pattern, normalized by the number of synapses, and find that it
+can reach a value $\alpha_\text{max}\simeq 0.27$, similar to the one of
+sequence processing neural networks, and almost double of the capacity of the
+static Hopfield model. We study the dependence of the capacity on the global
+inhibition, connection strength (or neuron threshold) and fraction of neurons
+participating to the patterns. The results show that a dual population and
+temporal coding can be optimal for the capacity of an associative memory.

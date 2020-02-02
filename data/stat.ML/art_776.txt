@@ -1,0 +1,14 @@
+Whitening-Free Least-Squares Non-Gaussian Component Analysis
+Non-Gaussian component analysis (NGCA) is an unsupervised linear dimension
+reduction method that extracts low-dimensional non-Gaussian "signals" from
+high-dimensional data contaminated with Gaussian noise. NGCA can be regarded as
+a generalization of projection pursuit (PP) and independent component analysis
+(ICA) to multi-dimensional and dependent non-Gaussian components. Indeed,
+seminal approaches to NGCA are based on PP and ICA. Recently, a novel NGCA
+approach called least-squares NGCA (LSNGCA) has been developed, which gives a
+solution analytically through least-squares estimation of log-density gradients
+and eigendecomposition. However, since pre-whitening of data is involved in
+LSNGCA, it performs unreliably when the data covariance matrix is
+ill-conditioned, which is often the case in high-dimensional data analysis. In
+this paper, we propose a whitening-free LSNGCA method and experimentally
+demonstrate its superiority.

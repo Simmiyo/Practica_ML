@@ -1,0 +1,14 @@
+Zero-calibration cVEP BCI using word prediction: a proof of concept
+Brain Computer Interfaces (BCIs) based on visual evoked potentials (VEP)
+allow for spelling from a keyboard of flashing characters. Among VEP BCIs,
+code-modulated visual evoked potentials (c-VEPs) are designed for high-speed
+communication . In c-VEPs, all characters flash simultaneously. In particular,
+each character flashes according to a predefined 63-bit binary sequence
+(m-sequence), circular-shifted by a different time lag. For a given character,
+the m-sequence evokes a VEP in the electroencephalogram (EEG) of the subject,
+which can be used as a template. This template is obtained during a calibration
+phase at the beginning of each session. Then, the system outputs the desired
+character after a predefined number of repetitions by estimating its time lag
+with respect to the template. Our work avoids the calibration phase, by
+extracting from the VEP relative lags between successive characters, and
+predicting the full word using a dictionary.

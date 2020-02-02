@@ -1,0 +1,13 @@
+A Communication-Efficient Parallel Method for Group-Lasso
+Group-Lasso (gLasso) identifies important explanatory factors in predicting
+the response variable by considering the grouping structure over input
+variables. However, most existing algorithms for gLasso are not scalable to
+deal with large-scale datasets, which are becoming a norm in many applications.
+In this paper, we present a divide-and-conquer based parallel algorithm
+(DC-gLasso) to scale up gLasso in the tasks of regression with grouping
+structures. DC-gLasso only needs two iterations to collect and aggregate the
+local estimates on subsets of the data, and is provably correct to recover the
+true model under certain conditions. We further extend it to deal with
+overlappings between groups. Empirical results on a wide range of synthetic and
+real-world datasets show that DC-gLasso can significantly improve the time
+efficiency without sacrificing regression accuracy.

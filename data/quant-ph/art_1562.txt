@@ -1,0 +1,14 @@
+Nested quantum search and NP-complete problems
+A quantum algorithm is known that solves an unstructured search problem in a
+number of iterations of order $\sqrt{d}$, where $d$ is the dimension of the
+search space, whereas any classical algorithm necessarily scales as $O(d)$. It
+is shown here that an improved quantum search algorithm can be devised that
+exploits the structure of a tree search problem by nesting this standard search
+algorithm. The number of iterations required to find the solution of an average
+instance of a constraint satisfaction problem scales as $\sqrt{d^\alpha}$, with
+a constant $\alpha<1$ depending on the nesting depth and the problem
+considered. When applying a single nesting level to a problem with constraints
+of size 2 such as the graph coloring problem, this constant $\alpha$ is
+estimated to be around 0.62 for average instances of maximum difficulty. This
+corresponds to a square-root speedup over a classical nested search algorithm,
+of which our presented algorithm is the quantum counterpart.

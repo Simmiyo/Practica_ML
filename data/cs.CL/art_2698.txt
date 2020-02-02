@@ -1,0 +1,16 @@
+A Simple Approach to Learn Polysemous Word Embeddings
+Many NLP applications require disambiguating polysemous words. Existing
+methods that learn polysemous word vector representations involve first
+detecting various senses and optimizing the sense-specific embeddings
+separately, which are invariably more involved than single sense learning
+methods such as word2vec. Evaluating these methods is also problematic, as
+rigorous quantitative evaluations in this space is limited, especially when
+compared with single-sense embeddings. In this paper, we propose a simple
+method to learn a word representation, given any context. Our method only
+requires learning the usual single sense representation, and coefficients that
+can be learnt via a single pass over the data. We propose several new test sets
+for evaluating word sense induction, relevance detection, and contextual word
+similarity, significantly supplementing the currently available tests. Results
+on these and other tests show that while our method is embarrassingly simple,
+it achieves excellent results when compared to the state of the art models for
+unsupervised polysemous word representation learning.

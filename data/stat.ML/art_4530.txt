@@ -1,0 +1,15 @@
+Dimension reduction for model-based clustering
+We introduce a dimension reduction method for visualizing the clustering
+structure obtained from a finite mixture of Gaussian densities. Information on
+the dimension reduction subspace is obtained from the variation on group means
+and, depending on the estimated mixture model, on the variation on group
+covariances. The proposed method aims at reducing the dimensionality by
+identifying a set of linear combinations, ordered by importance as quantified
+by the associated eigenvalues, of the original features which capture most of
+the cluster structure contained in the data. Observations may then be projected
+onto such a reduced subspace, thus providing summary plots which help to
+visualize the clustering structure. These plots can be particularly appealing
+in the case of high-dimensional data and noisy structure. The new constructed
+variables capture most of the clustering information available in the data, and
+they can be further reduced to improve clustering performance. We illustrate
+the approach on both simulated and real data sets.

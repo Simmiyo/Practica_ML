@@ -1,0 +1,13 @@
+Bayesian linear regression with Student-t assumptions
+As an automatic method of determining model complexity using the training
+data alone, Bayesian linear regression provides us a principled way to select
+hyperparameters. But one often needs approximation inference if distribution
+assumption is beyond Gaussian distribution. In this paper, we propose a
+Bayesian linear regression model with Student-t assumptions (BLRS), which can
+be inferred exactly. In this framework, both conjugate prior and expectation
+maximization (EM) algorithm are generalized. Meanwhile, we prove that the
+maximum likelihood solution is equivalent to the standard Bayesian linear
+regression with Gaussian assumptions (BLRG). The $q$-EM algorithm for BLRS is
+nearly identical to the EM algorithm for BLRG. It is showed that $q$-EM for
+BLRS can converge faster than EM for BLRG for the task of predicting online
+news popularity.

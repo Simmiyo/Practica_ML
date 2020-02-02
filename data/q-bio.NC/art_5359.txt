@@ -1,0 +1,15 @@
+Multitaper Spectral Analysis of Neuronal Spiking Activity Driven by
+  Latent Stationary Processes
+Investigating the spectral properties of the neural covariates that underlie
+spiking activity is an important problem in systems neuroscience, as it allows
+to study the role of brain rhythms in cognitive functions. While the spectral
+estimation of continuous time-series is a well-established domain, computing
+the spectral representation of these neural covariates from spiking data sets
+forth various challenges due to the intrinsic non-linearities involved. In this
+paper, we address this problem by proposing a variant of the multitaper method
+specifically tailored for point process data. To this end, we construct
+auxiliary spiking statistics from which the eigen-spectra of the underlying
+latent process can be directly inferred using maximum likelihood estimation,
+and thereby the multitaper estimate can be efficiently computed. Comparison of
+our proposed technique to existing methods using simulated data reveals
+significant gains in terms of the bias-variance trade-off.

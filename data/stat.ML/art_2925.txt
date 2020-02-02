@@ -1,0 +1,13 @@
+A Spectral Algorithm for Inference in Hidden Semi-Markov Models
+Hidden semi-Markov models (HSMMs) are latent variable models which allow
+latent state persistence and can be viewed as a generalization of the popular
+hidden Markov models (HMMs). In this paper, we introduce a novel spectral
+algorithm to perform inference in HSMMs. Unlike expectation maximization (EM),
+our approach correctly estimates the probability of given observation sequence
+based on a set of training sequences. Our approach is based on estimating
+moments from the sample, whose number of dimensions depends only
+logarithmically on the maximum length of the hidden state persistence.
+Moreover, the algorithm requires only a few matrix inversions and is therefore
+computationally efficient. Empirical evaluations on synthetic and real data
+demonstrate the advantage of the algorithm over EM in terms of speed and
+accuracy, especially for large datasets.

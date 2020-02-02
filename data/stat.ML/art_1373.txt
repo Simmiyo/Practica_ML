@@ -1,0 +1,19 @@
+A generalized multivariate Student-t mixture model for Bayesian
+  classification and clustering of radar waveforms
+In this paper, a generalized multivariate Student-t mixture model is
+developed for classification and clustering of Low Probability of Intercept
+radar waveforms. A Low Probability of Intercept radar signal is characterized
+by a pulse compression waveform which is either frequency-modulated or
+phase-modulated. The proposed model can classify and cluster different
+modulation types such as linear frequency modulation, non linear frequency
+modulation, polyphase Barker, polyphase P1, P2, P3, P4, Frank and Zadoff codes.
+The classification method focuses on the introduction of a new prior
+distribution for the model hyper-parameters that gives us the possibility to
+handle sensitivity of mixture models to initialization and to allow a less
+restrictive modeling of data. Inference is processed through a Variational
+Bayes method and a Bayesian treatment is adopted for model learning, supervised
+classification and clustering. Moreover, the novel prior distribution is not a
+well-known probability distribution and both deterministic and stochastic
+methods are employed to estimate its expectations. Some numerical experiments
+show that the proposed method is less sensitive to initialization and provides
+more accurate results than the previous state of the art mixture models.

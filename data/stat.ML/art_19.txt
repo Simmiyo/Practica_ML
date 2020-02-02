@@ -1,0 +1,11 @@
+Manifold Learning: The Price of Normalization
+We analyze the performance of a class of manifold-learning algorithms that
+find their output by minimizing a quadratic form under some normalization
+constraints. This class consists of Locally Linear Embedding (LLE), Laplacian
+Eigenmap, Local Tangent Space Alignment (LTSA), Hessian Eigenmaps (HLLE), and
+Diffusion maps. We present and prove conditions on the manifold that are
+necessary for the success of the algorithms. Both the finite sample case and
+the limit case are analyzed. We show that there are simple manifolds in which
+the necessary conditions are violated, and hence the algorithms cannot recover
+the underlying manifolds. Finally, we present numerical results that
+demonstrate our claims.

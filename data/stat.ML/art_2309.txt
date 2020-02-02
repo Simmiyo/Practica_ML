@@ -1,0 +1,14 @@
+Learning Generative Models of Similarity Matrices
+We describe a probabilistic (generative) view of affinity matrices along with
+inference algorithms for a subclass of problems associated with data
+clustering. This probabilistic view is helpful in understanding different
+models and algorithms that are based on affinity functions OF the data. IN
+particular, we show how(greedy) inference FOR a specific probabilistic model IS
+equivalent TO the spectral clustering algorithm.It also provides a framework
+FOR developing new algorithms AND extended models. AS one CASE, we present new
+generative data clustering models that allow us TO infer the underlying
+distance measure suitable for the clustering problem at hand. These models seem
+to perform well in a larger class of problems for which other clustering
+algorithms (including spectral clustering) usually fail. Experimental
+evaluation was performed in a variety point data sets, showing excellent
+performance.

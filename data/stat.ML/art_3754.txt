@@ -1,0 +1,14 @@
+On Column Selection in Approximate Kernel Canonical Correlation Analysis
+We study the problem of column selection in large-scale kernel canonical
+correlation analysis (KCCA) using the Nystr\"om approximation, where one
+approximates two positive semi-definite kernel matrices using "landmark" points
+from the training set. When building low-rank kernel approximations in KCCA,
+previous work mostly samples the landmarks uniformly at random from the
+training set. We propose novel strategies for sampling the landmarks
+non-uniformly based on a version of statistical leverage scores recently
+developed for kernel ridge regression. We study the approximation accuracy of
+the proposed non-uniform sampling strategy, develop an incremental algorithm
+that explores the path of approximation ranks and facilitates efficient model
+selection, and derive the kernel stability of out-of-sample mapping for our
+method. Experimental results on both synthetic and real-world datasets
+demonstrate the promise of our method.

@@ -1,0 +1,20 @@
+A-Ward_p\b{eta}: Effective hierarchical clustering using the Minkowski
+  metric and a fast k -means initialisation
+In this paper we make two novel contributions to hierarchical clustering.
+First, we introduce an anomalous pattern initialisation method for hierarchical
+clustering algorithms, called A-Ward, capable of substantially reducing the
+time they take to converge. This method generates an initial partition with a
+sufficiently large number of clusters. This allows the cluster merging process
+to start from this partition rather than from a trivial partition composed
+solely of singletons. Our second contribution is an extension of the Ward and
+Ward p algorithms to the situation where the feature weight exponent can differ
+from the exponent of the Minkowski distance. This new method, called A-Ward
+p\b{eta} , is able to generate a much wider variety of clustering solutions. We
+also demonstrate that its parameters can be estimated reasonably well by using
+a cluster validity index. We perform numerous experiments using data sets with
+two types of noise, insertion of noise features and blurring within-cluster
+values of some features. These experiments allow us to conclude: (i) our
+anomalous pattern initialisation method does indeed reduce the time a
+hierarchical clustering algorithm takes to complete, without negatively
+impacting its cluster recovery ability; (ii) A-Ward p\b{eta} provides better
+cluster recovery than both Ward and Ward p.

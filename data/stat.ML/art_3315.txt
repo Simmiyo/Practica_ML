@@ -1,0 +1,16 @@
+Normal Bandits of Unknown Means and Variances: Asymptotic Optimality,
+  Finite Horizon Regret Bounds, and a Solution to an Open Problem
+Consider the problem of sampling sequentially from a finite number of $N \geq
+2$ populations, specified by random variables $X^i_k$, $ i = 1,\ldots , N,$ and
+$k = 1, 2, \ldots$; where $X^i_k$ denotes the outcome from population $i$ the
+$k^{th}$ time it is sampled. It is assumed that for each fixed $i$,
+  $\{ X^i_k \}_{k \geq 1}$ is a sequence of i.i.d. normal random variables,
+with unknown mean $\mu_i$ and unknown variance $\sigma_i^2$.
+  The objective is to have a policy $\pi$ for deciding from which of the $N$
+populations to sample form at any time $n=1,2,\ldots$ so as to maximize the
+expected sum of outcomes of $n$ samples or equivalently to minimize the regret
+due to lack on information of the parameters $\mu_i$ and $\sigma_i^2$. In this
+paper, we present a simple inflated sample mean (ISM) index policy that is
+asymptotically optimal in the sense of Theorem 4 below. This resolves a
+standing open problem from Burnetas and Katehakis (1996). Additionally, finite
+horizon regret bounds are given.

@@ -1,0 +1,17 @@
+Two "correlation games" for a nonlinear network with Hebbian excitatory
+  neurons and anti-Hebbian inhibitory neurons
+A companion paper introduces a nonlinear network with Hebbian excitatory (E)
+neurons that are reciprocally coupled with anti-Hebbian inhibitory (I) neurons
+and also receive Hebbian feedforward excitation from sensory (S) afferents. The
+present paper derives the network from two normative principles that are
+mathematically equivalent but conceptually different. The first principle
+formulates unsupervised learning as a constrained optimization problem:
+maximization of S-E correlations subject to a copositivity constraint on E-E
+correlations. A combination of Legendre and Lagrangian duality yields a
+zero-sum continuous game between excitatory and inhibitory connections that is
+solved by the neural network. The second principle defines a zero-sum game
+between E and I cells. E cells want to maximize S-E correlations and minimize
+E-I correlations, while I cells want to maximize I-E correlations and minimize
+power. The conflict between I and E objectives effectively forces the E cells
+to decorrelate from each other, although only incompletely. Legendre duality
+yields the neural network.

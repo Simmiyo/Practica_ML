@@ -1,0 +1,20 @@
+Acquiring Correct Knowledge for Natural Language Generation
+Natural language generation (NLG) systems are computer software systems that
+produce texts in English and other human languages, often from non-linguistic
+input data. NLG systems, like most AI systems, need substantial amounts of
+knowledge. However, our experience in two NLG projects suggests that it is
+difficult to acquire correct knowledge for NLG systems; indeed, every knowledge
+acquisition (KA) technique we tried had significant problems. In general terms,
+these problems were due to the complexity, novelty, and poorly understood
+nature of the tasks our systems attempted, and were worsened by the fact that
+people write so differently. This meant in particular that corpus-based KA
+approaches suffered because it was impossible to assemble a sizable corpus of
+high-quality consistent manually written texts in our domains; and structured
+expert-oriented KA techniques suffered because experts disagreed and because we
+could not get enough information about special and unusual cases to build
+robust systems. We believe that such problems are likely to affect many other
+NLG systems as well. In the long term, we hope that new KA techniques may
+emerge to help NLG system builders. In the shorter term, we believe that
+understanding how individual KA techniques can fail, and using a mixture of
+different KA techniques with different strengths and weaknesses, can help
+developers acquire NLG knowledge that is mostly correct.

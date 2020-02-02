@@ -1,0 +1,21 @@
+The Bayesian Low-Rank Determinantal Point Process Mixture Model
+Determinantal point processes (DPPs) are an elegant model for encoding
+probabilities over subsets, such as shopping baskets, of a ground set, such as
+an item catalog. They are useful for a number of machine learning tasks,
+including product recommendation. DPPs are parametrized by a positive
+semi-definite kernel matrix. Recent work has shown that using a low-rank
+factorization of this kernel provides remarkable scalability improvements that
+open the door to training on large-scale datasets and computing online
+recommendations, both of which are infeasible with standard DPP models that use
+a full-rank kernel. In this paper we present a low-rank DPP mixture model that
+allows us to represent the latent structure present in observed subsets as a
+mixture of a number of component low-rank DPPs, where each component DPP is
+responsible for representing a portion of the observed data. The mixture model
+allows us to effectively address the capacity constraints of the low-rank DPP
+model. We present an efficient and scalable Markov Chain Monte Carlo (MCMC)
+learning algorithm for our model that uses Gibbs sampling and stochastic
+gradient Hamiltonian Monte Carlo (SGHMC). Using an evaluation on several
+real-world product recommendation datasets, we show that our low-rank DPP
+mixture model provides substantially better predictive performance than is
+possible with a single low-rank or full-rank DPP, and significantly better
+performance than several other competing recommendation methods in many cases.

@@ -1,0 +1,21 @@
+On the Power of Adaptivity in Matrix Completion and Approximation
+We consider the related tasks of matrix completion and matrix approximation
+from missing data and propose adaptive sampling procedures for both problems.
+We show that adaptive sampling allows one to eliminate standard incoherence
+assumptions on the matrix row space that are necessary for passive sampling
+procedures. For exact recovery of a low-rank matrix, our algorithm judiciously
+selects a few columns to observe in full and, with few additional measurements,
+projects the remaining columns onto their span. This algorithm exactly recovers
+an $n \times n$ rank $r$ matrix using $O(nr\mu_0 \log^2(r))$ observations,
+where $\mu_0$ is a coherence parameter on the column space of the matrix. In
+addition to completely eliminating any row space assumptions that have pervaded
+the literature, this algorithm enjoys a better sample complexity than any
+existing matrix completion algorithm. To certify that this improvement is due
+to adaptive sampling, we establish that row space coherence is necessary for
+passive sampling algorithms to achieve non-trivial sample complexity bounds.
+  For constructing a low-rank approximation to a high-rank input matrix, we
+propose a simple algorithm that thresholds the singular values of a zero-filled
+version of the input matrix. The algorithm computes an approximation that is
+nearly as good as the best rank-$r$ approximation using $O(nr\mu \log^2(n))$
+samples, where $\mu$ is a slightly different coherence parameter on the matrix
+columns. Again we eliminate assumptions on the row space.

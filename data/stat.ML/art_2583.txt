@@ -1,0 +1,9 @@
+Trading USDCHF filtered by Gold dynamics via HMM coupling
+We devise a USDCHF trading strategy using the dynamics of gold as a filter.
+Our strategy involves modelling both USDCHF and gold using a coupled hidden
+Markov model (CHMM). The observations will be indicators, RSI and CCI, which
+will be used as triggers for our trading signals. Upon decoding the model in
+each iteration, we can get the next most probable state and the next most
+probable observation. Hopefully by taking advantage of intermarket analysis and
+the Markov property implicit in the model, trading with these most probable
+values will produce profitable results.

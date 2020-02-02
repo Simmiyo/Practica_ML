@@ -1,0 +1,14 @@
+Universal, Unsupervised (Rule-Based), Uncovered Sentiment Analysis
+We present a novel unsupervised approach for multilingual sentiment analysis
+driven by compositional syntax-based rules. On the one hand, we exploit some of
+the main advantages of unsupervised algorithms: (1) the interpretability of
+their output, in contrast with most supervised models, which behave as a black
+box and (2) their robustness across different corpora and domains. On the other
+hand, by introducing the concept of compositional operations and exploiting
+syntactic information in the form of universal dependencies, we tackle one of
+their main drawbacks: their rigidity on data that are structured differently
+depending on the language concerned. Experiments show an improvement both over
+existing unsupervised methods, and over state-of-the-art supervised models when
+evaluating outside their corpus of origin. Experiments also show how the same
+compositional operations can be shared across languages. The system is
+available at http://www.grupolys.org/software/UUUSA/

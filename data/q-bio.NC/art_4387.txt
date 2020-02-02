@@ -1,0 +1,24 @@
+A Comparison of Computational Models for the Extracellular Potential of
+  Neurons
+The extracellular space has an ambiguous role in neuroscience. It is present
+in every physiologically relevant system and often used as a measurement site
+in experimental recordings, but it has received subordinate attention compared
+to the intracellular domain. In computational modeling, it is often regarded as
+a passive, homogeneous resistive medium with a constant conductivity, which
+greatly simplifies the computation of extracellular potentials. However, recent
+studies have shown that local ionic diffusion and capacitive effects of
+electrically active membranes can have a substantial impact on the
+extracellular potential. These effects can not be described by traditional
+models, and they have been subject to theoretical and experimental analyses. We
+strive to give an overview over recent progress in modeling the extracellular
+space with special regard towards the concentration and potential dynamics on
+different temporal and spatial scales. Three models with distinct assumptions
+and levels of detail are compared both theoretically and by means of numerical
+simulations: the classical volume conductor (VC) model, which is most
+frequently used in form of the line source approximation (LSA); the very
+detailed, but computationally intensive Poisson-Nernst-Planck model of
+electrodiffusion (PNP); and an intermediate one called the electroneutral model
+(EN). The results clearly show that there is no one model for all applications,
+as they show significantly different responses especially close to neuronal
+membranes. Finally, we list some common use cases for model simulations and
+give recommendations on which model to use in each situation.

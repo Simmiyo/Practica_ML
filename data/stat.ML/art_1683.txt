@@ -1,0 +1,26 @@
+NESVM: a Fast Gradient Method for Support Vector Machines
+Support vector machines (SVMs) are invaluable tools for many practical
+applications in artificial intelligence, e.g., classification and event
+recognition. However, popular SVM solvers are not sufficiently efficient for
+applications with a great deal of samples as well as a large number of
+features. In this paper, thus, we present NESVM, a fast gradient SVM solver
+that can optimize various SVM models, e.g., classical SVM, linear programming
+SVM and least square SVM. Compared against SVM-Perf
+\cite{SVM_Perf}\cite{PerfML} (its convergence rate in solving the dual SVM is
+upper bounded by $\mathcal O(1/\sqrt{k})$, wherein $k$ is the number of
+iterations.) and Pegasos \cite{Pegasos} (online SVM that converges at rate
+$\mathcal O(1/k)$ for the primal SVM), NESVM achieves the optimal convergence
+rate at $\mathcal O(1/k^{2})$ and a linear time complexity. In particular,
+NESVM smoothes the non-differentiable hinge loss and $\ell_1$-norm in the
+primal SVM. Then the optimal gradient method without any line search is adopted
+to solve the optimization. In each iteration round, the current gradient and
+historical gradients are combined to determine the descent direction, while the
+Lipschitz constant determines the step size. Only two matrix-vector
+multiplications are required in each iteration round. Therefore, NESVM is more
+efficient than existing SVM solvers. In addition, NESVM is available for both
+linear and nonlinear kernels. We also propose "homotopy NESVM" to accelerate
+NESVM by dynamically decreasing the smooth parameter and using the continuation
+method. Our experiments on census income categorization, indoor/outdoor scene
+classification, event recognition and scene recognition suggest the efficiency
+and the effectiveness of NESVM. The MATLAB code of NESVM will be available on
+our website for further assessment.

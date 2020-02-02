@@ -1,0 +1,23 @@
+Category decoding of visual stimuli from human brain activity using a
+  bidirectional recurrent neural network to simulate bidirectional information
+  flows in human visual cortices
+Recently, visual encoding and decoding based on functional magnetic resonance
+imaging (fMRI) have realized many achievements with the rapid development of
+deep network computation. Despite the hierarchically similar representations of
+deep network and human vision, visual information flows from primary visual
+cortices to high visual cortices and vice versa based on the bottom-up and
+top-down manners, respectively. Inspired by the bidirectional information
+flows, we proposed a bidirectional recurrent neural network (BRNN)-based method
+to decode the categories from fMRI data. The forward and backward directions in
+the BRNN module characterized the bottom-up and top-down manners, respectively.
+The proposed method regarded the selected voxels of each visual cortex region
+(V1, V2, V3, V4, and LO) as one node in the sequence fed into the BRNN module
+and combined the output of the BRNN module to decode the categories with the
+subsequent fully connected layer. This new method allows the efficient
+utilization of hierarchical information representations and bidirectional
+information flows in human visual cortices. Experiment results demonstrated
+that our method improved the accuracy of three-level category decoding than
+other methods, which implicitly validated the hierarchical and bidirectional
+human visual representations. Comparative analysis revealed that the category
+representations of human visual cortices were hierarchical, distributed,
+complementary, and correlative.

@@ -1,0 +1,20 @@
+Dynamics of random recurrent networks with correlated low-rank structure
+A given neural network in the brain is involved in many different tasks. This
+implies that, when considering a specific task, the network's connectivity
+contains a component which is related to the task and another component which
+can be considered random. Understanding the interplay between the structured
+and random components, and their effect on network dynamics and functionality
+is an important open question. Recent studies addressed the co-existence of
+random and structured connectivity, but considered the two parts to be
+uncorrelated. This constraint limits the dynamics and leaves the random
+connectivity non-functional. Algorithms that train networks to perform specific
+tasks typically generate correlations between structure and random
+connectivity. Here we study nonlinear networks with correlated structured and
+random components, assuming the structure to have a low rank. We develop an
+analytic framework to establish the precise effect of the correlations on the
+eigenvalue spectrum of the joint connectivity. We find that the spectrum
+consists of a bulk and multiple outliers, whose location is predicted by our
+theory. Using mean-field theory, we show that these outliers directly determine
+both the fixed points of the system and their stability. Taken together, our
+analysis elucidates how correlations allow structured and random connectivity
+to synergistically extend the range of computations available to networks.

@@ -1,0 +1,17 @@
+Fast Stability Scanning for Future Grid Scenario Analysis
+Future grid scenario analysis requires a major departure from conventional
+power system planning, where only a handful of most critical conditions is
+typically analyzed. To capture the inter-seasonal variations in renewable
+generation of a future grid scenario necessitates the use of computationally
+intensive time-series analysis. In this paper, we propose a planning framework
+for fast stability scanning of future grid scenarios using a novel feature
+selection algorithm and a novel self-adaptive PSO-k-means clustering algorithm.
+To achieve the computational speed-up, the stability analysis is performed only
+on small number of representative cluster centroids instead of on the full set
+of operating conditions. As a case study, we perform small-signal stability and
+steady-state voltage stability scanning of a simplified model of the Australian
+National Electricity Market with significant penetration of renewable
+generation. The simulation results show the effectiveness of the proposed
+approach. Compared to an exhaustive time series scanning, the proposed
+framework reduced the computational burden up to ten times, with an acceptable
+level of accuracy.

@@ -1,0 +1,10 @@
+Online learning in MDPs with side information
+We study online learning of finite Markov decision process (MDP) problems
+when a side information vector is available. The problem is motivated by
+applications such as clinical trials, recommendation systems, etc. Such
+applications have an episodic structure, where each episode corresponds to a
+patient/customer. Our objective is to compete with the optimal dynamic policy
+that can take side information into account.
+  We propose a computationally efficient algorithm and show that its regret is
+at most $O(\sqrt{T})$, where $T$ is the number of rounds. To best of our
+knowledge, this is the first regret bound for this setting.

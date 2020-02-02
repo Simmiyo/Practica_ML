@@ -1,0 +1,20 @@
+Neural Decision Trees
+In this paper we propose a synergistic melting of neural networks and
+decision trees (DT) we call neural decision trees (NDT). NDT is an architecture
+a la decision tree where each splitting node is an independent multilayer
+perceptron allowing oblique decision functions or arbritrary nonlinear decision
+function if more than one layer is used. This way, each MLP can be seen as a
+node of the tree. We then show that with the weight sharing asumption among
+those units, we end up with a Hashing Neural Network (HNN) which is a
+multilayer perceptron with sigmoid activation function for the last layer as
+opposed to the standard softmax. The output units then jointly represent the
+probability to be in a particular region. The proposed framework allows for
+global optimization as opposed to greedy in DT and differentiability w.r.t. all
+parameters and the input, allowing easy integration in any learnable pipeline,
+for example after CNNs for computer vision tasks. We also demonstrate the
+modeling power of HNN allowing to learn union of disjoint regions for final
+clustering or classification making it more general and powerful than standard
+softmax MLP requiring linear separability thus reducing the need on the inner
+layer to perform complex data transformations. We finally show experiments for
+supervised, semi-suppervised and unsupervised tasks and compare results with
+standard DTs and MLPs.

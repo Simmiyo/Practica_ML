@@ -1,0 +1,16 @@
+Convergence analysis of belief propagation for pairwise linear Gaussian
+  models
+Gaussian belief propagation (BP) has been widely used for distributed
+inference in large-scale networks such as the smart grid, sensor networks, and
+social networks, where local measurements/observations are scattered over a
+wide geographical area. One particular case is when two neighboring agents
+share a common observation. For example, to estimate voltage in the direct
+current (DC) power flow model, the current measurement over a power line is
+proportional to the voltage difference between two neighboring buses. When
+applying the Gaussian BP algorithm to this type of problem, the convergence
+condition remains an open issue. In this paper, we analyze the convergence
+properties of Gaussian BP for this pairwise linear Gaussian model. We show
+analytically that the updating information matrix converges at a geometric rate
+to a unique positive definite matrix with arbitrary positive semidefinite
+initial value and further provide the necessary and sufficient convergence
+condition for the belief mean vector to the optimal estimate.

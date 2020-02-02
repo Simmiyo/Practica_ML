@@ -1,0 +1,14 @@
+Detecting Overlapping Communities in Networks Using Spectral Methods
+Community detection is a fundamental problem in network analysis which is
+made more challenging by overlaps between communities which often occur in
+practice. Here we propose a general, flexible, and interpretable generative
+model for overlapping communities, which can be thought of as a generalization
+of the degree-corrected stochastic block model. We develop an efficient
+spectral algorithm for estimating the community memberships, which deals with
+the overlaps by employing the K-medians algorithm rather than the usual K-means
+for clustering in the spectral domain. We show that the algorithm is
+asymptotically consistent when networks are not too sparse and the overlaps
+between communities not too large. Numerical experiments on both simulated
+networks and many real social networks demonstrate that our method performs
+very well compared to a number of benchmark methods for overlapping community
+detection.

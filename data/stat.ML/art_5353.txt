@@ -1,0 +1,19 @@
+Modular Representation of Layered Neural Networks
+Layered neural networks have greatly improved the performance of various
+applications including image processing, speech recognition, natural language
+processing, and bioinformatics. However, it is still difficult to discover or
+interpret knowledge from the inference provided by a layered neural network,
+since its internal representation has many nonlinear and complex parameters
+embedded in hierarchical layers. Therefore, it becomes important to establish a
+new methodology by which layered neural networks can be understood.
+  In this paper, we propose a new method for extracting a global and simplified
+structure from a layered neural network. Based on network analysis, the
+proposed method detects communities or clusters of units with similar
+connection patterns. We show its effectiveness by applying it to three use
+cases. (1) Network decomposition: it can decompose a trained neural network
+into multiple small independent networks thus dividing the problem and reducing
+the computation time. (2) Training assessment: the appropriateness of a trained
+result with a given hyperparameter or randomly chosen initial parameters can be
+evaluated by using a modularity index. And (3) data analysis: in practical data
+it reveals the community structure in the input, hidden, and output layers,
+which serves as a clue for discovering knowledge from a trained neural network.

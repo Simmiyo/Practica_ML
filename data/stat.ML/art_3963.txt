@@ -1,0 +1,22 @@
+Scalable Dynamic Topic Modeling with Clustered Latent Dirichlet
+  Allocation (CLDA)
+Topic modeling, a method for extracting the underlying themes from a
+collection of documents, is an increasingly important component of the design
+of intelligent systems enabling the sense-making of highly dynamic and diverse
+streams of text data. Traditional methods such as Dynamic Topic Modeling (DTM)
+do not lend themselves well to direct parallelization because of dependencies
+from one time step to another. In this paper, we introduce and empirically
+analyze Clustered Latent Dirichlet Allocation (CLDA), a method for extracting
+dynamic latent topics from a collection of documents. Our approach is based on
+data decomposition in which the data is partitioned into segments, followed by
+topic modeling on the individual segments. The resulting local models are then
+combined into a global solution using clustering. The decomposition and
+resulting parallelization leads to very fast runtime even on very large
+datasets. Our approach furthermore provides insight into how the composition of
+topics changes over time and can also be applied using other data partitioning
+strategies over any discrete features of the data, such as geographic features
+or classes of users. In this paper CLDA is applied successfully to seventeen
+years of NIPS conference papers (2,484 documents and 3,280,697 words),
+seventeen years of computer science journal abstracts (533,560 documents and
+32,551,540 words), and to forty years of the PubMed corpus (4,025,978 documents
+and 273,853,980 words).

@@ -1,0 +1,13 @@
+Fast Spectral Clustering Using Autoencoders and Landmarks
+In this paper, we introduce an algorithm for performing spectral clustering
+efficiently. Spectral clustering is a powerful clustering algorithm that
+suffers from high computational complexity, due to eigen decomposition. In this
+work, we first build the adjacency matrix of the corresponding graph of the
+dataset. To build this matrix, we only consider a limited number of points,
+called landmarks, and compute the similarity of all data points with the
+landmarks. Then, we present a definition of the Laplacian matrix of the graph
+that enable us to perform eigen decomposition efficiently, using a deep
+autoencoder. The overall complexity of the algorithm for eigen decomposition is
+$O(np)$, where $n$ is the number of data points and $p$ is the number of
+landmarks. At last, we evaluate the performance of the algorithm in different
+experiments.

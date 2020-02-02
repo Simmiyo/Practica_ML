@@ -1,0 +1,12 @@
+A probabilistic top-down parser for minimalist grammars
+This paper describes a probabilistic top-down parser for minimalist grammars.
+Top-down parsers have the great advantage of having a certain predictive power
+during the parsing, which takes place in a left-to-right reading of the
+sentence. Such parsers have already been well-implemented and studied in the
+case of Context-Free Grammars, which are already top-down, but these are
+difficult to adapt to Minimalist Grammars, which generate sentences bottom-up.
+I propose here a way of rewriting Minimalist Grammars as Linear Context-Free
+Rewriting Systems, allowing to easily create a top-down parser. This rewriting
+allows also to put a probabilistic field on these grammars, which can be used
+to accelerate the parser. Finally, I propose a method of refining the
+probabilistic field by using algorithms used in data compression.

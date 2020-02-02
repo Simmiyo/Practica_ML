@@ -1,0 +1,11 @@
+Learning How to Self-Learn: Enhancing Self-Training Using Neural
+  Reinforcement Learning
+Self-training is a useful strategy for semi-supervised learning, leveraging
+raw texts for enhancing model performances. Traditional self-training methods
+depend on heuristics such as model confidence for instance selection, the
+manual adjustment of which can be expensive. To address these challenges, we
+propose a deep reinforcement learning method to learn the self-training
+strategy automatically. Based on neural network representation of sentences,
+our model automatically learns an optimal policy for instance selection.
+Experimental results show that our approach outperforms the baseline solutions
+in terms of better tagging performances and stability.

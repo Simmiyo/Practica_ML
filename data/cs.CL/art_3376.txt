@@ -1,0 +1,18 @@
+DisMo: A Morphosyntactic, Disfluency and Multi-Word Unit Annotator. An
+  Evaluation on a Corpus of French Spontaneous and Read Speech
+We present DisMo, a multi-level annotator for spoken language corpora that
+integrates part-of-speech tagging with basic disfluency detection and
+annotation, and multi-word unit recognition. DisMo is a hybrid system that uses
+a combination of lexical resources, rules, and statistical models based on
+Conditional Random Fields (CRF). In this paper, we present the first public
+version of DisMo for French. The system is trained and its performance
+evaluated on a 57k-token corpus, including different varieties of French spoken
+in three countries (Belgium, France and Switzerland). DisMo supports a
+multi-level annotation scheme, in which the tokenisation to minimal word units
+is complemented with multi-word unit groupings (each having associated POS
+tags), as well as separate levels for annotating disfluencies and discourse
+phenomena. We present the system's architecture, linguistic resources and its
+hierarchical tag-set. Results show that DisMo achieves a precision of 95%
+(finest tag-set) to 96.8% (coarse tag-set) in POS-tagging non-punctuated,
+sound-aligned transcriptions of spoken French, while also offering substantial
+possibilities for automated multi-level annotation.

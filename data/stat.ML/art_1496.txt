@@ -1,0 +1,10 @@
+Overpruning in Variational Bayesian Neural Networks
+The motivations for using variational inference (VI) in neural networks
+differ significantly from those in latent variable models. This has a
+counter-intuitive consequence; more expressive variational approximations can
+provide significantly worse predictions as compared to those with less
+expressive families. In this work we make two contributions. First, we identify
+a cause of this performance gap, variational over-pruning. Second, we introduce
+a theoretically grounded explanation for this phenomenon. Our perspective sheds
+light on several related published results and provides intuition into the
+design of effective variational approximations of neural networks.

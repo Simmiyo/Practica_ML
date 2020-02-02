@@ -1,0 +1,12 @@
+Randomized Smoothing for Stochastic Optimization
+We analyze convergence rates of stochastic optimization procedures for
+non-smooth convex optimization problems. By combining randomized smoothing
+techniques with accelerated gradient methods, we obtain convergence rates of
+stochastic optimization procedures, both in expectation and with high
+probability, that have optimal dependence on the variance of the gradient
+estimates. To the best of our knowledge, these are the first variance-based
+rates for non-smooth optimization. We give several applications of our results
+to statistical estimation problems, and provide experimental results that
+demonstrate the effectiveness of the proposed algorithms. We also describe how
+a combination of our algorithm with recent work on decentralized optimization
+yields a distributed stochastic optimization algorithm that is order-optimal.

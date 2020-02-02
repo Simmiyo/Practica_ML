@@ -1,0 +1,13 @@
+Knowlege Graph Embedding by Flexible Translation
+Knowledge graph embedding refers to projecting entities and relations in
+knowledge graph into continuous vector spaces. State-of-the-art methods, such
+as TransE, TransH, and TransR build embeddings by treating relation as
+translation from head entity to tail entity. However, previous models can not
+deal with reflexive/one-to-many/many-to-one/many-to-many relations properly, or
+lack of scalability and efficiency. Thus, we propose a novel method, flexible
+translation, named TransF, to address the above issues. TransF regards relation
+as translation between head entity vector and tail entity vector with flexible
+magnitude. To evaluate the proposed model, we conduct link prediction and
+triple classification on benchmark datasets. Experimental results show that our
+method remarkably improve the performance compared with several
+state-of-the-art baselines.

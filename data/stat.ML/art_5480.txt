@@ -1,0 +1,16 @@
+A New Measure of Conditional Dependence
+Measuring conditional dependencies among the variables of a network is of
+great interest to many disciplines. This paper studies some shortcomings of the
+existing dependency measures in detecting direct causal influences or their
+lack of ability for group selection to capture strong dependencies and
+accordingly introduces a new statistical dependency measure to overcome them.
+This measure is inspired by Dobrushin's coefficients and based on the fact that
+there is no dependency between $X$ and $Y$ given another variable $Z$, if and
+only if the conditional distribution of $Y$ given $X=x$ and $Z=z$ does not
+change when $X$ takes another realization $x'$ while $Z$ takes the same
+realization $z$. We show the advantages of this measure over the related
+measures in the literature. Moreover, we establish the connection between our
+measure and the integral probability metric (IPM) that helps to develop
+estimators of the measure with lower complexity compared to other relevant
+information theoretic based measures. Finally, we show the performance of this
+measure through numerical simulations.

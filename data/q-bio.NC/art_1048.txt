@@ -1,0 +1,18 @@
+Sparse convolutional coding for neuronal ensemble identification
+Cell ensembles, originally proposed by Donald Hebb in 1949, are subsets of
+synchronously firing neurons and proposed to explain basic firing behavior in
+the brain. Despite having been studied for many years no conclusive evidence
+has been presented yet for their existence and involvement in information
+processing such that their identification is still a topic of modern research,
+especially since simultaneous recordings of large neuronal population have
+become possible in the past three decades. These large recordings pose a
+challenge for methods allowing to identify individual neurons forming cell
+ensembles and their time course of activity inside the vast amounts of spikes
+recorded. Related work so far focused on the identification of purely simulta-
+neously firing neurons using techniques such as Principal Component Analysis.
+In this paper we propose a new algorithm based on sparse convolution coding
+which is also able to find ensembles with temporal structure. Application of
+our algorithm to synthetically generated datasets shows that it outperforms
+previous work and is able to accurately identify temporal cell ensembles even
+when those contain overlapping neurons or when strong background noise is
+present.

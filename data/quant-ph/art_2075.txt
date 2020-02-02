@@ -1,0 +1,12 @@
+Quantum cryptography on noisy channels: quantum versus classical
+  key-agreement protocols
+When the 4-state or the 6-state protocol of quantum cryptography is carried
+out on a noisy (i.e. realistic) quantum channel, then the raw key has to be
+processed to reduce the information of an adversary Eve down to an arbitrarily
+low value, providing Alice and Bob with a secret key. In principle, quantum
+algorithms as well as classical algorithms can be used for this processing. A
+natural question is: up to which error rate on the raw key is a secret-key
+agreement at all possible? Under the assumption of incoherent eavesdropping, we
+find that the quantum and classical limits are precisely the same: as long as
+Alice and Bob share some entanglement both quantum and classical protocols
+provide secret keys.

@@ -1,0 +1,13 @@
+Contextual Semantic Parsing using Crowdsourced Spatial Descriptions
+We describe a contextual parser for the Robot Commands Treebank, a new
+crowdsourced resource. In contrast to previous semantic parsers that select the
+most-probable parse, we consider the different problem of parsing using
+additional situational context to disambiguate between different readings of a
+sentence. We show that multiple semantic analyses can be searched using dynamic
+programming via interaction with a spatial planner, to guide the parsing
+process. We are able to parse sentences in near linear-time by ruling out
+analyses early on that are incompatible with spatial context. We report a 34%
+upper bound on accuracy, as our planner correctly processes spatial context for
+3,394 out of 10,000 sentences. However, our parser achieves a 96.53%
+exact-match score for parsing within the subset of sentences recognized by the
+planner, compared to 82.14% for a non-contextual parser.

@@ -1,0 +1,13 @@
+Gamblets for opening the complexity-bottleneck of implicit schemes for
+  hyperbolic and parabolic ODEs/PDEs with rough coefficients
+Implicit schemes are popular methods for the integration of time dependent
+PDEs such as hyperbolic and parabolic PDEs. However the necessity to solve
+corresponding linear systems at each time step constitutes a complexity
+bottleneck in their application to PDEs with rough coefficients. We present a
+generalization of gamblets introduced in \cite{OwhadiMultigrid:2015} enabling
+the resolution of these implicit systems in near-linear complexity and provide
+rigorous a-priori error bounds on the resulting numerical approximations of
+hyperbolic and parabolic PDEs. These generalized gamblets induce a
+multiresolution decomposition of the solution space that is adapted to both the
+underlying (hyperbolic and parabolic) PDE (and the system of ODEs resulting
+from space discretization) and to the time-steps of the numerical scheme.

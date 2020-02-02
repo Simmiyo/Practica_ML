@@ -1,0 +1,15 @@
+Chinese Lexical Analysis with Deep Bi-GRU-CRF Network
+Lexical analysis is believed to be a crucial step towards natural language
+understanding and has been widely studied. Recent years, end-to-end lexical
+analysis models with recurrent neural networks have gained increasing
+attention. In this report, we introduce a deep Bi-GRU-CRF network that jointly
+models word segmentation, part-of-speech tagging and named entity recognition
+tasks. We trained the model using several massive corpus pre-tagged by our best
+Chinese lexical analysis tool, together with a small, yet high-quality human
+annotated corpus. We conducted balanced sampling between different corpora to
+guarantee the influence of human annotations, and fine-tune the CRF decoding
+layer regularly during the training progress. As evaluated by linguistic
+experts, the model achieved a 95.5% accuracy on the test set, roughly 13%
+relative error reduction over our (previously) best Chinese lexical analysis
+tool. The model is computationally efficient, achieving the speed of 2.3K
+characters per second with one thread.

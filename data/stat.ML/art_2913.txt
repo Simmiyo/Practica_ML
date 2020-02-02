@@ -1,0 +1,15 @@
+Nonparametric Hierarchical Clustering of Functional Data
+In this paper, we deal with the problem of curves clustering. We propose a
+nonparametric method which partitions the curves into clusters and discretizes
+the dimensions of the curve points into intervals. The cross-product of these
+partitions forms a data-grid which is obtained using a Bayesian model selection
+approach while making no assumptions regarding the curves. Finally, a
+post-processing technique, aiming at reducing the number of clusters in order
+to improve the interpretability of the clustering, is proposed. It consists in
+optimally merging the clusters step by step, which corresponds to an
+agglomerative hierarchical classification whose dissimilarity measure is the
+variation of the criterion. Interestingly this measure is none other than the
+sum of the Kullback-Leibler divergences between clusters distributions before
+and after the merges. The practical interest of the approach for functional
+data exploratory analysis is presented and compared with an alternative
+approach on an artificial and a real world data set.

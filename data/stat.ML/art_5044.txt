@@ -1,0 +1,15 @@
+Max-Norm Optimization for Robust Matrix Recovery
+This paper studies the matrix completion problem under arbitrary sampling
+schemes. We propose a new estimator incorporating both max-norm and
+nuclear-norm regularization, based on which we can conduct efficient low-rank
+matrix recovery using a random subset of entries observed with additive noise
+under general non-uniform and unknown sampling distributions. This method
+significantly relaxes the uniform sampling assumption imposed for the widely
+used nuclear-norm penalized approach, and makes low-rank matrix recovery
+feasible in more practical settings. Theoretically, we prove that the proposed
+estimator achieves fast rates of convergence under different settings.
+Computationally, we propose an alternating direction method of multipliers
+algorithm to efficiently compute the estimator, which bridges a gap between
+theory and practice of machine learning methods with max-norm regularization.
+Further, we provide thorough numerical studies to evaluate the proposed method
+using both simulated and real datasets.

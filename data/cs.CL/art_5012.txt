@@ -1,0 +1,13 @@
+Augmenting Compositional Models for Knowledge Base Completion Using
+  Gradient Representations
+Neural models of Knowledge Base data have typically employed compositional
+representations of graph objects: entity and relation embeddings are
+systematically combined to evaluate the truth of a candidate Knowedge Base
+entry. Using a model inspired by Harmonic Grammar, we propose to tokenize
+triplet embeddings by subjecting them to a process of optimization with respect
+to learned well-formedness conditions on Knowledge Base triplets. The resulting
+model, known as Gradient Graphs, leads to sizable improvements when implemented
+as a companion to compositional models. Also, we show that the
+"supracompositional" triplet token embeddings it produces have interpretable
+properties that prove helpful in performing inference on the resulting triplet
+representations.

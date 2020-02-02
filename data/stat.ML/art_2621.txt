@@ -1,0 +1,15 @@
+Learning Max-Margin Tree Predictors
+Structured prediction is a powerful framework for coping with joint
+prediction of interacting outputs. A central difficulty in using this framework
+is that often the correct label dependence structure is unknown. At the same
+time, we would like to avoid an overly complex structure that will lead to
+intractable prediction. In this work we address the challenge of learning tree
+structured predictive models that achieve high accuracy while at the same time
+facilitate efficient (linear time) inference. We start by proving that this
+task is in general NP-hard, and then suggest an approximate alternative.
+Briefly, our CRANK approach relies on a novel Circuit-RANK regularizer that
+penalizes non-tree structures and that can be optimized using a CCCP procedure.
+We demonstrate the effectiveness of our approach on several domains and show
+that, despite the relative simplicity of the structure, prediction accuracy is
+competitive with a fully connected model that is computationally costly at
+prediction time.

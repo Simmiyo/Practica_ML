@@ -1,0 +1,14 @@
+A Robust Ensemble Approach to Learn From Positive and Unlabeled Data
+  Using SVM Base Models
+We present a novel approach to learn binary classifiers when only positive
+and unlabeled instances are available (PU learning). This problem is routinely
+cast as a supervised task with label noise in the negative set. We use an
+ensemble of SVM models trained on bootstrap resamples of the training data for
+increased robustness against label noise. The approach can be considered in a
+bagging framework which provides an intuitive explanation for its mechanics in
+a semi-supervised setting. We compared our method to state-of-the-art
+approaches in simulations using multiple public benchmark data sets. The
+included benchmark comprises three settings with increasing label noise: (i)
+fully supervised, (ii) PU learning and (iii) PU learning with false positives.
+Our approach shows a marginal improvement over existing methods in the second
+setting and a significant improvement in the third.

@@ -1,0 +1,19 @@
+One-Dimensional Population Density Approaches to Recurrently Coupled
+  Networks of Neurons with Noise
+Mean-field systems have been previously derived for networks of coupled,
+two-dimensional, integrate-and-fire neurons such as the Izhikevich, adapting
+exponential (AdEx) and quartic integrate and fire (QIF), among others.
+Unfortunately, the mean-field systems have a degree of frequency error and the
+networks analyzed often do not include noise when there is adaptation. Here, we
+derive a one-dimensional partial differential equation (PDE) approximation for
+the marginal voltage density under a first order moment closure for coupled
+networks of integrate-and-fire neurons with white noise inputs. The PDE has
+substantially less frequency error than the mean-field system, and provides a
+great deal more information, at the cost of analytical tractability. The
+convergence properties of the mean-field system in the low noise limit are
+elucidated. A novel method for the analysis of the stability of the
+asynchronous tonic firing solution is also presented and implemented. Unlike
+previous attempts at stability analysis with these network types, information
+about the marginal densities of the adaptation variables is used. This method
+can in principle be applied to other systems with nonlinear partial
+differential equations.

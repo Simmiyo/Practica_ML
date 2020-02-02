@@ -1,0 +1,17 @@
+Gaussian Process for Noisy Inputs with Ordering Constraints
+We study the Gaussian Process regression model in the context of training
+data with noise in both input and output. The presence of two sources of noise
+makes the task of learning accurate predictive models extremely challenging.
+However, in some instances additional constraints may be available that can
+reduce the uncertainty in the resulting predictive models. In particular, we
+consider the case of monotonically ordered latent input, which occurs in many
+application domains that deal with temporal data. We present a novel inference
+and learning approach based on non-parametric Gaussian variational
+approximation to learn the GP model while taking into account the new
+constraints. The resulting strategy allows one to gain access to posterior
+estimates of both the input and the output and results in improved predictive
+performance. We compare our proposed models to state-of-the-art Noisy Input
+Gaussian Process (NIGP) and other competing approaches on synthetic and real
+sea-level rise data. Experimental results suggest that the proposed approach
+consistently outperforms selected methods while, at the same time, reducing the
+computational costs of learning and inference.

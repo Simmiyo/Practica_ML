@@ -1,0 +1,21 @@
+First passage time distribution for spiking neuron with delayed
+  excitatory feedback
+A class of spiking neuronal models with threshold 2 is considered. It is
+defined by a set of conditions typical for basic threshold-type models, such as
+the leaky integrate-and-fire (LIF) or the binding neuron model and also for
+some artificial neurons. A neuron is stimulated with a Poisson stream of
+excitatory impulses. Each output impulse is conveyed through the feedback line
+to the neuron input after finite delay $\Delta$. This impulse is identical to
+those delivered from the input stream. We have obtained a general relation
+allowing calculating exactly the probability density function (PDF) $p(t)$ for
+distribution of the first passage time of crossing the threshold, which is the
+distribution of output interspike intervals (ISI) values for this neuron. The
+calculation is based on known PDF $p^0(t)$ for that same neuron without
+feedback, intensity of the input stream $\lambda$ and properties of the
+feedback line. Also, we derive exact relation for calculating the moments of
+$p(t)$ based on known moments of $p^0(t)$.
+  The obtained general expression for $p(t)$ is checked numerically using Monte
+Carlo simulation for the case of LIF model. The course of $p(t)$ has a
+$\delta$-function type peculiarity. This fact contributes to the discussion
+about the possibility to model neuronal activity with Poisson process,
+supporting the "no" answer.

@@ -1,0 +1,14 @@
+Two-pass Discourse Segmentation with Pairing and Global Features
+Previous attempts at RST-style discourse segmentation typically adopt
+features centered on a single token to predict whether to insert a boundary
+before that token. In contrast, we develop a discourse segmenter utilizing a
+set of pairing features, which are centered on a pair of adjacent tokens in the
+sentence, by equally taking into account the information from both tokens.
+Moreover, we propose a novel set of global features, which encode
+characteristics of the segmentation as a whole, once we have an initial
+segmentation. We show that both the pairing and global features are useful on
+their own, and their combination achieved an $F_1$ of 92.6% of identifying
+in-sentence discourse boundaries, which is a 17.8% error-rate reduction over
+the state-of-the-art performance, approaching 95% of human performance. In
+addition, similar improvement is observed across different classification
+frameworks.

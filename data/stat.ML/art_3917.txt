@@ -1,0 +1,10 @@
+Dataiku's Solution to SPHERE's Activity Recognition Challenge
+Our team won the second prize of the Safe Aging with SPHERE Challenge
+organized by SPHERE, in conjunction with ECML-PKDD and Driven Data. The goal of
+the competition was to recognize activities performed by humans, using sensor
+data. This paper presents our solution. It is based on a rich pre-processing
+and state of the art machine learning methods. From the raw train data, we
+generate a synthetic train set with the same statistical characteristics as the
+test set. We then perform feature engineering. The machine learning modeling
+part is based on stacking weak learners through a grid searched XGBoost
+algorithm. Finally, we use post-processing to smooth our predictions over time.

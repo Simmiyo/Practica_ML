@@ -1,0 +1,21 @@
+Negative Binomial Process Count and Mixture Modeling
+The seemingly disjoint problems of count and mixture modeling are united
+under the negative binomial (NB) process. A gamma process is employed to model
+the rate measure of a Poisson process, whose normalization provides a random
+probability measure for mixture modeling and whose marginalization leads to an
+NB process for count modeling. A draw from the NB process consists of a Poisson
+distributed finite number of distinct atoms, each of which is associated with a
+logarithmic distributed number of data samples. We reveal relationships between
+various count- and mixture-modeling distributions and construct a
+Poisson-logarithmic bivariate distribution that connects the NB and Chinese
+restaurant table distributions. Fundamental properties of the models are
+developed, and we derive efficient Bayesian inference. It is shown that with
+augmentation and normalization, the NB process and gamma-NB process can be
+reduced to the Dirichlet process and hierarchical Dirichlet process,
+respectively. These relationships highlight theoretical, structural and
+computational advantages of the NB process. A variety of NB processes,
+including the beta-geometric, beta-NB, marked-beta-NB, marked-gamma-NB and
+zero-inflated-NB processes, with distinct sharing mechanisms, are also
+constructed. These models are applied to topic modeling, with connections made
+to existing algorithms under Poisson factor analysis. Example results show the
+importance of inferring both the NB dispersion and probability parameters.

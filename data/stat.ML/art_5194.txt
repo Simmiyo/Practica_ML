@@ -1,0 +1,11 @@
+Dictionary Learning from Incomplete Data
+This paper extends the recently proposed and theoretically justified
+iterative thresholding and $K$ residual means algorithm ITKrM to learning
+dicionaries from incomplete/masked training data (ITKrMM). It further adapts
+the algorithm to the presence of a low rank component in the data and provides
+a strategy for recovering this low rank component again from incomplete data.
+Several synthetic experiments show the advantages of incorporating information
+about the corruption into the algorithm. Finally, image inpainting is
+considered as application example, which demonstrates the superior performance
+of ITKrMM in terms of speed at similar or better reconstruction quality
+compared to its closest dictionary learning counterpart.

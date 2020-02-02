@@ -1,0 +1,16 @@
+High-dimensional Time Series Prediction with Missing Values
+High-dimensional time series prediction is needed in applications as diverse
+as demand forecasting and climatology. Often, such applications require methods
+that are both highly scalable, and deal with noisy data in terms of corruptions
+or missing values. Classical time series methods usually fall short of handling
+both these issues. In this paper, we propose to adapt matrix matrix completion
+approaches that have previously been successfully applied to large scale noisy
+data, but which fail to adequately model high-dimensional time series due to
+temporal dependencies. We present a novel temporal regularized matrix
+factorization (TRMF) framework which supports data-driven temporal dependency
+learning and enables forecasting ability to our new matrix factorization
+approach. TRMF is highly general, and subsumes many existing matrix
+factorization approaches for time series data. We make interesting connections
+to graph regularized matrix factorization methods in the context of learning
+the dependencies. Experiments on both real and synthetic data show that TRMF
+outperforms several existing approaches for common time series tasks.

@@ -1,0 +1,10 @@
+Convolutional neural networks for chemical-disease relation extraction
+  are improved with character-based word embeddings
+We investigate the incorporation of character-based word representations into
+a standard CNN-based relation extraction model. We experiment with two common
+neural architectures, CNN and LSTM, to learn word vector representations from
+character embeddings. Through a task on the BioCreative-V CDR corpus,
+extracting relationships between chemicals and diseases, we show that models
+exploiting the character-based word representations improve on models that do
+not use this information, obtaining state-of-the-art result relative to
+previous neural approaches.

@@ -1,0 +1,17 @@
+Linear Bandits in High Dimension and Recommendation Systems
+A large number of online services provide automated recommendations to help
+users to navigate through a large collection of items. New items (products,
+videos, songs, advertisements) are suggested on the basis of the user's past
+history and --when available-- her demographic profile. Recommendations have to
+satisfy the dual goal of helping the user to explore the space of available
+items, while allowing the system to probe the user's preferences.
+  We model this trade-off using linearly parametrized multi-armed bandits,
+propose a policy and prove upper and lower bounds on the cumulative "reward"
+that coincide up to constants in the data poor (high-dimensional) regime. Prior
+work on linear bandits has focused on the data rich (low-dimensional) regime
+and used cumulative "risk" as the figure of merit. For this data rich regime,
+we provide a simple modification for our policy that achieves near-optimal risk
+performance under more restrictive assumptions on the geometry of the problem.
+We test (a variation of) the scheme used for establishing achievability on the
+Netflix and MovieLens datasets and obtain good agreement with the qualitative
+predictions of the theory we develop.

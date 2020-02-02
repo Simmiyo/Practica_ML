@@ -1,0 +1,12 @@
+Missing Data Imputation for Supervised Learning
+Missing data imputation can help improve the performance of prediction models
+in situations where missing data hide useful information. This paper compares
+methods for imputing missing categorical data for supervised classification
+tasks. We experiment on two machine learning benchmark datasets with missing
+categorical data, comparing classifiers trained on non-imputed (i.e., one-hot
+encoded) or imputed data with different levels of additional missing-data
+perturbation. We show imputation methods can increase predictive accuracy in
+the presence of missing-data perturbation, which can actually improve
+prediction accuracy by regularizing the classifier. We achieve the
+state-of-the-art on the Adult dataset with missing-data perturbation and
+k-nearest-neighbors (k-NN) imputation.

@@ -1,0 +1,15 @@
+A New Approach to Building the Interindustry Input--Output Table
+We present a new approach to estimating the interdependence of industries in
+an economy by applying data science solutions. By exploiting interfirm
+buyer--seller network data, we show that the problem of estimating the
+interdependence of industries is similar to the problem of uncovering the
+latent block structure in network science literature. To estimate the
+underlying structure with greater accuracy, we propose an extension of the
+sparse block model that incorporates node textual information and an unbounded
+number of industries and interactions among them. The latter task is
+accomplished by extending the well-known Chinese restaurant process to two
+dimensions. Inference is based on collapsed Gibbs sampling, and the model is
+evaluated on both synthetic and real-world datasets. We show that the proposed
+model improves in predictive accuracy and successfully provides a satisfactory
+solution to the motivated problem. We also discuss issues that affect the
+future performance of this approach.

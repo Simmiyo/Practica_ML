@@ -1,0 +1,14 @@
+An Efficient ADMM Algorithm for Structural Break Detection in
+  Multivariate Time Series
+We present an efficient alternating direction method of multipliers (ADMM)
+algorithm for segmenting a multivariate non-stationary time series with
+structural breaks into stationary regions. We draw from recent work where the
+series is assumed to follow a vector autoregressive model within segments and a
+convex estimation procedure may be formulated using group fused lasso
+penalties. Our ADMM approach first splits the convex problem into a global
+quadratic program and a simple group lasso proximal update. We show that the
+global problem may be parallelized over rows of the time dependent transition
+matrices and furthermore that each subproblem may be rewritten in a form
+identical to the log-likelihood of a Gaussian state space model. Consequently,
+we develop a Kalman smoothing algorithm to solve the global update in time
+linear in the length of the series.

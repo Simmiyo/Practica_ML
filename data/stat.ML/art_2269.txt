@@ -1,0 +1,16 @@
+Exploiting compositionality to explore a large space of model structures
+The recent proliferation of richly structured probabilistic models raises the
+question of how to automatically determine an appropriate model for a dataset.
+We investigate this question for a space of matrix decomposition models which
+can express a variety of widely used models from unsupervised learning. To
+enable model selection, we organize these models into a context-free grammar
+which generates a wide variety of structures through the compositional
+application of a few simple rules. We use our grammar to generically and
+efficiently infer latent components and estimate predictive likelihood for
+nearly 2500 structures using a small toolbox of reusable algorithms. Using a
+greedy search over our grammar, we automatically choose the decomposition
+structure from raw data by evaluating only a small fraction of all models. The
+proposed method typically finds the correct structure for synthetic data and
+backs off gracefully to simpler models under heavy noise. It learns sensible
+structures for datasets as diverse as image patches, motion capture, 20
+Questions, and U.S. Senate votes, all using exactly the same code.

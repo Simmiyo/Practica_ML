@@ -1,0 +1,10 @@
+Variational Optimization of Annealing Schedules
+Annealed importance sampling (AIS) is a common algorithm to estimate
+partition functions of useful stochastic models. One important problem for
+obtaining accurate AIS estimates is the selection of an annealing schedule.
+Conventionally, an annealing schedule is often determined heuristically or is
+simply set as a linearly increasing sequence. In this paper, we propose an
+algorithm for the optimal schedule by deriving a functional that dominates the
+AIS estimation error and by numerically minimizing this functional. We
+experimentally demonstrate that the proposed algorithm mostly outperforms
+conventional scheduling schemes with large quantization numbers.

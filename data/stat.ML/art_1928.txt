@@ -1,0 +1,9 @@
+Approximating Higher-Order Distances Using Random Projections
+We provide a simple method and relevant theoretical analysis for efficiently
+estimating higher-order lp distances. While the analysis mainly focuses on l4,
+our methodology extends naturally to p = 6,8,10..., (i.e., when p is even).
+Distance-based methods are popular in machine learning. In large-scale
+applications, storing, computing, and retrieving the distances can be both
+space and time prohibitive. Efficient algorithms exist for estimating lp
+distances if 0 < p <= 2. The task for p > 2 is known to be difficult. Our work
+partially fills this gap.

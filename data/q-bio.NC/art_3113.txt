@@ -1,0 +1,13 @@
+On parameters transformations for emulating sparse priors using
+  variational-Laplace inference
+So-called sparse estimators arise in the context of model fitting, when one a
+priori assumes that only a few (unknown) model parameters deviate from zero.
+Sparsity constraints can be useful when the estimation problem is
+under-determined, i.e. when number of model parameters is much higher than the
+number of data points. Typically, such constraints are enforced by minimizing
+the L1 norm, which yields the so-called LASSO estimator. In this work, we
+propose a simple parameter transform that emulates sparse priors without
+sacrificing the simplicity and robustness of L2-norm regularization schemes. We
+show how L1 regularization can be obtained with a "sparsify" remapping of
+parameters under normal Bayesian priors, and we demonstrate the ensuing
+variational Laplace approach using Monte-Carlo simulations.

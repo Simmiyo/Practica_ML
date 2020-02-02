@@ -1,0 +1,21 @@
+Counterfactual Computation
+Suppose that we are given a quantum computer programmed ready to perform a
+computation if it is switched on. Counterfactual computation is a process by
+which the result of the computation may be learnt without actually running the
+computer. Such processes are possible within quantum physics and to achieve
+this effect, a computer embodying the possibility of running the computation
+must be available, even though the computation is, in fact, not run. We study
+the possibilities and limitations of general protocols for the counterfactual
+computation of decision problems (where the result r is either 0 or 1). If p(r)
+denotes the probability of learning the result r ``for free'' in a protocol
+then one might hope to design a protocol which simultaneously has large p(0)
+and p(1). However we prove that p(0)+p(1) never exceeds 1 in any protocol and
+we derive further constraints on p(0) and p(1) in terms of N, the number of
+times that the computer is not run. In particular we show that any protocol
+with p(0)+p(1)=1-epsilon must have N tending to infinity as epsilon tends to 0.
+These general results are illustrated with some explicit protocols for
+counterfactual computation. We show that "interaction-free" measurements can be
+regarded as counterfactual computations, and our results then imply that N must
+be large if the probability of interaction is to be close to zero. Finally, we
+consider some ways in which our formulation of counterfactual computation can
+be generalised.

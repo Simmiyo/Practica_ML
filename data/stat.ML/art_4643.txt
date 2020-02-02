@@ -1,0 +1,20 @@
+Fast Rates for General Unbounded Loss Functions: from ERM to Generalized
+  Bayes
+We present new excess risk bounds for general unbounded loss functions
+including log loss and squared loss, where the distribution of the losses may
+be heavy-tailed. The bounds hold for general estimators, but they are optimized
+when applied to $\eta$-generalized Bayesian, MDL, and empirical risk
+minimization estimators. In the case of log loss, the bounds imply convergence
+rates for generalized Bayesian inference under misspecification in terms of a
+generalization of the Hellinger metric as long as the learning rate $\eta$ is
+set correctly. For general loss functions, our bounds rely on two separate
+conditions: the $v$-GRIP (generalized reversed information projection)
+conditions, which control the lower tail of the excess loss; and the newly
+introduced witness condition, which controls the upper tail. The parameter $v$
+in the $v$-GRIP conditions determines the achievable rate and is akin to the
+exponent in the Tsybakov margin condition and the Bernstein condition for
+bounded losses, which the $v$-GRIP conditions generalize; favorable $v$ in
+combination with small model complexity leads to $\tilde{O}(1/n)$ rates. The
+witness condition allows us to connect the excess risk to an 'annealed' version
+thereof, by which we generalize several previous results connecting Hellinger
+and R\'enyi divergence to KL divergence.

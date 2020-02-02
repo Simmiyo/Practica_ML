@@ -1,0 +1,9 @@
+The Mondrian Kernel
+We introduce the Mondrian kernel, a fast random feature approximation to the
+Laplace kernel. It is suitable for both batch and online learning, and admits a
+fast kernel-width-selection procedure as the random features can be re-used
+efficiently for all kernel widths. The features are constructed by sampling
+trees via a Mondrian process [Roy and Teh, 2009], and we highlight the
+connection to Mondrian forests [Lakshminarayanan et al., 2014], where trees are
+also sampled via a Mondrian process, but fit independently. This link provides
+a new insight into the relationship between kernel methods and random forests.

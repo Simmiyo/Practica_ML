@@ -1,0 +1,19 @@
+Cross-Sentence N-ary Relation Extraction with Graph LSTMs
+Past work in relation extraction has focused on binary relations in single
+sentences. Recent NLP inroads in high-value domains have sparked interest in
+the more general setting of extracting n-ary relations that span multiple
+sentences. In this paper, we explore a general relation extraction framework
+based on graph long short-term memory networks (graph LSTMs) that can be easily
+extended to cross-sentence n-ary relation extraction. The graph formulation
+provides a unified way of exploring different LSTM approaches and incorporating
+various intra-sentential and inter-sentential dependencies, such as sequential,
+syntactic, and discourse relations. A robust contextual representation is
+learned for the entities, which serves as input to the relation classifier.
+This simplifies handling of relations with arbitrary arity, and enables
+multi-task learning with related relations. We evaluate this framework in two
+important precision medicine settings, demonstrating its effectiveness with
+both conventional supervised learning and distant supervision. Cross-sentence
+extraction produced larger knowledge bases. and multi-task learning
+significantly improved extraction accuracy. A thorough analysis of various LSTM
+approaches yielded useful insight the impact of linguistic analysis on
+extraction accuracy.

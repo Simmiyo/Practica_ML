@@ -1,0 +1,10 @@
+Entropy lower bounds of quantum decision tree complexity
+We prove a general lower bound of quantum decision tree complexity in terms
+of some entropy notion. We regard the computation as a communication process in
+which the oracle and the computer exchange several rounds of messages, each
+round consisting of O(log(n)) bits. Let E(f) be the Shannon entropy of the
+random variable f(X), where X is uniformly random in f's domain. Our main
+result is that it takes \Omega(E(f)) queries to compute any \emph{total}
+function f. It is interesting to contrast this bound with the
+\Omega(E(f)/log(n)) bound, which is tight for \emph{partial} functions. Our
+approach is the polynomial method.

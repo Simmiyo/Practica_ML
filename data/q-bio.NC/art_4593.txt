@@ -1,0 +1,17 @@
+A Repeated Signal Difference for Recognising Patterns
+This paper describes a new mechanism that might help with defining pattern
+sequences, by the fact that it can produce an upper bound on the ensemble value
+that can persistently oscillate with the actual values produced from each
+pattern. With every firing event, a node also receives an on/off feedback
+switch. If the node fires, then it sends a feedback result depending on the
+input signal strength. If the input signal is positive or larger, it can store
+an 'on' switch feedback for the next iteration. If the signal is negative or
+smaller, it can store an 'off' switch feedback for the next iteration. If the
+node does not fire, then it does not affect the current feedback situation and
+receives the switch command produced by the last active pattern event for the
+same neuron. The upper bound therefore also represents the largest or most
+enclosing pattern set and the lower value is for the actual set of firing
+patterns. If the pattern sequence repeats, it will oscillate between the two
+values, allowing them to be recognised and measured more easily, over time.
+Tests show that changing the sequence ordering produces different value sets,
+which can also be measured.

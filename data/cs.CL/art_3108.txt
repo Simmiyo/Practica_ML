@@ -1,0 +1,13 @@
+On the Effective Use of Pretraining for Natural Language Inference
+Neural networks have excelled at many NLP tasks, but there remain open
+questions about the performance of pretrained distributed word representations
+and their interaction with weight initialization and other hyperparameters. We
+address these questions empirically using attention-based sequence-to-sequence
+models for natural language inference (NLI). Specifically, we compare three
+types of embeddings: random, pretrained (GloVe, word2vec), and retrofitted
+(pretrained plus WordNet information). We show that pretrained embeddings
+outperform both random and retrofitted ones in a large NLI corpus. Further
+experiments on more controlled data sets shed light on the contexts for which
+retrofitted embeddings can be useful. We also explore two principled approaches
+to initializing the rest of the model parameters, Gaussian and orthogonal,
+showing that the latter yields gains of up to 2.9% in the NLI task.

@@ -1,0 +1,27 @@
+Classification of field dwarfs and giants in RAVE and its use in stellar
+  stream detection
+An efficient separation between dwarfs and giants in surveys of bright stars
+is important, especially for studies in which distances are estimated through
+photometric parallax relations. We use the available spectroscopic log g
+estimates from the second RAVE data release (DR2) to assign each star a
+probability for being a dwarf or subgiant/giant based on mixture model fits to
+the log g distribution in different color bins. We further attempt to use these
+stars as a labeled training set in order to classify stars which lack log g
+estimates into dwarfs and giants with a SVM algorithm. We assess the
+performance of this classification against different choices of the input
+feature vector. In particular, we use different combinations of reduced proper
+motions, 2MASS JHK, DENIS IJK and USNO-B B2R2 apparent magnitudes. Our study
+shows that -- for our color ranges -- the infrared bands alone provide no
+relevant information to separate dwarfs and giants. Even when optical bands and
+reduced proper motions are added, the fraction of true giants classified as
+dwarfs (the contamination) remains above 20%.
+  Using only the dwarfs with available spectroscopic log g and distance
+estimates (the latter from Breddels et al. 2010), we then repeat the stream
+search by Klement, Fuchs & Rix (2008, KFR08), which assumed all stars were
+dwarfs and claimed the discovery of a new stellar stream at V = -160 km/s in a
+sample of 7015 stars from RAVE DR1. Our re-analysis of the pure DR2 dwarf
+sample exhibits an overdensity of 5 stars at the phase-space position of the
+KFR08 stream, with a metallicity distribution that appears inconsistent with
+that of stars at comparably low rotational velocities. Compared to several
+smooth Milky Way models, the mean standardized deviation of the KFR08 stream is
+only marginal at 1.6$\pm$0.4... (abbreviated)

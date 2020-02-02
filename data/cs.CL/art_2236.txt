@@ -1,0 +1,15 @@
+Generalisation in Named Entity Recognition: A Quantitative Analysis
+Named Entity Recognition (NER) is a key NLP task, which is all the more
+challenging on Web and user-generated content with their diverse and
+continuously changing language. This paper aims to quantify how this diversity
+impacts state-of-the-art NER methods, by measuring named entity (NE) and
+context variability, feature sparsity, and their effects on precision and
+recall. In particular, our findings indicate that NER approaches struggle to
+generalise in diverse genres with limited training data. Unseen NEs, in
+particular, play an important role, which have a higher incidence in diverse
+genres such as social media than in more regular genres such as newswire.
+Coupled with a higher incidence of unseen features more generally and the lack
+of large training corpora, this leads to significantly lower F1 scores for
+diverse genres as compared to more regular ones. We also find that leading
+systems rely heavily on surface forms found in training data, having problems
+generalising beyond these, and offer explanations for this observation.

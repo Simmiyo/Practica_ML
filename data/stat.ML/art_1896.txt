@@ -1,0 +1,15 @@
+Smoothing Multivariate Performance Measures
+A Support Vector Method for multivariate performance measures was recently
+introduced by Joachims (2005). The underlying optimization problem is currently
+solved using cutting plane methods such as SVM-Perf and BMRM. One can show that
+these algorithms converge to an eta accurate solution in O(1/Lambda*e)
+iterations, where lambda is the trade-off parameter between the regularizer and
+the loss function. We present a smoothing strategy for multivariate performance
+scores, in particular precision/recall break-even point and ROCArea. When
+combined with Nesterov's accelerated gradient algorithm our smoothing strategy
+yields an optimization algorithm which converges to an eta accurate solution in
+O(min{1/e,1/sqrt(lambda*e)}) iterations. Furthermore, the cost per iteration of
+our scheme is the same as that of SVM-Perf and BMRM. Empirical evaluation on a
+number of publicly available datasets shows that our method converges
+significantly faster than cutting plane methods without sacrificing
+generalization ability.

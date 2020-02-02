@@ -1,0 +1,16 @@
+Destination Prediction by Trajectory Distribution Based Model
+In this paper we propose a new method to predict the final destination of
+vehicle trips based on their initial partial trajectories. We first review how
+we obtained clustering of trajectories that describes user behaviour. Then, we
+explain how we model main traffic flow patterns by a mixture of 2d Gaussian
+distributions. This yielded a density based clustering of locations, which
+produces a data driven grid of similar points within each pattern. We present
+how this model can be used to predict the final destination of a new trajectory
+based on their first locations using a two step procedure: We first assign the
+new trajectory to the clusters it mot likely belongs. Secondly, we use
+characteristics from trajectories inside these clusters to predict the final
+destination. Finally, we present experimental results of our methods for
+classification of trajectories and final destination prediction on datasets of
+timestamped GPS-Location of taxi trips. We test our methods on two different
+datasets, to assess the capacity of our method to adapt automatically to
+different subsets.

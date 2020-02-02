@@ -1,0 +1,16 @@
+Time Series Cluster Kernel for Learning Similarities between
+  Multivariate Time Series with Missing Data
+Similarity-based approaches represent a promising direction for time series
+analysis. However, many such methods rely on parameter tuning, and some have
+shortcomings if the time series are multivariate (MTS), due to dependencies
+between attributes, or the time series contain missing data. In this paper, we
+address these challenges within the powerful context of kernel methods by
+proposing the robust \emph{time series cluster kernel} (TCK). The approach
+taken leverages the missing data handling properties of Gaussian mixture models
+(GMM) augmented with informative prior distributions. An ensemble learning
+approach is exploited to ensure robustness to parameters by combining the
+clustering results of many GMM to form the final kernel.
+  We evaluate the TCK on synthetic and real data and compare to other
+state-of-the-art techniques. The experimental results demonstrate that the TCK
+is robust to parameter choices, provides competitive results for MTS without
+missing data and outstanding results for missing data.

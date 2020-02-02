@@ -1,0 +1,13 @@
+Performance Limits of Dictionary Learning for Sparse Coding
+We consider the problem of dictionary learning under the assumption that the
+observed signals can be represented as sparse linear combinations of the
+columns of a single large dictionary matrix. In particular, we analyze the
+minimax risk of the dictionary learning problem which governs the mean squared
+error (MSE) performance of any learning scheme, regardless of its computational
+complexity. By following an established information-theoretic method based on
+Fanos inequality, we derive a lower bound on the minimax risk for a given
+dictionary learning problem. This lower bound yields a characterization of the
+sample-complexity, i.e., a lower bound on the required number of observations
+such that consistent dictionary learning schemes exist. Our bounds may be
+compared with the performance of a given learning scheme, allowing to
+characterize how far the method is from optimal performance.

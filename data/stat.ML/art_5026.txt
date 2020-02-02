@@ -1,0 +1,11 @@
+On Randomized Distributed Coordinate Descent with Quantized Updates
+In this paper, we study the randomized distributed coordinate descent
+algorithm with quantized updates. In the literature, the iteration complexity
+of the randomized distributed coordinate descent algorithm has been
+characterized under the assumption that machines can exchange updates with an
+infinite precision. We consider a practical scenario in which the messages
+exchange occurs over channels with finite capacity, and hence the updates have
+to be quantized. We derive sufficient conditions on the quantization error such
+that the algorithm with quantized update still converge. We further verify our
+theoretical results by running an experiment, where we apply the algorithm with
+quantized updates to solve a linear regression problem.

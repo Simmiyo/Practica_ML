@@ -1,0 +1,23 @@
+Interpreting Encoding and Decoding Models
+Encoding and decoding models are widely used in systems, cognitive, and
+computational neuroscience to make sense of brain-activity data. However, the
+interpretation of their results requires care. Decoding models can help reveal
+whether particular information is present in a brain region in a format the
+decoder can exploit. Encoding models make comprehensive predictions about
+representational spaces. In the context of sensory systems, encoding models
+enable us to test and compare brain-computational models, and thus directly
+constrain computational theory. Encoding and decoding models typically include
+fitted linear-model components. Sometimes the weights of the fitted linear
+combinations are interpreted as reflecting, in an encoding model, the
+contribution of different sensory features to the representation or, in a
+decoding model, the contribution of different measured brain responses to a
+decoded feature. Such interpretations can be problematic when the predictor
+variables or their noise components are correlated and when priors (or
+penalties) are used to regularize the fit. Encoding and decoding models are
+evaluated in terms of their generalization performance. The correct
+interpretation depends on the level of generalization a model achieves (e.g. to
+new response measurements for the same stimuli, to new stimuli from the same
+population, or to stimuli from a different population). Significant decoding or
+encoding performance of a single model (at whatever level of generality) does
+not provide strong constraints for theory. Many models must be tested and
+inferentially compared for analyses to drive theoretical progress.

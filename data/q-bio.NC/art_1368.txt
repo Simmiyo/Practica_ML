@@ -1,0 +1,28 @@
+Inferring Information Flow in Spike-train Data Sets using a
+  Trial-Shuffle Method
+Understanding information processing in the brain requires the ability to
+determine the functional connectivity between the different regions of the
+brain. We present a method using transfer entropy to extract this flow of
+information between brain regions from spike-train data commonly obtained in
+neurological experiments. Transfer entropy is a statistical measure based in
+information theory that attempts to quantify the information flow from one
+process to another, and has been applied to find connectivity in simulated
+spike-train data. Due to statistical error in the estimator, inferring
+functional connectivity requires a method for determining significance in the
+transfer entropy values. We discuss the issues with numerical estimation of
+transfer entropy and resulting challenges in determining significance before
+presenting the trial-shuffle method as a viable option. The trial-shuffle
+method, for spike-train data that is split into multiple trials, determines
+significant transfer entropy values independently for each individual pair of
+neurons by comparing to a created baseline distribution using a rigorous
+statistical test. This is in contrast to either globally comparing all neuron
+transfer entropy values or comparing pairwise values to a single baseline
+value.
+  In establishing the viability of this method by comparison to several
+alternative approaches in the literature, we find evidence that preserving the
+inter-spike-interval timing is important.
+  We then use the trial-shuffle method to investigate information flow within a
+model network as we vary model parameters. This includes investigating the
+global flow of information within a connectivity network divided into two
+well-connected subnetworks, going beyond local transfer of information between
+pairs of neurons.

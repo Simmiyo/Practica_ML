@@ -1,0 +1,14 @@
+Self-Normalization Properties of Language Modeling
+Self-normalizing discriminative models approximate the normalized probability
+of a class without having to compute the partition function. In the context of
+language modeling, this property is particularly appealing as it may
+significantly reduce run-times due to large word vocabularies. In this study,
+we provide a comprehensive investigation of language modeling
+self-normalization. First, we theoretically analyze the inherent
+self-normalization properties of Noise Contrastive Estimation (NCE) language
+models. Then, we compare them empirically to softmax-based approaches, which
+are self-normalized using explicit regularization, and suggest a hybrid model
+with compelling properties. Finally, we uncover a surprising negative
+correlation between self-normalization and perplexity across the board, as well
+as some regularity in the observed errors, which may potentially be used for
+improving self-normalization algorithms in the future.

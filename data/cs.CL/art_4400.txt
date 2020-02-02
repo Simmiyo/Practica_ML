@@ -1,0 +1,20 @@
+Source-Critical Reinforcement Learning for Transferring Spoken Language
+  Understanding to a New Language
+To deploy a spoken language understanding (SLU) model to a new language,
+language transferring is desired to avoid the trouble of acquiring and labeling
+a new big SLU corpus. Translating the original SLU corpus into the target
+language is an attractive strategy. However, SLU corpora consist of plenty of
+semantic labels (slots), which general-purpose translators cannot handle well,
+not to mention additional culture differences. This paper focuses on the
+language transferring task given a tiny in-domain parallel SLU corpus. The
+in-domain parallel corpus can be used as the first adaptation on the general
+translator. But more importantly, we show how to use reinforcement learning
+(RL) to further finetune the adapted translator, where translated sentences
+with more proper slot tags receive higher rewards. We evaluate our approach on
+Chinese to English language transferring for SLU systems. The experimental
+results show that the generated English SLU corpus via adaptation and
+reinforcement learning gives us over 97% in the slot F1 score and over 84%
+accuracy in domain classification. It demonstrates the effectiveness of the
+proposed language transferring method. Compared with naive translation, our
+proposed method improves domain classification accuracy by relatively 22%, and
+the slot filling F1 score by relatively more than 71%.

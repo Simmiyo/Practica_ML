@@ -1,0 +1,14 @@
+Random Forests: some methodological insights
+This paper examines from an experimental perspective random forests, the
+increasingly used statistical method for classification and regression problems
+introduced by Leo Breiman in 2001. It first aims at confirming, known but
+sparse, advice for using random forests and at proposing some complementary
+remarks for both standard problems as well as high dimensional ones for which
+the number of variables hugely exceeds the sample size. But the main
+contribution of this paper is twofold: to provide some insights about the
+behavior of the variable importance index based on random forests and in
+addition, to propose to investigate two classical issues of variable selection.
+The first one is to find important variables for interpretation and the second
+one is more restrictive and try to design a good prediction model. The strategy
+involves a ranking of explanatory variables using the random forests score of
+importance and a stepwise ascending variable introduction strategy.

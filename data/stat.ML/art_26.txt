@@ -1,0 +1,17 @@
+Large Scale Variational Inference and Experimental Design for Sparse
+  Generalized Linear Models
+Many problems of low-level computer vision and image processing, such as
+denoising, deconvolution, tomographic reconstruction or super-resolution, can
+be addressed by maximizing the posterior distribution of a sparse linear model
+(SLM). We show how higher-order Bayesian decision-making problems, such as
+optimizing image acquisition in magnetic resonance scanners, can be addressed
+by querying the SLM posterior covariance, unrelated to the density's mode. We
+propose a scalable algorithmic framework, with which SLM posteriors over full,
+high-resolution images can be approximated for the first time, solving a
+variational optimization problem which is convex iff posterior mode finding is
+convex. These methods successfully drive the optimization of sampling
+trajectories for real-world magnetic resonance imaging through Bayesian
+experimental design, which has not been attempted before. Our methodology
+provides new insight into similarities and differences between sparse
+reconstruction and approximate Bayesian inference, and has important
+implications for compressive sensing of real-world images.

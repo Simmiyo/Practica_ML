@@ -1,0 +1,23 @@
+Privacy Amplification in Quantum Key Distribution: Pointwise Bound
+  versus Average Bound
+In order to be practically useful, quantum cryptography must not only provide
+a guarantee of secrecy, but it must provide this guarantee with a useful,
+sufficiently large throughput value. The standard result of generalized privacy
+amplification yields an upper bound only on the average value of the mutual
+information available to an eavesdropper. Unfortunately this result by itself
+is inadequate for cryptographic applications. A naive application of the
+standard result leads one to incorrectly conclude that an acceptable upper
+bound on the mutual information has been achieved. It is the pointwise value of
+the bound on the mutual information, associated with the use of some specific
+hash function, that corresponds to actual implementations. We provide a fully
+rigorous mathematical derivation that shows how to obtain a cryptographically
+acceptable upper bound on the actual, pointwise value of the mutual
+information. Unlike the bound on the average mutual information, the value of
+the upper bound on the pointwise mutual information and the number of bits by
+which the secret key is compressed are specified by two different parameters,
+and the actual realization of the bound in the pointwise case is necessarily
+associated with a specific failure probability. The constraints amongst these
+parameters, and the effect of their values on the system throughput, have not
+been previously analyzed. We show that the necessary shortening of the key
+dictated by the cryptographically correct, pointwise bound, can still produce
+viable throughput rates that will be useful in practice.

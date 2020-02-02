@@ -1,0 +1,18 @@
+Metamodel-based importance sampling for structural reliability analysis
+Structural reliability methods aim at computing the probability of failure of
+systems with respect to some prescribed performance functions. In modern
+engineering such functions usually resort to running an expensive-to-evaluate
+computational model (e.g. a finite element model). In this respect simulation
+methods, which may require $10^{3-6}$ runs cannot be used directly. Surrogate
+models such as quadratic response surfaces, polynomial chaos expansions or
+kriging (which are built from a limited number of runs of the original model)
+are then introduced as a substitute of the original model to cope with the
+computational cost. In practice it is almost impossible to quantify the error
+made by this substitution though. In this paper we propose to use a kriging
+surrogate of the performance function as a means to build a quasi-optimal
+importance sampling density. The probability of failure is eventually obtained
+as the product of an augmented probability computed by substituting the
+meta-model for the original performance function and a correction term which
+ensures that there is no bias in the estimation even if the meta-model is not
+fully accurate. The approach is applied to analytical and finite element
+reliability problems and proves efficient up to 100 random variables.

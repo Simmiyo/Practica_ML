@@ -1,0 +1,18 @@
+NTUA-SLP at SemEval-2018 Task 3: Tracking Ironic Tweets using Ensembles
+  of Word and Character Level Attentive RNNs
+In this paper we present two deep-learning systems that competed at
+SemEval-2018 Task 3 "Irony detection in English tweets". We design and ensemble
+two independent models, based on recurrent neural networks (Bi-LSTM), which
+operate at the word and character level, in order to capture both the semantic
+and syntactic information in tweets. Our models are augmented with a
+self-attention mechanism, in order to identify the most informative words. The
+embedding layer of our word-level model is initialized with word2vec word
+embeddings, pretrained on a collection of 550 million English tweets. We did
+not utilize any handcrafted features, lexicons or external datasets as prior
+information and our models are trained end-to-end using back propagation on
+constrained data. Furthermore, we provide visualizations of tweets with
+annotations for the salient tokens of the attention layer that can help to
+interpret the inner workings of the proposed models. We ranked 2nd out of 42
+teams in Subtask A and 2nd out of 31 teams in Subtask B. However,
+post-task-completion enhancements of our models achieve state-of-the-art
+results ranking 1st for both subtasks.

@@ -1,0 +1,18 @@
+On the Nyström and Column-Sampling Methods for the Approximate
+  Principal Components Analysis of Large Data Sets
+In this paper we analyze approximate methods for undertaking a principal
+components analysis (PCA) on large data sets. PCA is a classical dimension
+reduction method that involves the projection of the data onto the subspace
+spanned by the leading eigenvectors of the covariance matrix. This projection
+can be used either for exploratory purposes or as an input for further
+analysis, e.g. regression. If the data have billions of entries or more, the
+computational and storage requirements for saving and manipulating the design
+matrix in fast memory is prohibitive. Recently, the Nystr\"om and
+column-sampling methods have appeared in the numerical linear algebra community
+for the randomized approximation of the singular value decomposition of large
+matrices. However, their utility for statistical applications remains unclear.
+We compare these approximations theoretically by bounding the distance between
+the induced subspaces and the desired, but computationally infeasible, PCA
+subspace. Additionally we show empirically, through simulations and a real data
+example involving a corpus of emails, the trade-off of approximation accuracy
+and computational complexity.

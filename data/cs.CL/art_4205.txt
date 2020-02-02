@@ -1,0 +1,15 @@
+Generating Mandarin and Cantonese F0 Contours with Decision Trees and
+  BLSTMs
+This paper models the fundamental frequency contours on both Mandarin and
+Cantonese speech with decision trees and DNNs (deep neural networks). Different
+kinds of f0 representations and model architectures are tested for decision
+trees and DNNs. A new model called Additive-BLSTM (additive bidirectional long
+short term memory) that predicts a base f0 contour and a residual f0 contour
+with two BLSTMs is proposed. With respect to objective measures of RMSE and
+correlation, applying tone-dependent trees together with sample normalization
+and delta feature regularization within decision tree framework performs best.
+While the new Additive-BLSTM model with delta feature regularization performs
+even better. Subjective listening tests on both Mandarin and Cantonese
+comparing Random Forest model (multiple decision trees) and the Additive-BLSTM
+model were also held and confirmed the advantage of the new model according to
+the listeners' preference.

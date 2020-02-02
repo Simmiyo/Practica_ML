@@ -1,0 +1,20 @@
+Detecting Unusual Input-Output Associations in Multivariate Conditional
+  Data
+Despite tremendous progress in outlier detection research in recent years,
+the majority of existing methods are designed only to detect unconditional
+outliers that correspond to unusual data patterns expressed in the joint space
+of all data attributes. Such methods are not applicable when we seek to detect
+conditional outliers that reflect unusual responses associated with a given
+context or condition. This work focuses on multivariate conditional outlier
+detection, a special type of the conditional outlier detection problem, where
+data instances consist of multi-dimensional input (context) and output
+(responses) pairs. We present a novel outlier detection framework that
+identifies abnormal input-output associations in data with the help of a
+decomposable conditional probabilistic model that is learned from all data
+instances. Since components of this model can vary in their quality, we combine
+them with the help of weights reflecting their reliability in assessment of
+outliers. We study two ways of calculating the component weights: global that
+relies on all data, and local that relies only on instances similar to the
+target instance. Experimental results on data from various domains demonstrate
+the ability of our framework to successfully identify multivariate conditional
+outliers.

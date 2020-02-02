@@ -1,0 +1,21 @@
+Real-Time Energy Disaggregation of a Distribution Feeder's Demand Using
+  Online Learning
+Though distribution system operators have been adding more sensors to their
+networks, they still often lack an accurate real-time picture of the behavior
+of distributed energy resources such as demand responsive electric loads and
+residential solar generation. Such information could improve system
+reliability, economic efficiency, and environmental impact. Rather than
+installing additional, costly sensing and communication infrastructure to
+obtain additional real-time information, it may be possible to use existing
+sensing capabilities and leverage knowledge about the system to reduce the need
+for new infrastructure. In this paper, we disaggregate a distribution feeder's
+demand measurements into: 1) the demand of a population of air conditioners,
+and 2) the demand of the remaining loads connected to the feeder. We use an
+online learning algorithm, Dynamic Fixed Share (DFS), that uses the real-time
+distribution feeder measurements as well as models generated from historical
+building- and device-level data. We develop two implementations of the
+algorithm and conduct case studies using real demand data from households and
+commercial buildings to investigate the effectiveness of the algorithm. The
+case studies demonstrate that DFS can effectively perform online disaggregation
+and the choice and construction of models included in the algorithm affects its
+accuracy, which is comparable to that of a set of Kalman filters.

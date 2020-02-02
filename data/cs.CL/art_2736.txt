@@ -1,0 +1,13 @@
+Neural Reranking for Named Entity Recognition
+We propose a neural reranking system for named entity recognition (NER). The
+basic idea is to leverage recurrent neural network models to learn
+sentence-level patterns that involve named entity mentions. In particular,
+given an output sentence produced by a baseline NER model, we replace all
+entity mentions, such as \textit{Barack Obama}, into their entity types, such
+as \textit{PER}. The resulting sentence patterns contain direct output
+information, yet is less sparse without specific named entities. For example,
+"PER was born in LOC" can be such a pattern. LSTM and CNN structures are
+utilised for learning deep representations of such sentences for reranking.
+Results show that our system can significantly improve the NER accuracies over
+two different baselines, giving the best reported results on a standard
+benchmark.

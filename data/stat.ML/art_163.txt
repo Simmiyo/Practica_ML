@@ -1,0 +1,13 @@
+Variable Selection in High Dimensions with Random Designs and Orthogonal
+  Matching Pursuit
+The performance of Orthogonal Matching Pursuit (OMP) for variable selection
+is analyzed for random designs. When contrasted with the deterministic case,
+since the performance is here measured after averaging over the distribution of
+the design matrix, one can have far less stringent sparsity constraints on the
+coefficient vector. We demonstrate that for exact sparse vectors, the
+performance of the OMP is similar to known results on the Lasso algorithm
+[\textit{IEEE Trans. Inform. Theory} \textbf{55} (2009) 2183--2202]. Moreover,
+variable selection under a more relaxed sparsity assumption on the coefficient
+vector, whereby one has only control on the $\ell_1$ norm of the smaller
+coefficients, is also analyzed. As a consequence of these results, we also show
+that the coefficient estimate satisfies strong oracle type inequalities.

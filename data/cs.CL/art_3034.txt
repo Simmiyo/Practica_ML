@@ -1,0 +1,10 @@
+A Fast and Accurate Vietnamese Word Segmenter
+We propose a novel approach to Vietnamese word segmentation. Our approach is
+based on the Single Classification Ripple Down Rules methodology (Compton and
+Jansen, 1990), where rules are stored in an exception structure and new rules
+are only added to correct segmentation errors given by existing rules.
+Experimental results on the benchmark Vietnamese treebank show that our
+approach outperforms previous state-of-the-art approaches JVnSegmenter,
+vnTokenizer, DongDu and UETsegmenter in terms of both accuracy and performance
+speed. Our code is open-source and available at:
+https://github.com/datquocnguyen/RDRsegmenter.

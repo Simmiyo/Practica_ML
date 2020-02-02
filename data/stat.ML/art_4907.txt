@@ -1,0 +1,14 @@
+Recursion-Free Online Multiple Incremental/Decremental Analysis Based on
+  Ridge Support Vector Learning
+This study presents a rapid multiple incremental and decremental mechanism
+based on Weight-Error Curves (WECs) for support-vector analysis. Recursion-free
+computation is proposed for predicting the Lagrangian multipliers of new
+samples. This study examines Ridge Support Vector Models, subsequently devising
+a recursion-free function derived from WECs. With the proposed function, all
+the new Lagrangian multipliers can be computed at once without using any
+gradual step sizes. Moreover, such a function relaxes a constraint, where the
+increment of new multiple Lagrangian multipliers should be the same in the
+previous work, thereby easily satisfying the requirement of KKT conditions. The
+proposed mechanism no longer requires typical bookkeeping strategies, which
+compute the step size by checking all the training samples in each incremental
+round.

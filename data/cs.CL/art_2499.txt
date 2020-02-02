@@ -1,0 +1,12 @@
+Cross-lingual Abstract Meaning Representation Parsing
+Abstract Meaning Representation (AMR) annotation efforts have mostly focused
+on English. In order to train parsers on other languages, we propose a method
+based on annotation projection, which involves exploiting annotations in a
+source language and a parallel corpus of the source language and a target
+language. Using English as the source language, we show promising results for
+Italian, Spanish, German and Chinese as target languages. Besides evaluating
+the target parsers on non-gold datasets, we further propose an evaluation
+method that exploits the English gold annotations and does not require access
+to gold annotations for the target languages. This is achieved by inverting the
+projection process: a new English parser is learned from the target language
+parser and evaluated on the existing English gold standard.

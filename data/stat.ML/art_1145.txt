@@ -1,0 +1,17 @@
+Robust Local Scaling using Conditional Quantiles of Graph Similarities
+Spectral analysis of neighborhood graphs is one of the most widely used
+techniques for exploratory data analysis, with applications ranging from
+machine learning to social sciences. In such applications, it is typical to
+first encode relationships between the data samples using an appropriate
+similarity function. Popular neighborhood construction techniques such as
+k-nearest neighbor (k-NN) graphs are known to be very sensitive to the choice
+of parameters, and more importantly susceptible to noise and varying densities.
+In this paper, we propose the use of quantile analysis to obtain local scale
+estimates for neighborhood graph construction. To this end, we build an
+auto-encoding neural network approach for inferring conditional quantiles of a
+similarity function, which are subsequently used to obtain robust estimates of
+the local scales. In addition to being highly resilient to noise or outlying
+data, the proposed approach does not require extensive parameter tuning unlike
+several existing methods. Using applications in spectral clustering and
+single-example label propagation, we show that the proposed neighborhood graphs
+outperform existing locally scaled graph construction approaches.

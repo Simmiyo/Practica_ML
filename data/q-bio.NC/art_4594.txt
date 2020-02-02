@@ -1,0 +1,15 @@
+Text-mining the NeuroSynth corpus using Deep Boltzmann Machines
+Large-scale automated meta-analysis of neuroimaging data has recently
+established itself as an important tool in advancing our understanding of human
+brain function. This research has been pioneered by NeuroSynth, a database
+collecting both brain activation coordinates and associated text across a large
+cohort of neuroimaging research papers. One of the fundamental aspects of such
+meta-analysis is text-mining. To date, word counts and more sophisticated
+methods such as Latent Dirichlet Allocation have been proposed. In this work we
+present an unsupervised study of the NeuroSynth text corpus using Deep
+Boltzmann Machines (DBMs). The use of DBMs yields several advantages over the
+aforementioned methods, principal among which is the fact that it yields both
+word and document embeddings in a high-dimensional vector space. Such
+embeddings serve to facilitate the use of traditional machine learning
+techniques on the text corpus. The proposed DBM model is shown to learn
+embeddings with a clear semantic structure.

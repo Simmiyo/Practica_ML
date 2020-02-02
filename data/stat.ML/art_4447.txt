@@ -1,0 +1,10 @@
+Semi-Supervised and Active Few-Shot Learning with Prototypical Networks
+We consider the problem of semi-supervised few-shot classification where a
+classifier needs to adapt to new tasks using a few labeled examples and
+(potentially many) unlabeled examples. We propose a clustering approach to the
+problem. The features extracted with Prototypical Networks are clustered using
+$K$-means with the few labeled examples guiding the clustering process. We note
+that in many real-world applications the adaptation performance can be
+significantly improved by requesting the few labels through user feedback. We
+demonstrate good performance of the active adaptation strategy using image
+data.

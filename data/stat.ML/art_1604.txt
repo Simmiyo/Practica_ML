@@ -1,0 +1,15 @@
+Gibbs posterior for variable selection in high-dimensional
+  classification and data mining
+In the popular approach of "Bayesian variable selection" (BVS), one uses
+prior and posterior distributions to select a subset of candidate variables to
+enter the model. A completely new direction will be considered here to study
+BVS with a Gibbs posterior originating in statistical mechanics. The Gibbs
+posterior is constructed from a risk function of practical interest (such as
+the classification error) and aims at minimizing a risk function without
+modeling the data probabilistically. This can improve the performance over the
+usual Bayesian approach, which depends on a probability model which may be
+misspecified. Conditions will be provided to achieve good risk performance,
+even in the presence of high dimensionality, when the number of candidate
+variables "$K$" can be much larger than the sample size "$n$." In addition, we
+develop a convenient Markov chain Monte Carlo algorithm to implement BVS with
+the Gibbs posterior.

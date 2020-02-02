@@ -1,0 +1,8 @@
+Robust subspace recovery by Tyler's M-estimator
+This paper considers the problem of robust subspace recovery: given a set of
+$N$ points in $\mathbb{R}^D$, if many lie in a $d$-dimensional subspace, then
+can we recover the underlying subspace? We show that Tyler's M-estimator can be
+used to recover the underlying subspace, if the percentage of the inliers is
+larger than $d/D$ and the data points lie in general position. Empirically,
+Tyler's M-estimator compares favorably with other convex subspace recovery
+algorithms in both simulations and experiments on real data sets.

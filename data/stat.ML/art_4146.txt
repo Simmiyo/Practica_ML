@@ -1,0 +1,10 @@
+A Convex Framework for Fair Regression
+We introduce a flexible family of fairness regularizers for (linear and
+logistic) regression problems. These regularizers all enjoy convexity,
+permitting fast optimization, and they span the rang from notions of group
+fairness to strong individual fairness. By varying the weight on the fairness
+regularizer, we can compute the efficient frontier of the accuracy-fairness
+trade-off on any given dataset, and we measure the severity of this trade-off
+via a numerical quantity we call the Price of Fairness (PoF). The centerpiece
+of our results is an extensive comparative study of the PoF across six
+different datasets in which fairness is a primary consideration.

@@ -1,0 +1,21 @@
+Using Clinical Narratives and Structured Data to Identify Distant
+  Recurrences in Breast Cancer
+Accurately identifying distant recurrences in breast cancer from the
+Electronic Health Records (EHR) is important for both clinical care and
+secondary analysis. Although multiple applications have been developed for
+computational phenotyping in breast cancer, distant recurrence identification
+still relies heavily on manual chart review. In this study, we aim to develop a
+model that identifies distant recurrences in breast cancer using clinical
+narratives and structured data from EHR. We apply MetaMap to extract features
+from clinical narratives and also retrieve structured clinical data from EHR.
+Using these features, we train a support vector machine model to identify
+distant recurrences in breast cancer patients. We train the model using 1,396
+double-annotated subjects and validate the model using 599 double-annotated
+subjects. In addition, we validate the model on a set of 4,904 single-annotated
+subjects as a generalization test. We obtained a high area under curve (AUC)
+score of 0.92 (SD=0.01) in the cross-validation using the training dataset,
+then obtained AUC scores of 0.95 and 0.93 in the held-out test and
+generalization test using 599 and 4,904 samples respectively. Our model can
+accurately and efficiently identify distant recurrences in breast cancer by
+combining features extracted from unstructured clinical narratives and
+structured clinical data.

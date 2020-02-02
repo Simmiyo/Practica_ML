@@ -1,0 +1,25 @@
+Efficient Regularized Regression for Variable Selection with L0 Penalty
+Variable (feature, gene, model, which we use interchangeably) selections for
+regression with high-dimensional BIGDATA have found many applications in
+bioinformatics, computational biology, image processing, and engineering. One
+appealing approach is the L0 regularized regression which penalizes the number
+of nonzero features in the model directly. L0 is known as the most essential
+sparsity measure and has nice theoretical properties, while the popular L1
+regularization is only a best convex relaxation of L0. Therefore, it is natural
+to expect that L0 regularized regression performs better than LASSO. However,
+it is well-known that L0 optimization is NP-hard and computationally
+challenging. Instead of solving the L0 problems directly, most publications so
+far have tried to solve an approximation problem that closely resembles L0
+regularization.
+  In this paper, we propose an efficient EM algorithm (L0EM) that directly
+solves the L0 optimization problem. $L_0$EM is efficient with high dimensional
+data. It also provides a natural solution to all Lp p in [0,2] problems. The
+regularized parameter can be either determined through cross-validation or AIC
+and BIC. Theoretical properties of the L0-regularized estimator are given under
+mild conditions that permit the number of variables to be much larger than the
+sample size. We demonstrate our methods through simulation and high-dimensional
+genomic data. The results indicate that L0 has better performance than LASSO
+and L0 with AIC or BIC has similar performance as computationally intensive
+cross-validation. The proposed algorithms are efficient in identifying the
+non-zero variables with less-bias and selecting biologically important genes
+and pathways with high dimensional BIGDATA.

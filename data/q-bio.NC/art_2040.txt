@@ -1,0 +1,22 @@
+Correlation-distortion based identification of Linear-Nonlinear-Poisson
+  models
+Linear-Nonlinear-Poisson (LNP) models are a popular and powerful tool for
+describing encoding (stimulus-response) transformations by single sensory as
+well as motor neurons. Recently, there has been rising interest in the second-
+and higher-order correlation structure of neural spike trains, and how it may
+be related to specific encoding relationships. The distortion of signal
+correlations as they are transformed through particular LNP models is
+predictable and in some cases analytically tractable and invertible. Here, we
+propose that LNP encoding models can potentially be identified strictly from
+the correlation transformations they induce, and develop a computational method
+for identifying minimum-phase single-neuron temporal kernels under white and
+colored- random Gaussian excitation. Unlike reverse-correlation or
+maximum-likelihood, correlation-distortion based identification does not
+require the simultaneous observation of stimulus-response pairs - only their
+respective second order statistics. Although in principle filter kernels are
+not necessarily minimum-phase, and only their spectral amplitude can be
+uniquely determined from output correlations, we show that in practice this
+method provides excellent estimates of kernels from a range of parametric
+models of neural systems. We conclude by discussing how this approach could
+potentially enable neural models to be estimated from a much wider variety of
+experimental conditions and systems, and its limitations.

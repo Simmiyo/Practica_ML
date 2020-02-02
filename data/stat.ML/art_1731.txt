@@ -1,0 +1,18 @@
+Negative Example Aided Transcription Factor Binding Site Search
+Computational approaches to transcription factor binding site identification
+have been actively researched for the past decade.
+  Negative examples have long been utilized in de novo motif discovery and have
+been shown useful in transcription factor binding site search as well.
+  However, understanding of the roles of negative examples in binding site
+search is still very limited.
+  We propose the 2-centroid and optimal discriminating vector methods, taking
+into account negative examples. Cross-validation results on E. coli
+transcription factors show that the proposed methods benefit from negative
+examples, outperforming the centroid and position-specific scoring matrix
+methods. We further show that our proposed methods perform better than a
+state-of-the-art method. We characterize the proposed methods in the context of
+the other compared methods and show that, coupled with motif subtype
+identification, the proposed methods can be effectively applied to a wide range
+of transcription factors. Finally, we argue that the proposed methods are
+well-suited for eukaryotic transcription factors as well.
+  Software tools are available at: http://biogrid.engr.uconn.edu/tfbs_search/.

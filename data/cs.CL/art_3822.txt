@@ -1,0 +1,18 @@
+SlugNERDS: A Named Entity Recognition Tool for Open Domain Dialogue
+  Systems
+In dialogue systems, the tasks of named entity recognition (NER) and named
+entity linking (NEL) are vital preprocessing steps for understanding user
+intent, especially in open domain interaction where we cannot rely on
+domain-specific inference. UCSC's effort as one of the funded teams in the 2017
+Amazon Alexa Prize Contest has yielded Slugbot, an open domain social bot,
+aimed at casual conversation. We discovered several challenges specifically
+associated with both NER and NEL when building Slugbot, such as that the NE
+labels are too coarse-grained or the entity types are not linked to a useful
+ontology. Moreover, we have discovered that traditional approaches do not
+perform well in our context: even systems designed to operate on tweets or
+other social media data do not work well in dialogue systems. In this paper, we
+introduce Slugbot's Named Entity Recognition for dialogue Systems (SlugNERDS),
+a NER and NEL tool which is optimized to address these issues. We describe two
+new resources that we are building as part of this work: SlugEntityDB and
+SchemaActuator. We believe these resources will be useful for the research
+community.

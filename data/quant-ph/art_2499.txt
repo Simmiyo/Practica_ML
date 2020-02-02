@@ -1,0 +1,8 @@
+A quantum circuit for OR
+We give the first quantum circuit for computing $f(0)$ OR $f(1)$ more
+reliably than is classically possible with a single evaluation of the function.
+OR therefore joins XOR (i.e. parity, $f(0) \oplus f(1)$) to give the full set
+of logical connectives (up to relabeling of inputs and outputs) for which there
+is quantum speedup. The XOR algorithm is of fundamental importance in quantum
+computation; our OR algorithm (found with the aid of genetic programming), may
+represent a new quantum computational effect, also useful as a ``subroutine''.

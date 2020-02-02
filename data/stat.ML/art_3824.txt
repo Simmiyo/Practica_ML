@@ -1,0 +1,18 @@
+Feature ranking for multi-label classification using Markov Networks
+We propose a simple and efficient method for ranking features in multi-label
+classification. The method produces a ranking of features showing their
+relevance in predicting labels, which in turn allows to choose a final subset
+of features. The procedure is based on Markov Networks and allows to model the
+dependencies between labels and features in a direct way. In the first step we
+build a simple network using only labels and then we test how much adding a
+single feature affects the initial network. More specifically, in the first
+step we use the Ising model whereas the second step is based on the score
+statistic, which allows to test a significance of added features very quickly.
+The proposed approach does not require transformation of label space, gives
+interpretable results and allows for attractive visualization of dependency
+structure. We give a theoretical justification of the procedure by discussing
+some theoretical properties of the Ising model and the score statistic. We also
+discuss feature ranking procedure based on fitting Ising model using $l_1$
+regularized logistic regressions. Numerical experiments show that the proposed
+methods outperform the conventional approaches on the considered artificial and
+real datasets.

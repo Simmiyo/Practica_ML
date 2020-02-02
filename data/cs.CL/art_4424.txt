@@ -1,0 +1,10 @@
+Language Identification in Code-Mixed Data using Multichannel Neural
+  Networks and Context Capture
+An accurate language identification tool is an absolute necessity for
+building complex NLP systems to be used on code-mixed data. Lot of work has
+been recently done on the same, but there's still room for improvement.
+Inspired from the recent advancements in neural network architectures for
+computer vision tasks, we have implemented multichannel neural networks
+combining CNN and LSTM for word level language identification of code-mixed
+data. Combining this with a Bi-LSTM-CRF context capture module, accuracies of
+93.28% and 93.32% is achieved on our two testing sets.

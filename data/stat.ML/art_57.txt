@@ -1,0 +1,8 @@
+Learning Bayesian Networks with the bnlearn R Package
+bnlearn is an R package which includes several algorithms for learning the
+structure of Bayesian networks with either discrete or continuous variables.
+Both constraint-based and score-based algorithms are implemented, and can use
+the functionality provided by the snow package to improve their performance via
+parallel computing. Several network scores and conditional independence
+algorithms are available for both the learning algorithms and independent use.
+Advanced plotting options are provided by the Rgraphviz package.

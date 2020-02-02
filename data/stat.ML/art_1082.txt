@@ -1,0 +1,14 @@
+Automatic Generation of Probabilistic Programming from Time Series Data
+Probabilistic programming languages represent complex data with intermingled
+models in a few lines of code. Efficient inference algorithms in probabilistic
+programming languages make possible to build unified frameworks to compute
+interesting probabilities of various large, real-world problems. When the
+structure of model is given, constructing a probabilistic program is rather
+straightforward. Thus, main focus have been to learn the best model parameters
+and compute marginal probabilities. In this paper, we provide a new perspective
+to build expressive probabilistic program from continue time series data when
+the structure of model is not given. The intuition behind of our method is to
+find a descriptive covariance structure of time series data in nonparametric
+Gaussian process regression. We report that such descriptive covariance
+structure efficiently derives a probabilistic programming description
+accurately.

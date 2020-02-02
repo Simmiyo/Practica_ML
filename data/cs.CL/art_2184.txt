@@ -1,0 +1,9 @@
+Building a robust sentiment lexicon with (almost) no resource
+Creating sentiment polarity lexicons is labor intensive. Automatically
+translating them from resourceful languages requires in-domain machine
+translation systems, which rely on large quantities of bi-texts. In this paper,
+we propose to replace machine translation by transferring words from the
+lexicon through word embeddings aligned across languages with a simple linear
+transform. The approach leads to no degradation, compared to machine
+translation, when tested on sentiment polarity classification on tweets from
+four languages.

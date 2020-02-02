@@ -1,0 +1,16 @@
+Active Learning for Interactive Neural Machine Translation of Data
+  Streams
+We study the application of active learning techniques to the translation of
+unbounded data streams via interactive neural machine translation. The main
+idea is to select, from an unbounded stream of source sentences, those worth to
+be supervised by a human agent. The user will interactively translate those
+samples. Once validated, these data is useful for adapting the neural machine
+translation model.
+  We propose two novel methods for selecting the samples to be validated. We
+exploit the information from the attention mechanism of a neural machine
+translation system. Our experiments show that the inclusion of active learning
+techniques into this pipeline allows to reduce the effort required during the
+process, while increasing the quality of the translation system. Moreover, it
+enables to balance the human effort required for achieving a certain
+translation quality. Moreover, our neural system outperforms classical
+approaches by a large margin.

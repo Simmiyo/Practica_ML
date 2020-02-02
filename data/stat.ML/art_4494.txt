@@ -1,0 +1,12 @@
+Why (and When and How) Contrastive Divergence Works
+Contrastive divergence (CD) is a promising method of inference in high
+dimensional distributions with intractable normalizing constants, however, the
+theoretical foundations justifying its use are somewhat shaky. This document
+proposes a framework for understanding CD inference, how/when it works, and
+provides multiple justifications for the CD moment conditions, including
+framing them as a variational approximation. Algorithms for performing
+inference are discussed and are applied to social network data using an
+exponential-family random graph models (ERGM). The framework also provides
+guidance about how to construct MCMC kernels providing good CD inference, which
+turn out to be quite different from those used typically to provide fast global
+mixing.

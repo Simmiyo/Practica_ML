@@ -1,0 +1,12 @@
+Sex, drugs, and violence
+Automatically detecting inappropriate content can be a difficult NLP task,
+requiring understanding context and innuendo, not just identifying specific
+keywords. Due to the large quantity of online user-generated content, automatic
+detection is becoming increasingly necessary. We take a largely unsupervised
+approach using a large corpus of narratives from a community-based
+self-publishing website and a small segment of crowd-sourced annotations. We
+explore topic modelling using latent Dirichlet allocation (and a variation),
+and use these to regress appropriateness ratings, effectively automating rating
+for suitability. The results suggest that certain topics inferred may be useful
+in detecting latent inappropriateness -- yielding recall up to 96% and low
+regression errors.

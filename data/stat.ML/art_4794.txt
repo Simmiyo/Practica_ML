@@ -1,0 +1,15 @@
+Structured Stochastic Linear Bandits
+The stochastic linear bandit problem proceeds in rounds where at each round
+the algorithm selects a vector from a decision set after which it receives a
+noisy linear loss parameterized by an unknown vector. The goal in such a
+problem is to minimize the (pseudo) regret which is the difference between the
+total expected loss of the algorithm and the total expected loss of the best
+fixed vector in hindsight. In this paper, we consider settings where the
+unknown parameter has structure, e.g., sparse, group sparse, low-rank, which
+can be captured by a norm, e.g., $L_1$, $L_{(1,2)}$, nuclear norm. We focus on
+constructing confidence ellipsoids which contain the unknown parameter across
+all rounds with high-probability. We show the radius of such ellipsoids depend
+on the Gaussian width of sets associated with the norm capturing the structure.
+Such characterization leads to tighter confidence ellipsoids and, therefore,
+sharper regret bounds compared to bounds in the existing literature which are
+based on the ambient dimensionality.

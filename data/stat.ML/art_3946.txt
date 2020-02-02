@@ -1,0 +1,15 @@
+Making brain-machine interfaces robust to future neural variability
+A major hurdle to clinical translation of brain-machine interfaces (BMIs) is
+that current decoders, which are trained from a small quantity of recent data,
+become ineffective when neural recording conditions subsequently change. We
+tested whether a decoder could be made more robust to future neural variability
+by training it to handle a variety of recording conditions sampled from months
+of previously collected data as well as synthetic training data perturbations.
+We developed a new multiplicative recurrent neural network BMI decoder that
+successfully learned a large variety of neural-to- kinematic mappings and
+became more robust with larger training datasets. When tested with a non-human
+primate preclinical BMI model, this decoder was robust under conditions that
+disabled a state-of-the-art Kalman filter based decoder. These results validate
+a new BMI strategy in which accumulated data history is effectively harnessed,
+and may facilitate reliable daily BMI use by reducing decoder retraining
+downtime.

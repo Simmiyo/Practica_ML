@@ -1,0 +1,9 @@
+Lazier ABC
+ABC algorithms involve a large number of simulations from the model of
+interest, which can be very computationally costly. This paper summarises the
+lazy ABC algorithm of Prangle (2015), which reduces the computational demand by
+abandoning many unpromising simulations before completion. By using a random
+stopping decision and reweighting the output sample appropriately, the target
+distribution is the same as for standard ABC. Lazy ABC is also extended here to
+the case of non-uniform ABC kernels, which is shown to simplify the process of
+tuning the algorithm effectively.

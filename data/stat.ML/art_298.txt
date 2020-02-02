@@ -1,0 +1,14 @@
+Optimisation dans la détection de communautés recouvrantes et
+  équilibre de Nash
+Community detection in graphs has been the subject of many algorithms. Recent
+methods want to optimize a modularity function which shows a maximum of
+relationships within communities and found a minimum of inter-community
+relations. these algorithms are applied to unipartite, multipartite and
+directed graphs. However, given the NP-completeness of the problem, these
+algorithms are heuristics that do not guarantee an optimum. In this paper we
+introduce an algorithm which, based on an approximate solution obtained through
+a efficient detection algorithm, modifie it to achieve a local optimum based on
+a function. this reassignment function is a potential function and therefore
+the computed optimum is a Nash equilibrium. We supplement our method with an
+overlap function that allows to have simultaneously the two detection modes.
+Several experiments show the interest of our approach.

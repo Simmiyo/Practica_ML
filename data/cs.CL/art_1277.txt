@@ -1,0 +1,10 @@
+Neural Machine Translation with Characters and Hierarchical Encoding
+Most existing Neural Machine Translation models use groups of characters or
+whole words as their unit of input and output. We propose a model with a
+hierarchical char2word encoder, that takes individual characters both as input
+and output. We first argue that this hierarchical representation of the
+character encoder reduces computational complexity, and show that it improves
+translation performance. Secondly, by qualitatively studying attention plots
+from the decoder we find that the model learns to compress common words into a
+single embedding whereas rare words, such as names and places, are represented
+character by character.

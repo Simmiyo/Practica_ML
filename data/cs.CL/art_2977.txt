@@ -1,0 +1,14 @@
+A Semi-Supervised Approach to Detecting Stance in Tweets
+Stance classification aims to identify, for a particular issue under
+discussion, whether the speaker or author of a conversational turn has Pro
+(Favor) or Con (Against) stance on the issue. Detecting stance in tweets is a
+new task proposed for SemEval-2016 Task6, involving predicting stance for a
+dataset of tweets on the topics of abortion, atheism, climate change, feminism
+and Hillary Clinton. Given the small size of the dataset, our team created our
+own topic-specific training corpus by developing a set of high precision
+hashtags for each topic that were used to query the twitter API, with the aim
+of developing a large training corpus without additional human labeling of
+tweets for stance. The hashtags selected for each topic were predicted to be
+stance-bearing on their own. Experimental results demonstrate good performance
+for our features for opinion-target pairs based on generalizing dependency
+features using sentiment lexicons.

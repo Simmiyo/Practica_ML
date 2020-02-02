@@ -1,0 +1,16 @@
+SeDMiD for Confusion Detection: Uncovering Mind State from Time Series
+  Brain Wave Data
+Understanding how brain functions has been an intriguing topic for years.
+With the recent progress on collecting massive data and developing advanced
+technology, people have become interested in addressing the challenge of
+decoding brain wave data into meaningful mind states, with many machine
+learning models and algorithms being revisited and developed, especially the
+ones that handle time series data because of the nature of brain waves.
+However, many of these time series models, like HMM with hidden state in
+discrete space or State Space Model with hidden state in continuous space, only
+work with one source of data and cannot handle different sources of information
+simultaneously. In this paper, we propose an extension of State Space Model to
+work with different sources of information together with its learning and
+inference algorithms. We apply this model to decode the mind state of students
+during lectures based on their brain waves and reach a significant better
+results compared to traditional methods.

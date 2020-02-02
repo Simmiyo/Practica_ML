@@ -1,0 +1,19 @@
+FADO: A Deterministic Detection/Learning Algorithm
+This paper proposes and studies a detection technique for adversarial
+scenarios (dubbed deterministic detection). This technique provides an
+alternative detection methodology in case the usual stochastic methods are not
+applicable: this can be because the studied phenomenon does not follow a
+stochastic sampling scheme, samples are high-dimensional and subsequent
+multiple-testing corrections render results overly conservative, sample sizes
+are too low for asymptotic results (as e.g. the central limit theorem) to kick
+in, or one cannot allow for the small probability of failure inherent to
+stochastic approaches. This paper instead designs a method based on insights
+from machine learning and online learning theory: this detection algorithm -
+named Online FAult Detection (FADO) - comes with theoretical guarantees of its
+detection capabilities. A version of the margin is found to regulate the
+detection performance of FADO. A precise expression is derived for bounding the
+performance, and experimental results are presented assessing the influence of
+involved quantities. A case study of scene detection is used to illustrate the
+approach. The technology is closely related to the linear perceptron rule,
+inherits its computational attractiveness and flexibility towards various
+extensions.

@@ -1,0 +1,14 @@
+Likelihood Inflating Sampling Algorithm
+Markov Chain Monte Carlo (MCMC) sampling from a posterior distribution
+corresponding to a massive data set can be computationally prohibitive since
+producing one sample requires a number of operations that is linear in the data
+size. In this paper, we introduce a new communication-free parallel method, the
+Likelihood Inflating Sampling Algorithm (LISA), that significantly reduces
+computational costs by randomly splitting the dataset into smaller subsets and
+running MCMC methods independently in parallel on each subset using different
+processors. Each processor will be used to run an MCMC chain that samples
+sub-posterior distributions which are defined using an "inflated" likelihood
+function. We develop a strategy for combining the draws from different
+sub-posteriors to study the full posterior of the Bayesian Additive Regression
+Trees (BART) model. The performance of the method is tested using both
+simulated and real data.

@@ -1,0 +1,28 @@
+Derivatives and Inverse of Cascaded Linear+Nonlinear Neural Models
+In vision science, cascades of Linear+Nonlinear transforms are very
+successful in modeling a number of perceptual experiences [Carandini&Heeger12].
+However, the conventional literature is usually too focused on only describing
+the input->output transform.
+  Instead, here we present the maths of such cascades beyond the forward
+transform, namely the Jacobians and the inverse. The fundamental reason for
+this analytical treatment is that it offers useful insight into the
+psychophysics, the physiology, and the function of the visual system. For
+instance, we show how the trends of the sensitivity (discrimination regions)
+and the adaptation of the receptive fields can be seen in the expression of the
+Jacobian wrt the stimulus. This matrix also tells us which regions of the
+stimulus space are encoded more efficiently in multi-information terms. The
+Jacobian wrt the parameters shows which aspects of the model have bigger impact
+in the response, and hence bigger relevance. The analytic inverse implies
+conditions for the response and the model to ensure decoding. From an applied
+perspective, (a) the Jacobian wrt the stimulus is necessary in new experimental
+methods based on the synthesis of visual stimuli with interesting geometry, (b)
+the Jacobian matrices wrt the parameters are convenient to learn the model from
+classical experiments or alternative optimization goals, and (c) the inverse is
+a model-based alternative to blind machine-learning neural decoding that does
+not include meaningful biological information.
+  The theory is checked by building a derivable and invertible vision model
+that actually follows the modular program suggested by Carandini&Heeger. To
+stress the generality of this modular setting we show examples where some of
+the canonical Divisive Normalization layers are substituted by equivalent
+layers such as the Wilson-Cowan model at V1, or a tone-mapping model at the
+retina.

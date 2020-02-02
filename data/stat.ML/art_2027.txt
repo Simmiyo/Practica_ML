@@ -1,0 +1,14 @@
+Convergent Message-Passing Algorithms for Inference over General Graphs
+  with Convex Free Energies
+Inference problems in graphical models can be represented as a constrained
+optimization of a free energy function. It is known that when the Bethe free
+energy is used, the fixedpoints of the belief propagation (BP) algorithm
+correspond to the local minima of the free energy. However BP fails to converge
+in many cases of interest. Moreover, the Bethe free energy is non-convex for
+graphical models with cycles thus introducing great difficulty in deriving
+efficient algorithms for finding local minima of the free energy for general
+graphs. In this paper we introduce two efficient BP-like algorithms, one
+sequential and the other parallel, that are guaranteed to converge to the
+global minimum, for any graph, over the class of energies known as "convex free
+energies". In addition, we propose an efficient heuristic for setting the
+parameters of the convex free energy based on the structure of the graph.

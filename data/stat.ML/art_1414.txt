@@ -1,0 +1,13 @@
+Multivariate Gaussian Network Structure Learning
+We consider a graphical model where a multivariate normal vector is
+associated with each node of the underlying graph and estimate the graphical
+structure. We minimize a loss function obtained by regressing the vector at
+each node on those at the remaining ones under a group penalty. We show that
+the proposed estimator can be computed by a fast convex optimization algorithm.
+We show that as the sample size increases, the estimated regression
+coefficients and the correct graphical structure are correctly estimated with
+probability tending to one. By extensive simulations, we show the superiority
+of the proposed method over comparable procedures. We apply the technique on
+two real datasets. The first one is to identify gene and protein networks
+showing up in cancer cell lines, and the second one is to reveal the
+connections among different industries in the US.

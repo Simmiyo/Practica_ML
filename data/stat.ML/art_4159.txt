@@ -1,0 +1,15 @@
+Assessing the Performance of Deep Learning Algorithms for Newsvendor
+  Problem
+In retailer management, the Newsvendor problem has widely attracted attention
+as one of basic inventory models. In the traditional approach to solving this
+problem, it relies on the probability distribution of the demand. In theory, if
+the probability distribution is known, the problem can be considered as fully
+solved. However, in any real world scenario, it is almost impossible to even
+approximate or estimate a better probability distribution for the demand. In
+recent years, researchers start adopting machine learning approach to learn a
+demand prediction model by using other feature information. In this paper, we
+propose a supervised learning that optimizes the demand quantities for products
+based on feature information. We demonstrate that the original Newsvendor loss
+function as the training objective outperforms the recently suggested quadratic
+loss function. The new algorithm has been assessed on both the synthetic data
+and real-world data, demonstrating better performance.

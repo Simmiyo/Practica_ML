@@ -1,0 +1,25 @@
+Exploring spatiotemporal network transitions in task functional MRI
+A critical question for cognitive neuroscience regards how transitions
+between cognitive states emerge from the dynamic activity of functional brain
+networks. However, current methodologies cannot easily evaluate both the
+spatial and temporal changes in brain networks with cognitive state. Here we
+combine a simple data reorganization with spatial ICA, enabling a
+spatiotemporal ICA (stICA) which captures the consistent evolution of networks
+during onset and offset of a task. The technique was applied to FMRI datasets
+involving alternating between rest and task and to simple synthetic data.
+Starting and finishing time-points of periods of interest (anchors) were
+defined at task block onsets and offsets. For each subject, the ten volumes
+following each anchor were extracted and concatenated spatially, producing a
+single 3D sample. Samples for all anchors and subjects were concatenated along
+the fourth dimension. This 4D dataset was decomposed using ICA into
+spatiotemporal components. One component exhibited the transition with task
+onset from a default mode network (DMN) becoming less active to a
+fronto-parietal control network (FPCN) becoming more active. We observed other
+changes with relevance to understanding network dynamics, e.g., the DMN showed
+a changing spatial distribution, shifting to an anterior/superior pattern of
+deactivation during task from a posterior/inferior pattern during rest. By
+anchoring analyses to periods associated with the onsets and offsets of task,
+our approach reveals novel aspects of the dynamics of network activity
+accompanying these transitions. Importantly, these findings were observed
+without specifying a priori either the spatial networks or the task time
+courses.

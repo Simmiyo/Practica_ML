@@ -1,0 +1,14 @@
+Generative Adversarial Parallelization
+Generative Adversarial Networks have become one of the most studied
+frameworks for unsupervised learning due to their intuitive formulation. They
+have also been shown to be capable of generating convincing examples in limited
+domains, such as low-resolution images. However, they still prove difficult to
+train in practice and tend to ignore modes of the data generating distribution.
+Quantitatively capturing effects such as mode coverage and more generally the
+quality of the generative model still remain elusive. We propose Generative
+Adversarial Parallelization, a framework in which many GANs or their variants
+are trained simultaneously, exchanging their discriminators. This eliminates
+the tight coupling between a generator and discriminator, leading to improved
+convergence and improved coverage of modes. We also propose an improved variant
+of the recently proposed Generative Adversarial Metric and show how it can
+score individual GANs or their collections under the GAP model.

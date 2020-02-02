@@ -1,0 +1,21 @@
+Unconditionally Secure Quantum Coin Tossing
+In coin tossing two remote participants want to share a uniformly distributed
+random bit. At the least in the quantum version, each participant test whether
+or not the other has attempted to create a bias on this bit. It is requested
+that, for b = 0,1, the probability that Alice gets bit b and pass the test is
+smaller than 1/2 whatever she does, and similarly for Bob. If the bound 1/2
+holds perfectly against any of the two participants, the task realised is
+called an exact coin tossing. If the bound is actually $1/2 + \xi$ where the
+bias $\xi$ vanishes when a security parameter m defined by the protocol
+increases, the task realised is a (non exact) coin tossing. It is found here
+that exact coin tossing is impossible. At the same time, an unconditionally
+secure quantum protocol that realises a (non exact) coin tossing is proposed.
+The protocol executes m biased quantum coin tossing procedures at the same
+time. It executes the first round in each of these m procedures sequentially,
+then the second rounds are executed, and so on until the end of the n
+procedures. Each procedure requires 4n particles where $n \in O(\lg m)$. The
+final bit x is the parity of the m random bits. The information about each of
+these m bits is announced a little bit at a time which implies that the
+principle used against bit commitment does not apply. The bias on x is smaller
+than $1/m$. The result is discussed in the light of the impossibility result
+for exact coin tossing.

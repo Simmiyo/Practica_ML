@@ -1,0 +1,10 @@
+A Rudimentary Quantum Compiler(2cnd Ed.)
+We present a new algorithm for reducing an arbitrary unitary matrix U into a
+sequence of elementary operations (operations such as controlled-nots and qubit
+rotations). Such a sequence of operations can be used to manipulate an array of
+quantum bits (i.e., a quantum computer). Our algorithm applies recursively a
+mathematical technique called the CS Decomposition to build a binary tree of
+matrices whose product, in some order, equals the original matrix U. We show
+that the Fast Fourier Transform (FFT) algorithm is a special case of our
+algorithm. We report on a C++ program called "Qubiter" that implements the
+ideas of this paper. Qubiter(PATENT PENDING) source code is publicly available.

@@ -1,0 +1,14 @@
+Gradient Hyperalignment for multi-subject fMRI data alignment
+Multi-subject fMRI data analysis is an interesting and challenging problem in
+human brain decoding studies. The inherent anatomical and functional
+variability across subjects make it necessary to do both anatomical and
+functional alignment before classification analysis. Besides, when it comes to
+big data, time complexity becomes a problem that cannot be ignored. This paper
+proposes Gradient Hyperalignment (Gradient-HA) as a gradient-based functional
+alignment method that is suitable for multi-subject fMRI datasets with large
+amounts of samples and voxels. The advantage of Gradient-HA is that it can
+solve independence and high dimension problems by using Independent Component
+Analysis (ICA) and Stochastic Gradient Ascent (SGA). Validation using
+multi-classification tasks on big data demonstrates that Gradient-HA method has
+less time complexity and better or comparable performance compared with other
+state-of-the-art functional alignment methods.

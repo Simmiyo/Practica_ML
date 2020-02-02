@@ -1,0 +1,12 @@
+Analysis of Semi-Supervised Learning with the Yarowsky Algorithm
+The Yarowsky algorithm is a rule-based semi-supervised learning algorithm
+that has been successfully applied to some problems in computational
+linguistics. The algorithm was not mathematically well understood until (Abney
+2004) which analyzed some specific variants of the algorithm, and also proposed
+some new algorithms for bootstrapping. In this paper, we extend Abney's work
+and show that some of his proposed algorithms actually optimize (an upper-bound
+on) an objective function based on a new definition of cross-entropy which is
+based on a particular instantiation of the Bregman distance between probability
+distributions. Moreover, we suggest some new algorithms for rule-based
+semi-supervised learning and show connections with harmonic functions and
+minimum multi-way cuts in graph-based semi-supervised learning.

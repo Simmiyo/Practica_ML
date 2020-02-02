@@ -1,0 +1,22 @@
+Revisiting Multiple Instance Neural Networks
+Recently neural networks and multiple instance learning are both attractive
+topics in Artificial Intelligence related research fields. Deep neural networks
+have achieved great success in supervised learning problems, and multiple
+instance learning as a typical weakly-supervised learning method is effective
+for many applications in computer vision, biometrics, nature language
+processing, etc. In this paper, we revisit the problem of solving multiple
+instance learning problems using neural networks. Neural networks are appealing
+for solving multiple instance learning problem. The multiple instance neural
+networks perform multiple instance learning in an end-to-end way, which take a
+bag with various number of instances as input and directly output bag label.
+All of the parameters in a multiple instance network are able to be optimized
+via back-propagation. We propose a new multiple instance neural network to
+learn bag representations, which is different from the existing multiple
+instance neural networks that focus on estimating instance label. In addition,
+recent tricks developed in deep learning have been studied in multiple instance
+networks, we find deep supervision is effective for boosting bag classification
+accuracy. In the experiments, the proposed multiple instance networks achieve
+state-of-the-art or competitive performance on several MIL benchmarks.
+Moreover, it is extremely fast for both testing and training, e.g., it takes
+only 0.0003 second to predict a bag and a few seconds to train on a MIL
+datasets on a moderate CPU.

@@ -1,0 +1,12 @@
+Bidirectional Conditional Generative Adversarial Networks
+Conditional Generative Adversarial Networks (cGANs) are generative models
+that can produce data samples ($x$) conditioned on both latent variables ($z$)
+and known auxiliary information ($c$). We propose the Bidirectional cGAN
+(BiCoGAN), which effectively disentangles $z$ and $c$ in the generation process
+and provides an encoder that learns inverse mappings from $x$ to both $z$ and
+$c$, trained jointly with the generator and the discriminator. We present
+crucial techniques for training BiCoGANs, which involve an extrinsic factor
+loss along with an associated dynamically-tuned importance weight. As compared
+to other encoder-based cGANs, BiCoGANs encode $c$ more accurately, and utilize
+$z$ and $c$ more effectively and in a more disentangled way to generate
+samples.

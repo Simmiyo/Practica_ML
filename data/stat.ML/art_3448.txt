@@ -1,0 +1,16 @@
+Analyzing statistical and computational tradeoffs of estimation
+  procedures
+The recent explosion in the amount and dimensionality of data has exacerbated
+the need of trading off computational and statistical efficiency carefully, so
+that inference is both tractable and meaningful. We propose a framework that
+provides an explicit opportunity for practitioners to specify how much
+statistical risk they are willing to accept for a given computational cost, and
+leads to a theoretical risk-computation frontier for any given inference
+problem. We illustrate the tradeoff between risk and computation and illustrate
+the frontier in three distinct settings. First, we derive analytic forms for
+the risk of estimating parameters in the classical setting of estimating the
+mean and variance for normally distributed data and for the more general
+setting of parameters of an exponential family. The second example concentrates
+on computationally constrained Hodges-Lehmann estimators. We conclude with an
+evaluation of risk associated with early termination of iterative matrix
+inversion algorithms in the context of linear regression.

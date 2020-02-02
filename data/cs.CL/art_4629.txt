@@ -1,0 +1,10 @@
+Neural DrugNet
+In this paper, we describe the system submitted for the shared task on Social
+Media Mining for Health Applications by the team Light. Previous works
+demonstrate that LSTMs have achieved remarkable performance in natural language
+processing tasks. We deploy an ensemble of two LSTM models. The first one is a
+pretrained language model appended with a classifier and takes words as input,
+while the second one is a LSTM model with an attention unit over it which takes
+character tri-gram as input. We call the ensemble of these two models:
+Neural-DrugNet. Our system ranks 2nd in the second shared task: Automatic
+classification of posts describing medication intake.

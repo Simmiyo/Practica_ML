@@ -1,0 +1,15 @@
+Fast Approximate Quadratic Programming for Large (Brain) Graph Matching
+Quadratic assignment problems (QAPs) arise in a wide variety of domains,
+ranging from operations research to graph theory to computer vision to
+neuroscience. In the age of big data, graph valued data is becoming more
+prominent, and with it, a desire to run algorithms on ever larger graphs.
+Because QAP is NP-hard, exact algorithms are intractable. Approximate
+algorithms necessarily employ an accuracy/efficiency trade-off. We developed a
+fast approximate quadratic assignment algorithm (FAQ). FAQ finds a local optima
+in (worst case) time cubic in the number of vertices, similar to other
+approximate QAP algorithms. We demonstrate empirically that our algorithm is
+faster and achieves a lower objective value on over 80% of the suite of QAP
+benchmarks, compared with the previous state-of-the-art. Applying the
+algorithms to our motivating example, matching C. elegans connectomes
+(brain-graphs), we find that FAQ achieves the optimal performance in record
+time, whereas none of the others even find the optimum.

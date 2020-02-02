@@ -1,0 +1,17 @@
+Recursive Multikernel Filters Exploiting Nonlinear Temporal Structure
+In kernel methods, temporal information on the data is commonly included by
+using time-delayed embeddings as inputs. Recently, an alternative formulation
+was proposed by defining a gamma-filter explicitly in a reproducing kernel
+Hilbert space, giving rise to a complex model where multiple kernels operate on
+different temporal combinations of the input signal. In the original
+formulation, the kernels are then simply combined to obtain a single kernel
+matrix (for instance by averaging), which provides computational benefits but
+discards important information on the temporal structure of the signal.
+Inspired by works on multiple kernel learning, we overcome this drawback by
+considering the different kernels separately. We propose an efficient strategy
+to adaptively combine and select these kernels during the training phase. The
+resulting batch and online algorithms automatically learn to process highly
+nonlinear temporal information extracted from the input signal, which is
+implicitly encoded in the kernel values. We evaluate our proposal on several
+artificial and real tasks, showing that it can outperform classical approaches
+both in batch and online settings.

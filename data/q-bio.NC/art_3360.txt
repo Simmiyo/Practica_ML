@@ -1,0 +1,11 @@
+A Fast Method to Calculate Kendall Correlations of Large, Sparse Spike
+  Trains
+Despite the fact that the Kendall correlation is becoming recognized as an
+important tool in neuroscience, most standard algorithms to compute the Kendall
+correlation of large spike trains are computationally very slow. Here we
+present a new, significantly faster method for calculating the Kendall
+correlation of spike trains that takes advantage of their structure. We show
+that our method is more than 300 times faster than traditional approaches for
+particularly large, sparse spike trains, and still more than 10 times faster
+for large, but considerably less sparse, spike trains. A MATLAB function
+executing the method described here was made freely available on-line.

@@ -1,0 +1,11 @@
+Recursive $\ell_{1,\infty}$ Group lasso
+We introduce a recursive adaptive group lasso algorithm for real-time
+penalized least squares prediction that produces a time sequence of optimal
+sparse predictor coefficient vectors. At each time index the proposed algorithm
+computes an exact update of the optimal $\ell_{1,\infty}$-penalized recursive
+least squares (RLS) predictor. Each update minimizes a convex but
+nondifferentiable function optimization problem. We develop an online homotopy
+method to reduce the computational complexity. Numerical simulations
+demonstrate that the proposed algorithm outperforms the $\ell_1$ regularized
+RLS algorithm for a group sparse system identification problem and has lower
+implementation complexity than direct group lasso solvers.

@@ -1,0 +1,16 @@
+Simultaneous Sparse Dictionary Learning and Pruning
+Dictionary learning is a cutting-edge area in imaging processing, that has
+recently led to state-of-the-art results in many signal processing tasks. The
+idea is to conduct a linear decomposition of a signal using a few atoms of a
+learned and usually over-completed dictionary instead of a pre-defined basis.
+Determining a proper size of the to-be-learned dictionary is crucial for both
+precision and efficiency of the process, while most of the existing dictionary
+learning algorithms choose the size quite arbitrarily. In this paper, a novel
+regularization method called the Grouped Smoothly Clipped Absolute Deviation
+(GSCAD) is employed for learning the dictionary. The proposed method can
+simultaneously learn a sparse dictionary and select the appropriate dictionary
+size. Efficient algorithm is designed based on the alternative direction method
+of multipliers (ADMM) which decomposes the joint non-convex problem with the
+non-convex penalty into two convex optimization problems. Several examples are
+presented for image denoising and the experimental results are compared with
+other state-of-the-art approaches.

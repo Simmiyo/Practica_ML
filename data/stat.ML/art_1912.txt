@@ -1,0 +1,17 @@
+Sequential Design for Computer Experiments with a Flexible Bayesian
+  Additive Model
+In computer experiments, a mathematical model implemented on a computer is
+used to represent complex physical phenomena. These models, known as computer
+simulators, enable experimental study of a virtual representation of the
+complex phenomena. Simulators can be thought of as complex functions that take
+many inputs and provide an output. Often these simulators are themselves
+expensive to compute, and may be approximated by "surrogate models" such as
+statistical regression models. In this paper we consider a new kind of
+surrogate model, a Bayesian ensemble of trees (Chipman et al. 2010), with the
+specific goal of learning enough about the simulator that a particular feature
+of the simulator can be estimated. We focus on identifying the simulator's
+global minimum. Utilizing the Bayesian version of the Expected Improvement
+criterion (Jones et al. 1998), we show that this ensemble is particularly
+effective when the simulator is ill-behaved, exhibiting nonstationarity or
+abrupt changes in the response. A number of illustrations of the approach are
+given, including a tidal power application.

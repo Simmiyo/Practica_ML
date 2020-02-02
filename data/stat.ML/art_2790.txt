@@ -1,0 +1,12 @@
+Regularization for Multiple Kernel Learning via Sum-Product Networks
+In this paper, we are interested in constructing general graph-based
+regularizers for multiple kernel learning (MKL) given a structure which is used
+to describe the way of combining basis kernels. Such structures are represented
+by sum-product networks (SPNs) in our method. Accordingly we propose a new
+convex regularization method for MLK based on a path-dependent kernel weighting
+function which encodes the entire SPN structure in our method. Under certain
+conditions and from the view of probability, this function can be considered to
+follow multinomial distributions over the weights associated with product nodes
+in SPNs. We also analyze the convexity of our regularizer and the complexity of
+our induced classifiers, and further propose an efficient wrapper algorithm to
+optimize our formulation. In our experiments, we apply our method to ......

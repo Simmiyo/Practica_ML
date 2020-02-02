@@ -1,0 +1,9 @@
+Cost-complexity pruning of random forests
+Random forests perform bootstrap-aggregation by sampling the training samples
+with replacement. This enables the evaluation of out-of-bag error which serves
+as a internal cross-validation mechanism. Our motivation lies in using the
+unsampled training samples to improve each decision tree in the ensemble. We
+study the effect of using the out-of-bag samples to improve the generalization
+error first of the decision trees and second the random forest by post-pruning.
+A preliminary empirical study on four UCI repository datasets show consistent
+decrease in the size of the forests without considerable loss in accuracy.

@@ -1,0 +1,22 @@
+A Dictionary-based Approach to Racism Detection in Dutch Social Media
+We present a dictionary-based approach to racism detection in Dutch social
+media comments, which were retrieved from two public Belgian social media sites
+likely to attract racist reactions. These comments were labeled as racist or
+non-racist by multiple annotators. For our approach, three discourse
+dictionaries were created: first, we created a dictionary by retrieving
+possibly racist and more neutral terms from the training data, and then
+augmenting these with more general words to remove some bias. A second
+dictionary was created through automatic expansion using a \texttt{word2vec}
+model trained on a large corpus of general Dutch text. Finally, a third
+dictionary was created by manually filtering out incorrect expansions. We
+trained multiple Support Vector Machines, using the distribution of words over
+the different categories in the dictionaries as features. The best-performing
+model used the manually cleaned dictionary and obtained an F-score of 0.46 for
+the racist class on a test set consisting of unseen Dutch comments, retrieved
+from the same sites used for the training set. The automated expansion of the
+dictionary only slightly boosted the model's performance, and this increase in
+performance was not statistically significant. The fact that the coverage of
+the expanded dictionaries did increase indicates that the words that were
+automatically added did occur in the corpus, but were not able to meaningfully
+impact performance. The dictionaries, code, and the procedure for requesting
+the corpus are available at: https://github.com/clips/hades

@@ -1,0 +1,11 @@
+Jointly Embedding Relations and Mentions for Knowledge Population
+This paper contributes a joint embedding model for predicting relations
+between a pair of entities in the scenario of relation inference. It differs
+from most stand-alone approaches which separately operate on either knowledge
+bases or free texts. The proposed model simultaneously learns low-dimensional
+vector representations for both triplets in knowledge repositories and the
+mentions of relations in free texts, so that we can leverage the evidence both
+resources to make more accurate predictions. We use NELL to evaluate the
+performance of our approach, compared with cutting-edge methods. Results of
+extensive experiments show that our model achieves significant improvement on
+relation extraction.

@@ -1,0 +1,18 @@
+A Family of Computationally Efficient and Simple Estimators for
+  Unnormalized Statistical Models
+We introduce a new family of estimators for unnormalized statistical models.
+Our family of estimators is parameterized by two nonlinear functions and uses a
+single sample from an auxiliary distribution, generalizing Maximum Likelihood
+Monte Carlo estimation of Geyer and Thompson (1992). The family is such that we
+can estimate the partition function like any other parameter in the model. The
+estimation is done by optimizing an algebraically simple, well defined
+objective function, which allows for the use of dedicated optimization methods.
+We establish consistency of the estimator family and give an expression for the
+asymptotic covariance matrix, which enables us to further analyze the influence
+of the nonlinearities and the auxiliary density on estimation performance. Some
+estimators in our family are particularly stable for a wide range of auxiliary
+densities. Interestingly, a specific choice of the nonlinearity establishes a
+connection between density estimation and classification by nonlinear logistic
+regression. Finally, the optimal amount of auxiliary samples relative to the
+given amount of the data is considered from the perspective of computational
+efficiency.

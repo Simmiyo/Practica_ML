@@ -1,0 +1,22 @@
+Equivalence of Kernel Machine Regression and Kernel Distance Covariance
+  for Multidimensional Trait Association Studies
+Associating genetic markers with a multidimensional phenotype is an important
+yet challenging problem. In this work, we establish the equivalence between two
+popular methods: kernel-machine regression (KMR), and kernel distance
+covariance (KDC). KMR is a semiparametric regression frameworks that models the
+covariate effects parametrically, while the genetic markers are considered
+non-parametrically. KDC represents a class of methods that includes distance
+covariance (DC) and Hilbert-Schmidt Independence Criterion (HSIC), which are
+nonparametric tests of independence. We show the equivalence between the score
+test of KMR and the KDC statistic under certain conditions. This result leads
+to a novel generalization of the KDC test that incorporates the covariates. Our
+contributions are three-fold: (1) establishing the equivalence between KMR and
+KDC; (2) showing that the principles of kernel machine regression can be
+applied to the interpretation of KDC; (3) the development of a broader class of
+KDC statistics, that the members are the quantities of different kernels. We
+demonstrate the proposals using simulation studies. Data from the Alzheimer's
+Disease Neuroimaging Initiative (ADNI) is used to explore the association
+between the genetic variants on gene \emph{FLJ16124} and phenotypes represented
+in 3D structural brain MR images adjusting for age and gender. The results
+suggest that SNPs of \emph{FLJ16124} exhibit strong pairwise interaction
+effects that are correlated to the changes of brain region volumes.

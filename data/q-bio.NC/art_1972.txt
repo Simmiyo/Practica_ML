@@ -1,0 +1,22 @@
+Inferring Neuronal Network Connectivity from Spike Data: A Temporal
+  Datamining Approach
+Understanding the functioning of a neural system in terms of its underlying
+circuitry is an important problem in neuroscience. Recent developments in
+electrophysiology and imaging allow one to simultaneously record activities of
+hundreds of neurons. Inferring the underlying neuronal connectivity patterns
+from such multi-neuronal spike train data streams is a challenging statistical
+and computational problem. This task involves finding significant temporal
+patterns from vast amounts of symbolic time series data. In this paper we show
+that the frequent episode mining methods from the field of temporal data mining
+can be very useful in this context. In the frequent episode discovery
+framework, the data is viewed as a sequence of events, each of which is
+characterized by an event type and its time of occurrence and episodes are
+certain types of temporal patterns in such data. Here we show that, using the
+set of discovered frequent episodes from multi-neuronal data, one can infer
+different types of connectivity patterns in the neural system that generated
+it. For this purpose, we introduce the notion of mining for frequent episodes
+under certain temporal constraints; the structure of these temporal constraints
+is motivated by the application. We present algorithms for discovering serial
+and parallel episodes under these temporal constraints. Through extensive
+simulation studies we demonstrate that these methods are useful for unearthing
+patterns of neuronal network connectivity.

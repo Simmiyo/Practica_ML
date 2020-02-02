@@ -1,0 +1,17 @@
+SentiHood: Targeted Aspect Based Sentiment Analysis Dataset for Urban
+  Neighbourhoods
+In this paper, we introduce the task of targeted aspect-based sentiment
+analysis. The goal is to extract fine-grained information with respect to
+entities mentioned in user comments. This work extends both aspect-based
+sentiment analysis that assumes a single entity per document and targeted
+sentiment analysis that assumes a single sentiment towards a target entity. In
+particular, we identify the sentiment towards each aspect of one or more
+entities. As a testbed for this task, we introduce the SentiHood dataset,
+extracted from a question answering (QA) platform where urban neighbourhoods
+are discussed by users. In this context units of text often mention several
+aspects of one or more neighbourhoods. This is the first time that a generic
+social media platform in this case a QA platform, is used for fine-grained
+opinion mining. Text coming from QA platforms is far less constrained compared
+to text from review specific platforms which current datasets are based on. We
+develop several strong baselines, relying on logistic regression and
+state-of-the-art recurrent neural networks.

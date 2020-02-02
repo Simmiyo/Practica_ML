@@ -1,0 +1,13 @@
+Automated Analytic Asymptotic Evaluation of the Marginal Likelihood for
+  Latent Models
+We present and implement two algorithms for analytic asymptotic evaluation of
+the marginal likelihood of data given a Bayesian network with hidden nodes. As
+shown by previous work, this evaluation is particularly hard for latent
+Bayesian network models, namely networks that include hidden variables, where
+asymptotic approximation deviates from the standard BIC score. Our algorithms
+solve two central difficulties in asymptotic evaluation of marginal likelihood
+integrals, namely, evaluation of regular dimensionality drop for latent
+Bayesian network models and computation of non-standard approximation formulas
+for singular statistics for these models. The presented algorithms are
+implemented in Matlab and Maple and their usage is demonstrated for marginal
+likelihood approximations for Bayesian networks with hidden variables.

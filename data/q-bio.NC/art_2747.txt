@@ -1,0 +1,23 @@
+Discovering Neuronal Cell Types and Their Gene Expression Profiles Using
+  a Spatial Point Process Mixture Model
+Cataloging the neuronal cell types that comprise circuitry of individual
+brain regions is a major goal of modern neuroscience and the BRAIN initiative.
+Single-cell RNA sequencing can now be used to measure the gene expression
+profiles of individual neurons and to categorize neurons based on their gene
+expression profiles. While the single-cell techniques are extremely powerful
+and hold great promise, they are currently still labor intensive, have a high
+cost per cell, and, most importantly, do not provide information on spatial
+distribution of cell types in specific regions of the brain. We propose a
+complementary approach that uses computational methods to infer the cell types
+and their gene expression profiles through analysis of brain-wide single-cell
+resolution in situ hybridization (ISH) imagery contained in the Allen Brain
+Atlas (ABA). We measure the spatial distribution of neurons labeled in the ISH
+image for each gene and model it as a spatial point process mixture, whose
+mixture weights are given by the cell types which express that gene. By fitting
+a point process mixture model jointly to the ISH images, we infer both the
+spatial point process distribution for each cell type and their gene expression
+profile. We validate our predictions of cell type-specific gene expression
+profiles using single cell RNA sequencing data, recently published for the
+mouse somatosensory cortex. Jointly with the gene expression profiles, cell
+features such as cell size, orientation, intensity and local density level are
+inferred per cell type.

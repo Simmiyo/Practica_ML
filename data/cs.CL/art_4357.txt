@@ -1,0 +1,12 @@
+Confidence penalty, annealing Gaussian noise and zoneout for biLSTM-CRF
+  networks for named entity recognition
+Named entity recognition (NER) is used to identify relevant entities in text.
+A bidirectional LSTM (long short term memory) encoder with a neural conditional
+random fields (CRF) decoder (biLSTM-CRF) is the state of the art methodology.
+In this work, we have done an analysis of several methods that intend to
+optimize the performance of networks based on this architecture, which in some
+cases encourage overfitting avoidance. These methods target exploration of
+parameter space, regularization of LSTMs and penalization of confident output
+distributions. Results show that the optimization methods improve the
+performance of the biLSTM-CRF NER baseline system, setting a new state of the
+art performance for the CoNLL-2003 Spanish set with an F1 of 87.18.
